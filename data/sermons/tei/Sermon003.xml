@@ -1,0 +1,1673 @@
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Sermon 3: ‘Awake, Thou That Sleepest’</title>
+                <title type="subtitle">A Sermon preached on Sunday, <date when="1742-04-04">April 4,
+                        1742</date>, before the University of Oxford. By Charles Wesley, M.A.,
+                    Student of Christ Church.</title>
+                <author>Wesley, Charles</author>
+                <editor role="text">Van Buskirk, Gregory P.</editor>
+                <editor role="digital">Taylor, Michelle M.</editor>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>The Wesley Works Digitzation Project</publisher>
+                <pubPlace>Tampa, FL</pubPlace>
+                <date>2024-02-23</date>
+             <idno type="URI">https://wesleyworks.ecdsdev.org/sermons/Sermon003</idno>                  
+            </publicationStmt>
+            <sourceDesc>
+                <listBibl>
+                    <biblStruct>
+                        <analytic>
+                            <title level="a">Sermon 3: ‘Awake, Thou That Sleepest’</title>
+                            <date when="1742-04-04"/>
+                        </analytic>
+                        <monogr>
+                            <title level="j">The Works of John Wesley, Volume I: Sermons I,
+                                1-33</title>
+                            <editor role="volume">Outler, Albert</editor>
+                            <imprint>
+                                <publisher>Abingdon Press</publisher>
+                                <pubPlace>Nashville, TN</pubPlace>
+                                <date when="2015-05-01">1984-05-01</date>
+                                <biblScope unit="volume" n="1"/>
+                                <biblScope unit="page" from="109" to="116"/>
+                                <biblScope unit="page" from="142" to="158"/>
+                            </imprint>
+                        </monogr>
+                        <series>
+                            <title level="s">The Works of John Wesley</title>
+                            <editor role="general">Baker, Frank</editor>
+                        </series>
+                    </biblStruct>
+                </listBibl>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Greg Van Buskirk created Word docs for all of Wesley's sermons using a combination of
+                OCR software and manual proofing. Michelle Taylor converted these docx into XML
+                using Oxygen's DITA automatic transformation scenario, then touched them up
+                manually.</p>
+        </encodingDesc>
+        <standOff>
+            <taxonomy>
+                <keywords>
+                    <term/>
+                </keywords>
+            </taxonomy>
+            <!--Include keywords and terms here eventually.-->
+        </standOff>
+        <revisionDesc/>
+    </teiHeader>
+    <text>
+        <body>
+            <pb n="109"/>
+            <introduction>
+                <p>
+                    <hi rend="italic">An Introductory Comment [to Sermons 1-4]</hi>
+                </p>
+                <p>As we have seen, these first four sermons in this first volume of <hi rend="italic">SOSO</hi> were ‘prefixed’ to the other eight on the advice of
+                    friends, and also as proof of the consistency of Wesley’s new preaching, whether
+                    before the University of Oxford or to the masses in Moorfields. But they also
+                    serve another function, unavowed but crucial: they mark out the successive
+                    stages of Wesley’s alienation from any further career as a reformer within the
+                    university, as he made the radical shift in his commitment to the Revival as his
+                    new vocation.</p>
+                <p>Along with other ordained Oxford M.A.s, the brothers Wesley were subject to
+                    occasional appointment as preachers in the <hi rend="italic">rota</hi> of
+                    university services on Sundays and saints’ days (most of them in the Church of
+                    St. Mary the Virgin, but others in St. Peter’s in the East and certain college
+                        chapels).<note place="foot" xml:id="ftn1" n="1">
+                        <p rend="footnote text">Cf.
+                            Oxford University Statutes, tr. by G. R. M. Ward (1845), Vol. I, ‘The
+                            Laudian Statutes’ (1636), Title XVI, chs. 1-7.</p>
+                    </note> Attendance
+                    upon these services was a stated obligation of ‘all doctors, masters, graduates,
+                    and scholars’, who were enjoined to ‘be present at them from their beginning to
+                    their end…’; no one was ‘permitted to wander abroad to another church, or
+                    churches, under pain of chastisement…’, etc. (ch. 10). Even though these
+                    injunctions were often honoured in the breach, such occasions were still
+                    splendid sounding boards for eloquent preachers with earnest messages.</p>
+                <p>John Wesley’s first ‘university sermon’ had been delivered in St. Mary’s on
+                    November 15, 1730, ‘On Gen. 1:27’ (see No. 141, Vol. IV); a second on July 23,
+                    1732 (‘A Consecration Sermon’, not extant); a third on January 1, 1733 (‘The
+                    Circumcision of the Heart’; see No. 17 below). This last may be reckoned as a
+                    landmark in the development of Wesley’s theology, and must also have made a
+                    favourable general impression, for in the next two and a half years he was
+                    invited to deliver <pb n="110"/>
+                    <hi rend="italic">six</hi> more university
+                    sermons: March 26, 1733 (Easter); April 1, 1733 (Low Sunday); May 13, 1733
+                    (Whitsunday); February 10, 1734; June 11, 1734 (St. Barnabas’s); September 21,
+                    1735 (St. Matthew’s). This is out of all proportion to any typical rotation, and
+                    even if Wesley was serving as substitute for other appointed preachers, that
+                    would have required the approval of the Vice-Chancellor (cf. <hi rend="italic">Statutes</hi>, XVI, ch. 6). The least that this can mean is that John
+                    Wesley was more widely appreciated at Oxford as a preacher than the popular
+                    stereotypes have suggested.</p>
+                <p>This fact sheds some light on the arrangement by the university officials for
+                    Wesley to preach again in Oxford soon after his return from Georgia (probably in
+                    expectation of his resumption of his duties there); the new appointment was set
+                    for the Festival of St. Barnabas, June 11, 1738. By that time, of course, Wesley
+                    had undergone the radical change of heart and mind described in the <hi rend="italic">Journal</hi> for May 24, about which his Oxford colleagues
+                    would have known nothing.<note place="foot" xml:id="ftn2" n="2">
+                        <p rend="footnote text">Cf. Intro., above, p.4; see also Schmidt, <hi rend="italic">Wesley</hi>, I.141-95, for a careful analysis of the
+                            theological developments involved in this ‘conversion’; JWJ, Feb. 7-May
+                            28, sheds light on Wesley’s mood as he revised his sermon for this
+                            crucial new occasion.</p>
+                    </note> Meanwhile, he had already tested his
+                    ‘new gospel’ (‘salvation by faith alone’) in several churches in and near
+                    London, and his presentation of it had almost invariably stirred up more offence
+                    than conversions.<note place="foot" xml:id="ftn3" n="3">
+                        <p rend="footnote text">See JWJ, Feb. 5 (Milbank, Westminster); Feb. 12 (St. Andrew’s,
+                            Holborn); Feb. 26 (thrice in London, the first, in St. Lawrence Jewry,
+                            being the most blessed ‘because it gave the most offence’); Mar. 6
+                            (after being counselled by Böhler to ‘preach faith <hi rend="italic">till</hi> you have it; and then, <hi rend="italic">because</hi> you
+                            have it, you <hi rend="italic">will</hi> preach faith’); Mar. 17, 26,
+                            and 27; Apr. 2, 25, 26; May 7, 9, 14, and 21 (this last being also the
+                            day of Charles Wesley’s experience of assurance).</p>
+                    </note> In most of
+                    these instances, as he records with a trace of self-righteousness, he had been
+                    thenceforth barred from this pulpit and that. The Aldersgate experience had not
+                    produced a new doctrine, but a new resolution to make the most of his
+                    opportunities to expound the one to which he had already come.</p>
+                <p>He was by now very well aware of the controversial character of his message, and
+                    he could not have expected a sympathetic hearing at Oxford. ‘Salvation by Faith’
+                    was, however, the first public occasion after his ‘Aldersgate’ experience for a
+                    positive evangelical manifesto. It is worth noting that its Moravian substance
+                    is qualified by echoes from the Edwardian <hi rend="italic">Homilies</hi>, as in
+                    the claim that salvation involved a power not to commit sin (<hi rend="italic">posse non peccare</hi>). There is also an obvious Anglican nuance in the
+                    definition of saving faith presented here.</p>
+                <p>When his turn as university preacher came round again (<date when="1741-07-25">July 25, 1741</date>), the Revival was in full swing and Wesley had found
+                    in its <pb n="111"/>leadership an alternative career. He had not only begun to
+                    shift his loyalties from Oxford to his own Societies; he had also become one of
+                    Oxford’s harsher critics.<note place="foot" xml:id="ftn4" n="4">
+                        <p rend="footnote text">This may be seen in the Latin and English versions
+                            of a sermon on Isa. 1:21 which he had first prepared in 1739, probably
+                            in connection with his exercises for the B.D. degree which, as Fellow of
+                            Lincoln College, he was expected to take in due course (see below, Nos.
+                            150, 151).</p>
+                    </note> John Gambold had already advised him that he would
+                    face a hostile audience, but Wesley was in no mood to mollify them.<note place="foot" xml:id="ftn5" n="5">
+                        <p rend="footnote text">See JWJ, June 18,
+                            1741: ‘All here [Gambold had said of the Oxford community] are so
+                            prejudiced that they will mind nothing you say.’ Wesley’s reaction: ‘I
+                            know that. However, I am to deliver my own soul, whether they will hear
+                            or whether they will forbear’ (one of Wesley’s standard formulae of
+                            alienation). A fortnight later even Wesley and Gambold had come to a
+                            parting of their ways (cf. JWJ, July 2). Earlier, he had finally got
+                            round to reading ‘that celebrated book, Martin Luther’s <hi rend="italic">Comment on the Epistle to the Galatians</hi>’; his
+                            negative reaction to it was intemperate (see JWJ, June 15).</p>
+                    </note>
+                    Indeed, the whole <hi rend="italic">Journal</hi> record for June and July
+                    reflects a mounting tension, as if Wesley was aware of the crisis. On June 28 he
+                    preached ‘at Charles Square [London], to the largest congregation that, I
+                    believe, was ever seen there, on “Almost thou persuadest me to be a Christian”
+                    [cf. Acts 26:28]’. This was the sermon that, revised and with its new
+                    ‘application’ explicitly aimed at Oxford, he delivered on the festival day of
+                    St. James the Apostle, July 25.</p>
+                <p>Its theme—the radical difference between nominal and real Christianity—was
+                    already a familiar one in Puritan preaching;<note place="foot" xml:id="ftn6" n="6">
+                        <p rend="footnote text">Cf. below, No. 2, <hi rend="italic">The Almost
+                                Christian</hi>, proem and n.</p>
+                    </note> it was, however, already
+                    conventional to ignore the text’s plain reference to Agrippa’s being almost
+                    persuaded to become a Christian rather than to his already being a nominal one.
+                    Wesley draws out the distinctions between the two stages of Christian experience
+                    (‘almost’ and ‘altogether’). Part I paints a vivid picture of the high-minded
+                    hypocrite (the ‘almost Christian’) and concludes with Wesley’s confession ‘that
+                    this had been his own state in all his days at Oxford’ (I.13). Part II
+                    delineates the ‘altogether Christian’ according to his new conceptions, and
+                    openly expresses doubt that there are many such in Oxford even now (II.7-9).
+                    There are no records of this sermon’s reception on this occasion, but it would
+                    not have been lost on his Methodist readers that their leader had bearded the
+                    Anglican establishment in one of its citadels and had survived.</p>
+                <p>In the following year Charles Wesley came up for an appointment as preacher in
+                    St. Mary’s on <date when="1742-04-04">April 4, 1742</date>. His evangelical
+                    conversion had preceded his brother’s, either on <date when="1738-05-03">May 3,
+                        1738</date> (when ‘it pleased God to open his <hi rend="italic">eyes</hi> so
+                    that he saw clearly what was the nature of [saving] <pb n="112"/>faith…’) or on
+                        <date when="1738-05-19">May 19</date> (when he ‘had found rest to his
+                        soul’).<note place="foot" xml:id="ftn7" n="7">
+                        <p rend="footnote text">Cf.
+                            both CWJ and JWJ for these dates and experiences.</p>
+                    </note> In any
+                    case, Charles was more exuberant in temperament and rhetoric than his elder
+                        brother.<note place="foot" xml:id="ftn8" n="8">
+                        <p rend="footnote text">See
+                            above, p. 2, n. 6: ‘…in connection I beat you; but in strong, pointed
+                            sentences you beat me.’</p>
+                    </note> He had already preached a sermon on
+                    justification ‘before the university [July 1739] with great boldness…’.<note place="foot" xml:id="ftn9" n="9">
+                        <p rend="footnote text">CWJ, Sunday, July
+                            1, 1739; this is followed (on Monday) by a note that the Vice-Chancellor
+                            and ‘all were against [that] sermon as liable to be misunderstood’. Had
+                            this been Charles’s reinforcing sequel to John’s <hi rend="italic">Salvation by Faith</hi>?</p>
+                    </note> His bidding prayer<note place="foot" xml:id="ftn10" n="10">
+                        <p rend="footnote text">In the
+                            unpublished MS of a sermon on Rom. 3:27-28.</p>
+                    </note> indicates that
+                    this preaching service had been held in Christ Church Cathedral rather than St.
+                    Mary’s. On June 30, 1740, he reports having spent a week in Oxford ‘preaching
+                    repentance’ but also in discovering that ‘learned Gallio cared for none of these
+                        things’.<note place="foot" xml:id="ftn11" n="11">
+                        <p rend="footnote text">See
+                            Acts 18:17 for this analogy between a Roman proconsul’s and Oxford’s
+                            indifference.</p>
+                    </note> Now, he was scheduled to preach in St. Mary’s
+                    itself—for the first and last time.</p>
+                <p>Charles’s message, with a barrage of invidious questions for its climax, fell
+                    largely on deaf ears; this is reported by a visitor who was in the audience:
+                    Thomas Salmon, a popular historian.<note place="foot" xml:id="ftn12" n="12">
+                        <p rend="footnote text">‘The times of the day the University go to this
+                            church are ten in the morning and two in the afternoon, on Sundays and
+                            holidays, the sermon usually lasting about half an hour. But when I
+                            happened to be at Oxford, in 1742, Mr. Wesley, the Methodist, of Christ
+                            Church, entertained his audience two hours, having insulted and abused
+                            all degrees from the highest to the lowest, was in a manner hissed out
+                            of the pulpit by the lads;’ Thomas Salmon, <hi rend="italic">A
+                                Foreigner’s Companion through the Universities of Cambridge and
+                                Oxford</hi> (1748), p. 25, and quoted in CWJ, Apr. 15,
+                        1750.</p>
+                    </note> Charles Wesley’s denial of Salmon’s report appears in his
+                        <hi rend="italic">Journal</hi> for April 15, 1750, and is emphatic;<note place="foot" xml:id="ftn13" n="13">
+                        <p rend="footnote text">‘And it would
+                            have been high time for them to do so, if the historian [Salmon] said
+                            true. But, unfortunately for him, I measured the time by my watch and it
+                            was within the hour; I abused neither high nor low, as my sermon in
+                            print will prove; neither was I hissed out of the pulpit or treated with
+                            the least incivility, either by young or old….’</p>
+                    </note> he may have
+                    been right about the time, since the sermon as printed can be read aloud in
+                    thirty minutes. On the other hand, Charles’s accusations must surely have
+                    aroused resentment in his auditory, and Salmon would have been a competent judge
+                    of that. In any case this sermon would have persuaded any Methodist reader of
+                    Charles’s wholehearted identification with his brother’s cause and theirs. <hi rend="italic">‘Awake, Thou That Sleepest’</hi> is then a lively evangelical
+                    statement, a personal identification with the Revival and a valedictory to
+                    Oxford.</p>
+                <p>By August 1744 the Revival was gaining momentum, the network (‘connexion’) of the
+                    Methodist Societies had extended over into Wales <pb n="113"/>and had come under
+                    serious persecution by English mobs, the first ‘conference’ had just been held
+                    (June 25-29), and John Wesley had found his true mission in life. Even so, his
+                    turn as university preacher came up yet again for August 24 (another festival,
+                    this one for St. Bartholomew). This, of course, was an anniversary of the
+                    notorious Massacre of Paris (in 1572) and, again, of the Great Ejectment of the
+                    Nonconformists in England in 1662, in which both of Wesley’s grandfathers had
+                    suffered. Benjamin Kennicott’s explanation of Wesley’s appointment was that ‘as
+                    no clergyman [could] avoid his turn, so the university can refuse none;
+                    otherwise Mr. Wesley would not have preached.’<note place="foot" xml:id="ftn14" n="14">
+                        <p rend="footnote text">At this time, Kennicott was an undergraduate
+                            at Wadham College, but he was destined to set Old Testament studies in
+                            England upon a new level with his great <hi rend="italic">Vetus
+                                Testamentum cum Variis Lectionibus</hi> (Vol. 1, 1776; Vol. 2,
+                            1780). His account of Wesley’s sermon appeared in <hi rend="italic">WMM</hi>, 1866, 47-48.</p>
+                    </note> Actually, though, that rule was
+                    flexible; there was ample precedent for substitutions. One must wonder,
+                    therefore, how the appointment came about. Was it a gesture of academic freedom?
+                    Did Wesley have a stronger base in Oxford than would appear from the record?
+                    There is no indication that he had claimed his turn as by right, but it would
+                    never have crossed his mind to avoid it. Thus, the stage was set for a
+                    confrontation—and another valedictory.</p>
+                <p>Parts I-III of <hi rend="italic">Scriptural Christianity</hi> constitute a
+                    positive account of Wesley’s conception of the ‘order of salvation’ (Part I), an
+                    interesting missiological perspective (Part II), and an early statement of
+                    Wesley’s eschatological ideas (Part III)—the sum of these parts is evangelical
+                    and Anglican. The mood changes in Part IV where he comes to his ‘plain and
+                    practical application’. Here the judgment is passed, with scant charity, that
+                    Oxford’s hypocrisies are an intolerable offence to God and a general hindrance
+                    to the Christian mission. Kennicott’s uncharitable suspicion was that this final
+                    salvo ‘was what [Wesley] had been preparing for all along…’:</p>
+                <quote>[In the conclusion] he fired his address with so much zeal and unbounded
+                    satire as quite spoiled what otherwise might have been turned to great
+                    advantage…. I liked some of his freedom: such as calling the generality of young
+                    townsmen ‘a generation of triflers’…. But considering how many shining lights
+                    are here that are the glory of the Christian cause, his sacred censure was much
+                    too flaming and strong and his charity much too weak…. Having summed up the
+                    measure of our iniquities, he concluded with a lifted up eye in this most solemn
+                    form, ‘It is time for <hi rend="italic">thee</hi>, Lord, to lay to <hi rend="italic">thine</hi> hand’—words full of such presumption and seeming
+                    imprecation that they gave an universal shock…. Had these things been omitted
+                    and his censures moderated, I think his discourse, as to style and delivery,
+                    would have been uncommonly pleasing to others as well as to myself. He is
+                    allowed to be a man of great parts, and that by the excellent Dean <pb n="114"/>of Christ Church;<note place="foot" xml:id="ftn15" n="15">
+                        <p rend="footnote text">John Conybeare, who succeeded Joseph Butler as
+                            Bishop of Bristol, and author of <hi rend="italic">Defence of Revealed
+                                Religion…</hi> (1732), one of the eighteenth century’s more famous
+                            replies to Tindal and other deists.</p>
+                    </note> for the day he preached
+                    the dean generously said of him, ‘John Wesley will always be thought a man of
+                    sound sense, though an enthusiast!’ However, the Vice-Chancellor<note place="foot" xml:id="ftn16" n="16">
+                        <p rend="footnote text">Walter Hodges,
+                            Provost of Oriel.</p>
+                    </note> sent for the sermon, and I hear that the
+                    heads of college intend to shew their resentment.</quote>
+                <p>Another eyewitness report of the same event was recorded by William Blackstone,
+                    already a Fellow of All Souls and on his way to the fame he would earn as author
+                    of his <hi rend="italic">Commentaries on the Laws of England</hi> (1765-69). In
+                    a letter to a family friend (Aug. 28) the young Blackstone reports on Wesley’s
+                    sermon, which seems to have become the talk of the town:</p>
+                <quote>We were last Friday [Aug. 24] entertained at St. Mary’s by a curious sermon
+                    from Wesley the Methodist. Among other equally modest particulars, he informed
+                    us, 1st, that there was not one Christian among all the Heads of Houses; 2ndly,
+                    that pride, gluttony, avarice, luxury, sensuality and drunkenness were general
+                    characteristics of all Fellows of Colleges, who were useless to a proverbial
+                    uselessness. Lastly, that the younger part of the University were a generation
+                    of triflers, all of them perjured and none of them of any religion at all. His
+                    notes were demanded by the Vice-Chancellor, but on mature deliberation it has
+                    been thought proper to punish him by a mortifying neglect….<note place="foot" xml:id="ftn17" n="17">
+                        <p rend="footnote text">Cf. the facsimile of the
+                            letter in John Fletcher Hurst, <hi rend="italic">The History of
+                                Methodism</hi>, II.604-5.</p>
+                    </note>
+                </quote>
+                <p>That ‘mortifying neglect’ began at once. Charles Wesley records that ‘we [John
+                    Wesley, Charles Wesley, Messrs. Piers and Meriton] walked back in form, the
+                    little band of us four; for of the rest durst none join himself to us.’<note place="foot" xml:id="ftn18" n="18">
+                        <p rend="footnote text">Cf. CWJ, Aug. 24,
+                            1744.</p>
+                    </note>
+                </p>
+                <p>Methodists, then and later, could see no proper warrant for anyone to have taken
+                    offence at such a sermon; after all, Wesley had simply preached the gospel and
+                    applied it ‘close and home’. Thomas Jackson’s later comment on it is
+                    typical:</p>
+                <quote>
+                    <hi rend="italic">Scriptural Christianity</hi> contains a beautiful and
+                    forcible description of spiritual religion, with the manner by which it is
+                    acquired by individuals and then spreads from one to another until it shall
+                    cover the earth. The concluding application to the heads of colleges and halls,
+                    to the fellows and tutors and to the body of undergraduates, assumes their
+                    general and wide departure from the true Christian character, and [their]
+                    abandonment to formality, worldliness, levity, and sloth. It contains nothing
+                    sarcastic and irritating, nothing that was designed to give unnecessary pain or
+                    offence; but is marked throughout by seriousness, fidelity, and tender
+                        affection.<note place="foot" xml:id="ftn19" n="19">
+                        <p rend="footnote text">
+                            <hi rend="italic">The Life of the Rev. Charles Wesley</hi> (1841),
+                            I.403.</p>
+                    </note>
+                </quote>
+                <p>
+                    <pb n="115"/>John Wesley himself was much more of a realist and also more aware
+                    of his own intention:</p>
+                <quote>I preached, I suppose the last time, at <placeName>St. Mary’s</placeName>. Be
+                    it so. I am now clear of the blood of these men. I have fully delivered my own
+                    soul.</quote>
+                <quote>The Beadle came to me afterwards and told me the Vice-Chancellor had sent him
+                    for my notes. I sent them without delay, not without admiring the wise
+                    providence of God. Perhaps few men of note would have given a sermon of mine the
+                    reading if I had put it into their hands; but by this means it came to be read,
+                    probably more than once, by every man of eminence in the University.<note place="foot" xml:id="ftn20" n="20">
+                        <p rend="footnote text">JWJ, Aug. 24,
+                            1744.</p>
+                    </note>
+                </quote>
+                <p>That he never regretted the affair or its consequences would appear from a
+                    complacent recollection of it in 1781 in ‘A Short History of the People called
+                    Methodists’:</p>
+                <quote>Friday, August 24, St. Bartholomew’s Day, I preached for the last time before
+                    the University of Oxford. I am now clear of the blood of these men. I have fully
+                    delivered my own soul. And I am well pleased that it should be the very day on
+                    which, in the last century,<note place="foot" xml:id="ftn21" n="21">
+                        <p rend="footnote text">
+                            <hi rend="italic">Viz.</hi>, the Great Ejectment in
+                            1662.</p>
+                    </note> near two thousand burning and shining lights were put
+                    out at one stroke. Yet what a wide difference is there between their case and
+                    mine! They were turned out of house and home, and all that they had; whereas I
+                    am only hindered from preaching, without any other loss; and that in a kind of
+                    honourable manner; it being determined that when my next turn to preach came
+                    they would pay another person to preach for me. And so they did twice or thrice,
+                    even to the time that I resigned my fellowship.<note place="foot" xml:id="ftn22" n="22">
+                        <p rend="footnote text">§30. See Vol. 9 of this edn. and <hi rend="italic">Bibliog</hi>, No. 420.</p>
+                    </note>
+                </quote>
+                <p>What would have been most obvious to his Methodist readers was the heroic stature
+                    of their leader who had preached ‘plain truth’ to academic people to their face
+                    and at the cost of rejection by them. What clearer proof could there be of his
+                    fidelity to the gospel under all circumstances and of his total commitment in
+                    his ministry among them? It was no small matter for a tenured don to have
+                    forsaken his privileged status in a class-conscious English society in exchange
+                    for ‘The Foundery’, ‘The New Room’, and a career among the masses. They knew,
+                    all too well, how rudely the Methodists had been treated, to the point of savage
+                    persecution, condoned by magistrates and clergy alike in the years between 1739
+                    and 1746; they could still foresee dangerous days ahead. <hi rend="italic">Scriptural Christianity</hi> as published was an evangelical proclamation;
+                    it was also an act of defiance.</p>
+                <p>These ‘prefixed’ sermons, therefore, serve a particular junction in <hi rend="italic">SOSO</hi> as a bloc: they proclaim the Wesleyan message in
+                    prophetic terms, and they signify Wesley’s transference of his allegiance from
+                    the <pb n="116"/>Academy to his new vocation as a preacher of ‘plain truth for
+                    plain people’. Together they dispel any impression of inconsistency. His message
+                    in St. Mary’s had been the same as it was now in Moorfields. Thus, these sermons
+                    could serve as a multifaceted introductory quartet to the larger endeavour of
+                        <hi rend="italic">Sermons on Several Occasions</hi>.</p>
+                <p>The edited text of <hi rend="italic">Salvation by Faith</hi> is based upon the
+                    first edition of 1738. For a stemma illustrating its publishing history through
+                    its thirty-one editions in Wesley’s lifetime, together with substantive variant
+                    readings, see Vol. IV, Appendix. See also <hi rend="italic">Bibliog</hi>, No.
+                    10.</p>
+                <p>The text for <hi rend="italic">The Almost Christian</hi> is based upon its first
+                    edition, 1741. For a stemma and table of variant readings through the
+                    twenty-eight extant editions during Wesley’s lifetime, see Vol. IV, Appendix.
+                    See also <hi rend="italic">Bibliog</hi>, No. 50.</p>
+                <p>The first edition of <hi rend="italic">‘Awake, Thou That Sleepest’</hi> followed
+                    here, was published shortly after the sermon itself was preached in 1742. For a
+                    stemma and variant readings from the fifty-two extant editions in Charles
+                    Wesley’s lifetime, see Vol. IV, Appendix. See also <hi rend="italic">Bibliog</hi>, No. 59.</p>
+                <p>
+                    <hi rend="italic">Scriptural Christianity</hi> was also published shortly after
+                    its delivery in 1744 and ran through at least fifteen editions in Wesley’s
+                    lifetime. For a stemma of these editions and a list of variant readings, see
+                    Vol. IV, Appendix. See also <hi rend="italic">Bibliog</hi>, No. 92.</p>
+            </introduction>
+            <pb n="142"/>            
+            <head>‘Awake, Thou That Sleepest’</head>
+            <head type="subhead"> Sermon preached on <date when="1742-04-04">Sunday, April 4,
+                    1742</date>,<lb/>before the University of Oxford.<lb/>By Charles Wesley,
+                M.A.,<lb/>Student of Christ Church.<note place="foot" xml:id="ftn1" n="1">
+                    <p rend="footnote text">Half-title reproduced from <hi rend="italic">SOSO</hi>,
+                        I (1746). The drop-title prefixed to the individual editions of the sermon
+                        was simply ‘Ephes. v. 14’; some variant of this continued in all subsequent
+                        editions until 1795, when its present full title, ‘Awake, Thou That
+                        Sleepest’, appeared for the first time. See ‘Intro. Com.’, pp. 111-12
+                        above.</p>
+                </note>
+            </head>
+            <epigraph>
+                <p>Ephesians 5:14</p>
+                <p>
+                    <hi rend="italic">Awake, thou that sleepest, and arise from the dead, and Christ
+                        shall give thee light.</hi>
+                </p>
+            </epigraph>
+            <div type="introduction">
+                <p>In discoursing on these words I shall, with the help of God,</p>
+                <p>First, describe the sleepers to whom they are spoken;</p>
+                <p>Secondly, enforce the exhortation, ‘Awake thou that sleepest, and arise from the
+                    dead;’ and,</p>
+                <p>Thirdly, explain the promise made to such as do awake and arise—‘Christ shall
+                    give thee light.’</p>
+            </div>
+            <div type="section" n="1">
+                <p n="1">I. 1. And first, as to the sleepers here spoken to. By sleep is signified
+                    the natural state of man:<note place="foot" xml:id="ftn2" n="2">
+                        <p rend="footnote text">An allegorical interpretation following a line
+                            established by St. Augustine, <hi rend="italic">Expositions on the
+                                Psalms</hi> (<hi rend="italic">NPNF</hi>, I, VIII.7, 159, 175, 259),
+                            and echoed in Poole, <hi rend="italic">Annotations</hi>, <hi rend="italic">loc. cit.</hi> The source of the quotation is unknown;
+                            it may have come from a then familiar Christian liturgical passage. In
+                                <hi rend="italic">Notes</hi> Wesley shies away from allegory and
+                            comes nearer to Matthew Henry’s comment in <hi rend="italic">Exposition</hi>, <hi rend="italic">loc. cit.</hi>: ‘God calls upon
+                            sinners…that they would break off their sins by repentance and enter on
+                            a course of holy obedience, and he encourages them to essay and do their
+                            utmost that way.’</p>
+                    </note> that deep sleep of the soul into which the
+                    sin of Adam hath cast all who spring from his loins; that supineness, indolence,
+                    and stupidity, that insensibility of his real condition, wherein every man comes
+                    into the world, and continues till the voice of God awakes him.</p>
+                <p n="2">2. Now ‘they that sleep, sleep in the night.’<note place="foot" xml:id="ftn3" n="3">
+                        <p rend="footnote text">1 Thess. 5:7.</p>
+                    </note> The
+                    state of nature is a state of utter darkness, a state wherein ‘darkness covers
+                    the <pb n="143"/>earth, and gross darkness the people.’<note place="foot" xml:id="ftn4" n="4">
+                        <p rend="footnote text">Cf. Isa. 60:2.</p>
+                    </note> The
+                    poor unawakened sinner, how much knowledge soever he may have as to other
+                    things, has no knowledge of himself. In this respect ‘he knoweth nothing yet as
+                    he ought to know.’<note place="foot" xml:id="ftn5" n="5">
+                        <p rend="footnote text">1 Cor. 8:2.</p>
+                    </note> He knows not that he is a fallen spirit, whose
+                    only business in the present world is to recover from his fall, to regain that
+                    image of God<note place="foot" xml:id="ftn6" n="6">
+                        <p rend="footnote text">Cf.
+                            No. 1, <hi rend="italic">Salvation by Faith</hi>, §1 and n.</p>
+                    </note>
+                    wherein he was created. He sees <emph>no necessity</emph> for ‘the one thing
+                        needful’,<note place="foot" xml:id="ftn7" n="7">
+                        <p rend="footnote text">Cf.
+                            Luke 10:42. This is the famous <hi rend="italic">unum necessarium</hi>,
+                            the interpretation of which had exercised Anglicans and Puritans alike.
+                            See Jeremy Taylor’s treatise with this title, <hi rend="italic">Works</hi>, II.419-646; also the <hi rend="italic">Christian
+                                Lib.</hi>, XXIII.57-58. It was a favourite text for Charles and John
+                            Wesley; John Wesley records that he preached from it at least fifty
+                            times during his ministry. Cf. his early sermon (May 1734) on this text,
+                            No. 146.</p>
+                    </note> even that inward universal change, that ‘birth from
+                        above’<note place="foot" xml:id="ftn8" n="8">
+                        <p rend="footnote text">Cf.
+                            John 3:3; ἄνωθεν here would seem to imply ‘anew’, i.e., a new birth
+                            (‘from above’, of course). There is an old puzzle as to the ambiguous
+                            meaning of ἄνωθεν continuing still as between Bultmann, Schnackenburg,
+                            Brown, and others. In Greek it has a double usage: ‘from above’ (as of
+                            place) and ‘anew’ (as in time). This ambiguity is absent from all its
+                            Aramaic and Hebrew equivalents. In John 19:23 it clearly means ‘from the
+                            top’. Cf. Nos. 43, <hi rend="italic">The Scripture Way of
+                            Salvation</hi>, I.4; and 45, ‘The New Birth’, II.3.</p>
+                    </note> (figured
+                    out by baptism) which is the beginning of that total renovation, that
+                    sanctification of spirit, soul, and body, ‘without which no man shall see the
+                        Lord’.<note place="foot" xml:id="ftn9" n="9">
+                        <p rend="footnote text">Heb.
+                            12:14.</p>
+                    </note>
+                </p>
+                <p n="3">3. Full of all diseases as he is, he fancies himself in perfect health.
+                    Fast bound in misery and iron, he dreams that he is happy and at liberty. He
+                    says, ‘Peace, peace,’<note place="foot" xml:id="ftn10" n="10">
+                        <p rend="footnote text">Jer. 6:14; 8:11.</p>
+                    </note> while the devil as ‘a
+                    strong man armed’<note place="foot" xml:id="ftn11" n="11">
+                        <p rend="footnote text">Luke 11:21.</p>
+                    </note> is in full possession of his
+                    soul. He sleeps on still, and takes his rest, though hell is moved from beneath
+                    to meet him;<note place="foot" xml:id="ftn12" n="12">
+                        <p rend="footnote text">See
+                            Isa. 14:9.</p>
+                    </note> though the pit, from whence there is no
+                        return,<note place="foot" xml:id="ftn13" n="13">
+                        <p rend="footnote text">See
+                            Job 10:21; 16:22.</p>
+                    </note> hath opened its mouth to swallow him
+                        up.<note place="foot" xml:id="ftn14" n="14">
+                        <p rend="footnote text">See Num.
+                            16:30.</p>
+                    </note> A fire is kindled around him, yet he knoweth it not;
+                    yea, it burns him, yet he lays it not to heart.</p>
+                <p n="4">4. By one who sleeps we are therefore to understand (and would to God we
+                    might all understand it!) a sinner satisfied in his sins, contented to remain in
+                    his fallen state, to live and die without the image of God; one who is ignorant
+                    both of his disease and of the only remedy for it; one who never was warned, or
+                    never regarded the warning voice of God ‘to flee from the wrath to come’;<note place="foot" xml:id="ftn15" n="15">
+                        <p rend="footnote text">Matt.
+                        3:7.</p>
+                    </note> one that never yet saw he was in danger of hell-fire, or <pb n="144"/>cried out in the earnestness of his soul, ‘What must I do to be
+                        saved?’<note place="foot" xml:id="ftn16" n="16">
+                        <p rend="footnote text">Acts
+                            16:30.</p>
+                    </note>
+                </p>
+                <p n="5">5. If this sleeper be not outwardly vicious, his sleep is usually the
+                    deepest of all: whether he be of the Laodicean spirit, ‘neither cold nor
+                        hot’,<note place="foot" xml:id="ftn17" n="17">
+                        <p rend="footnote text">Rev.
+                            3:15.</p>
+                    </note> but a quiet, rational, inoffensive, good-natured
+                    professor of the religion of his fathers; or whether he be zealous and orthodox,
+                    and ‘after the most straitest sect of our religion lives a Pharisee’;<note place="foot" xml:id="ftn18" n="18">
+                        <p rend="footnote text">Cf. Acts
+                            26:5.</p>
+                    </note> that is, according to the scriptural account, one that
+                        <emph>justifies himself</emph>, one that labours ‘to establish his own
+                        righteousness’<note place="foot" xml:id="ftn19" n="19">
+                        <p rend="footnote text">Cf. Rom. 10:3.</p>
+                    </note> as the ground of his
+                    acceptance with God.</p>
+                <p n="6">6. This is he who ‘having a form of godliness, denies the power
+                        thereof’;<note place="foot" xml:id="ftn20" n="20">
+                        <p rend="footnote text">Cf. 2 Tim. 3:5; see above, No. 2, <hi rend="italic">The Almost
+                                Christian</hi>, I.4 and n.</p>
+                    </note> yea, and probably reviles it,
+                    wheresoever it is found, as mere extravagance and delusion. Meanwhile the
+                    wretched self-deceiver thanks God that he ‘is not as other men are, adulterers,
+                    unjust, extortioners’.<note place="foot" xml:id="ftn21" n="21">
+                        <p rend="footnote text">Cf. Luke 18:11.</p>
+                    </note> No, he doth no wrong to
+                    any man. He ‘fasts twice in the week’,<note place="foot" xml:id="ftn22" n="22">
+                        <p rend="footnote text">Cf. Luke 18:12.</p>
+                    </note> uses all the means
+                    of grace, is constant at church and sacrament; yea, and ‘gives tithes of all
+                    that he has’,<note place="foot" xml:id="ftn23" n="23">
+                        <p rend="footnote text">
+                            <hi rend="italic">Ibid.</hi>
+                        </p>
+                    </note> does all the good that he
+                    can. ‘Touching the righteousness of the law’, he is ‘blameless’:<note place="foot" xml:id="ftn24" n="24">
+                        <p rend="footnote text">Cf. Phil.
+                            3:6.</p>
+                    </note> he wants nothing of godliness but the power; nothing of
+                    religion but the spirit; nothing of Christianity but the truth and the life.</p>
+                <p n="7">7. But know ye not that however highly esteemed among men such a Christian
+                    as this may be, he is an abomination in the sight of God,<note place="foot" xml:id="ftn25" n="25">
+                        <p rend="footnote text">Cf. Luke 16:15, and note
+                            Charles Wesley’s agreement with his brother in the early years of the
+                            Revival that even the best of the ‘almost Christians’ are ‘abominations
+                            in the sight of God’. For later assuagements of this harsh judgment see
+                            III.6 and n. 179.</p>
+                    </note> and an heir of every woe which the Son of
+                    God yesterday, today, and for ever denounces against ‘scribes and Pharisees,
+                        hypocrites’?<note place="foot" xml:id="ftn26" n="26">
+                        <p rend="footnote text">Matt. 23:13.</p>
+                    </note> He hath ‘made clean the outside of the cup and
+                    the platter’,<note place="foot" xml:id="ftn27" n="27">
+                        <p rend="footnote text">Cf. Matt. 23:25.</p>
+                    </note> but within is full of all filthiness. ‘An
+                    evil disease cleaveth’ still ‘unto him,’<note place="foot" xml:id="ftn28" n="28">
+                        <p rend="footnote text">Cf. Ps. 41:8.</p>
+                    </note> so that ‘his inward
+                    parts are very wickedness’.<note place="foot" xml:id="ftn29" n="29">
+                        <p rend="footnote text">Cf. Ps. 5:9.</p>
+                    </note> Our Lord fitly compares him
+                    to a ‘painted sepulchre’, which ‘appears beautiful without’, but nevertheless is
+                    ‘full of dead men’s bones and of all uncleanness’.<note place="foot" xml:id="ftn30" n="30">
+                        <p rend="footnote text">Cf. Matt. 23:27; Wesley is
+                            here following Wycliffe, Tyndale, and the ‘Great Bible’ in translating
+                            κεκονιαμένοις (lit., ‘whitewashed’) as ‘painted’. See III.11.</p>
+                    </note>
+                    The bones <pb n="145"/>indeed are no longer dry; ‘the sinews and flesh are come
+                    up upon them, and the skin covers them above: but there is no breath in
+                        them,’<note place="foot" xml:id="ftn31" n="31">
+                        <p rend="footnote text">Cf.
+                            Ezek. 37:8.</p>
+                    </note> no Spirit of the living God. And ‘if any man have
+                    not the Spirit of Christ, he is none of his.’<note place="foot" xml:id="ftn32" n="32">
+                        <p rend="footnote text">Rom. 8:9.</p>
+                    </note> ‘Ye are Christ’s’<note place="foot" xml:id="ftn33" n="33">
+                        <p rend="footnote text">1 Cor.
+                        3:23.</p>
+                    </note> ‘if so be that the Spirit of God dwell in you.’<note place="foot" xml:id="ftn34" n="34">
+                        <p rend="footnote text">Rom.
+                        8:9.</p>
+                    </note> But if not, God knoweth that ye abide in death, even until
+                    now.</p>
+                <p n="8">8. This is another character of the sleeper here spoken to. He abides in
+                    death, though he knows it not. He is dead unto God, ‘dead in trespasses and
+                        sins’.<note place="foot" xml:id="ftn35" n="35">
+                        <p rend="footnote text">Eph.
+                            2:1.</p>
+                    </note> ‘For to be carnally minded is death.’<note place="foot" xml:id="ftn36" n="36">
+                        <p rend="footnote text">Rom. 8:6.</p>
+                    </note> Even as
+                    it is written, ‘By one man sin entered into the w world, and death by sin; and
+                    so death passed upon all men’<note place="foot" xml:id="ftn37" n="37">
+                        <p rend="footnote text">Rom. 5:12.</p>
+                    </note>—not only temporal death, but
+                    likewise spiritual and eternal. ‘In the day thou eatest (said God to Adam) thou
+                    shalt surely die.’<note place="foot" xml:id="ftn38" n="38">
+                        <p rend="footnote text">Cf. Gen. 2:17.</p>
+                    </note> Not bodily (unless as he
+                    then became mortal) but spiritually: thou shalt lose the life of thy soul; thou
+                    shalt die to God, shalt be separated from him, thy essential life and
+                    happiness.</p>
+                <p n="9">9. Thus first was dissolved the vital union of our soul with God,<note place="foot" xml:id="ftn39" n="39">
+                        <p rend="footnote text">Both Wesleys were
+                            body-soul dualists, and the notion of the Fall as a radical disruption
+                            of the aboriginal body-soul equilibrium goes back at least to Wesley’s
+                            early MS sermon on Gen. 1:27; see Nos. 141, ‘The Image of God’; and 41,
+                                <hi rend="italic">Wandering Thoughts</hi>, III.5 and n.</p>
+                    </note>
+                    insomuch that ‘in the midst of’ natural ‘life we are’ now ‘in’ spiritual
+                        ‘death’.<note place="foot" xml:id="ftn40" n="40">
+                        <p rend="footnote text">An
+                            echo from the committal service in the BCP, Burial.</p>
+                    </note> And
+                    herein we remain till the Second Adam becomes a quickening spirit to us, till he
+                    raises the dead, the dead in sin, in pleasure, riches, or honours. But before
+                    any dead soul can live, he ‘hears (hearkens to) the voice of the Son of
+                        God’:<note place="foot" xml:id="ftn41" n="41">
+                        <p rend="footnote text">Cf.
+                            John 5:25.</p>
+                    </note> he is made sensible of his lost estate, and
+                    receives the sentence of death in himself. He knows himself to be ‘dead while he
+                        liveth’,<note place="foot" xml:id="ftn42" n="42">
+                        <p rend="footnote text">Cf.
+                            1 Tim. 5:6.</p>
+                    </note> dead to God and all the things of God; having no
+                    more power to perform the actions of a living Christian than a dead body to
+                    perform the functions of a living man.</p>
+                <p n="10">10. And most certain it is that one dead in sin has not ‘senses exercised
+                    to discern’ spiritual ‘good and evil’.<note place="foot" xml:id="ftn43" n="43">
+                        <p rend="footnote text">Cf. Heb. 5:14.</p>
+                    </note> ‘Having eyes, he sees
+                    not; he hath ears, and hears not.’<note place="foot" xml:id="ftn44" n="44">
+                        <p rend="footnote text">Cf. Mark 8:18.</p>
+                    </note> He doth not ‘taste and
+                    see that the Lord is gracious’.<note place="foot" xml:id="ftn45" n="45">
+                        <p rend="footnote text">Ps. 34:8 (BCP).</p>
+                    </note> He ‘hath not seen God at
+                    any time’,<note place="foot" xml:id="ftn46" n="46">
+                        <p rend="footnote text">John
+                            1:18; 1 John 4:12.</p>
+                    </note> nor ‘heard his voice’,<note place="foot" xml:id="ftn47" n="47">
+                        <p rend="footnote text">John 5:37.</p>
+                    </note> nor
+                    ‘handled the Word of life’.<note place="foot" xml:id="ftn48" n="48">
+                        <p rend="footnote text">1 John 1:1.</p>
+                    </note> In vain is <pb n="146"/>the
+                    name of Jesus ‘like ointment poured forth’,<note place="foot" xml:id="ftn49" n="49">
+                        <p rend="footnote text">S. of S. 1:3.</p>
+                    </note> and ‘all his
+                    garments smell of myrrh, aloes, and cassia’.<note place="foot" xml:id="ftn50" n="50">
+                        <p rend="footnote text">Cf. Ps. 45:8.</p>
+                    </note> The soul that
+                    sleepeth in death hath no perception of any objects of this kind. His heart is
+                    ‘past feeling’,<note place="foot" xml:id="ftn51" n="51">
+                        <p rend="footnote text">Eph. 4:19.</p>
+                    </note> and understandeth none of these things.</p>
+                <p n="11">11. And hence, having no spiritual senses, no inlets of spiritual
+                        knowledge,<note place="foot" xml:id="ftn52" n="52">
+                        <p rend="footnote text">An especial emphasis in the Wesleys’ theory of religious knowledge
+                            derived from Descartes and Malebranche through John Norris. The human
+                            spirit is a ‘spiritual sensorium’, analogous to our physical senses, and
+                            thus the capacity for intuitions of spiritual reality is comparable to
+                            sight and sound. Cf. No. 10, ‘The Witness of the Spirit, I’, I.12 and n.
+                            Sin (‘sleep’, ‘death’) deadens all spiritual stimuli (‘inlets of
+                            spiritual knowledge’). Thus, conversion or awakening is, by analogy, the
+                            discovery of a new world.</p>
+                    </note> the natural man receiveth not the
+                    things of the Spirit of God; nay, he is so far from receiving them that
+                    whatsoever is spiritually discerned is mere foolishness unto him. He is not
+                    content with being utterly ignorant of spiritual things, but he denies the very
+                    existence of them. And spiritual sensation itself is to him the foolishness of
+                        folly.<note place="foot" xml:id="ftn53" n="53">
+                        <p rend="footnote text">See
+                            Prov. 14:24.</p>
+                    </note> ‘How’, saith he, ‘can these things be?’<note place="foot" xml:id="ftn54" n="54">
+                        <p rend="footnote text">John
+                        3:9.</p>
+                    </note> How can any man <emph>know</emph> that he is alive to God?
+                    Even as you know that your body is now alive. Faith is the life of the soul: and
+                    if ye have this life abiding in you, ye want no marks to evidence it <emph>to
+                        yourself</emph>, but that ἔλεγχος Πνεύματος,<note place="foot" xml:id="ftn55" n="55">
+                        <p rend="footnote text">Cf. Heb. 11:1. Where had
+                            Charles come across this reading? The <hi rend="italic">Textus
+                                Receptus</hi> here reads πραγμάτων ἔλεγχος, and this agrees with all
+                            the critical editions. For the translation ‘evidence and conviction’,
+                            cf. John’s note in <hi rend="italic">Notes</hi>; for John’s repeated use
+                            of ‘divine consciousness’, see Nos. 4, <hi rend="italic">Scriptural
+                                Christianity</hi>, I.2; 5, ‘Justification by Faith’, IV.2; 12, ‘The
+                            Witness of Our Own Spirit’, §8; 17, ‘The Circumcision of the Heart’,
+                            I.7; 43, <hi rend="italic">The Scripture Way of Salvation</hi>, II.1;
+                            46, ‘The Wilderness State’, I.1; 70, ‘The Case of Reason Impartially
+                            Considered’, II.1; 106, ‘On Faith, Heb. 11:6’, §1; 108, ‘On Riches’,
+                            I.1; 119, ‘Walking by Sight and Walking by Faith’, §10; 132, ‘On Faith,
+                            Heb. 11:1’, §1. Cf. also <hi rend="italic">An Earnest Appeal</hi>,
+                            §§6-7, and <hi rend="italic">A Farther Appeal</hi>, Pt. I, I.4 (11:46,
+                            106-7 of this edn.). J. Clifford Hindley has studied the Wesleys’
+                            religious epistemology in his ‘Philosophy of Enthusiasm…’ in <hi rend="italic">The London Quarterly and Holborn Review</hi>, Vol.
+                            182, Nos. 2 and 3 (April and July 1957), pp. 99-109, 199-210; see also
+                            Umphrey Lee, <hi rend="italic">The Historical Backgrounds of Early
+                                Methodist Enthusiasm</hi> (New York, Columbia University Press,
+                            1931).</p>
+                    </note> that divine consciousness, that ‘witness of God’,<note place="foot" xml:id="ftn56" n="56">
+                        <p rend="footnote text">1 John
+                        5:9.</p>
+                    </note> which is more and greater than ten thousand human
+                    witnesses.</p>
+                <p n="12">12. If he doth not now bear witness with thy spirit that thou art a child
+                    of God,<note place="foot" xml:id="ftn57" n="57">
+                        <p rend="footnote text">See Rom.
+                            8:16.</p>
+                    </note> O that he might convince thee, thou poor unawakened
+                    sinner, by his demonstration and power, that thou art a child of the devil! O
+                    that as I prophesy there might now be ‘a <pb n="147"/>noise and a shaking’, and
+                    may ‘the bones come together, bone to his bone’.<note place="foot" xml:id="ftn58" n="58">
+                        <p rend="footnote text">Cf. Ezek. 37:7.</p>
+                    </note>
+                    Then ‘come from the four winds, O breath, and breathe on these slain that they
+                    may live!’<note place="foot" xml:id="ftn59" n="59">
+                        <p rend="footnote text">Ezek.
+                            37:9.</p>
+                    </note> And do not ye harden your hearts and resist the Holy
+                    Ghost, who even now is come to ‘convince you of sin’,<note place="foot" xml:id="ftn60" n="60">
+                        <p rend="footnote text">Cf. John 8:46.</p>
+                    </note>
+                    ‘because you believe not on the name of the only-begotten Son of God’.<note place="foot" xml:id="ftn61" n="61">
+                        <p rend="footnote text">Cf. John
+                            3:18.</p>
+                    </note>
+                </p>
+            </div>
+            <div type="section" n="2">
+                <p n="1">II. 1. Wherefore, ‘Awake, thou that sleepest, and arise from the dead.’ God
+                    calleth thee now by my mouth; and bids thee know thyself,<note place="foot" xml:id="ftn62" n="62">
+                        <p rend="footnote text">For this Wesleyan correlation
+                            of self-knowledge and repentance, see No. 7, ‘The Way to the Kingdom’,
+                            II.1 and n.</p>
+                    </note> thou fallen spirit, thy true state and only
+                    concern below: ‘What meanest thou, O sleeper? Arise! Call upon thy God, if so be
+                    thy God will think upon thee, that thou perish not.’<note place="foot" xml:id="ftn63" n="63">
+                        <p rend="footnote text">Cf. Jonah 1:6.</p>
+                    </note> A
+                    mighty tempest is stirred up round about thee, and thou art sinking into the
+                    depths of perdition, the gulf of God’s judgments. If thou wouldst escape them,
+                    cast thyself into them. ‘Judge thyself’, and thou shalt ‘not be judged of the
+                        Lord.’<note place="foot" xml:id="ftn64" n="64">
+                        <p rend="footnote text">Cf. 1
+                            Cor. 11:31.</p>
+                    </note>
+                </p>
+                <p n="2">2. Awake, awake! Stand up this moment, lest thou ‘drink at the Lord’s hand
+                    the cup of his fury’.<note place="foot" xml:id="ftn65" n="65">
+                        <p rend="footnote text">Cf. Isa. 51:17.</p>
+                    </note> Stir up thyself ‘to lay
+                    hold on the Lord’,<note place="foot" xml:id="ftn66" n="66">
+                        <p rend="footnote text">Cf. 2 Chr. 7:22.</p>
+                    </note> ‘the Lord thy
+                    righteousness, mighty to save!’<note place="foot" xml:id="ftn67" n="67">
+                        <p rend="footnote text">Cf. Jer. 23:6; Isa. 63:1.</p>
+                    </note> ‘Shake thyself
+                    from the dust.’<note place="foot" xml:id="ftn68" n="68">
+                        <p rend="footnote text">Isa. 52:2.</p>
+                    </note> At least, let the earthquake of God’s
+                    threatenings shake thee. Awake and cry out with the trembling gaoler, ‘What must
+                    I do to be saved?’<note place="foot" xml:id="ftn69" n="69">
+                        <p rend="footnote text">Acts 16:30.</p>
+                    </note> And never rest till thou
+                    believest on the Lord Jesus, with a faith which is his gift, by the operation of
+                    his Spirit.</p>
+                <p n="3">3. If I speak to any one of you more than to another it is to thee who
+                    thinkest thyself unconcerned in this exhortation. ‘I have a message from God
+                    unto thee.’<note place="foot" xml:id="ftn70" n="70">
+                        <p rend="footnote text">Judg. 3:20.</p>
+                    </note> In his name I ‘warn <emph>thee</emph> to flee
+                    from the wrath to come’.<note place="foot" xml:id="ftn71" n="71">
+                        <p rend="footnote text">Cf. Matt. 3:7.</p>
+                    </note> Thou unholy soul, see thy
+                    picture in condemned Peter, lying in the dark dungeon between the soldiers,
+                    bound with two chains, the keepers before the door keeping the prison.<note place="foot" xml:id="ftn72" n="72">
+                        <p rend="footnote text">See Acts
+                            12:6.</p>
+                    </note> The night is far spent, the morning is at hand<note place="foot" xml:id="ftn73" n="73">
+                        <p rend="footnote text">See Rom.
+                            13:12.</p>
+                    </note> when thou art to be brought forth to execution. And in
+                    these dreadful circumstances thou art fast asleep; thou art fast asleep in the
+                    devil’s arms, on the brink of the pit, in the jaws of everlasting
+                        destruction.<note place="foot" xml:id="ftn74" n="74">
+                        <p rend="footnote text">2 Thess. 1:9.</p>
+                    </note>
+                </p>
+                <p n="4">
+                    <pb n="148"/>4. O may ‘the angel of the Lord come upon thee, and the light
+                    shine into thy prison’!<note place="foot" xml:id="ftn75" n="75">
+                        <p rend="footnote text">Cf. Acts 12:7.</p>
+                    </note> And mayst thou feel the
+                    stroke of an almighty hand raising thee with, ‘Arise up quickly, gird thyself,
+                    and bind on thy sandals, cast thy garment about thee, and follow me.’<note place="foot" xml:id="ftn76" n="76">
+                        <p rend="footnote text">Cf. Acts
+                            12:7-8.</p>
+                    </note>
+                </p>
+                <p n="5">5. Awake, thou everlasting spirit, out of thy dream of worldly happiness.
+                    Did not God create thee for himself? Then thou canst not rest till thou restest
+                    in him.<note place="foot" xml:id="ftn77" n="77">
+                        <p rend="footnote text">See
+                            Augustine, <hi rend="italic">Confessions</hi>, I.1: ‘<hi rend="italic">Fecisti nos ad te et inquietum est cor nostrum, donec requiescat in
+                                te</hi>’ (‘Thou hast made us for thyself, and restless is our heart
+                            till it comes to rest in thee’). Cf. also Nos. 22, ‘ Sermon on the
+                            Mount, II’, II.4; 33, ‘Sermon on the Mount, XIII’, II.2; 73, ‘Of Hell’,
+                            I.4; 77, ‘Spiritual Worship’, III.1; 78, ‘Spiritual Idolatry’, II.2; 84,
+                                <hi rend="italic">The Important Question</hi>, III.3. For a
+                            quotation of the Latin, and the translation, cf. No. 120, ‘The Unity of
+                            the Divine Being’, §9. Cf. also Charles Wesley’s hymn in <hi rend="italic">A Collection of Hymns</hi>, No. 335, ll. 5-6:</p>
+                        <lg>
+                            <l>My heart is pained, nor can it be</l>
+                            <l>At rest, till it finds rest in thee.</l>
+                        </lg>
+                    </note> Return, thou
+                    wanderer. Fly back to thy ark.<note place="foot" xml:id="ftn78" n="78">
+                        <p rend="footnote text">See Gen. 8:9.</p>
+                    </note> ‘This is not thy
+                        home.’<note place="foot" xml:id="ftn79" n="79">
+                        <p rend="footnote text">Charles Wesley uses a similar phrase at least three different times.
+                            Cf. ‘After the Death of a Friend’, ver. 7, l. 2: ‘This earth, I know, is
+                            not my place.’ The same line also occurs in ‘Desiring to be Dissolved’,
+                            ver. 5. Both poems were printed in John Wesley, <hi rend="italic">A
+                                Collection of Moral and Sacred Poems</hi> (1744, <hi rend="italic">Bibliog</hi>, No. 78), III.266, 270. Cf. also Charles Wesley’s Hymn
+                            No. 41, ‘The Traveller’, st. 2, l. 2, in <hi rend="italic">Hymns for
+                                Those That Seek and Those That Have Redemption</hi> (1747), p. 51:
+                            ‘This earth, we know, is not our place.’ John Wesley closes his
+                            correspondence with ‘John Smith’, Mar. 22, 1748, by quoting the entire
+                            stanza:</p>
+                        <lg>
+                            <l>Strangers and pilgrims here below,</l>
+                            <l>This earth, we know, is not
+                                our place:</l>
+                            <l>And hasten through the vale of woe,</l>
+                            <l>And
+                                restless to behold thy face,</l>
+                            <l>Swift to our heavenly country
+                                move,</l>
+                            <l>Our everlasting home above.</l>
+                        </lg>
+                        <p rend="footnote text">Cf. also Nos. 15, <hi rend="italic">The Great
+                                Assize</hi>, IV.4; and 108, ‘On Riches’, II.12.</p>
+                    </note> Think not
+                    of building tabernacles here. Thou art but ‘a stranger, a sojourner upon
+                        earth’;<note place="foot" xml:id="ftn80" n="80">
+                        <p rend="footnote text">1
+                            Chr. 29:15.</p>
+                    </note> a creature of a day,<note place="foot" xml:id="ftn81" n="81">
+                        <p rend="footnote text">Note the echoes here of a
+                            familiar theme in Augustan literature, oft-repeated by both Wesleys; cf.
+                            Pindar, <hi rend="italic">Pythian Odes</hi>, viii.95-96 (‘Creatures of a
+                            day…man is but a dream’); see also No. 124, ‘Human Life a Dream’, §2 and
+                            n.</p>
+                    </note> but just launching out into an unchangeable state. Make
+                    haste; eternity is at hand. Eternity depends on this moment: an eternity of
+                    happiness, or an eternity of misery!</p>
+                <p n="6">6. In what state is thy soul? Was God, while I am yet speaking, to require
+                    it of thee, art thou ready to meet death and judgment? Canst thou stand in his
+                    sight, ‘who is of purer eyes than to behold <pb n="149"/>iniquity’?<note place="foot" xml:id="ftn82" n="82">
+                        <p rend="footnote text">Cf. Hab.
+                            1:13.</p>
+                    </note> Art thou ‘meet to be partaker of the inheritance of the
+                    saints in light’?<note place="foot" xml:id="ftn83" n="83">
+                        <p rend="footnote text">Col. 1:12.</p>
+                    </note> Hast thou ‘fought a good
+                    fight and kept the faith’?<note place="foot" xml:id="ftn84" n="84">
+                        <p rend="footnote text">Cf. 2 Tim. 4:7.</p>
+                    </note> Hast thou secured ‘the
+                    one thing needful’?<note place="foot" xml:id="ftn85" n="85">
+                        <p rend="footnote text">Cf. Luke 10:42.</p>
+                    </note> Hast thou recovered the
+                    image of God, even ‘righteousness and true holiness’?<note place="foot" xml:id="ftn86" n="86">
+                        <p rend="footnote text">Eph. 4:24.</p>
+                    </note> Hast
+                    thou ‘put off the old man and put on the new’?<note place="foot" xml:id="ftn87" n="87">
+                        <p rend="footnote text">Cf. Eph. 4:22, 24; Col. 3:9, 10.</p>
+                    </note>
+                    Art thou ‘clothed upon with Christ’?<note place="foot" xml:id="ftn88" n="88">
+                        <p rend="footnote text">Cf. 2 Cor. 5:2.</p>
+                    </note>
+                </p>
+                <p n="7">7. Hast thou oil in thy lamp?<note place="foot" xml:id="ftn89" n="89">
+                        <p rend="footnote text">See Matt. 25:4.</p>
+                    </note> Grace in thy heart? Dost
+                    thou ‘love the Lord thy God with all thy heart, and with all thy mind, and with
+                    all thy soul, and with all thy strength’?<note place="foot" xml:id="ftn90" n="90">
+                        <p rend="footnote text">Cf. Mark 12:30.</p>
+                    </note> Is ‘that mind in
+                    thee which was also in Christ Jesus’?<note place="foot" xml:id="ftn91" n="91">
+                        <p rend="footnote text">Cf. Phil. 2:5.</p>
+                    </note> Art thou a Christian
+                    indeed? That is, a new creature? Are ‘old things passed away, and all things
+                    become new’?<note place="foot" xml:id="ftn92" n="92">
+                        <p rend="footnote text">Cf.
+                            2 Cor. 5:17.</p>
+                    </note>
+                </p>
+                <p n="8">8. Art thou ‘partaker of the divine nature’?<note place="foot" xml:id="ftn93" n="93">
+                        <p rend="footnote text">Cf. 2 Pet. 1:4.</p>
+                    </note>
+                    ‘Knowest thou not that Christ is in thee, except thou be reprobate?’<note place="foot" xml:id="ftn94" n="94">
+                        <p rend="footnote text">Cf. 2 Cor.
+                            13:5.</p>
+                    </note> Knowest thou that ‘God dwelleth in thee, and thou in
+                    God, by his Spirit which he hath given thee’?<note place="foot" xml:id="ftn95" n="95">
+                        <p rend="footnote text">Cf. 1 John 3:24; 4:12, 13.</p>
+                    </note> Knowest
+                    thou not that ‘thy body is a temple of the Holy Ghost, which thou hast of
+                        God’?<note place="foot" xml:id="ftn96" n="96">
+                        <p rend="footnote text">Cf. 1
+                            Cor. 6:19.</p>
+                    </note> Hast thou ‘the witness in thyself’,<note place="foot" xml:id="ftn97" n="97">
+                        <p rend="footnote text">1 John
+                        5:10.</p>
+                    </note> ‘the earnest of thine inheritance’?<note place="foot" xml:id="ftn98" n="98">
+                        <p rend="footnote text">Cf. Eph. 1:14.</p>
+                    </note> Art
+                    thou ‘sealed by that Spirit of promise unto the day of redemption’?<note place="foot" xml:id="ftn99" n="99">
+                        <p rend="footnote text">Cf. Eph. 1:13;
+                            4:30.</p>
+                    </note> ‘Hast thou received the Holy Ghost?’ Or dost thou start
+                    at the question, not knowing whether there be any Holy Ghost?<note place="foot" xml:id="ftn100" n="100">
+                        <p rend="footnote text">Acts 19:2.</p>
+                    </note>
+                </p>
+                <p n="9">9. If it offends thee, be thou assured that thou neither art a Christian
+                    nor desirest to be one. Nay, thy ‘very prayer is turned into sin’;<note place="foot" xml:id="ftn101" n="101">
+                        <p rend="footnote text">Cf. Ps. 109:6
+                            (BCP).</p>
+                    </note> and thou hast solemnly mocked God this very day by
+                    praying for ‘the inspiration of his Holy Spirit’,<note place="foot" xml:id="ftn102" n="102">
+                        <p rend="footnote text">Cf. the first collect in The
+                            Order for Holy Communion, BCP: ‘Almighty God, unto whom all hearts are
+                            open…’; note the assumption here that most in the audience had already
+                            shared in a eucharistic liturgy.</p>
+                    </note> when thou didst not believe
+                    there was any such thing to be received.</p>
+                <p n="10">10. Yet on the authority of God’s Word and our own Church I must repeat
+                    the question, ‘Hast thou received the Holy Ghost?’ If thou hast not thou art not
+                    yet a Christian; for a Christian is a man that is ‘anointed with the Holy Ghost
+                    and with power’.<note place="foot" xml:id="ftn103" n="103">
+                        <p rend="footnote text">Acts 10:38.</p>
+                    </note> Thou art not yet made a
+                    partaker of pure religion and undefiled.<note place="foot" xml:id="ftn104" n="104">
+                        <p rend="footnote text">Jas. 1:27.</p>
+                    </note> Dost <pb n="150"/>thou
+                    know what religion is? That it is a participation of the divine nature, the life
+                    of God in the soul of man:<note place="foot" xml:id="ftn105" n="105">
+                        <p rend="footnote text">Cf. 2 Pet. 1:4: ἵνα διὰ τούτων γένησθε θείας
+                            κοινωνοὶ φύσεως, a phrase which sums up the catholic tradition of human
+                            participation in ‘the divine nature’. Cf. St. Irenaeus, <hi rend="italic">Adversus Haereses</hi>, III.xi.1, xix.6; IV.xxv.3-4;
+                            and also J. T. Nielsen, <hi rend="italic">Adam and Christ in the
+                                Theology of Irenaeus of Lyons</hi> (Assen, Van Gorcum, 1968); see
+                            also Origen’s <hi rend="italic">De Principiis</hi>, I.i.8-9; III.vi.1;
+                            IV.iv.9-10; and Hal Koch, <hi rend="italic">Pronoia und Paideusis…</hi>
+                            (Berlin, Walter de Gruyter, 1932), ch.iii. See also, espec., Balas, <hi rend="italic">Metousia Theou:</hi> (pp. 72-73 above). This theme had
+                            come to the Wesleys through such favourite sources in the Epworth
+                            rectory as Lorenzo Scupoli, <hi rend="italic">Pugna Spiritualis…</hi>
+                            (1589), reckoned by both Susanna and John to have been the work of Juan
+                            de Castañiza; cf. Richard Lucas’s English translation, <hi rend="italic">The Spiritual Combat</hi> (1698), and many translations thereafter;
+                            see No. 107, ‘On God’s Vineyard’, I.5 and n.; and Henry Scougal, <hi rend="italic">The Life of God in the Soul of Man</hi> (cf. Wesley’s
+                            abridgement in 1744; see also Winthrop S. Hudson’s edn. [Philadelphia,
+                            The Westminster Press, 1948]). Other crucial sources in their Oxford
+                            days included Jeremy Taylor, Thomas à Kempis, William Law (cf. Wesley’s
+                            references in <hi rend="italic">A Plain Account of Christian
+                                Perfection</hi>, §4), and Richard Lucas (Wesley read his <hi rend="italic">Enquiry After Happiness</hi> in Mar. 1730, and other
+                            works in 1733).</p>
+                        <p rend="footnote text">It is not incidental that
+                            John Wesley’s carefully crafted account of his Aldersgate experience
+                            (JWJ, May 24, 1738) begins with the opening of his New Testament to 2
+                            Pet. 1:4 (the longest Greek quotation in the <hi rend="italic">Journal</hi>). He condenses both the original text and his
+                            translation of it so as to emphasize ‘the exceeding great and precious
+                            promises, even that ye should be partakers of the divine nature’ (cf.
+                            this with the AV and with the translation in the <hi rend="italic">Notes</hi>). For further discussion, cf. Reginald Kissack,
+                            ‘Wesley’s Conversion’, WHS, XXII.1-6.</p>
+                        <p rend="footnote text">For
+                            other references to the participation theme in the Wesley corpus, cf.
+                            Nos. 24, ‘Sermon on the Mount, IV’, III.1; 43, <hi rend="italic">The
+                                Scripture Way of Salvation</hi>, I.4; 135, ‘On Guardian Angels’,
+                            II.2; 146, ‘The One Thing Needful’, III.1. Cf. also, in Wesley’s <hi rend="italic">Notes</hi>, his commentaries on Matt. 7:12; John
+                            20:17; Rom. 3:23, 5:21; 1 John 2:5, 4:21. See also his letter to Richard
+                            Morgan, Jan. 14, 1734; to ‘John Smith’, June 25, 1746; and to William
+                            Dodd, Mar. 12, 1756. Wesley emphasized this theme in his selections for
+                            the <hi rend="italic">Christian Lib.</hi>, e.g., XIX.193-97, 269-72;
+                            XXXIX.44-61; L.369-73. He even took care to preserve a MS sermon of John
+                            Gambold’s among his own papers, from 1738 until his death, on ‘The Holy
+                            Spirit’ (see below, Vol. 4, Appendix B). Its dominant theme is
+                            participation.</p>
+                    </note> ‘Christ formed in the heart’,<note place="foot" xml:id="ftn106" n="106">
+                        <p rend="footnote text">Cf. Gal.
+                            4:19.</p>
+                    </note> ‘Christ in thee, the hope of glory’;<note place="foot" xml:id="ftn107" n="107">
+                        <p rend="footnote text">Cf. Col. 1:27.</p>
+                    </note>
+                    happiness and holiness; heaven begun upon earth;<note place="foot" xml:id="ftn108" n="108">
+                        <p rend="footnote text">A line which appears
+                            frequently in Charles Wesley’s hymns. Cf., e.g., his hymn on Ps. 65, st.
+                            4, ll. 7-8 (<hi rend="italic">Poet. Wks.</hi>, VIII.142):</p>
+                        <lg>
+                            <l>Heaven begun on earth we feel,</l>
+                            <l>The heaven of Jesu’s
+                                love.</l>
+                            <l>Cf. also the hymn on Ps. 31, Pt. II, st. 12, ll. 7-8
+                                    (<hi rend="italic">Poet. Wks.</hi>, VIII.64):</l>
+                            <l>Enjoy a
+                                paradise of love</l>
+                            <l>A heaven on earth begun.</l>
+                        </lg>
+                        <p rend="footnote text">Cf. also J. Wakelin, <hi rend="italic">Christ and
+                                Nicodemus</hi>, ver. xxx, l. 1 (2nd edn., 1760, p. 19): ‘A little
+                            heav’n begun on earth.’</p>
+                    </note> ‘a kingdom of God within thee’,<note place="foot" xml:id="ftn109" n="109">
+                        <p rend="footnote text">Cf. Luke
+                            17:21.</p>
+                    </note> ‘not meat and drink’, no outward thing, ‘but
+                    righteousness <pb n="151"/>and peace, and joy in the Holy Ghost’;<note place="foot" xml:id="ftn110" n="110">
+                        <p rend="footnote text">Rom.
+                        14:17.</p>
+                    </note> an everlasting kingdom brought into thy soul, a ‘peace of
+                    God that passeth all understanding’;<note place="foot" xml:id="ftn111" n="111">
+                        <p rend="footnote text">Cf. Phil. 4:7.</p>
+                    </note> a ‘joy unspeakable
+                    and full of glory’?<note place="foot" xml:id="ftn112" n="112">
+                        <p rend="footnote text">Cf. 1 Pet. 1:8.</p>
+                    </note>
+                </p>
+                <p n="11">11. Knowest thou that ‘in Jesus Christ neither circumcision availeth
+                    anything, nor uncircumcision; but faith that worketh by love;’<note place="foot" xml:id="ftn113" n="113">
+                        <p rend="footnote text">Gal. 5:6.</p>
+                    </note> but a
+                    new creation?<note place="foot" xml:id="ftn114" n="114">
+                        <p rend="footnote text">Gal. 6:15.</p>
+                    </note> Seest thou the necessity of that inward change,
+                    that spiritual birth, that life from the dead, that holiness? And art thou
+                    thoroughly convinced that ‘without it no man shall see the Lord’?<note place="foot" xml:id="ftn115" n="115">
+                        <p rend="footnote text">Cf. Heb.
+                            12:14.</p>
+                    </note> Art thou labouring after it? ‘Giving all diligence to
+                    make thy calling and election sure’?<note place="foot" xml:id="ftn116" n="116">
+                        <p rend="footnote text">Cf. 2 Pet. 1:10.</p>
+                    </note> ‘Working out thy
+                    salvation with fear and trembling’?<note place="foot" xml:id="ftn117" n="117">
+                        <p rend="footnote text">Cf. Phil. 2:12.</p>
+                    </note> ‘Agonizing to enter in
+                    at the strait gate’?<note place="foot" xml:id="ftn118" n="118">
+                        <p rend="footnote text">Cf. Luke 13:24.</p>
+                    </note> Art thou <emph>in
+                        earnest</emph> about thy soul? And canst thou tell the Searcher of hearts,
+                    ‘Thou, O God, art the thing that I long for!’<note place="foot" xml:id="ftn119" n="119">
+                        <p rend="footnote text">Cf. Job 6:8.</p>
+                    </note> ‘Lord, thou knowest
+                    all things! Thou knowest that I <emph>would</emph> love thee!’<note place="foot" xml:id="ftn120" n="120">
+                        <p rend="footnote text">Cf. John
+                    21:17.</p>
+                    </note>
+                </p>
+                <p n="12">12. Thou hopest to be saved. But what reason hast thou to give of the hope
+                    that is in thee?<note place="foot" xml:id="ftn121" n="121">
+                        <p rend="footnote text">See 1 Pet. 3:15.</p>
+                    </note> Is it because thou hast
+                    done no harm? Or because thou hast done much good? Or because thou art not like
+                    other men,<note place="foot" xml:id="ftn122" n="122">
+                        <p rend="footnote text">See
+                            Luke 18:11.</p>
+                    </note> but wise, or learned, or honest, and morally
+                    good? Esteemed of men, and of a fair reputation? Alas, all this will never bring
+                    thee to God. It is in his account lighter than vanity.<note place="foot" xml:id="ftn123" n="123">
+                        <p rend="footnote text">Ps. 62:9.</p>
+                    </note> Dost
+                    thou ‘know Jesus Christ whom he hath sent’?<note place="foot" xml:id="ftn124" n="124">
+                        <p rend="footnote text">Cf. John 17:3.</p>
+                    </note> Hath he taught
+                    thee that ‘by grace we are saved through faith? And that not of ourselves: it is
+                    the gift of God; not of works, lest any man should boast’?<note place="foot" xml:id="ftn125" n="125">
+                        <p rend="footnote text">Cf. Eph. 2:8, 9.</p>
+                    </note>
+                    Hast thou received the faithful saying as the whole foundation of thy hope, that
+                    ‘Jesus Christ came into the world to save sinners’?<note place="foot" xml:id="ftn126" n="126">
+                        <p rend="footnote text">Cf. 1 Tim. 1:15.</p>
+                    </note>
+                    Hast thou learned what that meaneth, ‘I came not to call the righteous, but
+                    sinners to repentance’?<note place="foot" xml:id="ftn127" n="127">
+                        <p rend="footnote text">Mark 2:17.</p>
+                    </note> ‘I am not sent but to the
+                    lost sheep’?<note place="foot" xml:id="ftn128" n="128">
+                        <p rend="footnote text">Matt. 15:24; note Charles Wesley’s omission of the concluding phrase,
+                            ‘of the house of Israel’.</p>
+                    </note> Art thou (he that heareth, let him
+                    understand!) lost, dead, <emph>damned already</emph>? Dost thou know thy
+                    deserts? Dost thou feel thy wants? Art thou ‘poor in spirit’?<note place="foot" xml:id="ftn129" n="129">
+                        <p rend="footnote text">Matt. 5:3.</p>
+                    </note>
+                    Mourning for God and refusing to be comforted?<note place="foot" xml:id="ftn130" n="130">
+                        <p rend="footnote text">See Matt. 5:4.</p>
+                    </note> Is the prodigal
+                    ‘come to himself’,<note place="foot" xml:id="ftn131" n="131">
+                        <p rend="footnote text">Cf. Luke 15:17.</p>
+                    </note> and well content to be
+                    therefore <pb n="152"/>thought ‘beside himself’<note place="foot" xml:id="ftn132" n="132">
+                        <p rend="footnote text">Mark 3:21.</p>
+                    </note> by
+                    those who are still feeding upon the husks which he hath left?<note place="foot" xml:id="ftn133" n="133">
+                        <p rend="footnote text">Cf. Luke
+                        15:16-17.</p>
+                    </note> Art thou willing to ‘live godly in Christ Jesus’? And
+                    dost thou therefore ‘suffer persecution’?<note place="foot" xml:id="ftn134" n="134">
+                        <p rend="footnote text">2 Tim. 3:12.</p>
+                    </note> Do ‘men say all
+                    manner of evil against thee falsely, for the Son of man’s sake’?<note place="foot" xml:id="ftn135" n="135">
+                        <p rend="footnote text">Cf. Matt.
+                            5:11.</p>
+                    </note>
+                </p>
+                <p n="13">13. O that in all these questions ye may hear the voice that wakes the
+                    dead, and feel that hammer of the Word which ‘breaketh the rock in pieces’!<note place="foot" xml:id="ftn136" n="136">
+                        <p rend="footnote text">Jer.
+                        23:29.</p>
+                    </note> ‘If ye will hear his voice today, while it is called
+                    today, harden not your hearts.’<note place="foot" xml:id="ftn137" n="137">
+                        <p rend="footnote text">Cf. Heb. 3:8, 15, etc.</p>
+                    </note> Now ‘awake, thou
+                    that sleepest’ in spiritual death, that thou sleep not in death eternal! Feel
+                    thy lost estate, and ‘arise from the dead.’ Leave thine old companions in sin
+                    and death. Follow thou Jesus, and ‘let the dead bury their dead.’<note place="foot" xml:id="ftn138" n="138">
+                        <p rend="footnote text">Matt.
+                        8:22.</p>
+                    </note> ‘Save thyself from this untoward generation.’<note place="foot" xml:id="ftn139" n="139">
+                        <p rend="footnote text">Acts
+                        2:40.</p>
+                    </note> ‘Come out from among them, and be thou separate, and touch
+                    not the unclean thing; and the Lord shall receive thee.’<note place="foot" xml:id="ftn140" n="140">
+                        <p rend="footnote text">Cf. 2 Cor. 6:17.</p>
+                    </note>
+                    ‘Christ shall give thee light.’<note place="foot" xml:id="ftn141" n="141">
+                        <p rend="footnote text">Eph. 5:14.</p>
+                    </note>
+                </p>
+            </div>
+            <div type="section" n="3">
+                <p n="1">III. 1. This promise I come, lastly, to explain. And how encouraging a
+                    consideration is this, that whosoever thou art who obeyest his call, thou canst
+                    not seek his face in vain. If thou even now ‘awakest and arisest from the dead’,
+                    he hath bound himself to ‘give thee light’. ‘The Lord shall give thee grace and
+                        glory;’<note place="foot" xml:id="ftn142" n="142">
+                        <p rend="footnote text">Cf. Ps. 84:11 (AV).</p>
+                    </note> the light of his grace here, and the
+                    light of his glory when thou receivest the ‘crown that fadeth not away.’<note place="foot" xml:id="ftn143" n="143">
+                        <p rend="footnote text">Cf. 1 Pet.
+                            5:4.</p>
+                    </note> ‘Thy light shall break forth as the morning,’<note place="foot" xml:id="ftn144" n="144">
+                        <p rend="footnote text">Cf. Isa.
+                            58:8.Cf. Isa. 58:8.</p>
+                    </note> and thy darkness be as the noonday.<note place="foot" xml:id="ftn145" n="145">
+                        <p rend="footnote text">Isa.
+                        58:10.</p>
+                    </note> ‘God, who commanded the light to shine out of darkness’,
+                    shall ‘shine in thy heart, to give the knowledge of the glory of God in the face
+                    of Jesus Christ.’<note place="foot" xml:id="ftn146" n="146">
+                        <p rend="footnote text">Cf. 2 Cor. 4:6.</p>
+                    </note> ‘On them that fear the
+                    Lord shall the Sun of righteousness arise with healing in his wings.’<note place="foot" xml:id="ftn147" n="147">
+                        <p rend="footnote text">Cf. Mal.
+                            4:2.</p>
+                    </note> And ‘in that day it shall be said unto thee’,<note place="foot" xml:id="ftn148" n="148">
+                        <p rend="footnote text">Cf. Zeph.
+                            3:16.</p>
+                    </note> ‘Arise, shine; for thy light is come, and the glory of
+                    the Lord is risen upon thee.’<note place="foot" xml:id="ftn149" n="149">
+                        <p rend="footnote text">Isa. 60:1.</p>
+                    </note> For Christ shall reveal
+                    himself in thee. And he is ‘the true light’.<note place="foot" xml:id="ftn150" n="150">
+                        <p rend="footnote text">John 1:9; 1 John 2:8.</p>
+                    </note>
+                </p>
+                <p n="2">2. God is light,<note place="foot" xml:id="ftn151" n="151">
+                        <p rend="footnote text">1 John 1:5.</p>
+                    </note> and will give himself to
+                    every awakened sinner that waiteth for him. And thou shalt then be a temple of
+                    the living God,<note place="foot" xml:id="ftn152" n="152">
+                        <p rend="footnote text">2 Cor. 6:16.</p>
+                    </note> and Christ shall ‘dwell in
+                    thy heart by faith’. And, <pb n="153"/>‘being rooted and grounded in love’, thou
+                    shalt ‘be able to comprehend with all saints what is the breadth, and length,
+                    and depth, and height’ of that ‘love of Christ which passeth knowledge, that
+                    thou mayest be filled with all the fullness of God.’<note place="foot" xml:id="ftn153" n="153">
+                        <p rend="footnote text">Cf. Eph.
+                    3:17-19.</p>
+                    </note>
+                </p>
+                <p n="3">3. Ye see your calling, brethren. We are called to be ‘an habitation of God
+                    through his Spirit’;<note place="foot" xml:id="ftn154" n="154">
+                        <p rend="footnote text">Cf. Eph. 2:22.</p>
+                    </note> and through his Spirit
+                    dwelling in us ‘to be saints’<note place="foot" xml:id="ftn155" n="155">
+                        <p rend="footnote text">Rom. 1:7; 1 Cor. 1:2.</p>
+                    </note> here, ‘and
+                    partakers of the inheritance of the saints in light’.<note place="foot" xml:id="ftn156" n="156">
+                        <p rend="footnote text">Col. 1:12.</p>
+                    </note> So
+                    ‘exceeding great are the promises which are given unto us’,<note place="foot" xml:id="ftn157" n="157">
+                        <p rend="footnote text">Cf. 2 Pet. 1:4.</p>
+                    </note>
+                    actually given unto us who believe. For by faith ‘we receive, not the spirit of
+                    the world, but the Spirit which is of God’—the sum of all the promises—‘that we
+                    may know the things that are freely given to us of God.’<note place="foot" xml:id="ftn158" n="158">
+                        <p rend="footnote text">Cf. 1 Cor.
+                    2:12.</p>
+                    </note>
+                </p>
+                <p n="4">4. The Spirit of Christ is that great gift of God which at sundry times and
+                    in divers manners<note place="foot" xml:id="ftn159" n="159">
+                        <p rend="footnote text">Heb. 1:1.</p>
+                    </note> he hath promised to man, and
+                    hath fully bestowed since the time that Christ was glorified. Those promises
+                    before made to the fathers he hath thus fulfilled: ‘I will put my Spirit within
+                    you, and cause you to walk in my statutes.’<hi rend="endnote_reference">
+                        <note place="end">
+                            <p rend="endnote text">Ezek. 36:27.</p>
+                        </note>
+                    </hi> ‘I will
+                    pour water upon him that is thirsty, and floods upon the dry ground: I will pour
+                    my Spirit upon thy seed, and my blessing upon thine offspring.’<hi rend="endnote_reference">
+                        <note place="end">
+                            <p rend="endnote text">Isa.
+                                44:3.</p>
+                        </note>
+                    </hi>
+                </p>
+                <p n="5">5. Ye may all be living witnesses of these things, of remission of sins,
+                    and the gift of the Holy Ghost.<note place="foot" xml:id="ftn160" n="160">
+                        <p rend="footnote text">Cf. Acts 2:38; 10:43; note the implied rejection
+                            here of the patristic notion of ‘the seal of the Spirit’ in baptism (cf.
+                            2 Cor. 1:22; Eph. 1:13; 4:30).</p>
+                    </note> ‘If thou canst believe, all
+                    things are possible to him that believeth.’<note place="foot" xml:id="ftn161" n="161">
+                        <p rend="footnote text">Mark 9:23.</p>
+                    </note> ‘Who among you is
+                    there that feareth the Lord’, and yet ‘walketh on in darkness, and hath no
+                        light?’<note place="foot" xml:id="ftn162" n="162">
+                        <p rend="footnote text">Cf. Isa. 50:10.</p>
+                    </note> I ask thee in the name of Jesus, believest
+                    thou that ‘his arm is not shortened at all’?<note place="foot" xml:id="ftn163" n="163">
+                        <p rend="footnote text">Cf. Isa. 50:2; 59:1.</p>
+                    </note> That he is
+                    still ‘mighty to save’?<note place="foot" xml:id="ftn164" n="164">
+                        <p rend="footnote text">Isa. 63:1.</p>
+                    </note> That he is ‘the same
+                    yesterday, today, and for ever’?<note place="foot" xml:id="ftn165" n="165">
+                        <p rend="footnote text">Heb. 13:8.</p>
+                    </note> That ‘he hath
+                        <emph>now</emph> power on earth to forgive sins’?<note place="foot" xml:id="ftn166" n="166">
+                        <p rend="footnote text">Cf. Matt. 9:6,
+                        etc.</p>
+                    </note> ‘Son, be of good cheer; thy sins are forgiven.’<note place="foot" xml:id="ftn167" n="167">
+                        <p rend="footnote text">Cf. Matt.
+                            9:2.</p>
+                    </note> God, for Christ’s sake, hath <pb n="154"/>forgiven thee.
+                    Receive this, ‘not as the word of man; but as it is, indeed, the word of
+                        God’;<note place="foot" xml:id="ftn168" n="168">
+                        <p rend="footnote text">Cf.
+                            1 Thess. 2:13.</p>
+                    </note> and thou art ‘justified freely through
+                        faith’.<note place="foot" xml:id="ftn169" n="169">
+                        <p rend="footnote text">Cf. Rom. 3:24.</p>
+                    </note> Thou shalt be sanctified also through faith
+                    which is in Jesus,<note place="foot" xml:id="ftn170" n="170">
+                        <p rend="footnote text">See Acts 26:18.</p>
+                    </note> and shalt set to thy
+                        seal,<note place="foot" xml:id="ftn171" n="171">
+                        <p rend="footnote text">See
+                            John 3:33.</p>
+                    </note> even thine, ‘that God hath given unto us eternal
+                    life, and this life is in his Son’.<note place="foot" xml:id="ftn172" n="172">
+                        <p rend="footnote text">Cf.1 John 5:11.</p>
+                    </note>
+                </p>
+                <p n="6">6. Men and brethren, let me freely speak unto you,<note place="foot" xml:id="ftn173" n="173">
+                        <p rend="footnote text">Acts 2:29.</p>
+                    </note> and
+                    ‘suffer ye the word of exhortation’,<note place="foot" xml:id="ftn174" n="174">
+                        <p rend="footnote text">Cf. Heb. 13:22.</p>
+                    </note> even from one the
+                    least esteemed in the church. Your conscience beareth you witness in the
+                        HolyGhost<note place="foot" xml:id="ftn175" n="175">
+                        <p rend="footnote text">See Rom. 9:1.</p>
+                    </note> that these things are so, ‘if so be ye have
+                    tasted that the Lord is gracious’.<note place="foot" xml:id="ftn176" n="176">
+                        <p rend="footnote text">1 Pet. 2:3.</p>
+                    </note> ‘This is eternal life, to
+                    know the only true God, and Jesus Christ whom he hath sent.’<note place="foot" xml:id="ftn177" n="177">
+                        <p rend="footnote text">Cf. John 17:3.</p>
+                    </note>
+                    This experimental knowledge,<note place="foot" xml:id="ftn178" n="178">
+                        <p rend="footnote text">
+                            <hi rend="italic">Viz.</hi>, ‘personal’,
+                            ‘existential’. Cf. Bishop Joseph Hall, Epistle VII, ‘To Mr. William
+                            Bedell’, in <hi rend="italic">Select Works</hi> (London, 1811), IV.138;
+                            and Bishop Laurence Womock, <hi rend="italic">The Examination of
+                                Tilenus</hi> (1661),p. 85. This distinction between ‘speculative’
+                            and ‘practical’ religion is pervasive in the writings of both Wesley
+                            brothers. Note the implied either/or here; this, too, will soften as the
+                            Revival matures.</p>
+                    </note> and this alone, is true Christianity. He is
+                    a Christian who hath received the Spirit of Christ. He is not a Christian who
+                    hath not received him. Neither is it possible to have received him and not know
+                    it. For ‘at that day’ (when he cometh, saith the Lord) ‘ye shall know that I am
+                    in my Father, and you in me, and I in you.’<hi rend="endnote_reference">
+                        <note place="end">
+                            <p rend="endnote text">John 14:20.</p>
+                        </note> This is that
+                        ‘Spirit of truth, whom the world cannot receive, because it seeth him not,
+                        neither knoweth him. But ye know him; for he dwelleth with you, and shall be
+                        in you.’<note place="foot" xml:id="ftn179" n="179">
+                            <p rend="footnote text">John 14:17. Note the radical either/or here: either a clear and
+                                full assurance of justifying faith or none at all. Southey,
+                                I.150-53, observes that it was this stark disjunction between full
+                                assurance and none at all that prompted many of the hysterical
+                                symptoms reported in the early years of the Revival. Bernard G.
+                                Holland confirms this thesis and extends it in ‘The Conversions of
+                                John and Charles Wesley’, WHS, XXIII.53, 65-71, but also points to
+                                the fact that both brothers rather quickly modified this
+                                all-or-nothing emphasis by allowing for <emph>degrees</emph> of
+                                assurance. This softening may be seen in John Wesley’s letter to Dr.
+                                Rutherford, Mar. 28, 1768; and in Nos. 89, ‘The More Excellent Way’,
+                                §§7, 8; and 106, ‘On Faith, Heb. 11:6’, I.11 (and for John’s
+                                numerous references to the plerophory or ‘full assurance of faith’
+                                cf. No. 117, ‘On the Discoveries of Faith’, §15 and n.).</p>
+                            <p rend="footnote text">Melville Horne, once an active Methodist
+                                itinerant, reports a ‘final’ word from John Wesley on this subject
+                                (either from a letter or a conversation that must be dated somewhere
+                                close to 1789): ‘When fifty years ago my brother Charles and I, in
+                                the simplicity of our hearts, told the good people of England that
+                                unless they knew their sins were forgiven, they were under the wrath
+                                and curse of God, I marvel, Melville, they did not stone us!’; cf.
+                                Melville Horne, <hi rend="italic">An Investigation of the Definition
+                                    of Justifying Faith…</hi> (1809), p. 3; and Thomas Coke’s reply
+                                to it in <hi rend="italic">A Series of Letters Addressed to the
+                                    Methodist Connexion…</hi> (1810). See also Southey, I.216-17;
+                                and Semmel, <hi rend="italic">Methodist Revolution</hi>, p.
+                            100.</p>
+                        </note>
+                    </hi>
+                </p>
+                <p n="7">
+                    <pb n="155"/>7. The world cannot receive him, but utterly rejecteth the
+                    promise of the Father, contradicting and blaspheming. But every spirit which
+                    confesseth not this is not of God. Yea, ‘this is that spirit of antichrist,
+                    whereof ye have heard that it should come into the world; and even now it is in
+                    the world.’<note place="foot" xml:id="ftn180" n="180">
+                        <p rend="footnote text">Cf. 1 John 4:3.</p>
+                    </note> He is antichrist whosoever denies the
+                    inspiration of the Holy Ghost, or that the indwelling Spirit of God is the
+                    common privilege of all believers, the blessing of the gospel, the unspeakable
+                    gift, the universal promise, the criterion of a real Christian.<note place="foot" xml:id="ftn181" n="181">
+                        <p rend="footnote text">For a careful
+                            statement of the general teaching about the gifts of the Holy Spirit as
+                            extraordinary and exceptional, cf. Arthur Bedford, <hi rend="italic">The
+                                Doctrine of Assurance…</hi> (1738). For another claim that such
+                            gifts are the common privilege of all believers, cf. Moore, I.269,
+                            reporting a conversation between John Wesley and Joseph Butler in
+                            Bristol, Aug. 18, 1739, about faith and assurance. The bishop’s
+                            complaint was candid: ‘Sir, the pretending to extraordinary revelations
+                            and gifts of the Holy Ghost is a horrid thing, a very horrid thing.’
+                            Wesley’s reply was meant to be disarming: ‘My lord, …I pretend to no
+                            extraordinary revelations or gifts of the Holy Ghost—none but what every
+                            Christian may receive, and ought to expect and pray for….’ See p. 13, n.
+                            47 above; see also No. 4, <hi rend="italic">Scriptural
+                            Christianity</hi>, §4.</p>
+                    </note>
+                </p>
+                <p n="8">8. It nothing helps them to say, ‘We do not deny the
+                        <emph>assistance</emph> of God’s Spirit, but only this
+                        <emph>inspiration</emph>,<note place="foot" xml:id="ftn182" n="182">
+                        <p rend="footnote text">Moore also prints (II.277-322) a twelve-letter
+                            exchange between Wesley and a pseudonymous ‘John Smith’. (See <hi rend="italic">Letters</hi> II, Vol. 26 of this edn.) Though an acute
+                            theologian, ‘Smith’ almost certainly was not Thomas Seeker as Tyerman
+                                (<hi rend="italic">JW</hi>), (I.409-10); Sugden (I.82); and Telford
+                                (<hi rend="italic">Letters</hi>, II.42) have suggested. Wesley’s
+                            letter of Mar. 22, 1748, to ‘Smith’ indicates that he was a pastor of a
+                            parish (‘If a single parish takes up your whole time and care, and you
+                            spend and are spent upon it, well’). ‘Smith’ was deeply disturbed by
+                            what he took to be a Wesleyan doctrine of assurance as ‘perceptible
+                            inspiration’ (cf. Letter III, Nov. 27, 1745, and Letter V, Feb. 26,
+                            1746). Wesley’s reply (Letter VI, June 25, 1746) rehearses once again
+                            the claim that the gifts of the Spirit are meant for all truly converted
+                            Christians. See also, below, Nos. 10 and 11, ‘The Witness of the
+                            Spirit’, Discourses I and II.</p>
+                    </note> this “receiving the Holy Ghost”
+                    and being <emph>sensible</emph> of it. It is only this <emph>feeling</emph> of
+                    the Spirit, this being <emph>moved</emph> by the Spirit, or filled with it,
+                    which we deny to have any place in sound religion.’ But in ‘only’ denying this
+                    you deny the whole Scriptures, the whole truth and promise and testimony of
+                    God.</p>
+                <p n="9">9. Our own excellent Church knows nothing of this devilish distinction; but
+                    speaks plainly of ‘feeling the Spirit of Christ’;<hi rend="endnote_reference">
+                        <note place="end">
+                            <p rend="endnote text">Article 17 [‘Of Predestination
+                                and Election’: ‘…and such as feel in themselves the working of the
+                                Spirit of Christ…’].</p>
+                        </note>
+                    </hi> of <pb n="156"/>being ‘moved by
+                    the Holy Ghost’,<hi rend="endnote_reference">
+                        <note place="end">
+                            <p rend="endnote text">Office of consecrating Priests [BCP, The
+                                Ordering of Deacons].</p>
+                        </note>
+                    </hi> and knowing and ‘feeling there
+                    is no other name than that of Jesus whereby we can receive any salvation’.<hi rend="endnote_reference">
+                        <note place="end">
+                            <p rend="endnote text">Visitation
+                                of the Sick [<hi rend="italic">ibid.</hi>, Of the
+                        Sick].</p>
+                        </note>
+                    </hi> She teaches us also to pray for the ‘inspiration of
+                    the Holy Spirit’,<hi rend="endnote_reference">
+                        <note place="end">
+                            <p rend="endnote text">Collect before the Holy Communion [<hi rend="italic">ibid. </hi>].</p>
+                        </note>
+                    </hi> yea, that we may be
+                    ‘filled with the Holy Ghost’.<hi rend="endnote_reference">
+                        <note place="end">
+                            <p rend="endnote text">Order of Confirmation [<hi rend="italic">ibid.</hi> However, the words do not occur there but in
+                                Collects, St. Stephen’s Day].</p>
+                        </note>
+                    </hi> Nay, and every
+                    presbyter of hers professes to ‘receive the Holy Ghost by the imposition of
+                        hands’.<note place="foot" xml:id="ftn183" n="183">
+                        <p rend="footnote text">Cf. BCP, Ordering of Priests.</p>
+                    </note> Therefore to deny any of these
+                    is in effect to renounce the Church of England, as well as the whole Christian
+                    revelation.</p>
+                <p n="10">10. But ‘the wisdom of God’ was always ‘foolishness with men’.<note place="foot" xml:id="ftn184" n="184">
+                        <p rend="footnote text">Cf. 1 Cor.
+                            1:21-25.</p>
+                    </note> No marvel, then, that the great mystery of the
+                    gospel should be now also ‘hid from the wise and prudent’,<note place="foot" xml:id="ftn185" n="185">
+                        <p rend="footnote text">Matt. 11:25.</p>
+                    </note> as
+                    well as in the days of old; that it should be almost universally denied,
+                    ridiculed, and exploded as mere frenzy, and all who dare avow it still branded
+                    with the names of madmen and enthusiasts.<note place="foot" xml:id="ftn186" n="186">
+                        <p rend="footnote text">For samplings of eighteenth-century
+                            denunciations of enthusiasm, cf. Lee, <hi rend="italic">Early Methodist
+                                Enthusiasm</hi>, chs. 2-3.</p>
+                    </note> This is that ‘falling
+                        away’<note place="foot" xml:id="ftn187" n="187">
+                        <p rend="footnote text">2
+                            Thess. 2:3.</p>
+                    </note> which was to come—that general apostasy of all
+                    orders and degrees of men which we even now find to have overspread the earth.
+                    ‘Run to and fro in the streets of Jerusalem, and see if you can find a
+                        man,’<note place="foot" xml:id="ftn188" n="188">
+                        <p rend="footnote text">Cf.
+                            Jer. 5:1.</p>
+                    </note> a man that loveth the Lord his God with all his
+                    heart, and serveth him with all his strength. How does our own land mourn (that
+                    we look no farther) under the overflowings of ungodliness!<note place="foot" xml:id="ftn189" n="189">
+                        <p rend="footnote text">Ps. 18:4 (BCP).</p>
+                    </note>
+                    What villainies of every kind are committed day by day; yea, too often with
+                    impunity by those who sin with a high hand, and glory in their shame!<note place="foot" xml:id="ftn190" n="190">
+                        <p rend="footnote text">Phil.
+                        3:19.</p>
+                    </note> Who can reckon up the oaths, curses, profaneness,
+                    blasphemies; the lying, slandering, evil speaking; the sabbath-breaking,
+                    gluttony, drunkenness, revenge; the whoredoms, adulteries, and various
+                    uncleanness; the frauds, injustice, oppression, extortion, which overspread our
+                    land as a flood?<note place="foot" xml:id="ftn191" n="191">
+                        <p rend="footnote text">See Ps. 69:2, and No. 4, <hi rend="italic">Scriptural Christianity</hi>, IV.11. See also Rom.
+                        1:18-32.</p>
+                    </note>
+                </p>
+                <p n="11">11. And even among those who have kept themselves pure from those grosser
+                    abominations, how much anger and pride, <pb n="157"/>how much sloth and
+                    idleness, how much softness and effeminacy, how much luxury and self-indulgence,
+                    how much covetousness and ambition, how much thirst of praise,<note place="foot" xml:id="ftn192" n="192">
+                        <p rend="footnote text">For John Wesley’s references
+                            to the common thirst for fame and glory (<hi rend="italic">gloria
+                                sitis</hi>), see No. 14, <hi rend="italic">The Repentance of
+                                Believers</hi>, I.7 and n.</p>
+                    </note> how much love of the world,
+                    how much fear of man is to be found! Meanwhile, how little of true religion! For
+                    where is he that loveth either God or his neighbour, as he hath given us
+                    commandment? On the one hand are those who have not so much as the form of
+                    godliness; on the other, those who have the form only:<note place="foot" xml:id="ftn193" n="193">
+                        <p rend="footnote text">Cf. 2 Tim. 3:5, and No. 2,
+                                <hi rend="italic">The Almost Christian</hi>, I.4 and n.</p>
+                    </note>
+                    there stands the open, there the painted sepulchre.<note place="foot" xml:id="ftn194" n="194">
+                        <p rend="footnote text">Cf. Matt. 23:27, and I.7 and
+                            n., above.</p>
+                    </note> So that, in very deed, whosoever were earnestly to
+                    behold any public gathering together of the people (I fear those in our churches
+                    are not to be excepted) might easily perceive ‘that the one part were Sadducees,
+                    and the other Pharisees’:<note place="foot" xml:id="ftn195" n="195">
+                        <p rend="footnote text">Acts 23:6.</p>
+                    </note> the one having almost as
+                    little concern about religion as if there were ‘no resurrection, neither angel
+                    nor spirit’;<note place="foot" xml:id="ftn196" n="196">
+                        <p rend="footnote text">Acts 23:8.</p>
+                    </note> and the other making it a mere lifeless form, a
+                    dull round of external performances without either true faith, or the love of
+                    God, or joy in the Holy Ghost.<note place="foot" xml:id="ftn197" n="197">
+                        <p rend="footnote text">Rom. 14:17.</p>
+                    </note>
+                </p>
+                <p n="12">12. Would to God I could except us of this place. ‘Brethren, my heart’s
+                    desire and prayer to God for you is that ye may be saved’<note place="foot" xml:id="ftn198" n="198">
+                        <p rend="footnote text">Cf. Rom. 10:1.</p>
+                    </note>
+                    from this overflowing of ungodliness,<note place="foot" xml:id="ftn199" n="199">
+                        <p rend="footnote text">Ps. 18:4 (BCP).</p>
+                    </note> and that here may
+                    its proud waves be stayed!<note place="foot" xml:id="ftn200" n="200">
+                        <p rend="footnote text">See Job 38:11.</p>
+                    </note> But is it so indeed? God
+                    knoweth, yea, and our own conscience, it is not. We have not kept ourselves
+                        pure.<note place="foot" xml:id="ftn201" n="201">
+                        <p rend="footnote text">See
+                            1 Tim. 5:22.</p>
+                    </note> Corrupt are we also and abominable; and few are
+                    there that understand any more, few that worship God in spirit and in
+                        truth.<note place="foot" xml:id="ftn202" n="202">
+                        <p rend="footnote text">John 4:24.</p>
+                    </note> We too are ‘a generation that set not our hearts
+                    aright, and whose spirit cleaveth not steadfastly unto God’.<note place="foot" xml:id="ftn203" n="203">
+                        <p rend="footnote text">Cf. Ps. 78:9
+                        (BCP).</p>
+                    </note> He hath appointed us indeed to be ‘the salt of the earth.
+                    But if the salt have lost its savour, it is thenceforth good for nothing but to
+                    be cast out, and to be trodden under foot of men.’<note place="foot" xml:id="ftn204" n="204">
+                        <p rend="footnote text">Matt. 5:13.</p>
+                    </note>
+                </p>
+                <p n="13">13. And ‘shall I not visit for these things? saith the Lord. Shall not my
+                    soul be avenged on such a nation as this?’<note place="foot" xml:id="ftn205" n="205">
+                        <p rend="footnote text">Jer. 5:9, 29.</p>
+                    </note> Yea, we know not
+                    how soon he may say to the sword, ‘Sword, go through this land!’<note place="foot" xml:id="ftn206" n="206">
+                        <p rend="footnote text">Cf. Ezek.
+                            14:17.</p>
+                    </note> He hath given us long space to repent. He lets us
+                    alone this year also. But he warns and awakens us by thunder. His <pb n="158"/>judgments are abroad in the earth.<note place="foot" xml:id="ftn207" n="207">
+                        <p rend="footnote text">Cf. Ps. 105:7 (AV). III.13-15 are echoes of the
+                            compound crises in Europe in general and England in particular; Charles
+                            Wesley could expect most of his hearers to share his alarm, even if for
+                            different reasons. Sir Robert Walpole’s cynical reign had ended only two
+                            months before, and a dangerous new future loomed ahead with the War of
+                            the Austrian Succession (1739-48) which had pageengulfed an ineptly led
+                            Britain; Charles Edward Stuart (‘Bonnie Prince Charlie’) was waiting in
+                            the wings. In 1745-46 England and, much more tragically, Scotland became
+                            ‘a field of blood’ (as at Culloden, Apr. 15, 1746). Cf. Robertson, <hi rend="italic">England Under the Hanoverians</hi>, pp. 80-111; and
+                            Williams, <hi rend="italic">The Whig Supremacy</hi>, pp.
+                        220-51.</p>
+                    </note> And we have all reason to expect that heaviest of all,
+                    even ‘that he should come unto us quickly, and remove our candlestick out of its
+                    place, except we repent and do the first works’;<note place="foot" xml:id="ftn208" n="208">
+                        <p rend="footnote text">Cf. Rev. 2:5.</p>
+                    </note>
+                    unless we return to the principles of the Reformation, the truth and simplicity
+                    of the gospel. Perhaps we are now resisting the last effort of divine grace to
+                    save us. Perhaps we have wellnigh ‘filled up the measure of our iniquities’<note place="foot" xml:id="ftn209" n="209">
+                        <p rend="footnote text">Cf. Matt.
+                            23:32.</p>
+                    </note> by rejecting the counsel of God against ourselves, and
+                    casting out his messengers.</p>
+                <p n="14">14. O God, ‘in the midst of wrath remember mercy’!<note place="foot" xml:id="ftn210" n="210">
+                        <p rend="footnote text">Hab. 3:2.</p>
+                    </note> Be
+                    glorified in our reformation, not in our destruction. Let us ‘hear the rod, and
+                    him that appointed it’.<note place="foot" xml:id="ftn211" n="211">
+                        <p rend="footnote text">Cf. Mic. 6:9.</p>
+                    </note> Now that ‘thy judgments
+                    are abroad in the earth’,<note place="foot" xml:id="ftn212" n="212">
+                        <p rend="footnote text">Cf. 1 Chr. 16:14; Ps.105:7.</p>
+                    </note> let ‘the
+                    inhabitants of the world learn righteousness’.<note place="foot" xml:id="ftn213" n="213">
+                        <p rend="footnote text">Isa. 26:9.</p>
+                    </note>
+                </p>
+                <p n="15">15. My brethren, it is high time for us to awake out of sleep; before ‘the
+                    great trumpet of the Lord be blown’,<note place="foot" xml:id="ftn214" n="214">
+                        <p rend="footnote text">Isa. 27:13.</p>
+                    </note> and our land become a
+                    field of blood.<note place="foot" xml:id="ftn215" n="215">
+                        <p rend="footnote text">Matt. 27:8.</p>
+                    </note> O may we speedily see the
+                    things that make for our peace, before they are hid from our eyes!<note place="foot" xml:id="ftn216" n="216">
+                        <p rend="footnote text">See Luke
+                            19:42.</p>
+                    </note> ‘Turn thou us, O good Lord, and let thine anger cease
+                    from us.’<note place="foot" xml:id="ftn217" n="217">
+                        <p rend="footnote text">Cf.
+                            Ps. 85:4 (BCP).</p>
+                    </note> ‘O Lord, look down from heaven, behold and
+                    visit this vine’;<note place="foot" xml:id="ftn218" n="218">
+                        <p rend="footnote text">Cf. Ps. 80:14.</p>
+                    </note> and cause us to know the
+                    time of our visitation.<note place="foot" xml:id="ftn219" n="219">
+                        <p rend="footnote text">See Jer. 8:12, etc.</p>
+                    </note> ‘Help us, O God of
+                    our salvation, for the glory of thy name; O deliver us, and be merciful to our
+                    sins, for thy name’s sake.’<note place="foot" xml:id="ftn220" n="220">
+                        <p rend="footnote text">Ps. 79:9 (BCP).</p>
+                    </note> ‘And so will we not go
+                    back from thee: O let us live, and we shall call upon thy name. Turn us again, O
+                    Lord God of hosts, show the light of thy countenance, and we shall be
+                        whole.’<note place="foot" xml:id="ftn221" n="221">
+                        <p rend="footnote text">Ps. 80:18-19 (BCP).</p>
+                    </note>
+                </p>
+            </div>
+            <div type="conclusion">
+                <p>‘Now unto him that is able to do exceeding abundantly above all that we can ask
+                    or think, according to the power that worketh in us, unto him be glory in the
+                    church by Christ Jesus throughout all ages, world without end. Amen.’<note place="foot" xml:id="ftn222" n="222">
+                        <p rend="footnote text">Eph.
+                            3:20-21.</p>
+                    </note>
+                </p>
+            </div>
+        </body>
+    </text>
+</TEI>

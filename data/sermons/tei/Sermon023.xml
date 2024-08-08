@@ -1,0 +1,1430 @@
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Sermon 23: Upon Our Lord’s Sermon On The Mount, Discourse III</title>
+                <author>Wesley, John</author>
+                <editor role="text">Van Buskirk, Gregory P.</editor>
+                <editor role="digital">Taylor, Michelle M.</editor>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>The Wesley Works Digitzation Project</publisher>
+                <pubPlace>Tampa, FL</pubPlace>
+                <date>2024-02-25</date>
+             <idno type="URI">https://wesleyworks.ecdsdev.org/sermons/Sermon023</idno>                   
+            </publicationStmt>
+            <sourceDesc>
+                <listBibl>
+                    <biblStruct>
+                        <analytic>
+                            <title level="a">Sermon 23: Upon Our Lord’s Sermon On The Mount,
+                                Discourse III</title>
+                        </analytic>
+                        <monogr>
+                            <title level="j">The Works of John Wesley, Volume I: Sermons I,
+                                1-33</title>
+                            <editor role="volume">Outler, Albert</editor>
+                            <imprint>
+                                <publisher>Abingdon Press</publisher>
+                                <pubPlace>Nashville, TN</pubPlace>
+                                <date when="2015-05-01">1984-05-01</date>
+                                <biblScope unit="volume" n="1"/>
+                                <biblScope unit="page" from="466" to="469"/>
+                                <biblScope unit="page" from="510" to="530"/>
+                            </imprint>
+                        </monogr>
+                        <series>
+                            <title level="s">The Works of John Wesley</title>
+                            <editor role="general">Baker, Frank</editor>
+                        </series>
+                    </biblStruct>
+                </listBibl>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Greg Van Buskirk created Word docs for all of Wesley's sermons using a combination of
+                OCR software and manual proofing. Michelle Taylor converted these docx into XML
+                using Oxygen's DITA automatic transformation scenario, then touched them up
+                manually.</p>
+        </encodingDesc>
+        <standOff>
+            <taxonomy>
+                <keywords>
+                    <term/>
+                </keywords>
+            </taxonomy>
+            <!--Include keywords and terms here eventually.-->
+        </standOff>
+        <revisionDesc/>
+    </teiHeader>
+    <text>
+        <body>
+            <pb n="466"/>
+            <introduction>
+                <!--Confirm introduction is the element I want to use here, especially given that I
+                    use it as an attribute for Wesley's introductory paragraphs as well.-->
+                <head>
+                    <hi rend="italic">An Introductory Comment [to Sermons 21-33]</hi>
+                </head>
+                <p>The unifying theme of these next thirteen ‘discourses’ on the Sermon on the
+                    Mount, with all their variations and nuancings, is the Christian life understood
+                    as the fruit of justifying faith. But given such faith, what follows? Wesley’s
+                    answer is given in this extended exposition of the Christian life based on the
+                        <hi rend="italic">locus classicus</hi> of evangelical ethics, ‘The Sermon on
+                    the Mount’ (i.e., Matthew 5-7). Since Tyndale, this ‘sermon’ had been understood
+                    as ‘the epitome of God’s laws and promises’ for Christian believers; cf.
+                    Clebsch, <hi rend="italic">England’s Earliest Protestants</hi>, p. 184; see also
+                    William Burkitt, <hi rend="italic">Expository Notes…on the New Testament</hi>
+                    (eleven editions between 1700 and 1739), Preface to chapter 5: ‘Christ’s famous
+                    Sermon on the Mount comprehends the sum and substance of both the Old and New
+                    Testaments.’</p>
+                <p>Taken together, the following sermons are not a thirteen-part essay, tightly
+                    organized and argued. Instead, they are separate sermons, drawn from materials
+                    running back to 1725, arranged in a triadic pattern that seems to have been
+                    original with Wesley. Each is a discourse in its own right; yet the series is
+                    designed so that each appears as a part of a whole. This means that the sermons
+                    may be read singly or together, but with an eye on their shared aim: ‘to assert
+                    and prove every branch of <hi rend="italic">gospel obedience</hi> as
+                    indispensably necessary to eternal salvation’; cf. Wesley’s open letter (Nov.
+                    17, 1759) to John Downes in reply to the latter’s abusive <hi rend="italic">Methodism Examined and Exposed</hi> (1759).</p>
+                <p>Many of the great and near-great commentators of the seventeenth and eighteenth
+                    centuries had devoted their talents to the interpretation of Matthew 5-7 as the
+                    principal summary of Christian ethics, or, in Henry Hammond’s phrase, as ‘an
+                    abstract of Christian philosophy’; cf. his <hi rend="italic">Practical
+                        Catechism</hi> (1st edn., <hi rend="italic">c.</hi> 1644), II.1, in the <hi rend="italic">Library of Anglo-Catholic Theology</hi> (1847), p. 83. Chief
+                    among these earlier works, in the order of their influences upon Wesley’s
+                    thought, were Bishop Offspring Blackall, ‘Eighty-Seven Practical Discourses Upon
+                    Our Saviour’s Sermon on the Mount’, <hi rend="italic">Works</hi>, I.1-561;
+                    II.609-939; <pb n="467"/>John Norris, <hi rend="italic">Practical
+                        Discourses</hi>; the American, James Blair, <hi rend="italic">Our Saviour’s
+                        Divine Sermon on the Mount in IV Volumes</hi> (1722; 2nd edn., 1740, with a
+                    preface by Daniel Waterland); John Cardinal Bona, <hi rend="italic">Guide to
+                        Eternity…</hi> (six editions in English between 1672 and 1712); and Henry
+                    Hammond, <hi rend="italic">op. cit.</hi> Echoes of all these are scattered along
+                    the way, together with lesser borrowings from Bengel, Poole, and Henry. This
+                    makes it all the more remarkable that Wesley came up with a model of his own,
+                    both inform and substance. This series thus reminds us, yet again, of Wesley’s
+                    ready appeal to tradition—even while he maintains his own originality and
+                    independence.</p>
+                <p>Benjamin Ingham records in his Journal that ‘during the voyage [to Georgia]
+                    Wesley went over our Saviour’s Sermon on the Mount’ with the ship’s company
+                    aboard the <hi rend="italic">Simmonds</hi>. There are also other records of his
+                    preaching, very early on, from one or another text in Matthew 5-7. For example,
+                    his second sermon was preached at Binsey (near Oxford), November 21, 1725, on
+                    Matt. 6:33. A first draft of the sermon which appears here as ‘Discourse VIII’
+                    seems to have been written out in 1736. Later, it was the example of the Sermon
+                    on the Mount that encouraged Wesley to break out of his High Church prejudices
+                    in Bristol, April 1, 1739: ‘In the evening (Mr. Whitefield being gone) I begun
+                    expounding our Lord’s Sermon on the Mount (one pretty remarkable precedent of
+                        <hi rend="italic">field preaching</hi>, though I suppose <hi rend="italic">there were churches</hi> at that time also) to a little society which was
+                    accustomed to meet once or twice a week in Nicholas Street;’ cf. <hi rend="italic">Journal</hi> entries for this whole story of the unplanned
+                    outbreak of the Wesleyan Revival.</p>
+                <p>The records show that, between 1739 and 1746, Wesley preached more than one
+                    hundred sermons from separate texts in the Sermon on the Mount. There is,
+                    however, no recorded instance of his having treated that Sermon as a whole
+                    anywhere else. Evidently, he was prepared to allow this series, once published,
+                    to stand as his sufficient comment on the subject.</p>
+                <p>In his introduction to ‘Discourse X’, §§1-3, Wesley repeats his explanation (cf.
+                    ‘Discourse I’, Proem, §10) of how he had conceived the design of Matthew 5-7,
+                    according to its three unfolding themes: (1) ‘the sum of true religion’; (2)
+                    ‘rules touching that right intention which we are to preserve in all our outward
+                    actions’; and (3) ‘the main hindrances of this religion’. He then adds a
+                    clarifying summary: ‘In the fifth chapter [of St. Matthew] our great Teacher…has
+                    laid before us those <hi rend="italic">dispositions of the soul</hi> which
+                    constitute real Christianity…. In the sixth [chapter] he has shown how all our
+                        <hi rend="italic">actions</hi>…may be made holy, and good, and acceptable to
+                    God, by a pure and holy intention…. In <pb n="468"/>the former part of [ch. 7]
+                    he points out the most common and fatal hindrances of this holiness; in the
+                    latter [part] he exhorts us, by various motives, to break through all [such
+                    hindrances] and secure that prize of our high calling [of God in Christ Jesus]’
+                    (cf. Phil. 3:14).</p>
+                <p>The thirteen discourses are divided almost equally over the three chapters of St.
+                    Matthew: five for chapter five, four each for six and seven. Of the first five,
+                    Discourse I is devoted to the first two Beatitudes; Discourse II to Beatitudes
+                    three through five (with a hymn to love based on 1 Cor. 13); Discourse III to
+                    the remainder of the Beatitudes; Discourse IV turns to Christianity as ‘a social
+                    religion’ in which inward holiness (our love of God) prompts outward holiness
+                    (love of neighbour); Discourse V is a balancing of law <hi rend="italic">and</hi> gospel. Discourses VI-IX are based on chapter six: VI to the
+                    problems of purity and holiness of intention (to the ‘works of piety and of
+                    mercy’); VII to fasting; VIII to a denunciation of greed and surplus
+                    accumulation; IX to the mutually exclusive services of God and Mammon.
+                    Discourses X-XIII turn to various hindrances to holy living and to their
+                    avoidance: X to ‘judging’ (contrary to love), ‘intemperate zeal’, ‘neglect of
+                    prayer’, ‘neglect of charity’; XI to the noxious influences of ill-example and
+                    ill-advice with which the world deludes us; XII to false prophets and unedifying
+                    preachers (and yet also our duties to attend church nonetheless and to avail
+                    ourselves of all means of grace); XIII is an inevitable comment on the parable
+                    of the houses built on sand and rock. Discourse XII was also published
+                    separately in the same year that it appeared in <hi rend="italic">SOSO</hi>, III
+                    (1750), under the title, ‘A Caution Against False Prophets. A Sermon on Matt.
+                    vii. 15-20. Particularly recommended to the People Called Methodists’. This went
+                    through seven editions during Wesley’s lifetime. For a stemma delineating the
+                    publishing history of that sermon (‘collected’ and ‘separate’) and a list of
+                    variant readings, see Appendix, ‘Wesley’s Text’, Vol. IV, see also <hi rend="italic">Bibliog</hi>, Nos. 130 and 13o.i.</p>
+                <p>Obviously there is no interest, in any of these sermons, in critical textual
+                    problems or in the historical context. Everywhere it is assumed that in St.
+                    Matthew’s text we are dealing with divine <hi rend="italic">ipsissima
+                    verba</hi>—i.e., with a direct address from ὁ ὤν, ‘the self-existent, the
+                    Supreme, the God who is over all, blessed for ever’ (§9 below). The Sermon on
+                    the Mount, in Wesley’s view, is the only Gospel passage where Christ designed
+                    ‘to lay down at once the whole plan of his religion, to give us a full prospect
+                    of Christianity’. What matters most in our reading, therefore, is an awareness
+                    of Wesley’s sense of the wholeness of the message he is interpreting, of his
+                    conviction of the honest integration of an evangel profoundly ethical with an
+                    ethic that is also vividly <pb n="469"/>evangelical. Maybe more than anywhere
+                    else in <hi rend="italic">SOSO</hi> this particular bloc displays Wesley’s
+                    distinctive concern for integration and balance—between the faith that justifies
+                    and the faith that works by love.</p>
+            </introduction>
+            <pb n="510"/>
+            <head>Upon our Lord’s Sermon on the Mount,<lb/>Discourse the Third</head>
+            <epigraph>
+                <p>Matthew 5:8-12</p>
+                <p n="">
+                    <hi rend="italic">Blessed are the pure in heart: for they shall see
+                        God.</hi>
+                </p>
+                <p n="">
+                    <hi rend="italic">Blessed are the peacemakers: for they shall be called the
+                        children of God.</hi>
+                </p>
+                <p n="">
+                    <hi rend="italic">Blessed are they which are persecuted for righteousness’
+                        sake: for theirs is the kingdom of heaven.</hi>
+                </p>
+                <p n="">
+                    <hi rend="italic">Blessed are ye when men shall revile you, and persecute
+                        you, and shall say all manner of evil against you falsely for my
+                    sake.</hi>
+                </p>
+                <p n="">
+                    <hi rend="italic">Rejoice, and be exceeding glad; for great is your reward
+                        in heaven: for so persecuted they the prophets which were before
+                    you.</hi>
+                </p>
+            </epigraph>
+            <div type="section" n="1">
+                <p n="1">I. 1. How excellent things are spoken of the love of our neighbour! It is
+                    ‘the fulfilling of the law’,<note place="foot" xml:id="ftn1" n="1">
+                        <p rend="footnote text">Rom. 13:10.</p>
+                    </note> ‘the end of the
+                        commandment’.<note place="foot" xml:id="ftn2" n="2">
+                        <p rend="footnote text">1 Tim. 1:5.</p>
+                    </note> Without this all we have, all we do, all we
+                    suffer, is of no value in the sight of God. But it is that love of our neighbour
+                    which springs from the love of God; otherwise itself is nothing worth. It
+                    behoves us therefore to examine well upon what foundation our love of our
+                    neighbour stands: whether it is really built upon the love of God; whether ‘we’
+                    do ‘love him because he first loved us;’<note place="foot" xml:id="ftn3" n="3">
+                        <p rend="footnote text">1 John 4:19.</p>
+                    </note> whether we are ‘pure in
+                        heart’.<note place="foot" xml:id="ftn4" n="4">
+                        <p rend="footnote text">Matt.
+                            5:8.</p>
+                    </note> For this is the foundation which shall never be moved:
+                    ‘Blessed are the pure in heart: for they shall see God.’</p>
+                <p n="2">2. ‘The pure in heart’ are they whose hearts God hath ‘purified even as he
+                    is pure’;<note place="foot" xml:id="ftn5" n="5">
+                        <p rend="footnote text">Cf. 1
+                            John 3:3.</p>
+                    </note> who are purified through faith in the blood of
+                    Jesus from every unholy affection; who, being ‘cleansed from all filthiness of
+                    flesh and spirit, perfect holiness in the’ loving ‘fear of God’.<note place="foot" xml:id="ftn6" n="6">
+                        <p rend="footnote text">Cf. 2 Cor.
+                        7:1.</p>
+                    </note> They are, through the power of his grace, purified from
+                    pride by the deepest poverty of spirit; from anger, from every <pb n="511"/>unkind or turbulent passion, by meekness and gentleness; from every desire but
+                    to please and enjoy God, to know and love him more and more, by that hunger and
+                    thirst after righteousness which now engrosses their whole soul:<note place="foot" xml:id="ftn7" n="7">
+                        <p rend="footnote text">Cf. Blackall,
+                            Discourse IX, <hi rend="italic">Works</hi>, I.79: ‘By heart it is most
+                            obvious to understand the soul with all its faculties, the
+                            understanding, the will and the affections…. The “pure in heart” are
+                            they who…as strictly forbear all <hi rend="italic">inward</hi> acts of
+                            sin…as they would be to forbear and avoid the open practice of
+                            wickedness….’ See also, Hammond, <hi rend="italic">Practical
+                                Catechism</hi>, pp. 99-100, for a similar view and another Anglican
+                            source far Wesley’s ideas about holy living.</p>
+                    </note> so that now they
+                    love the Lord their God with all their heart, and with all their soul, and mind,
+                    and strength.<note place="foot" xml:id="ftn8" n="8">
+                        <p rend="footnote text">See
+                            Mark 12:30; Luke 10:27.</p>
+                    </note>
+                </p>
+                <p n="3">3. But how little has this ‘purity of heart’ been regarded by the false
+                    teachers of all ages! They have taught men barely to abstain from such outward
+                    impurities as God hath forbidden by name. But they did not strike at the heart;
+                    and by not guarding against, they in effect countenanced inward corruptions.</p>
+                <p>A remarkable instance of this our Lord has given us in the following words: ‘Ye
+                    have heard that it was said by them of old time, Thou shalt not commit
+                        adultery.’<hi rend="endnote_reference">
+                        <note place="end">
+                            <p rend="endnote text">[Matt. 5,] ver. 27.</p>
+                        </note>
+                    </hi> And in
+                    explaining this those blind leaders of the blind<note place="foot" xml:id="ftn9" n="9">
+                        <p rend="footnote text">Matt. 15:14.</p>
+                    </note> only insist on men’s
+                    abstaining from the outward act. ‘But I say unto you, whosoever looketh on a
+                    woman to lust after her hath committed adultery with her already in his
+                        heart.’<hi rend="endnote_reference">
+                        <note place="end">
+                            <p rend="endnote text">Ver. 28.</p>
+                        </note>
+                    </hi> For God requireth truth in the inward
+                        parts.<note place="foot" xml:id="ftn10" n="10">
+                        <p rend="footnote text">See
+                            Ps. 51:6 (BCP).</p>
+                    </note> He searcheth the heart and trieth the
+                        reins.<note place="foot" xml:id="ftn11" n="11">
+                        <p rend="footnote text">See
+                            Ps. 7:10; see Jer. 11:20.</p>
+                    </note> And ‘if thou incline unto iniquity
+                    with thy heart, the Lord will not hear thee.’<note place="foot" xml:id="ftn12" n="12">
+                        <p rend="footnote text">Cf. Ps. 66:16 (BCP).</p>
+                    </note>
+                </p>
+                <p n="4">4. And God admits no excuse for retaining anything which is an occasion of
+                    impurity. Therefore ‘if thy right eye offend thee, pluck it out and cast it from
+                    thee; for it is profitable for thee that one of thy members should perish, and
+                    not that thy whole body should be cast into hell.’<hi rend="endnote_reference">
+                        <note place="end">
+                            <p rend="endnote text">Ver. 29.</p>
+                        </note>
+                    </hi> If
+                    persons as dear to thee as thy right eye be an occasion of thy thus offending
+                    God, a means of exciting unholy desire in thy soul, delay not—forcibly separate
+                    from them. ‘And if thy right hand offend thee, cut it off, and cast it from
+                    thee; for it is profitable for thee that one of thy members should perish, and
+                    not that thy whole body should be cast into hell.’<hi rend="endnote_reference">
+                        <note place="end">
+                            <p rend="endnote text">Ver. 30.</p>
+                        </note>
+                    </hi> If
+                    any who <pb n="512"/>seem as necessary to thee as thy right hand be an occasion
+                    of sin, of impure desire, even though it were never to go beyond the heart,
+                    never to break out in word or action, constrain thyself to an entire and final
+                    parting: cut them off at a stroke; give them up to God. Any loss, whether of
+                    pleasure, or substance, or friends, is preferable to the loss of thy soul.</p>
+                <p>Two steps only it may not be improper to take before such an absolute and final
+                    separation. First, try whether the unclean spirit may not be driven out by
+                    fasting and prayer,<note place="foot" xml:id="ftn13" n="13">
+                        <p rend="footnote text">Matt. 17:21; Mark 9:29.</p>
+                    </note> and by carefully
+                    abstaining from every action and word and look which thou hast found to be an
+                    occasion of evil. Secondly, if thou art not by this means delivered, ask counsel
+                    of him that watcheth over thy soul,<note place="foot" xml:id="ftn14" n="14">
+                        <p rend="footnote text">Note the assumption here that every Christian
+                            should have his or her own ‘spiritual director’.</p>
+                    </note> or at least
+                    of some who have experience in the ways of God, touching the time and manner of
+                    that separation. But confer not with flesh and blood,<note place="foot" xml:id="ftn15" n="15">
+                        <p rend="footnote text">Gal. 1:16.</p>
+                    </note> lest
+                    thou be ‘given up to a strong delusion to believe a lie’.<note place="foot" xml:id="ftn16" n="16">
+                        <p rend="footnote text">Cf. 2 Thess.
+                    2:11.</p>
+                    </note>
+                </p>
+                <p n="5">5. Nor may marriage itself, holy and honourable as it is, be used as a
+                    pretence for giving a loose to our desires.<note place="foot" xml:id="ftn17" n="17">
+                        <p rend="footnote text">Cf. No. 138A, ‘On Dissimulation’, II and
+                            n.</p>
+                    </note> Indeed ‘It hath been said, Whosoever will put away his
+                    wife, let him give her a writing of divorcement.’ And then all was well, though
+                    he alleged no cause but that he did not like her, or liked another better. ‘But
+                    I say unto you, That whosoever shall put away his wife, saving for the case of
+                    fornication’ (that is adultery, the word πορνεία signifying unchastity in
+                    general, either in the married or unmarried state) ‘causeth her to commit
+                    adultery’ if she marry again; ‘and whosoever shall marry her that is put away
+                    committeth adultery.’<hi rend="endnote_reference">
+                        <note place="end">
+                            <p rend="endnote text">Ver. 31-32.</p>
+                        </note>
+                    </hi>
+                </p>
+                <p>All polygamy is clearly forbidden in these words, wherein our Lord expressly
+                    declares that for any woman who has a husband alive, to marry again is adultery.
+                    By parity of reason it is adultery for any man to marry again so long as he has
+                    a wife alive. Yea, although they were divorced—unless that divorce had been for
+                    the cause of adultery. In that only case there is no Scripture which forbids to
+                    marry again.<note place="foot" xml:id="ftn18" n="18">
+                        <p rend="footnote text">A
+                            point long debated by Anglican casuists; cf. More and Cross, <hi rend="italic">Anglicanism</hi>, pp. 661-66. The governing canon was
+                            No. 107 of 1604 (<hi rend="italic">Constitutions and Canons
+                                Ecclesiastical</hi>, E. Cardwell, <hi rend="italic">Synodalia</hi>,
+                            I.307-8); it would seem to prevent remarriage of divorced persons in any
+                            case. Lancelot Andrewes had declared against remarriage,
+                            ‘notwithstanding [one party] hath profaned marriage with another’; cf.
+                                <hi rend="italic">A Discourse…Against Second Marriage, After
+                                Sentence of Divorce…</hi> (1601), in <hi rend="italic">Minor
+                                Works</hi> (in LACT), pp 106-7. Hammond, in his <hi rend="italic">Practical Catechism</hi>, II. vii, had made no allowance for
+                            remarriage after divorce, even ‘in the case of fornication’. But Bishops
+                            John Cosin and Joseph Hall had allowed for the remarriage of the
+                            innocent party in the case of a divorce on the grounds of adultery; cf.
+                            Cosin’s <hi rend="italic">Works</hi> (in LACT), IV.489-93, and Hall, <hi rend="italic">Works</hi> (ed. Peter Hall, 1837),
+                    VII.474.</p>
+                    </note>
+                </p>
+                <p n="6">
+                    <pb n="513"/>6. Such is the purity of heart which God requires, and works
+                    in those who believe on the Son of his love. And ‘blessed’ are they who are thus
+                    ‘pure in heart; for they shall see God’. He will ‘manifest himself unto them’,
+                    not only ‘as he doth not unto the world’,<note place="foot" xml:id="ftn19" n="19">
+                        <p rend="footnote text">Cf. John 14:22.</p>
+                    </note> but as he doth not
+                    always to his own children. He will bless them with the clearest communications
+                    of his Spirit, the most intimate ‘fellowship with the Father and with the
+                        Son’.<note place="foot" xml:id="ftn20" n="20">
+                        <p rend="footnote text">Cf. 1
+                            John 1:3.</p>
+                    </note> He will cause his presence to go continually before
+                    them, and the light of his countenance to shine upon them.<note place="foot" xml:id="ftn21" n="21">
+                        <p rend="footnote text">See Ps. 4:6, etc.</p>
+                    </note>
+                    It is the ceaseless prayer of their heart, ‘I beseech thee, show me thy
+                        glory:’<note place="foot" xml:id="ftn22" n="22">
+                        <p rend="footnote text">Exod. 33:18.</p>
+                    </note> and they have the petition they ask of him.
+                    They now see him by faith (the veil of the flesh being made, as it were,
+                        transparent<note place="foot" xml:id="ftn23" n="23">
+                        <p rend="footnote text">Cf. No. 10, ‘The Witness of the Spirit, I’, I.12 and n.</p>
+                    </note>)
+                    even in these his lowest works, in all that surrounds them, in all that God has
+                    created and made. They see him in the height above, and in the depth beneath;
+                    they see him filling all in all.<note place="foot" xml:id="ftn24" n="24">
+                        <p rend="footnote text">See Eph. 1:23.</p>
+                    </note>
+                </p>
+                <p>The pure in heart see all things full of God.<note place="foot" xml:id="ftn25" n="25">
+                        <p rend="footnote text">Aristotle, <hi rend="italic">De Anima</hi>,
+                            I.5, 411a, ll. 9-10, attributes this idea to the philosopher Thales; cf.
+                                <hi rend="italic">The Basic Works of Aristotle</hi>, tr. by Richard
+                            McKeon (New York, Random House, 1941), p. 553. Cicero, <hi rend="italic">De Legibus</hi>, II. xi. 26, also says that it was Thales’s
+                            opinion, ‘<hi rend="italic">Homines existimare oportere deos omnia
+                                cernere, deorum omnia esse plena</hi>’ (‘Men ought to believe that
+                            everything they see is full of gods’). Cf. also Virgil, <hi rend="italic">Eclogues</hi>, iii.60: ‘<hi rend="italic">Jovis omnia
+                                plena</hi>’, which Wesley quotes exactly in No. 118, ‘On the
+                            Omnipresence of God’, II.3. Cf. also, I.11, below; and No. 69, ‘The
+                            Imperfection of Human Knowledge’, I.2. See also Q. Aurelius Symmachus,
+                                <hi rend="italic">Epistularum ad Diversos</hi>, Lib. X (Pareus edn.,
+                            1617, p. 441): <hi rend="italic">Omnia quidem Deo plena sunt…</hi>
+                            [Seeck edn., 1888, pp. 281-82].</p>
+                    </note> They see him in the firmament
+                    of heaven, in the moon walking in brightness,<note place="foot" xml:id="ftn26" n="26">
+                        <p rend="footnote text">Job 31:26.</p>
+                    </note> in the sun when he
+                    rejoiceth as a giant to run his course.<note place="foot" xml:id="ftn27" n="27">
+                        <p rend="footnote text">See Ps. 19:5 (BCP).</p>
+                    </note> They see him
+                    ‘making the clouds his chariots, and walking upon the wings of the wind’.<note place="foot" xml:id="ftn28" n="28">
+                        <p rend="footnote text">Cf. Ps.
+                            104:3.</p>
+                    </note> They see him ‘preparing rain for the earth’,<note place="foot" xml:id="ftn29" n="29">
+                        <p rend="footnote text">Cf. Ps.
+                            147:8.</p>
+                    </note> ‘and blessing the increase of it’;<note place="foot" xml:id="ftn30" n="30">
+                        <p rend="footnote text">Cf. Ps. 65:11
+                        (BCP).</p>
+                    </note> ‘giving grass for the cattle, and green herb for the use
+                    of man’.<note place="foot" xml:id="ftn31" n="31">
+                        <p rend="footnote text">Cf. Ps.
+                            104:14.</p>
+                    </note> They see the Creator of all wisely <pb n="514"/>
+                    governing all, and ‘upholding all things by the word of his power’.<note place="foot" xml:id="ftn32" n="32">
+                        <p rend="footnote text">Heb.
+                        1:3.</p>
+                    </note> ‘O Lord, our Governor, how excellent is thy name in all the
+                        world!’<note place="foot" xml:id="ftn33" n="33">
+                        <p rend="footnote text">Ps.
+                            8:1, 9 (BCP).</p>
+                    </note>
+                </p>
+                <p n="7">7. In all his providences relating to themselves, to their souls or bodies,
+                    the pure in heart do more particularly see God. They see his hand ever over them
+                    for good; giving them all things in weight, and measure, numbering the hairs of
+                    their head,<note place="foot" xml:id="ftn34" n="34">
+                        <p rend="footnote text">See
+                            Matt. 10:30.</p>
+                    </note> making a hedge round about them and all that
+                    they have,<note place="foot" xml:id="ftn35" n="35">
+                        <p rend="footnote text">See
+                            Job 1:10.</p>
+                    </note> and disposing all the circumstances of their life
+                    according to the depth both of his wisdom and mercy.</p>
+                <p n="8">8. But in a more especial manner they see God in his ordinances.<note place="foot" xml:id="ftn36" n="36">
+                        <p rend="footnote text">Cf. No. 16, ‘The
+                            Means of Grace’.</p>
+                    </note> Whether they appear in the great
+                    congregation to ‘pay him the honour due unto his name, and worship him in the
+                    beauty of holiness’;<note place="foot" xml:id="ftn37" n="37">
+                        <p rend="footnote text">Cf. Ps. 96:8, 9 (BCP).</p>
+                    </note> or ‘enter into
+                    their closets’ and there pour out their souls before their ‘Father which is in
+                        secret’;<note place="foot" xml:id="ftn38" n="38">
+                        <p rend="footnote text">Matt. 6:6.</p>
+                    </note> whether they search the oracles of God, or hear
+                    the ambassadors of Christ proclaiming glad tidings of salvation; or by eating of
+                    that bread and drinking of that cup<note place="foot" xml:id="ftn39" n="39">
+                        <p rend="footnote text">See 1 Cor. 11:28.</p>
+                    </note> ‘show forth his death
+                    till he come’<note place="foot" xml:id="ftn40" n="40">
+                        <p rend="footnote text">1
+                            Cor. 11:26.</p>
+                    </note> in the clouds of heaven.<note place="foot" xml:id="ftn41" n="41">
+                        <p rend="footnote text">Matt. 26:64; Mark
+                        14:62.</p>
+                    </note> In all these his appointed ways they find such a near
+                    approach as cannot be expressed. They see him, as it were, face to face, and
+                    ‘talk with him as a man talking with his friend’<note place="foot" xml:id="ftn42" n="42">
+                        <p rend="footnote text">Cf. Exod. 33:11.</p>
+                    </note>—a
+                    fit preparation for those mansions above wherein they shall ‘see him as he
+                        is’.<note place="foot" xml:id="ftn43" n="43">
+                        <p rend="footnote text">1 John
+                            3:2.</p>
+                    </note>
+                </p>
+                <p n="9">9. But how far were they from seeing God, who having ‘heard that it had
+                    been said by them of old time, Thou shalt not forswear thyself, but shalt
+                    perform unto the Lord thine oaths’,<hi rend="endnote_reference">
+                        <note place="end">
+                            <p rend="endnote text">Ver. 33.</p>
+                        </note>
+                    </hi> interpreted
+                    it thus: thou shalt not forswear thyself when thou swearest by the Lord Jehovah;
+                    thou ‘shalt perform unto the Lord <hi rend="italic">these</hi> thine oaths’—but
+                    as to other oaths, he regardeth them not.</p>
+                <p>So the Pharisees taught. They not only allowed all manner of swearing in common
+                    conversation; but accounted even forswearing a little thing, so they had not
+                    sworn by the peculiar name of God.</p>
+                <p>
+                    <pb n="515"/>But our Lord here absolutely forbids all common swearing as well as
+                    all false swearing; and shows the heinousness of both by the same awful
+                    consideration, that every creature is God’s, and he is everywhere present, in
+                    all, and over all.</p>
+                <p>‘I say unto you, Swear not at all; neither by heaven, for it is God’s throne’<hi rend="endnote_reference">
+                        <note place="end">
+                            <p rend="endnote text">Ver.
+                                34.</p>
+                        </note>
+                    </hi>—and therefore this is the same as to swear by
+                    him who sitteth upon the circle of the heavens<note place="foot" xml:id="ftn44" n="44">
+                        <p rend="footnote text">See Isa. 40:22.</p>
+                    </note>—‘nor by the earth,
+                    for it is his footstool,’ and he is as intimately present in earth as heaven;
+                    ‘neither by Jerusalem, for it is the city of the great King’,<hi rend="endnote_reference">
+                        <note place="end">
+                            <p rend="endnote text">Ver.
+                                35.</p>
+                        </note>
+                    </hi> and ‘God is well known in her palaces.’<note place="foot" xml:id="ftn45" n="45">
+                        <p rend="footnote text">Ps. 48:2
+                            (BCP).</p>
+                    </note> ‘Neither shalt thou swear by thy head, because thou
+                    canst not make one hair white or black;’<hi rend="endnote_reference">
+                        <note place="end">
+                            <p rend="endnote text">Ver. 36.</p>
+                        </note>
+                    </hi> because even
+                    this, it is plain, is not thine but God’s, the sole disposer of all in heaven
+                    and earth. ‘But let your communication’—your conversation, your discourse with
+                    each other—‘be, Yea, yea; Nay, nay’—a bare serious affirming or denying—‘for
+                    whatsoever is more than these cometh of evil’<hi rend="endnote_reference">
+                        <note place="end">
+                            <p rend="endnote text">Ver. 37.</p>
+                        </note>
+                    </hi>—ἐκ τοῦ
+                    πονηροῦ ἐστιν, (‘is of the evil one’,<note place="foot" xml:id="ftn46" n="46">
+                        <p rend="footnote text">Cf. No. 12, ‘The Witness of Our Own Spirit’, §10
+                            and n.</p>
+                    </note> proceedeth from the devil and is a mark of his
+                    children).</p>
+                <p n="10">10. That our Lord does not here forbid the ‘swearing in judgment and
+                        truth’<note place="foot" xml:id="ftn47" n="47">
+                        <p rend="footnote text">Cf.
+                            Thirty-nine Articles, Art. XXXIX, ‘Of a Christian Man’s Oath’, to which
+                            Wesley subscribed so wholeheartedly that he reproduced it, intact, in
+                            his later abridgement of the Articles. The issue here had been posed by
+                            the Anabaptist’s stubborn refusal to take such oaths, chiefly on the
+                            grounds of this New Testament prohibition. See Williams, <hi rend="italic">The Radical Reformation</hi>, pp. 125, 185, 194 ff.,
+                            594, 785; for the later controversy in England over this article itself,
+                            cf. Barbour and Roberts, <hi rend="italic">Early Quaker Writings</hi>,
+                            p. 354, and the ‘testimonies against the oath’ by George Fox (p. 406)
+                            and William Penn (pp. 448-50). But see also the section on ‘Oaths’ in
+                            More and Cross, <hi rend="italic">Anglicanism</hi>, pp. 672-76, where
+                            Tillotson, Taylor, and Beveridge are quoted in support of the position
+                            here taken by Wesley.</p>
+                    </note> when we are required so to do by a
+                    magistrate may appear: (1). From the occasion of this part of his discourse, the
+                    abuse he was here reproving, which was false swearing and common swearing, the
+                    swearing before a magistrate being quite out of the question. (2) From the very
+                    words wherein he forms the general conclusion, ‘Let your communication’, or
+                    discourse, ‘be, Yea, yea; Nay, nay.’ (3). From his own example; <pb n="516"/>for
+                    he answered himself upon oath when required by a magistrate. When ‘the High
+                    Priest said unto him, I adjure thee by the living God that thou tell us whether
+                    thou be the Christ, the Son of God,’ Jesus immediately answered in the
+                    affirmative, ‘Thou hast said’ (i.e., the truth). ‘Nevertheless’ (or rather,
+                        ‘Moreover’<note place="foot" xml:id="ftn48" n="48">
+                        <p rend="footnote text">Wesley’s translation in <hi rend="italic">Notes</hi> on Matt. 26:63-64;
+                            but cf. Poole, <hi rend="italic">Annotations</hi>, for Jesus’s reply to
+                            Caiaphas, ‘Thou hast said the Truth…,’ and Henry’s comment, ‘It is as
+                            thou hast said’ (<hi rend="italic">Exposition</hi>).</p>
+                    </note>) ‘I say
+                    unto you, Hereafter shall ye see the Son of man sitting on the right hand of
+                    power, and coming in the clouds of heaven.’<hi rend="endnote_reference">
+                        <note place="end">
+                            <p rend="endnote text">Matt. 26:63-64.</p>
+                        </note>
+                    </hi> (4).
+                    From the example of God, even the Father, who ‘willing the more abundantly to
+                    show unto the heirs of promise the immutability of his counsel, confirmed it by
+                    an oath.’<hi rend="endnote_reference">
+                        <note place="end">
+                            <p rend="endnote text">Heb. 6:17.</p>
+                        </note>
+                    </hi> (5). From the example of St. Paul, who
+                    we ‘think had the Spirit of God’,<note place="foot" xml:id="ftn49" n="49">
+                        <p rend="footnote text">Cf. 1 Cor. 7:40.</p>
+                    </note> and well understood the
+                    mind of his Master. ‘God is my witness’, saith he to the Romans, ‘that without
+                    ceasing I make mention of you always in my prayers;’<hi rend="endnote_reference">
+                        <note place="end">
+                            <p rend="endnote text">Rom. 1:9.</p>
+                        </note>
+                    </hi> to
+                    the Corinthians, ‘I call God to record upon my soul, that to spare you I came
+                    not as yet unto Corinth;’<hi rend="endnote_reference">
+                        <note place="end">
+                            <p rend="endnote text">2 Cor. 1:23.</p>
+                        </note>
+                    </hi> and to the
+                    Philippians, ‘God is my record, how greatly I long after you in the bowels of
+                    Jesus Christ.’<hi rend="endnote_reference">
+                        <note place="end">
+                            <p rend="endnote text">Phil. 1:8.</p>
+                        </note>
+                    </hi> (Hence it undeniably
+                    appears that if the Apostle knew the meaning of his Lord’s words, they do not
+                    forbid swearing on weighty occasions, even to one another—how much less before a
+                    magistrate!) And lastly, from that assertion of the great Apostle concerning
+                    solemn swearing in general (which it is impossible he could have mentioned
+                    without any touch of blame if his Lord had totally forbidden it): ‘Men verily
+                    swear by the greater’ (by one greater than themselves), ‘and an oath for
+                    confirmation is to them the end of all strife.’<hi rend="endnote_reference">
+                        <note place="end">
+                            <p rend="endnote text">Heb. 6:16.</p>
+                        </note>
+                    </hi>
+                </p>
+                <p n="11">11. But the great lesson which our blessed Lord inculcates here, and which
+                    he illustrates by this example, is that God is in all things,<note place="foot" xml:id="ftn50" n="50">
+                        <p rend="footnote text">Cf. I.6, above, and
+                        n.</p>
+                    </note> and that we are to see the Creator in the glass of every
+                        creature;<note place="foot" xml:id="ftn51" n="51">
+                        <p rend="footnote text">This will be the central theme of Wesley’s <hi rend="italic">Survey of
+                                the Wisdom of God…</hi> in its three successive edns. (1763, 1770,
+                            1777).</p>
+                    </note> that we should use and look upon nothing as separate
+                        <pb n="517"/>from God, which indeed is a kind of practical atheism;<note place="foot" xml:id="ftn52" n="52">
+                        <p rend="footnote text">A phrase from
+                            John Norris, ‘Concerning Practical Atheism’, in <hi rend="italic">Practical Discourses</hi>, IV.100-24. Wesley habitually used
+                            ‘practical atheism’, ‘idolatry’, and ‘dissipation’ as working synonyms.
+                            Cf. below, III.4, as well as Nos. 41, <hi rend="italic">Wandering
+                                Thoughts</hi>, III.1; 44, <hi rend="italic">Original Sin</hi>, II.7;
+                            69, ‘The Imperfection of Human Knowledge’, III.2; 108, ‘On Riches’,
+                            II.1; 119, ‘Walking by Sight and Walking by Faith’, §20; 120, ‘The Unity
+                            of the Divine Being’, §§19, 20; 127, ‘On the Wedding Garment’, §12; 128,
+                            ‘The Deceitfulness of the Human Heart’, I.3, 4; and 130, ‘On Living
+                            without God’, §§1, 6, 7. Cf. also Nos. 79, ‘On Dissipation’, §1; and 78,
+                            ‘Spiritual Idolatry’. See also Charles Hickman, <hi rend="italic">Sermon
+                                Before the Queen at Whitehall, Sunday, October 2, 1692</hi>, p. 7:
+                            ‘When men have conquered their conscience…they may for a while enjoy
+                            their sins in peace and live as if there were no God in the
+                        world.’</p>
+                    </note> but with a true magnificence of thought survey heaven and
+                    earth and all that is therein as contained by God in the hollow of his hand, who
+                    by his intimate presence holds them all in being, who pervades and actuates the
+                    whole created frame, and is in a true sense the soul of the universe.<note place="foot" xml:id="ftn53" n="53">
+                        <p rend="footnote text">
+                            <hi rend="italic">Viz.</hi>, the ‘<hi rend="italic">anima mundi</hi>’, one of the
+                            oldest notions of both Platonists and Stoics; it will presently be
+                            re-echoed by Wordsworth in <hi rend="italic">The Prelude</hi>,
+                            I.401-4:</p>
+                        <lg>
+                            <l>Wisdom and Spirit of the Universe!</l>
+                            <l>Thou Soul that art the Eternity of thought!</l>
+                            <l>And giv’st to forms and images a breath</l>
+                            <l>And everlasting motion!</l>
+                        </lg>
+                    </note>
+                </p>
+            </div>
+            <div type="section">
+                <p n="1">II. 1. Thus far our Lord has been more directly employed in teaching the
+                    religion of the heart. He has shown what Christians are to be. He proceeds to
+                    show what they are to do also: how inward holiness is to exert itself in our
+                    outward conversation. ‘Blessed’, saith he, ‘are the peacemakers; for they shall
+                    be called the children of God.’<note place="foot" xml:id="ftn54" n="54">
+                        <p rend="footnote text">Matt. 5:9.</p>
+                    </note>
+                </p>
+                <p n="2">2. ‘The peacemakers’—the word in the original is οἱ εἰρηνοποιοί. It is well
+                    known that εἰρήνη in the sacred writings implies all manner of good—every
+                    blessing that relates either to the soul or the body, to time or eternity.
+                    Accordingly, when St. Paul in the titles of his epistles wishes ‘grace and
+                    peace’ to the Romans or the Corinthians it is as if he had said, ‘As a fruit of
+                    the free, undeserved love and favour of God, may you enjoy all blessings,
+                    spiritual and temporal, all the good things “which God hath prepared for them
+                    that love him.”’<note place="foot" xml:id="ftn55" n="55">
+                        <p rend="footnote text">1 Cor. 2:9.</p>
+                    </note>
+                </p>
+                <p n="3">3. Hence we may easily learn in how wide a sense the term ‘peacemakers’ is
+                    to be understood. In its literal meaning it implies those lovers of God and man
+                    who utterly detest and abhor all strife and debate, all variance and contention;
+                    and accordingly <pb n="518"/>labour with all their might either to prevent this
+                    fire of hell from being kindled, or when it is kindled from breaking out, or
+                    when it is broke out from spreading any farther.<note place="foot" xml:id="ftn56" n="56">
+                        <p rend="footnote text">In this entire section
+                            (II.2-7) Wesley continues the hermeneutical tradition reflected in
+                            Blackall, Discourse XII, <hi rend="italic">Works</hi>, I.105-14, and in
+                            Hammond, <hi rend="italic">Practical Catechism</hi>, pp.
+                        101-3.</p>
+                    </note> They endeavour to calm the stormy spirits of men, to quiet
+                    their turbulent passions, to soften the minds of contending parties, and if
+                    possible reconcile them to each other. They use all innocent arts, and employ
+                    all their strength, all the talents which God has given them, as well to
+                    preserve peace where it is as to restore it where it is not. It is the joy of
+                    their heart to promote, to confirm, to increase mutual goodwill among men, but
+                    more especially among the children of God, however distinguished by things of
+                    smaller importance; that as they have all ‘one Lord, one faith’, as they are all
+                    ‘called in one hope of their calling’, so they may all ‘walk worthy of the
+                    vocation wherewith they are called’: ‘with all lowliness and meekness, with
+                    long-suffering, forbearing one another in love; endeavouring to keep the unity
+                    of the Spirit in the bond of peace.’<note place="foot" xml:id="ftn57" n="57">
+                        <p rend="footnote text">Eph. 4:1-5.</p>
+                    </note>
+                </p>
+                <p n="4">4. But in the full extent of the word a ‘peacemaker’ is one that as he hath
+                    opportunity ‘doth good unto all men’;<note place="foot" xml:id="ftn58" n="58">
+                        <p rend="footnote text">Cf. Gal. 6:10. Cf. John Norris, <hi rend="italic">Practical Discourses</hi>, I.126: ‘The “peacemakers” are persons of
+                            “peaceable dispositions”. And this requires: “First, that the
+                            [peacemaker] be free from all inordinate self-love; it being impossible
+                            that he who prefers his own little private concerns before the public
+                            interest should be at peace with the public when that tender part comes
+                            once to be touched. No, such an one will balance self against the world,
+                            will not care what becomes of the public when it stands in competition;
+                            but will embroil all the world in war and mischief, if he can, for the
+                            least self-advantage…”.’</p>
+                    </note> one that being filled with the love
+                    of God and of all mankind cannot confine the expressions of it to his own
+                    family, or friends, or acquaintance, or party; or to those of his own opinions;
+                    no, nor those who are partakers of like precious faith;<note place="foot" xml:id="ftn59" n="59">
+                        <p rend="footnote text">See 2 Pet. 1:1.</p>
+                    </note> but
+                    steps over all these narrow bounds that he may do good to every man; that he may
+                    some way or other manifest his love to neighbours and strangers, friends and
+                    enemies. He doth good to them all as he hath opportunity, that is, on every
+                    possible occasion; ‘redeeming the time’<note place="foot" xml:id="ftn60" n="60">
+                        <p rend="footnote text">Eph. 5:16; Col. 4:5.</p>
+                    </note> in order
+                    thereto, ‘buying up every opportunity’,<note place="foot" xml:id="ftn61" n="61">
+                        <p rend="footnote text">Cf. Gal. 6:10.</p>
+                    </note> improving every hour,
+                    losing no moment wherein he may profit another. He does good, not of one
+                    particular kind, but good in general: in every possible way, employing herein
+                    all his talents of every kind, all his powers and faculties of body and soul,
+                    all his fortune, his interest, his <pb n="519"/>reputation; desiring only that
+                    when his Lord cometh he may say, ‘Well done, good and faithful servant!’<note place="foot" xml:id="ftn62" n="62">
+                        <p rend="footnote text">Matt.
+                        25:23.</p>
+                    </note>
+                </p>
+                <p n="5">5. He doth good, to the uttermost of his power, even to the bodies of all
+                    men. He rejoices to ‘deal his bread to the hungry’, and to ‘cover the naked with
+                    a garment’.<note place="foot" xml:id="ftn63" n="63">
+                        <p rend="footnote text">Cf.
+                            Isa. 58:7; Ezek. 18:7, 16.</p>
+                    </note> Is any a stranger? He takes him
+                    in, and relieves him according to his necessities. Are any sick or in prison? He
+                    visits them, and administers such help as they stand most in need of. And all
+                    this he does, not as unto man, but remembering him that hath said, ‘Inasmuch as
+                    ye have done it unto one of the least of these my brethren, ye have done it unto
+                        me.’<note place="foot" xml:id="ftn64" n="64">
+                        <p rend="footnote text">Matt.
+                            25:40.</p>
+                    </note>
+                </p>
+                <p n="6">6. How much more does he rejoice if he can do any good to the soul of any
+                    man! This power indeed belongeth unto God. It is he only that changes the heart,
+                    without which every other change is lighter than vanity.<note place="foot" xml:id="ftn65" n="65">
+                        <p rend="footnote text">Ps. 62:9.</p>
+                    </note>
+                    Nevertheless it pleases him who worketh all in all<note place="foot" xml:id="ftn66" n="66">
+                        <p rend="footnote text">1 Cor. 12:6.</p>
+                    </note> to
+                    help man chiefly by man; to convey his own power and blessing and love through
+                    one man to another. Therefore, although it be certain that ‘the help which is
+                    done upon earth, God doth it himself,’<note place="foot" xml:id="ftn67" n="67">
+                        <p rend="footnote text">Cf. Ps. 74:13 (BCP).</p>
+                    </note> yet has no man
+                    need on this account to stand idle in his vineyard. The peacemaker cannot: he is
+                    ever labouring therein, and as an instrument in God’s hand preparing the ground
+                    for his Master’s use, or sowing the seed of the kingdom, or watering what is
+                    already sown, if haply God may give the increase.<note place="foot" xml:id="ftn68" n="68">
+                        <p rend="footnote text">See 1 Cor. 3:6-7.</p>
+                    </note>
+                    According to the measure of grace which he has received he uses all diligence
+                    either to reprove the gross sinner, to reclaim those who run on headlong in the
+                    broad way of destruction<note place="foot" xml:id="ftn69" n="69">
+                        <p rend="footnote text">See Matt. 7:13.</p>
+                    </note>, or ‘to give light to
+                    them that sit in darkness’<note place="foot" xml:id="ftn70" n="70">
+                        <p rend="footnote text">Luke 1:79.</p>
+                    </note> and are ready to ‘perish for
+                    lack of knowledge’;<note place="foot" xml:id="ftn71" n="71">
+                        <p rend="footnote text">Cf. Hos. 4:6.</p>
+                    </note> or to ‘support the
+                        weak’,<note place="foot" xml:id="ftn72" n="72">
+                        <p rend="footnote text">Acts
+                            20:35; 1 Thess. 5:14.</p>
+                    </note> to ‘lift up the hands that hang down,
+                    and the feeble knees’;<note place="foot" xml:id="ftn73" n="73">
+                        <p rend="footnote text">Heb. 12:12.</p>
+                    </note> or to bring back and heal
+                    that which was ‘lame and turned out of the way’.<note place="foot" xml:id="ftn74" n="74">
+                        <p rend="footnote text">Heb. 12:13.</p>
+                    </note> Nor is
+                    he less zealous to confirm those who are already striving to enter in at the
+                    strait gate;<note place="foot" xml:id="ftn75" n="75">
+                        <p rend="footnote text">See
+                            Luke 13:24.</p>
+                    </note> to strengthen those that stand, that they may
+                    ‘run with patience the race which is set before them’;<note place="foot" xml:id="ftn76" n="76">
+                        <p rend="footnote text">Cf. Heb. 12:1.</p>
+                    </note> to
+                    ‘build up in their most holy <pb n="520"/>faith’<note place="foot" xml:id="ftn77" n="77">
+                        <p rend="footnote text">Cf. Jude 20.</p>
+                    </note> those
+                    that know in whom they have believed;<note place="foot" xml:id="ftn78" n="78">
+                        <p rend="footnote text">See 2 Tim. 1:12.</p>
+                    </note> to exhort them to stir
+                    up the gift of God which is in them,<note place="foot" xml:id="ftn79" n="79">
+                        <p rend="footnote text">See 2 Tim. 1:6.</p>
+                    </note> that daily ‘growing in
+                        grace’,<note place="foot" xml:id="ftn80" n="80">
+                        <p rend="footnote text">Cf.
+                            2 Pet. 3:18.</p>
+                    </note> ‘an entrance may be ministered unto them
+                    abundantly into the everlasting kingdom of our Lord and Saviour Jesus
+                        Christ’.<note place="foot" xml:id="ftn81" n="81">
+                        <p rend="footnote text">Cf.
+                            2 Pet. 1:11.</p>
+                    </note>
+                </p>
+                <p n="7">7. Blessed are they who are thus continually employed in the work of faith
+                    and the labour of love; ‘for they shall be called’—that is ‘shall be’ (a common
+                        Hebraism<note place="foot" xml:id="ftn82" n="82">
+                        <p rend="footnote text">Generally true but with important exceptions, as in Gen. 2:23; Isa.
+                            35:8; 47:1; 54:5; 58:12; 62:2, 4, 12; Jer. 7:32; 19:6; 23:6; 33:16. But
+                            cf. Heylyn, <hi rend="italic">Theological Lectures</hi>, I.71: ‘“to be
+                            called” is a frequent Hebraism signifying only an assertion that such a
+                            thing really <hi rend="italic">is</hi>, or <hi rend="italic">becomes</hi>, what is said to be “called”.’</p>
+                    </note>)—‘the
+                    children of God.’<note place="foot" xml:id="ftn83" n="83">
+                        <p rend="footnote text">Matt. 5:9.</p>
+                    </note> God shall continue unto them
+                    the Spirit of adoption,<note place="foot" xml:id="ftn84" n="84">
+                        <p rend="footnote text">Rom. 8:15.</p>
+                    </note> yea, shall pour it more
+                    abundantly into their hearts. He shall bless them with all the blessings of his
+                    children. He shall acknowledge them as sons before angels and men; ‘and if sons,
+                    then heirs; heirs of God, and joint heirs with Christ.’<note place="foot" xml:id="ftn85" n="85">
+                        <p rend="footnote text">Cf. Rom. 8:17.</p>
+                    </note>
+                </p>
+            </div>
+            <div type="section" n="3">
+                <p n="1">III. 1. One would imagine such a person as has been above described, so
+                    full of genuine humility, so unaffectedly serious, so mild and gentle, so free
+                    from all selfish design, so devoted to God, and such an active lover of men,
+                    should be the darling of mankind.<note place="foot" xml:id="ftn86" n="86">
+                        <p rend="footnote text">Cf. Suetonius, <hi rend="italic">Lives of the
+                                Caesars</hi> (‘The Deified Titus’, I): ‘Titus, with the same surname
+                            as his father, was the delight and darling of mankind’ (‘<hi rend="italic">deliciae humani generis</hi>’).</p>
+                    </note> But our
+                    Lord was better acquainted with human nature in its present state. He therefore
+                    closes the character of this man of God with showing him the treatment he is to
+                    expect in the world. ‘Blessed’, saith he, ‘are they which are persecuted for
+                    righteousness’ sake; for theirs is the kingdom of heaven.’<note place="foot" xml:id="ftn87" n="87">
+                        <p rend="footnote text">Matt. 5:10.</p>
+                    </note>
+                </p>
+                <p n="2">2. In order to understand this throughly, let us first inquire who are they
+                    that are persecuted.<note place="foot" xml:id="ftn88" n="88">
+                        <p rend="footnote text">Here Wesley departs from both Blackall and Hammond,
+                            who stress that ‘the persecuted’ are those who offend the world by their
+                            ‘strict and close adherence to the profession and practice of the
+                            Christian Church’; Cf. Blackall, Discourse XV, <hi rend="italic">Works</hi>, I.134-41.</p>
+                    </note> And this we may easily learn from
+                    St. Paul: ‘As of old he that was born after the flesh persecuted him <pb n="521"/>that was born after the Spirit, even so it is now.’<hi rend="endnote_reference">
+                        <note place="end">
+                            <p rend="endnote text">Gal.
+                                4:29.</p>
+                        </note>
+                    </hi> ‘Yea’, saith the Apostle, ‘and all that will
+                    live godly in Christ Jesus shall suffer persecution.’<hi rend="endnote_reference">
+                        <note place="end">
+                            <p rend="endnote text">2 Tim.
+                                3:12.</p>
+                        </note>
+                    </hi> The same we are taught by St. John: ‘Marvel
+                    not, my brethren, if the world hate you. We know that we have passed from death
+                    unto life, because we love the brethren.’<hi rend="endnote_reference">
+                        <note place="end">
+                            <p rend="endnote text">1 John 3:13-14.</p>
+                        </note>
+                    </hi> As if
+                    he had said, The brethren, the Christians, cannot be loved but by them who have
+                    passed from death unto life. And most expressly by our Lord: ‘If the world hate
+                    you, ye know that it hated me before it hated you. If ye were of the world, the
+                    world would love its own; but because ye are not of the world, …therefore the
+                    world hateth you. Remember the word that I said unto you, The servant is not
+                    greater than the Lord. If they have persecuted me, they will also persecute
+                        you.’<hi rend="endnote_reference">
+                        <note place="end">
+                            <p rend="endnote text">John 15:18-20.</p>
+                        </note>
+                    </hi>
+                </p>
+                <p>By all these Scriptures it manifestly appears who they are that are persecuted,
+                    namely the righteous: ‘he that is born after the Spirit’;<note place="foot" xml:id="ftn89" n="89">
+                        <p rend="footnote text">Cf. Gal. 4:29.</p>
+                    </note> ‘all
+                    that will live godly in Christ Jesus’;<note place="foot" xml:id="ftn90" n="90">
+                        <p rend="footnote text">2 Tim. 3:12.</p>
+                    </note> they that are ‘passed
+                    from death unto life’;<note place="foot" xml:id="ftn91" n="91">
+                        <p rend="footnote text">1 John 3:14.</p>
+                    </note> those who ‘are not of the
+                        world’;<note place="foot" xml:id="ftn92" n="92">
+                        <p rend="footnote text">John
+                            15:19.</p>
+                    </note> all those who are meek and lowly in heart, that mourn
+                    for God, that hunger after his likeness; all that love God and their neighbour,
+                    and therefore as they have opportunity do good unto all men.<note place="foot" xml:id="ftn93" n="93">
+                        <p rend="footnote text">Gal. 6:10.</p>
+                    </note>
+                </p>
+                <p n="3">3. If it be, secondly, inquired why they are persecuted, the answer is
+                    equally plain and obvious. It is ‘for righteousness’ sake’:<note place="foot" xml:id="ftn94" n="94">
+                        <p rend="footnote text">Matt. 5:10.</p>
+                    </note> because
+                    they are righteous; because they are ‘born after the Spirit’;<note place="foot" xml:id="ftn95" n="95">
+                        <p rend="footnote text">Gal. 4:29.</p>
+                    </note> because
+                    they ‘will live godly in Christ Jesus’;<note place="foot" xml:id="ftn96" n="96">
+                        <p rend="footnote text">2 Tim. 3:12.</p>
+                    </note> because they ‘are not
+                    of the world’.<note place="foot" xml:id="ftn97" n="97">
+                        <p rend="footnote text">John 15:19.</p>
+                    </note> Whatever may be pretended, this is the real
+                    cause; be their infirmities more or less, still if it were not for this they
+                    would be borne with, and the world would love its own. They are persecuted
+                    because they are ‘poor in spirit’:<note place="foot" xml:id="ftn98" n="98">
+                        <p rend="footnote text">Matt. 5:3.</p>
+                    </note> that is, say the world,
+                    ‘poor-spirited, mean, dastardly souls, good for nothing, not fit to live in the
+                    world’; because they <pb n="522"/>‘mourn’: ‘They are such dull, heavy, lumpish
+                        creatures,<note place="foot" xml:id="ftn99" n="99">
+                        <p rend="footnote text">Cf. <hi rend="italic">Address to the Clergy</hi>, II.1 (<hi rend="italic">Bibliog</hi>, No. 216, Vol. 14 of this edn.), where
+                            Wesley speaks of ‘dull, heavy, blockish ministers’.</p>
+                    </note> enough to
+                    sink anyone’s spirits that sees them! They are mere death’s-heads; they kill
+                    innocent mirth, and spoil company wherever they come;’ because they are <hi rend="italic">meek</hi>: ‘Tame, passive fools, just fit to be trampled
+                    upon;’ because they ‘hunger and thirst after righteousness’:<note place="foot" xml:id="ftn100" n="100">
+                        <p rend="footnote text">Matt. 5:6.</p>
+                    </note> ‘A
+                    parcel of hot-brained enthusiasts, gaping after they know not what, not content
+                    with rational religion, but running mad after raptures and inward feelings;’
+                    because they are ‘merciful’, lovers of all, lovers of the evil and unthankful:
+                    ‘Encouraging all manner of wickedness; nay, tempting people to do mischief by
+                    impunity; and men who, it is to be feared, have their own religion still to
+                    seek; very loose in their principles;’ because they are ‘pure in heart’:<note place="foot" xml:id="ftn101" n="101">
+                        <p rend="footnote text">Matt.
+                        5:8.</p>
+                    </note> ‘Uncharitable creatures that damn all the world but those
+                    that are of their own sort! Blasphemous wretches that pretend to make God a
+                    liar, to live without sin!’ Above all because they are ‘peacemakers’, because
+                    they take all opportunities of doing good to all men. This is the grand reason
+                    why they have been persecuted in all ages, and will be till the restitution of
+                    all things.<note place="foot" xml:id="ftn102" n="102">
+                        <p rend="footnote text">See Acts 3:21.</p>
+                    </note>
+                </p>
+                <p>‘If they would but keep their religion to themselves it would be tolerable. But
+                    it is this spreading their errors, this infecting so many others, which is not
+                    to be endured. They do so much mischief in the world that they ought to be
+                    tolerated no longer. It is true the men do some things well enough; they relieve
+                    some of the poor. But this, too, is only done to gain the more to their party;
+                    and so in effect to do the more mischief.’ Thus the men of the world sincerely
+                    think and speak. And the more the kingdom of God prevails, the more the
+                    peacemakers are enabled to propagate lowliness, meekness, and all other divine
+                    tempers, the more mischief is done—in their account. Consequently the more are
+                    they enraged against the authors of this, and the more vehemently will they
+                    persecute them.</p>
+                <p n="4">4. Let us, thirdly, inquire who are they that persecute them. St. Paul
+                    answers, ‘He that is born after the flesh’; everyone who is not ‘born of the
+                        Spirit’,<note place="foot" xml:id="ftn103" n="103">
+                        <p rend="footnote text">Cf. Gal 4:29.</p>
+                    </note> or at least desirous so to be; all that do not
+                    at <pb n="523"/>least labour to ‘live godly in Christ Jesus’;<note place="foot" xml:id="ftn104" n="104">
+                        <p rend="footnote text">2 Tim. 3:12.</p>
+                    </note> all
+                    that are not ‘passed from death unto life’, and consequently cannot ‘love the
+                        brethren’;<note place="foot" xml:id="ftn105" n="105">
+                        <p rend="footnote text">1 John 3:14.</p>
+                    </note> ‘the world’, that is, according to our
+                    Saviour’s account, ‘they who know not him that sent me’;<note place="foot" xml:id="ftn106" n="106">
+                        <p rend="footnote text">Cf. John 15:21. Ὁ κόσμος as
+                            the community of those at enmity with God is a special New Testament
+                            usage (cf. 7 in Arndt and Gingrich, <hi rend="italic">Greek-English
+                                Lexicon</hi>), but it was one of Wesley’s favourites; the notable
+                            exception, of course, is in his <hi rend="italic">Notes</hi> on John
+                            3:16, 17. Generally, however, he followed the mystical tradition of <hi rend="italic">contemptus mundi</hi> (Kempis, De Renty, Law); cf.
+                            Nos. 4, <hi rend="italic">Scriptural Christianity</hi>, II.5 and n., for
+                            Wesley’s comments on ‘saints of the world’; and 22, ‘Sermon on the
+                            Mount, II’, II.4 and n., for ‘religion of the world’; see also No. 80,
+                            ‘On Friendship with the World’, §5. For Wesley’s satanocratic views
+                            about the world, cf. No. 12, ‘The Witness of Our Own Spirit’, §10 and
+                            n.</p>
+                    </note> they who know not God, even the loving, pardoning God, by
+                    the teaching of his own Spirit.</p>
+                <p>The reason is plain. The spirit which is in the world is directly opposite to the
+                    Spirit which is of God. It must therefore needs be that those who are of the
+                    world will be opposite to those who are of God. There is the utmost contrariety
+                    between them in all their opinions, their desires, designs, and tempers. And
+                    hitherto ‘the leopard and the kid’ cannot ‘lie down in peace together.’<note place="foot" xml:id="ftn107" n="107">
+                        <p rend="footnote text">Cf. Isa.
+                            11:6.</p>
+                    </note> The proud, because he is proud, cannot but persecute
+                    the lowly; the light and airy, those that mourn: and so in every other kind, the
+                    unlikeness of disposition (were there no other) being a perpetual ground of
+                    enmity. Therefore (were it only on this account) all the servants of the devil
+                    will persecute the children of God.</p>
+                <p n="5">5. Should it be inquired, fourthly, how they will persecute them, it may be
+                    answered in general, just in that manner and measure which the wise Disposer of
+                    all sees will be most for his glory, will tend most to his children’s growth in
+                    grace and the enlargement of his own kingdom. There is no one branch of God’s
+                    government of the world which is more to be admired than this. His ear is never
+                    heavy to the threatenings of the persecutor or the cry of the persecuted. His
+                    eye is ever open and his hand stretched out to direct every the minutest
+                    circumstance. When the storm shall begin, how high it shall rise, which way it
+                    shall point its course, when and how it shall end, are all determined by his
+                    unerring wisdom.<note place="foot" xml:id="ftn108" n="108">
+                        <p rend="footnote text">Cf. No. 67, ‘On Divine Providence’, §23 and
+                        n.</p>
+                    </note> The ungodly are only a sword of his; an instrument which he
+                    uses as it pleaseth him, and which itself, <pb n="524"/>when the gracious ends
+                    of his providence are answered, is cast into the fire.</p>
+                <p>At some rare times, as when Christianity was planted first, and while it was
+                    taking root in the earth, as also when the pure doctrine of Christ began to be
+                    planted again in our nation, God permitted the storm to rise high, and his
+                    children were called to resist unto blood.<note place="foot" xml:id="ftn109" n="109">
+                        <p rend="footnote text">See Heb. 12:4. Cf. Tertullian, <hi rend="italic">Apology</hi>, 50, §13: ‘<hi rend="italic">…semen est
+                                sanguis Christianorum</hi>’ (‘nothing whatever is accomplished by
+                            your cruelties…. They are the bait that wins men for our sect. We
+                            multiply whenever we are mown down by you; <hi rend="italic">the blood
+                                of Christians is seed</hi>’). This evolved into the familiar
+                            aphorism: ‘The blood of the martyrs is the seed of the
+                        Church.’</p>
+                    </note> There was a peculiar reason why he suffered this with
+                    regard to the apostles—that their evidence might be the more unexceptionable.
+                    But from the annals of the church we learn another and a far different reason
+                    why he suffered the heavy persecutions which rose in the second and third
+                    centuries: namely, because the mystery of iniquity did so strongly work, because
+                    of the monstrous corruptions which even then reigned in the church; these God
+                    chastised, and at the same time strove to heal, by those severe but necessary
+                    visitations.</p>
+                <p>Perhaps the same observation may be made with regard to the grand persecution in
+                    our own land.<note place="foot" xml:id="ftn110" n="110">
+                        <p rend="footnote text">Any Englishman of the time would have recognized this as a reference to
+                            ‘Bloody Mary’ Tudor (1553-58), since John Foxe’s <hi rend="italic">Book
+                                of Martyrs</hi> (first Eng. edn. in 1563) had indelibly fixed the
+                            image of Roman Catholic zeal and cruelty in English minds; John Knox’s
+                            contemptuous epithet (‘that wicked Jezebel of England’) had focused
+                            their feelings on Mary. Her cruelties, however, were scarcely more
+                            ruthless than those of her acclaimed half-sister, ‘Good Queen Bess’. But
+                            in JWJ for Mar. 13, 1747, Wesley records having read Daniel Neal’s <hi rend="italic">History of the Puritans</hi> (1732-38) and being
+                            ‘amaze[d]’: ‘First, at the execrable spirit of persecution which drove
+                            [the Puritans] out of the Church, and with which Queen Elizabeth’s
+                            clergy were as deeply tinctured as ever Queen Mary’s were.’ On Apr. 26,
+                            1786, he recounts his ‘discovery’ of Queen Elizabeth’s cruel treatment
+                            of Maty Stuart: ‘But what then was Queen Elizabeth? As just and merciful
+                            as Nero and as good a Christian as Mahomet.’ In his old age, however, he
+                            wrote to Henry Fisher (Nov. 7, 1781): ‘I do not remember that Queen
+                            Elizabeth or King James (bad as they were) burnt any heretics.’ Here he
+                            conveniently ignored the ‘forty English martyrs’ (later to be canonized
+                            in Rome in 1968). The Roman martyrology reckons 183 persons martyred for
+                            their faith during Elizabeth’s reign. Cf. No. 92, ‘On Zeal’, §1. The
+                            last Englishman burnt for heresy (by James I) was Edward Wightman (in
+                            Lichfield, Apr. 1612), a month after Bartholomew Legate had been burnt
+                            in Smithfield; the Roman Catholics martyred by Charles II were formally
+                            charged with sedition.</p>
+                    </note> God had dealt very graciously with our
+                    nation; he had poured out various blessings upon us. He had given us peace
+                    abroad and at home; and a king wise and good beyond his years.<note place="foot" xml:id="ftn111" n="111">
+                        <p rend="footnote text">The boy-king, Edward VI
+                            (1547-53), who succeeded his father, Henry VIII, at the age of ten.
+                            Under guidance by the Lords Protector (first the Earl of Somerset and
+                            then the Earl of Northumberland), Edward aided the Protestant reform,
+                            chiefly by his encouragement of reformers like Thomas Cranmer, John
+                            Hooper, Nicholas Ridley. The results included the <hi rend="italic">Homilies</hi> (1547), clerical marriage, and communion in both
+                            kinds (1548), a ‘reformed’ BCP (1549), followed by an even more
+                            ‘reformed’ version (1552), a Protestant Catechism and Christian Primer
+                            (1553). Wesley rightly infers that the young king had taken a personal
+                            interest in these reform measures. With his early death and the
+                            counter-reform measures of Queen Mary, the Protestant cause had been
+                            imperilled but also had become heroic. For a rather different
+                            perspective, see Carolly Erickson, <hi rend="italic">Bloody Mary</hi>,
+                            pp. 226-84, 450 ff.</p>
+                    </note> And above all he had caused <pb n="525"/>the pure light of his gospel to arise and shine amongst us. But what return
+                    did he find? ‘He looked for righteousness; but behold a cry!’<note place="foot" xml:id="ftn112" n="112">
+                        <p rend="footnote text">Isa. 5:7.</p>
+                    </note> A cry
+                    of oppression and wrong, of ambition and injustice, of malice and fraud and
+                    covetousness. Yea, the cry of those who even then expired in the flames entered
+                    into the ears of the Lord of sabaoth.<note place="foot" xml:id="ftn113" n="113">
+                        <p rend="footnote text">Jas. 5:4.</p>
+                    </note> It was then God arose to
+                    maintain his own cause against those that held the truth in
+                        unrighteousness.<note place="foot" xml:id="ftn114" n="114">
+                        <p rend="footnote text">See Rom. 1:18.</p>
+                    </note> Then he sold them into
+                    the hands of their persecutors, by a judgment mixed with mercy, an affliction to
+                    punish and yet a medicine to heal the grievous backslidings of his people.</p>
+                <p n="6">6. But it is seldom God suffers the storm to rise so high as torture or
+                    death or bonds or imprisonment. Whereas his children are frequently called to
+                    endure those lighter kinds of persecution: they frequently suffer the
+                    estrangement of kinsfolk, the loss of the friends that were as their own
+                        soul.<note place="foot" xml:id="ftn115" n="115">
+                        <p rend="footnote text">See
+                            Deut. 13:6.</p>
+                    </note> They find the truth of their Lord’s word
+                    (concerning the event, though not the design of his coming): ‘Suppose ye that I
+                    am come to give peace on earth? I tell you, Nay, but rather division.’<hi rend="endnote_reference">
+                        <note place="end">
+                            <p rend="endnote text">Luke
+                                12:51.</p>
+                        </note>
+                    </hi> And hence will naturally follow loss of
+                    business or employment, and consequently of substance. But all these
+                    circumstances likewise are under the wise direction of God, who allots to
+                    everyone what is most expedient for him.</p>
+                <p n="7">7. But the persecution which attends all the children of God is that our
+                    Lord describes in the following words: ‘Blessed are ye, when men shall revile
+                    you, and persecute you (shall persecute by reviling you), and say all manner of
+                    evil against you falsely, for my sake.’<note place="foot" xml:id="ftn116" n="116">
+                        <p rend="footnote text">Matt. 5:11.</p>
+                    </note> This cannot fail: it
+                    is the very badge of our discipleship; it is one of the seals of our calling. It
+                    is a sure portion entailed on all the children of God; if we have it not we are
+                    bastards and not <pb n="526"/>sons. Straight through ‘evil report’ as well as
+                    ‘good report’<note place="foot" xml:id="ftn117" n="117">
+                        <p rend="footnote text">2 Cor. 6:8.</p>
+                    </note> lies the only way to the kingdom. The meek,
+                    serious, humble, zealous lovers of God and man are of good report among their
+                    brethren; but of evil report with the world, who count and treat them ‘as the
+                    filth […] and offscouring of all things’.<note place="foot" xml:id="ftn118" n="118">
+                        <p rend="footnote text">1 Cor. 4:13.</p>
+                    </note>
+                </p>
+                <p n="8">8. Indeed some have supposed that before the fullness of the Gentiles shall
+                    come in<note place="foot" xml:id="ftn119" n="119">
+                        <p rend="footnote text">See
+                            Rom. 11:25.</p>
+                    </note> the scandal of the cross will cease; that God
+                    will cause Christians to be esteemed and loved, even by those who are as yet in
+                    their sins.<note place="foot" xml:id="ftn120" n="120">
+                        <p rend="footnote text">Cf. Joseph Mede, <hi rend="italic">Commentationum Apocalypticarum</hi>,
+                            in <hi rend="italic">Works</hi>, III.530-32; and ‘Remains’, XI, XII, <hi rend="italic">ibid.</hi>, 602-5.</p>
+                    </note> Yea, and sure it is that
+                    even now he at some times suspends the contempt as well as the fierceness of
+                    men. ‘He makes a man’s enemies to be at peace with him’<note place="foot" xml:id="ftn121" n="121">
+                        <p rend="footnote text">Cf. Prov. 16:7.</p>
+                    </note>
+                    for a season, and gives him favour with his bitterest persecutors. But setting
+                    aside this exempt case, ‘the scandal of the cross is’ not yet ‘ceased’:<note place="foot" xml:id="ftn122" n="122">
+                        <p rend="footnote text">Cf. Gal.
+                            5:11.</p>
+                    </note> but a man may say still, ‘If I please men, I am not the
+                    servant of Christ.’<note place="foot" xml:id="ftn123" n="123">
+                        <p rend="footnote text">Cf. Gal. 1:10.</p>
+                    </note> Let no man therefore
+                    regard that pleasing suggestion (pleasing doubtless to flesh and blood), that
+                    ‘Bad men only <hi rend="italic">pretend</hi> to hate and despise them that are
+                    good, but do indeed love and esteem them in their hearts.’ Not so: they may
+                    employ them sometimes, but it is for their own profit. They may put confidence
+                    in them, for they know their ways are not like other men’s. But still they love
+                    them not, unless so far as the Spirit of God may be striving with them. Our
+                    Saviour’s words are express: ‘If ye were of the world, the world would love its
+                    own: but because ye are not of the world, […] therefore the world hateth
+                        you.’<note place="foot" xml:id="ftn124" n="124">
+                        <p rend="footnote text">John
+                            15:19.</p>
+                    </note> Yea (setting aside what exceptions may be made by the
+                    preventing grace<note place="foot" xml:id="ftn125" n="125">
+                        <p rend="footnote text">An illuminating correlation of ‘preventing’
+                            (prevenient) grace and providence. But note that here, ‘preventing’ has
+                            its more nearly common meaning of ‘hindering’ as well as
+                            ‘anticipating’.</p>
+                    </note> or the peculiar providence of God) it hateth
+                    them as cordially and sincerely as ever it did their Master.</p>
+                <p n="9">9. It remains only to inquire, ‘How are the children of God to behave with
+                    regard to persecution?’ And first, they ought not knowingly or designedly to
+                    bring it upon themselves. This is <pb n="527"/>&gt;contrary both to the example and
+                    advice of our Lord and all his apostles, who teach us not only not to seek, but
+                    to avoid it as far as we can without injuring our conscience, without giving up
+                    any part of that righteousness which we are to prefer before life itself. So our
+                    Lord expressly saith, ‘When they persecute you in this city, flee ye into
+                        another’<note place="foot" xml:id="ftn126" n="126">
+                        <p rend="footnote text">Matt. 10:23.</p>
+                    </note>—which is indeed, when it can be taken, the most
+                    unexceptionable way of avoiding persecution.</p>
+                <p n="10">10. Yet think not that you can always avoid it, either by this or any
+                    other means. If ever that idle imagination steals into your heart, put it to
+                    flight by that earnest caution: ‘Remember the word that I said unto you, The
+                    servant is not greater than his Lord. If they have persecuted me, they will also
+                    persecute you.’<note place="foot" xml:id="ftn127" n="127">
+                        <p rend="footnote text">John 15:20.</p>
+                    </note> ‘Be ye wise as serpents, and
+                    harmless as doves.’<note place="foot" xml:id="ftn128" n="128">
+                        <p rend="footnote text">Matt. 10:16.</p>
+                    </note> But will this screen you
+                    from persecution? Not unless you have more wisdom than your Master, or more
+                    innocence than the Lamb of God.</p>
+                <p>Neither desire to avoid it, to escape it wholly; for if you do, you are none of
+                    his. If you escape the persecution you escape the blessing, the blessing of
+                    those who are persecuted for righteousness’ sake.<note place="foot" xml:id="ftn129" n="129">
+                        <p rend="footnote text">Matt. 5:10.</p>
+                    </note> If
+                    you are not persecuted for righteousness’ sake you cannot enter into the kingdom
+                    of heaven. ‘If we suffer with him we shall also reign with him. But if we deny
+                    him he will also deny us.’<note place="foot" xml:id="ftn130" n="130">
+                        <p rend="footnote text">Cf. 2 Tim. 2:12.</p>
+                    </note>
+                </p>
+                <p n="11">11. Nay, rather, ‘rejoice and be exceeding glad’<note place="foot" xml:id="ftn131" n="131">
+                        <p rend="footnote text">Matt. 5:12.</p>
+                    </note> when
+                    men persecute you for his sake, when ‘they persecute you by reviling’ you, and
+                    by ‘saying all manner of evil against you falsely’ (which they will not fail to
+                    mix with every kind of persecution; they must blacken you to excuse themselves):
+                    ‘for so persecuted they the prophets which were before you,’<note place="foot" xml:id="ftn132" n="132">
+                        <p rend="footnote text">
+                            <hi rend="italic">Ibid.</hi>
+                        </p>
+                    </note> those who were most eminently holy in heart and
+                    life; yea, and all the righteous which ever have been from the beginning of the
+                    world. Rejoice, because by his mark also ye know unto whom ye belong. And
+                    because ‘great is your reward in heaven,’<note place="foot" xml:id="ftn133" n="133">
+                        <p rend="footnote text">
+                            <hi rend="italic">Ibid.</hi>
+                        </p>
+                    </note> the
+                    reward purchased by the blood of the covenant, and freely bestowed in proportion
+                    to your sufferings, as well as to your holiness of heart and life. ‘Be exceeding
+                        glad,’<note place="foot" xml:id="ftn134" n="134">
+                        <p rend="footnote text">
+                            <hi rend="italic">Ibid.</hi>
+                        </p>
+                    </note> knowing that ‘these light
+                    afflictions, which are but for a moment, work out for you a far more exceeding
+                    and eternal weight of glory.’<note place="foot" xml:id="ftn135" n="135">
+                        <p rend="footnote text">Cf. 2 Cor. 4:17.</p>
+                    </note>
+                </p>
+                <p n="12">
+                    <pb n="528"/>12. Meantime, let no persecution turn you out of the way of
+                    lowliness and meekness, of love and beneficence. ‘Ye have heard’ indeed ‘that it
+                    hath been said, An eye for an eye and a tooth for a tooth.’<hi rend="endnote_reference">
+                        <note place="end">
+                            <p rend="endnote text">[Matt. 5,]
+                                ver. 38, etc.</p>
+                        </note>
+                    </hi> And your miserable teachers have hence
+                    allowed you to avenge yourselves, to return evil for evil.</p>
+                <p>‘But I say unto you, that ye resist not evil’—not thus: not by returning it in
+                    kind. ‘But’ (rather than do this) ‘whosoever smiteth thee on thy right cheek,
+                    turn to him the other also. And if any man will sue thee at the law, and take
+                    away thy coat, let him have thy cloak also. And whosoever shall compel thee to
+                    go a mile, go with him twain.’<note place="foot" xml:id="ftn136" n="136">
+                        <p rend="footnote text">Matt. 5:39-41.</p>
+                    </note>
+                </p>
+                <p>So invincible let thy meekness be.<note place="foot" xml:id="ftn137" n="137">
+                        <p rend="footnote text">Cf. No. 22, ‘Sermon on the Mount, II’, I.4 and
+                            n.</p>
+                    </note> And be thy love suitable thereto. ‘Give to him that asketh
+                    thee, and from him that would borrow of thee turn not thou away.’<note place="foot" xml:id="ftn138" n="138">
+                        <p rend="footnote text">Matt.
+                        5:42.</p>
+                    </note> Only give not away that which is another man’s, that which
+                    is not thine own. Therefore, (1). Take care to owe no man anything.<note place="foot" xml:id="ftn139" n="139">
+                        <p rend="footnote text">Rom.
+                        13:8.</p>
+                    </note> For what thou owest is not thy own, but another man’s. (2).
+                    Provide for those of thine own household.<note place="foot" xml:id="ftn140" n="140">
+                        <p rend="footnote text">See 1 Tim. 5:8.</p>
+                    </note> This also God
+                    hath required of thee: and what is necessary to sustain them in life and
+                    godliness is also not thine own. Then, (3), give or lend all that remains from
+                    day to day, or from year to year: only first, seeing thou canst not give or lend
+                    to all, remember the household of faith.<note place="foot" xml:id="ftn141" n="141">
+                        <p rend="footnote text">Gal. 6:10. This paragraph is an anticipation
+                            of ‘give all you can…’; cf. No. 50, ‘The Use of Money’.</p>
+                    </note>
+                </p>
+                <p n="13">13. The meekness and love we are to feel, the kindness we are to show to
+                    them which persecute us for righteousness’ sake, our blessed Lord describes
+                    farther in the following verses. O that they were graven upon our hearts!</p>
+                <p>‘Ye have heard that it hath been said, Thou shalt love thy neighbour, and hate
+                    thy enemy.’<hi rend="endnote_reference">
+                        <note place="end">
+                            <p rend="endnote text">Ver. 43, etc.</p>
+                        </note>
+                    </hi> (God indeed had said only the former
+                    part, ‘Thou shalt love thy neighbour;’<note place="foot" xml:id="ftn142" n="142">
+                        <p rend="footnote text">Lev. 19:18, etc.</p>
+                    </note> the children of the
+                        devil<note place="foot" xml:id="ftn143" n="143">
+                        <p rend="footnote text">1
+                            John 3:10.</p>
+                    </note> had added the latter, ‘and hate thy enemy.’) ‘But
+                    I say unto you:’ (1). ‘Love your enemies.’<note place="foot" xml:id="ftn144" n="144">
+                        <p rend="footnote text">Matt. 5:43-44.</p>
+                    </note> See that you bear
+                    a tender <pb n="529"/>goodwill to those who are most bitter of spirit against
+                    you, who wish you all manner of evil. (2). ‘Bless them that curse you.’<note place="foot" xml:id="ftn145" n="145">
+                        <p rend="footnote text">Matt.
+                        5:44.</p>
+                    </note> Are there any whose bitterness of spirit breaks forth in
+                    bitter words? Who are continually cursing and reproaching you when you are
+                    present, and ‘saying all evil against you’<note place="foot" xml:id="ftn146" n="146">
+                        <p rend="footnote text">Cf. Matt. 5:11.</p>
+                    </note> when absent? So
+                    much the rather do you bless. In conversing with them use all mildness and
+                    softness of language. Reprove them by repeating a better lesson before them, by
+                    showing them how they ought to have spoken. And in speaking of them say all the
+                    good you can without violating the rules of truth and justice. (3). ‘Do good to
+                    them that hate you.’<note place="foot" xml:id="ftn147" n="147">
+                        <p rend="footnote text">Matt. 5:44.</p>
+                    </note> Let your actions show that
+                    you are as real in love as they in hatred. Return good for evil. ‘Be not
+                    overcome of evil, but overcome evil with good.’<note place="foot" xml:id="ftn148" n="148">
+                        <p rend="footnote text">Rom. 12:21.</p>
+                    </note> (4).
+                    If you can do nothing more, at least ‘pray for them that despitefully use you
+                    and persecute you.’<note place="foot" xml:id="ftn149" n="149">
+                        <p rend="footnote text">Matt. 5:44.</p>
+                    </note> You can never be disabled
+                    from doing this; nor can all their malice or violence hinder you. Pour out your
+                    souls to God, not only for those who did this once but now repent. This is a
+                    little thing. ‘If thy brother seven times a day turn and say unto thee, I
+                    repent’—that is, if after ever so many relapses he give thee reason to believe
+                    that he is really and throughly changed—then ‘thou shalt forgive him,’<hi rend="endnote_reference">
+                        <note place="end">
+                            <p rend="endnote text">Luke
+                                17:3-4.</p>
+                        </note>
+                    </hi> so as to trust him, to put him in thy bosom,
+                    as if he had never sinned against thee at all. But pray for, wrestle with God
+                    for those that do not repent, that now despitefully use thee and persecute thee.
+                    Thus far forgive them, ‘not until seven times only, but until seventy times
+                        seven’.<hi rend="endnote_reference">
+                        <note place="end">
+                            <p rend="endnote text">Matt. 18:22.</p>
+                        </note>
+                    </hi> Whether they repent or no, yea, though
+                    they appear farther and farther from it, yet show them this instance of
+                    kindness: ‘that ye may be the children’, that ye may approve yourselves the
+                    genuine children, ‘of your Father which is in heaven’, who shows his goodness by
+                    giving such blessings as they are capable of even to his stubbornest enemies;
+                    who ‘maketh his sun to rise on the evil and on the good, and sendeth rain on the
+                    just and on the unjust.’<note place="foot" xml:id="ftn150" n="150">
+                        <p rend="footnote text">Matt. 5:45.</p>
+                    </note> ‘For if ye love them which
+                    love you, what reward have ye? Do not even the publicans the same?’<hi rend="endnote_reference">
+                        <note place="end">
+                            <p rend="endnote text">[Matt. 5,]
+                                ver. 46.</p>
+                        </note>
+                    </hi>—who pretend to no religion, whom ye
+                    yourselves <pb n="530"/>acknowledge to be without God in the world. ‘And if ye
+                    salute’, show kindness in word or deed to ‘your brethren’, your friends or
+                    kinsfolk, ‘only, what do ye more than others?’ Than those who have no religion
+                    at all? ‘Do not even the publicans so?’<hi rend="endnote_reference">
+                        <note place="end">
+                            <p rend="endnote text">Ver. 47.</p>
+                        </note>
+                    </hi> Nay, but
+                    follow ye a better pattern than them. In patience, in longsuffering, in mercy,
+                    in beneficence of every kind, to all, even to your bitterest persecutors: ‘Be
+                    ye’ Christians ‘perfect’ (in kind though not in degree) even ‘as your Father
+                    which is in heaven is perfect.’<hi rend="endnote_reference">
+                        <note place="end">
+                            <p rend="endnote text">Ver. 48.</p>
+                        </note>
+                    </hi>
+                </p>
+            </div>
+            <div type="section" n="4">
+                <p>IV. Behold Christianity in its native form, as delivered by its great Author!
+                    This is the genuine religion of Jesus Christ. Such he presents it to him whose
+                    eyes are opened. See a picture of God, so far as he is imitable by man! A
+                    picture drawn by God’s own hand! ‘Behold, ye despisers, and wonder and
+                        perish!’<note place="foot" xml:id="ftn151" n="151">
+                        <p rend="footnote text">Acts 13:41.</p>
+                    </note> Or rather, wonder and adore! Rather cry out, ‘Is
+                    this the religion of Jesus of Nazareth? The religion which I persecuted! Let me
+                    no more be found even to fight against God. Lord, what wouldst thou have me to
+                        do?’<note place="foot" xml:id="ftn152" n="152">
+                        <p rend="footnote text">A
+                            composite of echoes from Acts 22:4; 5:39; 23:9; 9:6.</p>
+                    </note> What
+                    beauty appears in the whole! How just a symmetry! What exact proportion in every
+                    part! How desirable is the happiness here described! How venerable, how lovely
+                    the holiness! This is the <hi rend="italic">spirit</hi> of religion; the
+                    quintessence of it. These are indeed the <hi rend="italic">fundamentals</hi> of
+                    Christianity. O that we may not be hearers of it only!<note place="foot" xml:id="ftn153" n="153">
+                        <p rend="footnote text">Cf. Jas. 1:22.</p>
+                    </note>
+                    ‘Like a man beholding his own face in a glass, who goeth his way, and
+                    straightway forgetteth what manner of man he was.’<note place="foot" xml:id="ftn154" n="154">
+                        <p rend="footnote text">Cf. Jas. 1:23-24.</p>
+                    </note>
+                    Nay, but let us steadily ‘look into this perfect law of liberty, and continue
+                        therein’.<note place="foot" xml:id="ftn155" n="155">
+                        <p rend="footnote text">Cf. Jas. 1:25.</p>
+                    </note> Let us not rest until every line thereof is
+                    transcribed into our own hearts. Let us watch and pray and believe and love, and
+                    ‘strive for the mastery’,<note place="foot" xml:id="ftn156" n="156">
+                        <p rend="footnote text">Cf. 1 Cor. 9:25.</p>
+                    </note> till every part of it
+                    shall appear in our soul, graven there by the finger of God; till we are ‘holy
+                    as he which hath called us is holy’,<note place="foot" xml:id="ftn157" n="157">
+                        <p rend="footnote text">Cf. 1 Pet. 1:15.</p>
+                    </note> ‘perfect as our
+                    Father which is in heaven is perfect’!<note place="foot" xml:id="ftn158" n="158">
+                        <p rend="footnote text">Cf. Matt. 5:48. Notice the positive reference
+                            to ‘religion’ here by contrast with No. 22, ‘Sermon on the Mount, II’,
+                            II.4.</p>
+                    </note>
+                </p>
+            </div>
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,1096 @@
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Sermon 5: Justification by Faith</title>
+                <author>Wesley, John</author>
+                <editor role="text">Van Buskirk, Gregory P.</editor>
+                <editor role="digital">Taylor, Michelle M.</editor>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>The Wesley Works Digitzation Project</publisher>
+                <pubPlace>Tampa, FL</pubPlace>
+                <date>2024-02-23</date>
+             <idno type="URI">https://wesleyworks.ecdsdev.org/sermons/Sermon005</idno>                  
+            </publicationStmt>
+            <sourceDesc>
+                <listBibl>
+                    <biblStruct>
+                        <analytic>
+                            <title level="a">Sermon 5: Justification by Faith</title>
+                        </analytic>
+                        <monogr>
+                            <title level="j">The Works of John Wesley, Volume I: Sermons I,
+                                1-33</title>
+                            <editor role="volume">Outler, Albert</editor>
+                            <imprint>
+                                <publisher>Abingdon Press</publisher>
+                                <pubPlace>Nashville, TN</pubPlace>
+                                <date when="2015-05-01">1984-05-01</date>
+                                <biblScope unit="volume" n="1"/>
+                                <biblScope unit="page" from="181" to="199"/>
+                            </imprint>
+                        </monogr>
+                        <series>
+                            <title level="s">The Works of John Wesley</title>
+                            <editor role="general">Baker, Frank</editor>
+                        </series>
+                    </biblStruct>
+                </listBibl>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Greg Van Buskirk created Word docs for all of Wesley's sermons using a combination of
+                OCR software and manual proofing. Michelle Taylor converted these docx into XML
+                using Oxygen's DITA automatic transformation scenario, then touched them up
+                manually.</p>
+        </encodingDesc>
+        <standOff>
+            <taxonomy>
+                <keywords>
+                    <term/>
+                </keywords>
+            </taxonomy>
+            <!--Include keywords and terms here eventually.-->
+        </standOff>
+        <revisionDesc/>
+    </teiHeader>
+    <text>
+        <body>
+            <pb n="181"/>
+            <introduction>
+                <!--Confirm introduction is the element I want to use here, especially given that I
+                    use it as an attribute for Wesley's introductory paragraphs as well.-->
+                <head>
+                    <hi rend="italic">An Introductory Comment</hi>
+                </head>
+                <p>There was no mistaking the minatory tone and spirit of the ‘prefixed’ university
+                    sermons; they measure Wesley’s move from pious don to itinerant evangelist. In
+                    ‘Justification by Faith’, however, we come to his first fully positive
+                    exposition of his ‘new’ soteriology—‘faith alone’, ‘the article by which the
+                    Church stands or falls’ (see No. 20, <hi rend="italic">The Lord Our
+                        Righteousness</hi>, §4 and n.). Wesley’s claim (in his letters to William
+                    Law, May 14 and 20, 1738; see <hi rend="italic">Letters</hi> I [Vol. 25 of this
+                    edn.], pp. 540-50, for Wesley’s letters and Law’s replies) that he had never <hi rend="italic">heard</hi> of the doctrine of <hi rend="italic">sola fide</hi>
+                    is scarcely credible, since a wide-ranging controversy on this very point had
+                    been raging in the Church of England between Puritans and Anglicans since the
+                    latter half of the sixteenth century (cf. proem, §2). In 1739 Wesley had
+                    extracted and published Robert Barnes’s <hi rend="italic">Treatise on
+                        Justification by Faith Only, According to the Doctrine of the Eleventh
+                        Article of the Church of England</hi>, from Barnes’s <hi rend="italic">Works</hi>, 1573 (cf. above, p. 37); he had long known the Articles
+                    (specifically IX-XIV) and the Homilies (specifically the first five of the
+                    Edwardian set, 1547). What is credible is that his preoccupations with ‘holy
+                    living’ and ‘the means of grace’ before 1738 had obscured the priority of
+                    justifying faith as antecedent to, and the ground of, ‘the faith that works by
+                    love’. In Holy Communion he had prayed, countless times, for ‘grace so to follow
+                    [the] good example…[of God’s] servants departed this life in [true] faith and
+                    fear…for Jesus Christ’s sake, our <hi rend="italic">only</hi> Mediator and
+                    Advocate’; now he is prepared to explain how Christ’s mediation and advocacy
+                    effect the pardon of a repentant sinner. The explanation is ‘plain’ enough for
+                    ‘plain people’, but III.3 and IV.6 give evidence that this essay was also
+                    addressed to the theological community at large.</p>
+                <p>The first record in the <hi rend="italic">Journal</hi> of an oral sermon on
+                    justification from this text is for May 28, 1738 (at the chapel in Long Acre,
+                    London). Later entries suggest that Wesley preached from Rom. 4:5 at least eight
+                    more times before June 8, 1742, when he preached at Epworth (probably from his
+                    father’s tombstone): ‘At eight I largely enforced at Epworth the great truth (so
+                    little understood in what is called a <pb n="182"/>Christian country), “Unto him
+                    that worketh not, but believeth on him that justifieth the ungodly, his faith is
+                    counted to him for righteousness.”’ This written sermon was first published in
+                    1746, and it stands as the earliest full summary of Wesley’s soteriology in the
+                    basic form in which it will continue. In this sense, it is a landmark sermon to
+                    which all subsequent ones may be compared. It was not reprinted separately
+                    during Wesley’s lifetime, in common with many others first published in
+                    Wesley’s<hi rend="italic" xml:space="preserve"> SOSO</hi>, for whose publishing
+                    history and variant readings see the Appendix, ‘Wesley’s Text’, in Vol. 4 of
+                    this edn. It has been noted earlier that items which were printed separately
+                    before being collected into one of the volumes of <hi rend="italic">SOSO</hi>
+                    are italicized in the notes and in Appendix C, and for these only are separate
+                    stemmata given in the Appendix, along with a few which were reprinted separately
+                    after originally appearing in <hi rend="italic">SOSO</hi>.<anchor xml:id="bookmark0"/>
+                    <anchor xml:id="bookmark1"/>
+                    <anchor xml:id="bookmark2"/>
+                </p>
+            </introduction>
+            <head>Justification by Faith</head>
+            <epigraph>
+                <p>Romans 4:5</p>
+                <p>
+                    <hi rend="italic">To him that worketh not, but believeth on him that justifieth
+                        the ungodly, his faith is counted to him for righteousness.</hi>
+                </p>
+            </epigraph>
+            <div type="introduction">
+                <p n="1">1. How a sinner may be justified before God, the Lord and Judge of all, is
+                    a question of no common importance to every child of man. It contains the
+                    foundation of all our hope, inasmuch as while we are at enmity with God there
+                    can be no true peace, no solid joy, either in time or in eternity. What peace
+                    can there be while our own heart condemns us? And much more he that ‘is greater
+                    than our heart, and knoweth all things’?<note place="foot" xml:id="ftn1" n="1">
+                        <p rend="footnote text">1 John 3:20.</p>
+                    </note> What solid joy, either
+                    in this world or that to come, while ‘the wrath of God abideth on us’?<note place="foot" xml:id="ftn2" n="2">
+                        <p rend="footnote text">Cf. John
+                        3:36.</p>
+                    </note>
+                </p>
+                <p n="2">2. And yet how little hath this important question been understood! What
+                    confused notions have many had concerning it! Indeed not only confused, but
+                    often utterly false, contrary to the truth as light to darkness; notions
+                    absolutely inconsistent with <pb n="183"/>the oracles of God,<note place="foot" xml:id="ftn3" n="3">
+                        <p rend="footnote text">I.e., the Holy Scriptures taken
+                            as a whole; cf. Rom. 3:2, Heb. 5:12, 1 Pet. 4:11, and Acts 7:38. See
+                            also the agreement here between Matthew Poole and Matthew Henry, but
+                            notice that Poole (on Heb. 5:11) adds the ‘ancient creeds’ in which he
+                            sees ‘God’s oracles in the Scriptures’ as being ‘summed up’. This
+                            metaphor of the Scriptures as ‘oracles’ is a favourite with Wesley, a
+                            basic presupposition in his hermeneutics (it is also one of the premises
+                            of his early practice of bibliomancy); it appears in at least fifteen
+                            other sermons and more times than that in his other writings.</p>
+                    </note>
+                    and with the whole analogy of faith.<note place="foot" xml:id="ftn4" n="4">
+                        <p rend="footnote text">The general and true sense of Scripture (both the
+                            truths revealed in Scripture and solid inferences drawn from them, as in
+                            the creeds and biblically-grounded theology); cf. John Gerhard, who had
+                            summed up their consensus in his <hi rend="italic">Loci Theologici</hi>
+                            (1621), I.55, and II.424: ‘All the interpretation of Scripture should be
+                            according to the analogy of faith…’ (i.e., the general and essential
+                            truth of Scripture taken as a whole). See also Francis Turrentin, <hi rend="italic">Institutio Theologiae Elencticae</hi> (1686), Eng. tr.
+                            J. Beardslee (1981), I.xii.6-7; II.xix.2-6; and add the summary analyses
+                            of Lutheran views in Schmid, <hi rend="italic">Doctrinal Theology of the
+                                Evangelical Lutheran Church</hi> (Philadelphia, Lutheran Publication
+                            Society, 1889, 3rd edn. rev.; Minneapolis, Minn., Augsburg Publishing
+                            House, 1961), pp. 70, 76; and Heinrich Heppe, <hi rend="italic">Reformed
+                                Dogmatics</hi> (London, George Allen and Unwin, 1950), pp.
+                            30-31.</p>
+                        <p rend="footnote text">In his comment on Rom. 12:6 (in <hi rend="italic">Notes</hi>) Wesley connects ‘the analogy of faith’
+                            with ‘the oracles of God’ and cites 1 Pet. 4:11 as his authority. He
+                            then sums up its particulars: ‘that grand scheme of doctrine which is
+                            delivered [in the Scriptures], touching original sin, justification by
+                            faith, and present inward salvation’. He then stipulates that ‘any
+                            question should be determined by this rule; every doubtful Scripture
+                            interpreted according to the grand truths which run through the
+                            whole.’</p>
+                        <p rend="footnote text">For other usages of this phrase, see
+                            Nos. 21, ‘Sermon on the Mount, I’, §6 and n.; 62, ‘The End of Christ’s
+                            Coming’, III.5 and n.; 64, ‘The New Creation’, §2; 115, ‘Dives and
+                            Lazarus’, III.7; 122, ‘Causes of the Inefficacy of Christianity’, §6;
+                            135, ‘On Guardian Angels’, III.1. See also Susanna’s letter to John,
+                            Aug. 18, 1725, where she concludes a long paragraph on the Calvinist
+                            doctrine of predestination: ‘This is the sum of what I believe
+                            concerning predestination, which I think is agreeable to the analogy of
+                            faith’ (see <hi rend="italic">Letters</hi>, I, Vol. 25 of this edn., p.
+                            180).</p>
+                    </note> And hence, erring concerning the very foundation, they
+                    could not possibly build thereon; at least, not ‘gold, silver, or precious
+                    stones’, which would endure when ‘tried as by fire’, but only ‘hay and
+                        stubble’,<note place="foot" xml:id="ftn5" n="5">
+                        <p rend="footnote text">Cf.
+                            1 Cor. 3:12, 13.</p>
+                    </note> neither acceptable to God nor profitable to
+                    man.</p>
+                <p n="3">3. In order to do justice, as far as in me lies, to the vast importance of
+                    the subject, to save those that seek the truth in sincerity from ‘vain
+                        jangling’<note place="foot" xml:id="ftn6" n="6">
+                        <p rend="footnote text">1
+                            Tim. 1:6.</p>
+                    </note> and ‘strife of words’,<note place="foot" xml:id="ftn7" n="7">
+                        <p rend="footnote text">Cf. 1 Tim. 6:4.</p>
+                    </note> to
+                    clear the confusedness of thought into which so many have already been led
+                    thereby, and to give them true and just conceptions of this great mystery of
+                        godliness,<note place="foot" xml:id="ftn8" n="8">
+                        <p rend="footnote text">See
+                            1 Tim. 3:16.</p>
+                    </note> I shall endeavour to show,</p>
+                <p>First, what is the general ground of this whole doctrine of justification;</p>
+                <p>
+                    <pb n="184"/>Secondly, what justification is; </p>
+                <p>Thirdly, who they are that are justified; and, </p>
+                <p>Fourthly, on what terms they are justified.</p>
+            </div>
+            <div type="section" n="1">
+                <p>I. I am first to show what is the general ground of this whole doctrine of
+                    justification.</p>
+                <p n="1">1. In the image of God was man made;<note place="foot" xml:id="ftn9" n="9">
+                        <p rend="footnote text">Gen. 1:27; 9:6. See Nos. 1, <hi rend="italic">Salvation by Faith</hi>, §1 and n.; and141, ‘The Image of God’, on
+                            Gen. 1:27.</p>
+                    </note> holy as he that created him is holy, merciful as
+                    the author of all is merciful, perfect as his Father in heaven is perfect.<note place="foot" xml:id="ftn10" n="10">
+                        <p rend="footnote text">See Matt.
+                            5:48.</p>
+                    </note> As God is love, so man dwelling in love dwelt in God,
+                    and God in him.<note place="foot" xml:id="ftn11" n="11">
+                        <p rend="footnote text">See 1 John 4:16.</p>
+                    </note> God made him to be ‘an image of his own
+                        eternity’,<note place="foot" xml:id="ftn12" n="12">
+                        <p rend="footnote text">Wisd. 2:23.</p>
+                    </note> an incorruptible picture of the God of glory. He
+                    was accordingly pure, as God is pure, from every spot of sin. He knew not evil
+                    in any kind or degree, but was inwardly and outwardly sinless and undefiled. He
+                    ‘loved the Lord his God with all his heart, and with all his mind, and soul, and
+                        strength’.<note place="foot" xml:id="ftn13" n="13">
+                        <p rend="footnote text">Cf. Mark 12:30; Luke 10:27.</p>
+                    </note>
+                </p>
+                <p n="2">2. To man thus upright and perfect God gave a perfect law, to which he
+                    required full and perfect obedience. He required full obedience in every point,
+                    and this to be performed without any intermission from the moment man became a
+                    living soul till the time of his trial should be ended. No allowance was made
+                    for any falling short. As, indeed, there was no need of any, man being
+                    altogether equal to the task assigned, and thoroughly furnished for every good
+                    word and work.<note place="foot" xml:id="ftn14" n="14">
+                        <p rend="footnote text">See 2 Tim. 3:17; 2 Thess. 2:17.</p>
+                    </note>
+                </p>
+                <p n="3">3. To the entire law of love which was written in his heart (against which,
+                    perhaps, he could not sin directly) it seemed good to the sovereign wisdom of
+                    God to superadd one positive law: ‘Thou shalt not eat of the fruit of the tree
+                    that groweth in the midst of the garden;’<note place="foot" xml:id="ftn15" n="15">
+                        <p rend="footnote text">Cf. Gen. 3:3.</p>
+                    </note> annexing that
+                    penalty thereto, ‘In the day thou eatest thereof, thou shalt surely die.’<note place="foot" xml:id="ftn16" n="16">
+                        <p rend="footnote text">Gen.
+                        2:17.</p>
+                    </note>
+                </p>
+                <p n="4">4. Such then was the state of man in paradise.<note place="foot" xml:id="ftn17" n="17">
+                        <p rend="footnote text">A similar (and even more
+                            detailed) account of human perfection in man’s first creation had
+                            already been expounded in No.141, ‘The Image of God’ (Gen.1:27). In both
+                            sermons Wesley takes the perfection of the paradisaical state as normal
+                            and normative for human existence. Its restoration is the goal of ‘the
+                            order of salvation’; indeed, salvation is defined as the restoration of
+                            the image of God; see No. 1, <hi rend="italic">Salvation by Faith</hi>,
+                            §1 and n.; also No. 44, <hi rend="italic">Original Sin</hi>, III.5 and
+                            n.</p>
+                    </note> By the free, <pb n="185"/>unmerited love of God he was
+                    holy and happy;<note place="foot" xml:id="ftn18" n="18">
+                        <p rend="footnote text">Holiness and happiness had long been linked in the Anglican (catholic)
+                            tradition as reciprocals (as in John Norris, Richard Lucas, John
+                            Tillotson, and William Tilly). Here, in a staunchly Protestant
+                            exposition of ‘faith alone’, Wesley finds it easy and natural to
+                            presuppose the integrity of God’s design for humanity (happiness) and
+                            his demand upon it (holiness). This linkage—‘holy <hi rend="italic">and</hi> happy’—is one of Wesley’s most consistent themes, early,
+                            middle, and late, with nuances very much worth noting, for if holiness
+                            is active love toward God and neighbour, then happiness is one’s
+                            enjoyment and security in such love. Cf. above, p. 35.</p>
+                    </note> he
+                    knew, loved, enjoyed God, which is (in substance) life everlasting. And in this
+                    life of love he was to continue for ever if he continued to obey God in all
+                    things. But if he disobeyed him in any he was to forfeit all. ‘In that day (said
+                    God) thou shalt surely die.’</p>
+                <p n="5">5. Man did disobey God; he ‘ate of the tree of which God commanded him,
+                    saying, Thou shalt not eat of it.’<note place="foot" xml:id="ftn19" n="19">
+                        <p rend="footnote text">Cf. Gen. 3:17.</p>
+                    </note> And in that day he was
+                    condemned by the righteous judgment of God. Then also the sentence whereof he
+                    was warned before began to take place upon him. For the moment he tasted that
+                    fruit he died. His soul died, was separated from God; separate from whom the
+                    soul has no more life than the body has when separate from the soul. His body
+                    likewise became corruptible and mortal, so that death then took hold on this
+                    also. And being already dead in spirit, dead to God, dead in sin, he hastened on
+                    to death everlasting, to the destruction both of body and soul in the fire never
+                    to be quenched.<note place="foot" xml:id="ftn20" n="20">
+                        <p rend="footnote text">See Mark 9:43. For Wesley’s interesting explanation as to how Adam’s
+                            body <hi rend="italic">became</hi> corruptible and mortal, see No. 141,
+                            ‘The Image of God’, II.1; it represents his concern to apply his
+                            understanding of current advances in medical knowledge to exegetical and
+                            soteriological problems.</p>
+                    </note>
+                </p>
+                <p n="6">6. Thus ‘by one man sin entered into the world, and death by sin. And so
+                    death passed upon all men,’ as being contained in him who was the common father
+                    and representative of us all. Thus ‘through the offence of one’ all are dead,
+                    dead to God, dead in sin, dwelling in a corruptible, mortal body, shortly to be
+                    dissolved, and under the sentence of death eternal. For as ‘by one man’s
+                    disobedience all were made sinners’, so by that offence of one ‘judgment came
+                    upon all men to condemnation.’<hi rend="endnote_reference">
+                        <note place="end">
+                            <p rend="endnote text">Rom. 5:12, etc.</p>
+                        </note>
+                    </hi>
+                </p>
+                <p n="7">7. In this state we were, even all mankind, when ‘God so loved the world
+                    that he gave his only begotten Son, to the end we might not perish but have
+                    everlasting life.’<note place="foot" xml:id="ftn21" n="21">
+                        <p rend="footnote text">Cf. John 3:16.</p>
+                    </note> In the fullness of time
+                    he <pb n="186"/>was made man, another common head of mankind, a second general
+                    parent and representative of the whole human race.<note place="foot" xml:id="ftn22" n="22">
+                        <p rend="footnote text">An echo here of the
+                            Christological views of Hugo Grotius of Christ as the ‘Federal Head’ of
+                            the whole body of humanity; cf. his <hi rend="italic">De Veritate
+                                Religionis Christianae</hi> (1642; though Wesley probably knew it in
+                            Le Clerc’s revision of 1709), Bks. II and III. In Charles Wesley’s hymn
+                            (see No. 125 in <hi rend="italic">A Collection of Hymns</hi>, Vol. 7 in
+                            this edn.), it appears applied to the Pauline analogy between the First
+                            and Second Adams:</p>
+                        <p rend="Verse">Adam, descended from above,</p>
+                        <p rend="Verse">Federal head of all mankind.</p>
+                        <p rend="footnote text">The
+                            metaphor is developed at greater length in Wesley’s <hi rend="italic">Doctrine of Original Sin</hi> (1757), Sect. VI, pp. 366-68, against
+                            John Taylor’s denial of the orthodox interpretations. In his conclusion
+                            Wesley quotes James Hervey approvingly: ‘That as Adam was the first
+                            general representative of mankind, so Christ was the second and
+                            last….’Cf. Isa. 53:4-6.</p>
+                    </note> And as such it was that ‘he bore our
+                    griefs’, the Lord ‘laying upon him the iniquities of us all’. Then ‘was he
+                    wounded for our transgressions, and bruised for our iniquities.’<note place="foot" xml:id="ftn23" n="23">
+                        <p rend="footnote text">Cf. Isa.
+                            53:4-6.</p>
+                    </note> ‘He made his soul an offering for sin.’<note place="foot" xml:id="ftn24" n="24">
+                        <p rend="footnote text">Isa.
+                        53:10.</p>
+                    </note> He poured out his blood for the transgressors. He ‘bare
+                    our sins in his own body on the tree’, that ‘by his stripes we might be
+                        healed’.<note place="foot" xml:id="ftn25" n="25">
+                        <p rend="footnote text">Cf.
+                            1 Pet. 2:24; Isa. 53:5.</p>
+                    </note> And ‘by that one oblation of himself
+                    once offered’<note place="foot" xml:id="ftn26" n="26">
+                        <p rend="footnote text">BCP, Communion, Prayer of Consecration; note Wesley’s ‘that one
+                            oblation…’ in place of ‘his one oblation of himself’.</p>
+                    </note> he
+                    ‘hath redeemed me and all mankind’;<note place="foot" xml:id="ftn27" n="27">
+                        <p rend="footnote text">
+                            <hi rend="italic">Ibid.</hi>, Catechism.</p>
+                    </note>
+                    having thereby ‘made a full, perfect, and sufficient sacrifice and satisfaction
+                    for the sins of the whole world’.<note place="foot" xml:id="ftn28" n="28">
+                        <p rend="footnote text">
+                            <hi rend="italic">Ibid.</hi>, Communion, Prayer of
+                            Consecration; note Wesley’s omission of the term
+                    ‘oblation’.</p>
+                    </note>
+                </p>
+                <p n="8">8. In consideration of this, that the Son of God hath ‘tasted death for
+                    every man’,<note place="foot" xml:id="ftn29" n="29">
+                        <p rend="footnote text">Cf.
+                            Heb. 2:9.</p>
+                    </note> God hath now ‘reconciled the world to himself, not
+                    imputing to them their former trespasses’.<note place="foot" xml:id="ftn30" n="30">
+                        <p rend="footnote text">Cf. 2 Cor. 5:19.</p>
+                    </note> And thus, ‘as by
+                    the offence of one judgment came upon all men to condemnation, even so by the
+                    righteousness of one the free gift came upon all men unto justification.’<note place="foot" xml:id="ftn31" n="31">
+                        <p rend="footnote text">Rom.
+                        5:18.</p>
+                    </note> So that for the sake of his well-beloved Son, of what he
+                    hath done and suffered for us, God now vouchsafes on one only condition (which
+                    himself also enables us to perform) both to remit the punishment due to our
+                    sins, to reinstate us in his favour, and to restore our dead souls to spiritual
+                    life, as the earnest of life eternal.<note place="foot" xml:id="ftn32" n="32">
+                        <p rend="footnote text">Cf. No. 20, <hi rend="italic">The Lord Our
+                                Righteousness</hi>, II.8, for a cross-reference to this
+                        passage.</p>
+                    </note>
+                </p>
+                <p n="9">
+                    <pb n="187"/>9. This therefore is the general ground of the whole doctrine
+                    of justification. By the sin of the first Adam, who was not only the father but
+                    likewise the representative of us all, we all ‘fell short of the favour of
+                        God’,<note place="foot" xml:id="ftn33" n="33">
+                        <p rend="footnote text">Cf.
+                            Rom. 3:23.</p>
+                    </note> we all became ‘children of wrath’;<note place="foot" xml:id="ftn34" n="34">
+                        <p rend="footnote text">Eph.
+                        2:3.</p>
+                    </note> or, as the Apostle expresses it, ‘Judgment came upon all men
+                    to condemnation.’<note place="foot" xml:id="ftn35" n="35">
+                        <p rend="footnote text">Rom. 5:18.</p>
+                    </note> Even so by the sacrifice for
+                    sin made by the second Adam, as the representative of us all, God is so far
+                    reconciled to all the world that he hath given them a new covenant. The plain
+                    condition whereof being once fulfilled, ‘there is no more condemnation for
+                        us’,<note place="foot" xml:id="ftn36" n="36">
+                        <p rend="footnote text">Cf.
+                            Rom. 8:1.</p>
+                    </note> but we are ‘justified freely by his grace through
+                    the redemption that is in Jesus Christ’.<note place="foot" xml:id="ftn37" n="37">
+                        <p rend="footnote text">Cf. Rom. 3:24.</p>
+                    </note>
+                </p>
+            </div>
+            <div type="section" n="2">
+                <p n="1">II. 1. But what is it to be ‘justified’? What is ‘justification’? This was
+                    the second thing which I proposed to show. And it is evident from what has been
+                    already observed that it is not the being made actually just and righteous. This
+                    is <hi rend="italic">sanctification</hi>; which is indeed in some degree the
+                    immediate <hi rend="italic">fruit</hi> of justification, but nevertheless is a
+                    distinct gift of God, and of a totally different nature.<note place="foot" xml:id="ftn38" n="38">
+                        <p rend="footnote text">The relation between
+                            justification and sanctification—and the problem of their order of
+                            precedence—was an old bone of contention between Puritans and Anglicans.
+                            Lutherans and Calvinists, as a rule, understood justification (in the
+                            forensic sense of pardon and acquittal) as antecedent to sanctification
+                            (in the sense of ‘renovation’); cf. Schmid, <hi rend="italic">Doctrinal
+                                Theology</hi>, Pt. III, ch. iii, §48 (pp. 486 ff.). Anglicans, like
+                            Jeremy Taylor, insisted that some evidence of sanctification (e.g.,
+                            repentance and ‘works meet for repentance’) should precede
+                            justification. Wesley stressed the difference between the two
+                            (justification as ‘what God does <hi rend="italic">for</hi> us’;
+                            sanctification as ‘what he works <hi rend="italic">in</hi> us’; cf.
+                            No.45, ‘The New Birth’, §1) and, after 1738, insists on the priority of
+                            justification in the order of salvation (cf. No. 19, ‘The Great
+                            Privilege of those that are Born of God’, I.1 and n.). But see the
+                            Minute of 1770 for an interesting recurrence of the holy living theme
+                                (<hi rend="italic">secundum merita operum</hi>), and also the
+                            comment on the contrast between Lutherans, Catholics, and Methodists on
+                            this issue in No. 107, ‘On God’s Vineyard’, I.5.</p>
+                    </note> The one
+                    implies what God <hi rend="italic">does for us</hi> through his Son; the other
+                    what he <hi rend="italic">works in us</hi> by his Spirit. So that although some
+                    rare instances may be found wherein the term ‘justified’ or ‘justification’ is
+                    used in so wide a sense as to include sanctification also, yet in general use
+                    they are sufficiently distinguished from each other both by St. Paul and the
+                    other inspired writers.</p>
+                <p n="2">2. Neither is that far-fetched conceit that justification is the clearing
+                    us from accusation, particularly that of Satan, easily <pb n="188"/>provable
+                    from any clear text of Holy Writ.<note place="foot" xml:id="ftn39" n="39">
+                        <p rend="footnote text">It has been supposed (e.g., by Sugden) that this is
+                            the Origenistic soteriology (and that of other Eastern Fathers; e.g.,
+                            Athanasius, Gregory of Nyssa). It is, of course, a misreading of Origen;
+                            cf. Gustaf Aulén, <hi rend="italic">Christus Victor</hi> (London, SPCK,
+                            1945), pp. 54, 63-71.</p>
+                    </note> In the whole scriptural account of this
+                    matter, as above laid down, neither that accuser nor his accusation appears to
+                    be at all taken in. It cannot indeed be denied that he is the ‘accuser of
+                        men’,<note place="foot" xml:id="ftn40" n="40">
+                        <p rend="footnote text">Cf.
+                            Rev. 12:10.</p>
+                    </note> emphatically so called. But it does in no wise
+                    appear that the great Apostle hath any reference to this, more or less, in all
+                    that he hath written touching justification either to the Romans or the
+                    Galatians.</p>
+                <p n="3">3. It is also far easier to take for granted than to prove from any clear
+                    Scripture testimony that justification is the clearing us from the accusation
+                    brought against us by <hi rend="italic">the law</hi>. At least, if this forced,
+                    unnatural way of speaking mean either more or less than this, that whereas we
+                    have transgressed the law of God and thereby deserved the damnation of hell, God
+                    does not inflict on those who are justified the punishment which they had
+                        deserved.<note place="foot" xml:id="ftn41" n="41">
+                        <p rend="footnote text">This was typical Reformation teaching, as in John Gerhard, <hi rend="italic">op. cit.</hi>, VII.4-5: ‘The Law accuses the sinner
+                            before the judgment-seat of God…’; cf. Martin Chemnitz, <hi rend="italic">Loci Theologici</hi>, II.250, where it is argued that
+                            ‘the conscience of the sinner [is] accused by the divine Law before the
+                            tribunal of God….’ Note the mild tone of Wesley’s rejection of this
+                            tradition.</p>
+                    </note>
+                </p>
+                <p n="4">4. Least of all does justification imply that God is <hi rend="italic">deceived</hi> in those whom he justifies; that he thinks them to be what in
+                    fact they are not, that he accounts them to be otherwise than they are. It does
+                    by no means imply that God judges concerning us contrary to the real nature of
+                    things, that he esteems us better than we really are, or believes us righteous
+                    when we are unrighteous.<note place="foot" xml:id="ftn42" n="42">
+                        <p rend="footnote text">A mild distortion of the typical Puritan doctrine
+                            of forensic justification in which Christ’s imputed righteousness allows
+                            the Father justly to pardon the elect and therefore regard them as if
+                            they were righteous. The ruling metaphor, in that view, is a forensic
+                            one: ‘the heavenly tribunal’. Cf. Calvin, <hi rend="italic">Institutes</hi>, III.12; see also John Davenant, <hi rend="italic">A Treatise on Justification</hi> (1631), I.227-36, and George
+                            Downham [Downame], <hi rend="italic">A Treatise of Justification</hi>
+                            (1639), pp. 15-45. For a larger survey of the Puritan thesis that
+                            imputation is the formal cause of justification (in Davenant, Downham,
+                            Joseph Hall, James Ussher, John Donne, Lancelot Andrewes, <hi rend="italic">et al.</hi>), cf. Allison, <hi rend="italic">The Rise
+                                of Moralism</hi>, <hi rend="italic">passim</hi>.</p>
+                    </note> Surely
+                    no. The judgment of the all-wise God is always according to truth. Neither can
+                    it ever consist with his unerring wisdom to think that I am innocent, to judge
+                    that I am righteous or holy, because another is so. He can no more in this
+                    manner confound me with Christ than with David or Abraham. Let any man to whom
+                    God hath given understanding weigh this <pb n="189"/>without prejudice, and he
+                    cannot but perceive that such a notion of justification is neither reconcilable
+                    to reason nor Scripture.</p>
+                <p n="5">5. The plain scriptural notion of justification is pardon,<note place="foot" xml:id="ftn43" n="43">
+                        <p rend="footnote text">The fulcrum of
+                            Wesley’s evangelical soteriology. No such definition of justification
+                            appears anywhere in the early Wesley. The idea is normative after
+                            1738—but see No. 86, <hi rend="italic">A Call to Backsliders</hi>,
+                            II.2(3), where Wesley speaks of those who ‘had been sanctified in the
+                            first degree…’, i.e., before ‘remission of sins’. For the early Wesley,
+                            see, e.g., his letter to his mother, Feb. 28, 1730, where he accepts
+                            Jeremy Taylor’s correlation of ‘pardon of sins in the gospel [with]
+                            sanctification’. Contrast this with Nos. 19, ‘The Great Privilege of
+                            those that are Born of God’ (1748), §2; and 43, <hi rend="italic">The
+                                Scripture Way of Salvation</hi> (1765), I.3. It was in this sense
+                            that Wesley could maintain, in a letter to John Newton, May 14, 1765: ‘I
+                            think on justification just as I have done any time these seven and
+                            twenty years—and just as Mr. Calvin does. In this respect I do not
+                            differ from him an hair’s breadth.’ Earlier (Apr. 24, 1765), he wrote to
+                            Dr. Erskine, ‘In…justification by faith I have not wavered a moment for
+                            these seven and twenty years.’ Later (May 23, 1768), he would reassure
+                            the Revd. Mr. Plenderlieth: ‘Since I believed justification by faith,
+                            which I have done upwards of thirty years, I have constantly maintained
+                            that we are pardoned and accepted wholly and solely for the sake of what
+                            Christ hath both <hi rend="italic">done and suffered</hi> for us.’ Cf.
+                            also <hi rend="italic">Notes</hi> on Rom. 3:24; 5:18, and <hi rend="italic">Minutes</hi>, 1746.</p>
+                        <p rend="footnote text">If the
+                            difference between Wesley and Calvin were only a hair’s breadth, that
+                            hair’s breadth was crucial—and the Calvinists always recognized it as
+                            such. In the <hi rend="italic">Institutes</hi>, III. xx. 5, Calvin
+                            asserts expressly that ‘in justification, faith is <hi rend="italic">merely passive</hi>…’; whereas Wesley understood justifying faith
+                            as ‘active’ in some sense (prompted, as it is, by the Spirit’s
+                            prevenient activity). In this, he was nearer to Richard Lucas (<hi rend="italic">Enquiry</hi>, III.33), John Goodwin (<hi rend="italic">Imputatio Fidei; Or a Treatise of Justification</hi> [1642], p.77),
+                            or even to Thomas Cockman (<hi rend="italic">Salvation by Jesus Christ
+                                Alone…in two sermons preached before the University of Oxford,
+                                January 2 and 6, 1732</hi>) than to Calvin, Davenant, or Bunyan.
+                            There is also his letter to Charles (July 31, 1747), which outlines ‘<hi rend="italic">a genesis problematica</hi> on justifying faith’, with
+                            its first formal question, ‘Is justifying faith a sense of pardon?’—and
+                            the formal answer, ‘<hi rend="italic">Negatur</hi>’! The ensuing
+                            explanation would seem to contradict the central thesis of
+                            ‘Justification by Faith’ and the claim to consensus with Calvin. A
+                            closer look, however, suggests a somewhat imprecise elision of
+                            justification as pardon with the ‘<hi rend="italic">sense of
+                            pardon</hi>’ here defined as ‘a distinct, explicit assurance that my
+                            sins are forgiven’. Thus, for all of these variants, <hi rend="italic">justification as pardon</hi> continues as Wesley’s baseline
+                            definition.</p>
+                    </note> the forgiveness of sins. It is that act of God
+                    the Father whereby, for the sake of the propitiation made by the blood of his
+                    Son, he ‘showeth forth his righteousness (or mercy) by the remission of the sins
+                    that are past’.<note place="foot" xml:id="ftn44" n="44">
+                        <p rend="footnote text">Cf. Rom. 3:25.</p>
+                    </note> This is the easy, natural account of it given
+                    by St. Paul throughout his whole Epistle. So he explains it himself, more
+                    particularly in this and in the following chapter. Thus in the next verses but
+                    one to the text, ‘Blessed are they (saith he) whose iniquities are forgiven, and
+                    whose sins are covered. Blessed is the man to whom the Lord will not impute
+                        sin.’<note place="foot" xml:id="ftn45" n="45">
+                        <p rend="footnote text">Rom.
+                            4:7, 8; cf. Ps. 32:1, 2.</p>
+                    </note> To him that is justified or forgiven
+                    God ‘will not impute sin’ to his condemnation. He will not condemn him on that
+                    account either in this world or in that which is to come. His sins, all his past
+                    sins, <pb n="190"/>in thought, word, and deed, ‘are covered’, are blotted out;
+                    shall not be remembered or mentioned against him, any more than if they had not
+                    been. God will not inflict on that sinner what he deserved to suffer, because
+                    the Son of his love hath suffered for him. And from the time we are ‘accepted
+                    through the Beloved’, ‘reconciled to God through his blood’,<note place="foot" xml:id="ftn46" n="46">
+                        <p rend="footnote text">Cf. Eph. 1:6, 7; Rom. 5:9,
+                            10.</p>
+                    </note> he loves and blesses and watches over us for good, even
+                    as if we had never sinned.</p>
+                <p n="6">Indeed the Apostle in one place seems to extend the meaning of the word
+                    much farther, where he says: ‘Not the hearers of the law, but the doers of the
+                    law shall be justified.’<note place="foot" xml:id="ftn47" n="47">
+                        <p rend="footnote text">Rom. 2:13.</p>
+                    </note> Here he appears to refer our
+                    justification to the sentence of the great day.<note place="foot" xml:id="ftn48" n="48">
+                        <p rend="footnote text">I.e., to our ‘final justification’ (<hi rend="italic">iustitia duplex</hi>); this, then, is an echo of
+                            Wesley’s doctrine of a ‘double justification’, already rejected by the
+                            Lutherans (cf. Schmid, <hi rend="italic">Doctrinal Theology</hi>, Pt.
+                            III, ch. iii, §42, and, more specifically, pp. 430 ff.).</p>
+                    </note> And
+                    so our Lord himself unquestionably doth when he says, ‘By thy words thou shalt
+                    be justified;’ proving thereby that ‘for every idle word men shall speak they
+                    shall give an account in the day of judgment.’<note place="foot" xml:id="ftn49" n="49">
+                        <p rend="footnote text">Matt. 12:36, 37.</p>
+                    </note> But perhaps we
+                    can hardly produce another instance of St. Paul’s using the word in that distant
+                    sense. In the general tenor of his writings it is evident he doth not; and least
+                    of all in the text before us, which undeniably speaks, not of those who have
+                    already ‘finished their course’,<note place="foot" xml:id="ftn50" n="50">
+                        <p rend="footnote text">2 Tim. 4:7.</p>
+                    </note> but of those who are now
+                    just setting out, just beginning ‘to run the race which is set before
+                        them’.<note place="foot" xml:id="ftn51" n="51">
+                        <p rend="footnote text">Cf.
+                            Heb. 12:1. Another echo of the idea of ‘double justification’, which
+                            Wesley will argue for in the next sermon, ‘The Righteousness of Faith’
+                            (see I.7 and n.).</p>
+                    </note>
+                </p>
+            </div>
+            <div type="section" n="3">
+                <p n="1">III. 1. But this is the third thing which was to be considered, namely, who
+                    are they that are justified? And the Apostle tells us expressly, the ungodly:
+                    he, that is, God, ‘justifieth the ungodly’;<note place="foot" xml:id="ftn52" n="52">
+                        <p rend="footnote text">Rom. 4:5.</p>
+                    </note> the ungodly of every
+                    kind and degree, and none but the ungodly. As ‘they that are righteous need no
+                        repentance,’<note place="foot" xml:id="ftn53" n="53">
+                        <p rend="footnote text">Cf. Luke 5:32; 15:7; etc.</p>
+                    </note> so they need no forgiveness. It is
+                    only sinners that have any occasion for pardon: it is sin alone which admits of
+                    being forgiven. Forgiveness therefore has an immediate reference to sin and (in
+                    this respect) to nothing else. It is our ‘unrighteousness’ to which the
+                    pardoning God is ‘merciful’; it is our ‘iniquity’ which he ‘remembereth no
+                        more’.<note place="foot" xml:id="ftn54" n="54">
+                        <p rend="footnote text">Cf.
+                            Heb. 8:12.</p>
+                    </note>
+                </p>
+                <p n="2">
+                    <pb n="191"/>2. This seems not to be at all considered by those who so
+                    vehemently contend that man must be sanctified, that is, holy, before he can be
+                    justified; especially by such of them as affirm that universal holiness or
+                    obedience must precede justification<note place="foot" xml:id="ftn55" n="55">
+                        <p rend="footnote text">An unsympathetic reference to the typical
+                            assumption by those in the ‘holy living’ tradition that ‘repentance and
+                            works meet for repentance’ (Acts 26:20) were normal antecedents to
+                            justification—and certainly to anything like ‘final justification’
+                            (since the doctrine of ‘double justification’ had come to them from
+                            Erasmus, Bucer, and others). Jeremy Taylor had spoken for many in
+                            espousing this view in a letter to Bishop John Warner of Rochester
+                            (Taylor, <hi rend="italic">Works</hi>, II. 678-80; see also <hi rend="italic">Unum Necessarium</hi>, ch. ix, ‘The Effect of
+                            Repentance’, <hi rend="italic">ibid.</hi>, pp. 598 ff.); he had
+                            expounded it at greater length in <hi rend="italic">The Rule and
+                                Exercises of Holy Living</hi> (1650), <hi rend="italic">Works</hi>,
+                            I.399-515. Bishop Thomas Barlow of Lincoln had accused George Bull of
+                            such a teaching in the <hi rend="italic">Harmonia Apostolica</hi>
+                            (1669), despite Robert Nelson’s denials of any such intention on Bull’s
+                            part; cf. his <hi rend="italic">Life of Bull</hi> (1713), pp. 90, 181,
+                            211. Despite Nelson’s protestations, Wesley had joined Barlow in
+                            denouncing both Bull and Tillotson as having taught such a doctrine of
+                            works-righteousness (cf. Nos. 150, 151, ‘Hypocrisy in Oxford’). Thomas
+                            Tully thought he had found such a heresy in Richard Baxter’s <hi rend="italic">Aphorisms on Justification</hi>, and had roundly
+                            condemned it in <hi rend="italic">Justificatio Paulina</hi> (1674). The
+                            point is that here Wesley has reversed his earlier stand and now is
+                            stressing the primacy of justification in the <hi rend="italic">ordo
+                                salutis</hi> even as Baxter had sought to do in his <hi rend="italic">Aphorisms</hi> and <hi rend="italic">Confession</hi>.
+                            Even John Turner in his Boyle Lecture of 1708, ‘The Wisdom of God in the
+                            Redemption of Man’, <hi rend="italic">Sermons at the Boyle Lectures</hi>
+                            (1739), II.359, had asserted that universal or perfect obedience to the
+                            Law is impossible to fallen man. What everybody was trying to avoid was
+                            the Council of Trent’s bald identification of justification as ‘inherent
+                            and infused righteousness’ (cf. Sessions VI, ch. vii). Thus, Wesley here
+                            is concerned to set down his new doctrine as clearly and firmly as
+                            possible.</p>
+                    </note> (unless they mean that justification at the last
+                    day which is wholly out of the present question); so far from it, that the very
+                    supposition is not only flatly impossible (for where there is no love of God
+                    there is no holiness, and there is no love of God but from a sense of his loving
+                    us) but also grossly, intrinsically absurd, contradictory to itself. For it is
+                    not a <hi rend="italic">saint</hi> but a <hi rend="italic">sinner</hi> that is
+                        <hi rend="italic">forgiven</hi>, and under the notion of a sinner. God <hi rend="italic">justifieth</hi> not the godly, but the <hi rend="italic">ungodly</hi>; not those that are holy already, but the unholy. Upon what
+                    condition he doth this will be considered quickly; but whatever it is, it cannot
+                    be holiness. To assert this is to say the Lamb of God takes away only those sins
+                    which were taken away before.<note place="foot" xml:id="ftn56" n="56">
+                        <p rend="footnote text">An echo of the <hi rend="italic">Agnus Dei</hi> and
+                            1 John 2:2.</p>
+                    </note>
+                </p>
+                <p n="3">3. Does then the good Shepherd seek and save only those that are found
+                    already? No. He seeks and saves that which is lost.<note place="foot" xml:id="ftn57" n="57">
+                        <p rend="footnote text">See Luke 19:10.</p>
+                    </note> He
+                    pardons those who need his pardoning mercy. He saves from the guilt of sin (and
+                    at the same time from the power) sinners of every kind, of every degree: men who
+                    till then were altogether ungodly; in whom the love of the Father was not; and
+                    consequently in <pb n="192"/>whom dwelt no good thing, no good or truly
+                    Christian temper, but all such as were evil and abominable—pride, anger, love of
+                    the world, the genuine fruits of that ‘carnal mind which is enmity against
+                        God’.<note place="foot" xml:id="ftn58" n="58">
+                        <p rend="footnote text">Cf.
+                            Rom. 8:7.</p>
+                    </note>
+                </p>
+                <p n="4">4. These ‘who are sick’, the ‘burden of whose sins is intolerable’,<note place="foot" xml:id="ftn59" n="59">
+                        <p rend="footnote text">BCP, Communion,
+                            General Confession.</p>
+                    </note> are they that ‘need a physician’;<note place="foot" xml:id="ftn60" n="60">
+                        <p rend="footnote text">Cf. Matt.
+                            9:12.</p>
+                    </note> these who are guilty, who groan under the wrath of God,
+                    are they that need a pardon. These who are ‘condemned already’,<note place="foot" xml:id="ftn61" n="61">
+                        <p rend="footnote text">John
+                        3:18.</p>
+                    </note> not only by God but also by their own conscience, as by a
+                    thousand witnesses, of all their ungodliness, both in thought, and word, and
+                    work, cry aloud for him that ‘justifieth the ungodly’<note place="foot" xml:id="ftn62" n="62">
+                        <p rend="footnote text">Rom. 4:5.</p>
+                    </note> ‘through
+                    the redemption that is in Jesus’<note place="foot" xml:id="ftn63" n="63">
+                        <p rend="footnote text">Rom. 3:24.</p>
+                    </note>—‘the ungodly and him that
+                    worketh not’, that worketh not before he is justified anything that is good,
+                    that is truly virtuous or holy, but only evil continually. For his heart is
+                    necessarily, essentially evil, till the love of God is shed abroad therein.<note place="foot" xml:id="ftn64" n="64">
+                        <p rend="footnote text">Rom.
+                        5:5.</p>
+                    </note> And while the tree is corrupt so are the fruits, ‘for an
+                    evil tree cannot bring forth good fruit’.<note place="foot" xml:id="ftn65" n="65">
+                        <p rend="footnote text">Cf. Matt. 7:18; Luke 6:43.</p>
+                    </note>
+                </p>
+                <p n="5">5. If it be objected, ‘Nay, but a man, before he is justified, may feed the
+                    hungry, or clothe the naked;<note place="foot" xml:id="ftn66" n="66">
+                        <p rend="footnote text">Cf. Matt. 25:37-38.</p>
+                    </note> and these are good
+                    works,’ the answer is easy. He <hi rend="italic">may</hi> do these, even before
+                    he is justified. And these are in one sense ‘good works’; they are ‘good and
+                    profitable to men’.<note place="foot" xml:id="ftn67" n="67">
+                        <p rend="footnote text">Titus 3:8.</p>
+                    </note> But it does not follow that
+                    they are, strictly speaking, good in themselves, or good in the sight of God.
+                    All truly ‘good works’ (to use the words of our Church) ‘follow after
+                    justification’, and they are therefore ‘good and acceptable to God in Christ’,
+                    because they ‘spring out of a true and living faith’.<note place="foot" xml:id="ftn68" n="68">
+                        <p rend="footnote text">
+                            <hi rend="italic">The
+                                Thirty-nine Articles</hi>, Art. XII, ‘Of Good Works’; also ‘Of the
+                            True and Lively Faith’, Pts. I-III, in <hi rend="italic">Homilies</hi>,
+                            pp. 29-40, and ‘Of Good Works Annexed Unto Faith’, Pt. I, <hi rend="italic">ibid.</hi>, pp. 41-44.</p>
+                    </note> By a parity of
+                    reason all ‘works done before justification are not good’, in the Christian
+                    sense, ‘forasmuch as they spring not of faith in Jesus Christ’ (though from some
+                    kind of faith in God they may spring), ‘yea, rather for that they are not done
+                    as God hath willed and commanded them to be done, we doubt not’ (how <pb n="193"/>strange soever it may appear to some) ‘but they have the nature of sin.’<note place="foot" xml:id="ftn69" n="69">
+                        <p rend="footnote text">Cf. <hi rend="italic">The Thirty-nine Articles</hi>, Art. XIII, ‘Of Works
+                            Before Justification’, and see <hi rend="italic">The Doctrine of
+                                Salvation, Faith, and Good Works</hi>, II.6 (p. 4 above). In the
+                            homily, ‘Of Good Works’, <hi rend="italic">Homilies</hi>, p.43, Cranmer
+                            cites St. Chrysostom’s <hi rend="italic">De Fide, Lege et Spiritu…</hi>:
+                            ‘they which glister and shine in good works without faith in God be like
+                            dead men which had goodly and precious tombs and yet it availeth them
+                            nothing.’ Cf. Migne, <hi rend="italic">PG</hi>, 48:1081-83, where <hi rend="italic">De Lege</hi> comes under the rubric ‘Spuria’; even so,
+                            the passage faithfully reflects St. Chrysostom’s views on the point.
+                            Also, see No. 99, <hi rend="italic">The Reward of Righteousness</hi>,
+                            I.4 and n.</p>
+                    </note>
+                </p>
+                <p n="6">6. Perhaps those who doubt of this have not duly considered the weighty
+                    reason which is here assigned why no works done before justification can be
+                    truly and properly good. The argument runs thus:</p>
+                <p><!--How to number unnumbered paragraphs?-->No works are good which are not done
+                    as God hath willed and commanded them to be done:</p>
+                <p>But no works done before justification are done as God hath willed and commanded
+                    them to be done:</p>
+                <p>Therefore no works done before justification are good.</p>
+                <p>The first proposition is self-evident. And the second, that no works done before
+                    justification are done as God hath willed and commanded them to be done, will
+                    appear equally plain and undeniable if we only consider God hath willed and
+                    commanded that ‘all our works should be done in charity’ (ἐν ἀγάπῃ),<note place="foot" xml:id="ftn70" n="70">
+                        <p rend="footnote text">Cf. 1 Cor. 16:14.
+                            For Wesley’s preference for ‘love’ rather than ‘charity’ as a
+                            translation of ἀγάπῃ, cf. No. 17, ‘The Circumcision of the Heart’, I.2
+                            and n.</p>
+                    </note> in love, in that love to God which produces love to
+                    all mankind. But none of our works can be done in this love while the love of
+                    the Father (of God as our Father) is not in us. And this love cannot be in us
+                    till we receive the ‘Spirit of adoption, crying in our hearts, Abba,
+                        Father’.<note place="foot" xml:id="ftn71" n="71">
+                        <p rend="footnote text">Cf.
+                            Rom. 8:15.</p>
+                    </note> If therefore God doth not ‘justify the ungodly’,
+                    and him that (in this sense) ‘worketh not’, then hath Christ died in vain; then,
+                    notwithstanding his death, can no flesh living be justified.</p>
+            </div>
+            <div type="section" n="4">
+                <p n="1">IV. 1. But on what terms then is he justified who is altogether ‘ungodly’,
+                    and till that time ‘worketh not’? On one alone, which is faith. He ‘believeth in
+                    him that justifieth the ungodly’, and ‘he that believeth is not condemned’;<note place="foot" xml:id="ftn72" n="72">
+                        <p rend="footnote text">John
+                        3:18.</p>
+                    </note> yea, he ‘is passed from death unto life’.<note place="foot" xml:id="ftn73" n="73">
+                        <p rend="footnote text">John 5:24; cf. 1 John
+                            3:14.</p>
+                    </note> For ‘the righteousness (or mercy) of God is by faith of
+                    Jesus Christ unto all and upon all them that believe; …whom God hath set forth
+                    to be a propitiation through faith in his blood’, <pb n="194"/>that ‘he might be
+                    just, and (consistently with his justice) the justifier of him which believeth
+                    in Jesus…. Therefore we conclude that a man is justified by faith without the
+                    deeds of the law’<note place="foot" xml:id="ftn74" n="74">
+                        <p rend="footnote text">Rom. 3:22, 25-26, 28.</p>
+                    </note>—without previous
+                    obedience to the moral law, which indeed he could not till now perform. That it
+                    is the moral law, and that alone, which is here intended, appears evidently from
+                    the words that follow: ‘Do we then make void the law through faith? God forbid!
+                    Yea, we establish the law.’<note place="foot" xml:id="ftn75" n="75">
+                        <p rend="footnote text">Rom.3:31; see Nos. 34, ‘The Original, Nature,
+                            Properties, and Use of the Law’, and 35, 36, ‘The Law Established
+                            through Faith’, Discourses I and II, for a full exposition of Wesley’s
+                            views on ‘Law and Gospel’.</p>
+                    </note> What law do we establish by faith?
+                    Not the ritual law; not the ceremonial law of Moses. In no wise; but the great,
+                    unchangeable law of love, the holy love of God and of our neighbour.</p>
+                <p n="2">2. Faith in general is a divine, supernatural ἔλεγχος, ‘evidence’ or
+                    conviction ‘of things not seen’,<note place="foot" xml:id="ftn76" n="76">
+                        <p rend="footnote text">Heb. 11:1. Cf. No. 3, <hi rend="italic">‘Awake,
+                                Thou That Sleepest’</hi>, I.11 and n.</p>
+                    </note> not discoverable by
+                    our bodily senses as being either past, future, or spiritual.<note place="foot" xml:id="ftn77" n="77">
+                        <p rend="footnote text">Is there an echo here of St.
+                            Augustine’s famous distinction between three orders of time (<hi rend="italic">Confessions</hi>, XI. xi-xxxi—<hi rend="italic">memoria</hi>, <hi rend="italic">expectatio</hi>, and <hi rend="italic">contuitus</hi>)? Wesley’s ‘spiritual’ is a rough
+                            equivalent to St. Augustine’s ‘contuitive’. See No. 29, ‘Sermon on the
+                            Mount, IX’, §28 and n.</p>
+                    </note> Justifying faith implies, not only a
+                    divine evidence or conviction that ‘God was in Christ, reconciling the world
+                    unto himself’,<note place="foot" xml:id="ftn78" n="78">
+                        <p rend="footnote text">2
+                            Cor. 5:19.</p>
+                    </note> but a sure trust and confidence that Christ died
+                    for <hi rend="italic">my</hi> sins, that he loved <hi rend="italic">me</hi>, and
+                    gave himself for <hi rend="italic">me</hi>.<note place="foot" xml:id="ftn79" n="79">
+                        <p rend="footnote text">See 1 Cor. 15:3 and Gal. 2:20. This is
+                            Wesley’s definition of the ‘testimony’ or ‘witness of the Spirit’. See
+                            Nos. 10, ‘The Witness of the Spirit, I’, I.7; 11, <hi rend="italic">The
+                                Witness of the Spirit</hi>, II, II.2; 17, ‘The Circumcision of the
+                            Heart’, II.5; 58, <hi rend="italic">On Predestination</hi>, §12; 106,
+                            ‘On Faith, Heb. 11:6’, I.12. There is also here an echo of ‘Aldersgate’,
+                            JWJ, May 24, 1738. See also Wesley’s <hi rend="italic">Notes</hi> on 1
+                            John 3:14.</p>
+                    </note> And at what time soever a sinner thus believes, be
+                    it in early childhood, in the strength of his years, or when he is old and
+                    hoary-haired, God justifieth that ungodly one; God for the sake of his Son
+                    pardoneth and absolveth him who had in him till then no good thing. Repentance
+                    indeed God had given him before. But that repentance was neither more nor less
+                    than a deep sense of the want of all good, and the presence of all evil. And
+                    whatever good he hath or doth from that hour when he first believes in God
+                    through Christ, faith does not <hi rend="italic">find</hi> but <hi rend="italic">bring</hi>. This is the fruit of faith. First the tree is good, and then
+                    the fruit is good also.</p>
+                <p n="3">
+                    <pb n="195"/>3. I cannot describe the nature of this faith better than in
+                    the words of our own Church: ‘The only instrument of salvation’ (whereof
+                    justification is one branch) ‘is faith: that is […] a sure trust and confidence
+                    […] that God both hath and will forgive our sins, that he hath accepted us again
+                    into his favour, […] for the merits of Christ’s death and Passion…. But here we
+                    must take heed that we do not halt with God through an inconstant, wavering
+                    faith. […] Peter coming to Christ upon the water, because he fainted in faith,
+                    was in danger of drowning. So we, if we begin to waver or doubt, it is to be
+                    feared that we should sink as Peter did, not into the water but into the
+                    bottomless pit of hell-fire.’<hi rend="endnote_reference">
+                        <note place="end">
+                            <p rend="endnote text">[Cf.] Second Sermon on the Passion [<hi rend="italic">Homilies</hi>, pp. 382-83].</p>
+                        </note>
+                    </hi>
+                </p>
+                <p n="3.2">Therefore have ‘a sure and constant faith, not only that the death of
+                    Christ is available for […] all the world, […] but […] that he hath made […] a
+                    full and sufficient sacrifice for <hi rend="italic">thee</hi>, a perfect
+                    cleansing of <hi rend="italic">thy</hi> sins, so that […] thou mayst say with
+                    the Apostle, […] he loved <hi rend="italic">thee</hi>, and gave himself for <hi rend="italic">thee</hi>.<note place="foot" xml:id="ftn80" n="80">
+                        <p rend="footnote text">Cf. Gal. 2:20.</p>
+                    </note> For this is […] to make
+                    Christ <hi rend="italic">thine own</hi>, and to apply his merits unto <hi rend="italic">thyself</hi>.<hi rend="endnote_reference">
+                        <note place="end">
+                            <p rend="endnote text">[Cf.] Sermon on the Sacrament, First Part [<hi rend="italic">ibid.</hi>, p. 399].</p>
+                        </note>
+                    </hi>
+                </p>
+                <p n="4">4. By affirming that this faith is the term or <hi rend="italic">condition</hi> of justification I mean, first, that there is no
+                    justification without it. ‘He that believeth not is condemned already;’<note place="foot" xml:id="ftn81" n="81">
+                        <p rend="footnote text">John
+                        3:18.</p>
+                    </note> and so long as he believeth not that condemnation cannot be
+                    removed, ‘but the wrath of God abideth on him’.<note place="foot" xml:id="ftn82" n="82">
+                        <p rend="footnote text">John 3:36.</p>
+                    </note> As ‘there is no other
+                    name given under heaven than that of Jesus of Nazareth,’ no other merit whereby
+                    a condemned sinner can ever be saved from the guilt of sin;<note place="foot" xml:id="ftn83" n="83">
+                        <p rend="footnote text">See Acts 4:10, 12.</p>
+                    </note>
+                    so there is no other way of obtaining a share in his merit than ‘by faith in his
+                        name’.<note place="foot" xml:id="ftn84" n="84">
+                        <p rend="footnote text">Cf.
+                            Acts 3:16.</p>
+                    </note> So that as long as we are without this faith we
+                    are ‘strangers to the covenant of promise’, we are ‘aliens from the commonwealth
+                    of Israel’, and ‘without God in the world’.<note place="foot" xml:id="ftn85" n="85">
+                        <p rend="footnote text">Eph. 2:12.</p>
+                    </note> Whatsoever virtues (so
+                    called) a man may have—I speak of those unto whom the gospel is preached; ‘for
+                    what have I to do to judge them that are without?’<note place="foot" xml:id="ftn86" n="86">
+                        <p rend="footnote text">1 Cor.
+                    5:12.</p>
+                    </note>—whatsoever good works (so accounted) he may do, it profiteth
+                    not: he is still a ‘child of wrath’,<note place="foot" xml:id="ftn87" n="87">
+                        <p rend="footnote text">Cf. Eph. 2:3.</p>
+                    </note> still under the curse,
+                    till he believes in Jesus.</p>
+                <p n="5">
+                    <pb n="196"/>5. Faith therefore is the <hi rend="italic">necessary</hi>
+                    condition of justification. Yea, and the <hi rend="italic">only necessary</hi>
+                    condition thereof. This is the second point carefully to be observed: that the
+                    very moment God giveth faith (for ‘it is the gift of God’)<note place="foot" xml:id="ftn88" n="88">
+                        <p rend="footnote text">Eph. 2:8; thus faith is not a
+                            meritorious ‘work’.</p>
+                    </note> to the ‘ungodly’, ‘that worketh not’,
+                    that ‘faith is counted to him for righteousness’.<note place="foot" xml:id="ftn89" n="89">
+                        <p rend="footnote text">Cf. Rom. 4:5.</p>
+                    </note> He
+                    hath no righteousness at all antecedent to this, not so much as negative
+                        righteousness<note place="foot" xml:id="ftn90" n="90">
+                        <p rend="footnote text">I.e., Adam’s state before temptation and its
+                            bearing on the problem of ‘original righteousness’; cf. St. Irenaeus,
+                                <hi rend="italic">Against Heresies</hi>, III. xxii.v., and St.
+                            Athanasius, <hi rend="italic">Contra Gentes</hi>, 3. The Lutheran
+                            theologians had discussed <hi rend="italic">iustitia originalis</hi> and
+                            had rejected any correlation of that with any <hi rend="italic">status
+                                purorum naturalium</hi> (cf. Schmid, <hi rend="italic">Doctrinal
+                                Theology</hi>, pp. 230-31, and see his citations of Gerhard,
+                            Calixtus, and Quenstedt). For the phrase, ‘negative righteousness’, cf.
+                            William Allen, <hi rend="italic">The Glass of Justification</hi> (1658),
+                            p. 20.</p>
+                    </note> or innocence. But ‘faith is imputed to him for
+                    righteousness’ the very moment that he believeth. Not that God (as was observed
+                    before) thinketh him to be what he is not. But as ‘he made Christ to be sin for
+                        us’<note place="foot" xml:id="ftn91" n="91">
+                        <p rend="footnote text">Cf. 2
+                            Cor. 5:21.</p>
+                    </note> (that is, treated him as a sinner, punished him
+                    for our sins), so he counteth us righteous from the time we believe in him (that
+                    is, he doth not punish us for our sins, yea, treats us as though we were
+                    guiltless and righteous).</p>
+                <p n="6">6. Surely the difficulty of assenting to this proposition, that faith is
+                    the <hi rend="italic">only condition</hi> of justification, must arise from not
+                    understanding it. We mean thereby thus much: that it is the only thing without
+                    which none is justified, the only thing that is immediately, indispensably,
+                    absolutely requisite in order to pardon. As on the one hand, though a man should
+                    have everything else, without faith, yet he cannot be justified; so on the
+                    other, though he be supposed to want everything else, yet if he hath faith he
+                    cannot but be justified. For suppose a sinner of any kind or degree, in a full
+                    sense of his total ungodliness, of his utter inability to think, speak, or do
+                    good, and his absolute meetness for hell-fire—suppose, I say, this sinner,
+                    helpless and hopeless, casts himself wholly on the mercy of God in Christ (which
+                    indeed he cannot do but by the grace of God)—who can doubt but he is forgiven in
+                    that moment? Who will affirm that any more is <hi rend="italic">indispensably
+                        required</hi> before that sinner can be justified?</p>
+                <p n="6.2">Now if there ever was one such instance from the beginning of the world
+                    (and have there not been, and are there not ten <pb n="197"/>thousand times ten
+                        thousand?)<note place="foot" xml:id="ftn92" n="92">
+                        <p rend="footnote text">Dan. 7:10.</p>
+                    </note> it plainly follows that faith is, in the above
+                    sense, the sole condition of justification.<note place="foot" xml:id="ftn93" n="93">
+                        <p rend="footnote text">Wesley’s starkest assertion, in any of his
+                            writings, of the <hi rend="italic">sola fide</hi>, for here he excludes
+                            even <hi rend="italic">repentance</hi>, which elsewhere he conjoins with
+                            faith as the human components of justification. See, e.g., No. 14, <hi rend="italic">The Repentance of Believers</hi>, II.6; <hi rend="italic">Minutes</hi>, 1745; <hi rend="italic">Principles of a
+                                Methodist Farther Explained</hi>, VI.4; and his <hi rend="italic">Letter to a Gentleman at Bristol</hi>, Jan. 6, 1758. See also
+                            Wesley’s extracts of the lives of Henry and James Fraser in the <hi rend="italic">Christian Lib.</hi>, L.98-99, and XLIX.299. For a
+                            doctrine of <hi rend="italic">sola fide</hi> nuanced rather differently
+                            and yet still in the same tradition, cf. Joseph Mede, Discourse XXVI,
+                                <hi rend="italic">Works</hi> (1677), pp. 113-15, and also Cockman,
+                                <hi rend="italic">Salvation by Jesus Christ
+                    Alone…</hi>.</p>
+                    </note>
+                </p>
+                <p n="7">7. It does not become poor, guilty, sinful worms, who receive whatsoever
+                    blessings they enjoy (from the least drop of water that cools our tongue<note place="foot" xml:id="ftn94" n="94">
+                        <p rend="footnote text">See Luke
+                            16:24.</p>
+                    </note> to the immense riches of glory in eternity) of grace,
+                    of mere favour, and not of debt, to ask of God the reasons of his conduct. It is
+                    not meet for us to call him in question ‘who giveth account to none of his
+                        ways’;<note place="foot" xml:id="ftn95" n="95">
+                        <p rend="footnote text">Cf.
+                            Job 33:13.</p>
+                    </note> to demand, ‘Why didst thou make faith the
+                    condition, the only condition of justification? Wherefore didst thou decree, “He
+                    that believeth”, and he only, “shall be saved”?’<note place="foot" xml:id="ftn96" n="96">
+                        <p rend="footnote text">Mark 16:16.</p>
+                    </note> This is
+                    the very point on which St. Paul so strongly insists in the ninth chapter of
+                    this Epistle, <hi rend="italic">viz.</hi>, that the terms of pardon and
+                    acceptance must depend, not on us, but ‘on him that calleth us’; that there is
+                    no ‘unrighteousness with God’ in fixing his own terms, not according to ours,
+                    but his own good pleasure: who may justly say, ‘I will have mercy on whom I will
+                    have mercy,’ namely, on him who believeth in Jesus. ‘So then it is not of him
+                    that willeth, nor of him that runneth’, to choose the condition on which he
+                    shall find acceptance, ‘but of God that showeth mercy,’ that accepteth none at
+                    all but of his own free love, his unmerited goodness. ‘Therefore hath he mercy
+                    on whom he will have mercy,’ <hi rend="italic">viz.</hi>, on those who believe
+                    on the Son of his love; ‘and whom he will’, that is, those who believe not, ‘he
+                    hardeneth’—leaves at last to the hardness of their hearts.<note place="foot" xml:id="ftn97" n="97">
+                        <p rend="footnote text">Rom. 9:11, 14-16,
+                        18.</p>
+                    </note>
+                </p>
+                <p n="8">8. One reason, however, we may humbly conceive, of God’s fixing this
+                    condition of justification—‘If thou believest in the Lord Jesus Christ thou
+                    shalt be saved’<note place="foot" xml:id="ftn98" n="98">
+                        <p rend="footnote text">Cf. Acts 16:31.</p>
+                    </note>—was to ‘hide pride from man’.<note place="foot" xml:id="ftn99" n="99">
+                        <p rend="footnote text">Job 33:17. This
+                            is one of Calvin’s main points, in the <hi rend="italic">Institutes</hi>, III, xii. 3-7, where (after quoting Augustine) he
+                            identifies pride as the chief obstacle to faith. See also <hi rend="italic">ibid.</hi>, xiii. 2, 4.</p>
+                    </note> Pride had already
+                    destroyed the very angels of God, had <pb n="198"/>cast down a ‘third part of
+                    the stars of heaven’.<note place="foot" xml:id="ftn100" n="100">
+                        <p rend="footnote text">Rev. 8:12; 12:4.</p>
+                    </note> It was likewise in
+                    great measure owing to this, when the tempter said, ‘Ye shall be as gods,’<note place="foot" xml:id="ftn101" n="101">
+                        <p rend="footnote text">Gen. 3:5; see
+                            also Nos. 141, ‘The Image of God’; and 45, ‘The New Birth’, I.4 and n.,
+                            for further interpretations of the Fall.</p>
+                    </note> that Adam fell from
+                    his own steadfastness and brought sin and death into the world. It was therefore
+                    an instance of wisdom worthy of God to appoint such a condition of
+                    reconciliation for him and all his posterity as might effectually humble, might
+                    abase them to the dust. And such is faith. It is peculiarly fitted for this end.
+                    For he that cometh unto God by this faith must fix his eye singly on his own
+                    wickedness, on his guilt and helplessness, without having the least regard to
+                    any supposed good in himself, to any virtue or righteousness whatsoever. He must
+                    come as a <hi rend="italic">mere sinner</hi> inwardly and outwardly,
+                    self-destroyed and self-condemned, bringing nothing to God but ungodliness only,
+                    pleading nothing of his own but sin and misery. Thus it is, and thus alone, when
+                    his ‘mouth is stopped’, and he stands utterly ‘guilty before God’,<note place="foot" xml:id="ftn102" n="102">
+                        <p rend="footnote text">Rom.
+                        3:19.</p>
+                    </note> that he can ‘look unto Jesus’<note place="foot" xml:id="ftn103" n="103">
+                        <p rend="footnote text">Cf. Heb. 12:2.</p>
+                    </note> as
+                    the whole and sole ‘propitiation for his sins’.<note place="foot" xml:id="ftn104" n="104">
+                        <p rend="footnote text">Cf. 1 John 2:2;
+                        4:10.</p>
+                    </note> Thus only can he be ‘found in him’<note place="foot" xml:id="ftn105" n="105">
+                        <p rend="footnote text">Phil. 3:9.</p>
+                    </note> and
+                    receive the ‘righteousness which is of God by faith’.<note place="foot" xml:id="ftn106" n="106">
+                        <p rend="footnote text">Cf. Rom.
+                    3:22.</p>
+                    </note>
+                </p>
+                <p n="9">9. Thou ungodly one who hearest or readest these words, thou vile,
+                    helpless, miserable sinner, I charge thee before God, the judge of all, go
+                    straight unto him with all thy ungodliness.<note place="foot" xml:id="ftn107" n="107">
+                        <p rend="footnote text">Note the abrupt change here from exposition
+                            to direct and sustained exhortation. Cf. Wesley’s letter to Joseph
+                            Taylor, Feb. 14, 1787: ‘A sermon should be all application.’ Also, No.
+                            20, <hi rend="italic">The Lord Our Righteousness</hi>, II.20. This,
+                            then, is the carryover into a written sermon of a dominant feature of
+                            Wesley’s oral preaching.</p>
+                        <p rend="footnote text">This, of course, was
+                            not original with Wesley; English preaching was strong on ‘application’.
+                            Cf., e.g., John Selden, <hi rend="italic">Table Talk</hi> (1689), p. 92:
+                            ‘Nothing is text but what was spoken in the Bible, and meant there for
+                            person, and place; the rest is <hi rend="italic">application</hi>, which
+                            a discreet man may do well; but ’tis his Scripture, not the Holy Ghost.’
+                            See also Tillotson, <hi rend="italic">Works</hi>, I.560; Samuel
+                            Annesley’s sermon ‘On Conscience’ in <hi rend="italic">The Morning
+                                Exercise at Cripplegate</hi> (1661), p. 7; and Robert South’s sermon
+                            on 1 Sam. 25:32, 33, preached at Christ Church, Oxford, Nov. 10, 1673,
+                            which Wesley extracted for the <hi rend="italic">Christian Lib.</hi>,
+                            XLIII.141-49.</p>
+                    </note> Take heed thou destroy not thy own soul by
+                    pleading thy righteousness, more or less. Go as altogether ungodly, guilty,
+                    lost, destroyed, deserving and dropping into hell, and thou shalt then find
+                    favour in his sight, and know that he justifieth the ungodly. As such thou <pb n="199"/>shalt be brought unto the ‘blood of sprinkling’<note place="foot" xml:id="ftn108" n="108">
+                        <p rend="footnote text">Cf. Heb. 12:24.</p>
+                    </note>
+                    as an undone, helpless, damned sinner. Thus ‘look unto Jesus’!<note place="foot" xml:id="ftn109" n="109">
+                        <p rend="footnote text">Cf. Heb. 12:2.</p>
+                    </note>
+                    There is ‘the Lamb of God, who taketh away <hi rend="italic">thy</hi>
+                        sins’!<note place="foot" xml:id="ftn110" n="110">
+                        <p rend="footnote text">Cf.
+                            John 1:29.</p>
+                    </note> Plead thou no works, no righteousness of thine
+                    own; no humility, contrition, sincerity! In no wise. That were, in very deed, to
+                    deny the Lord that bought thee. No. Plead thou singly the blood of the
+                        covenant,<note place="foot" xml:id="ftn111" n="111">
+                        <p rend="footnote text">Cf. Exod. 24:8; Heb. 10:29.</p>
+                    </note> the ransom paid for thy proud,
+                    stubborn, sinful soul. Who art thou that now seest and feelest both thine inward
+                    and outward ungodliness? Thou art the man!<note place="foot" xml:id="ftn112" n="112">
+                        <p rend="footnote text">2 Sam. 12:7.</p>
+                    </note> I want thee for my
+                    Lord. I challenge <hi rend="italic">thee</hi> for a child of God by faith. The
+                    Lord hath need of thee.<note place="foot" xml:id="ftn113" n="113">
+                        <p rend="footnote text">Cf. Matt. 21:3, etc.</p>
+                    </note> Thou who feelest
+                    thou art just fit for hell art just fit to advance his glory: the glory of his
+                    free grace, justifying the ungodly and him that worketh not. O come quickly.
+                    Believe in the Lord Jesus; and <hi rend="italic">thou</hi>, even <hi rend="italic">thou</hi>, art reconciled to God.</p>
+            </div>
+        </body>
+    </text>
+</TEI>

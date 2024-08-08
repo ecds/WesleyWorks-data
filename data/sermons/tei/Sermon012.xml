@@ -1,0 +1,819 @@
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Sermon 12: The Witness of Our Own Spirit</title>
+                <author>Wesley, John</author>
+                <editor role="text">Van Buskirk, Gregory P.</editor>
+                <editor role="digital">Taylor, Michelle M.</editor>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>The Wesley Works Digitzation Project</publisher>
+                <pubPlace>Tampa, FL</pubPlace>
+                <date>2024-02-24</date>
+             <idno type="URI">https://wesleyworks.ecdsdev.org/sermons/Sermon012</idno>                  
+            </publicationStmt>
+            <sourceDesc>
+                <listBibl>
+                    <biblStruct>
+                        <analytic>
+                            <title level="a">Sermon 12: The Witness of Our Own Spirit</title>
+                        </analytic>
+                        <monogr>
+                            <title level="j">The Works of John Wesley, Volume I: Sermons I,
+                                1-33</title>
+                            <editor role="volume">Outler, Albert</editor>
+                            <imprint>
+                                <publisher>Abingdon Press</publisher>
+                                <pubPlace>Nashville, TN</pubPlace>
+                                <date when="2015-05-01">1984-05-01</date>
+                                <biblScope unit="volume" n="1"/>
+                                <biblScope unit="page" from="299" to="313"/>
+                            </imprint>
+                        </monogr>
+                        <series>
+                            <title level="s">The Works of John Wesley</title>
+                            <editor role="general">Baker, Frank</editor>
+                        </series>
+                    </biblStruct>
+                </listBibl>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Greg Van Buskirk created Word docs for all of Wesley's sermons using a combination of
+                OCR software and manual proofing. Michelle Taylor converted these docx into XML
+                using Oxygen's DITA automatic transformation scenario, then touched them up
+                manually.</p>
+        </encodingDesc>
+        <standOff>
+            <taxonomy>
+                <keywords>
+                    <term/>
+                </keywords>
+            </taxonomy>
+            <!--Include keywords and terms here eventually.-->
+        </standOff>
+        <revisionDesc/>
+    </teiHeader>
+    <text>
+        <body>
+            <pb n="299"/>
+            <introduction>
+                <!--Confirm introduction is the element I want to use here, especially given that I
+                    use it as an attribute for Wesley's introductory paragraphs as well.-->
+                <head>
+                    <hi rend="italic">An Introductory Comment</hi>
+                </head>
+                <p>Here is a sequel to the two previous ‘Discourses’ and, like them, was apparently
+                    written expressly for publication rather than being a condensate of oral sermons
+                    already preached. For one thing, we have no records of Wesley’s ever preaching
+                    an oral sermon on 2 Cor. 1:12. For another, this is one of Wesley’s rare sermons
+                    with no ‘heads’. Later, in 1788, he will write another sermon from the same text
+                    and with much the same argument; see No. 105, ‘On Conscience’.</p>
+                <p>The main point to the discourses on ‘The Witness of the Spirit’ had been the <hi rend="italic">objective</hi> ground of Christian assurance, <hi rend="italic">viz.</hi>, the direct ‘witness of the Spirit’ as revealing to
+                    and convincing the believer of God’s pardoning, regenerating, adopting grace.
+                    Here, in the sequel, Wesley undertakes an analysis of the <hi rend="italic">subjective</hi> side of this <hi rend="italic">experience</hi> of grace.
+                    His distinctive emphasis, however, is his careful correlation of assurance with
+                    a good conscience. What we have, then, is a brief essay on conscience, its marks
+                    and norms—and the resultant joy of Christian living ‘in simplicity and godly
+                    sincerity…’. Wesley recognizes the logical distinctions between adoption,
+                    justification, and regeneration but is even more concerned to show their
+                    psychological integration in the Christian experience of assurance and how the
+                    process of sanctification, begun with regeneration, is really aimed at ‘the
+                    recovery of the image of God’ (an equivalent phrase for holiness).</p>
+                <p>Note the clear anticipation here of Kant’s notion of a universal, categorical
+                    moral imperative linked to a Puritan view of distinct guidelines for ‘a good
+                    conscience’: (1) Scripture, (2) self-understanding, and (3) an observed
+                    consonance between intentions and actual behaviour. There is an important
+                    identification of God’s grace as his power: ‘the Holy Ghost working in us both
+                    to will and to do of [the Father’s] good pleasure’ (§15). The essay concludes
+                    with a description of ‘the nature of that joy whereby [a mature] Christian
+                    rejoiceth evermore’ as a consequence of ‘a conscience void of offence toward God
+                    and man’.</p>
+                <p>In 1771 Wesley added a postscript that suggests his awareness of the delicate
+                    balance between Christian conscience (as portrayed here) and Christian
+                    scrupulosity and unease: ‘It may easily be observed that the <pb n="300"/>preceding discourse describes the experience of those that are <hi rend="italic">strong</hi> in faith, but hereby those that are <hi rend="italic">weak</hi> in faith may be discouraged; to prevent which the
+                    following discourse [<hi rend="italic">viz.</hi>, <hi rend="italic">On Sin in
+                        Believers</hi>] may be of use.’ This, then, is a ‘bridge’ sermon, and should
+                    be read with both what precedes and what follows it in mind.</p>
+            </introduction>
+            <head>The Witness of Our Own Spirit</head>
+            <epigraph>
+                <p>2 Corinthians 1:12</p>
+                <p>
+                    <hi rend="italic">This is our rejoicing, the testimony of our conscience, that
+                        in simplicity and godly sincerity, not with fleshly wisdom, but by the grace
+                        of God, we have had our conversation in the world.</hi>
+                </p>
+            </epigraph>
+            <p n="1">1. Such is the voice of every true believer in Christ, so long as he abides in
+                faith and love. ‘He that followeth me’, saith our Lord, ‘walketh not in
+                    darkness.’<note place="foot" xml:id="ftn1" n="1">
+                    <p rend="footnote text">Cf.
+                        John 8:12.</p>
+                </note> And while he hath the light he rejoiceth therein.<note place="foot" xml:id="ftn2" n="2">
+                    <p rend="footnote text">See John
+                    5:35.</p>
+                </note> ‘As he hath received the Lord Jesus Christ, so he walketh in
+                    him.’<note place="foot" xml:id="ftn3" n="3">
+                    <p rend="footnote text">Cf. Col.
+                        2:6.</p>
+                </note> And while he walketh in him, the exhortation of the Apostle
+                takes place in his soul day by day: ‘Rejoice in the Lord always; and again I say,
+                    rejoice.’<note place="foot" xml:id="ftn4" n="4">
+                    <p rend="footnote text">Phil.
+                        4:4.</p>
+                </note>
+            </p>
+            <p n="2">2. But that we may not build our house upon the sand (lest when the rains
+                descend, and the winds blow, and the floods arise and beat upon it, it fall, and
+                great be the fall thereof)<note place="foot" xml:id="ftn5" n="5">
+                    <p rend="footnote text">See Matt. 7:26-27.</p>
+                </note> I intend, in the
+                following discourse, to show what is the nature and ground of a Christian’s joy. We
+                know, in general, it is that happy peace, that calm satisfaction of spirit, which
+                arises from such a testimony of his conscience as is here described by the Apostle.
+                But in order to understand this the more throughly,<note place="foot" xml:id="ftn6" n="6">
+                    <p rend="footnote text">Cf. Johnson’s comment on the equivalence of
+                        ‘throughly’ and ‘thoroughly’ in his <hi rend="italic">Dictionary</hi>.
+                        Although Wesley seems to have used both, he clearly preferred ‘throughly’.
+                        In this edn., instead of standardizing one spelling, we use whichever form
+                        appears in the preferred printing.</p>
+                </note> it will be requisite to weigh
+                all his words; whence will easily appear both what we are to <pb n="301"/>understand
+                by ‘conscience’, and what by the ‘testimony’ thereof; and also how he that hath this
+                testimony rejoiceth evermore.</p>
+            <p n="3">3. And, first, what are we to understand by ‘conscience’? What is the meaning
+                of this word that is in everyone’s mouth? One would imagine it was an exceeding
+                difficult thing to discover this, when we consider how large and numerous volumes
+                have been from time to time wrote on this subject; and how all the treasures of
+                ancient and modern learning have been ransacked in order to explain it. And yet it
+                is to be feared it has not received much light from all those elaborate inquiries.
+                Rather, have not most of those writers puzzled the cause, ‘darkening counsel by
+                words without knowledge’,<note place="foot" xml:id="ftn7" n="7">
+                    <p rend="footnote text">Cf. Job 38:2.</p>
+                </note> perplexing a subject plain in
+                itself, and easy to be understood? For set aside but hard words, and every man of an
+                honest heart will soon understand the thing.<note place="foot" xml:id="ftn8" n="8">
+                    <p rend="footnote text">Wesley’s habit of disparaging the existing
+                        literature on a given topic is more misleading here than usual. The fact is
+                        that ‘conscience’ had been a familiar theme for moralists since St. Thomas
+                        Aquinas at least. Joseph Butler had focused the second of his famous Rolls
+                        Chapel sermons on it in 1726. Wesley had read this, and Butler’s definition
+                        of conscience is strikingly similar to his own (<hi rend="italic">viz.</hi>,
+                        ‘a superior principle of reflection in every man, which distinguishes
+                        between the internal principles of his heart as well as his external
+                        actions, which passes judgment upon himself and them, etc.’); cf. <hi rend="italic">Fifteen Sermons</hi>, pp. 35-36. Wesley had also read Jean
+                        La Placette’s <hi rend="italic">Divers traités sur des matières de
+                            conscience…</hi> (1647) or, more likely, Basil Kennett’s translation,
+                        <hi rend="italic" xml:space="preserve">The Christian Casuist; or, a Treatise of Conscience </hi>(1705).
+                        Besides these there were similar discussions of conscience in Henry Hammond,
+                        Robert South, and in Wesley’s grandfather Samuel Annesley’s sermon in <hi rend="italic">The Morning Exercise at Cripplegate</hi> (1661). In his
+                        own later sermon (No. 105) ‘On Conscience’ (1788), Wesley will cite La
+                        Placette approvingly and will actually quote from Annesley’s sermon
+                        extensively.</p>
+                    <p rend="footnote text">In Chambers’s <hi rend="italic">Cyclopaedia</hi>—one of Wesley’s favourite reference books—a similar
+                        definition appears: ‘a secret testimony or judgment of the soul where it
+                        gives its approbation to things it does that are good and reproaches itself
+                        for those that are evil’. Thus, early and late, the same basic notion
+                        appears, always with more obvious Anglican nuances than in any of the
+                        Lutheran or Reformed discussions of ‘conscience’.</p>
+                </note>
+            </p>
+            <p n="4">4. God has made us thinking beings, capable of perceiving what is present, and
+                of reflecting or looking back on what is past. In particular we are capable of
+                perceiving whatsoever passes in our own hearts or lives; of knowing whatsoever we
+                feel or do; and that either while it passes, or when it is past. This we mean when
+                we say man is a ‘conscious’ being: he hath a ‘consciousness’ or inward perception
+                both of things present and past relating to himself, of his own tempers and outward
+                behaviour. But what we usually term ‘conscience’ implies somewhat more than this. It
+                is not barely the knowledge of our present, or the remembrance of our preceding
+                life. To remember, to bear witness either of past or <pb n="302"/>present things is
+                only one, and the least, office of conscience. Its main business is to excuse or
+                accuse, to approve or disapprove, to acquit or condemn.</p>
+            <p n="5">5. Some late writers indeed have given a new name to this, and have chose to
+                style it a ‘moral sense’.<note place="foot" xml:id="ftn9" n="9">
+                    <p rend="footnote text">The earliest of these was Anthony Ashley Cooper, the
+                        third Earl of Shaftesbury (cf. <hi rend="italic">DNB</hi>) The phrase occurs
+                        in his <hi rend="italic">Inquiry Concerning Virtue or Merit</hi> (1699),
+                        I.iii.1. Another ‘late writer’ was Francis Hutcheson (1694-1746), professor
+                        of philosophy at Glasgow, who had expanded and refined Shaftesbury’s ideas.
+                        He used the phrase in <hi rend="italic">An Inquiry into the Original of our
+                            Ideas of Beauty and Virtue</hi> (1725), Treatise II, Sect. I.v, viii
+                        (see also Sect. IV.), and incorporated it into the title of his <hi rend="italic">Essay on the Nature and Conduct of the Passions and
+                            Affections, with Illustrations Upon the Moral Sense</hi> (1726).
+                        Especially in his later sermons, Wesley cites Hutcheson’s as a horrible
+                        example of an autonomous ethical theory divorced from any theonomous ground.
+                        Cf. Nos. 49, ‘The Cure of Evil-speaking’, §4; 90, ‘An Israelite Indeed’,
+                        §§1-4; 92, ‘On Zeal’, §2; 105, ‘On Conscience’, I.8-10; 106, ‘On Faith, Heb.
+                        11:6’, II.2; 120, ‘The Unity of the Divine Being’, §18; 128, ‘The
+                        Deceitfulness of the Human Heart’, I.2. See also Wesley’s letters to Samuel
+                        Furly, Feb. 18, 1756, and Mar. 8, 1757.</p>
+                </note> But the old word seems
+                preferable to the new, were it only on this account, that it is more common and
+                familiar among men, and therefore easier to be understood. And to Christians it is
+                undeniably preferable on another account also; namely, because it is scriptural;
+                because it is the word which the wisdom of God hath chose to use in the inspired
+                writings.</p>
+            <p><!--Decide how to number paragraphs Wesley has not numbered, if at all.-->And
+                according to the meaning wherein it is generally used there, particularly in the
+                epistles of St. Paul, we may understand by conscience a faculty or power, implanted
+                by God in every soul that comes into the world,<note place="foot" xml:id="ftn10" n="10">
+                    <p rend="footnote text">The notion of an innate conscience goes back to
+                        Plato, and even in Wesley’s lifetime would become the linch-pin of Immanuel
+                        Kant’s moral philosophy.</p>
+                </note> of perceiving what is right or wrong in
+                his own heart or life, in his tempers, thoughts, words, and actions.</p>
+            <p n="6">6. But what is the <hi rend="italic">rule</hi> whereby men are to judge of
+                right and wrong; whereby their conscience is to be directed? The rule of heathens
+                (as the Apostle teaches elsewhere) is ‘the law written in their hearts’.<note place="foot" xml:id="ftn11" n="11">
+                    <p rend="footnote text">Rom. 2:15.</p>
+                </note>
+                ‘These (saith he) not having the (outward) law, are a law unto themselves: who show
+                the work of the law’, that which the outward law prescribes, ‘written in their
+                heart’ by the finger of God; ‘their conscience also bearing witness’ whether they
+                walk by this rule or not; ‘and their thoughts the meanwhile accusing, or even
+                excusing’, acquitting, defending them (ἢ καὶ ἀπολογουμένων).<hi rend="endnote_reference">
+                    <note place="end">
+                        <p rend="endnote text">Rom.
+                            2:14-15.</p>
+                    </note>
+                </hi> But the Christian rule of right and wrong is
+                the Word of <pb n="303"/>God, the writings of the Old and New Testament: all which
+                the prophets and ‘holy men of old’ wrote ‘as they were moved by the Holy
+                    Ghost’;<note place="foot" xml:id="ftn12" n="12">
+                    <p rend="footnote text">Cf. 2
+                        Pet. 1:21.</p>
+                </note> ‘all’ that ‘Scripture’ which was ‘given by inspiration
+                of God’, and which is indeed ‘profitable for doctrine’, or teaching the whole will
+                of God; ‘for reproof’ of what is contrary thereto; ‘for correction’ of error; and
+                ‘for instruction (or training us up) in righteousness’.<hi rend="endnote_reference">
+                    <note place="end">
+                        <p rend="endnote text">2 Tim. 3:16.</p>
+                    </note>
+                </hi>
+            </p>
+            <p><!--Decide how to number paragraphs Wesley has not numbered, if at all.-->This ‘is a
+                lantern unto a’ Christian’s ‘feet, and a light in all his paths’.<note place="foot" xml:id="ftn13" n="13">
+                    <p rend="footnote text">Ps. 119:105 (cf. BCP).</p>
+                </note>
+                This alone he receives as his rule of right or wrong, of whatever is really good or
+                evil. He esteems nothing good but what is here enjoined, either directly or by plain
+                consequence. He accounts nothing evil but what is here forbidden, either in terms or
+                by undeniable inference. Whatever the Scripture neither forbids nor enjoins (either
+                directly or by plain consequence) he believes to be of an indifferent nature, to be
+                in itself neither good nor evil: this being the whole and sole outward rule whereby
+                his conscience is to be directed in all things.<note place="foot" xml:id="ftn14" n="14">
+                    <p rend="footnote text">Here Wesley passes summary judgment on an ancient
+                        and vexed question of the dividing line between essentials and <hi rend="italic">adiaphora</hi> (things indifferent); he favours the
+                        Melanchthonian tendency to allow a wide latitude in open questions not
+                        expressly settled by scriptural injunctions or prohibitions. Lutheran
+                        orthodoxy had tended to hold, with Flaccius Illyricus, that ‘nothing is
+                        indifferent (ἀδιάφορον) in matters of confession and [potential] abuse (<hi rend="italic">in casu confessionalis et scandali</hi>)’; cf. Seeberg,
+                            <hi rend="italic">History of Doctrines</hi>, II.364. Reformed
+                        theologians took a more flexible position on this point (cf. Heppe, <hi rend="italic">Reformed Dogmatics</hi>, p. 688); Wesley carried this view
+                        much further.</p>
+                </note>
+            </p>
+            <p n="7">7. And if it be directed thereby in fact, then hath he ‘the answer of a good
+                conscience toward God’.<note place="foot" xml:id="ftn15" n="15">
+                    <p rend="footnote text">1 Pet. 3:21.</p>
+                </note> A ‘good conscience’ is what is
+                elsewhere termed by the Apostle a ‘conscience void of offence’.<note place="foot" xml:id="ftn16" n="16">
+                    <p rend="footnote text">Acts 24:16.</p>
+                </note> So what he
+                at one time expresses thus, ‘I have lived in all good conscience before God until
+                this day,’<hi rend="endnote_reference">
+                    <note place="end">
+                        <p rend="endnote text">Acts
+                            23:1.</p>
+                    </note>
+                </hi> he denotes at another by that expression, ‘Herein
+                do I exercise myself, to have always a conscience void of offence toward God and
+                toward man.’<hi rend="endnote_reference">
+                    <note place="end">
+                        <p rend="endnote text">Acts 24:16.</p>
+                    </note>
+                </hi> Now in order to this there is absolutely
+                required, first, a right understanding of the Word of God; of his ‘holy and
+                acceptable and perfect will’<note place="foot" xml:id="ftn17" n="17">
+                    <p rend="footnote text">Cf. Rom 12:1, 2.</p>
+                </note> concerning us, as it is
+                revealed therein. For it is impossible we should walk by a rule if we do not <pb n="304"/>know what it means. There is, secondly, required (which how few have
+                attained!) a true knowledge of ourselves; a knowledge both of our hearts and lives,
+                of our inward tempers and outward conversation: seeing, if we know them not, it is
+                not possible that we should compare them with our rule. There is required, thirdly,
+                an agreement of our hearts and lives, of our tempers and conversation, of our
+                thoughts and words and works with that rule, with the written Word of God. For
+                without this, if we have any conscience at all, it can be only an evil conscience.
+                There is, fourthly, required an inward perception of this agreement with our rule.
+                And this habitual perception, this inward consciousness itself, is properly a ‘good
+                conscience’; or (in the other phrase of the Apostle) ‘A conscience void of offence
+                toward God and toward man’.</p>
+            <p n="8">8. But whoever desires to have a conscience thus void of offence, let him see
+                that he lay the right foundation. Let him remember, ‘Other foundation’ of this ‘can
+                no man lay than that which is laid, even Jesus Christ.’<note place="foot" xml:id="ftn18" n="18">
+                    <p rend="footnote text">Cf. 1 Cor. 3:11.</p>
+                </note> And
+                let him also be mindful that no man buildeth on him but by a living faith, that no
+                man is a partaker of Christ until he can clearly testify, ‘The life which I now
+                live…I live by faith in the Son of God,’ in him who is now <hi rend="italic">revealed</hi> in my heart, ‘who loved me, and gave himself for me’.<note place="foot" xml:id="ftn19" n="19">
+                    <p rend="footnote text">Gal. 2:20; this is
+                        the direct witness of the Spirit so strongly stressed in the previous
+                        discourses.</p>
+                </note> Faith alone is that evidence, that conviction, that
+                demonstration of things invisible, whereby the eyes of our understanding being
+                opened, and divine light poured in upon them,<note place="foot" xml:id="ftn20" n="20">
+                    <p rend="footnote text">Cf. Nos. 3, <hi rend="italic">‘Awake, Thou That
+                            Steepest’</hi>, I.11 and n.; and 10,‘The Witness of the Spirit, I’, I.12
+                        and n.</p>
+                </note> we ‘see the wondrous things of’ God’s ‘law’,<note place="foot" xml:id="ftn21" n="21">
+                    <p rend="footnote text">Ps. 119:18
+                    (BCP).</p>
+                </note> the excellency and purity of it; the height and depth and
+                length and breadth thereof,<note place="foot" xml:id="ftn22" n="22">
+                    <p rend="footnote text">Cf. Eph. 3:18.</p>
+                </note> and of every commandment
+                contained therein. It is by faith that beholding ‘the light of…the glory of God in
+                the face of Jesus Christ’<note place="foot" xml:id="ftn23" n="23">
+                    <p rend="footnote text">2 Cor. 4:6.</p>
+                </note> we perceive, as in a glass, all
+                that is in ourselves, yea, the inmost motions of our souls. And by this alone can
+                that blessed love of God be ‘shed abroad in our hearts’,<note place="foot" xml:id="ftn24" n="24">
+                    <p rend="footnote text">Rom. 5:5.</p>
+                </note> which enables
+                us so to love one another as Christ loved us. By this is that gracious promise
+                fulfilled unto all the Israel of God, ‘I will put my laws into <pb n="305"/>their
+                minds, and write (or engrave) them in their hearts;’<hi rend="endnote_reference">
+                    <note place="end">
+                        <p rend="endnote text">Heb. 8:10 [citing Jer.
+                        31:33].</p>
+                    </note>
+                </hi> hereby producing in their souls an entire agreement
+                with his holy and perfect law, and ‘bringing into captivity every thought to the
+                obedience of Christ’.<note place="foot" xml:id="ftn25" n="25">
+                    <p rend="footnote text">2 Cor. 10:5.</p>
+                </note>
+            </p>
+            <p><!--Decide how to number paragraphs Wesley has not numbered, if at all.-->And as an
+                evil tree cannot bring forth good fruit, so a good tree cannot bring forth evil
+                    fruit.<note place="foot" xml:id="ftn26" n="26">
+                    <p rend="footnote text">Matt.
+                        7:18; cf. Luke 6:43.</p>
+                </note> As the heart therefore of a believer, so
+                likewise his life is throughly conformed to the rule of God’s commandments. In a
+                consciousness whereof he can give glory to God, and say with the Apostle, ‘This is
+                our rejoicing, the testimony of our conscience, that in simplicity and godly
+                sincerity, not with fleshly wisdom, but by the grace of God, we have had our
+                conversation in the world.’</p>
+            <p n="9">9. ‘We have had our conversation.’ The Apostle in the original expresses this
+                by one single word (ἀνεστράφημεν).<note place="foot" xml:id="ftn27" n="27">
+                    <p rend="footnote text">From ἀναστρέφειν, ἀναστρεφή, colloquial terms common in
+                        the papyri and signifying ‘conduct’ or ‘lifestyle’, usually with a
+                        qualifying adjective; cf. Arndt and Gingrich, <hi rend="italic">Greek-English Lexicon</hi>. Cf. also Johnson’s definition of
+                        ‘conversation’ (No. 4): ‘Behaviour; manner of acting in common
+                    life.’</p>
+                </note> But the meaning thereof is exceeding broad, taking in our
+                whole deportment, yea, every inward as well as outward circumstance, whether
+                relating to our soul or body. It includes every motion of our heart, of our tongue,
+                of our hands and bodily members. It extends to all our actions and words; to the
+                employment of all our powers and faculties; to the manner of using every talent we
+                have received, with respect either to God or man.</p>
+            <p n="10">10. ‘We have had our conversation in the world;’ even in the world of the
+                ungodly: not only among the children of God—that were, comparatively, a little
+                thing—but among the children of the devil,<note place="foot" xml:id="ftn28" n="28">
+                    <p rend="footnote text">1 John 3:10.</p>
+                </note> among those that ‘lie in
+                wickedness’, ἐν τῷ πονηρῷ,<note place="foot" xml:id="ftn29" n="29">
+                    <p rend="footnote text">Cf. 1 John 5:19.</p>
+                </note> ‘in the wicked one’.<note place="foot" xml:id="ftn30" n="30">
+                    <p rend="footnote text">1 John 3:12 (ἐκ τοῦ
+                        πονηροῦ). Cf. also ‘The Epistle of Barnabas’, II.10, XXI.3, in <hi rend="italic">The Apostolic Fathers</hi>, Loeb, 24:346, 408. See also
+                        Nos. 23, ‘Sermon on the Mount, III’, I.9; 26, ‘Sermon on the Mount, VI’,
+                        III.15; and 38, ‘A Caution against Bigotry’, I.1.</p>
+                </note> What a world is
+                this! How throughly impregnated with the spirit it continually breathes! As our God
+                is good and doth good, so the god of this world and all his children are evil, and
+                do evil (so far as they are suffered) to all the children of God. Like their father
+                they are always lying in wait, or ‘walking <pb n="306"/>about, seeking whom they may
+                    devour’;<note place="foot" xml:id="ftn31" n="31">
+                    <p rend="footnote text">Cf. 1
+                        Pet. 5:8.</p>
+                </note> using fraud or force, secret wiles or open violence, to
+                destroy those who are not of the world; continually warring against our souls, and
+                by old or new weapons and devices of every kind, labouring to bring them back into
+                the snare of the devil,<note place="foot" xml:id="ftn32" n="32">
+                    <p rend="footnote text">1 Tim. 3:7; 2 Tim. 2:26. Wesley’s view of ‘the world’
+                        and its control is double-sided. When pointing to ‘the mystery of iniquity’,
+                        his view is satanocratic (under the dominion of Satan, or the devil—usually
+                        personified), as here and in Nos. 23, ‘Sermon on the Mount, III’, III.4; 72,
+                        ‘Of Evil Angels’, II.1; 129, ‘Heavenly Treasure in Earthen Vessels’, §2;
+                        133, ‘Death and Deliverance’, §2; 138A, ‘On Dissimulation’, §11; see also
+                        No. 42, ‘Satan’s Devices’. But in his notions of creation, history,
+                        Providence, good angels, and eschatology, Wesley stresses the goodness of
+                        creation, the Lordship of Christ, the dominion of Providence. The result is
+                        an interesting dialectic between dualism and theomonism.</p>
+                </note> into the
+                broad road that leadeth to destruction.<note place="foot" xml:id="ftn33" n="33">
+                    <p rend="footnote text">See Matt. 7:13.</p>
+                </note>
+            </p>
+            <p n="11">11. ‘We have had our whole conversation in such a world, in simplicity and
+                godly sincerity.’ First, ‘in simplicity’.<note place="foot" xml:id="ftn34" n="34">
+                    <p rend="footnote text">The Erasmian text here reads ἁπλότητι (‘simplicity’);
+                        Wesley could hardly have known that better manuscripts read ἁγιότητι
+                        (‘holiness’), so that now ἅγιότητι is the preferred reading in D. Eberhard
+                        Nestle, ed., <hi rend="italic">Novum Testamentum Graece et Latine</hi>
+                        (Stuttgart, 1932), and other modern texts. In any case, ‘simplicity’,
+                        ‘sincerity’, ‘a single eye’, are familiar terms in Wesley’s lexicon; cf.
+                        Nos. 18, ‘The Marks of the New Birth’, II.2; 19, ‘The Great Privilege of
+                        those that are Born of God’, II.10; 30, ‘Sermon on the Mount, X’, §9; 79,
+                        ‘On Dissipation’, §17; 90, ‘An Israelite Indeed’, II.9; 95, ‘On the
+                        Education of Children’, §10; and 125, ‘On a Single Eye’, §1. [More recent
+                        editions of the authoritative Nestle text have returned to ἁπλότητι as the
+                        preferred reading, agreeing with Wesley.]</p>
+                </note> This is what our Lord
+                recommends under the name of a ‘single eye’. ‘The light of the body (saith he) is
+                the eye. If therefore thine eye be single, thy whole body shall be full of
+                    light.’<note place="foot" xml:id="ftn35" n="35">
+                    <p rend="footnote text">Matt.
+                        6:22; cf. Luke 11:34.</p>
+                </note> The meaning whereof is this: what the eye
+                is to the body, that the intention is to all the words and actions.<note place="foot" xml:id="ftn36" n="36">
+                    <p rend="footnote text">Wesley’s sources for
+                        this general notion would go back to Macarius, Homily IV, in <hi rend="italic">Spiritual Homilies</hi> (1721), pp. 118-19, and would have
+                        included John Flavel, ‘Touchstone of Sincerity: or, the Signs of Grace, and
+                        the Symptoms of Hypocrisy’, ch. ii, §III (<hi rend="italic">Works</hi>,
+                        II.451), and Poole’s <hi rend="italic">Annotations</hi> on Luke 11:36: ‘What
+                        the eye is to the body, that the soul, the mind, and affections are to the
+                        whole man. Now look, as the eye is the organ by which light is received to
+                        guide a man’s steps, so that if that be perfect without any mixture of ill
+                        humours, etc., the body from it takes a full and right direction how to move
+                        and act. But if that be vitiated by ill humours, the man knows not how to
+                        direct his bodily steps. So if a man’s soul (which answereth the bodily eye)
+                        more especially a man’s understanding, or judgment be darkened, perverted,
+                        prejudiced, or his affections be debauched or depraved, he will not know how
+                        to move one step right in his duty; but if his understanding have a right
+                        notion of truths, he judgeth aright concerning the things and ways of God,
+                        and his affections be not depraved, then the whole man will be in a capacity
+                        to receive the light, the revelations of truth, as they shall be
+                        communicated to him, even as he who hath a perfect eye receiveth, and is
+                        able to make use of the bright shining of a candle.’ This is strikingly
+                        similar to Wesley’s general theory of illumination; cf. No. 10, ‘The Witness
+                        of the Spirit, I’, I.12 and n.</p>
+                </note> If therefore this eye of thy soul
+                be <pb n="307"/>single, all thy actions and conversation shall be ‘full of light’,
+                of the light of heaven, of love and peace and joy in the Holy Ghost.<note place="foot" xml:id="ftn37" n="37">
+                    <p rend="footnote text">Rom. 14:17; cf. Gal.
+                        5:22.</p>
+                </note>
+            </p>
+            <p><!--Decide how to number paragraphs Wesley has not numbered, if at all.-->We are then
+                simple of heart when the eye of our mind is singly fixed on God; when in all things
+                we aim at God alone, as our God, our portion, our strength, our happiness, our
+                exceeding great reward,<note place="foot" xml:id="ftn38" n="38">
+                    <p rend="footnote text">Gen. 15:1.</p>
+                </note> our all in time and eternity.
+                This is simplicity: when a steady view, a single intention of promoting his glory,
+                of doing and suffering his blessed will, runs through our whole soul, fills all our
+                heart, and is the constant spring of all our thoughts, desires, and purposes.</p>
+            <p n="12">12. ‘We have had our conversation in the world’, secondly, ‘in godly
+                    sincerity.’<note place="foot" xml:id="ftn39" n="39">
+                    <p rend="footnote text">Cf.
+                        No. 2, <hi rend="italic">The Almost Christian</hi>, I.9 and n.</p>
+                </note>
+                The difference between simplicity and sincerity seems to be chiefly this: simplicity
+                regards the intention itself, sincerity the execution of it. And this sincerity
+                relates not barely to our words, but to our whole conversation, as described above.
+                It is not here to be understood in that narrow sense wherein St. Paul himself
+                sometimes uses it, for speaking the truth, or abstaining from guile, from craft and
+                dissimulation, but in a more extensive meaning, as actually hitting the mark which
+                we aim at by simplicity. Accordingly it implies in this place that we do in fact
+                speak and do all to the glory of God;<note place="foot" xml:id="ftn40" n="40">
+                    <p rend="footnote text">1 Cor. 10:31.</p>
+                </note> that all our words are not
+                only pointed at this, but actually conducive thereto; that all our actions flow on
+                in an even stream, uniformly subservient to this great end; and that in our whole
+                lives we are moving straight toward God, and that continually—walking steadily on in
+                the highway of holiness, in the paths of justice, mercy, and truth.<note place="foot" xml:id="ftn41" n="41">
+                    <p rend="footnote text">See Ps. 89:14
+                        (AV).</p>
+                </note>
+            </p>
+            <p n="13">13. This sincerity is termed by the Apostle ‘godly sincerity’, or the
+                sincerity of God (εἰλικρινείᾳ Θεοῦ)<note place="foot" xml:id="ftn42" n="42">
+                    <p rend="footnote text">Thus the <hi rend="italic">TR</hi>; modern texts read
+                        εἰλικρινεία τοῦ Θεοῦ.</p>
+                </note> to prevent our mistaking or confounding it
+                with the sincerity of the heathens (for they had also a kind of sincerity among
+                them, for which they professed no small veneration); likewise to denote the object
+                and end of this, as of every Christian virtue; seeing whatever does not ultimately
+                tend to God sinks among ‘the beggarly elements of the world’.<note place="foot" xml:id="ftn43" n="43">
+                    <p rend="footnote text">Cf. Gal. 4:9.</p>
+                </note> By
+                styling it ‘the sincerity of God’ he also points out the <pb n="308"/>author of it,
+                the ‘Father of lights, from whom every good and perfect gift descendeth’;<note place="foot" xml:id="ftn44" n="44">
+                    <p rend="footnote text">Cf. Jas.
+                    1:17.</p>
+                </note> which is still more clearly declared in the following words,
+                ‘not with fleshly wisdom, but by the grace of God’.<note place="foot" xml:id="ftn45" n="45">
+                    <p rend="footnote text">2 Cor. 1:12.</p>
+                </note>
+            </p>
+            <p n="14">14. ‘Not with fleshly wisdom’: as if he had said, ‘We cannot thus converse in
+                the world by any natural strength of understanding, neither by any naturally
+                acquired knowledge or wisdom. We cannot gain this simplicity or practise this
+                sincerity by the force either of good sense, good nature, or good breeding. It
+                overshoots all our native courage and resolution, as well as all our precepts of
+                philosophy. The power of custom is not able to train us up to this, nor the most
+                exquisite rules of human education. Neither could I, Paul, ever attain hereto,
+                notwithstanding all the advantages I enjoyed, so long as I was “in the flesh”<note place="foot" xml:id="ftn46" n="46">
+                    <p rend="footnote text">Rom. 7:5,
+                    etc.</p>
+                </note> (in my natural state) and pursued it only by “fleshly”, natural,
+                “wisdom”.’</p>
+            <p><!--Decide how to number paragraphs Wesley has not numbered, if at all.-->And yet
+                surely, if any man could, Paul himself might have attained thereto by that wisdom.
+                For we can hardly conceive any who was more highly favoured with all the gifts both
+                of nature and education. Besides his natural abilities, probably not inferior to
+                those of any person then upon the earth, he had all the benefits of learning,
+                studying at the university of Tarsus,<note place="foot" xml:id="ftn47" n="47">
+                    <p rend="footnote text">An <hi rend="italic">urbs libera</hi> (‘free city’) in
+                        the Syrian province of Cilicia. Jews living and educated there were in
+                        contact with a vigorous Hellenistic culture, but that there was a
+                        ‘university of Tarsus’ was, of course, Wesley’s own ‘modernization’. Cf.
+                        below, No. 25, ‘Sermon on the Mount, V’, IV.2.</p>
+                </note> afterwards
+                ‘brought up at the feet of Gamaliel’,<note place="foot" xml:id="ftn48" n="48">
+                    <p rend="footnote text">Cf. Acts 22:3. This was Gamaliel I, ha-Zaken (‘the
+                        elder’), a grandson of Hillel and presiding officer of the Sanhedrin. He is
+                        credited, in the tradition of Hillel, with many <hi rend="italic">takkanot</hi> (normative moral regulations) more tolerant than the
+                        rigorist rulings of Shammai. This would accord with his tolerant judgment
+                        upon the early Christian movement as reported in Acts 5:34-40. It conflicts
+                        with Paul’s claim, emphasized here by Wesley, that he had been ‘brought up
+                        at Gamaliel’s feet’, as if that amounted to his belonging ‘to the very
+                        straitest sect’ of the Pharisees. Cf. <hi rend="italic">Encyclopaedia
+                            Judaica</hi> (Jerusalem, 1971), art. ‘Gamaliel’.</p>
+                </note> the person
+                of the greatest account both for knowledge and integrity that was then in the whole
+                Jewish nation. And he had all the possible advantages of religious education, being
+                a Pharisee, the son of a Pharisee, trained up in the very straitest sect or
+                profession, distinguished from all others by a more eminent strictness. And herein
+                he had ‘profited above many others who were his equals in years, being more
+                abundantly zealous’<note place="foot" xml:id="ftn49" n="49">
+                    <p rend="footnote text">Cf. Gal. 1:14 (cf. <hi rend="italic">Notes</hi>).</p>
+                </note> of whatever he
+                thought would please <pb n="309"/>God, and ‘as touching the righteousness of the
+                law, blameless’.<note place="foot" xml:id="ftn50" n="50">
+                    <p rend="footnote text">Cf.
+                        Phil. 3:6.</p>
+                </note> But it could not be that he should hereby attain this
+                simplicity and godly sincerity. It was all but lost labour; in a deep, piercing
+                sense of which he was at length constrained to cry out: ‘The things which were gain
+                to me, those I counted loss for Christ…. Yea, doubtless, and I count all things but
+                loss for the excellency of the knowledge of Christ Jesus my Lord.’<hi rend="endnote_reference">
+                    <note place="end">
+                        <p rend="endnote text">Phil.
+                            3:7-8.</p>
+                    </note>
+                </hi>
+            </p>
+            <p n="15">15. It could not be that ever he should attain to this but by the ‘excellent
+                knowledge of Jesus Christ our Lord’;<note place="foot" xml:id="ftn51" n="51">
+                    <p rend="footnote text">Cf. main text and Phil. 3:8.</p>
+                </note> or ‘by the
+                grace of God’—another expression of nearly the same import. By ‘the grace of God’ is
+                sometimes to be understood that free love, that unmerited mercy, by which I, a
+                sinner, through the merits of Christ am now reconciled to God. But in this place it
+                rather means that power of God the Holy Ghost which ‘worketh in us both to will and
+                to do of his good pleasure’.<note place="foot" xml:id="ftn52" n="52">
+                    <p rend="footnote text">Phil. 2:13. Cf. No. 85, ‘On Working Out Our Own
+                        Salvation’.</p>
+                </note> As soon as ever the grace of God (in the former
+                sense, his pardoning love) is manifested to our soul, the grace of God (in the
+                latter sense, the power of his Spirit) takes place therein. And now we can perform,
+                through God, what to man was impossible. Now we can order our conversation aright.
+                We can do all things in the light and power of that love, through Christ which
+                strengtheneth us.<note place="foot" xml:id="ftn53" n="53">
+                    <p rend="footnote text">See Phil. 4:13.</p>
+                </note> We now have ‘the testimony of our conscience’,
+                which we could never have by fleshly wisdom, ‘that in simplicity and godly
+                sincerity…we have our conversation in the world’.</p>
+            <p n="16">16. This is properly the ground of a Christian’s joy. We may now therefore
+                readily conceive how he that hath this testimony in himself ‘rejoiceth
+                    evermore’.<note place="foot" xml:id="ftn54" n="54">
+                    <p rend="footnote text">Cf. 1
+                        Thess. 5:16.</p>
+                </note> ‘“My soul” (may he say) “doth magnify the Lord, and
+                my spirit rejoiceth in God my Saviour.”<note place="foot" xml:id="ftn55" n="55">
+                    <p rend="footnote text">Cf. Luke 1:46-47.</p>
+                </note> I rejoice in him who, of
+                his own unmerited love, of his own free and tender mercy, “hath called me into this
+                state of salvation”<note place="foot" xml:id="ftn56" n="56">
+                    <p rend="footnote text">Cf. BCP, Catechism.</p>
+                </note> wherein through his power I now stand. I
+                rejoice because his Spirit beareth witness to my spirit<note place="foot" xml:id="ftn57" n="57">
+                    <p rend="footnote text">See Rom. 8:16.</p>
+                </note> that I
+                am bought with the blood of the Lamb,<note place="foot" xml:id="ftn58" n="58">
+                    <p rend="footnote text">Rev. 7:14; 12:11.</p>
+                </note> and that believing in him,
+                “I am a member of <pb n="310"/>Christ, a child of God, and an inheritor of the
+                kingdom of heaven.”<note place="foot" xml:id="ftn59" n="59">
+                    <p rend="footnote text">A composite paraphrase of 1 Cor. 6:15; Rom. 8:16, 17; and Jas.
+                    2:5.</p>
+                </note> I rejoice because the sense of God’s love to me hath by the same
+                Spirit wrought in me to love him, and to love for his sake every child of man, every
+                soul that he hath made. I rejoice because he gives me to feel in myself “the mind
+                that was in Christ”:<note place="foot" xml:id="ftn60" n="60">
+                    <p rend="footnote text">Cf. Phil. 2:5.</p>
+                </note> simplicity, a single eye to him in every motion
+                of my heart; power always to fix the loving eye of my soul on him who “loved me, and
+                gave himself for me”,<note place="foot" xml:id="ftn61" n="61">
+                    <p rend="footnote text">Gal. 2:20.</p>
+                </note> to aim at him alone, at his
+                glorious will, in all I think or speak or do; purity, desiring nothing more but God,
+                “crucifying the flesh with its affections and lusts”,<note place="foot" xml:id="ftn62" n="62">
+                    <p rend="footnote text">Cf. Gal. 5:24.</p>
+                </note> “setting
+                my affections on things above, not on things of the earth”;<note place="foot" xml:id="ftn63" n="63">
+                    <p rend="footnote text">Cf. Col. 3:2.</p>
+                </note> holiness,
+                a recovery of the image of God,<note place="foot" xml:id="ftn64" n="64">
+                    <p rend="footnote text">Gen. 1:27; 9:6. Cf. No. 44, <hi rend="italic">Original
+                            Sin</hi>, III.5 and n.</p>
+                </note> a renewal of soul after his likeness;
+                and godly sincerity, directing all my words and works so as to conduce to his glory.
+                In this I likewise rejoice, yea and will rejoice, because my conscience beareth me
+                witness in the Holy Ghost, by the light he continually pours in upon it, that “I
+                walk worthy of the vocation wherewith” I am “called”;<note place="foot" xml:id="ftn65" n="65">
+                    <p rend="footnote text">Cf. Eph. 4:1.</p>
+                </note> that I
+                “abstain from all appearance of evil”,<note place="foot" xml:id="ftn66" n="66">
+                    <p rend="footnote text">1 Thess. 5:22.</p>
+                </note> “fleeing from sin as from the
+                face of a serpent”;<note place="foot" xml:id="ftn67" n="67">
+                    <p rend="footnote text">Cf. Ecclus. 21:2.</p>
+                </note> that as I have opportunity I do all possible
+                good, in every kind, to all men;<note place="foot" xml:id="ftn68" n="68">
+                    <p rend="footnote text">See <hi rend="italic">General Rules</hi>,
+                    §5.</p>
+                </note> that I follow my Lord in all my steps, and do what is acceptable
+                in his sight. I rejoice because I both see and feel, through the inspiration of
+                God’s Holy Spirit, that all my works are wrought in him, yea, and that it is he who
+                worketh all my works in me. I rejoice in seeing, through the light of God which
+                shines in my heart, that I have power to walk in his ways, and that through his
+                grace I turn not therefrom, to the right hand or to the left.’<note place="foot" xml:id="ftn69" n="69">
+                    <p rend="footnote text">Cf. Josh. 23:6.</p>
+                </note>
+            </p>
+            <p n="17">17. Such is the ground and the nature of that joy whereby a Christian
+                rejoiceth evermore. And from all this we may easily infer, first, that this is not a
+                    <hi rend="italic">natural</hi> joy. It does not arise from any natural cause:
+                not from any sudden flow of spirits. This may give a transient start of joy. But the
+                Christian ‘rejoiceth always’.<note place="foot" xml:id="ftn70" n="70">
+                    <p rend="footnote text">Cf. 2 Cor. 6:10.</p>
+                </note> It cannot be owing to
+                bodily health or ease, to strength and soundness of constitution. For it is equally
+                strong in sickness and pain; yea, perhaps far stronger than before. Many Christians
+                have <pb n="311"/>never experienced any joy to be compared with that which then
+                filled their soul, when the body was wellnigh worn out with pain, or consumed away
+                with pining sickness. Least of all can it be ascribed to outward prosperity, to the
+                favour of men, or plenty of worldly goods. For then chiefly when their faith has
+                been tried as with fire, by all manner of outward afflictions, have the children of
+                God rejoiced in him ‘whom unseen they loved’, even ‘with joy unspeakable’.<note place="foot" xml:id="ftn71" n="71">
+                    <p rend="footnote text">Cf. 1 Pet.
+                    1:8.</p>
+                </note> And never surely did men rejoice like those who were used as
+                ‘the filth and offscouring of the world’;<note place="foot" xml:id="ftn72" n="72">
+                    <p rend="footnote text">Cf. 1 Cor. 4:13.</p>
+                </note> who wandered to and fro,
+                being in want of all things, in hunger, in cold, in nakedness; who ‘had trials’, not
+                only ‘of cruel mockings’, but ‘moreover of bonds and imprisonments’;<note place="foot" xml:id="ftn73" n="73">
+                    <p rend="footnote text">Cf. Heb.
+                    11:36.</p>
+                </note> yea, who at last ‘counted not their lives dear unto
+                themselves, so they might finish their course with joy’.<note place="foot" xml:id="ftn74" n="74">
+                    <p rend="footnote text">Cf. Acts 20:24.</p>
+                </note>
+            </p>
+            <p n="18">18. From the preceding considerations we may, secondly, infer that the joy of
+                a Christian does not arise from any <hi rend="italic">blindness of conscience</hi>,
+                from his not being able to discern good from evil. So far from it that he was an
+                utter stranger to this joy till the eyes of his understanding were opened,<note place="foot" xml:id="ftn75" n="75">
+                    <p rend="footnote text">See Eph.
+                    1:18.</p>
+                </note> that he knew it not until he had spiritual senses, fitted to
+                discern spiritual good and evil.<note place="foot" xml:id="ftn76" n="76">
+                    <p rend="footnote text">See Heb. 5:14; cf. No. 10, ‘The Witness of the Spirit,
+                        I’, I.12 and n.</p>
+                </note> And now the eye of his soul waxeth not dim. He
+                was never so sharpsighted before. He has so quick a perception of the smallest
+                things as is quite amazing to the natural man. As a mote is visible in the sunbeam,
+                so to him who is walking in the light, in the beams of the uncreated sun, every mote
+                of sin is visible.<note place="foot" xml:id="ftn77" n="77">
+                    <p rend="footnote text">Direct divine illumination; cf. §8 above.</p>
+                </note> Nor does he close the
+                eyes of his conscience any more. That sleep is departed from him. His soul is always
+                broad awake: no more slumber or folding of the hands in rest!<note place="foot" xml:id="ftn78" n="78">
+                    <p rend="footnote text">See Prov. 6:10; 24:33. See also
+                        No. 113, <hi rend="italic">The Late Work of God in North America</hi>,
+                        II.12.</p>
+                </note> He is always standing on the tower, and hearkening what
+                his Lord will say concerning him;<note place="foot" xml:id="ftn79" n="79">
+                    <p rend="footnote text">See Isa. 21:8; 37:22. See also 2 Kgs. 19:21; 1 Chr.
+                        17:23.</p>
+                </note> and always rejoicing in this very thing, in ‘seeing him
+                that is invisible’.<note place="foot" xml:id="ftn80" n="80">
+                    <p rend="footnote text">Heb. 11:27.</p>
+                </note>
+            </p>
+            <p n="19">19. Neither does the joy of a Christian arise, thirdly, from any <hi rend="italic">dullness</hi> or <hi rend="italic">callousness of conscience</hi>.
+                A kind of joy, it is true, may arise from this in those whose ‘foolish hearts are
+                    darkened’;<note place="foot" xml:id="ftn81" n="81">
+                    <p rend="footnote text">Cf.
+                        Rom. 1:21.</p>
+                </note> whose <pb n="312"/>heart is callous, unfeeling, dull
+                of sense, and consequently without spiritual understanding. Because of their
+                senseless, unfeeling hearts, they may rejoice even in committing sin; and this they
+                may probably call ‘liberty’! Which is indeed mere drunkenness of soul; a fatal
+                numbness of spirit, the stupid insensibility of a seared conscience.<note place="foot" xml:id="ftn82" n="82">
+                    <p rend="footnote text">See 1 Tim. 4:2; cf.
+                        Nos. 49, ‘The Cure of Evil-speaking’, I.6; 85, ‘On Working Out Our Own
+                        Salvation’, III.4; and 149, ‘On Love’, III.5.</p>
+                </note> On the contrary, a
+                Christian has the most exquisite sensibility, such as he would not have conceived
+                before. He never had such a tenderness of conscience as he has had since the love of
+                God has reigned in his heart. And this also is his glory and joy, that God hath
+                heard his daily prayer:</p>
+            <lg>
+                <l>O that my tender soul might fly</l>
+                <l>The first abhorred approach of ill:</l>
+                <l>Quick as the apple of an eye</l>
+                <l>The slightest touch of sin to feel.<note place="foot" xml:id="ftn83" n="83">
+                        <p rend="footnote text">‘Watch in All Things’, st. 10, in <hi rend="italic">Hymns and Sacred Poems</hi> (1742), p. 218 (<hi rend="italic">Poet.
+                                Wks.</hi>, II.273). Cf. also No. 105, ‘On Conscience’, I.15. For
+                            other quotations from this same hymn, cf. Nos. 95, ‘On the Education of
+                            Children’, §18; 106, ‘On Faith, Heb. 11:6’, II.4; and 126, ‘On Worldly
+                            Folly’, II.2.</p>
+                    </note>
+                </l>
+            </lg>
+            <p n="20">20. To conclude. Christian joy is joy in obedience—joy in loving God and
+                keeping his commandments. And yet not in keeping them as if we were thereby to
+                fulfil the terms of the <hi rend="italic">covenant of works</hi>;<note place="foot" xml:id="ftn84" n="84">
+                    <p rend="footnote text">Cf. No. 6, ‘The Righteousness of
+                        Faith’, §1 and n.</p>
+                </note> as if by any works or righteousness of ours we
+                were to <hi rend="italic">procure</hi> pardon and acceptance with God. Not so: we
+                are already pardoned and accepted through the mercy of God in Christ Jesus—not as if
+                we were by our own obedience to <hi rend="italic">procure</hi> life, life from the
+                death of sin. This also we have already through the grace of God. ‘Us hath he
+                quickened, who were dead in sin.’<note place="foot" xml:id="ftn85" n="85">
+                    <p rend="footnote text">Cf. Eph. 2:1.</p>
+                </note> And now we are ‘alive to God,
+                through Jesus Christ our Lord’.<note place="foot" xml:id="ftn86" n="86">
+                    <p rend="footnote text">Rom. 6:11.</p>
+                </note> But we rejoice in walking
+                according to the <hi rend="italic">covenant of grace</hi>, in holy love and happy
+                obedience. We rejoice in knowing that ‘being justified through his grace’,<note place="foot" xml:id="ftn87" n="87">
+                    <p rend="footnote text">Cf. Rom. 3:24; Titus
+                        3:7.</p>
+                </note> we have ‘not received that grace of God in vain’;<note place="foot" xml:id="ftn88" n="88">
+                    <p rend="footnote text">Cf. 2 Cor.
+                    6:1.</p>
+                </note> that God having freely (not for the sake of our willing or
+                running, but through the blood of the Lamb) reconciled us to himself, we run in the
+                strength which he hath given us the way of his commandments.<note place="foot" xml:id="ftn89" n="89">
+                    <p rend="footnote text">See Ps. 119:32.</p>
+                </note> He hath
+                ‘girded us with strength <pb n="313"/>unto the war’,<note place="foot" xml:id="ftn90" n="90">
+                    <p rend="footnote text">Cf. Ps. 18:39; 2 Sam.
+                    22:40.</p>
+                </note> and we gladly ‘fight the good fight of faith’.<note place="foot" xml:id="ftn91" n="91">
+                    <p rend="footnote text">1 Tim.
+                    6:12.</p>
+                </note> We rejoice, through him who liveth in our hearts by faith, to
+                ‘lay hold of eternal life’.<note place="foot" xml:id="ftn92" n="92">
+                    <p rend="footnote text">
+                        <hi rend="italic">Ibid.</hi>
+                    </p>
+                </note> This is our
+                rejoicing; that as our ‘Father worketh hitherto’,<note place="foot" xml:id="ftn93" n="93">
+                    <p rend="footnote text">John 5:17.</p>
+                </note> so (not by our own might or
+                wisdom, but through the power of his Spirit freely given in Christ Jesus) we also
+                work the works of God.<note place="foot" xml:id="ftn94" n="94">
+                    <p rend="footnote text">John 6:28.</p>
+                </note> And may he work in us whatsoever
+                is well-pleasing in his sight,<note place="foot" xml:id="ftn95" n="95">
+                    <p rend="footnote text">Heb. 13:21.</p>
+                </note> to whom be the praise for ever
+                and ever!<note place="foot" xml:id="ftn96" n="96">
+                    <p rend="footnote text">See 1 Pet
+                        4:11. For Wesley’s use of ascriptions, cf. No. 1, <hi rend="italic">Salvation by Faith</hi>, III.9 and n.</p>
+                </note>
+            </p>
+        </body>
+    </text>
+</TEI>

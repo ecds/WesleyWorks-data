@@ -1,0 +1,1190 @@
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Sermon 13: On Sin in Believers</title>
+                <author>Wesley, John</author>
+                <editor role="text">Van Buskirk, Gregory P.</editor>
+                <editor role="digital">Taylor, Michelle M.</editor>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>The Wesley Works Digitzation Project</publisher>
+                <pubPlace>Tampa, FL</pubPlace>
+                <date>2024-02-24</date>
+             <idno type="URI">https://wesleyworks.ecdsdev.org/sermons/Sermon013</idno>                  
+            </publicationStmt>
+            <sourceDesc>
+                <listBibl>
+                    <biblStruct>
+                        <analytic>
+                            <title level="a">Sermon 13: On Sin in Believers</title>
+                        </analytic>
+                        <monogr>
+                            <title level="j">The Works of John Wesley, Volume I: Sermons I,
+                                1-33</title>
+                            <editor role="volume">Outler, Albert</editor>
+                            <imprint>
+                                <publisher>Abingdon Press</publisher>
+                                <pubPlace>Nashville, TN</pubPlace>
+                                <date when="2015-05-01">1984-05-01</date>
+                                <biblScope unit="volume" n="1"/>
+                                <biblScope unit="page" from="314" to="334"/>
+                            </imprint>
+                        </monogr>
+                        <series>
+                            <title level="s">The Works of John Wesley</title>
+                            <editor role="general">Baker, Frank</editor>
+                        </series>
+                    </biblStruct>
+                </listBibl>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Greg Van Buskirk created Word docs for all of Wesley's sermons using a combination of
+                OCR software and manual proofing. Michelle Taylor converted these docx into XML
+                using Oxygen's DITA automatic transformation scenario, then touched them up
+                manually.</p>
+        </encodingDesc>
+        <standOff>
+            <taxonomy>
+                <keywords>
+                    <term/>
+                </keywords>
+            </taxonomy>
+            <!--Include keywords and terms here eventually.-->
+        </standOff>
+        <revisionDesc/>
+    </teiHeader>
+    <text>
+        <body>
+            <p>
+                <pb n="314"/>
+            </p>
+            <introduction>
+                <!--Confirm introduction is the element I want to use here, especially given that I
+                    use it as an attribute for Wesley's introductory paragraphs as well.-->
+                <head>
+                    <hi rend="italic">An Introductory Comment [on Sermons 13-14]</hi>
+                </head>
+                <p>In the first edition of <hi rend="italic">SOSO</hi>, I (1746), ‘The Witness of
+                    the Spirit’ (Discourse I), was followed by a sermon on ‘The Means of Grace’ to
+                    round out the volume. Two years later, Wesley placed his third university
+                    sermon, ‘The Circumcision of the Heart’ (from 1733), as the first sermon in his
+                    second volume, following it with a new sermon on ‘The Great Privilege of those
+                    that are Born of God’. The shared theme in this sequence (stressed in three of
+                    the sermons and implied in ‘The Means of Grace’) concerned the power bestowed on
+                    justified and regenerate believers <hi rend="italic">not to commit sin</hi>—a
+                    crucial idea in the holy-living tradition, which then was given its climactic
+                    statement, up to that date, in <hi rend="italic">Christian Perfection</hi>
+                    (1750); see No. 40.</p>
+                <p>This idea of the Christian’s grace-bestowed power not to commit sin was, however,
+                    bound to generate controversy and confusion among both critics and some
+                    disciples. With their doctrines of the ineradicable ‘remains of sin’ (<hi rend="italic">fomes peccati</hi>), the Lutherans had taught that the
+                    justified believer was <hi rend="italic">simul justus et peccator</hi> but also
+                    that his repented sins were covered by the imputed righteousness of Christ and
+                    thus inculpable; cf. <hi rend="italic">The Apology of the Augsburg
+                        Confession</hi> (1531), Article II, ‘Original Sin’, especially §§35-45. With
+                    similar premises with respect to the <hi rend="italic">fomes peccati</hi> (the
+                    Christian is ‘a sinner saved by grace’), the Calvinists stressed rigorous
+                    examination of consciences, repentance, the final perseverance of the elect, and
+                    the perfect and immutable freedom ‘in the state of glory only’; cf. <hi rend="italic">The Westminster Confession</hi> VI.v, IX.v; see also
+                    XIII-XVIII. On the other side, the Moravians and some of Wesley’s own disciples
+                    (e.g., Thomas Maxfield, William Cudworth, James Relly) had taken the claim that
+                    ‘those born of God do not commit sin’ to its antinomian extreme of sinless—even
+                    guiltless—perfection, as if the power not to sin meant the extirpation of all
+                    ‘remains of sin’. For an exposition of this view, see the Supplement to <hi rend="italic">The Christian Magazine for the Year 1762</hi>: ‘for all who
+                    are united to Christ by the Holy Spirit’s dwelling in them are delivered from
+                    the guilt, the power, or, in one word the <hi rend="italic">being</hi> of <pb n="315"/>sin’ (p. 579; see also below, pp. 328-32). Moreover, they had
+                    appealed to Wesley’s basic soteriology as the logical ground for their
+                    interpretation.</p>
+                <p>Wesley, caught in the controversy generated by these two polarities, reacted
+                    typically and came up with what he regarded as a valid third alternative. Its
+                    root notion was a distinction between ‘sin properly so called’ (i.e., ‘the
+                    [deliberate] violation of a known law of God’—mortal if unrepented) and all
+                    ‘involuntary transgressions’ (culpable only if unrepented and not discarded when
+                    discerned or entertained). This distinction already had a history in Catholic
+                    moral theory (‘mortal’ versus ‘venial’); cf. Claude Fleury, <hi rend="italic">Les Moeurs des Israélites</hi> (1683; cf. <hi rend="italic">The Manners of
+                        the Ancient Israelites…</hi>, ed. Adam Clarke [1852], p. 306). But it had
+                    also had a special development among Anglican moralists as well. Richard Lucas
+                    had analyzed it in his <hi rend="italic">Enquiry After Happiness</hi> (1717),
+                    III.299-301 (e.g., ‘Mortal sin is a deliberate transgression of a known law of
+                    God tending to the dishonour of God and injury of our neighbour or the
+                    deprivation of our own nature’). John Kettlewell, in <hi rend="italic">The
+                        Measures of Christian Obedience</hi> (1681), had spoken of ‘voluntary’ and
+                    ‘involuntary’ sins (see Bk. IV, chs. 3-4, pp. 330 ff., 335 ff.). Much more to
+                    the same effect had been found in Samuel Bradford’s Boyle Lectures for 1699, <hi rend="italic">The Credibility of the Christian Revelation, from its
+                        intrinsic evidence; in eight sermons</hi> (1700), Sermon II, p. 445; Hugh
+                    Binning, <hi rend="italic">Fellowship With God</hi> (1671), pp. 216-18, and John
+                    Weemse [Weemes], <hi rend="italic">The Portraiture of God in Man…</hi> (1627),
+                    p. 326 (cf. Weemes’s formulation of the distinction as between ‘sins forgiven ’
+                    and ‘sins passed by…’).</p>
+                <p>Thus, there was an unstable tension between the claims that a Christian may be
+                    delivered from sin’s bondage, and that ‘sin <hi rend="italic">remains</hi> but
+                    no longer <hi rend="italic">reigns</hi>’ (see below, I.6 and n.); this continued
+                    to plague Wesley in many ways, as one can see from his frequent references to
+                    it; see below, II.3, III.1-9 and n.; and cf. Nos. 1, <hi rend="italic">Salvation
+                        by Faith</hi>, II.6; 8, ‘The First-fruits of the Spirit’, II.6, 9, III.4-5;
+                    14, <hi rend="italic">The Repentance of Believers</hi>, I.2-3; 18, ‘The Marks of
+                    the New Birth’, I.5-6; 19, ‘The Great Privilege of those that are Born of God’,
+                    II.8; 40, <hi rend="italic">Christian Perfection</hi>, II.4-5; 41, <hi rend="italic">Wandering Thoughts</hi>, III.6; 43, <hi rend="italic">The
+                        Scripture Way of Salvation</hi>, III.6-8; 46, ‘The Wilderness State’, II.6,
+                    III.14; 58, <hi rend="italic">On Predestination</hi>, §7; 62, ‘The End of
+                    Christ’s Coming’, III.3; 65, ‘The Duty of Reproving our Neighbour’, III.14; 74,
+                    ‘Of the Church’, §21; 76, ‘On Perfection’, II.9; 82, ‘On Temptation’, I.5; 104,
+                    ‘On Attending the Church Service’, §18; 128, <pb n="316"/>‘The Deceitfulness of
+                    the Human Heart’, II.5. Cf. also Wesley’s letters to John Hosmer, June 7, 1761,
+                    to Mary Bishop, May 27, 1771, and to Mrs. Bennis, June 16, 1772.</p>
+                <p>What matters most is that Wesley insisted on holding to both traditions—<hi rend="italic">sola fide</hi> and <hi rend="italic">holy living</hi>—without
+                    forfeiting the good essence of either. Moreover, he saw no inconsistency in his
+                    shifting from one emphasis to the other as circumstances seemed to require. He
+                    was more concerned to face the dreadful realities of sin while never yielding to
+                    any defeatist notion that God’s grace is intrinsically impotent to save souls
+                    ‘to the utmost’, in this life. That enough of his comments on this twin concern
+                    could have been misconstrued as a doctrine of ‘sinless perfection’ is apparent
+                    both in its exaggerations in Cudworth and others, and also in nineteenth-century
+                    developments—especially in American Methodism—in which ‘entire sanctification’
+                    was interpreted as ‘a second and separate work of grace’ and normative for the
+                    Christian life; cf. Peters, <hi rend="italic">Christian Perfection and American
+                        Methodism</hi>.</p>
+                <p>In 1763, in a needed effort to counter the distortions and bring the controversy
+                    more nearly back to balance, Wesley wrote and published a sermon entitled <hi rend="italic">A Discourse on Sin in Believers</hi>, ‘in order to remove a
+                    mistake which some were labouring to propagate: that there is no sin in any that
+                    are justified’ (see JWJ, Mar. 28, and <hi rend="italic">Bibliog</hi>, No. 257).
+                    In 1767 he wrote out its sequel, <hi rend="italic">The Repentance of
+                        Believers</hi>, and published it the following year (cf. JWJ, Apr. 17-24,
+                    and <hi rend="italic">Bibliog</hi>, No. 305).</p>
+                <p>Here, we find an interesting version of Wesley’s doctrine of ‘entire
+                    sanctification’; cf. Pt. II. Shortly after this, when he began to re-arrange the
+                    sequence of Vol. I of <hi rend="italic">SOSO</hi> for the edition of his <hi rend="italic">Works</hi>, he quite deliberately inserted these two sermons
+                    as Nos. 13 and 14, between ‘The Witness of Our Own Spirit’ and ‘The Means of
+                    Grace’. They are designed, as he says, for the encouragement of ‘the weaker
+                    brethren’ whose Christian assurance had been all too easily shaken by their
+                    awareness of sin’s residues in their hearts, even in their uncertain pilgrimage
+                    of grace toward ‘perfect love’.</p>
+                <p>The present text of <hi rend="italic">On Sin in Believers</hi> is based on the
+                    first edition of 1763, and the text of <hi rend="italic">The Repentance of
+                        Believers</hi> is from its first edition of 1767. For stemmata illustrating
+                    text transmissions through the editions published in Wesley’s lifetime and the
+                    list of substantive variant readings found in these successive editions, see
+                    Appendix, ‘Wesley’s Text’, in Vol. IV.</p>
+            </introduction>
+            <pb n="317"/>
+            <head>On Sin in Believers</head>
+            <epigraph>
+                <p>2 Corinthians 5:17</p>
+                <p>
+                    <hi rend="italic">If any man be in Christ, he is a new creature.</hi>
+                </p>
+            </epigraph>
+            <div type="section" n="1">
+                <p n="1">I. 1. Is there then sin in him that is in Christ? Does sin remain in one
+                    that ‘believes in him’?<note place="foot" xml:id="ftn1" n="1">
+                        <p rend="footnote text">Cf. John 9:36, 41.</p>
+                    </note> Is there any sin in
+                    them that are ‘born of God’,<note place="foot" xml:id="ftn2" n="2">
+                        <p rend="footnote text">1 John 3:9; 4:7, etc.</p>
+                    </note> or are they wholly
+                    delivered from it? Let no one imagine this to be a question of mere curiosity,
+                    or that it is of little importance whether it be determined one way or the
+                    other. Rather it is a point of the utmost moment to every serious Christian, the
+                    resolving of which very nearly concerns both his present and eternal
+                    happiness.</p>
+                <p n="2">2. And yet I do not know that ever it was controverted in the primitive
+                    Church. Indeed there was no room for disputing concerning it, as all Christians
+                    were agreed. And so far as I have observed, the whole body of ancient Christians
+                    who have left us anything in writing declare with one voice that even believers
+                    in Christ, till they are ‘strong in the Lord, and in the power of his might’,
+                    have need to ‘wrestle with flesh and blood’, with an evil nature, as well as
+                    ‘with principalities and powers’.<note place="foot" xml:id="ftn3" n="3">
+                        <p rend="footnote text">Cf. Eph. 6:10, 12.</p>
+                    </note>
+                </p>
+                <p n="3">3. And herein our own Church (as indeed in most points) exactly copies
+                    after the primitive;<note place="foot" xml:id="ftn4" n="4">
+                        <p rend="footnote text">A typical example of Wesley’s unself-conscious
+                            Anglican triumphalism. Cf. also No. 33, ‘Sermon on the Mount, XIII’,
+                            III.1; ‘Farther Thoughts on Separation from the Church’, §1, dated Dec.
+                            11, 1789 (<hi rend="italic">AM</hi>, 1790); and his letter to Sir Harry
+                            Trelawney, Aug. 1780. He was ‘anti-Establishment’, to be sure, but never
+                            ‘anti-Anglican’ or even ‘pro-Nonconformist’.</p>
+                        <p rend="footnote text">The Thirty-nine Articles were a set of doctrinal formulae first adopted
+                            by the Church of England in 1563. They gained full official approval in
+                            1571, having evolved from a series of confessional statements in 1536
+                            (‘Ten Articles’), 1537, 1539 (‘Six Articles’), 1543, and 1553
+                            (‘Forty-two Articles’). By design, they were more Reformed and
+                            anti-Roman than the Edwardian Homilies (1547) had been, and they had
+                            been added to the Elizabethan Prayer Book as an appendix, since they
+                            were never intended to be a ‘confession’ in the same sense as <hi rend="italic">The Augsburg Confession</hi> (1530), etc. Even so, it
+                            was required that Anglican clergy, in Wesley’s day, and even down till
+                            1865, should subscribe to them. In the prayer book prepared by Wesley
+                            for the American Methodists in 1784 (<hi rend="italic">The Sunday
+                                Service</hi>) he included a highly personal abridgement of them,
+                            reducing their number from thirty-nine to twenty-four; a twenty-fifth
+                            was added by the Americans. As in the BCP, Wesley’s Articles were placed
+                            as an appendix; ‘Of Original or Birth Sin’ appears as Art. VII rather
+                            than IX.</p>
+                    </note> declaring (in her Ninth <pb n="318"/>Article),
+                    Original sin […] is the corruption of the nature of every man, […] whereby man
+                    is […] in his own nature inclined to evil, so that the flesh lusteth contrary to
+                    the Spirit.<note place="foot" xml:id="ftn5" n="5">
+                        <p rend="footnote text">Cf.
+                            Gal. 5:17.</p>
+                    </note> […] And this infection of nature doth remain, yea,
+                    in them that are regenerated; whereby the lust of the flesh, called in Greek
+                    φρόνημα σαρκός,<note place="foot" xml:id="ftn6" n="6">
+                        <p rend="footnote text">Cf. No. 8, ‘The First-fruits of the Spirit’, I.2, and, below, IV.7; see
+                            also No. 43, <hi rend="italic">The Scripture Way of Salvation</hi>,
+                            III.6.</p>
+                    </note> […] is not subject to the law of God.<note place="foot" xml:id="ftn7" n="7">
+                        <p rend="footnote text">Rom.
+                        8:7.</p>
+                    </note> And although there is no condemnation for them that believe
+                    […], yet this lust hath of itself the nature of sin.’<note place="foot" xml:id="ftn8" n="8">
+                        <p rend="footnote text">Cf. The Thirty-nine Articles,
+                            Art. IX, ‘Of Original or Birth Sin’, and consider Wesley’s omissions.
+                            For an even more drastic abridgement, cf. ‘The Twenty-five Articles’ of
+                            the Methodists, Art. VII, in Wesley’s <hi rend="italic">Sunday
+                                Service</hi>.</p>
+                    </note>
+                </p>
+                <p n="4">4. The same testimony is given by all other churches; not only by the Greek
+                    and Romish Church, but by every Reformed Church in Europe, of whatever
+                    denomination. Indeed some of these seem to carry the thing too far; so
+                    describing the corruption of heart in a believer as scarce to allow that he has
+                    dominion over it, but rather is in bondage thereto.<note place="foot" xml:id="ftn9" n="9">
+                        <p rend="footnote text">Cf. No. 9, ‘The Spirit of
+                            Bondage and of Adoption’. This is an obvious reference to the more
+                            one-sided versions of the <hi rend="italic">simul justus et
+                                peccator</hi> as formulated by Matthias Flacius Illyricus and also
+                            as denounced by Trent, Session V.v. Cf. <hi rend="italic">The Formula of
+                                Concord</hi> (Epitome), Art. I (‘On Original Sin’), ‘Affirmative’,
+                            III: ‘And we do indeed affirm that no one is able to dissever this
+                            [sinful] corruption of [human] nature from the nature itself except God
+                            alone—which will fully come to pass by means of death in the
+                            resurrection into blessedness,’ in Philip Schaff, <hi rend="italic">The
+                                Creeds of Christendom</hi> (New York, Harper and Brothers, 1881-82),
+                            III.100-101.</p>
+                        <p rend="footnote text">Incidentally, this notion of
+                            sin’s being destroyed by death is affirmed by the early Wesley in two
+                            sermons written before 1738 (cf. Nos. 109, <hi rend="italic">The Trouble
+                                and Rest of Good Men</hi>, I, II.6; and 136, ‘On Mourning for the
+                            Dead’, ¶5, but the notion never reappears afterward. William Tilly had
+                            made the point in his sermon ‘On Grieving the Holy Spirit’ which Wesley
+                            extracted. This idea had appeared in Luther’s <hi rend="italic">Treatise
+                                on the Holy Sacrament of Baptism</hi> (1519), VII-VIII, XVII-XVIII,
+                            and had then been developed in classical Lutheran eschatology; cf.
+                            Schmid, <hi rend="italic">Doctrinal Theology</hi>, pp. 625 ff. For
+                            references to Luther in the Wesley corpus, cf. No. 14, <hi rend="italic">The Repentance of Believers</hi>, I.9 and n.</p>
+                    </note> And by this
+                    means they leave hardly any distinction between a believer and an
+                    unbeliever.</p>
+                <p n="5">5. To avoid this extreme many well-meaning men, particularly those under
+                    the direction of the late Count Zinzendorf,<note place="foot" xml:id="ftn10" n="10">
+                        <p rend="footnote text">Wesley’s relations with Count Ludwig von
+                            Zinzendorf, the most prominent of the Moravians, were complex and
+                            unfortunate; cf. ‘The Rift With the Moravians’ in LPT, <hi rend="italic">Wesley</hi>, pp. 347-76. The crucial difference between them, in
+                            Wesley’s view, was that antinomianism was a natural consequence of the
+                            Moravian doctrines of ‘perfect love’, whereas his own doctrine of
+                            ‘perfection’ and ‘holiness’ was strongly moralized (<hi rend="italic">viz.</hi>, ‘love of God and neighbour’). Cf. below, III.9-10 and
+                            V.1, as well as Nos. 48, ‘Self-denial’, III.2; 76, ‘On Perfection’,
+                            III.12; 107, ‘On God’s Vineyard’, I.3. See also JWJ, July 12, 1739, and
+                            Sept. 3, 1741; Charles’s letter to the Count, Nov. 26, 1737, and John’s
+                            letter of Sept. 6, 1745. See also, <hi rend="italic">Dialogue between an
+                                Antinomian and his Friend</hi>, <hi rend="italic">Bibliog</hi>, No.
+                            102, Vol. 13 of this edn.</p>
+                    </note> ran into <pb n="319"/>another,
+                    affirming that ‘all true believers are not only saved from the <hi rend="italic">dominion</hi> of sin but from the <hi rend="italic">being</hi> of inward as
+                    well as outward sin, so that it no longer <hi rend="italic">remains</hi> in
+                    them.’ And from them, about twenty years ago, many of our countrymen imbibed the
+                    same opinion, that even the corruption of nature <hi rend="italic">is no
+                        more</hi> in those who believe in Christ.</p>
+                <p n="6">6. It is true that when the Germans<note place="foot" xml:id="ftn11" n="11">
+                        <p rend="footnote text">I.e., the Moravians.</p>
+                    </note> were pressed
+                    upon this head they soon allowed (many of them at least) that sin did still
+                    remain <hi rend="italic">in the flesh</hi>, but not <hi rend="italic">in the
+                        heart</hi> of a believer. And after a time, when the absurdity of this was
+                    shown, they fairly gave up the point; allowing that sin did still <hi rend="italic">remain</hi>, though not <hi rend="italic">reign</hi>, in him
+                    that is born of God.<note place="foot" xml:id="ftn12" n="12">
+                        <p rend="footnote text">Cf. Nos. 1, <hi rend="italic">Salvation by
+                                Faith</hi>, II.6; 14, <hi rend="italic">The Repentance of
+                                Believers</hi>, I.2; 19, ‘The Great Privilege of those that are Born
+                            of God’, II.2; 43, <hi rend="italic">The Scripture Way of
+                            Salvation</hi>, III.6-8; 74, ‘Of the Church’, §21; and 128, ‘The
+                            Deceitfulness of the Human Heart’, II.5. See also Wesley’s account of
+                            Christian David’s beliefs, in JWJ, Aug. 10, 1738, where the same phrase
+                            occurs: ‘though it [sin] did not reign, it did remain in
+                    me.’</p>
+                    </note>
+                </p>
+                <p n="7">7. But the English who had received it from them (some directly, some at
+                    second or third hand) were not so easily prevailed upon to part with a favourite
+                    opinion. And even when the generality of them were convinced it was utterly
+                    indefensible, a few could not be persuaded to give it up, but maintain it to
+                    this day.<note place="foot" xml:id="ftn13" n="13">
+                        <p rend="footnote text">E.g.,
+                            John Gambold had been a lively member of the Holy Club and the author of
+                            a fine sermon, ‘On the Holy Spirit’ (1736), which Jackson published as
+                            Wesley’s own (in his edn. of <hi rend="italic">Works</hi>, VII.508-20).
+                            Subsequently, Gambold became a pastor of the Moravians in England and,
+                            finally, their bishop. There is a poignant record of Wesley’s last visit
+                            with him in JWJ, Nov. 5, 1763—very close to the date of the reference
+                            above.</p>
+                    </note>
+                </p>
+            </div>
+            <div type="section" n="2">
+                <p n="1">II. 1. For the sake of these who really fear God and desire to know ‘the
+                    truth as it is in Jesus’,<note place="foot" xml:id="ftn14" n="14">
+                        <p rend="footnote text">Eph. 4:21.</p>
+                    </note> it may not be amiss to
+                    consider the point with calmness and impartiality. In doing this I use
+                    indifferently the words ‘regenerate’, ‘justified’, or ‘believers’; since, though
+                    they have not precisely the same meaning (the first <pb n="320"/>implying an
+                    inward, <hi rend="italic">actual</hi> change; the second a <hi rend="italic">relative</hi> one; and the third the means whereby both the one and the
+                    other are wrought) yet they come to one and the same thing, as everyone that
+                    ‘believes’ is both ‘justified’ and ‘born of God’.<note place="foot" xml:id="ftn15" n="15">
+                        <p rend="footnote text">But see below, No. 18, ‘The
+                            Marks of the New Birth’, where significant nuances of differentiation
+                            between these terms may be found.</p>
+                    </note>
+                </p>
+                <p n="2">2. By ‘sin’ I here understand inward sin:<note place="foot" xml:id="ftn16" n="16">
+                        <p rend="footnote text">Wesley’s inventory of ‘inward’ sins
+                            corresponds to what he speaks of elsewhere as ‘involuntary’ (as the
+                            Lutherans had in their <hi rend="italic">Formula of Concord</hi>) and to
+                            what the Romans had grouped under the heading of ‘venial’ at Trent,
+                            Session V; see above, intro. and I.4 and n.</p>
+                    </note> any sinful
+                    temper, passion, or affection; such as pride, self-will, love of the world, in
+                    any kind or degree; such as lust, anger, peevishness; any disposition contrary
+                    to the mind which was in Christ.</p>
+                <p n="3">3. The question is not concerning <hi rend="italic">outward sin</hi>,
+                    whether a child of God <hi rend="italic">commits sin</hi> or no. We all agree
+                    and earnestly maintain, ‘He that committeth sin is of the devil.’<note place="foot" xml:id="ftn17" n="17">
+                        <p rend="footnote text">1 John
+                        3:8.</p>
+                    </note> We agree, ‘Whosoever is born of God doth not commit
+                        sin.’<note place="foot" xml:id="ftn18" n="18">
+                        <p rend="footnote text">1 John
+                            3:9.</p>
+                    </note> Neither do we now inquire whether inward sin will <hi rend="italic">always</hi> remain in the children of God; whether sin will
+                    continue in the soul <hi rend="italic">as long as</hi> it continues in the body.
+                    Nor yet do we inquire whether a justified person may <hi rend="italic">relapse</hi> either into inward or outward sin. But simply this: is a
+                    justified or regenerate man freed from <hi rend="italic">all sin</hi> as soon as
+                    he is justified? Is there then no sin in his heart? Nor ever after, unless he
+                    fall from grace?</p>
+                <p n="4">4. We allow that the state of a justified person is inexpressibly great and
+                    glorious. He is ‘born again, not of blood, nor of the flesh, nor of the will of
+                    man, but of God’.<note place="foot" xml:id="ftn19" n="19">
+                        <p rend="footnote text">Cf. John 1:13.</p>
+                    </note> He is a child of God, a
+                    member of Christ, an heir of the kingdom of heaven. ‘The peace of God which
+                    passeth all understanding keepeth his heart and mind in Christ Jesus.’<note place="foot" xml:id="ftn20" n="20">
+                        <p rend="footnote text">Cf. Phil.
+                            4:7.</p>
+                    </note> His very ‘body is a temple of the Holy Ghost’,<note place="foot" xml:id="ftn21" n="21">
+                        <p rend="footnote text">Cf. 1 Cor.
+                            6:19.</p>
+                    </note> and ‘an habitation of God through the Spirit’.<note place="foot" xml:id="ftn22" n="22">
+                        <p rend="footnote text">Eph.
+                        2:22.</p>
+                    </note> He is ‘created anew in Christ Jesus’;<note place="foot" xml:id="ftn23" n="23">
+                        <p rend="footnote text">Eph. 2:10.</p>
+                    </note> he is
+                        <hi rend="italic">washed</hi>; he is <hi rend="italic">sanctified</hi>. His
+                    ‘heart is purified by faith’;<note place="foot" xml:id="ftn24" n="24">
+                        <p rend="footnote text">Cf. Acts 15:9.</p>
+                    </note> he is cleansed from ‘the
+                    corruption that is in the world’.<note place="foot" xml:id="ftn25" n="25">
+                        <p rend="footnote text">2 Pet. 1:4.</p>
+                    </note> ‘The love of God is shed
+                    abroad in his heart by the Holy Ghost which is given unto him.’<note place="foot" xml:id="ftn26" n="26">
+                        <p rend="footnote text">Cf. Rom.
+                        5:5.</p>
+                    </note> And so long as he ‘walketh in love’<note place="foot" xml:id="ftn27" n="27">
+                        <p rend="footnote text">Eph. 5:2.</p>
+                    </note> (which he
+                    may always do) he ‘worships God in <pb n="321"/>spirit and in truth’.<note place="foot" xml:id="ftn28" n="28">
+                        <p rend="footnote text">John 4:23,
+                            24.</p>
+                    </note> He ‘keepeth the commandments of God, and doth those
+                    things that are pleasing in his sight’:<note place="foot" xml:id="ftn29" n="29">
+                        <p rend="footnote text">Cf. 1 John 3:22.</p>
+                    </note> so ‘exercising
+                    himself as to have a conscience void of offence toward God and toward man’.<note place="foot" xml:id="ftn30" n="30">
+                        <p rend="footnote text">Cf. Acts
+                            24:16.</p>
+                    </note> And he has power both over outward and inward sin,
+                    even from the moment he is justified.</p>
+            </div>
+            <div type="section" n="3">
+                <p n="1">III. 1. ‘But was he not then “freed from all sin”,<note place="foot" xml:id="ftn31" n="31">
+                        <p rend="footnote text">Rom. 6:7.</p>
+                    </note> so that
+                    there is no sin in his heart?’ I cannot say this: I cannot believe it, because
+                    St. Paul says the contrary. He is speaking to believers, and describing the
+                    state of believers in general, when he says, ‘The flesh lusteth against the
+                    spirit, and the spirit against the flesh: these are contrary the one to the
+                        other.’<hi rend="endnote_reference">
+                        <note place="end">
+                            <p rend="endnote text">Gal. 5:17.</p>
+                        </note>
+                    </hi> Nothing can be more express. The Apostle
+                    here directly affirms that ‘the flesh’, evil nature, opposes ‘the spirit’, even
+                    in believers; that even in the regenerate there are two principles ‘contrary the
+                    one to the other’.</p>
+                <p n="2">2. Again: when he writes to the believers at Corinth, to those who were
+                    ‘sanctified in Christ Jesus’,<hi rend="endnote_reference">
+                        <note place="end">
+                            <p rend="endnote text">1 Cor. 1:2.</p>
+                        </note>
+                    </hi> he says: ‘I,
+                    brethren, could not speak unto you as unto spiritual, but as unto carnal, as
+                    unto babes in Christ<note place="foot" xml:id="ftn32" n="32">
+                        <p rend="footnote text">‘Babes’ or ‘children’, ‘young men’, and ‘fathers’
+                            in Christ is a frequent theme throughout Wesley’s writings. E.g., cf.
+                            Nos. 24, ‘Sermon on the Mount, IV’, I.4; 40, <hi rend="italic">Christian
+                                Perfection</hi>, II.1; 55, <hi rend="italic">On the Trinity</hi>,
+                            §17; 83, ‘On Patience’, §10. See also JWJ, July 17, 1741, where Wesley
+                            records he preached a sermon from 1 Cor. 3: ‘The school at Kingswood was
+                            throughly filled between eight and nine in the evening. I showed them
+                            from the example of the Corinthians what need we have to bear one with
+                            another, seeing we are not to expect “many fathers in Christ,” no, nor
+                            young men among us, as yet. We then poured out our souls in prayer and
+                            praise, and our Lord did not hide his face from us.’ Cf. also his letter
+                            to the Revd. Mr. Plenderlieth, May 23, 1768; to Joseph Benson, Mar. 16,
+                            1771; to Elizabeth Briggs, May 31, 1771; and to John Fletcher, Mar. 22,
+                            1775, and June 1, 1776. In his <hi rend="italic">Notes</hi> on Heb.
+                            5:13-14, Wesley distinguishes the ‘babes’, ‘who desire and can digest
+                            nothing but the doctrine of justification and imputed righteousness’
+                            from those ‘of full age’, who embrace the ‘sublimer truths relating to
+                            “perfection”’.</p>
+                    </note>…. Ye are yet carnal: for whereas there is
+                    among you envying and strife, […] are ye not carnal?’<hi rend="endnote_reference">
+                        <note place="end">
+                            <p rend="endnote text">[1 Cor.]
+                                3:1, 3.</p>
+                        </note>
+                    </hi> Now here the Apostle speaks unto those who
+                    were unquestionably believers, whom in the same breath he styles his ‘brethren
+                    in Christ’,<note place="foot" xml:id="ftn33" n="33">
+                        <p rend="footnote text">Col.
+                            1:2.</p>
+                    </note> as being still in a measure <hi rend="italic">carnal</hi>. He affirms there was ‘envying’ (an evil temper) occasioning
+                    ‘strife’ among them, and yet does not give the least intimation that they had
+                    lost their faith. Nay, he manifestly declares they had not; for then they would
+                    not <pb n="322"/>have been ‘babes in Christ’. And (what is most remarkable of
+                    all) he speaks of being ‘carnal’ and ‘babes in Christ’ as one and the same
+                    thing; plainly showing that every believer is (in a degree) ‘carnal’ while he is
+                    only a ‘babe in Christ’.</p>
+                <p n="3">3. Indeed this grand point, that there are two contrary principles in
+                    believers—nature and grace, the flesh and the spirit—runs through all the
+                    epistles of St. Paul, yea, through all the Holy Scriptures.<note place="foot" xml:id="ftn34" n="34">
+                        <p rend="footnote text">For a rather different view of
+                            the tension between nature and prevenient grace, see below, No. 85, ‘On
+                            Working Out Our Own Salvation’, III.3-4.</p>
+                    </note> Almost all the
+                    directions and exhortations therein are founded on this supposition, pointing at
+                    wrong tempers or practices in those who are, notwithstanding, acknowledged by
+                    the inspired writers to be believers. And they are continually exhorted to fight
+                    with and conquer these, by the power of the faith which was in them.</p>
+                <p n="4">4. And who can doubt but there was faith in the angel of the church of
+                        Ephesus<note place="foot" xml:id="ftn35" n="35">
+                        <p rend="footnote text">I.e., the pastor and congregation considered as a single <hi rend="italic">persona</hi>; cf. Wesley’s <hi rend="italic">Notes</hi> for Rev. 2:2-4.</p>
+                    </note> when our Lord said to him: ‘I
+                    know thy works, and thy labour, and thy patience…. Thou hast patience, and for
+                    my name’s sake hast laboured and hast not fainted.’ But was there meantime no
+                    sin in his heart? Yea, or Christ would not have added, ‘Nevertheless I have
+                    somewhat against thee, because thou hast left thy first love.’<hi rend="endnote_reference">
+                        <note place="end">
+                            <p rend="endnote text">Rev.
+                                2:2-4.</p>
+                        </note>
+                    </hi> This was real sin<note place="foot" xml:id="ftn36" n="36">
+                        <p rend="footnote text">All the contemporary editions
+                            have ‘a real sin’, but the errata sheet in <hi rend="italic">Works</hi>
+                            (1771) calls for the ‘a’ to be deleted, as does the MS correction in
+                            Wesley’s personal copy.</p>
+                    </note> which God saw in his heart, of which
+                    accordingly he is exhorted to <hi rend="italic">repent</hi>. And yet we have no
+                    authority to say that even then he had no faith.</p>
+                <p n="5">5. Nay, the angel of the church at Pergamos also is exhorted to ‘repent’,
+                    which implies sin, though our Lord expressly says, ‘Thou hast not denied my
+                        faith.’<hi rend="endnote_reference">
+                        <note place="end">
+                            <p rend="endnote text">Ver. 13, 16.</p>
+                        </note>
+                    </hi> And to the angel of the church in
+                    Sardis he says, ‘Strengthen the things which remain that are ready to die.’<hi rend="endnote_reference">
+                        <note place="end">
+                            <p rend="endnote text">[Rev.]
+                                3:2.</p>
+                        </note>
+                    </hi> The good which remained was ‘ready to die’, but
+                    was not actually dead. So there was still a spark of faith even in him; which he
+                    is accordingly commanded to ‘hold fast’.<hi rend="endnote_reference">
+                        <note place="end">
+                            <p rend="endnote text">Ver. 3.</p>
+                        </note>
+                    </hi>
+                </p>
+                <p n="6">6. Once more: when the Apostle exhorts believers to ‘cleanse’ themselves
+                    ‘from all filthiness of flesh and spirit’,<hi rend="endnote_reference">
+                        <note place="end">
+                            <p rend="endnote text">2 Cor. 7:1.</p>
+                        </note>
+                    </hi> he
+                    plainly <pb n="323"/>teaches that those believers were not yet cleansed
+                    therefrom. Will you answer, ‘He that “abstains from all appearance of evil”<note place="foot" xml:id="ftn37" n="37">
+                        <p rend="footnote text">Cf. 1 Thess.
+                            5:22.</p>
+                    </note> does <hi rend="italic">ipso facto</hi> cleanse himself
+                    from all filthiness’? Not in any wise. For instance, a man reviles me; I feel
+                    resentment, which is ‘filthiness of spirit’; yet I say not a word. Here I
+                    ‘abstain from all appearance of evil’, but this does not cleanse me from that
+                    filthiness of spirit, as I experience to my sorrow.</p>
+                <p n="7">7. And as this position, ‘there is no sin in a believer, no carnal mind, no
+                    bent to backsliding,’<note place="foot" xml:id="ftn38" n="38">
+                        <p rend="footnote text">The last phrase here is from Hos. 11:7; the entire
+                            quotation appears to be Wesley’s own paraphrase of an antinomian view
+                            (as, e.g., from Cudworth and Relly).</p>
+                    </note> is thus contrary to the
+                    Word of God, so it is to the <hi rend="italic">experience</hi> of his children.
+                    These continually feel an heart bent to backsliding, a natural tendency to evil,
+                    a proneness to depart from God, and cleave to the things of earth. They are
+                    daily sensible of sin remaining in their heart, pride, self-will, unbelief, and
+                    of sin cleaving to all they speak and do, even their best actions and holiest
+                    duties. Yet at the same time they ‘know that they are of God’;<note place="foot" xml:id="ftn39" n="39">
+                        <p rend="footnote text">Cf. 1 John 5:19.</p>
+                    </note>
+                    they cannot doubt of it for a moment. They feel ‘his Spirit clearly witnessing
+                    with their spirit that they are the children of God’.<note place="foot" xml:id="ftn40" n="40">
+                        <p rend="footnote text">Cf. Rom. 8:16.</p>
+                    </note> They
+                    ‘rejoice in God through Christ Jesus, by whom they have now received the
+                        atonement’.<note place="foot" xml:id="ftn41" n="41">
+                        <p rend="footnote text">Cf. Rom. 5:11.</p>
+                    </note> So that they are equally assured that sin is
+                    in them and that ‘Christ is in them, the hope of glory.’<note place="foot" xml:id="ftn42" n="42">
+                        <p rend="footnote text">Cf. Col. 1:27. The same point
+                            as Luther’s <hi rend="italic">simul justus et
+                    peccator</hi>.</p>
+                    </note>
+                </p>
+                <p n="8">8. ‘But can Christ be in the same heart where sin is?’ Undoubtedly he can;
+                    otherwise it never could be saved therefrom. Where the sickness is, there is the
+                    physician,</p>
+                <lg>
+                    <l>Carrying on his work within,</l>
+                    <l>Striving till he cast out sin.<note place="foot" xml:id="ftn43" n="43">
+                            <p rend="footnote text">‘Hymn for Whitsunday’, st. 4, ll. 3-4, <hi rend="italic">Hymns and Sacred Poems</hi> (1739), p. 214 (<hi rend="italic">Poet. Wks.</hi>, I.188). The metaphors here of
+                                Christ the physician and of salvation as healing are significant;
+                                they distinguish Wesley’s essentially interpersonal, therapeutic
+                                views of justification, regeneration, and sanctification from all
+                                their forensic alternatives; cf. No. 17, ‘The Circumcision of the
+                                Heart’, I.5.</p>
+                        </note>
+                    </l>
+                </lg>
+                <p>Christ indeed cannot <hi rend="italic">reign</hi> where sin <hi rend="italic">reigns</hi>; neither will he <hi rend="italic">dwell</hi> where any sin is
+                        <hi rend="italic">allowed</hi>. But he <hi rend="italic">is</hi> and <hi rend="italic">dwells</hi> in the heart of every believer who is fighting
+                    against all sin; although it be ‘not’ yet ‘purified according to the
+                    purification of the sanctuary’.<note place="foot" xml:id="ftn44" n="44">
+                        <p rend="footnote text">2 Chr. 30:19.</p>
+                    </note>
+                </p>
+                <p n="9">
+                    <pb n="324"/>9. It has been observed before, that the opposite doctrine,
+                    ‘that there is no sin in believers’, is quite <hi rend="italic">new</hi> in the
+                    church of Christ; that it was never heard of for seventeen hundred years, never
+                    till it was discovered by Count Zinzendorf. I do not remember to have seen the
+                    least intimation of it either in any ancient or modern writer, unless perhaps in
+                    some of the wild, ranting antinomians.<note place="foot" xml:id="ftn45" n="45">
+                        <p rend="footnote text">Such as Johannes Agricola (1494-1566), Tobias
+                            Crisp (1600-43; cf. <hi rend="italic">DNB</hi>, ‘extremely unguarded in
+                            his expressions’), and John Saltmarsh (d. 1647; cf. <hi rend="italic">DNB</hi>, ‘champion of complete religious liberty’).</p>
+                    </note> And
+                    these likewise say and unsay, acknowledging there is sin ‘in their flesh’,
+                    although no sin ‘in their heart’.<note place="foot" xml:id="ftn46" n="46">
+                        <p rend="footnote text">See I.5 above.</p>
+                    </note> But whatever doctrine is
+                        <hi rend="italic">new</hi> must be <hi rend="italic">wrong</hi>; for the <hi rend="italic">old</hi> religion is the only <hi rend="italic">true</hi> one;
+                    and no doctrine can be right unless it is the very same ‘which was from the
+                        beginning’.<note place="foot" xml:id="ftn47" n="47">
+                        <p rend="footnote text">1 John 1:1. That Wesley took ‘Christian antiquity’ as a decisive
+                            guideline in theology and ethics may be seen, early and late, throughout
+                            the corpus. On Jan. 24, 1738 (see JWJ) he had invoked his own version of
+                            the ‘canon’ of Vincent of Lerins (first half of the fifth century) as ‘a
+                            sure rule of interpreting Scripture, <hi rend="italic">viz.</hi>: <hi rend="italic">Consensus veterum: quod ab omnibus, quod ubique, quod
+                                semper creditum…</hi>’ (‘the ancient consensus: what has been
+                            believed by all, everywhere and always…’); cf. <hi rend="italic">The
+                                Commonitory</hi> of Vincent of Lerins (435), ch. II, §6. See also
+                            John Goodman, <hi rend="italic">The Old Religion…</hi> (1684), ‘To the
+                            Reader’. In No. 14, <hi rend="italic">The Repentance of Believers</hi>,
+                            I.2, Wesley will list Scripture, reason, and Christian experience as his
+                            doctrinal norms. But in the Preface to his collected <hi rend="italic">Works</hi>, I (1771), the list will read: ‘Scripture, reason, and
+                            Christian antiquity’. See also his letter to Walter Churchey (June 20,
+                            1789): ‘In religion I am for as few innovations as possible;’ for other
+                            references to doctrinal ‘novelty’, cf. No. 25, ‘Sermon on the Mount, V’,
+                            §1 and n.</p>
+                    </note>
+                </p>
+                <p n="10">10. One argument more against this new, unscriptural doctrine may be drawn
+                    from the dreadful consequences of it. One says, ‘I felt anger today.’ Must I
+                    reply, ‘Then you have no faith’? Another says, ‘I know what you advise is good;
+                    but my will is quite averse to it.’ Must I tell him, ‘Then you are an
+                    unbeliever, under the wrath and the curse of God’? What will be the natural
+                    consequence of this? Why, if he believe what I say, his soul will not only be
+                    grieved and wounded but perhaps utterly destroyed; inasmuch as he will ‘cast
+                    away that confidence which hath great recompense of reward’.<note place="foot" xml:id="ftn48" n="48">
+                        <p rend="footnote text">Cf. Heb. 10:35.</p>
+                    </note> And
+                    having cast away his shield, how shall he ‘quench the fiery darts of the wicked
+                        one’?<note place="foot" xml:id="ftn49" n="49">
+                        <p rend="footnote text">Eph.
+                            6:16 (cf. <hi rend="italic">Notes</hi>).</p>
+                    </note> How shall he
+                    overcome the world?<note place="foot" xml:id="ftn50" n="50">
+                        <p rend="footnote text">See John 16:33.</p>
+                    </note> Seeing ‘this is the
+                    victory that overcometh the world, even our faith.’<note place="foot" xml:id="ftn51" n="51">
+                        <p rend="footnote text">1 John 5:4.</p>
+                    </note> He
+                    stands disarmed in the midst of his enemies, <pb n="325"/>open to all their
+                    assaults. What wonder then if he be utterly overthrown, if they take him captive
+                    at their will; yea, if he fall from one wickedness to another, and never see
+                    good any more? I cannot therefore by any means receive this assertion ‘that
+                    there is no sin in a believer from the moment he is justified’. First, because
+                    it is contrary to the whole tenor of Scripture; secondly, because it is contrary
+                    to the experience of the children of God; thirdly, because it is absolutely new,
+                    never heard of in the world till yesterday; and lastly, because it is naturally
+                    attended with the most fatal consequences, not only grieving those whom God
+                        hath<note place="foot" xml:id="ftn52" n="52">
+                        <p rend="footnote text">Orig.,
+                            ‘had’, altered to ‘hath’ in 1771 only.</p>
+                    </note> not grieved, but
+                    perhaps dragging them into everlasting perdition.</p>
+            </div>
+            <div type="section" n="4">
+                <p n="1">IV. 1. However, let us give a fair hearing to the chief arguments of those
+                    who endeavour to support it. And it is, first, from Scripture they attempt to
+                    prove that there is no sin in a believer. They argue thus: ‘The Scripture says
+                    every believer is “born of God”,<note place="foot" xml:id="ftn53" n="53">
+                        <p rend="footnote text">1 John 3:9; 4:7.</p>
+                    </note> is “clean”,<note place="foot" xml:id="ftn54" n="54">
+                        <p rend="footnote text">John 15:3,
+                            etc.</p>
+                    </note> is “holy”,<note place="foot" xml:id="ftn55" n="55">
+                        <p rend="footnote text">Eph. 1:4, etc.</p>
+                    </note> is “sanctified”;<note place="foot" xml:id="ftn56" n="56">
+                        <p rend="footnote text">Rom. 15:16,
+                            etc.</p>
+                    </note> is “pure in heart”,<note place="foot" xml:id="ftn57" n="57">
+                        <p rend="footnote text">Matt. 5:8.</p>
+                    </note> has a new heart, is a
+                    temple of the Holy Ghost.<note place="foot" xml:id="ftn58" n="58">
+                        <p rend="footnote text">1 Cor. 6:19.</p>
+                    </note> Now, as “that which is born
+                    of the flesh is flesh”, is altogether evil, so “that which is born of the Spirit
+                    is spirit”,<note place="foot" xml:id="ftn59" n="59">
+                        <p rend="footnote text">John
+                            3:6.</p>
+                    </note> is altogether good. Again: a man cannot be clean,
+                    sanctified, holy, and at the same time unclean, unsanctified, unholy. He cannot
+                    be pure and impure, or have a new and an old heart together. Neither can his
+                    soul be unholy while it is a temple of the Holy Ghost.’<note place="foot" xml:id="ftn60" n="60">
+                        <p rend="footnote text">This pejorative summary of
+                            Moravian teachings should be compared with Zinzendorf’s public teaching,
+                            as in <hi rend="italic">Nine Public Lectures on Important Subjects in
+                                Religion, Preached in Fetter Lane Chapel in London, 1746</hi>, ed.,
+                            G. W. Forell (Iowa City, Iowa, University of Iowa Press, 1973); see
+                            espec. Lecture IV, ‘Concerning Saving Faith’, and Lecture VII, ‘On the
+                            Essential Character and Circumstances of the Life of a Christian’.
+                            Zinzendorf’s words and Wesley’s interpretation of them leave ground for
+                            pondering: was Wesley reading Zinzendorf in the light of the antinomian
+                            views of the <hi rend="italic">English</hi> Moravians?</p>
+                    </note>
+                </p>
+                <p><!--Decide how to number paragraphs Wesley has not numbered, if at all.-->I have
+                    put this objection as strong as possible, that its full weight may appear. Let
+                    us now examine it, part by part. And (1). <pb n="326"/>‘“That which is born of
+                    the Spirit is spirit,” is altogether good.’ I allow the text, but not the
+                    comment; for the text affirms this, and no more, that every man who is ‘born of
+                    the Spirit’ is a <hi rend="italic">spiritual man</hi>. He is so. But so he may
+                    be, and yet not be <hi rend="italic">altogether</hi> spiritual.<note place="foot" xml:id="ftn61" n="61">
+                        <p rend="footnote text">An interesting
+                            inversion of Wesley’s earlier doctrine of the <hi rend="italic">radical</hi> difference between ‘almost’ and ‘altogether’
+                            Christians; cf. No. 2, <hi rend="italic">The Almost Christian</hi>,
+                            proem.</p>
+                    </note> The Christians at <hi rend="italic">Corinth</hi> were
+                        <hi rend="italic">spiritual</hi> men; else they had been no Christians at
+                    all. And yet they were not <hi rend="italic">altogether</hi> spiritual: they
+                    were still (in part) <hi rend="italic">carnal</hi>. ‘But they were fallen from
+                        grace.’<note place="foot" xml:id="ftn62" n="62">
+                        <p rend="footnote text">Cf.
+                            Gal. 5:4.</p>
+                    </note> St. Paul says, ‘No: they were even then “babes in
+                        Christ”.’<note place="foot" xml:id="ftn63" n="63">
+                        <p rend="footnote text">1
+                            Cor. 3:1.</p>
+                    </note> (2). ‘But a man cannot be clean, sanctified, holy,
+                    and at the same time unclean, unsanctified, unholy.’ Indeed he may. So the
+                    Corinthians were. ‘Ye are washed,’ says the Apostle, ‘ye are sanctified;’ namely
+                    cleansed from ‘fornication, idolatry, drunkenness’, and all other outward
+                        sin.<hi rend="endnote_reference">
+                        <note place="end">
+                            <p rend="endnote text">1
+                                Cor 6:9, 10, 11.</p>
+                        </note>
+                    </hi> And yet at the same time, in
+                    another sense of the word, they were <hi rend="italic">unsanctified</hi>: they
+                    were not <hi rend="italic">washed</hi>, not inwardly <hi rend="italic">cleansed</hi> from envy, evil surmising, partiality. ‘But sure they had not
+                    a new heart and an old heart together.’ It is most sure they had; for at that
+                    very time their hearts were <hi rend="italic">truly</hi>, yet not <hi rend="italic">entirely</hi>, renewed. Their carnal mind was nailed to the
+                    cross; yet it was not wholly destroyed. ‘But could they be <hi rend="italic">unholy</hi> while they were “temples of the Holy Ghost”?’<hi rend="endnote_reference">
+                        <note place="end">
+                            <p rend="endnote text">1 Cor.
+                                6:19.</p>
+                        </note>
+                    </hi> Yes, that they were ‘temples of the Holy
+                    Ghost’ is certain. And it is equally certain they were, in some degree, <hi rend="italic">carnal</hi>, that is, <hi rend="italic">unholy</hi>.</p>
+                <p n="2">2. ‘However, there is one Scripture more which will put the matter out of
+                    question: “If any man be (a believer) in Christ, he is a new creature. Old
+                    things are passed away; behold all things are become new.”<hi rend="endnote_reference">
+                        <note place="end">
+                            <p rend="endnote text">2 Cor.
+                                5:17.</p>
+                        </note>
+                    </hi> Now certainly a man cannot be a <hi rend="italic">new creature</hi> and an <hi rend="italic">old creature</hi>
+                    at once.’ Yes, he may: he may be <hi rend="italic">partly renewed</hi>, which
+                    was the very case with those at Corinth. They were doubtless ‘renewed in the
+                    spirit of their mind’,<note place="foot" xml:id="ftn64" n="64">
+                        <p rend="footnote text">Eph. 4:23.</p>
+                    </note> or they could not have been
+                    so much as ‘babes in Christ’.<note place="foot" xml:id="ftn65" n="65">
+                        <p rend="footnote text">1 Cor. 3:1.</p>
+                    </note> Yet they had not the whole
+                    mind which was in Christ,<note place="foot" xml:id="ftn66" n="66">
+                        <p rend="footnote text">See Phil. 2:5.</p>
+                    </note> for they <hi rend="italic">envied</hi> one another. ‘But it is said expressly, “Old
+                    things are passed away: all things <pb n="327"/>are become new.”’ But we must
+                    not so interpret the Apostle’s words as to make him contradict himself. And if
+                    we will make him consistent with himself the plain meaning of the words is this:
+                    his <hi rend="italic">old judgment</hi> (concerning justification, holiness,
+                    happiness, indeed concerning the things of God in general) is now ‘passed away’;
+                    so are his <hi rend="italic">old desires</hi>, <hi rend="italic">designs</hi>,
+                        <hi rend="italic">affections</hi>, <hi rend="italic">tempers</hi>, and <hi rend="italic">conversation</hi>. All these are undeniably ‘become new’,
+                    greatly changed from what they were. And yet, though they are <hi rend="italic">new</hi>, they are not <hi rend="italic">wholly</hi> new. Still he feels,
+                    to his sorrow and shame, remains of the ‘old man’,<note place="foot" xml:id="ftn67" n="67">
+                        <p rend="footnote text">Col. 3:9.</p>
+                    </note> too
+                    manifest taints of his former tempers and affections, a law in his members which
+                    frequently <hi rend="italic">fights</hi> against that law of his mind,<note place="foot" xml:id="ftn68" n="68">
+                        <p rend="footnote text">See Rom.
+                            7:23.</p>
+                    </note> though it cannot ‘gain any advantage’<note place="foot" xml:id="ftn69" n="69">
+                        <p rend="footnote text">2 Cor. 2:11.</p>
+                    </note> over
+                    him as long as he ‘watches unto prayer’.<note place="foot" xml:id="ftn70" n="70">
+                        <p rend="footnote text">1 Pet. 4:7.</p>
+                    </note>
+                </p>
+                <p n="3">3. This whole argument, ‘If he is clean, he is clean,’ ‘if he is holy, he
+                    is holy’ (and twenty more expressions of the same kind may easily be heaped
+                    together) is really no better than playing upon words: it is the fallacy of
+                    arguing from a <hi rend="italic">particular</hi> to a <hi rend="italic">general</hi>,<note place="foot" xml:id="ftn71" n="71">
+                        <p rend="footnote text">Yet another reminder of Wesley’s days as ‘Moderator
+                            of the Classes’ (i.e., logical disputations) at Lincoln College. He had
+                            mastered Dean Henry Aldrich’s <hi rend="italic">Artis Logicae
+                                Compendiae</hi> (1691) and, indeed, had translated it into English
+                            in 1750 for use in the Kingswood School; cf. <hi rend="italic">Bibliog</hi>, No. 186 (Vol. 15 of this edn.).</p>
+                    </note> of
+                    inferring a general conclusion from particular premises. Propose the sentence
+                    entire, and it runs thus: ‘If he is holy <hi rend="italic">at all</hi>, he is
+                    holy <hi rend="italic">altogether</hi>.’ That does not follow: every babe in
+                    Christ is holy, and yet not altogether so. He is saved from sin; yet not
+                    entirely: it <hi rend="italic">remains</hi>, though it does not <hi rend="italic">reign</hi>. If you think it does not <hi rend="italic">remain</hi> (in <hi rend="italic">babes</hi> at least, whatever be the case
+                    with <hi rend="italic">young men</hi>, or <hi rend="italic">fathers</hi>) you
+                    certainly have not considered the height and depth and length and breadth of the
+                    law of God (even the law of love laid down by St. Paul in the thirteenth of
+                    Corinthians); and that ‘every ἀνομία’, disconformity to, or deviation from this
+                    law, ‘is sin.’<note place="foot" xml:id="ftn72" n="72">
+                        <p rend="footnote text">Cf. 1 John 3:4.</p>
+                    </note> Now, is there no disconformity to this in
+                    the heart or life of a believer? What may be in an adult Christian is another
+                    question. But what a stranger must he be to human nature who can possibly
+                    imagine that this is the case with every babe in Christ!<pb n="328"/>
+                </p>
+                <p n="4">4.<hi rend="endnote_reference">
+                        <note place="end">
+                            <p rend="endnote text">What follows for some pages is an answer to a paper published in
+                                the <hi rend="italic">Christian</hi>’s [<hi rend="italic">sic</hi>]
+                                    <hi rend="italic">Magazine</hi>, pp. 577-82. I am surprised Mr.
+                                Dodd should give such a paper a place in his magazine which is
+                                directly contrary to our Ninth Article.</p>
+                            <p rend="endnote text">[William Dodd is more famous for the spectacularly tragic ending of
+                                his career (his trial and execution as a forger) than for his
+                                earlier successes as a popular Anglican preacher whose ‘eloquent and
+                                touching’ sermons ‘in the French style’ were praised by Horace
+                                Walpole (<hi rend="italic">Letters</hi>, III.282; cf. Leslie
+                                Stephens’s biography of Dodd, <hi rend="italic">DNB</hi>. Wesley had
+                                known him since 1756, and there had been a running controversy
+                                between them about Wesley’s doctrine of Christian perfection and
+                                also about Wesley’s separatist tendencies. Wesley’s account of his
+                                pastoral visits with Dr. Dodd during his last days and at his
+                                execution was published in <hi rend="italic">AM</hi>, 1783, pp.
+                                358-60 (see Vol. 14 of this edn.).</p>
+                            <p rend="endnote text">[Dodd
+                                was editor of the <hi rend="italic">Christian Magazine</hi>,
+                                1760-67, and in its <hi rend="italic">Supplement…for the Year
+                                    1762</hi> (pp. 577-82) published an article, ‘Thoughts on
+                                Christianity’, by one ‘C.’ (does this signify ‘Christian’ or,
+                                perhaps, William Cudworth?). Unsurprisingly, ‘C.’s’ arguments are
+                                more carefully nuanced than one could guess from Wesley’s excerpts,
+                                even though their essential consequence is not misrepresented by
+                                much. And his stated aims (p. 582), to undercut hypocrisy, to
+                                abolish ‘antinomianism’, and to end ‘the great contest about
+                                inherent and imputed righteousness’, were not very different from
+                                Wesley’s own, especially in his later years. What is most
+                                significant here is that when Wesley was confronted with a clear and
+                                forceful doctrine of sinless perfection, his repudiation of it was
+                                immediate and vigorous.]</p>
+                        </note>
+                    </hi> ‘But believers “walk after
+                    the Spirit”,<hi rend="endnote_reference">
+                        <note place="end">
+                            <p rend="endnote text">Rom. 8:1.</p>
+                        </note>
+                    </hi> and the Spirit of God
+                        <hi rend="italic">dwells</hi> in them. Consequently they are delivered from
+                    the guilt, the power, <hi rend="italic">or</hi>,<hi rend="italic" xml:space="preserve"> in one word</hi>, the being of
+                        sin.’<note place="foot" xml:id="ftn73" n="73">
+                        <p rend="footnote text">‘C.’s’
+                            text (p. 579): ‘…all who are united to Christ by the holy spirits [<hi rend="italic">sic</hi>] dwelling in them are delivered from the
+                            guilt, the power or, in one word, the being of sin.’</p>
+                    </note>
+                </p>
+                <p><!--Decide how to number paragraphs Wesley has not numbered, if at all.-->These
+                    are coupled together as if they were the same thing. But they are not the same
+                    thing. The <hi rend="italic">guilt</hi> is one thing, the <hi rend="italic">power</hi> another, and the <hi rend="italic">being</hi> yet another. That
+                    believers are delivered from the <hi rend="italic">guilt</hi> and <hi rend="italic">power</hi> of sin we allow; that they are delivered from the
+                        <hi rend="italic">being</hi> of it we deny. Nor does it in any wise follow
+                    from these texts. A man may have the Spirit of God <hi rend="italic">dwelling</hi> in him, and may ‘walk after the Spirit’,<note place="foot" xml:id="ftn74" n="74">
+                        <p rend="footnote text">Rom. 8:1.</p>
+                    </note> though he
+                    still feels ‘the flesh lusting against the Spirit’.<note place="foot" xml:id="ftn75" n="75">
+                        <p rend="footnote text">Cf. Gal. 5:17.</p>
+                    </note>
+                </p>
+                <p n="5">5. ‘But the “church is the body of Christ”.<hi rend="endnote_reference">
+                        <note place="end">
+                            <p rend="endnote text">Col. 1:24.</p>
+                        </note>
+                    </hi>
+                    This implies that its members are washed from all filthiness; otherwise it will
+                    follow that Christ and Belial are incorporated with each other.’<note place="foot" xml:id="ftn76" n="76">
+                        <p rend="footnote text">‘C’s’ text: ‘From
+                            the church being called “the body of Christ” (Col. 1:24), which
+                            undoubtedly implies that all the members of it are washed from all
+                            filthiness, or else that blasphemous consequence would follow, <hi rend="italic">viz.</hi>, Christ and Belial are not only connected
+                            but in some sense incorporated with each other.’</p>
+                    </note>
+                </p>
+                <p><!--Decide how to number paragraphs Wesley has not numbered, if at all.-->Nay, it
+                    will not follow from hence—‘Those who are the mystical body of Christ still feel
+                    the flesh lusting against the <pb n="329"/>Spirit’—that Christ has any
+                    fellowship with the devil, or with that sin which he enables them to resist and
+                    overcome.</p>
+                <p n="6">6. ‘But are not Christians “come to the heavenly Jerusalem”, where “nothing
+                    defiled can enter”?’<note place="foot" xml:id="ftn77" n="77">
+                        <p rend="footnote text">Cf. Rev. 21:27. ‘C.’s’ text: ‘It seems by the
+                            heavenly Jerusalem here we are to understand the Gospel church [i.e., on
+                            earth]…since it is said (Hebrews 12:22) that the kings of the earth
+                            shall bring their glory into this city, which cannot with propriety be
+                            said of the church triumphant, they having there no more glory than the
+                            meanest subject.’</p>
+                    </note> Yes; ‘and to an innumerable company of
+                    angels’, ‘and to the spirits of just men made perfect’:<hi rend="endnote_reference">
+                        <note place="end">
+                            <p rend="endnote text">Heb.
+                                12:22-23.</p>
+                        </note>
+                    </hi> that is,</p>
+                <lg>
+                    <l>Earth and heaven all agree,</l>
+                    <l>All his one great family.<note place="foot" xml:id="ftn78" n="78">
+                            <p rend="footnote text">Cf. ‘The Communion of Saints, Pt. VI’, st. 1,
+                                last quatrain, in <hi rend="italic">Hymns and Sacred Poems</hi>
+                                (1740), p. 198 (<hi rend="italic">Poet. Wks.</hi>, I.364).
+                                Orig.:</p>
+                        </note>
+                    </l>
+                    <l>Him let earth and heaven proclaim,</l>
+                    <l>Earth and heaven accord his name,</l>
+                    <l>Let us both in this agree,</l>
+                    <l>Both his one great family.</l>
+                </lg>
+                <p rend="footnote text">For quotations of other lines from this hymn, cf. Nos. 107,
+                    ‘On God’s Vineyard’, II.6; and 132, ‘On Faith, Heb. 11:1’, §6.</p>
+                <p>And they are likewise holy and <hi rend="italic">undefiled</hi> while they ‘walk
+                    after the Spirit’;<note place="foot" xml:id="ftn79" n="79">
+                        <p rend="footnote text">Rom. 8:1.</p>
+                    </note> although sensible there is
+                    another principle in them, and that ‘these are contrary to each other’.<note place="foot" xml:id="ftn80" n="80">
+                        <p rend="footnote text">Gal.
+                        5:17.</p>
+                    </note>
+                </p>
+                <p n="7">7. ‘But Christians are “reconciled to God”.<note place="foot" xml:id="ftn81" n="81">
+                        <p rend="footnote text">Rom. 5:10; 2 Cor.
+                        5:20.</p>
+                    </note> Now this could not be if any of the “carnal mind”<note place="foot" xml:id="ftn82" n="82">
+                        <p rend="footnote text">Rom.
+                        8:7.</p>
+                    </note> remained; for this “is enmity against God”. Consequently no
+                    reconciliation can be effected but by its total destruction.’</p>
+                <p><!--Decide how to number paragraphs Wesley has not numbered, if at all.-->We ‘are
+                    reconciled to God through the blood of the cross’.<note place="foot" xml:id="ftn83" n="83">
+                        <p rend="footnote text">Cf. Col. 1:20.</p>
+                    </note> And
+                    in that moment, the φρόνημα σαρκός,<note place="foot" xml:id="ftn84" n="84">
+                        <p rend="footnote text">Rom. 8:7; cf. I.3 above and n.</p>
+                    </note> the
+                    corruption of nature which is ‘enmity with God’,<note place="foot" xml:id="ftn85" n="85">
+                        <p rend="footnote text">Jas. 4:4.</p>
+                    </note> is put
+                    under our feet. The flesh has ‘no more dominion over us’.<note place="foot" xml:id="ftn86" n="86">
+                        <p rend="footnote text">Cf. Rom 6:9.</p>
+                    </note> But it
+                    still <hi rend="italic">exists</hi>; and it is still in its nature enmity with
+                    God, lusting against his Spirit.</p>
+                <p n="8">8. ‘But “they that are Christ’s have crucified the flesh, with its
+                    affections and lusts.”’<hi rend="endnote_reference">
+                        <note place="end">
+                            <p rend="endnote text">Gal. 5:24.</p>
+                        </note>
+                    </hi> They have so; yet it
+                    remains in them still, and often struggles to break from the cross. ‘Nay, but
+                    they have <pb n="330"/>“put off the old man with his deeds.”’<hi rend="endnote_reference">
+                        <note place="end">
+                            <p rend="endnote text">Col.
+                                3:9.</p>
+                        </note>
+                    </hi> They have; and in the sense above-described,
+                    ‘old things are passed away; all things are become new.’<note place="foot" xml:id="ftn87" n="87">
+                        <p rend="footnote text">2 Cor. 5:17.</p>
+                    </note> An
+                    hundred texts may be cited to the same effect. And they will all admit of the
+                    same answer. ‘But, to say all in one word, “Christ gave himself for the church,
+                    that…it might be holy and without blemish.”’<hi rend="endnote_reference">
+                        <note place="end">
+                            <p rend="endnote text">Eph. 5:25, 27.</p>
+                        </note>
+                    </hi> And so
+                    it will be in the end: but it never was yet, from the beginning to this day.</p>
+                <p n="9">9. ‘But let <hi rend="italic">experience</hi> speak: all who are justified
+                    do at that time find an absolute freedom from all sin.’<note place="foot" xml:id="ftn88" n="88">
+                        <p rend="footnote text">‘C.’s’ text (p. 581): ‘nine
+                            out of ten, at least’.</p>
+                    </note> That I doubt; but if they do, do they
+                    find it ever after? Else you gain nothing. ‘If they do not, it is their own
+                    fault.’ That remains to be proved.</p>
+                <p n="10">10. ‘But, in the very nature of things, can a man have pride in him, and
+                    not be proud? Anger, and yet not be angry?’<note place="foot" xml:id="ftn89" n="89">
+                        <p rend="footnote text">‘C.’s’ text: ‘Suppose anyone should assert
+                            that a man may have anger in him, yet not be angry; pride in him, yet
+                            not be proud; the love of the world in him, yet not love the world; what
+                            should we think of such an one’s understanding?’</p>
+                    </note>
+                </p>
+                <p><!--Decide how to number paragraphs Wesley has not numbered, if at all.-->A man
+                    may have <hi rend="italic">pride</hi> in him, may think of himself in <hi rend="italic">some particulars</hi> above what he ought to think (and so be
+                        <hi rend="italic">proud</hi> in that particular) and yet not be a proud man
+                    in his <hi rend="italic">general</hi> character. He may have <hi rend="italic">anger</hi> in him, yea, and a strong propensity to furious anger, without
+                        <hi rend="italic">giving way</hi> to it. ‘But can anger and pride be in that
+                    heart where <hi rend="italic">only</hi> meekness and humility are felt?’ No; but
+                        <hi rend="italic">some</hi> pride and anger may be in that heart where there
+                    is <hi rend="italic">much</hi> humility and meekness.</p>
+                <p><!--Decide how to number paragraphs Wesley has not numbered, if at all.-->‘It
+                    avails not to say these tempers <hi rend="italic">are</hi> there, but they do
+                    not <hi rend="italic">reign</hi>; for sin cannot in any kind or degree <hi rend="italic">exist</hi> where it does not <hi rend="italic">reign</hi>; for
+                        <hi rend="italic">guilt</hi> and <hi rend="italic">power</hi> are essential
+                    properties of sin. Therefore where one of them is, all must be.’<note place="foot" xml:id="ftn90" n="90">
+                        <p rend="footnote text">‘C.’s’ text (pp.
+                            581-82): ‘It will not mend the matter at all to say, “these tempers <hi rend="italic">are</hi> there but they do not <hi rend="italic">reign</hi>…”. [This] implies a contradiction, for it is an
+                            infallible axiom that sin cannot, in any kind or degree, <hi rend="italic">exist</hi> where it does not <hi rend="italic">reign</hi>, no more than fire can live where it does not burn.
+                            Guilt and power being essential properties of sin, it follows that where
+                            one of them is they all necessarily must be, and where anyone is
+                            wanting, none of them can be there; for to separate these is to separate
+                            a thing from itself.’ ‘C.’s’ contention here is that conscious and
+                            unconscious sinful tempers cannot be dichotomized; on the other hand,
+                            such a dichotomy is one of Wesley’s crucial
+                    presuppositions.</p>
+                    </note>
+                </p>
+                <p><!--Decide how to number paragraphs Wesley has not numbered, if at all.-->Strange
+                    indeed! ‘Sin cannot in any kind or degree <hi rend="italic">exist</hi> where it
+                        <pb n="331"/>does not <hi rend="italic">reign’</hi>? Absolutely contrary
+                    this to all experience, all Scripture, all common sense. Resentment of an
+                    affront is sin. It is ἀνομία, disconformity to the law of love.<note place="foot" xml:id="ftn91" n="91">
+                        <p rend="footnote text">See IV.3
+                            above.</p>
+                    </note> This has existed in me a thousand times. Yet it did
+                    not, and does not, <hi rend="italic">reign</hi>. But ‘<hi rend="italic">guilt</hi> and <hi rend="italic">power</hi> are essential properties of
+                    sin; therefore where one is, all must be.’ No; in the instance before us, if the
+                    resentment I feel is not yielded to, even for a moment, there is no <hi rend="italic">guilt</hi> at all, no condemnation from God upon that account.
+                    And in this case it has no <hi rend="italic">power</hi>: though it ‘lusteth
+                    against the Spirit’<note place="foot" xml:id="ftn92" n="92">
+                        <p rend="footnote text">Gal. 5:17.</p>
+                    </note> it cannot prevail. Here,
+                    therefore, as in ten thousand instances, there is <hi rend="italic">sin</hi>
+                    without either <hi rend="italic">guilt</hi> or <hi rend="italic">power</hi>.</p>
+                <p n="11">11. ‘But the supposing sin in a believer is pregnant with everything
+                    frightful and discouraging. It implies the contending with a power that has the
+                    possession of our strength, maintains his usurpation of our hearts, and there
+                    prosecutes the war in defiance of our Redeemer.’ Not so. The supposing sin is
+                        <hi rend="italic">in</hi> us does not imply that it has the possession of
+                    our strength; no more than a man crucified has the possession of those that
+                    crucify him. As little does it imply that sin ‘maintains its usurpation of our
+                    hearts’. The usurper is dethroned. He <hi rend="italic">remains</hi> indeed
+                    where he once reigned; but remains <hi rend="italic">in chains</hi>. So that he
+                    does in some sense ‘prosecute the war’, yet he grows weaker and weaker, while
+                    the believer goes on from strength to strength, conquering and to conquer.</p>
+                <p n="12">12. ‘I am not satisfied yet. He that has sin in him is a slave to sin.
+                    Therefore you suppose a man to be justified while he is a slave to sin. Now if
+                    you allow men may be justified while they have pride, anger, or unbelief in
+                    them—nay if you aver these are (at least for a time) in all that are
+                    justified—what wonder that we have so many proud, angry, unbelieving
+                        believers!’<note place="foot" xml:id="ftn93" n="93">
+                        <p rend="footnote text">‘C.’s’ text: ‘Is it to be wondered at if those who are prepossessed
+                            with such apprehensions should either decline the Christian warfare or
+                            faint in the day of battles; either not prepare to stand in the evil day
+                            or, having done so, not be able to stand?’ Is Wesley’s quotation here a
+                            very free paraphrase of his own, or is he quoting yet another source?
+                            The same question may be asked of the remaining quotations, since none
+                            of them appears verbatim in ‘C.’s’ text.</p>
+                    </note>
+                </p>
+                <p><!--Decide how to number paragraphs Wesley has not numbered, if at all.-->I do
+                    not suppose any man who is justified is a slave to sin. Yet I do suppose sin
+                    remains (at least for a time) in all that are justified. ‘But if sin remains in
+                    a believer he is a sinful man: if pride, for instance, then he is proud; if
+                    self-will, then he is self-willed; if unbelief, then he is an
+                    unbeliever—consequently, no believer at <pb n="332"/>all. How then does he
+                    differ from unbelievers, from unregenerate men?’</p>
+                <p><!--Decide how to number paragraphs Wesley has not numbered, if at all.-->This is
+                    still mere playing upon words. It means no more than, ‘If there is sin, pride,
+                    self-will in him, then—there is sin, pride, self-will.’ And this nobody can
+                    deny. In <hi rend="italic">that sense</hi>, then, he is proud or self-willed.
+                    But he is not proud or self-willed in the same sense that unbelievers are, that
+                    is, <hi rend="italic">governed</hi> by pride or self-will. Herein he differs
+                    from unregenerate men. They <hi rend="italic">obey</hi> sin; he does not. Flesh
+                    is in them both. But they ‘walk after the flesh’; he ‘walks after the
+                    Spirit’.</p>
+                <p><!--Decide how to number paragraphs Wesley has not numbered, if at all.-->‘But
+                    how can <hi rend="italic">unbelief</hi> be in a <hi rend="italic">believer</hi>?’ That word has two meanings. It means either <hi rend="italic">no faith</hi>, or <hi rend="italic">little faith</hi>; either the <hi rend="italic">absence</hi> of faith, or the <hi rend="italic">weakness</hi>
+                    of it. In the former sense, unbelief is not in a believer; in the latter, it is
+                    in all babes. Their faith is commonly mixed with doubt or fear, that is (in the
+                    latter sense) with unbelief. ‘Why are ye fearful,’ says our Lord, ‘O ye of
+                    little faith?’<note place="foot" xml:id="ftn94" n="94">
+                        <p rend="footnote text">Matt. 8:26.</p>
+                    </note> Again, ‘O thou of little faith, wherefore didst
+                    thou doubt?’<note place="foot" xml:id="ftn95" n="95">
+                        <p rend="footnote text">Matt. 14:31.</p>
+                    </note> You see, here was <hi rend="italic">unbelief</hi> in <hi rend="italic">believers</hi>: little faith and much
+                        unbelief.<note place="foot" xml:id="ftn96" n="96">
+                        <p rend="footnote text">Cf. this defence of gradations [degrees] of faith (and the validity of
+                            even a low degree of it) with No. 2, <hi rend="italic">The Almost
+                                Christian</hi> and with Wesley’s earlier either/or doctrine of
+                            assurance. Cf. also JWJ, May 29, June 6, 1738; the <hi rend="italic">Minutes</hi>, Aug. 2, 1745 (answer to <hi rend="italic">Q.</hi> 5)
+                            and June 16, 1747 (answer to <hi rend="italic">Q.</hi>2, 5); and his
+                            letters to Richard Tompson, July 25, 1755, and Feb. 5,
+                    1756.</p>
+                    </note>
+                </p>
+                <p n="13">13. ‘But this doctrine—that sin remains in a believer, that a man may be
+                    in the favour of God while he has sin in his heart—certainly tends to encourage
+                    men in sin.’ Understand the proposition right, and no such consequence follows.
+                    A man may be in God’s favour though he <hi rend="italic">feel</hi> sin; but not
+                    if he <hi rend="italic">yields</hi> to it. <hi rend="italic">Having sin</hi>
+                    does not forfeit the favour of God; <hi rend="italic">giving way to sin</hi>
+                    does. Though the flesh in <hi rend="italic">you</hi> ‘lust against the Spirit’,
+                    you may still be a child of God. But if you ‘walk after the flesh’, you are a
+                    child of the devil. Now, this doctrine does not encourage to <hi rend="italic">obey</hi> sin, but to <hi rend="italic">resist</hi> it with all our
+                    might.</p>
+            </div>
+            <div type="section" n="5">
+                <p n="1">V. 1. The sum of all is this: there are in every person, even after he is
+                    justified, two contrary principles, nature and grace, termed by St. Paul the
+                    ‘flesh’ and the ‘spirit’. Hence although even babes in Christ are <hi rend="italic">sanctified</hi>, yet it is only <hi rend="italic">in
+                    part</hi>. In a degree, according to the measure of their faith, they are <hi rend="italic">spiritual</hi>; yet in a degree they are <hi rend="italic">carnal</hi>. Accordingly, believers are continually exhorted to <pb n="333"/>watch against the flesh, as well as the world and the devil.<note place="foot" xml:id="ftn97" n="97">
+                        <p rend="footnote text">BCP, Litany.</p>
+                    </note> And to
+                    this agrees the constant experience of the children of God. While they feel this
+                    witness in themselves they feel a will not wholly resigned to the will of God.
+                    They know they are in him, and yet find an heart ready to depart from him, a
+                    proneness to evil in many instances, and a backwardness to that which is good.
+                    The contrary doctrine is wholly <hi rend="italic">new</hi>; never heard of in
+                    the church of Christ from the time of his coming into the world till the time of
+                    Count Zinzendorf.<note place="foot" xml:id="ftn98" n="98">
+                        <p rend="footnote text">See above, I.5 and n., and III.9 and n.</p>
+                    </note>
+                    And it is attended with the most fatal consequences. It cuts off all watching
+                    against our evil nature, against the Delilah which we are told is gone, though
+                    she is still lying in our bosom.<note place="foot" xml:id="ftn99" n="99">
+                        <p rend="footnote text">Judg. 16. Cf. also Matthew Mead, <hi rend="italic">The Almost Christian Discovered</hi>, p. 107: ‘There is a natural
+                            man, let him go never so far, let him go never so much in matters of
+                            religion, but still he hath his Delilah, his bosom lust.’ For Wesley’s
+                            use of ‘bosom sin’, cf. No. 48, ‘Self-denial’, II.2 and n.</p>
+                    </note> It
+                    tears away the shield of weak believers, deprives them of their faith,<note place="foot" xml:id="ftn100" n="100">
+                        <p rend="footnote text">Cf. Eph.
+                            6:16.</p>
+                    </note> and so leaves them exposed to all the assaults of the
+                    world, the flesh, and the devil.</p>
+                <p n="2">2. Let us therefore hold fast the sound doctrine ‘once delivered to the
+                        saints’,<note place="foot" xml:id="ftn101" n="101">
+                        <p rend="footnote text">Jude 3.</p>
+                    </note> and delivered down by them with the written word to
+                    all succeeding generations: that although we are renewed, cleansed, purified,
+                    sanctified, the moment we truly believe in Christ, yet we are not then renewed,
+                    cleansed, purified altogether; but the flesh, the evil nature, still remains
+                    (though subdued) and wars against the Spirit<note place="foot" xml:id="ftn102" n="102">
+                        <p rend="footnote text">As explicit a version of the ‘saved and yet
+                            also a sinner at one and the same time’ as one might ask for. This
+                            should be compared to other passages where Wesley himself comes closer
+                            to claiming for Christians ‘the power not to sin’ or, indeed, close
+                            enough to a doctrine of sinless perfection as to allow for its
+                            development in some of his nineteenth-century followers, in his name.
+                            Cf. Nos. 14, <hi rend="italic">The Repentance of Believers</hi>, I.20,
+                            III.2; 40, <hi rend="italic">Christian Perfection</hi>, II.1-30; 42,
+                            ‘Satan’s Devices’, I.1; and see 109, <hi rend="italic">The Trouble and
+                                Rest of Good Men</hi>, II.4 (which stands almost in contrast on this
+                            point to the sermon on <hi rend="italic">Christian Perfection</hi>). Cf.
+                            also <hi rend="italic">A Plain Account of Christian Perfection</hi>; <hi rend="italic">The Principles of a Methodist</hi>, §§11-12; and <hi rend="italic">Some Remarks on a Defence of…Aspasio Vindicated</hi>,
+                            §4. Wesley’s prefaces to the earliest editions of the <hi rend="italic">Hymns and Sacred Poems</hi> contain some of the strongest, least
+                            nuanced statements of perfection in the Wesley corpus; without the
+                            phrase itself, they come close to advocating ‘sinless perfection’ (see
+                                <hi rend="italic">Bibliog</hi>, Nos. 13, 40, 54, and the text in
+                            Vol. 12 of this edn.). Cf. also his letter to Revd. Mr. Plenderlieth,
+                            May 23, 1768, and to Thomas Olivers, Mar. 24, 1757.</p>
+                    </note> So much
+                    the more let us use all diligence in ‘fighting the good fight of faith’.<note place="foot" xml:id="ftn103" n="103">
+                        <p rend="footnote text">Cf. 1 Tim.
+                            6:12.</p>
+                    </note> So much the <pb n="334"/>more earnestly let us ‘watch
+                    and pray’<note place="foot" xml:id="ftn104" n="104">
+                        <p rend="footnote text">Matt. 26:41; Mark 13:33.</p>
+                    </note> against the enemy within. The more
+                    carefully let us ‘take to’ ourselves and ‘put on the whole armour of God’; that
+                    although ‘we wrestle’ both with ‘flesh and blood, and with principalities and
+                    powers, and wicked spirits in high places, we may be able to withstand in the
+                    evil day, and having done all, to stand’.<note place="foot" xml:id="ftn105" n="105">
+                        <p rend="footnote text">Cf. Eph. 6:11-13.</p>
+                    </note>
+                </p>
+            </div>
+        </body>
+    </text>
+</TEI>

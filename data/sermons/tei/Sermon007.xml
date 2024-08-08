@@ -1,0 +1,981 @@
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Sermon 7: The Way to the Kingdom</title>
+                <author>Wesley, John</author>
+                <editor role="text">Van Buskirk, Gregory P.</editor>
+                <editor role="digital">Taylor, Michelle M.</editor>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>The Wesley Works Digitzation Project</publisher>
+                <pubPlace>Tampa, FL</pubPlace>
+                <date>2024-02-24</date>
+             <idno type="URI">https://wesleyworks.ecdsdev.org/sermons/Sermon007</idno>                  
+            </publicationStmt>
+            <sourceDesc>
+                <listBibl>
+                    <biblStruct>
+                        <analytic>
+                            <title level="a">Sermon 7: The Way to the Kingdom</title>
+                        </analytic>
+                        <monogr>
+                            <title level="j">The Works of John Wesley, Volume I: Sermons I,
+                                1-33</title>
+                            <editor role="volume">Outler, Albert</editor>
+                            <imprint>
+                                <publisher>Abingdon Press</publisher>
+                                <pubPlace>Nashville, TN</pubPlace>
+                                <date when="2015-05-01">1984-05-01</date>
+                                <biblScope unit="volume" n="1"/>
+                                <biblScope unit="page" from="217" to="232"/>
+                            </imprint>
+                        </monogr>
+                        <series>
+                            <title level="s">The Works of John Wesley</title>
+                            <editor role="general">Baker, Frank</editor>
+                        </series>
+                    </biblStruct>
+                </listBibl>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Greg Van Buskirk created Word docs for all of Wesley's sermons using a combination of
+                OCR software and manual proofing. Michelle Taylor converted these docx into XML
+                using Oxygen's DITA automatic transformation scenario, then touched them up
+                manually.</p>
+        </encodingDesc>
+        <standOff>
+            <taxonomy>
+                <keywords>
+                    <term/>
+                </keywords>
+            </taxonomy>
+            <!--Include keywords and terms here eventually.-->
+        </standOff>
+        <revisionDesc/>
+    </teiHeader>
+    <text>
+        <body>
+            <p>
+                <pb n="217"/>
+            </p>
+            <introduction>
+                <!--Confirm introduction is the element I want to use here, especially given that I
+                    use it as an attribute for Wesley's introductory paragraphs as well.-->
+                <head>
+                    <hi rend="italic">An Introductory Comment</hi>
+                </head>
+                <p>This sermon has a double text. The second one (Rom. 14:17) is invoked informally
+                    in I.1, and reminds us of Wesley’s first ‘tombstone sermon’ at Epworth, June 6,
+                    1742, which was never published but probably has its residues here (cf.
+                    JWJ):</p>
+                <quote>After [the rector’s] sermon [against ‘enthusiasm’] John Taylor stood in the
+                    churchyard, and gave notice as the people were coming out, ‘Mr. Wesley, not
+                    being permitted to preach in the church, designs to preach here at six
+                    o’clock.’</quote>
+                <quote>Accordingly at six I came, and found such a congregation as I believe Epworth
+                    never saw before. I stood near the east end of the church, upon my father’s
+                    tombstone, and cried, ‘The Kingdom of heaven is not meats and drinks, but
+                    righteousness, and peace, and joy in the Holy Ghost.’</quote>
+                <p>Wesley records having preached from Rom. 14:17 seventeen times in the half-decade
+                    of 1739-43, and only twelve times thereafter (the last in 1791).</p>
+                <p>The formal text here is Mark 1:15, a favourite of Wesley’s in his oral preaching
+                    (he records having used it one hundred and ninety times in the forty-eight-year
+                    span, 1742-90). The result, however, is a single sermon with an integrated,
+                    cumulative argument that progresses from a negative comment on what true
+                    religion is not (<hi rend="italic">viz.</hi>, correct praxis and doctrine) to a
+                    positive definition of it (<hi rend="italic">viz.</hi>, love of God and
+                    neighbour, both as empowered by grace). These lead into an exhortation to
+                    repentance and belief which includes another summary statement about repentance
+                    as true self-knowledge and authentic contrition (as in No. 6, ‘The Righteousness
+                    of Faith’, II.6). Belief is never ‘bare assent’ but rather an assenting trust
+                    whose first-fruits are reconciliation and peace. All this points to the
+                    conclusion: a celebration of Christian joy ‘in the Holy Ghost’.</p>
+                <p>It is worth comparing this sermon with Wesley’s later published sermon on the
+                    same text (No. 14, <hi rend="italic">The Repentance of Believers</hi>). The
+                    latter makes the rather different point that becomes important once the sola
+                    fide has been accepted (especially if also misconstrued), <hi rend="italic">viz.</hi>, that the Christian’s progress in sanctification does not
+                    preclude repentance. Indeed, since repentance means self-knowledge, the farther
+                    Christians are along their way to sanctification, the more sensitive they are to
+                    their shortfalls in faith, hope, and love.</p>
+            </introduction>
+            <p>
+                <pb n="218"/>
+            </p>
+            <head>The Way to the Kingdom</head>
+            <epigraph>
+                <p>Mark 1:15</p>
+                <p>
+                    <hi rend="italic">The kingdom of God is at hand: repent ye, and believe the
+                        gospel.</hi>
+                </p>
+            </epigraph>
+            <div type="introduction">
+                <p>These words naturally lead us to consider, first, the nature of true religion,
+                    here termed by our Lord ‘the kingdom of God’, which, saith he, ‘is at hand’; and
+                    secondly, the way thereto, which he points out in those words, ‘Repent ye, and
+                    believe the gospel.’</p>
+            </div>
+            <div type="section">
+                <p n="1">I. 1. We are, first, to consider the nature of true religion, here termed
+                    by our Lord ‘the kingdom of God’. The same expression the great Apostle uses in
+                    his Epistle to the Romans, where he likewise explains his Lord’s words, saying,
+                    ‘The kingdom of God is not meat and drink; but righteousness, and peace, and joy
+                    in the Holy Ghost.’<hi rend="endnote_reference">
+                        <note place="end">
+                            <p rend="endnote text">Rom. 14:17 [cf. 2 Tim. 2:22; Heb.
+                            12:11].</p>
+                        </note>
+                    </hi>
+                </p>
+                <p n="2">2. ‘The kingdom of God’, or true religion, ‘is not meat and drink.’ It is
+                    well known that not only the unconverted Jews, but great numbers of those who
+                    had received the faith of Christ, were notwithstanding ‘zealous of the law’,<hi rend="endnote_reference">
+                        <note place="end">
+                            <p rend="endnote text">Acts
+                                21:20.</p>
+                        </note>
+                    </hi> even the ceremonial law of Moses. Whatsoever
+                    therefore they found written therein, either concerning meat and drink
+                    offerings, or the distinction between clean and unclean meats, they not only
+                    observed themselves, but vehemently pressed the same even on those ‘among the
+                    Gentiles’ (or heathens) ‘who were turned to God’.<note place="foot" xml:id="ftn1" n="1">
+                        <p rend="footnote text">Cf. Acts 15:19.</p>
+                    </note> Yea,
+                    to such a degree that some of them taught, wheresoever they came among them,
+                    ‘Except ye be circumcised, and keep the law’ (the whole ritual law), ‘ye cannot
+                    be saved.’<hi rend="endnote_reference">
+                        <note place="end">
+                            <p rend="endnote text">Acts 15:1, 24.</p>
+                        </note>
+                    </hi>
+                </p>
+                <p n="3">3. In opposition to these the Apostle declares, both here and in many other
+                    places, that true religion does not consist in <hi rend="italic">meat</hi> and
+                        <hi rend="italic">drink</hi>, or in any ritual observances; nor indeed in
+                    any outward thing whatever, in anything exterior to the heart; the whole <pb n="219"/>substance thereof lying in ‘righteousness, peace, and joy in the
+                    Holy Ghost’.</p>
+                <p n="4">4. Not in any <hi rend="italic">outward thing</hi>, such as <hi rend="italic">forms</hi> or <hi rend="italic">ceremonies</hi>, even of the
+                    most excellent kind. Supposing these to be ever so decent and significant, ever
+                    so expressive of inward things; supposing them ever so helpful, not only to the
+                    vulgar, whose thought reaches little farther than their sight, but even to men
+                    of understanding, men of strong capacities, as doubtless they may sometimes be;
+                    yea, supposing them, as in the case of the Jews, to be appointed by God himself;
+                    yet even during the period of time wherein that appointment remains in force,
+                    true religion does not principally consist therein—nay, strictly speaking, not
+                    at all. How much more must this hold concerning such rites and forms as are only
+                    of human appointment! The religion of Christ rises infinitely higher and lies
+                    immensely deeper than all these. These are good in their place; just so far as
+                    they are in fact subservient to true religion.<note place="foot" xml:id="ftn2" n="2">
+                        <p rend="footnote text">That Wesley himself did not dispense with
+                            symbols and ceremonials would appear from his insistence on wearing his
+                            gown and cassock both for his field preaching and in his meetings with
+                            the societies; see JWJ, Sept. 9, 1743. His exhortations to ‘use all the
+                            means of grace’ were turned into the third of his <hi rend="italic">General Rules</hi> for all Methodists. This is a reflection of his
+                            firm distinction between vestments and ceremonies being used, and their
+                            being relied on; cf. George Whitefield, <hi rend="italic">A Short
+                                Account of God’s Dealings with the Reverend Mr. Whitefield</hi>
+                            (London, Strahan, 1740), p. 44. It was also a sign of Wesley’s quiet
+                            negation of the famous Puritan rejection of vestments, prelacy, and the
+                            BCP as ‘popish remnants’. Thus, he could deny all <hi rend="italic">intrinsic</hi> value to any external sign and still avoid any
+                            radical iconoclasm.</p>
+                    </note> And it were superstition to object
+                    against them while they are applied only as occasional helps to human weakness.
+                    But let no man carry them farther. Let no man dream that they have any intrinsic
+                    worth; or that religion cannot subsist without them. This were to make them an
+                    abomination to the Lord.<note place="foot" xml:id="ftn3" n="3">
+                        <p rend="footnote text">Deut. 7:25, etc.</p>
+                    </note>
+                </p>
+                <p n="5">5. The nature of religion is so far from consisting in these, in forms of
+                    worship, or rites and ceremonies, that it does not properly consist in any
+                    outward actions of what kind so ever.<note place="foot" xml:id="ftn4" n="4">
+                        <p rend="footnote text">A parallel rejection of moralism, on the one hand,
+                            and of antinomianism, on the other.</p>
+                    </note> It is true a man cannot
+                    have any religion who is guilty of vicious, immoral actions; or who does to
+                    others what he would not they should do to him if he were in the same
+                    circumstance. And it is also true that he can have no real religion who ‘knows
+                    to do good, and doth it not’.<note place="foot" xml:id="ftn5" n="5">
+                        <p rend="footnote text">Cf. Jas. 4:17.</p>
+                    </note> Yet may a man both
+                    abstain from outward evil, and do good, and still have no religion. Yea, two
+                    persons may do <pb n="220"/>the same outward work—suppose, feeding the hungry,
+                    or clothing the naked—and in the meantime one of these may be truly religious
+                    and the other have no religion at all; for the one may act from the love of God,
+                    and the other from the love of praise. So manifest it is that although true
+                    religion naturally leads to every good word and work, yet the real nature
+                    thereof lies deeper still, even in ‘the hidden man of the heart’.<note place="foot" xml:id="ftn6" n="6">
+                        <p rend="footnote text">1 Pet.
+                        3:4.</p>
+                    </note>
+                </p>
+                <p n="6">6. I say of the <hi rend="italic">heart</hi>. For neither does religion
+                    consist in <hi rend="italic">orthodoxy</hi> or <hi rend="italic">right
+                        opinions</hi>;<note place="foot" xml:id="ftn7" n="7">
+                        <p rend="footnote text">Wesley’s attitudes toward ‘orthodoxy’ and ‘heresy’ were complex. Here,
+                            his thesis is that orthodoxy—like ceremonialism and moralism—is not of
+                            the essence of true religion, and he belabours the point that the devil
+                            is more orthodox than the soundest Christian theologian. This is a
+                            favourite point with him, as in Nos. 33, ‘Sermon on the Mount, XIII’,
+                            III.1; 62, ‘The End of Christ’s Coming’, III.5; 120, ‘The Unity of the
+                            Divine Being’, §15; 127, ‘On the Wedding Garment’, §15. Cf. also
+                            Wesley’s <hi rend="italic">Plain Account of the People called
+                                Methodists</hi>, I.2; and his letters to James Clark, July 3 and
+                            Sept. 18, 1756; Bishop Warburton, Nov. 26, 1762; and John Erskine, Apr.
+                            24, 1765. Cf. also <hi rend="italic">Some Remarks on a Defence
+                                of…Aspasio Vindicated</hi> (<hi rend="italic">Bibliog</hi>, No. 296,
+                            Vol. 13 of this edn.) See also Glanvill, <hi rend="italic">Defence of
+                                Preaching</hi>, p. 83; and Norris, <hi rend="italic">Miscellanies</hi>, pp. 173-202.</p>
+                        <p rend="footnote text">To these
+                            may be added his slogan for theological pluralism (‘to think and let
+                            think’): cf. Nos. 20, <hi rend="italic">The Lord Our Righteousness</hi>,
+                            II.20; 37, ‘The Nature of Enthusiasm’, §36; 38, ‘A Caution against
+                            Bigotry’, II.3; 39, ‘Catholic Spirit’ (entire); 53, <hi rend="italic">On
+                                the Death of George Whitefield</hi>, III.1; 55, <hi rend="italic">On
+                                the Trinity</hi>, §2; 74, ‘Of the Church’, §19; 127, ‘On the Wedding
+                            Garment’, §14; 130, ‘On Living without God’, §15. See also JWJ, May 29,
+                            1745; Dec. 3, 1776; Oct. 3, 1783; and Wesley’s letters to Miss March,
+                            Mar. 29, 1760; Dr. Warburton, Nov. 26, 1762; Henry Venn, June 22, 1763;
+                            John Newton, Apr. 9,1765; Philothea Briggs, June 20, 1772; Thomas Wride,
+                            Mar. 9, 1780; Joseph Benson, May 21, 1781; Mr. Howton, Oct. 3, 1783; Dr.
+                            Tomline, Mar. 1790. See also <hi rend="italic">The Character of a
+                                Methodist</hi>, §1; and <hi rend="italic">Some Observations on
+                                Liberty</hi>, §1 (<hi rend="italic">Bibliog</hi>, No. 360, Vol. 15
+                            of this edn.).</p>
+                        <p rend="footnote text">To conclude from all this,
+                            however, that Wesley was indifferent to the issues involved in sound
+                            doctrine is to misunderstand him. He had a clear view of heresy as
+                            deviation from the core of ‘standing revelation’; and had no hesitation
+                            in denouncing views that threatened this core. See his <hi rend="italic">Doctrine of Original Sin</hi>, III.i, vii; IV. iv (‘First Essay’).
+                            If Methodism may rightly be charged with theological indifferentism,
+                            this has no valid grounds in Wesley himself.</p>
+                    </note> which, although
+                    they are not properly outward things, are not in the heart, but the
+                    understanding. A man may be orthodox in every point; he may not only espouse
+                    right opinions, but zealously defend them against all opposers; he may think
+                    justly concerning the incarnation of our Lord, concerning the ever blessed
+                    Trinity, and every other doctrine contained in the oracles of God.<note place="foot" xml:id="ftn8" n="8">
+                        <p rend="footnote text">Cf. No. 5,
+                            ‘Justification by Faith’, §2 and n.</p>
+                    </note> He may assent to all the
+                    three creeds—that called the Apostles’, the Nicene, and the Athanasian—and yet
+                    ’tis possible he may have no religion at all, no more than a Jew, Turk, or
+                    pagan. He may be almost as orthodox as the devil (though indeed not altogether;
+                    for every man errs in <pb n="221"/>something, whereas we can’t well conceive
+                        him<note place="foot" xml:id="ftn9" n="9">
+                        <p rend="footnote text">I.e., the
+                            devil.</p>
+                    </note> to hold any erroneous opinion) and may all the while
+                    be as great a stranger as he to the religion of the heart.</p>
+                <p n="7">7. This alone is religion, truly so called: this alone is in the sight of
+                    God of great price. The Apostle sums it all up in three
+                    particulars—‘righteousness, and peace, and joy in the Holy Ghost’.<note place="foot" xml:id="ftn10" n="10">
+                        <p rend="footnote text">Cf. Rom.
+                            14:17.</p>
+                    </note> And first, <hi rend="italic">righteousness</hi>.<note place="foot" xml:id="ftn11" n="11">
+                        <p rend="footnote text">Cf. No. 29,
+                            ‘Sermon on the Mount, IX’, §20.</p>
+                    </note> We cannot be at a loss
+                    concerning this if we remember the words of our Lord describing the two grand
+                    branches thereof, on which ‘hang all the law and the prophets’:<note place="foot" xml:id="ftn12" n="12">
+                        <p rend="footnote text">Matt.
+                        22:40.</p>
+                    </note> ‘Thou shalt love the Lord thy God with all thy heart, and
+                    with all thy mind, and with all thy soul, and with all thy strength. This is the
+                    first and great commandment,’<hi rend="endnote_reference">
+                        <note place="end">
+                            <p rend="endnote text">Mark 12:30 [actually Matt.
+                        22:37-38].</p>
+                        </note>
+                    </hi> the first and great branch of Christian
+                    righteousness. Thou shalt delight thyself in the Lord thy God; thou shalt seek
+                    and find all happiness in him. He shall be ‘thy shield, and thy exceeding great
+                        reward’,<note place="foot" xml:id="ftn13" n="13">
+                        <p rend="footnote text">Gen. 15:1.</p>
+                    </note> in time and in eternity. All thy bones shall say,
+                    ‘Whom have I in heaven but thee? And there is none upon earth that I desire
+                    beside thee!’<note place="foot" xml:id="ftn14" n="14">
+                        <p rend="footnote text">Ps. 73:25.</p>
+                    </note> Thou shalt hear and fulfil his word who saith,
+                    ‘My son, give me thy heart.’<note place="foot" xml:id="ftn15" n="15">
+                        <p rend="footnote text">Cf. Prov. 23:26.</p>
+                    </note> And having given him
+                    thy heart, thy inmost soul, to reign there without a rival, thou mayest well cry
+                    out in the fullness of thy heart, ‘I will love thee, O Lord, my strength. The
+                    Lord is my strong rock and my defence: my Saviour, my God, and my might, in whom
+                    I will trust; my buckler, the horn also of my salvation, and my refuge.’<note place="foot" xml:id="ftn16" n="16">
+                        <p rend="footnote text">Cf. Ps. 18:1
+                            (BCP), where the text reads ‘stony rock’, and Ps. 31:3 (BCP), ‘And be
+                            thou my strong rock, and house of defence….’</p>
+                    </note>
+                </p>
+                <p n="8">8. And the second commandment is like unto this; the second great branch of
+                    Christian righteousness is closely and inseparably connected therewith, even
+                    ‘Thou shalt love thy neighbour as thyself.’<note place="foot" xml:id="ftn17" n="17">
+                        <p rend="footnote text">Matt. 22:39, etc.</p>
+                    </note> ‘Thou shalt
+                    love’—thou shalt embrace with the most tender goodwill, the most earnest and
+                    cordial affection, the most inflamed desires of preventing or removing all evil
+                    and procuring for him every possible good—‘thy neighbour’; that is, not only thy
+                    friend, thy kinsman, or thy acquaintance; not only the <pb n="222"/>virtuous,
+                    the friendly, him that loves thee, that prevents<note place="foot" xml:id="ftn18" n="18">
+                        <p rend="footnote text">Note in this one paragraph the
+                            use of ‘preventing’ in the sense of <hi rend="italic">hinder</hi> and of
+                            ‘prevent’ in its more literal sense of <hi rend="italic">precede</hi>.</p>
+                    </note> or returns thy kindness; but every child of
+                    man, every human creature,<note place="foot" xml:id="ftn19" n="19">
+                        <p rend="footnote text">Wesley’s standard definition of neighbour, as
+                            appears from Nos. 2, <hi rend="italic">The Almost Christian</hi>, II.2;
+                            18, ‘The Marks of the New Birth’, III.3; 52, <hi rend="italic">The
+                                Reformation of Manners</hi>, III.8; 65, ‘The Duty of Reproving our
+                            Neighbour’, II.2; 84, <hi rend="italic">The Important Question</hi>,
+                            III.2; 100, ‘On Pleasing All Men’, §1; 107, ‘On God’s Vineyard’, I.9;
+                            112, <hi rend="italic">On Laying the Foundation of the New Chapel</hi>,
+                            II.1; 114, <hi rend="italic">On the Death of John Fletcher</hi>,
+                            I.3.</p>
+                        <p rend="footnote text">No such definition appears in the <hi rend="italic">OED</hi>. But Wesley could have found it in Thomas
+                            Sprat, <hi rend="italic">Sermons Preached on Several Occasions</hi>
+                            (1722), p. 101; in Poole’s <hi rend="italic">Annotations</hi> (on Ps.
+                            15:3); in Law’s <hi rend="italic">Serious Call</hi> (<hi rend="italic">Works</hi>, IV.188, 216-25); and in Fleury, <hi rend="italic">The
+                                Manners…of the Christians</hi>, p. 19.</p>
+                    </note> every soul which
+                    God hath made: not excepting him whom thou never hast seen in the flesh, whom
+                    thou knowest not either by face or name; not excepting him whom thou knowest to
+                    be evil and unthankful, him that still despitefully uses and persecutes
+                        thee.<note place="foot" xml:id="ftn20" n="20">
+                        <p rend="footnote text">Matt.
+                            5:44.</p>
+                    </note> Him thou shalt ‘love as thyself’; with the same
+                    invariable thirst after his happiness in every kind,<note place="foot" xml:id="ftn21" n="21">
+                        <p rend="footnote text">Note here the ‘socialization’
+                            of eudaemonism: the subjective ‘thirst for happiness’ is understood as
+                            interdependent with the Christian’s readiness to seek and serve his
+                            neighbour’s ‘happiness in every kind’ … ‘procuring for him every
+                            possible good’. Cf. No. 5, ‘Justification by Faith’, I.4 and n. This
+                            premise of Wesley’s social ethic was revolutionary in both its intention
+                            and partial effect; cf. Semmel, <hi rend="italic">Methodist
+                                Revolution</hi>, chs. 1 and 3.</p>
+                    </note> the same unwearied care to
+                    screen him from whatever might grieve or hurt either his soul or body.</p>
+                <p n="9">9. Now is not this love ‘the fulfilling of the law’?<note place="foot" xml:id="ftn22" n="22">
+                        <p rend="footnote text">Rom. 13:10.</p>
+                    </note> The sum
+                    of all Christian righteousness? Of all inward righteousness; for it necessarily
+                    implies ‘bowels of mercies, humbleness of mind’<note place="foot" xml:id="ftn23" n="23">
+                        <p rend="footnote text">Col. 3:12.</p>
+                    </note> (seeing ‘love is not
+                    puffed up’),<note place="foot" xml:id="ftn24" n="24">
+                        <p rend="footnote text">1
+                            Cor. 13:4; note Wesley’s preference for ‘love’ instead of the AV’s
+                            ‘charity’; cf. No. 17, ‘The Circumcision of the Heart’, I.2 and
+                        n.</p>
+                    </note> ‘gentleness, meekness, long-suffering’<note place="foot" xml:id="ftn25" n="25">
+                        <p rend="footnote text">Col. 3:12.</p>
+                    </note> (for
+                    love ‘is not provoked’, but ‘believeth, hopeth, endureth all things’):<note place="foot" xml:id="ftn26" n="26">
+                        <p rend="footnote text">1 Cor. 13:5,
+                            7.</p>
+                    </note> and of all outward righteousness, for ‘love worketh no
+                    evil to his neighbour’,<note place="foot" xml:id="ftn27" n="27">
+                        <p rend="footnote text">Rom. 13:10.</p>
+                    </note> either by word or deed. It
+                    cannot willingly either hurt or grieve anyone. And it is zealous of good
+                        works.<note place="foot" xml:id="ftn28" n="28">
+                        <p rend="footnote text">Titus
+                            2:14.</p>
+                    </note> Every lover of mankind, as he hath opportunity, ‘doth
+                    good unto all men’,<note place="foot" xml:id="ftn29" n="29">
+                        <p rend="footnote text">Cf. Gal. 6:10.</p>
+                    </note> being (‘without
+                    partiality and without hypocrisy’) ‘full of mercy and good fruits’.<note place="foot" xml:id="ftn30" n="30">
+                        <p rend="footnote text">Jas.
+                        3:17.</p>
+                    </note>
+                </p>
+                <p n="10">
+                    <pb n="2xx"/>10. But true religion, or a heart right toward God and man,
+                    implies happiness as well as holiness.<note place="foot" xml:id="ftn31" n="31">
+                        <p rend="footnote text">‘Holiness’, here and everywhere in Wesley,
+                            denotes <hi rend="italic">active love</hi>—to God (‘inward holiness’)
+                            and to neighbour (‘outward holiness’). Such love yields happiness less
+                            as an end product than as a by-product; see below, I.11-12. Cf. Nos. 6,
+                            ‘The Righteousness of Faith’, II.9 and n.; 18, ‘The Marks of the New
+                            Birth’, III.3; 24, ‘Sermon on the Mount, IV’, III.1; 45, ‘The New
+                            Birth’, III.1; 83, ‘On Patience’, §§9, 10; 84, <hi rend="italic">The
+                                Important Question</hi>, III.2; 85, ‘On Working Out Our Own
+                            Salvation’, I.2; 107, ‘On God’s Vineyard’, I.9; and 112, <hi rend="italic">On Laying the Foundation of the New Chapel</hi>,
+                            II.1.</p>
+                    </note> For it is not only righteousness, but also ‘peace and
+                    joy in the Holy Ghost’.<note place="foot" xml:id="ftn32" n="32">
+                        <p rend="footnote text">Rom. 14:17.</p>
+                    </note> What peace? ‘The peace of
+                    God’, which God only can give, and the world cannot take away; the peace ‘which
+                    passeth all understanding’,<note place="foot" xml:id="ftn33" n="33">
+                        <p rend="footnote text">Phil. 4:7.</p>
+                    </note> all (barely) rational
+                    conception; being a supernatural sensation, a divine taste of ‘the powers of the
+                    world to come’;<note place="foot" xml:id="ftn34" n="34">
+                        <p rend="footnote text">Heb. 6:5.</p>
+                    </note> such as the natural man knoweth not, how wise
+                    soever in the things of this world; nor, indeed, can he know it in his present
+                    state, ‘because it is spiritually discerned’.<note place="foot" xml:id="ftn35" n="35">
+                        <p rend="footnote text">Cf. 1 Cor. 2:14.</p>
+                    </note> It is a peace
+                    that banishes all doubt, all painful uncertainty, the Spirit of God ‘bearing
+                    witness with the spirit’ of a Christian that he is ‘a child of God’.<note place="foot" xml:id="ftn36" n="36">
+                        <p rend="footnote text">Cf. Rom.
+                            8:16.</p>
+                    </note> And it banishes fear, all such fear as hath
+                        torment;<note place="foot" xml:id="ftn37" n="37">
+                        <p rend="footnote text">See
+                            1 John 4:18.</p>
+                    </note> the fear of the wrath of God, the fear of hell,
+                    the fear of the devil, and, in particular, the fear of death: he that hath the
+                    peace of God ‘desiring’ (if it were the will of God) ‘to depart and to be with
+                        Christ’.<note place="foot" xml:id="ftn38" n="38">
+                        <p rend="footnote text">Cf.
+                            Phil. 1:23.</p>
+                    </note>
+                </p>
+                <p n="11">11. With this peace of God, wherever it is fixed in the soul, there is
+                    also ‘joy in the Holy Ghost’;<note place="foot" xml:id="ftn39" n="39">
+                        <p rend="footnote text">Rom. 14:17.</p>
+                    </note> joy wrought in the heart by
+                    the Holy Ghost, by the ever-blessed Spirit of God. He it is that worketh in us
+                    that calm, humble rejoicing in God, through Christ Jesus, ‘by whom we have now
+                    received the atonement’,<note place="foot" xml:id="ftn40" n="40">
+                        <p rend="footnote text">Rom. 5:11.</p>
+                    </note> καταλλαγήν, the
+                    reconciliation with God; and that enables us boldly to confirm the truth of the
+                    royal Psalmist’s declaration, ‘Blessed is the man’ (or rather, <hi rend="italic">happy</hi>, אשדי
+                    היש)<!--Mark this Hebrew with an xml:lang later, as well as any
+                            other instances of foreign language.--> ‘whose
+                    unrighteousness is forgiven, and whose sin is covered.’<note place="foot" xml:id="ftn41" n="41">
+                        <p rend="footnote text">Cf. Ps. 32:1 (BCP). Wesley
+                            would appear to be quoting here from memory or else ‘back-translating’,
+                            since the Hebrew text omits היש (‘the one’), presumably as understood;
+                            cf. Rudolf Kittel, ed., <hi rend="italic">Biblia Hebraica</hi> (New
+                            York, American Bible Society, 1937), and his <hi rend="italic">apparatus
+                                technicus</hi>. In the pamphlet editions of this sermon, in <hi rend="italic">Works</hi>, and in Benson, Jackson, and Sugden, the
+                            Hebrew phrase is omitted altogether. For further comments on Wesley’s
+                            use of Hebrew, cf. <hi rend="italic">A Farther Appeal</hi>, Pt. I, I.6,
+                            III.5 (11:108, 125 of this edn.).</p>
+                    </note> He it is <pb n="224"/>that
+                    inspires the Christian soul with that even, solid joy which arises from the
+                    testimony of the Spirit that he is a child of God; and that gives him to
+                    ‘rejoice with joy unspeakable’,<note place="foot" xml:id="ftn42" n="42">
+                        <p rend="footnote text">1 Pet. 1:8.</p>
+                    </note> ‘in hope of the glory of
+                        God’<note place="foot" xml:id="ftn43" n="43">
+                        <p rend="footnote text">Rom.
+                            5:2.</p>
+                    </note>—hope both of the glorious image of God, which is in part
+                    and shall be fully ‘revealed in him’,<note place="foot" xml:id="ftn44" n="44">
+                        <p rend="footnote text">Cf. Rom. 8:18.</p>
+                    </note> and of that crown of
+                    glory which fadeth not away, reserved in heaven for him.<note place="foot" xml:id="ftn45" n="45">
+                        <p rend="footnote text">1 Pet. 1:4;
+                    5:4.</p>
+                    </note>
+                </p>
+                <p n="12">12. This holiness and happiness, joined in one, are sometimes styled in
+                    the inspired writings, ‘the kingdom of God’ (as by our Lord in the text), and
+                    sometimes, ‘the kingdom of heaven’. It is termed ‘the kingdom of God’ because it
+                    is the immediate fruit of God’s reigning in the soul. So soon as ever he takes
+                    unto himself his mighty power, and sets up his throne in our hearts, they are
+                    instantly filled with this ‘righteousness, and peace, and joy in the Holy
+                        Ghost’.<note place="foot" xml:id="ftn46" n="46">
+                        <p rend="footnote text">Rom.
+                            14:17.</p>
+                    </note> It is called ‘the kingdom of heaven’ because it is (in
+                    a degree) heaven opened in the soul.<note place="foot" xml:id="ftn47" n="47">
+                        <p rend="footnote text">Cf. above, No. 4, <hi rend="italic">Scriptural
+                                Christianity</hi>, III.5 and n.</p>
+                    </note> For whosoever they are
+                    that experience this, they can aver before angels and men,</p>
+                <lg>
+                    <l>Everlasting life is won:</l>
+                    <l>Glory is on earth begun</l>;<note place="foot" xml:id="ftn48" n="48">
+                        <p rend="footnote text">Charles Wesley, ‘Hymn After the Sacrament,’ st. 6,
+                            ll. 3-4, in <hi rend="italic">Hymns and Sacred Poems</hi>, 1739, p. 191
+                                (<hi rend="italic">Poet. Wks.</hi>, I.170).</p>
+                    </note>
+                </lg>
+                <p>according to the constant tenor of Scripture, which everywhere bears record, ‘God
+                    hath given unto us eternal life, and this life is in his Son. He that hath the
+                    Son’ (reigning in his heart) ‘hath life,’ even life everlasting.<hi rend="endnote_reference">
+                        <note place="end">
+                            <p rend="endnote text">1 John
+                                5:11-12.</p>
+                        </note>
+                    </hi> For ‘this is life eternal, to know thee,
+                    the only true God, and Jesus Christ, whom thou hast sent….’<hi rend="endnote_reference">
+                        <note place="end">
+                            <p rend="endnote text">John
+                                17:3.</p>
+                        </note>
+                    </hi> And they to whom this is given may confidently
+                    address God, though they were in the midst of a fiery furnace,<note place="foot" xml:id="ftn49" n="49">
+                        <p rend="footnote text">See Dan.
+                    3:8-30.</p>
+                    </note>
+                </p>
+                <lg>
+                    <l>Thee…, Lord, safe-shielded by thy power,</l>
+                    <l>Thee, Son of God, Jehovah, we adore,</l>
+                    <l>In form of man descending to appear:</l>
+                    <l>To thee be ceaseless hallelujahs given.</l>
+                    <l>Praise, as in heaven thy throne, we offer here;</l>
+                    <l>For where thy presence is displayed, is heaven.</l>
+                    <note place="foot" xml:id="ftn50" n="50">
+                        <p rend="footnote text">Mark Le Pla (1650-1715), vicar of Finchingfield
+                            (Essex), <hi rend="italic">A Paraphrase on the Song of the Three
+                                Children</hi> (1724), concluding stanza. John Wesley included it in
+                                <hi rend="italic">A Collection of Moral and Sacred Poems</hi>,
+                            II.101-34. This quotation appears in ‘O Ananias, Azarias, and Misael…’,
+                            st. xliv, ll. 14-19, p. 134.</p>
+                    </note>
+                </lg>
+                <p>
+                    <pb n="228"/>13. And this ‘kingdom of God’, or of heaven, ‘is at hand’. As these
+                    words were originally spoken they implied that ‘the time’ was then
+                        ‘fulfilled’,<note place="foot" xml:id="ftn51" n="51">
+                        <p rend="footnote text">Mark 1:15.</p>
+                    </note> God being made ‘manifest in the flesh’,<note place="foot" xml:id="ftn52" n="52">
+                        <p rend="footnote text">1 Tim.
+                        3:16.</p>
+                    </note> when he would set up his kingdom among men, and reign in
+                    the hearts of his people. And is not the time now fulfilled? For ‘Lo (saith he),
+                    I am with you always’, you who preach remission of sins in my name, ‘even unto
+                    the end of the world.’<hi rend="endnote_reference">
+                        <note place="end">
+                            <p rend="endnote text">Matt. 28:20.</p>
+                        </note>
+                    </hi> Wheresoever
+                    therefore the gospel of Christ is preached, this his ‘kingdom is nigh at
+                        hand’.<note place="foot" xml:id="ftn53" n="53">
+                        <p rend="footnote text">Luke
+                            21:31.</p>
+                    </note> It is not far from every one of you. Ye may this hour
+                    enter thereinto, if so be ye hearken to his voice, ‘Repent ye, and believe the
+                    gospel.’</p>
+            </div>
+            <div type="section" n="2">
+                <p n="1">II. 1. This is the way: walk ye in it.<note place="foot" xml:id="ftn54" n="54">
+                        <p rend="footnote text">Isa. 30:21.</p>
+                    </note> And first, repent,
+                    that is, know yourselves.<note place="foot" xml:id="ftn55" n="55">
+                        <p rend="footnote text">Wesley’s distinctive view of repentance as that
+                            self-knowledge which leads to contrition and to casting oneself on God’s
+                            pardoning mercy in Christ (‘trust’ rather than ‘assent’). Variations on
+                            this basic theme may be seen in Nos. 3, <hi rend="italic">‘Awake, Thou
+                                That Sleepest’</hi>, II.1; 6, ‘The Righteousness of Faith’, II.6;
+                            14, <hi rend="italic">The Repentance of Believers</hi>, III.2; 17, ‘The
+                            Circumcision of the Heart’, I.2; 21, ‘Sermon on the Mount, I’, I.4; 30,
+                            ‘Sermon on the Mount, X’, §7; 33, ‘Sermon on the Mount, XIII’, III.6;
+                            78, ‘Spiritual Idolatry’, II.4; see also, below, II.6-7; and Wesley’s
+                                <hi rend="italic">Notes</hi> on Matt. 5:3. In No. 79, ‘On
+                            Dissipation’, §19, Wesley comments on William Law’s inversion of faith
+                            and repentance in the <hi rend="italic">ordo salutis</hi> in Law’s <hi rend="italic">Spirit of Prayer</hi> (<hi rend="italic">Works</hi>,
+                            VII.3-143). For Wesley’s denunciation of Bishop Bull’s doctrine of
+                            repentance, see Nos. 150 and 151, ‘Hypocrisy in Oxford’ (Eng. text, I.7;
+                            Lat. text, I.6).</p>
+                    </note> This is the first repentance, previous to
+                    faith, even conviction, or self-knowledge. Awake, then, thou that sleepest.<note place="foot" xml:id="ftn56" n="56">
+                        <p rend="footnote text">Eph.
+                        5:14.</p>
+                    </note> Know thyself to be a sinner, and what manner of sinner thou
+                    art. Know that corruption of thy inmost nature, whereby thou art very far gone
+                    from original righteousness, whereby ‘the flesh lusteth’ always ‘contrary to the
+                        Spirit’,<note place="foot" xml:id="ftn57" n="57">
+                        <p rend="footnote text">Cf.
+                            Gal. 5:17.</p>
+                    </note> through that ‘carnal mind which is enmity against
+                    God’, which ‘is not subject to the law of God, neither indeed can be’.<note place="foot" xml:id="ftn58" n="58">
+                        <p rend="footnote text">Cf. Rom.
+                        8:7.</p>
+                    </note> Know that thou art corrupted in every power, in every
+                    faculty of thy soul, that thou art totally corrupted in every one of these, all
+                    the foundations being out of course. The eyes of thine understanding are
+                    darkened, so that they cannot discern God or the things of God.<note place="foot" xml:id="ftn59" n="59">
+                        <p rend="footnote text">See Eph. 1:18;
+                            4:18.</p>
+                    </note> The clouds <pb n="226"/>of ignorance and error rest
+                    upon thee, and cover thee with the shadow of death. Thou knowest nothing yet as
+                    thou oughtest to know, neither God, nor the world, nor thyself. Thy will is no
+                    longer the will of God, but is utterly perverse and distorted, averse from all
+                    good, from all which God loves, and prone to all evil, to every abomination
+                    which God hateth. Thy affections are alienated from God, and scattered abroad
+                    over all the earth. All thy passions, both thy desires and aversions, thy joys
+                    and sorrows, thy hopes and fears, are out of frame, are either undue in their
+                    degree, or placed on undue objects. So that there is no soundness in thy soul,
+                    but ‘from the crown of the head to the sole of the foot’ (to use the strong
+                    expression of the prophet) there are only ‘wounds, and bruises, and putrefying
+                        sores’.<note place="foot" xml:id="ftn60" n="60">
+                        <p rend="footnote text">Cf.
+                            Isa. 1:6.</p>
+                    </note>
+                </p>
+                <p n="2">2. Such is the inbred corruption of thy heart, of thy very inmost nature.
+                    And what manner of branches canst thou expect to grow from such an evil root?
+                    Hence springs unbelief, ever departing from the living God; saying, ‘Who is the
+                    Lord that I should serve him?’<note place="foot" xml:id="ftn61" n="61">
+                        <p rend="footnote text">Cf. Judg. 9:28, 38; Job 21:15.</p>
+                    </note> ‘Tush!
+                    Thou, God, carest not for it.’<note place="foot" xml:id="ftn62" n="62">
+                        <p rend="footnote text">Ps. 10:14 (BCP).</p>
+                    </note> Hence independence,
+                    affecting to be like the Most High; hence pride, in all its forms, teaching thee
+                    to say, ‘I am rich, and increased in goods, and have need of nothing.’<note place="foot" xml:id="ftn63" n="63">
+                        <p rend="footnote text">Rev.
+                        3:17.</p>
+                    </note> From this evil fountain flow forth the bitter streams of
+                    vanity, thirst of praise, ambition, covetousness, the lust of the flesh, the
+                    lust of the eye, and the pride of life.<note place="foot" xml:id="ftn64" n="64">
+                        <p rend="footnote text">1 John 2:16. Wesley’s favourite blanket
+                            reference to what St. Augustine had already identified as the <hi rend="italic">triplex concupiscentia</hi> which, as he and Wesley
+                            agreed, ‘includes all sin’ (cf. St. Augustine, <hi rend="italic">Confessions</hi>, X. xxx. 41, <hi rend="italic">et seq.</hi>, and
+                                <hi rend="italic">Expositions on the Psalms</hi>, VIII. 13; see also
+                            the letter, CCXX, to Boniface [427], §§5-9; and <hi rend="italic">On
+                                Patience</hi>, 14-16, ‘the concupiscence of the bad’). Wesley
+                            repeats the text tirelessly, and its suggestion to him that sin is
+                            overreach of what in themselves are innocent appetites (as in the
+                            animals) reinforced his notion of our human responsibility in all sin.
+                            For this text related especially to the greed for money, cf. John
+                            Cardinal Bona, <hi rend="italic">Precepts and Practical Rules for a
+                                Truly Christian Life</hi>, p. 38. See also Law, <hi rend="italic">Serious Call</hi>, (<hi rend="italic">Works</hi>, IV, 18,
+                            178).</p>
+                        <p rend="footnote text">Cf. also Nos. 2, <hi rend="italic">The
+                                Almost Christian</hi>, II. (i.) 1; 4, <hi rend="italic">Scriptural
+                                Christianity</hi>, I.6; 9, ‘The Spirit of Bondage and of Adoption’,
+                            I.5, III.7; 14, <hi rend="italic">The Repentance of Believers</hi>, I.5;
+                            17, ‘The Circumcision of the Heart’, I.13, II.9; 28, ‘Sermon on the
+                            Mount, VIII’, §14; 41, <hi rend="italic">Wandering Thoughts</hi>, III.4;
+                            44, <hi rend="italic">Original Sin</hi>, II.9, 10; 50, ‘The Use of
+                            Money’, II.1-2; 68, ‘The Wisdom of God’s Counsels’, §16; 78, ‘Spiritual
+                            Idolatry’, I.5-15; 80, ‘On Friendship with the World’, §16; 81, ‘In What
+                            Sense we are to Leave the World’, §11; 83, ‘On Patience’, §9; 84, <hi rend="italic">The Important Question</hi>, I.3, III.10; 86, <hi rend="italic">A Call to Backsliders</hi>, §4; 87, ‘The Danger of
+                            Riches’, I.12-16; 90, ‘An Israelite Indeed’, I.1; 95, ‘On the Education
+                            of Children’, §§8, 19; 107, ‘On God’s Vineyard’, V.3; 108, ‘On Riches’,
+                            II.2-3; 109, <hi rend="italic">The Trouble and Rest of Good Men</hi>,
+                            I.3; 119, ‘Walking by Sight and Walking by Faith’, §17; 120, ‘The Unity
+                            of the Divine Being’, §12; 122, ‘Causes of the Inefficacy of
+                            Christianity’, §8; 125, ‘On a Single Eye’, II.1; 128, ‘The Deceitfulness
+                            of the Human Heart’, I.4; 131, ‘The Danger of Increasing Riches’, I.9,
+                            10, 12, 15; 143, ‘Public Diversions Denounced’, III.2.</p>
+                        <p rend="footnote text">See also Wesley’s <hi rend="italic">Notes</hi> on 1
+                            John 2:16, and his letters to Mrs. Pendarves, Feb. 11, 1731; to Dr.
+                            Burton, Oct. 10, 1735; to his brother Samuel, Oct. 15, 1735; and to
+                            James Hutton, Apr. 30, 1739.</p>
+                    </note>
+                    <pb n="227"/>From this arise anger, hatred, malice, revenge, envy, jealousy,
+                    evil surmisings;<note place="foot" xml:id="ftn65" n="65">
+                        <p rend="footnote text">1 Tim. 6:4.</p>
+                    </note> from this, all the foolish and hurtful lusts
+                    that now ‘pierce thee through with many sorrows’, and if not timely prevented
+                    will at length ‘drown thy soul in everlasting perdition’.<note place="foot" xml:id="ftn66" n="66">
+                        <p rend="footnote text">Cf. 1 Tim. 6:9,
+                    10.</p>
+                    </note>
+                </p>
+                <p n="3">3. And what fruits can grow on such branches as these? Only such as are
+                    bitter and evil continually. Of pride cometh contention,<note place="foot" xml:id="ftn67" n="67">
+                        <p rend="footnote text">Prov. 13:10.</p>
+                    </note> vain
+                    boasting, seeking and receiving praise of men, and so robbing God of that glory
+                    which he cannot give unto another. Of the lust of the flesh come gluttony or
+                    drunkenness, luxury or sensuality, fornication, uncleanness, variously defiling
+                    that body which was designed for a temple of the Holy Ghost:<note place="foot" xml:id="ftn68" n="68">
+                        <p rend="footnote text">1 Cor. 6:19.</p>
+                    </note> of
+                    unbelief, every evil word and work. But the time would fail, shouldst thou
+                    reckon up all; all the idle words thou hast spoken, provoking the Most High,
+                    grieving the Holy One of Israel; all the evil works thou hast done, either
+                    wholly evil in themselves, or at least not done to the glory of God. For thy
+                    actual sins are more than thou art able to express, more than the hairs of thy
+                    head. Who can number the sands of the sea, or the drops of rain, or thy
+                    iniquities?</p>
+                <p n="4">4. And knowest thou not that ‘the wages of sin is death’?<note place="foot" xml:id="ftn69" n="69">
+                        <p rend="footnote text">Rom. 6:23.</p>
+                    </note>—death
+                    not only temporal, but eternal. ‘The soul that sinneth, it shall die;’<note place="foot" xml:id="ftn70" n="70">
+                        <p rend="footnote text">Ezek. 18:4,
+                            20.</p>
+                    </note> for the mouth of the Lord hath spoken it.<note place="foot" xml:id="ftn71" n="71">
+                        <p rend="footnote text">Isa. 1:20,
+                            etc.</p>
+                    </note> It shall die the second death.<note place="foot" xml:id="ftn72" n="72">
+                        <p rend="footnote text">See Rev. 2:11; 20:6, 14;
+                            21:8.</p>
+                    </note> This is the sentence, to ‘be punished’ with
+                    never-ending death, ‘with everlasting destruction from the presence of the Lord,
+                    and from the glory of his power’.<note place="foot" xml:id="ftn73" n="73">
+                        <p rend="footnote text">2 Thess. 1:9.</p>
+                    </note> Knowest thou not that
+                    every sinner ἔνοχος ἔστι τῃ γέεννῃν τοῦ πυρός, not properly is ‘in danger of
+                        hell-fire’<note place="foot" xml:id="ftn74" n="74">
+                        <p rend="footnote text">See Matt 5:22; another quotation from memory since Wesley’s own Greek
+                            text (<hi rend="italic">TR</hi>) read ἔνοχος ἔσται εἰς τὴν γέενναν τοῦ
+                            πυρός. It would seem that ἐστι for ἔσται and τῃ γεέννῃ for τὴν γέενναν
+                            are typographical errors left reverently uncorrected by subsequent
+                            printers and editors. But translating ἔνοχος as ‘under the sentence of
+                            hell-fire’—‘doomed already’—ignores the <hi rend="italic">future</hi>
+                            tense of ἔσται. For Wesley’s more typical translation or exegeses of
+                            ἔνοχος (i.e., ‘obnoxious’ or ‘liable to’, ‘subject to’), see Nos. 9,
+                            ‘The Spirit of Bondage and of Adoption’, II.2; 22, ‘Sermon on the Mount,
+                            II’, I.7, 9, 10; 62, ‘The End of Christ’s Coming’, I.10; 92, ‘On Zeal’,
+                            III.1-4. The same usage may be found in Robert Gell’s <hi rend="italic">Remaines: Or Several Select Scriptures of the New Testament Opened
+                                and Explained</hi> (1676), I.44; and Offspring Blackall, <hi rend="italic">Works</hi>, I.221. See also St. Thomas, <hi rend="italic">Summa Theologica</hi>, II. ii, Q. 158. A.5, obj. 3,
+                            ‘Of Anger’; and Macarius, Homily XXVIII, in <hi rend="italic">Homilies</hi> (1721), p. 362. Cf. <hi rend="italic">OED</hi> for
+                            the diversity of meanings for ‘obnoxious’.</p>
+                    </note>—that expression
+                        <pb n="228"/>is far too weak—but rather, ‘is under the sentence of
+                    hell-fire’; doomed already, just dragging to execution? Thou art guilty of
+                    everlasting death. It is the just reward of thy inward and outward wickedness.
+                    It is just that the sentence should now take place. Dost thou see, dost thou
+                    feel this? Art thou throughly convinced that thou deservest God’s wrath and
+                    everlasting damnation? Would God do thee any wrong if he now commanded the earth
+                    to open and swallow thee up? If thou wert now to go down quick into the
+                        pit,<note place="foot" xml:id="ftn75" n="75">
+                        <p rend="footnote text">See
+                            Num. 16:30.</p>
+                    </note> into the fire that never shall be quenched?<note place="foot" xml:id="ftn76" n="76">
+                        <p rend="footnote text">Mark 9:43,
+                            45.</p>
+                    </note> If God hath given thee truly to repent, thou hast a deep
+                    sense that these things are so; and that it is of his mere mercy thou art not
+                    consumed, swept away from the face of the earth.</p>
+                <p n="5">5. And what wilt thou do to appease the wrath of God, to atone for all thy
+                    sins, and to escape the punishment thou hast so justly deserved? Alas, thou
+                    canst do nothing; nothing that will in any wise make amends to God for one evil
+                    work or word or thought. If thou couldst now do all things well, if from this
+                    very hour, till thy soul should return to God, thou couldst perform perfect,
+                    uninterrupted obedience, even this would not atone for what is past. The not
+                    increasing thy debt would not discharge it. It would still remain as great as
+                    ever. Yea, the present and future obedience of all the men upon earth, and all
+                    the angels in heaven, would never make satisfaction to the justice of God for
+                    one single sin. How vain then was the thought of atoning for thy own sins by
+                    anything thou couldst do! It costeth far more to redeem one soul than all
+                    mankind is able to pay. So that were there no other help for a guilty sinner,
+                    without doubt he must have perished everlastingly.<note place="foot" xml:id="ftn77" n="77">
+                        <p rend="footnote text">Echoes here from Anselm, <hi rend="italic">Cur Deus Homo?</hi>, Bk. I, chs. xix-xxv; note there,
+                            and elsewhere in Anselm, a similar equation of holiness and happiness,
+                            as later in Wesley.</p>
+                    </note>
+                </p>
+                <p n="6">6. But suppose perfect obedience for the time to come could atone for the
+                    sins that are past, this would profit thee nothing; for thou art not able to
+                    perform it; no, not in any one point. Begin now. Make the trial. Shake off that
+                    outward sin that so easily besetteth thee.<note place="foot" xml:id="ftn78" n="78">
+                        <p rend="footnote text">See Heb. 12:1.</p>
+                    </note> Thou canst not. How
+                    then wilt thou change thy life from all evil to all good? Indeed, it is
+                    impossible to be done, <pb n="229"/>unless first thy heart be changed. For so
+                    long as the tree remains evil, it cannot bring forth good fruit.<note place="foot" xml:id="ftn79" n="79">
+                        <p rend="footnote text">See Matt. 7:18;
+                            Luke 6:43.</p>
+                    </note> But art thou able to change thy own heart from all
+                    sin to all holiness? To quicken a soul that is dead in sin?<note place="foot" xml:id="ftn80" n="80">
+                        <p rend="footnote text">See Eph. 2:1, 5.</p>
+                    </note>
+                    Dead to God and alive only to the world? No more than thou art able to quicken a
+                    dead body, to raise to life him that lieth in the grave. Yea, thou art not able
+                    to quicken thy soul in any degree, no more than to give any degree of life to
+                    the dead body. Thou canst do nothing, more or less, in this matter; thou art
+                    utterly without strength. To be deeply sensible of this, how helpless thou art,
+                    as well as how guilty and how sinful, this is that ‘repentance not to be
+                    repented of’<note place="foot" xml:id="ftn81" n="81">
+                        <p rend="footnote text">2
+                            Cor. 7:10. Cf. above, II.1 and n.</p>
+                    </note> which is the forerunner of
+                    the kingdom of God.</p>
+                <p n="7">7. If to this lively conviction of thy inward and outward sins, of thy
+                    utter guiltiness and helplessness, there be added suitable affections—sorrow of
+                    heart for having despised thy own mercies; remorse and self-condemnation, having
+                    the mouth stopped, shame to lift up thine eyes to heaven;<note place="foot" xml:id="ftn82" n="82">
+                        <p rend="footnote text">See Luke 18:13.</p>
+                    </note>
+                    fear of the wrath of God abiding on thee, of his curse hanging over thy head,
+                    and of the fiery indignation ready to devour those who forget God and obey not
+                    our Lord Jesus Christ; earnest desire to escape from that indignation, to cease
+                    from evil and learn to do well<note place="foot" xml:id="ftn83" n="83">
+                        <p rend="footnote text">See Isa. 1:16, 17.</p>
+                    </note>—then I say unto thee,
+                    in the name of the Lord, ‘Thou art not far from the kingdom of God.’<note place="foot" xml:id="ftn84" n="84">
+                        <p rend="footnote text">Mark
+                        12:34.</p>
+                    </note> One step more and thou shalt enter in. Thou dost ‘repent’.
+                    Now, ‘believe the gospel’.</p>
+                <p n="8">8. ‘The gospel’ (that is, good tidings, good news for guilty, helpless
+                    sinners) in the largest sense of the word means the whole revelation made to men
+                    by Jesus Christ; and sometimes the whole account of what our Lord did and
+                    suffered while he tabernacled among men.<note place="foot" xml:id="ftn85" n="85">
+                        <p rend="footnote text">A literal rendering of the ἐσκήνωσεν of John
+                            1:14 (from σκῆνος, ‘tent’ or ‘tabernacle’).</p>
+                    </note> The substance of
+                    all is, ‘Jesus Christ came into the world to save sinners;’<note place="foot" xml:id="ftn86" n="86">
+                        <p rend="footnote text">Cf. 1 Tim. 1:15.</p>
+                    </note>
+                    or, ‘God so loved the world that he gave his only begotten Son, to the end we
+                    might not perish, but have everlasting life;’<note place="foot" xml:id="ftn87" n="87">
+                        <p rend="footnote text">Cf. John 3:16.</p>
+                    </note> or, ‘He was bruised
+                    for our transgressions, he was wounded for our iniquities; the chastisement of
+                    our peace was upon him, and with his stripes we are healed.’<note place="foot" xml:id="ftn88" n="88">
+                        <p rend="footnote text">Cf. Isa. 53:5.</p>
+                    </note>
+                </p>
+                <p n="9">
+                    <pb n="230"/>9. Believe this, and the kingdom of God is thine. By faith
+                    thou attainest the promise: ‘He pardoneth and absolveth all that truly repent
+                    and unfeignedly believe his holy gospel.’<note place="foot" xml:id="ftn89" n="89">
+                        <p rend="footnote text">BCP, Morning Prayer, Absolution
+                        (4).</p>
+                    </note> As soon as ever God hath spoken to thy heart, ‘Be of good
+                    cheer, thy sins are forgiven thee,’<note place="foot" xml:id="ftn90" n="90">
+                        <p rend="footnote text">Cf. Matt. 9:2.</p>
+                    </note> his kingdom comes; thou
+                    hast righteousness, and peace, and joy in the Holy Ghost.<note place="foot" xml:id="ftn91" n="91">
+                        <p rend="footnote text">Rom. 14:17.</p>
+                    </note>
+                </p>
+                <p n="10">10. Only beware thou do not deceive thy own soul with regard to the nature
+                    of this faith. It is not (as some have fondly conceived) a bare assent to the
+                    truth of the Bible, of the articles of our creed, or of all that is contained in
+                    the Old and New Testament.<note place="foot" xml:id="ftn92" n="92">
+                        <p rend="footnote text">Cf. here the doctrines of John Glas (1695-1773) and
+                            Robert Sandeman (1718-71), Scottish independents who had rejected both
+                            the Calvinist doctrine of ‘final perseverance’ and the Methodist
+                            doctrine of ‘conversion’. Faith, they taught, was the clear-headed
+                            intellectual acceptance of ‘the Gospel history’ as recorded in the New
+                            Testament, and this in itself was saving. Wesley knew of them from
+                            Glas’s <hi rend="italic">A Plea for Pure and Undefiled Religion</hi>
+                            (1741) and <hi rend="italic">A Treatise on the Lord’s Supper</hi>
+                            (1743). Wesley’s diary of Mar. 8, 1741, records that he had ‘read Glas’.
+                            Later, Sandeman (under the pseudonym of ‘Palaemon’) would expound his
+                            soteriology in <hi rend="italic">Letters on Theron and Aspasio</hi>. <hi rend="italic">Addressed to the Author</hi> [James Hervey] (1757),
+                            which drew an extended reply from Wesley in a letter dated Nov. 1, 1757,
+                            in which the notion of faith as bare assent is sharply denounced as
+                            ‘stark, staring nonsense’ (see <hi rend="italic">Bibliog</hi>, No. 221,
+                            Vol. 13 of this edn.).</p>
+                    </note> The devils believe<note place="foot" xml:id="ftn93" n="93">
+                        <p rend="footnote text">See Jas. 2:19.</p>
+                    </note>
+                    this, as well as I or thou; and yet they are devils still. But it is, over and
+                    above this, a sure trust in the mercy of God through Christ Jesus.<note place="foot" xml:id="ftn94" n="94">
+                        <p rend="footnote text">Cf. Homily, ‘Of
+                            Faith’, and I.6-7, above.</p>
+                    </note> It is a confidence in a pardoning
+                    God. It is a divine evidence or conviction that ‘God was in Christ, reconciling
+                    the world to himself, not imputing to them their former trespasses;’<note place="foot" xml:id="ftn95" n="95">
+                        <p rend="footnote text">Cf. 2 Cor.
+                            5:19.</p>
+                    </note> and in particular that the Son of God hath loved <hi rend="italic">me</hi> and given himself for <hi rend="italic">me</hi>;<note place="foot" xml:id="ftn96" n="96">
+                        <p rend="footnote text">See Gal.
+                            2:20.</p>
+                    </note> and that I, even I, am now reconciled to God by the
+                    blood of the cross.<note place="foot" xml:id="ftn97" n="97">
+                        <p rend="footnote text">A conflation of Rom. 5:10 and Col.
+                    1:20.</p>
+                    </note>
+                </p>
+                <p n="11">11. Dost thou thus believe? Then the peace of God is in thy heart, and
+                    sorrow and sighing flee away.<note place="foot" xml:id="ftn98" n="98">
+                        <p rend="footnote text">Isa. 35:10.</p>
+                    </note> Thou art no longer in doubt
+                    of the love of God; it is clear as the noonday sun. Thou criest out, ‘My song
+                    shall be always of the loving-kindness of the Lord: with my mouth will I ever be
+                    telling of thy truth, from one generation to another.’<note place="foot" xml:id="ftn99" n="99">
+                        <p rend="footnote text">Ps. 89:1 (BCP).</p>
+                    </note>
+                    Thou art no longer afraid of hell, or death, or him that had once the power of
+                    death, the devil: no, nor painfully afraid of God himself; only thou hast a
+                    tender, filial fear of offending him. Dost thou believe? Then thy ‘soul doth
+                    magnify <pb n="231"/>the Lord, and thy spirit rejoiceth in God thy
+                        Saviour’.<note place="foot" xml:id="ftn100" n="100">
+                        <p rend="footnote text">Cf. Luke 1:46-47.</p>
+                    </note> Thou rejoicest in that thou hast
+                    ‘redemption through his blood, even the forgiveness of sins’.<note place="foot" xml:id="ftn101" n="101">
+                        <p rend="footnote text">Col. 1:14.</p>
+                    </note> Thou
+                    rejoicest in that ‘Spirit of adoption which crieth in thy heart, Abba,
+                        Father!’<note place="foot" xml:id="ftn102" n="102">
+                        <p rend="footnote text">Cf. Rom. 8:15.</p>
+                    </note> Thou rejoicest in a ‘hope full of
+                        immortality’;<note place="foot" xml:id="ftn103" n="103">
+                        <p rend="footnote text">Wisd. 3:4.</p>
+                    </note> in reaching forth unto the
+                    ‘mark of the prize of thy high calling’;<note place="foot" xml:id="ftn104" n="104">
+                        <p rend="footnote text">Cf. Phil. 3:14.</p>
+                    </note> in an earnest
+                    expectation of all the good things which God hath prepared for them that love
+                        him.<note place="foot" xml:id="ftn105" n="105">
+                        <p rend="footnote text">1
+                            Cor. 2:9.</p>
+                    </note>
+                </p>
+                <p n="12">12. Dost thou now believe? Then ‘the love of God is’ now ‘shed abroad in
+                    thy heart.’<note place="foot" xml:id="ftn106" n="106">
+                        <p rend="footnote text">Cf. Rom. 5:5.</p>
+                    </note> Thou lovest him, because he first loved
+                        us.<note place="foot" xml:id="ftn107" n="107">
+                        <p rend="footnote text">See 1
+                            John 4:19.</p>
+                    </note> And because thou lovest God, thou lovest thy
+                    brother also.<note place="foot" xml:id="ftn108" n="108">
+                        <p rend="footnote text">See 1 John 4:21.</p>
+                    </note> And being filled with ‘love, peace, joy’,
+                    thou art also filled with ‘long-suffering, gentleness, fidelity, goodness,
+                    meekness, temperance’,<note place="foot" xml:id="ftn109" n="109">
+                        <p rend="footnote text">Gal. 5:22-23.</p>
+                    </note> and all the other fruits
+                    of the same Spirit—in a word, with whatever dispositions are holy, are heavenly
+                    or divine. For while thou ‘beholdest with open (uncovered) face’ (the veil now
+                    being taken away) ‘the glory of the Lord’, his glorious love, and the glorious
+                    image wherein thou wast created, thou art ‘changed into the same image, from
+                    glory to glory, by the Spirit of the Lord’.<note place="foot" xml:id="ftn110" n="110">
+                        <p rend="footnote text">2 Cor. 3:18.</p>
+                    </note>
+                </p>
+                <p n="13">13. This repentance, this faith, this peace, joy, love; this change from
+                    glory to glory, is what the wisdom of the world has voted to be madness, mere
+                    enthusiasm, utter distraction.<note place="foot" xml:id="ftn111" n="111">
+                        <p rend="footnote text">An echo of charges, chiefly against Whitefield, by
+                            various critics like <hi rend="italic">The Weekly Advertiser</hi> (June
+                            13, 1741), Joseph Trapp, <hi rend="italic">The Nature, Folly, Sin, and
+                                Danger of Being Righteous Overmuch</hi> (1739), Richard Smalbroke
+                            (Bishop of Lichfield), and others. Cf. Green, <hi rend="italic">Anti-Methodist Publications</hi>, for 1739-45. See also No. 10,
+                            ‘The Witness of the Spirit, I’, §1 and n.</p>
+                    </note> But thou, O man of
+                    God, regard them not: be thou moved by none of these things. Thou knowest in
+                    whom thou hast believed.<note place="foot" xml:id="ftn112" n="112">
+                        <p rend="footnote text">See 2 Tim. 1:12.</p>
+                    </note> See that no man take
+                    thy crown.<note place="foot" xml:id="ftn113" n="113">
+                        <p rend="footnote text">Rev. 3:11.</p>
+                    </note> Whereunto thou hast already attained, hold fast,
+                    and follow, till thou attain all the great and precious promises. And thou who
+                    hast not yet known him, let not vain men make thee ashamed of the gospel of
+                    Christ. Be thou in nothing terrified by those who speak evil of the things which
+                    they know not. God will soon turn thy heaviness into joy. O let not thy hands
+                        <pb n="232"/>hang down. Yet a little longer, and he will take away thy
+                    fears, and give thee the spirit of a sound mind. ‘He is nigh that
+                        justifieth:’<note place="foot" xml:id="ftn114" n="114">
+                        <p rend="footnote text">Cf. Isa. 50:8.</p>
+                    </note> ‘Who is he that
+                    condemneth? It is Christ that died; yea, rather, that rose again; who is even
+                    now at the right hand of God, making intercession for thee.’<note place="foot" xml:id="ftn115" n="115">
+                        <p rend="footnote text">Cf. Rom. 8:34.</p>
+                    </note>
+                    Now cast thyself on the Lamb of God, with all thy sins, how many soever they be;
+                    and ‘an entrance shall <hi rend="italic">now</hi> be ministered unto <hi rend="italic">thee</hi> into the kingdom of our Lord and Saviour Jesus
+                        Christ’!<note place="foot" xml:id="ftn116" n="116">
+                        <p rend="footnote text">Cf. 2 Pet. 1:11.</p>
+                    </note>
+                </p>
+            </div>
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,945 @@
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Sermon 6: The Righteousness of Faith</title>
+                <author>Wesley, John</author>
+                <editor role="text">Van Buskirk, Gregory P.</editor>
+                <editor role="digital">Taylor, Michelle M.</editor>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>The Wesley Works Digitzation Project</publisher>
+                <pubPlace>Tampa, FL</pubPlace>
+                <date>2024-02-24</date>
+             <idno type="URI">https://wesleyworks.ecdsdev.org/sermons/Sermon006</idno>                  
+            </publicationStmt>
+            <sourceDesc>
+                <listBibl>
+                    <biblStruct>
+                        <analytic>
+                            <title level="a">Sermon 6: The Righteousness of Faith</title>
+                        </analytic>
+                        <monogr>
+                            <title level="j">The Works of John Wesley, Volume I: Sermons I,
+                                1-33</title>
+                            <editor role="volume">Outler, Albert</editor>
+                            <imprint>
+                                <publisher>Abingdon Press</publisher>
+                                <pubPlace>Nashville, TN</pubPlace>
+                                <date when="2015-05-01">1984-05-01</date>
+                                <biblScope unit="volume" n="1"/>
+                                <biblScope unit="page" from="200" to="215"/>
+                            </imprint>
+                        </monogr>
+                        <series>
+                            <title level="s">The Works of John Wesley</title>
+                            <editor role="general">Baker, Frank</editor>
+                        </series>
+                    </biblStruct>
+                </listBibl>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Greg Van Buskirk created Word docs for all of Wesley's sermons using a combination of
+                OCR software and manual proofing. Michelle Taylor converted these docx into XML
+                using Oxygen's DITA automatic transformation scenario, then touched them up
+                manually.</p>
+        </encodingDesc>
+        <standOff>
+            <taxonomy>
+                <keywords>
+                    <term/>
+                </keywords>
+            </taxonomy>
+            <!--Include keywords and terms here eventually.-->
+        </standOff>
+        <revisionDesc/>
+    </teiHeader>
+    <text>
+        <body>
+            <pb n="200"/>
+            <introduction>
+                <!--Confirm introduction is the element I want to use here, especially given that I
+                    use it as an attribute for Wesley's introductory paragraphs as well.-->
+                <head>
+                    <hi rend="italic">An Introductory Comment</hi>
+                </head>
+                <p>John Wesley was not as ebullient an orator as George Whitefield or even his
+                    brother Charles. And yet his preaching in the years just after 1738 seems to
+                    have been attended with more hysterical responses from his hearers. In the <hi rend="italic">Journal</hi>, June 12, 1742, he records preaching on ‘the
+                    righteousness of faith ‘from his father’s tombstone at Epworth.’ While I was
+                    speaking several dropped down as dead; and among the rest such a cry was heard
+                    of sinners groaning for the righteousness of faith as almost drowned my voice.’
+                    An even more tumultuous scene in Wapping is recounted in the <hi rend="italic">Journal</hi>, June 15, 1739. Hysterical phenomena, as side effects of his
+                    preaching, receive an occasional mention in the <hi rend="italic">Journal</hi>
+                    from 1739 through 1744. They seem to have tapered off thereafter.</p>
+                <p>A credible hypothesis concerning these phenomena—and the contrast between the
+                    effects of John Wesley’s preaching in this period and that of other
+                    evangelicals—has been offered by Bernard Holland, ‘“A Species of Madness”: The
+                    Effect of John Wesley’s Early Preaching’, WHS, XXXIX.77-85, and this is
+                    confirmed in large part in this sermon on ‘the righteousness of faith’.
+                    Holland’s point is that whereas Whitefield and Charles Wesley sought consciously
+                    (and fervently) to drive their hearers to a ‘conviction of sin’, they spared
+                    them the extremes of <hi rend="italic">despair</hi> by suggesting that once
+                    penitents began to ‘groan’ <hi rend="italic">for</hi> faith, this was in itself
+                    a proleptic sign of their acceptance even before their conscious sense of
+                    assurance of forgiveness. Robert Philip, in his <hi rend="italic">Life and Times
+                        of…Whitefield</hi> (1837), pp. 580-83, stresses this distinction, and
+                    Melville Horne, John Fletcher’s curate at Madeley, who had heard Whitefield and
+                    both the Wesleys, reached much the same conclusion: ‘[Charles Wesley, rather
+                    than] denouncing wrath on sincere penitents…comforted them by insinuating that
+                    they were in a salvable state…. To the best of my knowledge, Mr. John Wesley did
+                    not admit this distinction into his pulpit;’ cf. <hi rend="italic">An
+                        Investigation…of Justifying Faith</hi>, pp. 28 ff.</p>
+                <p>Holland, <hi rend="italic">op. cit.</hi>, p. 81, suggests that it was on
+                    principle that John drove his penitent and half-penitent hearers out of any
+                    refuge of hope to real despair: ‘In spite of their longing to be reconciled to
+                    God, they were <pb n="201"/>nevertheless still damned until faith was given
+                    them. It was <hi rend="italic">this</hi> that so intensified the feeling of
+                    helplessness and anxiety…that some fell down, or cried out or became delirious.’
+                    Cf. William Sargant, <hi rend="italic">Battle for the Mind</hi> (New York,
+                    Doubleday, 1957), p.78, for a psychiatric comment on John Wesley’s impact on
+                    guilt-ridden audiences in this period; but see also Ian Ramage, <hi rend="italic">Battle for the Free Mind</hi> (London, Allen and Unwin, 1967),
+                    pp. 238-59, for a useful critique of Sargant. It is in this sense that we can
+                    understand Wesley’s candid admission in <hi rend="italic">A Farther Appeal</hi>
+                    that ‘it is my endeavour to drive all I can into what <hi rend="italic">you</hi>
+                    may term another species of “madness”, …which I term “repentance” or
+                    “conviction”’ as preparatory to the gift of faith (see Pt. I, VII.12; also
+                    VII.11, 13-15, in Vol. 11, pp. 196-99 of this edn.). Later, the starkness of
+                    this demand for despair was softened, and with it came a proportional decrease
+                    in hysterical concomitants. In 1746 it is asked in Conference, ‘But can it be
+                    conceived that God has any regard to the sincerity of an unbeliever?’ The
+                    answer, now, is different from earlier ones: ‘Yes; so much that if he persevere
+                    therein, God will infallibly give him faith;’ cf. MS Minutes, 1746, §20.</p>
+                <p>The following year the efficacy of <hi rend="italic">sincerity</hi> in repentance
+                    is actually emphasized; <hi rend="italic">ibid.</hi>, June 16, 1747. In 1767, in
+                    light of his experiences in the Revival and in reaction to the polemics of the
+                    Calvinists, Wesley came round to what amounts to an abandonment of his
+                    insistences of 1739-44: ‘It is high time for us…to return to the plain word, “He
+                    that feareth God and worketh righteousness is <hi rend="italic">accepted</hi>
+                    with him”’ (JWJ, Dec. 30, 1767). And in a very late sermon (1791) he actually
+                    deplores deliberate efforts to drive persons to despair as a means of bringing
+                    them to faith (see No.106, ‘On Faith, Heb.11:6’, I.11-12; see also No. 117, ‘On
+                    the Discoveries of Faith’, §§11-15).</p>
+                <p>This present sermon, however, is focused on a radical contrast between ‘the
+                    righteousness of the <hi rend="italic">law</hi>’ and ‘the righteousness of <hi rend="italic">faith</hi>’, between the two covenants of <hi rend="italic">works</hi> and of <hi rend="italic">grace</hi>. The righteousness of the
+                    law, with its corresponding covenant of works, demands absolute and perfected
+                    perfection; nothing short of this is worth anything at all. The unmistakable
+                    inference is that since Adam’s sin <hi rend="italic">this</hi> righteousness is
+                    utterly unattainable; hence, despair. The righteousness of faith, on the other
+                    hand, is God’s mercy freely given. It is God’s pardon warranted by Christ’s
+                    atonement, and therefore both just and justifying. It is worth noticing how
+                    relentlessly Wesley builds up the demands of the law, reducing the moralist to
+                    despair, and how thoroughly he refutes all objections to a repentant sinner’s
+                    eager acceptance of God’s sheer, unmerited mercy (cf. Charlotte Elliott’s later
+                    hymn [1834]: ‘Just as I <pb n="202"/>am, without one plea’). Here, then, <hi rend="italic">sola fide</hi> is once again unnuanced. Yet also, the residues
+                    of Wesley’s holy living tradition reassert themselves and remind us of his
+                    constant search for an alternative to any of the traditional polarities.</p>
+                <p>Wesley preached on the passage in Rom. 10:5-8 at least seven times between 1740
+                    and 1789, twice before this present sermon which was, apparently, written
+                    expressly for <hi rend="italic">SOSO</hi>. For a list of variant readings in the
+                    editions published in Wesley’s lifetime, see Appendix, Vol. 4, ‘Wesley’s
+                    Text’.</p>
+            </introduction>
+            <head>Justification by Faith</head>
+            <epigraph>
+                <p>Romans 10:5-8</p>
+                <p>
+                    <hi rend="italic">Moses describeth the righteousness which is of the law, that
+                        the man which doeth those things shall live by them.</hi>
+                </p>
+                <p>
+                    <hi rend="italic">But the righteousness which is of faith speaketh on this wise:
+                        Say not in thine heart, Who shall ascend into heaven? (that is, to bring
+                        Christ down from above;)</hi>
+                </p>
+                <p>
+                    <hi rend="italic">Or, Who shall descend into the deep? (that is, to bring Christ
+                        again from the dead.)</hi>
+                </p>
+                <p>
+                    <hi rend="italic">But what saith it? The word is nigh thee, even in thy mouth
+                        and in thy heart; that is, the word of faith which we preach.</hi>
+                    <note place="foot" xml:id="ftn1" n="1">
+                        <p rend="footnote text">Matthew Henry had recognized the echoes here of Isa.
+                            59:21, ‘…in thy mouth’, and Jer. 31:33, ‘…in thy heart’; Poole and
+                            Wesley (in his <hi rend="italic">Notes</hi>) ignore these texts. All
+                            ignore the remarkable parallel in the Septuagint translation of Deut.
+                            30:11-14, which St. Paul would have known as a matter of course and
+                            would have taken as a reference to Torah: ‘For this Torah which I give
+                            thee this day is not too great nor too far from thee. It is not in
+                            heaven saying, “Who shall go up for us to heaven and take it for us?” …
+                            Nor is it beyond the sea saying, “Who will cross beyond the sea for us
+                            and receive it for us?” … But the word [i.e., God’s Torah] is near to
+                            thee, in thy mouth and in thy heart and in thy hands, to do it [i.e.,
+                            obey it].’ In Baruch 3:29 and 4 Esd. 4:7-9, it is denied that wisdom is
+                            so accessible to human grasp; see R. H. Charles, <hi rend="italic">Pseudepigrapha</hi> (Oxford, Clarendon Press, 1913), II.564-65. The
+                            parallel, cited by Sugden, I.132, to Jubilees 24:32, is merely verbal.
+                            The point here for Wesley is that St. Paul had then set the
+                            ‘righteousness of the law’ and the ‘righteousness of faith’ in
+                            antithesis as the contrast between the Adamic ‘covenant of works’ and
+                            the ‘covenant of grace which God through Christ hath established with
+                            men in all ages’. It is this contrast Wesley intends to stress here.</p>
+                    </note>
+                </p>
+            </epigraph>
+            <div type="introduction">
+                <p n="1">1. The Apostle does not here oppose the covenant given by Moses to the
+                    covenant given by Christ. If we ever imagined this it was for want of observing
+                    that the latter as well as the former part of these words were spoken by Moses
+                    himself to the people of Israel, and that concerning the covenant which then
+                        was.<hi rend="endnote_reference">
+                        <note place="end">
+                            <p rend="endnote text">Deut. 30:11, 12, 14.</p>
+                        </note>
+                    </hi> But it is <pb n="203"/>the
+                    covenant of <hi rend="italic">grace</hi> which God through Christ hath
+                    established with men in all ages (as well before, and under the Jewish
+                    dispensation, as since God was manifest in the flesh), which St. Paul here
+                    opposes to the covenant of <hi rend="italic">works</hi>, made with Adam while in
+                    paradise, but commonly supposed to be the only covenant which God had made with
+                    man, particularly by those Jews of whom the Apostle writes.<note place="foot" xml:id="ftn2" n="2">
+                        <p rend="footnote text">This dialectic between the two
+                            covenants of works and grace had not been central in Latin or Lutheran
+                            theologies, but had been for Reformed dogmatics in general (see Heinrich
+                            Heppe, <hi rend="italic">Reformed Dogmatics</hi>, ch. xvi, pp. 371-409);
+                            Wesley would have come by it through the Puritans (Ames and Perkins, and
+                            espec. the <hi rend="italic">Westminster Confession</hi>, VII.2 ff.). A
+                            classical statement of ‘covenant soteriology’ was in Cocceius, <hi rend="italic">Summa doctrinae</hi> (1648); see above, p. 81. For
+                            Wesley’s interest in this idea see in his selections in the <hi rend="italic">Christian Lib.</hi>, especially John Preston, ‘The New
+                            Covenant or the Saints’ Portion’ (1629), x.81-84; Isaac Ambrose,
+                            ‘Looking Unto Jesus’ (1658), Bk. II, ch. ii, Sect. II, in
+                            XIV.85-99;Jeremy Taylor, <hi rend="italic">Holy Dying</hi> (ch. v, Sect.
+                            iv, XVI.200-3; William Beveridge, ‘Thoughts on Religion’, Arts. IX, X,
+                            XLVII.61-78. Wesley’s own variations on this theme may be seen in Nos.
+                            12, ‘The Witness of Our Own Spirit’, §20; 35, ‘The Law Established
+                            through Faith, I’, II.3-4; 127, ‘On the Wedding Garment’, §19. Cf. also
+                                <hi rend="italic">Minutes</hi>, May 13, 1746, and <hi rend="italic">Notes</hi> on Heb. 8:8.</p>
+                    </note>
+                </p>
+                <p n="2">2. Of these it was that he so affectionately speaks in the beginning of
+                    this chapter. ‘My heart’s desire and prayer to God for Israel is, that they may
+                    be saved. For I bear them record that they have a zeal for God, but not
+                    according to knowledge. For they, being ignorant of God’s righteousness’ (of the
+                    justification that flows from his mere grace and mercy, freely forgiving our
+                    sins through the Son of his love, through the redemption which is in
+                        Jesus),<note place="foot" xml:id="ftn3" n="3">
+                        <p rend="footnote text">See
+                            Rom. 3:24.</p>
+                    </note> ‘and seeking to establish their own righteousness’
+                    (their own holiness, antecedent to faith in ‘him that justifieth the
+                        ungodly’,<note place="foot" xml:id="ftn4" n="4">
+                        <p rend="footnote text">Rom.
+                            4:5.</p>
+                    </note> as the ground of their pardon and acceptance), ‘have not
+                    submitted themselves unto the righteousness of God’,<note place="foot" xml:id="ftn5" n="5">
+                        <p rend="footnote text">Cf. Rom. 10:1-3.</p>
+                    </note> and
+                    consequently seek death in the error of their life.<note place="foot" xml:id="ftn6" n="6">
+                        <p rend="footnote text">See Wisd. 1:12. For Wesley’s
+                            other uses of this text from an Apocryphal book, cf. Nos. 21, ‘Sermon on
+                            the Mount, I’, §3; 40, <hi rend="italic">Christian Perfection</hi>, I.4;
+                            65, ‘The Duty of Reproving our Neighbour’, II.3; 115, ‘Dives and
+                            Lazarus’, III.2; and 127, ‘On the Wedding Garment’, §11.</p>
+                    </note>
+                </p>
+                <p n="3">3. They were ignorant that ‘Christ is the end of the law for righteousness
+                    to everyone that believeth;’<note place="foot" xml:id="ftn7" n="7">
+                        <p rend="footnote text">Rom. 10:4.</p>
+                    </note> that by the oblation of <pb n="204"/>himself once offered<note place="foot" xml:id="ftn8" n="8">
+                        <p rend="footnote text">BCP, Communion, Prayer of Consecration.</p>
+                    </note>
+                    he had put an end to the first law or covenant (which indeed was not given by
+                    God to Moses, but to Adam in his state of innocence), the strict tenor whereof,
+                    without any abatement, was, ‘Do this and live;’<note place="foot" xml:id="ftn9" n="9">
+                        <p rend="footnote text">Cf. Gen. 42:18 ; Luke 10:28. In the Colman
+                            Collection Vol. XX, there is a MS in Wesley’s hand entitled, ‘The Duty
+                            of Receiving the Lord’s Supper’, extracted (in part) from Robert Nelson,
+                                <hi rend="italic">The Great Duty of Frequenting the Christian
+                                Sacrifice</hi> (1711), but with additions from Wesley himself and
+                            other authors. The ‘covenant’ idea does not appear in Nelson but does in
+                            Wesley’s MS, fol. 18-23; see espec. fol. 18-19, where he has ‘Try to do
+                            this, and live.’ See <hi rend="italic">Bibliog</hi>, No. 412, and Vol. 8
+                            of this edn.</p>
+                    </note> and at the same time purchased for us that
+                    better covenant, ‘Believe and live:’ ‘Believe and thou shalt be saved;’<note place="foot" xml:id="ftn10" n="10">
+                        <p rend="footnote text">Cf. Acts
+                            16:31.</p>
+                    </note> now saved both from the guilt and power of sin, and of
+                    consequence from the wages of it.</p>
+                <p n="4">4. And how many are equally ignorant now, even among those who are called
+                    by the name of Christ? How many who have now a ‘zeal for God’, yet have it not
+                    ‘according to knowledge’, but are still ‘seeking to establish their own
+                    righteousness’ as the ground of their pardon and acceptance, and therefore
+                    vehemently refuse to ‘submit themselves unto the righteousness of God’?<note place="foot" xml:id="ftn11" n="11">
+                        <p rend="footnote text">Cf. Rom.
+                            10:2-3.</p>
+                    </note> Surely my heart’s desire and prayer to God for you,
+                    brethren, is that ye may be saved.<note place="foot" xml:id="ftn12" n="12">
+                        <p rend="footnote text">See Rom. 10:1.</p>
+                    </note> And in order to remove
+                    this grand stumbling-block out of your way I will endeavour to show, first, what
+                    ‘the righteousness’ is ‘which is of the law’, and what ‘the righteousness which
+                    is of faith’; secondly, the folly of trusting in ‘the righteousness…of the law’,
+                    and the wisdom of ‘submitting to that which is of faith’.</p>
+            </div>
+            <div type="section" n="1">
+                <p n="1">I. 1. And, first, ‘The righteousness which is of the law saith, The man
+                    which doth these things shall live by them.’ Constantly and perfectly observe
+                    all these things, to do them, and then thou shalt live for ever.<note place="foot" xml:id="ftn13" n="13">
+                        <p rend="footnote text">Cf. this text
+                            expounded literally in Wesley’s sermon on Gen. 1:27, No. 141, ‘The Image
+                            of God’, II.1.</p>
+                    </note> This law or covenant (usually called the
+                    covenant of <hi rend="italic">works</hi>) given by God to man in paradise,
+                    required an obedience perfect in all its parts, entire and wanting nothing, as
+                    the condition of his eternal continuance in the holiness and happiness wherein
+                    he was created.</p>
+                <p n="2">2. It required that man should fulfil all righteousness, inward and
+                    outward, negative and positive: that he should not only abstain from every idle
+                    word, and avoid every evil work, but <pb n="205"/>should keep every affection,
+                    every desire, every thought, in obedience to the will of God; that he should
+                    continue holy, as he which had created him was holy, both in heart and in all
+                    manner of conversation; that he should continue holy, as he which had created
+                    him was holy, both in heart and in all manner of conversation; that he should be
+                    pure in heart, even as God is pure, perfect as his Father in heaven was
+                        perfect;<note place="foot" xml:id="ftn14" n="14">
+                        <p rend="footnote text">See
+                            Matt. 5:48.</p>
+                    </note> that he should love the Lord his God with all his
+                    heart, with all his soul, with all his mind, and with all his strength;<note place="foot" xml:id="ftn15" n="15">
+                        <p rend="footnote text">See Matt. 22:37,
+                            etc.</p>
+                    </note> that he should love every soul which God had made even
+                    as God had loved him; that by this universal benevolence he should ‘dwell in God
+                    (who is love) and God in him’;<note place="foot" xml:id="ftn16" n="16">
+                        <p rend="footnote text">Cf. 1 John 4:16.</p>
+                    </note> that he should serve
+                    the Lord his God with all his strength, and in all things singly aim at his
+                    glory.</p>
+                <p n="3">3. These were the things which the righteousness of the law required, that
+                    he who did them might live thereby. But it farther required that this entire
+                    obedience to God, this inward and outward holiness, this conformity both of
+                    heart and life to his will, should be perfect in <hi rend="italic">degree</hi>.
+                    No abatement, no allowance could possibly be made for falling short in any
+                    degree as to any jot or tittle either of the outward or the inward law. If every
+                    commandment relating to outward things was obeyed, yet that was not sufficient
+                    unless every one was obeyed with all the strength, in the highest measure and
+                    most perfect manner. Nor did it answer the demand of this covenant to love God
+                    with every power and faculty, unless he were loved with the full capacity of
+                    each, with the whole possibility of the soul.</p>
+                <p n="4">4. One thing more was indispensably required by the righteousness of the
+                    law, namely that this universal obedience, this perfect holiness both of heart
+                    and life, should be perfectly uninterrupted also, should continue without any
+                    intermission from the moment wherein God created man, and breathed into his
+                    nostrils the breath of life, until the days of his trial should be ended, and he
+                    should be confirmed in life everlasting.</p>
+                <p n="5">5. The righteousness, then, which is of the law speaketh on this wise.
+                    ‘Thou, O man of God, stand fast in love, in the image of God wherein thou art
+                    made. If thou wilt remain in life, keep the commandments which are now written
+                    in thy heart. Love the Lord thy God with all thy heart. Love as thyself every
+                    soul that he hath made. Desire nothing but God. Aim at God in every thought, in
+                    every word and work. Swerve not in one motion of <pb n="206"/>body or soul from
+                    him, thy mark, and the prize of thy high calling.<note place="foot" xml:id="ftn17" n="17">
+                        <p rend="footnote text">See Phil. 3:14.</p>
+                    </note> And
+                    let all that is in thee praise his holy name,<note place="foot" xml:id="ftn18" n="18">
+                        <p rend="footnote text">See Ps. 103:1.</p>
+                    </note> every power and
+                    faculty of thy soul, in every kind, in every degree, and at every moment of
+                    thine existence. “This do, and thou shalt live;”<note place="foot" xml:id="ftn19" n="19">
+                        <p rend="footnote text">Luke 10:28. Cf. Ezek. 18:19,
+                            22; 33:13.</p>
+                    </note> thy light shall shine, thy love shall flame more
+                    and more, till thou art received up into the house of God in the heavens, to
+                    reign with him for ever and ever.’<note place="foot" xml:id="ftn20" n="20">
+                        <p rend="footnote text">Wesley belabours this demand for absolute
+                            perfection to underscore the glaring contrast between human aspirations
+                            and the human actuality. But he also believed that since the ideal had
+                            been actual in Adam (see Nos. 141, ‘The Image of God’; and 76, ‘On
+                            Perfection’, I.1 ff.), we may look forward to its restoration as the
+                                ‘<hi rend="italic">fullness</hi> of salvation’. This notion of
+                            salvation as the recovery of the <hi rend="italic">imago Dei</hi> is a
+                            basic Wesleyan theme; cf. No. 1, <hi rend="italic">Salvation by
+                                Faith</hi>, §1 and n.</p>
+                    </note>
+                </p>
+                <p n="6">6. ‘But the righteousness which is of faith speaketh on this wise: Say not
+                    in thine heart, Who shall ascend into heaven? that is, to bring down Christ from
+                    above’ (as though it were some impossible task which God required thee
+                    previously to perform in order to thine acceptance); ‘or, Who shall descend into
+                    the deep? that is, to bring up Christ from the dead’ (as though that were still
+                    remaining to be done for the sake of which thou wert to be accepted). ‘But what
+                    saith it? The word’ (according to the tenor of which thou mayest now be accepted
+                    as an heir of life eternal) ‘is nigh thee, even in thy mouth and in thy heart;
+                    that is, the word of faith which we preach,’ the new covenant which God hath now
+                    established with sinful man through Christ Jesus.<note place="foot" xml:id="ftn21" n="21">
+                        <p rend="footnote text">Cf. Heb. 8:8, 13; 12:24. See
+                            also Jer. 31:31; 32:40.</p>
+                    </note>
+                </p>
+                <p n="7">7. By ‘the righteousness which is of faith’ is meant that condition of
+                    justification (and in consequence of present and final salvation, if we endure
+                    therein unto the end)<note place="foot" xml:id="ftn22" n="22">
+                        <p rend="footnote text">I.e., double justification. See above, No. 5,
+                            ‘Justification by Faith’, II.5 and n.; see also Wesley’s letters to
+                            Thomas Church, Feb. 2, 1745, and June 17, 1746, and his <hi rend="italic">Letter to a Gentleman at Bristol</hi>, Jan. 6, 1758.
+                            Cf. his <hi rend="italic">Remarks on Mr. Hill’s Review</hi> and <hi rend="italic">Remarks on Mr. Hill’s Farrago Double-Distilled</hi>
+                                (<hi rend="italic">Bibliog</hi>, Nos. 341, 345, both in Vol. 13 of
+                            this edn.)</p>
+                        <p rend="footnote text">For some of Wesley’s sources here,
+                            cf. Richard Baxter, <hi rend="italic">Confession</hi> (1655), pp. 297,
+                            344 ff., 362-63; John Goodwin, <hi rend="italic">Imputatio Fidei</hi>,
+                            ch. 3 (1); <hi rend="italic">Common Places of Martin Bucer</hi>, tr. and
+                            ed. by D. F. Wright, in <hi rend="italic">The Courtenay Library of
+                                Reformation Classics</hi> (Appleford, Abingdon, Berks., England, The
+                            Sutton Courtenay Press, 1972), IV.162.</p>
+                    </note> which was given by God
+                    to <hi rend="italic">fallen man</hi> through the merits and mediation of his
+                    only begotten Son. This was in part revealed to Adam soon after his fall, being
+                    contained in the original promise made to him and his seed concerning the seed
+                    of the woman, who should ‘bruise the serpent’s head’.<hi rend="endnote_reference">
+                        <note place="end">
+                            <p rend="endnote text">Gen.
+                                3:15.</p>
+                        </note>
+                    </hi> It was a little more clearly revealed to
+                    Abraham <pb n="207"/>by the angel of God from heaven, saying, ‘By myself have I
+                    sworn, saith the Lord’, that ‘in thy seed shall all the nations of the earth be
+                        blessed.’<note place="foot" xml:id="ftn23" n="23">
+                        <p rend="footnote text">Gen. 22:16, 18.</p>
+                    </note> It was yet more fully made known to Moses,
+                    to David, and to the prophets that followed; and through them to many of the
+                    people of God in their respective generations. But still the bulk even of these
+                    were ignorant of it; and very few understood it clearly. Still ‘life and
+                    immortality’ were not so ‘brought to light’ to the Jews of old as they are now
+                    unto us ‘by the gospel’.<note place="foot" xml:id="ftn24" n="24">
+                        <p rend="footnote text">2 Tim. 1:10.</p>
+                    </note>
+                </p>
+                <p n="8">8. Now this covenant saith not to sinful man, ‘Perform unsinning obedience
+                    and live.’ If this were the term, he would have no more benefit by all which
+                    Christ hath done and suffered for him than if he was required, in order to
+                        life,<note place="foot" xml:id="ftn25" n="25">
+                        <p rend="footnote text">‘Life’
+                            rather than an expected ‘live’ appears in all edns. Wesley is evidently
+                            here balancing the noun ‘life’, as a state of being against its antonym,
+                            ‘the dead’.</p>
+                    </note> to ‘ascend into heaven and bring down Christ from
+                    above’; or to ‘descend into the deep’, into the invisible world, and ‘bring up
+                    Christ from the dead’. It doth not require any impossibility to be done
+                    (although to mere man what it requires would be impossible, but not to man
+                    assisted by the Spirit of God); this were only to mock human weakness. Indeed,
+                    strictly speaking, the covenant of <hi rend="italic">grace</hi> doth not require
+                    us to <hi rend="italic">do</hi> anything at all, as absolutely and indispensably
+                    necessary in order to our justification, but only to <hi rend="italic">believe</hi> in him who for the sake of his Son and the propitiation which
+                    he hath made, ‘justifieth the ungodly that worketh not’, and ‘imputes his faith
+                    to him for righteousness’.<note place="foot" xml:id="ftn26" n="26">
+                        <p rend="footnote text">Cf. Rom. 4:5.</p>
+                    </note> Even so Abraham ‘believed
+                    in the Lord; and he counted it to him for righteousness’.<hi rend="endnote_reference">
+                        <note place="end">
+                            <p rend="endnote text">Gen.
+                                15:6.</p>
+                        </note>
+                    </hi> ‘And he received the sign of circumcision, a
+                    seal of the righteousness of faith…; that he might be the father of all them
+                    that believe…; that righteousness might be imputed unto them also.’<hi rend="endnote_reference">
+                        <note place="end">
+                            <p rend="endnote text">Rom.
+                                4:11.</p>
+                        </note>
+                    </hi> ‘Now it was not written for his sake alone
+                    that it (i.e. faith) was imputed to him; but for us also, to whom it shall be
+                    imputed’ (to whom faith shall be imputed for righteousness, shall stand in the
+                    stead of <pb n="208"/>perfect obedience, in order to our acceptance with God)
+                    ‘if we believe on him who raised up Jesus our Lord from the dead; who was
+                    delivered’ to death ‘for our offences, and was raised again for our
+                        justification’,<hi rend="endnote_reference">
+                        <note place="end">
+                            <p rend="endnote text">Rom. 4:23-25.</p>
+                        </note>
+                    </hi> ‘for the assurance
+                    of the remission of our sins, and of a second life to come to them that
+                        believe.’<note place="foot" xml:id="ftn27" n="27">
+                        <p rend="footnote text">π;
+                            The same point, in nearly these words, is made by John Goodwin, <hi rend="italic">Imputatio Fidei</hi>, pp. 15-18.</p>
+                    </note>
+                </p>
+                <p n="9">9. What saith then the covenant of forgiveness, of unmerited love, of
+                    pardoning mercy? ‘Believe in the Lord Jesus Christ, and thou shalt be
+                        saved.’<note place="foot" xml:id="ftn28" n="28">
+                        <p rend="footnote text">Acts
+                            16:31.</p>
+                    </note> In the day thou believest, thou shalt surely live.
+                    Thou shalt be restored to the favour of God; and in his pleasure is life. Thou
+                    shalt be saved from the curse and from the wrath of God. Thou shalt be quickened
+                    from the death of sin into the life of righteousness. And if thou endure to the
+                    end, believing in Jesus, thou shalt never taste the second death, but having
+                    suffered with the Lord shalt also live and reign with him for ever and ever.</p>
+                <p n="10">10. Now ‘this word is nigh thee’. This condition of life is plain, easy,
+                    always at hand. ‘It is in thy mouth and in thy heart’ through the operation of
+                    the Spirit of God. The moment ‘thou believest in thine heart in him whom God
+                    hath raised from the dead, and confessest with thy mouth the Lord Jesus as thy
+                    Lord and thy God, thou shalt be saved’<note place="foot" xml:id="ftn29" n="29">
+                        <p rend="footnote text">Cf. Rom. 10:8-9.</p>
+                    </note> from condemnation,
+                    from the guilt and punishment of thy <hi rend="italic">former</hi> sins, and
+                    shalt have power to serve God in true holiness all the <hi rend="italic">remaining</hi> days of thy life.</p>
+                <p n="11">11. What is the difference then between the ‘righteousness which is of the
+                    law’ and the ‘righteousness which is of faith’? Between the first covenant, or
+                    the covenant of works, and the second, the covenant of grace? The essential,
+                    unchangeable difference is this: the one supposes him to whom it is given to be
+                    already holy and happy,<note place="foot" xml:id="ftn30" n="30">
+                        <p rend="footnote text">Cf. No. 5, ‘Justification by Faith’, I.4 and
+                        n.</p>
+                    </note> created in the image and enjoying the favour of God; and
+                    prescribes the condition whereon he may continue therein, in love and joy, life
+                    and immortality. The other supposes him to whom it is given to be now unholy and
+                    unhappy; fallen short of the glorious image of God, having the wrath of God
+                    abiding on him,<note place="foot" xml:id="ftn31" n="31">
+                        <p rend="footnote text">See John 3:36.</p>
+                    </note> and hastening through sin, whereby his soul
+                    is <pb n="209"/>dead, to bodily death and death everlasting. And to man in this
+                    state it prescribes the condition whereon he may regain the pearl he has lost;
+                    may recover the favour, and the image of God, may retrieve the life of God in
+                    his soul, and be restored to the knowledge and the love of God, which is the
+                    beginning of life eternal.</p>
+                <p n="12">12. Again, the covenant of works, in order to man’s <hi rend="italic">continuance</hi> in the favour of God, in his knowledge and love, in
+                    holiness and happiness, required of perfect man a <hi rend="italic">perfect</hi>
+                    and uninterrupted <hi rend="italic">obedience</hi> to every point of the law of
+                    God; whereas the covenant of grace, in order to man’s <hi rend="italic">recovery</hi> of the favour and life of God, requires only <hi rend="italic">faith</hi>—living faith in him who through God justifies him
+                    that <hi rend="italic">obeyed not</hi>.</p>
+                <p n="13">13. Yet again: the covenant of works required of Adam and all his children
+                    to <hi rend="italic">pay the price themselves</hi>, in consideration of which
+                    they were to receive all the future blessings of God. But in the covenant of
+                    grace, seeing we have nothing to pay, God ‘frankly forgives us all’;<note place="foot" xml:id="ftn32" n="32">
+                        <p rend="footnote text">Cf. Luke
+                            7:42.</p>
+                    </note> provided only that we believe in him who hath <hi rend="italic">paid the price for us</hi>; who hath given himself a
+                    ‘propitiation for our sins, for the sins of the whole world’.<note place="foot" xml:id="ftn33" n="33">
+                        <p rend="footnote text">1 John 2:2.</p>
+                    </note>
+                </p>
+                <p n="14">14. Thus the first covenant required what is now <hi rend="italic">afar
+                        off</hi> from all the children of men, namely, unsinning obedience, which is
+                    far from those who are ‘conceived and born in sin’;<note place="foot" xml:id="ftn34" n="34">
+                        <p rend="footnote text">Cf. Ps. 51:5. See also BCP,
+                            Baptism, Exhortation. This phrase, borrowed by Cranmer from Archbishop
+                            Herman von Wied, remains in the Church of England text. The idea in
+                            altered forms is retained in the Scottish and South African rites; the
+                            phrase was dropped from the American Episcopal Prayer Book in
+                        1928.</p>
+                    </note> whereas the second requires what is nigh at hand, as though
+                    it should say, Thou art sin: God is love. Thou by sin art fallen short of the
+                    glory of God; yet there is mercy with him. Bring then all thy sins to the
+                    pardoning God, and they shall vanish away as a cloud. If thou wert not ungodly
+                    there would be no room for him to justify thee as ungodly. But now draw near, in
+                    full assurance of faith. He speaketh, and it is done. Fear not, only believe;
+                    for even the just God ‘justifieth all that believe in Jesus’.<note place="foot" xml:id="ftn35" n="35">
+                        <p rend="footnote text">Cf. Rom. 4:5.</p>
+                    </note>
+                </p>
+            </div>
+            <div type="section" n="2">
+                <p n="1">II. 1. These things considered, it will be easy to show, as I proposed to
+                    do in the second place, the folly of trusting in the ‘righteousness which is of
+                    the law’, and the wisdom of ‘submitting to the righteousness which is of
+                        faith’.<pb n="210"/>
+                </p>
+                <p>The folly of those who still trust in the ‘righteousness which is of the law’,
+                    the terms of which are, ‘Do this and live,’ may abundantly appear from
+                        hence.<note place="foot" xml:id="ftn36" n="36">
+                        <p rend="footnote text">Orig.
+                            (1746 and 1754), ‘thence’, altered in Wesley’s hand in Vol. 1 of his <hi rend="italic">Works</hi>, and in the printed errata to that volume;
+                            in this instance the revision had also been made in 1769 (followed by
+                            1787), while the <hi rend="italic">Works</hi> followed the text of
+                            1754.</p>
+                    </note> They set out wrong. Their very first step is a
+                    fundamental mistake. For before they can ever think of claiming any blessing on
+                    the terms of this covenant, they must suppose themselves to be in his state with
+                    whom this covenant was made. But how vain a supposition is this, since it was
+                    made with Adam in a state of innocence. How weak therefore must that whole
+                    building be which stands on such a foundation! And how foolish are they who thus
+                    build on the sand!<note place="foot" xml:id="ftn37" n="37">
+                        <p rend="footnote text">See Matt. 7:26-27.</p>
+                    </note> Who seem never to
+                    have considered that the covenant of works was not given to man when he was dead
+                    in trespasses and sins,<note place="foot" xml:id="ftn38" n="38">
+                        <p rend="footnote text">Eph. 2:1.</p>
+                    </note> but when he was alive to God,
+                    when he knew no sin, but was holy as God is holy;<note place="foot" xml:id="ftn39" n="39">
+                        <p rend="footnote text">2 Cor. 5:21; cf. 1 Pet.
+                            1:16.</p>
+                    </note> who forget that it was never designed for the <hi rend="italic">recovery</hi> of the favour and life of God once lost, but
+                    only for the <hi rend="italic">continuance</hi> and increase thereof, till it
+                    should be complete in life everlasting.<note place="foot" xml:id="ftn40" n="40">
+                        <p rend="footnote text">Note how the covenant of works is reinstated
+                            here, by implication, for those who have been justified (who have thus
+                            recovered ‘the favour and life of God once lost’) and have thus been
+                            started on their way to sanctification. Cf. Nos. 27, ‘Sermon on the
+                            Mount, VII’, §2; 35, ‘The Law Established through Faith, I’, II.6; and
+                            45, ‘The New Birth’, III.1. Cf. also JWJ, Jan. 11, 1744, and <hi rend="italic">Notes</hi> for Jas. 2:22.</p>
+                    </note>
+                </p>
+                <p n="2">2. Neither do they consider, who are thus ‘seeking to establish their own
+                    righteousness which is of the law’, what manner of obedience or righteousness
+                    that is which the law indispensably requires. It must be perfect and entire in
+                    every point, or it answers not the demand of the law. But which of you is able
+                    to perform such obedience? Or, consequently, to live thereby? Who among you
+                    fulfils every jot and tittle even of the outward commandments of God? Doing
+                    nothing, great or small, which God forbids? Leaving nothing undone which he
+                    enjoins? Speaking no ‘idle word’?<note place="foot" xml:id="ftn41" n="41">
+                        <p rend="footnote text">Matt. 12:36.</p>
+                    </note> Having your conversation
+                    always ‘meet to minister grace to the hearers’?<note place="foot" xml:id="ftn42" n="42">
+                        <p rend="footnote text">Cf. Eph. 4:29.</p>
+                    </note> And ‘whether you
+                    eat or drink, or whatever you do, doing all to the glory of God’?<note place="foot" xml:id="ftn43" n="43">
+                        <p rend="footnote text">Cf. 1 Cor.
+                            10:31.</p>
+                    </note> And how much less are you able to fulfil all the
+                    inward commandments of God? Those which require that every temper and motion of
+                    your soul should be holiness unto the Lord? Are you able to ‘love God with all
+                    your <pb n="211"/>heart’?<note place="foot" xml:id="ftn44" n="44">
+                        <p rend="footnote text">Cf. Deut. 6:5; Matt. 22:37, etc.</p>
+                    </note> To love
+                    all mankind as your own soul? To ‘pray without ceasing’? ‘In everything to give
+                        thanks’?<note place="foot" xml:id="ftn45" n="45">
+                        <p rend="footnote text">1
+                            Thess. 5:17-18.</p>
+                    </note> To have God always before you? And to keep
+                    every affection, desire, and thought in obedience to his law?</p>
+                <p n="3">3. You should farther consider that the righteousness of the law requires,
+                    not only the obeying every command of God, negative and positive, internal and
+                    external, but likewise in the perfect degree. In every instance whatever the
+                    voice of the law is, ‘Thou shalt serve the Lord thy God with all thy
+                        strength.’<note place="foot" xml:id="ftn46" n="46">
+                        <p rend="footnote text">Cf. Mark 12:30; Luke 10:27.</p>
+                    </note> It allows no abatement of any
+                    kind. It excuses no defect. It condemns every coming short of the full measure
+                    of obedience, and immediately pronounces a curse on the offender. It regards
+                    only the invariable rules of justice, and saith, ‘I know not to show
+                        mercy.’<note place="foot" xml:id="ftn47" n="47">
+                        <p rend="footnote text">This, of course, was the point at issue in Shakespeare, <hi rend="italic">The Merchant of Venice</hi>, which Wesley not only
+                            knew but annotated; cf. IV. i. 179-82:</p>
+                        <lg>
+                            <l>…In the course of justice none of us</l>
+                            <l>Should see salvation: we do pray for mercy,</l>
+                            <l>And that same prayer doth teach us all to render</l>
+                            <l>The deeds of mercy.</l>
+                        </lg>
+                        <p rend="footnote text">See also Jas. 2:13.</p>
+                    </note>
+                </p>
+                <!--The note about Jas. 2:13 is also part of footnote 47.-->
+                <p n="4">4. Who then can appear before such a Judge, who is ‘extreme to mark what is
+                    done amiss’?<note place="foot" xml:id="ftn48" n="48">
+                        <p rend="footnote text">Ps.
+                            130:3 (BCP).</p>
+                    </note> How weak are they who desire to be tried at the
+                    bar where ‘no flesh living can be justified’!<note place="foot" xml:id="ftn49" n="49">
+                        <p rend="footnote text">Cf. Ps. 143:2; Rom. 3:20; Gal.
+                        2:16.</p>
+                    </note>—none of the offspring of Adam. For suppose we did now keep
+                    every commandment with all our strength; yet one single breach which ever was
+                    utterly destroys our whole claim to life. If we have ever offended, in any one
+                    point, this righteousness is at an end. For the law condemns all who do not
+                    perform uninterrupted as well as perfect obedience. So that according to the
+                    sentence of this, for him who hath once sinned, in any degree, ‘there remaineth
+                    only a fearful looking for of fiery indignation which shall devour the
+                        adversaries’<note place="foot" xml:id="ftn50" n="50">
+                        <p rend="footnote text">Cf. Heb. 10:26-27.</p>
+                    </note> of God.</p>
+                <p n="5">5. Is it not then the very foolishness of folly<note place="foot" xml:id="ftn51" n="51">
+                        <p rend="footnote text">Cf. Prov. 14:24; 15:2,
+                        14.</p>
+                    </note> for fallen man to seek life by this righteousness? For man,
+                    who was ‘shapen in wickedness’, and ‘in sin did his mother conceive him’;<note place="foot" xml:id="ftn52" n="52">
+                        <p rend="footnote text">Ps. 51:5
+                            (BCP).</p>
+                    </note> man, who <pb n="212"/>is by nature all ‘earthly,
+                    sensual, devilish’;<note place="foot" xml:id="ftn53" n="53">
+                        <p rend="footnote text">Jas. 3:15.</p>
+                    </note> altogether ‘corrupt and
+                        abominable’;<note place="foot" xml:id="ftn54" n="54">
+                        <p rend="footnote text">Cf. Ps. 53:1 (AV).</p>
+                    </note> in whom, till he find grace, ‘dwelleth no
+                    good thing’;<note place="foot" xml:id="ftn55" n="55">
+                        <p rend="footnote text">Rom. 7:18.</p>
+                    </note> nay, who cannot of himself think one good
+                    thought? Who is indeed all sin, a mere lump of ungodliness, and who commits sin
+                    in every breath he draws; whose actual transgressions, in word and deed, are
+                    more in number than the hairs of his head! What stupidity, what senselessness
+                    must it be for such an unclean, guilty, helpless worm as this to dream of
+                    seeking acceptance by ‘his own righteousness’, of living by ‘the righteousness
+                    which is of the law’!</p>
+                <p n="6">6. Now whatsoever considerations prove the folly of trusting in the
+                    ‘righteousness which is of the law’ prove equally the wisdom of submitting to
+                    ‘the righteousness which is of God by faith’.<note place="foot" xml:id="ftn56" n="56">
+                        <p rend="footnote text">Phil. 3:9.</p>
+                    </note> This were easy to be
+                    shown with regard to each of the preceding considerations. But to waive this,
+                    the wisdom of the first step hereto, the disclaiming our own righteousness,
+                    plainly appears from hence, that it is acting according to truth, to the real
+                    nature of things. For what is it more than to acknowledge with our heart as well
+                    as lips the true state wherein we are?<note place="foot" xml:id="ftn57" n="57">
+                        <p rend="footnote text">I.e., repentance; cf. No. 7, ‘The Way to the
+                            Kingdom’, II.1 and n.</p>
+                    </note> To acknowledge that we bring with us
+                    into the world a corrupt, sinful nature; more corrupt indeed than we can easily
+                    conceive, or find words to express? That hereby we are prone to all that is
+                    evil, and averse from all that is good; that we are full of pride, self-will,
+                    unruly passions, foolish desires; vile and inordinate affections; lovers of the
+                    world, lovers of pleasure more than lovers of God?<note place="foot" xml:id="ftn58" n="58">
+                        <p rend="footnote text">See 2 Tim. 3:4.</p>
+                    </note>
+                    That our lives have been no better than our hearts, but many ways ungodly and
+                    unholy, insomuch that our actual sins, both in word and deed, have been as the
+                    stars of heaven for multitude?<note place="foot" xml:id="ftn59" n="59">
+                        <p rend="footnote text">Deut. 1:10; 10:22; 28:62.</p>
+                    </note> That on all
+                    these accounts we are displeasing to him who is of purer eyes than to behold
+                        iniquity,<note place="foot" xml:id="ftn60" n="60">
+                        <p rend="footnote text">See Hab. 1:13.</p>
+                    </note> and deserve nothing from him but indignation
+                    and wrath and death, the due wages of sin?<note place="foot" xml:id="ftn61" n="61">
+                        <p rend="footnote text">See Rom. 6:23.</p>
+                    </note> That we cannot by
+                    any of our righteousness (for indeed we have none at all) nor by any of our
+                    works (for they are as the tree from which they grow) appease the wrath of God,
+                    or avert the punishment we have justly deserved? Yea, that if left to ourselves
+                    we shall only wax worse and <pb n="213"/>worse, sink deeper and deeper into sin,
+                    offend God more and more both with our evil works and with the evil tempers of
+                    our carnal mind, till we fill up the measure of our iniquities, and bring upon
+                    ourselves swift destruction?<note place="foot" xml:id="ftn62" n="62">
+                        <p rend="footnote text">Cf. 2 Pet. 2:1.</p>
+                    </note> And is not this the very
+                    state wherein by nature we are? To acknowledge this, then, both with our heart
+                    and lips, that is, to disclaim our own righteousness, ‘the righteousness which
+                    is of the law’, is to act according to the real nature of things, and
+                    consequently is an instance of true wisdom.</p>
+                <p n="7">7. The wisdom of submitting to ‘the righteousness of faith’ appears farther
+                    from this consideration, that it is ‘the righteousness of God’. I mean here, it
+                    is that method of reconciliation with God which hath been chosen and established
+                    by God himself, not only as he is the God of wisdom, but as he is the sovereign
+                    Lord of heaven and earth, and of every creature which he hath made. Now as it is
+                    not meet for man to say unto God, ‘What dost thou?’—as none who is not utterly
+                    void of understanding will contend with one that is mightier than he, with him
+                    whose kingdom ruleth over all—so it is true wisdom, it is a mark of a sound
+                    understanding, to acquiesce in whatever he hath chosen, to say in this as in all
+                    things, ‘It is the Lord; let him do what seemeth him good.’<note place="foot" xml:id="ftn63" n="63">
+                        <p rend="footnote text">1 Sam. 3:18.</p>
+                    </note>
+                </p>
+                <p n="8">8. It may be farther considered that it was of mere grace, of free love, of
+                    undeserved mercy, that God hath vouchsafed to sinful man any way of
+                    reconciliation with himself; that we were not cut away from his hand, and
+                    utterly blotted out of his remembrance. Therefore whatever method he is pleased
+                    to appoint, of his tender mercy, of his unmerited goodness, whereby his enemies,
+                    who have so deeply revolted from him, so long and obstinately rebelled against
+                    him, may still find favour in his sight, it is doubtless our wisdom to accept it
+                    with all thankfulness.</p>
+                <p n="9">9. To mention but one consideration more. It is wisdom to aim at the best
+                    end by the best means.<note place="foot" xml:id="ftn64" n="64">
+                        <p rend="footnote text">Cf. St. Thomas, <hi rend="italic">Summa
+                                Theologica</hi>, II. ii, Q. 45.</p>
+                    </note> Now the best end which
+                    any creature can pursue is happiness in God.<note place="foot" xml:id="ftn65" n="65">
+                        <p rend="footnote text">Here Wesley’s eudaemonism is explicitly
+                            stated and linked to its premise ‘in God’ (μετουσία θεοῦ). This, too, is
+                            one of Wesley’s favourite themes. Cf. Nos. 17, ‘The Circumcision of the
+                            Heart’, I.12; 77, ‘Spiritual Worship’, III.6, 7; 87, ‘The Danger of
+                            Riches’, I.12 (for a negative statement); and 149, ‘On Love’, III.4. See
+                            also Wesley’s letters to Frances Godfrey, Aug. 2, 1789, and to Thomas
+                            Broadbent, Jan. 29, 1791.</p>
+                        <p rend="footnote text">Susanna Wesley held
+                            the same view. In a letter to her brother, Samuel Annesley, Jan. 20,
+                            1722, she had written: ‘Unspeakable are the blessings of privacy and
+                            leisure when the mind emerges from the corrupt animality to which she is
+                            united, and by a flight peculiar to her nature, soars beyond the bounds
+                            of time and place, in contemplation of the Invisible Supreme, whom she
+                            perceives to be her only happiness, her proper centre!’ (Moore, I.328).
+                            Cf. also John Norris, ‘Contemplation and Love’, in <hi rend="italic">A
+                                Collection of Miscellanies</hi> (1723), pp. 238-39, and Bishop
+                            Francis Gastrell, <hi rend="italic">The Certainty of Necessity of
+                                Religion in General</hi> (1697), 315, 317, 336. See also No. 5,
+                            ‘Justification by Faith’, I.4 and n.</p>
+                    </note> And the best end a <pb n="214"/>fallen creature can pursue is the recovery of the favour and image
+                    of God.<note place="foot" xml:id="ftn66" n="66">
+                        <p rend="footnote text">A
+                            distinctive emphasis here on justification as the recovery of the favour
+                            of God (the standard Protestant emphasis) but also the restoration of
+                            the lost image of God (the standard catholic emphasis); cf. above, No.
+                            1, <hi rend="italic">Salvation by Faith</hi>, §1 and n.</p>
+                    </note> But
+                    the best, indeed the only means under heaven given to man whereby he may regain
+                    the favour of God, which is better than life itself, or the image of God, which
+                    is the true life of the soul, is the submitting to the ‘righteousness which is
+                    of faith’, the believing in the only-begotten Son of God.<note place="foot" xml:id="ftn67" n="67">
+                        <p rend="footnote text">See John 3:18.</p>
+                    </note>
+                </p>
+            </div>
+            <div type="section" n="3">
+                <p n="1">III. 1. Whosoever therefore thou art who desirest to be forgiven and
+                    reconciled to the favour of God, do not say in thy heart, ‘I must <hi rend="italic">first do this</hi>: I must <hi rend="italic">first</hi>
+                    conquer every sin, break off every evil word and work, and do all good to all
+                    men; or I must <hi rend="italic">first</hi> go to Church, receive the Lord’s
+                    Supper, hear more sermons, and say more prayers.’<note place="foot" xml:id="ftn68" n="68">
+                        <p rend="footnote text">Cf. Wesley’s controversy with
+                            Philip Molther in JWJ, Dec. 31, 1739, over ‘the way to faith’, where
+                            Wesley takes a different line: ‘I believe [by contrast with Molther and
+                            the Moravians] it right for him who knows he has not faith…to go to
+                            church, to communicate, to fast’, etc. Here, then, is an illustration of
+                            Wesley’s way of shifting ground according to his opposition. Moravian
+                            antinomianism provoked him to defend ‘the means of grace’; Anglican
+                            over-confidence in the means of grace calls for a rebuke against any
+                            false reliance on them as <hi rend="italic">necessary conditions</hi> of
+                            justification.</p>
+                    </note> Alas, my brother, thou art clean gone out of
+                    the way. Thou art still ‘ignorant of the righteousness of God’, and art ‘seeking
+                    to establish thy own righteousness’<note place="foot" xml:id="ftn69" n="69">
+                        <p rend="footnote text">Cf. Rom. 10:3.</p>
+                    </note> as the ground of thy
+                    reconciliation. Knowest thou not that thou canst do nothing but sin till thou
+                    art reconciled to God? Wherefore then dost thou say, I must do this and this <hi rend="italic">first</hi>, and then I shall believe? Nay, but <hi rend="italic">first believe</hi>. Believe in the Lord Jesus Christ, the
+                    propitiation for thy sins.<note place="foot" xml:id="ftn70" n="70">
+                        <p rend="footnote text">See 1 John 2:2; 4:10.</p>
+                    </note> Let this good
+                    foundation <hi rend="italic">first</hi> be laid, and then thou shalt do all
+                    things well.<note place="foot" xml:id="ftn71" n="71">
+                        <p rend="footnote text">See
+                            Mark 7:37.</p>
+                    </note>
+                </p>
+                <p n="2">2. Neither say in thy heart, ‘I can’t be accepted yet because I am not <hi rend="italic">good enough</hi>.’ Who is good enough, who ever was, to merit
+                    acceptance at God’s hands? Was ever any child of Adam good enough for this? Or
+                    will any, till the consummation of all things? And as for thee, thou art not
+                    good at all; there dwelleth in thee no <pb n="215"/>good thing.<note place="foot" xml:id="ftn72" n="72">
+                        <p rend="footnote text">See Rom.
+                            7:18.</p>
+                    </note> And thou never wilt be till thou believe in Jesus.
+                    Rather thou wilt find thyself worse and worse. But is there any need of being
+                    worse in order to be accepted?<note place="foot" xml:id="ftn73" n="73">
+                        <p rend="footnote text">See Rom. 6:1, and Nos. 35, 36, ‘The Law Established
+                            through Faith’, Discourses I and II.</p>
+                    </note> Art thou not <hi rend="italic">bad enough</hi> already? Indeed thou art, and that God
+                    knoweth. And thou thyself canst not deny it. Then delay not. All things are now
+                    ready. ‘Arise, and wash away thy sins.’<note place="foot" xml:id="ftn74" n="74">
+                        <p rend="footnote text">Acts 22:16.</p>
+                    </note> The fountain is open.
+                    Now is the time to wash thee white in the blood of the Lamb. Now he shall ‘purge
+                    thee as with hyssop, and thou shalt be clean; he shall wash thee, and thou shalt
+                    be whiter than snow’.<note place="foot" xml:id="ftn75" n="75">
+                        <p rend="footnote text">Cf. Ps. 51:7.</p>
+                    </note>
+                </p>
+                <p n="3">3. Do not say, ‘But I am not <hi rend="italic">contrite enough</hi>: I am
+                    not sensible enough of my sins.’ I know it. I would to God thou wert more
+                    sensible of them, more contrite a thousandfold than thou art. But do not stay
+                    for this. It may be God will make thee so, not before thou believest, but by
+                    believing. It may be thou wilt not weep much till thou lovest much,<note place="foot" xml:id="ftn76" n="76">
+                        <p rend="footnote text">See Luke
+                            7:47-48.</p>
+                    </note> because thou hast had much forgiven. In the
+                    meantime, look unto Jesus.<note place="foot" xml:id="ftn77" n="77">
+                        <p rend="footnote text">See Heb. 12:2.</p>
+                    </note> Behold how he loveth
+                        thee!<note place="foot" xml:id="ftn78" n="78">
+                        <p rend="footnote text">See
+                            John 11:36.</p>
+                    </note> What could he have done more for thee which he
+                    hath not done?</p>
+                <p>
+                    <lg>
+                        <l>O Lamb of God, was ever pain,</l>
+                        <l>Was ever love like thine!</l>
+                        <note place="foot" xml:id="ftn79" n="79">
+                            <p rend="footnote text">Samuel Wesley, Sen. (1662-1735) closes ‘On the
+                                Crucifixion’ with these two lines. The poem was a favourite of the
+                                Wesleys, first published in John Wesley’s <hi rend="italic">Collection of Psalms and Hymns</hi> (Charleston, 1737)—where
+                                his father’s authorship is not credited—and frequently reprinted
+                                thereafter. Adam Clarke first identified the author and entitled the
+                                poem, ‘A Hymn on the Passion’. Sugden says that the MS of it was
+                                found in the Epworth Rectory garden after the fire of 1709. Cf.
+                                Wesley’s letter to Lady Maxwell, July 10, 1764.</p>
+                        </note>
+                    </lg>
+                </p>
+                <p>Look steadily upon him till he looks on thee, and breaks thy hard heart. Then
+                    shall thy ‘head be waters, and thy eyes fountains of tears’.<note place="foot" xml:id="ftn80" n="80">
+                        <p rend="footnote text">Cf. Jer. 9:1.</p>
+                    </note>
+                </p>
+                <p n="4">4. Nor yet do thou say, ‘I must <hi rend="italic">do</hi> something more
+                    before I come to Christ.’ I grant, supposing thy Lord should delay his coming,
+                    it were meet and right to wait<note place="foot" xml:id="ftn81" n="81">
+                        <p rend="footnote text">Another characteristic usage. ‘To wait’, for
+                            Wesley, was not at all a passive stance; he speaks of ‘waiting’ as
+                            active obedience to God’s commands and rejects ‘quietism’ on principle.
+                            Even so, good works done while ‘waiting’ are not ‘meritorious’; thus he
+                            rejects moralism with equal consistency. Cf. MS Minutes for Aug. 2, 1745
+                            (§50): ‘Q. 11. How shall we wait for the fulfilling of this promise [of
+                            sanctification]? A. In universal obedience; in keeping all the
+                            commandments; in denying ourselves, and taking up our cross daily;
+                            [with] prayer, searching the Scripture, communicating, and fasting.’ Cf.
+                            also No. 16, ‘The ‘Means of Grace’, III.1.</p>
+                    </note> for his appearing
+                    in doing, <pb n="216"/>so far as thou hast power, whatsoever he hath commanded
+                    thee. But there is no necessity for making such a supposition. How knowest thou
+                    that he will delay? Perhaps he will appear as the day-spring from on high,<note place="foot" xml:id="ftn82" n="82">
+                        <p rend="footnote text">Luke
+                        1:78.</p>
+                    </note> before the morning light. O do not set him a time. Expect
+                    him every hour. Now, he is nigh! Even at the door!</p>
+                <p>5. And to what end wouldst thou wait for <hi rend="italic">more
+                        sincerity</hi>
+                    <note place="foot" xml:id="ftn83" n="83">
+                        <p rend="footnote text">‘Sincerity’ was a much discussed virtue, valued
+                            more highly by the pietists than the moralists. Cf. above, No. 2, <hi rend="italic">The Almost Christian</hi>, I.9 and n.</p>
+                    </note>
+                    before thy sins are blotted out? To make thee more worthy of the grace of God?
+                    Alas, thou art still ‘establishing thy own righteousness’. He will have mercy,
+                    not because thou art worthy of it, but because his compassions fail not;<note place="foot" xml:id="ftn84" n="84">
+                        <p rend="footnote text">Lam.
+                        3:22.</p>
+                    </note> not because thou art righteous, but because Jesus Christ
+                    hath atoned for thy sins.</p>
+                <p>Again, if there be anything good in <hi rend="italic">sincerity</hi>, why dost
+                    thou expect it <hi rend="italic">before</hi> thou hast faith?—seeing faith
+                    itself is the only root of whatever is really good and holy.</p>
+                <p>Above all, how long wilt thou forget that whatsoever thou dost, or whatsoever
+                    thou hast, before thy sins are forgiven thee, it avails nothing with God toward
+                    the procuring of thy forgiveness? Yea, and that it must all be cast behind thy
+                    back, trampled under foot, made no account of, or thou wilt never find favour in
+                    God’s sight? Because until then thou canst not ask it as a mere sinner, guilty,
+                    lost, undone, having nothing to plead, nothing to offer to God but only the
+                    merits of his well-beloved Son, ‘who loved <hi rend="italic">thee</hi>, and gave
+                    himself for <hi rend="italic">thee</hi>’.<note place="foot" xml:id="ftn85" n="85">
+                        <p rend="footnote text">Cf. Gal. 2:20.</p>
+                    </note>
+                </p>
+                <p n="6">6. To conclude. Whosoever thou art, O man, who hast the sentence of death
+                    in thyself, who feelest thyself a condemned sinner, and hast the wrath of God
+                    abiding on thee:<note place="foot" xml:id="ftn86" n="86">
+                        <p rend="footnote text">See John 3:36.</p>
+                    </note> unto thee said the Lord, not ‘Do this;
+                    perfectly obey all my commands and live:’ but, ‘Believe in the Lord Jesus
+                    Christ, and thou shalt be saved.’<note place="foot" xml:id="ftn87" n="87">
+                        <p rend="footnote text">Acts 16:31; cf. Rom. 10:9.</p>
+                    </note> ‘The word of
+                    faith is nigh unto thee.’ Now, at this instant, in the present moment, and in
+                    thy present state, sinner as thou art, just as thou art, believe the
+                        gospel,<note place="foot" xml:id="ftn88" n="88">
+                        <p rend="footnote text">Mark
+                            1:15.</p>
+                    </note> and ‘I will be merciful unto thy unrighteousness, and
+                    thy iniquities will I remember no more.’<note place="foot" xml:id="ftn89" n="89">
+                        <p rend="footnote text">Cf. Heb. 8:12.</p>
+                    </note>
+                </p>
+            </div>
+        </body>
+    </text>
+</TEI>

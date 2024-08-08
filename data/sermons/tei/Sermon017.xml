@@ -1,0 +1,952 @@
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Sermon 17: The Circumcision of the Heart</title>
+                <author>Wesley, John</author>
+                <editor role="text">Van Buskirk, Gregory P.</editor>
+                <editor role="digital">Taylor, Michelle M.</editor>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>The Wesley Works Digitzation Project</publisher>
+                <pubPlace>Tampa, FL</pubPlace>
+                <date>2024-02-25</date>
+             <idno type="URI">https://wesleyworks.ecdsdev.org/sermons/Sermon017</idno>                  
+            </publicationStmt>
+            <sourceDesc>
+                <listBibl>
+                    <biblStruct>
+                        <analytic>
+                            <title level="a">Sermon 17: The Circumcision of the Heart</title>
+                        </analytic>
+                        <monogr>
+                            <title level="j">The Works of John Wesley, Volume I: Sermons I,
+                                1-33</title>
+                            <editor role="volume">Outler, Albert</editor>
+                            <imprint>
+                                <publisher>Abingdon Press</publisher>
+                                <pubPlace>Nashville, TN</pubPlace>
+                                <date when="2015-05-01">1984-05-01</date>
+                                <biblScope unit="volume" n="1"/>
+                                <biblScope unit="page" from="398" to="414"/>
+                            </imprint>
+                        </monogr>
+                        <series>
+                            <title level="s">The Works of John Wesley</title>
+                            <editor role="general">Baker, Frank</editor>
+                        </series>
+                    </biblStruct>
+                </listBibl>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Greg Van Buskirk created Word docs for all of Wesley's sermons using a combination of
+                OCR software and manual proofing. Michelle Taylor converted these docx into XML
+                using Oxygen's DITA automatic transformation scenario, then touched them up
+                manually.</p>
+        </encodingDesc>
+        <standOff>
+            <taxonomy>
+                <keywords>
+                    <term/>
+                </keywords>
+            </taxonomy>
+            <!--Include keywords and terms here eventually.-->
+        </standOff>
+        <revisionDesc/>
+    </teiHeader>
+    <text>
+        <body>
+            <pb n="398"/>
+            <introduction>
+                <!--Confirm introduction is the element I want to use here, especially given that I
+                    use it as an attribute for Wesley's introductory paragraphs as well.-->
+                <head>
+                    <hi rend="italic">An Introductory Comment</hi>
+                </head>
+                <p>This is a landmark sermon in more ways than one. First, it is the earliest of
+                    Wesley’s sermons in <hi rend="italic">SOSO</hi> and carefully placed at the
+                    beginning of his second volume (1748) as an updated version of a sermon written
+                    fifteen years earlier for delivery in St. Mary’s, Oxford, on January 1, 1733.
+                    Second, it is one of Wesley’s most careful and complete statements of his
+                    doctrine of holiness, and he continued to regard it as such thereafter. In a
+                    later summary statement of his theological development to John Newton (May 14,
+                    1765) he would write: ‘Jan. 1, 1733, I preached the sermon on “The Circumcision
+                    of the Heart”, which contains all that I now teach concerning salvation from all
+                    sin, and loving God with an undivided heart.’ Still later, (JWJ, September 1,
+                    1778), he would recall: ‘I know not that I can write a better [sermon] on “The
+                    Circumcision of the Heart” than I did five and forty years ago. Perhaps, indeed,
+                    I may have read five or six hundred books more than I had then, and may know a
+                    little more history or natural philosophy than I did. But I am not sensible that
+                    this has made any essential addition to my knowledge of divinity. Forty years
+                    ago [i.e., 1738] I knew and preached every Christian doctrine which I preach
+                    now.’ Third, it supports the thesis that the basic elements of Wesley’s
+                    soteriology (with the exception of the Moravian emphases on ‘faith <hi rend="italic">alone</hi>’ and on ‘<hi rend="italic">assurance</hi>’) were
+                    already in place long before his Aldersgate experience. Original sin is there
+                    (though more as a disease than an obliterated <hi rend="italic">imago Dei</hi>)
+                    and so also is the <hi rend="italic">non posse non peccare</hi> (I.3: ‘without
+                    the Spirit of God we can do nothing but add sin to sin’). Christ’s atonement is
+                    affirmed as the sole ground of our redemption, and in I.7, he can add (in 1748)
+                    a personal confession in the language of his Aldersgate experience without
+                    disturbing the rhetoric or sense in any noticeable way: ‘I have an advocate with
+                    the Father…Jesus Christ the righteous is <hi rend="italic">my</hi> Lord and the
+                    propitiation for <hi rend="italic">my</hi> sins. I know…he hath reconciled <hi rend="italic">me</hi>, even <hi rend="italic">me</hi>, to God; and I have
+                    redemption through his blood, even the forgiveness of sins.’ The theme of the
+                    Christian’s participation in God is lovingly spelled out as the essence of
+                    Christian existence: ‘the being joined to the Lord in one Spirit. One design…to
+                    pursue to the end of time: the enjoyment of God in time and <pb n="399"/>eternity.’ The <hi rend="italic">means</hi> to this single end are also
+                    delineated—not faith <hi rend="italic">alone</hi>, but humility (i.e.,
+                    repentance), faith, hope, <hi rend="italic">and</hi> love. Fourth, it helped to
+                    establish Wesley as a man of mark in the university. How else could one explain
+                    those <hi rend="italic">six</hi> university sermons in the next two-and-one-half
+                    years (<hi rend="italic">viz.</hi>, out of proportion to the regular rotations;
+                    see above, Intro. to Sermon I, pp. 109-11 above).</p>
+                <p n="">Wesley’s diary entries show that he began to plan this sermon in late
+                    November and began to write it on December 8. The project was then complicated
+                    by the appearance of a derogatory letter in <hi rend="italic">Fog’s Weekly
+                        Journal</hi>, Saturday, December 9, about ‘this Sect called Methodists’, on
+                    the various grounds of their ‘absurd and perpetual melancholy’, their ‘very near
+                    affinity to the Essenes among the Jews and the pietists among the Christians in
+                    Switzerland [<hi rend="italic">sic</hi>]’, their ‘proposition that no action
+                    whatever is indifferent [which] is the chief hinge on which their whole scheme
+                    of religion turns’, and their ‘hypocrisy’, since ‘’tis certain that their
+                    Founder took formerly no small liberty in indulging his appetites…’. The obvious
+                    effect of any such defamation was the arousal of still more popular curiousity
+                    about the Methodists and their founder, and this assured him of a larger or more
+                    attentive audience than he might have expected otherwise. But it also made the
+                    occasion more crucial for Wesley’s career as a theologian, and this helps to
+                    explain the uncommon carefulness of his preparations. He spent close to thirty
+                    hours during the following fortnight writing a first draft; he then added as
+                    much more time in consultations with others about its further refinement: his
+                    brother Charles, his friend Hudson Martin, Euseby Isham (Rector of Lincoln), Dr.
+                    Joseph Smith (of Queen’s), Jonathan Colley (chaplain of Christ Church), and
+                    Emmanuel Langford (also of Christ Church).</p>
+                <p n="">Finally, on Monday, January 1, he mounted St. Mary’s pulpit to expound what
+                    would thenceforth become his most distinctive doctrine: Christian perfection
+                    understood as perfect love of God and neighbour, rooted in a radical faith in
+                    Christ’s revelation of that love and its power. His text was suggested by the
+                    occasion, the Feast of the Circumcision of Christ, and its Collect: ‘…Grant us
+                    the true circumcision of the spirit that, our hearts and all our members being
+                    mortified from all worldly and carnal lusts, we may in all things obey thy
+                    blessed will….’ Afterwards, he records his post-sermon mood as ‘chearfull’ and
+                    notes that the sermon had ‘found favour with the Rector [Isham] and the
+                    Vice-Chancellor’ (William Holmes of St. John’s). He seems not to have realized
+                    that Thomas Cockman, a prominent Latinist in the university, famed as the editor
+                    and translator of Cicero’s <hi rend="italic">De Officiis (On Moral
+                        Obligations)</hi>, 1699, had already preached two sermons before the <pb n="400"/>university, January 2 and 6, 1731, on <hi rend="italic">Salvation
+                        by Jesus Christ Alone…</hi>, both thoroughly Christocentric and both
+                    remarkably like ‘The Circumcision of the Heart’ on many basic points. The
+                    diaries show that Wesley had been out of town on the 2nd and had failed to
+                    attend the university service on the 6th. But Cockman’s sermons make clear that
+                    there was more evangelical teaching in Oxford than one would surmise from
+                    Wesley’s later descriptions of the place. There were those, however, who were
+                    unimpressed. A contemporary, Thomas Wilson, Jun. (1703-84), son of the famed
+                    Bishop of Sodor and Man, spoke for many in his curt evaluation of this sermon as
+                    ‘enthusiastic’; see <hi rend="italic">The Diaries of Thomas Wilson, D.D.;
+                        1731-37 and 1750</hi>, ed. C. L. S. Linnell (London, SPCK, 1964), p. 87.</p>
+                <p n="">‘The Circumcision of the Heart’ may profitably be paired with ‘Justification
+                    by Faith’ as two halves of the same ‘gospel’, and as twin foundation stones in
+                    Wesley’s theology as a whole. Moreover, Wesley’s deliberate placement of the
+                    two, out of chronological order but with a clear eye to his reader’s interest in
+                    the right order of Christian experience and life, is very much worth
+                    pondering.</p>
+            </introduction>
+            <pb n="401"/>
+            <head>The Circumcision of the Heart</head>
+            <head type="subhead">A Sermon preached at St. Mary’s, Oxford,<lb/>before the
+                University,<lb/>on January 1, 1733.</head>
+            <epigraph>
+                <p>Romans 2:29</p>
+                <p>
+                    <hi rend="italic">Circumcision is that of the heart, in the spirit and not in the
+                        letter.</hi>
+                </p>
+            </epigraph>
+            <div type="introduction">
+                <p n="1">1. ’Tis the melancholy remark of an excellent man that ‘he who now preaches
+                    the most essential duties of Christianity runs the hazard of being esteemed by a
+                    great part of his hearers “a setter forth of new doctrines”.’<note place="foot" xml:id="ftn1" n="1">
+                        <p rend="footnote text">Cf. Acts 17:18-19. The
+                            ‘excellent man’ is probably William Law, whose recent <hi rend="italic">Serious Call</hi> would have been widely familiar in Oxford: ‘And
+                            if in these days we want examples of these several degrees of
+                            perfection, if neither clergy nor laity are enough of this spirit; if we
+                            are so far departed from it that a man seems, like St. Paul at Athens,
+                                <hi rend="italic">a setter forth of strange doctrines</hi> when he
+                            recommends self-denial, renunciation of the world, regular devotion,
+                            retirement, virginity, and voluntary poverty [the gist of Law’s ethical
+                            agenda], it is because we are fallen into an age where the love, not of
+                            many but of most, is waxed cold’ (<hi rend="italic">Works</hi>,
+                            IV.80).</p>
+                        <p rend="footnote text">For further comments of this sort by
+                            Wesley himself, see Nos. 25, ‘Sermon on the Mount, V’, §1; and 150,
+                            ‘Hypocrisy in Oxford’, I.1; JWJ, May 28, 1738; and ‘A Short History of
+                            the People Called Methodists’, §11.</p>
+                    </note> Most men have so <hi rend="italic">lived away</hi> the substance of that religion, the profession
+                    whereof they still retain, that no sooner are any of those truths proposed which
+                    difference the Spirit of Christ from the spirit of the world than they cry out,
+                    ‘Thou bringest strange things to our ears; we would know what these things
+                        mean’<note place="foot" xml:id="ftn2" n="2">
+                        <p rend="footnote text">Cf. Acts
+                            17:20.</p>
+                    </note>—though he is only preaching to them ‘Jesus, and the
+                        resurrection’,<note place="foot" xml:id="ftn3" n="3">
+                        <p rend="footnote text">Acts 17:18.</p>
+                    </note> with the necessary consequence of it. If Christ
+                    be risen, ye ought then to die unto the world, and to live wholly unto God.</p>
+                <p n="2">2. A hard saying this to the ‘natural man’<note place="foot" xml:id="ftn4" n="4">
+                        <p rend="footnote text">Cf. No. 9, ‘The Spirit of Bondage and of
+                            Adoption’, §5 and n.</p>
+                    </note> who is alive unto the world, and dead
+                    unto God, and one that he will not readily be persuaded to receive as the truth
+                    of God, unless it be so qualified <pb n="402"/>in the interpretation as to have
+                    neither use nor significancy left. He ‘receiveth not the’ words ‘of the Spirit
+                    of God’, taken in their plain and obvious meaning. ‘They are foolishness unto
+                    him; neither’ indeed ‘can he know them, because they are spiritually
+                        discerned:’<note place="foot" xml:id="ftn5" n="5">
+                        <p rend="footnote text">1
+                            Cor. 2:14.</p>
+                    </note> they are perceivable only by that spiritual sense
+                    which in him was never yet awakened, for want of which he must reject as idle
+                    fancies of men what are both the ‘wisdom’ and the ‘power of God’.<note place="foot" xml:id="ftn6" n="6">
+                        <p rend="footnote text">1 Cor.
+                        1:24.</p>
+                    </note>
+                </p>
+                <p n="3">3. That ‘circumcision is that of the heart, in the spirit, and not in the
+                    letter’, that the distinguishing mark of a true follower of Christ, of one who
+                    is in a state of acceptance with God, is not either outward circumcision or
+                    baptism, or any other outward form, but a right state of soul—a mind and spirit
+                    renewed after the image of him that created it—is one of those important truths
+                    that can only be ‘spiritually discerned’. And this the Apostle himself intimates
+                    in the next words: ‘Whose praise is not of men, but of God.’<note place="foot" xml:id="ftn7" n="7">
+                        <p rend="footnote text">Cf. Rom. 2:29; this is a
+                            subjective genitive: ‘praise from God’. See also John 12:43 and 1 Cor.
+                            4:5; the stress is on God’s approval of Christian virtue in the
+                            ‘renewed’ creature. Cf. No. 4, <hi rend="italic">Scriptural
+                                Christianity</hi>, I.6 and n.</p>
+                    </note> As if he had said, ‘Expect
+                    not, whoever thou art who thus followest thy great Master, that the world, the
+                    men who follow him not, will say, “Well done, good and faithful servant!”<note place="foot" xml:id="ftn8" n="8">
+                        <p rend="footnote text">Matt.
+                        25:23.</p>
+                    </note> Know that the “circumcision of the heart”, the seal of thy
+                    calling, is “foolishness with the world”.<note place="foot" xml:id="ftn9" n="9">
+                        <p rend="footnote text">Cf. 1 Cor. 1:20-21.</p>
+                    </note> Be content to
+                    wait for thy applause till the day of thy Lord’s appearing. In that day shalt
+                    thou “have praise of God”<note place="foot" xml:id="ftn10" n="10">
+                        <p rend="footnote text">1 Cor. 4:5; cf. Rom. 2:29.</p>
+                    </note> in the great
+                    assembly of men and angels.’</p>
+                <p>I design, first, particularly to inquire wherein this circumcision of the
+                        heart<note place="foot" xml:id="ftn11" n="11">
+                        <p rend="footnote text">All
+                            printed edits, up to <hi rend="italic">SOSO</hi>, II (1787), read
+                            ‘circumcision of heart’ here and in I.1, below; Wesley’s final reading
+                            quietly restores the definite article.</p>
+                    </note> consists; and secondly
+                    to mention some reflections that naturally arise from such an inquiry.</p>
+            </div>
+            <div type="section" n="1">
+                <p n="1">I. 1. I am first to inquire wherein that circumcision of the heart consists
+                    which will receive the praise of God. In general we may observe it is that
+                    habitual disposition of soul which in the Sacred Writings is termed ‘holiness’,
+                    and which directly implies the being cleansed from sin, ‘from all filthiness
+                    both of flesh and <pb n="403"/>spirit’,<note place="foot" xml:id="ftn12" n="12">
+                        <p rend="footnote text">Cf. 2 Cor. 7:1.</p>
+                    </note> and by consequence
+                    the being endued with those virtues which were also in Christ Jesus, the being
+                    so ‘renewed in the image of our mind’<note place="foot" xml:id="ftn13" n="13">
+                        <p rend="footnote text">Cf. Eph. 4:23.</p>
+                    </note> as to be ‘perfect, as our
+                    Father in heaven is perfect’.<note place="foot" xml:id="ftn14" n="14">
+                        <p rend="footnote text">Cf. Matt. 5:48.</p>
+                    </note>
+                </p>
+                <p n="2">2. To be more particular, circumcision of heart implies humility, faith,
+                    hope, and charity.<note place="foot" xml:id="ftn15" n="15">
+                        <p rend="footnote text">Cf. 1 Cor. 13:13 (where ‘humility’ does not
+                            appear). Note that here Wesley uses the AV translation of ἀγάπη
+                            (‘charity’), whereas in II.9, below, he shifts to his much preferred
+                            usage, ‘love’. Cf. No. 91, ‘On Charity’ for his arguments for ‘love’;
+                            but see above, No. 5, ‘Justification by Faith’, III.6, where he uses
+                            ‘charity’, and below, No. 22, ‘Sermon on the Mount, II’, III.3, where he
+                            speaks of ‘“charity” or love’; see also the MS sermon, No. 149, ‘On
+                            Love’, II.1-2, where he discusses ‘the true meaning of the word
+                            “charity”’. Later, in JWJ, July 4, 1776, he will record: ‘In the evening
+                            I showed, to a still more crowded audience, the nature and necessity of
+                            Christian love, ἀγάπη, vilely rendered “charity” to confound poor
+                            English readers.’ For all that, ‘charity’ was standard usage among the
+                            generality of those same ‘poor English readers’; four of their principal
+                            translations read ‘charity’. Wesley, therefore, seems to have bowed to
+                            common usage where it seemed needful, but continued to advocate ‘love’
+                            as a happier choice than ‘charity’ for ἀγάπη. Cf. his <hi rend="italic">Notes</hi>, and Nos. 7, ‘The Way to the Kingdom’, I.9; 65, ‘The
+                            Duty of Reproving our Neighbour’, III.2; 76, ‘On Perfection’, 1.4; 80,
+                            ‘On Friendship with the World’, §24; 83, ‘On Patience’, §10. Cf. also
+                            his letter to Ann Bolton, Dec. 5, 1772.</p>
+                    </note> Humility, a right
+                    judgment of ourselves,<note place="foot" xml:id="ftn16" n="16">
+                        <p rend="footnote text">An echo here, and in this whole para., of William
+                            Law, <hi rend="italic">Christian Perfection</hi>, <hi rend="italic">Works</hi>, III.103-4. See also Nos. 7, ‘The Way to the Kingdom’,
+                            II.1 and n.; and 21, ‘Sermon on the Mount, I’, I.7 and n. This stress on
+                            humility, and the equation of humility, self-knowledge, and repentance,
+                            is one of Law’s main themes, but so also it had been in Jeremy Taylor
+                            and other Anglican divines.</p>
+                    </note> cleanses our minds from those
+                    high conceits of our own perfections, from the undue opinions of our own
+                    abilities and attainments which are the genuine fruit of a corrupted nature.
+                    This entirely cuts off that vain thought, ‘I am rich, and wise, and have need of
+                    nothing;’ and convinces us that we are by nature ‘wretched, and poor, and
+                    miserable, and blind, and naked’.<note place="foot" xml:id="ftn17" n="17">
+                        <p rend="footnote text">Cf. Rev. 3:17.</p>
+                    </note> It convinces us that in
+                    our best estate we are of ourselves all sin and vanity; that confusion, and
+                    ignorance, and error, reign over our understanding; that unreasonable, earthly,
+                    sensual, devilish passions usurp authority over our will: in a word, that there
+                    is no whole part in our soul, that all the foundations of our nature are out of
+                        course.<note place="foot" xml:id="ftn18" n="18">
+                        <p rend="footnote text">Cf.
+                            Jonathan Swift, <hi rend="italic">Gulliver’s Travels</hi>, II.
+                        viii.</p>
+                    </note>
+                </p>
+                <p n="3">3. At the same time we are convinced that we are not sufficient of
+                    ourselves to help ourselves; that without the Spirit of God we can do nothing
+                    but add sin to sin; that it is he alone ‘who worketh <pb n="404"/>in us’ by his
+                    almighty power, either ‘to will or do’<note place="foot" xml:id="ftn19" n="19">
+                        <p rend="footnote text">Cf. Phil. 2:13. Cf. No. 85, ‘On Working Out Our
+                            Own Salvation’, I.1-4.</p>
+                    </note> that which is good—it being as
+                    impossible for us even to think a good thought without the supernatural
+                    assistance of his Spirit as to create ourselves, or to renew our whole souls in
+                    righteousness and true holiness.</p>
+                <p n="4">4. A sure effect of our having formed this right judgment of the sinfulness
+                    and helplessness of our nature is a disregard of that ‘honour which cometh of
+                        man’<note place="foot" xml:id="ftn20" n="20">
+                        <p rend="footnote text">Cf.
+                            John 5:41, 44.</p>
+                    </note> which is usually paid to some supposed
+                    excellency in us. He who knows himself neither desires nor values the applause
+                    which he knows he deserves not. It is therefore ‘a very small thing with him to
+                    be judged by man’s judgment’.<note place="foot" xml:id="ftn21" n="21">
+                        <p rend="footnote text">Cf. 1 Cor. 4:3.</p>
+                    </note> He has all reason to
+                    think, by comparing what it has said either for or against him with what he
+                    feels in his own breast, that the world, as well as the god of this world, was
+                    ‘a liar from the beginning’.<note place="foot" xml:id="ftn22" n="22">
+                        <p rend="footnote text">Cf. John 8:44.</p>
+                    </note> And even as to those who
+                    are not of the world, though he would choose (if it were the will of God) that
+                    they should account of him as of one desirous to be found a faithful steward of
+                    his Lord’s goods,<note place="foot" xml:id="ftn23" n="23">
+                        <p rend="footnote text">See Luke 12:42.</p>
+                    </note> if haply this might be a
+                    means of enabling him to be of more use to his fellow-servants, yet as this is
+                    the one end of his wishing for their approbation, so he does not at all rest
+                    upon it. For he is assured that whatever God wills he can never want instruments
+                    to perform; since he is able, even of these stones, to raise up servants<note place="foot" xml:id="ftn24" n="24">
+                        <p rend="footnote text">See Matt.
+                            3:9.</p>
+                    </note> to do his pleasure.</p>
+                <p n="5">5. This is that lowliness of mind which they have learned of Christ who
+                    follow his example and tread in his steps. And this knowledge of their disease,
+                    whereby they are more and more cleansed from one part of it, pride and vanity,
+                    disposes them to embrace with a willing mind the second thing implied in
+                    ‘circumcision of heart’—that faith which alone is able to make them whole, which
+                    is the one medicine given under heaven to heal their sickness.<note place="foot" xml:id="ftn25" n="25">
+                        <p rend="footnote text">Note the correlations here of
+                            faith, wholeness, and the theme of θεραπεία ψυχής. Cf. No. 13, <hi rend="italic">On Sin in Believers</hi>, III.8 and n.</p>
+                    </note>
+                </p>
+                <p n="6">6. The best guide of the blind, the surest light of them that are in
+                    darkness, the most perfect instructor of the foolish,<note place="foot" xml:id="ftn26" n="26">
+                        <p rend="footnote text">See Rom. 2:19-20.</p>
+                    </note>
+                    is faith. But it must be such a faith as is ‘mighty through God, to the pulling
+                    down of strongholds’,<note place="foot" xml:id="ftn27" n="27">
+                        <p rend="footnote text">2 Cor. 10:4.</p>
+                    </note> to the overturning all the
+                        <pb n="405"/>prejudices of corrupt reason, all the false maxims revered
+                    among men, all evil customs and habits, all that ‘wisdom of the world’ which ‘is
+                    foolishness with God’;<note place="foot" xml:id="ftn28" n="28">
+                        <p rend="footnote text">1 Cor. 3:19.</p>
+                    </note> as ‘casteth down
+                    imaginations’ (reasonings) ‘and every high thing that exalteth itself against
+                    the knowledge of God, and bringeth into captivity every thought to the obedience
+                    of Christ’.<note place="foot" xml:id="ftn29" n="29">
+                        <p rend="footnote text">2
+                            Cor. 10:5.</p>
+                    </note>
+                </p>
+                <p n="7">7. ‘All things are possible to him that’ thus ‘believeth:’<note place="foot" xml:id="ftn30" n="30">
+                        <p rend="footnote text">Mark
+                        9:23.</p>
+                    </note> ‘the eyes of his understanding being enlightened,’ he <hi rend="italic">sees</hi> what is his calling,<note place="foot" xml:id="ftn31" n="31">
+                        <p rend="footnote text">Eph. 1:18.</p>
+                    </note> even to
+                    ‘glorify God, who hath bought him with’ so high ‘a price, in his body and in his
+                    spirit, which now are God’s’<note place="foot" xml:id="ftn32" n="32">
+                        <p rend="footnote text">Cf. 1 Cor. 6:20.</p>
+                    </note> by redemption, as well
+                    as by creation. He feels what is ‘the exceeding greatness of his power’<note place="foot" xml:id="ftn33" n="33">
+                        <p rend="footnote text">Eph.
+                        1:19.</p>
+                    </note> who, as he raised up Christ from the dead, so is able to
+                    quicken us—‘dead in sin’<note place="foot" xml:id="ftn34" n="34">
+                        <p rend="footnote text">Cf. Eph. 2:1, 5.</p>
+                    </note>—‘by his Spirit which
+                    dwelleth in us’.<note place="foot" xml:id="ftn35" n="35">
+                        <p rend="footnote text">Rom. 8:11.</p>
+                    </note> ‘This is the victory which overcometh the world,
+                    even our faith:’<note place="foot" xml:id="ftn36" n="36">
+                        <p rend="footnote text">1 John 5:4.</p>
+                    </note> that faith which is not only an unshaken assent
+                    to all that God hath revealed in Scripture, and in particular to those important
+                    truths, ‘Jesus Christ came into the world to save sinners;’<note place="foot" xml:id="ftn37" n="37">
+                        <p rend="footnote text">1 Tim. 1:15.</p>
+                    </note> he
+                    ‘bare our sins in his own body on the tree’;<note place="foot" xml:id="ftn38" n="38">
+                        <p rend="footnote text">1 Pet. 2:24.</p>
+                    </note> ‘he is the
+                    propitiation for our sins; and not for ours only, but also for the sins of the
+                    whole world;’<hi rend="endnote_reference">
+                        <note place="end">
+                            <p rend="endnote text">N.B. The following part of this paragraph is now
+                                added to the sermon formerly preached. [The preceding quotation is
+                                from 1 John 2:2.]</p>
+                        </note>
+                    </hi> but likewise the revelation of
+                    Christ in our hearts: a divine evidence or conviction of his love, his free,
+                    unmerited love to me a sinner;<note place="foot" xml:id="ftn39" n="39">
+                        <p rend="footnote text">See Heb. 11:1. This definition of faith is one that
+                            Wesley came to regard as normative; cf. No. 3, <hi rend="italic">‘Awake,
+                                Thou That Sleepest’</hi>, I.11 and n.</p>
+                    </note> a sure confidence
+                    in his pardoning mercy, wrought in us by the Holy Ghost—a confidence whereby
+                    every true believer is enabled to bear witness, ‘I know that my Redeemer
+                        liveth;’<note place="foot" xml:id="ftn40" n="40">
+                        <p rend="footnote text">Job
+                            19:15.</p>
+                    </note> that <hi rend="italic">I</hi> ‘have an advocate with
+                    the Father’, that ‘Jesus Christ the righteous is’ <hi rend="italic">my</hi>
+                    Lord, and ‘the propitiation for <hi rend="italic">my</hi> sins.’<note place="foot" xml:id="ftn41" n="41">
+                        <p rend="footnote text">1 John
+                        2:1-2.</p>
+                    </note> I know he ‘hath loved <hi rend="italic">me</hi>, and given
+                    himself for <hi rend="italic">me</hi>’.<note place="foot" xml:id="ftn42" n="42">
+                        <p rend="footnote text">Cf. Eph. 5:2.</p>
+                    </note> He ‘hath reconciled
+                        <hi rend="italic">me</hi>, even <hi rend="italic">me</hi> to God’;<note place="foot" xml:id="ftn43" n="43">
+                        <p rend="footnote text">Cf. Rom.
+                            5:10.</p>
+                    </note> and <hi rend="italic">I</hi> ‘have redemption through
+                    his blood, even the forgiveness of sins’.<note place="foot" xml:id="ftn44" n="44">
+                        <p rend="footnote text">Col. 1:14. In 1732 Wesley was still
+                            preoccupied with holy living. Here, in 1748, he has added his discovery
+                            of <hi rend="italic">justifying</hi> faith as unmerited mercy and as the
+                            assurance of forgiveness through the merits of Christ’s propitiatory
+                            death.</p>
+                    </note>
+                </p>
+                <p n="8">
+                    <pb n="406"/>8. Such a faith as this cannot fail to show evidently the
+                    power of him that inspires it, by delivering his children from the yoke of sin,
+                    and ‘purging their consciences from dead works’;<note place="foot" xml:id="ftn45" n="45">
+                        <p rend="footnote text">Cf. Heb. 9:14.</p>
+                    </note> by
+                    strengthening them so that they are no longer constrained to ‘obey sin in the
+                    desires thereof’; but instead of ‘yielding their members unto’ it, ‘as
+                    instruments of unrighteousness’, they now ‘yield’ them-selves entirely ‘unto
+                    God, as those that are alive from the dead’.<note place="foot" xml:id="ftn46" n="46">
+                        <p rend="footnote text">Cf. Rom. 6:12-13.</p>
+                    </note>
+                </p>
+                <p n="9">9. Those who are thus by faith ‘born of God’<note place="foot" xml:id="ftn47" n="47">
+                        <p rend="footnote text">1 John 3:9, etc.</p>
+                    </note>
+                    have also ‘strong consolation through hope’.<note place="foot" xml:id="ftn48" n="48">
+                        <p rend="footnote text">Cf. Heb. 6:18.</p>
+                    </note> This is the next
+                    thing which the ‘circumcision of the heart’ implies—even the testimony of their
+                    own spirit with the Spirit which witnesses in their hearts, that they are the
+                    children of God.<note place="foot" xml:id="ftn49" n="49">
+                        <p rend="footnote text">Rom. 8:16; see above, Nos. 10 and 11, ‘The Witness of the Spirit’,
+                            Discourses I and II; and No. 12, ‘The Witness of Our Own
+                        Spirit.’</p>
+                    </note> Indeed it is the same Spirit who works in them that
+                    clear and cheerful confidence that their heart is upright toward God; that good
+                    assurance that they now do, through his grace, the things which are acceptable
+                    in his sight; that they are now in the path which leadeth to life, and shall, by
+                    the mercy of God, endure therein to the end. It is he who giveth them a lively
+                    expectation of receiving all good things at God’s hand—a joyous prospect of that
+                    ‘crown of glory’ which is ‘reserved in heaven’<note place="foot" xml:id="ftn50" n="50">
+                        <p rend="footnote text">1 Pet. 1:4; 5:4.</p>
+                    </note> for them. By this
+                    anchor a Christian is kept steady in the midst of the waves of this troublesome
+                    world, and preserved from striking upon either of those fatal rocks, presumption
+                    or despair. He is neither discouraged by the misconceived severity of his Lord,
+                    nor does he ‘despise the richness of his goodness’.<note place="foot" xml:id="ftn51" n="51">
+                        <p rend="footnote text">Rom. 2:4.</p>
+                    </note> He
+                    neither apprehends the difficulties of the race set before him<note place="foot" xml:id="ftn52" n="52">
+                        <p rend="footnote text">See Heb. 12:1.</p>
+                    </note> to
+                    be greater than he has strength to conquer, nor expects them to be so little as
+                    to yield him the conquest till he has put forth all his strength. The experience
+                    he already has in the Christian warfare, as it assures him his ‘labour is not in
+                        vain’<note place="foot" xml:id="ftn53" n="53">
+                        <p rend="footnote text">1 Cor.
+                            15:58.</p>
+                    </note> if ‘whatever his hand findeth to do, he doth it with
+                    his might,’<note place="foot" xml:id="ftn54" n="54">
+                        <p rend="footnote text">Cf.
+                            Eccles. 9:10.</p>
+                    </note> so it forbids his entertaining so vain a
+                    thought as that he can otherwise gain any advantage, as that any virtue can be
+                    shown, any praise attained, by ‘faint hearts and feeble hands’<note place="foot" xml:id="ftn55" n="55">
+                        <p rend="footnote text">Ecclus. 2:12; cf. Ezek.
+                            7:12.</p>
+                    </note>—or indeed by any but those who pursue the same <pb n="407"/>course with the great Apostle of the Gentiles: ‘I (says he) so run,
+                    not as uncertainly; so fight I, not as one that beateth the air. But I keep
+                    under my body, and bring it into subjection; lest by any means when I have
+                    preached to others, I myself should be a castaway.’<note place="foot" xml:id="ftn56" n="56">
+                        <p rend="footnote text">1 Cor. 9:26-27.</p>
+                    </note>
+                </p>
+                <p n="10">10. By the same discipline is every good soldier of Christ to ‘inure
+                    himself to endure hardships’.<note place="foot" xml:id="ftn57" n="57">
+                        <p rend="footnote text">Cf. 2 Tim. 2:3.</p>
+                    </note> Confirmed and
+                    strengthened by this, he will be able not only to renounce ‘the works of
+                        darkness’,<note place="foot" xml:id="ftn58" n="58">
+                        <p rend="footnote text">Rom. 13:12.</p>
+                    </note> but every appetite, too, and every affection
+                    which is not subject to the law of God. For ‘everyone’, saith St. John, ‘who
+                    hath this hope purifieth himself, even as he is pure.’<note place="foot" xml:id="ftn59" n="59">
+                        <p rend="footnote text">Cf. 1 John 3:3.</p>
+                    </note> It
+                    is his daily care, by the grace of God in Christ, and through the blood of the
+                    covenant, to purge the inmost recesses of his soul from the lusts that before
+                    possessed and defiled it: from uncleanness, and envy, and malice, and wrath,
+                    from every passion and temper that is ‘after the flesh’,<note place="foot" xml:id="ftn60" n="60">
+                        <p rend="footnote text">John 8:15, etc.</p>
+                    </note>
+                    that either springs from or cherishes his native corruption; as well knowing
+                    that he whose very ‘body is the temple of God’<note place="foot" xml:id="ftn61" n="61">
+                        <p rend="footnote text">Cf. 1 Cor. 6:19.</p>
+                    </note> ought to admit
+                    into it nothing common or unclean; and that ‘holiness becometh’ that ‘house for
+                        ever<note place="foot" xml:id="ftn62" n="62">
+                        <p rend="footnote text">Ps.
+                            93:6 (BCP).</p>
+                    </note> where the Spirit of holiness vouchsafes to
+                        dwell.<note place="foot" xml:id="ftn63" n="63">
+                        <p rend="footnote text">An
+                            echo of the Puritan stress on self-examination and of Jeremy Taylor’s
+                            doctrine of repentance; cf. his <hi rend="italic">Unum Necessarium</hi>
+                                (<hi rend="italic">Works</hi>, II.419-646).</p>
+                    </note>
+                </p>
+                <p n="11">11. Yet lackest thou one thing, whosoever thou art, that to a deep
+                    humility and a steadfast faith hast joined a lively hope, and thereby in a good
+                    measure cleansed thy heart from its inbred pollution. If thou wilt be perfect,
+                    add to all these charity: add love, and thou hast the ‘circumcision of the
+                    heart’. ‘Love is the fulfilling of the law,’<note place="foot" xml:id="ftn64" n="64">
+                        <p rend="footnote text">Rom. 13:10.</p>
+                    </note> ‘the end of the
+                        commandment’.<note place="foot" xml:id="ftn65" n="65">
+                        <p rend="footnote text">1 Tim. 1:5.</p>
+                    </note> Very excellent things are
+                    spoken of love; it is the essence, the spirit, the life of all virtue. It is not
+                    only the first and great command,<note place="foot" xml:id="ftn66" n="66">
+                        <p rend="footnote text">Matt. 22:38.</p>
+                    </note> but it is all the
+                    commandments in one. Whatsoever things are just, whatsoever things are pure,
+                    whatsoever things are amiable or honourable; if there be any virtue, if there be
+                    any praise,<note place="foot" xml:id="ftn67" n="67">
+                        <p rend="footnote text">Phil. 4:8.</p>
+                    </note> they are all comprised in this one word—love. In
+                    this is perfection and glory and happiness. The royal law of heaven and earth is
+                    this, ‘Thou shalt love the Lord thy God with all thy heart, and with all thy
+                    soul, and with all thy mind, and with dl thy strength.’<note place="foot" xml:id="ftn68" n="68">
+                        <p rend="footnote text">Mark 12:30.</p>
+                    </note>
+                </p>
+                <p n="12">
+                    <pb n="408"/>12. Not that this forbids us to love anything besides God: it
+                    implies that we ‘love our brother also’.<note place="foot" xml:id="ftn69" n="69">
+                        <p rend="footnote text">Cf. 1 John 4:21.</p>
+                    </note> Not yet does it
+                    forbid us (as some have strangely imagined) to take pleasure in anything but
+                        God.<note place="foot" xml:id="ftn70" n="70">
+                        <p rend="footnote text">An
+                            obvious rejoinder to the accusation in the letter to <hi rend="italic">Fog’s Weekly Journal</hi> that the Oxford Methodists ‘avoid, as
+                            much as is possible, every object that may affect them with any pleasant
+                            and grateful sensation…, fancying…that religion was designed to
+                            contradict nature.’</p>
+                    </note> To suppose this is to suppose the
+                    fountain of holiness is directly the author of sin, since he has inseparably
+                    annexed pleasure to the use of those creatures which are necessary to sustain
+                    the life he has given us. This therefore can never be the meaning of his
+                    command. What the real sense of it is both our blessed Lord and his apostles
+                    tell us too frequently and too plainly to be misunderstood. They all with one
+                    mouth bear witness that the true meaning of those several declarations—‘The Lord
+                    thy God is one Lord; thou shalt have no other gods but me,’<note place="foot" xml:id="ftn71" n="71">
+                        <p rend="footnote text">Cf. Deut. 6:4, 14; Mark 12:29,
+                            32.</p>
+                    </note> ‘Thou shalt love the Lord thy God with all thy
+                        strength,’<note place="foot" xml:id="ftn72" n="72">
+                        <p rend="footnote text">Mark 12:30, etc.</p>
+                    </note> ‘Thou shalt cleave unto him;’<note place="foot" xml:id="ftn73" n="73">
+                        <p rend="footnote text">Deut. 13:4; Acts
+                            11:23.</p>
+                    </note> ‘The desire of thy soul shall be to his name’<note place="foot" xml:id="ftn74" n="74">
+                        <p rend="footnote text">Isa.
+                        26:8.</p>
+                    </note>—is no other than this. The one perfect good shall be your
+                    ultimate end. One thing shall ye desire for its own sake—the fruition of him
+                    that is all in all.<note place="foot" xml:id="ftn75" n="75">
+                        <p rend="footnote text">See 1 Cor. 15:20-28.</p>
+                    </note> One happiness shall
+                    ye propose to your souls, even an union with him that made them, the having
+                    ‘fellowship with the Father and the Son’,<note place="foot" xml:id="ftn76" n="76">
+                        <p rend="footnote text">Cf. 1 John 1:3.</p>
+                    </note> the being ‘joined
+                    to the Lord in one Spirit’.<note place="foot" xml:id="ftn77" n="77">
+                        <p rend="footnote text">Cf. 1 Cor. 6:17.</p>
+                    </note> One design ye are to
+                    pursue to the end of time—the enjoyment of God in time and in eternity.<note place="foot" xml:id="ftn78" n="78">
+                        <p rend="footnote text">Note here the
+                            combination of the theme of participation <hi rend="italic">and</hi> of
+                            ‘the enjoyment of God’; cf. the Westminster Catechism, Q. and A.
+                        1.</p>
+                    </note> Desire other things so far as they tend to this. Love the
+                    creature—as it leads to the Creator. But in every step you take be this the
+                    glorious point that terminates your view. Let every affection, and thought, and
+                    word, and work, be subordinate to this. Whatever ye desire or fear, whatever ye
+                    seek or shun, whatever ye think, speak, or do, be it in order to your happiness
+                    in God,<note place="foot" xml:id="ftn79" n="79">
+                        <p rend="footnote text">Cf. No.
+                            6, ‘The Righteousness of Faith’, II.9 and n.</p>
+                    </note> the sole end as
+                    well as source of your being.</p>
+                <p n="13">13. Have no end, no ultimate end, but God. Thus our Lord: ‘One thing is
+                        needful.’<note place="foot" xml:id="ftn80" n="80">
+                        <p rend="footnote text">Luke 10:42.</p>
+                    </note> And if thine eye be singly fixed on this <pb n="409"/>one thing, ‘thy whole body shall be full of light.’<note place="foot" xml:id="ftn81" n="81">
+                        <p rend="footnote text">Matt.
+                        6:22.</p>
+                    </note> Thus St. Paul: ‘This one thing I do; […] I press toward the
+                    mark, for the prize of the high calling in Christ Jesus.’<note place="foot" xml:id="ftn82" n="82">
+                        <p rend="footnote text">Phil. 3:13-14.</p>
+                    </note> Thus
+                    St. James: ‘Cleanse your hands, ye sinners, and purify your hearts, ye
+                        double-minded.’<note place="foot" xml:id="ftn83" n="83">
+                        <p rend="footnote text">Jas. 4:8.</p>
+                    </note> Thus St. John: ‘Love not the
+                    world, neither the things that are in the world. […] For all that is in the
+                    world, the lust of the flesh, the lust of the eye, and the pride of life, is not
+                    of the Father, but is of the world.’<note place="foot" xml:id="ftn84" n="84">
+                        <p rend="footnote text">1 John 2:15-16. See below, II.9; also No. 7, ‘The
+                            Way to the Kingdom’, II.2 and n.</p>
+                    </note> The seeking happiness in
+                    what gratifies either the desire of the flesh, by agreeably striking upon the
+                    outward senses; the desire of the eye, of the imagination, by its novelty,
+                    greatness, or beauty; or the pride of life,<note place="foot" xml:id="ftn85" n="85">
+                        <p rend="footnote text">Cf. 1 John 2:16—Wesley’s favourite text for
+                            an inclusive triad of sinful passions. Cf. No. 7, ‘The Way to the
+                            Kingdom’, II.2 and n.</p>
+                    </note> whether by pomp, grandeur, power, or
+                    the usual consequence of them, applause and admiration: ‘is not of the
+                    Father’—cometh not from, neither is approved by, the Father of spirits—‘but of
+                    the world’—it is the distinguishing mark of those who will not have him reign
+                    over them.</p>
+            </div>
+            <div type="section" n="2">
+                <p n="1">II. 1. Thus have I particularly inquired what that ‘circumcision of the
+                    heart’ is which will obtain the praise of God.<note place="foot" xml:id="ftn86" n="86">
+                        <p rend="footnote text">Cf. above, §3 and n.</p>
+                    </note> I am in the
+                    second place to mention some reflections that naturally arise from such an
+                    inquiry, as a plain rule whereby every man may judge himself whether he be of
+                    the world or of God.</p>
+                <p>And, first, it is clear from what has been said that no man has a title to the
+                    praise of God unless his heart is circumcised by humility, unless he is little,
+                    and base, and vile in his own eyes; unless he is deeply convinced of that inbred
+                    ‘corruption of his nature, whereby he is very far gone from original
+                        righteousness’,<note place="foot" xml:id="ftn87" n="87">
+                        <p rend="footnote text">Cf. Art. IX, ‘Of Original or Birth Sin’ in the
+                            Thirty-nine Articles.</p>
+                    </note> being prone to all evil, averse to all
+                    good, corrupt and abominable; having a ‘carnal mind’, which ‘is enmity against
+                    God, and is not subject to the Law of God, nor indeed can be’;<note place="foot" xml:id="ftn88" n="88">
+                        <p rend="footnote text">Cf. Rom. 8:7.</p>
+                    </note>
+                    unless he continually feels in his inmost soul that without the Spirit of God
+                    resting upon him he can neither think, nor desire, nor speak, nor act, anything
+                    good or well-pleasing in his sight.<note place="foot" xml:id="ftn89" n="89">
+                        <p rend="footnote text">Heb. 13:21.</p>
+                    </note>
+                </p>
+                <p>
+                    <pb n="410"/>No man, I say, has a title to the praise of God till he feels his
+                    want of God: nor indeed till he seeketh that ‘honour, which cometh of God
+                        only’,<note place="foot" xml:id="ftn90" n="90">
+                        <p rend="footnote text">John
+                            5:44. Cf. above, §3 and n.</p>
+                    </note> and neither desires nor pursues
+                    that which cometh of man, unless so far only as it tends to this.</p>
+                <p n="2">2. Another truth which naturally follows from what has been said is that
+                    none shall obtain the honour that cometh of God unless his heart be circumcised
+                    by faith, even a ‘faith of the operation of God’;<note place="foot" xml:id="ftn91" n="91">
+                        <p rend="footnote text">Col. 2:12.</p>
+                    </note> unless,
+                    refusing to be any longer led by his senses, appetites, or passions, or even by
+                    that blind leader of the blind,<note place="foot" xml:id="ftn92" n="92">
+                        <p rend="footnote text">Matt. 15:14.</p>
+                    </note> so idolized by the world,
+                    natural reason, he lives and ‘walks by faith’,<note place="foot" xml:id="ftn93" n="93">
+                        <p rend="footnote text">2 Cor. 5:7.</p>
+                    </note> directs every step as
+                    ‘seeing him that is invisible’,<note place="foot" xml:id="ftn94" n="94">
+                        <p rend="footnote text">Heb. 11:27.</p>
+                    </note> ‘looks not at the things
+                    that are seen, which are temporal, but at the things that are not seen, which
+                    are eternal’;<note place="foot" xml:id="ftn95" n="95">
+                        <p rend="footnote text">2
+                            Cor. 4:18.</p>
+                    </note> and governs all his desires, designs, and
+                    thoughts, all his actions and conversations, as one who is entered in within the
+                        veil,<note place="foot" xml:id="ftn96" n="96">
+                        <p rend="footnote text">Heb.
+                            6:19.</p>
+                    </note> where Jesus sits at the right hand of God.<note place="foot" xml:id="ftn97" n="97">
+                        <p rend="footnote text">See Col. 3:1;
+                            Mark 16:19; Acts 7:55.</p>
+                    </note>
+                </p>
+                <p n="3">3. It were to be wished that they were better acquainted with this faith
+                    who employ much of their time and pains in laying another foundation, in
+                    grounding religion on ‘the eternal <hi rend="italic">fitness</hi> of things’, on
+                    ‘the intrinsic <hi rend="italic">excellence</hi> of virtue’, and the <hi rend="italic">beauty</hi> of actions flowing from it—on the <hi rend="italic">reasons</hi>, as they term them, of good and evil, and the <hi rend="italic">relations</hi> of beings to each other.<note place="foot" xml:id="ftn98" n="98">
+                        <p rend="footnote text">The men complained of here
+                            range from the third Earl of Shaftesbury (cf. his <hi rend="italic">Inquiry Concerning Virtue or Merit</hi>, and his <hi rend="italic">Characteristics of Men, Manners, Opinions, Times</hi> [1st edn.,
+                            1711; 4th edn., 1727]), to Samuel Clarke (<hi rend="italic">Discourse
+                                Concerning the Unchangeable Obligations of Natural Religion and the
+                                Truth and Certainty of the Christian Revelation</hi> [1706], espec.
+                            pp. 46 ff.; see also his <hi rend="italic">Demonstration of the Being
+                                and Attributes of God</hi> [1705], Prop. XII, and espec. pp.
+                            247-48), to Richard Fiddes (<hi rend="italic">A General Treatise of
+                                Morality</hi> [1724]), to Francis Hutcheson’s <hi rend="italic">Inquiry</hi>, and <hi rend="italic">Essay</hi>. They include both
+                            deists and rationalists; cf. John Leland, <hi rend="italic">A View of
+                                the Principal Deistical Writers…</hi>, 1754-56, 3 vols. (3rd edn.,
+                            1757). See also <hi rend="italic">Notes and Queries</hi> (6th series),
+                            VIII.79, 138. For more complaints of the same sort, cf. No. 34, ‘The
+                            Original, Nature, Properties, and Use of the Law’, II.5.</p>
+                    </note>
+                    Either these accounts of the grounds of Christian duty coincide with the
+                    scriptural or not. If they do, why are well-meaning men perplexed, and drawn
+                    from the weightier matters of the law by a cloud of terms whereby the easiest
+                    truths are explained into obscurity? If they are not, then it behoves them to
+                    consider who is the author of this new doctrine, whether he is likely to be ‘an
+                    angel <pb n="411"/>from heaven’ who ‘preacheth another gospel’<note place="foot" xml:id="ftn99" n="99">
+                        <p rend="footnote text">Cf. Gal. 1:8.</p>
+                    </note> than
+                    that of Christ Jesus—though if he were, God, not we, hath pronounced his
+                    sentence: ‘Let him be accursed!’<note place="foot" xml:id="ftn100" n="100">
+                        <p rend="footnote text">
+                            <hi rend="italic">Ibid.</hi>
+                        </p>
+                    </note>
+                </p>
+                <p n="4">4. Our gospel, as it knows no other foundation of good works than faith, or
+                    of faith than Christ, so it clearly informs us we are not his disciples while we
+                    either deny him to be the author or his Spirit to be the inspirer and perfecter
+                    both of our faith and works. ‘If any man have not the Spirit of Christ, he is
+                    none of his.’<note place="foot" xml:id="ftn101" n="101">
+                        <p rend="footnote text">Rom. 8:9.</p>
+                    </note> He alone can quicken those who are dead unto God,
+                    can breathe into them the breath of Christian life, and so prevent, accompany,
+                    and follow them with his grace as to bring their good desires to good effect.
+                    And ‘as many as are thus led by the Spirit of God, they are the sons of
+                        God.’<note place="foot" xml:id="ftn102" n="102">
+                        <p rend="footnote text">Rom.
+                            8:14.</p>
+                    </note> This is God’s short and plain account of true religion
+                    and virtue; and ‘other foundation can no man lay.’<note place="foot" xml:id="ftn103" n="103">
+                        <p rend="footnote text">1 Cor. 3:11.</p>
+                    </note>
+                </p>
+                <p n="5">5. From what has been said we may, thirdly, learn that none is truly ‘led
+                    by the Spirit’ unless that ‘Spirit bear witness with his spirit, that he is a
+                    child of God’;<note place="foot" xml:id="ftn104" n="104">
+                        <p rend="footnote text">Rom. 8:16. Cf. No. 5, ‘Justification by Faith’, IV.2 and n.</p>
+                    </note>
+                    unless he see the prize and the crown before him, and ‘rejoice in hope of the
+                    glory of God’:<note place="foot" xml:id="ftn105" n="105">
+                        <p rend="footnote text">Rom. 5:2.</p>
+                    </note> so greatly have they erred who have taught that in
+                    serving God we ought not to have a view to our own happiness. Nay, but we are
+                    often and expressly taught of God to have ‘respect unto the recompense of
+                        reward’,<note place="foot" xml:id="ftn106" n="106">
+                        <p rend="footnote text">Heb. 11:26.</p>
+                    </note> to balance the toil with the ‘joy set before
+                        us’,<note place="foot" xml:id="ftn107" n="107">
+                        <p rend="footnote text">Cf.
+                            Heb. 12:2.</p>
+                    </note> these ‘light afflictions’ with that ‘exceeding
+                    weight of glory’.<note place="foot" xml:id="ftn108" n="108">
+                        <p rend="footnote text">2 Cor. 4:17.</p>
+                    </note> Yea, we are ‘aliens to the
+                    covenant of promise’, we are ‘without God in the world’,<note place="foot" xml:id="ftn109" n="109">
+                        <p rend="footnote text">Eph. 2:12.</p>
+                    </note> until
+                    God of ‘his abundant mercy hath begotten us again unto a living hope’ of the
+                    ‘inheritance incorruptible, undefiled, and that fadeth not away’.<note place="foot" xml:id="ftn110" n="110">
+                        <p rend="footnote text">1 Pet.
+                            1:3-4.</p>
+                    </note>
+                </p>
+                <p n="6">6. But if these things are so, ’tis high time for those persons to deal
+                    faithfully with their own souls—who are so far from finding in themselves this
+                    joyful assurance, that they fulfil the terms and shall obtain the promises of
+                    that covenant, as to quarrel with the covenant itself, and blaspheme the terms
+                    of it, to complain they are too severe, and that no man ever did or shall live
+                    up to them! <pb n="412"/>What is this but to reproach God, as if he were an hard
+                    master requiring of his servants more than he enables them to perform; as if he
+                    had mocked the helpless works of his hands by binding them to impossibilities,
+                    by commanding them to overcome where neither their own strength nor his grace
+                    was sufficient for them?</p>
+                <p n="7">7. These blasphemers might almost persuade those to imagine themselves
+                    guiltless who, in the contrary extreme, hope to fulfil the commands of God
+                    without taking any pains at all.<note place="foot" xml:id="ftn111" n="111">
+                        <p rend="footnote text">Note this early version of what will become
+                            Wesley’s definition of enthusiasm; cf. No. 37, ‘The Nature of
+                            Enthusiasm’, §27.</p>
+                    </note> Vain hope! that a child of Adam should ever
+                    expect to see the kingdom of Christ and of God without striving, without ‘<hi rend="italic">agonizing</hi>’ first ‘to enter in at the strait gate’!<note place="foot" xml:id="ftn112" n="112">
+                        <p rend="footnote text">Luke 13:24.
+                            Note Wesley’s preference here for ‘agonizing’ over ‘striving’ as a
+                            translation of ἀγωνίζεστε; cf. <hi rend="italic">Notes</hi>, and Nos.
+                            25, ‘Sermon on the Mount, V’, III.6; 31, ‘Sermon on the Mount, XI’,
+                            III.1, 5, 6; 89, ‘The More Excellent Way’, §5.</p>
+                    </note> That one who
+                    was ‘conceived and born in sin’,<note place="foot" xml:id="ftn113" n="113">
+                        <p rend="footnote text">Cf. Ps. 51:5.</p>
+                    </note> and whose ‘inward parts
+                    are very wickedness’,<note place="foot" xml:id="ftn114" n="114">
+                        <p rend="footnote text">Ps. 5:9.</p>
+                    </note> should once entertain a thought
+                    of being ‘purified as his Lord is pure’<note place="foot" xml:id="ftn115" n="115">
+                        <p rend="footnote text">Cf. 1 John 3:3.</p>
+                    </note> unless he ‘tread
+                    in his steps’,<note place="foot" xml:id="ftn116" n="116">
+                        <p rend="footnote text">Cf. 1 Pet. 2:21.</p>
+                    </note> and ‘take up his cross daily’;<note place="foot" xml:id="ftn117" n="117">
+                        <p rend="footnote text">Luke
+                        9:23.</p>
+                    </note> unless he ‘cut off the right hand’, and ‘pluck out the
+                    right eye and cast it from him’;<note place="foot" xml:id="ftn118" n="118">
+                        <p rend="footnote text">Cf. Matt. 18:8-9.</p>
+                    </note> that he should ever
+                    dream of shaking off his old opinions, passions, tempers, of being ‘sanctified
+                    throughout in spirit, soul, and body’,<note place="foot" xml:id="ftn119" n="119">
+                        <p rend="footnote text">Cf. 1 Thess. 5:23.</p>
+                    </note> without a
+                    constant and continued course of general self-denial!</p>
+                <p n="8">8. What less than this can we possibly infer from the above cited words of
+                    St. Paul, who, ‘living in “infirmities, in reproaches, in necessities, in
+                    persecutions, in distresses” for Christ’s sake, who being full of “signs, and
+                    wonders, and mighty deeds”, who having been “caught up into the third heaven”,
+                    yet reckoned’ (as a late author strongly expresses it) that ‘all his virtues’
+                    would be ‘insecure, and’ even ‘his salvation in danger, without this constant
+                    self-denial. […] “So run I”, says he, “not as uncertainly; so fight I, not as
+                    one that beateth the air.” By which he plainly teaches us that he who does not
+                    thus run, who does not thus’ deny himself daily, does ‘run uncertainly, and
+                    fighteth to as little purpose as he that “beateth the air”.’<note place="foot" xml:id="ftn120" n="120">
+                        <p rend="footnote text">Cf. Law, <hi rend="italic">Christian Perfection</hi> (<hi rend="italic">Works</hi>, III.117),
+                            who quotes in turn 2 Cor. 12:10, 12; ver. 2, and 1 Cor. 9:26. Note how
+                            close Law comes to turning St. Paul’s triad (‘faith, hope, and love’)
+                            into a quartet by his addition of ‘self-denial’ as an equal theological
+                            virtue; Wesley follows him here in his stress on its equivalent,
+                            ‘humility’. Cf. John Worthington, whose <hi rend="italic">Great Duty of
+                                Self-Resignation to the Divine Will</hi> (1675, 1689) was extracted
+                            by Wesley for his <hi rend="italic">Christian Lib.</hi>,
+                        XXIII-XXIV.</p>
+                    </note>
+                </p>
+                <p n="9">
+                    <pb n="413"/>9. To as little purpose does he talk of ‘fighting the fight of
+                        faith’,<note place="foot" xml:id="ftn121" n="121">
+                        <p rend="footnote text">1
+                            Tim. 6:12.</p>
+                    </note> as vainly hope to attain the crown of incorruption
+                    (as we may, lastly, infer from the preceding observations), whose heart is not
+                    circumcised by love. Cutting off both the lust of the flesh, the lust of the
+                    eye, and the pride of life,<note place="foot" xml:id="ftn122" n="122">
+                        <p rend="footnote text">1 John 2:16; see above, I.13 and n.</p>
+                    </note>
+                    engaging the whole man, body, soul, and spirit, in the ardent pursuit of that
+                    one object, is so essential to a child of God that ‘without it whosoever liveth
+                    is counted dead before him.’<note place="foot" xml:id="ftn123" n="123">
+                        <p rend="footnote text">Cf. BCP, Collects, Quinquagesima, which speaks of
+                            charity as ‘that most excellent gift, …the very bond of peace and of all
+                            virtues.’</p>
+                    </note> ‘Though I speak with the tongues of men and angels,
+                    and have not love, I am as sounding brass, or a tinkling cymbal. Though I have
+                    the gift of prophecy, and understand all mysteries, and all knowledge, and
+                    though I have all faith so as to remove mountains, and have not love, I am
+                    nothing. Nay, though I give all my goods to feed the poor, and my body to be
+                    burned, and have not love, it profiteth me nothing.’<note place="foot" xml:id="ftn124" n="124">
+                        <p rend="footnote text">Cf. 1 Cor.
+                        13:1-3.</p>
+                    </note>
+                </p>
+                <p n="10">10. Here then is the sum of the perfect law: this is the true
+                    ‘circumcision of the heart’. Let the spirit return to God that gave it, with the
+                    whole train of its affections. ‘Unto the place from whence all the rivers came,
+                        thither’<note place="foot" xml:id="ftn125" n="125">
+                        <p rend="footnote text">Cf. Eccles. 1:7.</p>
+                    </note> let them flow again. Other sacrifices from
+                    us he would not; but the living sacrifice of the heart he hath chosen. Let it be
+                    continually offered up to God through Christ, in flames of holy love. And let no
+                    creature be suffered to share with him: for he is a jealous God.<note place="foot" xml:id="ftn126" n="126">
+                        <p rend="footnote text">Exod. 20:5,
+                            etc.</p>
+                    </note> His throne will he not divide with another: he will
+                    reign without a rival. Be no design, no desire admitted there but what has him
+                    for its ultimate object. This is the way wherein those children of God once
+                    walked, who being dead still speak to us:<note place="foot" xml:id="ftn127" n="127">
+                        <p rend="footnote text">See Heb. 11:4.</p>
+                    </note> ‘Desire not to
+                    live but to praise his name; let all your thoughts, words, and works tend to his
+                    glory. Set your heart firm on him, and on other things only as they are in and
+                    from him.’<note place="foot" xml:id="ftn128" n="128">
+                        <p rend="footnote text">Is
+                            this, and are the following three quotations, an imagined summary of
+                            what the saints have to tell us? More probably they are quotations from
+                            older devotional texts known to Wesley and to at least some of his
+                            audience, but not yet located in this context.</p>
+                    </note> ‘Let your soul
+                    be filled with so entire a love of him that you may love nothing but for his
+                    sake.’ ‘Have a <pb n="414"/>pure intention of heart, a steadfast regard to his
+                    glory in all your actions.’ ‘Fix your eye upon the blessed hope of your calling,
+                    and make all the things of the world minister unto it.’ For then, and not till
+                    then, is that ‘mind in us which was also in Christ Jesus’,<note place="foot" xml:id="ftn129" n="129">
+                        <p rend="footnote text">Cf. Phil. 2:5.</p>
+                    </note>
+                    when in every motion of our heart, in every word of our tongue, in every work of
+                    our hands, we ‘pursue nothing but in relation to him, and in subordination to
+                    his pleasure’; when we, too, neither think, nor speak, nor act, to fulfil our
+                    ‘own will, but the will of him that sent us’;<note place="foot" xml:id="ftn130" n="130">
+                        <p rend="footnote text">Cf. John 5:30; 6:38.</p>
+                    </note> when whether
+                    we ‘eat, or drink, or whatever we do, we do all to the glory of God’.<note place="foot" xml:id="ftn131" n="131">
+                        <p rend="footnote text">Cf. 1 Cor.
+                            10:31.</p>
+                    </note>
+                </p>
+            </div>
+        </body>
+    </text>
+</TEI>

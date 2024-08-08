@@ -1,0 +1,1273 @@
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Sermon 1: Salvation by Faith</title>
+                <title type="subtitle">A Sermon preached at St. Mary’s, Oxford, before the
+                    University, on <date when="1738-06-11">June 11, 1738</date>
+                </title>
+                <author>Wesley, John</author>
+                <editor role="text">Van Buskirk, Gregory P.</editor>
+                <editor role="digital">Taylor, Michelle M.</editor>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>The Wesley Works Digitzation Project</publisher>
+                <pubPlace>Tampa, FL</pubPlace>
+                <date>2024-02-21</date>
+             <idno type="URI">https://wesleyworks.ecdsdev.org/sermons/Sermon001</idno>                            
+            </publicationStmt>
+            <sourceDesc>
+                <listBibl>
+                    <biblStruct>
+                        <analytic>
+                            <title level="a">Sermon 1: Salvation by Faith</title>
+                            <date when="1738-06-11"/>
+                        </analytic>
+                        <monogr>
+                            <title level="j">The Works of John Wesley, Volume I: Sermons I,
+                                1-33</title>
+                            <editor role="volume">Outler, Albert</editor>
+                            <imprint>
+                                <publisher>Abingdon Press</publisher>
+                                <pubPlace>Nashville, TN</pubPlace>
+                                <date when="2015-05-01">1984-05-01</date>
+                                <biblScope unit="volume" n="1"/>
+                                <biblScope unit="page" from="109" to="130"/>
+                            </imprint>
+                        </monogr>
+                        <series>
+                            <title level="s">The Works of John Wesley</title>
+                            <editor role="general">Baker, Frank</editor>
+                        </series>
+                    </biblStruct>
+                </listBibl>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Greg Van Buskirk created Word docs for all of Wesley's sermons using a combination of
+                OCR software and manual proofing. Michelle Taylor converted these docx into XML
+                using Oxygen's DITA automatic transformation scenario, then touched them up
+                manually.</p>
+        </encodingDesc>
+        <standOff>
+            <taxonomy>
+                <keywords>
+                    <term/>
+                </keywords>
+            </taxonomy>
+            <!--Include keywords and terms here eventually.-->
+        </standOff>
+        <revisionDesc/>
+    </teiHeader>
+    <text>
+        <body>
+            <pb n="01:109"/>
+            <introduction>
+                <p>
+                    <hi rend="italic">An Introductory Comment [to Sermons 1-4]</hi>
+                </p>
+                <p>As we have seen, these first four sermons in this first volume of <hi rend="italic">SOSO</hi> were ‘prefixed’ to the other eight on the advice of
+                    friends, and also as proof of the consistency of Wesley’s new preaching, whether
+                    before the University of Oxford or to the masses in Moorfields. But they also
+                    serve another function, unavowed but crucial: they mark out the successive
+                    stages of Wesley’s alienation from any further career as a reformer within the
+                    university, as he made the radical shift in his commitment to the Revival as his
+                    new vocation.</p>
+                <p>Along with other ordained Oxford M.A.s, the brothers Wesley were subject to
+                    occasional appointment as preachers in the <hi rend="italic">rota</hi> of
+                    university services on Sundays and saints’ days (most of them in the Church of
+                    St. Mary the Virgin, but others in St. Peter’s in the East and certain college
+                        chapels).<note place="foot" xml:id="ftn1" n="1">
+                        <p rend="footnote text">Cf.
+                            Oxford University Statutes, tr. by G. R. M. Ward (1845), Vol. I, ‘The
+                            Laudian Statutes’ (1636), Title XVI, chs. 1-7.</p>
+                    </note> Attendance
+                    upon these services was a stated obligation of ‘all doctors, masters, graduates,
+                    and scholars’, who were enjoined to ‘be present at them from their beginning to
+                    their end…’; no one was ‘permitted to wander abroad to another church, or
+                    churches, under pain of chastisement…’, etc. (ch. 10). Even though these
+                    injunctions were often honoured in the breach, such occasions were still
+                    splendid sounding boards for eloquent preachers with earnest messages.</p>
+                <p>John Wesley’s first ‘university sermon’ had been delivered in St. Mary’s on
+                    November 15, 1730, ‘On Gen. 1:27’ (see No. 141, Vol. IV); a second on July 23,
+                    1732 (‘A Consecration Sermon’, not extant); a third on January 1, 1733 (‘The
+                    Circumcision of the Heart’; see No. 17 below). This last may be reckoned as a
+                    landmark in the development of Wesley’s theology, and must also have made a
+                    favourable general impression, for in the next two and a half years he was
+                    invited to deliver <pb n="110"/>
+                    <hi rend="italic">six</hi> more university
+                    sermons: March 26, 1733 (Easter); April 1, 1733 (Low Sunday); May 13, 1733
+                    (Whitsunday); February 10, 1734; June 11, 1734 (St. Barnabas’s); September 21,
+                    1735 (St. Matthew’s). This is out of all proportion to any typical rotation, and
+                    even if Wesley was serving as substitute for other appointed preachers, that
+                    would have required the approval of the Vice-Chancellor (cf. <hi rend="italic">Statutes</hi>, XVI, ch. 6). The least that this can mean is that John
+                    Wesley was more widely appreciated at Oxford as a preacher than the popular
+                    stereotypes have suggested.</p>
+                <p>This fact sheds some light on the arrangement by the university officials for
+                    Wesley to preach again in Oxford soon after his return from Georgia (probably in
+                    expectation of his resumption of his duties there); the new appointment was set
+                    for the Festival of St. Barnabas, June 11, 1738. By that time, of course, Wesley
+                    had undergone the radical change of heart and mind described in the <hi rend="italic">Journal</hi> for May 24, about which his Oxford colleagues
+                    would have known nothing.<note place="foot" xml:id="ftn2" n="2">
+                        <p rend="footnote text">Cf. Intro., above, p.4; see also Schmidt, <hi rend="italic">Wesley</hi>, I.141-95, for a careful analysis of the
+                            theological developments involved in this ‘conversion’; JWJ, Feb. 7-May
+                            28, sheds light on Wesley’s mood as he revised his sermon for this
+                            crucial new occasion.</p>
+                    </note> Meanwhile, he had already tested his
+                    ‘new gospel’ (‘salvation by faith alone’) in several churches in and near
+                    London, and his presentation of it had almost invariably stirred up more offence
+                    than conversions.<note place="foot" xml:id="ftn3" n="3">
+                        <p rend="footnote text">See JWJ, Feb. 5 (Milbank, Westminster); Feb. 12 (St. Andrew’s,
+                            Holborn); Feb. 26 (thrice in London, the first, in St. Lawrence Jewry,
+                            being the most blessed ‘because it gave the most offence’); Mar. 6
+                            (after being counselled by Böhler to ‘preach faith <hi rend="italic">till</hi> you have it; and then, <hi rend="italic">because</hi> you
+                            have it, you <hi rend="italic">will</hi> preach faith’); Mar. 17, 26,
+                            and 27; Apr. 2, 25, 26; May 7, 9, 14, and 21 (this last being also the
+                            day of Charles Wesley’s experience of assurance).</p>
+                    </note> In most of
+                    these instances, as he records with a trace of self-righteousness, he had been
+                    thenceforth barred from this pulpit and that. The Aldersgate experience had not
+                    produced a new doctrine, but a new resolution to make the most of his
+                    opportunities to expound the one to which he had already come.</p>
+                <p>He was by now very well aware of the controversial character of his message, and
+                    he could not have expected a sympathetic hearing at Oxford. ‘Salvation by Faith’
+                    was, however, the first public occasion after his ‘Aldersgate’ experience for a
+                    positive evangelical manifesto. It is worth noting that its Moravian substance
+                    is qualified by echoes from the Edwardian <hi rend="italic">Homilies</hi>, as in
+                    the claim that salvation involved a power not to commit sin (<hi rend="italic">posse non peccare</hi>). There is also an obvious Anglican nuance in the
+                    definition of saving faith presented here.</p>
+                <p>When his turn as university preacher came round again (<date when="1741-07-25">July 25, 1741</date>), the Revival was in full swing and Wesley had found
+                    in its <pb n="111"/>leadership an alternative career. He had not only begun to
+                    shift his loyalties from Oxford to his own Societies; he had also become one of
+                    Oxford’s harsher critics.<note place="foot" xml:id="ftn4" n="4">
+                        <p rend="footnote text">This may be seen in the Latin and English versions
+                            of a sermon on Isa. 1:21 which he had first prepared in 1739, probably
+                            in connection with his exercises for the B.D. degree which, as Fellow of
+                            Lincoln College, he was expected to take in due course (see below, Nos.
+                            150, 151).</p>
+                    </note> John Gambold had already advised him that he would
+                    face a hostile audience, but Wesley was in no mood to mollify them.<note place="foot" xml:id="ftn5" n="5">
+                        <p rend="footnote text">See JWJ, June 18,
+                            1741: ‘All here [Gambold had said of the Oxford community] are so
+                            prejudiced that they will mind nothing you say.’ Wesley’s reaction: ‘I
+                            know that. However, I am to deliver my own soul, whether they will hear
+                            or whether they will forbear’ (one of Wesley’s standard formulae of
+                            alienation). A fortnight later even Wesley and Gambold had come to a
+                            parting of their ways (cf. JWJ, July 2). Earlier, he had finally got
+                            round to reading ‘that celebrated book, Martin Luther’s <hi rend="italic">Comment on the Epistle to the Galatians</hi>’; his
+                            negative reaction to it was intemperate (see JWJ, June 15).</p>
+                    </note>
+                    Indeed, the whole <hi rend="italic">Journal</hi> record for June and July
+                    reflects a mounting tension, as if Wesley was aware of the crisis. On June 28 he
+                    preached ‘at Charles Square [London], to the largest congregation that, I
+                    believe, was ever seen there, on “Almost thou persuadest me to be a Christian”
+                    [cf. Acts 26:28]’. This was the sermon that, revised and with its new
+                    ‘application’ explicitly aimed at Oxford, he delivered on the festival day of
+                    St. James the Apostle, July 25.</p>
+                <p>Its theme—the radical difference between nominal and real Christianity—was
+                    already a familiar one in Puritan preaching;<note place="foot" xml:id="ftn6" n="6">
+                        <p rend="footnote text">Cf. below, No. 2, <hi rend="italic">The Almost
+                                Christian</hi>, proem and n.</p>
+                    </note> it was, however, already
+                    conventional to ignore the text’s plain reference to Agrippa’s being almost
+                    persuaded to become a Christian rather than to his already being a nominal one.
+                    Wesley draws out the distinctions between the two stages of Christian experience
+                    (‘almost’ and ‘altogether’). Part I paints a vivid picture of the high-minded
+                    hypocrite (the ‘almost Christian’) and concludes with Wesley’s confession ‘that
+                    this had been his own state in all his days at Oxford’ (I.13). Part II
+                    delineates the ‘altogether Christian’ according to his new conceptions, and
+                    openly expresses doubt that there are many such in Oxford even now (II.7-9).
+                    There are no records of this sermon’s reception on this occasion, but it would
+                    not have been lost on his Methodist readers that their leader had bearded the
+                    Anglican establishment in one of its citadels and had survived.</p>
+                <p>In the following year Charles Wesley came up for an appointment as preacher in
+                    St. Mary’s on <date when="1742-04-04">April 4, 1742</date>. His evangelical
+                    conversion had preceded his brother’s, either on <date when="1738-05-03">May 3,
+                        1738</date> (when ‘it pleased God to open his <hi rend="italic">eyes</hi> so
+                    that he saw clearly what was the nature of [saving] <pb n="112"/>faith…’) or on
+                        <date when="1738-05-19">May 19</date> (when he ‘had found rest to his
+                        soul’).<note place="foot" xml:id="ftn7" n="7">
+                        <p rend="footnote text">Cf.
+                            both CWJ and JWJ for these dates and experiences.</p>
+                    </note> In any
+                    case, Charles was more exuberant in temperament and rhetoric than his elder
+                        brother.<note place="foot" xml:id="ftn8" n="8">
+                        <p rend="footnote text">See
+                            above, p. 2, n. 6: ‘…in connection I beat you; but in strong, pointed
+                            sentences you beat me.’</p>
+                    </note> He had already preached a sermon on
+                    justification ‘before the university [July 1739] with great boldness…’.<note place="foot" xml:id="ftn9" n="9">
+                        <p rend="footnote text">CWJ, Sunday, July
+                            1, 1739; this is followed (on Monday) by a note that the Vice-Chancellor
+                            and ‘all were against [that] sermon as liable to be misunderstood’. Had
+                            this been Charles’s reinforcing sequel to John’s <hi rend="italic">Salvation by Faith</hi>?</p>
+                    </note> His bidding prayer<note place="foot" xml:id="ftn10" n="10">
+                        <p rend="footnote text">In the
+                            unpublished MS of a sermon on Rom. 3:27-28.</p>
+                    </note> indicates that
+                    this preaching service had been held in Christ Church Cathedral rather than St.
+                    Mary’s. On June 30, 1740, he reports having spent a week in Oxford ‘preaching
+                    repentance’ but also in discovering that ‘learned Gallio cared for none of these
+                        things’.<note place="foot" xml:id="ftn11" n="11">
+                        <p rend="footnote text">See
+                            Acts 18:17 for this analogy between a Roman proconsul’s and Oxford’s
+                            indifference.</p>
+                    </note> Now, he was scheduled to preach in St. Mary’s
+                    itself—for the first and last time.</p>
+                <p>Charles’s message, with a barrage of invidious questions for its climax, fell
+                    largely on deaf ears; this is reported by a visitor who was in the audience:
+                    Thomas Salmon, a popular historian.<note place="foot" xml:id="ftn12" n="12">
+                        <p rend="footnote text">‘The times of the day the University go to this
+                            church are ten in the morning and two in the afternoon, on Sundays and
+                            holidays, the sermon usually lasting about half an hour. But when I
+                            happened to be at Oxford, in 1742, Mr. Wesley, the Methodist, of Christ
+                            Church, entertained his audience two hours, having insulted and abused
+                            all degrees from the highest to the lowest, was in a manner hissed out
+                            of the pulpit by the lads;’ Thomas Salmon, <hi rend="italic">A
+                                Foreigner’s Companion through the Universities of Cambridge and
+                                Oxford</hi> (1748), p. 25, and quoted in CWJ, Apr. 15,
+                        1750.</p>
+                    </note> Charles Wesley’s denial of Salmon’s report appears in his
+                        <hi rend="italic">Journal</hi> for April 15, 1750, and is emphatic;<note place="foot" xml:id="ftn13" n="13">
+                        <p rend="footnote text">‘And it would
+                            have been high time for them to do so, if the historian [Salmon] said
+                            true. But, unfortunately for him, I measured the time by my watch and it
+                            was within the hour; I abused neither high nor low, as my sermon in
+                            print will prove; neither was I hissed out of the pulpit or treated with
+                            the least incivility, either by young or old….’</p>
+                    </note> he may have
+                    been right about the time, since the sermon as printed can be read aloud in
+                    thirty minutes. On the other hand, Charles’s accusations must surely have
+                    aroused resentment in his auditory, and Salmon would have been a competent judge
+                    of that. In any case this sermon would have persuaded any Methodist reader of
+                    Charles’s wholehearted identification with his brother’s cause and theirs. <hi rend="italic">‘Awake, Thou That Sleepest’</hi> is then a lively evangelical
+                    statement, a personal identification with the Revival and a valedictory to
+                    Oxford.</p>
+                <p>By August 1744 the Revival was gaining momentum, the network (‘connexion’) of the
+                    Methodist Societies had extended over into Wales <pb n="113"/>and had come under
+                    serious persecution by English mobs, the first ‘conference’ had just been held
+                    (June 25-29), and John Wesley had found his true mission in life. Even so, his
+                    turn as university preacher came up yet again for August 24 (another festival,
+                    this one for St. Bartholomew). This, of course, was an anniversary of the
+                    notorious Massacre of Paris (in 1572) and, again, of the Great Ejectment of the
+                    Nonconformists in England in 1662, in which both of Wesley’s grandfathers had
+                    suffered. Benjamin Kennicott’s explanation of Wesley’s appointment was that ‘as
+                    no clergyman [could] avoid his turn, so the university can refuse none;
+                    otherwise Mr. Wesley would not have preached.’<note place="foot" xml:id="ftn14" n="14">
+                        <p rend="footnote text">At this time, Kennicott was an undergraduate
+                            at Wadham College, but he was destined to set Old Testament studies in
+                            England upon a new level with his great <hi rend="italic">Vetus
+                                Testamentum cum Variis Lectionibus</hi> (Vol. 1, 1776; Vol. 2,
+                            1780). His account of Wesley’s sermon appeared in <hi rend="italic">WMM</hi>, 1866, 47-48.</p>
+                    </note> Actually, though, that rule was
+                    flexible; there was ample precedent for substitutions. One must wonder,
+                    therefore, how the appointment came about. Was it a gesture of academic freedom?
+                    Did Wesley have a stronger base in Oxford than would appear from the record?
+                    There is no indication that he had claimed his turn as by right, but it would
+                    never have crossed his mind to avoid it. Thus, the stage was set for a
+                    confrontation—and another valedictory.</p>
+                <p>Parts I-III of <hi rend="italic">Scriptural Christianity</hi> constitute a
+                    positive account of Wesley’s conception of the ‘order of salvation’ (Part I), an
+                    interesting missiological perspective (Part II), and an early statement of
+                    Wesley’s eschatological ideas (Part III)—the sum of these parts is evangelical
+                    and Anglican. The mood changes in Part IV where he comes to his ‘plain and
+                    practical application’. Here the judgment is passed, with scant charity, that
+                    Oxford’s hypocrisies are an intolerable offence to God and a general hindrance
+                    to the Christian mission. Kennicott’s uncharitable suspicion was that this final
+                    salvo ‘was what [Wesley] had been preparing for all along…’:</p>
+                <quote>[In the conclusion] he fired his address with so much zeal and unbounded
+                    satire as quite spoiled what otherwise might have been turned to great
+                    advantage…. I liked some of his freedom: such as calling the generality of young
+                    townsmen ‘a generation of triflers’…. But considering how many shining lights
+                    are here that are the glory of the Christian cause, his sacred censure was much
+                    too flaming and strong and his charity much too weak…. Having summed up the
+                    measure of our iniquities, he concluded with a lifted up eye in this most solemn
+                    form, ‘It is time for <hi rend="italic">thee</hi>, Lord, to lay to <hi rend="italic">thine</hi> hand’—words full of such presumption and seeming
+                    imprecation that they gave an universal shock…. Had these things been omitted
+                    and his censures moderated, I think his discourse, as to style and delivery,
+                    would have been uncommonly pleasing to others as well as to myself. He is
+                    allowed to be a man of great parts, and that by the excellent Dean <pb n="114"/>of Christ Church;<note place="foot" xml:id="ftn15" n="15">
+                        <p rend="footnote text">John Conybeare, who succeeded Joseph Butler as
+                            Bishop of Bristol, and author of <hi rend="italic">Defence of Revealed
+                                Religion…</hi> (1732), one of the eighteenth century’s more famous
+                            replies to Tindal and other deists.</p>
+                    </note> for the day he preached
+                    the dean generously said of him, ‘John Wesley will always be thought a man of
+                    sound sense, though an enthusiast!’ However, the Vice-Chancellor<note place="foot" xml:id="ftn16" n="16">
+                        <p rend="footnote text">Walter Hodges,
+                            Provost of Oriel.</p>
+                    </note> sent for the sermon, and I hear that the
+                    heads of college intend to shew their resentment.</quote>
+                <p>Another eyewitness report of the same event was recorded by William Blackstone,
+                    already a Fellow of All Souls and on his way to the fame he would earn as author
+                    of his <hi rend="italic">Commentaries on the Laws of England</hi> (1765-69). In
+                    a letter to a family friend (Aug. 28) the young Blackstone reports on Wesley’s
+                    sermon, which seems to have become the talk of the town:</p>
+                <quote>We were last Friday [Aug. 24] entertained at St. Mary’s by a curious sermon
+                    from Wesley the Methodist. Among other equally modest particulars, he informed
+                    us, 1st, that there was not one Christian among all the Heads of Houses; 2ndly,
+                    that pride, gluttony, avarice, luxury, sensuality and drunkenness were general
+                    characteristics of all Fellows of Colleges, who were useless to a proverbial
+                    uselessness. Lastly, that the younger part of the University were a generation
+                    of triflers, all of them perjured and none of them of any religion at all. His
+                    notes were demanded by the Vice-Chancellor, but on mature deliberation it has
+                    been thought proper to punish him by a mortifying neglect….<note place="foot" xml:id="ftn17" n="17">
+                        <p rend="footnote text">Cf. the facsimile of the
+                            letter in John Fletcher Hurst, <hi rend="italic">The History of
+                                Methodism</hi>, II.604-5.</p>
+                    </note>
+                </quote>
+                <p>That ‘mortifying neglect’ began at once. Charles Wesley records that ‘we [John
+                    Wesley, Charles Wesley, Messrs. Piers and Meriton] walked back in form, the
+                    little band of us four; for of the rest durst none join himself to us.’<note place="foot" xml:id="ftn18" n="18">
+                        <p rend="footnote text">Cf. CWJ, Aug. 24,
+                            1744.</p>
+                    </note>
+                </p>
+                <p>Methodists, then and later, could see no proper warrant for anyone to have taken
+                    offence at such a sermon; after all, Wesley had simply preached the gospel and
+                    applied it ‘close and home’. Thomas Jackson’s later comment on it is
+                    typical:</p>
+                <quote>
+                    <hi rend="italic">Scriptural Christianity</hi> contains a beautiful and
+                    forcible description of spiritual religion, with the manner by which it is
+                    acquired by individuals and then spreads from one to another until it shall
+                    cover the earth. The concluding application to the heads of colleges and halls,
+                    to the fellows and tutors and to the body of undergraduates, assumes their
+                    general and wide departure from the true Christian character, and [their]
+                    abandonment to formality, worldliness, levity, and sloth. It contains nothing
+                    sarcastic and irritating, nothing that was designed to give unnecessary pain or
+                    offence; but is marked throughout by seriousness, fidelity, and tender
+                        affection.<note place="foot" xml:id="ftn19" n="19">
+                        <p rend="footnote text">
+                            <hi rend="italic">The Life of the Rev. Charles Wesley</hi> (1841),
+                            I.403.</p>
+                    </note>
+                </quote>
+                <p>
+                    <pb n="115"/>John Wesley himself was much more of a realist and also more aware
+                    of his own intention:</p>
+                <quote>I preached, I suppose the last time, at <placeName>St. Mary’s</placeName>. Be
+                    it so. I am now clear of the blood of these men. I have fully delivered my own
+                    soul.</quote>
+                <quote>The Beadle came to me afterwards and told me the Vice-Chancellor had sent him
+                    for my notes. I sent them without delay, not without admiring the wise
+                    providence of God. Perhaps few men of note would have given a sermon of mine the
+                    reading if I had put it into their hands; but by this means it came to be read,
+                    probably more than once, by every man of eminence in the University.<note place="foot" xml:id="ftn20" n="20">
+                        <p rend="footnote text">JWJ, Aug. 24,
+                            1744.</p>
+                    </note>
+                </quote>
+                <p>That he never regretted the affair or its consequences would appear from a
+                    complacent recollection of it in 1781 in ‘A Short History of the People called
+                    Methodists’:</p>
+                <quote>Friday, August 24, St. Bartholomew’s Day, I preached for the last time before
+                    the University of Oxford. I am now clear of the blood of these men. I have fully
+                    delivered my own soul. And I am well pleased that it should be the very day on
+                    which, in the last century,<note place="foot" xml:id="ftn21" n="21">
+                        <p rend="footnote text">
+                            <hi rend="italic">Viz.</hi>, the Great Ejectment in
+                            1662.</p>
+                    </note> near two thousand burning and shining lights were put
+                    out at one stroke. Yet what a wide difference is there between their case and
+                    mine! They were turned out of house and home, and all that they had; whereas I
+                    am only hindered from preaching, without any other loss; and that in a kind of
+                    honourable manner; it being determined that when my next turn to preach came
+                    they would pay another person to preach for me. And so they did twice or thrice,
+                    even to the time that I resigned my fellowship.<note place="foot" xml:id="ftn22" n="22">
+                        <p rend="footnote text">§30. See Vol. 9 of this edn. and <hi rend="italic">Bibliog</hi>, No. 420.</p>
+                    </note>
+                </quote>
+                <p>What would have been most obvious to his Methodist readers was the heroic stature
+                    of their leader who had preached ‘plain truth’ to academic people to their face
+                    and at the cost of rejection by them. What clearer proof could there be of his
+                    fidelity to the gospel under all circumstances and of his total commitment in
+                    his ministry among them? It was no small matter for a tenured don to have
+                    forsaken his privileged status in a class-conscious English society in exchange
+                    for ‘The Foundery’, ‘The New Room’, and a career among the masses. They knew,
+                    all too well, how rudely the Methodists had been treated, to the point of savage
+                    persecution, condoned by magistrates and clergy alike in the years between 1739
+                    and 1746; they could still foresee dangerous days ahead. <hi rend="italic">Scriptural Christianity</hi> as published was an evangelical proclamation;
+                    it was also an act of defiance.</p>
+                <p>These ‘prefixed’ sermons, therefore, serve a particular junction in <hi rend="italic">SOSO</hi> as a bloc: they proclaim the Wesleyan message in
+                    prophetic terms, and they signify Wesley’s transference of his allegiance from
+                    the <pb n="116"/>Academy to his new vocation as a preacher of ‘plain truth for
+                    plain people’. Together they dispel any impression of inconsistency. His message
+                    in St. Mary’s had been the same as it was now in Moorfields. Thus, these sermons
+                    could serve as a multifaceted introductory quartet to the larger endeavour of
+                        <hi rend="italic">Sermons on Several Occasions</hi>.</p>
+                <p>The edited text of <hi rend="italic">Salvation by Faith</hi> is based upon the
+                    first edition of 1738. For a stemma illustrating its publishing history through
+                    its thirty-one editions in Wesley’s lifetime, together with substantive variant
+                    readings, see Vol. IV, Appendix. See also <hi rend="italic">Bibliog</hi>, No.
+                    10.</p>
+                <p>The text for <hi rend="italic">The Almost Christian</hi> is based upon its first
+                    edition, 1741. For a stemma and table of variant readings through the
+                    twenty-eight extant editions during Wesley’s lifetime, see Vol. IV, Appendix.
+                    See also <hi rend="italic">Bibliog</hi>, No. 50.</p>
+                <p>The first edition of <hi rend="italic">‘Awake, Thou That Sleepest’</hi> followed
+                    here, was published shortly after the sermon itself was preached in 1742. For a
+                    stemma and variant readings from the fifty-two extant editions in Charles
+                    Wesley’s lifetime, see Vol. IV, Appendix. See also <hi rend="italic">Bibliog</hi>, No. 59.</p>
+                <p>
+                    <hi rend="italic">Scriptural Christianity</hi> was also published shortly after
+                    its delivery in 1744 and ran through at least fifteen editions in Wesley’s
+                    lifetime. For a stemma of these editions and a list of variant readings, see
+                    Vol. IV, Appendix. See also <hi rend="italic">Bibliog</hi>, No. 92.</p>
+            </introduction>
+            <head>Salvation by Faith</head>
+            <head type="subhead">Sermon preached at St. Mary’s, Oxford,<lb/>before the
+                University,<lb/>on <date when="1738-06-11">June 11, 1738</date>
+                <note place="foot" xml:id="ftn23" n="23">
+                    <p rend="footnote text">The half-title in the first
+                        edition of <hi rend="italic">SOSO</hi>, Vol. I (1746), and a footnote in <hi rend="italic">Works</hi> I.15, record the date as June 18, 1738—an
+                        obvious misremembrance, since Wesley was in Germany then; cf.
+                    JWJ.</p>
+                </note>
+            </head>
+            <epigraph>
+                <p>Ephesians 2:8</p>
+                <p>
+                    <hi rend="italic">By grace ye are saved through faith.</hi>
+                    <note place="foot" xml:id="ftn24" n="24">
+                        <p rend="footnote text">One of Wesley’s favourite texts. In No. 16, ‘The
+                            Means of Grace’, II.6, he speaks of its theme as ‘that great foundation
+                            of the whole Christian building’; cf. John Telford, <hi rend="italic">The Life of the Rev. Charles Wesley</hi> (London, Wesleyan
+                            Methodist Book Room, 1900), pp. 76, 79-80, and also John Hampson’s
+                            comment (<hi rend="italic">Memoirs</hi>, I.199) that Wesley’s definition
+                            of faith here, based upon the <hi rend="italic">Homilies</hi>, remained
+                            constant thereafter.</p>
+                    </note>
+                </p>
+            </epigraph>
+            <div type="introduction">
+                <p n="1">1. All the blessings which God hath bestowed upon man are of his mere
+                    grace, bounty, or favour: his free, undeserved favour, favour altogether
+                    undeserved, man having no claim to the least of his mercies.<note place="foot" xml:id="ftn25" n="25">
+                        <p rend="footnote text">See Gen 32:10.</p>
+                    </note> It
+                    was free grace that ‘formed man of the dust of the ground, and breathed into him
+                    a living soul’,<note place="foot" xml:id="ftn26" n="26">
+                        <p rend="footnote text">Cf. Gen. 2:7.</p>
+                    </note> and stamped on that soul the image of
+                        God,<note place="foot" xml:id="ftn27" n="27">
+                        <p rend="footnote text">This
+                            metaphor from Gen. 1:27 is the basic one in Wesley’s anthropology; it
+                            first appears in the MS sermon on the Genesis text (see below, No. 141,
+                            ‘The Image of God’, dated 1730) and is often repeated throughout the
+                            corpus. Cf. Nos. 3, <hi rend="italic">‘Awake, Thou That Sleepest’</hi>,
+                            I.2; 5, ‘Justification by Faith’, I.1-2; 6, ‘The Righteousness of
+                            Faith’, II.9; 12, ‘The Witness of Our Own Spirit’, §16; 14, <hi rend="italic">The Repentance of Believers</hi>, III.2; 20, <hi rend="italic">The Lord Our Righteousness</hi>, I.2; 22, ‘Sermon on
+                            the Mount, II’, II.6; 44, <hi rend="italic">Original Sin</hi>, III.5;
+                            45, ‘The New Birth’, I.1; 57, ‘On the Fall of Man’, II.6; 60, ‘The
+                            General Deliverance’, I.1, 2, III.11, 12; 62, ‘The End of Christ’s
+                            Coming’, I.7; 85, ‘On Working Out Our Own Salvation’, II.1; 128, ‘The
+                            Deceitfulness of the Human Heart’, I.2; 129, ‘Heavenly Treasure in
+                            Earthen Vessels’, §2, I.1; 135, ‘On Guardian Angels’, II.2; 139, ‘On the
+                            Sabbath’, I.2; 146, ‘The One Thing Needful’, I.2, III.1; cf. also his
+                            letter to Richard Morgan, Jan. 15, 1734, and to William Dodd, Mar. 12,
+                            1756. See also <hi rend="italic">Survey</hi> (1784), IV. 54-55.</p>
+                        <p rend="footnote text">The phrase denotes for Wesley the human capacity
+                            for knowing and responding to God’s prevenient, justifying, and
+                            sanctifying activities and, in this respect, is equivalent to his other
+                            phrase about our ‘spiritual sensorium’ (cf. No. 10, ‘The Witness of the
+                            Spirit, I’, I.12 and n.). The restoration of our corrupted and disabled
+                            ‘image’ to its pristine capacity is, indeed, the goal of Wesley’s <hi rend="italic">ordo salutis</hi>.</p>
+                    </note> and ‘put all things
+                    under <pb n="118"/>his feet’.<note place="foot" xml:id="ftn28" n="28">
+                        <p rend="footnote text">Ps. 8:6; a rare quotation of a psalm from the AV.
+                            See also 1 Cor. 15:27; Eph. 1:22.</p>
+                    </note> The same free grace
+                    continues to us, at this day, life, and breath, and all things.<note place="foot" xml:id="ftn29" n="29">
+                        <p rend="footnote text">Acts
+                        17:25.</p>
+                    </note> For there is nothing we are, or have, or do, which can
+                    deserve the least thing at God’s hand. ‘All our works thou, O God, hast wrought
+                    in us.’<note place="foot" xml:id="ftn30" n="30">
+                        <p rend="footnote text">Cf. Isa.
+                            26:12.</p>
+                    </note> These therefore are so many more instances of free
+                    mercy: and whatever righteousness may be found in man, this also is the gift of
+                    God.</p>
+                <p n="2">2. Wherewithal then shall a sinful man atone for any the least of his sins?
+                    With his own works? No. Were they ever so many or holy, they are not his own,
+                    but God’s. But indeed they are all unholy and sinful themselves, so that every
+                    one of them needs a fresh atonement. Only corrupt fruit grows on a corrupt
+                        tree.<note place="foot" xml:id="ftn31" n="31">
+                        <p rend="footnote text">See
+                            Matt. 7:17, 18; 12:33.</p>
+                    </note> And his heart is altogether corrupt
+                    and abominable, being ‘come short of the glory of God’,<note place="foot" xml:id="ftn32" n="32">
+                        <p rend="footnote text">Rom. 3:23.</p>
+                    </note> the
+                    glorious righteousness at first impressed on his soul, after the image of his
+                    great Creator. Therefore having nothing, neither righteousness nor works, to
+                    plead, his ‘mouth is utterly stopped before God’.<note place="foot" xml:id="ftn33" n="33">
+                        <p rend="footnote text">Cf. Rom. 3:19.</p>
+                    </note>
+                </p>
+                <p n="3">3. If then sinful man find favour with God, it is ‘grace upon grace’ (χάριν
+                    ἀντὶ χάριτος).<note place="foot" xml:id="ftn34" n="34">
+                        <p rend="footnote text">John 1:16. Orig. Χάρις ἀντι Χάριτος, in the early editions; the Greek
+                            parenthesis was omitted from later separate editions (beginning in
+                            1743), and from all the collected editions of the sermons.</p>
+                    </note> If
+                    God vouchsafe still to pour fresh blessings upon us—yea, the greatest of all
+                    blessings, salvation—what can we say to these things but ‘Thanks be unto God for
+                    his unspeakable gift!’<note place="foot" xml:id="ftn35" n="35">
+                        <p rend="footnote text">2 Cor. 9:15.</p>
+                    </note> And thus it is. Herein ‘God
+                    commendeth his love toward us, in that, while we were yet sinners, Christ
+                        died’<note place="foot" xml:id="ftn36" n="36">
+                        <p rend="footnote text">Rom.
+                            5:8.</p>
+                    </note> to save us. ‘By grace’, then, ‘are ye saved through
+                        faith.’<note place="foot" xml:id="ftn37" n="37">
+                        <p rend="footnote text">Cf.
+                            Eph. 2:8.</p>
+                    </note> Grace is the source, faith the condition, of
+                    salvation.</p>
+                <p>Now, that we fall not short of the grace of God, it concerns us carefully to
+                    inquire:</p>
+                <p>I. What faith it is through which we are saved.</p>
+                <p>II. What is the salvation which is through faith.</p>
+                <p>III. How we may answer some objections.</p>
+            </div>
+            <div type="section" n="1">
+                <p>
+                    <pb n="119"/>I. What faith it is through which we are saved.</p>
+                <p n="1">1. And, first, it is not barely the faith of a heathen. Now God requireth
+                    of a heathen to believe ‘that God is, and that he is a rewarder of them that
+                    diligently seek him’;<note place="foot" xml:id="ftn38" n="38">
+                        <p rend="footnote text">Cf. Heb. 11:6.</p>
+                    </note> and that he is to be
+                    sought by ‘glorifying him as God by giving him thanks for all things’,<note place="foot" xml:id="ftn39" n="39">
+                        <p rend="footnote text">Cf. Luke
+                            2:20.</p>
+                    </note> and by a careful practice of moral virtue, of justice,
+                    mercy, and truth, toward their fellow-creatures. A Greek or Roman, therefore,
+                    yea, a Scythian or Indian, was without excuse if he did not believe thus much:
+                    the being and attributes of God, a future state of reward and punishment, and
+                    the obligatory nature of moral virtue. For this is barely the faith of a
+                        heathen.<note place="foot" xml:id="ftn40" n="40">
+                        <p rend="footnote text">For
+                            other uses of this phrase and for Wesley‘s denials of the efficacy of
+                            natural religion, see Nos. 2, <hi rend="italic">The Almost
+                                Christian</hi>; 9, ‘The Spirit of Bondage and of Adoption’; 54, ‘On
+                            Eternity’, §17; 69, ‘The Imperfection of Human Knowledge’, III.2; 74,
+                            ‘Of the Church’, §11; 106, ‘On Faith, Heb. 11:6’, I.3, II.2. See also
+                            his <hi rend="italic">Notes</hi> on Acts 17:28, and <hi rend="italic">Survey</hi> II.276. For Susanna Wesley’s comments on this topic,
+                            see John Newton, <hi rend="italic">Susanna Wesley and the Puritan
+                                Tradition in Methodism</hi> (London, Epworth Press, 1968), p. 149.
+                            Cf. also South, Sermon XIX, on Rom. 1:20, ‘Sinners Inexcusable from
+                            Natural Religion Only’, §IV, in <hi rend="italic">Sermons</hi>, I.313
+                            ff.</p>
+                    </note>
+                </p>
+                <p n="2">2. Nor, secondly, is it the faith of a devil,<note place="foot" xml:id="ftn41" n="41">
+                        <p rend="footnote text">This phrase was familiar from
+                            the Homily ‘Of Salvation’, Pt. III, <hi rend="italic">Certain Sermons or
+                                Homilies Appointed to be Read in Churches…</hi> (Oxford, Oxford
+                            University Press, 1840),p. 26 (hereafter cited as <hi rend="italic">Homilies</hi>). For other instances of Wesley’s insistence that
+                            orthodoxy may be no better than ‘the faith of a devil’, cf. Nos. 7, ‘The
+                            Way to the Kingdom’, I.6; and 150, ‘Hypocrisy in Oxford’, I.9; see also
+                            his letter to Richard Tompson, July 25, 1755.</p>
+                    </note> though this
+                    goes much farther than that of a heathen. For the devil believes, not only that
+                    there is a wise and powerful God, gracious to reward and just to punish, but
+                    also that Jesus is the Son of God, the Christ, the Saviour of the world. So we
+                    find him declaring in express terms: ‘I know thee who thou art, the Holy One of
+                        God.’<note place="end">
+                        <p rend="endnote text">Luke 4:34.</p>
+                    </note> Nor can
+                    we doubt but that unhappy spirit believes all those words which came out of the
+                    mouth of the Holy One; yea, and whatsoever else was written by those holy men of
+                    old, of two of whom he was compelled to give that glorious testimony, ‘These men
+                    are the servants of the most high God, who show unto you the way of
+                        salvation.’<note place="foot" xml:id="ftn42" n="42">
+                        <p rend="footnote text">Cf. Acts 16:17.</p>
+                    </note> Thus much then the great enemy of God and
+                    man believes, and trembles in believing, that ‘God was made manifest in the
+                        flesh;’<note place="foot" xml:id="ftn43" n="43">
+                        <p rend="footnote text">Cf.
+                            1 Tim. 3:16.</p>
+                    </note> that he will ‘tread all enemies under his
+                        feet’;<note place="foot" xml:id="ftn44" n="44">
+                        <p rend="footnote text">Cf. 1
+                            Cor. 15:25.</p>
+                    </note> and <pb n="120"/>that ‘all Scripture was given by
+                    inspiration of God.’<note place="foot" xml:id="ftn45" n="45">
+                        <p rend="footnote text">Cf. 2 Tim. 3:16.</p>
+                    </note> Thus far goeth the
+                    faith of a devil.</p>
+                <p n="3">3. Thirdly, the faith through which we are saved, in that sense of the word
+                    which will hereafter be explained, is not barely that which the apostles
+                    themselves had while Christ was yet upon earth;<note place="foot" xml:id="ftn46" n="46">
+                        <p rend="footnote text">An allusion to the doctrines of Robert
+                            Sandeman and John Glas, that faith in the apostolic <hi rend="italic">kerygma</hi> in itself was salvific. Cf. No. 43, <hi rend="italic">The Scripture Way of Salvation</hi>, II.3.</p>
+                    </note> though they
+                    so believed on him as to ‘leave all and follow him’;<note place="foot" xml:id="ftn47" n="47">
+                        <p rend="footnote text">Cf. Mark 10:28,
+                        etc.</p>
+                    </note> although they had then power to work miracles, ‘to heal all
+                    manner of sickness, and all manner of disease’;<note place="foot" xml:id="ftn48" n="48">
+                        <p rend="footnote text">Matt. 10:1.</p>
+                    </note> yea, they had then
+                    ‘power and authority over all devils’:<note place="foot" xml:id="ftn49" n="49">
+                        <p rend="footnote text">Luke 9:1.</p>
+                    </note> and which is beyond all
+                    this, were sent by their Master to ‘preach the kingdom of God’.<note place="foot" xml:id="ftn50" n="50">
+                        <p rend="footnote text">Luke 9:2; the
+                            text of 1746 ends here.</p>
+                    </note> Yet after their return from doing all
+                    these mighty works their Lord himself terms them, ‘a faithless generation’.<note place="foot" xml:id="ftn51" n="51">
+                        <p rend="footnote text">Luke
+                        9:41.</p>
+                    </note> He tells them ‘they could not cast out a devil, because of
+                    their unbelief.’<note place="foot" xml:id="ftn52" n="52">
+                        <p rend="footnote text">Cf. Luke 9:40; Mark 6:6.</p>
+                    </note> And when long after, supposing they
+                    had some already, they said unto him, ‘Increase our faith,’ he tells them
+                    plainly that of this faith they had none at all, no, not as a grain of mustard
+                    seed: ‘The Lord said, If ye had faith as a grain of mustard seed, ye might say
+                    unto this sycamine tree, Be thou plucked up by the roots, and be thou planted in
+                    the sea; and it should obey you.’<note place="foot" xml:id="ftn53" n="53">
+                        <p rend="footnote text">Luke 17:5-6.</p>
+                    </note>
+                </p>
+                <p n="4">4. What faith is it then through which we are saved? It may be answered:
+                    first, in general, it is a faith in Christ—Christ, and God through Christ, are
+                    the proper object<note place="foot" xml:id="ftn54" n="54">
+                        <p rend="footnote text">In the text of 1771 (and several later edns., but
+                            not that of 1787) ‘object’ is altered to ‘objects’. The 1771 edition is
+                            notorious for its careless printing and, in any case, it would have
+                            seemed natural to a printer to use a plural object after a plural verb.
+                            It is scarcely probable that Wesley would have meant ‘objects’ in this
+                            context since the theological connotation would have been di-theistic.
+                            ‘Object’, then, is more probably Wesley’s own usage.</p>
+                    </note> of it.
+                    Herein therefore it is sufficiently, absolutely, distinguished from the faith
+                    either of ancient or modern heathens. And from the faith of a devil it is fully
+                    distinguished by this—it is not barely a speculative, rational thing, a cold,
+                    lifeless assent, a train of ideas in the head; but also a disposition of the
+                    heart. For thus saith the Scripture, ‘With the heart man believeth unto
+                    righteousness.’ And, ‘If thou shalt confess with thy mouth the Lord Jesus, and
+                    shalt believe with thy <hi rend="italic">heart</hi> that God hath raised him
+                    from the dead, thou shalt be saved.’<note place="foot" xml:id="ftn55" n="55">
+                        <p rend="footnote text">Rom. 10:9, 10.</p>
+                    </note>
+                </p>
+                <p n="5">
+                    <pb n="121"/>5. And herein does it differ from that faith which the
+                    apostles themselves had while our Lord was on earth, that it acknowledges the
+                    necessity and merit of his death, and the power of his resurrection. It
+                    acknowledges his death as the only sufficient means of redeeming man from death
+                    eternal, and his resurrection as the restoration of us all to life and
+                    immortality; inasmuch as he ‘was delivered for our sins, and rose again for our
+                        justification’.<note place="foot" xml:id="ftn56" n="56">
+                        <p rend="footnote text">Cf. Rom. 4:25.</p>
+                    </note> Christian faith is then
+                    not only an assent to the whole gospel of Christ, but also a full reliance on
+                    the blood of Christ, a trust in the merits of his life, death, and
+                        resurrection;<note place="foot" xml:id="ftn57" n="57">
+                        <p rend="footnote text">This is close to the definition of ‘lively faith’
+                            in the Homily ‘Of Faith’, Pt. I (<hi rend="italic">Homilies</hi>, p.
+                            30). The crucial distinction, in both places, is between faith as
+                            ‘assent’ and faith as ‘trust’. See also <hi rend="italic">An Earnest
+                                Appeal</hi>, §59 (11: 68-69 of this edn.).</p>
+                    </note> a recumbency
+                    upon him as our atonement and our life, as <hi rend="italic">given for us</hi>,
+                    and <hi rend="italic">living in us</hi>. It is a sure confidence which a man
+                    hath in God, that through the merits of Christ <hi rend="italic">his</hi> sins
+                    are forgiven, and <hi rend="italic">he</hi> reconciled to the favour of God; and
+                    in consequence hereof<note place="foot" xml:id="ftn58" n="58">
+                        <p rend="footnote text">The first edition here reads: ‘It is a confidence
+                            in the goodness of God, through the Son of his love, living, dying, and
+                            interceding for us. It is an acceptance of him in all his offices, as
+                            our Prophet, our Priest, and our King.’ No copy of the 2nd edition
+                            survives, but the 3rd (1740) turns back again to the language of the
+                            Homily ‘Of Salvation’, Pt. III (<hi rend="italic">Homilies</hi>, pp.
+                            26-27).</p>
+                    </note> a closing with him<note place="foot" xml:id="ftn59" n="59">
+                        <p rend="footnote text">‘Closing with Christ’ was a favourite Puritan
+                            metaphor. Cf. Ralph Erskine, <hi rend="italic">Law-Death, Gospel-Life:
+                                Or, the Death of Legal Righteousness, the Life of
+                                Gospel-Holiness</hi> (Edinburgh, 1724); also Matthew Mead, <hi rend="italic">Ἐν ὀλίγῳ Χριστιανός, the Almost Christian
+                                Discovered</hi> (1661). Similar usages may be seen in William Allen,
+                                <hi rend="italic">The Glass of Justification</hi> (1658), p. 26;
+                            Richard Alleine, <hi rend="italic">Vindiciae Pietatis</hi> (1676), p.
+                            176; William Guthrie, <hi rend="italic">The Christian’s Great
+                                Interest</hi> (1766), pp. 103, 118-19; Thomas Ridgeley, <hi rend="italic">A Body of Divinity</hi> (1733), p. 551. See also
+                            George Whitefield’s letter to Dr. Doddridge in Seymour,
+                        I.202.</p>
+                    </note> and cleaving to him as our ‘wisdom, righteousness,
+                    sanctification, and redemption’<note place="foot" xml:id="ftn60" n="60">
+                        <p rend="footnote text">1 Cor. 1:30. The edition of 1771 omits the phrase
+                            following the scriptural quotation.</p>
+                    </note> or, in one word, our
+                    salvation.</p>
+            </div>
+            <div type="section" n="2">
+                <p>II. What salvation it is which is through this faith is the second thing to be
+                    considered.</p>
+                <p n="1">1. And, first, whatsoever else it imply, it is a present salvation. It is
+                    something attainable, yea, actually attained on earth, by those who are
+                    partakers of this faith. For thus saith the Apostle to the believers at Ephesus,
+                    and in them to the believers of all ages, not, ‘Ye <hi rend="italic">shall
+                        be</hi>’ (though that also is true), but ‘Ye <hi rend="italic">are</hi>
+                    saved through faith.’<note place="foot" xml:id="ftn61" n="61">
+                        <p rend="footnote text">Cf. Eph. 2:8.</p>
+                    </note>
+                </p>
+                <p n="2">2. Ye are saved (to comprise all in one word) from sin. This is <pb n="122"/>the salvation which is through faith. This is that great salvation foretold by
+                    the angel before God brought his first-begotten into the world: ‘Thou shalt call
+                    his name Jesus, for he shall save his people from their sins.’<note place="foot" xml:id="ftn62" n="62">
+                        <p rend="footnote text">Matt. 1:21.</p>
+                    </note> And
+                    neither here nor in other parts of Holy Writ is there any limitation or
+                    restriction. All his people, or as it is elsewhere expressed, all that believe
+                    in him, he will save from all their sins:<note place="foot" xml:id="ftn63" n="63">
+                        <p rend="footnote text">See Acts 10:43, etc.</p>
+                    </note> from original
+                    and actual, past and present sin, of the flesh and of the spirit. Through faith
+                    that is in him they are saved both from the guilt and from the power of it.</p>
+                <p n="3">3. First, from the guilt of all past sin. For whereas ‘all the world is
+                    guilty before God’;<note place="foot" xml:id="ftn64" n="64">
+                        <p rend="footnote text">Cf. Rom. 3:19.</p>
+                    </note> insomuch that should he
+                    ‘be extreme to mark what is done amiss, there is none that could abide it’;<note place="foot" xml:id="ftn65" n="65">
+                        <p rend="footnote text">Ps. 130:3
+                            (BCP).</p>
+                    </note> and whereas ‘by the law is only the knowledge of sin’,
+                    but no deliverance from it, so that ‘by fulfilling the deeds of the law no flesh
+                    can be justified in his sight’; now ‘the righteousness of God, which is by faith
+                    of Jesus Christ‘, ‘is manifested unto all that believe’. Now they are ‘justified
+                    freely by his grace through the redemption that is in Jesus Christ. Him God hath
+                    set forth to be a propitiation through faith in his blood, to declare his
+                    righteousness for (or by) the remission of the sins that are past.‘<note place="foot" xml:id="ftn66" n="66">
+                        <p rend="footnote text">Cf. Rom.
+                            3:20-25.</p>
+                    </note> Now hath Christ ‘taken away the curse of the law,
+                    being made a curse for us‘.<note place="foot" xml:id="ftn67" n="67">
+                        <p rend="footnote text">Cf. Gal. 3:13.</p>
+                    </note> He hath ‘blotted out the
+                    handwriting that was against us, taking it out of the way, nailing it to his
+                        cross’.<note place="foot" xml:id="ftn68" n="68">
+                        <p rend="footnote text">Cf.
+                            Col. 2:14.</p>
+                    </note> ‘There is therefore no condemnation now to them
+                    which believe in Christ Jesus.’<note place="foot" xml:id="ftn69" n="69">
+                        <p rend="footnote text">Cf. Rom. 8:1.</p>
+                    </note>
+                </p>
+                <p n="4">4. And being saved from guilt, they are saved from fear. Not indeed from a
+                    filial fear of offending, but from all servile fear, from that ‘fear which hath
+                        torment’,<note place="foot" xml:id="ftn70" n="70">
+                        <p rend="footnote text">Cf. 1 John 4:18.</p>
+                    </note> from fear of punishment, from fear of the
+                    wrath of God, whom they now no longer regard as a severe master, but as an
+                    indulgent Father. ‘They have not received again the spirit of bondage, but the
+                    Spirit of adoption, whereby they cry, Abba, Father: the Spirit itself also
+                    bearing witness with their spirit, that they are the children of God.’<note place="foot" xml:id="ftn71" n="71">
+                        <p rend="footnote text">Cf. Rom.
+                            8:15-16.</p>
+                    </note> They are also saved from the fear, though not from
+                    the possibility, of falling away<note place="foot" xml:id="ftn72" n="72">
+                        <p rend="footnote text">Cf. 2 Thess. 2:3. In opposition to all notions of
+                            final perseverance Wesley stresses the risks of faith and the dangers of
+                            lapsing, even from peak experiences of faith. Cf. Nos. 21, ‘Sermon on
+                            the Mount, I’, II.4; 24, ‘Sermon on the Mount, IV’, I.9; 61, ‘The
+                            Mystery of Iniquity’, §30; 76, ‘On Perfection’, proem; 86, <hi rend="italic">A Call to Backsliders</hi>, I.2(3). For the earliest
+                            instances of its use see Nos. 133, ‘Death and Deliverance’ (Oct 1,
+                            1725), ¶16; and 149, ‘On Love’ (Feb. 20, 1737), §1.See also <hi rend="italic">Predestination Calmly Considered</hi>, §74; <hi rend="italic">Serious Thoughts Upon the Perseverance of the
+                                Saints</hi> (<hi rend="italic">Bibliog</hi>, No. 192, Vol. 12 of
+                            this edn.); JWJ, May 6, 1742; May 6, 1785; and Wesley’s <hi rend="italic">Notes</hi> on this text as well as on Heb.
+                        6:6.</p>
+                    </note> from the grace of God, and coming short of the <pb n="123"/>great and precious promises. They are ‘sealed with the Holy Spirit of promise,
+                    which is the earnest of their inheritance’.<note place="foot" xml:id="ftn73" n="73">
+                        <p rend="footnote text">Eph. 1:13. This sentence is omitted from the
+                            edition of 1771.</p>
+                    </note> Thus have they ‘peace with God through our
+                    Lord Jesus Christ…. They rejoice in hope of the glory of God…. And the love of
+                    God is shed abroad in their hearts through the Holy Ghost which is given unto
+                        them.’<note place="foot" xml:id="ftn74" n="74">
+                        <p rend="footnote text">Cf.
+                            Rom. 5:1, 2, 5.</p>
+                    </note> And hereby they are ‘persuaded’ (though
+                    perhaps not all at all times, nor with the same fullness of persuasion) ‘that
+                    neither death, nor life, nor things present, nor things to come, nor height, nor
+                    depth, nor any other creature, shall be able to separate them from the love of
+                    God, which is in Christ Jesus our Lord.’<note place="foot" xml:id="ftn75" n="75">
+                        <p rend="footnote text">Cf. Rom. 8:38-39.</p>
+                    </note>
+                </p>
+                <p n="5">5. Again, through this faith they are saved from the power of sin as well
+                    as from the guilt of it.<note place="foot" xml:id="ftn76" n="76">
+                        <p rend="footnote text">In most separate editions the following passage is
+                            added: ‘Indeed “the infection of nature doth remain: which hath in
+                            itself the nature of sin” [cf. Art. IX, ‘Of Original or Birth Sin’ in
+                            The Thirty-nine Articles of Religion; for minor variants, see Appendix,
+                            ‘Wesley’s Text’, Vol. IV]. For it is “a coming short of the glory of
+                            God” [cf. Rom. 3:23]. And St. John accordingly declares, not only that
+                            “if a man say he hath not sinned he maketh God a liar” [cf. 1 John
+                            1:10], but also, “If we say we have no sin” now remaining “we deceive
+                            ourselves” [1 John 1:8]. Many infirmities likewise do remain, whereby we
+                            are daily subject to what are called sins of infirmity. And doubtless
+                            they are in some sense sins, as being “transgressions of the perfect
+                            law” [cf. 1 John 3:4]. And with regard to these it may be said of us all
+                            our lives that “in many things we offend all” [Jas. 3:2]. But this
+                            notwithstanding, the same Apostle declares….’</p>
+                    </note> So the Apostle
+                    declares, ‘Ye know that he was manifested to take away our sins, and in him is
+                    no sin. Whosoever abideth in him sinneth not.’<hi rend="endnote_reference">
+                        <note place="end">
+                            <p rend="endnote text">[1 John] chap. 3, ver.
+                            5-6.</p>
+                        </note>
+                    </hi> Again, ‘Little children, let no man deceive you….
+                    He that committeth sin is of the devil.’<note place="foot" xml:id="ftn77" n="77">
+                        <p rend="footnote text">1 John 3:7-8.</p>
+                    </note> ‘Whosoever believeth
+                    is born of God.’<note place="foot" xml:id="ftn78" n="78">
+                        <p rend="footnote text">1 John 5:1.</p>
+                    </note> And, ‘Whosoever is born of God doth not commit
+                    sin; for his seed remaineth in him: and he cannot sin, because he is born of
+                        God.’<note place="foot" xml:id="ftn79" n="79">
+                        <p rend="footnote text">1 John
+                            3:9.</p>
+                    </note> Once more, ‘We know that whosoever is born of God
+                    sinneth not; but he that is begotten of God keepeth himself, and that wicked one
+                    toucheth him not.’<hi rend="endnote_reference">
+                        <note place="end">
+                            <p rend="endnote text">Chap. 5, ver. 18.</p>
+                        </note>
+                    </hi>
+                </p>
+                <p n="6">
+                    <pb n="124"/>6. He that is by faith born of God sinneth not,<note place="foot" xml:id="ftn80" n="80">
+                        <p rend="footnote text">I.e., ‘sinneth
+                            not’, deliberately or intentionally. It is a crucial point for Wesley to
+                            distinguish between ‘sins properly so called’ (intentional violations of
+                            known laws of God) and indeliberate ‘sins’ of various sorts. Cf. below,
+                            No. 13, <hi rend="italic">On Sin in Believers</hi> (intro.).</p>
+                    </note>
+                    (1), by any habitual sin, for all habitual sin is sin reigning; but sin cannot
+                    reign in any that believeth.<note place="foot" xml:id="ftn81" n="81">
+                        <p rend="footnote text">For other references to ‘sin remaining but not
+                            reigning’, cf. No. 13, <hi rend="italic">On Sin in Believers</hi>, I.6
+                            and n.</p>
+                    </note> Nor, (2), by any wilful sin; for his will, while he
+                    abideth in the faith, is utterly set against all sin, and abhorreth it as deadly
+                    poison. Nor, (3), by any sinful desire; for he continually desireth the holy and
+                    perfect will of God;<note place="foot" xml:id="ftn82" n="82">
+                        <p rend="footnote text">Rom. 12:2.</p>
+                    </note> and any unholy desire<note place="foot" xml:id="ftn83" n="83">
+                        <p rend="footnote text">All editions
+                            except <hi rend="italic">Works</hi> (1771) read, ‘and any tendency to an
+                            unholy desire’.</p>
+                    </note> he by the grace of God stifleth in the birth.
+                    Nor, (4), doth he sin by infirmities, whether in act, word, or thought; for his
+                    infirmities have no concurrence of his will; and without this they are not
+                    properly sins. Thus, ‘He that is born of God doth not commit sin.’<note place="foot" xml:id="ftn84" n="84">
+                        <p rend="footnote text">1 John 3:9. The
+                                <hi rend="italic">Sermons</hi> (1746) and the editions stemming from
+                            it omit here a passage present in most single editions: ‘<hi rend="italic">hath sin in him</hi>, but’.</p>
+                    </note> And though he
+                    cannot say he <hi rend="italic">hath not sinned</hi>, yet now ‘<hi rend="italic">he sinneth not</hi>’.<note place="foot" xml:id="ftn85" n="85">
+                        <p rend="footnote text">Cf. 1 John 5:18.</p>
+                    </note>
+                </p>
+                <p n="7">7. This then is the salvation which is through faith, even in the present
+                    world: a salvation from sin and the consequences of sin, both often expressed in
+                    the word ‘justification’, which, taken in the largest sense, implies a
+                    deliverance from guilt and punishment, by the atonement of Christ actually
+                    applied to the soul of the sinner now believing on him, and a deliverance from
+                    the power of sin,<note place="foot" xml:id="ftn86" n="86">
+                        <p rend="footnote text">
+                            <hi rend="italic">Works</hi> (1771) alters ‘the
+                            whole body of sin’ to ‘the power of sin’.</p>
+                    </note> through Christ
+                    ‘formed in his heart’.<note place="foot" xml:id="ftn87" n="87">
+                        <p rend="footnote text">Cf. Gal. 4:19; the first and other early editions
+                            have ‘Christ gradually “formed in the heart”’.</p>
+                    </note> So that he who
+                    is thus justified or saved by faith is indeed ‘born again’. He is ‘born again of
+                    the Spirit’<note place="foot" xml:id="ftn88" n="88">
+                        <p rend="footnote text">Cf.
+                            John 3:3, 5, etc. See also Nos. 14, <hi rend="italic">The Repentance of
+                                Believers</hi>, III.2 and n.; and 45, ‘The New Birth’.</p>
+                    </note>
+                    unto a new ‘life which is hid with Christ in God’.<note place="foot" xml:id="ftn89" n="89">
+                        <p rend="footnote text">Cf. Col. 3:3. All editions
+                            except the <hi rend="italic">Works</hi> (1771) add here: ‘He is a new
+                            creature: old things are passed away; all things in him are become new’
+                            (2 Cor. 5:17).</p>
+                    </note> And as a ‘newborn babe he gladly receives the
+                    ἄδολον, the sincere milk of the word, and grows thereby’;<note place="foot" xml:id="ftn90" n="90">
+                        <p rend="footnote text">Cf. 1 Pet. 2:2.</p>
+                    </note>
+                    ‘going on in the might of the Lord his God’,<note place="foot" xml:id="ftn91" n="91">
+                        <p rend="footnote text">Cf. Eph. 6:10.</p>
+                    </note> ‘from faith to
+                        faith’,<note place="foot" xml:id="ftn92" n="92">
+                        <p rend="footnote text">Rom.
+                            1:17.</p>
+                    </note> ‘from grace to grace’,<note place="foot" xml:id="ftn93" n="93">
+                        <p rend="footnote text">Cf. John 1:16.</p>
+                    </note> ‘until at length he
+                    comes unto a <pb n="125"/>perfect man, unto the measure of the stature of the
+                    fullness of Christ’.<note place="foot" xml:id="ftn94" n="94">
+                        <p rend="footnote text">Cf. Eph. 4:13.</p>
+                    </note>
+                </p>
+            </div>
+            <div type="section" n="3">
+                <p>III. The first usual objection to this is,</p>
+                <p n="1">1. That to preach salvation or justification by faith only is to preach
+                    against holiness and good works. To which a short answer might be given: it
+                    would be so if we spake, as some do, of a faith which was separate from these.
+                    But we speak of a faith which is not so, but necessarily productive of all good
+                    works and all holiness.<note place="foot" xml:id="ftn95" n="95">
+                        <p rend="footnote text">The first edition reads: ‘But we speak of a faith
+                            which is necessarily inclusive of all good works and all holiness.’ See
+                            Appendix ‘Wesley’s Text’, Vol. IV, for full details of variants. Notice
+                            the emphatic correlation here between ‘faith alone’ and ‘good works’,
+                            and this within days after ‘Aldersgate’.</p>
+                    </note>
+                </p>
+                <p n="2">2. But it may be of use to consider it more at large: especially since it
+                    is no new objection, but as old as St. Paul’s time, for even then it was asked,
+                    ‘Do we not make void the law through faith?’<note place="foot" xml:id="ftn96" n="96">
+                        <p rend="footnote text">Cf. Rom. 3:31. See also the later sermons
+                            (Nos. 35, 36) on ‘The Law Established through Faith’, Discourses I and
+                            II, both on this text and, together, expounding the same conjunction of
+                            saving faith and good works as its fruitage.</p>
+                    </note> We answer,
+                    first, all who preach not faith do manifestly make void the law, either directly
+                    and grossly, by limitations and comments that eat out all the spirit of the
+                    text; or indirectly, by not pointing out the only means whereby it is possible
+                    to perform it. Whereas, secondly, ‘We establish the law’, both by showing its
+                    full extent and spiritual meaning, and by calling all to that living way whereby
+                    ‘the righteousness of the law may be fulfilled in them’.<note place="foot" xml:id="ftn97" n="97">
+                        <p rend="footnote text">Cf. Rom.8:4.</p>
+                    </note> These,
+                    while they trust in the blood of Christ alone, use all the ordinances which he
+                    hath appointed, do all the ‘good works which he had before prepared that they
+                    should walk therein’,<note place="foot" xml:id="ftn98" n="98">
+                        <p rend="footnote text">Cf. Eph. 2:10.</p>
+                    </note> and enjoy and manifest
+                    all holy and heavenly tempers, even the same ‘mind that was in Christ
+                        Jesus’.<note place="foot" xml:id="ftn99" n="99">
+                        <p rend="footnote text">Cf.
+                            Phil. 2:5.</p>
+                    </note>
+                </p>
+                <p n="3">3. But does not preaching this faith lead men into pride? We answer,
+                    accidentally it may. Therefore ought every believer to be earnestly cautioned
+                    (in the words of the great Apostle): ‘Because of unbelief the first branches
+                    were broken off, and thou standest by faith. Be not high-minded, but fear. If
+                    God spared not the natural branches, take heed lest he spare not thee. Behold
+                    therefore the goodness and severity of God: on them which fell, severity; but
+                    toward thee, goodness, if thou continue in his <pb n="126"/>goodness: otherwise
+                    thou also shalt be cut off.’<note place="foot" xml:id="ftn100" n="100">
+                        <p rend="footnote text">Cf. Rom. 11:20-22.</p>
+                    </note> And while he
+                    continues therein, he will remember those words of St. Paul, foreseeing and
+                    answering this very objection: ‘Where is boasting, then? It is excluded. By what
+                    law? Of works? Nay; but by the law of faith.’<hi rend="endnote_reference">
+                        <note place="end">
+                            <p rend="endnote text">Rom. 3:27.</p>
+                        </note>
+                    </hi> If a man
+                    were justified by his works, he would have whereof to glory. But there is no
+                    glorying for him ‘that worketh not, but believeth on him that justifieth the
+                        ungodly’.<hi rend="endnote_reference">
+                        <note place="end">
+                            <p rend="endnote text">Rom. 4:5.</p>
+                        </note>
+                    </hi> To the same effect are
+                    the words both preceding and following the text: ‘God, who is rich in mercy,
+                    …even when we were dead in sins, hath quickened us together with Christ (by
+                    grace ye are saved), …that he might show the exceeding riches of his grace in
+                    his kindness toward us through Christ Jesus. For by grace ye are saved through
+                    faith: and that not of yourselves.’<hi rend="endnote_reference">
+                        <note place="end">
+                            <p rend="endnote text">Eph. 2:4-5, 7-8.</p>
+                        </note>
+                    </hi> Of
+                    yourselves cometh neither your faith nor your salvation. ‘It is the gift of
+                        God,’<note place="foot" xml:id="ftn101" n="101">
+                        <p rend="footnote text">Eph.
+                            2:8.</p>
+                    </note> the free, undeserved gift—the faith through which ye are
+                    saved, as well as the salvation which he of his own good pleasure, his mere
+                    favour, annexes thereto. That ye believe is one instance of his grace; that
+                    believing, ye are saved, another. ‘Not of works, lest any man should
+                        boast.’<note place="foot" xml:id="ftn102" n="102">
+                        <p rend="footnote text">Eph. 2:9.</p>
+                    </note> For all our works, all our righteousness, which
+                    were before our believing, merited nothing of God but condemnation, so far were
+                    they from deserving faith, which therefore, whenever given, is not ‘of works’.
+                    Neither is salvation of the works we do when we believe. For ‘it is’ then ‘God
+                    that worketh in us’.<note place="foot" xml:id="ftn103" n="103">
+                        <p rend="footnote text">Cf. 1 Cor. 12:6; Eph. 3:20; Phil. 2:13.</p>
+                    </note>
+                    And, therefore, that he giveth us a reward for what he himself worketh only
+                    commendeth the riches of his mercy, but leaveth us nothing whereof to
+                        glory.<note place="foot" xml:id="ftn104" n="104">
+                        <p rend="footnote text">Cf.
+                            No. 85, ‘On Working Out Our Own Salvation’, I.1-4, III.6-7, where the
+                            identical point is made once again, much later (1785). For Wesley’s
+                            other uses of the <hi rend="italic">in se est</hi> theme, cf. above,
+                            Intro., pp. 72-73.</p>
+                    </note>
+                </p>
+                <p n="4">4. However, may not the speaking thus of the mercy of God, as saving or
+                    justifying freely by faith only, encourage men in sin? Indeed it may and will;
+                    many will ‘continue in sin, that grace may abound’.<note place="foot" xml:id="ftn105" n="105">
+                        <p rend="footnote text">Rom. 6:1.</p>
+                    </note> But
+                    their blood is upon their own head. The goodness of God ought to lead them to
+                        repentance,<note place="foot" xml:id="ftn106" n="106">
+                        <p rend="footnote text">See Rom. 2:4.</p>
+                    </note> and so it will those <pb n="127"/>who are sincere of heart. When they know there is yet forgiveness
+                    with him, they will cry aloud that he would blot out their sins also through
+                    faith which is in Jesus. And if they earnestly cry and faint not, if they seek
+                    him in all the means he hath appointed, if they refuse to be comforted till he
+                    come, he ‘will come, and will not tarry’.<note place="foot" xml:id="ftn107" n="107">
+                        <p rend="footnote text">Heb. 10:37.</p>
+                    </note> And he can do much
+                    work in a short time. Many are the examples in the Acts of the Apostles of God’s
+                    working this faith in men’s hearts as quick as lightning falling from heaven. So
+                    in the same hour that Paul and Silas began to preach the gaoler <hi rend="italic">repented</hi>, <hi rend="italic">believed</hi>, and <hi rend="italic">was baptized</hi>
+                    <note place="foot" xml:id="ftn108" n="108">
+                        <p rend="footnote text">Cf. Acts 16:30-34.</p>
+                    </note>—as were three
+                    thousand by St. Peter on the day of Pentecost, who all repented and believed at
+                    his first preaching.<note place="foot" xml:id="ftn109" n="109">
+                        <p rend="footnote text">See Acts 2:37-41.</p>
+                    </note> And, blessed be God,
+                    there are now many living proofs that he is still thus ‘mighty to save’.<note place="foot" xml:id="ftn110" n="110">
+                        <p rend="footnote text">Isa.
+                        63:1.</p>
+                    </note>
+                </p>
+                <p n="5">5. Yet to the same truth, placed in another view, a quite contrary
+                    objection is made: ‘If a man cannot be saved by all that he can do, this will
+                    drive men to despair.’ True, to despair of being saved by their own works, their
+                    own merits or righteousness. And so it ought; for none can trust in the merits
+                    of Christ till he has utterly renounced his own. He that ‘goeth about to
+                    establish his own righteousness’<note place="foot" xml:id="ftn111" n="111">
+                        <p rend="footnote text">Cf. Rom. 10:3.</p>
+                    </note> cannot receive the
+                    righteousness of God. The righteousness which is of faith cannot be given him
+                    while he trusteth in that which is of the law.</p>
+                <p n="6">6. But this, it is said, is an uncomfortable doctrine. The devil spoke like
+                    himself, that is, without either truth or shame, when he dared to suggest to men
+                    that it is such. ‘Tis the only comfortable one, ‘tis ‘very full of
+                        comfort’,<note place="foot" xml:id="ftn112" n="112">
+                        <p rend="footnote text">Cf. 2 Cor. 7:4. Cf. Art. XI, ‘that we are justified by faith only is a
+                            most wholesome doctrine and very full of comfort’, in Thirty-nine
+                            Articles of Religion. See also the Homily ‘Of Faith’, Pt. III, in <hi rend="italic">Homilies</hi>, pp. 37-40.</p>
+                    </note> to all
+                    self-destroyed, self-condemned sinners. That ‘whosoever believeth on him shall
+                    not be ashamed’;<note place="foot" xml:id="ftn113" n="113">
+                        <p rend="footnote text">Rom. 9:33.</p>
+                    </note> that ‘the same Lord over all
+                    is rich unto all that call upon him’<note place="foot" xml:id="ftn114" n="114">
+                        <p rend="footnote text">Rom. 10:12.</p>
+                    </note>—here is comfort, high as
+                    heaven, stronger than death! What! Mercy for all? For Zaccheus, a public robber?
+                    For Mary Magdalene, a common harlot? Methinks I hear one say, ‘Then I, even I,
+                    may hope for mercy!’ And so thou mayst, thou afflicted one, whom none hath
+                    comforted! God will not cast out thy prayer. Nay, perhaps he may say the next
+                    hour, ‘Be of good cheer, thy sins are forgiven thee;’<note place="foot" xml:id="ftn115" n="115">
+                        <p rend="footnote text">Matt. 9:2.</p>
+                    </note> so
+                    forgiven that they shall <pb n="128"/>reign over thee no more; yea, and that
+                    ‘the Holy Spirit shall bear witness with thy spirit that thou art a child of
+                        God.’<note place="foot" xml:id="ftn116" n="116">
+                        <p rend="footnote text">Cf.
+                            Rom. 8:16.</p>
+                    </note> O glad tidings! Tidings of great joy, which are
+                    sent unto all people.<note place="foot" xml:id="ftn117" n="117">
+                        <p rend="footnote text">See Luke 2:10.</p>
+                    </note> ‘Ho, everyone that
+                    thirsteth, come ye to the waters; come ye and buy without money, and without
+                        price.’<note place="foot" xml:id="ftn118" n="118">
+                        <p rend="footnote text">Cf. Isa. 55:1.</p>
+                    </note> Whatsoever your sins be, ‘though red, like
+                        crimson’,<note place="foot" xml:id="ftn119" n="119">
+                        <p rend="footnote text">Cf. Isa. 1:18.</p>
+                    </note> though ‘more than the hairs of your
+                        head’,<note place="foot" xml:id="ftn120" n="120">
+                        <p rend="footnote text">Cf.
+                            Ps. 40:12.</p>
+                    </note> ‘return ye unto the Lord, and he will have mercy
+                    upon you, and to our God, for he will abundantly pardon.’<note place="foot" xml:id="ftn121" n="121">
+                        <p rend="footnote text">Cf. Isa.
+                    55:7.</p>
+                    </note>
+                </p>
+                <p n="7">7. When no more objections occur, then we are simply told that salvation by
+                    faith only ought not to be preached as the first doctrine, or at least not to be
+                    preached to all. But what saith the Holy Ghost? ‘Other foundation can no man lay
+                    than that which is laid, even Jesus Christ.’<note place="foot" xml:id="ftn122" n="122">
+                        <p rend="footnote text">Cf. 1 Cor. 3:11.</p>
+                    </note> So, then, ‘that
+                    whosoever believeth on him shall be saved’<note place="foot" xml:id="ftn123" n="123">
+                        <p rend="footnote text">Cf. John 3:16; Mark 16:16.</p>
+                    </note> is and
+                    must be the foundation of all our preaching; that is, must be preached first.
+                    ‘Well, but not to all.’ To whom then are we not to preach it? Whom shall we
+                    except? The poor? Nay, they have a peculiar right to have the gospel preached
+                    unto them.<note place="foot" xml:id="ftn124" n="124">
+                        <p rend="footnote text">See
+                            Matt. 11:5; Luke 7:22.</p>
+                    </note> The unlearned? No. God hath revealed
+                    these tidings unto unlearned and ignorant men<note place="foot" xml:id="ftn125" n="125">
+                        <p rend="footnote text">Acts 4:13.</p>
+                    </note> from the beginning.
+                    The young? By no means. ‘Suffer these’ in any wise ‘to come unto Christ, and
+                    forbid them not.’<note place="foot" xml:id="ftn126" n="126">
+                        <p rend="footnote text">Cf. Mark 10:14.</p>
+                    </note> The sinners? Least of
+                    all. He ‘came not to call the righteous, but sinners to repentance’.<note place="foot" xml:id="ftn127" n="127">
+                        <p rend="footnote text">Mark
+                        2:17.</p>
+                    </note> Why then, if any, we are to except the rich, the learned,
+                    the reputable, the moral men. And ‘tis true, they too often except themselves
+                    from hearing; yet we must speak the words of our Lord. For thus the tenor of our
+                    commission runs: ‘Go and preach the gospel to every creature.’<note place="foot" xml:id="ftn128" n="128">
+                        <p rend="footnote text">Mark 16:15.</p>
+                    </note> If
+                    any man wrest it or any part of it to his destruction, he must bear his own
+                        burden.<note place="foot" xml:id="ftn129" n="129">
+                        <p rend="footnote text">See Gal. 6:5.</p>
+                    </note> But still, ‘as the Lord liveth, whatsoever the
+                    Lord saith unto us, that we will speak.’<note place="foot" xml:id="ftn130" n="130">
+                        <p rend="footnote text">Cf. 1 Kgs. 22:14.</p>
+                    </note>
+                </p>
+                <p n="8">8. At this time more especially will we speak, that ‘by grace ye are saved
+                    through faith:’<note place="foot" xml:id="ftn131" n="131">
+                        <p rend="footnote text">Cf. Eph. 2:8.</p>
+                    </note> because never was the
+                    maintaining this doctrine more seasonable than it is at this day. Nothing but
+                    this can effectually prevent the increase of the Romish delusion among us. ‘Tis
+                    endless to attack one by one all the errors of that <pb n="129"/>Church.<note place="foot" xml:id="ftn132" n="132">
+                        <p rend="footnote text">Orig., ‘that
+                            apostate Church’, revised in <hi rend="italic">Sermons</hi> (1746) and
+                                <hi rend="italic">Works</hi> (1771).</p>
+                    </note> But salvation by
+                    faith strikes at the root, and all fall at once where this is established. It
+                    was this doctrine (which our Church justly calls ‘the strong rock and foundation
+                    of the Christian religion’<note place="foot" xml:id="ftn133" n="133">
+                        <p rend="footnote text">Cf. ‘Of Salvation’, Pt. II, in <hi rend="italic">Homilies</hi>, p. 22.</p>
+                    </note>) that first drove popery out of
+                    these kingdoms, and ‘tis this alone can keep it out. Nothing but this can give a
+                    check to that immorality which hath overspread the land as a flood. Can you
+                    empty the great deep drop by drop? Then you may reform us by dissuasives from
+                    particular vices. But let ‘the righteousness which is of God by faith’<note place="foot" xml:id="ftn134" n="134">
+                        <p rend="footnote text">Phil.
+                        3:9.</p>
+                    </note> be brought in, and so shall its proud waves be stayed.<note place="foot" xml:id="ftn135" n="135">
+                        <p rend="footnote text">See Job
+                            38:11.</p>
+                    </note> Nothing but this can stop the mouths of those who
+                    ‘glory in their shame’,<note place="foot" xml:id="ftn136" n="136">
+                        <p rend="footnote text">Cf. Phil. 3:19.</p>
+                    </note> ‘and openly deny the
+                    Lord that bought them’.<note place="foot" xml:id="ftn137" n="137">
+                        <p rend="footnote text">Cf. 2 Pet. 2:1.</p>
+                    </note> They can talk as
+                    sublimely of the law as he that hath it written by God in his heart. To hear
+                    them speak on this head might incline one to think they were not far from the
+                    kingdom of God. But take them out of the law into the gospel; begin with the
+                    righteousness of faith, with ‘Christ, the end of the law to everyone that
+                        believeth’,<note place="foot" xml:id="ftn138" n="138">
+                        <p rend="footnote text">Cf. Rom. 10:4.</p>
+                    </note> and those who but now
+                    appeared almost if not altogether Christians<note place="foot" xml:id="ftn139" n="139">
+                        <p rend="footnote text">See No. 2, <hi rend="italic">The Almost
+                                Christian</hi>.</p>
+                    </note> stand confessed the sons of
+                        perdition,<note place="foot" xml:id="ftn140" n="140">
+                        <p rend="footnote text">See John 17:12; 2 Thess. 2:3.</p>
+                    </note> as far from life and salvation
+                    (God be merciful unto them!) as the depth of hell from the height of heaven.</p>
+                <p n="9">9. For this reason the adversary so rages whenever ‘salvation by faith’ is
+                    declared to the world. For this reason did he stir up earth and hell to destroy
+                    those who first preached it. And for the same reason, knowing that faith alone
+                    could overturn the foundations of his kingdom, did he call forth all his forces,
+                    and employ all his arts of lies and calumny, to affright that glorious champion
+                    of the Lord of Hosts, Martin Luther, from reviving it.<note place="foot" xml:id="ftn141" n="141">
+                        <p rend="footnote text">‘that glorious champion of
+                            the Lord of Hosts…’ was dropped from the text in <hi rend="italic">SOSO</hi>, I (1746). For an earlier evaluation of Luther, cf. JWJ,
+                            June 15-16, 1741; see also No. 14, <hi rend="italic">The Repentance of
+                                Believers</hi>, I.9 and n. for other references to
+                        Luther.</p>
+                    </note> Nor can we wonder thereat. For as that man of God
+                    observes, ‘How would it enrage a proud strong man armed to be stopped and set at
+                    nought by a little child, coming against him with a reed in his hand!’<note place="foot" xml:id="ftn142" n="142">
+                        <p rend="footnote text">Not yet located
+                            in Luther’s own words. But cf. Samuel Clarke, <hi rend="italic">The
+                                Marrow of Ecclesiastical Historie</hi> (1650), p. 97, which Wesley
+                            had read.</p>
+                    </note>—especially when he knew that little child would
+                    surely overthrow him and tread him under foot. ‘Even so, Lord Jesus!’<note place="foot" xml:id="ftn143" n="143">
+                        <p rend="footnote text">Cf. Rev.
+                            22:20.</p>
+                    </note> Thus hath thy strength been ever ‘made perfect in
+                        weakness’!<note place="foot" xml:id="ftn144" n="144">
+                        <p rend="footnote text">2 Cor. 12:9.</p>
+                    </note>
+                    <pb n="130"/>Go forth then, thou little child that believest in him, and his
+                    ‘right hand shall teach thee terrible things’!<note place="foot" xml:id="ftn145" n="145">
+                        <p rend="footnote text">Ps. 45:4.</p>
+                    </note> Though thou art
+                    helpless and weak as an infant of days, the strong man shall not be able to
+                    stand before thee. Thou shalt prevail over him, and subdue him, and overthrow
+                    him, and trample him under thy feet. Thou shalt march on under the great Captain
+                    of thy salvation,<note place="foot" xml:id="ftn146" n="146">
+                        <p rend="footnote text">See Heb. 2:10.</p>
+                    </note> ‘conquering and to
+                        conquer’,<note place="foot" xml:id="ftn147" n="147">
+                        <p rend="footnote text">Rev. 6:2.</p>
+                    </note> until all thine enemies are destroyed, and ‘death
+                    is swallowed up in victory’.<note place="foot" xml:id="ftn148" n="148">
+                        <p rend="footnote text">1 Cor. 15:54.</p>
+                    </note>
+                </p>
+            </div>
+            <div type="conclusion">
+                <p>Now thanks be to God which giveth us the victory through our Lord Jesus
+                        Christ,<note place="foot" xml:id="ftn149" n="149">
+                        <p rend="footnote text">1
+                            Cor. 15:57.</p>
+                    </note> to whom, with the Father and the Holy Ghost, be
+                    blessing and glory, and wisdom, and thanksgiving, and honour, and power, and
+                    might, for ever and ever. Amen.<note place="foot" xml:id="ftn150" n="150">
+                        <p rend="footnote text">Rev.7:12. This use of a concluding ascription would
+                            seem conventional enough, especially in such a sermon, <hi rend="italic">ad aulam</hi>. It is, however, quite rare for Wesley: only nine of
+                            his collected sermons carry such ascriptions: Nos. 1, <hi rend="italic">Salvation by Faith</hi>; 9, ‘The Spirit of Bondage and of
+                            Adoption’; 12, ‘The Witness of Our Own Spirit’; 29, ‘Sermon on the
+                            Mount, IX’; 56, ‘God’s Approbation of His Works’; 63, ‘The General
+                            Spread of the Gospel’; 71, ‘Of Good Angels’ (a collect); 85, ‘On Working
+                            Out Our Own Salvation’ (where the benediction serves as an ascription);
+                            107, ‘On God’s Vineyard’ (where Wesley uses the Preface to the Sanctus
+                            as an ascription). Note that neither No. 2, <hi rend="italic">The Almost
+                                Christian</hi>, nor No. 4, <hi rend="italic">Scriptural
+                                Christianity</hi>, appears in this list. Nine of the early
+                            ‘uncollected’ sermons have formal ascriptions: Nos. 133, ‘Death and
+                            Deliverance’; 134, ‘Seek First the Kingdom’; 135, ‘On Guardian Angels’;
+                            136, ‘On Mourning for the Dead’; 137, ‘On Corrupting the Word of God‘;
+                            140, ‘The Promise of Understanding’; 141, ‘The Image of God’; 146, ‘The
+                            One Thing Needful’; and 150, ‘Hypocrisy in Oxford’.</p>
+                    </note>
+                </p>
+            </div>
+        </body>
+    </text>
+</TEI>

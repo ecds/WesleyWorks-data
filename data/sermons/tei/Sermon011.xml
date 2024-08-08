@@ -1,0 +1,871 @@
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Sermon 11: The Witness of the Spirit, Discourse II</title>
+                <author>Wesley, John</author>
+                <editor role="text">Van Buskirk, Gregory P.</editor>
+                <editor role="digital">Taylor, Michelle M.</editor>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>The Wesley Works Digitzation Project</publisher>
+                <pubPlace>Tampa, FL</pubPlace>
+                <date>2024-02-24</date>
+             <idno type="URI">https://wesleyworks.ecdsdev.org/sermons/Sermon011</idno>                  
+            </publicationStmt>
+            <sourceDesc>
+                <listBibl>
+                    <biblStruct>
+                        <analytic>
+                            <title level="a">Sermon 11: The Witness of the Spirit, Discourse
+                                II</title>
+                        </analytic>
+                        <monogr>
+                            <title level="j">The Works of John Wesley, Volume I: Sermons I,
+                                1-33</title>
+                            <editor role="volume">Outler, Albert</editor>
+                            <imprint>
+                                <publisher>Abingdon Press</publisher>
+                                <pubPlace>Nashville, TN</pubPlace>
+                                <date when="2015-05-01">1984-05-01</date>
+                                <biblScope unit="volume" n="1"/>
+                                <biblScope unit="page" from="267" to="269"/>
+                                <biblScope unit="page" from="285" to="298"/>
+                            </imprint>
+                        </monogr>
+                        <series>
+                            <title level="s">The Works of John Wesley</title>
+                            <editor role="general">Baker, Frank</editor>
+                        </series>
+                    </biblStruct>
+                </listBibl>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Greg Van Buskirk created Word docs for all of Wesley's sermons using a combination of
+                OCR software and manual proofing. Michelle Taylor converted these docx into XML
+                using Oxygen's DITA automatic transformation scenario, then touched them up
+                manually.</p>
+        </encodingDesc>
+        <standOff>
+            <taxonomy>
+                <keywords>
+                    <term/>
+                </keywords>
+            </taxonomy>
+            <!--Include keywords and terms here eventually.-->
+        </standOff>
+        <revisionDesc/>
+    </teiHeader>
+    <text>
+        <body>
+            <pb n="267"/>
+            <introduction>
+                <!--Confirm introduction is the element I want to use here, especially given that I
+                    use it as an attribute for Wesley's introductory paragraphs as well.-->
+                <head>
+                    <hi rend="italic">An Introductory Comment [to Sermons 10-11]</hi>
+                </head>
+                <p>The following two essays were written and published more than twenty years apart
+                    (1746, 1767), but that they belong together was recognized by Wesley in the
+                    collection of his <hi rend="italic">Works</hi>, I, where they appear as Sermons
+                    10 and 11. While there is no record that either of them was ever preached, the
+                    evidence is abundant that their shared and central concern—the ground and
+                    character of Christian assurance—was paramount in Wesley’s mind. It was also a
+                    bone of contention with his critics. Already, in <hi rend="italic">A Farther
+                        Appeal</hi> (1745), Pt. I, III-V, Wesley had entered the lists against men
+                    like Edmund Gibson, Bishop of London, Thomas Herring, Archbishop of York, and
+                    Richard Smalbroke, Bishop of Lichfield and Coventry—all of whom had understood
+                    Wesley’s doctrines of assurance and of religious intuition as ‘enthusiasm’
+                    (11:117-76 of this edn.). Presently, he would be denounced by George Lovington,
+                    Bishop of Exeter, in <hi rend="italic">The Enthusiasm of Methodists and Papists
+                        Compared</hi> (1749). It was, therefore, important in 1746 for him to
+                    summarize the issues and to clarify his own position as simply and directly as
+                    possible.</p>
+                <p>It was clear enough that Wesley’s theory of religious knowledge was frankly
+                    intuitionist, but this had been all too easily misconstrued as a one-sided
+                    subjectivism. Thus, he had to clarify his distinction between the ways in which
+                    assurance might be <hi rend="italic">felt</hi> (‘the witness of our own spirit’)
+                    and the objective ground of any such experience (<hi rend="italic">viz.</hi>,
+                    the prior and direct ‘witness of the Holy Spirit’). The question at issue
+                    between ‘enthusiasts ’ and ‘rationalists ’ was whether a believer’s
+                    consciousness of justification and reconciliation was an inference from his
+                    religious and moral feeling or whether those feelings, if valid, were first
+                    prompted by a free and direct testimony of the Spirit to one’s divine sonship,
+                    prompting to which faith had, responded and in which hope and love could
+                    participate. Characteristically, Wesley opts for a both/and solution, stressing
+                    the believer’s own consciousness of God’s favour but even more strongly the
+                    priority of the Spirit’s prevenient and direct witness as the <pb n="268"/>necessary precondition of any <hi rend="italic">feelings</hi> of assurance.
+                    That this is the crucial point for Wesley would appear from the fact that he
+                    repeats the same basic argument for it in Discourse II.</p>
+                <p>The controversy was as old as second-century Montanism at least, and Wesley’s
+                    balanced stress on an objective witness and a subjective one was not new. He had
+                    already found a survey of it in an essay on Romans 8 by Alexander Hamilton, <hi rend="italic">A Cordial for Christians Travelling Heaven-Ward</hi> (1696).
+                    Hamilton’s conclusion foreshadows Wesley’s: ‘The witness of the Spirit is a
+                    twofold testimony for our sonship: by the Spirit himself and from our
+                    conscience’ (p. 105). Moreover, according to Hamilton, the Spirit’s testimony is
+                    conveyed conjointly, through Scripture by divine illumination, and also by the
+                    Spirit’s gracious, sanctifying presence. Wesley seeks to safeguard this notion
+                    from subjectivity by insisting that the gifts of the Spirit, including the gift
+                    of assurance, are always to be judged by reference to the <hi rend="italic">fruit</hi> of the Spirit (Gal. 5:22-23).</p>
+                <p>But why two discourses of this sort, on the same text, with most of the same
+                    arguments? An answer to this must be circumstantial; it will illustrate Wesley’s
+                    understanding of the sermon genre as a way of repeating himself with fresh and
+                    refined nuances. Discourse I is the basic statement; it seeks a middle course
+                    between ‘enthusiasm’ and ‘rationalism’ by recourse to the idea of <hi rend="italic">testimonium internum Spiritus Sancti</hi> (the inner witness
+                    of the Holy Spirit), in Lutheran and Reformed traditions, linked as they had
+                    been to the notion of the inspiration of the Scriptures. But what Wesley had
+                    intended as a moderating formulation had drawn a storm of criticism, repeating
+                    the charge of ‘enthusiasm’ and ignoring Wesley’s stress on objectivity (cf.
+                    Green, <hi rend="italic">Anti-Methodist Publications</hi>, where more than
+                    twenty attacks are listed on this point alone, including major essays by John
+                    Parkhurst, Theophilus Evans, and William Warburton; see also Umphrey Lee, <hi rend="italic">Early Methodist Enthusiasm</hi>, and R. A. Knox, <hi rend="italic">Enthusiasm</hi>). Moreover, as the Revival was moving on into
+                    its second generation, there were cases of real enthusiasm that lent credence to
+                    these other criticisms (e.g., William Cudworth and James Relly). By the
+                    mid-sixties, then, the time was ripe for a restatement of the doctrine of the
+                    ‘twofold testimony’ and also for a rehearsal and refutation of the main
+                    objections that had been raised against it over the controversy’s course.
+                    Discourse II is, therefore, more than a mere sequel; it is a significant
+                    revision of Discourse I. Thus, the two essays are designed to be read together
+                    with one eye on the arguments themselves and the other on their theological
+                    context in the ongoing Revival.</p>
+                <p>
+                    <pb n="269"/>The edited text of Discourse II is based on that of the first
+                    edition of 1767. For a stemma illustrating the transmission of that text through
+                    its six extant editions issued during Wesley’s lifetime, together with the
+                    substantive variant readings from those editions, see the Appendix, Vol. IV. For
+                    further details see <hi rend="italic">Bibliog</hi>, No. 303.</p>
+            </introduction>
+            <pb n="285"/>
+            <head>The Witness of the Spirit, II</head>
+            <epigraph>
+                <p>Romans 8:16</p>
+                <p>
+                    <hi rend="italic">The Spirit itself beareth witness with our spirit, that we are
+                        the children of God.</hi>
+                </p>
+            </epigraph>
+            <div type="section" n="1">
+                <p n="1">I. 1. None who believes the Scriptures to be the Word of God can doubt the
+                        <hi rend="italic">importance</hi> of such a truth as this: a truth revealed
+                    therein not once only, not obscurely, not incidentally, but frequently, and that
+                    in express terms; but solemnly and of set purpose, as denoting one of the
+                    peculiar privileges of the children of God.</p>
+                <p n="2">2. And it is the more necessary to explain and defend this truth, because
+                    there is a danger on the right hand and on the left. If we deny it, there is a
+                    danger lest our religion degenerate into mere formality; lest, ‘having a form of
+                    godliness’, we neglect if not ‘deny, the power of it’.<note place="foot" xml:id="ftn1" n="1">
+                        <p rend="footnote text">2 Tim. 3:5.</p>
+                    </note> If we
+                    allow it, but do not understand what we allow, we are liable to run into all the
+                    wildness of enthusiasm.<note place="foot" xml:id="ftn2" n="2">
+                        <p rend="footnote text">Cf. No. 37, ‘The Nature of Enthusiasm’.</p>
+                    </note>
+                    It is therefore needful in the highest degree to guard those who fear God from
+                    both these dangers by a scriptural and rational illustration and continuation of
+                    this momentous truth.</p>
+                <p n="3">3. It may seem something of this kind is the more needful because so little
+                    has been wrote on the subject with any clearness, unless some discourses on the
+                    wrong side of the question, which explain it quite away. And it cannot be
+                    doubted but these were occasioned, at least in great measure, by the crude,
+                    unscriptural, irrational explications of others, who ‘knew not what they spake,
+                    nor whereof they affirmed’.<note place="foot" xml:id="ftn3" n="3">
+                        <p rend="footnote text">Cf. 1 Tim. 1:7.</p>
+                    </note>
+                </p>
+                <p n="4">4. It more clearly concerns the Methodists, so called, clearly to
+                    understand, explain, and defend this doctrine, because it is one grand part of
+                    the testimony which God has given them to bear to all mankind. It is by his
+                    peculiar blessing upon them in searching the Scriptures, confirmed by the
+                    experience of his children, that <pb n="286"/>this great evangelical truth has
+                    been recovered, which had been for many years wellnigh lost and forgotten.<note place="foot" xml:id="ftn4" n="4">
+                        <p rend="footnote text">For the Lutheran
+                            scholastics the <hi rend="italic">testimonium internum Spiritus
+                                Sancti</hi> was chiefly related to the validation of the truth of
+                            Scripture: ‘the supernatural act of the Holy Spirit through the Word of
+                            God…illuminating the heart of man and inciting it to obedience unto the
+                            faith; so that man, thus illuminated by internal spiritual influences,
+                            clearly perceives that the word proposed to him has indeed proceeded
+                            from God and thus gives it unyielding assent’ (David Hollar, <hi rend="italic">Examen Theologicum</hi> [1707], p. 116). The notion of
+                            assurance was derived from this, but only by implication; cf. <hi rend="italic">ibid.</hi>, pp. 117-18.</p>
+                        <p rend="footnote text">In
+                            the Reformed tradition, the inner witness was correlated more
+                            specifically with ‘the perseverance and assurance of the saints’. Cf.
+                            Heppe, <hi rend="italic">Reformed Dogmatics</hi>, pp. 581-87, and espec.
+                            Heidegger, <hi rend="italic">Corpus Theologiae</hi>, XXIV.72: ‘[The
+                            elect, assured by the Spirit’s witness] trust that they are in a state
+                            of grace, not because of a deliberate intuition of their own dignity but
+                            of the divine conferring of it…not just for the present, but certain
+                            that they will also persevere in the same, though not without a
+                            struggle, …right to life’s end—and so are infallibly salvable to the
+                            praise of the glory of God’s grace and their own consolation amid the
+                            perpetual misery of life.’</p>
+                        <p rend="footnote text">In the Radical
+                            Reformation, the witness of the Spirit had been interiorized and turned
+                            toward what Wesley (and other Anglicans) had spoken of as ‘all the
+                            wildness of enthusiasm’. Cf. Hugh Barbour and Arthur O. Roberts, eds.,
+                                <hi rend="italic">Early Quaker Writings, 1650-1700</hi> (Grand
+                            Rapids, Mich., William B. Eerdmans Publishing Co., 1973), pp. 261-62,
+                            and G. H. Williams, <hi rend="italic">The Radical Reformation</hi>
+                            (Philadelphia, The Westminster Press, 1962), chs. 18-19. In reaction,
+                            Anglicans tended to interpret assurance in terms of their <hi rend="italic">hope</hi> of salvation rather than an inner certainty;
+                            e.g., cf. Wesley’s reactions to Spangenberg’s questions as to his sense
+                            of assurance in JWJ, Feb. 8,1736; and his letter to Thomas Whitehead(?),
+                            Feb. 10, 1748; see also Isaac Barrow’s ‘Whitsunday Sermon’, No. 77, in
+                                <hi rend="italic">Works</hi>, III.475-78.</p>
+                    </note>
+                </p>
+            </div>
+            <div type="section" n="2">
+                <p n="1">II. 1. But what is ‘the witness of the Spirit’? The original word,
+                    μαρτυρία, may be rendered either (as it is in several places) ‘the witness’, or
+                    less ambiguously ‘the testimony’ or ‘the record’: so it is rendered in our
+                    translation, ‘This is the record’ (the testimony, the sum of what God testifies
+                    in all the inspired writings), ‘that God hath given unto us eternal life, and
+                    this life is in his Son.’<hi rend="endnote_reference">
+                        <note place="end">
+                            <p rend="endnote text">1 John 5:11.</p>
+                        </note>
+                    </hi> The testimony now
+                    under consideration is given by the Spirit of God to and with our spirit. He is
+                    the person testifying. What he testifies to us is ‘that we are the children of
+                    God’. The immediate result of this testimony is ‘the fruit of the Spirit’;
+                    namely, ‘love, joy, peace; longsuffering, gentleness, goodness’.<note place="foot" xml:id="ftn5" n="5">
+                        <p rend="footnote text">Cf. Gal. 5:22. Cf.
+                            No. 10, ‘The Witness of the Spirit, I’, II.12 and n.</p>
+                    </note> And
+                    without these the testimony itself cannot continue. For it is inevitably
+                    destroyed, not only by the commission of any outward sin, or the omission of
+                    known duty, but by giving way to any inward sin—in a word, by whatever grieves
+                    the Holy Spirit of God.</p>
+                <p n="2">2. I observed many years ago:</p>
+                <quote>
+                    <pb n="287"/>It is hard to find words in the language of men to explain the
+                    deep things of God. Indeed there are none that will adequately express what the
+                    Spirit of God works in his children. But perhaps one might say (desiring any who
+                    are taught of God to correct, soften, or strengthen the expression), by ‘the
+                    testimony of the Spirit’ I mean an inward impression of the soul, whereby the
+                    Spirit of God immediately and directly witnesses to my spirit that I am a child
+                    of God, that ‘Jesus Christ hath loved me, and given himself for me;’<note place="foot" xml:id="ftn6" n="6">
+                        <p rend="footnote text">Cf. Gal. 2:20. See
+                            also No. 5, ‘Justification by Faith’, IV.2 and n.</p>
+                    </note> that all my
+                    sins are blotted out, and I, even I, am reconciled to God?<hi rend="endnote_reference">
+                        <note place="end">
+                            <p rend="endnote text">
+                                <hi rend="italic">Sermons,</hi> Vol. 1 [No.10, The Witness of the
+                                Spirit, I’, I.7. Note Wesley’s revisions of his earlier text;
+                                another example of his habitual indifference to exact
+                                quotations].</p>
+                        </note>
+                    </hi>
+                </quote>
+                <p n="3">3. After twenty years’ farther consideration I see no cause to retract any
+                    part of this. Neither do I conceive how any of these expressions maybe altered
+                    so as to make them more intelligible. I can only add, that if any of the
+                    children of God will point out any other expressions which are more clear, and
+                    more agreeable to the Word of God, I will readily lay these aside.</p>
+                <p n="4">4. Meantime let it be observed, I do not mean hereby that the Spirit of God
+                    testifies this by any outward voice; no, nor always by an inward voice, although
+                    he may do this sometimes. Neither do I suppose that he always applies to the
+                    heart (though he often may) one or more texts of Scripture. But he so works upon
+                    the soul by his immediate influence, and by a strong though inexplicable
+                    operation, that the stormy wind and troubled waves subside, and there is a sweet
+                    calm; the heart resting as in the arms of Jesus, and the sinner being clearly
+                    satisfied that God is reconciled, that all his ‘iniquities are forgiven, and his
+                    sins covered’.<note place="foot" xml:id="ftn7" n="7">
+                        <p rend="footnote text">Rom. 4:7; cf. Ps. 32:1.</p>
+                    </note>
+                </p>
+                <p n="5">5. Now what is the matter of dispute concerning this? Not whether there be
+                    a witness or testimony of the Spirit? Not whether the Spirit does testify with
+                    our spirit that we are the children of God? None can deny this without flatly
+                    contradicting the Scripture, and charging a lie upon the God of truth. Therefore
+                    that there is a testimony of the Spirit is acknowledged by all parties.</p>
+                <p n="6">6. Neither is it questioned whether there is an <hi rend="italic">indirect</hi> witness or testimony that we are the children of God. This is
+                    nearly, if not exactly, the same with ‘the testimony of a good conscience toward
+                        God’,<note place="foot" xml:id="ftn8" n="8">
+                        <p rend="footnote text">Cf. 1
+                            Pet. 3:21.</p>
+                    </note> and is the result of reason or reflection on what
+                    we feel in our own souls. Strictly speaking, it is a conclusion drawn partly <pb n="288"/>from the Word of God, and partly from our own experience. The Word
+                    of God says everyone who has the fruit of the Spirit<note place="foot" xml:id="ftn9" n="9">
+                        <p rend="footnote text">Cf. No. 10, ‘The Witness of the
+                            Spirit, I’, II.12 and n.</p>
+                    </note> is a child of God. Experience, or
+                    inward consciousness, tells me that I have the fruit of the Spirit And hence I
+                    rationally conclude: therefore I am a child of God. This is likewise allowed on
+                    all hands, and so is no matter of controversy.</p>
+                <p n="7">7. Nor do we assert that there can be any real testimony of the Spirit
+                    without the fruit of the Spirit.<note place="foot" xml:id="ftn10" n="10">
+                        <p rend="footnote text">
+                            <hi rend="italic">Ibid.</hi>
+                        </p>
+                    </note> We assert,
+                    on the contrary, that the fruit of the Spirit immediately springs from this
+                    testimony. Not always, indeed, in the same degree, even when the testimony is
+                    first given, and much less afterwards. Neither joy nor peace are always at one
+                    stay; no, nor love; as neither is the testimony itself always equally strong and
+                    clear.</p>
+                <p n="8">8. But the point in question is whether there be any <hi rend="italic">direct testimony</hi> of the Spirit at all; whether there be any other
+                    testimony of the Spirit than that which arises from a consciousness of the
+                    fruit.</p>
+            </div>
+            <div type="section" n="3">
+                <p n="1">III. 1. I believe there is, because that is the plain, natural meaning of
+                    the text, ‘The Spirit itself beareth witness with our spirit, that we are the
+                    children of God.’ It is manifest, here are two witnesses mentioned, who together
+                    testify the same thing—the Spirit of God, and our own spirit. The late Bishop of
+                    London, in his sermon on this text, seems astonished that anyone can doubt of
+                    this, which appears upon the very face of the words. Now ‘the testimony of our
+                    own spirit’, says the bishop, is one which is ‘the consciousness of our own
+                        sincerity’;<note place="foot" xml:id="ftn11" n="11">
+                        <p rend="footnote text">This was Thomas Sherlock (cf. <hi rend="italic">DNB</hi>) who was
+                            Bishop of London, 1748-61. Wesley’s references here are to Sherlock’s
+                            earlier sermon on Rom. 8:16, ‘Discourse VIII’, in <hi rend="italic">Several Discourses Preached at the Temple Church</hi> (2nd edn.,
+                            1754), pp. 227-49. On p. 235, Sherlock concludes: ‘So then the faithful
+                            Christian has two witnesses of his being the son of God: the Holy Spirit
+                            of God and his own mind and conscience.’ On pp. 244-45, Sherlock insists
+                            that true Christians have ‘the <hi rend="italic">utmost assurance</hi>
+                            of being the children of God’. But his conclusion (pp. 246-47) differs
+                            significantly: ‘So then you have two ways of judging yourselves which
+                            must both concur: you have the inward and outward signs of grace. The
+                            inward signs are a pure conscience, a sincere love of God…. The outward
+                            signs are acts of obedience conformable to the inward purity and love of
+                            your mind.’ See also Sherlock, <hi rend="italic">Works</hi> (1830),
+                            I.157, 163. Cf. also <hi rend="italic">ibid.</hi>, p. 155: ‘…there are
+                            therefore two witnesses; St. Paul, who witnessed his affection to his
+                            countrymen; and <hi rend="italic">his conscience, which witnessed for
+                                his sincerity</hi>.’</p>
+                    </note> or, to express the same thing a
+                    little more clearly, the consciousness of the fruit of the <pb n="289"/>Spirit.
+                    When our spirit is conscious of this—of love, joy, peace, long-suffering,
+                    gentleness, goodness—it easily infers from these premises that we are the
+                    children of God.</p>
+                <p n="2">2. It is true, that great man supposes the other witness to be ‘the
+                    consciousness of our own good works’. This, he affirms, is ‘the testimony of
+                    God’s Spirit’. But this is included in the testimony of our own spirit; yea, and
+                    in sincerity, even according to the common sense of the word. So the Apostle:
+                    Our rejoicing is this, the testimony of our conscience, that in simplicity and
+                    godly sincerity […] we have had our conversation in the world:’<note place="foot" xml:id="ftn12" n="12">
+                        <p rend="footnote text">2 Cor.
+                        1:12.</p>
+                    </note> where, it is plain, sincerity refers to our words and
+                    actions at least as much as to our inward dispositions. So that this is not
+                    another witness, but the very same that he mentioned before, the consciousness
+                    of our good works being only one branch of the consciousness of our sincerity.
+                    Consequently here is only one witness still. If therefore the text speaks of two
+                    witnesses, one of these is not the consciousness of good works, neither of our
+                    sincerity, all this being manifestly contained in ‘the testimony of our own
+                    spirit’.</p>
+                <p n="3">3. What then is the other witness? This might easily be learned, if the
+                    text itself were not sufficiently clear, from the verse immediately preceding:
+                    ‘Ye have received, not the spirit of bondage, but the Spirit of adoption,
+                    whereby we cry, Abba, Father.’ It follows, ‘The Spirit itself beareth witness
+                    with our spirit, that we are the children of God.’<note place="foot" xml:id="ftn13" n="13">
+                        <p rend="footnote text">Rom. 8:15-16.</p>
+                    </note>
+                </p>
+                <p n="4">4. This is farther explained by the parallel text, ‘Because ye are sons,
+                    God hath sent forth the Spirit of his Son into your hearts, crying Abba,
+                        Father.’<hi rend="endnote_reference">
+                        <note place="end">
+                            <p rend="endnote text">Gal. 4:6.</p>
+                        </note>
+                    </hi> Is not this something
+                        <hi rend="italic">immediate</hi> and <hi rend="italic">direct</hi>, not the
+                    result of reflection or argumentation? Does not this Spirit cry ‘Abba, Father’,
+                    in our hearts the moment it is given—antecedently to any reflection upon our
+                    sincerity; yea, to any reasoning whatsoever? And is not this the plain, natural
+                    sense of the words, which strikes anyone as soon as he hears them? All these
+                    texts, then, in their most obvious meaning, describe a direct testimony of the
+                    Spirit.</p>
+                <p n="5">5. That ‘the testimony of the Spirit of God’ must, in the very nature of
+                    things, be antecedent to ‘the testimony of our own <pb n="290"/>spirit’, may
+                    appear from this single consideration: we must be holy in heart and life before
+                    we can be conscious that we are so. But we must love God before we can be holy
+                    at all, this being the root of all holiness. Now we cannot love God till we know
+                    he loves us: ‘We love him, because he first loved us.’<note place="foot" xml:id="ftn14" n="14">
+                        <p rend="footnote text">1 John 4:19.</p>
+                    </note> And we
+                    cannot know his love to us till his Spirit witnesses it to our spirit. Till then
+                    we cannot believe it; we cannot say, ‘The life which I now live, I live by faith
+                    in the Son of God, who loved me, and gave himself for me.’<note place="foot" xml:id="ftn15" n="15">
+                        <p rend="footnote text">Cf. Gal. 2:20.</p>
+                    </note>
+                </p>
+                <lg>
+                    <l>Then, only then we feel</l>
+                    <l>Our interest in his blood,</l>
+                    <l>And cry, with joy unspeakable,</l>
+                    <l>Thou art my Lord, my God.<note place="foot" xml:id="ftn16" n="16">
+                            <p rend="footnote text">‘Spirit of Faith, Come Down’, st. 2, ll. 5-8,
+                                in<hi rend="italic" xml:space="preserve"> Hymns of Petition and Thanksgiving for the Promise of the Father</hi>
+                                (1746), 30 (<hi rend="italic">Poet. Wks.</hi>,
+                        IV.197).</p>
+                        </note>
+                    </l>
+                </lg>
+                <p>Since therefore the testimony of his Spirit must precede the love of God and all
+                    holiness, of consequence it must precede our consciousness thereof.<note place="foot" xml:id="ftn17" n="17">
+                        <p rend="footnote text">Cf. this para.
+                            with Discourse I, I.8, and note the slight shift in nuance in this later
+                            sermon.</p>
+                    </note>
+                </p>
+                <p n="6">6. And here properly comes in, to confirm this scriptural doctrine, the
+                    experience of the children of God—the experience not of two or three, not of a
+                    few, but of a great multitude which no man can number.<note place="foot" xml:id="ftn18" n="18">
+                        <p rend="footnote text">See Rev. 7:9.</p>
+                    </note> It
+                    has been confirmed, both in this and in all ages, by ‘a cloud of’ living and
+                    dying ‘witnesses’.<note place="foot" xml:id="ftn19" n="19">
+                        <p rend="footnote text">Heb. 12:1.</p>
+                    </note> It is confirmed by <hi rend="italic">your</hi> experience and <hi rend="italic">mine</hi>. The
+                    Spirit itself bore witness to my spirit that I was a child of God, gave me an
+                        <hi rend="italic">evidence</hi> hereof, and I immediately cried, ‘Abba,
+                    Father!’ And this I did (and so did you) before I reflected on, or was conscious
+                    of, any fruit of the Spirit. It was from this testimony received that love, joy,
+                    peace, and the whole fruit of the Spirit flowed. First I heard,</p>
+                <lg>
+                    <l>‘Thy sins are forgiven! Accepted thou art!’</l>
+                    <l>I listened, and heaven sprung up in my heart.<note place="foot" xml:id="ftn20" n="20">
+                            <p rend="footnote text">Charles Wesley, ‘After
+                                Preaching to the Newcastle Colliers’, st. 9, ll. 3-4, beginning ‘Ye
+                                neighbours and friends of Jesus, draw near’, in <hi rend="italic">Hymns and Sacred Poems</hi> (1749), I.311 (<hi rend="italic">Poet. Wks.</hi>, V.116). Orig., ‘They listen, and heaven
+                                springs up in their heart.’</p>
+                        </note>
+                    </l>
+                </lg>
+                <p n="7">
+                    <pb n="291"/>7. But this is confirmed, not only by the experience of the
+                    children of God—thousands of whom can declare that they never did know
+                    themselves to be in the favour of God till it was directly witnessed to them by
+                    his Spirit—but by all those who are convinced of sin, who feel the wrath of God
+                    abiding on them.<note place="foot" xml:id="ftn21" n="21">
+                        <p rend="footnote text">See John 3:36.</p>
+                    </note> These cannot be satisfied with anything less
+                    than a direct testimony from his Spirit that he is ‘merciful to their
+                    unrighteousness, and remembers their sins and iniquities no more’.<note place="foot" xml:id="ftn22" n="22">
+                        <p rend="footnote text">Cf. Heb.
+                            8:12.</p>
+                    </note> Tell any of these, ‘You are to know you are a child by
+                    reflecting on what he has wrought in you, on your love, joy, and peace;’ and
+                    will he not immediately reply, ‘By all this I know I am a child of the devil. I
+                    have no more love to God than the devil has; my carnal mind is enmity against
+                        God.<note place="foot" xml:id="ftn23" n="23">
+                        <p rend="footnote text">Rom.
+                            8:7.</p>
+                    </note> I have no joy in the Holy Ghost;<note place="foot" xml:id="ftn24" n="24">
+                        <p rend="footnote text">Rom. 14:17.</p>
+                    </note> my soul
+                    is sorrowful even unto death.<note place="foot" xml:id="ftn25" n="25">
+                        <p rend="footnote text">Matt 26:38.</p>
+                    </note> I have no peace; my heart is
+                    a troubled sea; I am all storm and tempest.’<note place="foot" xml:id="ftn26" n="26">
+                        <p rend="footnote text">Is there an autobiographical reference here?
+                            Cf. JWJ, May 28, 1738, and Jan. 4, 1739. See also John’s letter to his
+                            brother Charles, June 27, 1766 (where the double-bracketed words are in
+                            shorthand, meant for Charles’s eyes only):</p>
+                        <p rend="footnote text">‘[[I]] do not feel the wrath of God abiding on me. Nor can I believe it
+                            does. And yet (this is the mystery) [[I do not love God. I never did.]]
+                            Therefore [[I never]] <hi rend="italic">believed</hi> in the Christian
+                            sense of the word. Therefore [[I am only an]] honest heathen, a
+                            proselyte of the Temple, one of the φοβούμενοι τὸν Θεόν [‘God-fearers’].
+                            And yet, to be so employed of God! And so hedged in that I can neither
+                            get forward or backward! Surely there never was such an instance before,
+                            from the beginning of the world!</p>
+                        <p rend="footnote text">‘If [[I ever
+                            had had]] <hi rend="italic">that faith</hi>, it would not be so strange.
+                            But [[I never had any]] other ἔλεγχος of the eternal or the invisible
+                            world than [[I have]] now—and that is [[none at all]], unless such as
+                            faintly shines from reason’s glimmering ray. [[I have no]] <hi rend="italic">direct</hi> witness (I do not say, that [[I am a child
+                            of God]]), but of anything invisible or eternal.</p>
+                        <p rend="footnote text">‘And yet I dare not preach otherwise than I do,
+                            either concerning faith, or love, or justification, or perfection. And
+                            yet I find rather an increase than a decrease of zeal, for the whole
+                            work of God, and every part of it. I am φερόμενος [‘borne along’], I
+                            know not how, [so] that I can’t stand still. I want all the world to
+                            come to ὃν οὐκ οἶδα [‘what I do not know’]. Neither am I impelled to
+                            this by fear of any kind. [[I have]] no more fear than love. Or if [[I
+                            have any fear, it is not that of falling]] into hell, but of falling
+                            into nothing!’</p>
+                    </note> And which way can these souls possibly be
+                    comforted but by a divine testimony (not that they are good, or sincere, or
+                    conformable to the Scripture in heart and life, but) that God ‘justifieth the
+                        ungodly’—<note place="foot" xml:id="ftn27" n="27">
+                        <p rend="footnote text">Cf. Rom. 4:5.</p>
+                    </note> him that, till the moment he is justified, is
+                    all ungodly, void of all true holiness? ‘Him that worketh not’,<note place="foot" xml:id="ftn28" n="28">
+                        <p rend="footnote text">
+                            <hi rend="italic">Ibid.</hi>
+                        </p>
+                    </note> that worketh nothing that is truly good till
+                    he is conscious that he is accepted, ‘not for any works of righteousness which
+                    he hath done’,<note place="foot" xml:id="ftn29" n="29">
+                        <p rend="footnote text">Cf. Titus 3:5.</p>
+                    </note>
+                    <pb n="292"/>but by the mere free mercy of God? Wholly and solely for what the
+                    Son of God hath done and suffered for him? And can it be otherwise if ‘a man is
+                    justified by faith, without the works of the law’?<note place="foot" xml:id="ftn30" n="30">
+                        <p rend="footnote text">Rom. 3:28 (cf. <hi rend="italic">Notes</hi>).</p>
+                    </note> If so, what inward or outward
+                    goodness can he be conscious of antecedent to his justification? Nay, is not the
+                    ‘having nothing to pay’,<note place="foot" xml:id="ftn31" n="31">
+                        <p rend="footnote text">Cf. Luke 7:42.</p>
+                    </note> that is, the being
+                    conscious that ‘there dwelleth in us no good thing,’<note place="foot" xml:id="ftn32" n="32">
+                        <p rend="footnote text">Cf. Rom. 7:18.</p>
+                    </note>
+                    neither inward nor outward goodness, essentially, indispensably necessary before
+                    we can be ‘justified freely through the redemption that is in Jesus
+                        Christ’?<note place="foot" xml:id="ftn33" n="33">
+                        <p rend="footnote text">Cf.
+                            Rom 3:24.</p>
+                    </note> Was ever any man justified since his coming into
+                    the world, or can any man ever be justified till he is brought to that
+                    point,</p>
+                <lg>
+                    <l>I give up every plea, beside</l>
+                    <l>‘Lord, I am damned—but thou hast died!’<note place="foot" xml:id="ftn34" n="34">
+                            <p rend="footnote text">‘Galatians iii.22’, st. 12, ll. 3-4, in
+                                    <hi rend="italic">Hymns and Sacred Poems</hi> (1739), p. 94 (<hi rend="italic">Poet. Wks.</hi>, I.85). A favourite hymn of
+                                Wesley’s, quoted frequently. E.g., Nos. 34, ‘The Original, Nature,
+                                Properties, and Use of the Law’, IV.2; and 122, ‘Causes of the
+                                Inefficacy of Christianity’, §19. See also the letter to Lady
+                                Maxwell, Sept. 22, 1764, and JWJ, Apr. 1, 1778.</p>
+                        </note>
+                    </l>
+                </lg>
+                <p n="8">8. Everyone therefore who denies the existence of such a testimony does, in
+                    effect, deny justification by faith.<note place="foot" xml:id="ftn35" n="35">
+                        <p rend="footnote text">A clue to Wesley’s purposes in this Discourse II:
+                                <hi rend="italic">viz.</hi>, the reassertion of ‘faith alone’, but
+                            now as a proper precondition of ‘holy living’.</p>
+                    </note> It follows
+                    that either he never experienced this, either he never was justified, or that he
+                    has forgotten (as St. Peter speaks) τοῦ καθαρισμοῦ τῶν πάλαι [αὐτού] ἁμαρτιῶν,
+                    ‘the purification from his former sins’,<note place="foot" xml:id="ftn36" n="36">
+                        <p rend="footnote text">Cf. 2 Pet. 1:9. The omission of αὐτοῦ seems an
+                            inadvertence; the translation is Wesley’s own (cf. <hi rend="italic">Notes</hi>) and is more literal than the AV’s ‘purged from his old
+                            sins’.</p>
+                    </note> the experience he then had himself, the manner wherein
+                    God wrought in his own soul, when his former sins were blotted out.</p>
+                <p n="9">9. And the experience even of the children of the world here confirms that
+                    of the children of God. Many of these have a desire to please God: some of them
+                    take much pains to please him. But do they not, one and all, count it the
+                    highest absurdity for any to talk of <hi rend="italic">knowing</hi> his sins are
+                    forgiven? Which of <hi rend="italic">them</hi> even pretends to any such thing?
+                    And yet many of them are conscious of their own sincerity. Many of them
+                    undoubtedly have, in a degree, the testimony of their own spirit, a
+                    consciousness of their own uprightness. But this brings them no consciousness
+                    that they are forgiven, no knowledge that they are the children of God. Yea, <pb n="293"/>the more sincere they are, the more uneasy they generally are for
+                    want of knowing it: plainly showing that this cannot be known in a satisfactory
+                    manner by the bare testimony of our own spirit, without God’s directly
+                    testifying that we are his children.</p>
+            </div>
+            <div type="section" n="4">
+                <p>IV. But abundance of objections have been made to this, the chief of which it may
+                    be well to consider.</p>
+                <p n="1">1. It is objected, first, ‘Experience is not sufficient to prove a doctrine
+                    which is not founded on Scripture.’ This is undoubtedly true, and it is an
+                    important truth. But it does not affect the present question, for it has been
+                    shown that this doctrine is founded on Scripture. Therefore experience is
+                    properly alleged to confirm it.</p>
+                <p n="2">2. ‘But madmen, French prophets,<note place="foot" xml:id="ftn37" n="37">
+                        <p rend="footnote text">A popular English nickname for the Camisards who
+                            had suffered brutal persecution in southeastern France (the Cevennes and
+                            Dauphiné) in the first decade of the eighteenth century. The label
+                            ‘Camisard’ referred to their habit of wearing white shirts (<hi rend="italic">camisae</hi>) as ritual symbols of their zeal for
+                            purity. But they were also visionaries and fanatics, strongly influenced
+                            by the apocalyptic emphasis of Pierre Jurieu (1637-1713), and laid claim
+                            to direct revelation and Spirit-possession; cf. André Ducasse, <hi rend="italic">La Guerre des Camisards</hi> (Paris, 1946), and
+                            Charles Almeras, <hi rend="italic">La Révolte des Camisards</hi> (Paris,
+                            1960). Wesley shared the general feeling among Englishmen of his time
+                            that these ‘French prophets’ were ‘enthusiasts’ in the literal,
+                            pejorative sense of that term. His first meeting with them is recorded
+                            in JWJ, Jan. 28, 1739; see also June 6 and 22, 1739. Later (Apr. 3,
+                            1786), he will compare them with ‘the Jumpers in Wales’ and some
+                            mountain folk near Chapel-en-le-Frith. See also his letter to Conyers
+                            Middleton, Jan. 4, 1749, and to <hi rend="italic">The London
+                                Magazine</hi>, Dec. 12, 1750.</p>
+                        <p rend="footnote text">For
+                            accounts of their extravagances in England see Southey, ch. 8; and Knox,
+                                <hi rend="italic">Enthusiasm</hi>, pp. 362, 376 ff.</p>
+                    </note> and
+                    enthusiasts of every kind have imagined they experienced this witness.’ They
+                    have so, and perhaps not a few of them did, although they did not retain it
+                    long. But if they did not, this is no proof at all that others have not
+                    experienced it as a madman’s <hi rend="italic">imagining</hi> himself a king
+                    does not prove that there are no <hi rend="italic">real</hi> kings.</p>
+                <p><!--Decide if and how to number subsequent paragraphs unnumbered by Wesley.-->‘Nay,
+                    many who pleaded strongly for this have utterly decried the Bible.’ Perhaps so,
+                    but this was no necessary consequence: thousands plead for it who have the
+                    highest esteem for the Bible.</p>
+                <p>‘Yea, but many have fatally deceived themselves hereby, and got above all
+                        conviction.’<note place="foot" xml:id="ftn38" n="38">
+                        <p rend="footnote text">Cf. Wesley’s own criticism of the enthusiastic opinions cf. Thomas
+                            Maxfield and George Bell in JWJ, Nov. 1, 1762 (and Nov. 24). Many of
+                            Wesley’s erstwhile followers (John Cennick, Thomas Bissicks, <hi rend="italic">et al.</hi>) had ‘got above all conviction’ without
+                            disconcerting his own more modest views of assurance and the Holy
+                            Spirit’s witness in the human spirit. Cf. No. 37, The Nature of
+                            Enthusiasm’.</p>
+                    </note>
+                </p>
+                <p>And yet a scriptural doctrine is no worse, though men abuse it to their own
+                    destruction.</p>
+                <p n="3">
+                    <pb n="294"/>3. ‘But I lay it down as an undoubted truth, the fruit of the
+                    Spirit is the witness of the Spirit.’ Not undoubted; thousands doubt of, yea
+                    flatly deny it: but to let that pass, ‘If this witness be sufficient there is no
+                    need of any other. But it is sufficient, unless in one of these cases: (1). The
+                        <hi rend="italic">total absence</hi> of the fruit of the Spirit.’ And this
+                    is the case when the direct witness is first given. ‘(2). The <hi rend="italic">not perceiving it</hi>. But to contend for it in this case is to contend
+                    for being in the favour of God and not knowing it.’ True, not knowing it at that
+                    time any otherwise than by the testimony which is given for that end. And this
+                    we do contend for: we contend that the direct witness may shine clear, even
+                    while the indirect one is under a cloud.</p>
+                <p n="4">4. It is objected, secondly: ‘the design of the witness contended for is to
+                    prove that the profession we make is genuine. But it does not prove this.’ I
+                    answer, the proving this is not the design of it. It is antecedent to our making
+                    any profession at all, but that of being lost, undone, guilty, helpless sinners.
+                    It is designed to assure those to whom it is given that they are the children of
+                    God; that they are ‘justified freely by his grace, through the redemption that
+                    is in Jesus Christ’.<note place="foot" xml:id="ftn39" n="39">
+                        <p rend="footnote text">Cf. Rom. 3:24.</p>
+                    </note> And this does not suppose
+                    that their preceding thoughts, words, and actions are conformable to the rule of
+                    the Scripture. It supposes quite the reverse, namely, that they are sinners all
+                    over, sinners both in heart and life. Were it otherwise God would ‘justify the
+                    godly’, and their own works would be ‘counted to them for righteousness’.<note place="foot" xml:id="ftn40" n="40">
+                        <p rend="footnote text">Cf. Rom.
+                        4:5.</p>
+                    </note> And I cannot but fear that a supposition of our being
+                    justified by works is at the root of all these objections. For whoever cordially
+                    believes that God <hi rend="italic">imputes</hi>
+                    <note place="foot" xml:id="ftn41" n="41">
+                        <p rend="footnote text">Note this appeal to the
+                            Puritan insistence on the imputation of Christ’s righteousness as the
+                            crucial act in man’s justification and Wesley’s correlation of the
+                            witness of the Spirit with this imputation. It amounts to yet another
+                            linkage between the Protestant stress on ‘faith alone’ and a ‘catholic’
+                            doctrine of prevenience (implied in the notion of
+                            <hi rend="italic" xml:space="preserve">direct </hi>witness).</p>
+                    </note>
+                    to all that are justified ‘righteousness without works’,<note place="foot" xml:id="ftn42" n="42">
+                        <p rend="footnote text">Rom. 4:6.</p>
+                    </note> will find
+                    no difficulty in allowing the witness of his Spirit preceding the fruit of
+                    it.</p>
+                <p n="5">5. It is objected, thirdly: ‘One evangelist says, “Your heavenly Father
+                    will give the Holy Spirit to them that ask him.”<note place="foot" xml:id="ftn43" n="43">
+                        <p rend="footnote text">Luke 11:13.</p>
+                    </note> The
+                    other evangelist calls the same thing “good gifts”,<note place="foot" xml:id="ftn44" n="44">
+                        <p rend="footnote text">Matt. 7:11.</p>
+                    </note>
+                    abundantly <pb n="295"/>demonstrating that the Spirit’s way of bearing witness
+                    is by giving good gifts.’ Nay, here is nothing at all about ‘bearing witness’,
+                    either in one text or the other. Therefore till this demonstration is more
+                    abundantly demonstrated, I let it stand as it is.</p>
+                <p n="6">6. It is objected, fourthly: ‘The Scripture says, “The tree is known by its
+                        fruit;”<note place="foot" xml:id="ftn45" n="45">
+                        <p rend="footnote text">Matt. 12:33.</p>
+                    </note> “Prove all things;”<note place="foot" xml:id="ftn46" n="46">
+                        <p rend="footnote text">1 Thess. 5:21.</p>
+                    </note> “Try
+                    the spirits;”<note place="foot" xml:id="ftn47" n="47">
+                        <p rend="footnote text">1
+                            John 4:1.</p>
+                    </note> “Examine yourselves.”’<note place="foot" xml:id="ftn48" n="48">
+                        <p rend="footnote text">2 Cor. 13:5.</p>
+                    </note> Most
+                    true: therefore let every man who believes he ‘hath the witness in himself’ <hi rend="italic">try</hi> whether it be of God. If the fruit follow, it is;
+                    otherwise, it is not. For certainly ‘the tree is known by its fruit.’ Hereby
+                        w<hi rend="italic">e prove</hi> if it be of God. ‘But the direct witness is
+                    never referred to in the Book of God.’ Not as standing alone, not as a single
+                    witness, but as connected with the other; as giving a <hi rend="italic">joint
+                        testimony</hi>, testifying <hi rend="italic">with our spirit</hi> that we
+                    are children of God. And who is able to prove that it is not
+                    <hi rend="italic" xml:space="preserve">thus </hi>referred to in this very
+                    Scripture: ‘Examine yourselves whether ye be in the faith; prove your own
+                    selves. Know ye not your own selves that Jesus Christ is in you?’<note place="foot" xml:id="ftn49" n="49">
+                        <p rend="footnote text">
+                            <hi rend="italic">Ibid.</hi>
+                        </p>
+                    </note> It is by no means clear that they did not
+                    know this by a <hi rend="italic">direct</hi> as well as a <hi rend="italic">remote</hi> witness. How is it proved that they did not know it, first, by
+                    inward consciousness, and then by love, joy, and peace?</p>
+                <p n="7">7. ‘But the testimony arising from the internal and external change is
+                    constantly referred to in the Bible.’ It is so. And we constantly refer thereto
+                    to confirm the testimony of the Spirit.</p>
+                <p><!--Decide if and how to number subsequent paragraphs unnumbered by Wesley.-->‘Nay,
+                    all the marks <hi rend="italic">you</hi> have given whereby to distinguish the
+                    operations of God’s Spirit from delusion refer to the change wrought in us and
+                    upon us.’ This likewise is undoubtedly true.</p>
+                <p n="8">8. It is objected, fifthly, that ‘the direct witness of the Spirit does not
+                    secure us from the greatest delusions. And is that a witness fit to be trusted
+                    whose testimony cannot be depended on, that is forced to fly to something else
+                    to prove what it asserts?’ I answer: to secure us from all delusion, God gives
+                    us two witnesses that we are his children. And this they testify conjointly.
+                    Therefore ‘what God hath joined together, let not man put asunder.’<note place="foot" xml:id="ftn50" n="50">
+                        <p rend="footnote text">Matt 19:6; Mark
+                            10:9.</p>
+                    </note> And while they are joined we cannot be deluded: their
+                    testimony can be depended on. They are fit to be trusted in the highest degree,
+                    and need nothing else to prove what they assert.</p>
+                <p><!--Decide if and how to number subsequent paragraphs unnumbered by Wesley.-->‘Nay,
+                    the direct witness only asserts, but does not prove anything.’ By two witnesses
+                    shall every word be established.<note place="foot" xml:id="ftn51" n="51">
+                        <p rend="footnote text">See Matt. 18:16.</p>
+                    </note> And <pb n="296"/>when
+                    the Spirit ‘witnesses with our spirit’, as God designs it to do, then it fully
+                    proves that we are children of God.</p>
+                <p n="9">9. It is objected, sixthly: ‘You own the change wrought is a sufficient
+                    testimony, unless in the case of severe trials, such as that of our Saviour upon
+                    the cross. But none of us can be tried in that manner.’ But you or I may be
+                    tried in such a manner, and so may any other child of God, that it will be
+                    impossible for us to keep our filial confidence in God without the direct
+                    witness of his Spirit.</p>
+                <p n="10">10. It is objected, lastly, ‘The greatest contenders for it are some of
+                    the proudest and most uncharitable of men.’ Perhaps some of the <hi rend="italic">hottest</hi> contenders for it are both proud and
+                    uncharitable. But many of the <hi rend="italic">firmest</hi> contenders for it
+                    are eminently meek and lowly in heart,<note place="foot" xml:id="ftn52" n="52">
+                        <p rend="footnote text">Matt. 11:29.</p>
+                    </note> and, indeed, in all
+                    other respects also,</p>
+                <lg>
+                    <l>True followers of their lamb-like Lord.<note place="foot" xml:id="ftn53" n="53">
+                            <p rend="footnote text">Hymn 146, st. 1, l. 4,
+                                in<hi rend="italic" xml:space="preserve"> Hymns on the Lord’s Supper</hi>
+                                (1745), p. 139, beginning, ‘Happy the saints of former days’. For
+                                another quotation from this hymn see No. 61, ‘The Mystery of
+                                Iniquity’, §29.</p>
+                        </note>
+                    </l>
+                </lg>
+                <p>The preceding objections are the most considerable that I have heard, and I
+                    believe contain the strength of the cause. Yet I apprehend whoever calmly and
+                    impartially considers those objections and the answers together, will easily see
+                    that they do not destroy, no, nor weaken the evidence of that great truth, that
+                    the Spirit of God does <hi rend="italic">directly</hi> as well as <hi rend="italic">indirectly</hi> testify that we are children of God.</p>
+            </div>
+            <div type="section" n="5">
+                <p n="1">V. 1. The sum of all is this: the testimony of the Spirit is an inward
+                    impression on the souls of believers, whereby the Spirit of God directly
+                    testifies to their spirit that they are children of God. And it is not
+                    questioned whether there is a testimony of the Spirit, but whether there is any
+                        <hi rend="italic">direct testimony</hi>, whether there is any other than
+                    that which arises from a consciousness of the fruit of the Spirit We believe
+                    there is: because this is the plain, natural meaning of the text, illustrated
+                    both by the preceding words and by the parallel passage in the Epistle to the
+                    Galatians; because, in the nature of the thing, the testimony must precede the
+                    fruit which springs from it, and because this plain meaning of the <pb n="297"/>Word of God is confirmed by the experience of innumerable children of God;
+                    yea, and by the experience of all who are convinced of sin, who can never rest
+                    till they have a direct witness; and even of the children of the world who, not
+                    having the witness in themselves, one and all declare none can <hi rend="italic">know</hi> his sins forgiven.</p>
+                <p n="2">2. And whereas it is objected that experience is not sufficient to prove a
+                    doctrine unsupported by Scripture; that madmen and enthusiasts of every kind
+                    have imagined such a witness; that the design of that witness is to prove our
+                    profession genuine, which design it does not answer; that the Scripture says,
+                    ‘The tree is known by its fruit,’<note place="foot" xml:id="ftn54" n="54">
+                        <p rend="footnote text">Matt 12:33.</p>
+                    </note> ‘Examine yourselves: …prove
+                    your own selves,’<note place="foot" xml:id="ftn55" n="55">
+                        <p rend="footnote text">2 Cor. 13:5.</p>
+                    </note> and meantime the direct
+                    witness is never referred to in all the Book of God; that it does not secure us
+                    from the greatest delusions; and, lastly, that the change wrought in us is a
+                    sufficient testimony, unless in such trials as Ghrist alone suffered—we answer,
+                    (1). Experience is sufficient to <hi rend="italic">confirm</hi> a doctrine which
+                    is grounded on Scripture. (2). Though many fancy they experience what they do
+                    not, this is no prejudice to real experience. (3). The design of that witness is
+                    to assure us we are children of God; and this design it does answer. (4). The
+                    true witness of the Spirit is known by its fruit—love, peace, joy—not indeed
+                    preceding, but following it (5). It cannot be proved that the direct as well as
+                    the indirect witness is not referred to in that very text, ‘Know ye not your own
+                    selves…that Jesus Christ is in you?’<note place="foot" xml:id="ftn56" n="56">
+                        <p rend="footnote text">
+                            <hi rend="italic">Ibid.</hi>
+                        </p>
+                    </note> (6). The
+                    Spirit of God, ‘witnessing with our spirit’, does secure us from all delusion.
+                    And, lastly, we are all liable to trials wherein the testimony of our own spirit
+                    is not sufficient, wherein nothing less than the direct testimony of God’s
+                    Spirit can assure us we are his children.</p>
+                <p n="3">3. Two inferences may be drawn from the whole. The first: let none ever
+                    presume to rest in any supposed testimony of the Spirit which is separate from
+                    the fruit of it. If the Spirit of God does really testify that we are children
+                    of God, the immediate consequence will be the fruit of the Spirit, even ‘love,
+                    joy, peace, long-suffering, gentleness, goodness, fidelity, meekness,
+                        temperance’.<note place="foot" xml:id="ftn57" n="57">
+                        <p rend="footnote text">Gal. 5:22-23 (<hi rend="italic">Notes</hi>).</p>
+                    </note> And however
+                    this fruit may be clouded for a while during the time of strong temptation, so
+                    that it does not appear to <pb n="298"/>the tempted person while ‘Satan is
+                    sifting him as wheat,’<note place="foot" xml:id="ftn58" n="58">
+                        <p rend="footnote text">Cf. Luke 22:31.</p>
+                    </note> yet the substantial part
+                    of it remains, even under the thickest cloud. It is true, joy in die Holy
+                        Ghost<note place="foot" xml:id="ftn59" n="59">
+                        <p rend="footnote text">Rom.
+                            14:17.</p>
+                    </note> may be withdrawn during the hour of trial. Yea, the
+                    soul may be ‘exceeding sorrowful’<note place="foot" xml:id="ftn60" n="60">
+                        <p rend="footnote text">Matt 26:22, 38.</p>
+                    </note> while ‘the hour and
+                    power of darkness’<note place="foot" xml:id="ftn61" n="61">
+                        <p rend="footnote text">Cf. Luke 22:53.</p>
+                    </note> continues. But even this
+                    is generally restored with increase, and he rejoices ‘with joy unspeakable and
+                    full of glory’.<note place="foot" xml:id="ftn62" n="62">
+                        <p rend="footnote text">1 Pet. 1:8.</p>
+                    </note>
+                </p>
+                <p n="4">4. The second inference is: let none rest in any supposed fruit of the
+                    Spirit without the witness. There may be foretastes of joy, of peace, of
+                    love—and those not delusive, but really from God—long before we have the witness
+                    in ourselves, before the Spirit of God witnesses with our spirits that we have
+                    ‘redemption in the blood of Jesus, even the forgiveness of sins’.<note place="foot" xml:id="ftn63" n="63">
+                        <p rend="footnote text">Cf. Eph. 1:7;
+                            Col. 1:14.</p>
+                    </note> Yea, there may be a degree of long-suffering, of
+                    gentleness, of fidelity, meekness, temperance (not a shadow thereof, but a real
+                    degree, by the preventing grace of God)<note place="foot" xml:id="ftn64" n="64">
+                        <p rend="footnote text">Cf. Nos. 43, <hi rend="italic">The Scripture
+                                Way of Salvation</hi>, I.2; and 85, ‘On Working Out Our Own
+                            Salvation’, II.1, III.3-4.</p>
+                    </note> before we are ‘accepted in the
+                        Beloved’,<note place="foot" xml:id="ftn65" n="65">
+                        <p rend="footnote text">Eph. 1:6.</p>
+                    </note> and consequently before we have a testimony of our
+                    acceptance. But it is by no means advisable to rest here; it is at the peril of
+                    our souls if we do. If we are wise we shall be continually crying to God, until
+                    his Spirit cry in our heart, ‘Abba, Father!’<note place="foot" xml:id="ftn66" n="66">
+                        <p rend="footnote text">Cf. Gal. 4:6.</p>
+                    </note> This is the
+                    privilege of all the children of God, and without this we can never be assured
+                    that we are his children. Without this we cannot retain a steady peace, nor
+                    avoid perplexing doubts and fears. But when we have once received this ‘Spirit
+                    of adoption’,<note place="foot" xml:id="ftn67" n="67">
+                        <p rend="footnote text">Rom. 8:15.</p>
+                    </note> that ‘peace which passes all understanding’, and
+                    which expels all painful doubt and fear, will ‘keep our hearts and minds in
+                    Christ Jesus’.<note place="foot" xml:id="ftn68" n="68">
+                        <p rend="footnote text">Cf. Phil. 4:7.</p>
+                    </note> And when this has brought forth its genuine
+                    fruit, all inward and outward holiness, it is undoubtedly the will of him that
+                    calleth us to give us always what he has once given. So that there is no need
+                    that we should ever more be deprived of either the testimony of God’s Spirit or
+                    the testimony of our own, the consciousness of our walking in all righteousness
+                    and true holiness.<note place="foot" xml:id="ftn69" n="69">
+                        <p rend="footnote text">Eph. 4:24.</p>
+                    </note>
+                </p>
+            </div>
+            <p>
+                <placeName>Newry</placeName>, <date when="1767-04-04">April 4, 1767</date>
+            </p>
+        </body>
+    </text>
+</TEI>

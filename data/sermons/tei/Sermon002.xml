@@ -1,0 +1,1125 @@
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Sermon 2: The Almost Christian</title>
+                <title type="subtitle">A Sermon preached at St. Mary’s, Oxford, before the
+                    University, on <date when="1741-07-11">July 25, 1741</date>
+                </title>
+                <author>Wesley, John</author>
+                <editor role="text">Van Buskirk, Gregory P.</editor>
+                <editor role="digital">Taylor, Michelle M.</editor>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>The Wesley Works Digitzation Project</publisher>
+                <pubPlace>Tampa, FL</pubPlace>
+                <date>2024-02-21</date>
+             <idno type="URI">https://wesleyworks.ecdsdev.org/sermons/Sermon002</idno>                  
+            </publicationStmt>
+            <sourceDesc>
+                <listBibl>
+                    <biblStruct>
+                        <analytic>
+                            <title level="a">Sermon 2: The Almost Christian</title>
+                            <date when="1741-07-25"/>
+                        </analytic>
+                        <monogr>
+                            <title level="j">The Works of John Wesley, Volume I: Sermons I,
+                                1-33</title>
+                            <editor role="volume">Outler, Albert</editor>
+                            <imprint>
+                                <publisher>Abingdon Press</publisher>
+                                <pubPlace>Nashville, TN</pubPlace>
+                                <date when="2015-05-01">1984-05-01</date>
+                                <biblScope unit="volume" n="1"/>
+                                <biblScope unit="page" from="109" to="116"/>
+                                <biblScope unit="page" from="131" to="141"/>
+                            </imprint>
+                        </monogr>
+                        <series>
+                            <title level="s">The Works of John Wesley</title>
+                            <editor role="general">Baker, Frank</editor>
+                        </series>
+                    </biblStruct>
+                </listBibl>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Greg Van Buskirk created Word docs for all of Wesley's sermons using a combination of
+                OCR software and manual proofing. Michelle Taylor converted these docx into XML
+                using Oxygen's DITA automatic transformation scenario, then touched them up
+                manually.</p>
+        </encodingDesc>
+        <standOff>
+            <taxonomy>
+                <keywords>
+                    <term/>
+                </keywords>
+            </taxonomy>
+            <!--Include keywords and terms here eventually.-->
+        </standOff>
+        <revisionDesc/>
+    </teiHeader>
+    <text>
+        <body>
+            <pb n="109"/>
+            <introduction>
+                <p>
+                    <hi rend="italic">An Introductory Comment [to Sermons 1-4]</hi>
+                </p>
+                <p>As we have seen, these first four sermons in this first volume of <hi rend="italic">SOSO</hi> were ‘prefixed’ to the other eight on the advice of
+                    friends, and also as proof of the consistency of Wesley’s new preaching, whether
+                    before the University of Oxford or to the masses in Moorfields. But they also
+                    serve another function, unavowed but crucial: they mark out the successive
+                    stages of Wesley’s alienation from any further career as a reformer within the
+                    university, as he made the radical shift in his commitment to the Revival as his
+                    new vocation.</p>
+                <p>Along with other ordained Oxford M.A.s, the brothers Wesley were subject to
+                    occasional appointment as preachers in the <hi rend="italic">rota</hi> of
+                    university services on Sundays and saints’ days (most of them in the Church of
+                    St. Mary the Virgin, but others in St. Peter’s in the East and certain college
+                        chapels).<note place="foot" xml:id="ftn1" n="1">
+                        <p rend="footnote text">Cf.
+                            Oxford University Statutes, tr. by G. R. M. Ward (1845), Vol. I, ‘The
+                            Laudian Statutes’ (1636), Title XVI, chs. 1-7.</p>
+                    </note> Attendance
+                    upon these services was a stated obligation of ‘all doctors, masters, graduates,
+                    and scholars’, who were enjoined to ‘be present at them from their beginning to
+                    their end…’; no one was ‘permitted to wander abroad to another church, or
+                    churches, under pain of chastisement…’, etc. (ch. 10). Even though these
+                    injunctions were often honoured in the breach, such occasions were still
+                    splendid sounding boards for eloquent preachers with earnest messages.</p>
+                <p>John Wesley’s first ‘university sermon’ had been delivered in St. Mary’s on
+                    November 15, 1730, ‘On Gen. 1:27’ (see No. 141, Vol. IV); a second on July 23,
+                    1732 (‘A Consecration Sermon’, not extant); a third on January 1, 1733 (‘The
+                    Circumcision of the Heart’; see No. 17 below). This last may be reckoned as a
+                    landmark in the development of Wesley’s theology, and must also have made a
+                    favourable general impression, for in the next two and a half years he was
+                    invited to deliver <pb n="110"/>
+                    <hi rend="italic">six</hi> more university
+                    sermons: March 26, 1733 (Easter); April 1, 1733 (Low Sunday); May 13, 1733
+                    (Whitsunday); February 10, 1734; June 11, 1734 (St. Barnabas’s); September 21,
+                    1735 (St. Matthew’s). This is out of all proportion to any typical rotation, and
+                    even if Wesley was serving as substitute for other appointed preachers, that
+                    would have required the approval of the Vice-Chancellor (cf. <hi rend="italic">Statutes</hi>, XVI, ch. 6). The least that this can mean is that John
+                    Wesley was more widely appreciated at Oxford as a preacher than the popular
+                    stereotypes have suggested.</p>
+                <p>This fact sheds some light on the arrangement by the university officials for
+                    Wesley to preach again in Oxford soon after his return from Georgia (probably in
+                    expectation of his resumption of his duties there); the new appointment was set
+                    for the Festival of St. Barnabas, June 11, 1738. By that time, of course, Wesley
+                    had undergone the radical change of heart and mind described in the <hi rend="italic">Journal</hi> for May 24, about which his Oxford colleagues
+                    would have known nothing.<note place="foot" xml:id="ftn2" n="2">
+                        <p rend="footnote text">Cf. Intro., above, p.4; see also Schmidt, <hi rend="italic">Wesley</hi>, I.141-95, for a careful analysis of the
+                            theological developments involved in this ‘conversion’; JWJ, Feb. 7-May
+                            28, sheds light on Wesley’s mood as he revised his sermon for this
+                            crucial new occasion.</p>
+                    </note> Meanwhile, he had already tested his
+                    ‘new gospel’ (‘salvation by faith alone’) in several churches in and near
+                    London, and his presentation of it had almost invariably stirred up more offence
+                    than conversions.<note place="foot" xml:id="ftn3" n="3">
+                        <p rend="footnote text">See JWJ, Feb. 5 (Milbank, Westminster); Feb. 12 (St. Andrew’s,
+                            Holborn); Feb. 26 (thrice in London, the first, in St. Lawrence Jewry,
+                            being the most blessed ‘because it gave the most offence’); Mar. 6
+                            (after being counselled by Böhler to ‘preach faith <hi rend="italic">till</hi> you have it; and then, <hi rend="italic">because</hi> you
+                            have it, you <hi rend="italic">will</hi> preach faith’); Mar. 17, 26,
+                            and 27; Apr. 2, 25, 26; May 7, 9, 14, and 21 (this last being also the
+                            day of Charles Wesley’s experience of assurance).</p>
+                    </note> In most of
+                    these instances, as he records with a trace of self-righteousness, he had been
+                    thenceforth barred from this pulpit and that. The Aldersgate experience had not
+                    produced a new doctrine, but a new resolution to make the most of his
+                    opportunities to expound the one to which he had already come.</p>
+                <p>He was by now very well aware of the controversial character of his message, and
+                    he could not have expected a sympathetic hearing at Oxford. ‘Salvation by Faith’
+                    was, however, the first public occasion after his ‘Aldersgate’ experience for a
+                    positive evangelical manifesto. It is worth noting that its Moravian substance
+                    is qualified by echoes from the Edwardian <hi rend="italic">Homilies</hi>, as in
+                    the claim that salvation involved a power not to commit sin (<hi rend="italic">posse non peccare</hi>). There is also an obvious Anglican nuance in the
+                    definition of saving faith presented here.</p>
+                <p>When his turn as university preacher came round again (<date when="1741-07-25">July 25, 1741</date>), the Revival was in full swing and Wesley had found
+                    in its <pb n="111"/>leadership an alternative career. He had not only begun to
+                    shift his loyalties from Oxford to his own Societies; he had also become one of
+                    Oxford’s harsher critics.<note place="foot" xml:id="ftn4" n="4">
+                        <p rend="footnote text">This may be seen in the Latin and English versions
+                            of a sermon on Isa. 1:21 which he had first prepared in 1739, probably
+                            in connection with his exercises for the B.D. degree which, as Fellow of
+                            Lincoln College, he was expected to take in due course (see below, Nos.
+                            150, 151).</p>
+                    </note> John Gambold had already advised him that he would
+                    face a hostile audience, but Wesley was in no mood to mollify them.<note place="foot" xml:id="ftn5" n="5">
+                        <p rend="footnote text">See JWJ, June 18,
+                            1741: ‘All here [Gambold had said of the Oxford community] are so
+                            prejudiced that they will mind nothing you say.’ Wesley’s reaction: ‘I
+                            know that. However, I am to deliver my own soul, whether they will hear
+                            or whether they will forbear’ (one of Wesley’s standard formulae of
+                            alienation). A fortnight later even Wesley and Gambold had come to a
+                            parting of their ways (cf. JWJ, July 2). Earlier, he had finally got
+                            round to reading ‘that celebrated book, Martin Luther’s <hi rend="italic">Comment on the Epistle to the Galatians</hi>’; his
+                            negative reaction to it was intemperate (see JWJ, June 15).</p>
+                    </note>
+                    Indeed, the whole <hi rend="italic">Journal</hi> record for June and July
+                    reflects a mounting tension, as if Wesley was aware of the crisis. On June 28 he
+                    preached ‘at Charles Square [London], to the largest congregation that, I
+                    believe, was ever seen there, on “Almost thou persuadest me to be a Christian”
+                    [cf. Acts 26:28]’. This was the sermon that, revised and with its new
+                    ‘application’ explicitly aimed at Oxford, he delivered on the festival day of
+                    St. James the Apostle, July 25.</p>
+                <p>Its theme—the radical difference between nominal and real Christianity—was
+                    already a familiar one in Puritan preaching;<note place="foot" xml:id="ftn6" n="6">
+                        <p rend="footnote text">Cf. below, No. 2, <hi rend="italic">The Almost
+                                Christian</hi>, proem and n.</p>
+                    </note> it was, however, already
+                    conventional to ignore the text’s plain reference to Agrippa’s being almost
+                    persuaded to become a Christian rather than to his already being a nominal one.
+                    Wesley draws out the distinctions between the two stages of Christian experience
+                    (‘almost’ and ‘altogether’). Part I paints a vivid picture of the high-minded
+                    hypocrite (the ‘almost Christian’) and concludes with Wesley’s confession ‘that
+                    this had been his own state in all his days at Oxford’ (I.13). Part II
+                    delineates the ‘altogether Christian’ according to his new conceptions, and
+                    openly expresses doubt that there are many such in Oxford even now (II.7-9).
+                    There are no records of this sermon’s reception on this occasion, but it would
+                    not have been lost on his Methodist readers that their leader had bearded the
+                    Anglican establishment in one of its citadels and had survived.</p>
+                <p>In the following year Charles Wesley came up for an appointment as preacher in
+                    St. Mary’s on <date when="1742-04-04">April 4, 1742</date>. His evangelical
+                    conversion had preceded his brother’s, either on <date when="1738-05-03">May 3,
+                        1738</date> (when ‘it pleased God to open his <hi rend="italic">eyes</hi> so
+                    that he saw clearly what was the nature of [saving] <pb n="112"/>faith…’) or on
+                        <date when="1738-05-19">May 19</date> (when he ‘had found rest to his
+                        soul’).<note place="foot" xml:id="ftn7" n="7">
+                        <p rend="footnote text">Cf.
+                            both CWJ and JWJ for these dates and experiences.</p>
+                    </note> In any
+                    case, Charles was more exuberant in temperament and rhetoric than his elder
+                        brother.<note place="foot" xml:id="ftn8" n="8">
+                        <p rend="footnote text">See
+                            above, p. 2, n. 6: ‘…in connection I beat you; but in strong, pointed
+                            sentences you beat me.’</p>
+                    </note> He had already preached a sermon on
+                    justification ‘before the university [July 1739] with great boldness…’.<note place="foot" xml:id="ftn9" n="9">
+                        <p rend="footnote text">CWJ, Sunday, July
+                            1, 1739; this is followed (on Monday) by a note that the Vice-Chancellor
+                            and ‘all were against [that] sermon as liable to be misunderstood’. Had
+                            this been Charles’s reinforcing sequel to John’s <hi rend="italic">Salvation by Faith</hi>?</p>
+                    </note> His bidding prayer<note place="foot" xml:id="ftn10" n="10">
+                        <p rend="footnote text">In the
+                            unpublished MS of a sermon on Rom. 3:27-28.</p>
+                    </note> indicates that
+                    this preaching service had been held in Christ Church Cathedral rather than St.
+                    Mary’s. On June 30, 1740, he reports having spent a week in Oxford ‘preaching
+                    repentance’ but also in discovering that ‘learned Gallio cared for none of these
+                        things’.<note place="foot" xml:id="ftn11" n="11">
+                        <p rend="footnote text">See
+                            Acts 18:17 for this analogy between a Roman proconsul’s and Oxford’s
+                            indifference.</p>
+                    </note> Now, he was scheduled to preach in St. Mary’s
+                    itself—for the first and last time.</p>
+                <p>Charles’s message, with a barrage of invidious questions for its climax, fell
+                    largely on deaf ears; this is reported by a visitor who was in the audience:
+                    Thomas Salmon, a popular historian.<note place="foot" xml:id="ftn12" n="12">
+                        <p rend="footnote text">‘The times of the day the University go to this
+                            church are ten in the morning and two in the afternoon, on Sundays and
+                            holidays, the sermon usually lasting about half an hour. But when I
+                            happened to be at Oxford, in 1742, Mr. Wesley, the Methodist, of Christ
+                            Church, entertained his audience two hours, having insulted and abused
+                            all degrees from the highest to the lowest, was in a manner hissed out
+                            of the pulpit by the lads;’ Thomas Salmon, <hi rend="italic">A
+                                Foreigner’s Companion through the Universities of Cambridge and
+                                Oxford</hi> (1748), p. 25, and quoted in CWJ, Apr. 15,
+                        1750.</p>
+                    </note> Charles Wesley’s denial of Salmon’s report appears in his
+                        <hi rend="italic">Journal</hi> for April 15, 1750, and is emphatic;<note place="foot" xml:id="ftn13" n="13">
+                        <p rend="footnote text">‘And it would
+                            have been high time for them to do so, if the historian [Salmon] said
+                            true. But, unfortunately for him, I measured the time by my watch and it
+                            was within the hour; I abused neither high nor low, as my sermon in
+                            print will prove; neither was I hissed out of the pulpit or treated with
+                            the least incivility, either by young or old….’</p>
+                    </note> he may have
+                    been right about the time, since the sermon as printed can be read aloud in
+                    thirty minutes. On the other hand, Charles’s accusations must surely have
+                    aroused resentment in his auditory, and Salmon would have been a competent judge
+                    of that. In any case this sermon would have persuaded any Methodist reader of
+                    Charles’s wholehearted identification with his brother’s cause and theirs. <hi rend="italic">‘Awake, Thou That Sleepest’</hi> is then a lively evangelical
+                    statement, a personal identification with the Revival and a valedictory to
+                    Oxford.</p>
+                <p>By August 1744 the Revival was gaining momentum, the network (‘connexion’) of the
+                    Methodist Societies had extended over into Wales <pb n="113"/>and had come under
+                    serious persecution by English mobs, the first ‘conference’ had just been held
+                    (June 25-29), and John Wesley had found his true mission in life. Even so, his
+                    turn as university preacher came up yet again for August 24 (another festival,
+                    this one for St. Bartholomew). This, of course, was an anniversary of the
+                    notorious Massacre of Paris (in 1572) and, again, of the Great Ejectment of the
+                    Nonconformists in England in 1662, in which both of Wesley’s grandfathers had
+                    suffered. Benjamin Kennicott’s explanation of Wesley’s appointment was that ‘as
+                    no clergyman [could] avoid his turn, so the university can refuse none;
+                    otherwise Mr. Wesley would not have preached.’<note place="foot" xml:id="ftn14" n="14">
+                        <p rend="footnote text">At this time, Kennicott was an undergraduate
+                            at Wadham College, but he was destined to set Old Testament studies in
+                            England upon a new level with his great <hi rend="italic">Vetus
+                                Testamentum cum Variis Lectionibus</hi> (Vol. 1, 1776; Vol. 2,
+                            1780). His account of Wesley’s sermon appeared in <hi rend="italic">WMM</hi>, 1866, 47-48.</p>
+                    </note> Actually, though, that rule was
+                    flexible; there was ample precedent for substitutions. One must wonder,
+                    therefore, how the appointment came about. Was it a gesture of academic freedom?
+                    Did Wesley have a stronger base in Oxford than would appear from the record?
+                    There is no indication that he had claimed his turn as by right, but it would
+                    never have crossed his mind to avoid it. Thus, the stage was set for a
+                    confrontation—and another valedictory.</p>
+                <p>Parts I-III of <hi rend="italic">Scriptural Christianity</hi> constitute a
+                    positive account of Wesley’s conception of the ‘order of salvation’ (Part I), an
+                    interesting missiological perspective (Part II), and an early statement of
+                    Wesley’s eschatological ideas (Part III)—the sum of these parts is evangelical
+                    and Anglican. The mood changes in Part IV where he comes to his ‘plain and
+                    practical application’. Here the judgment is passed, with scant charity, that
+                    Oxford’s hypocrisies are an intolerable offence to God and a general hindrance
+                    to the Christian mission. Kennicott’s uncharitable suspicion was that this final
+                    salvo ‘was what [Wesley] had been preparing for all along…’:</p>
+                <quote>[In the conclusion] he fired his address with so much zeal and unbounded
+                    satire as quite spoiled what otherwise might have been turned to great
+                    advantage…. I liked some of his freedom: such as calling the generality of young
+                    townsmen ‘a generation of triflers’…. But considering how many shining lights
+                    are here that are the glory of the Christian cause, his sacred censure was much
+                    too flaming and strong and his charity much too weak…. Having summed up the
+                    measure of our iniquities, he concluded with a lifted up eye in this most solemn
+                    form, ‘It is time for <hi rend="italic">thee</hi>, Lord, to lay to <hi rend="italic">thine</hi> hand’—words full of such presumption and seeming
+                    imprecation that they gave an universal shock…. Had these things been omitted
+                    and his censures moderated, I think his discourse, as to style and delivery,
+                    would have been uncommonly pleasing to others as well as to myself. He is
+                    allowed to be a man of great parts, and that by the excellent Dean <pb n="114"/>of Christ Church;<note place="foot" xml:id="ftn15" n="15">
+                        <p rend="footnote text">John Conybeare, who succeeded Joseph Butler as
+                            Bishop of Bristol, and author of <hi rend="italic">Defence of Revealed
+                                Religion…</hi> (1732), one of the eighteenth century’s more famous
+                            replies to Tindal and other deists.</p>
+                    </note> for the day he preached
+                    the dean generously said of him, ‘John Wesley will always be thought a man of
+                    sound sense, though an enthusiast!’ However, the Vice-Chancellor<note place="foot" xml:id="ftn16" n="16">
+                        <p rend="footnote text">Walter Hodges,
+                            Provost of Oriel.</p>
+                    </note> sent for the sermon, and I hear that the
+                    heads of college intend to shew their resentment.</quote>
+                <p>Another eyewitness report of the same event was recorded by William Blackstone,
+                    already a Fellow of All Souls and on his way to the fame he would earn as author
+                    of his <hi rend="italic">Commentaries on the Laws of England</hi> (1765-69). In
+                    a letter to a family friend (Aug. 28) the young Blackstone reports on Wesley’s
+                    sermon, which seems to have become the talk of the town:</p>
+                <quote>We were last Friday [Aug. 24] entertained at St. Mary’s by a curious sermon
+                    from Wesley the Methodist. Among other equally modest particulars, he informed
+                    us, 1st, that there was not one Christian among all the Heads of Houses; 2ndly,
+                    that pride, gluttony, avarice, luxury, sensuality and drunkenness were general
+                    characteristics of all Fellows of Colleges, who were useless to a proverbial
+                    uselessness. Lastly, that the younger part of the University were a generation
+                    of triflers, all of them perjured and none of them of any religion at all. His
+                    notes were demanded by the Vice-Chancellor, but on mature deliberation it has
+                    been thought proper to punish him by a mortifying neglect….<note place="foot" xml:id="ftn17" n="17">
+                        <p rend="footnote text">Cf. the facsimile of the
+                            letter in John Fletcher Hurst, <hi rend="italic">The History of
+                                Methodism</hi>, II.604-5.</p>
+                    </note>
+                </quote>
+                <p>That ‘mortifying neglect’ began at once. Charles Wesley records that ‘we [John
+                    Wesley, Charles Wesley, Messrs. Piers and Meriton] walked back in form, the
+                    little band of us four; for of the rest durst none join himself to us.’<note place="foot" xml:id="ftn18" n="18">
+                        <p rend="footnote text">Cf. CWJ, Aug. 24,
+                            1744.</p>
+                    </note>
+                </p>
+                <p>Methodists, then and later, could see no proper warrant for anyone to have taken
+                    offence at such a sermon; after all, Wesley had simply preached the gospel and
+                    applied it ‘close and home’. Thomas Jackson’s later comment on it is
+                    typical:</p>
+                <quote>
+                    <hi rend="italic">Scriptural Christianity</hi> contains a beautiful and
+                    forcible description of spiritual religion, with the manner by which it is
+                    acquired by individuals and then spreads from one to another until it shall
+                    cover the earth. The concluding application to the heads of colleges and halls,
+                    to the fellows and tutors and to the body of undergraduates, assumes their
+                    general and wide departure from the true Christian character, and [their]
+                    abandonment to formality, worldliness, levity, and sloth. It contains nothing
+                    sarcastic and irritating, nothing that was designed to give unnecessary pain or
+                    offence; but is marked throughout by seriousness, fidelity, and tender
+                        affection.<note place="foot" xml:id="ftn19" n="19">
+                        <p rend="footnote text">
+                            <hi rend="italic">The Life of the Rev. Charles Wesley</hi> (1841),
+                            I.403.</p>
+                    </note>
+                </quote>
+                <p>
+                    <pb n="115"/>John Wesley himself was much more of a realist and also more aware
+                    of his own intention:</p>
+                <quote>I preached, I suppose the last time, at <placeName>St. Mary’s</placeName>. Be
+                    it so. I am now clear of the blood of these men. I have fully delivered my own
+                    soul.</quote>
+                <quote>The Beadle came to me afterwards and told me the Vice-Chancellor had sent him
+                    for my notes. I sent them without delay, not without admiring the wise
+                    providence of God. Perhaps few men of note would have given a sermon of mine the
+                    reading if I had put it into their hands; but by this means it came to be read,
+                    probably more than once, by every man of eminence in the University.<note place="foot" xml:id="ftn20" n="20">
+                        <p rend="footnote text">JWJ, Aug. 24,
+                            1744.</p>
+                    </note>
+                </quote>
+                <p>That he never regretted the affair or its consequences would appear from a
+                    complacent recollection of it in 1781 in ‘A Short History of the People called
+                    Methodists’:</p>
+                <quote>Friday, August 24, St. Bartholomew’s Day, I preached for the last time before
+                    the University of Oxford. I am now clear of the blood of these men. I have fully
+                    delivered my own soul. And I am well pleased that it should be the very day on
+                    which, in the last century,<note place="foot" xml:id="ftn21" n="21">
+                        <p rend="footnote text">
+                            <hi rend="italic">Viz.</hi>, the Great Ejectment in
+                            1662.</p>
+                    </note> near two thousand burning and shining lights were put
+                    out at one stroke. Yet what a wide difference is there between their case and
+                    mine! They were turned out of house and home, and all that they had; whereas I
+                    am only hindered from preaching, without any other loss; and that in a kind of
+                    honourable manner; it being determined that when my next turn to preach came
+                    they would pay another person to preach for me. And so they did twice or thrice,
+                    even to the time that I resigned my fellowship.<note place="foot" xml:id="ftn22" n="22">
+                        <p rend="footnote text">§30. See Vol. 9 of this edn. and <hi rend="italic">Bibliog</hi>, No. 420.</p>
+                    </note>
+                </quote>
+                <p>What would have been most obvious to his Methodist readers was the heroic stature
+                    of their leader who had preached ‘plain truth’ to academic people to their face
+                    and at the cost of rejection by them. What clearer proof could there be of his
+                    fidelity to the gospel under all circumstances and of his total commitment in
+                    his ministry among them? It was no small matter for a tenured don to have
+                    forsaken his privileged status in a class-conscious English society in exchange
+                    for ‘The Foundery’, ‘The New Room’, and a career among the masses. They knew,
+                    all too well, how rudely the Methodists had been treated, to the point of savage
+                    persecution, condoned by magistrates and clergy alike in the years between 1739
+                    and 1746; they could still foresee dangerous days ahead. <hi rend="italic">Scriptural Christianity</hi> as published was an evangelical proclamation;
+                    it was also an act of defiance.</p>
+                <p>These ‘prefixed’ sermons, therefore, serve a particular junction in <hi rend="italic">SOSO</hi> as a bloc: they proclaim the Wesleyan message in
+                    prophetic terms, and they signify Wesley’s transference of his allegiance from
+                    the <pb n="116"/>Academy to his new vocation as a preacher of ‘plain truth for
+                    plain people’. Together they dispel any impression of inconsistency. His message
+                    in St. Mary’s had been the same as it was now in Moorfields. Thus, these sermons
+                    could serve as a multifaceted introductory quartet to the larger endeavour of
+                        <hi rend="italic">Sermons on Several Occasions</hi>.</p>
+                <p>The edited text of <hi rend="italic">Salvation by Faith</hi> is based upon the
+                    first edition of 1738. For a stemma illustrating its publishing history through
+                    its thirty-one editions in Wesley’s lifetime, together with substantive variant
+                    readings, see Vol. IV, Appendix. See also <hi rend="italic">Bibliog</hi>, No.
+                    10.</p>
+                <p>The text for <hi rend="italic">The Almost Christian</hi> is based upon its first
+                    edition, 1741. For a stemma and table of variant readings through the
+                    twenty-eight extant editions during Wesley’s lifetime, see Vol. IV, Appendix.
+                    See also <hi rend="italic">Bibliog</hi>, No. 50.</p>
+                <p>The first edition of <hi rend="italic">‘Awake, Thou That Sleepest’</hi> followed
+                    here, was published shortly after the sermon itself was preached in 1742. For a
+                    stemma and variant readings from the fifty-two extant editions in Charles
+                    Wesley’s lifetime, see Vol. IV, Appendix. See also <hi rend="italic">Bibliog</hi>, No. 59.</p>
+                <p>
+                    <hi rend="italic">Scriptural Christianity</hi> was also published shortly after
+                    its delivery in 1744 and ran through at least fifteen editions in Wesley’s
+                    lifetime. For a stemma of these editions and a list of variant readings, see
+                    Vol. IV, Appendix. See also <hi rend="italic">Bibliog</hi>, No. 92.</p>
+            </introduction>
+            <pb n="131"/>
+            <head>The Almost Christian</head>
+            <head type="subhead">Sermon preached at St. Mary’s, Oxford,<lb/>before the
+                University,<lb/>on July 25, 1741<note place="foot" xml:id="ftn23" n="1">
+                    <p rend="footnote text">The half-title in the first edition of <hi rend="italic">SOSO</hi>, Vol. I (1746), and a footnote in <hi rend="italic">Works</hi> I.15, record the date as June 18, 1738—an
+                        obvious misremembrance, since Wesley was in Germany then; cf.
+                    JWJ.</p>
+                </note>
+            </head>
+            <epigraph>
+                <p>Acts 26:28</p>
+                <p>
+                    <hi rend="italic">Almost thou persuadest me to be a Christian.</hi>
+                </p>
+            </epigraph>
+            <div type="introduction">
+                <!--Consider renaming this attribute value; look at Guidelines
+                for ideas.-->
+                <p>And many there are who go thus far: ever since the Christian religion was in the
+                    world there have been many in every age and nation who were ‘almost persuaded to
+                    be Christians’. But seeing it avails nothing before God to go <hi rend="italic">only thus far</hi>, it highly imports us to consider,</p>
+                <p>First, what is implied in being <hi rend="italic">almost</hi>,</p>
+                <p>Secondly, what in being <hi rend="italic">altogether</hi> a Christian.<note place="foot" xml:id="ftn1" n="1">
+                        <p rend="footnote text">See ‘Intro. Com.’,
+                            p. 111 above; half-title from <hi rend="italic">SOSO</hi>, I (1746). The
+                            distinction between ‘almost’ and ‘altogether’ Christians was by now a
+                            commonplace. Cf. <hi rend="italic">The Sermons of Mr. Henry Smith,
+                                Gathered into One Volume</hi> (1657), pp.420-23; William Sheppard,
+                                <hi rend="italic">Sincerity and Hypocrisy; or, the Sincere Christian
+                                and Hypocrite in their Lively Colours, Standing One by the
+                                Other</hi> (1658); William Allen, ‘Dedicatory Epistle’, <hi rend="italic">The Glass of Justification</hi>, p. 20, speaks of a
+                            ‘negative Christian’; in 1661 Matthew Mead preached a series of seven
+                            sermons at St. Sepulchre’s, Holborn, on <hi rend="italic">The Almost
+                                Christian Discovered</hi>; John Cardinal Bona, <hi rend="italic">Precepts and Practical Rules for a Truly Christian Life</hi>
+                            (1678), p.2; John Norris has extended references to ‘those who serve God
+                            by halves, … the almost Christians’, in <hi rend="italic">Christian
+                                Prudence</hi> (1710), pp. 16-20, and in <hi rend="italic">Practical
+                                Discourses</hi>, IV (1728), ‘Concerning Practical Atheism’, pp.
+                            100-24; James Knight, <hi rend="italic">Eight Sermons</hi> (1721),
+                            p.274, speaks of ‘lukewarm spirits’; and William Bates, Sermon X, in <hi rend="italic">Sermons</hi>, p.383. Throughout the Wesley corpus one
+                            finds references to ‘the almost Christian’, ‘half-Christians’, ‘the good
+                            sort of men’, ‘saints of the world’ (cf. No. 4, <hi rend="italic">Scriptural Christianity</hi>, II.5 and n.).</p>
+                    </note>
+                </p>
+            </div>
+            <div type="section" n="1">
+                <div type="subsection" n="1">
+                    <p n="1">I. (I). 1. Now in the being ‘almost a Christian’ is implied, first,
+                        heathen honesty<hi rend="bold">.</hi>
+                        <note place="foot" xml:id="ftn2" n="2">
+                            <p rend="footnote text">Wesley here understands ‘honesty’, as his
+                                audience would have, in its classical Latin sense of honour (as in
+                                Plautus, Cicero, Quintilian) denoting that form of self-disciplined
+                                conduct approved of by Aristotle in his <hi rend="italic">Nicomachean Ethics</hi> (I.5; III.8; IV.3), a shared source
+                                which Wesley knew very well.</p>
+                        </note> No one, I suppose, will make
+                        any question of this, especially since by heathen honesty here I mean, not
+                        that which is recommended in the writings of their philosophers only, <pb n="132"/>but such as the common heathens expected of one another, and
+                        many of them actually practised. By the rules of this they were taught that
+                        they ought not to be unjust; not to take away their neighbour’s goods,
+                        either by robbery or theft; not to oppress the poor, neither to use
+                        extortion toward any; not to cheat or overreach either the poor or rich in
+                        whatsoever commerce they had with them; to defraud no man of his right, and
+                        if it were possible to owe no man anything.</p>
+                    <p n="2">2. Again, the common heathens allowed that some regard was to be paid
+                        to truth as well as to justice. And accordingly they not only had him in
+                        abomination who was forsworn, who called God to witness to a lie, but him
+                        also who was known to be a slanderer of his neighbour, who falsely accused
+                        any man. And indeed little better did they esteem wilful liars of any sort,
+                        accounting them the disgrace of humankind, and the pests of society.</p>
+                    <p n="3">3. Yet again, there was a sort of love and assistance which they
+                        expected one from another. They expected whatever assistance anyone could
+                        give another without prejudice to himself. And this they extended, not only
+                        to those little offices of humanity which are performed without any expense
+                        or labour, but likewise to the feeding the hungry if they had food to spare,
+                        the clothing the naked with their own superfluous raiment, and in general
+                        the giving to any that needed such things as they needed not themselves.
+                        Thus far (in the lowest account of it) heathen honesty went, the first thing
+                        implied in the being ‘almost a Christian’.</p>
+                </div>
+                <div>
+                    <div type="subsection" n="2">
+                        <p n="4">(II). 4. A second thing implied in the being ‘almost a Christian’
+                            is the having a form of godliness<hi rend="bold">,</hi>
+                            <note place="foot" xml:id="ftn3" n="3">
+                                <p rend="footnote text">2 Tim. 3:5.
+                                    For references to Wesley’s distinction between the ‘form’ and
+                                    the ‘power’ of godliness, see the <hi rend="italic">General
+                                        Rules</hi> (in <hi rend="italic">The Nature, Design, and
+                                        General Rules of the United Societies</hi>, 1743, <hi rend="italic">Bibliog</hi>, No. 73, Vol. 9 of this edn.),
+                                    §2; Nos. 3, <hi rend="italic">‘Awake, Thou That Sleepest’</hi>,
+                                    III.11; and 150, ‘Hypocrisy in Oxford’, II.2; <hi rend="italic">The Doctrine of Original Sin</hi>, 1757, pp. 229-30; see
+                                    also <hi rend="italic">Notes</hi>, Matt. 13:28.</p>
+                            </note> of
+                            that godliness which is prescribed in the gospel of Christ—the having
+                            the <hi rend="italic">outside</hi> of a real Christian. Accordingly the
+                            ‘almost Christian’ does nothing which the gospel forbids. He taketh not
+                            the name of God in vain<hi rend="bold">,</hi>
+                            <note place="foot" xml:id="ftn4" n="4">
+                                <p rend="footnote text">See Exod.
+                                20:7.</p>
+                            </note> he blesseth and curseth not<hi rend="bold">,</hi>
+                            <note place="foot" xml:id="ftn5" n="5">
+                                <p rend="footnote text">See Rom. 12:14.</p>
+                            </note> he sweareth not
+                            at all, but his communication is ‘Yea, yea,’ ‘nay, nay.’<note place="foot" xml:id="ftn6" n="6">
+                                <p rend="footnote text">Cf. Matt.
+                                    5:34, 37.</p>
+                            </note> He profanes not the day of the Lord, nor
+                            suffers it to be profaned, even by the stranger that is within his
+                                gates.<note place="foot" xml:id="ftn7" n="7">
+                                <p rend="footnote text">See Exod. 20:10.</p>
+                            </note> He not only avoids all actual
+                            adultery, <pb n="133"/>fornication, and uncleanness, but every word or
+                            look that either directly or indirectly tends thereto: nay, and all idle
+                            words, abstaining both from all detraction, backbiting, talebearing,
+                            evil-speaking, and from ‘all foolish talking and jesting’ (εὐτραπελία),
+                            a kind of virtue in the heathen moralist’s account.<note place="foot" xml:id="ftn8" n="8">
+                                <p rend="footnote text">Wesley’s translation of
+                                    εὐτραπελία follows the AV of Eph. 5:4, where εὐτραπελία is
+                                    disparaged. For the ‘heathen moralist’, however, cf. Aristotle,
+                                        <hi rend="italic">Nicomachean Ethics</hi>, II.7 (1108<hi rend="italic">a</hi>), who had indeed reckoned it as a
+                                    virtue: ‘In the matter of “pleasantness” (παιδία) the mean is
+                                    “wit” and the middle way is “wittiness” (εὐτραπελία); excess
+                                    here is buffoonery…and its deficiency is boorishness.’ Wesley
+                                    could presume that his audience understood this discrepancy
+                                    between the κοινή of the New Testament and the classical usage
+                                    of ‘the heathen moralist’. Cf. Irène Simon, <hi rend="italic">Three Restoration Divines</hi>, I. 316.</p>
+                            </note> Briefly,
+                            from all conversation that is not ‘good to the use of edifying’, and
+                            that consequently ‘grieves the Holy Spirit of God, whereby we are sealed
+                            to the day of redemption’.<note place="foot" xml:id="ftn9" n="9">
+                                <p rend="footnote text">Cf. Eph. 4:29-30.</p>
+                            </note>
+                        </p>
+                        <p n="5">5. He abstains from ‘wine wherein is excess’,<note place="foot" xml:id="ftn10" n="10">
+                                <p rend="footnote text">Eph. 5:18.</p>
+                            </note>
+                            from revellings and gluttony. He avoids, as much as in him lies, all
+                            strife and contention, continually endeavouring to live peaceably with
+                            all men.’<note place="foot" xml:id="ftn11" n="11">
+                                <p rend="footnote text">See Rom. 12:18.</p>
+                            </note> And if he suffer
+                            wrong, he avengeth not himself, neither returns evil for evil. He is no
+                            railer, no brawler, no scoffer, either at the faults or infirmities of
+                            his neighbour. He does not willingly wrong, hurt, or grieve any man; but
+                            in all things acts and speaks by that plain rule, ‘Whatsoever thou
+                            wouldst not he should do unto thee, that do not thou to another.’<note place="foot" xml:id="ftn12" n="12">
+                                <p rend="footnote text">This
+                                    particular form of the Golden Rule is ascribed in the Talmud
+                                        (<hi rend="italic">Sabb</hi>. xxxi.1) to Hillel: ‘What is
+                                    hateful to you, do not to your neighbour; that is the whole
+                                    Torah, while the rest is the commentary thereof; go and learn
+                                    it.’ See also Tobit 4:15: ‘And what thou hatest, do to no man.’
+                                    Cf. Nos. 30, ‘Sermon on the Mount, X’, §§22, 24; and 150,
+                                    ‘Hypocrisy in Oxford’, I.10. It is not clear how Wesley had come
+                                    by this form of the ‘Rule’.</p>
+                            </note>
+                        </p>
+                        <p n="6">6. And in doing good he does not confine himself to cheap and easy
+                            offices of kindness, but labours and suffers for the profit of many,
+                            that by all means he may help some. In spite of toil or pain,
+                            ‘whatsoever his hand findeth to do, he doth it with his might,’<note place="foot" xml:id="ftn13" n="13">
+                                <p rend="footnote text">Cf.
+                                    Eccles. 9:10.</p>
+                            </note> whether it be for his friends or for
+                            his enemies, for the evil or for the good. For, being ‘not slothful in’
+                            this or in any ‘business’,<note place="foot" xml:id="ftn14" n="14">
+                                <p rend="footnote text">Rom. 12:11.</p>
+                            </note> ‘as he hath
+                            opportunity he doth good’, all manner of good, ‘to all men’,<note place="foot" xml:id="ftn15" n="15">
+                                <p rend="footnote text">Cf. Gal.
+                                    6:10. Note the similarity here with the second of Wesley’s <hi rend="italic">General Rules</hi>.</p>
+                            </note> and to their
+                            souls as well as their bodies. He reproves the wicked, instructs the
+                            ignorant, confirms the wavering, quickens the good, and comforts the
+                            afflicted. He labours to awaken those that sleep,<note place="foot" xml:id="ftn16" n="16">
+                                <p rend="footnote text">See No. 3, <hi rend="italic">‘Awake, Thou That Steepest’</hi>.</p>
+                            </note>
+                            to lead those whom God hath already awakened to <pb n="134"/>the
+                            fountain opened for sin and for uncleanness, that they may wash therein
+                            and be clean; and to stir up those who are saved through faith to adorn
+                            the gospel of Christ in all things.</p>
+                        <p n="7">7. He that hath the form of godliness uses also the means of grace;
+                            yea, all of them, and at all opportunities. He constantly frequents the
+                            house of God; and that not as the manner of some is, who come into the
+                            presence of the Most High either loaded with gold and costly apparel, or
+                            in all the gaudy vanity of dress, and either by their unseasonable
+                            civilities to each other or the impertinent gaiety of their behaviour
+                            disclaim all pretensions to the form as well as to the power of
+                            godliness. Would to God there were none, even among ourselves, who fall
+                            under the same condemnation: who come into his house, it may be, gazing
+                            about, or with all the signs of the most listless, careless
+                            indifference, though sometimes they may <hi rend="italic">seem</hi> to
+                            use a prayer to God for his blessing on what they are entering upon; who
+                            during that awful service are either asleep or reclined in the most
+                            convenient posture for it; or, as though they supposed God was asleep,
+                            talking with one another, or looking round, as utterly void of
+                                employment.<note place="foot" xml:id="ftn17" n="17">
+                                <p rend="footnote text">An echo of frequent criticisms in the <hi rend="italic">Spectator</hi> and other newspapers of
+                                    indecorous behaviour in churches. E.g., in No. 460, Aug. 18,
+                                    1712, Richard Steele comments on ‘the ceremonies, bows,
+                                    curtsies, whisperings, smiles, winks, nods, with other familiar
+                                    arts of salutation, which take up in our churches so much time
+                                    that might be better employed’; he goes on to speak of gossips
+                                    who could ‘give a particular account how two or three hundred
+                                    people were dressed’ but no inkling of the sermon. Cf. also <hi rend="italic">The Tatler</hi>, No. 140, May 2,
+                                1710.</p>
+                            </note> Neither let these be accused of the form of
+                            godliness. No: he who has even this behaves with seriousness and
+                            attention in every part of that solemn service. More especially when he
+                            approaches the table of the Lord it is not with a light or careless
+                            behaviour, but with an air, gesture, and deportment which speaks nothing
+                            else but ‘God be merciful to me, a sinner!’<note place="foot" xml:id="ftn18" n="18">
+                                <p rend="footnote text">Luke
+                            18:13.</p>
+                            </note>
+                        </p>
+                        <p n="8">8. To this if we add the constant use of family prayer by those who
+                            are masters of families, and the setting times apart for private
+                            addresses to God, with a daily seriousness of behaviour—he who uniformly
+                            practises this outward religion has the form of godliness. There needs
+                            but one thing more in order to his being ‘almost a Christian’, and that
+                            is, sincerity.</p>
+                    </div>
+                    <div type="subsection" n="3">
+                        <p n="9">(III).9. By sincerity I mean a real, inward principle of religion
+                            from whence these outward actions flow.<note place="foot" xml:id="ftn19" n="19">
+                                <p rend="footnote text">‘Sincerity’ was a shibboleth in
+                                    eighteenth-century religion, especially among the
+                                    latitudinarians. C. F. Allison, <hi rend="italic">The Rise of
+                                        Moralism</hi>, p. 144, believes that Edward Fowler
+                                    (1632-1714), Bishop of Gloucester, was the first to make
+                                    sincerity a prerequisite to justification, in his <hi rend="italic">The Design of Christianity</hi> (1671). Samuel
+                                    Johnson, in the <hi rend="italic">Dictionary</hi> (1755),
+                                    defined sincerity as ‘honesty of intention’ and quotes John
+                                    Rogers (1679-1729), <hi rend="italic">The Necessity of Divine
+                                        Revelation and the Truth of the Christian Religion</hi>
+                                    (1727): ‘Jesus Christ has purchased for us terms of
+                                    reconciliation, who will accept of sincerity instead of
+                                    perfection; but then this sincerity implies our honest
+                                    endeavours to do our utmost.’ Lecky, <hi rend="italic">A History
+                                        of England in the Eighteenth Century</hi>, I.312-13, cites
+                                    Benjamin Hoadly (1676-1761) as affirming that ‘sincerity is the
+                                    one necessary requirement for the Christian profession.’ See
+                                    also William Bates, <hi rend="italic">Whole Works</hi> (1st
+                                    edn., 1700; 1815), II.63; and William Reeves, <hi rend="italic">Fourteen Sermons Preached on Several Occasions</hi> (1729),
+                                    p. 251.</p>
+                                <p rend="footnote text">The early Wesley had
+                                    commented on the prime importance of sincerity in a letter to
+                                    his mother, July 29, 1725, and to Ann Granville, Oct. 3, 1731;
+                                    the late Wesley makes almost the same point in a letter to
+                                    Arthur Keene, Dec. 25, 1787. In between, see the references in
+                                    the <hi rend="italic">Minutes</hi> of 1746 (May 13), and in the
+                                    following sermons: Nos. 6, ‘The Righteousness of Faith’, III.5;
+                                    9, ‘The Spirit of Bondage and of Adoption’, IV.1; 12, ‘The
+                                    Witness of Our Own Spirit’, §11; 18, ‘The Marks of the New
+                                    Birth’, II.2; 19, ‘The Great Privilege of those that are Born of
+                                    God’, II.10; 30, ‘Sermon on the Mount, X’, §9; 137, ‘On
+                                    Corrupting the Word of God’, proem.</p>
+                            </note> And indeed if we
+                            have <pb n="135"/>not this we have not heathen honesty; no, not so much
+                            of it as will answer the demand of a heathen, Epicurean poet. Even this
+                            poor wretch, in his sober intervals, is able to testify:</p>
+                        <lg>
+                            <l>
+                                <hi rend="italic">Oderunt peccare boni virtutis amore;</hi>
+                            </l>
+                            <l>
+                                <hi rend="italic">Oderunt peccare mali formidine poenae.</hi>
+                            </l>
+                        </lg>
+                        <hi rend="endnote_reference">
+                            <note place="end">
+                                <p>Good men avoid sin from the love of virtue; wicked men avoid sin
+                                    from the fear of punishment. [Cf. Horace, <hi rend="italic">Epistles</hi>, I.xvi.52-53: <lg>
+                                        <l>
+                                            <hi rend="italic">Oderunt peccare boni virtutis
+                                                amore;</hi>
+                                        </l>
+                                        <l>
+                                            <hi rend="italic">Tu nihil admittes in te formidine
+                                                poenae.</hi>
+                                        </l>
+                                    </lg>
+                                </p>
+                                <p rend="endnote text">Here Wesley has garbled the second line for
+                                    the sake of the contrast between <hi rend="italic">oderunt
+                                        peccare boni</hi> and <hi rend="italic">oderunt peccare
+                                        mali</hi>. The notion that Horace was an Epicurean was an
+                                    eighteenth-century commonplace, and found support in Horace’s
+                                    jesting reference to himself as an Epicurean in <hi rend="italic">Epistles</hi>, I.iv.16. There are frequent
+                                    quotations from Horace in Wesley’s sermons, usually prefaced by
+                                    epithets as, e.g., ‘the poor heathen’ (Nos. 28, ‘Sermon on the
+                                    Mount, VIII’, §18); ‘your brother heathen’ (56, ‘God’s
+                                    Approbation of His Works’, II.1); ‘the old Roman’ (78,
+                                    ‘Spiritual Idolatry’, I.4); ‘the old heathen poet’ (102, ‘Of
+                                    Former Times’, §8); ‘the heathen poet’ (129, ‘Heavenly Treasure
+                                    in Earthen Vessels’, II.1).]</p>
+                            </note>
+                        </hi>
+                        <p>So that if a man only abstains from doing evil in order to avoid
+                            punishment,</p>
+                        <l>
+                            <hi rend="italic">Non pasces in cruce corvos</hi>
+                            <hi rend="endnote_reference">
+                                <note place="end">
+                                    <p rend="endnote text">Thou shalt not be hanged [Horace, <hi rend="italic">Epistles</hi>, I.xvi.48].</p>
+                                </note>
+                            </hi>
+                        </l>
+                        <p>saith the pagan—there, ‘thou hast thy reward’.<note place="foot" xml:id="ftn20" n="20">
+                                <p rend="footnote text">Horace, <hi rend="italic">Epistles</hi>, I.xvi.47: ‘<hi rend="italic">habes pretium, loris non ureris</hi>’ (‘You have your
+                                    reward; you are not being flogged’). Cf. Matt. 6:2, 5,
+                                16.</p>
+                            </note> But even he will not allow such a harmless man as
+                            this to be so much as a <hi rend="italic">good</hi>
+                            <pb n="136"/>
+                            <hi rend="italic">heathen</hi>. If then any man from the
+                            same motive (viz. to avoid punishment, to avoid the loss of his friends,
+                            or his gain, or his reputation) should not only abstain from doing evil
+                            but also do ever so much good—yea, and use all the means of grace—yet we
+                            could not with any propriety say, this man is even ‘almost a Christian’.
+                            If he has no better principle in his heart he is only a hypocrite
+                            altogether.</p>
+                        <p n="10">10. Sincerity therefore is necessarily implied in the being
+                            ‘almost a Christian’: a real design to serve God, a hearty desire to do
+                            his will. It is necessarily implied that a man have a sincere view of
+                            pleasing God in all things: in all his conversation, in all his actions;
+                            in all he does or leaves undone. This design, if any man be ‘almost a
+                            Christian’, runs through the whole tenor of his life. This is the moving
+                            principle both in his doing good, his abstaining from evil, and his
+                            using the ordinances of God.<note place="foot" xml:id="ftn21" n="21">
+                                <p rend="footnote text">Note that, on this basis, a person obeying
+                                    Wesley’s <hi rend="italic">General Rules</hi> would be no better
+                                    than an ‘almost Christian’.</p>
+                            </note>
+                        </p>
+                        <p n="11">11. But here it will probably be inquired, Is it possible that any
+                            man living should go so far as this and nevertheless be <hi rend="italic">only</hi> ‘almost a Christian’? What more than this
+                            can be implied in the being ‘a Christian altogether’? I answer, first,
+                            that it is possible to go thus 20 far, and yet be but ‘almost a
+                            Christian’, I learn not only from the oracles of God, but also from the
+                            sure testimony of experience.</p>
+                        <p n="12">12. Brethren, ‘great is my boldness toward you in this
+                                behalf.’<note place="foot" xml:id="ftn22" n="22">
+                                <p rend="footnote text">Cf. 2 Cor. 7:4.</p>
+                            </note> And ‘forgive me
+                            this wrong’<note place="foot" xml:id="ftn23" n="23">
+                                <p rend="footnote text">2 Cor. 12:13.</p>
+                            </note> if I declare my
+                            own folly upon the housetop, for yours and the gospel’s sake. Suffer me
+                            then to speak freely of myself, even as of another man. I am content to
+                            be abased so ye may be exalted,<note place="foot" xml:id="ftn24" n="24">
+                                <p rend="footnote text">See 2 Cor. 11:7.</p>
+                            </note> and to be
+                            yet more vile for the glory of my Lord.<note place="foot" xml:id="ftn25" n="25">
+                                <p rend="footnote text">See 2 Sam. 6:21-22. See also JWJ,
+                                    Apr. 2, 1739: ‘I submitted to be more vile, and proclaimed in
+                                    the highways the glad tidings of salvation….’</p>
+                            </note>
+                        </p>
+                        <p n="13">13. I did go thus far for many years, as many of this place can
+                            testify: using diligence to eschew all evil, and to have a conscience
+                            void of offence;<note place="foot" xml:id="ftn26" n="26">
+                                <p rend="footnote text">Acts 24:16.</p>
+                            </note> redeeming the
+                                time,<note place="foot" xml:id="ftn27" n="27">
+                                <p rend="footnote text">Col. 4:5.</p>
+                            </note> buying up every
+                            opportunity of doing all good to all men;<note place="foot" xml:id="ftn28" n="28">
+                                <p rend="footnote text">Gal. 6:10.</p>
+                            </note>
+                            constantly and carefully using all the public and all the private means
+                            of grace; endeavouring after a steady seriousness of behaviour at all
+                            times and in all places. And God is my record, before whom I stand,
+                            doing all this in sincerity; having a real design to serve God, a hearty
+                            desire to do his will in all things, to please him who had <pb n="137"/>called me to ‘fight the good fight’, and to ‘lay hold of eternal
+                                life’.<note place="foot" xml:id="ftn29" n="29">
+                                <p rend="footnote text">1 Tim. 6:12.</p>
+                            </note> Yet my own
+                            conscience beareth me witness in the Holy Ghost that all this time I was
+                            but ‘almost a Christian’.<note place="foot" xml:id="ftn30" n="30">
+                                <p rend="footnote text">Cf. No. 81, ‘In What Sense we are to Leave
+                                    the World‘, §23, where Wesley (in 1784) recalls that it had
+                                    ‘pleased God’ to convert him from an ‘almost’ to an ‘altogether
+                                    Christian’ in 1725. But see also JWJ, Jan. 4, 1739, and his
+                                    letter to brother Charles, June 27, 1766, and cf. Benham, pp.
+                                    34-40. Note also that all editions of Wesley’s <hi rend="italic">Plain Account of Christian Perfection</hi> refer to 1725 as
+                                    the beginning of his conscious quest for perfection. The fact is
+                                    that Wesley wavered from time to time about what it means to
+                                    confess oneself ‘a Christian’.</p>
+                            </note>
+                        </p>
+                    </div>
+                </div>
+                <div type="section" n="2">
+                    <p>II. If it be inquired, ‘What more than this is implied in the being
+                        “altogether a Christian”?’ I answer:</p>
+                    <p n="1">(I). 1. First, the love of God. For thus saith his Word: ‘Thou shalt
+                        love the Lord thy God with all thy heart, and with all thy soul, and with
+                        all thy mind, and with all thy strength.’<note place="foot" xml:id="ftn31" n="31">
+                            <p rend="footnote text">Mark 12:30.</p>
+                        </note> Such a love of God
+                        is this as engrosses the whole heart, as takes up all the affections, as
+                        fills the entire capacity of the soul, and employs the utmost extent of all
+                        its faculties. He that thus loves the Lord his God, his spirit continually
+                        ‘rejoiceth in God his Saviour’.<note place="foot" xml:id="ftn32" n="32">
+                            <p rend="footnote text">Cf. Luke 1:47.</p>
+                        </note> ‘His delight is in
+                        the Lord,’<note place="foot" xml:id="ftn33" n="33">
+                            <p rend="footnote text">Cf. Ps. 1:2.</p>
+                        </note>
+                        <hi rend="italic">his</hi> Lord and his all, to whom ‘in everything he
+                        giveth thanks’.<note place="foot" xml:id="ftn34" n="34">
+                            <p rend="footnote text">Cf. 1 Thess. 5:18.</p>
+                        </note> All <hi rend="italic">his</hi> ‘desire is unto God, and to the remembrance of
+                        his name’.<note place="foot" xml:id="ftn35" n="35">
+                            <p rend="footnote text">Cf. Isa. 26:8.</p>
+                        </note> His heart is ever crying out, ‘Whom have
+                        I in heaven but thee? and there is none upon earth that I desire beside
+                            thee.’<note place="foot" xml:id="ftn36" n="36">
+                            <p rend="footnote text">Ps. 73:25.</p>
+                        </note> Indeed, what can he desire beside God? Not
+                        the world, or the things of the world. For he is ‘crucified to the world,
+                        and the world crucified to him’.<note place="foot" xml:id="ftn37" n="37">
+                            <p rend="footnote text">Cf. Gal. 6:14.</p>
+                        </note> He is crucified to
+                        the desire of the flesh, the desire of the eye, and the pride of life.<note place="foot" xml:id="ftn38" n="38">
+                            <p rend="footnote text">I.e., to all
+                                    <hi rend="italic">sin</hi> (see 1 John 2:16), since Wesley had
+                                long since agreed with Augustine that <hi rend="italic">autem tria
+                                    genera vitiorium…OMNIA peccata concludunt</hi> (‘indeed, <hi rend="italic">all</hi> sins may be included within these three
+                                classes of vice’); cf. <hi rend="italic">Enarratio in Psalmum</hi>,
+                                VIII.13, in Migne, <hi rend="italic">PL</hi>, Vol. 36, col. 115. He
+                                would reiterate this tirelessly; see No. 7, ‘The Way to the
+                                Kingdom’, II.2 and n.</p>
+                        </note> Yea, he is dead to pride of every
+                        kind: for love ‘is not puffed up’,<note place="foot" xml:id="ftn39" n="39">
+                            <p rend="footnote text">1 Cor. 13:4.</p>
+                        </note> but he that
+                        dwelling in love ‘dwelleth in God, and God in him’, is less than nothing in
+                        his own eyes.</p>
+                    <p n="2">(II). 2. The second thing implied in the being ‘altogether a Christian’
+                        is the love of our neighbour. For thus said our Lord in the following words:
+                        ‘Thou shalt love thy neighbour as thyself.’<note place="foot" xml:id="ftn40" n="40">
+                            <p rend="footnote text">Matt. 22:39, etc.</p>
+                        </note> If any man
+                        ask, ‘Who is my neighbour?’<note place="foot" xml:id="ftn41" n="41">
+                            <p rend="footnote text">Luke 10:29.</p>
+                        </note> we reply, ‘Every man in
+                            <pb n="138"/>the world; every child of his who is “the Father of the
+                        spirits of all flesh”.’<note place="foot" xml:id="ftn42" n="42">
+                            <p rend="footnote text">Cf. Heb. 12:9; also No. 7, ‘The Way to the
+                                Kingdom’, I.8 and n.</p>
+                        </note> Nor may we in any wise except our
+                        enemies, or the enemies of God and their own souls. But every Christian
+                        loveth these also as himself; yea, ‘as Christ loved us’.<note place="foot" xml:id="ftn43" n="43">
+                            <p rend="footnote text">Cf. Eph. 5:2.</p>
+                        </note>
+                        He that would more fully understand what manner of love this is may consider
+                        St. Paul’s description of it. It is ‘long-suffering and kind. It envieth
+                        not. It is not rash or hasty in judging. It is not puffed up,’<note place="foot" xml:id="ftn44" n="44">
+                            <p rend="footnote text">Cf. 1 Cor.
+                                13:4.</p>
+                        </note> but maketh him that loves, the least, the servant
+                        of all. Love ‘doth not behave itself unseemly’,<note place="foot" xml:id="ftn45" n="45">
+                            <p rend="footnote text">Cf. 1 Cor.
+                            13:5.</p>
+                        </note> but ‘becometh all things to all men’.<note place="foot" xml:id="ftn46" n="46">
+                            <p rend="footnote text">Cf. 1 Cor.
+                            9:22.</p>
+                        </note> She ‘seeketh not her own’, but only the good of others,
+                        that they may be saved. Love ‘is not provoked’.<note place="foot" xml:id="ftn47" n="47">
+                            <p rend="footnote text">Cf. 1 Cor.
+                            13:5.</p>
+                        </note> It casteth out wrath, which he who hath is wanting in
+                        love. It ‘thinketh no evil’. It ‘rejoiceth not in iniquity, but rejoiceth in
+                        the truth’. It ‘covereth all things, believeth all things, hopeth all
+                        things, endureth all things’.<note place="foot" xml:id="ftn48" n="48">
+                            <p rend="footnote text">Cf. 1 Cor. 13:5-7.</p>
+                        </note>
+                    </p>
+                </div>
+                <div type="subsection" n="3">
+                    <p n="3">(III). 3. There is yet one thing more that may be separately
+                        considered, though it cannot actually be separate from the preceding, which
+                        is implied in the being ‘altogether a Christian’, and that is the ground of
+                        all, even faith. Very excellent things are spoken of this throughout the
+                        oracles of God. ‘Everyone’, saith the beloved disciple, ‘that believeth, is
+                        born of God.’<note place="foot" xml:id="ftn49" n="49">
+                            <p rend="footnote text">Cf. 1 John 5:1.</p>
+                        </note> ‘To as many as
+                        received him gave he power to become the sons of God, even to them that
+                        believe on his name.’<note place="foot" xml:id="ftn50" n="50">
+                            <p rend="footnote text">Cf. John 1:12.</p>
+                        </note> And, ‘This is the
+                        victory that overcometh the world, even our faith.’<note place="foot" xml:id="ftn51" n="51">
+                            <p rend="footnote text">1 John 5:4.</p>
+                        </note>
+                        Yea, our Lord himself declares, ‘He that believeth in the Son hath
+                        everlasting life;’<note place="foot" xml:id="ftn52" n="52">
+                            <p rend="footnote text">John 3:36.</p>
+                        </note> and ‘cometh not into
+                        condemnation, but is passed from death unto life’.<note place="foot" xml:id="ftn53" n="53">
+                            <p rend="footnote text">John 5:24.</p>
+                        </note>
+                    </p>
+                    <p n="4">4. But here let no man deceive his own soul. It is diligently to be
+                        noted, the ‘faith which bringeth not forth repentance’ and love, and all
+                        good works, is not that ‘right living faith’ which is here spoken of, ‘but a
+                        dead and devilish one…. For even the devils believe that Christ was born of
+                        a virgin, that he wrought all kind of miracles, declaring himself very God;
+                        that for our sakes he suffered a most painful death, to redeem us from death
+                        everlasting; that he rose again the third day; that he ascended into <pb n="139"/>heaven and sitteth at the right hand of the Father, and at the
+                        end of the world shall come again to judge both the quick and the dead.
+                        These articles of our faith the devils believe, and so they believe all that
+                        is written in the Old and New Testament. And yet for all this faith, they be
+                        but devils. They remain still in their 5 damnable estate, lacking the very
+                        true Christian faith.’<hi rend="endnote_reference">
+                            <note place="end">
+                                <p rend="endnote text">Homily on the Salvation of Man [Pt. III, in
+                                    a slight revision of Wesley’s own earlier extract therefrom in
+                                        <hi rend="italic">The Doctrine of Salvation, Faith, and Good
+                                        Works</hi>, §13, for which see Vol. 12 of this
+                                edn.]</p>
+                            </note>
+                        </hi>
+                    </p>
+                    <p n="5">5. ‘The right and true Christian faith is’ (to go on in the words of
+                        our own Church) ‘not only to believe that Holy Scripture and the articles of
+                        our faith are true, but also to have a sure trust and confidence to be saved
+                        from everlasting damnation by Christ’—it is a ‘sure trust and confidence’
+                        which a man hath in God ‘that by the merits of Christ his sins <hi rend="italic">are</hi> forgiven, and he reconciled to the favour of
+                        God’—‘whereof doth follow a loving heart to obey his commandments.’<note place="foot" xml:id="ftn54" n="54">
+                            <p rend="footnote text">Cf. Wesley,
+                                    T<hi rend="italic">he Doctrine of Salvation, Faith, and Good
+                                    Works</hi>, §14; cf. also the Homily on the Salvation of Man,
+                                Pt. III.</p>
+                        </note>
+                    </p>
+                    <p n="6">6. Now whosoever has this faith which ‘purifies the heart’,<note place="foot" xml:id="ftn55" n="55">
+                            <p rend="footnote text">Cf. Acts
+                                15:9; Jas. 4:8.</p>
+                        </note> by the power of God who dwelleth therein,
+                        from pride, anger, desire, ‘from all unrighteousness’,<note place="foot" xml:id="ftn56" n="56">
+                            <p rend="footnote text">1 John 1:9.</p>
+                        </note>
+                        ‘from all filthiness of flesh and spirit’;<note place="foot" xml:id="ftn57" n="57">
+                            <p rend="footnote text">Cf. 2 Cor. 7:1.</p>
+                        </note> which fills it
+                        with love stronger than death both to God and to all mankind—love that doth
+                        the works of God, glorying to spend and to be spent for all men, and that
+                        endureth with joy, not only the reproach of Christ, the being mocked,
+                        despised, and hated of all men, but whatsoever the wisdom of God permits the
+                        malice of men or devils to inflict; whosoever has this faith, thus ‘working
+                        by love’,<note place="foot" xml:id="ftn58" n="58">
+                            <p rend="footnote text">Cf. Gal. 5:6, Wesley’s favourite text for his teachings on faith
+                                and good works (<hi rend="italic">fides caritatem formata</hi>), the
+                                linch-pin by which he joined his double doctrine of ‘faith alone’
+                                and ‘holy living’. Cf. Nos. 8, ‘The First-fruits of the Spirit’,
+                                III.3; 10, ‘The Witness of the Spirit, I‘, I.8; 19, ‘The Great
+                                Privilege of those that are Born of God’, III.1; 25, ‘Sermon on the
+                                Mount, V’, III.9; 35, ‘The Law Established through Faith, I’, II.3;
+                                39, ‘Catholic Spirit’, I.14; 47, ‘Heaviness through Manifold
+                                Temptations’, II.3, IV.5; 62, ‘The End of Christ’s Coming’, III.6;
+                                65, ‘The Duty of Reproving our Neighbour’, III.14; 66, ‘The Signs of
+                                the Times’, II.8; 79, ‘On Dissipation’, §16; 90, ‘An Israelite
+                                Indeed’, II.4, II.11; 91, ‘On Charity’, III.11; 106, ‘On Faith, Heb.
+                                11:6’, II.3; 107, ‘On God‘s Vineyard’, II.8; 109, ‘<hi rend="italic">The Trouble and Rest of Good Men’</hi>, I.3; 114, <hi rend="italic">On the Death of John Fletcher</hi>, I.3; 146, ‘The
+                                One Thing Needful‘, III.3. Wesley records having preached from this
+                                text fifteen times: twice in 1741, once in 1742 and 1747, twice in
+                                1750, once in 1755, four times in 1760, three times in 1761, and
+                                once in 1787.</p>
+                            <p rend="footnote text">Cf. Jeremy Taylor, ‘<hi rend="italic">Fides Formata</hi>; Or, Faith Working by Love’, in
+                                    <hi rend="italic">Works</hi> (1844), II.19-28. For Luther’s
+                                denunciation of the distinction between ‘formed’ and ‘unformed’
+                                faith, see his <hi rend="italic">Commentary on Galatians</hi>, 3:11.
+                                See also W. P. Stephens, <hi rend="italic">The Holy Spirit in the
+                                    Theology of Martin Bucer</hi> (London, Cambridge University
+                                Press, 1970), pp. 51-68, for an analysis of the issues between <hi rend="italic">iustitia simplex</hi>, <hi rend="italic">iustitia
+                                    duplex</hi>, etc.</p>
+                        </note> is not <hi rend="italic">almost</hi> only, but <hi rend="italic">altogether</hi> a
+                        Christian.</p>
+                    <p n="7">
+                        <pb n="140"/>7. But who are the living witnesses of these things? I
+                        beseech you, brethren, as in the presence of that God before whom ‘hell and
+                        destruction are without a covering: how much more the hearts of the children
+                        of men!’<note place="foot" xml:id="ftn59" n="59">
+                            <p rend="footnote text">Cf.
+                                Prov. 15:11.</p>
+                        </note>—that each of you would ask his own heart,
+                        ‘Am I of that number? Do I so far practise justice, mercy, and truth, as
+                        even the rules of heathen honesty require? If so, have I the very <hi rend="italic">outside</hi> of a Christian? The form of godliness? Do I
+                        abstain from evil, from whatsoever is forbidden in the written Word of God?
+                        Do I, whatever good my hand findeth to do, do it with my might?<note place="foot" xml:id="ftn60" n="60">
+                            <p rend="footnote text">Eccles.
+                                9:10.</p>
+                        </note> Do I seriously use all the ordinances of God at all
+                        opportunities? And is all this done with a sincere design and desire to
+                        please God in all things?’</p>
+                    <p n="8">8. Are not many of you conscious that you never came thus far? That you
+                        have not been even ‘almost a Christian’? That you have not come up to the
+                        standard of heathen honesty? At least, not to the form of Christian
+                        godliness? Much less hath God seen sincerity in you, a real design of
+                        pleasing him in all things. You never so much as intended to devote all your
+                        words and works, your business, studies, diversions to his glory. You never
+                        even designed or desired that whatsoever you did should be done ‘in the name
+                        of the Lord Jesus’,<note place="foot" xml:id="ftn61" n="61">
+                            <p rend="footnote text">Col. 3:17.</p>
+                        </note> and as such should be a
+                        ‘spiritual sacrifice, acceptable to God through Christ.’<note place="foot" xml:id="ftn62" n="62">
+                            <p rend="footnote text">Cf. 1 Pet.
+                        2:5.</p>
+                        </note>
+                    </p>
+                    <p n="9">9. But supposing you had, do good designs and good desires make a
+                        Christian? By no means, unless they are brought to good effect. ‘Hell is
+                        paved’, saith one, ‘with good intentions.’<note place="foot" xml:id="ftn63" n="63">
+                            <p rend="footnote text">This proverb was, of course, a
+                                commonplace in Wesley’s time; cf. Richard Whitlock, <hi rend="italic">Ζωοτορία</hi> (1654); George Herbert, <hi rend="italic">Jacula Prudentum</hi> (1651); and John Ray, <hi rend="italic">English Proverbs</hi> (1670); it has a blurred
+                                history. St. Francis de Sales attributes it to St. Bernard of
+                                Clairvaux, in a letter to the Barrone de Chantal (Nov. 21, 1604) and
+                                in another letter to the Mother Superior of the Visitations in Lyons
+                                (Apr. 17, 1616); cf. Elisabeth Stopp, tr., <hi rend="italic">St.
+                                    Francis de Sales; Selected Letters</hi> (London, Faber and
+                                Faber, 1960), Letters 8, 92. The proverb itself has not yet been
+                                located in St. Bernard’s published works. Cf. JWJ, July10, 1736. See
+                                also No. 125, ‘On a Single Eye’, III.5, where Wesley cites St.
+                                Chrysostom as saying that ‘Hell is paved with the skulls of
+                                Christian priests.’</p>
+                        </note> The great question of all, then,
+                        still remains. Is the love of God shed abroad in your heart? Can you cry
+                        out, ‘My God and my all’? Do <pb n="141"/>you desire nothing but him? Are
+                        you happy in God? Is he your glory, your delight, your crown of rejoicing?
+                        And is this commandment written in your heart, ‘that he who loveth God love
+                        his brother also’?<note place="foot" xml:id="ftn64" n="64">
+                            <p rend="footnote text">1 John 4:21.</p>
+                        </note> Do you then love your
+                        neighbour as yourself? Do you love every man, even your enemies, even the
+                        enemies of God, as your own soul? As Christ loved you? Yea, dost thou
+                        believe that Christ loved <hi rend="italic">thee</hi>, and gave himself for
+                        thee? Hast thou faith in his blood? Believest thou the Lamb of God hath
+                        taken away <hi rend="italic">thy</hi> sins,<note place="foot" xml:id="ftn65" n="65">
+                            <p rend="footnote text">See John 1:29.</p>
+                        </note> and cast them
+                        as a stone into the depth of the sea? That he hath blotted out the
+                        handwriting that was against <hi rend="italic">thee</hi>, taking it out of
+                        the way, nailing it to his cross? Hast <hi rend="italic">thou</hi> indeed
+                        redemption through his blood, even the remission of <hi rend="italic">thy</hi> sins?<note place="foot" xml:id="ftn66" n="66">
+                            <p rend="footnote text">See Eph. 1:7; Col. 1:14.</p>
+                        </note> And doth
+                        his Spirit bear witness with <hi rend="italic">thy</hi> spirit, that thou
+                        art a child of God?<note place="foot" xml:id="ftn67" n="67">
+                            <p rend="footnote text">See Rom. 8:16.</p>
+                        </note>
+                    </p>
+                    <p n="10">10. The God and Father of our Lord Jesus Christ, who now standeth in
+                        the midst of us, knoweth that if any man die without this faith and this
+                        love, good it were for him that he had never been born.<note place="foot" xml:id="ftn68" n="68">
+                            <p rend="footnote text">Cf. Mark 14:21.</p>
+                        </note>
+                        Awake, then, thou that sleepest, and call upon thy God: call in the day when
+                        he may be found. Let him not rest till he ‘make his goodness to pass before
+                        thee, till he proclaim unto thee the name of the Lord’<note place="foot" xml:id="ftn69" n="69">
+                            <p rend="footnote text">Cf. Exod.
+                            33:19.</p>
+                        </note>—‘the Lord, the Lord God, merciful and gracious,
+                        long-suffering, and abundant in goodness and truth; keeping mercy for
+                        thousands, forgiving iniquity, and transgression, and sin.’<note place="foot" xml:id="ftn70" n="70">
+                            <p rend="footnote text">Exod.
+                                34:6-7.</p>
+                        </note> Let no man persuade thee by vain words to rest
+                        short of this prize of thy high calling.<note place="foot" xml:id="ftn71" n="71">
+                            <p rend="footnote text">Phil. 3:14.</p>
+                        </note> But cry unto him
+                        day and night who ‘while we were without strength died for the
+                            ungodly’,<note place="foot" xml:id="ftn72" n="72">
+                            <p rend="footnote text">Rom. 5:6.</p>
+                        </note> until thou knowest in whom
+                        thou hast believed, and canst say, ‘My Lord and my God.’<note place="foot" xml:id="ftn73" n="73">
+                            <p rend="footnote text">John 20:28.</p>
+                        </note>
+                        Remember ‘always to pray and not to faint’,<note place="foot" xml:id="ftn74" n="74">
+                            <p rend="footnote text">Luke 18:1.</p>
+                        </note> till thou also
+                        canst lift up thy hand unto heaven and declare to him that liveth for ever
+                        and ever, ‘Lord, thou knowest all things; thou knowest that I love
+                            thee.’<note place="foot" xml:id="ftn75" n="75">
+                            <p rend="footnote text">John 21:17.</p>
+                        </note>
+                    </p>
+                    <p n="11">11. May we all thus experience what it is to be not almost only, but
+                        altogether Christians! Being justified freely by his grace, through the
+                        redemption that is in Jesus, knowing we have peace with God through Jesus
+                        Christ, rejoicing in hope of the glory of God, and having the love of God
+                        shed abroad in our hearts by the Holy Ghost given unto us!<note place="foot" xml:id="ftn76" n="76">
+                            <p rend="footnote text">See Rom. 5:1, 2,
+                            5.</p>
+                        </note>
+                    </p>
+                </div>
+            </div>
+        </body>
+    </text>
+</TEI>

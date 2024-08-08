@@ -1,0 +1,1063 @@
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Sermon 20: The Lord Our Righteousness</title>
+                <author>Wesley, John</author>
+                <editor role="text">Van Buskirk, Gregory P.</editor>
+                <editor role="digital">Taylor, Michelle M.</editor>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>The Wesley Works Digitzation Project</publisher>
+                <pubPlace>Tampa, FL</pubPlace>
+                <date>2024-02-25</date>
+             <idno type="URI">https://wesleyworks.ecdsdev.org/sermons/Sermon020</idno>                  
+            </publicationStmt>
+            <sourceDesc>
+                <listBibl>
+                    <biblStruct>
+                        <analytic>
+                            <title level="a">Sermon 20: The Lord Our Righteousness</title>
+                        </analytic>
+                        <monogr>
+                            <title level="j">The Works of John Wesley, Volume I: Sermons I,
+                                1-33</title>
+                            <editor role="volume">Outler, Albert</editor>
+                            <imprint>
+                                <publisher>Abingdon Press</publisher>
+                                <pubPlace>Nashville, TN</pubPlace>
+                                <date when="2015-05-01">1984-05-01</date>
+                                <biblScope unit="volume" n="1"/>
+                                <biblScope unit="page" from="444" to="465"/>
+                            </imprint>
+                        </monogr>
+                        <series>
+                            <title level="s">The Works of John Wesley</title>
+                            <editor role="general">Baker, Frank</editor>
+                        </series>
+                    </biblStruct>
+                </listBibl>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Greg Van Buskirk created Word docs for all of Wesley's sermons using a combination of
+                OCR software and manual proofing. Michelle Taylor converted these docx into XML
+                using Oxygen's DITA automatic transformation scenario, then touched them up
+                manually.</p>
+        </encodingDesc>
+        <standOff>
+            <taxonomy>
+                <keywords>
+                    <term/>
+                </keywords>
+            </taxonomy>
+            <!--Include keywords and terms here eventually.-->
+        </standOff>
+        <revisionDesc/>
+    </teiHeader>
+    <text>
+        <body>
+            <pb n="444"/>
+            <introduction>
+                <!--Confirm introduction is the element I want to use here, especially given that I
+                    use it as an attribute for Wesley's introductory paragraphs as well.-->
+                <head>
+                    <hi rend="italic">An Introductory Comment</hi>
+                </head>
+                <p>The preceding sermon had been written in 1747 or 1748 and for <hi rend="italic">SOSO</hi>, II (1748); there it had been followed directly by Wesley’s
+                    thirteen-sermon series ‘Upon our Lord’s Sermon on the Mount’. At that time, it
+                    seemed natural enough to progress directly from the negative powers of faith
+                    (‘not to sin’) to an extended comment on faith’s positive fruits. This present
+                    sermon, from a later period, was inserted in this particular place by Wesley in
+                    his collected <hi rend="italic">Works</hi> (1771), II, and, at first glance, it
+                    might seem intrusive. A closer look, however, suggests that in 1771 Wesley could
+                    see the need for a clearer soteriological restatement between his sermon on
+                    faith’s ‘privileges’ and his series on its ‘duties’. There would be a good
+                    reason for this: in the interval between 1748 and 1771 the conflict with the
+                    Calvinists had worsened, and there was an obvious need at this particular
+                    juncture for a clearer statement of his counterposition on ‘imputation’ and
+                    ‘importation’ in justification by faith.</p>
+                <p>The conflict stretched back to the breach between the Wesleys and George
+                    Whitefield, with John’s sermon on <hi rend="italic">Free Grace</hi> (1739) and
+                    Charles’s thirty-six stanza poem, ‘The Horrible Decree’. Characteristically,
+                    Wesley never understood why the Calvinists should have taken offence at his
+                    criticisms, and thus continued to repeat his sincere but unrealistic appeals to
+                    them for closer fellowship, as in his letter to Henry Venn, June 22, 1763: ‘I
+                    desire to have a league offensive and defensive with every soldier of Christ.’
+                    It baffled him that, in response, he got more criticism than cooperation.</p>
+                <p>The criticism came from such men as Jonathan Warne and John Cennick and was
+                    climaxed in 1755 by a three-volume ‘dialogue’ by a former pupil and fellow
+                    ‘Oxford Methodist’, James Hervey, since turned Calvinist, and rector of Weston
+                    Flavell. Hervey was already well known for his <hi rend="italic">Meditations
+                        Among the Tombs</hi>. Now, in his long, drawn-out <hi rend="italic">Theron
+                        and Aspasio</hi>, he had laid out the differences between ‘Theron’ (his
+                    eponym for Arminians, generally) and ‘Aspasio’ (i.e., himself as a
+                    representative English Calvinist arguing plausibly for ‘the imputed
+                    righteousness of Christ’ as the prime reality in justification); needless to <pb n="445"/>say, ‘Theron’ comes off rather badly in the ‘dialogue’. Hervey had
+                    sent a pre-publication copy of his manuscript to Wesley who, like an old tutor
+                    attempting to improve the revision, had dashed off a set of critical annotations
+                    for Hervey’s private eyes. The dialogues appeared unrevised and Wesley, somewhat
+                    peevishly, proceeded to publish his annotations on them, as ‘A Letter to the
+                    Rev. Mr. —’, in his <hi rend="italic">Preservative Against Unsettled Notions in
+                        Religion</hi> (1758), pp. 211-36.</p>
+                <p>This unexpected attack wounded the gentle-spirited Hervey and prompted him to
+                    reply in a series of long letters to Wesley that he wisely left unposted and
+                    unpublished at his death in 1758 (with explicit instructions that they should
+                    never be published). However, they fell into the hands of William Cudworth, who
+                    promptly put them in print in a form, as Hervey’s brother William complained,
+                    ‘so faulty and incorrect that little judgment can be formed from it of the
+                    propriety and force of my brother’s answers to Mr. Westley’. Hence, an
+                    ‘official’ edition of <hi rend="italic">Eleven Letters from the late Rev. Mr.
+                        Hervey to the Rev. Mr. John Wesley; containing an Answer to that Gentleman’s
+                        Remarks on</hi> Theron and Aspasio (1765). <hi rend="italic">The Lord Our
+                        Righteousness</hi> was Wesley’s prompt response.</p>
+                <p>It was preached on Sunday, November 24, 1765, in the chapel in West Street, near
+                    Seven Dials (a chapel which belonged to the parish of St. Clement Dane’s;
+                    earlier, it had been loaned to the Huguenots and then to the Methodists; its old
+                    pulpit is still preserved in the nearby church of St. Giles-in-the-Fields). This
+                    sermon represents Wesley in as irenic a mood as the circumstances allowed, <hi rend="italic">viz.</hi>, given the need for an unmistakable rejection of all
+                    one-sided emphases on ‘imputation’.</p>
+                <p>There was, of course, much more at stake in this affair than an unhappy rift
+                    between two former friends. Its central issue was whether Christ’s atoning death
+                    is to be understood as the ‘formal’ or the ‘meritorious’ cause of a sinner’s
+                    justification. This had divided British theologians since the days of Davenant
+                    and Downame; cf. C. F. Allison, <hi rend="italic">The Rise of Moralism</hi>
+                    (chs. 1-3); but see also Alexander Hamilton’s obscure <hi rend="italic">Cordial
+                        for Christians Travelling Heavenward</hi> (1696), p. 69. The doctrine of
+                    ‘formal cause’ implied some sort of correlated view of predestination and
+                    irresistible grace. The idea of ‘meritorious cause’, while still ‘evangelical’,
+                    allowed for prevenience, free will, and ‘universal redemption’. To the
+                    Calvinists, however, this was merely a subtler form of works-righteousness,
+                    indeed of ‘popery’ or something very like it. For his part, Hervey is generous
+                    enough to discount the insinuations he had heard, ‘that Mr. Wesley is a Jesuit
+                    in disguise’ (p. 122). Yet he felt it proper to suggest that Wesley’s principles
+                    halt <pb n="446"/>‘between Protestantism and Popery’ (p. 123), that ‘Wesley is
+                    pleased to associate with the Papists in ascribing our salvation partly to
+                    inherent, partly to imputed, righteousness’ (p. 228), that Wesley’s views are
+                    markedly similar to those of Bellarmine (p. 228, n.). Finally, Hervey stresses
+                    the contrast between Wesley’s misleading notion that ‘God’s great end is to
+                    impart happiness to his creatures’ and the Calvinist vision of man’s chief end
+                    as the enhancement of God’s glory (p. 291).</p>
+                <p>Hervey and his friends had found abundant evidence of Wesley’s synergism,
+                    particularly in ‘The Marks of the New Birth’ and ‘The Great Privilege of those
+                    that are Born of God’ (cf. <hi rend="italic">Eleven Letters</hi>, p. 197, ‘Sin
+                    remains in us till the Day of Judgment’). In 1771, therefore, when the breach
+                    with the Calvinists had become irreparable, it seemed urgent for Wesley to place
+                        <hi rend="italic">The Lord Our Righteousness</hi> between ‘The Great
+                    Privilege…’ and the discourses on the Sermon on the Mount, out of chronological
+                    order but in response to a pressing need for clarity on a particular point. He
+                    begins with an assertion of the premises of faith alone which is as clear and
+                    forceful as any he had ever made before. And yet his conclusions develop quite
+                    differently from anything in the Lutheran and Calvinist traditions based on
+                    those same premises. It is in this sense, then, that <hi rend="italic">The Lord
+                        Our Righteousness</hi> may be reckoned as yet another ‘landmark sermon’. It
+                    signals the end of Wesley’s efforts to avoid an open rift with the Calvinists;
+                    it signals the beginning of that stage in his career that we have labelled ‘the
+                    later Wesley’. Moreover, in its own right, it is a revealing sample of Wesley’s
+                    earnest, even if largely unavailing, efforts to agree and disagree in matters of
+                    ‘theological opinions’ while still holding fast to the Christian unity made
+                    possible by shared beliefs in what he understood to be the <hi rend="italic">essentials</hi> of Christian doctrine.</p>
+                <p>The present text is based on that of the first edition of 1766. For a stemma
+                    illustrating the textual history of the nine extant editions issued during
+                    Wesley’s lifetime and a list of substantive variant readings, see Appendix,
+                    ‘Wesley’s Text’, Vol. IV. See also <hi rend="italic">Bibliog</hi>, No. 295.</p>
+            </introduction>
+            <pb n="449"/>
+            <head>The Lord Our Righteousness</head>
+            <epigraph>
+                <p>Jeremiah 23:6</p>
+                <p>
+                    <hi rend="italic">This is his name whereby he shall be called, The Lord our
+                        righteousness.</hi>
+                </p>
+            </epigraph>
+            <div type="introduction">
+                <p n="1">1. How dreadful and how innumerable are the contests which have arisen
+                    about religion! And not only among the children of this world,<note place="foot" xml:id="ftn1" n="1">
+                        <p rend="footnote text">Luke 16:8; 20:34. See also No.
+                            4, <hi rend="italic">Scriptural Christianity</hi>, II.5 and n., for an
+                            equivalent phrase, ‘saints of the world’ (Juán de Valdés’s ‘<hi rend="italic">santos del mundo</hi>’).</p>
+                    </note> among those who
+                    knew not what true religion was; but even among the children of God, those who
+                    had experienced ‘the kingdom of God within them’,<note place="foot" xml:id="ftn2" n="2">
+                        <p rend="footnote text">Cf. Luke 17:21.</p>
+                    </note> who
+                    had tasted of ‘righteousness, and peace, and joy in the Holy Ghost’.<note place="foot" xml:id="ftn3" n="3">
+                        <p rend="footnote text">Rom.
+                        14:17.</p>
+                    </note> How many of these in all ages, instead of joining together
+                    against the common enemy, have turned their weapons against each other, and so
+                    not only wasted their precious time but hurt one another’s spirits, weakened
+                    each other’s hands, and so hindered the great work of their common Master! How
+                    many of the weak have hereby been offended! How many of the ‘lame turned out of
+                    the way’!<note place="foot" xml:id="ftn4" n="4">
+                        <p rend="footnote text">Heb.
+                            12:13.</p>
+                    </note> How many sinners confirmed in their disregard of all
+                    religion, and their contempt of those that profess it! And how many of ‘the
+                    excellent ones upon earth’<note place="foot" xml:id="ftn5" n="5">
+                        <p rend="footnote text">Cf. Ps. 16:3.</p>
+                    </note> have been constrained to
+                    ‘weep in secret places’!<note place="foot" xml:id="ftn6" n="6">
+                        <p rend="footnote text">Jer. 13:17.</p>
+                    </note>
+                </p>
+                <p n="2">2. What would not every lover of God and his neighbour do, what would he
+                    not suffer, to remedy this sore evil? To remove contention from the children of
+                    God? To restore or preserve peace among them? What but a good conscience would
+                    he think too dear to part with in order to promote this valuable end? And
+                    suppose we cannot ‘make these wars to cease in all the world’,<note place="foot" xml:id="ftn7" n="7">
+                        <p rend="footnote text">Cf. Ps. 46:9 (BCP).</p>
+                    </note>
+                    suppose we cannot reconcile all the children of God to each other; however, let
+                    each do what he can, let him contribute if it be but two mites toward it.<note place="foot" xml:id="ftn8" n="8">
+                        <p rend="footnote text">See Mark
+                            12:41-44.</p>
+                    </note> Happy are they who are able in any <pb n="450"/>degree to promote ‘peace and goodwill among men’!<note place="foot" xml:id="ftn9" n="9">
+                        <p rend="footnote text">Cf. Luke 2:14.</p>
+                    </note>
+                    Especially among good men; among those that are all listed under the banner of
+                    ‘the Prince of Peace’;<note place="foot" xml:id="ftn10" n="10">
+                        <p rend="footnote text">Isa. 9:6.</p>
+                    </note> and are therefore peculiarly
+                    engaged, ‘as much as lies in them, to live peaceably with all men’.<note place="foot" xml:id="ftn11" n="11">
+                        <p rend="footnote text">Cf. Rom.
+                            12:18.</p>
+                    </note>
+                </p>
+                <p n="3">3. It would be a considerable step toward this glorious end if we could
+                    bring good men to understand one another. Abundance of disputes arise purely
+                    from the want of this, from mere misapprehension. Frequently neither of the
+                    contending parties understands what his opponent means; whence it follows that
+                    each violently attacks the other while there is no real difference between
+                        them.<note place="foot" xml:id="ftn12" n="12">
+                        <p rend="footnote text">An
+                            echo of John Locke’s account of the motivations for his <hi rend="italic">Essay Concerning Human Understanding</hi> (see his
+                            ‘Epistle to the Reader’, dated 1689, pp. xlvi-xlvii); <hi rend="italic">viz.</hi>, that more confusion results from misunderstanding than
+                            from actual disagreement. A marginal note in James Tyrrell’s copy of the
+                                <hi rend="italic">Essay</hi> reports that the whole project was
+                            prompted by a discussion amongst Locke’s ‘group of friends’ concerning
+                            the issues of ‘morality and revealed religion’. It was Locke’s hope to
+                            show that misunderstandings can usually be reduced if the disputants
+                            will agree on their terms and eschew their biases.</p>
+                    </note> And yet it
+                    is not always an easy matter to convince them of this. Particularly when their
+                    passions are moved: it is then attended with the utmost difficulty. However, it
+                    is not impossible; especially when we attempt it, not trusting in ourselves, but
+                    having all our dependence upon him with whom all things are possible.<note place="foot" xml:id="ftn13" n="13">
+                        <p rend="footnote text">See Matt. 19:26,
+                            etc.</p>
+                    </note> How soon is he able to disperse the cloud, to shine upon
+                    their hearts, and to enable them both to understand each other and ‘the truth as
+                    it is in Jesus’!<note place="foot" xml:id="ftn14" n="14">
+                        <p rend="footnote text">Cf. Eph. 4:21.</p>
+                    </note>
+                </p>
+                <p n="4">4. One very considerable article of this truth is contained in the words
+                    above recited, ‘This is his name whereby he shall be called, The Lord our
+                    righteousness:’ a truth this which enters deep into the nature of Christianity,
+                    and in a manner supports the whole frame of it. Of this undoubtedly may be
+                    affirmed what Luther affirms of a truth closely connected with it: it is <hi rend="italic">articulus stantis vel cadentis ecclesiae</hi>
+                    <note place="foot" xml:id="ftn15" n="15">
+                        <p rend="footnote text">‘The doctrine on
+                            which the church stands or falls’. Wesley’s attribution of this famous
+                            aphorism to Luther is an interesting sidelight on the life history of
+                            such aphorisms. He is obviously repeating a commonplace which he may
+                            have read in John Flavel’s <hi rend="italic">Πλανηλογία</hi>, published
+                            in <hi rend="italic">Mr. John Flavel’s Remains…</hi> (1691), p. 318:
+                            ‘The article of justification is deservedly styled by our divines <hi rend="italic">articulus stantis vel cadentis religionis</hi>’, or in
+                            Michael Harrison, <hi rend="italic">Christ’s Righteousness Imputed…</hi>
+                            (n.d. but <hi rend="italic">c.</hi> 1690), p. 1, where it is attributed
+                            to Chemnitz. In WHS, V.51, C. L. Ford has a note which cites ‘Bp. Harold
+                            Browne, Article XI’ as having found it in Luther, with a further note by
+                            one ‘F. R.’, ‘I have not found it <hi rend="italic">earlier</hi> than
+                            Luther.’ Franz Hildebrandt, <hi rend="italic">From Luther to
+                            Wesley</hi>, p. 16n., cites it as from ‘Luther, <hi rend="italic">Art.
+                                Smalcaldi</hi>, Pt. II, §1’, without noting that its sense is
+                            affirmed in the <hi rend="italic">Smalkald Articles</hi> (in II, XIII,
+                            etc.) but not the literal text.</p>
+                        <p rend="footnote text">Wesley will
+                            repeat the phrase, without an attribution, JWJ, Dec. 1, 1767; cf. his
+                            letter to William Law, Jan. 6, 1756; his <hi rend="italic">Remarks</hi>
+                            on Hill’s <hi rend="italic">Review</hi> and <hi rend="italic">Farrago
+                                Double-Distilled</hi>.</p>
+                        <p rend="footnote text">On the point of
+                            Luther’s coining of the aphorism, Friedrich Loofs tried to puzzle it out
+                            in a notable essay, ‘<hi rend="italic">Der articulus stantis vel
+                                cadentis ecclesiae</hi>’ in <hi rend="italic">Theologisches Studien
+                                und Kritiken</hi> (1917), 90:323-420. Having found its sense in many
+                            places throughout the Luther corpus (e.g., his ‘Argument of the Epistle
+                            to the Galatians’ [<hi rend="italic">W.A.</hi>, Vol. 40, Pt. I, p. 49]),
+                            he concludes that its <hi rend="italic">verbatim</hi> text is not there.
+                            Then, following a review of the Lutheran dogmaticians (ignoring
+                            Harrison’s attribution, above), Loofs concludes (pp. 344-45) that the
+                            phrase as such first appears (and clearly he means in Lutheran circles)
+                            in one Valentin E. Löscher, <hi rend="italic">Timotheus Verinus</hi>
+                            (1712), pp. 1027-28, and, again, in <hi rend="italic">Völlständiger
+                                Timotheus Verinus</hi> (1718), pp. 342-43. Löscher was involved with
+                            Zinzendorf, the Moravians, and the Halle pietists, though not a pietist
+                            himself; cf. <hi rend="italic">The New Schaff-Herzog Encyclopedia of
+                                Religious Knowledge</hi> (New York, Funk and Wagnalls Company,
+                            1908-12), <hi rend="italic">loc. cit.</hi> Would Wesley have heard the
+                            aphorism in Herrnhut, associated with Luther?</p>
+                        <p rend="footnote text">The ‘Bp. Browne’ noted above was Bishop Harold Browne, whose assertion
+                            (without citation) in his <hi rend="italic">Exposition of the
+                                Thirty-nine Articles</hi> (1871) illustrates the persistence of the
+                            slogan: ‘Luther strongly propounded his doctrine [of <hi rend="italic">sola fide</hi>] in its strongest possible form, as the <hi rend="italic">articulus stantis aut cadentis ecclesiae</hi>.’ None
+                            of this would have troubled Wesley or many of his first readers,
+                            although Hervey was speaking for others besides himself in his comment
+                            that ‘Mr. Wesley is so unfair in his quotations and so magisterial in
+                            his manner that I find it no small difficulty to preserve the decency of
+                            the gentleman and the meekness of the Christian in my intended answer’
+                            (cf. <hi rend="italic">Eleven Letters</hi>, Pref., p.
+                    v.).</p>
+                    </note>—the Christian church stands or falls with it. It is <pb n="451"/>certainly the pillar and ground of that faith of which alone cometh
+                    salvation—of that <hi rend="italic">catholic</hi> or universal faith which is
+                    found in all the children of God, and which ‘unless a man keep whole and
+                    undefiled, without doubt he shall perish everlastingly’.<note place="foot" xml:id="ftn16" n="16">
+                        <p rend="footnote text">Cf. the so-called Athanasian
+                            Creed or <hi rend="italic">Quicunque Vult</hi> (BCP), and Schaff, <hi rend="italic">Creeds</hi>, II.66.</p>
+                    </note>
+                </p>
+                <p n="5">5. Might not one therefore reasonably expect, that however they differed in
+                    others, all those who name the name of Christ<note place="foot" xml:id="ftn17" n="17">
+                        <p rend="footnote text">See 2 Tim. 2:19.</p>
+                    </note> should agree in
+                    this point? But how far is this from being the case! There is scarce any wherein
+                    they are so little agreed, wherein those who all profess to follow Christ seem
+                    so widely and irreconcilably to differ. I say ‘seem’, because I am throughly
+                    convinced that many of them only seem to differ. The disagreement is more in
+                    words than in sentiments: they are much nearer in judgment than in language. And
+                    a wide difference in language there certainly is, not only between Protestants
+                    and Papists, but between Protestant and Protestant; yea, even between those who
+                    all believe justification by faith, who agree as well in this as every other
+                    fundamental doctrine of the gospel.</p>
+                <p n="6">6. But if the difference be more in <hi rend="italic">opinion</hi> than
+                    real <hi rend="italic">experience</hi>, and more in <hi rend="italic">expression</hi> than in <hi rend="italic">opinion</hi>, how can it be that
+                    even the <pb n="452"/>children of God should so vehemently contend with each
+                    other on the point? Several reasons may be assigned for this: the chief is their
+                    not understanding one another, joined with too keen an attachment to their <hi rend="italic">opinions</hi> and particular modes of <hi rend="italic">expression</hi>.</p>
+                <p>In order to remove this, at least in some measure, in order to our understanding
+                    one another on this head, I shall by the help of God endeavour to show,</p>
+                <p>I. What is the righteousness of Christ;</p>
+                <p>II. When, and in what sense, it is imputed to us;</p>
+                <p>And conclude with a short and plain application.</p>
+            </div>
+            <div type="section" n="1">
+                <p>And, I. What is the righteousness of Christ? It is twofold, either his divine or
+                    his human righteousness.</p>
+                <p n="1">1. His divine righteousness belongs to his divine nature, as he is ὁ ὤν,
+                    ‘He that existeth, over all, God, blessed for ever:’<note place="foot" xml:id="ftn18" n="18">
+                        <p rend="footnote text">Cf. Rom. 9:5.</p>
+                    </note> the
+                    supreme, the eternal, ‘equal with the Father as touching his godhead, though
+                    inferior to the Father as touching his manhood’.<note place="foot" xml:id="ftn19" n="19">
+                        <p rend="footnote text">Cf. the Athanasian Creed, §33
+                            (Schaff, <hi rend="italic">Creeds</hi>, II.69); but see also the
+                            significantly different affirmation in the Definition of Chalcedon, <hi rend="italic">viz.</hi>, that the Son is ‘of the same οὐσία as the
+                            Father touching his godhead, and of the same οὐσία as we ourselves,
+                            touching his manhood’ (Schaff, <hi rend="italic">ibid.</hi>,
+                        II.62).</p>
+                    </note> Now this is his eternal, essential, immutable holiness;
+                    his infinite justice, mercy, and truth: in all which ‘he and the Father are
+                        one.’<note place="foot" xml:id="ftn20" n="20">
+                        <p rend="footnote text">Cf.
+                            John 10:30.</p>
+                    </note>
+                </p>
+                <p>But I do not apprehend that the divine righteousness of Christ is immediately
+                    concerned in the present question. I believe few, if any, do now contend for the
+                        <hi rend="italic">imputation</hi> of <hi rend="italic">this</hi>
+                    righteousness to us. Whoever believes the doctrine of imputation understands it
+                    chiefly, if not solely, of his human righteousness.</p>
+                <p n="2">2. The <hi rend="italic">human righteousness</hi> of Christ belongs to him
+                    in his human nature, as he is ‘the mediator between God and man, the man Christ
+                        Jesus’.<note place="foot" xml:id="ftn21" n="21">
+                        <p rend="footnote text">Cf.
+                            1 Tim. 2:5. See No. 85, ‘On Working Out Our Own Salvation’, §4 and
+                            n.</p>
+                    </note> This is either internal or external. His internal
+                    righteousness is the image of God<note place="foot" xml:id="ftn22" n="22">
+                        <p rend="footnote text">Gen. 1:27; 9:6; 2 Cor. 4:4. See No. 1, <hi rend="italic">Salvation by Faith</hi>, §1 and n.</p>
+                    </note> stamped
+                    on every power and faculty of his soul. It is a copy of his divine
+                    righteousness, as far as it can be imparted to a human spirit. It is a
+                    transcript of the divine purity, the divine justice, mercy, and truth. It
+                    includes love, reverence, resignation to his Father; humility, meekness,
+                    gentleness; love to lost mankind, and every other holy and <pb n="453"/>heavenly
+                    temper: and all these in the highest degree, without any defect, or mixture of
+                    unholiness.</p>
+                <p n="3">3. It was the least part of his <hi rend="italic">external
+                        righteousness</hi> that he did nothing amiss; that he knew no outward sin of
+                    any kind, ‘neither was guile found in his mouth’;<note place="foot" xml:id="ftn23" n="23">
+                        <p rend="footnote text">1 Pet. 2:22.</p>
+                    </note> that
+                    he never spoke one improper word, nor did one improper action. Thus far it is
+                    only a <hi rend="italic">negative</hi> righteousness, though such an one as
+                    never did nor ever can belong to anyone that is born of a woman, save himself
+                    alone. But even his outward righteousness was <hi rend="italic">positive</hi>
+                    too. ‘He did all things well.’<note place="foot" xml:id="ftn24" n="24">
+                        <p rend="footnote text">Cf. Mark 7:37.</p>
+                    </note> In every word of his
+                    tongue, in every work of his hands, he did precisely the ‘will of him that sent
+                        him’.<note place="foot" xml:id="ftn25" n="25">
+                        <p rend="footnote text">Cf.
+                            John 4:34; 6:38.</p>
+                    </note> In the whole course of his life he did the
+                    will of God on earth as the angels do it in heaven.<note place="foot" xml:id="ftn26" n="26">
+                        <p rend="footnote text">An echo of the Lord’s Prayer,
+                            Matt. 6:10.</p>
+                    </note> All he acted and spoke was exactly right in every
+                    circumstance. The whole and every part of his obedience was complete. ‘He
+                    fulfilled all righteousness.’<note place="foot" xml:id="ftn27" n="27">
+                        <p rend="footnote text">Cf. Matt. 3:15.</p>
+                    </note>
+                </p>
+                <p n="4">4. But his obedience implied more than all this. It implied not only doing,
+                    but suffering: suffering the whole will of God from the time he came into the
+                    world till ‘he bore our sins in his own body upon the tree;’<note place="foot" xml:id="ftn28" n="28">
+                        <p rend="footnote text">Cf. 1 Pet. 2:24.</p>
+                    </note>
+                    yea, till having made a full atonement for them ‘he bowed his head and gave up
+                    the ghost.’<note place="foot" xml:id="ftn29" n="29">
+                        <p rend="footnote text">John
+                            19:30.</p>
+                    </note> This is usually termed the <hi rend="italic">passive</hi> righteousness of Christ, the former, his <hi rend="italic">active</hi> righteousness. But as the active and passive righteousness of
+                    Christ were never in fact separated from each other, so we never need separate
+                    them at all, either in speaking or even in thinking. And it is with regard to
+                    both these conjointly that Jesus is called, ‘the Lord our righteousness’.<note place="foot" xml:id="ftn30" n="30">
+                        <p rend="footnote text">A popular
+                            restatement of a controversial issue between the Lutherans and
+                            Calvinists, on the one side, and the Anglicans on the other—<hi rend="italic">viz.</hi>, ‘the active and passive obedience of
+                            Christ’ and its import for soteriology. The former stressed Christ’s
+                            passive obedience (his vicarious satisfaction of God’s just judgment
+                            against sinful mankind) as the sole ground of our salvation (cf. Schmid,
+                                <hi rend="italic">Doctrinal Theology</hi>, pp. 355-70, 449; see also
+                            Heppe, <hi rend="italic">Reformed Dogmatics</hi>, ch. xviii). The
+                            Anglicans sought to avoid any separation between Christ’s active
+                            obedience (Wesley: Christ’s ‘external righteousness’) and his ‘passive
+                            righteousness’ (I.3-4); cf. More and Cross, <hi rend="italic">Anglicanism</hi>, pp. 283-316. Puritans like William Perkins had
+                            maintained a strong Anselmian doctrine of ‘substitutionary atonement’;
+                            Richard Baxter and John Goodwin, even more (cf. <hi rend="italic">Imputatio Fidei</hi>), sound almost like Anglicans on this point
+                            (cf. Goodwin’s ‘Preface’, pp. 22-23, and Pts. I. 36-37, and II. 230).
+                            The point here is that Wesley is well aware that he is having to thread
+                            a careful way through a soteriological minefield.</p>
+                    </note>
+                </p>
+            </div>
+            <div type="section" n="2">
+                <p>II. But when is it that any of us may truly say, ‘the Lord our righteousness’? In
+                    other words, when is it that the righteousness of Christ is <hi rend="italic">imputed</hi> to us, and in what sense is it imputed?</p>
+                <p n="1">
+                    <pb n="454"/>1. Look through all the world, and all the men therein are
+                    either believers or unbelievers. The first thing then which admits of no dispute
+                    among reasonable men is this: to all believers the righteousness of Christ is
+                    imputed; to unbelievers it is not.</p>
+                <p>‘But when is it imputed?’ When they believe. In that very hour the righteousness
+                    of Christ is theirs. It is imputed to every one that believes, as soon as he
+                    believes: faith and the righteousness of Christ are inseparable. For if he
+                    believes according to Scripture, he believes in the righteousness of Christ.
+                    There is no true faith, that is, justifying faith, which hath not the
+                    righteousness of Christ for its object.</p>
+                <p n="2">2. It is true believers may not all speak alike; they may not all use the
+                    same language. It is not to be expected that they should; we cannot reasonably
+                    require it of them. A thousand circumstances may cause them to vary from each
+                    other in the manner of expressing themselves. But a difference of expression
+                    does not necessarily imply a difference of sentiment. Different persons may use
+                    different expressions, and yet mean the same thing. Nothing is more common than
+                    this, although we seldom make sufficient allowance for it. Nay, it is not easy
+                    for the same persons, when they speak of the same thing at a considerable
+                    distance of time, to use exactly the same expressions, even though they retain
+                    the same sentiments. How then can we be rigorous in requiring others to use just
+                    the same expressions with us?</p>
+                <p n="3">3. We may go a step farther yet. Men may differ from us in their opinions
+                    as well as their expressions, and nevertheless be partakers with us of the same
+                    precious faith. ’Tis possible they may not have a <hi rend="italic">distinct
+                        apprehension</hi> of the very blessing which they enjoy. Their <hi rend="italic">ideas</hi> may not be so <hi rend="italic">clear</hi>, and yet
+                    their experience maybe as sound as ours. There is a wide difference between the
+                    natural faculties of men, their understandings in particular. And that
+                    difference is exceedingly increased by the manner of their education. Indeed,
+                    this alone may occasion an inconceivable difference in their opinions of various
+                    kinds. And why not upon this head as well as on any other? But still, though
+                    their opinions as well as expressions may be confused and inaccurate, their
+                    hearts may cleave to God through the Son of his love, and be truly interested in
+                    his righteousness.<note place="foot" xml:id="ftn31" n="31">
+                        <p rend="footnote text">In part, this is a sample of Wesley’s understanding
+                            of what ‘catholic spirit’ means in theological dialogue (see No. 39,
+                            ‘Catholic Spirit’; cf. also No. 7, ‘The Way to the Kingdom’, I.6 and
+                            n.). But it also reflects his ideas about the radical ambiguity of
+                            religious language: no single form of words, in Wesley’s view, could
+                            ever suffice to exhaust, or even accurately express, the full meaning of
+                            an authentic religious truth, to the exclusion of other equally valid
+                            statements.</p>
+                    </note>
+                </p>
+                <p n="4">
+                    <pb n="455"/>4. Let us then make all that allowance to others which, were
+                    we in their place, we would desire for ourselves. Who is ignorant (to touch
+                    again on that circumstance only) of the amazing power of education? And who that
+                    knows it can expect, suppose, a member of the Church of Rome either to think or
+                    speak clearly on this subject? And yet if we had heard even dying Bellarmine cry
+                    out, when he was asked, ‘Unto which of the saints wilt thou turn?’<note place="foot" xml:id="ftn32" n="32">
+                        <p rend="footnote text">Cf. Job
+                        5:1.</p>
+                    </note>—‘<hi rend="italic">Fidere mentis Christi tutissimum</hi>: It
+                    is safest to trust in the merits of Christ’—would we have affirmed that
+                    notwithstanding his wrong opinions he had no share in his righteousness?<note place="foot" xml:id="ftn33" n="33">
+                        <p rend="footnote text">None of
+                            Bellarmine’s biographers records these as his ‘dying words’; cf. Edward
+                            Coffin, S. J.,<hi rend="italic">A True Relation of the Last Sickness and
+                                Death of Cardinal Bellarmine. Who dyed in Rome the seavententh day
+                                of September 1621. And of such things as happened in, or since, his
+                                Buriall</hi> (1623). But the story had become folklore at least by
+                            the time of Christopher Nesse; cf. <hi rend="italic">A Protestant
+                                Antidote Against the Poyson of Popery…</hi> (1679), ch. 3, pp.
+                            80-81: ‘…such as those though they live papists, yet they dye
+                            protestants, to wit, to the principal foundation of our faith. This
+                            Bellarmine himself (their great champion) was driven to for succour when
+                            the terrors of death were upon him…’. Nesse’s reference here is to
+                            Bellarmine, <hi rend="italic">De Justificatione</hi>, lib. 5, cap. 7;
+                            but the only relevant passage in that chapter (or elsewhere in the
+                            essay) reads: ‘<hi rend="italic">Sit tertia propositio: “Propter
+                                incertitudinem propriae justitiae, et periculum inanis gloriae
+                                tutissimum est, fiduciam totam in sola Dei misericordia et
+                                benignitate reponere”</hi>’ (‘A third proposition: “Because of the
+                            uncertainty of our own true righteousness and the danger of our ‘glory’
+                            turning out to be empty, our safest course by far is to rest our entire
+                            trust solely in the mercy of God and in his lovingkindness”’); see
+                            Bellarmine, <hi rend="italic">Works</hi> (1873), 6:359.</p>
+                    </note>
+                </p>
+                <p n="5">5. ‘But in what sense is this righteousness imputed to believers?’ In this:
+                    all believers are forgiven and accepted, not for the sake of anything in them,
+                    or of anything that ever was, that is, or ever can be done by them, but wholly
+                    and solely for the sake of what Christ hath done and suffered for them. I say
+                    again, not for the sake of anything in them or done by them, of their own
+                    righteousness or works. ‘Not for works of righteousness which we have done, but
+                    of his own mercy he saved us.’<note place="foot" xml:id="ftn34" n="34">
+                        <p rend="footnote text">Cf. Titus 3:5.</p>
+                    </note> ‘By grace ye are saved
+                    through faith…. Not of works, lest any man should boast;’<note place="foot" xml:id="ftn35" n="35">
+                        <p rend="footnote text">Eph. 2:8-9.</p>
+                    </note> but
+                    wholly and solely for the sake of what Christ hath done and suffered for us. We
+                    are ‘justified freely by his grace, through the redemption that is in Jesus
+                        Christ’.<note place="foot" xml:id="ftn36" n="36">
+                        <p rend="footnote text">Cf.
+                            Rom. 3:24.</p>
+                    </note> And this is not only the means of our <hi rend="italic">obtaining</hi> the favour of God, but of our <pb n="456"/>continuing therein. It is thus we come to God at first: it is by the same we
+                    come unto him ever after. We walk in one and the same ‘new and living way’<note place="foot" xml:id="ftn37" n="37">
+                        <p rend="footnote text">Heb.
+                        10:20.</p>
+                    </note> till our spirit returns to God.</p>
+                <p n="6">6. And this is the doctrine which I have constantly believed and taught for
+                    near eight and twenty years.<note place="foot" xml:id="ftn38" n="38">
+                        <p rend="footnote text">Note Wesley’s insistence on his unswerving fidelity
+                            to the doctrine of justification by faith since 1738, despite all
+                            Calvinist charges to the contrary. But note also his grounding of that
+                            doctrine, yet once again, in the Anglican standards of
+                        doctrine.</p>
+                    </note> This I published to all the world in the year 1738, and
+                    ten or twelve times since, in those words, and many others to the same effect,
+                    extracted from the <hi rend="italic">Homilies</hi> of our Church:</p>
+                <quote>These things must necessarily go together in our justification: upon God’s
+                    part his great mercy and grace, upon Christ’s part the satisfaction of God’s
+                    justice, and on our part faith in the merits of Christ. So that the grace of God
+                    doth not shut out the righteousness of God in our justification, but only
+                    shutteth out the righteousness of man, as to <hi rend="italic">deserving</hi>
+                    our justification.<note place="foot" xml:id="ftn39" n="39">
+                        <p rend="footnote text">Cf. <hi rend="italic">The Doctrine of Salvation,
+                                Faith, and Good Works</hi>, I.5. See the original text in the homily
+                            ‘Of the Salvation of All Mankind’, Pt. I, in <hi rend="italic">Homilies</hi>, pp. 19-20. At least fifteen edns. of Wesley’s
+                            abridgement were extant when this sermon was
+                    preached.</p>
+                    </note>
+                </quote>
+                <quote>That we are justified by faith alone is spoken to take away clearly all merit
+                    of our works, and wholly to ascribe the <hi rend="italic">merit</hi> and <hi rend="italic">deserving</hi> of our justification to Christ only. Our
+                    justification comes freely of the mere mercy of God. For whereas all the world
+                    was not able to pay any part toward our ransom, it pleased him, without any of
+                    our deserving, to prepare for us Christ’s body and blood, whereby our ransom
+                    might be paid, and his justice satisfied. Christ therefore is now the
+                    righteousness of all them that truly believe in him.<note place="foot" xml:id="ftn40" n="40">
+                        <p rend="footnote text">
+                            <hi rend="italic">Ibid.</hi>,
+                            I.7.</p>
+                    </note>
+                </quote>
+                <p n="7">7. The hymns published a year or two after this, and since republished
+                    several times (a clear testimony that my judgment was still the same) speak full
+                    to the same purpose. To cite all the passages to this effect would be to
+                    transcribe a great part of the volumes. Take one for all, which was reprinted
+                    seven years ago, five years ago, two years ago, and some months since:</p>
+                <lg>
+                    <l>Jesu, thy blood and righteousness</l>
+                    <l>My beauty are, my glorious dress:</l>
+                    <l>Midst flaming worlds in these arrayed</l>
+                    <l>With joy shall I lift up my head.<note place="foot" xml:id="ftn41" n="41">
+                            <p rend="footnote text">John Wesley, ‘The Believer’s Triumph’, st. 1
+                                (tr. from Zinzendorf’s German), in <hi rend="italic">Hymns and
+                                    Sacred Poems</hi> (1740), p. 177 (<hi rend="italic">Poet.
+                                    Wks.</hi>, I.346).</p>
+                        </note>
+                    </l>
+                </lg>
+                <p n="">The whole expresses the same sentiment from the beginning to the end.</p>
+                <p n="8">
+                    <pb n="457"/>8. In the sermon on justification published nineteen, and
+                    again seven or eight years ago, I express the same thing in these words:</p>
+                <quote>In consideration of this, that the Son of God hath ‘tasted death for every
+                        man’,<note place="foot" xml:id="ftn42" n="42">
+                        <p rend="footnote text">Cf.
+                            Heb. 2:9.</p>
+                    </note> God hath now ‘reconciled the world unto himself,
+                    not imputing to them their former trespasses’<note place="foot" xml:id="ftn43" n="43">
+                        <p rend="footnote text">Cf. 2 Cor. 5:19.</p>
+                    </note> […] So that for
+                    the sake of his well-beloved Son, of what he hath done and suffered for us, God
+                    now vouchsafes on one only condition (which himself also enables us to perform)
+                    both to remit the punishment due to our sins, to reinstate us in his favour, and
+                    to restore our dead souls to spiritual life, as the earnest of life eternal.<hi rend="endnote_reference">
+                        <note place="end">
+                            <p rend="endnote text">p. 87 [<hi rend="italic">Sermons on Several Occasions</hi> I (1746); cf.
+                                No. 5, ‘Justification by Faith’, I.8; 2nd edn., by W. Bowyer,
+                                1754).</p>
+                        </note>
+                    </hi>
+                </quote>
+                <p n="9">9. This is more largely and particularly expressed in the <hi rend="italic">Treatise on Justification</hi> which I published last year:</p>
+                <quote>If we take the phrase of ‘imputing Christ’s righteousness’ for the bestowing
+                    (as it were) the righteousness of Christ, including his obedience, as well
+                    passive as active, in the return of it—that is, in the privileges, blessings,
+                    and benefits purchased by it—so a believer may be said to be justified by <hi rend="italic">the righteousness of Christ imputed</hi>. The meaning is, God
+                    justifies the believer for the sake of Christ’s righteousness, and not for any
+                    righteousness of his own. […] So Calvin: ‘Christ by his obedience procured and
+                    merited for us grace or favour with God the Father.’<hi rend="endnote_reference">
+                        <note place="end">
+                            <p rend="endnote text">
+                                <hi rend="italic">Institutes</hi> [Vol. I], II.xvii. [3; cf. LCC, Vol.
+                                XX.530-31].</p>
+                        </note>
+                    </hi> Again, ‘Christ by his obedience procured
+                    or purchased righteousness for us.’<note place="foot" xml:id="ftn44" n="44">
+                        <p rend="footnote text">
+                            <hi rend="italic">Institutes</hi>, III. xiv. 17
+                            (LCC, Vol. XX.784). But note Calvin’s full text: ‘Surely the material
+                            cause [of justification] is Christ, with his [passive] obedience,
+                            through which he acquired righteousness for us. What shall we say is the
+                                <hi rend="italic">formal</hi> or instrumental cause but faith?’ It
+                            is this thesis that Wesley is here rejecting.</p>
+                    </note> And yet again:
+                    ‘All such expressions as these—that we are justified by the grace of God, that
+                    Christ is our righteousness, that righteousness was procured for us by the death
+                    and resurrection of Christ—import the same thing:’<note place="foot" xml:id="ftn45" n="45">
+                        <p rend="footnote text">Wesley’s translation of
+                            Calvin’s commentary on Gal. 3:6; cf. William Pringle’s translation, <hi rend="italic">Commentaries on the Epistles of Paul to the Galatians
+                                and Ephesians</hi> (1849), p. 85. See also Goodwin’s translation of
+                            the same passage, p. 9.</p>
+                    </note> namely, that the righteousness of
+                    Christ, both his active and passive righteousness, is the meritorious cause<note place="foot" xml:id="ftn46" n="46">
+                        <p rend="footnote text">Wesley has here
+                            altered Goodwin to his own purpose. Goodwin reads: ‘the righteousness of
+                            Christ, meaning chiefly his <hi rend="italic">passive</hi> obedience or
+                            righteousness, is the meritorious cause….’ But Wesley is concerned to
+                            include ‘<hi rend="italic">both</hi> his active <hi rend="italic">and</hi> passive righteousness as the meritorious cause…’. In this
+                            way he reasserts his Anglican ‘both/and’ and also rejects Calvin’s
+                            thesis about ‘formal or instrumental cause’ which, in Wesley’s view,
+                            carried predestination as a necessary implication.</p>
+                    </note> of our
+                    justification, and has procured for us at God’s hand that upon our believing we
+                    should be accounted righteous by him.<hi rend="endnote_reference">
+                        <note place="end">
+                            <p rend="endnote text">p. 5. [Not Wesley’s own work but an
+                                abridgement of John Goodwin’s <hi rend="italic">Imputatio Fidei</hi>
+                                (1642); cf. <hi rend="italic">Bibliog</hi>, No. 266. Wesley’s
+                                unusually long Preface registers his basic agreement with Goodwin
+                                against his detractors—and ignores Toplady’s reference to ‘that
+                                Arminian Ranter and Fifth Monarchy Man’ (see Augustus M. Toplady,
+                                    <hi rend="italic">Works</hi>, II.342-43). Wesley’s quotation
+                                here is further abridgement from his original extract; its locus in
+                                Goodwin is pp. 8-10.]</p>
+                        </note>
+                    </hi>
+                </quote>
+                <p n="10">
+                    <pb n="458"/>10. But perhaps some will object, ‘Nay, but you affirm that
+                    “faith is imputed to us for righteousness.”’<note place="foot" xml:id="ftn47" n="47">
+                        <p rend="footnote text">Cf. Rom. 4:22.</p>
+                    </note> St. Paul affirms
+                    this over and over; therefore I affirm it too. Faith is imputed for
+                    righteousness to every believer; namely, faith in the righteousness of Christ.
+                    But this is exactly the same thing which has been said before. For by that
+                    expression I mean neither more nor less than that we are justified by faith, not
+                    by works;<note place="foot" xml:id="ftn48" n="48">
+                        <p rend="footnote text">See
+                            Gal. 2:16.</p>
+                    </note> or that every believer is forgiven and accepted
+                    merely for the sake of what Christ has done and suffered.</p>
+                <p n="11">11. ‘But is not a believer invested or clothed with the righteousness of
+                    Christ?’ Undoubtedly he is. And accordingly the words above-recited are the
+                    language of every believing heart:</p>
+                <lg>
+                    <l>Jesu, thy blood and righteousness</l>
+                    <l>My beauty are, my glorious dress.<note place="foot" xml:id="ftn49" n="49">
+                            <p rend="footnote text">See above, II.7 and n.</p>
+                        </note>
+                    </l>
+                </lg>
+                <p>That is, for the sake of thy active and passive righteousness I am forgiven and
+                    accepted of God.</p>
+                <p>‘But must not we put off the filthy rags of our own righteousness<note place="foot" xml:id="ftn50" n="50">
+                        <p rend="footnote text">See Isa. 64:6.
+                            See also No. 127, ‘On the Wedding Garment’.</p>
+                    </note> before we can put
+                    on the spotless righteousness of Christ?’ Certainly we must; that is, in plain
+                    terms, we must ‘repent’ before we can ‘believe the gospel’.<note place="foot" xml:id="ftn51" n="51">
+                        <p rend="footnote text">Mark 1:15.</p>
+                    </note> We must
+                    be cut off from dependence upon ourselves before we can truly depend upon
+                    Christ. We must cast away all confidence in our own righteousness, or we cannot
+                    have a true confidence in his. Till we are delivered from trusting in anything
+                    that we do, we cannot throughly trust in what he has done and suffered. First
+                    ‘we receive the sentence of death in ourselves;’<note place="foot" xml:id="ftn52" n="52">
+                        <p rend="footnote text">Cf. 2 Cor. 1:9.</p>
+                    </note>
+                    then we trust in him that lived and died for us.</p>
+                <p n="12">12. ‘But do not you believe <hi rend="italic">inherent</hi>
+                    righteousness?’ Yes, in its proper place; not as the <hi rend="italic">ground</hi> of our acceptance with God, but as the <hi rend="italic">fruit</hi> of it; not in the place of <hi rend="italic">imputed</hi>
+                    righteousness, but as consequent upon it. That is, I believe God <hi rend="italic">implants</hi> righteousness in every one to whom he has <hi rend="italic">imputed</hi> it. I believe ‘Jesus Christ is <pb n="459"/>made
+                    of God unto us sanctification’<note place="foot" xml:id="ftn53" n="53">
+                        <p rend="footnote text">Cf. 1 Cor. 1:30.</p>
+                    </note> as well as
+                    righteousness; or that God sanctifies, as well as justifies, all them that
+                    believe in him. They to whom the righteousness of Christ is imputed are made
+                    righteous by the spirit of Christ, are renewed in the image of God ‘after the
+                    likeness wherein they were created, in righteousness and true holiness’.<note place="foot" xml:id="ftn54" n="54">
+                        <p rend="footnote text">Cf. Eph.
+                            4:24.</p>
+                    </note>
+                </p>
+                <p n="13">13. ‘But do not you put faith in the room of Christ, or of his
+                    righteousness?’ By no means. I take particular care to put each of these in its
+                    proper place. The righteousness of Christ is the whole and sole <hi rend="italic">foundation</hi> of all our hope. It is by faith that the Holy
+                    Ghost enables us to build upon this foundation. God gives this faith. In that
+                    moment we are accepted of God; and yet not for the sake of that faith, but of
+                    what Christ has done and suffered for us. You see, each of these has its proper
+                    place, and neither clashes with the other: we believe, we love; we endeavour to
+                    walk in all the commandments of the Lord blameless.<note place="foot" xml:id="ftn55" n="55">
+                        <p rend="footnote text">See Luke 1:6.</p>
+                    </note>
+                    Yet,</p>
+                <lg>
+                    <l>While thus we bestow</l>
+                    <l>Our moments below,</l>
+                    <l>Ourselves we forsake,</l>
+                    <l>And refuge in Jesus’s righteousness take.</l>
+                    <l>His passion alone,</l>
+                    <l>The foundation we own:</l>
+                    <l>And pardon we claim,</l>
+                    <l>And eternal redemption in Jesus’s name.<note place="foot" xml:id="ftn56" n="56">
+                            <p rend="footnote text">Charles Wesley, ‘Hymns for Christian
+                                Friends’, No. 14, st. 4, in <hi rend="italic">Hymns and Sacred
+                                    Poems</hi> (1749), II.281 (<hi rend="italic">Poet. Wks.</hi>,
+                                V.424). Orig., ‘Thus while we bestow’, and ‘<hi rend="italic">The
+                                    foundation</hi>’.</p>
+                        </note>
+                    </l>
+                </lg>
+                <p n="14">14. I therefore no more deny the righteousness of Christ than I deny the
+                    godhead of Christ. And a man may full as justly charge me with denying the one
+                    as the other. Neither do I deny <hi rend="italic">imputed righteousness</hi>:
+                    this is another unkind and unjust accusation. I always did, and do still
+                    continually affirm, that the righteousness of Christ is imputed to every
+                    believer. But who do deny it? Why, all <hi rend="italic">infidels</hi>, whether
+                    baptized or unbaptized; all who affirm the glorious gospel of our Lord Jesus
+                        Christ<note place="foot" xml:id="ftn57" n="57">
+                        <p rend="footnote text">See 2
+                            Cor. 4:4. Here again is Wesley’s prime thesis: that ‘imputation’ is
+                            normally followed by ‘implantation’. Thus the typical fruit of imputed
+                            righteousness (i.e., pardon) is a ‘renewal [of the soul] in the image of
+                            God’ (i.e., holy living).</p>
+                    </note> to be a <hi rend="italic">cunningly</hi> devised fable;<note place="foot" xml:id="ftn58" n="58">
+                        <p rend="footnote text">See 2 Pet. 1:16.</p>
+                    </note> all Socinians and
+                        Arians;<note place="foot" xml:id="ftn59" n="59">
+                        <p rend="footnote text">The
+                            followers of Lelio (1525-67) and Faustus Socinus (1539-1604), who had
+                            rejected trinitarian orthodoxy and had expounded a unitarian Christology
+                            and a moralistic soteriology; they were dubbed ‘Arians’ by their
+                            orthodox critics, although they themselves rejected the label. Their
+                            views are best summarized in the <hi rend="italic">Racovian
+                                Catechism</hi> (1605, 1608, 1609); cf. Earl Morse Wilbur, <hi rend="italic">A History of Unitarianism</hi> (Cambridge, Mass.,
+                            Harvard University Press, 1945), chs. xxix-xxxii. John Biddle (1615-62)
+                            is reckoned as ‘the father of English Unitarianism’; in Wesley’s time
+                            its most prominent spokesmen were John Taylor of Norwich and Joseph
+                            Priestley (see below, II.16, and n. 65).</p>
+                    </note> all who deny the <pb n="460"/>supreme godhead of the Lord that bought them. They of consequence
+                    deny his divine righteousness, as they suppose him to be a mere creature. And
+                    they deny his human righteousness as imputed to any man, seeing they believe
+                    everyone is accepted <hi rend="italic">for his own righteousness</hi>.</p>
+                <p n="15">15. The human righteousness of Christ, at least the imputation of it as
+                    the whole and sole meritorious cause of the justification of a sinner before
+                    God, is likewise denied by the members of the Church of Rome—by all of them who
+                    are true to the principles of their own church.<note place="foot" xml:id="ftn60" n="60">
+                        <p rend="footnote text">How Wesley got this from the canons of Trent
+                            (Session Six, ch. vii) is not clear. That text reads: ‘Justification is
+                            not merely the remission of sins but also the renewal of the inward man
+                            [Wesley’s point about ‘the renewed image’]…. Its meritorious cause is
+                            God’s most beloved, only-begotten Son, our Lord Jesus Christ, who, when
+                            we were enemies…merited justification for us by his most holy passion on
+                            the wood of the cross and made satisfaction for us unto God his
+                            Father….’ Is Wesley’s complaint here more than that Trent had declined
+                            the absolute designation, ‘whole and sole’?</p>
+                    </note> But undoubtedly
+                    there are many among them whose experience goes beyond their principles; who,
+                    though they are far from expressing themselves justly, yet feel what they know
+                    not how to express. Yea, although their conceptions of this great truth be as
+                    crude as their expressions, yet ‘with their heart they believe’; they rest on
+                    Christ alone, both ‘unto’ present and eternal ‘salvation’.<note place="foot" xml:id="ftn61" n="61">
+                        <p rend="footnote text">Cf. Rom. 10:10.</p>
+                    </note>
+                </p>
+                <p n="16">16. With these we may rank those even in the Reformed Churches who are
+                    usually termed <hi rend="italic">mystics</hi>. One of the chief of these in the
+                    present century (at least in England) was Mr. Law.<note place="foot" xml:id="ftn62" n="62">
+                        <p rend="footnote text">William Law had just recently
+                            died (1761). As early as 1739, he had turned against ‘faith alone’ in
+                                <hi rend="italic">The Grounds and Reasons of Christian
+                                Regeneration</hi>. Then, as he grew older, he had been drawn more
+                            and more into the orbit of Jacob Boehme. The books that Wesley has here
+                            in mind are <hi rend="italic">The Spirit of Prayer</hi> and <hi rend="italic">The Spirit of Love</hi> (1752, 1754), <hi rend="italic">Works</hi>, VIII.3-133, where Law stresses ‘the
+                            indwelling Christ in the soul’ to the exclusion of the doctrine of
+                            justification by faith.</p>
+                    </note> It is well known that he absolutely
+                    and zealously denied the imputation of the righteousness of Christ; as zealously
+                    as Robert Barclay, who scruples not to say, ‘Imputed righteousness, imputed
+                        nonsense!’<note place="foot" xml:id="ftn63" n="63">
+                        <p rend="footnote text">It is well known that Robert Barclay rejected ‘imputed righteousness’
+                            out of hand (cf. his <hi rend="italic">Apology</hi>, I.141-44, 188-90;
+                            III.360-74, 410-22); in his <hi rend="italic">Works</hi>
+                            (1718),I.142,there is a marginal rubric: ‘Imputed righteousness a cloak
+                            for wickedness.’ But Professors Hugh Barbour and Elton Trueblood, both
+                            Barclay specialists, agree that Wesley’s quotation is not in Barclay’s
+                            text nor even in Barclay’s style.</p>
+                    </note> The body of the people
+                    known by the name <pb n="461"/>of Quakers espouse the same sentiment. Nay, the
+                    generality of those who profess themselves members of the Church of England are
+                    either totally ignorant of the matter and know nothing about <hi rend="italic">imputed righteousness</hi>, or deny this and justification by faith
+                    together as destructive of good works. To these we may add a considerable number
+                    of the people vulgarly styled Anabaptists,<note place="foot" xml:id="ftn64" n="64">
+                        <p rend="footnote text">‘Anabaptists’: a blanket term for radical
+                            Protestants of various sorts who rejected the official churches and
+                            coercive social institutions; cf. Williams, <hi rend="italic">The
+                                Radical Reformation</hi>, ch. 33; and Claus-Peter Clasen, <hi rend="italic">Anabaptism: A Social History</hi> (Ithaca, N.Y.,
+                            Cornell University Press, 1972). They had flourished in England during
+                            the tumults of the Civil War and had survived into Wesley’s time as
+                            Baptists, Congregationalists, Familists, etc. The ‘Strict and Particular
+                            Baptists’ taught a rigorous doctrine of election and imputation while
+                            the ‘General Baptists’ allowed for universal redemption as a possibility
+                            by Christ’s atonement. Cf. A. C. Underwood, <hi rend="italic">History of
+                                the English Baptists</hi> (London, Kingsgate Press,
+                        1947).</p>
+                    </note> together with thousands of Presbyterians and Independents
+                    lately enlightened by the writings of Dr. Taylor.<note place="foot" xml:id="ftn65" n="65">
+                        <p rend="footnote text">Dr. John Taylor of Norwich, a
+                            leader in the development of eighteenth-century Dissent from orthodoxy
+                            to the sort of unitarianism that one may see full blown in Joseph
+                            Priestley, Richard Price, <hi rend="italic">et al.</hi>; cf. Gerald R.
+                            Cragg, <hi rend="italic">The Church and the Age of Reason
+                                (1648-1789)</hi>, (Baltimore, Md., Penguin Books, 1960). Taylor and
+                            Wesley had dueled over their contrary views of original sin; see above,
+                            II.14, and n. 59.</p>
+                    </note> On the last I am not called to pass any
+                    sentence: I leave them to him that made them. But will anyone dare to affirm
+                    that all mystics (such as was Mr. Law in particular), all Quakers, all
+                    Presbyterians or Independents, and all members of the Church of England, who are
+                    not clear in their opinions or expressions, are void of all Christian
+                    experience? That consequently they are all in a state of damnation, ‘without
+                    hope, without God in the world’?<note place="foot" xml:id="ftn66" n="66">
+                        <p rend="footnote text">Cf. Eph. 2:12.</p>
+                    </note> However confused their
+                    ideas may be, however improper their language, may there not be many of them
+                    whose heart is right toward God and who effectually know ‘the Lord our
+                    righteousness’?</p>
+                <p n="17">17. But, blessed be God, we are not among those who are so dark in their
+                    conceptions and expressions. We no more deny the <hi rend="italic">phrase</hi>
+                    than the <hi rend="italic">thing</hi>; but we are unwilling to obtrude it on
+                    other men. Let them use either this or such other expressions as they judge to
+                    be more exactly scriptural, provided their <hi rend="italic">heart</hi> rests
+                    only on what Christ hath done and suffered for pardon, grace, and glory. I
+                    cannot express this better than in Mr. Hervey’s words, worthy to be wrote in
+                    letters of gold: ‘We are not solicitous as to <pb n="462"/>any <hi rend="italic">particular set of phrases</hi>. Only let men be humbled as repenting
+                    criminals at Christ’s feet, let them rely as devoted pensioners on his merits,
+                    and they are undoubtedly in the way to a blessed immortality.’<note place="foot" xml:id="ftn67" n="67">
+                        <p rend="footnote text">Cf. James Hervey, <hi rend="italic">Theron and Aspasio</hi>, Dial. II (4th edn., 1761,
+                            I.55); this is clearly an olive branch to Hervey’s memory, a reconciling
+                            gesture to his friends.</p>
+                    </note>
+                </p>
+                <p n="18">18. Is there any need, is there any possibility of saying more? Let us
+                    only abide by this declaration, and all the contention about this or that
+                    ‘particular phrase’ is torn up by the roots. Keep to this: ‘All who are humbled
+                    as repenting criminals at Christ’s feet and rely as devoted pensioners on his
+                    merits are in the way to a blessed immortality.’ And what room for dispute? Who
+                    denies this? Do we not all meet on this ground? What then shall we wrangle
+                    about? A man of peace here proposes terms of accommodation to all the contending
+                    parties. We desire no better. We accept of the terms. We subscribe to them with
+                    heart and hand. Whoever refuses so to do, set a mark upon that man! He is an
+                    enemy of peace, and a troubler of Israel,<note place="foot" xml:id="ftn68" n="68">
+                        <p rend="footnote text">1 Chr. 2:7.</p>
+                    </note> a disturber of the
+                    church of God.<note place="foot" xml:id="ftn69" n="69">
+                        <p rend="footnote text">An echo of Canon II of the Dedication Council of Antioch, A.D. 341 (<hi rend="italic">In Encaeniis</hi>); cf. No. 27, ‘Sermon an the Mount,
+                            VII’, III.7 and n.</p>
+                    </note>
+                </p>
+                <p n="19">19. In the meantime what we are afraid of is this: lest any should use the
+                    phrase, ‘the righteousness of Christ’, or, ‘the righteousness of Christ is
+                    “imputed to me”,’ as a cover for his unrighteousness. We have known this done a
+                    thousand times. A man has been reproved, suppose, for drunkenness. ‘Oh, said he,
+                    I pretend to no righteousness of <hi rend="italic">my own</hi>: Christ is <hi rend="italic">my righteousness</hi>.’ Another has been told that ‘the
+                    extortioner, the unjust, shall not inherit the kingdom of God.’<note place="foot" xml:id="ftn70" n="70">
+                        <p rend="footnote text">Cf. 1 Cor.
+                            6:9-10.</p>
+                    </note> He replies with all assurance, ‘I am unjust in
+                    myself, but I have a spotless righteousness in Christ.’ And thus though a man be
+                    as far from the practice as from the tempers of a Christian, though he neither
+                    has the mind which was in Christ<note place="foot" xml:id="ftn71" n="71">
+                        <p rend="footnote text">See Phil. 2:5.</p>
+                    </note> nor in any respect walks
+                    as he walked, yet he has armour of proof against all conviction in what he calls
+                    the ‘righteousness of Christ’.<note place="foot" xml:id="ftn72" n="72">
+                        <p rend="footnote text">Cf. 2 Pet. 1:1.</p>
+                    </note>
+                </p>
+                <p n="20">20. It is the seeing so many deplorable instances of this kind which makes
+                    us sparing in the use of these expressions. And I cannot but call upon all of
+                    you who use them frequently, and <pb n="463"/>beseech you in the name of God our
+                    Saviour, whose you are and whom you serve,<note place="foot" xml:id="ftn73" n="73">
+                        <p rend="footnote text">See Acts 27:23.</p>
+                    </note> earnestly to guard
+                    all that hear you against this accursed abuse of it. O warn them (it may be they
+                    will hear <hi rend="italic">your</hi> voice) against ‘continuing in sin that
+                    grace may abound’!<note place="foot" xml:id="ftn74" n="74">
+                        <p rend="footnote text">Cf. Rom. 6:1.</p>
+                    </note> Warn them against making
+                    ‘Christ the minister of sin’!<note place="foot" xml:id="ftn75" n="75">
+                        <p rend="footnote text">Gal. 2:17.</p>
+                    </note> Against making void that
+                    solemn decree of God, ‘without holiness no man shall see the Lord,’<note place="foot" xml:id="ftn76" n="76">
+                        <p rend="footnote text">Cf. Heb.
+                            12:14.</p>
+                    </note> by a vain imagination of being <hi rend="italic">holy
+                        in Christ</hi>. O warn them that if they remain unrighteous, the
+                    righteousness of Christ will profit them nothing! Cry aloud (is there not a
+                    cause?) that for this very end the righteousness of Christ is imputed to us,
+                    that ‘the righteousness of the law may be fulfilled in us,’<note place="foot" xml:id="ftn77" n="77">
+                        <p rend="footnote text">Rom. 8:4. Cf. Nos. 34, ‘The
+                            Original, Nature, Properties, and Use of the Law’; and 35 and 36, ‘The
+                            Law Established through Faith’, Discourses I and II.</p>
+                    </note> and that
+                    we may ‘live soberly, religiously, and godly in this present world.’<note place="foot" xml:id="ftn78" n="78">
+                        <p rend="footnote text">Titus
+                        2:12.</p>
+                    </note>
+                </p>
+                <p>It remains only to make a short and plain application.<note place="foot" xml:id="ftn79" n="79">
+                        <p rend="footnote text">Cf. No. 5, ‘Justification by
+                            Faith’, IV.9 and n.</p>
+                    </note> And first I would address myself to you
+                    who violently oppose these expressions, and are ready to condemn all that use
+                    them as antinomians. But is not this bending the bow too much the other
+                        way?<note place="foot" xml:id="ftn80" n="80">
+                        <p rend="footnote text">Cf. the
+                            memorandum of Jan. 25, 1738, noted in JWJ. See also Echard, <hi rend="italic">Eccles. Hist.</hi>, III.vi.426: ‘He bent the stick too
+                            much the contrary way.’</p>
+                    </note> Why should you condemn all who do not
+                    speak just as you do? Why should you quarrel with <hi rend="italic">them</hi>
+                    for using the phrases they like, any more than they with <hi rend="italic">you</hi> for taking the same liberty? Or if they do quarrel with you upon
+                    that account, do not imitate the bigotry which you blame. At least allow <hi rend="italic">them</hi> the liberty which they ought to allow <hi rend="italic">you</hi>. And why should you be angry at an <hi rend="italic">expression</hi>? ‘Oh, it has been abused.’ And what expression has not?
+                    However, the abuse may be removed, and at the same time the use remain.<note place="foot" xml:id="ftn81" n="81">
+                        <p rend="footnote text">This aphorism on
+                            ‘use and abuse’ is a favourite of Wesley’s; cf., e.g., Nos. 24, ‘Sermon
+                            on the Mount, IV’, III.6; 33, ‘Sermon on the Mount, XIII’, II.2; 42,
+                            ‘Satan’s Devices’, II.8; 78, ‘Spiritual Idolatry’, I.14; 108, ‘On
+                            Riches’, II.12. It appears often in seventeenth- and eighteenth-century
+                            literature. Cf. George Chapman’s translation of Homer’s <hi rend="italic">Odyssey</hi> (Bk. xxiv), p. 526:</p>
+                        <lg>
+                            <l>It is the ground of age, when cares abuse it,</l>
+                            <l>To know life’s end, and, as ’tis sweet so use it.</l>
+                        </lg>
+                        <p rend="footnote text">Cf. also Richard Graves, <hi rend="italic">Spiritual Quixote</hi> (1772), Vol. II, ch. 2 (see 1820 edn.,
+                            II.7): ‘Our master does not deny us the use but only the abuse of his
+                            good creatures.’</p>
+                    </note> Above all be sure to retain the important
+                    sense which is couched under that expression. All the blessings I enjoy, <pb n="464"/>all I hope for in time and in eternity, are given wholly and solely
+                    for the sake of what Christ has done and suffered for me.</p>
+                <p>I would, secondly, add a few words to you who are fond of these expressions. And
+                    permit me to ask, Do not I allow enough? What can any reasonable man desire
+                    more? I allow the whole <hi rend="italic">sense</hi> which you contend for: that
+                    we have every blessing ‘through the righteousness of God our Saviour’.<note place="foot" xml:id="ftn82" n="82">
+                        <p rend="footnote text">Cf. 2 Pet.
+                            1:1.</p>
+                    </note> I allow <hi rend="italic">you</hi> to use whatever
+                    expressions you choose, and that a thousand times over; only guarding them
+                    against that dreadful abuse which you are as deeply concerned to prevent as I
+                    am. I myself frequently use the expression in question, ‘imputed righteousness’;
+                    and often put this and the like expressions into the mouth of a whole
+                    congregation. But allow me liberty of conscience herein: allow me the right of
+                    private judgment.<note place="foot" xml:id="ftn83" n="83">
+                        <p rend="footnote text">Cf. JWJ, Mar. 25, 1743; see also <hi rend="italic">The Old Whig: Or, the Consistent Protestant</hi> (1739), No. 4, in
+                            Vol. I, pp. 32-33.</p>
+                    </note> Allow me to use it just as often as I
+                    judge it preferable to any other expression. And be not angry with me if I
+                    cannot judge it proper to use any one expression every two minutes. <hi rend="italic">You</hi> may if you please; but do not condemn me because I do
+                    not. Do not for this represent me as a Papist, or ‘an enemy to the righteousness
+                    of Christ’.<note place="foot" xml:id="ftn84" n="84">
+                        <p rend="footnote text">Cf.
+                            Wesley’s letter to John Erskine, Apr. 24, 1765; see also his <hi rend="italic">Remarks on A Defence of…Aspasio
+                        Vindicated</hi>.</p>
+                    </note> Bear with <hi rend="italic">me</hi>, as I do
+                    with <hi rend="italic">you</hi>; else how shall we ‘fulfil the law of
+                        Christ’?<note place="foot" xml:id="ftn85" n="85">
+                        <p rend="footnote text">Gal. 6:2.</p>
+                    </note> Do not make tragical outcries, as though I was
+                    ‘subverting the very foundations of Christianity’. Whoever does this does me
+                    much wrong: the Lord lay it not to his charge!<note place="foot" xml:id="ftn86" n="86">
+                        <p rend="footnote text">See Acts 7:60.</p>
+                    </note> I lay, and have
+                    done for many years, the very same foundation with you. And indeed ‘other
+                    foundation can no man lay than that which is laid, even Jesus Christ.’<note place="foot" xml:id="ftn87" n="87">
+                        <p rend="footnote text">Cf. 1 Cor.
+                            3:11.</p>
+                    </note> I build inward and outward holiness thereon, as you do,
+                    even by faith. Do not therefore suffer any distaste, or unkindness, no, nor any
+                    shyness or coldness in your heart. If there were <hi rend="italic">a difference
+                        of opinion</hi>, where is our religion if we cannot <hi rend="italic">think
+                        and let think</hi>?<note place="foot" xml:id="ftn88" n="88">
+                        <p rend="footnote text">Cf. No. 7, ‘The Way to the Kingdom’, I.6 and
+                        n.</p>
+                    </note> What hinders but you may forgive <hi rend="italic">me</hi> as
+                    easily as I may forgive <hi rend="italic">you</hi>? How much more when there is
+                    only <hi rend="italic">a difference of expression</hi>? Nay, hardly so much as
+                    that—all the dispute being only whether a particular mode of expression shall be
+                    used <hi rend="italic">more or less frequently</hi>! <pb n="465"/>Surely we must
+                    earnestly desire to contend with one another before we can make this a bone of
+                    contention! O let us not any more for such very trifles as these give our common
+                    enemies room to blaspheme!<note place="foot" xml:id="ftn89" n="89">
+                        <p rend="footnote text">See 2 Sam. 12:14.</p>
+                    </note> Rather let us at
+                    length cut off occasion from them that seek occasion!<note place="foot" xml:id="ftn90" n="90">
+                        <p rend="footnote text">See 2 Cor. 11:12.</p>
+                    </note>
+                    Let us at length (O why was it not done before?) join hearts and hands in the
+                    service of our great Master. As we have ‘one Lord, one faith, one hope of our
+                        calling’,<note place="foot" xml:id="ftn91" n="91">
+                        <p rend="footnote text">Cf. Eph. 4:4-5.</p>
+                    </note> let us all strengthen each other’s hands in
+                    God, and with one heart and one mouth declare to all mankind, ‘the Lord our
+                    righteousness’.</p>
+            </div>
+        </body>
+    </text>
+</TEI>

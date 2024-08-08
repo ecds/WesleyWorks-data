@@ -1,0 +1,1345 @@
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Sermon 25: Upon Our Lord’s Sermon On The Mount, Discourse V</title>
+                <author>Wesley, John</author>
+                <editor role="text">Van Buskirk, Gregory P.</editor>
+                <editor role="digital">Taylor, Michelle M.</editor>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>The Wesley Works Digitzation Project</publisher>
+                <pubPlace>Tampa, FL</pubPlace>
+                <date>2024-02-25</date>
+             <idno type="URI">https://wesleyworks.ecdsdev.org/sermons/Sermon025</idno>                   
+            </publicationStmt>
+            <sourceDesc>
+                <listBibl>
+                    <biblStruct>
+                        <analytic>
+                            <title level="a">Sermon 25: Upon Our Lord’s Sermon On The Mount,
+                                Discourse V</title>
+                        </analytic>
+                        <monogr>
+                            <title level="j">The Works of John Wesley, Volume I: Sermons I,
+                                1-33</title>
+                            <editor role="volume">Outler, Albert</editor>
+                            <imprint>
+                                <publisher>Abingdon Press</publisher>
+                                <pubPlace>Nashville, TN</pubPlace>
+                                <date when="2015-05-01">1984-05-01</date>
+                                <biblScope unit="volume" n="1"/>
+                                <biblScope unit="page" from="466" to="469"/>
+                                <biblScope unit="page" from="550" to="571"/>
+                            </imprint>
+                        </monogr>
+                        <series>
+                            <title level="s">The Works of John Wesley</title>
+                            <editor role="general">Baker, Frank</editor>
+                        </series>
+                    </biblStruct>
+                </listBibl>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Greg Van Buskirk created Word docs for all of Wesley's sermons using a combination of
+                OCR software and manual proofing. Michelle Taylor converted these docx into XML
+                using Oxygen's DITA automatic transformation scenario, then touched them up
+                manually.</p>
+        </encodingDesc>
+        <standOff>
+            <taxonomy>
+                <keywords>
+                    <term/>
+                </keywords>
+            </taxonomy>
+            <!--Include keywords and terms here eventually.-->
+        </standOff>
+        <revisionDesc/>
+    </teiHeader>
+    <text>
+        <body>
+            <pb n="466"/>
+            <introduction>
+                <!--Confirm introduction is the element I want to use here, especially given that I
+                    use it as an attribute for Wesley's introductory paragraphs as well.-->
+                <head>
+                    <hi rend="italic">An Introductory Comment [to Sermons 21-33]</hi>
+                </head>
+                <p>The unifying theme of these next thirteen ‘discourses’ on the Sermon on the
+                    Mount, with all their variations and nuancings, is the Christian life understood
+                    as the fruit of justifying faith. But given such faith, what follows? Wesley’s
+                    answer is given in this extended exposition of the Christian life based on the
+                        <hi rend="italic">locus classicus</hi> of evangelical ethics, ‘The Sermon on
+                    the Mount’ (i.e., Matthew 5-7). Since Tyndale, this ‘sermon’ had been understood
+                    as ‘the epitome of God’s laws and promises’ for Christian believers; cf.
+                    Clebsch, <hi rend="italic">England’s Earliest Protestants</hi>, p. 184; see also
+                    William Burkitt, <hi rend="italic">Expository Notes…on the New Testament</hi>
+                    (eleven editions between 1700 and 1739), Preface to chapter 5: ‘Christ’s famous
+                    Sermon on the Mount comprehends the sum and substance of both the Old and New
+                    Testaments.’</p>
+                <p>Taken together, the following sermons are not a thirteen-part essay, tightly
+                    organized and argued. Instead, they are separate sermons, drawn from materials
+                    running back to 1725, arranged in a triadic pattern that seems to have been
+                    original with Wesley. Each is a discourse in its own right; yet the series is
+                    designed so that each appears as a part of a whole. This means that the sermons
+                    may be read singly or together, but with an eye on their shared aim: ‘to assert
+                    and prove every branch of <hi rend="italic">gospel obedience</hi> as
+                    indispensably necessary to eternal salvation’; cf. Wesley’s open letter (Nov.
+                    17, 1759) to John Downes in reply to the latter’s abusive <hi rend="italic">Methodism Examined and Exposed</hi> (1759).</p>
+                <p>Many of the great and near-great commentators of the seventeenth and eighteenth
+                    centuries had devoted their talents to the interpretation of Matthew 5-7 as the
+                    principal summary of Christian ethics, or, in Henry Hammond’s phrase, as ‘an
+                    abstract of Christian philosophy’; cf. his <hi rend="italic">Practical
+                        Catechism</hi> (1st edn., <hi rend="italic">c.</hi> 1644), II.1, in the <hi rend="italic">Library of Anglo-Catholic Theology</hi> (1847), p. 83. Chief
+                    among these earlier works, in the order of their influences upon Wesley’s
+                    thought, were Bishop Offspring Blackall, ‘Eighty-Seven Practical Discourses Upon
+                    Our Saviour’s Sermon on the Mount’, <hi rend="italic">Works</hi>, I.1-561;
+                    II.609-939; <pb n="467"/>John Norris, <hi rend="italic">Practical
+                        Discourses</hi>; the American, James Blair, <hi rend="italic">Our Saviour’s
+                        Divine Sermon on the Mount in IV Volumes</hi> (1722; 2nd edn., 1740, with a
+                    preface by Daniel Waterland); John Cardinal Bona, <hi rend="italic">Guide to
+                        Eternity…</hi> (six editions in English between 1672 and 1712); and Henry
+                    Hammond, <hi rend="italic">op. cit.</hi> Echoes of all these are scattered along
+                    the way, together with lesser borrowings from Bengel, Poole, and Henry. This
+                    makes it all the more remarkable that Wesley came up with a model of his own,
+                    both inform and substance. This series thus reminds us, yet again, of Wesley’s
+                    ready appeal to tradition—even while he maintains his own originality and
+                    independence.</p>
+                <p>Benjamin Ingham records in his Journal that ‘during the voyage [to Georgia]
+                    Wesley went over our Saviour’s Sermon on the Mount’ with the ship’s company
+                    aboard the <hi rend="italic">Simmonds</hi>. There are also other records of his
+                    preaching, very early on, from one or another text in Matthew 5-7. For example,
+                    his second sermon was preached at Binsey (near Oxford), November 21, 1725, on
+                    Matt. 6:33. A first draft of the sermon which appears here as ‘Discourse VIII’
+                    seems to have been written out in 1736. Later, it was the example of the Sermon
+                    on the Mount that encouraged Wesley to break out of his High Church prejudices
+                    in Bristol, April 1, 1739: ‘In the evening (Mr. Whitefield being gone) I begun
+                    expounding our Lord’s Sermon on the Mount (one pretty remarkable precedent of
+                        <hi rend="italic">field preaching</hi>, though I suppose <hi rend="italic">there were churches</hi> at that time also) to a little society which was
+                    accustomed to meet once or twice a week in Nicholas Street;’ cf. <hi rend="italic">Journal</hi> entries for this whole story of the unplanned
+                    outbreak of the Wesleyan Revival.</p>
+                <p>The records show that, between 1739 and 1746, Wesley preached more than one
+                    hundred sermons from separate texts in the Sermon on the Mount. There is,
+                    however, no recorded instance of his having treated that Sermon as a whole
+                    anywhere else. Evidently, he was prepared to allow this series, once published,
+                    to stand as his sufficient comment on the subject.</p>
+                <p>In his introduction to ‘Discourse X’, §§1-3, Wesley repeats his explanation (cf.
+                    ‘Discourse I’, Proem, §10) of how he had conceived the design of Matthew 5-7,
+                    according to its three unfolding themes: (1) ‘the sum of true religion’; (2)
+                    ‘rules touching that right intention which we are to preserve in all our outward
+                    actions’; and (3) ‘the main hindrances of this religion’. He then adds a
+                    clarifying summary: ‘In the fifth chapter [of St. Matthew] our great Teacher…has
+                    laid before us those <hi rend="italic">dispositions of the soul</hi> which
+                    constitute real Christianity…. In the sixth [chapter] he has shown how all our
+                        <hi rend="italic">actions</hi>…may be made holy, and good, and acceptable to
+                    God, by a pure and holy intention…. In <pb n="468"/>the former part of [ch. 7]
+                    he points out the most common and fatal hindrances of this holiness; in the
+                    latter [part] he exhorts us, by various motives, to break through all [such
+                    hindrances] and secure that prize of our high calling [of God in Christ Jesus]’
+                    (cf. Phil. 3:14).</p>
+                <p>The thirteen discourses are divided almost equally over the three chapters of St.
+                    Matthew: five for chapter five, four each for six and seven. Of the first five,
+                    Discourse I is devoted to the first two Beatitudes; Discourse II to Beatitudes
+                    three through five (with a hymn to love based on 1 Cor. 13); Discourse III to
+                    the remainder of the Beatitudes; Discourse IV turns to Christianity as ‘a social
+                    religion’ in which inward holiness (our love of God) prompts outward holiness
+                    (love of neighbour); Discourse V is a balancing of law <hi rend="italic">and</hi> gospel. Discourses VI-IX are based on chapter six: VI to the
+                    problems of purity and holiness of intention (to the ‘works of piety and of
+                    mercy’); VII to fasting; VIII to a denunciation of greed and surplus
+                    accumulation; IX to the mutually exclusive services of God and Mammon.
+                    Discourses X-XIII turn to various hindrances to holy living and to their
+                    avoidance: X to ‘judging’ (contrary to love), ‘intemperate zeal’, ‘neglect of
+                    prayer’, ‘neglect of charity’; XI to the noxious influences of ill-example and
+                    ill-advice with which the world deludes us; XII to false prophets and unedifying
+                    preachers (and yet also our duties to attend church nonetheless and to avail
+                    ourselves of all means of grace); XIII is an inevitable comment on the parable
+                    of the houses built on sand and rock. Discourse XII was also published
+                    separately in the same year that it appeared in <hi rend="italic">SOSO</hi>, III
+                    (1750), under the title, ‘A Caution Against False Prophets. A Sermon on Matt.
+                    vii. 15-20. Particularly recommended to the People Called Methodists’. This went
+                    through seven editions during Wesley’s lifetime. For a stemma delineating the
+                    publishing history of that sermon (‘collected’ and ‘separate’) and a list of
+                    variant readings, see Appendix, ‘Wesley’s Text’, Vol. IV, see also <hi rend="italic">Bibliog</hi>, Nos. 130 and 13o.i.</p>
+                <p>Obviously there is no interest, in any of these sermons, in critical textual
+                    problems or in the historical context. Everywhere it is assumed that in St.
+                    Matthew’s text we are dealing with divine <hi rend="italic">ipsissima
+                    verba</hi>—i.e., with a direct address from ὁ ὤν, ‘the self-existent, the
+                    Supreme, the God who is over all, blessed for ever’ (§9 below). The Sermon on
+                    the Mount, in Wesley’s view, is the only Gospel passage where Christ designed
+                    ‘to lay down at once the whole plan of his religion, to give us a full prospect
+                    of Christianity’. What matters most in our reading, therefore, is an awareness
+                    of Wesley’s sense of the wholeness of the message he is interpreting, of his
+                    conviction of the honest integration of an evangel profoundly ethical with an
+                    ethic that is also vividly <pb n="469"/>evangelical. Maybe more than anywhere
+                    else in <hi rend="italic">SOSO</hi> this particular bloc displays Wesley’s
+                    distinctive concern for integration and balance—between the faith that justifies
+                    and the faith that works by love.</p>
+            </introduction>
+            <pb n="550"/>
+            <head>Upon our Lord’s Sermon on the Mount,<lb/>Discourse the Fifth</head>
+            <epigraph>
+                <p>Matthew 5:17-20</p>
+                <p>
+                    <hi rend="italic">Think not that I am come to destroy the law or the prophets: I
+                        am not come to destroy, but to fulfil.</hi>
+                </p>
+                <p>
+                    <hi rend="italic">For verily I say unto you, Till heaven and earth pass, one jot
+                        or one tittle shall in no wise pass from the law, till all be
+                        fulfilled.</hi>
+                </p>
+                <p>
+                    <hi rend="italic">Whosoever therefore shall break one of these least
+                        commandments, and shall teach men so, he shall be called the least in the
+                        kingdom of heaven; but whosoever shall do and teach them, the same shall be
+                        called great in the kingdom of heaven.</hi>
+                </p>
+                <p>
+                    <hi rend="italic">For verily I say unto you, That except your righteousness shall
+                        exceed the righteousness of the scribes and Pharisees, ye shall in no case
+                        enter into the kingdom of heaven.</hi>
+                </p>
+            </epigraph>
+            <div type="introduction">
+                <p n="1">1. Among the multitude of reproaches which fell upon him who was ‘despised
+                    and rejected of men’,<note place="foot" xml:id="ftn1" n="1">
+                        <p rend="footnote text">Isa. 53:3.</p>
+                    </note> it could not fail to be one
+                    that he was a teacher of novelties, an introducer of a <hi rend="italic">new
+                        religion</hi>.<note place="foot" xml:id="ftn2" n="2">
+                        <p rend="footnote text">Such a charge, if true, would have been devastating in Wesley’s eyes,
+                            since he regarded novelty in doctrine as prima facie evidence of error;
+                            cf. No. 13, <hi rend="italic">On Sin in Believers</hi>, III.9 (‘Whatever
+                            doctrine is <hi rend="italic">new</hi> must be <hi rend="italic">wrong</hi>’); and his letter to Mary Stokes, Aug. 10, 1772: a thing
+                            that is ‘wholly new is therefore wholly wrong’. In No. 17, ‘The
+                            Circumcision of the Heart’, §1, he had emphatically denied that he was
+                            ‘a setter forth of new doctrine’ and would warn against doctrinal
+                            innovations in later sermons; cf. Nos. 78, ‘Spiritual Idolatry’, I.7
+                            ff.; and 84, <hi rend="italic">The Important Question</hi>, III.8; and
+                            see also a very late letter to Walter Churchey, June 20, 1789: ‘In
+                            religion I am for as few innovations as possible.’ In all this he was
+                            reflecting the basic Anglican attitude toward <hi rend="italic">tradition</hi> (‘Christian antiquity’); the same perspective had
+                            been echoed by Stillingfleet, Addison, South, and others—harking back to
+                            the Vincentian Canon, ‘<hi rend="italic">Consensus veterum: quod ab
+                                omnibus, quod ubique, quod semper creditum</hi>’ (‘the ancient
+                            consensus: what has been believed by all, everywhere and always’). Cf.
+                                <hi rend="italic">The Commonitory of Vincent of Lerins</hi> (A.D.
+                            435), §6 [ch. II].</p>
+                    </note> This might be affirmed with the more
+                    colour because many of the expressions he had used were not common among the
+                    Jews: either they did not use them at all, or not in the same sense, not in so
+                    full and strong a meaning. Add to this that the worshipping <pb n="551"/>God ‘in
+                    spirit and in truth’<note place="foot" xml:id="ftn3" n="3">
+                        <p rend="footnote text">John 4:23, 24.</p>
+                    </note> must always appear a new
+                    religion to those who have hitherto known nothing but outside worship, nothing
+                    but the ‘form of godliness’.<note place="foot" xml:id="ftn4" n="4">
+                        <p rend="footnote text">2 Tim. 3:5.</p>
+                    </note>
+                </p>
+                <p n="2">2. And ’tis not improbable some might hope it was so, that he was
+                    abolishing the old religion and bringing in another, one which they might
+                    flatter themselves would be an easier way to heaven. But our Lord refutes in
+                    these words both the vain hopes of the one and the groundless calumnies of the
+                    other.</p>
+                <p>I shall consider them in the same order as they lie, taking each verse for a
+                    distinct head of discourse.</p>
+            </div>
+            <div type="section" n="1">
+                <p n="1">I. 1. And, first, ‘think not that I am come to destroy the law or the
+                    prophets. I am not come to destroy, but to fulfil.’</p>
+                <p>The ritual or ceremonial law delivered by Moses to the children of Israel,
+                    containing all the injunctions and ordinances which related to the old
+                    sacrifices and service of the temple, our Lord indeed did come to destroy, to
+                    dissolve and utterly abolish. To this bear all the apostles witness: not only
+                    Barnabas and Paul, who vehemently withstood those who taught that Christians
+                    ought ‘to keep the law of Moses’;<hi rend="endnote_reference">
+                        <note place="end">
+                            <p rend="endnote text">Acts 15:5.</p>
+                        </note>
+                    </hi> not only St.
+                    Peter, who termed the insisting on this, on the observance of the ritual law,
+                    a[s] ‘tempting God, and putting a yoke upon the neck of the disciples which
+                    neither our fathers (saith he) nor we were able to bear’;<hi rend="endnote_reference">
+                        <note place="end">
+                            <p rend="endnote text">Acts
+                                15:10.</p>
+                        </note>
+                    </hi> but ‘all the apostles, elders, and brethren,
+                    […] being assembled with one accord’, declared that to command them to keep this
+                    law was to ‘subvert their souls’; and that ‘it seemed good to the Holy Ghost and
+                    to them to lay no such burden upon them.’<hi rend="endnote_reference">
+                        <note place="end">
+                            <p rend="endnote text">Ver. 24, etc. [Acts
+                            15:22-28.]</p>
+                        </note>
+                    </hi> This ‘handwriting of ordinances our Lord did
+                    blot out, take away, and nail to his cross.’<note place="foot" xml:id="ftn5" n="5">
+                        <p rend="footnote text">Cf. Col. 2:14.</p>
+                    </note>
+                </p>
+                <p n="2">2. But the moral law, contained in the Ten Commandments, and enforced by
+                    the prophets, he did not take away. It was not the design of his coming to
+                    revoke any part of this. This is a law which never can be broken, which ‘stands
+                    fast as the faithful witness in heaven’.<note place="foot" xml:id="ftn6" n="6">
+                        <p rend="footnote text">Ps. 89:36 (BCP).</p>
+                    </note> The moral stands on
+                    an entirely different foundation from the ceremonial or ritual law, which was
+                    only designed for a temporary restraint upon a disobedient and stiff-necked
+                    people; <pb n="552"/>whereas this was from the beginning of the world, being
+                    ‘written not on tables of stone’<note place="foot" xml:id="ftn7" n="7">
+                        <p rend="footnote text">Cf. 2 Cor. 3:3.</p>
+                    </note> but on the hearts of all
+                    the children of men when they came out of the hands of the Creator. And however
+                    the letters once wrote by the finger of God<note place="foot" xml:id="ftn8" n="8">
+                        <p rend="footnote text">See Exod. 31:18; Deut. 9:10.</p>
+                    </note> are
+                    now in a great measure defaced by sin, yet can they not wholly be blotted out
+                    while we have any consciousness of good and evil. Every part of this law must
+                    remain in force, upon all mankind, and in all ages; as not depending either on
+                    time or place, or any other circumstances liable to change, but on the nature of
+                    God and the nature of man, and their unchangeable relation to each other.</p>
+                <p n="3">3. ‘I am not come to destroy, but to fulfil.’ Some have conceived our Lord
+                    to mean, I am come to fulfil this by my entire and perfect obedience to it. And
+                    it cannot be doubted but he did in this sense fulfil every part of it.<note place="foot" xml:id="ftn9" n="9">
+                        <p rend="footnote text">A special point of
+                            Blackall’s in Discourse XIX, <hi rend="italic">Works</hi>,
+                        I.174-77.</p>
+                    </note> But this does not appear to be what he intends here,
+                    being foreign to the scope of his present discourse. Without question his
+                    meaning in this place is (consistently with all that goes before and follows
+                    after): I am come to establish it in its fullness, in spite of all the glosses
+                    of men; I am come to place in a full and clear view whatsoever was dark or
+                    obscure therein; I am come to declare the true and full import of every part of
+                    it; to show the length and breadth, the entire extent of every commandment
+                    contained therein, and the height and depth, the inconceivable purity and
+                    spirituality of it in all its branches.<note place="foot" xml:id="ftn10" n="10">
+                        <p rend="footnote text">A move beyond the prevailing interpretations,
+                            as in Tillotson, Henry, and Poole; cf. Poole, <hi rend="italic">Annotations</hi>, where Jesus’s word is paraphrased thus, ‘I am
+                            come to fulfil [the Moral Law] by yielding myself a personal obedience
+                            to it, by giving a fuller and stricter interpretation of it.’ Henry’s
+                            comment here is to the same effect. For Wesley’s view of the exalted
+                            status of ‘the Moral Law’, see below, Nos. 34-36, but especially the
+                            passage on ‘the nature of the Law’ in No. 34, ‘The Original, Nature,
+                            Properties, and Use of the Law’, II.1-6.</p>
+                    </note>
+                </p>
+                <p n="4">4. And this our Lord has abundantly performed in the preceding and
+                    subsequent parts of the discourse before us, in which he has not introduced a
+                    new religion into the world, but the same which was from the beginning: a
+                    religion the substance of which is, without question, ‘as old as the
+                        creation’;<note place="foot" xml:id="ftn11" n="11">
+                        <p rend="footnote text">Cf. Eusebius, <hi rend="italic">Ecclesiastical History</hi>, I.4(4-10):
+                            ‘Our [Christian] manner of life and mode of conduct, together with our
+                            religious principles, have not been just now invented by us, but from
+                            the first creation of man were established by the innate ideas of those
+                            men of old whom God loved….’ Matthew Tindal had given this old idea a
+                            deistic twist in his <hi rend="italic">Christianity as Old as
+                                Creation</hi> (1730); Wesley harks back to the original—the moral
+                            law <hi rend="italic">is</hi> ‘coeval with man’ but is, and has always
+                            been, <hi rend="italic">supernatural</hi> in its origins and
+                            sanctions.</p>
+                    </note> being coeval <pb n="553"/>with man, and having
+                    proceeded from God at the very time when ‘man became a living soul’.<note place="foot" xml:id="ftn12" n="12">
+                        <p rend="footnote text">Gen.
+                        2:7.</p>
+                    </note> (The substance, I say, for some circumstances of it now
+                    relate to man as a fallen creature); a religion witnessed to both by the law and
+                    by the prophets in all succeeding generations. Yet was it never so fully
+                    explained nor so throughly understood till the great Author of it himself
+                    condescended to give mankind this authentic comment on all the essential
+                    branches of it; at the same time declaring it should never be changed, but
+                    remain in force to the end of the world.</p>
+            </div>
+            <div type="section" n="2">
+                <p n="1">II. 1. ‘For verily I say unto you’ (a solemn preface, which denotes both
+                    the importance and certainty of what is spoken), ‘Till heaven and earth pass,
+                    one jot or one tittle shall in no wise pass from the law till all be
+                        fulfilled.’<note place="foot" xml:id="ftn13" n="13">
+                        <p rend="footnote text">Matt. 5:18.</p>
+                    </note>
+                </p>
+                <p>‘One jot’—it is literally, <hi rend="italic">not one iota</hi>, not the most
+                    inconsiderable vowel; ‘or one tittle’, μία κεραία, one corner, or point of a
+                    consonant. It is a proverbial expression which signifies that no one commandment
+                    contained in the moral law, nor the least part of one, however inconsiderable it
+                    might seem, should ever be disannulled.<note place="foot" xml:id="ftn14" n="14">
+                        <p rend="footnote text">I.e., ‘cancelled’; cf. III.8, below, for a
+                            similar usage. See also <hi rend="italic">OED</hi>.</p>
+                    </note>
+                </p>
+                <p>‘Shall in no wise pass from the law;’ οὐ μὴ παρέλθῃ ἀπὸ τοῦ νόμοῦ. The double
+                    negative here used strengthens the sense so as to admit of no contradiction. And
+                    the word παρέλθῃ, it may be observed, is not barely <hi rend="italic">future</hi>, declaring what <hi rend="italic">will</hi> be; but has
+                    likewise the force of an <hi rend="italic">imperative</hi>, ordering what <hi rend="italic">shall</hi> be. It is a word of authority, expressing the
+                    sovereign will and power of him that spake, of him whose word is the law of
+                    heaven and earth, and stands fast for ever and ever.<note place="foot" xml:id="ftn15" n="15">
+                        <p rend="footnote text">Cf. Isa. 40:8. For Wesley’s
+                            overconfident way with future indicative and imperative forms in Greek,
+                            cf. No. 16, ‘The Means of Grace’, III.7 and n.</p>
+                    </note>
+                </p>
+                <p>‘One jot or one tittle shall in no wise pass till heaven and earth pass;’ or as
+                    it is expressed immediately after, ἕως ἂν πάντα γένηται, ‘till all’ (or rather,
+                        <hi rend="italic">all things</hi>) ‘be fulfilled’, till the consummation of
+                    all things. Here is therefore no room for that poor evasion (with which some
+                    have delighted themselves greatly) that ‘no part of the law was to pass away
+                    till <hi rend="italic">all the law</hi> was fulfilled; but it has been fulfilled
+                    by Christ, and therefore now must pass, <pb n="554"/>for the gospel to be
+                        established.’<note place="foot" xml:id="ftn16" n="16">
+                        <p rend="footnote text">Wesley’s paraphrase of the substance of the
+                            antinomian argument cast in the form of a syllogism.</p>
+                    </note> Not so;
+                    the word ‘all’ does not mean all the law, but all things in the universe; as
+                    neither has the term ‘fulfilled’ any reference to the law, but to all things in
+                    heaven and earth.</p>
+                <p n="2">2. From all this we may learn that there is no contrariety at all between
+                    the law and the gospel; that there is no need for the law to pass away in order
+                    to the establishing of the gospel. Indeed neither of them supersedes the other,
+                    but they agree perfectly well together. Yea, the very same words, considered in
+                    different respects, are parts both of the law and of the gospel. If they are
+                    considered as commandments, they are parts of the law: if as promises, of the
+                    gospel. Thus, ‘Thou shalt love the Lord thy God with all thy heart,’<note place="foot" xml:id="ftn17" n="17">
+                        <p rend="footnote text">Deut. 6:5; Matt.
+                            22:37, etc.</p>
+                    </note> when considered as a commandment, is a branch of
+                    the law; when regarded as a promise, is an essential part of the gospel—the
+                    gospel being no other than the commands of the law proposed by way of
+                        promises.<note place="foot" xml:id="ftn18" n="18">
+                        <p rend="footnote text">A
+                            prime rule for Wesley’s hermeneutics: no command apart from a promise of
+                            grace; no promise without an implied moral responsibility. Its probable
+                            source: Thomas Drayton, <hi rend="italic">The Proviso or Condition of
+                                the Promises</hi> (1657), pp. 1-2. Cf. also Nos. 27, ‘Sermon on the
+                            Mount, VII’, II.12; 76, ‘On Perfection’, II.1-2, 11; and 101, ‘The Duty
+                            of Constant Communion’, II.3. See also Wesley’s letter to Ebenezer
+                            Blackwell (?), Dec. 20, 1751.</p>
+                    </note> Accordingly poverty of spirit,
+                    purity of heart, and whatever else is enjoined in the holy law of God, are no
+                    other, when viewed in a gospel light, than so many great and precious
+                        promises.<note place="foot" xml:id="ftn19" n="19">
+                        <p rend="footnote text">See 2 Pet. 1:4.</p>
+                    </note>
+                </p>
+                <p n="3">3. There is therefore the closest connection that can be conceived between
+                    the law and the gospel.<note place="foot" xml:id="ftn20" n="20">
+                        <p rend="footnote text">For a fuller development of this thesis, see below,
+                            Nos. 34-36.</p>
+                    </note> On the one hand the law continually makes way for
+                    and points us to the gospel; on the other the gospel continually leads us to a
+                    more exact fulfilling of the law. The law, for instance, requires us to love
+                    God, to love our neighbour, to be meek, humble, or holy. We feel that we are not
+                    sufficient for these things, yea, that ‘with man this is impossible.’<note place="foot" xml:id="ftn21" n="21">
+                        <p rend="footnote text">Cf. Matt.
+                            19:26.</p>
+                    </note> But we see a promise of God to give us that love, and
+                    to make us humble, meek, and holy. We lay hold of this gospel, of these glad
+                    tidings: it is done unto us according to our faith, and ‘the righteousness of
+                    the law is fulfilled in us’<note place="foot" xml:id="ftn22" n="22">
+                        <p rend="footnote text">Cf. Rom. 8:4.</p>
+                    </note> through faith which is in
+                    Christ Jesus.</p>
+                <p>We may yet farther observe that every command in Holy Writ is <pb n="555"/>only a
+                    covered promise. For by that solemn declaration, ‘This is the covenant I will
+                    make after those days, saith the Lord; I will put my laws in your minds, and
+                    write them in your hearts,’<note place="foot" xml:id="ftn23" n="23">
+                        <p rend="footnote text">Cf. Heb. 10:16.</p>
+                    </note> God hath engaged to give
+                    whatsoever he commands. Does he command us then to ‘pray without ceasing’?<note place="foot" xml:id="ftn24" n="24">
+                        <p rend="footnote text">1 Thess.
+                            5:17.</p>
+                    </note> To ‘rejoice evermore’?<note place="foot" xml:id="ftn25" n="25">
+                        <p rend="footnote text">1 Thess. 5:16.</p>
+                    </note> To be ‘holy as he
+                    is holy’?<note place="foot" xml:id="ftn26" n="26">
+                        <p rend="footnote text">Cf. 1
+                            Pet. 1:16.</p>
+                    </note> It is enough. He will work in us this very thing.
+                    It shall be unto us according to his word.<note place="foot" xml:id="ftn27" n="27">
+                        <p rend="footnote text">See Luke 1:38.</p>
+                    </note>
+                </p>
+                <p n="4">4. But if these things are so, we cannot be at a loss what to think of
+                    those who in all ages of the church have undertaken to change or supersede some
+                    commands of God, as they professed, by the peculiar direction of his Spirit.
+                    Christ has here given us an infallible rule whereby to judge of all such
+                    pretentions. Christianity, as it includes the whole moral law of God, both by
+                    way of injunction and of promise, if we will hear him, is designed of God to be
+                    the last of all his dispensations. There is no other to come after this. This is
+                    to endure till the consummation of all things. Of consequence all such new
+                    revelations are of Satan, and not of God; and all pretences to another more
+                    perfect dispensation fall to the ground of course. ‘Heaven and earth shall pass
+                    away; but this word shall not pass away.’<note place="foot" xml:id="ftn28" n="28">
+                        <p rend="footnote text">Cf. Luke 21:33.</p>
+                    </note>
+                </p>
+            </div>
+            <div type="section" n="3">
+                <p n="1">III. 1. ‘Whosoever therefore shall break one of these least commandments,
+                    and shall teach men so, he shall be called the least in the kingdom of heaven;
+                    but whosoever shall do and teach them, the same shall be called great in the
+                    kingdom of heaven.’<note place="foot" xml:id="ftn29" n="29">
+                        <p rend="footnote text">Matt. 5:19.</p>
+                    </note>
+                </p>
+                <p>Who, what are they that make ‘the preaching of the law’ a character of reproach?
+                    Do they not see on whom their reproach must fall? On whose head it must light at
+                    last? Whosoever on this ground despiseth us, despiseth him that sent us.<note place="foot" xml:id="ftn30" n="30">
+                        <p rend="footnote text">See Luke
+                            10:16.</p>
+                    </note> For did ever any man preach the law like him? Even
+                    when he ‘came not to condemn but to save the world’;<note place="foot" xml:id="ftn31" n="31">
+                        <p rend="footnote text">Cf. John 3:17;
+                        12:47.</p>
+                    </note> when he came purposely to bring ‘life and immortality to
+                    light through the gospel’.<note place="foot" xml:id="ftn32" n="32">
+                        <p rend="footnote text">2 Tim. 1:10.</p>
+                    </note> Can any ‘preach the law’
+                    more expressly, more rigorously, than Christ does in these words? And who is he
+                    that shall amend them? Who is he that shall instruct the Son of God how to
+                    preach? Who will teach him a better way of delivering the message which he hath
+                    received of the Father?</p>
+                <p n="2">
+                    <pb n="556"/>2. ‘Whosoever shall break one of these least commandments’, or
+                    one of the least of these commandments. ‘These commandments’, we may observe, is
+                    a term used by our Lord as equivalent with ‘the law’, or the ‘law and the
+                    prophets’, which is the same thing, seeing the prophets added nothing to the
+                    law, but only declared, explained, or enforced it, as they were moved by the
+                    Holy Ghost.<note place="foot" xml:id="ftn33" n="33">
+                        <p rend="footnote text">2
+                            Pet. 1:21.</p>
+                    </note>
+                </p>
+                <p>‘Whosoever shall break one of these least commandments’, especially if it be done
+                    wilfully or presumptuously. <hi rend="italic">One</hi>—for ‘he that keepeth the
+                    whole law and’ thus ‘offends in one point, is guilty of all:’<note place="foot" xml:id="ftn34" n="34">
+                        <p rend="footnote text">Cf. Jas. 2:10.</p>
+                    </note> the
+                    wrath of God abideth on him<note place="foot" xml:id="ftn35" n="35">
+                        <p rend="footnote text">John 3:36.</p>
+                    </note> as surely as if he had broken
+                    every one. So that no allowance is made for one darling lust;<note place="foot" xml:id="ftn36" n="36">
+                        <p rend="footnote text">A seventeenth- and
+                            eighteenth-century cliché repeated by John Bunyan, John Dryden, Francis
+                            Atterbury, Samuel Annesley, Robert Bolton, Thomas Fuller, Richard Lucas,
+                            Robert South, and others, with such variations as ‘darling sins’, ‘bosom
+                            sins’, etc. Cf. Matthew Mead, <hi rend="italic">The Almost Christian
+                                Discovered</hi>, p. 107: ‘There is a natural man, let him go never
+                            so far, let him go never so much in matters of religion; but still he
+                            hath his Dalilah, his bosom-lust;’ on p. 130 he repeats the point:
+                            ‘…every lust, every darling, every beloved sin…’. For other usages in
+                            Wesley, cf. Nos. 48, ‘Self-denial’, II.2-3; 62, ‘The End of Christ’s
+                            Coming’, §1; and 142, ‘The Wisdom of Winning Souls’, II.7. In No. 135,
+                            ‘On Guardian Angels’, proem, ¶2, Wesley speaks of ‘darling bodies’; in
+                            No. 31, ‘Sermon on the Mount, XI’, I.3, he speaks of ‘parent
+                        sins’.</p>
+                    </note> no reserve for one idol; no excuse for refraining from all
+                    besides, and only giving way to one bosom sin. What God demands is an entire
+                    obedience; we are to have an eye to all his commandments; otherwise we lose all
+                    the labour we take in keeping some, and our poor souls for ever and ever.</p>
+                <p>‘One of these least’, or one of the least of these ‘commandments’. Here is
+                    another excuse cut off, whereby many, who cannot deceive God, miserably deceive
+                    their own souls. ‘This sin, saith the sinner, is it not a little one? Will not
+                    the Lord spare me in this thing? Surely he will not be extreme to mark this,
+                    since I do not offend in the greater matters of the law.’ Vain hope! Speaking
+                    after the manner of men we may term these great, and those little commandments.
+                    But in reality they are not so. If we use propriety of speech there is no such
+                    thing as a little sin, every sin being a transgression of the holy and perfect
+                    law, and an affront of the great majesty of heaven.</p>
+                <p n="3">3. ‘And shall teach men so’—In some sense it may be said that whosoever
+                    openly breaks any commandment teaches others to do <pb n="557"/>the same; for
+                    example speaks, and many times louder than precept. In this sense it is apparent
+                    every open drunkard is a teacher of drunkenness; every sabbath-breaker is
+                    constantly teaching his neighbour to profane the day of the Lord. But this is
+                    not all; an habitual breaker of the law is seldom content to stop here. He
+                    generally teaches other men to do so too, by word as well as example; especially
+                    when he hardens his neck, and hateth to be reproved. Such a sinner soon
+                        commences<note place="foot" xml:id="ftn37" n="37">
+                        <p rend="footnote text">This is the academic usage of ‘commence’; i.e., ‘graduates to the
+                            status of…’. Cf. No. 41, <hi rend="italic">Wandering Thoughts</hi>,
+                            III.4, where Wesley again uses ‘commence’ in this sense.</p>
+                    </note> an
+                    advocate for sin: he defends what he is resolved not to forsake. He excuses the
+                    sin which he will not leave, and thus directly teaches every sin which he
+                    commits.</p>
+                <p>‘He shall be called least in the kingdom of heaven’—that is, shall have no part
+                        therein.<note place="foot" xml:id="ftn38" n="38">
+                        <p rend="footnote text">Heylyn’s point: ‘<hi rend="italic">minimus in regno caelorum</hi>’ has
+                            here the force of <hi rend="italic">minimé</hi> and imports an exclusion
+                            from the gospel dispensation (<hi rend="italic">Theological
+                                Lectures</hi>, I.76). Wesley repeats his own phrase here in his <hi rend="italic">Notes</hi>.</p>
+                    </note> He is a stranger to the kingdom
+                    of heaven which is on earth; he hath no portion in that inheritance; no share of
+                    that righteousness and peace and joy in the Holy Ghost.<note place="foot" xml:id="ftn39" n="39">
+                        <p rend="footnote text">Rom. 14:17.</p>
+                    </note> Nor by
+                    consequence can he have any part in the glory which shall be revealed.<note place="foot" xml:id="ftn40" n="40">
+                        <p rend="footnote text">Rom.
+                        8:18.</p>
+                    </note>
+                </p>
+                <p n="4">4. But if those who even thus break and teach others to break one of the
+                    least of these commandments shall be called least in the kingdom of heaven,
+                    shall have no part in the kingdom of Christ and of God; if even these ‘shall be
+                    cast into outer darkness’, where is ‘wailing and gnashing of teeth’,<note place="foot" xml:id="ftn41" n="41">
+                        <p rend="footnote text">Matt.
+                        8:12.</p>
+                    </note> then where will they appear whom our Lord chiefly and
+                    primarily intends in these words? They who, bearing the character of teachers
+                    sent from God, do nevertheless themselves break his commandments, yea and openly
+                    teach others so to do, being corrupt both in life and doctrine?</p>
+                <p n="5">5. These are of several sorts. Of the first sort are they who live in some
+                    wilful, habitual sin. Now if an ordinary sinner teaches by his example, how much
+                    more a sinful minister, even if he does not attempt to defend, excuse, or
+                    extenuate his sin! If he does he is a murderer indeed, yea, the murderer-general
+                    of his congregation!<note place="foot" xml:id="ftn42" n="42">
+                        <p rend="footnote text">This stark metaphor occurs in a letter written at
+                            the same time with this sermon (to ‘John Smith’, Mar. 25, 1747): ‘a
+                            lifeless, unconverting minister is the murderer-general of his
+                            congregation.’ Cf. the much later No. 104, ‘On Attending the Church
+                            Service’, §§19 ff., where unworthy ministers are viewed less harshly.
+                            See also Art. XXVI, ‘Of the unworthiness of the ministers, which hinders
+                            not the effect of the sacraments’.</p>
+                    </note> He peoples the regions of
+                    death. He is the choicest <pb n="558"/>instrument of the prince of darkness.
+                    When he goes hence ‘hell from beneath is moved to meet him at his coming.’<note place="foot" xml:id="ftn43" n="43">
+                        <p rend="footnote text">Cf. Isa.
+                            14:9.</p>
+                    </note> Nor can he sink into the bottomless pit<note place="foot" xml:id="ftn44" n="44">
+                        <p rend="footnote text">See Rev. 9:11;
+                            20:1. Cf. also No. 32, ‘Sermon on the Mount, XII’, I.7 and n.</p>
+                    </note>
+                    without dragging a multitude after him.</p>
+                <p n="6">6. Next to these are the good-natured, good sort of men: who live an easy,
+                    harmless life, neither troubling themselves with outward sin, nor with inward
+                    holiness; men who are remarkable neither one way nor the other, neither for
+                    religion nor irreligion; who are very regular both in public and private, but
+                    don’t pretend to be any stricter than their neighbours. A minister of this kind
+                    breaks not one, or a few only, of the least commandments of God, but all the
+                    great and weighty branches of his law which relate to the power of godliness,
+                    and all that require us to ‘pass the time of our sojourning in fear’;<note place="foot" xml:id="ftn45" n="45">
+                        <p rend="footnote text">Cf. 1 Pet.
+                            1:17.</p>
+                    </note> to ‘work out our salvation with fear and
+                        trembling’;<note place="foot" xml:id="ftn46" n="46">
+                        <p rend="footnote text">Phil. 2:12.</p>
+                    </note> to have our ‘loins always girt and our lights
+                        burning’;<note place="foot" xml:id="ftn47" n="47">
+                        <p rend="footnote text">Cf. Luke 12:35.</p>
+                    </note> to ‘strive or “agonize” to enter in at the
+                    strait gate’.<note place="foot" xml:id="ftn48" n="48">
+                        <p rend="footnote text">Luke 13:24. The Greek imperative is ἀγωνίζεσθε, and Wesley is fond of
+                            stressing the metaphor of ‘agonizing’ as a characteristic of Christian
+                            moral discipline, since it had the double meaning of ‘struggle’ (as in
+                            athletics) and also of ‘suffering’ (as in martyrdom). Cf. No. 17, ‘The
+                            Circumcision of the Heart’, II.7 and n.</p>
+                    </note> And he ‘teaches men
+                        so’,<note place="foot" xml:id="ftn49" n="49">
+                        <p rend="footnote text">Cf.
+                            Matt. 5:19.</p>
+                    </note> by the whole form of his life and the general
+                    tenor of his preaching, which uniformly tends to soothe those in their pleasing
+                    dream who imagine themselves Christians and are not; to persuade all who attend
+                    upon his ministry to sleep on and take their rest.<note place="foot" xml:id="ftn50" n="50">
+                        <p rend="footnote text">An ironic echo of Matt. 26:45
+                            and Mark 14:41.</p>
+                    </note> No marvel, therefore, if both he and they
+                    that follow him wake together in everlasting burnings.<note place="foot" xml:id="ftn51" n="51">
+                        <p rend="footnote text">Isa. 33:14. Another favourite
+                            metaphor; cf. below, IV.13 and n.; and No. 33, ‘Sermon on the Mount,
+                            XIII’, III.12, where Wesley links it with ‘everlasting glory’; see also
+                            Downey, <hi rend="italic">Eighteenth Century Pulpit</hi>, p.
+                        162.</p>
+                    </note>
+                </p>
+                <p n="7">7. But above all these, in the highest rank of the enemies of the gospel of
+                    Christ are they who openly and explicitly ‘judge the law’ itself, and ‘speak
+                    evil of the law’;<note place="foot" xml:id="ftn52" n="52">
+                        <p rend="footnote text">Cf. Jas. 4:11.</p>
+                    </note> who teach men to break
+                    (λῦσαι, to dissolve, to loose, to untie the obligation of) not one only—whether
+                    of the least or of the greatest—but all the <pb n="559"/>commandments at a
+                    stroke; who teach, without any cover, in so many words: ‘What did our Lord do
+                    with the law? He abolished it.’ ‘There is but one duty, which is that of
+                    believing.’ ‘All commands are unfit for our times.’ ‘From any demand of the law
+                    no man is obliged now to go one step, to give away one farthing, to eat or omit
+                    one morsel.’<note place="foot" xml:id="ftn53" n="53">
+                        <p rend="footnote text">Again, a catena of quotations or paraphrases from the favourite dicta
+                            of the antinomians running back to Tobias Crisp and John Saltmarsh
+                            (targets of Richard Baxter’s), to the Moravians and even to schismatic
+                            Methodists like James Wheatley, William Cudworth, <hi rend="italic">et
+                                al.</hi> In the <hi rend="italic">Minutes</hi> of 1744, the question
+                            is asked: ‘<hi rend="italic">Q.</hi> 19. What is antinomianism? <hi rend="italic">A.</hi> The doctrine which makes void the law through
+                            faith.’ This is followed by ‘<hi rend="italic">Q.</hi> 20. What are the
+                            main pillars thereof?’ The answer lists six of them (No. 1, ‘That Christ
+                            abolished the moral law’); one might compare that list with the
+                            quotations Wesley has collected here. Cf. also below, Nos.
+                        34-36.</p>
+                    </note> This is indeed carrying matters with a high hand.<note place="foot" xml:id="ftn54" n="54">
+                        <p rend="footnote text">See Num. 33:3
+                            (especially in the Wycliffe translation); see also <hi rend="italic">OED</hi> (‘high’, 17<hi rend="italic">b</hi>).</p>
+                    </note> This is
+                    withstanding our Lord to the face, and telling him that he understood not how to
+                    deliver the message on which he was sent. ‘O Lord, lay not this sin to their
+                        charge!’<note place="foot" xml:id="ftn55" n="55">
+                        <p rend="footnote text">Cf.
+                            Acts 7:60.</p>
+                    </note> ‘Father, forgive them; for they know not what they
+                        do!’<note place="foot" xml:id="ftn56" n="56">
+                        <p rend="footnote text">Luke
+                            23:34.</p>
+                    </note>
+                </p>
+                <p n="8">8. The most surprising of all the circumstances that attend this strong
+                    delusion is that they who are given up to it really believe that they honour
+                    Christ by overthrowing his law, and that they are magnifying his office while
+                    they are destroying his doctrine! Yea, they honour him just as Judas did when he
+                    ‘said, Hail, Master, and kissed him’.<note place="foot" xml:id="ftn57" n="57">
+                        <p rend="footnote text">Matt. 26:49.</p>
+                    </note> And he may as justly say to
+                    every one of them, ‘Betrayest thou the Son of man with a kiss?’<note place="foot" xml:id="ftn58" n="58">
+                        <p rend="footnote text">Luke
+                        22:48.</p>
+                    </note> It is no other than betraying him with a kiss to talk of
+                    his blood and take away his crown; to set light by any part of his law under
+                    pretence of advancing his gospel. Nor indeed can anyone escape this charge who
+                    preaches faith in any such manner as either directly or indirectly tends to set
+                    aside any branch of obedience; who preaches Christ so as to disannul or weaken
+                    in any wise the least of the commandments of God.</p>
+                <p n="9">9. It is impossible indeed to have too high an esteem for ‘the faith of
+                    God’s elect’.<note place="foot" xml:id="ftn59" n="59">
+                        <p rend="footnote text">Titus 1:1.</p>
+                    </note> And we must all declare, ‘By grace ye are saved
+                    through faith: …not of works, lest any man should boast.’<note place="foot" xml:id="ftn60" n="60">
+                        <p rend="footnote text">Eph. 2:8-9.</p>
+                    </note> We must
+                    cry aloud to every penitent sinner, ‘Believe in the Lord Jesus Christ, and thou
+                    shalt be saved.’<note place="foot" xml:id="ftn61" n="61">
+                        <p rend="footnote text">Acts 16:31.</p>
+                    </note> But at the same time we must take care to let
+                    all men know we esteem no faith but <pb n="560"/>that ‘which worketh by
+                        love’;<note place="foot" xml:id="ftn62" n="62">
+                        <p rend="footnote text">Gal.
+                            5:6. Cf. No. 2, <hi rend="italic">The Almost Christian</hi>, II.6 and
+                            n.</p>
+                    </note> and that we are not ‘saved by faith’ unless so far as we
+                    are delivered from the power as well as the guilt of sin.<note place="foot" xml:id="ftn63" n="63">
+                        <p rend="footnote text">A bald claim of salvation from
+                            the <hi rend="italic">power</hi> of sin. Cf. No. 13, <hi rend="italic">On Sin in Believers</hi>, I.6: ‘sin <hi rend="italic">remains</hi>
+                            but no longer <hi rend="italic">reigns</hi>’, and n.</p>
+                    </note> And when
+                    we say, ‘Believe, and thou shalt be saved,’ we do not mean, ‘Believe, and thou
+                    shalt step from sin to heaven, without any holiness coming between, faith
+                    supplying the place of holiness;’ but, believe and thou shalt be holy; believe
+                    in the Lord Jesus, and thou shalt have peace and power together. Thou shalt have
+                    power from him in whom thou believest to trample sin under thy feet; power to
+                    love the Lord thy God with all thy heart,<note place="foot" xml:id="ftn64" n="64">
+                        <p rend="footnote text">See Mark 12:30; Luke 10:27.</p>
+                    </note> and to
+                    serve him with all thy strength. Thou shalt have power ‘by patient continuance
+                    in well-doing’ to ‘seek for glory and honour and immortality’.<note place="foot" xml:id="ftn65" n="65">
+                        <p rend="footnote text">Rom. 2:7.</p>
+                    </note> Thou
+                    shalt both ‘do and teach’<note place="foot" xml:id="ftn66" n="66">
+                        <p rend="footnote text">Matt. 5:19.</p>
+                    </note> all the commandments of God,
+                    from the least even to the greatest. Thou shalt teach them by thy life as well
+                    as thy words, and so ‘be called great in the kingdom of heaven’.<note place="foot" xml:id="ftn67" n="67">
+                        <p rend="footnote text">
+                            <hi rend="italic">Ibid.</hi>
+                        </p>
+                    </note>
+                </p>
+            </div>
+            <div type="section" n="4">
+                <p n="1">IV. 1. Whatever other way we teach to the kingdom of heaven, to glory,
+                    honour, and immortality,<note place="foot" xml:id="ftn68" n="68">
+                        <p rend="footnote text">Rom. 2:7.</p>
+                    </note> be it called ‘the way of
+                    faith’ or by any other name, it is in truth the way to destruction.<note place="foot" xml:id="ftn69" n="69">
+                        <p rend="footnote text">See Matt.
+                            7:13.</p>
+                    </note> It will not bring a man peace at the last.<note place="foot" xml:id="ftn70" n="70">
+                        <p rend="footnote text">Was this phrase
+                            Wesley’s own coinage? If not, what was its common source with J. H.
+                            Newman, who would use it for the close of his best known prayer in
+                            ‘Wisdom and Innocence’, 1843: ‘Then in thy mercy, grant us a safe
+                            lodging and a holy rest, and peace at the last’? See Newman, <hi rend="italic">Sermons Bearing on Subjects of the Day</hi> (London
+                            and New York, Longmans, Green, and Co., 1918), p. 307.</p>
+                    </note> For
+                    thus saith the Lord, ‘Verily I say unto you, except your righteousness shall
+                    exceed the righteousness of the scribes and Pharisees, ye shall in no case enter
+                    into the kingdom of heaven.’<note place="foot" xml:id="ftn71" n="71">
+                        <p rend="footnote text">Matt. 5:20.</p>
+                    </note>
+                </p>
+                <p>The <hi rend="italic">scribes</hi>, mentioned so often in the New Testament as
+                    some of the most constant and vehement opposers of our Lord, were not
+                    secretaries, or men employed in writing only, as that term might incline us to
+                    believe. Neither were they <hi rend="italic">lawyers</hi>, in our common sense
+                    of the word (although the word νομικοί is so rendered in our translation).<note place="foot" xml:id="ftn72" n="72">
+                        <p rend="footnote text">Wesley here takes
+                            the English law and English lawyers, as he knew them, as the popular
+                            paradigm for νομικός. Actually, amongst Greek-speaking Jews, the term
+                            would have denoted a man who was learned both in the written Torah and
+                            the unwritten legal interpretations of <hi rend="italic">Halakah</hi>;
+                            cf. <hi rend="italic">The Jewish Encyclopedia</hi>.</p>
+                    </note> Their
+                    employment had no affinity <pb n="561"/>at all to that of a lawyer among us.
+                    They were conversant with the laws of God, and not with the laws of man. These
+                    were their study: it was their proper and peculiar business to read and expound
+                    the law and the prophets, particularly in the synagogues. They were the
+                    ordinary, stated preachers among the Jews; so that if the sense of the original
+                    word was attended to we might render it, the divines.<note place="foot" xml:id="ftn73" n="73">
+                        <p rend="footnote text">Cf. No. 104, ‘On Attending the
+                            Church Service’, §12, where Wesley again equates ‘scribe’ with ‘divine’
+                            (i.e., theologian) and then defines ‘divine’ as meaning a public teacher
+                            (and, by inference, the term ‘divinity’ as the church’s public
+                            teaching); cf. <hi rend="italic">OED</hi>.</p>
+                    </note> For these were the
+                    men who made divinity their profession; and they were generally (as their name
+                    literally imports) men of letters; men of the greatest account for learning that
+                    were then in the Jewish nation.</p>
+                <p n="2">2. The Pharisees were a very ancient sect or body of men among the Jews:
+                    originally so called from the Hebrew word פרש, which signifies to ‘separate’ or
+                        ‘divide’.<note place="foot" xml:id="ftn74" n="74">
+                        <p rend="footnote text">The literal meaning of the Hebrew verb, <hi rend="italic">perush</hi>,
+                            is to ‘disperse’ or ‘scatter’; in a figurative sense it meant to
+                            separate. The Pharisees (<hi rend="italic">perushim</hi>, <hi rend="italic">perishaya</hi>) were those who had separated
+                            themselves from those who did not strictly observe both Torah and <hi rend="italic">Halakah</hi>.</p>
+                    </note> Not that they made any formal
+                    separation from or division in the national church. They were only distinguished
+                    from others by greater strictness of life, by more exactness of conversation.
+                    For they were zealous of the law in the minutest points, paying tithes of mint,
+                    anise, and cummin.<note place="foot" xml:id="ftn75" n="75">
+                        <p rend="footnote text">See Matt. 23:23.</p>
+                    </note> And hence they were had
+                    in honour of all the people and generally esteemed the holiest of men.</p>
+                <p>Many of the scribes were of the sect of the Pharisees. Thus St. Paul himself, who
+                    was educated for a scribe, first at the university of Tarsus,<note place="foot" xml:id="ftn76" n="76">
+                        <p rend="footnote text">Cf. No. 12, ‘The Witness of
+                            Our Own Spirit’, §14 and n.</p>
+                    </note> and after that in Jerusalem at
+                    the feet of Gamaliel<note place="foot" xml:id="ftn77" n="77">
+                        <p rend="footnote text">Acts 22:3.</p>
+                    </note> (one of the most learned
+                    scribes or doctors of the law that were then in the nation), declares of himself
+                    before the council, ‘I am a Pharisee, the son of a Pharisee;’<hi rend="endnote_reference">
+                        <note place="end">
+                            <p rend="endnote text">Acts
+                                23:6.</p>
+                        </note>
+                    </hi> and before King Agrippa, ‘after the straitest
+                    sect of our religion I lived a Pharisee.’<hi rend="endnote_reference">
+                        <note place="end">
+                            <p rend="endnote text">[Acts] 26:5.</p>
+                        </note>
+                    </hi> And the
+                    whole body of the scribes generally esteemed and acted in concert with the
+                    Pharisees. Hence we find our Saviour so frequently coupling them together, as
+                    coming in many respects under the same consideration. In this place they seem to
+                    be mentioned together <pb n="562"/>as the most eminent professors of religion:
+                    the former of whom were accounted the wisest, the latter the holiest of men.</p>
+                <p n="3">3. What ‘the righteousness of the scribes and Pharisees’ really was it is
+                    not difficult to determine. Our Lord has preserved an authentic account which
+                    one of them gave of himself. And he is clear and full in describing his own
+                    righteousness, and cannot be supposed to have omitted any part of it. He ‘went
+                    up’ indeed ‘into the temple to pray’, but was so intent upon his own virtues
+                    that he forgot the design upon which he came.<note place="foot" xml:id="ftn78" n="78">
+                        <p rend="footnote text">Cf. Luke 18:10; this parable was one of
+                            Wesley’s favourites in the Revival’s early days. He used it thirteen
+                            times between 1739-47, but only five times thereafter for a total of
+                            eighteen times in all. For a sample of conventional wisdom about the
+                            Pharisees in Wesley’s time, see Chambers’s <hi rend="italic">Cyclopaedia</hi>: ‘a celebrated sect among the ancient
+                            Jews…separated from the rest by the austerity of their life, by their
+                            professing a greater degree of holiness…’.</p>
+                    </note> For ’tis
+                    remarkable he does not properly pray at all. He only tells God how wise and good
+                    he was. ‘God, I thank thee that I am not as other men are, extortioners, unjust,
+                    adulterers; or even as this publican. I fast twice in the week: I give tithes of
+                    all that I possess.’<note place="foot" xml:id="ftn79" n="79">
+                        <p rend="footnote text">Luke 18:11-12.</p>
+                    </note> His righteousness
+                    therefore consisted of three parts: first, saith he, ‘I am not as other men
+                    are.’ I am not an ‘extortioner’, not ‘unjust’, not an ‘adulterer’; not ‘even as
+                    this publican’. Secondly, ‘I fast twice in the week;’ and thirdly, ‘give tithes
+                    of all that I possess.’</p>
+                <p>‘I am not as other men are.’ This is not a small point. It is not every man that
+                    can say this. It is as if he had said, I do not suffer myself to be carried away
+                    by that great torrent, custom.<note place="foot" xml:id="ftn80" n="80">
+                        <p rend="footnote text">A favourite phrase; cf. IV.7 and IV. 12, below. Cf.
+                            also Nos. 52, <hi rend="italic">The Reformation of Manners</hi>, I.6;
+                            88, ‘On Dress’, §21; and 94, ‘On Family Religion’, III.18. In No. 97,
+                            ‘On Obedience to Pastors’, III.11, Wesley defines its synonym, ‘fashion’
+                            as ‘that tyrant of fools’; in No. 108, ‘On Riches’, II.3, he calls it
+                            ‘the mistress of fools’. See also his letter to Miss March, June 29,
+                            1767: ‘Fashion and custom are nothing to you: you have a more excellent
+                            rule.’ Also his letter to John Fletcher, Mar. 20, 1786; to Mary Bishop,
+                            Nov. 22, 1769. The idea is also found in Law’s <hi rend="italic">Serious
+                                Call</hi> (<hi rend="italic">Works</hi>, IV.170): ‘the vogue and
+                            fashion of the world by which we have been carried away as in a
+                            torrent’. Cf. also, Edward Stillingfleet, Sermon II, in <hi rend="italic">Sermons on Several Occasions</hi> (1696), I.66-67:
+                            ‘custom of the world…a torrent of wickedness’; James Garden, <hi rend="italic">Comparative Theology</hi> (1700), p. 70: ‘that vulgar
+                            maxim: Custom is a second nature’—which Bartlett, <hi rend="italic">Familiar Quotations</hi>, attributes to Caesar Augustus, <hi rend="italic">Rules for the Preservation of Health</hi>, 18. Cf.
+                            also Guillaume de Salluste, Seigneur du Bartas (1544-90), <hi rend="italic">Divine Weekes and Workes, Second Week, Third Day, Part
+                                2</hi>: ‘Only that he may conform/To tyrant custom.’ So also
+                            Shakespeare, <hi rend="italic">Othello</hi>, I. iii. 231: ‘The tyrant
+                            custom…’. Addison made ‘custom’ the topic of an essay for the <hi rend="italic">Spectator</hi>; cf. No. 447, Aug. 2, 1712 (see No. 81,
+                            ‘In What Sense we are to Leave the World’, §17 and n.). See also No. 31,
+                            ‘Sermon on the Mount, XI’, II.5, where Wesley uses the phrase, ‘the
+                            torrent of example’.</p>
+                    </note> I live not by custom but by reason; not
+                    by the examples of men but the word <pb n="563"/>of God. ‘I am not an
+                    extortioner, not unjust, not an adulterer;’ however common these sins are, even
+                    among those who are called the people of God (extortion, in particular, a kind
+                    of legal injustice, not punishable by any human law, the making gain of
+                    another’s ignorance or necessity, having filled every corner of the land); ‘nor
+                    even as this publican’, not guilty of any open or presumptuous sin, not an
+                    outward sinner, but a fair, honest man, of blameless life and conversation.</p>
+                <p n="4">4. ‘I fast twice in the week.’ There is more implied in this than we may at
+                    first be sensible of. All the stricter Pharisees observed the weekly fasts,
+                    namely, every Monday and Thursday. On the former day they fasted in memory of
+                    Moses receiving on that day (as their tradition taught) the two tables of stone
+                    written by the finger of God;<note place="foot" xml:id="ftn81" n="81">
+                        <p rend="footnote text">See Exod. 31:18; Deut. 9:10.</p>
+                    </note> on the
+                    latter in memory of his casting them out of his hand when he saw the people
+                    dancing round the golden calf.<note place="foot" xml:id="ftn82" n="82">
+                        <p rend="footnote text">Exod. 32:19; Deut. 9:17.</p>
+                    </note> On these days
+                    they took no sustenance at all till three in the afternoon, the hour at which
+                    they began to offer up the evening sacrifice in the temple. Till that hour it
+                    was their custom to remain in the temple—in some of the corners, apartments, or
+                    courts thereof—that they might be ready to assist at all the sacrifices and to
+                    join in all the public prayers. The time between they were accustomed to employ
+                    partly in private addresses to God, partly in searching the Scriptures, in
+                    reading the law and the prophets, and in meditating thereon. Thus much is
+                    implied in, ‘I fast twice in the week’, the second branch of the righteousness
+                    of a Pharisee.<note place="foot" xml:id="ftn83" n="83">
+                        <p rend="footnote text">Cf. Chambers’s <hi rend="italic">Cyclopaedia</hi>,
+                        ‘Pharisees’.</p>
+                    </note>
+                </p>
+                <p n="5">5. ‘I give tithes of all that I possess.’ This the Pharisees did with the
+                    utmost exactness. They would not except the most inconsiderable thing, no, not
+                    mint, anise, or cummin.<note place="foot" xml:id="ftn84" n="84">
+                        <p rend="footnote text">See Matt. 23:23.</p>
+                    </note> They would not keep
+                    back the least part of what they believed properly to belong to God, but gave a
+                    full tenth of their whole substance yearly, and of all their increase,
+                    whatsoever it was.</p>
+                <p>Yea, the stricter Pharisees (as has been often observed by those who are versed
+                    in the ancient Jewish writings), not content with giving one tenth of their
+                    substance to God in his priests and Levites, gave another tenth to God in the
+                    poor, and that continually. They gave the same proportion of all they had in
+                    alms <pb n="564"/>as they were accustomed to give in tithes. And this likewise
+                    they adjusted with the utmost exactness, that they might not keep back any part,
+                    but might fully render unto God the things which were God’s,<note place="foot" xml:id="ftn85" n="85">
+                        <p rend="footnote text">See Matt. 22:21; Mark
+                            12:17.</p>
+                    </note> as they accounted this to be. So that upon the whole
+                    they gave away from year to year an entire fifth of all that they possessed.</p>
+                <p n="6">6. This was ‘the righteousness of the scribes and Pharisees’: a
+                    righteousness which in many respects went far beyond the conception which many
+                    have been accustomed to entertain concerning it. But perhaps it will be said it
+                    was all false and feigned; for they were all a company of hypocrites. Some of
+                    them doubtless were; men who had really no religion at all, no fear of God, or
+                    desire to please him; who had no concern for the honour that cometh of God,<note place="foot" xml:id="ftn86" n="86">
+                        <p rend="footnote text">See John
+                            5:44.</p>
+                    </note> but only for the praise of men. And these are they whom
+                    our Lord so severely condemns, so sharply reproves, on many occasions. But we
+                    must not suppose, because many Pharisees were hypocrites, therefore all were so.
+                    Nor indeed is hypocrisy by any means essential to the character of a Pharisee.
+                    This is not the distinguishing mark of their sect. It is rather this (according
+                    to our Lord’s account)—they ‘trusted in themselves that they were righteous, and
+                    despised others’.<note place="foot" xml:id="ftn87" n="87">
+                        <p rend="footnote text">Luke 18:9.</p>
+                    </note> This is their genuine badge.
+                    But the Pharisee of this kind cannot be a hypocrite. He must be, in the common
+                    sense, sincere; otherwise he could not ‘trust in himself that he is righteous’.
+                    The man who was here commending himself to God unquestionably thought himself
+                    righteous. Consequently, he was no hypocrite—he was not conscious to himself of
+                    any insincerity. He now spoke to God just what he thought, namely, that he was
+                    abundantly better than other men.</p>
+                <p>But the example of St. Paul, were there no other, is sufficient to put this out
+                    of all question. He could not only say, when he was a Christian, ‘Herein do I
+                    exercise myself, to have always a conscience void of offence toward God and
+                    toward men;’<hi rend="endnote_reference">
+                        <note place="end">
+                            <p rend="endnote text">Acts 24:16.</p>
+                        </note>
+                    </hi> but even concerning
+                    the time when he was a Pharisee, ‘Men and brethren, I have lived in all good
+                    conscience before God until this day.’<hi rend="endnote_reference">
+                        <note place="end">
+                            <p rend="endnote text">[Acts] 23:1.</p>
+                        </note>
+                    </hi> He was
+                    therefore sincere when he was a Pharisee, as well as <pb n="565"/>when he was a
+                    Christian. He was no more an hypocrite when he persecuted the church than when
+                    he preached the faith which once he persecuted. Let this then be added to ‘the
+                    righteousness of the scribes and Pharisees’—a sincere belief that they are
+                    righteous, and in all things ‘doing God service’.<note place="foot" xml:id="ftn88" n="88">
+                        <p rend="footnote text">Cf. John 16:2.</p>
+                    </note>
+                </p>
+                <p n="7">7. And yet, ‘Except your righteousness’, saith our Lord, ‘shall exceed the
+                    righteousness of the scribes and Pharisees, ye shall in no case enter into the
+                    kingdom of heaven.’ A solemn and weighty declaration! And which it behoves all
+                    who are called by the name of Christ seriously and deeply to consider. But
+                    before we inquire how our righteousness may exceed theirs, let us examine
+                    whether at present we come up to it.<note place="foot" xml:id="ftn89" n="89">
+                        <p rend="footnote text">Blackall had devoted two entire discourses to this
+                            question (XXII-XXIII, <hi rend="italic">Works</hi>, I.212-18), and his
+                            answer is summed up (p. 216): ‘This was [the Pharisees’] righteousness.
+                            Some things they did which, as to the matter of them, were good, but
+                            then they spoiled them by a wrong intention…; they sought their own
+                            glory thereby, not the glory of God…. [They had] no design…to recommend
+                            themselves to his grace and favour…. That our righteousness may exceed
+                            theirs, it is necessary not only that we do the thing that is good, but
+                            that we do it with a right intention; i.e., that we design it to the
+                            glory of God, and that we do it out of a principle of obedience to the
+                            will of God….’</p>
+                    </note>
+                </p>
+                <p>First, a Pharisee was ‘not as other men are’.<note place="foot" xml:id="ftn90" n="90">
+                        <p rend="footnote text">Luke 18:11.</p>
+                    </note> In externals he was
+                    singularly good. Are we so? Do we dare to be singular at all?<note place="foot" xml:id="ftn91" n="91">
+                        <p rend="footnote text">Cf. No. 31, ‘Sermon on the
+                            Mount, XI’, III.4 and n.</p>
+                    </note> Do we not rather swim with the
+                    stream? Do we not many times dispense with religion and reason together because
+                    we would not ‘look particular’? Are we not often more afraid of being out of the
+                        fashion<note place="foot" xml:id="ftn92" n="92">
+                        <p rend="footnote text">Cf.
+                            above, IV.3 and n.</p>
+                    </note> than of being out of the way of salvation?
+                    Have we courage to stem the tide? To run counter to the world? ‘To obey God
+                    rather than man’?<note place="foot" xml:id="ftn93" n="93">
+                        <p rend="footnote text">Cf. Acts 5:29.</p>
+                    </note> Otherwise the Pharisee
+                    leaves us behind at the very first step. ’Tis well if we overtake him any
+                    more.</p>
+                <p>But to come closer. Can we use his first plea with God, which is in substance, ‘I
+                    do no harm.<note place="foot" xml:id="ftn94" n="94">
+                        <p rend="footnote text">Cf.
+                            IV.11, below; and No. 22, ‘Sermon on the Mount, II’, II.4 and
+                        n.</p>
+                    </note> I live in no outward sin. I do nothing for which my own heart
+                    condemns me.’ Do you not? Are you sure of that? Do you live in no practice for
+                    which your own heart condemns you? If you are not an adulterer, if you are not
+                    unchaste either in word or deed, are you not unjust? The grand measure of
+                    justice, as well as of mercy, is, Do unto others as thou wouldst they should do
+                    unto thee.<note place="foot" xml:id="ftn95" n="95">
+                        <p rend="footnote text">See
+                            Matt. 7:12; Luke 6:31.</p>
+                    </note> Do you walk by this rule? Do you <pb n="566"/>never do unto any what you would not they should do unto you? Nay,
+                    are you not grossly unjust? Are you not an extortioner? Do you not make a gain
+                    of anyone’s ignorance or necessity? Neither in buying nor selling? Suppose you
+                    are engaged in trade, do you demand, do you receive, no more than the real value
+                    of what you sell? Do you demand, do you receive, no more of the ignorant than of
+                    the knowing; of a little child than of an experienced trader? If you do, why
+                    does not your heart condemn you? You are a barefaced extortioner. Do you demand
+                    no more than the usual price of the goods of any who is in pressing want? Who
+                    must have, and that without delay, the things which you only can furnish him
+                    with? If you do, this also is flat extortion. Indeed you do not come up to the
+                    righteousness of a Pharisee.</p>
+                <p n="8">8. A Pharisee, secondly (to express his sense in our common way), used all
+                    the means of grace. As he fasted <hi rend="italic">often</hi> and <hi rend="italic">much</hi>, ‘twice in every week’,<note place="foot" xml:id="ftn96" n="96">
+                        <p rend="footnote text">Luke 18:12; cf. Matt.
+                            9:14.</p>
+                    </note> so he attended all the sacrifices. He was constant in
+                    public and private prayer, and in reading and hearing the Scriptures. Do you go
+                    as far as this? Do you fast <hi rend="italic">much</hi> and <hi rend="italic">often</hi>? Twice in the week? I fear not! Once, at least: ‘On all Fridays
+                    in the year.’ (So our church clearly and peremptorily enjoins all her members to
+                    do, to observe all these as well as the vigils and the forty days of Lent as
+                    ‘days of fasting, or abstinence’.)<note place="foot" xml:id="ftn97" n="97">
+                        <p rend="footnote text">BCP, ‘Tables and Rules’: ‘All the Fridays in the
+                            year except Christmas Day and The Epiphany, or any Friday which may
+                            intervene between these feasts.’</p>
+                    </note> Do you fast twice in the
+                    year? I am afraid some among us cannot plead even this! Do you neglect no
+                    opportunity of attending and partaking of the Christian sacrifice? How many are
+                    they who call themselves Christians and yet are utterly regardless of it; yet do
+                    not eat of that bread or drink of that cup for months, perhaps years together?
+                    Do you every day either hear the Scriptures or read them and meditate thereon?
+                    Do you join in prayer with the great congregation?<note place="foot" xml:id="ftn98" n="98">
+                        <p rend="footnote text">See Ps. 35:18; also
+                        22:25.</p>
+                    </note> Daily, if you have opportunity? If not, whenever you can,
+                    particularly on that day which you ‘remember to keep it holy’?<note place="foot" xml:id="ftn99" n="99">
+                        <p rend="footnote text">Exod. 20:8.</p>
+                    </note> Do you
+                    strive to <hi rend="italic">make</hi> opportunities? Are you ‘glad when they say
+                    unto you, we will go into the house of the Lord’?<note place="foot" xml:id="ftn100" n="100">
+                        <p rend="footnote text">Cf. Ps. 122:1.</p>
+                    </note>
+                    Are you zealous of, and diligent in, private prayer? Do you suffer no day to
+                    pass without it? Rather are not some of you so far from spending therein (with
+                    the Pharisee) several hours in one day that <pb n="567"/>you think one hour full
+                    enough, if not too much? Do you spend an hour in a day, or in a week, in praying
+                    to your Father which is in secret?<note place="foot" xml:id="ftn101" n="101">
+                        <p rend="footnote text">See Matt. 6:6, 18.</p>
+                    </note> Yea, an hour in a
+                    month? Have you spent one hour together in private prayer ever since you was
+                    born? Ah, poor Christian! Shall not the Pharisee rise up in the judgment against
+                    thee and condemn thee?<note place="foot" xml:id="ftn102" n="102">
+                        <p rend="footnote text">See Matt. 12:41, 42; Luke 11:31, 32.</p>
+                    </note> His
+                    righteousness is as far above thine as the heaven is above the earth.</p>
+                <p n="9">9. The Pharisee, thirdly, ‘paid tithes’ and gave alms ‘of all that he
+                    possessed’. And in how ample a manner! So that he was (as we phrase it) ‘a man
+                    that did much good’. Do we come up to him here? Which of us is so abundant as he
+                    was in good works? Which of us gives a fifth of all his substance to God? Both
+                    of the principal and of the increase? Who of us out of (suppose) an hundred
+                    pounds a year, gives twenty to God and the poor; out of fifty, ten: and so in a
+                    larger or a smaller proportion? When shall our righteousness, in using all the
+                    means of grace, in attending all the ordinances of God, in avoiding evil and
+                    doing good, equal at least the righteousness of the scribes and Pharisees?</p>
+                <p n="10">10. Although if it only equalled theirs what would that profit? ‘For
+                    verily I say unto you, except your righteousness shall exceed the righteousness
+                    of the scribes and Pharisees, ye shall in no case enter into the kingdom of
+                    heaven.’ But how can it exceed theirs? Wherein does the righteousness of a
+                    Christian exceed that of a scribe or Pharisee?</p>
+                <p>Christian righteousness exceeds theirs, first, in the extent of it. Most of the
+                    Pharisees, though they were rigorously exact in many things, yet were emboldened
+                    by the traditions of the elders to dispense with others of equal importance.
+                    Thus they were extremely punctual in keeping the fourth commandment—they would
+                    not even ‘rub an ear of corn’<note place="foot" xml:id="ftn103" n="103">
+                        <p rend="footnote text">Cf. Luke 6:1.</p>
+                    </note> on the sabbath day—but not
+                    at all in keeping the third, making little account of light, or even false
+                    swearing. So that their righteousness was partial—whereas the righteousness of a
+                    real Christian is universal. He does not observe one, or some parts, of the law
+                    of God, and neglect the rest; but keeps all his commandments, loves them all,
+                    values them above gold or precious stones.<note place="foot" xml:id="ftn104" n="104">
+                        <p rend="footnote text">See Rev. 17:4; 18:16.</p>
+                    </note>
+                </p>
+                <p n="11">11. It may be indeed that some of the scribes and Pharisees <pb n="568"/>endeavoured to keep all the commandments, and consequently were, as touching
+                    the righteousness of the law, that is, according to the letter of it,
+                        blameless.<note place="foot" xml:id="ftn105" n="105">
+                        <p rend="footnote text">See Phil. 3:6.</p>
+                    </note> But still the righteousness of a Christian
+                    exceeds all this righteousness of a scribe or Pharisee by fulfilling the spirit
+                    as well as the letter of the law, by inward as well as outward obedience. In
+                    this, in the spirituality of it, it admits of no comparison. This is the point
+                    which our Lord has so largely proved in the whole tenor of this discourse. Their
+                    righteousness was external only; Christian righteousness is in the inner man.
+                    The Pharisee ‘cleansed the outside of the cup and the platter’;<note place="foot" xml:id="ftn106" n="106">
+                        <p rend="footnote text">Cf. Matt.
+                            23:25; Luke 11:39.</p>
+                    </note> the Christian is clean within. The
+                    Pharisee laboured to present God with a good life; the Christian with a holy
+                    heart. The one shook off the leaves, perhaps the fruits of sin; the other ‘lays
+                    the axe to the root’,<note place="foot" xml:id="ftn107" n="107">
+                        <p rend="footnote text">Cf. Luke 3:9.</p>
+                    </note> as not being content with
+                    the outward form of godliness,<note place="foot" xml:id="ftn108" n="108">
+                        <p rend="footnote text">See 2 Tim. 3:5.</p>
+                    </note> how exact soever it be,
+                    unless the life, the spirit, the power of God unto salvation,<note place="foot" xml:id="ftn109" n="109">
+                        <p rend="footnote text">Rom. 1:16.</p>
+                    </note> be
+                    felt in the inmost soul.</p>
+                <p>Thus to do no harm, to do good, to attend the ordinances of God (the
+                    righteousness of a Pharisee)<note place="foot" xml:id="ftn110" n="110">
+                        <p rend="footnote text">But also the righteousness of the <hi rend="italic">General Rules</hi> of the Methodist Societies (as also above, IV.7;
+                            and No. 22, ‘Sermon on the Mount, II’, II.4 and n.). What were the
+                            Methodists supposed to make of these denigrations of their disciplinary
+                            rules? This much at least: Wesley himself was clear of any charge of
+                            ‘mere moralism’ and wanted none of it for his people.</p>
+                    </note> are all
+                    external; whereas, on the contrary, poverty of spirit, mourning, meekness,
+                    hunger and thirst after righteousness, the love of our neighbour, and purity of
+                        heart<note place="foot" xml:id="ftn111" n="111">
+                        <p rend="footnote text">See
+                            Matt. 5:3-8.</p>
+                    </note> (the righteousness of a Christian) are all
+                    internal. And even peacemaking (or doing good) and suffering for righteousness’
+                        sake,<note place="foot" xml:id="ftn112" n="112">
+                        <p rend="footnote text">See
+                            Matt. 5:9-10.</p>
+                    </note> stand entitled to the blessings annexed to them
+                    only as they imply these inward dispositions, as they spring from, exercise, and
+                    confirm them. So that whereas the righteousness of the scribes and Pharisees was
+                    external only, it may be said in some sense that the righteousness of a
+                    Christian is internal only—all his actions and sufferings being as nothing in
+                    themselves, being estimated before God only by the tempers from which they
+                    spring.</p>
+                <p n="12">12. Whosoever therefore thou art who bearest the holy and <pb n="569"/>venerable name of a Christian, see, first, that thy righteousness fall not
+                    short of the righteousness of the scribes and Pharisees. Be not thou ‘as other
+                    men are’.<note place="foot" xml:id="ftn113" n="113">
+                        <p rend="footnote text">Luke
+                            18:11.</p>
+                    </note>
+                    <lg>
+                        <l>Dare to stand alone, to be</l>
+                        <l>Against example, singularly good!</l>
+                        <note place="foot" xml:id="ftn114" n="114">
+                            <p rend="footnote text">Apparently a conflation of two lines of verse from Samuel Wesley,
+                                Jun.: the first from ‘The Battle of the Sexes’, st. xxxv, l. 3
+                                (‘Against example resolutely good’), in <hi rend="italic">Poems on
+                                    Several Occasions</hi> (1736; hereafter cited as <hi rend="italic">Poems</hi>), p. 38; the second from ‘To the Memory
+                                of the Rt. Rev. Francis Gastrell’, l. 226 (‘Adverse against a world,
+                                and singly good’), <hi rend="italic">ibid.</hi>, p. 135. But see
+                                also, Milton, <hi rend="italic">Paradise Regained</hi>, iii.57 (‘His
+                                lot who dares be singularly good’). Cf. No. 88, ‘On Dress’,
+                            §23.</p>
+                        </note>
+                    </lg>
+                </p>
+                <p>If thou ‘follow a multitude’ at all it must be ‘to do evil’.<note place="foot" xml:id="ftn115" n="115">
+                        <p rend="footnote text">Exod. 23:2.</p>
+                    </note> Let
+                    not custom or fashion<note place="foot" xml:id="ftn116" n="116">
+                        <p rend="footnote text">Cf. above, IV.3 and n.</p>
+                    </note> be thy guide, but
+                    reason and religion. The practice of others is nothing to thee: ‘Every man must
+                    give an account of himself to God.’<note place="foot" xml:id="ftn117" n="117">
+                        <p rend="footnote text">Cf. Rom. 14:12.</p>
+                    </note> Indeed if thou canst
+                    save the soul of another, do; but at least save one, thy own. Walk not in the
+                    path of death because it is broad, and many walk therein.<note place="foot" xml:id="ftn118" n="118">
+                        <p rend="footnote text">See Matt. 7:13.</p>
+                    </note>
+                    Nay, by this very token thou mayst know it. Is the way wherein thou now walkest
+                    a broad, well-frequented, fashionable way? Then it infallibly leads to
+                    destruction. O be not thou ‘damned for company’<note place="foot" xml:id="ftn119" n="119">
+                        <p rend="footnote text">Mark Le Pla, <hi rend="italic">A Paraphrase on the Song of the Three Children</hi>,
+                                <hi rend="italic">op. cit.</hi>, st. 42:</p>
+                        <lg>
+                            <l>You who from vice, as from infection fly,</l>
+                            <l>And care not to be damned for company.</l>
+                        </lg>
+                        <p rend="footnote text">See also Wesley, <hi rend="italic">Collection
+                                of Moral and Sacred Poems</hi>, II.132.</p>
+                    </note>—‘cease from
+                        evil’;<note place="foot" xml:id="ftn120" n="120">
+                        <p rend="footnote text">Cf.
+                            Isa. 1:16.</p>
+                    </note> fly from sin as from the face of a serpent.<note place="foot" xml:id="ftn121" n="121">
+                        <p rend="footnote text">See Rev.
+                            12:14.</p>
+                    </note> At least, do no harm. ‘He that committeth sin is of
+                    the devil.<note place="foot" xml:id="ftn122" n="122">
+                        <p rend="footnote text">1
+                            John 3:8.</p>
+                    </note> Be not thou found in that number. Touching outward
+                    sins, surely the grace of God is even now sufficient for thee. ‘Herein’ at least
+                    ‘exercise thyself to have a conscience void of offence toward God and toward
+                        men.’<note place="foot" xml:id="ftn123" n="123">
+                        <p rend="footnote text">Cf.
+                            Acts 24:16.</p>
+                    </note>
+                </p>
+                <p>Secondly, let not thy righteousness fall short of theirs with regard to the
+                    ordinances of God. If thy labour or bodily strength will not allow of thy
+                    fasting ‘twice in the week’, however, deal faithfully with thy own soul, and
+                    fast as often as thy strength will <pb n="570"/>permit. Omit no public, no
+                    private opportunity of pouring out thy soul in prayer. Neglect no occasion of
+                    eating that bread and drinking that cup which is the communion of the body and
+                    blood of Christ.<note place="foot" xml:id="ftn124" n="124">
+                        <p rend="footnote text">See 1 Cor. 11:28; 10:16.</p>
+                    </note> Be diligent in
+                    searching the Scriptures: read as thou mayst, and meditate therein day and
+                    night. Rejoice to embrace every opportunity of hearing ‘the word of
+                        reconciliation’<note place="foot" xml:id="ftn125" n="125">
+                        <p rend="footnote text">2 Cor. 5:19.</p>
+                    </note> declared by the
+                    ‘ambassadors of Christ, the stewards of the mysteries of God’.<note place="foot" xml:id="ftn126" n="126">
+                        <p rend="footnote text">Cf. 1 Cor. 4:1.</p>
+                    </note>
+                    In using all the means of grace, in a constant and careful attendance on every
+                    ordinance of God, live up to (at least, till thou canst go beyond) ‘the
+                    righteousness of the scribes and Pharisees’.</p>
+                <p>Thirdly, fall not short of a Pharisee in doing good. Give alms of all thou dost
+                    possess. Is any hungry? Feed him. Is he athirst? Give him drink. Naked? Cover
+                    him with a garment.<note place="foot" xml:id="ftn127" n="127">
+                        <p rend="footnote text">See Matt. 25:35-38.</p>
+                    </note> If thou hast this
+                    world’s goods, do not limit thy beneficence to a scanty proportion. Be merciful
+                    to the uttermost of thy power. Why not, even as this Pharisee? ‘Now make thyself
+                    friends’, while the time is, ‘of the mammon of unrighteousness,<note place="foot" xml:id="ftn128" n="128">
+                        <p rend="footnote text">An anticipation
+                            of the third of Wesley’s three rules for ‘the use of money’; cf. below,
+                            Nos. 28, ‘Sermon on the Mount, VIII’, §§23-28, and 50, ‘The Use of
+                            Money’, III.1-7 and n.</p>
+                    </note> that when thou failest’, when this
+                    earthly tabernacle is dissolved, ‘they may receive thee into everlasting
+                        habitations.’<note place="foot" xml:id="ftn129" n="129">
+                        <p rend="footnote text">Cf. Luke 16:9.</p>
+                    </note>
+                </p>
+                <p n="13">13. But rest not here. Let thy ‘righteousness exceed the righteousness of
+                    the scribes and Pharisees’. Be not thou content to ‘keep the whole law, and
+                    offend in one point’.<note place="foot" xml:id="ftn130" n="130">
+                        <p rend="footnote text">Jas. 2:10.</p>
+                    </note> ‘Hold thou fast all his
+                    commandments, and all false ways do thou utterly abhor.’<note place="foot" xml:id="ftn131" n="131">
+                        <p rend="footnote text">Cf. Ps. 119:128
+                        (BCP).</p>
+                    </note> Do all the things whatsoever he hath commanded, and that
+                    with all thy might. Thou canst do all things through Christ strengthening
+                        thee,<note place="foot" xml:id="ftn132" n="132">
+                        <p rend="footnote text">See
+                            Phil. 4:13.</p>
+                    </note> though without him thou canst do nothing.<note place="foot" xml:id="ftn133" n="133">
+                        <p rend="footnote text">See John
+                            15:5.</p>
+                    </note>
+                </p>
+                <p>Above all, let thy righteousness exceed theirs in the purity and spirituality of
+                    it. What is the exactest form of religion to thee? The most perfect outside
+                    righteousness? Go thou higher and deeper <pb n="571"/>than all this. Let thy
+                    religion be the religion of the heart.<note place="foot" xml:id="ftn134" n="134">
+                        <p rend="footnote text">Cf. JWJ, Aug. 12, 1771: ‘The very thing which
+                            Mr. Stinstra calls fanaticism is no other than heart-religion—in other
+                            words, “righteousness and peace and joy in the Holy Ghost”’; cf. John
+                            Stinstra, <hi rend="italic">A Pastoral Letter Against Fanaticism…</hi>
+                            (1753). See also Wesley’s letter to James Knox, May 30, 1765: ‘You saw
+                            what heart-religion meant, and the gate of it, justification…. True
+                            religion is not a negative or an external thing, but the life of God in
+                            the soul of man [Scougal], the image of God stamped upon the
+                            heart.’</p>
+                        <p rend="footnote text">Cf. above, Wesley’s Preface, §6, (p.
+                            106); and Nos. 7, ‘The Way to the Kingdom’, I.6; 16, ‘The Means of
+                            Grace’, I.5; 33, ‘Sermon on the Mount, XIII’, III.12; 36, ‘The Law
+                            Established through Faith, II’, I.5; 37, ‘The Nature of Enthusiasm’,
+                            §§1, 10; 102, ‘Of Former Times’, §11. Cf. also <hi rend="italic">Remarks
+                                on a Defence of…Aspasio Vindicated</hi>: ‘the grand points—the
+                            religion of the heart and salvation by faith’. See also Harald Höffding,
+                                <hi rend="italic">A History of Modern Philosophy</hi>,
+                        I.252.</p>
+                    </note> Be thou poor in spirit; little and base and mean and vile
+                    in thy own eyes; amazed and humbled to the dust at the love of God which is in
+                    Christ Jesus thy Lord.<note place="foot" xml:id="ftn135" n="135">
+                        <p rend="footnote text">See Rom. 8:39.</p>
+                    </note> Be serious: let the whole
+                    stream of thy thoughts, words, and works, be such as flows from the deepest
+                    conviction that thou standest on the edge of the great gulf, thou and all the
+                    children of men, just ready to drop in, either into everlasting glory, or
+                    everlasting burnings.<note place="foot" xml:id="ftn136" n="136">
+                        <p rend="footnote text">See Isa. 33:14; cf. Jonathan Edwards, ‘Sinners in
+                            the Hands of an Angry God’ (ten years earlier), <hi rend="italic">Works</hi> (1843), IV.318-19. For the phrase, ‘everlasting glory’,
+                            cf. BCP, Burial (481), as well as the Collect for St. Peter’s Day (312).
+                            It occurs frequently in Kempis, <hi rend="italic">Imitation</hi>, e.g.,
+                            IV. iii. 2. Cf. above, III.6 and n.; and Nos. 26, ‘Sermon on the Mount,
+                            VI’, III.8; and 33, ‘Sermon on the Mount, XIII’, III.12.</p>
+                    </note> Be
+                    meek: let thy soul be filled with mildness, gentleness, patience, long-suffering
+                    toward all men; at the same time that all which is in thee is athirst for God,
+                    the living God,<note place="foot" xml:id="ftn137" n="137">
+                        <p rend="footnote text">See Ps. 42:2.</p>
+                    </note> longing to awake up after
+                    his likeness, and to be satisfied with it. Be thou a lover of God and of all
+                    mankind. In this spirit do and suffer all things. Thus ‘exceed the righteousness
+                    of the scribes and Pharisees’, and thou shalt be ‘called great in the kingdom of
+                    heaven’.</p>
+            </div>
+        </body>
+    </text>
+</TEI>
