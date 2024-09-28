@@ -1,0 +1,1069 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Sermon 28: Upon Our Lord’s Sermon On The Mount, Discourse VIII</title>
+                <author>Wesley, John</author>
+                <editor role="text">Van Buskirk, Gregory P.</editor>
+                <editor role="digital">Taylor, Michelle M.</editor>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>The Wesley Works Digitzation Project</publisher>
+                <pubPlace>Tampa, FL</pubPlace>
+                <date>2024-02-25</date>
+            </publicationStmt>
+            <sourceDesc>
+                <listBibl>
+                    <biblStruct>
+                        <analytic>
+                            <title level="a">Sermon 28: Upon Our Lord’s Sermon On The Mount,
+                                Discourse VIII</title>
+                        </analytic>
+                        <monogr>
+                            <title level="j">The Works of John Wesley, Volume I: Sermons I,
+                                1-33</title>
+                            <editor role="volume">Outler, Albert</editor>
+                            <imprint>
+                                <publisher>Abingdon Press</publisher>
+                                <pubPlace>Nashville, TN</pubPlace>
+                                <date when="2015-05-01">1984-05-01</date>
+                                <biblScope unit="volume" n="1"/>
+                                <biblScope unit="page" from="466" to="469"/>
+                                <biblScope unit="page" from="612" to="631"/>
+                            </imprint>
+                        </monogr>
+                        <series>
+                            <title level="s">The Works of John Wesley</title>
+                            <editor role="general">Baker, Frank</editor>
+                        </series>
+                    </biblStruct>
+                </listBibl>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Greg Van Buskirk created Word docs for all of Wesley's sermons using a combination of
+                OCR software and manual proofing. Michelle Taylor converted these docx into XML
+                using Oxygen's DITA automatic transformation scenario, then touched them up
+                manually.</p>
+        </encodingDesc>
+        <standOff>
+            <taxonomy>
+                <keywords>
+                    <term/>
+                </keywords>
+            </taxonomy>
+            <!--Include keywords and terms here eventually.-->
+        </standOff>
+        <revisionDesc/>
+    </teiHeader>
+    <text>
+        <body>
+            <pb n="01:466"/>
+            <introduction>
+                <!--Confirm introduction is the element I want to use here, especially given that I
+                    use it as an attribute for Wesley's introductory paragraphs as well.-->
+                <head>
+                    <hi rend="italic">An Introductory Comment [to Sermons 21-33]</hi>
+                </head>
+                <p>The unifying theme of these next thirteen ‘discourses’ on the Sermon on the
+                    Mount, with all their variations and nuancings, is the Christian life understood
+                    as the fruit of justifying faith. But given such faith, what follows? Wesley’s
+                    answer is given in this extended exposition of the Christian life based on the
+                        <hi rend="italic">locus classicus</hi> of evangelical ethics, ‘The Sermon on
+                    the Mount’ (i.e., Matthew 5-7). Since Tyndale, this ‘sermon’ had been understood
+                    as ‘the epitome of God’s laws and promises’ for Christian believers; cf.
+                    Clebsch, <hi rend="italic">England’s Earliest Protestants</hi>, p. 184; see also
+                    William Burkitt, <hi rend="italic">Expository Notes…on the New Testament</hi>
+                    (eleven editions between 1700 and 1739), Preface to chapter 5: ‘Christ’s famous
+                    Sermon on the Mount comprehends the sum and substance of both the Old and New
+                    Testaments.’</p>
+                <p>Taken together, the following sermons are not a thirteen-part essay, tightly
+                    organized and argued. Instead, they are separate sermons, drawn from materials
+                    running back to 1725, arranged in a triadic pattern that seems to have been
+                    original with Wesley. Each is a discourse in its own right; yet the series is
+                    designed so that each appears as a part of a whole. This means that the sermons
+                    may be read singly or together, but with an eye on their shared aim: ‘to assert
+                    and prove every branch of <hi rend="italic">gospel obedience</hi> as
+                    indispensably necessary to eternal salvation’; cf. Wesley’s open letter (Nov.
+                    17, 1759) to John Downes in reply to the latter’s abusive <hi rend="italic"
+                        >Methodism Examined and Exposed</hi> (1759).</p>
+                <p>Many of the great and near-great commentators of the seventeenth and eighteenth
+                    centuries had devoted their talents to the interpretation of Matthew 5-7 as the
+                    principal summary of Christian ethics, or, in Henry Hammond’s phrase, as ‘an
+                    abstract of Christian philosophy’; cf. his <hi rend="italic">Practical
+                        Catechism</hi> (1st edn., <hi rend="italic">c.</hi> 1644), II.1, in the <hi
+                        rend="italic">Library of Anglo-Catholic Theology</hi> (1847), p. 83. Chief
+                    among these earlier works, in the order of their influences upon Wesley’s
+                    thought, were Bishop Offspring Blackall, ‘Eighty-Seven Practical Discourses Upon
+                    Our Saviour’s Sermon on the Mount’, <hi rend="italic">Works</hi>, I.1-561;
+                    II.609-939; <pb n="01:467"/>John Norris, <hi rend="italic">Practical
+                        Discourses</hi>; the American, James Blair, <hi rend="italic">Our Saviour’s
+                        Divine Sermon on the Mount in IV Volumes</hi> (1722; 2nd edn., 1740, with a
+                    preface by Daniel Waterland); John Cardinal Bona, <hi rend="italic">Guide to
+                        Eternity…</hi> (six editions in English between 1672 and 1712); and Henry
+                    Hammond, <hi rend="italic">op. cit.</hi> Echoes of all these are scattered along
+                    the way, together with lesser borrowings from Bengel, Poole, and Henry. This
+                    makes it all the more remarkable that Wesley came up with a model of his own,
+                    both inform and substance. This series thus reminds us, yet again, of Wesley’s
+                    ready appeal to tradition—even while he maintains his own originality and
+                    independence.</p>
+                <p>Benjamin Ingham records in his Journal that ‘during the voyage [to Georgia]
+                    Wesley went over our Saviour’s Sermon on the Mount’ with the ship’s company
+                    aboard the <hi rend="italic">Simmonds</hi>. There are also other records of his
+                    preaching, very early on, from one or another text in Matthew 5-7. For example,
+                    his second sermon was preached at Binsey (near Oxford), November 21, 1725, on
+                    Matt. 6:33. A first draft of the sermon which appears here as ‘Discourse VIII’
+                    seems to have been written out in 1736. Later, it was the example of the Sermon
+                    on the Mount that encouraged Wesley to break out of his High Church prejudices
+                    in Bristol, April 1, 1739: ‘In the evening (Mr. Whitefield being gone) I begun
+                    expounding our Lord’s Sermon on the Mount (one pretty remarkable precedent of
+                        <hi rend="italic">field preaching</hi>, though I suppose <hi rend="italic"
+                        >there were churches</hi> at that time also) to a little society which was
+                    accustomed to meet once or twice a week in Nicholas Street;’ cf. <hi
+                        rend="italic">Journal</hi> entries for this whole story of the unplanned
+                    outbreak of the Wesleyan Revival.</p>
+                <p>The records show that, between 1739 and 1746, Wesley preached more than one
+                    hundred sermons from separate texts in the Sermon on the Mount. There is,
+                    however, no recorded instance of his having treated that Sermon as a whole
+                    anywhere else. Evidently, he was prepared to allow this series, once published,
+                    to stand as his sufficient comment on the subject.</p>
+                <p>In his introduction to ‘Discourse X’, §§1-3, Wesley repeats his explanation (cf.
+                    ‘Discourse I’, Proem, §10) of how he had conceived the design of Matthew 5-7,
+                    according to its three unfolding themes: (1) ‘the sum of true religion’; (2)
+                    ‘rules touching that right intention which we are to preserve in all our outward
+                    actions’; and (3) ‘the main hindrances of this religion’. He then adds a
+                    clarifying summary: ‘In the fifth chapter [of St. Matthew] our great Teacher…has
+                    laid before us those <hi rend="italic">dispositions of the soul</hi> which
+                    constitute real Christianity…. In the sixth [chapter] he has shown how all our
+                        <hi rend="italic">actions</hi>…may be made holy, and good, and acceptable to
+                    God, by a pure and holy intention…. In <pb n="01:468"/>the former part of [ch.
+                    7] he points out the most common and fatal hindrances of this holiness; in the
+                    latter [part] he exhorts us, by various motives, to break through all [such
+                    hindrances] and secure that prize of our high calling [of God in Christ Jesus]’
+                    (cf. Phil. 3:14).</p>
+                <p>The thirteen discourses are divided almost equally over the three chapters of St.
+                    Matthew: five for chapter five, four each for six and seven. Of the first five,
+                    Discourse I is devoted to the first two Beatitudes; Discourse II to Beatitudes
+                    three through five (with a hymn to love based on 1 Cor. 13); Discourse III to
+                    the remainder of the Beatitudes; Discourse IV turns to Christianity as ‘a social
+                    religion’ in which inward holiness (our love of God) prompts outward holiness
+                    (love of neighbour); Discourse V is a balancing of law <hi rend="italic"
+                        >and</hi> gospel. Discourses VI-IX are based on chapter six: VI to the
+                    problems of purity and holiness of intention (to the ‘works of piety and of
+                    mercy’); VII to fasting; VIII to a denunciation of greed and surplus
+                    accumulation; IX to the mutually exclusive services of God and Mammon.
+                    Discourses X-XIII turn to various hindrances to holy living and to their
+                    avoidance: X to ‘judging’ (contrary to love), ‘intemperate zeal’, ‘neglect of
+                    prayer’, ‘neglect of charity’; XI to the noxious influences of ill-example and
+                    ill-advice with which the world deludes us; XII to false prophets and unedifying
+                    preachers (and yet also our duties to attend church nonetheless and to avail
+                    ourselves of all means of grace); XIII is an inevitable comment on the parable
+                    of the houses built on sand and rock. Discourse XII was also published
+                    separately in the same year that it appeared in <hi rend="italic">SOSO</hi>, III
+                    (1750), under the title, ‘A Caution Against False Prophets. A Sermon on Matt.
+                    vii. 15-20. Particularly recommended to the People Called Methodists’. This went
+                    through seven editions during Wesley’s lifetime. For a stemma delineating the
+                    publishing history of that sermon (‘collected’ and ‘separate’) and a list of
+                    variant readings, see Appendix, ‘Wesley’s Text’, Vol. IV, see also <hi
+                        rend="italic">Bibliog</hi>, Nos. 130 and 13o.i.</p>
+                <p>Obviously there is no interest, in any of these sermons, in critical textual
+                    problems or in the historical context. Everywhere it is assumed that in St.
+                    Matthew’s text we are dealing with divine <hi rend="italic">ipsissima
+                    verba</hi>—i.e., with a direct address from ὁ ὤν, ‘the self-existent, the
+                    Supreme, the God who is over all, blessed for ever’ (§9 below). The Sermon on
+                    the Mount, in Wesley’s view, is the only Gospel passage where Christ designed
+                    ‘to lay down at once the whole plan of his religion, to give us a full prospect
+                    of Christianity’. What matters most in our reading, therefore, is an awareness
+                    of Wesley’s sense of the wholeness of the message he is interpreting, of his
+                    conviction of the honest integration of an evangel profoundly ethical with an
+                    ethic that is also vividly <pb n="01:469"/>evangelical. Maybe more than anywhere
+                    else in <hi rend="italic">SOSO</hi> this particular bloc displays Wesley’s
+                    distinctive concern for integration and balance—between the faith that justifies
+                    and the faith that works by love.</p>
+            </introduction>
+            <pb n="01:612"/>
+            <head>Upon our Lord’s Sermon on the Mount,<lb/>Discourse the Eighth</head>
+            <epigraph>
+                <p>Matthew 6:19-23</p>
+                <p>
+                    <hi rend="italic">Lay not up for yourselves treasures upon earth, where moth and
+                        rust doth corrupt, and where thieves break through and steal·</hi>
+                </p>
+                <p>
+                    <hi rend="italic">But lay up for yourselves treasures in heaven, where neither
+                        moth nor rust doth corrupt, and where thieves do not break through nor
+                        steal;</hi>
+                </p>
+                <p>
+                    <hi rend="italic">For where your treasure is, there will your heart be
+                        also.</hi>
+                </p>
+                <p>
+                    <hi rend="italic">The light of the body is the eye: if therefore thine eye be
+                        single, thy whole body shall be full of light.</hi>
+                </p>
+                <p>
+                    <hi rend="italic">But if thine eye be evil, thy whole body shall be full of
+                        darkness. If therefore the light that is in thee be darkness, how great is
+                        that darkness!</hi>
+                </p>
+            </epigraph>
+            <p n="1">1. From those which are commonly termed ‘religious actions’, and which are real
+                branches of true religion where they spring from a pure and holy intention and are
+                performed in a manner suitable thereto, our Lord proceeds to the actions of ‘common
+                life’, and shows that the same purity of intention is as indispensably required in
+                our ordinary business as in giving alms, or fasting, or prayer.</p>
+            <p>And without question the same purity of intention ‘which makes our alms and devotions
+                acceptable must also make our labour or employment a proper offering to God. If a
+                man […] pursues his business that he may raise himself to a state of honour and
+                riches in the world, he is no longer serving God in his employment, […] and has no
+                more title to a reward from God than he who gives alms that he may be <hi
+                    rend="italic">seen</hi>, or prays that he may be <hi rend="italic">heard</hi> of
+                men. For vain and earthly designs are no more allowable in our employments than in
+                our alms and devotions. […] They are not only evil when they mix with our good
+                works’, with our religious actions, ‘but they have the same evil nature […] when
+                they enter into the common business of our employments. If it were allowable to
+                pursue them in our worldly <pb n="01:613"/>employments, it would be allowable to
+                pursue them in our devotions. But as our alms and devotions are not an acceptable
+                service but when they proceed from a pure intention, so our common employment cannot
+                be reckoned a service to him but when it is performed with the same piety of
+                    heart.’<note place="foot" xml:id="ftn1" n="1"><p rend="footnote text">A
+                        quotation from Law’s <hi rend="italic">Serious Call</hi>, (<hi rend="italic"
+                            >Works</hi>, IV.33); but note Wesley’s alterations (e.g., ‘earthly
+                        designs’ in place of ‘earthly desires’). Wesley had already published an
+                        abridged edn. of <hi rend="italic">Serious Call</hi> in 1744 (cf. <hi
+                            rend="italic">Bibliog</hi>, No. 86); here he abridges that abridgement
+                        still further.</p></note></p>
+            <p n="2">2. This our blessed Lord declares in the liveliest manner in those strong and
+                comprehensive words which he explains, enforces, and enlarges upon throughout this
+                whole chapter. ‘The light of the body is the eye. If therefore thine eye be single,
+                thy whole body shall be full of light: but if thine eye be evil, thy whole body
+                shall be full of darkness.’ The eye is the intention: what the eye is to the body,
+                the intention is to the soul.<note place="foot" xml:id="ftn2" n="2"><p
+                        rend="footnote text">Cf. No. 12, ‘The Witness of Our Own Spirit’, §11 and
+                        n.</p></note> As the one guides all the motions of the body, so does the
+                other those of the soul. This eye of the soul is then said to be ‘single’ when it
+                looks at one thing only; when we have no other design but to ‘know God, and Jesus
+                Christ whom he hath sent’;<note place="foot" xml:id="ftn3" n="3"><p
+                        rend="footnote text">John 17:3.</p></note> to know him with suitable
+                affections, loving him as he hath loved us; to please God in all things; to serve
+                God (as we love him) with all our heart and mind and soul and strength;<note
+                    place="foot" xml:id="ftn4" n="4"><p rend="footnote text">See Mark
+                    12:30.</p></note> and to enjoy God in all and above all things, in time and in
+                eternity.</p>
+            <p n="3">3. ‘If thine eye be’ thus ‘single’, thus fixed on God, ‘thy whole body shall be
+                full of light.’ ‘Thy whole body’—all that is guided by the intention, as the body is
+                by the eye. All thou art, all thou dost: thy desires, tempers, affections; thy
+                thoughts and words and actions. The whole of these ‘shall be full of light’; full of
+                true, divine knowledge. This is the first thing we may here understand by light. ‘In
+                his light thou shalt see light.’<note place="foot" xml:id="ftn5" n="5"><p
+                        rend="footnote text">Cf. Ps. 36:9.</p></note> ‘He which’ of old ‘commanded
+                light to shine out of darkness, shall shine in thy heart.’<note place="foot"
+                    xml:id="ftn6" n="6"><p rend="footnote text">Cf. 2 Cor. 4:6.</p></note> He shall
+                enlighten the eyes of thy understanding<note place="foot" xml:id="ftn7" n="7"><p
+                        rend="footnote text">See Eph. 1:18.</p></note> with the knowledge of the
+                glory of God. His Spirit shall reveal unto thee the deep things of God.<note
+                    place="foot" xml:id="ftn8" n="8"><p rend="footnote text">See 1 Cor.
+                    2:10.</p></note> The inspiration of the Holy One shall <hi rend="Page"
+                    >[01:614]</hi>give thee understanding, and cause thee to know wisdom secretly.
+                Yea, the anointing which thou receivest of him ‘shall abide in thee and teach thee
+                of all things’.<note place="foot" xml:id="ftn9" n="9"><p rend="footnote text">Cf. 1
+                        John 2:27.</p></note></p>
+            <p>How does experience confirm this? Even after God hath opened the eyes of our
+                understanding, if we seek or desire anything else than God, how soon is our foolish
+                heart darkened! Then clouds again rest upon our souls. Doubts and fears again
+                overwhelm us. We are tossed to and fro, and know not what to do, or which is the
+                path wherein we should go. But when we desire and seek nothing but God, clouds and
+                doubts vanish away. We ‘who were sometime darkness are now light in the Lord’.<note
+                    place="foot" xml:id="ftn10" n="10"><p rend="footnote text">Cf. Eph.
+                    5:8.</p></note> The night now shineth as the day;<note place="foot"
+                    xml:id="ftn11" n="11"><p rend="footnote text">See Ps. 139:12.</p></note> and we
+                find ‘the path of the upright is light.’<note place="foot" xml:id="ftn12" n="12"><p
+                        rend="footnote text">Cf. Prov. 4:18.</p></note> God showeth us the path
+                wherein we should go, and ‘maketh plain the way before our face’.<note place="foot"
+                    xml:id="ftn13" n="13"><p rend="footnote text">Cf. Ps. 5:8 (BCP).</p></note></p>
+            <p n="4">4. The second thing which we may here understand by ‘light’ is holiness. While
+                thou seekest God in all things thou shalt find him in all, the fountain of all
+                holiness, continually filling thee with his own likeness, with justice, mercy, and
+                truth. While thou lookest unto Jesus and him alone thou shalt be filled with the
+                mind that was in him.<note place="foot" xml:id="ftn14" n="14"><p
+                        rend="footnote text">See Phil. 2:5.</p></note> Thy soul shall be renewed day
+                by day after the image of him that created it. If the eye of thy mind be not removed
+                from him, if thou endurest ‘as seeing him that is invisible’,<note place="foot"
+                    xml:id="ftn15" n="15"><p rend="footnote text">Cf. Heb. 11:27.</p></note> and
+                seeking nothing else in heaven or earth, then as thou beholdest the glory of the
+                Lord thou shalt be ‘transformed into the same image, from glory to glory, by the
+                Spirit of the Lord’.<note place="foot" xml:id="ftn16" n="16"><p rend="footnote text"
+                        >2 Cor. 3:18.</p></note></p>
+            <p>And it is also matter of daily experience that ‘by grace we are thus saved through
+                    faith.’<note place="foot" xml:id="ftn17" n="17"><p rend="footnote text">Cf. Eph.
+                        2:8.</p></note> It is by faith that the eye of the mind is opened to see the
+                light of the glorious love of God. And as long as it is steadily fixed thereon, on
+                God in Christ, reconciling the world unto himself,<note place="foot" xml:id="ftn18"
+                    n="18"><p rend="footnote text">See 2 Cor. 5:19.</p></note> we are more and more
+                filled with the love of God and man, with meekness, gentleness, long-suffering; with
+                all the fruits of holiness, which are, through Christ Jesus, to the glory of God the
+                Father.</p>
+            <p n="5"><pb n="01:615"/>5. This light which fills him who has a single eye implies,
+                thirdly, happiness as well as holiness. Surely ‘light is sweet, and a pleasant thing
+                it is to see the sun.’<note place="foot" xml:id="ftn19" n="19"><p
+                        rend="footnote text">Cf. Eccles. 11:7. Cf. No. 91, ‘On Charity’, III.10,
+                        where Wesley relates an anecdote of a victim of the Inquisition brought out
+                        of prison to execution. Having not seen the sun in many years, looking up,
+                        he cried out in surprise, ‘O how can anyone who sees that glorious luminary
+                        worship any but the God that made it!’</p></note> But how much more to see
+                the sun of righteousness continually shining upon the soul! And if there be any
+                consolation in Christ, if any comfort of love,<note place="foot" xml:id="ftn20"
+                    n="20"><p rend="footnote text">Phil. 2:1.</p></note> if any peace that passeth
+                all understanding,<note place="foot" xml:id="ftn21" n="21"><p rend="footnote text"
+                        >See Phil. 4:7.</p></note> if any rejoicing in hope of the glory of
+                    God,<note place="foot" xml:id="ftn22" n="22"><p rend="footnote text">See Rom.
+                        5:2.</p></note> they all belong to him whose eye is single. Thus is his
+                ‘whole body full of light’.<note place="foot" xml:id="ftn23" n="23"><p
+                        rend="footnote text">Matt. 6:22.</p></note> He walketh in the light as God
+                is in the light,<note place="foot" xml:id="ftn24" n="24"><p rend="footnote text">See
+                        1 John 1:7.</p></note> rejoicing evermore, praying without ceasing, and in
+                everything giving thanks, <hi rend="italic">enjoying</hi> whatever is the will of
+                God concerning him in Christ Jesus.<note place="foot" xml:id="ftn25" n="25"><p
+                        rend="footnote text">See 1 Thess. 5:16-18.</p></note></p>
+            <p n="6">6. ‘But if thine eye be evil, thy whole body shall be full of darkness.’<note
+                    place="foot" xml:id="ftn26" n="26"><p rend="footnote text">Matt.
+                    6:23.</p></note> ‘If thine eye be evil’: we see there is no medium between a
+                single and an evil eye. If the eye be not single, then it is evil. If the intention
+                in whatever we do be not singly to God, if we seek anything else, then our ‘mind and
+                conscience are defiled’.<note place="foot" xml:id="ftn27" n="27"><p
+                        rend="footnote text">Cf. Titus 1:15. Cf. No. 125, ‘On a Single
+                    Eye’.</p></note></p>
+            <p n="">Our eye therefore is evil if in anything we do we aim at any other end than God;
+                if we have any view but to know and to love God, to please and serve him in all
+                things; if we have any other design than to enjoy God, to be happy in him both now
+                and for ever.<note place="foot" xml:id="ftn28" n="28"><p rend="footnote text">Note
+                        the echo here of the answer to <hi rend="italic">Q.</hi> 1 in the
+                        Westminster <hi rend="italic">Shorter Catechism</hi> of 1647.</p></note></p>
+            <p n="7">7. If thine eye be not singly fixed on God, ‘thy whole body shall be full of
+                darkness.’ The veil shall still remain on thy heart. Thy mind shall be more and more
+                blinded by ‘the God of this world, lest the light of the glorious gospel of Christ
+                should shine upon thee’.<note place="foot" xml:id="ftn29" n="29"><p
+                        rend="footnote text">Cf. 2 Cor. 4:4.</p></note> Thou wilt be full of
+                ignorance and error touching the things of God, not being able to receive or discern
+                them. And even when thou hast some desire to serve God, thou wilt be full of
+                uncertainty as to the manner of serving him; finding doubts and difficulties on
+                every side, and not seeing any way to escape.</p>
+            <p><pb n="01:616"/>Yea, if thine eye be not single, if thou seek any of the things of
+                earth, thou shalt be full of ungodliness and unrighteousness, thy desires, tempers,
+                affections, being all out of course, being all dark, and vile, and vain. And thy
+                conversation will be evil as well as thy heart, not ‘seasoned with salt’,<note
+                    place="foot" xml:id="ftn30" n="30"><p rend="footnote text">Col. 4:6.</p></note>
+                or ‘meet to minister grace unto the hearers’,<note place="foot" xml:id="ftn31"
+                    n="31"><p rend="footnote text">Cf. Eph. 4:29.</p></note> but idle, unprofitable,
+                corrupt, grievous to the Holy Spirit of God.</p>
+            <p n="8">8. Both ‘destruction and unhappiness are in thy ways;’ for ‘the way of peace
+                hast thou not known.’<note place="foot" xml:id="ftn32" n="32"><p
+                        rend="footnote text">Cf. Rom. 3:16-17.</p></note> There is no peace, no
+                settled, solid peace, for them that know not God. There is no true nor lasting
+                content for any who do not seek him with their whole heart. While thou aimest at any
+                of the things that perish, ‘all that cometh is vanity.’<note place="foot"
+                    xml:id="ftn33" n="33"><p rend="footnote text">Eccles. 11:8.</p></note> Yea, not
+                only vanity, but ‘vexation of spirit’,<note place="foot" xml:id="ftn34" n="34"><p
+                        rend="footnote text">Eccles. 1:14, etc.</p></note> and that both in the
+                pursuit and the enjoyment also. Thou walkest indeed in a vain shadow, and
+                disquietest thyself in vain.<note place="foot" xml:id="ftn35" n="35"><p
+                        rend="footnote text">See Ps. 39:6.</p></note> Thou walkest in darkness that
+                may be felt.<note place="foot" xml:id="ftn36" n="36"><p rend="footnote text">See
+                        Exod. 10:21.</p></note> ‘Sleep on;’ but thou canst not ‘take thy rest.’<note
+                    place="foot" xml:id="ftn37" n="37"><p rend="footnote text">Cf. Matt.
+                    26:45.</p></note> The dreams of life can give pain, and that thou knowest; but
+                ease they cannot give. There is no rest in this world or the world to come, but only
+                in God, the centre of spirits.</p>
+            <p>‘If the light which is in thee be darkness, how great is that darkness!’ If the
+                intention which ought to enlighten the whole soul, to fill it with knowledge, and
+                love, and peace, and which in fact does so as long as it is single, as long as it
+                aims at God alone—if this be darkness; if it aim at anything beside God, and
+                consequently cover the soul with darkness instead of light, with ignorance and
+                error, with sin and misery—O how great is that darkness! It is the very smoke which
+                ascends out of the bottomless pit!<note place="foot" xml:id="ftn38" n="38"><p
+                        rend="footnote text">See Rev. 11:7; 17:8.</p></note> It is the essential
+                night which reigns in the lowest deep, in the land of the shadow of death.<note
+                    place="foot" xml:id="ftn39" n="39"><p rend="footnote text">See Isa. 9:1-2; Matt.
+                        4:16.</p></note></p>
+            <p n="9">9. Therefore ‘lay not up for yourselves treasures upon earth, where moth and
+                rust doth corrupt, and where thieves break through and steal.’<note place="foot"
+                    xml:id="ftn40" n="40"><p rend="footnote text">Matt. 6:19.</p></note> If you do,
+                it is plain your eye is evil; it is not singly fixed on God.</p>
+            <p>With regard to most of the commandments of God, whether <pb n="01:617"/>relating to
+                the heart or life, the heathens of Africa<note place="foot" xml:id="ftn41" n="41"><p
+                        rend="footnote text">Most of what Wesley knew of Africa came from the
+                        published accounts of travellers and was confined largely to the ‘dark
+                        continent’s’ southern tip. Cf. Peter Kolben, <hi rend="italic">The Present
+                            State of the Cape of Good Hope</hi> (1731) and Thomas Salmon, <hi
+                            rend="italic">Modern History</hi>. The general label at that time for
+                        the natives of the Cape Colony and its hinterlands was ‘Hottentots’, and
+                        they are described in quite various lights (as ‘noble savages’ by some and
+                        as uncivilized by others). Wesley’s concern here, however, is to use ‘the
+                        heathens of Africa or America’ as foils in his scornful comparisons between
+                        nominal Christians and so-called heathens. Cf. JWJ, Dec. 2, 1737 (§§21-28);
+                        and Nos. 69, ‘The Imperfection of Human Knowledge’, II.5; 105, ‘On
+                        Conscience’, §5. See also <hi rend="italic">The Doctrine of Original
+                            Sin</hi>, Pt. II, II.1-10; <hi rend="italic">Thoughts upon Slavery</hi>,
+                        II.1-2 (<hi rend="italic">Bibliog</hi>, No. 350, Vol. 15); <hi rend="italic"
+                            >Survey</hi>, IV.109; and <hi rend="italic">AM</hi>, 1789, 377-83.
+                        Wesley seems never to have used the name ‘Africa’, but always, as here,
+                        ‘Africk’ (1748) or ‘Afric’ (1771, 1787).</p></note> or America stand much on
+                a level with those that are called Christians. The Christians observe them (a few
+                only being excepted) very near as much as the heathens. For instance: the generality
+                of the natives of England, commonly called Christians, are as sober and as temperate
+                as the generality of the heathens near the Cape of Good Hope. And so the Dutch or
+                French Christians are as humble and as chaste as the Choctaw or Cherokee Indians. It
+                is not easy to say, when we compare the bulk of the nations in Europe with those in
+                America, whether the superiority lies on the one side or the other. At least the
+                American has not much the advantage. But we cannot affirm this with regard to the
+                command now before us. Here the heathen has far the pre-eminence.<note place="foot"
+                    xml:id="ftn42" n="42"><p rend="footnote text">Wesley’s lifelong rejection of
+                        surplus accumulation as an economic moral principle would intensify in the
+                        last decade of his life; see below, No. 87, ‘The Danger of Riches’ (1781).
+                        Here, before Adam Smith’s <hi rend="italic">Wealth of Nations</hi> (1776)
+                        and in sharp contrast, he is suggesting that, in terms of freedom from the
+                        greed that expresses itself in ‘laying up treasures…’, the heathens are
+                        morally superior to European Christians who, long since, had lost their
+                        ‘natural’ scruples against hoarding and amassing wealth without stint. Cf.
+                        No. 50, ‘The Use of Money’, espec. I.8-9, III.1.</p></note> He desires and
+                seeks nothing more than plain food to eat and plain raiment to put on. And he seeks
+                this only from day to day. He reserves, he lays up nothing; unless it be as much
+                corn at one season of the year as he will need before that season returns. This
+                command, therefore, the heathens, though they know it not, do constantly and
+                punctually observe. They ‘lay up for themselves no treasures upon earth’; no stores
+                of purple or fine linen, of gold or silver, which either ‘moth or rust may corrupt’,
+                or ‘thieves break through and steal’. But how do the Christians observe what they
+                profess to receive as a command of the most high God? Not at all; not in any degree;
+                no more than if no such command had ever been given to man. Even the <hi
+                    rend="italic">good</hi> Christians, as they are accounted by others as well as
+                themselves, pay no manner of <pb n="01:618"/>regard thereto. It might as well be
+                still hid in its original Greek for any notice they take of it. In what Christian
+                city do you find one man of five hundred who makes the least scruple of laying up
+                just as much treasure as he can? Of increasing his goods just as far as he is able?
+                There are indeed those who would not do this unjustly; there are many who will
+                neither rob nor steal; and some who will not defraud their neighbour; nay, who will
+                not gain either by his ignorance or necessity. But this is quite another point. Even
+                these do not scruple the thing, but the manner of it. They do not scruple the
+                ‘laying up treasures upon earth’, but the laying them up by dishonesty.</p>
+            <p>They do not start at disobeying Christ, but at a breach of heathen morality. So that
+                even these honest men do no more obey this command than a highwayman or a
+                housebreaker. Nay, they never designed to obey it. From their youth up it never
+                entered into their thoughts. They were bred up by their Christian parents, masters,
+                and friends, without any instruction at all concerning it; unless it were this, to
+                break it as soon and as much as they could, and to continue breaking it to their
+                life’s end.</p>
+            <p n="10">10. There is no one instance of spiritual infatuation in the world which is
+                more amazing than this. Most of these very men read or hear the Bible read, many of
+                them every Lord’s day. They have read or heard these words an hundred times, and yet
+                never suspect that they are themselves condemned thereby, any more than by those
+                which forbid parents to offer up their sons or daughters unto Moloch.</p>
+            <p>O that God would speak to these miserable self-deceivers with his own voice, his
+                mighty voice! That they may at last awake out of the snare of the devil,<note
+                    place="foot" xml:id="ftn43" n="43"><p rend="footnote text">See 2 Tim.
+                    2:26.</p></note> and the scales may fall from their eyes!<note place="foot"
+                    xml:id="ftn44" n="44"><p rend="footnote text">See Acts 9:18.</p></note></p>
+            <p n="11">11. Do you ask what it is to ‘lay up treasures on earth’? It will be needful
+                to examine this thoroughly. And let us, first, observe what is not forbidden in this
+                command, that we may then clearly discern what is.</p>
+            <p>We are not forbidden in this command, first, to ‘provide things honest in the sight
+                of all men,’<note place="foot" xml:id="ftn45" n="45"><p rend="footnote text">Cf. 2
+                        Cor. 8:21.</p></note> to provide wherewith we may ‘render unto all their
+                    due,’<note place="foot" xml:id="ftn46" n="46"><p rend="footnote text">Cf. Rom.
+                        13:7.</p></note> whatsoever they can justly demand of us. So far from it
+                that we are taught of God to ‘owe no man anything’.<note place="foot" xml:id="ftn47"
+                    n="47"><p rend="footnote text">Rom. 13:8.</p></note> We ought therefore to use
+                all diligence in our calling, <pb n="01:619"/>in order to owe no man anything: this
+                being no other than a plain law of common justice which our Lord came ‘not to
+                destroy but to fulfil’.<note place="foot" xml:id="ftn48" n="48"><p
+                        rend="footnote text">Matt. 5:17.</p></note></p>
+            <p>Neither, secondly, does he here forbid the providing for ourselves such things as are
+                needful for the body; a sufficiency of plain, wholesome food to eat, and clean
+                raiment to put on. Yea, it is our duty, so far as God puts it into our power, to
+                provide these things also; to the end we may ‘eat our own bread’,<note place="foot"
+                    xml:id="ftn49" n="49"><p rend="footnote text">Cf. 2 Thess. 3:12.</p></note> and
+                be ‘burdensome to no man’.<note place="foot" xml:id="ftn50" n="50"><p
+                        rend="footnote text">Cf. 2 Cor. 11:9.</p></note></p>
+            <p>Nor yet are we forbidden, thirdly, to provide for our children and for those of our
+                own household. This also it is our duty to do, even upon principles of heathen
+                morality. Every man ought to provide the plain necessaries<note place="foot"
+                    xml:id="ftn51" n="51"><p rend="footnote text">Cf. No. 30, ‘Sermon on the Mount,
+                        X’, §26 and n.</p></note> of life both for his own wife and children, and to
+                put them into a capacity of providing these for themselves when he is gone hence and
+                is no more seen. I say, of providing <hi rend="italic">these</hi>, the plain
+                necessaries of life—not delicacies, not superfluities—and that by their <hi
+                    rend="italic">diligent labour</hi>; for it is no man’s duty to furnish them any
+                more than himself with the means either of luxury or idleness. But if any man
+                provides not thus far for his own children (as well as for ‘the widows of his own
+                    house’,<note place="foot" xml:id="ftn52" n="52"><p rend="footnote text">Cf. 1
+                        Tim. 5:3, 8.</p></note> of whom primarily St. Paul is speaking in those
+                well-known words to Timothy), ‘he hath’ practically ‘denied the faith, and is worse
+                than an infidel,’<note place="foot" xml:id="ftn53" n="53"><p rend="footnote text">1
+                        Tim. 5:8.</p></note> or heathen.</p>
+            <p>Lastly, we are not forbidden in these words to lay up from time to time what is
+                needful for the carrying on our worldly business in such a measure and degree as is
+                sufficient to answer the foregoing purposes: in such a measure as, first, to ‘owe no
+                man anything’;<note place="foot" xml:id="ftn54" n="54"><p rend="footnote text">Rom.
+                        13:8.</p></note> secondly, to procure for ourselves the necessaries of life;
+                and, thirdly, to furnish those of our own house with them while we live, and with
+                the means of procuring them when we are gone to God.</p>
+            <p n="12">12. We may now clearly discern (unless we are unwilling to discern it) what
+                that is which is forbidden here. It is the designedly procuring more of this world’s
+                goods than will answer the foregoing purposes; the labouring after a larger measure
+                of worldly substance, a larger increase of gold and silver; the laying up any more
+                than these ends require is what is here expressly and absolutely forbidden. If the
+                words have any meaning at all, it must <pb n="01:620"/>be this, for they are capable
+                of no other. Consequently whoever he is that, owing no man anything, and having food
+                and raiment for himself and his household, together with a sufficiency to carry on
+                his worldly business so far as answers these reasonable purposes—whosoever, I say,
+                being already in these circumstances, seeks a still larger portion on earth—he lives
+                in an open habitual denial of the Lord that bought him. He hath practically ‘denied
+                the faith, and is worse than an’ African or American ‘infidel’.</p>
+            <p n="13">13. Hear ye this, all ye that dwell in the world, and love the world wherein
+                ye dwell. Ye may be ‘highly esteemed of men’; but ye are an ‘abomination in the
+                sight of God’.<note place="foot" xml:id="ftn55" n="55"><p rend="footnote text">Cf.
+                        Luke 16:15.</p></note> How long shall your souls cleave to the dust?<note
+                    place="foot" xml:id="ftn56" n="56"><p rend="footnote text">See Ps.
+                    119:25.</p></note> How long will ye load yourselves with thick clay?<note
+                    place="foot" xml:id="ftn57" n="57"><p rend="footnote text">See Hab.
+                    2:6.</p></note> When will ye awake and see that the open, speculative heathens
+                are nearer the kingdom of heaven than you?<note place="foot" xml:id="ftn58" n="58"
+                        ><p rend="footnote text">Aristotle, <hi rend="italic">Nicomachean
+                            Ethics</hi>, had been Wesley’s undergraduate textbook in ethics, along
+                        with the ethical writings of Seneca and Cicero; with one voice they had
+                        condemned greed and covetousness.</p></note> When will ye be persuaded to
+                choose the better part; that which cannot be taken away from you?<note place="foot"
+                    xml:id="ftn59" n="59"><p rend="footnote text">See Luke 10:42.</p></note> When
+                will ye seek only to ‘lay up treasures in heaven’,<note place="foot" xml:id="ftn60"
+                    n="60"><p rend="footnote text">Matt. 6:20.</p></note> renouncing, dreading,
+                abhorring all other? If you aim at ‘laying up treasures on earth’<note place="foot"
+                    xml:id="ftn61" n="61"><p rend="footnote text">Cf. Matt 6:19.</p></note> you are
+                not <hi rend="italic">barely</hi> losing your time and spending your strength for
+                that which is not bread:<note place="foot" xml:id="ftn62" n="62"><p
+                        rend="footnote text">See Isa. 55:2.</p></note> for what is the fruit if you
+                succeed? You have murdered your own soul. You have extinguished the last spark of
+                spiritual life therein. Now indeed, in the midst of life you are in death.<note
+                    place="foot" xml:id="ftn63" n="63"><p rend="footnote text">BCP, Burial
+                        (477).</p></note> You are a living man, but a dead Christian. ‘For where
+                your treasure is, there will your heart be also.’<note place="foot" xml:id="ftn64"
+                    n="64"><p rend="footnote text">Matt. 6:21.</p></note> Your heart is sunk into
+                the dust; your soul cleaveth to the ground.<note place="foot" xml:id="ftn65" n="65"
+                        ><p rend="footnote text">See Ps. 119:25.</p></note> Your affections are set,
+                not on things above, but on things of the earth;<note place="foot" xml:id="ftn66"
+                    n="66"><p rend="footnote text">See Col. 3:2.</p></note> on poor husks that may
+                poison, but cannot satisfy an everlasting spirit made for God. Your love, your joy,
+                your desire are all placed on the things which perish in the using. You have thrown
+                away the treasure in heaven: God and Christ are lost. You have gained riches, and
+                hell-fire.</p>
+            <p n="14">14. O ‘how hardly shall they that have riches enter into the kingdom of
+                    God!’<note place="foot" xml:id="ftn67" n="67"><p rend="footnote text">Mark
+                        10:23.</p></note> When our Lord’s disciples were astonished at <hi
+                    rend="Page">[01:621]</hi>his speaking thus he was so far from retracting it that
+                he repeated the same important truth in stronger terms than before. ‘It is easier
+                for a camel to go through the eye of a needle, than for a rich man to enter into the
+                kingdom of God.’<note place="foot" xml:id="ftn68" n="68"><p rend="footnote text"
+                        >Mark 10:25.</p></note> How hard is it for them whose very word is applauded
+                not to be wise in their own eyes! How hard for them not to think themselves better
+                than the poor, base, uneducated herd of men! How hard not to seek happiness in their
+                riches, or in things dependent upon them; in gratifying the desire of the flesh, the
+                desire of the eye, or the pride of life!<note place="foot" xml:id="ftn69" n="69"><p
+                        rend="footnote text">See 1 John 2:16. Cf. No. 7, ‘The Way to the Kingdom’,
+                        II.2 and n.</p></note> O ye rich, how can ye escape the damnation of
+                    hell?<note place="foot" xml:id="ftn70" n="70"><p rend="footnote text">Matt.
+                        23:33.</p></note> Only, with God all things are possible.<note place="foot"
+                    xml:id="ftn71" n="71"><p rend="footnote text">Matt. 19:26.</p></note></p>
+            <p n="15">15. And even if you do not succeed, what is the fruit of your <hi
+                    rend="italic">endeavouring</hi> to lay up treasures on earth? ‘They that will be
+                rich’ (οἱ βουλόμενοι πλουτεῖν, they that desire, that endeavour after it, whether
+                they succeed or no) ‘fall into a temptation and a snare’, a gin, a trap of the
+                devil, ‘and into many foolish and hurtful lusts’—ἐπιθυμίας [πολλὰς] ἀνοήτους,
+                desires with which reason hath nothing to do, such as properly belong, not to
+                rational and immortal beings, but only to the brute beasts which have no
+                understanding; ‘which drown men in destruction and perdition’,<note place="foot"
+                    xml:id="ftn72" n="72"><p rend="footnote text">Cf. 1 Tim. 6:9.</p></note> in
+                present and eternal misery. Let us but open our eyes, and we may daily see the
+                melancholy proofs of this: men who desiring, resolving to be rich, ‘coveting after
+                money, the root of all evil, have already pierced themselves through with many
+                    sorrows’,<note place="foot" xml:id="ftn73" n="73"><p rend="footnote text">Cf. 1
+                        Tim. 6:10.</p></note> and anticipated the hell to which they are going.</p>
+            <p>The cautiousness with which the Apostle here speaks is highly observable. He does not
+                affirm this absolutely of <hi rend="italic">the rich</hi>; for a man may possibly be
+                rich without any fault of his, by an overruling providence, preventing his own
+                choice. But he affirms it of οἱ βουλόμενοι πλουτεῖν, ‘those who desire’ or seek ‘to
+                be rich’. Riches, dangerous as they are, do not always ‘drown men in destruction and
+                perdition’. But the <hi rend="italic">desire of riches</hi> does: those who calmly
+                desire and deliberately seek to attain them, whether they do, in fact, gain the
+                world or no, do infallibly lose their own souls. These are they that sell him who
+                bought them with his blood, for a few pieces of gold or silver.<note place="foot"
+                    xml:id="ftn74" n="74"><p rend="footnote text">See Matt. 26:14-15.</p></note>
+                These enter into a covenant with <pb n="01:622"/>death and hell: and their covenant
+                shall stand. For they are daily making themselves meet to partake of their
+                inheritance with the devil and his angels.<note place="foot" xml:id="ftn75" n="75"
+                        ><p rend="footnote text">Matt. 25:41.</p></note></p>
+            <p n="16">16. O who shall warn this generation of vipers to flee from the wrath to
+                    come!<note place="foot" xml:id="ftn76" n="76"><p rend="footnote text">See Matt.
+                        3:7.</p></note> Not those who lie at their gate, or cringe at their feet,
+                desiring to be fed with the crumbs that fall from their tables.<note place="foot"
+                    xml:id="ftn77" n="77"><p rend="footnote text">See Luke 16:20-21.</p></note> Not
+                those who court their favour or fear their frown: none of those who mind earthly
+                things. But if there be a Christian upon earth, if there be a man who hath overcome
+                the world, who desires nothing but God, and fears none but him that is able to
+                destroy both body and soul in hell<note place="foot" xml:id="ftn78" n="78"><p
+                        rend="footnote text">See Matt 10:28.</p></note>—thou, O man of God, speak
+                and spare not; lift up thy voice like a trumpet.<note place="foot" xml:id="ftn79"
+                    n="79"><p rend="footnote text">Isa. 58:1.</p></note> Cry aloud, and show these
+                honourable sinners the desperate condition wherein they stand. It may be one in a
+                thousand may have ears to hear, may arise and shake himself from the dust; may break
+                loose from these chains that bind him to the earth, and at length lay up treasures
+                in heaven.</p>
+            <p n="17">17. And if it should be that one of these, by the mighty power of God, awoke
+                and asked, What must I do to be saved?<note place="foot" xml:id="ftn80" n="80"><p
+                        rend="footnote text">Acts 16:30.</p></note> the answer, according to the
+                oracles of God, is clear, full, and express. God doth not say to thee, ‘Sell all
+                that thou hast.’<note place="foot" xml:id="ftn81" n="81"><p rend="footnote text"
+                        >Luke 18:22.</p></note> Indeed he who seeth the hearts of men saw it needful
+                to enjoin this in one peculiar case, that of the <hi rend="italic">young, rich
+                    ruler</hi>. But he never laid it down for a general rule to all rich men, in all
+                succeeding generations. His general direction is, first, ‘Be not highminded.’<note
+                    place="foot" xml:id="ftn82" n="82"><p rend="footnote text">Rom.
+                    11:20.</p></note> ‘God seeth not as man seeth.’<note place="foot" xml:id="ftn83"
+                    n="83"><p rend="footnote text">Cf. 1 Sam. 16:7.</p></note> He esteems thee not
+                for thy riches, for thy grandeur or equipage, for any qualification or
+                accomplishment which is directly or indirectly owing to thy wealth, which can be
+                bought or procured thereby. All these are with him as dung and dross: let them be so
+                with thee also. Beware thou think not thyself to be one jot wiser or better for all
+                these things. Weigh thyself in another balance:<note place="foot" xml:id="ftn84"
+                    n="84"><p rend="footnote text">I.e., ‘in the balance of the sanctuary’; cf. No.
+                        10, ‘The Witness of the Spirit, I’, II.8 and n.</p></note> estimate thyself
+                only by the measure of faith and love which God hath given thee. If thou hast more
+                of the <pb n="01:623"/>knowledge and love of God than he, thou art on this account,
+                and no other, wiser and better, more valuable and honourable than him who is with
+                the dogs of thy flock.<note place="foot" xml:id="ftn85" n="85"><p
+                        rend="footnote text">Job 30:1.</p></note> But if thou hast not this treasure
+                those art more foolish, more vile, more truly contemptible—I will not say, than the
+                lowest servant under thy roof but—than the beggar laid at thy gate, full of
+                    sores.<note place="foot" xml:id="ftn86" n="86"><p rend="footnote text">See Luke
+                        16:20.</p></note></p>
+            <p n="18">18. Secondly, ‘Trust not in uncertain riches.’<note place="foot"
+                    xml:id="ftn87" n="87"><p rend="footnote text">Cf. 1 Tim. 6:17.</p></note> Trust
+                not in them for help; and trust not in them for happiness.</p>
+            <p>First, trust not in them for help. Thou art miserably mistaken if thou lookest for
+                this in gold or silver. These are no more able to set thee <hi rend="italic">above
+                    the world</hi> than to set thee above the devil. Know that both the world and
+                the prince of this world<note place="foot" xml:id="ftn88" n="88"><p
+                        rend="footnote text">John 14:30; 16:11.</p></note> laugh at all such
+                preparations against them. These will little avail in the day of trouble—even if
+                they remain in the trying hour. But it is not certain that they will; for how oft do
+                they ‘make themselves wings and fly away’?<note place="foot" xml:id="ftn89" n="89"
+                        ><p rend="footnote text">Cf. Prov. 23:5.</p></note> But if not, what support
+                will they afford, even in the ordinary troubles of life? The desire of thy
+                    eyes,<note place="foot" xml:id="ftn90" n="90"><p rend="footnote text">See Ezek.
+                        24:16, 21.</p></note> the wife of thy youth,<note place="foot"
+                    xml:id="ftn91" n="91"><p rend="footnote text">Prov. 5:18; Mal. 2:14.</p></note>
+                thy son, thine only son, or the friend which was as thy own soul,<note place="foot"
+                    xml:id="ftn92" n="92"><p rend="footnote text">Cf. Deut. 13:6; see also 1 Sam.
+                        18:3.</p></note> is taken away at a stroke.<note place="foot" xml:id="ftn93"
+                    n="93"><p rend="footnote text">See Ezek. 24:16.</p></note> Will thy riches
+                reanimate the breathless clay, or call back its late inhabitant? Will they secure
+                thee from sickness, diseases, pain? Do these visit the poor only? Nay; he that feeds
+                thy flocks or tills thy ground has less sickness and pain than thou. He is more
+                rarely visited by these unwelcome guests: and if they come there at all they are
+                more easily driven away from the little cot than from ‘the cloud-topped
+                    palaces’.<note place="foot" xml:id="ftn94" n="94"><p rend="footnote text">Cf.
+                        Shakespeare, <hi rend="italic">The Tempest</hi>, IV. i. 152—a conflation
+                        from memory of ‘The cloud-capp’d towers, the gorgeous palaces’.</p></note>
+                And during the time that thy body is chastened with pain, or consumes away with
+                pining sickness, how do thy treasures help thee? Let the poor heathen answer:</p>
+            <lg>
+                <l>
+                    <hi rend="italic">Ut lippum pictae tabulae, fomenta podagrum,</hi>
+                </l>
+                <l>
+                    <hi rend="italic">Auriculas citharae collecta sorde dolentes.</hi>
+                </l>
+                <note place="foot" xml:id="ftn95" n="95">
+                    <p rend="footnote text">Wesley seems to have held Horace in an especial
+                        contempt; cf., e.g., No. 2, <hi rend="italic">The Almost Christian</hi>,
+                        III.9, where Wesley refers to him with two unflattering epithets (‘a heathen
+                        Epicurean poet’ and ‘this poor wretch’). The quotation here is from the <hi
+                            rend="italic">Epistles</hi>, I. ii. 52-53, and speaks of ‘such pleasures
+                        as pictures can afford to weak eyes or bounty-laden tables to a man with
+                        gout’. Despite this disdain, however, Wesley quotes Horace at least
+                        twenty-nine times in the <hi rend="italic">Sermons</hi>.</p>
+                </note>
+            </lg>
+            <p n="19"><pb n="01:624"/>19. But there is at hand a greater trouble than all these. <hi
+                    rend="italic">Thou</hi> art to die. <hi rend="italic">Thou</hi> art to sink into
+                dust; to return to the ground from which thou wast taken, to mix with common clay.
+                    <hi rend="italic">Thy</hi> body is to go to the earth as it was, while thy
+                spirit returns to God that gave it.<note place="foot" xml:id="ftn96" n="96"><p
+                        rend="footnote text">See Eccles. 12:7.</p></note> And the time draws on: the
+                years slide away with a swift though silent pace. Perhaps your day is far spent: the
+                noon of life is past, and the evening shadows begin to rest upon you. You feel in
+                yourself sure approaching decay. The springs of life wear away apace.<note
+                    place="foot" xml:id="ftn97" n="97"><p rend="footnote text">Cf. John’s later
+                        comment on his brother Charles’s death (<hi rend="italic">Minutes</hi> of
+                        Conference, 1788): ‘He had no disease, but after a gradual decay of some
+                        months, “The weary wheels of life stood still at last”;’ the line of poetry
+                        is from John Dryden and Nathaniel Lee, <hi rend="italic">Oedipus</hi>, Act
+                        IV, sc. 1.</p></note> Now what help is there in your riches? Do they sweeten
+                death? Do they endear that solemn hour? Quite the reverse. ‘O death, how bitter art
+                thou to a man that liveth at rest in his possessions!’<note place="foot"
+                    xml:id="ftn98" n="98"><p rend="footnote text">Cf. Ecclus. 41:1.</p></note> How
+                unacceptable to him is that awful sentence. ‘This night shall thy soul be required
+                of thee!’<note place="foot" xml:id="ftn99" n="99"><p rend="footnote text">Cf. Luke
+                        12:20.</p></note> Or will they prevent the unwelcome stroke, or protract the
+                dreadful hour? Can they deliver your soul that it should not see death?<note
+                    place="foot" xml:id="ftn100" n="100"><p rend="footnote text">See Ps. 33:19
+                        (AV).</p></note> Can they restore the years that are past? Can they add to
+                your appointed time a month, a day, an hour, a moment? Or will the good things you
+                have chosen for your portion here follow you over the great gulf? Not so: naked came
+                you into this world; naked must you return.<note place="foot" xml:id="ftn101"
+                    n="101"><p rend="footnote text">See Job 1:21.</p></note></p>
+            <lg>
+                <l>
+                    <hi rend="italic">Linquenda tellus, et domus et placens</hi>
+                </l>
+                <l>
+                    <hi rend="italic">Uxor: nec harum quas seris arborum</hi>
+                </l>
+                <l>
+                    <hi rend="italic">Te, praeter invisam cupressum,</hi>
+                </l>
+                <l>
+                    <hi rend="italic">Ulla brevem dominum sequetur.</hi>
+                </l>
+                <note place="foot" xml:id="ftn102" n="102">
+                    <p rend="footnote text">Horace, again; this time from the <hi rend="italic"
+                            >Odes</hi>, II. xiv. 21-24. The orig. reads <hi rend="italic">colis</hi>
+                        (‘culture’) instead of Wesley’s <hi rend="italic">seris</hi> (‘planting’)
+                        and, in l. 23, it reads <hi rend="italic">invisas cupressos</hi> (i.e., the
+                        plural): ‘You must take leave of lands, home, winsome wife; and no tree
+                        whose culture had pleased shall survive your brief reign except those
+                        mournful cypresses.’ Cf. also, JWJ, July 4, 1756, and Oct. 13, 1779.</p>
+                </note>
+            </lg>
+            <p>Surely, were not these truths too plain to be <hi rend="italic">observed</hi>,
+                because they are too plain to be <hi rend="italic">denied</hi>, no man that is to
+                die could possibly ‘trust’ for help ‘in uncertain riches’.<note place="foot"
+                    xml:id="ftn103" n="103"><p rend="footnote text">1 Tim. 6:17.</p></note></p>
+            <p n="20">20. And trust not in them for happiness. For here also they will be found
+                ‘deceitful upon the weights’.<note place="foot" xml:id="ftn104" n="104"><p
+                        rend="footnote text">Ps. 62:9 (BCP).</p></note> Indeed this every <pb
+                    n="625"/>reasonable man may infer from what has been observed already. For if
+                neither thousands of gold and silver, nor any of the advantages or pleasures
+                purchased thereby, can prevent our being miserable, it evidently follows they cannot
+                make us happy. What happiness can they afford to him who in the midst of all is
+                constrained to cry out,</p>
+            <lg>
+                <l>To my new courts sad thought does still repair,</l>
+                <l>And round my gilded roofs hangs hovering care.</l>
+                <note place="foot" xml:id="ftn105" n="105">
+                    <p rend="footnote text">Matthew Prior, <hi rend="italic">Solomon</hi>, ii. 53-54
+                        (the orig. uses the past tense). Cf. Wesley, <hi rend="italic">Collection of
+                            Moral and Sacred Poems</hi>, II.129. Cf. Wesley’s ‘Thoughts on the
+                        Character and Writings of Mr. Prior’, where he asserts that Prior’s best
+                        passages ‘do not yield to anything that has been wrote by Pope, or Dryden,
+                        or any English poet, except Milton’ (<hi rend="italic">AM</hi> 1782,
+                        665).</p>
+                </note>
+            </lg>
+            <p>Indeed experience is here so full, strong, and undeniable, that it makes all other
+                arguments needless. Appeal we therefore to fact. Are the rich and great the only
+                happy men? And is each of them more or less happy in proportion to his measure of
+                riches? Are they happy at all? I had wellnigh said, they are of all men most
+                    miserable!<note place="foot" xml:id="ftn106" n="106"><p rend="footnote text">1
+                        Cor. 15:19.</p></note> Rich man, for once, speak the truth from thy heart.
+                Speak, both for thyself, and for thy brethren:</p>
+            <lg>
+                <l>Amidst our plenty something still…</l>
+                <l>To me, to thee, to him is wanting!</l>
+                <l>That cruel something unpossessed</l>
+                <l>Corrodes and leavens all the rest.</l>
+                <note place="foot" xml:id="ftn107" n="107">
+                    <p rend="footnote text">Matthew Prior, ‘The Ladle’, ll. 162, 164-66, with l. 163
+                        omitted. See also No. 77, ‘Spiritual Worship’, III.1.</p>
+                </note>
+            </lg>
+            <p>Yea, and so it will, till thy wearisome days of vanity are shut up in the night of
+                death.</p>
+            <p>Surely then, to trust in riches for happiness is the greatest folly of all that are
+                under the sun! Are you not convinced of this? Is it possible you should still expect
+                to find happiness in money or all it can procure? What! Can silver and gold, and
+                eating and drinking, and horses and servants, and glittering apparel, and diversions
+                and pleasures (as they are called) make thee happy? They can as soon make thee
+                immortal.</p>
+            <p n="21">21. These are all dead show. Regard them not. ‘Trust’ thou ‘in the living
+                    God;’<note place="foot" xml:id="ftn108" n="108"><p rend="footnote text">1 Tim.
+                        4:10.</p></note> so shalt thou be safe under the shadow of the
+                    Almighty;<note place="foot" xml:id="ftn109" n="109"><p rend="footnote text">See
+                        Ps. 91:1.</p></note> his faithfulness and truth shall be thy shield and <pb
+                    n="626"/>buckler.<note place="foot" xml:id="ftn110" n="110"><p
+                        rend="footnote text">Ps. 91:4 (BCP).</p></note> He is a very present help in
+                time of trouble;<note place="foot" xml:id="ftn111" n="111"><p rend="footnote text"
+                        >See Ps. 46:1.</p></note> such an help as can never fail. Then shalt thou
+                say, if all thy other friends die, ‘The Lord liveth, and blessed be my strong
+                    helper!’<note place="foot" xml:id="ftn112" n="112"><p rend="footnote text">Ps.
+                        18:47 (BCP).</p></note> He shall remember thee when thou liest sick upon thy
+                    bed;<note place="foot" xml:id="ftn113" n="113"><p rend="footnote text">See Ps.
+                        41:3 (BCP).</p></note> when vain is the help of man;<note place="foot"
+                    xml:id="ftn114" n="114"><p rend="footnote text">Ps. 60:11; 108:12.</p></note>
+                when all the things of earth can give no support, he will ‘make all thy bed in thy
+                    sickness’.<note place="foot" xml:id="ftn115" n="115"><p rend="footnote text">Cf.
+                        Ps. 41:3.</p></note> He will sweeten thy pain; the consolations of God shall
+                cause thee to clap thy hands in the flames. And even when this house of earth<note
+                    place="foot" xml:id="ftn116" n="116"><p rend="footnote text">See below, §26.
+                        Wesley’s thoroughgoing dualism is reflected in his oft-repeated metaphors
+                        about the earthly body as temporary lodgement far the soul. His biblical
+                        sources would include Job 4:19 (‘houses of clay’) and 2 Cor. 5:1 (‘the
+                        earthly house of this tabernacle’); and he uses one or another variant of
+                        the idea in other sermons (thirteen of them) and at least three letters, not
+                        to mention his early imitation of Horace (<hi rend="italic">Odes</hi> I.
+                        xxiv), ver. 6, l. 4: ‘[The body’s] ancient tenement of clay’. The metaphor
+                        had come to be a cliché in English poetry, from Thomas Carew (‘On the Lady
+                        Mary Villiers’: ‘The purest soul that e’er was sent/Into a clayey tenement’)
+                        to John Dryden (‘Absalom and Achitophel’, I.144: ‘And o’er informed the
+                        tenement of clay’) to James Thomson (‘Upon Happiness’, l. 125: ‘cage of
+                        clay’), and many others.</p></note> is wellnigh shaken down, when it is just
+                ready to drop into the dust, he will teach thee to say, ‘O death, where is thy
+                sting? O grave, where is thy victory? […] Thanks be unto God, who giveth me the
+                victory, through my Lord Jesus Christ.’<note place="foot" xml:id="ftn117" n="117"><p
+                        rend="footnote text">1 Cor. 15:55-57.</p></note></p>
+            <p>O trust in him for happiness as well as for help. All the springs of happiness are in
+                him. Trust in him ‘who giveth us all things richly to enjoy’, παρέχοντι [ἡμῖν]
+                πλουσίως πάντα εἰς ἀπόλαυσιν;<!--Mark this with an xml:lang tag later.--><note
+                    place="foot" xml:id="ftn118" n="118"><p rend="footnote text">A paraphrase of the
+                        meaning of 1 Tim. 6:17 in the <hi rend="italic">TR</hi>; cf. the AV: ‘who
+                        giveth us richly all things to enjoy’.</p></note> who of his own rich and
+                free mercy holds them out to us as in his own hand, that receiving them as his gift,
+                and as pledges of his love, we may ‘enjoy all’ that we possess. It is his love gives
+                a relish to all we taste, puts life and sweetness into all, while every creature
+                leads us up to the great Creator, and all earth is a scale to heaven.<note
+                    place="foot" xml:id="ftn119" n="119"><p rend="footnote text">Cf. No. 56, ‘God’s
+                        Approbation of His Works’, I.14 and n.</p></note> He transfuses the joys
+                that are at his own right hand into all he bestows on his thankful children; who,
+                having fellowship with the Father and his Son Jesus Christ,<note place="foot"
+                    xml:id="ftn120" n="120"><p rend="footnote text">Cf. 1 John 1:3.</p></note> enjoy
+                him in all and above all.</p>
+            <p n="22">22. Thirdly, seek not to <hi rend="italic">increase in goods</hi>. ‘Lay not up
+                for thyself treasures upon earth.’<note place="foot" xml:id="ftn121" n="121"><p
+                        rend="footnote text">Matt. 6:19.</p></note> This is a flat, positive
+                command, full as clear as ‘Thou shalt not commit adultery.’<note place="foot"
+                    xml:id="ftn122" n="122"><p rend="footnote text">Exod. 20:14.</p></note> How then
+                is it <pb n="01:627"/>possible for a rich man to grow richer without denying the
+                Lord that bought him? Yea, how can any man who has already the necessaries of life
+                gain or aim at more, and be guiltless? ‘Lay not up’, saith our Lord, ‘treasures upon
+                earth.’ If in spite of this you do and will lay up money or goods, what ‘moth or
+                rust’ may ‘corrupt, or thieves break through and steal’;<note place="foot"
+                    xml:id="ftn123" n="123"><p rend="footnote text">Cf. Matt 6:19.</p></note> if you
+                will add house to house, or field to field,<note place="foot" xml:id="ftn124"
+                    n="124"><p rend="footnote text">See Isa. 5:8.</p></note> why do you call
+                yourself a Christian? You do not obey Jesus Christ. You do not design it. Why do you
+                name yourself by his name? ‘Why call ye me, Lord, Lord’, saith he himself, ‘and do
+                not the things which I say?’<note place="foot" xml:id="ftn125" n="125"><p
+                        rend="footnote text">Luke 6:46.</p></note></p>
+            <p n="23">23. If you ask, ‘But what must we do with our goods, seeing we have more than
+                we have occasion to use, if we must not lay them up? Must we throw them away?’ I
+                answer: if you threw them into the sea, if you were to cast them into the fire and
+                consume them, they would be better bestowed than they are now.<note place="foot"
+                    xml:id="ftn126" n="126"><p rend="footnote text">But see No. 50, ‘The Use of
+                        Money’, §§2-3, where certain positive uses of money are
+                    acknowledged.</p></note> You cannot find so mischievous a manner of throwing
+                them away as either the laying them up for your posterity or the laying them out
+                upon yourselves in folly and superfluity. Of all possible methods of ‘throwing them
+                away’ these two are the very worst—the most opposite to the gospel of Christ, and
+                the most pernicious to your own soul.</p>
+            <p>How pernicious to your own soul the latter of these is has been excellently shown by
+                a late writer:</p>
+            <quote>If we waste our money we are not only guilty of wasting a talent which God has
+                given us, […] but we do ourselves this farther harm: we turn this useful talent into
+                a powerful means of corrupting ourselves; because so far as it is spent wrong, so
+                far it is spent in the support of some wrong temper, in gratifying some vain and
+                unreasonable desires, which as Christians we are obliged to renounce.</quote>
+            <quote>As wit and fine parts cannot be only trifled away, but will expose those that
+                have them to greater follies, so money cannot be only trifled away, but if it is not
+                used according to reason and religion, will make people live a more silly and
+                extravagant life than they would have done without it. If therefore you don’t spend
+                your money in doing good to others, you must spend it to the hurt of yourself. You
+                act like one that refuses the cordial to his sick friend which he cannot drink
+                himself without inflaming his blood. For this is the case of superfluous money; if
+                you give it to those who want it it is a cordial; if you spend it upon yourself in
+                something that you do not want it only inflames and disorders your mind. […]</quote>
+            <quote><pb n="01:628"/>In using riches where they have no real use, nor we any real
+                want, we only use them to our great hurt, in creating unreasonable desires, in
+                nourishing ill tempers, in indulging in foolish passions, and supporting a vain turn
+                of mind. For high eating and drinking, fine clothes and fine houses, state and
+                equipage, gay pleasures and diversions, do all of them naturally hurt and disorder
+                our heart. They are the food and nourishment of all the folly and weakness of our
+                nature. […] They are all of them the support of something that ought not to be
+                supported. They are contrary to that sobriety and piety of heart which relishes
+                divine things. They are so many weights upon our mind, that makes us less able and
+                less inclined to raise our thoughts and affections to things above.</quote>
+            <quote>So that money thus spent is not merely wasted or lost, but it is spent to bad
+                purposes and miserable effects; to the corruption and disorder of our hearts; to the
+                making us unable to follow the sublime doctrines of the gospel. It is but like
+                keeping money from the poor to buy poison for ourselves.<note place="foot"
+                    xml:id="ftn127" n="127"><p rend="footnote text">Law, <hi rend="italic">Serious
+                            Call</hi> (<hi rend="italic">Works</hi>, IV.50-51); cf. above, §1 and n.
+                        See also No. 108, ‘On Riches’, II.3.</p></note></quote>
+            <p n="24">24. Equally inexcusable are those who <hi rend="italic">lay up</hi> what they
+                do not need for any reasonable purposes:</p>
+            <quote>If a man had hands and eyes and feet that he could give to those that wanted
+                them; if he should lock them up in a chest […] instead of giving them to his
+                brethren that were blind and lame, should we not justly reckon him an inhuman
+                wretch? If he should rather choose to amuse himself with hoarding them up than
+                entitle himself to an eternal reward by giving them to those that wanted eyes and
+                hands, might we not justly reckon him mad?</quote>
+            <quote>Now money has very much the nature of eyes and feet. If therefore we lock it up
+                in chests […] while the poor and distressed want it for their necessary uses […] we
+                are not far from the cruelty of him that chooses rather to hoard up the hands and
+                eyes than to give them to those that want them. If we choose to lay it up rather
+                than to entitle ourselves to an eternal reward by disposing of our money well, we
+                are guilty of his madness that rather chooses to lock up eyes and hands than to make
+                himself for ever blessed by giving them to those that want them.<note place="foot"
+                    xml:id="ftn128" n="128"><p rend="footnote text">More from Law; but note that
+                        Wesley reverses Law’s ordering of the ‘heads’ of his argument; cf. <hi
+                            rend="italic">ibid.</hi>, ch. vi; cf. §1, above, and
+                n.</p></note></quote>
+            <p n="25">25. May not this be another reason why rich men shall so hardly enter into the
+                kingdom of heaven?<note place="foot" xml:id="ftn129" n="129"><p rend="footnote text"
+                        >See Matt. 19:23.</p></note> A vast majority of them are under a curse,
+                under the peculiar curse of God; inasmuch as in the general tenor of their lives
+                they are not only robbing God continually, embezzling and wasting their Lord’s
+                goods, and by that very means corrupting their own souls; but also robbing the poor,
+                the hungry, the naked, wronging the widow and the fatherless, and making themselves
+                accountable for all the <pb n="01:629"/>want, affliction, and distress which they
+                may but do not remove. Yea, doth not the blood of all those who perish for want of
+                what they either lay up or lay out needlessly, cry against them from the earth?<note
+                    place="foot" xml:id="ftn130" n="130"><p rend="footnote text">See Gen.
+                    4:10.</p></note> O what account will they give to him who is ready to judge both
+                the quick and the dead!<note place="foot" xml:id="ftn131" n="131"><p
+                        rend="footnote text">See 1 Pet. 4:5.</p></note></p>
+            <p n="26">26. The true way of employing what you do not want yourselves you may,
+                fourthly, learn from those words of our Lord which are the counterpart of what went
+                before: ‘Lay up for yourselves treasures in heaven, where neither moth nor rust doth
+                corrupt, and where thieves do not break through and steal.’<note place="foot"
+                    xml:id="ftn132" n="132"><p rend="footnote text">Matt. 6:20.</p></note> Put out
+                whatever thou canst spare upon better security than this world can afford. Lay up
+                thy treasures in the bank of heaven; and God shall restore them in that day. ‘He
+                that hath pity upon the poor lendeth unto the Lord,’ and look, ‘what he layeth out,
+                it shall be paid him again.’<note place="foot" xml:id="ftn133" n="133"><p
+                        rend="footnote text">Cf. Prov. 19:17.</p></note> Place that, saith he, unto
+                my account. Howbeit, ‘thou owest me thine own self also!’<note place="foot"
+                    xml:id="ftn134" n="134"><p rend="footnote text">Cf. Philem. 19.</p></note></p>
+            <p>Give to the poor with a single eye, with an upright heart, and write, ‘So much given
+                to God.’ For ‘Inasmuch as ye did it unto one of the least of these my brethren, ye
+                have done it unto me.’<note place="foot" xml:id="ftn135" n="135"><p
+                        rend="footnote text">Cf. Matt. 25:40.</p></note></p>
+            <p>This is the part of a ‘faithful and wise steward’:<note place="foot" xml:id="ftn136"
+                    n="136"><p rend="footnote text">Luke 12:42.</p></note> not to sell either his
+                houses or lands, or principal stock, be it more or less, unless some peculiar
+                circumstance should require it; and not to desire or endeavour to increase it, any
+                more than to squander it away in vanity; but to employ it wholly to those wise and
+                reasonable purposes for which his Lord has lodged it in his hands. The wise steward,
+                after having provided his own household with what is needful for life and
+                    godliness,<note place="foot" xml:id="ftn137" n="137"><p rend="footnote text">See
+                        2 Pet. 1:3.</p></note> ‘makes’ himself ‘friends with’ all that remains from
+                time to time of the ‘mammon of unrighteousness; that when he fails they may receive
+                him into everlasting habitations;’<note place="foot" xml:id="ftn138" n="138"><p
+                        rend="footnote text">Cf. Luke 16:9.</p></note> that whensoever his earthly
+                    tabernacle<note place="foot" xml:id="ftn139" n="139"><p rend="footnote text">See
+                        above, §21 and n.</p></note> is dissolved, they who were before carried into
+                Abraham’s bosom,<note place="foot" xml:id="ftn140" n="140"><p rend="footnote text"
+                        >See Luke 16:22.</p></note> after having eaten his bread, and worn the
+                fleece of his flock, and praised God for the consolation, may welcome him into
+                paradise, and to ‘the house of God, eternal in the heavens’.<note place="foot"
+                    xml:id="ftn141" n="141"><p rend="footnote text">Cf. 2 Cor. 5:1.</p></note></p>
+            <p><pb n="01:630"/>27. We ‘charge you’, therefore, ‘who are rich in this world’,<note
+                    place="foot" xml:id="ftn142" n="142"><p rend="footnote text">Cf. 1 Tim.
+                        6:17.</p></note> as having authority from our great Lord and Master,
+                    ἀγαθοεργεῖν<note place="foot" xml:id="ftn143" n="143"><p rend="footnote text">1
+                        Tim. 6:18.</p></note>—‘to be habitually doing good’, to live in a course of
+                good works. ‘Be ye merciful as your Father which is in heaven is merciful,’<note
+                    place="foot" xml:id="ftn144" n="144"><p rend="footnote text">Cf. Luke
+                    6:36.</p></note> who doth good and ceaseth not. ‘Be ye merciful’—‘How far?’ <hi
+                    rend="italic">After your power</hi>,<note place="foot" xml:id="ftn145" n="145"
+                        ><p rend="footnote text">Cf. the <hi rend="italic">General Rules</hi>, §5:
+                        ‘doing good, by being in every kind merciful <hi rend="italic">after their
+                            power</hi>’.</p></note> with all the ability which God giveth. Make this
+                your only measure of doing good, not any beggarly maxims or customs of the world. We
+                charge you to ‘be rich in good works’;<note place="foot" xml:id="ftn146" n="146"><p
+                        rend="footnote text">Cf. 1 Tim. 6:17-18.</p></note> as you have much, to <hi
+                    rend="italic">give plenteously</hi>. Freely ye have received; freely give;<note
+                    place="foot" xml:id="ftn147" n="147"><p rend="footnote text">Matt.
+                    10:8.</p></note> so as to lay up no treasure but in heaven. Be ye ‘ready to
+                    distribute’<note place="foot" xml:id="ftn148" n="148"><p rend="footnote text">1
+                        Tim. 6:18.</p></note> to everyone according to his necessity. Disperse
+                abroad, give to the poor: deal your bread to the hungry.<note place="foot"
+                    xml:id="ftn149" n="149"><p rend="footnote text">See Isa. 58:7.</p></note> Cover
+                the naked with a garment,<note place="foot" xml:id="ftn150" n="150"><p
+                        rend="footnote text">See Ezek. 18:7.</p></note> entertain the stranger,<note
+                    place="foot" xml:id="ftn151" n="151"><p rend="footnote text">See Heb.
+                    13:2.</p></note> carry or send relief to them that are in prison. Heal the sick;
+                not by miracle, but through the blessing of God upon your seasonable support. Let
+                the blessing of him that was ready to perish through pining want come upon
+                    thee.<note place="foot" xml:id="ftn152" n="152"><p rend="footnote text">See Job
+                        29:13.</p></note> Defend the oppressed, plead the cause of the fatherless,
+                and make the widow’s heart sing for joy.<note place="foot" xml:id="ftn153" n="153"
+                        ><p rend="footnote text"><hi rend="italic">Ibid.</hi></p></note></p>
+            <p n="28">28. We exhort <hi rend="italic">you</hi> in the name of the Lord Jesus Christ
+                to be ‘willing to communicate’, κοινωνικοὺς εἴναι;<note place="foot" xml:id="ftn154"
+                    n="154"><p rend="footnote text">Cf. 1 Tim. 6:18, … εὐμετάδοτους εἴναι,
+                        κοινωνικούς, ….</p></note> to be of the same spirit (though not in the same
+                outward state) with those believers of ancient times, who ‘remained steadfast’ ἐν τῇ
+                    κοινωνίᾳ,<note place="foot" xml:id="ftn155" n="155"><p rend="footnote text">Acts
+                        2:42. Note Wesley’s ἐν for καὶ.</p></note> in that blessed and holy
+                ‘fellowship’ wherein ‘none said that anything was his own, but they had all things
+                    common.’<note place="foot" xml:id="ftn156" n="156"><p rend="footnote text">Cf.
+                        Acts 4:32.</p></note> Be a steward, a faithful and wise steward,<note
+                    place="foot" xml:id="ftn157" n="157"><p rend="footnote text">Luke
+                    12:42.</p></note> of God and of the poor; differing from them in these two
+                circumstances only, that your wants are first supplied out of the portion of your
+                Lord’s goods which remains in your hands, and that you have the blessedness of
+                giving. Thus ‘lay up for yourselves a good foundation’, not in the world which now
+                is, but rather ‘for the time to come, that ye may lay hold on eternal life.’<note
+                    place="foot" xml:id="ftn158" n="158"><p rend="footnote text">Cf. 1 Tim.
+                        6:19.</p></note> The great <pb n="01:631"/>foundation indeed of all the
+                blessings of God, whether temporal or eternal, is the Lord Jesus Christ, his
+                righteousness and blood, what he hath done, and what he hath suffered for us. And
+                ‘other foundation’, in this sense, ‘can no man lay;’<note place="foot"
+                    xml:id="ftn159" n="159"><p rend="footnote text">1 Cor. 3:11.</p></note> no, not
+                an apostle, no, not an angel from heaven.<note place="foot" xml:id="ftn160" n="160"
+                        ><p rend="footnote text">See Gal. 1:8.</p></note> But through his merits,
+                whatever we do in his name is a foundation for a good reward in the day when ‘every
+                man shall receive his own reward, according to his own labour.’<note place="foot"
+                    xml:id="ftn161" n="161"><p rend="footnote text">1 Cor. 3:8.</p></note> Therefore
+                ‘labour’ thou, ‘not for the meat that perisheth, but for that which endureth unto
+                everlasting life.’<note place="foot" xml:id="ftn162" n="162"><p rend="footnote text"
+                        >John 6:27.</p></note> Therefore ‘whatsoever thy hand’ now ‘findeth to do,
+                do it with thy might’.<note place="foot" xml:id="ftn163" n="163"><p
+                        rend="footnote text">Eccles. 9:10.</p></note> Therefore let</p>
+            <lg>
+                <l>No fair occasion pass unheeded by;</l>
+                <l>Snatching the golden moments as they fly,</l>
+                <l>Thou by few fleeting years ensure eternity!</l>
+                <note place="foot" xml:id="ftn164" n="164">
+                    <p rend="footnote text">An adaptation from Samuel Wesley, Jun., ‘On the Death of
+                        Mr. Morgan…’; ll. 19-21, in <hi rend="italic">Poems</hi> (1736), p. 108.
+                        Later, John will quote the first line here (with his own variations) in a
+                        letter to Ann Bolton, Nov. 28, 1772.</p>
+                </note>
+            </lg>
+            <p>‘By patient continuance in well-doing, seek’ thou ‘for glory and honour and
+                    immortality.’<note place="foot" xml:id="ftn165" n="165"><p rend="footnote text"
+                        >Rom. 2:7.</p></note> In a constant, zealous performance of all good
+                    works<note place="foot" xml:id="ftn166" n="166"><p rend="footnote text">See
+                        Titus 2:14.</p></note> wait thou for that happy hour when ‘the King shall
+                say, […] I was an hungered, and ye gave me meat; I was thirsty, and ye gave me
+                drink. I was a stranger, and ye took me in, naked, and ye clothed me. I was sick,
+                and ye visited me; I was in prison, and ye came unto me.’<note place="foot"
+                    xml:id="ftn167" n="167"><p rend="footnote text">Matt. 25:34-36.</p></note>
+                ‘Come, ye blessed of my Father, receive the kingdom prepared for you from the
+                foundation of the world!’<note place="foot" xml:id="ftn168" n="168"><p
+                        rend="footnote text">Cf. Matt 25:34. Cf. No. 51, <hi rend="italic">The Good
+                            Steward</hi>, III and IV.</p></note></p>
+        </body>
+    </text>
+</TEI>

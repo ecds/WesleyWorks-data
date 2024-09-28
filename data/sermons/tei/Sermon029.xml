@@ -1,0 +1,937 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Sermon 29: Upon Our Lord’s Sermon On The Mount, Discourse IX</title>
+                <author>Wesley, John</author>
+                <editor role="text">Van Buskirk, Gregory P.</editor>
+                <editor role="digital">Taylor, Michelle M.</editor>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>The Wesley Works Digitzation Project</publisher>
+                <pubPlace>Tampa, FL</pubPlace>
+                <date>2024-02-25</date>
+            </publicationStmt>
+            <sourceDesc>
+                <listBibl>
+                    <biblStruct>
+                        <analytic>
+                            <title level="a">Sermon 29: Upon Our Lord’s Sermon On The Mount,
+                                Discourse IX</title>
+                        </analytic>
+                        <monogr>
+                            <title level="j">The Works of John Wesley, Volume I: Sermons I,
+                                1-33</title>
+                            <editor role="volume">Outler, Albert</editor>
+                            <imprint>
+                                <publisher>Abingdon Press</publisher>
+                                <pubPlace>Nashville, TN</pubPlace>
+                                <date when="2015-05-01">1984-05-01</date>
+                                <biblScope unit="volume" n="1"/>
+                                <biblScope unit="page" from="466" to="469"/>
+                                <biblScope unit="page" from="632" to="649"/>
+                            </imprint>
+                        </monogr>
+                        <series>
+                            <title level="s">The Works of John Wesley</title>
+                            <editor role="general">Baker, Frank</editor>
+                        </series>
+                    </biblStruct>
+                </listBibl>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Greg Van Buskirk created Word docs for all of Wesley's sermons using a combination of
+                OCR software and manual proofing. Michelle Taylor converted these docx into XML
+                using Oxygen's DITA automatic transformation scenario, then touched them up
+                manually.</p>
+        </encodingDesc>
+        <standOff>
+            <taxonomy>
+                <keywords>
+                    <term/>
+                </keywords>
+            </taxonomy>
+            <!--Include keywords and terms here eventually.-->
+        </standOff>
+        <revisionDesc/>
+    </teiHeader>
+    <text>
+        <body>
+            <pb n="01:466"/>
+            <introduction>
+                <!--Confirm introduction is the element I want to use here, especially given that I
+                    use it as an attribute for Wesley's introductory paragraphs as well.-->
+                <head>
+                    <hi rend="italic">An Introductory Comment [to Sermons 21-33]</hi>
+                </head>
+                <p>The unifying theme of these next thirteen ‘discourses’ on the Sermon on the
+                    Mount, with all their variations and nuancings, is the Christian life understood
+                    as the fruit of justifying faith. But given such faith, what follows? Wesley’s
+                    answer is given in this extended exposition of the Christian life based on the
+                        <hi rend="italic">locus classicus</hi> of evangelical ethics, ‘The Sermon on
+                    the Mount’ (i.e., Matthew 5-7). Since Tyndale, this ‘sermon’ had been understood
+                    as ‘the epitome of God’s laws and promises’ for Christian believers; cf.
+                    Clebsch, <hi rend="italic">England’s Earliest Protestants</hi>, p. 184; see also
+                    William Burkitt, <hi rend="italic">Expository Notes…on the New Testament</hi>
+                    (eleven editions between 1700 and 1739), Preface to chapter 5: ‘Christ’s famous
+                    Sermon on the Mount comprehends the sum and substance of both the Old and New
+                    Testaments.’</p>
+                <p>Taken together, the following sermons are not a thirteen-part essay, tightly
+                    organized and argued. Instead, they are separate sermons, drawn from materials
+                    running back to 1725, arranged in a triadic pattern that seems to have been
+                    original with Wesley. Each is a discourse in its own right; yet the series is
+                    designed so that each appears as a part of a whole. This means that the sermons
+                    may be read singly or together, but with an eye on their shared aim: ‘to assert
+                    and prove every branch of <hi rend="italic">gospel obedience</hi> as
+                    indispensably necessary to eternal salvation’; cf. Wesley’s open letter (Nov.
+                    17, 1759) to John Downes in reply to the latter’s abusive <hi rend="italic"
+                        >Methodism Examined and Exposed</hi> (1759).</p>
+                <p>Many of the great and near-great commentators of the seventeenth and eighteenth
+                    centuries had devoted their talents to the interpretation of Matthew 5-7 as the
+                    principal summary of Christian ethics, or, in Henry Hammond’s phrase, as ‘an
+                    abstract of Christian philosophy’; cf. his <hi rend="italic">Practical
+                        Catechism</hi> (1st edn., <hi rend="italic">c.</hi> 1644), II.1, in the <hi
+                        rend="italic">Library of Anglo-Catholic Theology</hi> (1847), p. 83. Chief
+                    among these earlier works, in the order of their influences upon Wesley’s
+                    thought, were Bishop Offspring Blackall, ‘Eighty-Seven Practical Discourses Upon
+                    Our Saviour’s Sermon on the Mount’, <hi rend="italic">Works</hi>, I.1-561;
+                    II.609-939; <pb n="01:467"/>John Norris, <hi rend="italic">Practical
+                        Discourses</hi>; the American, James Blair, <hi rend="italic">Our Saviour’s
+                        Divine Sermon on the Mount in IV Volumes</hi> (1722; 2nd edn., 1740, with a
+                    preface by Daniel Waterland); John Cardinal Bona, <hi rend="italic">Guide to
+                        Eternity…</hi> (six editions in English between 1672 and 1712); and Henry
+                    Hammond, <hi rend="italic">op. cit.</hi> Echoes of all these are scattered along
+                    the way, together with lesser borrowings from Bengel, Poole, and Henry. This
+                    makes it all the more remarkable that Wesley came up with a model of his own,
+                    both inform and substance. This series thus reminds us, yet again, of Wesley’s
+                    ready appeal to tradition—even while he maintains his own originality and
+                    independence.</p>
+                <p>Benjamin Ingham records in his Journal that ‘during the voyage [to Georgia]
+                    Wesley went over our Saviour’s Sermon on the Mount’ with the ship’s company
+                    aboard the <hi rend="italic">Simmonds</hi>. There are also other records of his
+                    preaching, very early on, from one or another text in Matthew 5-7. For example,
+                    his second sermon was preached at Binsey (near Oxford), November 21, 1725, on
+                    Matt. 6:33. A first draft of the sermon which appears here as ‘Discourse VIII’
+                    seems to have been written out in 1736. Later, it was the example of the Sermon
+                    on the Mount that encouraged Wesley to break out of his High Church prejudices
+                    in Bristol, April 1, 1739: ‘In the evening (Mr. Whitefield being gone) I begun
+                    expounding our Lord’s Sermon on the Mount (one pretty remarkable precedent of
+                        <hi rend="italic">field preaching</hi>, though I suppose <hi rend="italic"
+                        >there were churches</hi> at that time also) to a little society which was
+                    accustomed to meet once or twice a week in Nicholas Street;’ cf. <hi
+                        rend="italic">Journal</hi> entries for this whole story of the unplanned
+                    outbreak of the Wesleyan Revival.</p>
+                <p>The records show that, between 1739 and 1746, Wesley preached more than one
+                    hundred sermons from separate texts in the Sermon on the Mount. There is,
+                    however, no recorded instance of his having treated that Sermon as a whole
+                    anywhere else. Evidently, he was prepared to allow this series, once published,
+                    to stand as his sufficient comment on the subject.</p>
+                <p>In his introduction to ‘Discourse X’, §§1-3, Wesley repeats his explanation (cf.
+                    ‘Discourse I’, Proem, §10) of how he had conceived the design of Matthew 5-7,
+                    according to its three unfolding themes: (1) ‘the sum of true religion’; (2)
+                    ‘rules touching that right intention which we are to preserve in all our outward
+                    actions’; and (3) ‘the main hindrances of this religion’. He then adds a
+                    clarifying summary: ‘In the fifth chapter [of St. Matthew] our great Teacher…has
+                    laid before us those <hi rend="italic">dispositions of the soul</hi> which
+                    constitute real Christianity…. In the sixth [chapter] he has shown how all our
+                        <hi rend="italic">actions</hi>…may be made holy, and good, and acceptable to
+                    God, by a pure and holy intention…. In <pb n="01:468"/>the former part of [ch.
+                    7] he points out the most common and fatal hindrances of this holiness; in the
+                    latter [part] he exhorts us, by various motives, to break through all [such
+                    hindrances] and secure that prize of our high calling [of God in Christ Jesus]’
+                    (cf. Phil. 3:14).</p>
+                <p>The thirteen discourses are divided almost equally over the three chapters of St.
+                    Matthew: five for chapter five, four each for six and seven. Of the first five,
+                    Discourse I is devoted to the first two Beatitudes; Discourse II to Beatitudes
+                    three through five (with a hymn to love based on 1 Cor. 13); Discourse III to
+                    the remainder of the Beatitudes; Discourse IV turns to Christianity as ‘a social
+                    religion’ in which inward holiness (our love of God) prompts outward holiness
+                    (love of neighbour); Discourse V is a balancing of law <hi rend="italic"
+                        >and</hi> gospel. Discourses VI-IX are based on chapter six: VI to the
+                    problems of purity and holiness of intention (to the ‘works of piety and of
+                    mercy’); VII to fasting; VIII to a denunciation of greed and surplus
+                    accumulation; IX to the mutually exclusive services of God and Mammon.
+                    Discourses X-XIII turn to various hindrances to holy living and to their
+                    avoidance: X to ‘judging’ (contrary to love), ‘intemperate zeal’, ‘neglect of
+                    prayer’, ‘neglect of charity’; XI to the noxious influences of ill-example and
+                    ill-advice with which the world deludes us; XII to false prophets and unedifying
+                    preachers (and yet also our duties to attend church nonetheless and to avail
+                    ourselves of all means of grace); XIII is an inevitable comment on the parable
+                    of the houses built on sand and rock. Discourse XII was also published
+                    separately in the same year that it appeared in <hi rend="italic">SOSO</hi>, III
+                    (1750), under the title, ‘A Caution Against False Prophets. A Sermon on Matt.
+                    vii. 15-20. Particularly recommended to the People Called Methodists’. This went
+                    through seven editions during Wesley’s lifetime. For a stemma delineating the
+                    publishing history of that sermon (‘collected’ and ‘separate’) and a list of
+                    variant readings, see Appendix, ‘Wesley’s Text’, Vol. IV, see also <hi
+                        rend="italic">Bibliog</hi>, Nos. 130 and 13o.i.</p>
+                <p>Obviously there is no interest, in any of these sermons, in critical textual
+                    problems or in the historical context. Everywhere it is assumed that in St.
+                    Matthew’s text we are dealing with divine <hi rend="italic">ipsissima
+                    verba</hi>—i.e., with a direct address from ὁ ὤν, ‘the self-existent, the
+                    Supreme, the God who is over all, blessed for ever’ (§9 below). The Sermon on
+                    the Mount, in Wesley’s view, is the only Gospel passage where Christ designed
+                    ‘to lay down at once the whole plan of his religion, to give us a full prospect
+                    of Christianity’. What matters most in our reading, therefore, is an awareness
+                    of Wesley’s sense of the wholeness of the message he is interpreting, of his
+                    conviction of the honest integration of an evangel profoundly ethical with an
+                    ethic that is also vividly <pb n="01:469"/>evangelical. Maybe more than anywhere
+                    else in <hi rend="italic">SOSO</hi> this particular bloc displays Wesley’s
+                    distinctive concern for integration and balance—between the faith that justifies
+                    and the faith that works by love.</p>
+            </introduction>
+            <pb n="01:632"/>
+            <head>Upon our Lord’s Sermon on the Mount,<lb/>Discourse the Ninth</head>
+            <epigraph>
+                <p>Matthew 6:24-34</p>
+                <p>
+                    <hi rend="italic">No man can serve two masters; for either he will hate the one
+                        and love the other, or else he will hold to the one and despise the other.
+                        Ye cannot serve God and mammon.</hi>
+                </p>
+                <p>
+                    <hi rend="italic">Therefore I say unto you, Take no thought for your life, what
+                        ye shall eat, or what ye shall drink; nor yet for your body, what ye shall
+                        put on. Is not the life more than meat, and the body than raiment?</hi>
+                </p>
+                <p>
+                    <hi rend="italic">Behold the fowls of the air: for they sow not, neither do they
+                        reap, nor gather into barns; yet your heavenly Father feedeth them. Are ye
+                        not much better than they?</hi>
+                </p>
+                <p>
+                    <hi rend="italic">Which of you by taking thought can add one cubit unto his
+                        stature?</hi>
+                </p>
+                <p>
+                    <hi rend="italic">And why take ye thought for raiment? Consider the lilies of
+                        the field, how they grow; they toil not, neither do they spin:</hi>
+                </p>
+                <p>
+                    <hi rend="italic">And yet I say unto you, that even Solomon in all his glory was
+                        not arrayed like one of these.</hi>
+                </p>
+                <p>
+                    <hi rend="italic">Wherefore, if God so clothe the grass of the field, which
+                        today is, and tomorrow is cast into the oven, shall he not much more clothe
+                        you, O ye of little faith?</hi>
+                </p>
+                <p>
+                    <hi rend="italic">Therefore take no thought, saying, What shall we eat? or, What
+                        shall we drink? or, Wherewithal shall we be clothed?</hi>
+                </p>
+                <p>
+                    <hi rend="italic">(For after all these things do the Gentiles seek); for your
+                        heavenly Father knoweth that ye have need of all these things.</hi>
+                </p>
+                <p>
+                    <hi rend="italic">But first seek ye the kingdom of God and his righteousness;
+                        and all these things shall be added unto you.</hi>
+                </p>
+                <p>
+                    <hi rend="italic">Take therefore no thought for the morrow; for the morrow shall
+                        take thought for the things of itself: sufficient unto the day is the evil
+                        thereof.</hi>
+                </p>
+            </epigraph>
+            <pb n="01:633"/>
+            <p n="1">1. It is recorded of the nations whom the King of Assyria, after he had carried
+                Israel away into captivity, placed in the cities of Samaria: ‘They feared the Lord,
+                and served their own gods.’ ‘These nations’, saith the inspired writer, ‘feared the
+                Lord,’ performed an outward service to him (a plain proof that they had a fear of
+                God, though not according to knowledge)<note place="foot" xml:id="ftn2" n="2"><p
+                        rend="footnote text">See Rom. 10:2.</p></note> ‘and served their graven
+                images, both their children, and their children’s children; as did their fathers, so
+                did they unto this day.’<hi rend="endnote_reference"><note place="end"><p
+                            rend="endnote text">2 Kgs. 17:33, 41.</p></note></hi></p>
+            <p>How nearly does the practice of most modern Christians resemble this of the ancient
+                heathens! ‘They fear the Lord’: they also perform an outward service to him, and
+                hereby show they have some fear of God; but they likewise ‘serve their own gods’.
+                There are those who ‘teach them’ (as there were who taught the Assyrians) ‘the
+                manner of the God of the land’;<note place="foot" xml:id="ftn3" n="3"><p
+                        rend="footnote text">2 Kgs. 17:27.</p></note> the God whose name the country
+                bears to this day, and who was once worshipped there with an holy worship.
+                ‘Howbeit’, they do not serve him alone; they do not fear him enough for this; but
+                ‘every nation maketh gods of their own, every nation in the cities wherein they
+                    dwell.’<note place="foot" xml:id="ftn4" n="4"><p rend="footnote text">Cf. 2 Kgs.
+                        17:29.</p></note> ‘These nations fear the Lord’, they have not laid aside
+                the outward form of worshipping him. But ‘they serve their graven images,’ silver
+                and gold, the work of men’s hands. Money, pleasure, and praise, the gods of this
+                world, more than divide their service with the God of Israel. This is the manner
+                both of ‘their children and their children’s children; as did their fathers, so do
+                they unto this day.’</p>
+            <p n="2">2. But although, speaking in a loose way, after the common manner of men, those
+                poor heathens were said to ‘fear the Lord’, yet we may observe the Holy Ghost
+                immediately adds, speaking according to the truth and real nature of things: ‘They
+                fear not the Lord, neither do after the law and commandment which the Lord commanded
+                the children of Jacob. With whom the Lord made a covenant, and charged them, saying,
+                Ye shall not fear other gods nor serve them…. But the Lord your God ye shall fear,
+                and he shall deliver you out of the hand of all your enemies.’<note place="foot"
+                    xml:id="ftn5" n="5"><p rend="footnote text">2 Kgs. 17:34, 35, 39.</p></note></p>
+            <p>The same judgment is passed by the unerring Spirit of God, and indeed by all, the
+                eyes of whose understanding he hath opened<note place="foot" xml:id="ftn6" n="6"><p
+                        rend="footnote text">See Eph. 1:18.</p></note> to discern the things of God,
+                upon these poor Christians, <pb n="01:634"/>commonly so called. If we speak
+                according to the truth and real nature of things, ‘they fear not the Lord, neither
+                do they serve him.’ For they do not ‘after the covenant the Lord hath made with
+                them, neither after the law and commandment which he hath commanded them’, saying,
+                Thou shalt worship the Lord thy God, and him only shalt thou serve.<note
+                    place="foot" xml:id="ftn7" n="7"><p rend="footnote text">Luke 4:8.</p></note>
+                ‘They serve other gods’<note place="foot" xml:id="ftn8" n="8"><p
+                        rend="footnote text">Deut. 7:4.</p></note> unto this day. And ‘no man can
+                serve two masters.’<note place="foot" xml:id="ftn9" n="9"><p rend="footnote text"
+                        >Matt. 6:24.</p></note></p>
+            <p n="3">3. How vain is it for any man to aim at this—to attempt the serving of two
+                masters! Is it not easy to foresee what must be the unavoidable consequence of such
+                an attempt? ‘Either he will hate the one, and love the other; or else he will hold
+                to the one, and despise the other.’<note place="foot" xml:id="ftn10" n="10"><p
+                        rend="footnote text"><hi rend="italic">Ibid.</hi></p></note> The two parts
+                of this sentence, although separately proposed, are to be understood in connection
+                with each other; for the latter part is a consequence of the former. He will
+                naturally ‘hold to’ him whom he loves. He will so cleave to him as to perform to him
+                a willing, faithful, and diligent service. And in the meantime he will so far at
+                least ‘despise’ the master he hates as to have little regard to his commands, and to
+                obey them, if at all, in a slight and careless manner. Therefore, whatsoever the
+                wise men of the world may suppose, ‘Ye cannot serve God and mammon.’</p>
+            <p n="4">4. Mammon was the name of one of the heathen gods, who was supposed to preside
+                over riches.<note place="foot" xml:id="ftn11" n="11"><p rend="footnote text">It was
+                        Milton who fixed the tradition that Mammon (Mamon) was the name of a Syrian
+                        god; cf. <hi rend="italic">Paradise Lost</hi>, i. 678-751, ii. 228-83; and
+                        see also <hi rend="italic">The Jewish Encyclopedia</hi>. Blackall, <hi
+                            rend="italic">Works</hi>,II. 660-61, repeats this bit of lore: ‘And ’tis
+                        agreed, I think, by all that the word Mammon is a Syriac word signifying
+                        riches or treasure,’ but in this place, ‘signifies not a thing but a person;
+                        Mammon is here plainly spoken of as a God, i.e., as an idol or false god’
+                        and ‘was accounted by the ancient heathens the god of <hi rend="italic"
+                            >money</hi>.’</p><p rend="footnote text">The Greek μαμωνᾶ is more
+                        probably a transcription of the Aramaic māmônā, meaning ‘gain’ or ‘riches’;
+                        cf. Sirach 31:8 and Enoch 63:10; see also <hi rend="italic">Pirke Aboth</hi>
+                        2:12. St. Augustine, <hi rend="italic">On the Sermon on the Mount</hi>
+                        (II.xiv.47), comments that its Punic equivalent is ‘lucre’. Cf. Nos. 28,
+                        ‘Sermon on the Mount, VIII’, §26; 50, ‘The Use of Money’, §1; and 122,
+                        ‘Causes of the Inefficacy of Christianity’, §8.</p></note> It is here
+                understood of riches themselves, gold and silver, or in general, money; and by a
+                common figure of speech, of all that may be purchased thereby, such as ease, honour,
+                and sensual pleasure.</p>
+            <p>But what are we here to understand by ‘serving God’; and what by ‘serving
+                mammon’?</p>
+            <p>We cannot ‘serve God’ unless we believe in him. This is the only true foundation of
+                serving him. Therefore believing in God <pb n="01:635"/>as ‘reconciling the world to
+                    himself<note place="foot" xml:id="ftn12" n="12"><p rend="footnote text">2 Cor.
+                        5:19.</p></note> through Christ Jesus, the believing in him as a loving,
+                pardoning God, is the first great branch of his service.</p>
+            <p>And thus to believe in God implies to <hi rend="italic">trust</hi> in him as our
+                strength, without whom we can do nothing,<note place="foot" xml:id="ftn13" n="13"><p
+                        rend="footnote text">See John 15:5.</p></note> who every moment endues us
+                with power from on high, without which it is impossible to please him; as our help,
+                our only help in time of trouble, who compasseth us about with songs of
+                    deliverance;<note place="foot" xml:id="ftn14" n="14"><p rend="footnote text">See
+                        Ps. 32:7 (AV).</p></note> as our shield, our defender, and the lifter up of
+                our head above all our enemies that are round about us.<note place="foot"
+                    xml:id="ftn15" n="15"><p rend="footnote text">See Ps. 27:6.</p></note></p>
+            <p>It implies to trust in God as our happiness; as the centre of spirits, the only rest
+                of our souls; the only good who is adequate to all our capacities, and sufficient to
+                satisfy all the desires he hath given us.</p>
+            <p>It implies (what is nearly allied to the other) to trust in God as our end; to have
+                an eye to him in all things; to use all things only as means of enjoying him;
+                wheresoever we are, or whatsoever we do, to see him that is invisible looking on us
+                well-pleased, and to refer all things to him in Christ Jesus.</p>
+            <p n="5">5. Thus to believe is the first thing we are to understand by ‘serving God’.
+                The second is, to love him.</p>
+            <p>Now, to love God in the manner the Scripture describes, in the manner God himself
+                requires of us, and by requiring engages to work in us, is to love him as the one
+                God; that is, ‘with all our heart, and with all our soul, and with all our mind, and
+                with all our strength’.<note place="foot" xml:id="ftn16" n="16"><p
+                        rend="footnote text">Cf. Mark 12:30.</p></note> It is to desire God alone
+                for his own sake, and nothing else but with reference to him; to rejoice in God; to
+                delight in the Lord; not only to seek, but find happiness in him; to enjoy God as
+                the chiefest among ten thousand;<note place="foot" xml:id="ftn17" n="17"><p
+                        rend="footnote text">S. of S. 5:10.</p></note> to rest in him as our God and
+                our all—in a word, to have such a possession of God as makes us always happy.</p>
+            <p n="6">6. A third thing we are to understand by ‘serving God’ is to resemble or
+                imitate him.</p>
+            <p>So the ancient Father: <hi rend="italic">Optimus Dei cultus, imitari quem
+                    colis</hi><note place="foot" xml:id="ftn18" n="18"><p rend="footnote text">Is
+                        this Wesley’s memory of St. Augustine, <hi rend="italic">De civ. Dei</hi>,
+                        viii.17, ‘<hi rend="italic">religionis summa sit imitari quem colis</hi>’?
+                        If not, ‘the ancient father’ remains unidentified. In his abridged edn. of
+                        Arndt’s <hi rend="italic">True Christianity</hi>, Wesley includes the
+                        aphorism: ‘The whole of religion…is to imitate whom thou dost worship…. This
+                        was well understood by Plato, in whose school was the maxim, “The perfection
+                        of man consisteth in the imitation of God.”’ (<hi rend="italic">Christian
+                            Lib.</hi>, I.228-29). Wesley may also have remembered Tillotson’s
+                        comment that ‘<hi rend="italic">Deus optimus maximus</hi> was the constant
+                        title of God, both among the Greeks and Romans’, and his added quotation
+                        from Seneca, <hi rend="italic">primus deorum cultus est deos credere</hi>,
+                        etc. (<hi rend="italic">Works</hi>, I.678). The idea is found in St. Cyprian
+                        (Migne, <hi rend="italic">PL</hi>, IV.215) but not Wesley’s actual phrase.
+                        See also Wesley’s <hi rend="italic">Earnest Appeal</hi>, §28 (11:55 of this
+                        edn.).</p></note>—‘It is the best worship or service of God, to imitate him
+                you worship.’<pb n="01:636"/></p>
+            <p>We here speak of imitating or resembling him in the spirit of our minds.<note
+                    place="foot" xml:id="ftn19" n="19"><p rend="footnote text">See Eph.
+                    4:23.</p></note> For here the true Christian imitation of God begins. God is a
+                Spirit; and they that imitate or resemble him must do it in spirit and in
+                    truth.<note place="foot" xml:id="ftn20" n="20"><p rend="footnote text">See John
+                        4:24.</p></note></p>
+            <p>Now God is love;<note place="foot" xml:id="ftn21" n="21"><p rend="footnote text">1
+                        John 4:8, 16.</p></note> therefore they who resemble him in the spirit of
+                their minds are transformed into the same image. They are merciful even as he is
+                    merciful.<note place="foot" xml:id="ftn22" n="22"><p rend="footnote text">See
+                        Luke 6:36.</p></note> Their soul is all love. They are kind, benevolent,
+                compassionate, tender-hearted; and that not only to the good and gentle, but also to
+                the froward. Yea, they are, like him, loving unto every man,<note place="foot"
+                    xml:id="ftn23" n="23"><p rend="footnote text">Ps. 145:9 (BCP).</p></note> and
+                their mercy extends to all his works.</p>
+            <p n="7">7. One thing more we are to understand by ‘serving God’, and that is, the
+                obeying him; the glorifying him with our bodies as well as with our spirits;<note
+                    place="foot" xml:id="ftn24" n="24"><p rend="footnote text">See 1 Cor.
+                    6:20.</p></note> the keeping his outward commandments; the zealously doing
+                whatever he hath enjoined; the carefully avoiding whatever he hath forbidden; the
+                performing all the ordinary actions of life with a single eye and a pure
+                heart—offering them all in holy, fervent love, as sacrifices to God through Jesus
+                Christ.</p>
+            <p n="8">8. Let us consider now what we are to understand, on the other hand, by
+                ‘serving mammon’. And first, it implies the <hi rend="italic">trusting</hi> in
+                riches, in money, or the things purchasable thereby, as our strength, the means
+                whereby we shall perform whatever cause we have in hand; the trusting in them as our
+                help, by which we look to be comforted in or delivered out of trouble.</p>
+            <p>It implies the trusting in the world for happiness; the supposing that ‘a man’s life
+                consisteth’ (the comfort of his life) ‘in the abundance of the things which he
+                    possesseth;’<note place="foot" xml:id="ftn25" n="25"><p rend="footnote text">Cf.
+                        Luke 12:15.</p></note> the looking for rest in the things that are seen; for
+                content, in outward plenty; the expecting that satisfaction in the things of the
+                world which can never be found out of God.</p>
+            <p>And if we do this we cannot but make the world our end; the ultimate end, if not of
+                all, at least of many of our undertakings, <pb n="01:637"/>many of our actions and
+                designs—in which we shall aim only at an increase of wealth; at the obtaining
+                pleasure or praise; at the gaining a larger measure of temporal things, without any
+                reference to things eternal.</p>
+            <p n="9">9. The ‘serving mammon’ implies, secondly, loving the world; desiring it for
+                its own sake; the placing our joy in the things thereof, and setting our hearts upon
+                them; the seeking (what indeed it is impossible we should find) our happiness
+                therein; the resting with the whole weight of our souls upon the staff of this
+                broken reed, although daily experience shows it cannot support, but will only ‘enter
+                into our hand and pierce it’.<note place="foot" xml:id="ftn26" n="26"><p
+                        rend="footnote text">Isa. 36:6.</p></note></p>
+            <p n="10">10. To resemble, to be conformed to the world, is the third thing we are to
+                understand by ‘serving mammon’; to have not only designs, but desires, tempers,
+                affections suitable to those of the world; to be of an earthly, sensual mind,
+                chained down to the things of earth; to be self-willed, inordinate lovers of
+                ourselves; to think highly of our own attainments; to desire and delight in the
+                praise of men; to fear, shun, and abhor reproach; to be impatient of reproof, easy
+                to be provoked, and swift to return evil for evil.</p>
+            <p n="11">11. To ‘serve mammon’ is, lastly, to obey the world, by outwardly conforming
+                to its maxims and customs; to walk as other men walk, in the common road, in the
+                broad, smooth, beaten path; to be in the fashion; to follow a multitude; to do like
+                the rest of our neighbours; that is, to do the will of the flesh and the mind, to
+                gratify our appetites and inclinations—to sacrifice to ourselves, to aim at our own
+                ease and pleasure in the general course both of our words and actions.</p>
+            <p>Now what can be more undeniably clear than that we ‘cannot’ thus ‘serve God and
+                mammon’?</p>
+            <p n="12">12. Does not every man see that he cannot <hi rend="italic">comfortably</hi>
+                serve both? That to trim between God and the world<note place="foot" xml:id="ftn27"
+                    n="27"><p rend="footnote text">Johnson’s definition of ‘trim’ is ‘to balance; to
+                        fluctuate between two parties’, and he gives a sample usage from South’s <hi
+                            rend="italic">Sermons</hi>: ‘For men to pretend that their will obeys
+                        the law, while all besides their will serves the faction; what is this but a
+                        gross, fulsome juggling with their duty, and a kind of <hi rend="italic"
+                            >trimming</hi> it between God and the devil.’</p></note> is the sure way
+                to be disappointed in both, and to have no rest either in one or the other? How
+                uncomfortable a condition must he be in, who, having the fear but not the love of
+                God, who, serving him, but not with all his heart, has only the toils and not the
+                joys of religion! He has religion enough to make him miserable, but not enough to
+                    <pb n="01:638"/>make him happy: his religion will not let him enjoy the world,
+                and the world will not let him enjoy God. So that by halting between both he loses
+                both, and has no peace either in God or the world.</p>
+            <p n="13">13. Does not every man see that he cannot serve both <hi rend="italic"
+                    >consistently</hi> with himself? What more glaring inconsistency can be
+                conceived than must continually appear in his whole behaviour who is endeavouring to
+                obey both these masters, striving to ‘serve God and mammon’! He is indeed a ‘sinner
+                that goeth two ways’<note place="foot" xml:id="ftn28" n="28"><p rend="footnote text"
+                        >Ecclus. 2:12.</p></note>—one step forward and another backward. He is
+                continually building up with one hand and pulling down with the other. He loves sin,
+                and he hates it: he is always seeking, and yet always fleeing from God. He would,
+                and he would not. He is not the same man for one day, no, not for an hour together.
+                He is a motley mixture of all sorts of contrarieties; a heap of contradictions
+                jumbled in one. Oh, be consistent with thyself, one way or the other. Turn to the
+                right hand or to the left.<note place="foot" xml:id="ftn29" n="29"><p
+                        rend="footnote text">Gen. 24:49, etc.</p></note> If ‘mammon’ be God, serve
+                thou him; if the Lord, then serve him.<note place="foot" xml:id="ftn30" n="30"><p
+                        rend="footnote text">See 1 Kgs. 18:21.</p></note> But never think of serving
+                either at all unless it be with thy whole heart.</p>
+            <p n="14">14. Does not every reasonable, every thinking man see that he cannot <hi
+                    rend="italic">possibly</hi> ‘serve God and mammon’? Because there is the most
+                absolute contrariety, the most irreconcilable enmity, between them. The contrariety
+                between the most opposite things on earth, between fire and water, darkness and
+                light, vanishes into nothing when compared to the contrariety between God and
+                mammon. So that in whatsoever respect you serve the one, you necessarily renounce
+                the other. Do you believe in God through Christ? Do you <hi rend="italic">trust</hi>
+                in him as your strength, your help, your shield, and your exceeding great
+                    reward?<note place="foot" xml:id="ftn31" n="31"><p rend="footnote text">See Gen.
+                        15:1.</p></note> As your happiness? Your end in all, above all things? Then
+                you cannot <hi rend="italic">trust</hi> in riches. It is absolutely impossible you
+                should, so long as you have this faith in God. Do you thus ‘trust in riches’?<note
+                    place="foot" xml:id="ftn32" n="32"><p rend="footnote text">Mark
+                    10:24.</p></note> Then you have denied the faith.<note place="foot"
+                    xml:id="ftn33" n="33"><p rend="footnote text">1 Tim. 5:8.</p></note> You do not
+                trust in the living God.<note place="foot" xml:id="ftn34" n="34"><p
+                        rend="footnote text">1 Tim. 4:10; 6:17.</p></note> Do you <hi rend="italic"
+                    >love</hi> God? Do you seek and find happiness in him? Then you cannot love the
+                world, neither the things of the world. You are crucified to the world and the world
+                crucified to you.<note place="foot" xml:id="ftn35" n="35"><p rend="footnote text"
+                        >See Gal. 6:14.</p></note> Do you ‘love the <pb n="01:639"/>world’?<note
+                    place="foot" xml:id="ftn36" n="36"><p rend="footnote text">1 John
+                    2:15.</p></note> Are your affections set on things beneath?<note place="foot"
+                    xml:id="ftn37" n="37"><p rend="footnote text">See Col. 3:2.</p></note> Do you
+                seek happiness in earthly things? Then it is impossible you should love God. Then
+                the love of the Father is not in you. Do you <hi rend="italic">resemble</hi> God?
+                Are you merciful, as your Father is merciful?<note place="foot" xml:id="ftn38"
+                    n="38"><p rend="footnote text">See Luke 6:36.</p></note> Are you transformed by
+                the renewal of your mind<note place="foot" xml:id="ftn39" n="39"><p
+                        rend="footnote text">See Rom. 12:2.</p></note> into the image of him that
+                created you? Then you cannot be conformed to the present world.<note place="foot"
+                    xml:id="ftn40" n="40"><p rend="footnote text"><hi rend="italic"
+                    >Ibid.</hi></p></note> You have renounced all its affections and lusts. Are you
+                conformed to the world? Does your soul still bear the image of the earthly?<note
+                    place="foot" xml:id="ftn41" n="41"><p rend="footnote text">See 1 Cor.
+                    15:49.</p></note> Then you are not renewed in the spirit of your mind.<note
+                    place="foot" xml:id="ftn42" n="42"><p rend="footnote text">Eph. 4:23.</p></note>
+                You do not bear the image of the heavenly.<note place="foot" xml:id="ftn43" n="43"
+                        ><p rend="footnote text">See 1 Cor. 15:49.</p></note> Do you <hi
+                    rend="italic">obey God</hi>? Are you zealous to do his will on earth as the
+                angels do in heaven? Then it is impossible you should <hi rend="italic">obey
+                    mammon</hi>. Then you set the world at open defiance. You trample its customs
+                and maxims under foot, and will neither follow nor be led by them. Do you follow the
+                world? Do you live like other men? Do you please men? Do you please yourself? Then
+                you cannot be a servant of God. You are of your master and father, the devil.<note
+                    place="foot" xml:id="ftn44" n="44"><p rend="footnote text">See John
+                    8:44.</p></note></p>
+            <p n="15">15. Therefore thou shalt worship the Lord thy God, and him only shalt thou
+                    serve.<note place="foot" xml:id="ftn45" n="45"><p rend="footnote text">Luke
+                        4:8.</p></note> Thou shalt lay aside all thoughts of obeying two masters, of
+                serving God and mammon. Thou shalt propose to thyself no end, no help, no happiness,
+                but God. Thou shalt seek nothing in earth or heaven but him; thou shalt aim at
+                nothing but to know, to love, and enjoy him. And because this is all your business
+                below, the only view you can reasonably have, the one design you are to pursue in
+                all things, ‘Therefore I say unto you’ (as our Lord continues his discourse) ‘Take
+                no thought for your life, what ye shall eat, or what ye shall drink; nor yet for
+                your body, what ye shall put on.’<note place="foot" xml:id="ftn46" n="46"><p
+                        rend="footnote text">Matt. 6:25.</p></note> A deep and weighty direction,
+                which it imports us well to consider and throughly to understand.</p>
+            <p n="16">16. Our Lord does not here require that we should be utterly without thought,
+                even touching the concerns of this life. A giddy, careless temper is at the farthest
+                remove from the whole religion of Jesus Christ. Neither does he require us to be
+                ‘slothful in business’,<note place="foot" xml:id="ftn47" n="47"><p
+                        rend="footnote text">Rom. 12:11.</p></note> to be slack and dilatory
+                therein. This likewise is contrary to the whole spirit and genius of his religion. A
+                Christian abhors sloth as much as drunkenness, and flees from idleness as he does
+                from adultery. He well knows that there is one kind of <pb n="01:640"/>thought and
+                care with which God is well-pleased; which is absolutely needful for the due
+                performance of those outward works unto which the providence of God has called
+                him.</p>
+            <p>It is the will of God that every man should labour to ‘eat his own bread’;<note
+                    place="foot" xml:id="ftn48" n="48"><p rend="footnote text">2 Thess.
+                    3:12.</p></note> yea, and that every man should provide for his own, for them of
+                his own household. It is likewise his will that we should ‘owe no man
+                    anything’,<note place="foot" xml:id="ftn49" n="49"><p rend="footnote text">Rom.
+                        13:8.</p></note> but ‘provide things honest in the sight of all men’.<note
+                    place="foot" xml:id="ftn50" n="50"><p rend="footnote text">Rom.
+                    12:17.</p></note> But this cannot be done without taking some thought, without
+                having some care upon our minds; yea, often not without long and serious thought,
+                not without much and earnest care. Consequently this care to provide for ourselves
+                and our household, this thought how to render to all their dues, our blessed Lord
+                does not condemn. Yea, it is good and acceptable in the sight of God our
+                    Saviour.<note place="foot" xml:id="ftn51" n="51"><p rend="footnote text">1 Tim.
+                        2:3.</p></note></p>
+            <p>It is good and acceptable to God that we should so take thought concerning whatever
+                we have in hand as to have a clear comprehension of what we are about to do, and to
+                plan our business before we enter upon it. And it is right that we should carefully
+                consider from time to time what steps we are to take therein; as well as that we
+                should prepare all things beforehand for the carrying it on in the most effectual
+                manner. This care, termed by some, ‘the care of the head’, <hi rend="superscript"
+                    >π;</hi> it was by no means our Lord’s design to condemn.</p>
+            <p n="17">17. What he here condemns is ‘the care of the heart’: the anxious, uneasy
+                care; the care that hath torment; all such care as does hurt, either to the soul or
+                body. What he forbids is that care which sad experience shows wastes the blood and
+                drinks up the spirits;<note place="foot" xml:id="ftn52" n="52"><p
+                        rend="footnote text">Cf. Chambers’s <hi rend="italic">Cyclopaedia</hi>, on
+                        ‘Humours’; see also the poetic tradition on ‘care’, as in Spenser’s <hi
+                            rend="italic">Mother Hubbard’s Tale</hi>, ll. 903-4, and Shakespeare’s
+                            <hi rend="italic">Julius Caesar</hi>, II.i.231-32 (‘fantasies which busy
+                        care draws in the brains of men’).</p></note> which anticipates all the
+                misery it fears, and comes to torment us before the time. He forbids only that care
+                which poisons the blessings of today by fear of what may be tomorrow; which cannot
+                enjoy the present plenty through apprehensions of future want. This care is not only
+                a sore disease, a grievous sickness of soul, but also an heinous offence against
+                God, a sin of the deepest dye. It is an high affront to the gracious Governor and
+                wise Disposer of all things; necessarily implying that the great <pb n="01:641"
+                />Judge does not do right,<note place="foot" xml:id="ftn53" n="53"><p
+                        rend="footnote text">See Gen. 18:25.</p></note> that he does not order all
+                things well.<note place="foot" xml:id="ftn54" n="54"><p rend="footnote text">See
+                        Mark 7:37.</p></note> It plainly implies that he is wanting either in
+                wisdom, if he does not know what things we stand in need of, or in goodness, if he
+                does not provide those things for all who put their trust in him. Beware, therefore,
+                that you take not thought in this sense: be ye anxiously careful for nothing.<note
+                    place="foot" xml:id="ftn55" n="55"><p rend="footnote text">See Phil
+                    4:6.</p></note> Take no uneasy thought. This is a plain, sure rule—<hi
+                    rend="italic">uneasy</hi> care is <hi rend="italic">unlawful</hi> care. With a
+                single eye to God, do all that in you lies to provide things honest in the sight of
+                all men.<note place="foot" xml:id="ftn56" n="56"><p rend="footnote text">Rom. 12:17.
+                        For Wesley’s use of the <hi rend="italic">in se est</hi> theme, see above,
+                        pp. 72-73.</p></note> And then give up all into better hands: leave the
+                whole event to God.</p>
+            <p n="18">18. ‘Take no thought’ of this kind, no uneasy thought, even ‘for your life,
+                what ye shall eat, or what ye shall drink, nor yet for your body, what ye shall put
+                on. Is not the life more than meat, and the body than raiment?’ If then God gave you
+                life, the greater gift, will he not give you food to sustain it? If he hath given
+                you the body, how can ye doubt but he will give you raiment to cover it? More
+                especially if you give yourselves up to him, and serve him with your whole heart.
+                ‘Behold’, see before your eyes, ‘the fowls of the air: for they sow not, neither do
+                they reap, nor gather into barns;’ and yet they lack nothing, ‘yet your heavenly
+                Father feedeth them. Are ye not much better than they?’ Ye that are creatures
+                capable of God? Are ye not of more account in the eyes of God? Of a higher rank in
+                the scale of beings?<note place="foot" xml:id="ftn57" n="57"><p rend="footnote text"
+                        >Cf. No. 56, ‘God’s Approbation of His Works’, I.14 and n.</p></note> ‘And
+                which of you by taking thought can add one cubit to his stature?’<note place="foot"
+                    xml:id="ftn58" n="58"><p rend="footnote text">Matt. 6:27. In both Johnson’s <hi
+                            rend="italic">Dictionary</hi> and <hi rend="italic">OED</hi> ‘cubit’ is
+                        defined as a measure of <hi rend="italic">space</hi>, the sense in which
+                        Wesley uses it here. Cf., however, his <hi rend="italic">Notes</hi>, where
+                        he uses it as a measure of <hi rend="italic">time</hi>: ‘<hi rend="italic"
+                            >And which of you</hi>, if you are ever so careful, can even add a
+                        moment to your own life thereby? This seems by far the most easy and natural
+                        sense of the words.’</p></note> What profit have you then from this anxious
+                thought? It is every way fruitless and unavailing.</p>
+            <p>‘And why take ye thought for raiment?’ Have ye not a daily reproof wherever you turn
+                your eyes? ‘Consider the lilies of the field, how they grow; they toil not, neither
+                do they spin. And yet I say unto you, that even Solomon in all his glory was not
+                arrayed like one of these. Wherefore if God so clothe the grass of the field, which
+                today is, and tomorrow is cast into the oven’, is cut down, burnt up, and seen no
+                more, ‘shall he not much more clothe you, O ye of little faith?’ You, whom he made
+                to endure for <pb n="01:642"/>ever and ever, to be pictures of his own
+                    eternity!<note place="foot" xml:id="ftn59" n="59"><p rend="footnote text">Wisd.
+                        2:23.</p></note> Ye are indeed of little faith. Otherwise ye could not doubt
+                of his love and care; no, not for a moment.</p>
+            <p n="19">19. ‘Therefore take no thought, saying, What shall we eat,’ if we lay up no
+                treasure upon earth? ‘What shall we drink,’ if we serve God with all our strength,
+                if our eye be singly fixed on him? ‘Wherewithal shall we be clothed,’ if we are not
+                conformed to the world, if we disoblige those by whom we might be profited? ‘For
+                after all these things do the Gentiles seek,’ the heathens who know not God. But ye
+                are sensible, ‘your heavenly Father knoweth that ye have need of all these things.’
+                And he hath pointed out to you an infallible way of being constantly supplied
+                therewith. ‘Seek ye first the kingdom of God, and his righteousness, and all these
+                things shall be added unto you.’<note place="foot" xml:id="ftn60" n="60"><p
+                        rend="footnote text">Matt. 6:31-33.</p></note></p>
+            <p n="20">20. ‘Seek ye first the kingdom of God.’ Before ye give place to any other
+                thought or care let it be your concern that the God and Father of our Lord Jesus
+                Christ, who ‘gave his only-begotten Son, to the end that believing in him ye might
+                not perish, but have everlasting life’,<note place="foot" xml:id="ftn61" n="61"><p
+                        rend="footnote text">Cf. John 3:16.</p></note> may reign in your heart, may
+                manifest himself in your soul, and dwell and rule there: ‘that he may cast down
+                every high thing which exalteth itself against the knowledge of God, and bring into
+                captivity every thought to the obedience of Christ.’<note place="foot"
+                    xml:id="ftn62" n="62"><p rend="footnote text">Cf. 2 Cor. 10:5.</p></note> Let
+                God have the sole dominion over you. Let him reign without a rival. Let him possess
+                all your heart, and rule alone. Let him be your one desire, your joy, your love; so
+                that all that is within you may continually cry out, ‘The Lord God omnipotent
+                    reigneth.’<note place="foot" xml:id="ftn63" n="63"><p rend="footnote text">Rev.
+                        19:6.</p></note></p>
+            <p>‘Seek the kingdom of God and his righteousness.’ Righteous-ness is the fruit of God’s
+                reigning in the heart. And what is righteousness but love?<note place="foot"
+                    xml:id="ftn64" n="64"><p rend="footnote text">Cf. No. 7, ‘The Way to the
+                        Kingdom’, I.7 and n.</p></note> The love of God and of all mankind, flowing
+                from faith in Jesus Christ, and producing humbleness of mind, meekness, gentleness,
+                long-suffering, patience, deadness to the world;<note place="foot" xml:id="ftn65"
+                    n="65"><p rend="footnote text">See Col. 3:12; see also Gal. 5:22-23.</p></note>
+                and every right disposition of heart toward God and toward man. And by these it
+                produces all holy actions, whatsoever are lovely or of good report;<note
+                    place="foot" xml:id="ftn66" n="66"><p rend="footnote text">See Phil.
+                    4:8.</p></note> whatsoever works of <pb n="01:643"/>faith and labour of
+                    love<note place="foot" xml:id="ftn67" n="67"><p rend="footnote text">See 1
+                        Thess. 1:3.</p></note> are acceptable to God and profitable to man.</p>
+            <p>‘His righteousness.’ This is all <hi rend="italic">his</hi> righteousness still: it
+                is his own free <hi rend="italic">gift</hi> to us, for the sake of Jesus Christ the
+                    righteous,<note place="foot" xml:id="ftn68" n="68"><p rend="footnote text">1
+                        John 2:1.</p></note> through whom alone it is purchased for us. And it is
+                his <hi rend="italic">work</hi>: it is he alone that worketh it in us by the
+                inspiration of his Holy Spirit.</p>
+            <p n="21">21. Perhaps the well observing this may give light to some other Scriptures
+                which we have not always so clearly understood. St. Paul, speaking in his Epistle to
+                the Romans concerning the unbelieving Jews, saith, ‘They, being ignorant of God’s
+                righteousness, and going about to establish their own righteousness, have not
+                submitted themselves unto the righteousness of God.’<note place="foot"
+                    xml:id="ftn69" n="69"><p rend="footnote text">Rom. 10:3.</p></note> I believe
+                this may be one sense of the words:<note place="foot" xml:id="ftn70" n="70"><p
+                        rend="footnote text">This sentence is inserted only in the <hi rend="italic"
+                            >Works</hi>, 1771.</p></note> they were ‘ignorant of God’s
+                righteousness’, not only of the righteousness of Christ, imputed to every
+                    believer,<note place="foot" xml:id="ftn71" n="71"><p rend="footnote text">Note
+                        Wesley’s nearly casual use of this phrase, destined to become a bone of
+                        contention between him and the Calvinists; cf. Nos. 20, <hi rend="italic"
+                            >The Lord Our Righteousness</hi> (intro., pp. 444-46); and 21, ‘Sermon
+                        on the Mount, I’, I.11. See also Wesley’s <hi rend="italic">Remarks on Mr.
+                            Hill’s Review</hi>, espec. 12:III, where Wesley weighs and balances the
+                        pros and cons of what he calls ‘that ambiguous, unscriptural phrase, so
+                        liable to be misinterpreted’ (‘the imputed righteousness of Christ’). His
+                        conclusion (§44): ‘With regard to [the doctrine] that we are justified
+                        merely for the sake of what Christ has <hi rend="italic">done</hi> and <hi
+                            rend="italic">suffered</hi>, I have constantly and earnestly maintained
+                        [that] above four and thirty years. And I have frequently used the <hi
+                            rend="italic">phrase</hi> [<hi rend="italic">viz.</hi>, ‘the imputed
+                        righteousness of Christ’], hoping thereby to please others…. But it has had
+                        a contrary effect…. Therefore I will use it no more, unless it occur in an
+                        hymn, or steal upon me unawares….’</p></note> whereby all his sins are
+                blotted out, and he is reconciled to the favour of God; but (which seems here to be
+                more immediately understood) they were ignorant of that inward righteousness, of
+                that holiness of heart, which is with the utmost propriety termed ‘God’s
+                righteousness’, as being both his own free gift through Christ, and his own work, by
+                his almighty Spirit.<note place="foot" xml:id="ftn72" n="72"><p rend="footnote text"
+                        >In this implied rejection of self-righteousness Wesley manages an indirect
+                        assertion of the <hi rend="italic">sola fide</hi> and yet yoked, as always,
+                        with holiness of heart; cf. No. 21, ‘Sermon on the Mount, I’,
+                    I.11.</p></note> And because they were ignorant of this they ‘went about to
+                establish their own righteousness’. They laboured to establish that outside
+                righteousness which might very properly be termed ‘their own’; for neither was it
+                wrought by the Spirit of God nor was it owned or accepted of him. They might work
+                this themselves, by their own natural strength; and when they had done, it was a
+                stink in his nostrils. And yet, trusting in <pb n="01:644"/>this, they would ‘not
+                submit themselves unto the righteousness of God’. Yea, they hardened themselves
+                against that faith whereby alone it was possible to attain it. ‘For Christ is the
+                end of the law for righteousness to everyone that believeth.’<note place="foot"
+                    xml:id="ftn73" n="73"><p rend="footnote text">Rom. 10:4.</p></note> Christ, when
+                he said, ‘It is finished,’<note place="foot" xml:id="ftn74" n="74"><p
+                        rend="footnote text">John 19:30.</p></note> put an end to that law—to the
+                law of external rites and ceremonies—that he might ‘bring in a better
+                    righteousness’<note place="foot" xml:id="ftn75" n="75"><p rend="footnote text"
+                        >Cf. Heb. 7:19.</p></note> through his blood, by that one oblation of
+                himself once offered,<note place="foot" xml:id="ftn76" n="76"><p
+                        rend="footnote text">BCP, Communion, Prayer of Consecration.</p></note> even
+                the image of God, into the inmost soul of ‘everyone that believeth’.</p>
+            <p n="22">22. Nearly related to these are those words of the Apostle in his Epistle to
+                the Philippians: ‘I count all things but dung that I may win Christ,’ an entrance
+                into his everlasting kingdom, ‘and be found in him’, believing in him, ‘not having
+                mine own righteousness, which is of the law, but that which is through the faith of
+                Christ, the righteousness which is of God by faith’<note place="foot" xml:id="ftn77"
+                    n="77"><p rend="footnote text">Phil. 3:8-9.</p></note>—‘not having my own
+                righteousness, which is of the law’, a barely external righteousness, the outside
+                religion I formerly had when I hoped to be accepted of God because I was, ‘touching
+                the righteousness which is in the law, blameless’<note place="foot" xml:id="ftn78"
+                    n="78"><p rend="footnote text">Phil. 3:6.</p></note>—‘but that which is through
+                the faith of Christ, the righteousness which is of God by faith:’ that holiness of
+                heart, that renewal of the soul in all its desires, tempers, and affections, ‘which
+                is of God’. It is the work of God and not of man, ‘by faith’; through the faith of
+                Christ, through the revelation of Jesus Christ<note place="foot" xml:id="ftn79"
+                    n="79"><p rend="footnote text">Gal. 1:12.</p></note> in us, and by faith in his
+                    blood;<note place="foot" xml:id="ftn80" n="80"><p rend="footnote text">Rom.
+                        3:25.</p></note> whereby alone we obtain the remission of our sins, and an
+                inheritance among those that are sanctified.<note place="foot" xml:id="ftn81" n="81"
+                        ><p rend="footnote text">See Acts 20:32.</p></note></p>
+            <p n="23">23. ‘Seek ye first’ this ‘kingdom of God’ in your hearts, this
+                ‘righteousness’, which is the gift and work of God, the image of God renewed in your
+                souls—‘and all these things’ shall be added unto you: all things needful for the
+                body; such a measure of all as God sees most for the advancement of his kingdom.
+                These ‘shall be added’, they shall be thrown in, over and above. In seeking the
+                peace and the love of God you shall not only find what you more immediately seek,
+                even the kingdom that cannot be moved; but also what you seek not, not at all for
+                its own sake, but only in reference to the other. You shall find in your way to the
+                kingdom all outward things, so far as they are expedient for you. This care <pb
+                    n="645"/>God hath taken upon himself: cast you all your care upon him.<note
+                    place="foot" xml:id="ftn82" n="82"><p rend="footnote text">See 1 Pet.
+                    5:7.</p></note> He knoweth your wants; and whatsoever is lacking he will not
+                fail to supply.</p>
+            <p n="24">24. ‘Therefore take no thought for the morrow.’<note place="foot"
+                    xml:id="ftn83" n="83"><p rend="footnote text">Cf. Matt. 6:34.</p></note> Not
+                only, take ye no thought how to lay up treasures on earth, how to increase in
+                worldly substance; take no thought how to procure more food than you can eat, or
+                more raiment than you can put on; or more money than is required from day to day for
+                the plain, reasonable purposes of life: but take no <hi rend="italic">uneasy</hi>
+                thought even concerning those things which are absolutely needful for the body. Do
+                not trouble yourself now with thinking what you shall do at a season which is yet
+                afar off. Perhaps that season will never come; or it will be no concern of
+                yours—before then you will have passed through all the waves, and be landed in
+                eternity. All those distant views do not belong to <hi rend="italic">you</hi>, who
+                are but a creature of a day.<note place="foot" xml:id="ftn84" n="84"><p
+                        rend="footnote text">Pindar, <hi rend="italic">Pythian Odes</hi>, viii. 95.
+                        Cf. Wesley’s Pref., §5 and n.</p></note> Nay, what have you to do with ‘the
+                morrow’, more strictly speaking? Why should you perplex yourself without need? God
+                provides for you today what is needful to sustain the life which he hath given you.
+                It is enough. Give yourself up into his hands. If you live another day he will
+                provide for that also.</p>
+            <p n="25">25. Above all, do not make the care of future things a pretence for neglecting
+                present duty. This is the most fatal way of ‘taking thought for the morrow’. And how
+                common is it among men! Many, if we exhort them to keep a conscience void of
+                    offence,<note place="foot" xml:id="ftn85" n="85"><p rend="footnote text">Acts
+                        24:16.</p></note> to abstain from what they are convinced is evil, do not
+                scruple to reply: ‘How then must we live? Must we not take care of ourselves and of
+                our families?’ And this they imagine to be a sufficient reason for continuing in
+                known, wilful sin. They say, and perhaps think, they would serve God now were it not
+                that they should by and by lose their bread. They would prepare for eternity; but
+                they are afraid of wanting the necessaries of life. So they serve the devil for a
+                morsel of bread; they rush into hell for fear of want; they throw away their poor
+                souls lest they should some time or other fall short of what is needful for their
+                bodies.</p>
+            <p>It is not strange that they who thus take the matter out of God’s hand should be so
+                often disappointed of the very things they seek; that while they throw away heaven
+                to secure the things of earth <pb n="01:646"/>they lose the one, but do not gain the
+                other. The jealous God, in the wise course of his providence, frequently suffers
+                this. So that they who will not cast their care on God, who, taking thought for
+                temporal things, have little concern for things eternal, lose the very portion which
+                they have chosen. There is a visible blast on all their undertakings: whatsoever
+                they do it doth not prosper. Insomuch that after they have forsaken God for the
+                world they lose what they sought, as well as what they sought not. They fall short
+                of the kingdom of God and his righteousness; nor yet are other things added unto
+                them.</p>
+            <p n="26">26. There is another way of ‘taking thought for the morrow’, which is equally
+                forbidden in these words. It is possible to take thought in a wrong manner, even
+                with regard to spiritual things; to be so careful about what may be by and by as to
+                neglect what is now required at our hands. How insensibly do we slide into this if
+                we are not continually watching unto prayer!<note place="foot" xml:id="ftn86" n="86"
+                        ><p rend="footnote text">See 1 Pet. 4:7.</p></note> How easily are we
+                carried away in a kind of waking dream,<note place="foot" xml:id="ftn87" n="87"><p
+                        rend="footnote text">Cf. Diogenes Laertius, <hi rend="italic">Lives</hi>,
+                        V.18 (Loeb, 184:460-61), where Aristotle is said to have spoken of hope as
+                        ‘a kind of waking dream’.</p></note> projecting distant schemes, and drawing
+                fine scenes in our own imagination! We think what good we will do when we are in
+                such a place, or when such a time is come! How useful we will be, how plenteous in
+                good works, when we are easier in our circumstances! How earnestly we will serve God
+                when once such an hindrance is out of the way!</p>
+            <p>Or, perhaps, you are now in heaviness of soul:<note place="foot" xml:id="ftn88"
+                    n="88"><p rend="footnote text">Johnson’s <hi rend="italic">Dictionary</hi> and
+                        the <hi rend="italic">OED</hi> both define ‘heaviness’ as a ‘dejection or
+                        dejectedness of mind’. Johnson adds ‘depression of spirit’. Cf. Nos. 46 and
+                        47: ‘The Wilderness State’ and ‘Heaviness through Manifold
+                    Temptations’.</p></note> God as it were hides his face from you. You see little
+                of the light of his countenance; you cannot taste his redeeming love. In such a
+                temper of mind how natural is it to say, ‘O how I will praise God when the light of
+                his countenance shall be again lifted up upon my soul!<note place="foot"
+                    xml:id="ftn89" n="89"><p rend="footnote text">See Num. 6:26.</p></note> How will
+                I exhort others to praise him when his love is again shed abroad in my heart!<note
+                    place="foot" xml:id="ftn90" n="90"><p rend="footnote text">See Rom.
+                    5:5.</p></note> Then I will do thus and thus: I will speak for God in all
+                places; I will not be ashamed of the gospel of Christ.<note place="foot"
+                    xml:id="ftn91" n="91"><p rend="footnote text">See Rom. 1:16.</p></note> Then I
+                will redeem the time,<note place="foot" xml:id="ftn92" n="92"><p
+                        rend="footnote text">See Eph. 5:16.</p></note> I will use to the uttermost
+                every talent I have received.’ Do not believe thyself. Thou wilt not do it then
+                unless thou dost it now. ‘He that is <pb n="01:647"/>faithful in that which is
+                little’, of whatsoever kind it be, whether it be worldly substance or the fear or
+                love of God, ‘will be faithful in that which is much.’<note place="foot"
+                    xml:id="ftn93" n="93"><p rend="footnote text">Cf. Luke 16:10.</p></note> But if
+                thou now hidest one talent in the earth, thou wilt then hide five.<note place="foot"
+                    xml:id="ftn94" n="94"><p rend="footnote text">See Matt. 25:18.</p></note> That
+                is, if ever they are given; but there is small reason to expect they ever will.
+                Indeed ‘unto him that hath’, that is, uses what he hath, ‘shall be given, and he
+                shall have more abundantly. But from him that hath not’, that is, uses not the grace
+                which he hath already received, whether in a larger or smaller degree, ‘shall be
+                taken away even that which he hath.’<note place="foot" xml:id="ftn95" n="95"><p
+                        rend="footnote text">Cf. Matt. 13:12. Both Poole (<hi rend="italic"
+                            >Annotations</hi>) and Henry (<hi rend="italic">Exposition</hi>) explain
+                        this paradox in terms of election; cf. Poole’s distinction between those who
+                        have ‘the seed of God’ or ‘the root of grace’ in them and those who do not.
+                        Henry reminds us ‘that God is debtor to no man. His grace is his own; he
+                        gives or withholds it at pleasure. The difference must be resolved into
+                        God’s sovereignty.’ For Wesley’s very different interpretation, cf. No. 85,
+                        ‘On Working Out Our Own Salvation’, III.4-6: ‘No man sins because he has not
+                        grace, but because he does not use the grace which he hath…. Stir up the
+                        spark of grace which is now in you and he will give you more
+                    grace.’</p></note></p>
+            <p n="27">27. And ‘take no thought’ for the temptations of tomorrow. This also is a
+                dangerous snare. Think not, ‘When such a temptation comes, what shall I do, how
+                shall I stand? I feel I have not power to resist: I am not able to conquer that
+                enemy.’ Most true: you have not <hi rend="italic">now</hi> the power which you do
+                not <hi rend="italic">now</hi> stand in need of. You are not able at <hi
+                    rend="italic">this time</hi> to conquer that enemy; and at <hi rend="italic"
+                    >this time</hi> he does not assault you. With the grace you have now you could
+                not withstand the temptations which you have not. But when the temptation comes the
+                grace will come. In greater trials you will have greater strength. When sufferings
+                abound, the consolations of God will in the same proportion abound also. So that in
+                every situation the grace of God will be sufficient for you.<note place="foot"
+                    xml:id="ftn96" n="96"><p rend="footnote text">See 2 Cor. 12:9.</p></note> He
+                doth not suffer you ‘to be tempted’ today ‘above that ye are able to bear. And in
+                every temptation he will make a way to escape.’<note place="foot" xml:id="ftn97"
+                    n="97"><p rend="footnote text">Cf. 1 Cor. 10:13.</p></note> ‘As thy day, so thy
+                strength shall be.’<note place="foot" xml:id="ftn98" n="98"><p rend="footnote text"
+                        >Cf. Deut. 33:25.</p></note></p>
+            <p n="28">28. ‘Let the morrow’ therefore ‘take thought for the things of itself.’ That
+                is, when the morrow comes, then think of it. Live thou today. Be it thy earnest care
+                to improve the present hour. This is your own, and it is your all. The past is as
+                nothing, as though it had never been. The future is nothing to you. It is not yours;
+                perhaps it never will be. There is no depending on what is yet to come; for you
+                ‘know not what a day may bring forth’.<note place="foot" xml:id="ftn99" n="99"><p
+                        rend="footnote text">Cf. Prov. 27:1.</p></note>
+                <pb n="01:648"/>Therefore live today: lose not an hour; use this moment; for it is
+                your portion. ‘Who knoweth the things which have been before him,’<note place="foot"
+                    xml:id="ftn100" n="100"><p rend="footnote text">Cf. Ecclus. 23:20; Sus.
+                    42.</p></note> ‘or which shall be after him under the sun?’<note place="foot"
+                    xml:id="ftn101" n="101"><p rend="footnote text">Cf. Eccles. 6:12.</p></note> The
+                generations that were from the beginning of the world, where are they now? Fled
+                away, forgotten. They <hi rend="italic">were</hi>: they lived their day; they were
+                shook off of the earth, as leaves off of their trees.<note place="foot"
+                    xml:id="ftn102" n="102"><p rend="footnote text">Cf. Homer, <hi rend="italic"
+                            >Iliad</hi>, vi. 146. See No. 70, ‘The Case of Reason Impartially
+                        Considered’, II.2 and n.</p></note> They mouldered away into common dust.
+                Another and another race succeeded; then they ‘followed the generation of their
+                fathers, and shall never’ more ‘see the light.’<note place="foot" xml:id="ftn103"
+                    n="103"><p rend="footnote text">Cf. Ps. 49:19 (BCP).</p></note> Now is thy turn
+                upon the earth. ‘Rejoice, O young man, in the days of thy youth.’<note place="foot"
+                    xml:id="ftn104" n="104"><p rend="footnote text">Eccles. 11:9.</p></note> Enjoy
+                the very, very now;<note place="foot" xml:id="ftn105" n="105"><p
+                        rend="footnote text">Cf. St. Augustine’s analysis of time (past, future, and
+                        present) in <hi rend="italic">Confessions</hi>, XI.xi-xxxi, where times past
+                        and future signify determinate actions registered in either <hi
+                            rend="italic">memoria</hi> or <hi rend="italic">expectatio</hi>, but
+                        where <hi rend="italic">time present</hi> is grasped by ‘contuition’ in that
+                        ‘moment’ which eludes clock-time and is the ‘truly, truly <hi rend="italic"
+                            >now</hi>’, the time of human freedom. Cf. John Byrom, ‘Time Past,
+                        Future, and Present’, in <hi rend="italic">The Poems of John Byrom</hi>, ed.
+                        A. W. Ward (Manchester, printed for the Chetham Society, 1894), Vol. I, Pt.
+                        II, p. 567:</p>
+                    <lg>
+                        <l>Time present only is within thy pow’r:</l>
+                        <l>Now, now improve, then whilst thou can’st, the hour!</l>
+                    </lg>
+                    <p rend="footnote text">Cf. Nos. 5, ‘Justification by Faith’, IV.2 and n.; and
+                        33, ‘Sermon on the Mount, XIII’, III.7.</p></note> by enjoying him ‘whose
+                years fail not’.<note place="foot" xml:id="ftn106" n="106"><p rend="footnote text"
+                        >Cf. Heb. 1:12.</p></note> Now let thine eye be singly fixed on him, in
+                ‘whom is no variableness, neither shadow of turning’.<note place="foot"
+                    xml:id="ftn107" n="107"><p rend="footnote text">Jas. 1:17.</p></note> Now give
+                him thy heart; now stay thyself on him; now be thou holy as he is holy.<note
+                    place="foot" xml:id="ftn108" n="108"><p rend="footnote text">See 1 Pet. 1:15,
+                        16.</p></note> Now lay hold of the blessed opportunity of doing his
+                acceptable and perfect will.<note place="foot" xml:id="ftn109" n="109"><p
+                        rend="footnote text">See Rom. 12:2.</p></note> Now ‘rejoice to suffer the
+                loss of all things, so thou mayst win Christ.’<note place="foot" xml:id="ftn110"
+                    n="110"><p rend="footnote text">Cf. Phil. 3:8.</p></note></p>
+            <p n="29">29. Gladly suffer today, for his name’s sake, whatsoever he permits this day
+                to come upon thee. But look not at the sufferings of tomorrow. ‘Sufficient unto the
+                day is the evil thereof.’<note place="foot" xml:id="ftn111" n="111"><p
+                        rend="footnote text">Matt. 6:34.</p></note> Evil it is, speaking after the
+                manner of men; whether it be reproach or want, pain or sickness. But in the language
+                of God, all is blessing: ‘It is a precious balm,’<note place="foot" xml:id="ftn112"
+                    n="112"><p rend="footnote text">Cf. Ps. 141:6 (BCP).</p></note> prepared by the
+                wisdom of God, and <pb n="01:649"/>variously dispensed among his children according
+                to the various sicknesses of their souls. And he gives in one day sufficient for
+                that day, proportioned to the want and strength of the patient. If therefore thou
+                snatchest today what belongs to the morrow, if thou addest this to what is given
+                thee already, it will be more than thou canst bear: this is the way, not to heal,
+                but to destroy thy own soul. Take therefore just as much as he gives thee today:
+                today do and suffer his will. Today give up thyself, thy body, soul, and spirit, to
+                God, through Christ Jesus; desiring nothing but that God may be glorified in all
+                thou art, all thou dost, all thou sufferest; seeking nothing but to know God, and
+                his Son Jesus Christ, through the Eternal Spirit; pursuing nothing but to love him,
+                to serve him, and to enjoy him, at this hour, and to all eternity!</p>
+            <p>Now unto God the Father, who hath made me and all the world; unto God the Son, who
+                hath redeemed me and all mankind; unto God the Holy Ghost, who sanctifieth me and
+                all the elect people of God: be honour, and praise, majesty, and dominion, for ever
+                and ever! Amen.<note place="foot" xml:id="ftn113" n="113"><p rend="footnote text">A
+                        rare instance of a formal ascription (cf. No. 1, Sal<hi rend="italic">vation
+                            by Faith</hi>, III.9 and n.); it is a conflation of fragments from ‘A
+                        Catechism’ in the BCP.</p></note></p>
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,667 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Sermon 32: Upon Our Lord’s Sermon On The Mount, Discourse XII</title>
+                <author>Wesley, John</author>
+                <editor role="text">Van Buskirk, Gregory P.</editor>
+                <editor role="digital">Taylor, Michelle M.</editor>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>The Wesley Works Digitzation Project</publisher>
+                <pubPlace>Tampa, FL</pubPlace>
+                <date>2024-02-25</date>
+            </publicationStmt>
+            <sourceDesc>
+                <listBibl>
+                    <biblStruct>
+                        <analytic>
+                            <title level="a">Sermon 32: Upon Our Lord’s Sermon On The Mount,
+                                Discourse XII</title>
+                        </analytic>
+                        <monogr>
+                            <title level="j">The Works of John Wesley, Volume I: Sermons I,
+                                1-33</title>
+                            <editor role="volume">Outler, Albert</editor>
+                            <imprint>
+                                <publisher>Abingdon Press</publisher>
+                                <pubPlace>Nashville, TN</pubPlace>
+                                <date when="2015-05-01">1984-05-01</date>
+                                <biblScope unit="volume" n="1"/>
+                                <biblScope unit="page" from="466" to="469"/>
+                                <biblScope unit="page" from="675" to="686"/>
+                            </imprint>
+                        </monogr>
+                        <series>
+                            <title level="s">The Works of John Wesley</title>
+                            <editor role="general">Baker, Frank</editor>
+                        </series>
+                    </biblStruct>
+                </listBibl>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Greg Van Buskirk created Word docs for all of Wesley's sermons using a combination of
+                OCR software and manual proofing. Michelle Taylor converted these docx into XML
+                using Oxygen's DITA automatic transformation scenario, then touched them up
+                manually.</p>
+        </encodingDesc>
+        <standOff>
+            <taxonomy>
+                <keywords>
+                    <term/>
+                </keywords>
+            </taxonomy>
+            <!--Include keywords and terms here eventually.-->
+        </standOff>
+        <revisionDesc/>
+    </teiHeader>
+    <text>
+        <body>
+            <pb n="01:466"/>
+            <introduction>
+                <!--Confirm introduction is the element I want to use here, especially given that I
+                    use it as an attribute for Wesley's introductory paragraphs as well.-->
+                <head>
+                    <hi rend="italic">An Introductory Comment [to Sermons 21-33]</hi>
+                </head>
+                <p>The unifying theme of these next thirteen ‘discourses’ on the Sermon on the
+                    Mount, with all their variations and nuancings, is the Christian life understood
+                    as the fruit of justifying faith. But given such faith, what follows? Wesley’s
+                    answer is given in this extended exposition of the Christian life based on the
+                        <hi rend="italic">locus classicus</hi> of evangelical ethics, ‘The Sermon on
+                    the Mount’ (i.e., Matthew 5-7). Since Tyndale, this ‘sermon’ had been understood
+                    as ‘the epitome of God’s laws and promises’ for Christian believers; cf.
+                    Clebsch, <hi rend="italic">England’s Earliest Protestants</hi>, p. 184; see also
+                    William Burkitt, <hi rend="italic">Expository Notes…on the New Testament</hi>
+                    (eleven editions between 1700 and 1739), Preface to chapter 5: ‘Christ’s famous
+                    Sermon on the Mount comprehends the sum and substance of both the Old and New
+                    Testaments.’</p>
+                <p>Taken together, the following sermons are not a thirteen-part essay, tightly
+                    organized and argued. Instead, they are separate sermons, drawn from materials
+                    running back to 1725, arranged in a triadic pattern that seems to have been
+                    original with Wesley. Each is a discourse in its own right; yet the series is
+                    designed so that each appears as a part of a whole. This means that the sermons
+                    may be read singly or together, but with an eye on their shared aim: ‘to assert
+                    and prove every branch of <hi rend="italic">gospel obedience</hi> as
+                    indispensably necessary to eternal salvation’; cf. Wesley’s open letter (Nov.
+                    17, 1759) to John Downes in reply to the latter’s abusive <hi rend="italic"
+                        >Methodism Examined and Exposed</hi> (1759).</p>
+                <p>Many of the great and near-great commentators of the seventeenth and eighteenth
+                    centuries had devoted their talents to the interpretation of Matthew 5-7 as the
+                    principal summary of Christian ethics, or, in Henry Hammond’s phrase, as ‘an
+                    abstract of Christian philosophy’; cf. his <hi rend="italic">Practical
+                        Catechism</hi> (1st edn., <hi rend="italic">c.</hi> 1644), II.1, in the <hi
+                        rend="italic">Library of Anglo-Catholic Theology</hi> (1847), p. 83. Chief
+                    among these earlier works, in the order of their influences upon Wesley’s
+                    thought, were Bishop Offspring Blackall, ‘Eighty-Seven Practical Discourses Upon
+                    Our Saviour’s Sermon on the Mount’, <hi rend="italic">Works</hi>, I.1-561;
+                    II.609-939; <pb n="01:467"/>John Norris, <hi rend="italic">Practical
+                        Discourses</hi>; the American, James Blair, <hi rend="italic">Our Saviour’s
+                        Divine Sermon on the Mount in IV Volumes</hi> (1722; 2nd edn., 1740, with a
+                    preface by Daniel Waterland); John Cardinal Bona, <hi rend="italic">Guide to
+                        Eternity…</hi> (six editions in English between 1672 and 1712); and Henry
+                    Hammond, <hi rend="italic">op. cit.</hi> Echoes of all these are scattered along
+                    the way, together with lesser borrowings from Bengel, Poole, and Henry. This
+                    makes it all the more remarkable that Wesley came up with a model of his own,
+                    both inform and substance. This series thus reminds us, yet again, of Wesley’s
+                    ready appeal to tradition—even while he maintains his own originality and
+                    independence.</p>
+                <p>Benjamin Ingham records in his Journal that ‘during the voyage [to Georgia]
+                    Wesley went over our Saviour’s Sermon on the Mount’ with the ship’s company
+                    aboard the <hi rend="italic">Simmonds</hi>. There are also other records of his
+                    preaching, very early on, from one or another text in Matthew 5-7. For example,
+                    his second sermon was preached at Binsey (near Oxford), November 21, 1725, on
+                    Matt. 6:33. A first draft of the sermon which appears here as ‘Discourse VIII’
+                    seems to have been written out in 1736. Later, it was the example of the Sermon
+                    on the Mount that encouraged Wesley to break out of his High Church prejudices
+                    in Bristol, April 1, 1739: ‘In the evening (Mr. Whitefield being gone) I begun
+                    expounding our Lord’s Sermon on the Mount (one pretty remarkable precedent of
+                        <hi rend="italic">field preaching</hi>, though I suppose <hi rend="italic"
+                        >there were churches</hi> at that time also) to a little society which was
+                    accustomed to meet once or twice a week in Nicholas Street;’ cf. <hi
+                        rend="italic">Journal</hi> entries for this whole story of the unplanned
+                    outbreak of the Wesleyan Revival.</p>
+                <p>The records show that, between 1739 and 1746, Wesley preached more than one
+                    hundred sermons from separate texts in the Sermon on the Mount. There is,
+                    however, no recorded instance of his having treated that Sermon as a whole
+                    anywhere else. Evidently, he was prepared to allow this series, once published,
+                    to stand as his sufficient comment on the subject.</p>
+                <p>In his introduction to ‘Discourse X’, §§1-3, Wesley repeats his explanation (cf.
+                    ‘Discourse I’, Proem, §10) of how he had conceived the design of Matthew 5-7,
+                    according to its three unfolding themes: (1) ‘the sum of true religion’; (2)
+                    ‘rules touching that right intention which we are to preserve in all our outward
+                    actions’; and (3) ‘the main hindrances of this religion’. He then adds a
+                    clarifying summary: ‘In the fifth chapter [of St. Matthew] our great Teacher…has
+                    laid before us those <hi rend="italic">dispositions of the soul</hi> which
+                    constitute real Christianity…. In the sixth [chapter] he has shown how all our
+                        <hi rend="italic">actions</hi>…may be made holy, and good, and acceptable to
+                    God, by a pure and holy intention…. In <pb n="01:468"/>the former part of [ch.
+                    7] he points out the most common and fatal hindrances of this holiness; in the
+                    latter [part] he exhorts us, by various motives, to break through all [such
+                    hindrances] and secure that prize of our high calling [of God in Christ Jesus]’
+                    (cf. Phil. 3:14).</p>
+                <p>The thirteen discourses are divided almost equally over the three chapters of St.
+                    Matthew: five for chapter five, four each for six and seven. Of the first five,
+                    Discourse I is devoted to the first two Beatitudes; Discourse II to Beatitudes
+                    three through five (with a hymn to love based on 1 Cor. 13); Discourse III to
+                    the remainder of the Beatitudes; Discourse IV turns to Christianity as ‘a social
+                    religion’ in which inward holiness (our love of God) prompts outward holiness
+                    (love of neighbour); Discourse V is a balancing of law <hi rend="italic"
+                        >and</hi> gospel. Discourses VI-IX are based on chapter six: VI to the
+                    problems of purity and holiness of intention (to the ‘works of piety and of
+                    mercy’); VII to fasting; VIII to a denunciation of greed and surplus
+                    accumulation; IX to the mutually exclusive services of God and Mammon.
+                    Discourses X-XIII turn to various hindrances to holy living and to their
+                    avoidance: X to ‘judging’ (contrary to love), ‘intemperate zeal’, ‘neglect of
+                    prayer’, ‘neglect of charity’; XI to the noxious influences of ill-example and
+                    ill-advice with which the world deludes us; XII to false prophets and unedifying
+                    preachers (and yet also our duties to attend church nonetheless and to avail
+                    ourselves of all means of grace); XIII is an inevitable comment on the parable
+                    of the houses built on sand and rock. Discourse XII was also published
+                    separately in the same year that it appeared in <hi rend="italic">SOSO</hi>, III
+                    (1750), under the title, ‘A Caution Against False Prophets. A Sermon on Matt.
+                    vii. 15-20. Particularly recommended to the People Called Methodists’. This went
+                    through seven editions during Wesley’s lifetime. For a stemma delineating the
+                    publishing history of that sermon (‘collected’ and ‘separate’) and a list of
+                    variant readings, see Appendix, ‘Wesley’s Text’, Vol. IV, see also <hi
+                        rend="italic">Bibliog</hi>, Nos. 130 and 13o.i.</p>
+                <p>Obviously there is no interest, in any of these sermons, in critical textual
+                    problems or in the historical context. Everywhere it is assumed that in St.
+                    Matthew’s text we are dealing with divine <hi rend="italic">ipsissima
+                    verba</hi>—i.e., with a direct address from ὁ ὤν, ‘the self-existent, the
+                    Supreme, the God who is over all, blessed for ever’ (§9 below). The Sermon on
+                    the Mount, in Wesley’s view, is the only Gospel passage where Christ designed
+                    ‘to lay down at once the whole plan of his religion, to give us a full prospect
+                    of Christianity’. What matters most in our reading, therefore, is an awareness
+                    of Wesley’s sense of the wholeness of the message he is interpreting, of his
+                    conviction of the honest integration of an evangel profoundly ethical with an
+                    ethic that is also vividly <pb n="01:469"/>evangelical. Maybe more than anywhere
+                    else in <hi rend="italic">SOSO</hi> this particular bloc displays Wesley’s
+                    distinctive concern for integration and balance—between the faith that justifies
+                    and the faith that works by love.</p>
+            </introduction>
+            <pb n="01:675"/>
+            <head>Upon our Lord’s Sermon on the Mount,<lb/>Discourse the Twelfth</head>
+            <epigraph>
+                <p>Matthew 7:15-20</p>
+                <p>
+                    <hi rend="italic">Beware of false prophets, which come to you in sheep’s
+                        clothing, but inwardly they are ravening wolves.</hi>
+                </p>
+                <p>
+                    <hi rend="italic">Ye shall know them by their fruits. Do men gather grapes of
+                        thorns, or figs of thistles?</hi>
+                </p>
+                <p>
+                    <hi rend="italic">Even so every good tree bringeth forth good fruit; but a
+                        corrupt tree bringeth forth evil fruit.</hi>
+                </p>
+                <p>
+                    <hi rend="italic">A good tree cannot bring forth evil fruit; neither can a
+                        corrupt tree bring forth good fruit.</hi>
+                </p>
+                <p>
+                    <hi rend="italic">Every tree that bringeth not forth good fruit is hewn down and
+                        cast into the fire.</hi>
+                </p>
+                <p>
+                    <hi rend="italic">Wherefore by their fruits ye shall know them.</hi>
+                </p>
+            </epigraph>
+            <div type="introduction">
+                <p n="1">1. It is scarce possible to express or conceive what multitudes of souls
+                    run on to destruction because they would not be persuaded to walk in a <hi
+                        rend="italic">narrow</hi> way, even though it were the way to everlasting
+                    salvation. And the same thing we may still observe daily. Such is the folly and
+                    madness of mankind that thousands of men still rush on in the way to hell only
+                    because it is a broad way. They walk in it themselves because others do: because
+                    so many perish they will add to the number. Such is the amazing influence of
+                    example over the weak, miserable children of men! It continually peoples the
+                    regions of death, and drowns numberless souls in everlasting perdition.</p>
+                <p n="2">2. To warn mankind of this, to guard as many as possible against this
+                    spreading contagion, God has commanded his watchmen to cry aloud, and show the
+                    people the danger they are in.<note place="foot" xml:id="ftn1" n="1"><p
+                            rend="footnote text">See Isa. 58:1.</p></note> For this end he has sent
+                    his servants, the prophets, in their succeeding generations, to point out the
+                    narrow path, and exhort all men not to be conformed to this world.<note
+                        place="foot" xml:id="ftn2" n="2"><p rend="footnote text">See Rom.
+                        12:2.</p></note> But what if the <pb n="01:676"/>watchmen themselves fall
+                    into the snare against which they should warn others? What if ‘the prophets
+                    prophesy deceits’?<note place="foot" xml:id="ftn3" n="3"><p rend="footnote text"
+                            >Cf. Isa. 30:10.</p></note> If they ‘cause the people to err from the
+                        way’?<note place="foot" xml:id="ftn4" n="4"><p rend="footnote text">Cf. Jer.
+                            23:13, 32.</p></note> What shall be done if they point out, as the way
+                    to eternal life, what is in truth the way to eternal death? And exhort others to
+                    walk, as they do themselves, in the broad, not the narrow way?</p>
+                <p n="3">3. Is this an unheard of, is it an uncommon thing? Nay, God knoweth it is
+                    not. The instances of it are almost innumerable. We may find them in every age
+                    and nation. But how terrible is this! When the ambassadors of God turn agents
+                    for the devil! When they who are commissioned to teach men the way to heaven do
+                    in fact teach them the way to hell! These are like the locusts of Egypt ‘which
+                    eat up the residue that had escaped’, that had ‘remained after the hail’.<note
+                        place="foot" xml:id="ftn5" n="5"><p rend="footnote text">Cf. Exod.
+                        10:5.</p></note> They devour even the residue of men that had escaped, that
+                    were not destroyed by ill example. It is not therefore without cause that our
+                    wise and gracious master so solemnly cautions us against them: ‘Beware’, saith
+                    he, ‘of false prophets, which come to you in sheep’s clothing, but inwardly they
+                    are ravening wolves.’</p>
+                <p n="4">4. A caution this of the utmost importance. That it may the more
+                    effectually sink into our hearts, let us inquire, first, who these false
+                    prophets are; secondly, what appearance they put on; and, thirdly, how we may
+                    know what they really are, notwithstanding their fair appearance.</p>
+            </div>
+            <div type="section" n="1">
+                <p n="1">I. 1. We are, first, to inquire who these false prophets are. And this it
+                    is needful to do the more diligently because these very men have so laboured to
+                    ‘wrest this Scripture to their own (though not only their own)
+                        destruction’.<note place="foot" xml:id="ftn6" n="6"><p rend="footnote text"
+                            >Cf. 2 Pet. 3:16.</p></note> In order therefore to cut off all dispute I
+                    shall raise no dust<note place="foot" xml:id="ftn7" n="7"><p
+                            rend="footnote text">A rare instance of slang in Wesley; this usage is
+                            not noted in the <hi rend="italic">OED</hi>. But cf. E. Partridge, <hi
+                                rend="italic">A Dictionary of Slang and Unconventional English</hi>
+                            (1937), and E. C. Brewer’s <hi rend="italic">Dictionary of Phrase and
+                                Fable</hi> (1870, <hi rend="italic">et seq.</hi>).</p></note> (as
+                    the manner of some is) neither use any loose, rhetorical exclamations to deceive
+                    the hearts of the simple, but speak rough, plain truths, such as none can deny
+                    who has either understanding or modesty left, and such truths as have the
+                    closest connection with the whole tenor of the preceding <pb n="01:677"
+                    />discourse; whereas too many have interpreted these words without any regard to
+                    all that went before, as if they bore no manner of relation to the sermon in the
+                    close of which they stand.</p>
+                <p n="2">2. By ‘prophets’ here (as in many other passages of Scripture, particularly
+                    in the New Testament) are meant, not those who foretell things to come, but
+                    those who speak in the name of God; those men who profess to be sent of God to
+                    teach others the way to heaven.<note place="foot" xml:id="ftn8" n="8"><p
+                            rend="footnote text">The Puritans had identified prophecy as
+                            preaching-teaching (‘forthtelling’ rather than ‘foretelling’) and Wesley
+                            reflects that tradition here. Cf. William Perkins, <hi rend="italic">The
+                                Art of Prophesying</hi>. See No. 121, ‘Prophets and Priests’, §6,
+                            which corresponds to Perkins’s conception of prophecy and prophesying;
+                            cf. Wesley’s <hi rend="italic">Notes</hi> on 1 Thess.
+                    5:20.</p></note></p>
+                <p>Those are ‘false prophets’ who teach a false way to heaven, a way which does not
+                    lead thither; or (which comes in the end to the same point) who do not teach the
+                    true.</p>
+                <p n="3">3. Every broad way is infallibly a false one. Therefore this is one plain,
+                    sure rule, ‘They who teach men to walk in a broad way, a way that many walk in,
+                    are false prophets.’</p>
+                <p>Again, the true way to heaven is a narrow way. Therefore this is another plain,
+                    sure rule, ‘They who do not teach men to walk in a narrow way, to be singular,
+                    are false prophets.’<note place="foot" xml:id="ftn9" n="9"><p
+                            rend="footnote text">Cf. No. 31, ‘Sermon on the Mount, XI’, III.4 and
+                            n.</p></note></p>
+                <p n="4">4. To be more particular: the only true way to heaven is that pointed out
+                    in the preceding sermon. Therefore they are false prophets who do not teach men
+                    to walk in <hi rend="italic">this way</hi>.</p>
+                <p>Now the way to heaven pointed out in the preceding sermon is the way of
+                    lowliness, mourning, meekness, and holy desire, love of God and of our
+                    neighbour, doing good, and suffering evil for Christ’s sake. They are therefore
+                    false prophets who teach as the way to heaven any other way than <hi
+                        rend="italic">this</hi>.</p>
+                <p n="5">5. It matters not what they call that other way. They may call it ‘faith’,
+                    or ‘good works’; or ‘faith and works’; or ‘repentance’; or ‘repentance, faith,
+                    and new obedience’. All these are good words. But if under these, or any other
+                    terms whatever, they teach men any way distinct from <hi rend="italic"
+                    >this</hi>, they are properly false prophets.</p>
+                <p n="6">6. How much more do they fall under that condemnation who speak evil of
+                    this good way! But above all they who teach the directly opposite way—the way of
+                    pride, of levity, of passion, of worldly desires, of loving pleasure more than
+                    God, of unkindness to our neighbour, of unconcern for good works, and suffering
+                    no evil, no persecution for righteousness’ sake!</p>
+                <p n="7"><pb n="01:678"/>7. If it be asked, ‘Why, who ever did teach this?’ Or, ‘Who
+                    does teach it as the way to heaven?’ I answer, Ten thousand wise and honourable
+                    men; even all those, of whatever denomination,<note place="foot" xml:id="ftn10"
+                        n="10"><p rend="footnote text">This usage, connoting an <hi rend="italic"
+                                >ecclesial</hi> entity, was rather new; the first instance of it in
+                            the <hi rend="italic">OED</hi>, in this sense, is dated 1716. Even in
+                            1755, Dr. Johnson would use it of ‘sects’ of philosophers without any
+                            ecclesial connotation at all. For other instances of Wesley’s use of the
+                            term, see Nos. 104, ‘On Attending the Church Service’, §4, and 107, ‘On
+                            God’s Vineyard’, II.8.</p></note> who encourage the proud, the trifler,
+                    the passionate, the lover of the world, the man of pleasure, the unjust or
+                    unkind, the easy, careless, harmless, useless creature, the man who suffers no
+                    reproach for righteousness’ sake, to imagine he is in the way to heaven. These
+                    are false prophets in the highest sense of the word. These are traitors both to
+                    God and man. These are no other than the first-born of Satan, the eldest sons of
+                    Apollyon, the destroyer.<note place="foot" xml:id="ftn11" n="11"><p
+                            rend="footnote text">See Rev. 9:11: ‘the angel of the bottomless pit,
+                            whose name in the Hebrew tongue is Abaddon, but in the Greek tongue hath
+                            his name Apollyon’. In Enoch 20:2 the angel presiding over ‘Tarturus’
+                            was named Uriel. Cf. John Bunyan, <hi rend="italic">Pilgrim’s
+                                Progress</hi> (1st edn., 1678; Philadelphia, Porter and Coates,
+                            n.d.), pp. 61-65. This metaphor of ‘the bottomless pit’ was one of
+                            Wesley’s favourites; cf. e.g., III.4, below, and Nos. 25, ‘Sermon on the
+                            Mount, V’, III.5; 66, ‘The Signs of the Times’, II.7; 90, ‘An Israelite
+                            Indeed’, II.4; 96, ‘On Obedience to Parents’, II.4; 100, ‘On Pleasing
+                            All Men’, II.2; 102, ‘Of Former Times’, §16; 115, ‘Dives and Lazarus’,
+                            I.7; and 119, ‘Walking by Sight and Walking by Faith’, §18.</p><p
+                            rend="footnote text">For ‘the first-born of Satan’, cf. ‘The Epistle of
+                            Polycarp to the Philippians’, VII.1, in <hi rend="italic">The Apostolic
+                                Fathers</hi>, Loeb, I:293 (quoting 1 John 4:2, 3, and 2 John 7):
+                            ‘“For everyone who does not confess that Jesus Christ has come in the
+                            flesh is an antichrist;” and whosoever does not confess the testimony of
+                            the cross is of the devil; and whosoever perverts the oracles of the
+                            Lord for his own lusts, and says that there is neither resurrection nor
+                            judgment—this man is the first-born of Satan.’ A footnote here says
+                            that, according to St. Irenaeus, <hi rend="italic">Against
+                            Heresies</hi>, iii.3, 4, this phrase, ‘first-born of Satan’, was later
+                            applied by Polycarp specifically to Marcion. Cf. also Nos. 128, ‘The
+                            Deceitfulness of the Human Heart’, I.1; and 150, ‘Hypocrisy in Oxford’,
+                            I.3, where Wesley uses the Greek phrase, πρωτότοκοι τοῦ
+                        Σατανᾶ.</p></note> These are far above the rank of ordinary cut-throats; for
+                    they murder the souls of men. They are continually peopling the realms of night;
+                    and whenever they follow the poor souls whom they have destroyed, ‘hell’ shall
+                    be ‘moved from beneath to meet them at their coming’.<note place="foot"
+                        xml:id="ftn12" n="12"><p rend="footnote text">Cf. Isa. 14:9.</p></note></p>
+            </div>
+            <div type="section" n="2">
+                <p n="1">II. 1. But do they come now in their own shape? By no means. If it were so
+                    they could not destroy. You would take the alarm and flee for your life.
+                    Therefore they put on a quite contrary appearance, which was the second thing to
+                    be considered: ‘they come to you in sheep’s clothing,’ although ‘inwardly they
+                    are ravening wolves.’</p>
+                <p n="2"><pb n="01:679"/>2. ‘They come to you in sheep’s clothing;’ that is, with an
+                    appearance of harmlessness.<note place="foot" xml:id="ftn13" n="13"><p
+                            rend="footnote text">Wesley speaks frequently of ‘harmlessness’, often
+                            sarcastically, as here. Cf. Nos. 33, ‘Sermon on the Mount, XIII’, III.2;
+                            52, <hi rend="italic">The Reformation of Manners</hi>, III.3; 81, ‘In
+                            What Sense we are to Leave the World’, §23; 119, ‘Walking by Sight and
+                            Walking by Faith’, §18; and 127, ‘On the Wedding Garment’,
+                        §16.</p></note> They come in the most mild, inoffensive manner, without any
+                    mark or token of enmity. Who can imagine that these quiet creatures would do any
+                    hurt to anyone? Perhaps they may not be so zealous and active in doing good as
+                    one would wish they were. However, you see no reason to suspect that they have
+                    even the desire to do any harm. But this is not all.</p>
+                <p n="3">3. They come, secondly, with an appearance of usefulness. Indeed to this,
+                    to do good, they are particularly called. They are set apart for this very
+                    thing. They are particularly commissioned to watch over your soul, and to train
+                    you up to eternal life. ’Tis their whole business to ‘go about doing good, and
+                    healing those that are oppressed of the devil’.<note place="foot" xml:id="ftn14"
+                        n="14"><p rend="footnote text">Cf. Acts 10:38.</p></note> And you have been
+                    always accustomed to look upon them in this light, as messengers of God sent to
+                    bring you a blessing.</p>
+                <p n="4">4. They come, thirdly, with an appearance of religion. All they do is for
+                    conscience’ sake! They assure you it is out of mere zeal for God that they are
+                    making God a liar. It is out of pure concern for religion that they would
+                    destroy it root and branch. All they speak is only from a love of truth, and a
+                    fear lest it should suffer. And, it may be, from a regard for the church, and a
+                    desire to defend her from all her enemies.</p>
+                <p n="5">5. Above all, they come with an appearance of love. They take all these
+                    pains only for <hi rend="italic">your</hi> good. They should not trouble
+                    themselves about you, but that they have a kindness for you. They will make
+                    large professions of their goodwill, of their concern for the danger you are in,
+                    and of their earnest desire to preserve you from error, from being entangled in
+                    new and mischievous doctrines. They should be very sorry to see one who <hi
+                        rend="italic">means</hi> so well hurried into any extreme, perplexed with
+                    strange and unintelligible notions, or deluded into enthusiasm Therefore it is
+                    that they advise you to keep still in the plain middle way;<note place="foot"
+                        xml:id="ftn15" n="15"><p rend="footnote text">Cf. No. 27, ‘Sermon on the
+                            Mount, VII’, §4 and n.</p></note> and to beware of ‘being righteous
+                    overmuch’, lest you should ‘destroy yourself’.<note place="foot" xml:id="ftn16"
+                        n="16"><p rend="footnote text">Eccles. 7:16. Cf. below, III.11. An oblique
+                            reference to Joseph Trapp, whose four sermons on <hi rend="italic">The
+                                Nature, Folly, Sin, and Danger of Being Righteous Overmuch</hi>
+                            (1739) had ridiculed the Methodists and had, in turn, become an easy
+                            target for their scornful retorts. Wesley’s description here of the
+                            ideal ministerial character is perfectionistic enough so as to encourage
+                            his people to expect more of their Church of England priests than they
+                            could realistically expect from their own Methodist preachers or
+                            class-leaders.</p></note></p>
+            </div>
+            <div type="section" n="3">
+                <p n="1"><pb n="01:680"/>III. 1. But how may we know what they really are,
+                    notwithstanding their fair appearance? This was the third thing into which it
+                    was proposed to inquire.</p>
+                <p>Our blessed Lord saw how needful it was for all men to know false prophets,
+                    however disguised. He saw likewise how unable most men were to deduce a truth
+                    through a long train of consequences. He therefore gives us a short and plain
+                    rule, easy to be understood by men of the meanest capacities, and easy to be
+                    applied upon all occasions: ‘Ye shall know them by their fruits.’</p>
+                <p n="2">2. Upon all occasions you may easily apply this rule. In order to know
+                    whether any who speak in the name of God are false or true prophets it is easy
+                    to observe, first, What are the fruits of their doctrine as to themselves? What
+                    effect has it had upon their lives? Are they holy and unblameable in all things?
+                    What effect has it had upon their hearts? Does it appear by the general tenor of
+                    their conversation that their tempers are holy, heavenly, divine? That the mind
+                    is in them which was in Christ Jesus?<note place="foot" xml:id="ftn17" n="17"><p
+                            rend="footnote text">Phil. 2:5.</p></note> That they are meek, lowly,
+                    patient lovers of God and man, and zealous of good works?<note place="foot"
+                        xml:id="ftn18" n="18"><p rend="footnote text">Titus 2:14.</p></note></p>
+                <p n="3">3. You may easily observe, secondly, what are the fruits of their doctrine
+                    as to those that hear them—in many, at least, though not in all; for the
+                    apostles themselves did not convert all that heard them. Have these the mind
+                    that was in Christ? And do they walk as he also walked? And was it by hearing
+                    these men that they began so to do? Were they inwardly and outwardly wicked till
+                    they heard them? If so, it is a manifest proof that those are true prophets,
+                    teachers sent of God. But if it is not so, if they do not effectually teach
+                    either themselves or others to love and serve God, it is a manifest proof that
+                    they are false prophets; that God hath not sent them.</p>
+                <p n="4">4. An hard saying this! How few can bear it!<note place="foot"
+                        xml:id="ftn19" n="19"><p rend="footnote text">See John 6:60.</p></note> This
+                    our Lord was sensible of, and therefore condescends to prove it at large by
+                    several clear and convincing arguments. ‘Do men’, says he, ‘gather grapes of
+                    thorns, or figs of thistles?’<hi rend="endnote_reference"><note place="end"><p
+                                rend="endnote text">Ver. 16 [of text].</p></note></hi> Do you expect
+                    that <pb n="01:681"/>these evil men should bring forth good fruit? As well might
+                    you expect that thorns should bring forth grapes, or that figs should grow upon
+                    thistles! ‘Every good tree bringeth forth good fruit; but a corrupt tree
+                    bringeth forth evil fruit.’<hi rend="endnote_reference"><note place="end"><p
+                                rend="endnote text">Ver. 17.</p></note></hi> Every true prophet,
+                    every teacher whom I have sent, bringeth forth the good fruit of holiness. But a
+                    false prophet, a teacher whom I have not sent, brings forth only sin and
+                    wickedness. ‘A good tree cannot bring forth evil fruit; neither can a corrupt
+                    tree bring forth good fruit.’ A true prophet, a teacher sent from God, does not
+                    bring forth good fruit sometimes only, but always; not accidentally, but by a
+                    kind of necessity. In like manner, a false prophet, one whom God hath not sent,
+                    does not bring forth evil fruit accidentally or sometimes only, but always, and
+                    of necessity. ‘Every tree that bringeth not forth good fruit is hewn down and
+                    cast into the fire.’<hi rend="endnote_reference"><note place="end"><p
+                                rend="endnote text">Ver. 19.</p></note></hi> Such infallibly will be
+                    the lot of those prophets who bring not forth good fruit, who do not save souls
+                    from sin, who do not bring sinners to repentance. ‘Wherefore’ let this stand as
+                    an eternal rule: ‘By their fruits ye shall know them.’<hi
+                        rend="endnote_reference"><note place="end"><p rend="endnote text">Ver.
+                                20.</p></note></hi> They who in fact bring the proud, passionate,
+                    unmerciful lovers of the world to be lowly, gentle lovers of God and man—they
+                    are true prophets, they are sent from God, who therefore confirms their word. On
+                    the other hand they whose hearers, if unrighteous before, remain unrighteous
+                    still, or at least void of any righteousness which ‘exceeds the righteousness of
+                    the scribes and Pharisees’<note place="foot" xml:id="ftn20" n="20"><p
+                            rend="footnote text">Cf. Matt. 5:20.</p></note>—they are false prophets;
+                    they are not sent of God; therefore their word falls to the ground. And without
+                    a miracle of grace they and their hearers together will fall into the bottomless
+                    pit.</p>
+                <p n="5">5. O ‘beware of’ these ‘false prophets’! For though they ‘come in sheep’s
+                    clothing, yet inwardly they are ravening wolves’. They only destroy and devour
+                    the flock: they tear them in pieces if there is none to help them. They will
+                    not, cannot lead you in the way to heaven. How should they, when they know it
+                    not themselves? O beware they do not turn you out of the way, and cause you to
+                    ‘lose what you have wrought’.<note place="foot" xml:id="ftn21" n="21"><p
+                            rend="footnote text">Cf. 2 John 8.</p></note></p>
+                <p n="6">6. But perhaps you will ask, ‘If there is such danger in hearing <pb
+                        n="682"/>them, ought I to hear them at all?’ It is a weighty question, such
+                    as deserves the deepest consideration, and ought not to be answered but upon the
+                    calmest thought, the most deliberate reflection. For many years I have been
+                    almost afraid to speak at all concerning it; being unable to determine one way
+                    or the other, or to give any judgment upon it. Many reasons there are which
+                    readily occur, and incline me to say, ‘Hear them not.’ And yet what our Lord
+                    speaks concerning the false prophets of his own times seems to imply the
+                    contrary. ‘Then spake Jesus unto the multitude, and to his disciples, saying,
+                    The scribes and the Pharisees sit in Moses’ seat,’ are the ordinary, stated
+                    teachers in your church: ‘All therefore whatsoever they bid you observe, that
+                    observe and do. But do not ye after their works; for they say and do not.’<note
+                        place="foot" xml:id="ftn22" n="22"><p rend="footnote text">Matt.
+                        23:1-3.</p></note> Now that these were false prophets in the highest sense
+                    our Lord had shown during the whole course of his ministry, as indeed he does in
+                    those very words, ‘they say and do not.’ Therefore by their fruits his disciples
+                    could not but know them, seeing they were open to the view of all men.
+                    Accordingly he warns them again and again to ‘beware of’ these ‘false prophets’.
+                    And yet he does not forbid them to hear even these. Nay, he in effect commands
+                    them so to do in those words: ‘All therefore whatsoever they bid you observe,
+                    that observe and do.’ For unless they heard them they could not know, much less
+                    ‘observe, whatsoever they bade them do’. Here then our Lord himself gives a
+                    plain direction, both to his apostles and the whole multitude, in some
+                    circumstances to hear even false prophets, known and acknowledged so to be.</p>
+                <p n="7">7. But perhaps it will be said, he only directed to hear them when they
+                    read the Scripture to the congregation. I answer, at the same time that they
+                    thus read the Scripture they generally expounded it too. And here is no kind of
+                    intimation that they were to hear the one and not the other also. Nay, the very
+                    terms, ‘All things whatsoever they bid you observe’, exclude any such
+                    limitation.</p>
+                <p n="8">8. Again, unto them, unto false prophets, undeniably such, is frequently
+                    committed (O grief to speak! for surely these things ought not so to be) the
+                    administration of the sacraments also. To direct men, therefore, not to hear
+                    them would be in effect to cut them off from the ordinance of God. But this we
+                    dare not do, considering the validity of the ordinance doth not depend on the
+                        <pb n="01:683"/>goodness of him that administers, but on the faithfulness of
+                    him that ordained it; who will and doth meet us in his appointed ways.<note
+                        place="foot" xml:id="ftn23" n="23"><p rend="footnote text">Cf. Art. XXVI,
+                            ‘Of the unworthiness of the ministers, which hinders not the effect of
+                            the sacraments.’ The background here is the bitter controversy that
+                            still centred in the Nonconformists’ contention that it was <hi
+                                rend="italic">against conscience</hi> (and, therefore, <hi
+                                rend="italic">sinful</hi>) to accept the ministrations of unworthy
+                            priests or to participate in rituals that still smacked of popery.
+                            Wesley’s toleration on this point was rooted in his ecclesiology. Cf.
+                            the longer explanation of his ‘Reasons Against a Separation from the
+                            Church of England’ in <hi rend="italic">A Preservative Against Unsettled
+                                Notions in Religion</hi>. See also Nos. 97, ‘On Obedience to
+                            Pastors’, where Wesley argues a distinction between ‘pastors’ (<hi
+                                rend="italic">ex officio</hi>) and ‘spiritual guides’; and 104, ‘On
+                            Attending the Church Service’, §27. His concerns to keep his people
+                            within the sacramental environment of the Church of England and also to
+                            warn them against ‘false prophets’ were carefully balanced.</p></note>
+                    Therefore on this account likewise I scruple to say, ‘Hear not even the false
+                    prophets.’ Even by these who are under a curse themselves God can and doth give
+                    us his blessing. For the bread which they break we have experimentally known to
+                    be ‘the communion of the body of Christ’; and the cup which God blessed, even by
+                    their unhallowed lips, was to us the communion of the blood of Christ.<note
+                        place="foot" xml:id="ftn24" n="24"><p rend="footnote text">1 Cor.
+                        10:16.</p></note></p>
+                <p n="9">9. All, therefore, which I can say is this: in any particular case wait
+                    upon God by humble and earnest prayer, and then act according to the best light
+                    you have. Act according to what you are persuaded upon the whole will be most
+                    for your spiritual advantage. Take great care that you do not judge rashly; that
+                    you do not lightly think any to be false prophets. And when you have full proof,
+                    see that no anger or contempt have any place in your heart. After this, in the
+                    presence and in the fear of God, determine for yourself. I can only say, if by
+                    experience you find that the hearing them hurts your soul, then hear them not;
+                    then quietly refrain, and hear those that profit you. If on the other hand you
+                    find it does not hurt your soul, you then may hear them still. Only ‘take heed
+                    how you hear.’<note place="foot" xml:id="ftn25" n="25"><p rend="footnote text"
+                            >Luke 8:18.</p></note> Beware of them and of their doctrine. Hear with
+                    fear and trembling, lest <hi rend="italic">you</hi> should be deceived, and
+                    given up like them to a strong delusion. As they continually mingle truth and
+                    lies, how easily may you take in both together! Hear with fervent and continual
+                    prayer to him who alone teacheth man wisdom. And see that you bring whatever you
+                    hear ‘to the law and to the testimony’.<note place="foot" xml:id="ftn26" n="26"
+                            ><p rend="footnote text">Isa. 8:20.</p></note> Receive nothing untried,
+                    nothing till it is weighed in ‘the balance of the sanctuary’.<note place="foot"
+                        xml:id="ftn27" n="27"><p rend="footnote text">Cf. No. 10, ‘The Witness of
+                            the Spirit, I’, II.8 and n.</p></note> Believe <pb n="01:684"/>nothing
+                    they say unless it is clearly confirmed by plain passages of Holy Writ. Wholly
+                    reject whatsoever differs therefrom, whatever is not confirmed thereby. And in
+                    particular reject with the utmost abhorrence whatsoever is described as the way
+                    of salvation that is either different from, or short of, the way our Lord has
+                    marked out in the foregoing discourse.</p>
+                <p n="10">10. I cannot conclude without addressing a few plain words to those of
+                    whom we have now been speaking.<note place="foot" xml:id="ftn28" n="28"><p
+                            rend="footnote text">For still more ‘plain words’ to the Anglican
+                            clergy, cf. Wesley’s <hi rend="italic">Address to the Clergy</hi>,
+                            I.3-II.1, 3.</p></note> O ye false prophets, O ye dry bones, hear ye for
+                    once the word of the Lord.<note place="foot" xml:id="ftn29" n="29"><p
+                            rend="footnote text">Ezek. 37:4.</p></note> How long will ye lie in the
+                    name of God, saying God hath spoken, and God hath not spoken by you?<note
+                        place="foot" xml:id="ftn30" n="30"><p rend="footnote text">See Ezek.
+                            13:6-7.</p></note> How long will ye pervert the right ways of the
+                        Lord,<note place="foot" xml:id="ftn31" n="31"><p rend="footnote text">Acts
+                            13:10.</p></note> putting darkness for light, and light for
+                        darkness?<note place="foot" xml:id="ftn32" n="32"><p rend="footnote text"
+                            >See Isa. 5:20.</p></note> How long will ye teach the way of death, and
+                    call it the way of life? How long will ye deliver to Satan the souls whom you
+                    profess to bring unto God?</p>
+                <p n="11">11. ‘Woe unto you, ye blind leaders of the blind!’<note place="foot"
+                        xml:id="ftn33" n="33"><p rend="footnote text">Cf. Matt. 15:14;
+                        23:16.</p></note> ‘For ye shut the kingdom of heaven against men: ye neither
+                    go in yourselves, neither suffer ye them that are entering to go in.’<note
+                        place="foot" xml:id="ftn34" n="34"><p rend="footnote text">Matt.
+                        23:13.</p></note> Them that would strive to enter in at the strait gate ye
+                    call back into the broad way. Them that have scarce gone one step in the ways of
+                    God you devilishly caution against ‘going too far’. Them that just begin to
+                    hunger and thirst after righteousness you warn not to be ‘righteous
+                        overmuch’.<note place="foot" xml:id="ftn35" n="35"><p rend="footnote text"
+                            >Cf. above, II.5 and n.</p></note> Thus you cause them to stumble at the
+                    very threshold; yea, to fall and rise no more.<note place="foot" xml:id="ftn36"
+                        n="36"><p rend="footnote text">Jer. 25:27.</p></note> O wherefore do ye
+                    this? What profit is there in their blood when they go down to the pit?<note
+                        place="foot" xml:id="ftn37" n="37"><p rend="footnote text">Ps.
+                        30:9.</p></note> Miserable profit to <hi rend="italic">you</hi>. They ‘shall
+                    perish in their iniquity; but their blood will God require at <hi rend="italic"
+                        >your</hi> hands’!<note place="foot" xml:id="ftn38" n="38"><p
+                            rend="footnote text">Cf. Ezek. 3:18; 33:8.</p></note></p>
+                <p n="12">12. Where are your eyes? Where is your understanding? Have ye deceived
+                    others till you have deceived yourselves also? Who hath required this at your
+                    hands, to <hi rend="italic">teach</hi> a way which ye never <hi rend="italic"
+                        >knew</hi>? Are you ‘given up to’ so ‘strong a delusion’ that ye not only
+                    teach but ‘believe a lie’?<note place="foot" xml:id="ftn39" n="39"><p
+                            rend="footnote text">Cf. Ps. 81:12; 2 Thess. 2:11.</p></note> And can
+                    you possibly believe that God <pb n="01:685"/>hath sent you? That ye are <hi
+                        rend="italic">his</hi> messengers? Nay, if the Lord had sent you, the ‘work
+                    of the Lord’, would ‘prosper in your hands’.<note place="foot" xml:id="ftn40"
+                        n="40"><p rend="footnote text">Cf. Isa. 53:10.</p></note> As the Lord
+                    liveth, if ye were messengers of God he would ‘confirm the word of his
+                        messengers’.<note place="foot" xml:id="ftn41" n="41"><p rend="footnote text"
+                            >Cf. Ezek. 13:6.</p></note> But the work of the Lord doth not prosper in
+                    your hand: you bring no sinners to repentance. The Lord doth not confirm your
+                    word, for you save no souls from death.</p>
+                <p n="13">13. How can you possibly evade the force of our Lord’s words—so full, so
+                    strong, so express? How can ye evade ‘knowing yourselves by your fruits’? Evil
+                    fruits of evil trees! And how should it be otherwise? ‘Do men gather grapes of
+                    thorns, or figs of thistles?’ Take this to yourselves, ye to whom it belongs. O
+                    ye barren trees, why cumber ye the ground?<note place="foot" xml:id="ftn42"
+                        n="42"><p rend="footnote text">See Luke 13:7.</p></note> ‘Every good tree
+                    bringeth forth good fruit.’ See ye not that here is no exception? Take
+                    knowledge, then, ye are not good trees; for ye do not bring forth good fruit.
+                    ‘But a corrupt tree bringeth forth evil fruit.’ And so have ye done from the
+                    beginning. Your speaking as from God has only confirmed them that heard you in
+                    the tempers, if not works, of the devil. O take warning of him in whose name ye
+                    speak, before the sentence he hath pronounced take place. ‘Every tree which
+                    bringeth not forth good fruit is hewn down, and cast into the fire.’</p>
+                <p n="14">14. My dear brethren, harden not your hearts.<note place="foot"
+                        xml:id="ftn43" n="43"><p rend="footnote text">Ps. 95:8; Heb. 3:8.</p></note>
+                    You have too long shut your eyes against the light. Open them now, before it is
+                    too late; before you are cast into outer darkness.<note place="foot"
+                        xml:id="ftn44" n="44"><p rend="footnote text">See Matt. 8:12;
+                        22:13.</p></note> Let not any temporal consideration weigh with you; for
+                    eternity is at stake. Ye have run before ye were sent. O go no farther. Do not
+                    persist to damn yourselves and them that hear you! You have no fruit of your
+                    labours. And why is this? Even because the Lord is not with you. But can you go
+                    this warfare at your own cost?<note place="foot" xml:id="ftn45" n="45"><p
+                            rend="footnote text">See 1 Cor. 9:7.</p></note> It cannot be. Then
+                    humble yourselves before him. Cry unto him out of the dust, that he may first
+                    quicken <hi rend="italic">thy</hi> soul, give <hi rend="italic">thee</hi> the
+                    faith that worketh by love; that is lowly and meek, pure and merciful, zealous
+                    of good works;<note place="foot" xml:id="ftn46" n="46"><p rend="footnote text"
+                            >Titus 2:14.</p></note> rejoicing in tribulation, in reproach, in
+                    distress, in persecution for righteousness’ sake. So shall ‘the Spirit of glory
+                    and of Christ rest upon thee’,<note place="foot" xml:id="ftn47" n="47"><p
+                            rend="footnote text">Cf. 1 Pet. 4:14.</p></note> and it shall appear <pb
+                        n="686"/>that God hath sent thee. So shalt thou indeed ‘do the work of an
+                    evangelist, and make full proof of thy ministry.’<note place="foot"
+                        xml:id="ftn48" n="48"><p rend="footnote text">Cf. 2 Tim. 4:5.</p></note> So
+                    shall the word of God in thy mouth be ‘an hammer that breaketh the rocks in
+                        pieces’.<note place="foot" xml:id="ftn49" n="49"><p rend="footnote text"
+                            >Jer. 23:29.</p></note> It shall then be known by thy fruits that thou
+                    art a prophet of the Lord, even by the children whom God hath given thee.<note
+                        place="foot" xml:id="ftn50" n="50"><p rend="footnote text">See Isa.
+                            8:18.</p></note> And having ‘turned many to righteousness, thou shalt
+                    shine as the stars for ever and ever’!<note place="foot" xml:id="ftn51" n="51"
+                            ><p rend="footnote text">Cf. Dan. 12:3.</p></note></p>
+            </div>
+        </body>
+    </text>
+</TEI>

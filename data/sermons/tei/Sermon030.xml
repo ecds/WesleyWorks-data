@@ -1,0 +1,748 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Sermon 30: Upon Our Lord’s Sermon On The Mount, Discourse X</title>
+                <author>Wesley, John</author>
+                <editor role="text">Van Buskirk, Gregory P.</editor>
+                <editor role="digital">Taylor, Michelle M.</editor>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>The Wesley Works Digitzation Project</publisher>
+                <pubPlace>Tampa, FL</pubPlace>
+                <date>2024-02-25</date>
+            </publicationStmt>
+            <sourceDesc>
+                <listBibl>
+                    <biblStruct>
+                        <analytic>
+                            <title level="a">Sermon 30: Upon Our Lord’s Sermon On The Mount,
+                                Discourse X</title>
+                        </analytic>
+                        <monogr>
+                            <title level="j">The Works of John Wesley, Volume I: Sermons I,
+                                1-33</title>
+                            <editor role="volume">Outler, Albert</editor>
+                            <imprint>
+                                <publisher>Abingdon Press</publisher>
+                                <pubPlace>Nashville, TN</pubPlace>
+                                <date when="2015-05-01">1984-05-01</date>
+                                <biblScope unit="volume" n="1"/>
+                                <biblScope unit="page" from="466" to="469"/>
+                                <biblScope unit="page" from="650" to="663"/>
+                            </imprint>
+                        </monogr>
+                        <series>
+                            <title level="s">The Works of John Wesley</title>
+                            <editor role="general">Baker, Frank</editor>
+                        </series>
+                    </biblStruct>
+                </listBibl>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Greg Van Buskirk created Word docs for all of Wesley's sermons using a combination of
+                OCR software and manual proofing. Michelle Taylor converted these docx into XML
+                using Oxygen's DITA automatic transformation scenario, then touched them up
+                manually.</p>
+        </encodingDesc>
+        <standOff>
+            <taxonomy>
+                <keywords>
+                    <term/>
+                </keywords>
+            </taxonomy>
+            <!--Include keywords and terms here eventually.-->
+        </standOff>
+        <revisionDesc/>
+    </teiHeader>
+    <text>
+        <body>
+            <pb n="01:466"/>
+            <introduction>
+                <!--Confirm introduction is the element I want to use here, especially given that I
+                    use it as an attribute for Wesley's introductory paragraphs as well.-->
+                <head>
+                    <hi rend="italic">An Introductory Comment [to Sermons 21-33]</hi>
+                </head>
+                <p>The unifying theme of these next thirteen ‘discourses’ on the Sermon on the
+                    Mount, with all their variations and nuancings, is the Christian life understood
+                    as the fruit of justifying faith. But given such faith, what follows? Wesley’s
+                    answer is given in this extended exposition of the Christian life based on the
+                        <hi rend="italic">locus classicus</hi> of evangelical ethics, ‘The Sermon on
+                    the Mount’ (i.e., Matthew 5-7). Since Tyndale, this ‘sermon’ had been understood
+                    as ‘the epitome of God’s laws and promises’ for Christian believers; cf.
+                    Clebsch, <hi rend="italic">England’s Earliest Protestants</hi>, p. 184; see also
+                    William Burkitt, <hi rend="italic">Expository Notes…on the New Testament</hi>
+                    (eleven editions between 1700 and 1739), Preface to chapter 5: ‘Christ’s famous
+                    Sermon on the Mount comprehends the sum and substance of both the Old and New
+                    Testaments.’</p>
+                <p>Taken together, the following sermons are not a thirteen-part essay, tightly
+                    organized and argued. Instead, they are separate sermons, drawn from materials
+                    running back to 1725, arranged in a triadic pattern that seems to have been
+                    original with Wesley. Each is a discourse in its own right; yet the series is
+                    designed so that each appears as a part of a whole. This means that the sermons
+                    may be read singly or together, but with an eye on their shared aim: ‘to assert
+                    and prove every branch of <hi rend="italic">gospel obedience</hi> as
+                    indispensably necessary to eternal salvation’; cf. Wesley’s open letter (Nov.
+                    17, 1759) to John Downes in reply to the latter’s abusive <hi rend="italic"
+                        >Methodism Examined and Exposed</hi> (1759).</p>
+                <p>Many of the great and near-great commentators of the seventeenth and eighteenth
+                    centuries had devoted their talents to the interpretation of Matthew 5-7 as the
+                    principal summary of Christian ethics, or, in Henry Hammond’s phrase, as ‘an
+                    abstract of Christian philosophy’; cf. his <hi rend="italic">Practical
+                        Catechism</hi> (1st edn., <hi rend="italic">c.</hi> 1644), II.1, in the <hi
+                        rend="italic">Library of Anglo-Catholic Theology</hi> (1847), p. 83. Chief
+                    among these earlier works, in the order of their influences upon Wesley’s
+                    thought, were Bishop Offspring Blackall, ‘Eighty-Seven Practical Discourses Upon
+                    Our Saviour’s Sermon on the Mount’, <hi rend="italic">Works</hi>, I.1-561;
+                    II.609-939; <pb n="01:467"/>John Norris, <hi rend="italic">Practical
+                        Discourses</hi>; the American, James Blair, <hi rend="italic">Our Saviour’s
+                        Divine Sermon on the Mount in IV Volumes</hi> (1722; 2nd edn., 1740, with a
+                    preface by Daniel Waterland); John Cardinal Bona, <hi rend="italic">Guide to
+                        Eternity…</hi> (six editions in English between 1672 and 1712); and Henry
+                    Hammond, <hi rend="italic">op. cit.</hi> Echoes of all these are scattered along
+                    the way, together with lesser borrowings from Bengel, Poole, and Henry. This
+                    makes it all the more remarkable that Wesley came up with a model of his own,
+                    both inform and substance. This series thus reminds us, yet again, of Wesley’s
+                    ready appeal to tradition—even while he maintains his own originality and
+                    independence.</p>
+                <p>Benjamin Ingham records in his Journal that ‘during the voyage [to Georgia]
+                    Wesley went over our Saviour’s Sermon on the Mount’ with the ship’s company
+                    aboard the <hi rend="italic">Simmonds</hi>. There are also other records of his
+                    preaching, very early on, from one or another text in Matthew 5-7. For example,
+                    his second sermon was preached at Binsey (near Oxford), November 21, 1725, on
+                    Matt. 6:33. A first draft of the sermon which appears here as ‘Discourse VIII’
+                    seems to have been written out in 1736. Later, it was the example of the Sermon
+                    on the Mount that encouraged Wesley to break out of his High Church prejudices
+                    in Bristol, April 1, 1739: ‘In the evening (Mr. Whitefield being gone) I begun
+                    expounding our Lord’s Sermon on the Mount (one pretty remarkable precedent of
+                        <hi rend="italic">field preaching</hi>, though I suppose <hi rend="italic"
+                        >there were churches</hi> at that time also) to a little society which was
+                    accustomed to meet once or twice a week in Nicholas Street;’ cf. <hi
+                        rend="italic">Journal</hi> entries for this whole story of the unplanned
+                    outbreak of the Wesleyan Revival.</p>
+                <p>The records show that, between 1739 and 1746, Wesley preached more than one
+                    hundred sermons from separate texts in the Sermon on the Mount. There is,
+                    however, no recorded instance of his having treated that Sermon as a whole
+                    anywhere else. Evidently, he was prepared to allow this series, once published,
+                    to stand as his sufficient comment on the subject.</p>
+                <p>In his introduction to ‘Discourse X’, §§1-3, Wesley repeats his explanation (cf.
+                    ‘Discourse I’, Proem, §10) of how he had conceived the design of Matthew 5-7,
+                    according to its three unfolding themes: (1) ‘the sum of true religion’; (2)
+                    ‘rules touching that right intention which we are to preserve in all our outward
+                    actions’; and (3) ‘the main hindrances of this religion’. He then adds a
+                    clarifying summary: ‘In the fifth chapter [of St. Matthew] our great Teacher…has
+                    laid before us those <hi rend="italic">dispositions of the soul</hi> which
+                    constitute real Christianity…. In the sixth [chapter] he has shown how all our
+                        <hi rend="italic">actions</hi>…may be made holy, and good, and acceptable to
+                    God, by a pure and holy intention…. In <pb n="01:468"/>the former part of [ch.
+                    7] he points out the most common and fatal hindrances of this holiness; in the
+                    latter [part] he exhorts us, by various motives, to break through all [such
+                    hindrances] and secure that prize of our high calling [of God in Christ Jesus]’
+                    (cf. Phil. 3:14).</p>
+                <p>The thirteen discourses are divided almost equally over the three chapters of St.
+                    Matthew: five for chapter five, four each for six and seven. Of the first five,
+                    Discourse I is devoted to the first two Beatitudes; Discourse II to Beatitudes
+                    three through five (with a hymn to love based on 1 Cor. 13); Discourse III to
+                    the remainder of the Beatitudes; Discourse IV turns to Christianity as ‘a social
+                    religion’ in which inward holiness (our love of God) prompts outward holiness
+                    (love of neighbour); Discourse V is a balancing of law <hi rend="italic"
+                        >and</hi> gospel. Discourses VI-IX are based on chapter six: VI to the
+                    problems of purity and holiness of intention (to the ‘works of piety and of
+                    mercy’); VII to fasting; VIII to a denunciation of greed and surplus
+                    accumulation; IX to the mutually exclusive services of God and Mammon.
+                    Discourses X-XIII turn to various hindrances to holy living and to their
+                    avoidance: X to ‘judging’ (contrary to love), ‘intemperate zeal’, ‘neglect of
+                    prayer’, ‘neglect of charity’; XI to the noxious influences of ill-example and
+                    ill-advice with which the world deludes us; XII to false prophets and unedifying
+                    preachers (and yet also our duties to attend church nonetheless and to avail
+                    ourselves of all means of grace); XIII is an inevitable comment on the parable
+                    of the houses built on sand and rock. Discourse XII was also published
+                    separately in the same year that it appeared in <hi rend="italic">SOSO</hi>, III
+                    (1750), under the title, ‘A Caution Against False Prophets. A Sermon on Matt.
+                    vii. 15-20. Particularly recommended to the People Called Methodists’. This went
+                    through seven editions during Wesley’s lifetime. For a stemma delineating the
+                    publishing history of that sermon (‘collected’ and ‘separate’) and a list of
+                    variant readings, see Appendix, ‘Wesley’s Text’, Vol. IV, see also <hi
+                        rend="italic">Bibliog</hi>, Nos. 130 and 13o.i.</p>
+                <p>Obviously there is no interest, in any of these sermons, in critical textual
+                    problems or in the historical context. Everywhere it is assumed that in St.
+                    Matthew’s text we are dealing with divine <hi rend="italic">ipsissima
+                    verba</hi>—i.e., with a direct address from ὁ ὤν, ‘the self-existent, the
+                    Supreme, the God who is over all, blessed for ever’ (§9 below). The Sermon on
+                    the Mount, in Wesley’s view, is the only Gospel passage where Christ designed
+                    ‘to lay down at once the whole plan of his religion, to give us a full prospect
+                    of Christianity’. What matters most in our reading, therefore, is an awareness
+                    of Wesley’s sense of the wholeness of the message he is interpreting, of his
+                    conviction of the honest integration of an evangel profoundly ethical with an
+                    ethic that is also vividly <pb n="01:469"/>evangelical. Maybe more than anywhere
+                    else in <hi rend="italic">SOSO</hi> this particular bloc displays Wesley’s
+                    distinctive concern for integration and balance—between the faith that justifies
+                    and the faith that works by love.</p>
+            </introduction>
+            <pb n="01:650"/>
+            <head>Upon our Lord’s Sermon on the Mount,<lb/>Discourse the Tenth</head>
+            <epigraph>
+                <p>Matthew 7:1-12</p>
+                <p>
+                    <hi rend="italic">Judge not, that ye be not judged.</hi>
+                </p>
+                <p>
+                    <hi rend="italic">For with what judgment ye judge, ye shall be judged; and with
+                        what measure ye mete, it shall be measured to you again.</hi>
+                </p>
+                <p>
+                    <hi rend="italic">And why beholdest thou the mote that is in thy brother’s eye,
+                        but considerest not the beam that is in thine own eye?</hi>
+                </p>
+                <p>
+                    <hi rend="italic">Or how wilt thou say to thy brother, Let me pull out the mote
+                        out of thine eye; and, behold, a beam is in thine own eye?</hi>
+                </p>
+                <p>
+                    <hi rend="italic">Thou hypocrite, first cast out the beam out of thine own eye;
+                        and then thou shalt see clearly to cast out the mote out of thy brother’s
+                        eye.</hi>
+                </p>
+                <p>
+                    <hi rend="italic">Give not that which is holy unto dogs, neither cast your
+                        pearls before swine; lest they trample them under their feet, and turn again
+                        and rend you.</hi>
+                </p>
+                <p>
+                    <hi rend="italic">Ask, and it shall be given you; seek, and ye shall find;
+                        knock, and it shall be opened unto you.</hi>
+                </p>
+                <p>
+                    <hi rend="italic">For everyone that asketh, receiveth; and he that seeketh,
+                        findeth; and to him that knocketh, it shall be opened.</hi>
+                </p>
+                <p>
+                    <hi rend="italic">Or what man is there of you, who, if his son ask bread, will
+                        give him a stone? Or if he ask a fish, will give him a serpent?</hi>
+                </p>
+                <p>
+                    <hi rend="italic">If ye, then, being evil, know how to give good gifts unto your
+                        children, how much more shall your Father which is in heaven give good
+                        things to them that ask him!</hi>
+                </p>
+                <p>
+                    <hi rend="italic">Therefore all things whatsoever ye would that men should do to
+                        you, do ye even so to them; for this is the law and the prophets.</hi>
+                </p>
+            </epigraph>
+            <p n="1">1. Our blessed Lord, having now finished his main design, having, first,
+                delivered the sum of true religion, carefully guarded against those glosses of men
+                whereby they would make the Word of God of none effect; and having, next, laid down
+                rules touching that right intention which we are to preserve in all our outward
+                actions, now proceeds to point out the main hindrances of this religion, and
+                concludes all with a suitable application.</p>
+            <p n="2"><pb n="01:651"/>2. In the fifth chapter our great Teacher has fully described
+                inward religion in its various branches. He has there laid before us those
+                dispositions of soul which constitute real Christianity; the tempers contained in
+                that holiness ‘without which no man shall see the Lord’;<note place="foot"
+                    xml:id="ftn1" n="1"><p rend="footnote text">Heb. 12:14.</p></note> the
+                affections which, when flowing from their proper fountain, from a living faith in
+                God through Christ Jesus, are intrinsically and essentially good, and acceptable to
+                God. In the sixth he has shown how all our actions likewise, even those that are
+                indifferent in their own nature, may be made holy, and good, and acceptable to God,
+                by a pure and holy intention.<note place="foot" xml:id="ftn2" n="2"><p
+                        rend="footnote text">Cf. No. 26, ‘Sermon on the Mount, VI’, §1 and n., for
+                        other comments on holy living understood as purity of intention.</p></note>
+                Whatever is done without this he declares is of no value with God; whereas whatever
+                outward works are thus consecrated to God are in his sight of great price.</p>
+            <p n="3">3. In the former part of this chapter he points out the most common and most
+                fatal hindrances of this holiness. In the latter he exhorts us by various motives to
+                break through all and secure that prize of our high calling.<note place="foot"
+                    xml:id="ftn3" n="3"><p rend="footnote text">See Phil. 3:14.</p></note></p>
+            <p n="4">4. The first hindrance he cautions us against is judging: ‘Judge not, that ye
+                be not judged.’ Judge not others, that ye be not judged of the Lord, that ye bring
+                not vengeance on your own heads. ‘For with what judgment ye judge, ye shall be
+                judged; and with what measure ye mete, it shall be measured to you again’—a plain
+                and equitable rule, whereby God permits you to determine for yourselves in what
+                manner he shall deal with you in the judgment of the great day.</p>
+            <p n="5">5. There is no station of life, nor any period of time, from the hour of our
+                first repenting and believing the gospel till we are made perfect in love, wherein
+                this caution is not needful for every child of God. For occasions of judging can
+                never be wanting. And the temptations to it are innumerable; many whereof are so
+                artfully disguised that we fall into the sin before we suspect any danger. And
+                unspeakable are the mischiefs produced hereby: always to him that judges another,
+                thus wounding his own soul, and exposing himself to the righteous judgment of God;
+                and frequently to those who are judged, whose hands hang down, who are weakened and
+                hindered in their course, if not wholly turned out of the way,<note place="foot"
+                    xml:id="ftn4" n="4"><p rend="footnote text">See Heb. 12:13.</p></note> and
+                caused to draw back even to perdition. Yea, <pb n="01:652"/>how often when this
+                ‘root of bitterness springs up’, are ‘many defiled thereby’;<note place="foot"
+                    xml:id="ftn5" n="5"><p rend="footnote text">Cf. Heb. 12:15.</p></note> by reason
+                whereof the way of truth itself is evil spoken of,<note place="foot" xml:id="ftn6"
+                    n="6"><p rend="footnote text">See 2 Pet. 2:2.</p></note> and that worthy name
+                blasphemed whereby we are called.</p>
+            <p n="6">6. Yet it does not appear that our Lord designed this caution only or chiefly
+                for the children of God; but rather for the children of the world, for the men who
+                know not God. These cannot but hear of those who are not of the world; who follow
+                after the religion above described; who endeavour to be humble, serious, gentle,
+                merciful, and pure in heart; who earnestly desire such measures of these holy
+                tempers as they have not yet attained, and wait for them in doing all good to all
+                men, and patiently suffering evil. Whoever go but thus far cannot be hid, no more
+                than ‘a city set upon a hill’.<note place="foot" xml:id="ftn7" n="7"><p
+                        rend="footnote text">Cf. Matt. 5:14.</p></note> And why do not those who
+                ‘see’ their ‘good works glorify their Father which is in heaven’?<note place="foot"
+                    xml:id="ftn8" n="8"><p rend="footnote text">Cf. Matt. 5:16.</p></note> What
+                excuse have they for not treading in their steps? For not imitating their example,
+                and being followers of them, as they are also of Christ?<note place="foot"
+                    xml:id="ftn9" n="9"><p rend="footnote text">See 1 Cor. 11:1.</p></note> Why, in
+                order to provide an excuse for themselves, they condemn those whom they ought to
+                imitate. They spend their time in finding out their neighbour’s faults,<note
+                    place="foot" xml:id="ftn10" n="10"><p rend="footnote text">Cf. this condemnation
+                        of fault-finding with No. 65, ‘The Duty of Reproving our
+                    Neighbour’.</p></note> instead of amending their own. They are so busied about
+                others going out of the way, that themselves never come into it at all; at least,
+                never get forward, never go beyond a poor dead form of godliness without the
+                    power.<note place="foot" xml:id="ftn11" n="11"><p rend="footnote text">See 2
+                        Tim. 3:5.</p></note></p>
+            <p n="7">7. It is to these more especially that our Lord says, ‘Why beholdest thou the
+                mote that is in thy brother’s eye’, the infirmities, the mistakes, the imprudence,
+                the weakness of the children of God, ‘but considerest not the beam that is in thine
+                own eye?’ Thou considerest not the damnable impenitence, the satanic pride, the
+                accursed self-will, the idolatrous love of the world, which are in thyself, and
+                which make thy whole life an abomination to the Lord. Above all, with what supine
+                carelessness and indifference art thou dancing over the mouth of hell! And ‘how’,
+                then, with what grace, with what decency or <pb n="01:653"/>modesty, ‘wilt thou say
+                to thy brother, Let me pull out the mote out of thine eye’—the excess of zeal for
+                God, the extreme of self-denial, the too great disengagement from worldly cares and
+                employments, the desire to be day and night in prayer, or hearing the words of
+                eternal life—‘And behold a beam is in thine own eye!’ Not a mote, like one of these.
+                ‘Thou hypocrite!’ who pretendest to care for others, and hast no care for thy own
+                soul; who makest a show of zeal for the cause of God, when in truth thou neither
+                lovest nor fearest him! ‘First cast out the beam out of thine own eye.’ Cast out the
+                beam of impenitence. Know thyself.<note place="foot" xml:id="ftn12" n="12"><p
+                        rend="footnote text">Cf. No. 7, ‘The Way to the Kingdom’, II.1 and
+                    n.</p></note> See and feel thyself a sinner. Feel that thy inward parts are very
+                    wickedness,<note place="foot" xml:id="ftn13" n="13"><p rend="footnote text">Ps.
+                        5:9 (BCP).</p></note> that thou are altogether corrupt and abominable,<note
+                    place="foot" xml:id="ftn14" n="14"><p rend="footnote text">See Ps. 53:4
+                        (BCP).</p></note> and that the wrath of God abideth on thee.<note
+                    place="foot" xml:id="ftn15" n="15"><p rend="footnote text">See John
+                    3:36.</p></note> Cast out the beam of pride. Abhor thyself. Sink down as in dust
+                and ashes. Be more and more little, and mean, and base, and vile in thine own eyes.
+                Cast out the beam of self-will. Learn what that meaneth, ‘If any man will come after
+                me, let him renounce himself.’ Deny thyself and take up thy cross daily.<note
+                    place="foot" xml:id="ftn16" n="16"><p rend="footnote text">See Luke
+                    9:23.</p></note> Let thy whole soul cry out, ‘I came down from heaven’ (for so
+                thou didst, thou never-dying spirit, whether thou knowest it or no) ‘not to do my
+                own will, but the will of him that sent me.’<note place="foot" xml:id="ftn17" n="17"
+                        ><p rend="footnote text">John 6:38. Note this identification of the
+                        Christian with Christ; still another accent on ‘participation’.</p></note>
+                Cast out the beam of love of the world. Love not the world, neither the things of
+                the world.<note place="foot" xml:id="ftn18" n="18"><p rend="footnote text">See 1
+                        John 2:15.</p></note> Be thou crucified unto the world, and the world
+                crucified unto thee.<note place="foot" xml:id="ftn19" n="19"><p rend="footnote text"
+                        >See Gal. 6:14.</p></note> Only <hi rend="italic">use</hi> the world, but
+                    <hi rend="italic">enjoy</hi> God.<note place="foot" xml:id="ftn20" n="20"><p
+                        rend="footnote text">Cf. Pascal, <hi rend="italic">Pensées</hi>, ed. H. F.
+                        Stewart (London, Routledge and Kegan Paul, 1950), pp. 304-5 (French text
+                        with Eng. tr.). In the Modern Library and Everyman’s Library edits., cf.
+                        Pensée 570. The translation Wesley knew, of course, was that of Basil
+                        Kennet, <hi rend="italic">Thoughts on Religion</hi>; cf. 2nd edn., 1727, p.
+                        79: ‘For there are two principles which divide the wills of men,
+                        covetousness and charity. It is not indeed impossible that covetousness
+                        should subsist with faith, or charity with temporal possession. But here’s
+                        the difference: the former imploys itself in using God and enjoying the
+                        world; the latter in using the world and enjoying God’. Cf. also, St.
+                        Augustine, <hi rend="italic">De doctrina Christiana</hi>, I.3.3-35. 39; <hi
+                            rend="italic">De diversis quaestionibus</hi>, LXXXIII.30; <hi
+                            rend="italic">De civ. Dei</hi>, 15:7; and <hi rend="italic">De
+                            Octoginta-tribus Quaestionibus</hi>, XXX. See also St. Francis de Sales,
+                            <hi rend="italic">Devout Life</hi>, III. xxxix. See also Nos. 108, ‘On
+                        Riches’, II.12; and 142, ‘The Wisdom of Winning Souls’, II.7, and Wesley’s
+                        letter to Mrs. Pendarves, Feb. 11, 1731, where he attributes the aphorism to
+                        Pascal.</p></note> Seek all thy happiness in him. <pb n="01:654"/>Above all
+                cast out the grand beam, that supine carelessness and indifference. Deeply consider
+                that ‘one thing is needful’,<note place="foot" xml:id="ftn21" n="21"><p
+                        rend="footnote text">Luke 10:42.</p></note> the one thing which thou hast
+                scarce ever thought of. Know and feel that thou art a poor, vile, guilty worm,
+                quivering over the great gulf! What art thou? A sinner born to die; a leaf driven
+                before the wind; a vapour ready to vanish away, just appearing, and then scattered
+                into air, to be no more seen!<note place="foot" xml:id="ftn22" n="22"><p
+                        rend="footnote text">See Luke 16:26, and Wesley’s Pref., §5: ‘I am a spirit
+                        come from God and returning to God; just hovering over the great gulf, till
+                        a few moments hence, I am no more seen.’ See also Wisd. 5:9-14.</p></note>
+                See this. ‘And then shalt thou see clearly to cast out the mote out of thy brother’s
+                eye.’ Then, if thou hast leisure from the concerns of thy own soul, thou shalt know
+                how to correct thy brother also.</p>
+            <p n="8">8. But what is properly the meaning of this word, ‘judge not’? What is the <hi
+                    rend="italic">judging</hi> which is here forbidden? It is not the same as
+                evil-speaking, although it is frequently joined therewith. Evil-speaking is the
+                relating anything that is evil concerning an absent person; whereas judging may
+                indifferently refer either to the absent or the present. Neither does it necessarily
+                imply the speaking at all, but only the <hi rend="italic">thinking evil</hi> of
+                another. Not that all kind of thinking evil of others is that judging which our Lord
+                condemns. If I see one commit robbery or murder, or hear him blaspheme the name of
+                God, I cannot refrain from thinking ill of the robber or murderer. Yet this is not
+                evil judging: there is no sin in this, nor anything contrary to tender
+                affection.</p>
+            <p n="9">9. The thinking of another in a manner that is contrary to love is that judging
+                which is here condemned; and this may be of various kinds. For, first, we may think
+                another to blame when he is not. We may lay to his charge (at least in our own mind)
+                the things of which he is not guilty—the words which he has never spoke, or the
+                actions which he has never done. Or we may think his <hi rend="italic">manner</hi>
+                of acting was wrong, although in reality it was not. And even where nothing can
+                justly be blamed, either in the thing itself or in the manner of doing it, we may
+                suppose his <hi rend="italic">intention</hi> was not good, and so condemn him on
+                that ground, at the same time that he who searches the heart sees his simplicity and
+                godly sincerity.<note place="foot" xml:id="ftn23" n="23"><p rend="footnote text">2
+                        Cor. 1:12. Cf. Nos. 2, <hi rend="italic">The Almost Christian</hi>, I.9 and
+                        n.; and 12, ‘The Witness of Our Own Spirit’, §11 and n.</p></note></p>
+            <p n="10">10. But we may not only fall into the sin of judging by condemning the
+                innocent, but also, secondly, by condemning the guilty in a higher degree than he
+                deserves. This species of judging <pb n="01:655"/>is likewise an offence against
+                justice as well as mercy; and yet such an offence as nothing can secure us from but
+                the strongest and tenderest affection. Without this we readily suppose one who is
+                acknowledged to be in fault to be more in fault than he really is. We undervalue
+                whatever good is found in him. Nay, we are not easily induced to believe that
+                anything good can remain in him in whom we have found anything that is evil.</p>
+            <p n="11">11. All this shows a manifest want of that love which οὐ λογίζεται κακόν,
+                ‘thinketh no evil’;<note place="foot" xml:id="ftn24" n="24"><p rend="footnote text"
+                        >1 Cor. 13:5; see above, No. 22, ‘Sermon on the Mount, II’, III.11 and
+                        n.</p></note> which never draws an unjust or unkind conclusion from any
+                premises whatsoever. Love will not infer from a person’s falling once into an act of
+                open sin that he is accustomed so to do, that he is habitually guilty of it. And if
+                he was habitually guilty once, love does not conclude he is so still; much less that
+                if he is now guilty of this, therefore he is guilty of other sins also. These evil
+                reasonings all pertain to that sinful judging which our Lord here guards us against;
+                and which we are in the highest degree concerned to avoid if we love either God or
+                our own souls.<note place="foot" xml:id="ftn25" n="25"><p rend="footnote text">Cf.
+                        this generous spirit of reserved judgment with Wesley’s harsh judgments
+                        heaped upon Oxford in Nos. 2, <hi rend="italic">The Almost Christian</hi>,
+                        and 150, ‘Hypocrisy in Oxford’; see also Charles Wesley’s critique of Oxford
+                        in No. 3, ‘<hi rend="italic">Awake, Thou That Steepest</hi>.’</p></note></p>
+            <p n="12">12. But supposing we do not condemn the innocent, neither the guilty any
+                farther than they deserve; still we may not be altogether clear of the snare; for
+                there is a third sort of sinful judging, which is the condemning any person at all
+                where there is not sufficient evidence. And be the facts we suppose ever so true;
+                yet that does not acquit us. For they ought not to have been supposed, but proved;
+                and till they were we ought to have formed no judgment. I say, till they were; for
+                neither are we excused; although the facts admit of ever so strong proof, unless
+                that proof be produced before we pass sentence, and compared with the evidence on
+                the other side. Nor can we be excused if ever we pass a full sentence before the
+                accused has spoken for himself. Even a Jew might teach us this, as a mere lesson of
+                justice abstracted from mercy and brotherly love. ‘Doth our law’, says Nicodemus,
+                ‘judge any man before it hear him, and know what he doth?’<hi
+                    rend="endnote_reference"><note place="end"><p rend="endnote text">John
+                        7:51.</p></note></hi> Yea, a heathen could reply, when the chief of the
+                Jewish nation desired to have judgment against his prisoner, ‘It is not the manner
+                of the <pb n="01:656"/>Romans’ to judge ‘any man before he that is accused have the
+                accusers face to face, and have licence to answer for himself concerning the crime
+                laid against him.’<note place="foot" xml:id="ftn26" n="26"><p rend="footnote text"
+                        >Acts 25:16. Cf. Wesley’s <hi rend="italic">Notes</hi>: ‘How excellent a
+                        rule, to condemn no one unheard! A rule which, as it is common to all
+                        nations (courts of inquisition only excepted), so it ought to direct our
+                        proceedings in all affairs, not only in public but private
+                life.’</p></note></p>
+            <p n="13">13. Indeed we could not easily fall into sinful judging were we only to
+                observe that rule which another of those heathen Romans affirms to have been the
+                measure of his own practice. ‘I am so far’, says he, ‘from lightly believing every
+                man’s or any man’s evidence against another, that I do not easily or immediately
+                believe a man’s evidence against himself. I always allow him second thoughts, and
+                many times counsel too.’<hi rend="endnote_reference"><note place="end"><p
+                            rend="endnote text">Seneca [so identified by Wesley in <hi rend="italic"
+                                >Works</hi>, II.344; cf. No. 22, ‘Sermon on the Mount, II’, III.6
+                            and n.].</p></note></hi> Go, thou who art called a Christian, and do
+                likewise, lest the heathen rise and condemn thee in that day.<note place="foot"
+                    xml:id="ftn27" n="27"><p rend="footnote text">See Matt. 12:41-42.</p></note></p>
+            <p n="14">14. But how rarely should we condemn or judge one another, at least how soon
+                would that evil be remedied, were we to walk by that clear and express rule which
+                our Lord himself has taught us! ‘If thy brother shall trespass against thee’ (or if
+                thou hear, or believe that he hath) ‘go and tell him of his fault, between him and
+                thee alone.’ This is the first step thou art to take. ‘But if he will not hear, take
+                with thee one or two more, that in the mouth of two or three witnesses every word
+                may be established.’ This is the second step. ‘If he neglect to hear them, tell it
+                unto the church;’<note place="foot" xml:id="ftn28" n="28"><p rend="footnote text"
+                        >Matt. 18:15-17.</p></note> either to the overseers thereof, or to the whole
+                congregation. Thou hast then done thy part. Then think of it no more, but commend
+                the whole to God.</p>
+            <p n="15">15. But supposing thou hast, by the grace of God, ‘cast the beam out of thine
+                own eye’, and dost now ‘clearly see the mote or the beam which is in thy brother’s
+                eye’; yet beware thou dost not receive hurt thyself by endeavouring to help him.
+                Still ‘give not that which is holy unto dogs.’ Do not lightly account any to be of
+                this number. But if it evidently appear that they deserve the title, then cast ye
+                not ‘your pearls before swine’. Beware of that zeal which is not according to
+                    knowledge;<note place="foot" xml:id="ftn29" n="29"><p rend="footnote text">See
+                        Rom. 10:2.</p></note> for this is another great hindrance in their way who
+                would be ‘perfect as their heavenly Father is perfect’.<note place="foot"
+                    xml:id="ftn30" n="30"><p rend="footnote text">Cf. Matt. 5:48.</p></note> They
+                who desire this cannot but desire that all <pb n="01:657"/>mankind should partake of
+                the common blessing. And when we ourselves first partake of the heavenly gift, the
+                divine ‘evidence of things not seen’,<note place="foot" xml:id="ftn31" n="31"><p
+                        rend="footnote text">Heb. 11:1.</p></note> we wonder that all mankind do not
+                see the things which we see so plainly; and make no doubt at all but we shall open
+                the eyes of all we have any intercourse with. Hence we are for attacking all we meet
+                without delay, and constraining them to see, whether they will or no. And by the ill
+                success of this intemperate zeal, we often suffer in our own souls. To prevent this
+                spending our strength in vain our Lord adds this needful caution (needful to all,
+                but more especially to those who are now warm in their first love), ‘Give not that
+                which is holy unto the dogs, neither cast ye your pearls before swine; lest they
+                trample them under foot, and turn again and rend you.’</p>
+            <p n="16">16. ‘Give not that which is holy unto the dogs.’ Beware of thinking that any
+                deserve this appellation till there is full and incontestable proof, such as you can
+                no longer resist. But when it is clearly and indisputably proved that they are
+                unholy and wicked men, not only strangers to, but enemies to God, to all
+                righteousness and true holiness;<note place="foot" xml:id="ftn32" n="32"><p
+                        rend="footnote text">Eph. 4:24.</p></note> ‘give not that which is holy’, τὸ
+                ἅγιον, the holy thing, emphatically so called, unto these. The holy, the peculiar
+                doctrines of the gospel, such as were ‘hid from the ages and generations’<note
+                    place="foot" xml:id="ftn33" n="33"><p rend="footnote text">Cf. Col.
+                    1:26.</p></note> of old, and are now made known to us only by the revelation of
+                Jesus Christ and the inspiration of his Holy Spirit, are not to be prostituted unto
+                these men who know not if there be any Holy Ghost.<note place="foot" xml:id="ftn34"
+                    n="34"><p rend="footnote text">Acts 19:2.</p></note> Not indeed that the
+                ambassadors of Christ can refrain from declaring them in the great congregation,
+                wherein some of these may probably be. We must speak, whether men will hear or
+                whether they will forbear.<note place="foot" xml:id="ftn35" n="35"><p
+                        rend="footnote text">Ezek. 2:5,7; 3:11. Note the distinction here between
+                        doctrinal preaching to large and mixed audiences and doctrinal teaching for
+                        individuals and small groups.</p></note> But this is not the case with
+                private Christians. They do not bear that awful character; nor are they under any
+                manner of obligation to force these great and glorious truths on them who contradict
+                and blaspheme, who have a rooted enmity against them. Nay, they ought not so to do,
+                but rather to lead them as they are able to bear. Do not begin a discourse with
+                these upon remission of sins and the gift of the Holy Ghost; but talk with them in
+                their own manner, and upon their own principles. With the rational, honourable,
+                unjust Epicure, ‘reason of righteousness, temperance, <pb n="01:658"/>and judgment
+                to come’.<note place="foot" xml:id="ftn36" n="36"><p rend="footnote text">Cf. Acts
+                        24:25. Cf. Wesley’s own attempt at a similar sardonic discourse in <hi
+                            rend="italic">An Earnest Appeal</hi>, 11:45-94, of this edn.</p></note>
+                This is the most probable way to make ‘Felix tremble’.<note place="foot"
+                    xml:id="ftn37" n="37"><p rend="footnote text">Cf. Acts 24:25.</p></note> Reserve
+                higher subjects for men of higher attainments.</p>
+            <p n="17">17. ‘Neither cast ye your pearls before swine.’ Be very unwilling to pass this
+                judgment on any man. But if the fact be plain and undeniable, if it is clear beyond
+                all dispute, if the swine do not endeavour to disguise themselves, but rather glory
+                in their shame, making no pretence to purity either of heart or life, but working
+                all uncleanness with greediness;<note place="foot" xml:id="ftn38" n="38"><p
+                        rend="footnote text">See Eph. 4:19.</p></note> then ‘cast’ not ‘ye your
+                pearls before’ them. Talk not to them of the mysteries of the kingdom; of the things
+                which ‘eye hath not seen, nor ear heard’;<note place="foot" xml:id="ftn39" n="39"><p
+                        rend="footnote text">1 Cor. 2:9.</p></note> which of consequence, as they
+                have no other inlets of knowledge, no spiritual senses, it cannot enter into their
+                hearts to conceive. Tell not them of the ‘exceeding great and precious
+                    promises’<note place="foot" xml:id="ftn40" n="40"><p rend="footnote text">2 Pet.
+                        1:4.</p></note> which God hath given us in the Son of his love. What
+                conception can they have of being made ‘partakers of the divine nature’ who do not
+                even desire to ‘escape the corruption that is in the world through lust’?<note
+                    place="foot" xml:id="ftn41" n="41"><p rend="footnote text"><hi rend="italic"
+                            >Ibid.</hi></p></note> Just as much knowledge as swine have of pearls,
+                and as much relish as they have for them, so much relish have they for the deep
+                things of God,<note place="foot" xml:id="ftn42" n="42"><p rend="footnote text">1
+                        Cor. 2:10.</p></note> so much knowledge of the mysteries of the gospel, who
+                are immersed in the mire of this world, in worldly pleasures, desires, and cares. ‘O
+                cast not’ those ‘pearls before’ these, ‘lest they trample them under their feet’,
+                lest they utterly despise what they cannot understand, and speak evil of the things
+                which they know not. Nay, ’tis probable this would not be the only
+                    inconvenience<note place="foot" xml:id="ftn43" n="43"><p rend="footnote text"
+                        >For ‘inconvenience’ as <hi rend="italic">serious</hi> trouble, cf. <hi
+                            rend="italic">OED</hi>, 3<hi rend="italic">b</hi>. In Johnson’s <hi
+                            rend="italic">Dictionary</hi> it had come to be a synonym for
+                        ‘disadvantageous’. Note Wesley’s usage here in the older
+                    tradition.</p></note> which would follow. It would not be strange if they were,
+                according to their nature, to ‘turn again, and rend you’; if they were to return you
+                evil for good, cursing for blessing, and hatred for your goodwill. Such is the
+                enmity of the carnal mind against God<note place="foot" xml:id="ftn44" n="44"><p
+                        rend="footnote text">See Rom. 8:7.</p></note> and all the things of God.
+                Such the treatment you are to expect from these, if you offer them the unpardonable
+                affront of endeavouring to save their souls from death,<note place="foot"
+                    xml:id="ftn45" n="45"><p rend="footnote text">See Jas. 5:20.</p></note> to pluck
+                them as brands out of the burning!<note place="foot" xml:id="ftn46" n="46"><p
+                        rend="footnote text">See Amos 4:11; Zech. 3:2. Cf. No. 4, <hi rend="italic"
+                            >Scriptural Christianity</hi>, II.2 and n.</p></note></p>
+            <p n="18"><pb n="01:659"/>18. And yet you need not utterly despair even of these, who
+                for the present ‘turn again and rend you’. For if all your arguments and persuasives
+                fail, there is yet another remedy left; and one that is frequently found effectual
+                when no other method avails. This is prayer. Therefore whatever you desire or want,
+                either for others or for your own soul, ‘Ask, and it shall be given you; seek, and
+                ye shall find; knock, and it shall be opened unto you.’<note place="foot"
+                    xml:id="ftn47" n="47"><p rend="footnote text">Matt. 7:7.</p></note> The neglect
+                of this is a third grand hindrance of holiness. Still we ‘have not, because we ask
+                    not’.<note place="foot" xml:id="ftn48" n="48"><p rend="footnote text">Cf. Jas.
+                        4:2.</p></note> O how meek and gentle, how lowly in heart, how full of love
+                both to God and man, might ye have been at this day, if you had only asked! If you
+                had ‘continued instant in prayer’!<note place="foot" xml:id="ftn49" n="49"><p
+                        rend="footnote text">Cf. Rom. 12:12.</p></note> Therefore now, at least,
+                ‘Ask, and it shall be given unto you.’ ‘Ask’, that ye may throughly experience and
+                perfectly practise the whole of that religion which our Lord has here so beautifully
+                described. ‘It shall’ then ‘be given you’ to be holy as he is holy, both in heart
+                and in all manner of conversation.<note place="foot" xml:id="ftn50" n="50"><p
+                        rend="footnote text">See 1 Pet. 1:15.</p></note> ‘Seek’, in the way he hath
+                ordained, in searching the Scriptures, in hearing his Word, in meditating thereon,
+                in fasting, in partaking of the Supper of the Lord, and surely ‘ye shall find.’ Ye
+                shall find that pearl of great price,<note place="foot" xml:id="ftn51" n="51"><p
+                        rend="footnote text">Matt. 13:46.</p></note> that faith which overcometh the
+                    world,<note place="foot" xml:id="ftn52" n="52"><p rend="footnote text">See 1
+                        John 5:4.</p></note> that peace which the world cannot give,<note
+                    place="foot" xml:id="ftn53" n="53"><p rend="footnote text">See John
+                    14:27.</p></note> that love which is the earnest of your inheritance.<note
+                    place="foot" xml:id="ftn54" n="54"><p rend="footnote text">Eph. 1:14.</p></note>
+                ‘Knock’: continue in prayer, and in every other way of the Lord. Be not weary or
+                faint in your mind. Press on to the mark.<note place="foot" xml:id="ftn55" n="55"><p
+                        rend="footnote text">Phil. 3:14.</p></note> Take no denial. Let him not go
+                until he bless you.<note place="foot" xml:id="ftn56" n="56"><p rend="footnote text"
+                        >See Gen. 32:26.</p></note> And the door of mercy, of holiness, of heaven
+                ‘shall be opened unto you’.</p>
+            <p n="19">19. It is in compassion to the hardness of our hearts, so unready to believe
+                the goodness of God, that our Lord is pleased to enlarge upon this head, and to
+                repeat and confirm what he hath spoken. ‘For everyone’, saith he, ‘that asketh,
+                receiveth;’ so that none need come short of the blessing; ‘and he that seeketh’,
+                even everyone that seeketh, ‘findeth’ the love and the image of God; ‘and to him
+                that knocketh’, to everyone that knocketh, the gate of righteousness shall be
+                    opened.<note place="foot" xml:id="ftn57" n="57"><p rend="footnote text">See Ps.
+                        118:19.</p></note> So that here is no room for any to be discouraged, as
+                though they might ask or seek or knock in vain. Only remember ‘always to pray’, to
+                seek, to knock, ‘and not to <pb n="01:660"/>faint’.<note place="foot" xml:id="ftn58"
+                    n="58"><p rend="footnote text">Cf. Luke 18:1. Orig., ‘and not to be faint’,
+                        altered only by Wesley in his personal copy of the <hi rend="italic"
+                            >Works</hi>, II.350.</p></note> And then the promise standeth sure. It
+                is firm as the pillars of heaven. Yea, more firm; for heaven and earth shall pass
+                away; but his word shall not pass away.<note place="foot" xml:id="ftn59" n="59"><p
+                        rend="footnote text">See Matt. 24:35.</p></note></p>
+            <p n="20">20. To cut off every pretence for unbelief, our blessed Lord in the following
+                verses illustrates yet farther what he had said, by an appeal to what passes in our
+                own breasts. ‘What man’, saith he, ‘is there of you, who, if his son ask bread, will
+                give him a stone?’ Will even natural affection permit you to refuse the reasonable
+                request of one you love? Or if he ask a fish, will he give him a serpent?’<note
+                    place="foot" xml:id="ftn60" n="60"><p rend="footnote text">Matt.
+                    7:10.</p></note> Will he give him hurtful instead of profitable things? So that
+                even from what you feel and do yourselves you may receive the fullest assurance, as
+                on the one hand that no ill effect can possibly attend your asking, so on the other
+                that it will be attended with that good effect, a full supply of all your wants. For
+                ‘if ye, being evil, know how to give good gifts unto your children, how much more
+                shall your Father which is in heaven’, who is pure, unmixed, essential goodness,
+                ‘give good things to them that ask him!’ Or (as he expresses it on another occasion)
+                ‘give the Holy Ghost to them that ask him!’<note place="foot" xml:id="ftn61" n="61"
+                        ><p rend="footnote text">Luke 11:13.</p></note> In him are included all good
+                things; all wisdom, peace, joy, love; the whole treasures of holiness and happiness;
+                all that God hath prepared for them that love him.<note place="foot" xml:id="ftn62"
+                    n="62"><p rend="footnote text">1 Cor. 2:9.</p></note></p>
+            <p n="21">21. But that your prayer may have its full weight with God, see that ye be in
+                charity with all men; for otherwise it is more likely to bring a curse than a
+                blessing on your own head; nor can you expect to receive any blessing from God while
+                you have not charity towards your neighbour. Therefore let this hindrance be removed
+                without delay. Confirm your love towards one another and towards all men. And love
+                them, not in word only, but in deed and in truth.<note place="foot" xml:id="ftn63"
+                    n="63"><p rend="footnote text">1 John 3:18.</p></note> ‘Therefore all things
+                whatsoever ye would that men should do to you, do ye even so unto them; for this is
+                the law and the prophets.’<note place="foot" xml:id="ftn64" n="64"><p
+                        rend="footnote text">Matt. 7:12.</p></note></p>
+            <p n="22">22. This is that royal law, that golden rule of mercy as well as justice,
+                which even the heathen emperor<note place="foot" xml:id="ftn65" n="65"><p
+                        rend="footnote text">Cf. Echard, <hi rend="italic">Eccles. Hist.</hi>,
+                        III.iv. (‘222 A.D.’), p. 389: ‘Though Alexander [Severus—222-35] did not
+                        believe in Jesus Christ as a Saviour, yet he reverenced him as a Law-giver,
+                        whose institutions excelled all those of the Gentile Philosophers. That
+                        command, on which all the Law and the Prophets depend, do not that to
+                        another, which you would not have another do to you, he was so fond of, that
+                        when he punished any man for acts of injustice, the Crier was commanded
+                        publicly to announce it in the Court; and that it might be more regarded, he
+                        ordered it to be inscribed upon his palace, his courts of judicature, and
+                        his public works and buildings.’ See also, below, §24; and Nos. 2, <hi
+                            rend="italic">The Almost Christian</hi>, I.5 and n.; and 150, ‘Hypocrisy
+                        in Oxford’, I.10.</p></note> caused to be written <pb n="01:661"/>over the
+                gate of his palace: a rule which many believe to be naturally engraved on the mind
+                of everyone that comes into the world.<note place="foot" xml:id="ftn66" n="66"><p
+                        rend="footnote text">Cf. John 1:9.</p></note> And thus much is certain, that
+                it commends itself, as soon as heard, to every man’s conscience and understanding;
+                insomuch that no man can knowingly offend against it without carrying his
+                condemnation in his own breast.</p>
+            <p n="23">23. ‘This is the law and the prophets.’ Whatsoever is written in that law
+                which God of old revealed to mankind, and whatsoever precepts God has given by ‘his
+                holy prophets which have been since the world began’,<note place="foot"
+                    xml:id="ftn67" n="67"><p rend="footnote text">Luke 1:70.</p></note> they are all
+                summed up in these few words, they are all contained in this short direction. And
+                this, rightly understood, comprises the whole of that religion which our Lord came
+                to establish upon earth.</p>
+            <p n="24">24. It may be understood either in a positive or negative sense. If understood
+                in a negative sense the meaning is, ‘Whatever ye would not that men should do to
+                you, do not ye unto them.’ Here is a plain rule, always ready at hand, always easy
+                to be applied. In all cases relating to your neighbour, make his case your own.
+                Suppose the circumstances to be changed, and yourself to be just as he is now. And
+                then beware that you indulge no temper or thought, that no word pass out of your
+                lips, that you take no step which you should have condemned in him, upon such a
+                change of circumstances. If understood in a direct and positive sense, the plain
+                meaning of it is, ‘Whatsoever you could reasonably desire of him, supposing yourself
+                to be in his circumstance, that do, to the uttermost of your power, to every child
+                of man.’</p>
+            <p n="25">25. To apply this in one or two obvious instances. It is clear to every man’s
+                own conscience, we would not that others should <hi rend="italic">judge</hi> us,
+                should causelessly or lightly think evil of us; much less would we that any should
+                speak evil of us, should publish our real faults or infirmities. Apply this to
+                yourself. Do not unto another what you would not he should do unto you; and you will
+                never more judge your neighbour, never causelessly or lightly think evil of anyone;
+                much less will you speak evil. You will never mention even the real fault of an
+                absent person, unless so far as you are convinced it is absolutely needful for the
+                good of other souls.</p>
+            <p n="26"><pb n="01:662"/>26. Again: we would that all men should love and esteem us,
+                and behave towards us according to justice, mercy, and truth. And we may reasonably
+                desire that they should do us all the good they can do without injuring themselves;
+                yea, that in outward things (according to the known rule) their superfluities should
+                give way to our conveniencies, their conveniencies to our necessities, and their
+                necessities to our extremities.<note place="foot" xml:id="ftn68" n="68"><p
+                        rend="footnote text">Cf. South, <hi rend="italic">Sermons</hi> (1823),
+                        I.282-83: ‘God does not accept the willingness of the mind instead of the
+                        liberality of the purse [when it is affluent]. No, assuredly, for the
+                        measures that God marks out to thy charity are these: thy superfluities must
+                        give place to thy neighbour’s great convenience; thy convenience must vail
+                        to thy neighbour’s necessity; and lastly, thy very necessities must yield to
+                        thy neighbour’s extremity…. This is the gradual process that must be thy
+                        rule…’. Johnson’s <hi rend="italic">Dictionary</hi> quotes this as an
+                        example under the word ‘vail’ understood in the sense, ‘to yield’. Cf. also
+                        No. 98, ‘On Visiting the Sick’, III.4, where Wesley again quotes ‘this
+                        excellent rule’. This pairing of ‘conveniences and necessaries of life’
+                        shows up in Nos. 28, ‘Sermon on the Mount, VIII’, §11; 68, ‘The Wisdom of
+                        God’s Counsels’, §16; 87, ‘The Danger of Riches’, I.3, II.3; 108, ‘On
+                        Riches’, §4; 111, <hi rend="italic">National Sins and Miseries</hi>, I,1;
+                        113, <hi rend="italic">The Late Work of God in North America</hi>, II.7;
+                        133, ‘Death and Deliverance’ ¶9 (for the ‘necessaries of life’); 134, ‘Seek
+                        First the Kingdom’, ¶¶5, 12, 15. Cf. also <hi rend="italic">Address to the
+                            Clergy</hi>, II.3(1), <hi rend="italic">Bibliog</hi>, No. 215 (Vol. 14
+                        of this edn.); and <hi rend="italic">An Earnest Appeal</hi>, §93 (11:86 of
+                        this edn.). It is a commonplace phrase in <hi rend="italic">The
+                            Guardian</hi> and <hi rend="italic">The Spectator</hi>; see also Francis
+                        Atterbury, <hi rend="italic">Fourteen Sermons</hi> (1708), p. 303; and John
+                        Locke, <hi rend="italic">Essay Concerning Human Understanding</hi>, Bk. 2,
+                        ch. 23, §12.</p></note> Now then, let us walk by the same rule: let us do
+                unto all as we would they should do to us. Let us love and honour all men. Let
+                justice, mercy, and truth govern all our minds and actions. Let our superfluities
+                give way to our neighbour’s conveniencies (and who then will have any superfluities
+                left?); our conveniencies to our neighbour’s necessities; our necessities to his
+                    extremities.<note place="foot" xml:id="ftn69" n="69"><p rend="footnote text">For
+                        Wesley’s views on surplus accumulation, cf. Nos. 28, ‘Sermon on the Mount,
+                        VIII’, §9 and n.; and 50, ‘The Use of Money’, intro., espec. I.8-9 and
+                        III.1.</p></note></p>
+            <p n="27">27. This is pure and genuine morality. This do, and thou shalt live.<note
+                    place="foot" xml:id="ftn70" n="70"><p rend="footnote text">Luke
+                    10:28.</p></note> ‘As many as walk by this rule, peace be to them, and mercy;’
+                for they are ‘the Israel of God’.<note place="foot" xml:id="ftn71" n="71"><p
+                        rend="footnote text">Cf. Gal. 6:16.</p></note> But then be it observed, none
+                can walk by this rule (nor ever did from the beginning of the world), none can love
+                his neighbour as himself, unless he first love God. And none can love God unless he
+                believe in Christ, unless he have redemption through his blood,<note place="foot"
+                    xml:id="ftn72" n="72"><p rend="footnote text">Eph. 1:7; Col. 1:14.</p></note>
+                and the Spirit of God bearing witness with his spirit that he is a child of
+                    God.<note place="foot" xml:id="ftn73" n="73"><p rend="footnote text">See Rom.
+                        8:16.</p></note> Faith therefore is still the root of all, of present as
+                well as future salvation. Still we must say to every sinner, Believe in the Lord <pb
+                    n="663"/>Jesus Christ, and thou shalt be saved.<note place="foot" xml:id="ftn74"
+                    n="74"><p rend="footnote text">Acts 16:31.</p></note> Thou shalt be saved now,
+                that thou mayst be saved for ever; saved on earth, that thou mayst be saved in
+                heaven. Believe in him, and thy faith will work by love.<note place="foot"
+                    xml:id="ftn75" n="75"><p rend="footnote text">See Gal. 5:6.</p></note> Thou wilt
+                love the Lord thy God because he hath loved thee; thou wilt love thy neighbour as
+                thyself. And then it will be thy glory and joy to exert and increase this love, not
+                barely by abstaining from what is contrary thereto—from every unkind thought, word,
+                and action—but by showing all that kindness to every man which thou wouldst he
+                should show unto thee.</p>
+        </body>
+    </text>
+</TEI>

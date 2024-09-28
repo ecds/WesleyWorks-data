@@ -1,0 +1,744 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Sermon 33: Upon Our Lord’s Sermon On The Mount, Discourse XIII</title>
+                <author>Wesley, John</author>
+                <editor role="text">Van Buskirk, Gregory P.</editor>
+                <editor role="digital">Taylor, Michelle M.</editor>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>The Wesley Works Digitzation Project</publisher>
+                <pubPlace>Tampa, FL</pubPlace>
+                <date>2024-02-25</date>
+            </publicationStmt>
+            <sourceDesc>
+                <listBibl>
+                    <biblStruct>
+                        <analytic>
+                            <title level="a">Sermon 33: Upon Our Lord’s Sermon On The Mount,
+                                Discourse XIII</title>
+                        </analytic>
+                        <monogr>
+                            <title level="j">The Works of John Wesley, Volume I: Sermons I,
+                                1-33</title>
+                            <editor role="volume">Outler, Albert</editor>
+                            <imprint>
+                                <publisher>Abingdon Press</publisher>
+                                <pubPlace>Nashville, TN</pubPlace>
+                                <date when="2015-05-01">1984-05-01</date>
+                                <biblScope unit="volume" n="1"/>
+                                <biblScope unit="page" from="466" to="469"/>
+                                <biblScope unit="page" from="687" to="698"/>
+                            </imprint>
+                        </monogr>
+                        <series>
+                            <title level="s">The Works of John Wesley</title>
+                            <editor role="general">Baker, Frank</editor>
+                        </series>
+                    </biblStruct>
+                </listBibl>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Greg Van Buskirk created Word docs for all of Wesley's sermons using a combination of
+                OCR software and manual proofing. Michelle Taylor converted these docx into XML
+                using Oxygen's DITA automatic transformation scenario, then touched them up
+                manually.</p>
+        </encodingDesc>
+        <standOff>
+            <taxonomy>
+                <keywords>
+                    <term/>
+                </keywords>
+            </taxonomy>
+            <!--Include keywords and terms here eventually.-->
+        </standOff>
+        <revisionDesc/>
+    </teiHeader>
+    <text>
+        <body>
+            <pb n="01:466"/>
+            <introduction>
+                <!--Confirm introduction is the element I want to use here, especially given that I
+                    use it as an attribute for Wesley's introductory paragraphs as well.-->
+                <head>
+                    <hi rend="italic">An Introductory Comment [to Sermons 21-33]</hi>
+                </head>
+                <p>The unifying theme of these next thirteen ‘discourses’ on the Sermon on the
+                    Mount, with all their variations and nuancings, is the Christian life understood
+                    as the fruit of justifying faith. But given such faith, what follows? Wesley’s
+                    answer is given in this extended exposition of the Christian life based on the
+                        <hi rend="italic">locus classicus</hi> of evangelical ethics, ‘The Sermon on
+                    the Mount’ (i.e., Matthew 5-7). Since Tyndale, this ‘sermon’ had been understood
+                    as ‘the epitome of God’s laws and promises’ for Christian believers; cf.
+                    Clebsch, <hi rend="italic">England’s Earliest Protestants</hi>, p. 184; see also
+                    William Burkitt, <hi rend="italic">Expository Notes…on the New Testament</hi>
+                    (eleven editions between 1700 and 1739), Preface to chapter 5: ‘Christ’s famous
+                    Sermon on the Mount comprehends the sum and substance of both the Old and New
+                    Testaments.’</p>
+                <p>Taken together, the following sermons are not a thirteen-part essay, tightly
+                    organized and argued. Instead, they are separate sermons, drawn from materials
+                    running back to 1725, arranged in a triadic pattern that seems to have been
+                    original with Wesley. Each is a discourse in its own right; yet the series is
+                    designed so that each appears as a part of a whole. This means that the sermons
+                    may be read singly or together, but with an eye on their shared aim: ‘to assert
+                    and prove every branch of <hi rend="italic">gospel obedience</hi> as
+                    indispensably necessary to eternal salvation’; cf. Wesley’s open letter (Nov.
+                    17, 1759) to John Downes in reply to the latter’s abusive <hi rend="italic"
+                        >Methodism Examined and Exposed</hi> (1759).</p>
+                <p>Many of the great and near-great commentators of the seventeenth and eighteenth
+                    centuries had devoted their talents to the interpretation of Matthew 5-7 as the
+                    principal summary of Christian ethics, or, in Henry Hammond’s phrase, as ‘an
+                    abstract of Christian philosophy’; cf. his <hi rend="italic">Practical
+                        Catechism</hi> (1st edn., <hi rend="italic">c.</hi> 1644), II.1, in the <hi
+                        rend="italic">Library of Anglo-Catholic Theology</hi> (1847), p. 83. Chief
+                    among these earlier works, in the order of their influences upon Wesley’s
+                    thought, were Bishop Offspring Blackall, ‘Eighty-Seven Practical Discourses Upon
+                    Our Saviour’s Sermon on the Mount’, <hi rend="italic">Works</hi>, I.1-561;
+                    II.609-939; <pb n="01:467"/>John Norris, <hi rend="italic">Practical
+                        Discourses</hi>; the American, James Blair, <hi rend="italic">Our Saviour’s
+                        Divine Sermon on the Mount in IV Volumes</hi> (1722; 2nd edn., 1740, with a
+                    preface by Daniel Waterland); John Cardinal Bona, <hi rend="italic">Guide to
+                        Eternity…</hi> (six editions in English between 1672 and 1712); and Henry
+                    Hammond, <hi rend="italic">op. cit.</hi> Echoes of all these are scattered along
+                    the way, together with lesser borrowings from Bengel, Poole, and Henry. This
+                    makes it all the more remarkable that Wesley came up with a model of his own,
+                    both inform and substance. This series thus reminds us, yet again, of Wesley’s
+                    ready appeal to tradition—even while he maintains his own originality and
+                    independence.</p>
+                <p>Benjamin Ingham records in his Journal that ‘during the voyage [to Georgia]
+                    Wesley went over our Saviour’s Sermon on the Mount’ with the ship’s company
+                    aboard the <hi rend="italic">Simmonds</hi>. There are also other records of his
+                    preaching, very early on, from one or another text in Matthew 5-7. For example,
+                    his second sermon was preached at Binsey (near Oxford), November 21, 1725, on
+                    Matt. 6:33. A first draft of the sermon which appears here as ‘Discourse VIII’
+                    seems to have been written out in 1736. Later, it was the example of the Sermon
+                    on the Mount that encouraged Wesley to break out of his High Church prejudices
+                    in Bristol, April 1, 1739: ‘In the evening (Mr. Whitefield being gone) I begun
+                    expounding our Lord’s Sermon on the Mount (one pretty remarkable precedent of
+                        <hi rend="italic">field preaching</hi>, though I suppose <hi rend="italic"
+                        >there were churches</hi> at that time also) to a little society which was
+                    accustomed to meet once or twice a week in Nicholas Street;’ cf. <hi
+                        rend="italic">Journal</hi> entries for this whole story of the unplanned
+                    outbreak of the Wesleyan Revival.</p>
+                <p>The records show that, between 1739 and 1746, Wesley preached more than one
+                    hundred sermons from separate texts in the Sermon on the Mount. There is,
+                    however, no recorded instance of his having treated that Sermon as a whole
+                    anywhere else. Evidently, he was prepared to allow this series, once published,
+                    to stand as his sufficient comment on the subject.</p>
+                <p>In his introduction to ‘Discourse X’, §§1-3, Wesley repeats his explanation (cf.
+                    ‘Discourse I’, Proem, §10) of how he had conceived the design of Matthew 5-7,
+                    according to its three unfolding themes: (1) ‘the sum of true religion’; (2)
+                    ‘rules touching that right intention which we are to preserve in all our outward
+                    actions’; and (3) ‘the main hindrances of this religion’. He then adds a
+                    clarifying summary: ‘In the fifth chapter [of St. Matthew] our great Teacher…has
+                    laid before us those <hi rend="italic">dispositions of the soul</hi> which
+                    constitute real Christianity…. In the sixth [chapter] he has shown how all our
+                        <hi rend="italic">actions</hi>…may be made holy, and good, and acceptable to
+                    God, by a pure and holy intention…. In <pb n="01:468"/>the former part of [ch.
+                    7] he points out the most common and fatal hindrances of this holiness; in the
+                    latter [part] he exhorts us, by various motives, to break through all [such
+                    hindrances] and secure that prize of our high calling [of God in Christ Jesus]’
+                    (cf. Phil. 3:14).</p>
+                <p>The thirteen discourses are divided almost equally over the three chapters of St.
+                    Matthew: five for chapter five, four each for six and seven. Of the first five,
+                    Discourse I is devoted to the first two Beatitudes; Discourse II to Beatitudes
+                    three through five (with a hymn to love based on 1 Cor. 13); Discourse III to
+                    the remainder of the Beatitudes; Discourse IV turns to Christianity as ‘a social
+                    religion’ in which inward holiness (our love of God) prompts outward holiness
+                    (love of neighbour); Discourse V is a balancing of law <hi rend="italic"
+                        >and</hi> gospel. Discourses VI-IX are based on chapter six: VI to the
+                    problems of purity and holiness of intention (to the ‘works of piety and of
+                    mercy’); VII to fasting; VIII to a denunciation of greed and surplus
+                    accumulation; IX to the mutually exclusive services of God and Mammon.
+                    Discourses X-XIII turn to various hindrances to holy living and to their
+                    avoidance: X to ‘judging’ (contrary to love), ‘intemperate zeal’, ‘neglect of
+                    prayer’, ‘neglect of charity’; XI to the noxious influences of ill-example and
+                    ill-advice with which the world deludes us; XII to false prophets and unedifying
+                    preachers (and yet also our duties to attend church nonetheless and to avail
+                    ourselves of all means of grace); XIII is an inevitable comment on the parable
+                    of the houses built on sand and rock. Discourse XII was also published
+                    separately in the same year that it appeared in <hi rend="italic">SOSO</hi>, III
+                    (1750), under the title, ‘A Caution Against False Prophets. A Sermon on Matt.
+                    vii. 15-20. Particularly recommended to the People Called Methodists’. This went
+                    through seven editions during Wesley’s lifetime. For a stemma delineating the
+                    publishing history of that sermon (‘collected’ and ‘separate’) and a list of
+                    variant readings, see Appendix, ‘Wesley’s Text’, Vol. IV, see also <hi
+                        rend="italic">Bibliog</hi>, Nos. 130 and 13o.i.</p>
+                <p>Obviously there is no interest, in any of these sermons, in critical textual
+                    problems or in the historical context. Everywhere it is assumed that in St.
+                    Matthew’s text we are dealing with divine <hi rend="italic">ipsissima
+                    verba</hi>—i.e., with a direct address from ὁ ὤν, ‘the self-existent, the
+                    Supreme, the God who is over all, blessed for ever’ (§9 below). The Sermon on
+                    the Mount, in Wesley’s view, is the only Gospel passage where Christ designed
+                    ‘to lay down at once the whole plan of his religion, to give us a full prospect
+                    of Christianity’. What matters most in our reading, therefore, is an awareness
+                    of Wesley’s sense of the wholeness of the message he is interpreting, of his
+                    conviction of the honest integration of an evangel profoundly ethical with an
+                    ethic that is also vividly <pb n="01:469"/>evangelical. Maybe more than anywhere
+                    else in <hi rend="italic">SOSO</hi> this particular bloc displays Wesley’s
+                    distinctive concern for integration and balance—between the faith that justifies
+                    and the faith that works by love.</p>
+            </introduction>
+            <pb n="01:687"/>
+            <head>Upon our Lord’s Sermon on the Mount,<lb/>Discourse the Thirteenth</head>
+            <epigraph>
+                <p>Matthew 7:21-27</p>
+                <p>
+                    <hi rend="italic">Not everyone that saith unto me, Lord, Lord, shall enter into
+                        the kingdom of heaven; but he that doeth the will of my Father which is in
+                        heaven.</hi>
+                </p>
+                <p>
+                    <hi rend="italic">Many will say to me in that day, Lord, Lord, have we not
+                        prophesied in thy name? And in thy name have cast out devils? And in thy
+                        name done many wonderful works?</hi>
+                </p>
+                <p>
+                    <hi rend="italic">And then will I profess unto them, I never knew you: depart
+                        from me, ye that work iniquity.</hi>
+                </p>
+                <p>
+                    <hi rend="italic">Therefore whosoever heareth these sayings of mine, and doeth
+                        them, I will liken him unto a wise man, which built his house upon a
+                        rock;</hi>
+                </p>
+                <p>
+                    <hi rend="italic">And the rain descended, and the floods came, and the winds
+                        blew, and beat upon that house; and it fell not; for it was founded upon a
+                        rock.</hi>
+                </p>
+                <p>
+                    <hi rend="italic">And everyone that heareth these sayings of mine, and doeth
+                        them not, shall be likened unto a foolish man, which built his house upon
+                        the sand;</hi>
+                </p>
+                <p>
+                    <hi rend="italic">And the rain descended, and the floods came, and the winds
+                        blew, and beat upon that house; and it fell: and great was the fall of
+                        it.</hi>
+                </p>
+            </epigraph>
+            <div type="introduction">
+                <p n="1">1. Our divine Teacher, having declared the whole counsel of God with regard
+                    to the way of salvation, and observed the chief hindrance of those who desire to
+                    walk therein, now closes the whole with these weighty words; thereby, as it
+                    were, setting his seal to his prophecy, and impressing his whole authority on
+                    what he had delivered, that it might stand firm to all generations.</p>
+                <p n="2">2. For thus saith the Lord, that none may ever conceive there is any other
+                    way than this: ‘Not everyone that saith unto me, Lord, Lord, shall enter into
+                    the kingdom of heaven, but he that doeth the will of my Father which is in
+                    heaven. Many will say to me in that day, Lord, Lord, have we not prophesied in
+                    thy name? And in thy name have cast out devils? And in thy name done many
+                    wonderful works? And then will I profess unto them, I never knew you: depart
+                    from me, ye that work iniquity. […] Therefore <pb n="01:688"/>everyone that
+                    heareth these sayings of mine and doeth them not, shall be likened unto a
+                    foolish man which built his house upon the sand. And the rain descended, and the
+                    floods came, and the winds blew, and beat upon that house; and it fell: and
+                    great was the fall of it.’</p>
+                <p n="3">3. I design in the following discourse, first, to consider the case of him
+                    who thus builds his house upon the sand; secondly, to show the wisdom of him who
+                    builds upon a rock; and thirdly, to conclude with a practical application.</p>
+            </div>
+            <div type="section" n="1">
+                <p n="1">I. 1. And, first, I am to consider the case of him who builds his house
+                    upon the sand. It is concerning him our Lord saith, ‘Not everyone that saith
+                    unto me, Lord, Lord! shall enter into the kingdom of heaven.’ And this is a
+                    decree which cannot pass; which standeth fast for ever and ever.<note
+                        place="foot" xml:id="ftn1" n="1"><p rend="footnote text">See Ps.
+                        148:6.</p></note> It therefore imports us in the highest degree throughly to
+                    understand the force of these words. Now what are we to understand by that
+                    expression, ‘that saith unto me, Lord, Lord’? It undoubtedly means, ‘that thinks
+                    of going to heaven by any other way than that which I have now described’. It
+                    therefore implies (to begin at the lowest point) all good words, all verbal
+                    religion. It includes whatever creeds we may rehearse; whatever professions of
+                    faith we make; whatever number of prayers we may repeat, whatever thanksgivings
+                    we read or say to God. We may speak good of his name;<note place="foot"
+                        xml:id="ftn2" n="2"><p rend="footnote text">I.e., lead (or join in) the
+                            responses of the daily offices, beginning with the ‘<hi rend="italic"
+                                >Jubilate Deo</hi>’, Ps. 100:4, etc., in BCP, Morning
+                        Prayer.</p></note> and declare his loving-kindness to the children of
+                        men.<note place="foot" xml:id="ftn3" n="3"><p rend="footnote text">See
+                            another favourite Psalm in ‘Morning Prayer’: 107:8, 15, 21, 31
+                            (BCP).</p></note> We may be talking of all his mighty acts, and telling
+                    of his salvation from day to day. By comparing spiritual things with
+                        spiritual,<note place="foot" xml:id="ftn4" n="4"><p rend="footnote text">See
+                            1 Cor. 2:13.</p></note> we may show the meaning of the oracles of God.
+                    We may explain the mysteries of his kingdom, which have been hid from the
+                    beginning of the world.<note place="foot" xml:id="ftn5" n="5"><p
+                            rend="footnote text">See Col. 1:26.</p></note> We may speak with the
+                    tongue of angels rather than men concerning the deep things of God.<note
+                        place="foot" xml:id="ftn6" n="6"><p rend="footnote text">See 1 Cor.
+                            13:1.</p></note> We may proclaim to sinners, ‘Behold the Lamb of God,
+                    who taketh away the sin of the world.’<note place="foot" xml:id="ftn7" n="7"><p
+                            rend="footnote text">John 1:29.</p></note> Yea, we may do this with such
+                    a measure of the power of God, and such demonstration of his Spirit, as to save
+                    many souls from death,<note place="foot" xml:id="ftn8" n="8"><p
+                            rend="footnote text">See Jas. 5:20.</p></note> and hide a multitude of
+                        sins.<note place="foot" xml:id="ftn9" n="9"><p rend="footnote text">See 1
+                            Pet.4:8.</p></note> And yet ’tis very possible all <pb n="01:689"/>this
+                    may be no more than ‘saying, Lord, Lord!’ After I have thus successfully
+                    preached to others, still I myself may be a castaway.<note place="foot"
+                        xml:id="ftn10" n="10"><p rend="footnote text">A compounded echo here from 1
+                            Cor. 9:27 and the shipboard memoranda back in January and February 1738;
+                            cf. JWJ, Jan. 8, Jan. 24, and Feb. 1; see also Moore, I.342-44. Note
+                            also the premonition here of John Wesley’s later outburst to Charles,
+                            June 27, 1766: ‘Neither am I impelled to [my evangelical mission] by
+                            fear of any kind. I have no more fear than love. Or if I have any fear,
+                            it is not that of falling into hell but of falling into nothing.’ Cf.
+                            No. 2, <hi rend="italic">The Almost Christian</hi>, I.13 and
+                        n.</p></note> I may in the hand of God snatch many souls from hell, and yet
+                    drop into it when I have done. I may bring many others to the kingdom of heaven,
+                    and yet myself never enter there. Reader, if God hath ever blessed my word to
+                        <hi rend="italic">thy</hi> soul, pray that he may be merciful to <hi
+                        rend="italic">me</hi> a sinner.<note place="foot" xml:id="ftn11" n="11"><p
+                            rend="footnote text">Luke 18:13; as we have seen, Wesley’s ‘assurance’
+                            of 1738 had been confirmed to him in 1739 when <hi rend="italic"
+                                >others</hi> received ‘assurance’ as a fruit of his preaching of
+                            it.</p></note></p>
+                <p n="2">2. The ‘saying, Lord, Lord!’ may, secondly, imply the doing no harm.<note
+                        place="foot" xml:id="ftn12" n="12"><p rend="footnote text">Cf. below,
+                            III.2-4, and No. 22, ‘Sermon on the Mount, II’, II.4 and n.</p></note>
+                    We may abstain from every presumptuous sin, from every kind of outward
+                    wickedness. We may refrain from all those ways of acting or speaking which are
+                    forbidden in Holy Writ. We may be able to say to all those among whom we live,
+                    Which of you convinceth me of sin?<note place="foot" xml:id="ftn13" n="13"><p
+                            rend="footnote text">John 8:46.</p></note> We may have a conscience void
+                    of any external offence towards God and towards man.<note place="foot"
+                        xml:id="ftn14" n="14"><p rend="footnote text">See Acts 24:16.</p></note> We
+                    may be clear of all uncleanness, ungodliness, and unrighteousness as to the
+                    outward act, or (as the Apostle testifies concerning himself) ‘touching the
+                    righteousness of the law’, i.e. outward righteousness, ‘blameless’;<note
+                        place="foot" xml:id="ftn15" n="15"><p rend="footnote text">Cf. Phil.
+                            3:6.</p></note> but yet we are not hereby justified. Still this is no
+                    more than ‘saying, Lord, Lord!’ And if we go no farther than this we shall never
+                    ‘enter into the kingdom of heaven’.</p>
+                <p n="3">3. The ‘saying, Lord, Lord!’ may imply, thirdly, many of what are usually
+                    styled good works. A man may attend the Supper of the Lord, may hear abundance
+                    of excellent sermons, and omit no opportunity of partaking all the other
+                    ordinances of God. I may do good to my neighbour, deal my bread to the hungry,
+                    and cover the naked with a garment. I may be so zealous of good works as even to
+                    ‘give all my goods to feed the poor’.<note place="foot" xml:id="ftn16" n="16"><p
+                            rend="footnote text">Cf. 1 Cor. 13:3.</p></note> Yea, and I may do all
+                    this with a desire to please God and a real belief that I do please him thereby
+                    (which is undeniably the case of those our Lord introduces, ‘saying unto him,
+                    Lord, Lord!’); and still I may have no part in the glory which shall be
+                        revealed.<note place="foot" xml:id="ftn17" n="17"><p rend="footnote text"
+                            >Rom. 8:18; another description of ‘the almost
+                    Christian’.</p></note></p>
+                <p n="4"><pb n="01:690"/>4. If any man marvels at this, let him acknowledge he is a
+                    stranger to the whole religion of Jesus Christ; and in particular to that
+                    perfect portraiture thereof which he has set before us in this discourse. For
+                    how far short is all this of that righteousness and true holiness<note
+                        place="foot" xml:id="ftn18" n="18"><p rend="footnote text">Eph.
+                        4:24.</p></note> which he has described therein! How widely distant from
+                    that inward kingdom of heaven which is now opened in the believing soul! Which
+                    is first sown in the heart as a grain of mustard seed, but afterwards putteth
+                    forth great branches,<note place="foot" xml:id="ftn19" n="19"><p
+                            rend="footnote text">See Matt. 13:31-32.</p></note> on which grow all
+                    the fruits of righteousness,<note place="foot" xml:id="ftn20" n="20"><p
+                            rend="footnote text">Phil. 1:11.</p></note> every good temper and word
+                    and work.</p>
+                <p n="5">5. Yet as clearly as he had declared this, as frequently as he had repeated
+                    that none who have not this kingdom of God within them shall enter into the
+                    kingdom of heaven, our Lord well knew that many would not receive this saying,
+                    and therefore confirms it yet again. ‘Many’ (saith he; not one; not a few only;
+                    it is not a rare or an uncommon case) ‘shall say unto me in that day’. Not only,
+                    we have said many prayers; we have spoken thy praise; we have refrained from
+                    evil; we have exercised ourselves in doing good; but what is abundantly more
+                    than this—‘We have prophesied in thy name. In thy name have we cast out devils;
+                    in thy name done many wonderful works.’ ‘We have prophesied’: we have declared
+                    thy will to mankind; we have showed sinners the way to peace and glory. And we
+                    have done this ‘in thy name’, according to the truth of thy gospel. Yea, and by
+                    thy authority, who didst confirm the Word with the Holy Ghost sent down from
+                    heaven. For ‘in’ (or <hi rend="italic">by</hi>) ‘thy name’, by the power of thy
+                    Word and of thy Spirit, ‘have we cast out devils;’ out of the souls which they
+                    had long claimed as their own, and whereof they had full and quiet possession.
+                    ‘And in thy name’, by thy power, not our own, ‘have we done many wonderful
+                    works;’ insomuch that even ‘the dead heard the voice of the Son of God’<note
+                        place="foot" xml:id="ftn21" n="21"><p rend="footnote text">Cf. John
+                            5:25.</p></note> speaking by us, and lived. ‘And then will I profess’
+                    even ‘unto them, I never knew you:’ no, not then, when you were ‘casting out
+                    devils in my name’. Even then I did not know you as my own; for your heart was
+                    not right toward God. Ye were not yourselves meek and lowly; ye were not lovers
+                    of God and of all mankind; ye were not renewed in the image of God.<note
+                        place="foot" xml:id="ftn22" n="22"><p rend="footnote text">See Col.
+                            3:10.</p></note> Ye were not holy as I am holy.<note place="foot"
+                        xml:id="ftn23" n="23"><p rend="footnote text">See 1 Pet. 1:16.</p></note>
+                    ‘Depart from me, ye’ who, <pb n="01:691"/>notwithstanding all this, are ‘workers
+                    of iniquity’ (ἀνομία). Ye are transgressors of my law—my law of holy and perfect
+                    love.</p>
+                <p n="6">6. It is to put this beyond all possibility of contradiction that our Lord
+                    confirms it by that apposite comparison. ‘Everyone’, saith he, ‘who heareth
+                    these sayings of mine and doeth them not, shall be likened unto a foolish man
+                    which built his house upon the sand. And the rain descended, and the floods
+                    came, and the winds blew, and beat upon that house:’ as they will surely do,
+                    sooner or later, upon every soul of man; even the floods of outward affliction,
+                    or inward temptation; the storms of pride, anger, fear, or desire. ‘And it fell:
+                    and great was the fall of it;’ so that it perished for ever and ever. Such must
+                    be the portion of all who rest in anything short of that religion which is above
+                    described. And the <hi rend="italic">greater</hi> will their fall be because
+                    they ‘heard those sayings, and yet did them not’.</p>
+            </div>
+            <div type="section" n="2">
+                <p n="1">II. 1. I am, secondly, to show the wisdom of him that doth them, that
+                    ‘buildeth his house upon a rock’. He indeed is wise who ‘doeth the will of my
+                    Father which is in heaven’. He is truly wise whose ‘righteousness exceeds the
+                    righteousness of the scribes and Pharisees’.<note place="foot" xml:id="ftn24"
+                        n="24"><p rend="footnote text">Matt. 5:20.</p></note> He is poor in
+                        spirit;<note place="foot" xml:id="ftn25" n="25"><p rend="footnote text"
+                            >Matt. 5:3.</p></note> knowing himself even as also he is known.<note
+                        place="foot" xml:id="ftn26" n="26"><p rend="footnote text">See 1 Cor.
+                            13:12.</p></note> He sees and feels all his sin, and all his guilt, till
+                    it is washed away by the atoning blood. He is conscious of his lost estate, of
+                    the wrath of God abiding on him,<note place="foot" xml:id="ftn27" n="27"><p
+                            rend="footnote text">See John 3:36.</p></note> and of his utter
+                    inability to help himself till he is filled with peace and joy in the Holy
+                        Ghost.<note place="foot" xml:id="ftn28" n="28"><p rend="footnote text">Rom.
+                            14:17.</p></note> He is meek and gentle, patient toward all men, never
+                    ‘returning evil for evil, or railing for railing, but contrariwise
+                        blessing’,<note place="foot" xml:id="ftn29" n="29"><p rend="footnote text"
+                            >Cf. 1 Pet. 3:9.</p></note> till he overcomes evil with good.<note
+                        place="foot" xml:id="ftn30" n="30"><p rend="footnote text">See Rom.
+                            12:21.</p></note> His soul is athirst for nothing on earth, but only for
+                    God, the living God.<note place="foot" xml:id="ftn31" n="31"><p
+                            rend="footnote text">See Ps. 42:2.</p></note> He has bowels of love for
+                    all mankind, and is ready to lay down his life for his enemies. He loves the
+                    Lord his God with all his heart, and with all his mind and soul and
+                        strength.<note place="foot" xml:id="ftn32" n="32"><p rend="footnote text"
+                            >See Mark 12:30.</p></note> He alone shall enter into the kingdom of
+                    heaven who in this spirit doth good unto all men;<note place="foot"
+                        xml:id="ftn33" n="33"><p rend="footnote text">See Gal. 6:10.</p></note> and
+                    who, being for this cause despised and <pb n="01:692"/>rejected of men,<note
+                        place="foot" xml:id="ftn34" n="34"><p rend="footnote text">Isa.
+                        53:3.</p></note> being hated, reproached, and persecuted, ‘rejoices and is
+                    exceeding glad’,<note place="foot" xml:id="ftn35" n="35"><p rend="footnote text"
+                            >Cf. Matt. 5:12.</p></note> knowing in whom he hath believed;<note
+                        place="foot" xml:id="ftn36" n="36"><p rend="footnote text">See 2 Tim.
+                            1:12.</p></note> and being assured these light, momentary afflictions
+                    will ‘work out for him an eternal weight of glory’.<note place="foot"
+                        xml:id="ftn37" n="37"><p rend="footnote text">Cf. 2 Cor.
+                    4:17.</p></note></p>
+                <p n="2">2. How truly wise is this man! He knows himself: an everlasting spirit
+                    which came forth from God, and was sent down into an house of clay,<note
+                        place="foot" xml:id="ftn38" n="38"><p rend="footnote text">See Job 4:19. Cf.
+                            No. 28, ‘Sermon on the Mount, VIII’, §28 and n.</p></note> not to do his
+                    own will, but the will of him that sent him.<note place="foot" xml:id="ftn39"
+                        n="39"><p rend="footnote text">See John 6:38.</p></note> He knows the world:
+                    the place in which he is to pass a few days or years, not as an inhabitant, but
+                    as a stranger and sojourner in his way to the everlasting habitations;<note
+                        place="foot" xml:id="ftn40" n="40"><p rend="footnote text">Luke
+                        16:9.</p></note> and accordingly he uses the world, as not abusing it, and
+                    as knowing the fashion of it passes away.<note place="foot" xml:id="ftn41"
+                        n="41"><p rend="footnote text">See 1 Cor. 7:31. See also No. 20, <hi
+                                rend="italic">The Lord Our Righteousness</hi>, II.20 and
+                        n.</p></note> He knows God: his Father and his friend, the parent of all
+                    good, the centre of the spirits of all flesh, the sole happiness of all
+                    intelligent beings. He sees, clearer than the light of the noonday sun, that
+                    this is the end of man: to glorify him who made him for himself, and to love and
+                    enjoy him for ever.<note place="foot" xml:id="ftn42" n="42"><p
+                            rend="footnote text">An interesting conflation of two famous aphorisms:
+                            Q.1 and A. in the Westminster <hi rend="italic">Shorter Catechism</hi>
+                            and St. Augustine’s <hi rend="italic">Confessions</hi>, I.i.; cf. No. 3,
+                                <hi rend="italic">‘Awake, Thou That Sleepest’</hi>, II.5 and
+                        n.</p></note> And with equal clearness he sees the means to that end, to the
+                    enjoyment of God in glory; even now to know, to love, to imitate God, and to
+                    believe in Jesus Christ whom he hath sent.<note place="foot" xml:id="ftn43"
+                        n="43"><p rend="footnote text">See John 6:29; 17:3.</p></note></p>
+                <p n="3">3. He is a wise man, even in God’s account; for ‘he buildeth his house upon
+                    a rock;’ upon the Rock of Ages, the everlasting Rock, the Lord Jesus Christ.
+                    Fitly is he so called; for he changeth not.<note place="foot" xml:id="ftn44"
+                        n="44"><p rend="footnote text">See Mal. 3:6.</p></note> He is ‘the same
+                    yesterday, today, and for ever’.<note place="foot" xml:id="ftn45" n="45"><p
+                            rend="footnote text">Heb. 13:8.</p></note> To him both the man of God of
+                    old, and the Apostle citing his words, bear witness: ‘Thou, Lord, in the
+                    beginning hast laid the foundation of the earth, and the heavens are the works
+                    of thine hands. They shall perish, but thou remainest; they all shall wax old as
+                    doth a garment: and as a vesture shalt thou fold them up, and they shall be
+                    changed: but thou art the same, and thy years shall not fail.’<hi
+                        rend="endnote_reference"><note place="end"><p rend="endnote text">Heb.
+                                1:10-12 [quoting Ps. 102:25-27 (BCP)].</p></note></hi>
+                    <pb n="01:693"/>Wise therefore is the man who buildeth on him; who layeth him
+                    for his only foundation; who builds only upon his blood and righteousness, upon
+                    what he hath done and suffered for us. On this corner-stone he fixes his faith,
+                    and rests the whole weight of his soul upon it. He is taught of God to say, Lord
+                    I have sinned; I deserve the nethermost hell. But I am ‘justified freely by thy
+                    grace, through the redemption that is in Jesus Christ’.<note place="foot"
+                        xml:id="ftn46" n="46"><p rend="footnote text">Cf. Rom. 3:24.</p></note> ‘And
+                    the life I now live I live by faith in him who loved me and gave himself for
+                        me.’<note place="foot" xml:id="ftn47" n="47"><p rend="footnote text">Cf.
+                            Gal. 2:20.</p></note> ‘The life I now live’: namely, a divine, heavenly
+                    life, a life which is ‘hid with Christ in God’.<note place="foot" xml:id="ftn48"
+                        n="48"><p rend="footnote text">Col. 3:3.</p></note> I now live, even in the
+                    flesh, a life of love, of pure love both to God and man; a life of holiness and
+                    happiness, praising God and doing all things to his glory.</p>
+                <p n="4">4. Yet let not such an one think that he shall not see war any more,<note
+                        place="foot" xml:id="ftn49" n="49"><p rend="footnote text">See Mic.
+                        4:3.</p></note> that he is now out of the reach of temptation. It still
+                    remains for God to prove the grace he hath given: he shall be tried as gold in
+                    the fire.<note place="foot" xml:id="ftn50" n="50"><p rend="footnote text">See
+                            Rev. 3:18.</p></note> He shall be tempted not less than they who know
+                    not God; perhaps abundantly more. For Satan will not fail to try to the
+                    uttermost those whom he is not able to destroy. Accordingly ‘the rain’ will
+                    impetuously ‘descend’; only at such times and in such a manner as seems good,
+                    not to the prince of the power of the air, but to him whose ‘kingdom ruleth over
+                        all’.<note place="foot" xml:id="ftn51" n="51"><p rend="footnote text">Ps.
+                            103:19.</p></note> ‘The floods’, or torrents, ‘will come;’ they will
+                    lift up their waves and rage horribly. But to them also the Lord that sitteth
+                    above the water-floods, that remaineth a King for ever,<note place="foot"
+                        xml:id="ftn52" n="52"><p rend="footnote text">See Ps. 29:9 (BCP).</p></note>
+                    will say, ‘Hitherto shall ye come and no farther: here shall your proud waves be
+                        stayed.’<note place="foot" xml:id="ftn53" n="53"><p rend="footnote text">Cf.
+                            Job 38:11.</p></note> ‘The winds will blow, and beat upon that house,’
+                    as though they would tear it up from the foundation. But they cannot prevail: it
+                    falleth not; for it is founded upon a rock. He buildeth on Christ by faith and
+                    love; therefore he shall not be cast down. ‘He shall not fear, though the earth
+                    be moved, and though the hills be carried into the midst of the sea. Though the
+                    waters thereof rage and swell, and the mountains shake at the tempest of the
+                        same;’<note place="foot" xml:id="ftn54" n="54"><p rend="footnote text">Ps.
+                            46:2-3 (BCP).</p></note> still he ‘dwelleth under the defence of the
+                    Most High, and is safe under the shadow of the Almighty’.<note place="foot"
+                        xml:id="ftn55" n="55"><p rend="footnote text">Ps. 91:1 (BCP).</p></note></p>
+            </div>
+            <div type="section" n="3">
+                <p n="1"><pb n="01:694"/>III. 1. How nearly then does it concern every child of man
+                    practically to apply these things to himself! Diligently to examine on what
+                    foundation he builds, whether on a rock or on the sand! How deeply are <hi
+                        rend="italic">you</hi> concerned to inquire, What is the foundation of <hi
+                        rend="italic">my</hi> hope? Whereon do I build my expectation of entering
+                    into the kingdom of heaven? Is it not built on the sand? Upon my <hi
+                        rend="italic">orthodoxy</hi> or right opinions (which by a gross abuse of
+                    words I have called <hi rend="italic">faith</hi>);<note place="foot"
+                        xml:id="ftn56" n="56"><p rend="footnote text">Cf. No. 7, ‘The Way to the
+                            Kingdom’, I.6 and n.</p></note> upon my having a set of notions—suppose
+                    more rational or scriptural than many others have? Alas! What madness is this?
+                    Surely this is building on the sand; or rather, on the froth of the sea! Say I
+                    am convinced of this. Am I not again building my hope on what is equally unable
+                    to support it? Perhaps on my belonging to ‘so excellent a church; reformed after
+                    the true Scripture model; blessed with the purest doctrine, the most primitive
+                    liturgy, the most apostolical form of government’.<note place="foot"
+                        xml:id="ftn57" n="57"><p rend="footnote text">A sardonic reference here; but
+                            cf. No. 13 ,<hi rend="italic">On Sin in Believers</hi>, I.3 and n., for
+                            samples of Wesley’s own triumphalist sentiments on this very
+                        point.</p></note> These are doubtless so many reasons for praising God, as
+                    they may be so many helps to holiness. But they are not holiness itself. And if
+                    they are separate from it they will profit me nothing. Nay, they will leave me
+                    the more without excuse, and exposed to the greater damnation. Therefore, if I
+                    build my hope upon this foundation I am still building upon the sand.</p>
+                <p n="2">2. You cannot, you dare not, rest here. Upon what next will you build your
+                    hope of salvation? Upon your innocence? Upon your doing no harm?<note
+                        place="foot" xml:id="ftn58" n="58"><p rend="footnote text">Cf. above, I.2;
+                            and No. 22, ‘Sermon on the Mount, II’, II.4 and n.</p></note> Your not
+                    wronging or hurting anyone? Well; allow this plea to be true. You are just in
+                    all your dealings; you are a downright honest man; you pay every man his own;
+                    you neither cheat nor extort; you act fairly with all mankind. And you have a
+                    conscience towards God; you do not live in any known sin. Thus far is well. But
+                    still it is not the thing. You may go thus far and yet never come to heaven.
+                    When all this harmlessness<note place="foot" xml:id="ftn59" n="59"><p
+                            rend="footnote text">Cf. No. 32, ‘Sermon on the Mount, XII’, II.2 and
+                            n.</p></note> flows from a right principle it is the <hi rend="italic"
+                        >least part</hi> of the religion of Christ. But in you it does not flow from
+                    a right principle, and therefore is no part at all of religion. So that in
+                    grounding your hope of salvation on this you are still building upon the
+                    sand.</p>
+                <p n="3">3. Do you go farther yet? Do you add to the doing no harm the attending all
+                    the ordinances of God? Do you at all opportunities <pb n="01:695"/>partake of
+                    the Lord’s Supper? Use public and private prayer? Fast often? Hear and search
+                    the Scriptures, and meditate thereon? These things likewise ought you to have
+                    done, from the time you first set your face towards heaven. Yet these things
+                    also are nothing, being alone. They are nothing without the weightier matters of
+                    the law.<note place="foot" xml:id="ftn60" n="60"><p rend="footnote text">See
+                            Matt. 23:23.</p></note> And those you have forgotten. At least you
+                    experience them not: faith, mercy, and love of God; holiness of heart; heaven
+                    opened in the soul. Still therefore you build upon the sand.</p>
+                <p n="4">4. Over and above all this, are you zealous of good works?<note
+                        place="foot" xml:id="ftn61" n="61"><p rend="footnote text">Titus
+                        2:14.</p></note> Do you, as you have time, do good to all men?<note
+                        place="foot" xml:id="ftn62" n="62"><p rend="footnote text">See Gal.
+                            6:10.</p></note> Do you feed the hungry and clothe the naked, and visit
+                    the fatherless and widow in their affliction?<note place="foot" xml:id="ftn63"
+                        n="63"><p rend="footnote text">Jas. 1:27.</p></note> Do you visit those that
+                    are sick? Relieve them that are in prison? Is any a stranger and you take him
+                    in? Friend, come up higher.<note place="foot" xml:id="ftn64" n="64"><p
+                            rend="footnote text">See Luke 14:10.</p></note> Do you ‘prophesy in the
+                    name’ of Christ?<note place="foot" xml:id="ftn65" n="65"><p rend="footnote text"
+                            >Cf. Matt. 7:22.</p></note> Do you preach the truth as it is in
+                        Jesus?<note place="foot" xml:id="ftn66" n="66"><p rend="footnote text">See
+                            Eph. 4:21.</p></note> And does the influence of his Spirit attend your
+                    word, and make it the power of God unto salvation?<note place="foot"
+                        xml:id="ftn67" n="67"><p rend="footnote text">Rom. 1:16.</p></note> Does he
+                    enable you to bring sinners from darkness to light, from the power of Satan unto
+                        God?<note place="foot" xml:id="ftn68" n="68"><p rend="footnote text">Acts
+                            26:18.</p></note> Then go and learn what thou hast so often taught, ‘By
+                    grace ye are saved, through faith.’<note place="foot" xml:id="ftn69" n="69"><p
+                            rend="footnote text">Cf. Eph. 2:8.</p></note> ‘Not by works of
+                    righteousness which we have done, but of his own mercy he saveth us.’<note
+                        place="foot" xml:id="ftn70" n="70"><p rend="footnote text">Cf. Titus
+                            3:5.</p></note> Learn to hang naked upon the cross of Christ, counting
+                    all thou hast done but dung and dross.<note place="foot" xml:id="ftn71" n="71"
+                            ><p rend="footnote text">See Phil. 3:8.</p></note> Apply to him just in
+                    the spirit of the dying thief,<note place="foot" xml:id="ftn72" n="72"><p
+                            rend="footnote text">See Luke 23:42.</p></note> of the harlot with her
+                    seven devils;<note place="foot" xml:id="ftn73" n="73"><p rend="footnote text"
+                            >See Mark 16:9.</p></note> else thou art still on the sand, and after
+                    saving others thou wilt lose thy own soul.</p>
+                <p n="5">5. Lord! Increase my faith, if I now believe! Else, give me faith, though
+                    but as a grain of mustard seed!<note place="foot" xml:id="ftn74" n="74"><p
+                            rend="footnote text">See Matt. 17:20.</p></note> But ‘what doth it
+                    profit if a man say he hath faith, and have not works? Can’ <hi rend="italic"
+                        >that</hi> ‘faith save him?’<note place="foot" xml:id="ftn75" n="75"><p
+                            rend="footnote text">Cf. Jas. 2:14.</p></note> O no! That faith which
+                    hath not works, which doth not produce both inward and outward holiness, which
+                    does not stamp the whole image of God on the heart, and purify us as he is
+                        pure;<note place="foot" xml:id="ftn76" n="76"><p rend="footnote text">See 1
+                            John 3:3.</p></note>
+                    <pb n="01:696"/>that faith which does not produce the whole of the religion
+                    described in the foregoing chapters, is not the faith of the gospel, not the
+                    Christian faith, not the faith which leads to glory. O beware of this, above all
+                    other snares of the devil, of resting on unholy, unsaving faith! If thou layest
+                    stress on this thou art lost for ever: thou still buildest thy house upon the
+                    sand. When ‘the rain descends and the floods come it’ will surely ‘fall; and
+                    great’ will be ‘the fall of it.’</p>
+                <p n="6">6. Now, therefore, build thou upon a rock. By the grace of God, know
+                        thyself.<note place="foot" xml:id="ftn77" n="77"><p rend="footnote text">The
+                            prior human ‘re-action’ in all true repentance; see No. 7, ‘The Way to
+                            the Kingdom’, II.1 and n.</p></note> Know and feel that thou wast shapen
+                    in wickedness, and in sin did thy mother conceive thee;<note place="foot"
+                        xml:id="ftn78" n="78"><p rend="footnote text">See Ps. 51:5 (BCP).</p></note>
+                    and that thou thyself hast been heaping sin upon sin ever since thou couldst
+                    discern good from evil.<note place="foot" xml:id="ftn79" n="79"><p
+                            rend="footnote text">See Heb. 5:14.</p></note> Own thyself guilty of
+                    eternal death; and renounce all hope of ever being able to save thyself. Be it
+                    all thy hope to be washed in his blood and purified by his Spirit ‘who himself
+                    bore all thy sins in his own body upon the tree’.<note place="foot"
+                        xml:id="ftn80" n="80"><p rend="footnote text">1 Pet. 2:24.</p></note> And if
+                    thou knowest he hath taken away thy sins, so much the more abase thyself before
+                    him in a continued sense of thy total dependence on him for every good thought
+                    and word and work, and of thy utter inability to all good unless he ‘water thee
+                    every moment’.<note place="foot" xml:id="ftn81" n="81"><p rend="footnote text"
+                            >Cf. Isa. 27:3.</p></note></p>
+                <p n="7">7. Now weep for your sins, and mourn after God till he turns your heaviness
+                    into joy.<note place="foot" xml:id="ftn82" n="82"><p rend="footnote text">See
+                            Jas. 4:9.</p></note> And even then weep with them that weep;<note
+                        place="foot" xml:id="ftn83" n="83"><p rend="footnote text">Rom.
+                        12:15.</p></note> and for them that weep not for themselves. Mourn for the
+                    sins and miseries of mankind. And see, but just before your eyes, the immense
+                    ocean of eternity,<note place="foot" xml:id="ftn84" n="84"><p
+                            rend="footnote text">Cf. No. 54, ‘On Eternity’, §4 and n.</p></note>
+                    without a bottom or a shore;<note place="foot" xml:id="ftn85" n="85"><p
+                            rend="footnote text">Cf. <hi rend="italic">ibid.</hi>, §18 and
+                        n.</p></note> which has already swallowed up millions of millions of men,
+                    and is gaping to devour them that yet remain. See here the house of God, eternal
+                    in the heavens;<note place="foot" xml:id="ftn86" n="86"><p rend="footnote text"
+                            >See 2 Cor. 5:1.</p></note> there, hell and destruction without a
+                        covering.<note place="foot" xml:id="ftn87" n="87"><p rend="footnote text"
+                            >See Job 26:6.</p></note> And thence learn the importance of every
+                    moment, which just appears, and is gone for ever!<note place="foot"
+                        xml:id="ftn88" n="88"><p rend="footnote text">Cf. No. 29, ‘Sermon on the
+                            Mount, IX’, §28 and n.</p></note></p>
+                <p n="8">8. Now add to your seriousness, meekness of wisdom. Hold an even scale as
+                    to all your passions, but in particular as to anger, sorrow, and fear. Calmly
+                    acquiesce in whatsoever is the will of God. Learn in every state wherein you
+                    are, therewith to be <pb n="01:697"/>content.<note place="foot" xml:id="ftn89"
+                        n="89"><p rend="footnote text">See Phil. 4:11.</p></note> Be mild to the
+                    good; be gentle toward all men,<note place="foot" xml:id="ftn90" n="90"><p
+                            rend="footnote text">2 Tim. 2:24.</p></note> but especially toward the
+                    evil and the unthankful. Beware not only of outward expressions of anger, such
+                    as calling thy brother ‘Raca’, or ‘Thou fool’<note place="foot" xml:id="ftn91"
+                        n="91"><p rend="footnote text">Matt. 5:22.</p></note> but of every inward
+                    emotion contrary to love, though it go no farther than the heart. Be angry at
+                    sin, as an affront offered to the majesty of heaven; but love the sinner
+                        still,<note place="foot" xml:id="ftn92" n="92"><p rend="footnote text">Cf.
+                            No. 22, ‘Sermon on the Mount, II’, I.8 and n.</p></note> like our Lord
+                    who ‘looked round about upon’ the Pharisees ‘with anger, being grieved for the
+                    hardness of their hearts’.<note place="foot" xml:id="ftn93" n="93"><p
+                            rend="footnote text">Cf. Mark 3:5.</p></note> He was grieved at the
+                    sinners, angry at the sin. Thus ‘be thou angry and sin not.’<note place="foot"
+                        xml:id="ftn94" n="94"><p rend="footnote text">Eph. 4:26.</p></note></p>
+                <p n="9">9. Now do thou hunger and thirst, not for ‘the meat that perisheth, but for
+                    that which endureth unto everlasting life’.<note place="foot" xml:id="ftn95"
+                        n="95"><p rend="footnote text">John 6:27.</p></note> Trample under foot the
+                    world and the things of the world—all these riches, honours, pleasures. What is
+                    the world to thee? Let the dead bury their dead: but follow thou after the image
+                    of God.<note place="foot" xml:id="ftn96" n="96"><p rend="footnote text">Cf.
+                            Matt. 8:22; an interesting Christological note identifying Jesus Christ
+                            as the representative ‘image of God’.</p></note> And beware of quenching
+                    that blessed thirst, if it is already excited in thy soul, by what is vulgarly
+                    called religion—a poor, dull farce, a religion of form, of outside show<note
+                        place="foot" xml:id="ftn97" n="97"><p rend="footnote text">Cf. Matthew
+                            Prior, ‘An English Padlock’, l. 60: ‘’Tis a dull farce, an empty show;’
+                            see No. 77, ‘Spiritual Worship’, III.5 and n.</p></note>—which leaves
+                    the heart still cleaving to the dust, as earthly and sensual as ever.<note
+                        place="foot" xml:id="ftn98" n="98"><p rend="footnote text">See Jas.
+                            3:15.</p></note> Let nothing satisfy thee but the power of godliness,
+                    but a religion that is spirit and life; the dwelling in God and God in thee; the
+                    being an inhabitant of eternity; the entering in by the blood of sprinkling<note
+                        place="foot" xml:id="ftn99" n="99"><p rend="footnote text">Heb.
+                        12:24.</p></note> ‘within the veil’,<note place="foot" xml:id="ftn100"
+                        n="100"><p rend="footnote text">Heb. 6:19.</p></note> and ‘sitting in
+                    heavenly places with Christ Jesus’.<note place="foot" xml:id="ftn101" n="101"><p
+                            rend="footnote text">Cf. Eph. 2:6.</p></note></p>
+                <p n="10">10. Now, seeing thou canst do all things through Christ strengthening
+                        thee,<note place="foot" xml:id="ftn102" n="102"><p rend="footnote text">See
+                            Phil. 4:13.</p></note> be merciful as thy Father in heaven is
+                        merciful.<note place="foot" xml:id="ftn103" n="103"><p rend="footnote text"
+                            >See Luke 6:36.</p></note> Love thy neighbour as thyself.<note
+                        place="foot" xml:id="ftn104" n="104"><p rend="footnote text">Lev. 19:18,
+                            etc.</p></note> Love friends and enemies as thy own soul. And let thy
+                    love be <hi rend="italic">long-suffering</hi>, and patient towards all men.<note
+                        place="foot" xml:id="ftn105" n="105"><p rend="footnote text">1 Thess.
+                            5:14.</p></note> Let it be <hi rend="italic">kind</hi>, soft, benign:
+                    inspiring thee with the most amiable sweetness, and the most fervent and tender
+                    affection. Let it ‘rejoice in the truth’,<note place="foot" xml:id="ftn106"
+                        n="106"><p rend="footnote text">Cf. 1 Cor. 13:6.</p></note> wheresoever it
+                    is found, the truth that is after godliness.<note place="foot" xml:id="ftn107"
+                        n="107"><p rend="footnote text">See 1 Tim. 6:3.</p></note> Enjoy whatsoever
+                    brings <pb n="01:698"/>glory to God, and promotes peace and goodwill among men.
+                    In love ‘cover all things’, of the dead and the absent speaking nothing but
+                        good;<note place="foot" xml:id="ftn108" n="108"><p rend="footnote text">Cf.
+                            No. 14, <hi rend="italic">The Repentance of Believers</hi>, I.11 and
+                            n.</p></note> ‘believe all things’ which may any way tend to clear your
+                    neighbour’s character; ‘hope all things’ in his favour; and ‘endure all things’,
+                    triumphing over all opposition. For true ‘love never faileth’,<note place="foot"
+                        xml:id="ftn109" n="109"><p rend="footnote text">Cf. 1 Cor.
+                        13:7-8.</p></note> in time or in eternity.</p>
+                <p n="11">11. Now be thou ‘pure in heart’; purified through faith from every unholy
+                    affection, ‘cleansing thyself from all filthiness of flesh and spirit, and
+                    perfecting holiness in the fear of God’.<note place="foot" xml:id="ftn110"
+                        n="110"><p rend="footnote text">Cf. 2 Cor. 7:1.</p></note> Being through the
+                    power of his grace purified from pride by deep poverty of spirit; from anger,
+                    from every unkind or turbulent passion by meekness and mercifulness; from every
+                    desire but to please and enjoy God by hunger and thirst after
+                        righteousness;<note place="foot" xml:id="ftn111" n="111"><p
+                            rend="footnote text">Matt. 5:6.</p></note> now love the Lord thy God
+                    with all thy heart and with all thy strength.<note place="foot" xml:id="ftn112"
+                        n="112"><p rend="footnote text">See Mark 12:30.</p></note></p>
+                <p n="12">12. In a word: let thy religion be the religion of the heart.<note
+                        place="foot" xml:id="ftn113" n="113"><p rend="footnote text">Cf. No. 25,
+                            ‘Sermon on the Mount, V’, IV.13 and n.</p></note> Let it lie deep in thy
+                    inmost soul. Be thou little and base, and mean and vile (beyond what words can
+                    express) in thy own eyes; amazed and humbled to the dust by the love of God
+                    which is in Christ Jesus.<note place="foot" xml:id="ftn114" n="114"><p
+                            rend="footnote text">Rom. 8:39.</p></note> Be serious. Let the whole
+                    stream of thy thoughts, words, and actions flow from the deepest conviction that
+                    thou standest on the edge of the great gulf, thou and all the children of men,
+                    just ready to drop in, either into everlasting glory or everlasting
+                        burnings.<note place="foot" xml:id="ftn115" n="115"><p rend="footnote text"
+                            >Isa. 33:14. Cf. No. 25, ‘Sermon on the Mount, V’, III.6, IV.13 and
+                            n.</p></note> Let thy soul be filled with mildness, gentleness,
+                    patience, long-suffering towards all men, at the same time that all which is in
+                    thee is athirst for God, the living God;<note place="foot" xml:id="ftn116"
+                        n="116"><p rend="footnote text">See Ps. 42:2.</p></note> longing to awake up
+                    after his likeness, and to be satisfied with it. Be thou a lover of God and of
+                    all mankind. In this spirit do and suffer all things. Thus show thy faith by thy
+                    works: thus ‘do the will of thy Father which is in heaven.’<note place="foot"
+                        xml:id="ftn117" n="117"><p rend="footnote text">Cf. Matt. 7:21;
+                        12:50.</p></note> And as sure as thou now walkest with God on earth, thou
+                    shalt also reign with him in glory.</p>
+            </div>
+        </body>
+    </text>
+</TEI>

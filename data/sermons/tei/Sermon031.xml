@@ -1,0 +1,647 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Sermon 31: Upon Our Lord’s Sermon On The Mount, Discourse XI</title>
+                <author>Wesley, John</author>
+                <editor role="text">Van Buskirk, Gregory P.</editor>
+                <editor role="digital">Taylor, Michelle M.</editor>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>The Wesley Works Digitzation Project</publisher>
+                <pubPlace>Tampa, FL</pubPlace>
+                <date>2024-02-25</date>
+            </publicationStmt>
+            <sourceDesc>
+                <listBibl>
+                    <biblStruct>
+                        <analytic>
+                            <title level="a">Sermon 31: Upon Our Lord’s Sermon On The Mount,
+                                Discourse XI</title>
+                        </analytic>
+                        <monogr>
+                            <title level="j">The Works of John Wesley, Volume I: Sermons I,
+                                1-33</title>
+                            <editor role="volume">Outler, Albert</editor>
+                            <imprint>
+                                <publisher>Abingdon Press</publisher>
+                                <pubPlace>Nashville, TN</pubPlace>
+                                <date when="2015-05-01">1984-05-01</date>
+                                <biblScope unit="volume" n="1"/>
+                                <biblScope unit="page" from="466" to="469"/>
+                                <biblScope unit="page" from="664" to="674"/>
+                            </imprint>
+                        </monogr>
+                        <series>
+                            <title level="s">The Works of John Wesley</title>
+                            <editor role="general">Baker, Frank</editor>
+                        </series>
+                    </biblStruct>
+                </listBibl>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Greg Van Buskirk created Word docs for all of Wesley's sermons using a combination of
+                OCR software and manual proofing. Michelle Taylor converted these docx into XML
+                using Oxygen's DITA automatic transformation scenario, then touched them up
+                manually.</p>
+        </encodingDesc>
+        <standOff>
+            <taxonomy>
+                <keywords>
+                    <term/>
+                </keywords>
+            </taxonomy>
+            <!--Include keywords and terms here eventually.-->
+        </standOff>
+        <revisionDesc/>
+    </teiHeader>
+    <text>
+        <body>
+            <pb n="01:466"/>
+            <introduction>
+                <!--Confirm introduction is the element I want to use here, especially given that I
+                    use it as an attribute for Wesley's introductory paragraphs as well.-->
+                <head>
+                    <hi rend="italic">An Introductory Comment [to Sermons 21-33]</hi>
+                </head>
+                <p>The unifying theme of these next thirteen ‘discourses’ on the Sermon on the
+                    Mount, with all their variations and nuancings, is the Christian life understood
+                    as the fruit of justifying faith. But given such faith, what follows? Wesley’s
+                    answer is given in this extended exposition of the Christian life based on the
+                        <hi rend="italic">locus classicus</hi> of evangelical ethics, ‘The Sermon on
+                    the Mount’ (i.e., Matthew 5-7). Since Tyndale, this ‘sermon’ had been understood
+                    as ‘the epitome of God’s laws and promises’ for Christian believers; cf.
+                    Clebsch, <hi rend="italic">England’s Earliest Protestants</hi>, p. 184; see also
+                    William Burkitt, <hi rend="italic">Expository Notes…on the New Testament</hi>
+                    (eleven editions between 1700 and 1739), Preface to chapter 5: ‘Christ’s famous
+                    Sermon on the Mount comprehends the sum and substance of both the Old and New
+                    Testaments.’</p>
+                <p>Taken together, the following sermons are not a thirteen-part essay, tightly
+                    organized and argued. Instead, they are separate sermons, drawn from materials
+                    running back to 1725, arranged in a triadic pattern that seems to have been
+                    original with Wesley. Each is a discourse in its own right; yet the series is
+                    designed so that each appears as a part of a whole. This means that the sermons
+                    may be read singly or together, but with an eye on their shared aim: ‘to assert
+                    and prove every branch of <hi rend="italic">gospel obedience</hi> as
+                    indispensably necessary to eternal salvation’; cf. Wesley’s open letter (Nov.
+                    17, 1759) to John Downes in reply to the latter’s abusive <hi rend="italic"
+                        >Methodism Examined and Exposed</hi> (1759).</p>
+                <p>Many of the great and near-great commentators of the seventeenth and eighteenth
+                    centuries had devoted their talents to the interpretation of Matthew 5-7 as the
+                    principal summary of Christian ethics, or, in Henry Hammond’s phrase, as ‘an
+                    abstract of Christian philosophy’; cf. his <hi rend="italic">Practical
+                        Catechism</hi> (1st edn., <hi rend="italic">c.</hi> 1644), II.1, in the <hi
+                        rend="italic">Library of Anglo-Catholic Theology</hi> (1847), p. 83. Chief
+                    among these earlier works, in the order of their influences upon Wesley’s
+                    thought, were Bishop Offspring Blackall, ‘Eighty-Seven Practical Discourses Upon
+                    Our Saviour’s Sermon on the Mount’, <hi rend="italic">Works</hi>, I.1-561;
+                    II.609-939; <pb n="01:467"/>John Norris, <hi rend="italic">Practical
+                        Discourses</hi>; the American, James Blair, <hi rend="italic">Our Saviour’s
+                        Divine Sermon on the Mount in IV Volumes</hi> (1722; 2nd edn., 1740, with a
+                    preface by Daniel Waterland); John Cardinal Bona, <hi rend="italic">Guide to
+                        Eternity…</hi> (six editions in English between 1672 and 1712); and Henry
+                    Hammond, <hi rend="italic">op. cit.</hi> Echoes of all these are scattered along
+                    the way, together with lesser borrowings from Bengel, Poole, and Henry. This
+                    makes it all the more remarkable that Wesley came up with a model of his own,
+                    both inform and substance. This series thus reminds us, yet again, of Wesley’s
+                    ready appeal to tradition—even while he maintains his own originality and
+                    independence.</p>
+                <p>Benjamin Ingham records in his Journal that ‘during the voyage [to Georgia]
+                    Wesley went over our Saviour’s Sermon on the Mount’ with the ship’s company
+                    aboard the <hi rend="italic">Simmonds</hi>. There are also other records of his
+                    preaching, very early on, from one or another text in Matthew 5-7. For example,
+                    his second sermon was preached at Binsey (near Oxford), November 21, 1725, on
+                    Matt. 6:33. A first draft of the sermon which appears here as ‘Discourse VIII’
+                    seems to have been written out in 1736. Later, it was the example of the Sermon
+                    on the Mount that encouraged Wesley to break out of his High Church prejudices
+                    in Bristol, April 1, 1739: ‘In the evening (Mr. Whitefield being gone) I begun
+                    expounding our Lord’s Sermon on the Mount (one pretty remarkable precedent of
+                        <hi rend="italic">field preaching</hi>, though I suppose <hi rend="italic"
+                        >there were churches</hi> at that time also) to a little society which was
+                    accustomed to meet once or twice a week in Nicholas Street;’ cf. <hi
+                        rend="italic">Journal</hi> entries for this whole story of the unplanned
+                    outbreak of the Wesleyan Revival.</p>
+                <p>The records show that, between 1739 and 1746, Wesley preached more than one
+                    hundred sermons from separate texts in the Sermon on the Mount. There is,
+                    however, no recorded instance of his having treated that Sermon as a whole
+                    anywhere else. Evidently, he was prepared to allow this series, once published,
+                    to stand as his sufficient comment on the subject.</p>
+                <p>In his introduction to ‘Discourse X’, §§1-3, Wesley repeats his explanation (cf.
+                    ‘Discourse I’, Proem, §10) of how he had conceived the design of Matthew 5-7,
+                    according to its three unfolding themes: (1) ‘the sum of true religion’; (2)
+                    ‘rules touching that right intention which we are to preserve in all our outward
+                    actions’; and (3) ‘the main hindrances of this religion’. He then adds a
+                    clarifying summary: ‘In the fifth chapter [of St. Matthew] our great Teacher…has
+                    laid before us those <hi rend="italic">dispositions of the soul</hi> which
+                    constitute real Christianity…. In the sixth [chapter] he has shown how all our
+                        <hi rend="italic">actions</hi>…may be made holy, and good, and acceptable to
+                    God, by a pure and holy intention…. In <pb n="01:468"/>the former part of [ch.
+                    7] he points out the most common and fatal hindrances of this holiness; in the
+                    latter [part] he exhorts us, by various motives, to break through all [such
+                    hindrances] and secure that prize of our high calling [of God in Christ Jesus]’
+                    (cf. Phil. 3:14).</p>
+                <p>The thirteen discourses are divided almost equally over the three chapters of St.
+                    Matthew: five for chapter five, four each for six and seven. Of the first five,
+                    Discourse I is devoted to the first two Beatitudes; Discourse II to Beatitudes
+                    three through five (with a hymn to love based on 1 Cor. 13); Discourse III to
+                    the remainder of the Beatitudes; Discourse IV turns to Christianity as ‘a social
+                    religion’ in which inward holiness (our love of God) prompts outward holiness
+                    (love of neighbour); Discourse V is a balancing of law <hi rend="italic"
+                        >and</hi> gospel. Discourses VI-IX are based on chapter six: VI to the
+                    problems of purity and holiness of intention (to the ‘works of piety and of
+                    mercy’); VII to fasting; VIII to a denunciation of greed and surplus
+                    accumulation; IX to the mutually exclusive services of God and Mammon.
+                    Discourses X-XIII turn to various hindrances to holy living and to their
+                    avoidance: X to ‘judging’ (contrary to love), ‘intemperate zeal’, ‘neglect of
+                    prayer’, ‘neglect of charity’; XI to the noxious influences of ill-example and
+                    ill-advice with which the world deludes us; XII to false prophets and unedifying
+                    preachers (and yet also our duties to attend church nonetheless and to avail
+                    ourselves of all means of grace); XIII is an inevitable comment on the parable
+                    of the houses built on sand and rock. Discourse XII was also published
+                    separately in the same year that it appeared in <hi rend="italic">SOSO</hi>, III
+                    (1750), under the title, ‘A Caution Against False Prophets. A Sermon on Matt.
+                    vii. 15-20. Particularly recommended to the People Called Methodists’. This went
+                    through seven editions during Wesley’s lifetime. For a stemma delineating the
+                    publishing history of that sermon (‘collected’ and ‘separate’) and a list of
+                    variant readings, see Appendix, ‘Wesley’s Text’, Vol. IV, see also <hi
+                        rend="italic">Bibliog</hi>, Nos. 130 and 13o.i.</p>
+                <p>Obviously there is no interest, in any of these sermons, in critical textual
+                    problems or in the historical context. Everywhere it is assumed that in St.
+                    Matthew’s text we are dealing with divine <hi rend="italic">ipsissima
+                    verba</hi>—i.e., with a direct address from ὁ ὤν, ‘the self-existent, the
+                    Supreme, the God who is over all, blessed for ever’ (§9 below). The Sermon on
+                    the Mount, in Wesley’s view, is the only Gospel passage where Christ designed
+                    ‘to lay down at once the whole plan of his religion, to give us a full prospect
+                    of Christianity’. What matters most in our reading, therefore, is an awareness
+                    of Wesley’s sense of the wholeness of the message he is interpreting, of his
+                    conviction of the honest integration of an evangel profoundly ethical with an
+                    ethic that is also vividly <pb n="01:469"/>evangelical. Maybe more than anywhere
+                    else in <hi rend="italic">SOSO</hi> this particular bloc displays Wesley’s
+                    distinctive concern for integration and balance—between the faith that justifies
+                    and the faith that works by love.</p>
+            </introduction>
+            <pb n="01:664"/>
+            <head>Upon our Lord’s Sermon on the Mount,<lb/>Discourse the Eleventh</head>
+            <epigraph>
+                <p>Matthew 7:13-14</p>
+                <p>
+                    <hi rend="italic">Enter ye in at the strait gate: for wide is the gate, and
+                        broad is the way, which leadeth to destruction, and many there be which go
+                        in thereat:</hi>
+                </p>
+                <p>
+                    <hi rend="italic">Because strait is the gate, and narrow is the way, which
+                        leadeth unto life, and few there be that find it.</hi>
+                </p>
+            </epigraph>
+            <div type="introduction">
+                <p n="1">1. Our Lord, having warned us of the dangers which easily beset us at our
+                    first entrance upon real religion, the hindrances which naturally arise from
+                    within, from the wickedness of our own hearts, now proceeds to apprise us of the
+                    hindrances from without, particularly ill example and ill advice. By one or the
+                    other of these, thousands who once ran well have drawn back unto perdition; yea,
+                    many of those who were not novices in religion, who had made some progress in
+                    righteousness. His caution therefore against these he presses upon us with all
+                    possible earnestness, and repeats again and again, in variety of expressions,
+                    lest by any means we should let it slip. Thus, effectually to guard us against
+                    the former, ‘Enter ye in’, saith he, ‘at the strait gate; for wide is the gate,
+                    and broad is the way, that leadeth to destruction, and many there be which go in
+                    thereat: because strait is the gate, and narrow is the way, which leadeth unto
+                    life, and few there be that find it.’ To secure us from the latter, ‘Beware’,
+                    saith he, ‘of false prophets.’<note place="foot" xml:id="ftn1" n="1"><p
+                            rend="footnote text">Matt. 7:15.</p></note> We shall at present consider
+                    the former only.</p>
+                <p n="2">2. ‘Enter ye in’, saith our blessed Lord, ‘at the strait gate; for wide is
+                    the gate, and broad is the way, that leadeth to destruction, and many there be
+                    which go in thereat: because strait is the gate, and narrow is the way, which
+                    leadeth unto life, and few there be that find it.’</p>
+                <p n="3">3. In these words we may observe, first, the inseparable <pb n="01:665"
+                    />properties of the way to hell: ‘Wide is the gate, broad the way, that leadeth
+                    to destruction, and many there be that go in thereat;’ secondly, the inseparable
+                    properties of the way to heaven: ‘Strait is that gate, and narrow is the way,
+                    which leadeth unto life, and few there be that find it;’ thirdly, a serious
+                    exhortation grounded thereon: ‘Enter ye in at the strait gate.’</p>
+            </div>
+            <div type="section" n="1">
+                <p n="1">I. 1. We may observe, first, the inseparable properties of the way to hell:
+                    ‘Wide is the gate, and broad is the way, that leadeth to destruction, and many
+                    there be that go in thereat.’</p>
+                <p n="2">2. Wide indeed is the gate, and broad the way, that leadeth to destruction.
+                    For sin is the gate of hell, and wickedness the way to destruction. And how wide
+                    a gate is that of sin! How broad is the way of wickedness! The ‘commandment’ of
+                    God ‘is exceeding broad’,<note place="foot" xml:id="ftn2" n="2"><p
+                            rend="footnote text">Ps. 119:96.</p></note> as extending not only to all
+                    our actions, but to every word which goeth out of our lips, yea, every thought
+                    that rises in our heart. And sin is equally broad with the commandment, seeing
+                    any breach of the commandment is sin. Yea, rather, it is a thousand times
+                    broader, since there is only one way of keeping the commandment; for we do not
+                    properly keep it unless both the thing done, the manner of doing it, and all the
+                    other circumstances, are right. But there are a thousand ways of breaking every
+                    commandment; so that this gate is wide indeed.</p>
+                <p n="3">3. To consider this a little more particularly. How wide do those parent
+                        sins<note place="foot" xml:id="ftn3" n="3"><p rend="footnote text">Cf. No.
+                            25, ‘Sermon on the Mount, V’, III.2 and n.</p></note> extend, from which
+                    all the rest derive their being: ‘that carnal mind which is enmity against
+                        God’,<note place="foot" xml:id="ftn4" n="4"><p rend="footnote text">Cf. Rom.
+                            8:7.</p></note> pride of heart, self-will, and love of the world! Can we
+                    fix any bounds to them? Do they not diffuse themselves through all our thoughts,
+                    and mingle with all our tempers? Are they not the leaven which leavens, more or
+                    less, the whole mass of our affections? May we not, on a close and faithful
+                    examination of ourselves, perceive these roots of bitterness continually
+                    springing up,<note place="foot" xml:id="ftn5" n="5"><p rend="footnote text">See
+                            Heb. 12:15.</p></note> infecting all our words, and tainting all our
+                    actions? And how innumerable an offspring do they bring forth, in every age and
+                    nation! Even enough to cover the whole earth with ‘darkness and cruel
+                        habitations’.<note place="foot" xml:id="ftn6" n="6"><p rend="footnote text"
+                            >Ps. 74:21 (BCP).</p></note></p>
+                <p n="4"><pb n="01:666"/>4. O who is able to reckon up their accursed fruits! To
+                    count all the sins, whether against God or our neighbour, not which imagination
+                    might paint, but which may be matter of daily, melancholy experience! Nor need
+                    we range over all the earth to find them. Survey any one kingdom, any single
+                    country, or city, or town, and how plenteous is this harvest! And let it not be
+                    one of those which are still overspread with Mahometan or pagan darkness, but of
+                    those which name the name of Christ, which profess to see the light of his
+                    glorious gospel.<note place="foot" xml:id="ftn7" n="7"><p rend="footnote text"
+                            >See 2 Cor. 4:4. For Wesley’s scorn of nominal Christianity in so-called
+                            Christian countries or Christian churches, cf. Nos. 49, ‘The Cure of
+                            Evil-speaking’, III.4; 61, ‘The Mystery of Iniquity’, §25; 63, ‘The
+                            General Spread of the Gospel’, §§1-2; 64, ‘The New Creation’, §§1-2; 69,
+                            ‘The Imperfection of Human Knowledge’, II.8-9; 122, ‘Causes of the
+                            Inefficacy of Christianity’, §6. Cf. also <hi rend="italic">A Plain
+                                Account of Christian Perfection</hi>, III.8, and <hi rend="italic">A
+                                Farther Appeal</hi>, Pt. II, II.28 (11:239-40 of this
+                        edn.).</p></note> Go no farther than the kingdom to which we belong, the
+                    city wherein we are now.<note place="foot" xml:id="ftn8" n="8"><p
+                            rend="footnote text">The ‘kingdom’, of course, is England; ‘the city’,
+                            London.</p></note> We call ourselves Christians; yea, and that of the
+                    purest sort; we are Protestants, reformed Christians! But alas! who shall carry
+                    on the reformation of our opinions into our hearts and lives? Is there not a
+                    cause? For how innumerable are our sins! And those of the deepest dye! Do not
+                    the grossest abominations of every kind abound among us from day to day? Do not
+                    sins of every sort cover the land, as the waters cover the sea?<note
+                        place="foot" xml:id="ftn9" n="9"><p rend="footnote text">Isa. 11:9; Hab.
+                            2:14.</p></note> Who can count them? Rather go and count the drops of
+                    rain, or the sands on the sea-shore. So ‘wide is the gate’, so ‘broad is the way
+                    that leadeth to destruction’.</p>
+                <p n="5">5. ‘And many there be who go in at’ that gate, many who walk in that
+                    way—almost as many as go in at the gate of death, as sink into the chambers of
+                    the grave.<note place="foot" xml:id="ftn10" n="10"><p rend="footnote text">See
+                            Prov. 7:27.</p></note> For it cannot be denied (though neither can we
+                    acknowledge it but with shame and sorrow of heart) that even in this which is
+                    called a Christian country the generality of every age and sex, of every
+                    profession and employment, of every rank and degree, high and low, rich and
+                    poor, are walking in the way of destruction. The far greater part of the
+                    inhabitants of this city to this day live in sin;<note place="foot"
+                        xml:id="ftn11" n="11"><p rend="footnote text">Cf. Rudé, in <hi rend="italic"
+                                >Hanoverian London</hi>, ch. 5 (‘The “Other” London’) and ch. 10
+                            (‘Social Protest “From Below”’). Wesley makes no mention of having seen
+                            William Hogarth’s famous engravings on ‘modern moral subjects’ (from ‘A
+                            Harlot’s Progress’ [1732], to ‘Gin Lane’ [1751]); but they were famous,
+                            and Wesley was interested in such things. More importantly, he himself
+                            had seen what Hogarth saw and reacts to it here with words instead of
+                            pictures.</p></note> in some <pb n="01:667"/>palpable, habitual, known
+                    transgression of the law they profess to observe;<note place="foot"
+                        xml:id="ftn12" n="12"><p rend="footnote text">Cf. No. 13, <hi rend="italic"
+                                >On Sin in Believers</hi>, intro., III.1-9, and n.</p></note> yea,
+                    in some outward transgression, some gross, visible kind of ungodliness or
+                    unrighteousness; some open violation of their duty, either to God or man. These
+                    then, none can deny, are all in the way that leadeth to destruction. Add to
+                    these those who ‘have a name, indeed, that they live’,<note place="foot"
+                        xml:id="ftn13" n="13"><p rend="footnote text">Cf. Rev. 3:1.</p></note> but
+                    were never yet alive to God;<note place="foot" xml:id="ftn14" n="14"><p
+                            rend="footnote text">See Rom. 6:11.</p></note> those that outwardly
+                    appear fair to men, but are inwardly full of all uncleanness;<note place="foot"
+                        xml:id="ftn15" n="15"><p rend="footnote text">See Matt. 23:27.</p></note>
+                    full of pride or vanity, of anger or revenge, of ambition or covetousness;
+                    lovers of themselves, lovers of the world, lovers of pleasure more than lovers
+                    of God.<note place="foot" xml:id="ftn16" n="16"><p rend="footnote text">See 2
+                            Tim. 3:2-4.</p></note> These indeed may be highly esteemed of men, but
+                    they are an abomination to the Lord. And how greatly will these saints of the
+                        world<note place="foot" xml:id="ftn17" n="17"><p rend="footnote text">Cf.
+                            No. 4, <hi rend="italic">Scriptural Christianity</hi>, II.5 and
+                        n.</p></note> swell the number of the children of hell! Yea, add
+                    all—whatever they be in other respects, whether they have more or less of the
+                    form of godliness<note place="foot" xml:id="ftn18" n="18"><p
+                            rend="footnote text">See 2 Tim. 3:5.</p></note>—who, ‘being ignorant of
+                    God’s righteousness, and seeking to establish their own righteousness’ as the
+                    ground of their reconciliation to God and acceptance with him, of consequence
+                    have ‘not submitted themselves unto the righteousness which is of God by
+                        faith.’<note place="foot" xml:id="ftn19" n="19"><p rend="footnote text">Cf.
+                            Rom. 10:3.</p></note> Now all these things joined together in one, how
+                    terribly true is our Lord’s assertion, ‘Wide is the gate and broad is the way
+                    that leadeth to destruction, and many there be who go in thereat.’</p>
+                <p n="6">6. Nor does this only concern the vulgar herd, the poor, base, stupid part
+                    of mankind.<note place="foot" xml:id="ftn20" n="20"><p rend="footnote text">Cf.
+                            Horace, <hi rend="italic">Odes</hi>, III.1 (<hi rend="italic">odi
+                                profanum vulgus</hi>), and Abraham Cowley’s ‘imitation’ in <hi
+                                rend="italic">Works</hi> (11th edn., 1710), II.751. These epithets
+                            were commonplace in eighteenth-century English middle- and upper-class
+                            language; cf. <hi rend="italic">The Tatler</hi>, No. 81 (Oct. 13-15,
+                            1709), and <hi rend="italic">The Spectator</hi>, No. 114 (July 11,
+                            1711), and No. 472 (Sept. 1, 1712), three samples from hundreds. It is
+                            interesting that Wesley slips into them from time to time, despite his
+                            self-conscious identification with ‘Christ’s poor’ (cf. No. 47,
+                            ‘Heaviness through Manifold Temptations’, III.3; JWJ, Sept. 28, 1765,
+                            and Apr. 5, 1782; his letter to Dorothy Furly, Sept. 25, 1757, to Brian
+                            Bury Collins, June 14, 1780, and to Freeborn Garrettson, Sept. 30,
+                            1786).</p><p rend="footnote text">Cf. II.6, 10; III.5, below; also Nos.
+                            85, ‘On Working Out Our Own Salvation’, §3; 108, ‘On Riches’, II.1; and
+                            125, ‘On a Single Eye’, II.5. Cf. also his Pref. to the <hi
+                                rend="italic">Christian Lib.</hi>, §5. For Wesley’s use of ‘beasts
+                            of the people’ see No. 52, <hi rend="italic">The Reformation of
+                                Manners</hi>, I.5 and n.</p></note> Nay; men of eminence in the
+                    world, men who have many fields and yoke of oxen, do not desire to be excused
+                    from this. On the contrary, ‘many wise men after the <pb n="01:668"/>flesh’,
+                    according to the human methods of judging, ‘many mighty’ in power, in courage,
+                    in riches, many ‘noble are called’;<note place="foot" xml:id="ftn21" n="21"><p
+                            rend="footnote text">1 Cor. 1:26.</p></note> called into the broad way,
+                    by the world, the flesh, and the devil;<note place="foot" xml:id="ftn22" n="22"
+                            ><p rend="footnote text">BCP, Litany.</p></note> and they are not
+                    disobedient to that calling. Yea, the higher they are raised in fortune and
+                    power, the deeper do they sink into wickedness. The more blessings they have
+                    received from God, the more sins do they commit; using their honour or riches,
+                    their learning or wisdom, not as means of working out their salvation, but
+                    rather of excelling in vice, and so ensuring their own destruction.<note
+                        place="foot" xml:id="ftn23" n="23"><p rend="footnote text">For later and
+                            more distanced views of England in the 1740s, see Williams, <hi
+                                rend="italic">The Whig Supremacy</hi>, chs. ii, v, and Robertson,
+                                <hi rend="italic">England Under the Hanoverians</hi>, chs. ii, iv.
+                            For vivid contemporary accounts to the same effect, cf. Henry Fielding,
+                                <hi rend="italic">The History of Tom Jones, A Foundling</hi> (1749);
+                            Daniel Defoe, <hi rend="italic">The Fortune and Misfortune of the Famous
+                                Moll Flanders</hi> (1722); and Samuel Richardson, <hi rend="italic"
+                                >Clarissa, or. The History of a Young Lady</hi>
+                        (1747-48).</p></note></p>
+            </div>
+            <div type="section" n="2">
+                <p n="1">II. 1. And the very reason why many of these go on so securely in the
+                    ‘broad way’ is because it is broad; not considering that this is the inseparable
+                    property of the way to destruction. ‘Many there be’, saith our Lord, ‘who go in
+                    thereat’—for the very reason why they should flee from it, even ‘because strait
+                    is the gate and narrow the way that leadeth unto life, and few there be that
+                    find it.’</p>
+                <p n="2">2. This is an inseparable property of the way to heaven. So narrow is the
+                    way that leadeth unto life, unto life everlasting, so strait the gate, that
+                    nothing unclean, nothing unholy, can enter. No sinner can pass through that gate
+                    until he is saved from all his sins. Not only from his outward sins, from his
+                    evil ‘conversation, received by tradition from his fathers’.<note place="foot"
+                        xml:id="ftn24" n="24"><p rend="footnote text">Cf. 1 Pet. 1:18.</p></note> It
+                    will not suffice that he hath ‘ceased to do evil’ and ‘learned to do well’.<note
+                        place="foot" xml:id="ftn25" n="25"><p rend="footnote text">Cf. Isa. 1:16,
+                            17.</p></note> He must not only be saved from all sinful actions and
+                    from all evil and useless discourse; but inwardly changed, throughly renewed in
+                    the spirit of his mind.<note place="foot" xml:id="ftn26" n="26"><p
+                            rend="footnote text">See Eph. 4:23.</p></note> Otherwise he cannot pass
+                    through the gate of life, he cannot enter into glory.</p>
+                <p n="3">3. For ‘narrow is the way that leadeth unto life’—the way of universal
+                    holiness. Narrow indeed is the way of poverty of spirit, the way of holy
+                    mourning, the way of meekness, and that of hungering and thirsting after
+                        righteousness.<note place="foot" xml:id="ftn27" n="27"><p
+                            rend="footnote text">See Matt. 5:3-6.</p></note> Narrow is the way of
+                    mercifulness, of love unfeigned; the way of purity of heart; of <pb n="01:669"
+                    />doing good unto all men, and of gladly suffering evil, all manner of evil, for
+                    righteousness’ sake.<note place="foot" xml:id="ftn28" n="28"><p
+                            rend="footnote text">See Matt. 5:7-8, 10.</p></note></p>
+                <p n="4">4. ‘And few there be that find it.’ Alas, how few find even the way of
+                    heathen honesty!<note place="foot" xml:id="ftn29" n="29"><p rend="footnote text"
+                            >For other uses of this phrase as synonymous with natural morality, cf.
+                            Nos. 1, <hi rend="italic">Salvation by Faith</hi>, I.1, 2, 4; 2, <hi
+                                rend="italic">The Almost Christian</hi>, I. (ii.)4; 50, ‘The Use of
+                            Money’, II.2; 55, <hi rend="italic">On the Trinity</hi>, §11. Cf. also
+                            the letter to a clergyman, June 18, 1787; and JWJ, Feb. 8, 1753. See
+                            also Lucas, <hi rend="italic">Enquiry After Happiness</hi>,
+                        I.101.</p></note> How few are there that do nothing to another which they
+                    would not another should do unto them!<note place="foot" xml:id="ftn30" n="30"
+                            ><p rend="footnote text">See Matt. 7:12.</p></note> How few that are
+                    clear before God from acts either of injustice or unkindness! How few that do
+                    not ‘offend with their tongue’;<note place="foot" xml:id="ftn31" n="31"><p
+                            rend="footnote text">Cf. Ecclus. 19:16.</p></note> that speak nothing
+                    unkind, nothing untrue! What a small proportion of mankind are innocent even of
+                    outward transgressions! And how much smaller a proportion have their hearts
+                    right before God, clean and holy in his sight! Where are they whom his
+                    all-searching eye discerns to be truly humble? To abhor themselves in dust and
+                        ashes<note place="foot" xml:id="ftn32" n="32"><p rend="footnote text">See
+                            Job 42:6.</p></note> in the presence of God their Saviour? To be deeply
+                    and steadily serious, feeling their wants, and ‘passing the time of their
+                    sojourning with fear’?<note place="foot" xml:id="ftn33" n="33"><p
+                            rend="footnote text">Cf. 1 Pet. 1:17.</p></note> Truly meek and gentle,
+                    never ‘overcome of evil, but overcoming evil with good’?<note place="foot"
+                        xml:id="ftn34" n="34"><p rend="footnote text">Cf. Rom. 12:21.</p></note>
+                    Throughly athirst for God, and continually panting<note place="foot"
+                        xml:id="ftn35" n="35"><p rend="footnote text">See Ps. 42:1-2
+                        (AV).</p></note> after a renewal in his likeness? How thinly are they
+                    scattered over the earth, whose souls are enlarged in love to all mankind; and
+                    who love God with all their strength; who have given him their hearts, and
+                    desire nothing else in earth or heaven!<note place="foot" xml:id="ftn36" n="36"
+                            ><p rend="footnote text">See Ps. 73:25.</p></note> How few are those
+                    lovers of God and man that spend their whole strength in doing good unto all
+                        men;<note place="foot" xml:id="ftn37" n="37"><p rend="footnote text">See
+                            Gal. 6:10.</p></note> and are ready to suffer all things, yea, death
+                    itself, to save one soul from eternal death!</p>
+                <p n="5">5. But while so few are found in the way of life, and so many in the way of
+                    destruction, there is great danger lest the torrent of example<note place="foot"
+                        xml:id="ftn38" n="38"><p rend="footnote text">An echo, here and elsewhere,
+                            of Francis Bacon’s insight that human thought is more often warped by
+                            ingrained prejudices than it is guided by reason or good example; e.g.,
+                            Bacon’s famous ‘four idols’ of the ‘tribe’, the ‘cave’, the
+                            ‘market-place’, and the ‘theatre’, as in <hi rend="italic">Novum
+                                Organum</hi> (1620), I, Aphorisms 38-69. For other instances of the
+                            phrase, ‘torrents of custom’, cf. No. 25, ‘Sermon on the Mount, V’, IV.3
+                            and n.</p></note> should bear us away with them. Even a single example,
+                    if it be always in our sight, is apt to make much impression upon us; especially
+                    when it has nature on its side, when it falls in with <pb n="01:670"/>our own
+                    inclinations. How great then must be the force of so numerous examples,
+                    continually before our eyes; and all conspiring together with our own hearts to
+                    carry us down the stream of nature! How difficult must it be to stem the tide,
+                    and to keep ourselves ‘unspotted in the world’!<note place="foot" xml:id="ftn39"
+                        n="39"><p rend="footnote text">Cf. Jas. 1:27.</p></note></p>
+                <p n="6">6. What heightens the difficulty still more is that they are not the rude
+                    and senseless part of mankind,<note place="foot" xml:id="ftn40" n="40"><p
+                            rend="footnote text">Cf. above, I.6 and n.</p></note> at least not these
+                    alone, who set us the example, who throng the downward way; but the polite, the
+                    well-bred, the genteel, the wise, the men who understand the world; the men of
+                    knowledge, of deep and various learning, the rational, the eloquent! These are
+                    all, or nearly all, against us. And how shall we stand against these? Do not
+                    their tongues drop manna?<note place="foot" xml:id="ftn41" n="41"><p
+                            rend="footnote text">Milton, <hi rend="italic">Paradise Lost</hi>,
+                            ii.112-13: ‘His tongue dropt manna, and could make the worse appear the
+                            better reason.’</p></note> And have they not learned all the arts of
+                    soft persuasion? And of reasoning too; for these are versed in all controversies
+                    and strife of words. It is therefore a small thing with them to prove that the
+                    way is <hi rend="italic">right</hi> because it is <hi rend="italic">broad</hi>;
+                    that he who follows a multitude cannot do evil,<note place="foot" xml:id="ftn42"
+                        n="42"><p rend="footnote text">See Exod. 23:2.</p></note> but only he who
+                    will not follow them; that your way must be <hi rend="italic">wrong</hi> because
+                    it is <hi rend="italic">narrow</hi> and because there are so few that find it.
+                    These will make it clear to a demonstration that evil is good, and good is evil;
+                    that the way of holiness is the way of destruction, and the way of the world the
+                    only way to heaven.</p>
+                <p n="7">7. O how can unlearned and ignorant men maintain their cause against such
+                    opponents! And yet these are not all with whom they must contend, however
+                    unequal to the task; for there are many mighty and noble and powerful men, as
+                    well as wise, in the road that leadeth to destruction. And these have a shorter
+                    way of confuting than that of reason and argument. They usually apply, not to
+                    the understanding, but to the fears of any that oppose them—a method that seldom
+                    fails of success, even where argument profits nothing, as lying level to the
+                    capacities of all men: for all can fear, whether they can reason or no. And all
+                    who have not a firm trust in God, a sure reliance both on his power and love,
+                    cannot but fear to give any disgust<note place="foot" xml:id="ftn43" n="43"><p
+                            rend="footnote text">I.e., an offence; a then contemporary usage which
+                            may be seen in both Johnson’s <hi rend="italic">Dictionary</hi> and the
+                                <hi rend="italic">OED</hi>.</p></note> to those who have the power
+                    of the world in their hands. What wonder, therefore, if the example of these is
+                    a law to all who know not God!</p>
+                <p n="8"><pb n="01:671"/>8. Many rich are likewise in the broad way. And these apply
+                    to the hopes of men, and to all their foolish desires, as strongly and
+                    effectually as the mighty and noble to their fears. So that hardly can you hold
+                    on in the way of the kingdom unless you are dead to all below, unless you are
+                    crucified to the world and the world crucified to you,<note place="foot"
+                        xml:id="ftn44" n="44"><p rend="footnote text">See Gal. 6:14.</p></note>
+                    unless you desire nothing more but God.</p>
+                <p n="9">9. For how dark, how uncomfortable, how forbidding is the prospect on the
+                    opposite side! A strait gate! A narrow way! And few finding that gate! Few
+                    walking in the way. Besides, even those few are not wise men, not men of
+                    learning or eloquence. They are not able to reason either strongly or clearly;
+                    they cannot propose an argument to any advantage. They know not how to prove
+                    what they profess to believe; or to explain even what they say they experience.
+                    Surely such advocates as these will never recommend, but rather discredit the
+                    cause they have espoused.</p>
+                <p n="10">10. Add to this that they are not noble, not honourable men: if they were,
+                    you might bear with their folly. They are men of no interest, no authority, of
+                    no account in the world. They are mean and base, low in life;<note place="foot"
+                        xml:id="ftn45" n="45"><p rend="footnote text">Cf. above, I.6 and
+                        n.</p></note> and such as have no power, if they had the will, to hurt you.
+                    Therefore there is nothing at all to be feared from them; and there is nothing
+                    at all to hope: for the greater part of them may say, ‘Silver and gold have I
+                        none’<note place="foot" xml:id="ftn46" n="46"><p rend="footnote text">Acts
+                            3:6.</p></note>—at least a very moderate share. Nay, some of them have
+                    scarce food to eat or raiment to put on. For this reason, as well as because
+                    their ways are not like those of other men, they are everywhere spoken against,
+                    are despised, have their names cast out as evil, are variously persecuted, and
+                    treated as the filth and offscouring of the world.<note place="foot"
+                        xml:id="ftn47" n="47"><p rend="footnote text">See 1 Cor. 4:13.</p></note> So
+                    that both your fears, your hopes, and all your desires (except those which you
+                    have immediately from God), yea, all your natural passions, continually incline
+                    you to return into the broad way.</p>
+            </div>
+            <div type="section" n="3">
+                <p n="1">III. 1. Therefore it is that our Lord so earnestly exhorts, ‘Enter ye in at
+                    the strait gate.’ Or (as the same exhortation is elsewhere expressed) ‘Strive to
+                    enter in’: ἀγωνίζεσθε εἰσελθεῖν, strive as in an agony. ‘For many’, saith our
+                    Lord, ‘shall seek to enter in’—indolently strive—‘and shall not be able.’<note
+                        place="foot" xml:id="ftn48" n="48"><p rend="footnote text">Luke 13:24. Cf.
+                                <hi rend="italic">Notes</hi>, III.5, and No. 17, ‘The Circumcision
+                            of the Heart’, II.7 and n.</p></note></p>
+                <p n="2"><pb n="01:672"/>2. ’Tis true he intimates what may seem another reason for
+                    this, for their ‘not being able to enter in’, in the words which immediately
+                    follow these. For after he had said, ‘Many, I say unto you, will seek to enter
+                    in, and shall not be able,’ he subjoins: ‘When once the master of the house is
+                    risen up and hath shut to the door, and ye begin to stand without’ (ἄρξησθε ἔξω
+                    ἑστάναι: rather, ‘ye stand without’, for ἄρξησθε seems to be only an elegant
+                    expletive) ‘and to knock at the door, saying, Lord, Lord, open unto us; he shall
+                    answer and say unto you, I know you not. Depart from me, all ye workers of
+                        iniquity.’<hi rend="endnote_reference"><note place="end"><p
+                                rend="endnote text">Luke 13:24-27.</p></note></hi></p>
+                <p n="3">3. It may appear, upon a transient view of these words, that their delaying
+                    to seek at all, rather than their manner of seeking, was the reason why they
+                    were not able to enter in. But it comes in effect to the same thing. They were
+                    therefore commanded to depart, because they had been ‘workers of iniquity’,
+                    because they had walked in the broad road; in other words, because they had not
+                    agonized to enter in at the strait gate. Probably they did <hi rend="italic"
+                        >seek</hi>, before the door was shut; but that did not suffice. And they did
+                        <hi rend="italic">strive</hi>, after the door was shut; but then it was too
+                    late.</p>
+                <p n="4">4. Therefore ‘strive’ ye now, in this your day, ‘to enter in at the strait
+                    gate’. And in order hereto, settle it in your heart, and let it be ever
+                    uppermost in your thoughts, that if you are in a broad way, you are in the way
+                    that leadeth to destruction. If many go with you, as sure as God is true, both
+                    they and you are going to hell. If you are walking as the generality of men
+                    walk, you are walking to the bottomless pit. Are many wise, many rich, many
+                    mighty or noble<note place="foot" xml:id="ftn49" n="49"><p rend="footnote text"
+                            >See 1 Cor. 1:26.</p></note> travelling with you in the same way? By
+                    this token, without going any farther, you know it does not lead to life. Here
+                    is a short, a plain, an infallible rule, before you enter into particulars. In
+                    whatever profession you are engaged, you must be singular or be damned.<note
+                        place="foot" xml:id="ftn50" n="50"><p rend="footnote text">One of Wesley’s
+                            aims was to raise up men and women in his societies who could stand in
+                            their own dignity against the ‘torrents of example’ and ‘custom’ (cf.
+                            No. 25, ‘Sermon on the Mount, V’, IV.3 and n.); hence his ‘infallible
+                            rule’ of singularity. Cf. Nos. 14, <hi rend="italic">The Repentance of
+                                Believers</hi>, I.7; 32, ‘Sermon on the Mount, XII’, I.3; 52, <hi
+                                rend="italic">The Reformation of Manners</hi>, V.7; 66, ‘The Signs
+                            of the Times’, II.5; 125, ‘On a Single Eye’ (on Matt. 6:22-23); and 148,
+                            ‘A Single Intention’ (on the same text). Cf. also his letters to his
+                            father, June 13, 1733, and Dec. 10, 1734; to ‘John Smith’, 1745; and to
+                            Miss March, Sept 16, 1774. Cf. also William Tilly, Sermon XVI, <hi
+                                rend="italic">Sermons</hi>, p. 463; and John Norris, Discourse III,
+                            ‘Concerning Singularity’, <hi rend="italic">Practical Discourses</hi>,
+                            II.45-70, and Discourse V, ‘Of Walking by Faith’, IV.125-71.</p><p
+                            rend="footnote text">Johnson’s <hi rend="italic">Dictionary</hi> cites
+                            Robert South for an illustration of ‘singularly’: ‘Solitude and
+                            singularity can neither daunt nor disgrace him, unless we could suppose
+                            it a disgrace to be singularly good.’ For an opposite viewpoint, cf. Ben
+                            Franklin, <hi rend="italic">Poor Richard’s Almanac</hi> (1757):
+                            ‘Singularity…hath ruined many; happy those who are convinced of the
+                            general opinion.’</p></note> The way to hell has nothing singular in it;
+                    but the way <pb n="01:673"/>to heaven is singularity all over. If you move but
+                    one step towards God you are not as other men are.<note place="foot"
+                        xml:id="ftn51" n="51"><p rend="footnote text">Luke 18:11.</p></note> But
+                    regard not this. ’Tis far better to stand alone than to fall into the pit.<note
+                        place="foot" xml:id="ftn52" n="52"><p rend="footnote text">Cf. No. 32,
+                            ‘Sermon on the Mount, XII’, I.7 and n.</p></note> Run then with patience
+                    the race which is set before thee,<note place="foot" xml:id="ftn53" n="53"><p
+                            rend="footnote text">See Heb. 12:1.</p></note> though thy companions
+                    therein are but few. They will not always be so. Yet a little while and thou
+                    wilt ‘come to an innumerable company of angels, to the general assembly and
+                    church of the first-born, and to the spirits of just men made perfect’.<note
+                        place="foot" xml:id="ftn54" n="54"><p rend="footnote text">Heb.
+                            12:22-23.</p></note></p>
+                <p n="5">5. Now, then, ‘strive to enter in at the strait gate,’ being penetrated
+                    with the deepest sense of the inexpressible danger your soul is in so long as
+                    you are in a broad way, so long as you are void of poverty of spirit and all
+                    that inward religion which the many, the rich, the wise, account madness.
+                    ‘Strive to enter in,’ being pierced with sorrow and shame for having so long run
+                    on with the unthinking crowd,<note place="foot" xml:id="ftn55" n="55"><p
+                            rend="footnote text">Cf. above, I.6 and n.</p></note> utterly neglecting
+                    if not despising that ‘holiness, without which no man can see the Lord’.<note
+                        place="foot" xml:id="ftn56" n="56"><p rend="footnote text">Heb.
+                        12:14.</p></note>
+                    <hi rend="italic">Strive</hi> as in an agony of holy fear, lest ‘a promise being
+                    made you of entering into his rest’,<note place="foot" xml:id="ftn57" n="57"><p
+                            rend="footnote text">Cf. Heb. 4:1. Cf. No. 17, ‘The Circumcision of the
+                            Heart’, II.7 and n. See also III.1, above, and III.6, below.</p></note>
+                    even that ‘rest which remaineth for the people of God’,<note place="foot"
+                        xml:id="ftn58" n="58"><p rend="footnote text">Cf. Heb. 4:9.</p></note> you
+                    should nevertheless ‘come short of it’.<note place="foot" xml:id="ftn59" n="59"
+                            ><p rend="footnote text">Heb. 4:1.</p></note> Strive in all the fervour
+                    of desire, with ‘groanings which cannot be uttered’.<note place="foot"
+                        xml:id="ftn60" n="60"><p rend="footnote text">Rom. 8:26.</p></note> Strive
+                    by prayer without ceasing,<note place="foot" xml:id="ftn61" n="61"><p
+                            rend="footnote text">See 1 Thess. 5:17.</p></note> at all times, in all
+                    places lifting up your heart to God, and giving him no rest till you ‘awake up
+                    after his likeness’ and are ‘satisfied with it’.<note place="foot"
+                        xml:id="ftn62" n="62"><p rend="footnote text">Cf. Ps. 17:16
+                        (BCP).</p></note></p>
+                <p n="6">6. To conclude: ‘Strive to enter in at the strait gate,’ not only by this
+                    agony of soul, of conviction, of sorrow, of shame, of desire, of <pb n="01:674"
+                    />fear, of unceasing prayer, but likewise by ‘ordering thy conversation
+                        aright’,<note place="foot" xml:id="ftn63" n="63"><p rend="footnote text">Cf.
+                            Ps. 50:23,</p></note> by walking with all thy strength in all the ways
+                    of God, the way of innocence, of piety, and of mercy. Abstain from all
+                    appearance of evil;<note place="foot" xml:id="ftn64" n="64"><p
+                            rend="footnote text">1 Thess. 5:22.</p></note> do all possible good to
+                    all men;<note place="foot" xml:id="ftn65" n="65"><p rend="footnote text">See
+                            Gal. 6:10.</p></note> deny thyself, thy own will, in all things, and
+                    take up thy cross daily.<note place="foot" xml:id="ftn66" n="66"><p
+                            rend="footnote text">See Luke 9:23.</p></note> Be ready to cut off thy
+                    right hand, to pluck out thy right eye and cast it from thee;<note place="foot"
+                        xml:id="ftn67" n="67"><p rend="footnote text">See Matt. 5:29;
+                        18:9.</p></note> to suffer the loss of goods, friends, health, all things on
+                    earth, so thou mayst enter into the kingdom of heaven.</p>
+            </div>
+        </body>
+    </text>
+</TEI>
