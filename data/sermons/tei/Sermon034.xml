@@ -1,0 +1,870 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Sermon 34: The Original, Nature, Properties, and Use of the Law</title>
+                <author>Wesley, John</author>
+                <editor role="text">Van Buskirk, Gregory P.</editor>
+                <editor role="digital">Taylor, Michelle M.</editor>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>The Wesley Works Digitzation Project</publisher>
+                <pubPlace>Tampa, FL</pubPlace>
+                <date>2024-02-26</date>
+            </publicationStmt>
+            <sourceDesc>
+                <listBibl>
+                    <biblStruct>
+                        <analytic>
+                            <title level="a">Sermon 34: The Original, Nature, Properties, and Use of
+                                the Law</title>
+                        </analytic>
+                        <monogr>
+                            <title level="j">The Works of John Wesley, Volume II: Sermons II,
+                                34-70</title>
+                            <editor role="volume">Outler, Albert</editor>
+                            <imprint>
+                                <publisher>Abingdon Press</publisher>
+                                <pubPlace>Nashville, TN</pubPlace>
+                                <date when="1985-11-01">1985-11-01</date>
+                                <biblScope unit="page" from="1" to="19"/>
+                            </imprint>
+                        </monogr>
+                        <series>
+                            <title level="s">The Works of John Wesley</title>
+                            <editor role="general">Baker, Frank</editor>
+                        </series>
+                    </biblStruct>
+                </listBibl>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Greg Van Buskirk created Word docs for all of Wesley's sermons using a combination of
+                OCR software and manual proofing. Michelle Taylor converted these docx into XML
+                using Oxygen's DITA automatic transformation scenario, then touched them up
+                manually.</p>
+        </encodingDesc>
+        <standOff>
+            <taxonomy>
+                <keywords>
+                    <term/>
+                </keywords>
+            </taxonomy>
+            <!--Include keywords and terms here eventually.-->
+        </standOff>
+        <revisionDesc/>
+    </teiHeader>
+    <text>
+        <body>
+            <pb n="02:001"/>
+            <introduction>
+                <head>
+                    <hi rend="italic">An Introductory Comment [to Sermons 34-36]</hi>
+                </head>
+                <p>The most patent danger in Wesley’s delicate balancing of faith alone and holy
+                    living was its possible tilt toward moralism (‘<hi rend="italic">inherent</hi>
+                    righteousness’); something of this sort did eventually occur in Methodism after
+                    Wesley’s death, despite all his earnest efforts to safeguard his gospel against
+                    it. But the opposite extreme, antinomianism, was already a clear and present
+                    danger among the Methodists; several versions of it were even then being
+                    vigorously asserted, as if antinomianism were a valid consequence of ‘faith
+                    alone’. This controversy had emerged with the Revival itself, in Wesley’s
+                    disagreements with the Moravians (cf. JWJ, November 1, 1739, April 19-26, 1740).
+                    It had been carried forward by the reckless rhetoric of men like William
+                    Cudworth, minister of the Grey Eagle Street Church in London, although Wesley
+                    had found its substance in the more sophisticated teachings of James Hervey and
+                    others.</p>
+                <p>In 1741 (September 3) Wesley had debated the issue of faith and good works with
+                    Count von Zinzendorf in London. Wesley’s <hi rend="italic">Journal</hi> record
+                    of this passage at arms, along with his earlier denunciations of Whitefield’s
+                    ‘Calvinism ’, etc., had drawn fire from the antinomians (and from some
+                    Calvinists). In 1745, Cudworth had published a twenty-five page <hi
+                        rend="italic">Dialogue Between a Preacher of God’s Righteousness and a
+                        Preacher of Inherent Righteousness</hi>, in which he spoke ‘for God’ and
+                    allowed Wesley to speak for ‘inherent righteousness’; cf. <hi rend="italic"
+                        >Christ Alone Exalted</hi> (1747), in which Cudworth’s tract is No. VIII.
+                    The urgency of this is evident from the manuscript Minutes of the second Annual
+                    Conference in Bristol, August 2,1745, in Questions 24-26 and their answers:</p>
+                <quote>Q. 24. Wherein may we come to the very edge of antinomianism?</quote>
+                <quote>A. (1). In exalting the merits and love of Christ.</quote>
+                <quote>(2). In rejoicing evermore.</quote>
+                <quote>><pb n="02:002"/>Q. 25. What can we do to stop the progress of
+                    antinomianism?</quote>
+                <quote>A. (1). Pray without ceasing that God would speak for himself.</quote>
+                <quote>(2). Write one or two more dialogues.</quote>
+                <quote>Q. 26. Doth faith supersede (set aside the necessity of holiness or good
+                    works?</quote>
+                <quote>A. <hi rend="italic">In no wise. So far from it that it implies both, as a
+                        cause doth its effects.</hi></quote>
+                <p>The proposed ‘one or two more dialogues’ promptly appeared in the same year: <hi
+                        rend="italic">A Dialogue between an Antinomian and his Friend</hi> and <hi
+                        rend="italic">A Second Dialogue between an Antinomian and his Friend</hi>.
+                    The first dialogue was a sort of reenactment of the 1741 debate with Zinzendorf,
+                    with Zinzendorf’s original words now translated from the Latin and with Wesley’s
+                    original replies revised. The second pamphlet was Wesley’s rejoinder to
+                    Cudworth’s <hi rend="italic">Dialogue</hi>; it concludes with what was intended
+                    to be a recapitulation of the discussion as a whole. Unsurprisingly, though,
+                    these dialogues had not concluded the affair, as we see from many <hi
+                        rend="italic">Journal</hi> entries over the ensuing five years (see
+                    especially October 30 and December 11, 1749, etc.). It was, therefore, both
+                    urgent and appropriate for Wesley to follow his thirteen sermons on the Sermon
+                    on the Mount with three additional sermonic essays on the complex, dynamic
+                    interdependence of ‘Law and Gospel’ in his doctrine of salvation. This was the
+                    aim and occasion of the following sermons.</p>
+                <p>Despite their complex development, the sermon outlines are plain and simple. The
+                    ‘original’ of the Law is man’s inborn moral sense—not ‘natural’ in the deist
+                    sense but, rather, as an aspect of the residual <hi rend="italic">imago
+                    Dei</hi>. The ‘nature’ of the Law is <hi rend="italic">Christological</hi>, as
+                    if Torah and Christ are in some sense to be equated. The ‘properties’ of the Law
+                    are threefold, and here Wesley follows the standard Puritan exegesis of Rom.
+                    7:12 as to the Law’s holiness and its instrumentality in the delineation of the
+                    just and the good. Incidentally, seven of the eight contemporary editions of
+                    this sermon here read ‘properties’, in the plural; only the text of <hi
+                        rend="italic">Works</hi> (1771) has ‘property’ (but both Jackson and Sugden
+                    seem to have preferred the singular). Wesley’s brief discussion of the ‘uses of
+                    the Law’ ignores the fact of the extended debate over ‘the <hi rend="italic"
+                        >third</hi> use of the Law’ between the Lutherans and the Calvinists, and
+                    obscures the further fact that Wesley has come down squarely on the Puritan side
+                    of the argument: the threefold ‘use’ of the Law is to convict, convert, <hi
+                        rend="italic">and sustain the believer</hi>—in and after justification (see
+                    below, No. 34, IV.1 and n.).</p>
+                <p><pb n="02:003"/>The twin discourses entitled ‘The Law Established through Faith’
+                    amount to a single essay in two parts. In the first, Wesley turns on his critics
+                    and charges them with ‘voiding the Law’ by (1) ‘not preaching it at all’, and
+                    (2) by preaching ‘faith’ so as to ‘supersede the necessity of holiness’. In the
+                    second part, he argues that the Law is and ought to be ‘established <hi
+                        rend="italic">by faith</hi>’: (1) by a doctrine in which salvation by faith
+                    is understood as the foundation on which the whole enterprise of Christian
+                    living must rest; (2) by preaching ‘faith alone’ so as to promote ‘holiness’
+                    rather than to supersede or subordinate it; and (3) by the manifestation of holy
+                    living in Christian hearts and lives.</p>
+                <p>What we have here, then, is a further variation on the central theme of the
+                    preceding thirteen sermons: the distinctive character of evangelical ethics in
+                    which the <hi rend="italic">fides caritate formata</hi> is always the consequent
+                    of the <hi rend="italic">sola fide</hi>, never its alternative. They also have
+                    in them (Discourse II, II.1-6) one of Wesley’s most interesting and original
+                    proposals: that ‘faith is in order to love’ and, therefore, that ‘love will
+                    exist after faith’—which may or may not be an amendment of 1 Cor. 13:13; cf.
+                    Wesley’s <hi rend="italic">Notes</hi> on this verse: ‘Faith, hope, and love are
+                    the sum of perfection on earth; love alone is the sum of perfection in
+                    heaven.’</p>
+                <p>These sermons were ‘tracts for the times’ and not the distillate of oral
+                    preaching. This appears from the fact that we have no record of Wesley’s having
+                    preached on Rom. 7:12, ever, and there are only two clear references to his use
+                    of Rom. 3:31 (June 27 and August 2, 1741). A possible third reference may be in
+                    the <hi rend="italic">Journal</hi> entry for April 25, 1745: ‘I preached at
+                    Little Horton and Bradford.’ Here I ‘could not but observe how God has made void
+                    all their labour who “make void the law through faith”.’ More than likely,
+                    though, this is either a comment on a local circumstance or, at most, one of the
+                    ‘heads’ in a sermon with another, unspecified text. For a publishing history of
+                    Nos. 34-36 and a list of variant readings in their successive texts, see
+                    Appendix, Vol. 4; see also <hi rend="italic">Bibliog</hi>, No. 130.</p>
+            </introduction>
+            <pb n="02:004"/>
+            <head>The Original, Nature, Properties, and Use of the Law</head>
+            <epigraph>
+                <p>Romans 7:12</p>
+                <p>
+                    <hi rend="italic">Wherefore the law is holy, and the commandment holy, and just,
+                        and good.</hi>
+                </p>
+            </epigraph>
+            <div type="introduction">
+                <p n="1">1. Perhaps there are few subjects within the whole compass of religion so
+                    little understood as this. The reader of this Epistle is usually told, ‘By “the
+                    law” St. Paul means the Jewish law;’ and so, apprehending himself to have no
+                    concern therewith, passes on without farther thought about it. Indeed some are
+                    not satisfied with this account; but observing the Epistle is directed to the
+                    Romans, thence infer that the Apostle in the beginning of this chapter alludes
+                    to the old Roman law. But as they have no more concern with this than with the
+                    ceremonial law of Moses, so they spend not much thought on what they suppose is
+                    occasionally mentioned, barely to illustrate another thing.</p>
+                <p n="2">2. But a careful observer of the Apostle’s discourse will not be content
+                    with those slight explications of it. And the more he weighs the words, the more
+                    convinced he will be that St. Paul, by ‘the law’ mentioned in this chapter, does
+                    not mean either the ancient law of Rome or the ceremonial law of Moses. This
+                    will clearly appear to all who attentively consider the tenor of his discourse.
+                    He begins the chapter, ‘Know ye not, brethren (for I speak to them that know the
+                    law)’—to them who have been instructed therein from their youth—‘that the law
+                    hath dominion over a man as long as he liveth?’<hi rend="endnote_reference"
+                            ><note place="end"><p rend="endnote text">[Rom. 7,] ver.
+                        1.</p></note></hi> What? The law of Rome only, or the ceremonial law? No,
+                    surely; but the <hi rend="italic">moral</hi> law. ‘For’, to give a plain
+                    instance, ‘the woman that hath an husband is bound by the (moral) law to her
+                    husband as long as he liveth. But if her husband be dead, she is loosed from the
+                    law of her husband.’<hi rend="endnote_reference"><note place="end"><p
+                                rend="endnote text">Ver. 2.</p></note></hi> ‘So, then, if while her
+                    husband liveth she be married to another man, she shall <pb n="02:005"/> be
+                    called an adulteress: but if her husband be dead she is free from that law, so
+                    that she is no adulteress, though she be married to another man.’<hi
+                        rend="endnote_reference"><note place="end"><p rend="endnote text">Ver.
+                                3.</p></note></hi> From this particular instance the Apostle
+                    proceeds to draw that general conclusion: ‘Wherefore, my brethren’, by a plain
+                    parity of reason, ‘ye also are become dead to the law’, the whole Mosaic
+                    institution, ‘by the body of Christ’ offered for you, and bringing you under a
+                    new dispensation: ‘that ye should’ without any blame ‘be married to another,
+                    even to him who is raised from the dead’, and hath thereby given proof of his
+                    authority to make the change, ‘that ye should bring forth fruit unto God’.<hi
+                        rend="endnote_reference"><note place="end"><p rend="endnote text">Ver.
+                                4.</p></note></hi> And this we can do now, whereas before we could
+                    not: ‘For when we were in the flesh’, under the power of the flesh, that is, of
+                    corrupt nature (which was necessarily the case till we knew the power of
+                    Christ’s resurrection)<note place="foot" xml:id="ftn1" n="1"><p
+                            rend="footnote text">See Phil. 3:10.</p></note>, ‘the motions of sins
+                    which were by the law’, which were shown and inflamed by the Mosaic law, not
+                    conquered, ‘did work in our members’, broke out various ways, ‘to bring forth
+                    fruit unto death.’<hi rend="endnote_reference"><note place="end"><p
+                                rend="endnote text">Ver. 5.</p></note></hi> ‘But now we are
+                    delivered from the law’, from that whole moral as well as ceremonial economy;
+                    ‘that being dead whereby we were held’—that entire institution being now as it
+                    were dead, and having no more authority over us than the husband when dead hath
+                    over his wife—‘that we should serve’ him who died for us and rose again ‘in
+                    newness of spirit’, in a new spiritual dispensation, ‘and not in the oldness of
+                    the letter’<hi rend="endnote_reference"><note place="end"><p rend="endnote text"
+                                >Ver. 6.</p></note></hi>—with a bare outward service, according to
+                    the letter of the Mosaic institution.</p>
+                <p n="3">3. The Apostle having gone thus far in proving that the Christian had set
+                    aside the Jewish dispensation, and that the moral law itself, though it could
+                    never pass away, yet stood on a different foundation from what it did before,
+                    now stops to propose and answer an objection. ‘What shall we say then? Is the
+                    law sin?’ So some might infer from a misapprehension of those words, ‘the
+                    motions of sin which were by the law’. ‘God forbid!’ saith the Apostle, that we
+                    should say so. ‘Nay’, the law is an irreconcilable enemy to sin, searching it
+                    out wherever it is. ‘I had not known sin but by the law. I had not known lust’,
+                    evil desire, to be sin, ‘except the law had said, Thou shalt not covet’.<hi
+                        rend="endnote_reference"><note place="end"><p rend="endnote text">Ver.
+                                7.</p></note></hi> After opening this farther in the four following
+                    verses, he subjoins this <pb n="02:006"/>general conclusion with regard more
+                    especially to the moral law, from which the preceding instance was taken:
+                    ‘Wherefore the law is holy, and the commandment holy, and just, and good.’</p>
+                <p n="4">4. In order to explain and enforce these deep words, so little regarded
+                    because so little understood, I shall endeavour to show, first, the original of
+                    this law; secondly, the nature thereof; thirdly, the properties, that it is
+                    ‘holy, and just, and good’; and fourthly, the uses of it.</p>
+            </div>
+            <div type="section" n="1">
+                <p n="1">I. 1. I shall, first, endeavour to show the original of the moral law,
+                    often called ‘the law’ by way of eminence.<note place="foot" xml:id="ftn2" n="2"
+                            ><p rend="footnote text">‘In its highest degree’; cf. this seventeenth-
+                            eighteenth-century usage of ‘eminence’ in <hi rend="italic">OED</hi>,
+                            8c.</p></note> Now this is not, as some may possibly have imagined, of
+                    so late an institution as the time of Moses. Noah declared it to men long before
+                    that time, and Enoch before him.<note place="foot" xml:id="ftn3" n="3"><p
+                            rend="footnote text">The notion of the revelation of the moral law to
+                            Noah is reflected in the decision of ‘the council of Jerusalem’ (Acts
+                            15:1-20, echoing Gen. 9:12-17; cf. 2 Pet 2:5 and Heb. 11:7). Enoch’s
+                            special place in covenant history may be seen in Wisd. 4:10; Jude 14; in
+                            the apocryphal book of Enoch, 106-7; and in Ecclus. 44:16, ‘a sign of
+                            knowledge [of the Law] to all generations’.</p></note> But we may trace
+                    its original higher still, even beyond the foundation of the world to that
+                    period, unknown indeed to men, but doubtless enrolled in the annals of eternity,
+                    when ‘the morning stars’ first ‘sang together’,<note place="foot" xml:id="ftn4"
+                        n="4"><p rend="footnote text">Job 38:7.</p></note> being newly called into
+                    existence. It pleased the great Creator to make these his first-born sons
+                    intelligent beings, that they might know him that created them. For this end he
+                    endued them with understanding, to discern truth from falsehood, good from evil;
+                    and as a necessary result of this, with liberty, a capacity of choosing the one
+                    and refusing the other. By this they were likewise enabled to offer him a free
+                    and willing service: a service rewardable in itself, as well as most acceptable
+                    to their gracious Master.</p>
+                <p n="2">2. To employ all the faculties which he had given them, particularly their
+                    understanding and liberty, he gave them a law, a complete model of all truth, so
+                    far as was intelligible to a finite being, and of all good, so far as angelic
+                    minds were capable of embracing it. It was also the design of their beneficent
+                    Governor herein to make way for a continual increase of their happiness; seeing
+                    every instance of obedience to that law would both add to the perfection of
+                    their nature and entitle them to an higher reward, which the righteous Judge
+                    would give in its season.</p>
+                <p n="3"><pb n="02:007"/>3. In like manner, when God in his appointed time had
+                    created a new order of intelligent beings, when he had raised man from the dust
+                    of the earth, breathed into him the breath of life, and caused him to become a
+                    living soul,<note place="foot" xml:id="ftn5" n="5"><p rend="footnote text">Gen.
+                            2:7.</p></note> endued with power to choose good or evil, he gave to
+                    this free, intelligent creature the same law as to his first-born children<note
+                        place="foot" xml:id="ftn6" n="6"><p rend="footnote text">I.e., the angels,
+                            as in Gen. 6:2, 4; Job 38:7; and Ps. 82:6; cf. No. 141, ‘The Image of
+                            God’, for Wesley’s early view of God’s gift of the Law to
+                        Adam.</p></note>—not wrote indeed upon tables of stone, or any corruptible
+                    substance, but engraven on his heart by the finger of God, wrote in the inmost
+                    spirit both of men and of angels—to the intent it might never be far off, never
+                    hard to be understood; but always at hand, and always shining with clear light,
+                    even as the sun in the midst of heaven.</p>
+                <p n="4">4. Such was the original of the law of God. With regard to man, it was
+                    coeval with his nature. But with regard to the elder sons of God, it shone in
+                    its full splendour ‘or ever the mountains were brought forth, or the earth and
+                    the round world were made’.<note place="foot" xml:id="ftn7" n="7"><p
+                            rend="footnote text">Cf. Ps. 90:2 (BCP).</p></note> But it was not long
+                    before man rebelled against God, and by breaking this glorious law wellnigh
+                    effaced it out of his heart; ‘the eyes of his understanding’ being <hi
+                        rend="italic">darkened</hi><note place="foot" xml:id="ftn8" n="8"><p
+                            rend="footnote text">Cf. Eph. 1:18.</p></note> in the same measure as
+                    his soul was ‘alienated from the life of God’.<note place="foot" xml:id="ftn9"
+                        n="9"><p rend="footnote text">Eph. 4:18. Cf. also Charles Wesley, ‘The
+                            Beatitudes’, ‘Alien from the life of God’, in <hi rend="italic">Hymns
+                                and Sacred Poems</hi> (1749), I.35, 37.</p></note> And yet God did
+                    not despise the work of his own hands; but being reconciled to man through the
+                    Son of his love, he in some measure re-inscribed the law on the heart of his
+                    dark, sinful creature.<note place="foot" xml:id="ftn10" n="10"><p
+                            rend="footnote text">This notion of ‘re-inscription’ is crucial for
+                            Wesley’s doctrine of the human <hi rend="italic">in se</hi> as a divine
+                            gift (exceeding ‘nature’) and of ‘prevenient grace’.</p></note> ‘He’
+                    again ‘showed thee, O man, what is good’ (although not as in the beginning),
+                    ‘even to do justly, and to love mercy, and to walk humbly with thy God.’<note
+                        place="foot" xml:id="ftn11" n="11"><p rend="footnote text">Cf. Mic.
+                        6:8.</p></note></p>
+                <p n="5">5. And this he showed not only to our first parents, but likewise to all
+                    their posterity, by ‘that true light which enlightens every man that cometh into
+                    the world’.<note place="foot" xml:id="ftn12" n="12"><p rend="footnote text">Cf.
+                            John 1:9; cf. this illuminist motif with similar ideas in No. 10,‘The
+                            Witness of the Spirit, I’, I.12 and n.</p></note> But notwithstanding
+                    this light, all flesh had in process of time ‘corrupted their way before
+                        him’;<note place="foot" xml:id="ftn13" n="13"><p rend="footnote text">Cf.
+                            Gen. 6:12.</p></note> till he chose out of mankind a peculiar
+                        people,<note place="foot" xml:id="ftn14" n="14"><p rend="footnote text">1
+                            Pet. 2:9.</p></note> to whom he gave a more perfect knowledge of his
+                    law. And the heads of this, because <pb n="02:008"/> they were slow of
+                    understanding, he wrote on two tables of stone; which he commanded the fathers
+                    to teach their children through all succeeding generations.</p>
+                <p n="6">6. And thus it is that the law of God is now made known to them that know
+                    not God. They hear, with the hearing of the ear, the things that were written
+                    aforetime for our instruction.<note place="foot" xml:id="ftn15" n="15"><p
+                            rend="footnote text">See Rom. 15:4.</p></note> But this does not
+                    suffice. They cannot by this means comprehend the height and depth and length
+                    and breadth thereof.<note place="foot" xml:id="ftn16" n="16"><p
+                            rend="footnote text">See Eph. 3:18.</p></note> God alone can reveal this
+                    by his Spirit. And so he does to all that truly believe, in consequence of that
+                    gracious promise made to all the Israel of God: ‘Behold, the days come, saith
+                    the Lord, that I will make a new covenant with the house of Israel…. And this
+                    shall be the covenant that I will make…. I will put my law in their inward
+                    parts, and write it in their hearts; and I will be their God, and they shall be
+                    my people.’<hi rend="endnote_reference"><note place="end"><p rend="endnote text"
+                                >Jer. 31:31, 33.</p></note></hi></p>
+            </div>
+            <div type="section" n="2">
+                <p n="1">II. 1. The nature of that law which was originally given to angels in
+                    heaven and man in paradise, and which God has so mercifully promised to write
+                    afresh in the hearts of all true believers, was the second thing I proposed to
+                    show. In order to which I would first observe that although ‘the law’ and ‘the
+                    commandment’ are sometimes differently taken (the commandment meaning but a part
+                    of the law) yet in the text they are used as equivalent terms, implying one and
+                    the same thing. But we cannot understand here, either by one or the other, the
+                    ceremonial law. ’Tis not the ceremonial law whereof the Apostle says, in the
+                    words above recited, ‘I had not known sin but by the law:’ this is too plain to
+                    need a proof. Neither is it the ceremonial law which saith, in the words
+                    immediately subjoined, ‘Thou shalt not covet.’<note place="foot" xml:id="ftn17"
+                        n="17"><p rend="footnote text">Rom. 7:7; cf. Exod. 20:17.</p></note>
+                    Therefore the ceremonial law has no place in the present question.</p>
+                <p n="2">2. Neither can we understand by the law mentioned in the text the Mosaic
+                    dispensation. ’Tis true the word is sometimes so understood: as when the Apostle
+                    says, speaking to the Galatians, ‘The covenant which was confirmed before’
+                    (namely with Abraham the father of the faithful), ‘the law’, i.e. the Mosaic
+                    dispensation, ‘which was four hundred and thirty years after, <pb n="02:009"
+                    />cannot disannul.’<hi rend="endnote_reference"><note place="end"><p
+                                rend="endnote text">Chap. 3, ver. 17.</p></note></hi> But it cannot
+                    be so understood in the text; for the Apostle never bestows so high
+                    commendations as these upon that imperfect and shadowy dispensation. He nowhere
+                    affirms the Mosaic to be a <hi rend="italic">spiritual</hi> law; or that it is
+                    ‘holy, and just, and good’. Neither is it true that God ‘will write that law in
+                    the hearts’<note place="foot" xml:id="ftn18" n="18"><p rend="footnote text">Cf.
+                            Jer. 31:33.</p></note> of them whose ‘iniquities he remembers no
+                        more’.<note place="foot" xml:id="ftn19" n="19"><p rend="footnote text">Cf.
+                            Heb. 6:12; 10:17.</p></note> It remains that ‘the law’, eminently so
+                    termed, is no other than the moral law.</p>
+                <p n="3">3. Now this law is an incorruptible picture of the high and holy One that
+                    inhabiteth eternity.<note place="foot" xml:id="ftn20" n="20"><p
+                            rend="footnote text">See Isa. 57:15. This view of the moral law as a
+                            divine hypostasis is a prime factor in Wesley’s Christology (i.e.,
+                            Christ as Torah incarnate), soteriology (i.e., the <hi rend="italic"
+                                >justice</hi> of justification), and ethics (i.e., the correlation
+                            of the moral law and holy living).</p></note> It is he whom in his
+                    essence no man hath seen or can see, made visible to men and angels. It is the
+                    face of God unveiled; God manifested to his creatures as they are able to bear
+                    it; manifested to give and not to destroy life; that they may see God and live.
+                    It is the heart of God disclosed to man. Yea, in some sense we may apply to this
+                    law what the Apostle says of his Son—it is ‘the streaming forth’ or outbeaming
+                    ‘of his glory, the express image of his person’.<note place="foot"
+                        xml:id="ftn21" n="21"><p rend="footnote text">Cf. Heb. 1:3. Wesley’s text of
+                            1771 quotes the Greek orig. here. Cf. No. 15, <hi rend="italic">The
+                                Great Assise</hi>, II.1 and n.</p></note></p>
+                <p n="4">4. ‘If virtue’, said the ancient heathen, ‘could assume such a shape as
+                    that we could behold her with our eyes, what wonderful love would she excite in
+                        us!’<note place="foot" xml:id="ftn22" n="22"><p rend="footnote text">Cf.
+                            Cicero, <hi rend="italic">De Officiis (On Moral Obligations)</hi>, I.5:
+                            ‘You see here…the true form of virtue; “and if”, as Plato says, “it
+                            could be seen with the bodily eye it would awaken a marvellous love of
+                            wisdom”—cf. <hi rend="italic">Phaedrus</hi>, 250<hi rend="italic"
+                                >d:</hi> ‘[wisdom’s] loveliness would be transporting if only there
+                            were a visible image of her.’ Note the comment in the Elizabethan
+                            Homily, ‘On Repentance’, Pt. ΙII (<hi rend="italic">Homilies</hi>, p.
+                            486): ‘Plato doth in a certain place write that if virtue could be seen
+                            with bodily eyes, all men would be wonderfully inflamed and kindled with
+                            the love of it.’ Cf. Samuel Clarke, <hi rend="italic">Discourse
+                                Concerning the Unchangeable Obligations of Natural Religion and the
+                                Truth and Certainty of the Christian Revelation</hi> (1706), p. 89,
+                            where in place of wisdom and virtue Clarke prefers the phrase ‘universal
+                            justice’. See also <hi rend="italic">A Farther Appeal</hi>, Pt II,
+                            ΙII.22 (11:269 in this edn.).</p></note> If virtue could do this! It is
+                    done already. The law of God is all virtues in one, in such a shape as to be
+                    beheld with open face by all those whose eyes God hath enlightened. What is the
+                    law but divine virtue and wisdom assuming a visible form? What is it but the
+                    original ideas of truth and good, which were lodged in the uncreated mind from
+                        <pb n="02:010"/>eternity, now drawn forth and clothed with such a vehicle as
+                    to appear even to human understanding?</p>
+                <p n="5">5. If we survey the law of God in another point of view, it is supreme,
+                    unchangeable reason; it is unalterable rectitude; it is the everlasting fitness
+                    of all things<note place="foot" xml:id="ftn23" n="23"><p rend="footnote text"
+                            >Clarke, <hi rend="italic">Demonstration of the Being and Attributes of
+                                God</hi>, Prop. XII. But see No. 17, ‘The Circumcision of the
+                            Heart’, II.3, where Wesley had denounced the notion of ‘everlasting
+                            fitness’.</p></note> that are or ever were created. I am sensible what a
+                    shortness, and even impropriety, there is in these and all other human
+                    expressions, when we endeavour by these faint pictures to shadow out the deep
+                    things of God. Nevertheless we have no better, indeed no other way, during this
+                    our infant state of existence. As ‘we’ now ‘know’ but ‘in part’, so we are
+                    constrained to ‘prophesy’, i.e. speak of the things of God, ‘in part’ also.<note
+                        place="foot" xml:id="ftn24" n="24"><p rend="footnote text">See 1 Cor.
+                            13:9.</p></note> ‘We cannot order our speech by reason of darkness’<note
+                        place="foot" xml:id="ftn25" n="25"><p rend="footnote text">Job
+                        37:19.</p></note> while we are in this house of clay.<note place="foot"
+                        xml:id="ftn26" n="26"><p rend="footnote text">See Job 4:19. Cf. also No. 28,
+                            ‘Sermon on the Mount, VIII’, §21 and n.</p></note> While I am ‘a child’
+                    I must ‘speak as a child’. But I shall soon ‘put away childish things’. For
+                    ‘when that which is perfect is come, that which is in part shall be done
+                        away.’<note place="foot" xml:id="ftn27" n="27"><p rend="footnote text">1
+                            Cor. 13:10, 11.</p></note></p>
+                <p n="6">6. But to return. The law of God (speaking after the manner of men) is a
+                    copy of the eternal mind, a transcript of the divine nature; yea, it is the
+                    fairest offspring of the everlasting Father, the brightest efflux of his
+                    essential wisdom, the visible beauty of the Most High.<note place="foot"
+                        xml:id="ftn28" n="28"><p rend="footnote text">Cf. Col. 1:15-19, for a
+                            striking parallel between Wesley’s characterizations of the Law and the
+                            Christological metaphors in Colossians.</p></note> It is the delight and
+                    wonder of cherubim and seraphim and all the company of heaven,<note place="foot"
+                        xml:id="ftn29" n="29"><p rend="footnote text">Cf. BCP, Communion,
+                            Sanctus.</p></note> and the glory and joy of every wise believer, every
+                    well instructed child of God upon earth.</p>
+            </div>
+            <div type="section" n="3">
+                <p n="1">III. 1. Such is the nature of the ever-blessed law of God. I am, in the
+                    third place, to show the properties of it. Not all, for that would exceed the
+                    wisdom of an angel; but those only which are mentioned in the text. These are
+                    three: It is ‘holy, just, and good’. And first, ‘the law is holy.’</p>
+                <p n="2">2. In this expression the Apostle does not appear to speak of its effects,
+                    but rather of its nature. As St. James, speaking of the same thing under another
+                    name, says, ‘The wisdom from above’ (which <pb n="02:011"/>is no other than this
+                    law, written in our heart) ‘is first pure,’<hi rend="endnote_reference"><note
+                            place="end"><p rend="endnote text"><hi rend="italic">Ibid.</hi> [Jas.
+                                3:17].</p></note></hi> ἁγνή—chaste, spotless, internally and
+                    essentially holy.<note place="foot" xml:id="ftn30" n="30"><p
+                            rend="footnote text">All nine edns. in Wesley’s lifetime read
+                            ‘internally’, and this would seem to mean ‘inherently’, or something
+                            like that. Jackson, sensing that ‘eternally’ would fit Wesley’s argument
+                            more consistently (by adding a temporal dimension), changed the reading
+                            either conjecturally or on the basis of a MS <hi rend="italic"
+                                >erratum</hi> now lost. Sugden followed Jackson here without
+                            comment; it is a reasonable guess that Wesley had written ‘eternally’,
+                            and that his printer had misread him, although his writing in 1750 was
+                            perfectly legible.</p></note> And consequently, when it is transcribed
+                    into the life, as well as the soul, it is (as the same Apostle terms it),
+                    θρησκεία καθαρὰ καὶ ἀμίαντος, ‘pure religion and undefiled’;<hi
+                        rend="endnote_reference"><note place="end"><p rend="endnote text">[Jas.]
+                                1:27.</p></note></hi> or, the pure, clean, unpolluted worship of
+                    God.</p>
+                <p n="3">3. It is indeed in the highest degree pure, chaste, clean, holy. Otherwise
+                    it could not be the immediate offspring, and much less the express resemblance
+                    of God, who is essential holiness. It is pure from all sin, clean and unspotted
+                    from any touch of evil. It is a chaste virgin, incapable of any defilement, of
+                    any mixture with that which is unclean or unholy. It has no fellowship with sin
+                    of any kind; for ‘what communion hath light with darkness?’<note place="foot"
+                        xml:id="ftn31" n="31"><p rend="footnote text">2 Cor. 6:14.</p></note> As sin
+                    is in its very nature enmity to God, so his law is enmity to sin.</p>
+                <p n="4">4. Therefore it is that the Apostle rejects with such abhorrence that
+                    blasphemous supposition that the law of God is either sin itself or the cause of
+                    sin. ‘God forbid’<note place="foot" xml:id="ftn32" n="32"><p
+                            rend="footnote text">Rom. 7:7.</p></note> that we should suppose it is
+                    the cause of sin because it is the discoverer of it; because it detects the
+                    hidden things of darkness,<note place="foot" xml:id="ftn33" n="33"><p
+                            rend="footnote text">1 Cor. 4:5.</p></note> and drags them out into open
+                    day. ’Tis true, by this means (as the Apostle observes, verse 13) ‘sin appears
+                    to be sin.’<note place="foot" xml:id="ftn34" n="34"><p rend="footnote text">Cf.
+                            Rom. 7:13.</p></note> All its disguises are torn away, and it appears in
+                    its native deformity. ’Tis true likewise that ‘sin by the commandment becomes
+                    exceeding sinful.’<note place="foot" xml:id="ftn35" n="35"><p
+                            rend="footnote text">Cf. <hi rend="italic">ibid.</hi></p></note> Being
+                    now committed against light and knowledge, being stripped even of the poor plea
+                    of ignorance, it loses its excuse as well as disguise, and becomes far more
+                    odious both to God and man. Yea, and it is true that ‘sin worketh death by that
+                    which is good,’<note place="foot" xml:id="ftn36" n="36"><p rend="footnote text"
+                            >Cf. <hi rend="italic">ibid.</hi></p></note> which in itself is pure and
+                    holy. When it is dragged out to light it rages the more: when it is restrained
+                    it bursts out with greater violence. Thus the Apostle, speaking in the person of
+                    one who was convinced of sin but not yet delivered from it, ‘sin taking occasion
+                    by the <pb n="02:012"/>commandment’,<note place="foot" xml:id="ftn37" n="37"><p
+                            rend="footnote text">Rom. 7:11.</p></note> detecting and endeavouring to
+                    restrain it, disdained the restraint, and so much the more ‘wrought in me all
+                    manner of concupiscence’ (verse 8)—all manner of foolish and hurtful
+                        desire,<note place="foot" xml:id="ftn38" n="38"><p rend="footnote text">See
+                            1 Tim. 6:9.</p></note> which that commandment sought to restrain. Thus
+                    ‘when the commandment came, sin revived’ (verse 9). It fretted and raged the
+                    more. But this is no stain on the commandment. Though it is abused it cannot be
+                    defiled. This only proves that ‘the heart’ of man ‘is desperately wicked.’<note
+                        place="foot" xml:id="ftn39" n="39"><p rend="footnote text">Jer.
+                        17:9.</p></note> But ‘the law’ of God ‘is holy’ still.<note place="foot"
+                        xml:id="ftn40" n="40"><p rend="footnote text">Rom. 7:12.</p></note></p>
+                <p n="5">5. And it is, secondly, <hi rend="italic">just</hi>. It renders to all
+                    their due. It prescribes exactly what is right, precisely what ought to be done,
+                    said, or thought, both with regard to the Author of our being, with regard to
+                    ourselves, and with regard to every creature which he has made. It is adapted in
+                    all respects to the nature of things, of the whole universe and every
+                    individual. It is suited to all the circumstances of each, and to all their
+                    mutual relations, whether such as have existed from the beginning, or such as
+                    commenced in any following period. It is exactly agreeable to the fitnesses of
+                    things, whether essential or accidental. It clashes with none of these in any
+                    degree, nor is ever unconnected with them. If the word be taken in that sense,
+                    there is nothing <hi rend="italic">arbitrary</hi> in the law of God: although
+                    still the whole and every part thereof is totally dependent upon his will, so
+                    that ‘Thy will be done’<note place="foot" xml:id="ftn41" n="41"><p
+                            rend="footnote text">Matt. 6:10; 26:42.</p></note> is the supreme
+                    universal law both in earth and heaven.</p>
+                <p n="6">6. ‘But is the will of God the cause of his law? Is his will the original
+                    of right and wrong? Is a thing therefore right because God wills it? Or does he
+                    will it because it is right?’</p>
+                <p>I fear this celebrated question<note place="foot" xml:id="ftn42" n="42"><p
+                            rend="footnote text">‘Celebrated’, indeed, at least since Plato, who
+                            understood ‘God’ as the Supreme Agent of the Supreme Good, as in the <hi
+                                rend="italic">Philebus</hi> 230, ‘the <hi rend="italic">cause</hi>
+                            of the [cosmic] mixture’, or the <hi rend="italic">Timaeus</hi> 28<hi
+                                rend="italic">c</hi>-29<hi rend="italic">c</hi>, ‘the <hi
+                                rend="italic">Maker</hi> and Father of this universe’. In the
+                            tradition of Christian Platonism (from Origen to St. Bonaventura—and on
+                            to Descartes, Malebranche to John Norris) God’s will and ‘the good’ had
+                            been understood as reciprocals. Scotus, Ockham, Calvin were concerned to
+                            stress God’s freedom from extrinsic norms of any sort and tended to
+                            define ‘the good’ in terms of God’s untrammelled will. The deists and
+                            ‘natural law’ moralists (Fiddes, Shaftesbury, Clarke, and even Butler)
+                            point to ‘the good’ as the norm by which even God is bound. The
+                            Calvinists (Ames, Perkins, Whitaker, Twisse) argued in retort that God
+                            is unbeholden to any norm or power other than his own will. Cf. Heinrich
+                            Heppe’s extensive collection of quotations to this same effect from the
+                            classical Reformed dogmaticians in <hi rend="italic">Reformed
+                                Dogmatics</hi> (London, George Allen and Unwin, 1950), ch. V,
+                            §§18-39, pp. 81-100.</p></note> is more curious than useful. <pb
+                        n="02:013"/>And perhaps in the manner it is usually treated of it does not
+                    so well consist with the regard that is due from a creature to the Creator and
+                    Governor of all things. ’Tis hardly decent for man to call the supreme God to
+                    give an account to him! Nevertheless, with awe and reverence we may speak a
+                    little. The Lord pardon us if we speak amiss!</p>
+                <p n="7">7. It seems, then, that the whole difficulty arises from considering God’s
+                    will as distinct from God.<note place="foot" xml:id="ftn43" n="43"><p
+                            rend="footnote text">Cf. Wesley’s later pamphlet on this point, <hi
+                                rend="italic">Thoughts upon God’s Sovereignty</hi>, 1777 (<hi
+                                rend="italic">Bibliog</hi>, No. 367; Vol. 12 of this
+                        edn.).</p></note> Otherwise it vanishes away. For none can doubt but God is
+                    the cause of the law of God. But the will of God is God himself. It is God
+                    considered as willing thus or thus. Consequently, to say that the will of God,
+                    or that God himself, is the cause of the law, is one and the same thing.</p>
+                <p n="8">8. Again: if the law, the immutable rule of right and wrong, depends on the
+                    nature and fitnesses of things, and on their essential relations to each other
+                    (I do not say their eternal relations; because the eternal relations of things
+                    existing in time is little less than a contradiction); if, I say, this depends
+                    on the nature and relations of things, then it must depend on God, or the will
+                    of God; because those things themselves, with all their relations, are the work
+                    of his hands. By his will, ‘for his pleasure’ alone, they all ‘are and were
+                        created’.<note place="foot" xml:id="ftn44" n="44"><p rend="footnote text"
+                            >Cf. Rev. 4:11.</p></note></p>
+                <p n="9">9. And yet it may be granted (which is probably all that a considerate
+                    person would contend for) that in every particular case God wills this or this
+                    (suppose that men should honour their parents) because it is right, agreeable to
+                    the fitness of things, to the relation wherein they stand.<note place="foot"
+                        xml:id="ftn45" n="45"><p rend="footnote text">Note this effort to assimilate
+                            the good essence of rationalism into an ethical theory, partly to avoid
+                            notions of sovereignty which might lend support to the
+                        antinomians.</p></note></p>
+                <p n="10">10. The law then is right and just concerning all things. And it is <hi
+                        rend="italic">good</hi> as well as <hi rend="italic">just</hi>. This we may
+                    easily infer from the fountain whence it flowed. For what was this but the
+                    goodness of God? What but goodness alone inclined him to impart that divine copy
+                    of himself to the holy angels? To what else can we impute his bestowing upon man
+                    the same transcript of his own nature? And what but tender love constrained him
+                    afresh to manifest his will to fallen man? Either to Adam or any of his seed,
+                    who like him were <pb n="02:014"/>‘come short of the glory of God’?<note
+                        place="foot" xml:id="ftn46" n="46"><p rend="footnote text">Rom.
+                        3:23.</p></note> Was it not mere love that moved him to publish his law,
+                    after the understandings of men were darkened?<note place="foot" xml:id="ftn47"
+                        n="47"><p rend="footnote text">See Eph. 4:18.</p></note> And to send his
+                    prophets to declare that law to the blind, thoughtless children of men?
+                    Doubtless his goodness it was which raised up Enoch and Noah to be preachers of
+                    righteousness; which caused Abraham, his friend, and Isaac and Jacob, to bear
+                    witness to his truth. It was his goodness alone which, when ‘darkness’ had
+                    ‘covered the earth, and thick darkness the people’,<note place="foot"
+                        xml:id="ftn48" n="48"><p rend="footnote text">Cf. Isa. 60:2.</p></note> gave
+                    a written law to Moses, and through him to the nation whom he had chosen. It was
+                    his love which explained these living oracles by David and all the prophets that
+                    followed; until, when the fullness of time was come, he sent his only-begotten
+                    Son, ‘not to destroy the law, but to fulfil’,<note place="foot" xml:id="ftn49"
+                        n="49"><p rend="footnote text">Cf. Matt. 5:17.</p></note> to confirm every
+                    jot and tittle thereof, till having wrote it in the hearts of all his children,
+                    and put all his enemies under his feet, ‘he shall deliver up’ his mediatorial
+                    ‘kingdom to the Father’, ‘that God may be all in all’.<note place="foot"
+                        xml:id="ftn50" n="50"><p rend="footnote text">Cf. 1 Cor. 15:24,
+                        28.</p></note></p>
+                <p n="11">11. And this law which the goodness of God gave at first, and has
+                    preserved through all ages, is, like the fountain from whence it springs, full
+                    of goodness and benignity. It is mild and kind; it is (as the Psalmist expresses
+                    it) ‘sweeter than honey and the honeycomb’.<note place="foot" xml:id="ftn51"
+                        n="51"><p rend="footnote text">Ps. 19:10.</p></note> It is winning and
+                    amiable. It includes ‘whatsoever things are lovely or of good report. If there
+                    be any virtue, if there be any praise’<note place="foot" xml:id="ftn52" n="52"
+                            ><p rend="footnote text">Cf. Phil. 4:8.</p></note> before God and his
+                    holy angels, they are all comprised in this: wherein are hid all the treasures
+                    of the divine wisdom and knowledge and love.</p>
+                <p n="12">12. And it is <hi rend="italic">good</hi> in its effects, as well as in
+                    its nature. As the tree is, so are its fruits. The fruits of the law of God
+                    written in the heart are ‘righteousness and peace and assurance for ever’.<note
+                        place="foot" xml:id="ftn53" n="53"><p rend="footnote text">Cf. Isa.
+                            32:17.</p></note> Or rather, the law itself is righteousness, filling
+                    the soul with a peace that passeth all understanding,<note place="foot"
+                        xml:id="ftn54" n="54"><p rend="footnote text">See Phil. 4:7.</p></note> and
+                    causing us to rejoice evermore in the testimony of a good conscience toward
+                        God.<note place="foot" xml:id="ftn55" n="55"><p rend="footnote text">See 2
+                            Cor. 1:12; 1 Pet. 3:21.</p></note> It is not so properly a pledge as an
+                    ‘earnest of our inheritance’,<note place="foot" xml:id="ftn56" n="56"><p
+                            rend="footnote text">Eph. 1:14.</p></note> being a part of the purchased
+                    possession. It is God made manifest in our flesh, and bringing with him eternal
+                    life; assuring us by that pure and perfect love that we are ‘sealed unto the day
+                    of <pb n="02:015"/>redemption’;<note place="foot" xml:id="ftn57" n="57"><p
+                            rend="footnote text">Eph. 4:30.</p></note> that he will ‘spare us, as a
+                    man spareth his own son that serveth him, in the day when he maketh up his
+                        jewels’,<note place="foot" xml:id="ftn58" n="58"><p rend="footnote text">Cf.
+                            Mal. 3:17.</p></note> and that there remaineth for us ‘a crown of glory
+                    which fadeth not away’.<note place="foot" xml:id="ftn59" n="59"><p
+                            rend="footnote text">Cf. 1 Pet. 5:4. Note here, again, the high
+                            correlations between the law and the saving work of Christ. Salvation
+                                <hi rend="italic">through</hi> Christ is, therefore, <hi
+                                rend="italic">to</hi> the law (i.e., holy living).</p></note></p>
+            </div>
+            <div type="section" n="4">
+                <p n="1">IV. 1. It remains only to show, in the fourth and last place, the uses of
+                    the law.<note place="foot" xml:id="ftn60" n="60"><p rend="footnote text">Calvin
+                            had long since focused this problem of the uses of the law in <hi
+                                rend="italic">Institutes</hi>, II.vii: ‘(1) to convict of
+                            unrighteousness (§6); (2) the restraint of wickedness (§10); (3) to
+                            teach believers “the nature of the Lord’s will to which they aspire and
+                            to confirm them in the understanding of it”.’ Cf. Heppe, <hi
+                                rend="italic">Reformed Dogmatics</hi>, XIII.281-300. Lutherans had
+                            tended to deemphasize this third use; cf. Heinrich Schmid, <hi
+                                rend="italic">The Doctrinal Theology of the Evangelical Lutheran
+                                Church</hi>, pp. 512-20. The Anglicans had transformed it into a
+                            basic premise of their ethics of benevolence and virtue (as in Hammond,
+                            Butler, <hi rend="italic">et al.</hi>). Wesley’s revised order, (1) to
+                            convince, (2) to convert, (3) to sustain, seems to have been his
+                            own.</p></note> And the first use of it, without question, is to
+                    convince the world of sin. This is indeed the peculiar work of the Holy Ghost,
+                    who can work it without any means at all, or by whatever means it pleaseth him,
+                    however insufficient in themselves, or even improper to produce such an effect.
+                    And accordingly, some there are whose hearts have been broken in pieces in a
+                    moment, either in sickness or in health, without any visible cause, or any
+                    outward means whatever. And others (one in an age) have been awakened to a sense
+                    of ‘the wrath of God abiding on them’<note place="foot" xml:id="ftn61" n="61"><p
+                            rend="footnote text">Cf. John 3:36.</p></note> by hearing that ‘God was
+                    in Christ, reconciling the world unto himself’.<note place="foot" xml:id="ftn62"
+                        n="62"><p rend="footnote text">2 Cor. 5:19.</p></note> But it is the
+                    ordinary method of the Spirit of God to convict sinners by the law. It is this
+                    which, being set home on the conscience, generally breaketh the rocks in pieces.
+                    It is more especially this part of ‘the word of God’ which ‘is’ ζῶν […] καὶ
+                    ἐνεργής, ‘quick and powerful’, full of life and energy, ‘and sharper than any
+                    two-edged sword’.<note place="foot" xml:id="ftn63" n="63"><p
+                            rend="footnote text">Heb. 4:12.</p></note> This, in the hand of God and
+                    of those whom he hath sent, ‘pierces’ through all the folds of a deceitful
+                    heart, and ‘divides asunder even the soul and spirit’, yea, as it were, the very
+                    ‘joints and marrow’.<note place="foot" xml:id="ftn64" n="64"><p
+                            rend="footnote text"><hi rend="italic">Ibid.</hi></p></note> By this is
+                    the sinner discovered to himself. All his fig leaves are torn away, and he sees
+                    that he is ‘wretched, and poor, and miserable, and blind, and naked’.<note
+                        place="foot" xml:id="ftn65" n="65"><p rend="footnote text">Cf. Rev.
+                            3:17.</p></note> The law flashes conviction on every side. He feels
+                    himself a mere sinner. He has nothing to pay. His ‘mouth is stopped,’ and he
+                    stands ‘guilty before God’.<note place="foot" xml:id="ftn66" n="66"><p
+                            rend="footnote text">Cf. Rom. 3:19.</p></note></p>
+                <p n="2"><pb n="02:016"/>2. To slay the sinner is then the first use of the law; to
+                    destroy the life and strength wherein he trusts, and convince him that he is
+                    dead while he liveth; not only under sentence of death, but actually dead unto
+                    God, void of all spiritual life, ‘dead in trespasses and sins’.<note
+                        place="foot" xml:id="ftn67" n="67"><p rend="footnote text">Eph.
+                        2:1.</p></note> The second use of it is to bring him unto life, unto Christ,
+                    that he may live. ’Tis true, in performing both these offices it acts the part
+                    of a severe schoolmaster. It drives us by force, rather than draws us by
+                        love.<note place="foot" xml:id="ftn68" n="68"><p rend="footnote text">Cf.
+                            No. 47, ‘Heaviness through Manifold Temptations’, III.9.</p></note> And
+                    yet love is the spring of all. It is the spirit of love which, by this painful
+                    means, tears away our confidence in the flesh, which leaves us no broken reed
+                    whereon to trust, and so constrains the sinner, stripped of all, to cry out in
+                    the bitterness of his soul, or groan in the depth of his heart,</p>
+                <lg>
+                    <l>I give up every plea beside</l>
+                    <l>‘Lord, I am damned—but thou hast died.’</l>
+                    <note place="foot" xml:id="ftn69" n="69">
+                        <p rend="footnote text">John and Charles Wesley, <hi rend="italic">Hymns and
+                                Sacred Poems</hi> (1739), p. 94 (<hi rend="italic">Poet. Wks.</hi>,
+                            I.85). See No. 11, <hi rend="italic">The Witness of the Spirit</hi>, II,
+                            III.7 and n.</p>
+                    </note>
+                </lg>
+                <p n="3">3. The third use of the law is to keep us alive.<note place="foot"
+                        xml:id="ftn70" n="70"><p rend="footnote text">This greater stress on the
+                            third use (<hi rend="italic">viz.</hi>, the moral influence) of the law
+                            is significant; it supports a positive evangelical ethic.</p></note> It
+                    is the grand means whereby the blessed Spirit prepares the believer for larger
+                    communications of the life of God.</p>
+                <p>I am afraid this great and important truth is little understood, not only by the
+                    world, but even by many whom God hath taken out of the world, who are real
+                    children of God by faith. Many of these lay it down as an unquestioned truth
+                    that when we come to Christ we have done with the law; and that in <hi
+                        rend="italic">this</hi> sense, ‘Christ is the end of the law…to everyone
+                    that believeth.’<note place="foot" xml:id="ftn71" n="71"><p rend="footnote text"
+                            >Rom. 10:4.</p></note> ‘The end of the law’. So he is, ‘for
+                    righteousness’, for justification, ‘to everyone that believeth’. Herein the law
+                    is at an end. It justifies none, but only brings them to Christ; who is also, in
+                    another respect, ‘the end’ or scope ‘of the law’—the point at which it
+                    continually aims. But when it has brought us to him it has yet a farther office,
+                    namely, to keep us with him. For it is continually exciting all believers, the
+                    more they see of its height and depth and length and breadth,<note place="foot"
+                        xml:id="ftn72" n="72"><p rend="footnote text">See Eph. 3:18.</p></note> to
+                    exhort one another so much the more:</p>
+                <lg>
+                    <l><pb n="02:017"/>Closer and closer let us cleave</l>
+                    <l>To his beloved embrace;</l>
+                    <l>Expect his fullness to receive,</l>
+                    <l>And grace to answer grace.</l>
+                    <note place="foot" xml:id="ftn73" n="73">
+                        <p rend="footnote text">John and Charles Wesley, ‘At Parting’, <hi
+                                rend="italic">Hymns and Sacred Poems</hi> (1742), p. 160 (<hi
+                                rend="italic">Poet. Wks.</hi>, II.222).</p>
+                    </note>
+                </lg>
+                <p n="4">4. Allowing then that every believer has done with the law, as it means the
+                    Jewish ceremonial law, or the entire Mosaic dispensation (for these Christ ‘hath
+                    taken out of the way’);<note place="foot" xml:id="ftn74" n="74"><p
+                            rend="footnote text">Cf. 2 Thess. 2:7.</p></note> yea, allowing we have
+                    done with the moral law as a means of procuring our justification (for we are
+                    ‘justified freely by his grace, through the redemption that is in Jesus’);<note
+                        place="foot" xml:id="ftn75" n="75"><p rend="footnote text">Rom.
+                        3:24.</p></note> yet in another sense we have not done with this law. For it
+                    is still of unspeakable use, first, in convincing us of the sin that yet remains
+                    both in our hearts and lives, and thereby keeping us close to Christ, that his
+                    blood may cleanse us every moment; secondly, in deriving strength from our Head
+                    into his living members, whereby he empowers them to do what his law commands;
+                    and thirdly, in confirming our hope of whatsoever it commands and we have not
+                    yet attained, of receiving grace upon grace,<note place="foot" xml:id="ftn76"
+                        n="76"><p rend="footnote text">See John 1:16.</p></note> till we are in
+                    actual possession of the fullness of his promises.</p>
+                <p n="5">5. How clearly does this agree with the experience of every true believer!
+                    While he cries out: ‘O what love have I unto thy law! All the day long is my
+                    study in it,’<note place="foot" xml:id="ftn77" n="77"><p rend="footnote text"
+                            >Cf. Ps. 119:97 (BCP).</p></note> he sees daily in that divine mirror
+                    more and more of his own sinfulness. He sees more and more clearly that he is
+                    still a sinner in all things; that neither his heart nor his ways are right
+                    before God; and that every moment sends him to Christ. This shows him the
+                    meaning of what is written: ‘Thou shalt make a plate of pure gold, and grave
+                    upon it, Holiness to the Lord. And it shall be upon Aaron’s forehead’ (the type
+                    of our great High Priest) ‘that Aaron may bear the iniquities of the holy
+                    things, which the children of Israel shall hallow in all their holy gifts’ (so
+                    far are our prayers or holy things from atoning for the rest of our sins); ‘and
+                    it shall be always upon his forehead, that they may be accepted before the
+                        Lord.’<hi rend="endnote_reference"><note place="end"><p rend="endnote text"
+                                >Exod. 28:36, 38.</p></note></hi></p>
+                <p n="6">6. To explain this by a single instance. The law says, ‘Thou <pb n="02:018"
+                    />shalt not kill,’<note place="foot" xml:id="ftn78" n="78"><p
+                            rend="footnote text">Exod. 20:13; Deut. 5:17.</p></note> and hereby (as
+                    our Lord teaches) forbids not only outward acts but every unkind word or
+                        thought.<note place="foot" xml:id="ftn79" n="79"><p rend="footnote text">See
+                            Matt. 5:21-22.</p></note> Now the more I look into this perfect law, the
+                    more I feel how far I come short of it; and the more I feel this, the more I
+                    feel my need of his blood to atone for all my sin, and of his Spirit to purify
+                    my heart, and make me ‘perfect and entire, lacking nothing’.<note place="foot"
+                        xml:id="ftn80" n="80"><p rend="footnote text">Jas. 1:4.</p></note></p>
+                <p n="7">7. Therefore I cannot spare the law one moment, no more than I can spare
+                    Christ; seeing I now want it as much to keep me to Christ as ever I wanted it to
+                    bring me to him. Otherwise this ‘evil heart of unbelief’ would immediately
+                    ‘depart from the living God’.<note place="foot" xml:id="ftn81" n="81"><p
+                            rend="footnote text">Cf. Heb. 3:12.</p></note> Indeed each is
+                    continually sending me to the other—the law to Christ, and Christ to the law. On
+                    the one hand, the height and depth of the law constrain me to fly to the love of
+                    God in Christ; on the other, the love of God in Christ endears the law to me
+                    ‘above gold or precious stones’;<note place="foot" xml:id="ftn82" n="82"><p
+                            rend="footnote text">Cf. Ps. 119:127 (BCP).</p></note> seeing I know
+                    every part of it is a gracious promise, which my Lord will fulfil in its
+                    season.</p>
+                <p n="8">8. Who art thou then, O man, that ‘judgest the law, and speakest evil of
+                    the law’?<note place="foot" xml:id="ftn83" n="83"><p rend="footnote text">Cf.
+                            Jas. 4:11.</p></note> That rankest it with sin, Satan, and death, and
+                    sendest them all to hell together? The Apostle James esteemed ‘judging’ or
+                    ‘speaking evil of the law’ so enormous a piece of wickedness that he knew not
+                    how to aggravate the guilt of judging our brethren more than by showing it
+                    included this. So now, says he, ‘thou art not a doer of the law but a
+                        judge!’<note place="foot" xml:id="ftn84" n="84"><p rend="footnote text"><hi
+                                rend="italic">Ibid.</hi></p></note> A judge of that which God hath
+                    ordained to judge thee. So thou hast set up thyself in the judgment seat of
+                    Christ, and cast down the rule whereby he will judge the world! O take knowledge
+                    what advantage Satan hath gained over thee!<note place="foot" xml:id="ftn85"
+                        n="85"><p rend="footnote text">See 2 Cor. 2:11.</p></note> And for the time
+                    to come never think or speak lightly of, much less dress up as a scarecrow, this
+                    blessed instrument of the grace of God. Yea, love and value it for the sake of
+                    him from whom it came, and of him to whom it leads. Let it be thy glory and joy,
+                    next to the cross of Christ. Declare its praise, and make it honourable before
+                    all men.</p>
+                <p n="9">9. And if thou art throughly convinced that it is the offspring of God,
+                    that it is the copy of all his imitable perfections, and that it ‘is <pb
+                        n="02:019"/>holy, and just, and good’,<note place="foot" xml:id="ftn86"
+                        n="86"><p rend="footnote text">Rom. 7:12.</p></note> but especially to them
+                    that believe; then instead of casting it away as a polluted thing, see that thou
+                    cleave to it more and more. Never let the law of mercy and truth, of love to God
+                    and man, of lowliness, meekness, and purity forsake thee. ‘Bind it about thy
+                    neck: write it on the table of thy heart.’<note place="foot" xml:id="ftn87"
+                        n="87"><p rend="footnote text">Cf. Prov. 3:3.</p></note> Keep close to the
+                    law if thou wilt keep close to Christ; hold it fast; let it not go. Let this
+                    continually lead thee to the atoning blood, continually confirm thy hope, till
+                    all ‘the righteousness of the law is fulfilled in thee’,<note place="foot"
+                        xml:id="ftn88" n="88"><p rend="footnote text">Cf. Rom. 8:4.</p></note> and
+                    thou art ‘filled with all the fullness of God’.<note place="foot" xml:id="ftn89"
+                        n="89"><p rend="footnote text">Eph. 3:19.</p></note></p>
+                <p n="10">10. And if thy Lord hath already fulfilled his word, if he hath already
+                    ‘written his law in thy heart’,<note place="foot" xml:id="ftn90" n="90"><p
+                            rend="footnote text">Cf. Rom. 2:15.</p></note> then ‘stand fast in the
+                    liberty wherewith Christ hath made thee free.’<note place="foot" xml:id="ftn91"
+                        n="91"><p rend="footnote text">Cf. Gal. 5:1.</p></note> Thou art not only
+                    made free from Jewish ceremonies, from the guilt of sin and the fear of hell
+                    (these are so far from being the whole, that they are the least and lowest part
+                    of Christian liberty), but what is infinitely more, from the power of sin, from
+                    serving the devil, from offending God.<note place="foot" xml:id="ftn92" n="92"
+                            ><p rend="footnote text">Note this claim to a freedom from the power of
+                            sin (<hi rend="italic">posse non peccare</hi>); cf. intro. to No. 13,
+                                <hi rend="italic">On Sin in Believers</hi>. Cf. also No. 40, <hi
+                                rend="italic">Christian Perfection</hi>, II.2.</p></note> O stand
+                    fast in this liberty, in comparison of which all the rest is not even worthy to
+                    be named. Stand fast in loving God with all thy heart and serving him with all
+                    thy strength. This is perfect freedom;<note place="foot" xml:id="ftn93" n="93"
+                            ><p rend="footnote text">Cf. the ‘Collect for Peace’, BCP, Morning
+                            Prayer: ‘O God…whose service is perfect freedom’.</p></note> thus to
+                    keep his law and to walk in all his commandments blameless.<note place="foot"
+                        xml:id="ftn94" n="94"><p rend="footnote text">See Luke 1:6.</p></note> ‘Be
+                    not entangled again with the yoke of bondage.’<note place="foot" xml:id="ftn95"
+                        n="95"><p rend="footnote text">Gal. 5:1.</p></note> I do not mean of Jewish
+                    bondage; nor yet of bondage to the fear of hell: these, I trust, are far from
+                    thee. But beware of being entangled again with the yoke of sin, of any inward or
+                    outward transgression of the law. Abhor sin far more than death or hell; abhor
+                    sin itself far more than the punishment of it. Beware of the bondage of pride,
+                    of desire, of anger; of every evil temper or word or work. ‘Look unto
+                        Jesus’,<note place="foot" xml:id="ftn96" n="96"><p rend="footnote text">Cf.
+                            Heb. 12:1</p></note> and in order thereto ‘look’ more and more ‘into the
+                    perfect law, the law of liberty’, and ‘continue therein’;<note place="foot"
+                        xml:id="ftn97" n="97"><p rend="footnote text">Cf. Jas. 1:25.</p></note> so
+                    shalt thou daily ‘grow in grace, and in the knowledge of our Lord Jesus
+                        Christ.’<note place="foot" xml:id="ftn98" n="98"><p rend="footnote text">Cf.
+                            2 Pet. 3:18.</p></note></p>
+            </div>
+        </body>
+    </text>
+</TEI>
