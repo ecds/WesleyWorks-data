@@ -1,0 +1,887 @@
+<?xml version="1.0" encoding="UTF-8"?> <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Sermon 46: The Wilderness State</title>
+                <author>Wesley, John</author>
+                <editor role="text">Van Buskirk, Gregory P.</editor>
+                <editor role="digital">Taylor, Michelle M.</editor>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>The Wesley Works Digitzation Project</publisher>
+                <pubPlace>Tampa, FL</pubPlace>
+                <date>2024-02-28</date>
+            </publicationStmt>
+            <sourceDesc>
+                <listBibl>
+                    <biblStruct>
+                        <analytic>
+                            <title level="a">Sermon 46: The Wilderness State</title>
+                        </analytic>
+                        <monogr>
+                            <title level="j">The Works of John Wesley, Volume II: Sermons II,
+                                34-70</title>
+                            <editor role="volume">Outler, Albert</editor>
+                            <imprint>
+                                <publisher>Abingdon Press</publisher>
+                                <pubPlace>Nashville, TN</pubPlace>
+                                <date when="1985-11-01">1985-11-01</date>
+                                <biblScope unit="volume" n="2"/>
+                                <biblScope unit="page" from="202" to="221"/>
+                            </imprint>
+                        </monogr>
+                        <series>
+                            <title level="s">The Works of John Wesley</title>
+                            <editor role="general">Baker, Frank</editor>
+                        </series>
+                    </biblStruct>
+                </listBibl>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Greg Van Buskirk created Word docs for all of Wesley's sermons using a combination of
+                OCR software and manual proofing. Michelle Taylor converted these docx into XML
+                using Oxygen's DITA automatic transformation scenario, then touched them up
+                manually.</p>
+        </encodingDesc>
+        <standOff>
+            <taxonomy>
+                <keywords>
+                    <term/>
+                </keywords>
+            </taxonomy>
+            <!--Include keywords and terms here eventually.-->
+        </standOff>
+        <revisionDesc/>
+    </teiHeader>
+    <text>
+        <body>
+            <pb n="02:202"/>
+            <introduction>
+                <p><hi rend="italic">An Introductory Comment [to Sermons 46-47]</hi></p>
+                <p>Like that of true love, the course of true <hi rend="italic">faith</hi> never did
+                    run smooth (cf. Thomas Goodwin, <hi rend="italic">A Child of Light Walking in
+                        Darkness</hi> (1636); abridged by Wesley in the <hi rend="italic">Christian
+                        Library</hi> (1751), Vol. XI; and Hugh Binning, <hi rend="italic">Fellowship
+                        With God</hi>, especially Sermon XIV). There is, therefore, a natural
+                    progress in following a sermon on conversion with two further comments on the
+                    peaks and valleys in a Christian pilgrim’s progress. That is the point to this
+                    particular pair of sermons, Nos. 46, ‘The Wilderness State’, and 47, ‘Heaviness
+                    through Manifold Temptations’. By 1760 Wesley knew, from long experience, how
+                    regularly any stress on the <hi rend="italic">necessity</hi> of assurance would
+                    raise the levels of religious anxiety amongst his hearers and disciples. Even
+                    earlier, he had pondered Thomas à Kempis’s generalization (<hi rend="italic"
+                        >Imitation</hi>, II. ix. 7): ‘I never found anyone so religious and devout
+                    that he had not sometimes a withdrawing of grace or felt not some decrease of
+                    zeal.’ He also remembered how quickly the euphoria of his own Aldersgate
+                    experience had passed (cf. JWJ, May 26, 1738, ‘My soul continued in peace, but
+                    yet in heaviness because of manifold temptations,’ and May 28, ‘I waked in
+                    peace, but not in joy’).</p>
+                <p>Thus, wary though he was of allegorizing, he found himself turning to the Old
+                    Testament story of the sojourn of the Children of Israel in the wilderness of
+                    Sinai as a metaphor for the anxieties and depressions that follow upon ‘the new
+                    birth’. This allegory was already a familiar one among the Puritans. There was,
+                    e.g., Samuel Mather’s <hi rend="italic">Figures or Types of the Old
+                        Testament</hi> (Dublin, 1683); Mather had understood ‘wilderness’ to mean
+                    ‘the wilderness of this world’ through which ‘Christ directs and conducts his
+                    people in their travels…to the true Canaan’ (p. 170; cf. p. 192). Thus it was
+                    clear to him that just ‘as the Ark of God had led [the Israelites] through the
+                    Wilderness, so we are to follow the guidance of Christ through the world’ (p.
+                    510). Mather had also cited (pp. 200-201) a quite different interpretation in
+                    Jeremiah Burroughs (whom Wesley also knew) in <hi rend="italic">The Excellency
+                        of </hi><pb n="02:203"/><hi rend="italic">Holy Courage in Evil Times</hi>
+                    (1661), where ‘the wilderness state’ is understood as ‘an unregenerate
+                    condition’ before conversion (cf. chs. 25-26 and Burroughs’s comments on Heb.
+                    11:27). In Robert Gell’s <hi rend="italic">Remaines</hi>, I.16, the reference
+                    had been transferred from the wilderness of Sinai to Jesus’ experience of ‘forty
+                    days and nights’ in the wilderness of Judea. Wesley had followed Gell in this,
+                    at least once, in Bristol (cf. JWJ, March 28, 1740): ‘From these words, “Then
+                    was Jesus led by the Spirit into the wilderness to be tempted of the devil,” I
+                    took occasion to describe that wilderness state, that state of doubts and fears
+                    and strong temptations which so many go through, though in different degrees,
+                    after they have received remission of sins.’</p>
+                <p>From none of these sources, however, could one have anticipated Wesley’s
+                    uncommonly sharp distinction, now in 1760, between ‘the wilderness state’ as
+                    ‘darkness’ (i.e., an actual ‘loss of faith’ and ‘a total loss of joy’; in
+                    effect, a relapse from faith into unfaith that simply reverses the positive
+                    processes of salvation) and ‘heaviness’ (religious depression) which is more or
+                    less normal, and thus not a valid ground for prolonged anxiety or despair. But
+                    this is the distinction which is expounded, along with its psychological
+                    implications, in the two sermons here (and also, presumably, in his thirty-five
+                    oral sermons on John 16:22). It had been summarized in the manuscript Minutes of
+                    1744 (<hi rend="italic">Q.</hi> and <hi rend="italic">A.</hi> 10) and then
+                    commented on in Wesley’s <hi rend="italic">Notes</hi>: ‘This [John 16:22] gives
+                    us no manner of authority to assert that all believers <hi rend="italic"
+                        >must</hi> come into a state of darkness. They never <hi rend="italic"
+                        >need</hi> lose either their peace or their love, or the witness that they
+                    are the children of God. They can never lose these, but either through sin, or
+                    ignorance, or vehement temptation, or bodily disorders.’ This same idea will be
+                    repeated in letters to Mrs. Marston, August 11, 1770, and to Rebecca Yeoman,
+                    February 5, 1772 (who is urged to read ‘The Wilderness State’ in ‘the fourth
+                    volume, and examine yourself thereby’). Charles Wesley, however, had understood
+                    ‘the wilderness state’ rather as Gell had done: ‘that [condition] into which the
+                    believer is generally led by the Spirit to be tempted as soon as he is baptized
+                    by the Holy Ghost’ (CWJ, August 26, 1739).</p>
+                <p>It would be interesting to know how John Wesley understood his own episodes of
+                    acute religious anxiety. By 1780 he could ‘not remember to have felt lowness of
+                    spirits for one quarter of an hour since I was born’ (see No. 77, ‘Spiritual
+                    Worship’, III.2). Actually, though, he has been through <hi rend="italic"
+                        >many</hi> such episodes both early and late (as in his letter to
+                    ‘Varanese’, February 6, 1736; or, in JWJ, January 4, 1739; or, again, in a
+                    letter to Elizabeth Hardy, May 1758: ‘I felt the wrath of God abiding on me. I
+                    was afraid of dropping into hell;’ and another to Mrs. <pb n="02:204"/>Ryan,
+                    November 4, 1758). The most remarkable of these is mirrored in an outburst to
+                    his brother Charles, June 26, 1766: ‘In one of [[my]] last [letters] [[I]] was
+                    saying, [[I]] do not feel the wrath of God abiding on [[me]]…. [[I do not love
+                    God. I never did]]…. [[I have no]] direct witness… [[I]] have no more fear than
+                    love. Or if [[I have any fear, it is not that of falling]] into hell, but of
+                    falling into nothing.’ (The words within double brackets are transcribed from
+                    shorthand.) Was this a case of ‘heaviness’ or ‘darkness’, or what?</p>
+                <p>‘Heaviness through Manifold Temptations’ is the linked sequel to ‘The Wilderness
+                    State’, designed to help believers avoid any further slide from depression into
+                    ‘darkness’ or sinful despair. Thus, it seeks to lay out ‘the wide and essential
+                    difference between “darkness” and “heaviness”’. He had already done this in
+                    sixteen oral sermons on 1 Pet. 1:6 between 1754 and 1757, which suggests that
+                    the problem of religious anxiety had become more widespread and urgent in and
+                    after the upswing in ‘professors of perfection’ in 1755. At any rate, this
+                    particular pair of sermons seems to have been written expressly for <hi
+                        rend="italic">SOSO</hi>, IV (1760). They were reprinted in <hi rend="italic"
+                        >Works</hi> (1771), IV, and again in <hi rend="italic">SOSO</hi>, IV (1787),
+                    but were not otherwise printed separately.</p>
+            </introduction>
+            <pb n="02:205"/>
+            <head>The Wilderness State</head>
+            <epigraph>
+                <p>John 16:22</p>
+                <p><hi rend="italic">Ye now have sorrow; but I will see you again, and your heart
+                        shall rejoice, and your joy no man taketh from you.</hi></p>
+            </epigraph>
+            <div type="introduction">
+                <p n="1">1. After God had wrought a great deliverance for Israel by bringing them
+                    out of the house of bondage,<note place="foot" xml:id="ftn1" n="1"><p
+                            rend="footnote text">Exod. 13:3.</p></note> they did not immediately
+                    enter into the land which he had promised to their fathers, but ‘wandered out of
+                    the way in the wilderness’,<note place="foot" xml:id="ftn2" n="2"><p
+                            rend="footnote text">Cf. Ps. 107:40 (BCP).</p></note> and were variously
+                    tempted and distressed. In like manner after God has delivered them that fear
+                    him from the bondage of sin and Satan; after they are ‘justified freely by his
+                    grace, through the redemption that is in Jesus’,<note place="foot" xml:id="ftn3"
+                        n="3"><p rend="footnote text">Rom. 3:24.</p></note> yet not many of them
+                    immediately enter into ‘the rest’ which ‘remaineth for the people of God’.<note
+                        place="foot" xml:id="ftn4" n="4"><p rend="footnote text">Cf. Heb.
+                        4:9.</p></note> The greater part of them wander more or less out of the good
+                    way into which he hath brought them. They come as it were into a ‘waste and
+                    howling desert’,<note place="foot" xml:id="ftn5" n="5"><p rend="footnote text"
+                            >Cf. Deut. 32:1</p></note> where they are variously tempted and
+                    tormented. And this some, in allusion to the case of the Israelites, have termed
+                    ‘a wilderness state’.</p>
+                <p n="2">2. Certain it is that the condition wherein these are has a right to the
+                    tenderest compassion. They labour under an evil and sore disease, though one
+                    that is not commonly understood. And for this very reason it is the more
+                    difficult for them to find a remedy. Being in darkness themselves, they cannot
+                    be supposed to understand the nature of their own disorder; and few of their
+                    brethren—nay, perhaps of their teachers—know either what their sickness is, or
+                    how to heal it. So much the more need there is to inquire, first, what is the
+                    nature of this disease; secondly, what is the cause; and thirdly, what is the
+                    cure of it.</p>
+            </div>
+            <div type="section" n="1">
+                <p n="1">I. 1. And, first, what is the nature of this disease into which so many
+                    fall after they have believed? Wherein does it properly <pb n="02:206"/>consist?
+                    And what are the genuine symptoms of it? It properly consists in the loss of
+                    that faith which God once wrought in their heart. They that are ‘in the
+                    wilderness’ have not now that divine ‘evidence’, that satisfactory ‘conviction
+                    of things not seen’,<note place="foot" xml:id="ftn6" n="6"><p
+                            rend="footnote text">Cf. Heb. 11:1. See No. 3, ‘<hi rend="italic">Awake,
+                                Thou That Sleepest</hi>’, I.11 and n.</p></note> which they once
+                    enjoyed. They have not now that inward demonstration of the Spirit which before
+                    enabled each of them to say, ‘The life I live, I live by faith in the Son of
+                    God, who loved <hi rend="italic">me</hi> and gave himself for <hi rend="italic"
+                        >me</hi>.’<note place="foot" xml:id="ftn7" n="7"><p rend="footnote text">Cf.
+                            Gal. 2:20.</p></note> The light of heaven does not now ‘shine in their
+                        hearts’,<note place="foot" xml:id="ftn8" n="8"><p rend="footnote text">Cf. 2
+                            Cor. 4:6.</p></note> neither do they ‘see him that is invisible’;<note
+                        place="foot" xml:id="ftn9" n="9"><p rend="footnote text">Cf. Heb.
+                        11:27.</p></note> but darkness is again on the face of their souls, and
+                    blindness on the eyes of their understanding. The Spirit no longer ‘witnesses
+                    with their spirits that they are the children of God’;<note place="foot"
+                        xml:id="ftn10" n="10"><p rend="footnote text">Cf. Rom. 8:16.</p></note>
+                    neither does he continue as the Spirit of adoption, ‘crying in their hearts,
+                    Abba, Father’.<note place="foot" xml:id="ftn11" n="11"><p rend="footnote text"
+                            >Cf. Gal. 4:6.</p></note> They have not now a sure trust in his love,
+                    and a liberty of approaching him with holy boldness. ‘Though he slay me, yet
+                    will I trust in him’<note place="foot" xml:id="ftn12" n="12"><p
+                            rend="footnote text">Job 13:15.</p></note> is no more the language of
+                    their heart. But they are shorn of their strength, and become weak and
+                    feeble-minded, even as other men.<note place="foot" xml:id="ftn13" n="13"><p
+                            rend="footnote text">Cf. the story of Samson in Judg. 16:7, 11,
+                        19.</p></note></p>
+                <p n="2">2. Hence, secondly, proceeds the loss of love, which cannot but rise or
+                    fall at the same time, and in the same proportion, with true, living faith.
+                    Accordingly they that are deprived of their faith are deprived of the love of
+                    God also. They cannot now say, ‘Lord, thou knowest all things; thou knowest that
+                    I love thee.’<note place="foot" xml:id="ftn14" n="14"><p rend="footnote text"
+                            >John 21:17.</p></note> They are not now happy in God, as everyone is
+                    that truly loves him. They do not delight in him as in time past, and ‘smell the
+                    odour of his ointments’.<note place="foot" xml:id="ftn15" n="15"><p
+                            rend="footnote text">Cf. John 12:3.</p></note> Once all their ‘desire
+                    was unto him, and to the remembrance of his name’.<note place="foot"
+                        xml:id="ftn16" n="16"><p rend="footnote text">Cf. Isa. 26:8.</p></note> But
+                    now even their desires are cold and dead, if not utterly extinguished. And as
+                    their love of God is ‘waxed cold’,<note place="foot" xml:id="ftn17" n="17"><p
+                            rend="footnote text">Cf. Matt. 24:12.</p></note> so is also their love
+                    of their neighbour. They have not now that zeal for the souls of men, that
+                    longing after their welfare, that fervent, restless, active desire of their
+                    being reconciled to God. They do not feel those ‘bowels of mercies’<note
+                        place="foot" xml:id="ftn18" n="18"><p rend="footnote text">Col.
+                        3:12.</p></note> for the sheep that are lost, that tender ‘compassion for
+                    the ignorant, and them that are out of the way’.<note place="foot"
+                        xml:id="ftn19" n="19"><p rend="footnote text">Cf. Heb. 5:2.</p></note> Once
+                    they were <pb n="02:207"/>‘gentle toward all men’, meekly ‘instructing’ such as
+                    ‘opposed’ the truth,<note place="foot" xml:id="ftn20" n="20"><p
+                            rend="footnote text">2 Tim. 2:24-25.</p></note> and ‘if any was
+                    overtaken in a fault, restoring such an one in the spirit of meekness’.<note
+                        place="foot" xml:id="ftn21" n="21"><p rend="footnote text">Cf. Gal.
+                        6:1.</p></note> But after a suspense perhaps of many days, anger begins to
+                    regain its power. Yea, peevishness and impatience thrust sore at them, that they
+                    may fall.<note place="foot" xml:id="ftn22" n="22"><p rend="footnote text">Ps.
+                            118:13.</p></note> And it is well if they are not sometimes driven even
+                    to ‘render evil for evil and railing for railing’.<note place="foot"
+                        xml:id="ftn23" n="23"><p rend="footnote text">Cf. 1 Pet. 3:9.</p></note></p>
+                <p n="3">3. In consequence of the loss of faith and love follows, thirdly, loss of
+                    joy in the Holy Ghost. For if the loving consciousness of pardon be no more, the
+                    joy resulting therefrom cannot remain. If the Spirit does not witness with our
+                    spirit that we are the children of God, the joy that flowed from that inward
+                    witness must also be at an end. And in like manner they who once ‘rejoiced with
+                    joy unspeakable in hope of the glory’<note place="foot" xml:id="ftn24" n="24"><p
+                            rend="footnote text">Cf. 1 Pet. 1:8.</p></note> of God, now they are
+                    deprived of that ‘hope full of immortality’,<note place="foot" xml:id="ftn25"
+                        n="25"><p rend="footnote text">Wisd. 3:4.</p></note> are deprived of the joy
+                    it occasioned; as also of that which resulted from a consciousness of ‘the love
+                    of God’ then ‘shed abroad in their hearts’.<note place="foot" xml:id="ftn26"
+                        n="26"><p rend="footnote text">Cf. Rom. 5:5.</p></note> For the cause being
+                    removed, so is the effect: the fountain being dammed up, those living waters
+                    spring no more to refresh the thirsty soul.</p>
+                <p n="4">4. With loss of faith and love and joy there is also joined, fourthly, the
+                    loss of that peace which once passed all understanding. That sweet tranquillity
+                    of mind, that composure of spirit, is gone. Painful doubt returns: doubt whether
+                    we ever did, and perhaps whether we ever shall, believe. We begin to doubt
+                    whether we ever did find in our hearts the real testimony of the Spirit. Whether
+                    we did not rather deceive our own souls, and mistake the voice of nature for the
+                    voice of God. Nay, and perhaps whether we shall ever hear his voice and find
+                    favour in his sight. And these doubts are again joined with servile fear, with
+                    that ‘fear’ which ‘hath torment’.<note place="foot" xml:id="ftn27" n="27"><p
+                            rend="footnote text">1 John 4:18.</p></note> We fear the wrath of God,
+                    even as before we believed; we fear lest we should be cast out of his presence;
+                    and thence sink again into that fear of death from which we were before wholly
+                    delivered.</p>
+                <p n="5">5. But even this is not all. For loss of peace is accompanied with loss of
+                    power. We know everyone who has peace with God through Jesus Christ has power
+                    over all sin. But whenever he <pb n="02:208"/>loses the peace of God he loses
+                    also the power over sin. While that peace remained, power also remained, even
+                    over the besetting sin, whether it were the sin of his nature, his constitution,
+                    the sin of his education, or that of his profession; yea, and over those evil
+                    tempers and desires which till then he could not conquer. ‘Sin’ had then ‘no
+                    more dominion over him’;<note place="foot" xml:id="ftn28" n="28"><p
+                            rend="footnote text">Cf. Rom. 6:14.</p></note> but he hath now no more
+                    dominion over sin. He may struggle indeed, but he cannot overcome; the crown is
+                    fallen from his head. His enemies again prevail over him, and more or less bring
+                    him into bondage. The glory is departed from him,<note place="foot"
+                        xml:id="ftn29" n="29"><p rend="footnote text">See Ezek. 10:18.</p></note>
+                    even the kingdom of God which was in his heart. He is dispossessed of
+                    righteousness, as well as of peace and joy in the Holy Ghost.<note place="foot"
+                        xml:id="ftn30" n="30"><p rend="footnote text">See Rom. 14:17.</p></note></p>
+            </div>
+            <div type="section" n="2">
+                <p n="1">II. 1. Such is the nature of what many have termed, and not improperly,
+                    ‘the wilderness state’. But the nature of it may be more fully understood by
+                    inquiring, secondly, What are the causes of it? These indeed are various. But I
+                    dare not rank among these the bare, arbitrary, sovereign will of God. He
+                    rejoiceth ‘in the prosperity of his servants’.<note place="foot" xml:id="ftn31"
+                        n="31"><p rend="footnote text">Cf. Ps. 35:27.</p></note> He delighteth not
+                    to ‘afflict or grieve the children of men’.<note place="foot" xml:id="ftn32"
+                        n="32"><p rend="footnote text">Cf. Lam. 3:33.</p></note> His invariable
+                    ‘will is our sanctification’,<note place="foot" xml:id="ftn33" n="33"><p
+                            rend="footnote text">Cf. 1 Thess. 4:3.</p></note> attended with ‘peace
+                    and joy in the Holy Ghost’.<note place="foot" xml:id="ftn34" n="34"><p
+                            rend="footnote text">Rom. 14:17.</p></note> These are his own free
+                    gifts; and we are assured ‘the gifts of God are’ on his part ‘without
+                        repentance.’<note place="foot" xml:id="ftn35" n="35"><p rend="footnote text"
+                            >Rom. 11:29.</p></note> He never repenteth of what he hath given, or
+                    desires to withdraw them from us. Therefore he never <hi rend="italic"
+                        >deserts</hi> us, as some speak: it is we only that <hi rend="italic"
+                        >desert</hi> him.<note place="foot" xml:id="ftn36" n="36"><p
+                            rend="footnote text">The reference here is twofold: to the mystical
+                            theories (as in St. John of the Cross) of God’s withdrawal from the
+                            believer in ‘the dark night of the soul’, and to Lutheran explanations
+                            of religious depressions (<hi rend="italic">Anfechtungen</hi>) in terms
+                            of the concept of the <hi rend="italic">Deus absconditus</hi> (God’s
+                            withdrawals of himself).</p></note></p>
+                <p n="2">2. [(I).] The most usual cause of inward darkness is <hi rend="italic"
+                        >sin</hi> of one kind or another. This it is which generally occasions what
+                    is often a complication of sin and misery. And, first, sin of <hi rend="italic"
+                        >commission</hi>. This may frequently be observed to darken the soul in a
+                    moment; especially if it be a known, a wilful, or presumptuous sin. If, for
+                    instance, a person who is now walking in the clear light of God’s countenance
+                    should be any way prevailed on to commit a single act of drunkenness or
+                    uncleanness, it would be no wonder if in <pb n="02:209"/>that very hour he fell
+                    into utter darkness. It is true, there have been some very rare cases wherein
+                    God has prevented this by an extraordinary display of his pardoning mercy,
+                    almost in the very instant. But in general such an abuse of the goodness of God,
+                    so gross an insult on his love, occasions an immediate estrangement from God,
+                    and a ‘darkness that may be felt’.<note place="foot" xml:id="ftn37" n="37"><p
+                            rend="footnote text">Cf. Exod. 10:21.</p></note></p>
+                <p n="3">3. But it may be hoped this case is not very frequent; that there are not
+                    many who so despise the riches of his goodness as, while they walk in his light,
+                    so grossly and presumptuously to rebel against him. That light is much more
+                    frequently lost by giving way to sins of <hi rend="italic">omission</hi>.<note
+                        place="foot" xml:id="ftn38" n="38"><p rend="footnote text">Cf. No. 14, <hi
+                                rend="italic">The Repentance of Believers</hi>, I.14 and
+                        n.</p></note> This indeed does not immediately quench the Spirit,<note
+                        place="foot" xml:id="ftn39" n="39"><p rend="footnote text">See 1 Thess.
+                            5:19.</p></note> but gradually and slowly. The former may be compared to
+                    pouring water upon a fire; the latter to withdrawing the fuel from it. And many
+                    times will that loving Spirit reprove our neglect before he departs from us.
+                    Many are the inward checks, the secret notices, he gives before his influences
+                    are withdrawn. So that only a train of omissions wilfully persisted in can bring
+                    us into utter darkness.</p>
+                <p n="4">4. Perhaps no sin of omission more frequently occasions this than the
+                    neglect of private prayer; the want whereof cannot be supplied by any other
+                    ordinance whatever. Nothing can be more plain than that the life of God in the
+                    soul does not continue, much less increase, unless we use all opportunities of
+                    communing with God, and pouring out our hearts before him. If therefore we are
+                    negligent of this, if we suffer business, company, or any avocation whatever, to
+                    prevent these secret exercises of the soul (or which comes to the same thing, to
+                    make us hurry them over in a slight and careless manner) that life will surely
+                    decay. And if we long or frequently intermit them, it will gradually die
+                    away.</p>
+                <p n="5">5. Another sin of omission which frequently brings the soul of a believer
+                    into darkness is the neglect of what was so strongly enjoined even under the
+                    Jewish dispensation: ‘Thou shalt in any wise rebuke thy neighbour, and not
+                    suffer sin upon him:’<note place="foot" xml:id="ftn40" n="40"><p
+                            rend="footnote text">Lev. 19:17.</p></note> ‘Thou shalt not hate thy
+                    brother in thy heart.’<note place="foot" xml:id="ftn41" n="41"><p
+                            rend="footnote text"><hi rend="italic">Ibid.</hi></p></note> Now if we
+                    do ‘hate our brother in our heart’, if we do not ‘rebuke’ him when we see him in
+                    a fault, but ‘suffer sin upon him’, this will soon bring leanness into our own
+                    soul; seeing hereby we are ‘partakers of his sin’.<note place="foot"
+                        xml:id="ftn42" n="42"><p rend="footnote text">Cf. Rev. 18:4.</p></note> By
+                        <pb n="02:210"/>neglecting to reprove our neighbour we make his sin our own.
+                    We become accountable for it to God: we saw his danger, and gave him no warning.
+                    So ‘if he perish in his iniquity’<note place="foot" xml:id="ftn43" n="43"><p
+                            rend="footnote text">Cf. Josh. 22:20.</p></note> God may justly ‘require
+                    his blood at our hands’.<note place="foot" xml:id="ftn44" n="44"><p
+                            rend="footnote text">Cf. 2 Sam. 4:11; Ezek. 3:18; 33:8.</p></note> No
+                    wonder then if by thus grieving the Spirit we lose the light of his
+                        countenance.<note place="foot" xml:id="ftn45" n="45"><p rend="footnote text"
+                            >Cf. No. 65, ‘The Duty of Reproving our Neighbour’.</p></note></p>
+                <p n="6">6. A third cause of our losing this is the giving way to some kind of <hi
+                        rend="italic">inward sin</hi>.<note place="foot" xml:id="ftn46" n="46"><p
+                            rend="footnote text">Cf. No. 13, <hi rend="italic">On Sin in
+                                Believers</hi>, intro., III.1-9, and n.</p></note> For example: we
+                    know ‘everyone that is proud in heart is an abomination to the Lord;’<note
+                        place="foot" xml:id="ftn47" n="47"><p rend="footnote text">Prov.
+                        16:5.</p></note> and that although this pride of heart should not appear in
+                    the outward conversation. Now how easily may a soul filled with peace and joy
+                    fall into this snare of the devil! How natural is it for him to imagine that he
+                    has more grace, more wisdom or strength, than he really has! ‘To think more
+                    highly of himself than he ought to think!’<note place="foot" xml:id="ftn48"
+                        n="48"><p rend="footnote text">Cf. Rom. 12:3.</p></note> How natural to
+                    glory in something he has received as if he had not received it!<note
+                        place="foot" xml:id="ftn49" n="49"><p rend="footnote text">See 1 Cor.
+                            4:7.</p></note> But seeing God continually ‘resisteth the proud, and
+                    giveth grace’ only ‘to the humble’,<note place="foot" xml:id="ftn50" n="50"><p
+                            rend="footnote text">1 Pet. 5:5.</p></note> this must certainly obscure,
+                    if not wholly destroy, the light which before shone on his heart.</p>
+                <p n="7">7. The same effect may be produced by giving place to anger, whatever the
+                    provocation or occasion be; yea, though it were coloured over with the name of
+                        <hi rend="italic">zeal</hi> for the truth, or for the glory of God. Indeed
+                    all zeal which is any other than the flame of love is ‘earthly, animal,
+                        devilish’.<note place="foot" xml:id="ftn51" n="51"><p rend="footnote text"
+                            >Jas. 3:15 (<hi rend="italic">Notes</hi>). See No. 92, ‘On Zeal’, for
+                            this point enlarged.</p></note> It is the flame of wrath. It is flat,
+                    sinful anger, neither better nor worse. And nothing is a greater enemy to the
+                    mild, gentle love of God than this. They never did, they never can, subsist
+                    together in one breast. In the same proportion as this prevails, love and joy in
+                    the Holy Ghost decrease. This is particularly observable in the case of <hi
+                        rend="italic">offence</hi>, I mean, anger at any of our brethren, at any of
+                    those who are united with us either by civil or religious ties. If we give way
+                    to the spirit of offence but one hour we lose the sweet influences of the Holy
+                    Spirit; so that instead of amending them we destroy ourselves, and become an
+                    easy prey to any enemy that assaults us.</p>
+                <p n="8">8. But suppose we are aware of this snare of the devil, we may be attacked
+                    from another quarter. When fierceness and anger are asleep, and love alone is
+                    waking, we may be no less endangered by <pb n="02:211"/><hi rend="italic"
+                        >desire</hi>, which equally tends to darken the soul. This is the sure
+                    effect of any ‘foolish desire’,<note place="foot" xml:id="ftn52" n="52"><p
+                            rend="footnote text">Cf. 1 Tim. 6:9 (<hi rend="italic"
+                        >Notes</hi>).</p></note> any vain or inordinate affection. If we ‘set our
+                    affection on things of the earth’,<note place="foot" xml:id="ftn53" n="53"><p
+                            rend="footnote text">Cf. Col. 3:2.</p></note> on any person or thing
+                    under the sun, if we desire anything but God and what tends to God, if we seek
+                    happiness in any creature, the jealous God will surely contend with us; for he
+                    can admit of no rival. And ‘if we ‘will’ not ‘hear’ his warning ‘voice’,<note
+                        place="foot" xml:id="ftn54" n="54"><p rend="footnote text">Cf. Ps. 95:7;
+                            Heb. 3:7, 15.</p></note> and return to him with our whole soul; if we
+                    continue to grieve him with our idols, and running after other gods, we shall
+                    soon be cold, barren, and dry, and ‘the god of this world’ will ‘blind’ and
+                    darken ‘our hearts’.<note place="foot" xml:id="ftn55" n="55"><p
+                            rend="footnote text">Cf. 2 Cor. 4:4.</p></note></p>
+                <p n="9">9. But this he frequently does, even when we do not give way to any
+                    positive sin. It is enough, it gives him sufficient advantage, if we do not
+                    ‘stir up the gift of God which is in us’;<note place="foot" xml:id="ftn56"
+                        n="56"><p rend="footnote text">Cf. 2 Tim. 1:6.</p></note> if we do not
+                    ‘agonize’ continually ‘to enter in at the strait gate’;<note place="foot"
+                        xml:id="ftn57" n="57"><p rend="footnote text">Luke 13:24 (<hi rend="italic"
+                                >Notes</hi>).</p></note> if we do not earnestly ‘strive for the
+                        mastery’,<note place="foot" xml:id="ftn58" n="58"><p rend="footnote text"
+                            >Cf. 2 Tim. 2:5.</p></note> and ‘take the kingdom of heaven by
+                        violence’.<note place="foot" xml:id="ftn59" n="59"><p rend="footnote text"
+                            >Cf. Matt. 11:12 (<hi rend="italic">Notes</hi>).</p></note> There needs
+                    no more than not to fight, and we are sure to be conquered. Let us only be
+                    careless or ‘faint in our mind’,<note place="foot" xml:id="ftn60" n="60"><p
+                            rend="footnote text">Cf. Heb. 12:3.</p></note> let us be easy and
+                    indolent, and our natural darkness will soon return, and overspread our soul. It
+                    is enough, therefore, if we give way to <hi rend="italic">spiritual sloth</hi>:
+                    this will effectually darken the soul. It will as surely destroy the light of
+                    God, if not so swiftly, as murder or adultery.</p>
+                <p n="10">10. But it is well to be observed that the cause of our darkness
+                    (whatsoever it be, whether omission or commission, whether inward or outward
+                    sin) is not always nigh at hand. Sometimes the sin which occasioned the present
+                    distress may lie at a considerable distance. It might be committed days or weeks
+                    or months before. And that God now withdraws his light and peace on account of
+                    what was done so long ago is not (as one might at first imagine) an instance of
+                    his severity, but rather a proof of his long-suffering and tender mercy. He
+                    waited all this time if haply we would see, acknowledge, and correct what was
+                    amiss. And in default of this he at length shows his displeasure, if thus, at
+                        last,<note place="foot" xml:id="ftn61" n="61"><p rend="footnote text">Orig.,
+                            ‘least’, altered in 1771 and 1787.</p></note> he may bring us to
+                    repentance.</p>
+            </div>
+            <div type="section" n="2">
+                <p n="1"><pb n="02:212"/>(II). 1. Another general cause of this darkness is <hi
+                        rend="italic">ignorance</hi>; which is likewise of various kinds. If men
+                    know not the Scriptures, if they imagine there are passages either in the Old or
+                    New Testament which assert that all believers without exception <hi
+                        rend="italic">must</hi> sometimes be in darkness, this ignorance will
+                    naturally bring upon them the darkness which they expect. And how common a case
+                    has this been among us! How few are there that do not expect it! And no wonder,
+                    seeing they are taught to expect it; seeing their guides lead them into this
+                    way. Not only the mystic writers of the Romish Church, but many of the most
+                    spiritual and experimental in our own (very few of the last century excepted),
+                    lay it down with all assurance as a plain, unquestionable Scripture doctrine,
+                    and cite many texts to prove it.</p>
+                <p n="2">2. Ignorance also of the work of God in the soul frequently occasions this
+                    darkness. Men imagine (because so they have been taught, particularly by writers
+                    of the Romish communion, whose plausible assertions too many Protestants have
+                    received without due examination) that they are not always to walk in ‘luminous
+                    faith’; that this is only a ‘lower dispensation’; that as they rise higher they
+                    are to leave those ‘sensible comforts’, and to live by ‘naked faith’ (<hi
+                        rend="italic">naked</hi> indeed, if it be stripped both of love and peace
+                    and joy in the Holy Ghost!); that a state of light and joy is good, but a state
+                    of ‘darkness’ and ‘dryness’ is better, that it is by these alone we can be
+                    ‘purified’ from pride, love of the world, and inordinate self-love; and that
+                    therefore we ought neither to expect nor desire to ‘walk in the light’
+                        always.<note place="foot" xml:id="ftn62" n="62"><p rend="footnote text">Cf.
+                            St. John of the Cross, <hi rend="italic">Ascent of Mount Carmel</hi>,
+                            II.ii, in <hi rend="italic">Complete Works</hi> (1933), I.68 ff.; see
+                            also <hi rend="italic">The Dark Night of the Soul</hi>, I.ix-x, <hi
+                                rend="italic">ibid.</hi>, I.373-80.</p></note> Hence it is (though
+                    other reasons may concur) that the main body of pious men in the Romish Church
+                    generally walk in a dark uncomfortable way, and if ever they receive, soon lose
+                    the light of God.<note place="foot" xml:id="ftn63" n="63"><p
+                            rend="footnote text">Cf. Jean Orcibal, ‘The Theological Originality of
+                            John Wesley and Continental Spirituality’ (see above, Vol. 1, pp. 36,
+                            75). Besides his conventional, lifelong anti-Roman prejudices, Wesley
+                            was predisposed to take the gloom of the Jansenists and even of M. de
+                            Renty as normative. Thus he ignored the lilting ‘folk-spirituality’ of
+                            the Ursulines, the Oratorians, the Salesians (and eighteenth-century
+                            Catholicism generally), so lovingly recounted by Henri Bremond in a
+                            classic study, <hi rend="italic">A Literary History of Religious Thought
+                                in France</hi> (French text, 1916; Eng. tr., London, SPCK, 1928,
+                            1930), 2 vols.</p></note></p>
+            </div>
+            <div type="section" n="3">
+                <p n="1">(III). 1. A third general cause of this darkness is <hi rend="italic"
+                        >temptation</hi>. When the candle of the Lord first shines on our head,
+                    temptation frequently flees away, and totally disappears. All is calm within:
+                        <pb n="02:213"/>perhaps without, too, while God makes our enemies to be at
+                    peace with us. It is then very natural to suppose that we shall not see war any
+                    more. And there are instances wherein this calm has continued, not only for
+                    weeks, but for months or years. But commonly it is otherwise: in a short time
+                    ‘the winds blow, the rains descend, and the floods arise’<note place="foot"
+                        xml:id="ftn64" n="64"><p rend="footnote text">Cf. Matt. 7:25, 27.</p></note>
+                    anew. They who ‘know not either the Son or the Father’,<note place="foot"
+                        xml:id="ftn65" n="65"><p rend="footnote text">Cf. John 8:19.</p></note> and
+                    consequently hate his children, when God slackens the bridle which is in their
+                    teeth, will show that hatred in various instances. As of old ‘he that was born
+                    after the flesh persecuted him that was born after the Spirit, even so it is
+                        now;’<note place="foot" xml:id="ftn66" n="66"><p rend="footnote text">Gal.
+                            4:29.</p></note> the same cause still producing the same effect. The
+                    evil which yet remains in the heart will then also move afresh; anger and many
+                    other ‘roots of bitterness’<note place="foot" xml:id="ftn67" n="67"><p
+                            rend="footnote text">Cf. Heb. 12:15.</p></note> will endeavour to spring
+                    up. At the same time Satan will not be wanting to cast in his fiery darts;<note
+                        place="foot" xml:id="ftn68" n="68"><p rend="footnote text">See Eph.
+                            6:16.</p></note> and the soul will have to ‘wrestle’, not only with the
+                    world, not only ‘with flesh and blood, but with principalities and powers, with
+                    the rulers of the darkness of this world, with wicked spirits in high
+                        places’.<note place="foot" xml:id="ftn69" n="69"><p rend="footnote text">Cf.
+                            Eph. 6:12.</p></note> Now when so various assaults are made at once, and
+                    perhaps with the utmost violence, it is not strange if it should occasion not
+                    only heaviness, but even darkness in a weak believer. More especially if he was
+                    not watching, if these assaults are made in an hour when he looked not for them;
+                    if he expected nothing less, but had fondly told himself,</p>
+                <l>The day of evil would return no more.</l>
+                <note place="foot" xml:id="ftn70" n="70"><p rend="footnote text">Cf. <hi
+                            rend="italic">Letters</hi>, 26:389 (line 8) in this edn., where these
+                        exact words occur in a somewhat despairing letter of Oct. 7, 1749, though
+                        without quotation marks. This letter, however, is known only through copies
+                        of 1828 and 1831, when the elusive quotation was apparently not recognized
+                        as such.</p></note>
+                <p n="2">2. The force of those temptations which arise from within will be
+                    exceedingly heightened if we before thought too highly of ourselves, as if we
+                    had been cleansed from all sin. And how naturally do we imagine this during the
+                    warmth of our first love! How ready are we to believe that God has ‘fulfilled’
+                    in us the whole ‘work of faith with power’!<note place="foot" xml:id="ftn71"
+                        n="71"><p rend="footnote text">Cf. 2 Thess. 1:11.</p></note> That because we
+                        <hi rend="italic">feel</hi> no sin, we <hi rend="italic">have</hi> none in
+                    us, but the soul is all love! And well may a sharp attack from an enemy whom we
+                    supposed to be not only <hi n="02:214"/> conquered but slain, throw us into much
+                    heaviness of soul, yea, sometimes into utter darkness; particularly when we <hi
+                        rend="italic">reason</hi> with this enemy, instead of instantly calling upon
+                    God, and casting ourselves upon him by simple faith who <hi rend="italic"
+                        >alone</hi> ‘knoweth how to deliver’ his [own] ‘out of temptation’.<note
+                        place="foot" xml:id="ftn72" n="72"><p rend="footnote text">Cf. 2 Pet.
+                            2:9.</p></note></p>
+            </div>
+            <div type="section" n="3">
+                <p>III. These are the usual causes of this second darkness. Inquire we, thirdly,
+                    what is the cure of it?</p>
+                <p n="1">1. To suppose that this is one and the same in all cases is a great and
+                    fatal mistake; and yet extremely common even among many who pass for experienced
+                    Christians; yea, perhaps take upon them to be ‘teachers in Israel’,<note
+                        place="foot" xml:id="ftn73" n="73"><p rend="footnote text">Cf. John 3:10
+                                (<hi rend="italic">Notes</hi>).</p></note> to be the guides of other
+                    souls. Accordingly they know and use but one medicine, whatever be the cause of
+                    the distemper. They begin immediately to apply the promises, to ‘preach the
+                    gospel’, as they call it. To give comfort is the single point at which they aim,
+                    in order to which they say many soft and tender things concerning the love of
+                    God to poor, helpless sinners, and the efficacy of the blood of Christ. Now this
+                    is ‘quackery’ indeed, and that of the worse sort, as it tends, if not to kill
+                    men’s bodies, yet without the peculiar mercy of God to ‘destroy both’ their
+                    ‘bodies and souls in hell’.<note place="foot" xml:id="ftn74" n="74"><p
+                            rend="footnote text">Cf. Matt. 10:28. Cf. Samuel Johnson’s understanding
+                            of ‘quackery’ in the particular sense of medical malpractice.</p></note>
+                    It is hard to speak of these ‘daubers with untempered mortar’,<note place="foot"
+                        xml:id="ftn75" n="75"><p rend="footnote text">Cf. Ezek. 13:10, 11, 14, 15;
+                            22:28.</p></note> these promisemongers, as they deserve. They well
+                    deserve the title which has been ignorantly given to others: they are ‘spiritual
+                        mountebanks’.<note place="foot" xml:id="ftn76" n="76"><p
+                            rend="footnote text">An ironic reference to Bishop George Lavington’s
+                            application of this label to the Methodists, in <hi rend="italic">The
+                                Enthusiasm of Methodists and Papists Compared</hi>, Pt. II, p. 147:
+                            ‘Their mountebank’s infallible prescription must be swallowed…—though
+                            they die for it.’ See also No. 35, ‘The Law Established through Faith,
+                            I’, I.12 and n.</p></note> They do, in effect, make ‘the blood of the
+                    covenant an unholy thing’.<note place="foot" xml:id="ftn77" n="77"><p
+                            rend="footnote text">Heb. 10:29.</p></note> They vilely prostitute the
+                    promises of God by thus applying them to all without distinction. Whereas indeed
+                    the cure of spiritual, as of bodily diseases, must be as various as are the
+                    causes of them. The first thing, therefore, is to find out the cause, and this
+                    will naturally point out the cure.</p>
+                <p n="2">2. For instance: is it sin which occasions darkness? What sin? Is it
+                    outward sin of any kind? Does your conscience accuse you of committing any sin
+                    whereby you grieve the Holy Spirit of God?<note place="foot" xml:id="ftn78"
+                        n="78"><p rend="footnote text">Cf. Eph. 4:30.</p></note>
+                    <pb n="02:215"/>Is it on this account that he is departed from you, and that joy
+                    and peace are departed with him? And how can you expect they should return till
+                    you put away the accursed thing?<note place="foot" xml:id="ftn79" n="79"><p
+                            rend="footnote text">See Josh. 7:13.</p></note> ‘Let the wicked forsake
+                    his way;’<note place="foot" xml:id="ftn80" n="80"><p rend="footnote text">Isa.
+                            55:7.</p></note> ‘cleanse your hands, ye sinners;’<note place="foot"
+                        xml:id="ftn81" n="81"><p rend="footnote text">Jas. 4:8.</p></note> ‘put away
+                    the evil of your doings.’<note place="foot" xml:id="ftn82" n="82"><p
+                            rend="footnote text">Isa. 1:16.</p></note> So shall your ‘light break
+                    out of obscurity’:<note place="foot" xml:id="ftn83" n="83"><p
+                            rend="footnote text">Cf. Isa. 58:10.</p></note> ‘the Lord will return
+                    and abundantly pardon.’<note place="foot" xml:id="ftn84" n="84"><p
+                            rend="footnote text">Cf. Isa. 55:7.</p></note></p>
+                <p n="3">3. If upon the closest search you can find no sin of commission which
+                    causes the cloud upon your soul, inquire next if there be not some sin of
+                    omission which separates between God and you. Do you ‘not suffer sin upon your
+                        brother’?<note place="foot" xml:id="ftn85" n="85"><p rend="footnote text"
+                            >Cf. Lev. 19:17.</p></note> Do you reprove them that sin in your sight?
+                    Do you walk in all the ordinances of God? In public, family, private prayer? If
+                    not, if you habitually neglect any one of these known duties, how can you expect
+                    that the light of his countenance should continue to shine upon you? Make haste
+                    to ‘strengthen the things that remain’;<note place="foot" xml:id="ftn86" n="86"
+                            ><p rend="footnote text">Rev. 3:2.</p></note> then your soul shall live.
+                    ‘Today, if ye will hear his voice’,<note place="foot" xml:id="ftn87" n="87"><p
+                            rend="footnote text">Ps. 95:7; Heb. 3:7, 15; 4:7.</p></note> by his
+                    grace supply what is lacking. When you ‘hear a voice behind you, saying, This is
+                    the way; walk thou in it,’<note place="foot" xml:id="ftn88" n="88"><p
+                            rend="footnote text">Cf. Isa. 30:21.</p></note> ‘harden not your
+                        heart.’<note place="foot" xml:id="ftn89" n="89"><p rend="footnote text">Cf.
+                            Ps. 95:8; Heb. 3:8, 15; 4:7.</p></note> Be no more ‘disobedient to the
+                    heavenly calling’.<note place="foot" xml:id="ftn90" n="90"><p
+                            rend="footnote text">Cf. Acts 26:19.</p></note> Till the sin, whether of
+                    omission or commission, be removed, all comfort is false and deceitful. It is
+                    only skinning the wound over, which still festers and rankles beneath. Look for
+                    no peace within till you are at peace with God; which cannot be without ‘finite
+                    meet for repentance’.<note place="foot" xml:id="ftn91" n="91"><p
+                            rend="footnote text">Matt. 3:8.</p></note></p>
+                <p n="4">4. But perhaps you are not conscious of even any <hi rend="italic">sin of
+                        omission</hi> which impairs your peace and joy in the Holy Ghost.<note
+                        place="foot" xml:id="ftn92" n="92"><p rend="footnote text">Rom.
+                        14:17.</p></note> Is there not : then some <hi rend="italic">inward
+                    sin</hi>, which as a ‘root of bitterness springs up’ in your heart to ‘trouble
+                        you’?<note place="foot" xml:id="ftn93" n="93"><p rend="footnote text">Cf.
+                            Heb. 12:15. The following paragraph closely resembles both the forms and
+                            substance of the Puritan schemes of self-examination; cf. Robert Bolton,
+                                <hi rend="italic">Works</hi> (3rd edn., 1614), II.27: ‘a fruitless
+                            and dangerous speculation of a man’s own worthiness—rather fasten it
+                            upon your corruptions and infirmities, upon your many deficiencies in
+                            religious duties and executions of your calling, wants and weaknesses in
+                            prayer and inward devotion, dullness and uncheerfulness in religious
+                            exercises.’ See also Joseph Alleine, ‘Letter IX’ in <hi rend="italic"
+                                >Christian Letters</hi>, published by Wesley in 1767 (see <hi
+                                rend="italic">Bibliog</hi>, No. 301; and Vol. 16 of this edn.); see
+                            also ‘Letter XVI’ and ‘Letter XXI’.</p></note> Is not your dryness and
+                    barrenness of soul occasioned by your heart’s ‘departing from the living
+                        God’?<note place="foot" xml:id="ftn94" n="94"><p rend="footnote text">Heb.
+                            3:12.</p></note> Has not ‘the foot of pride come against’ you?<note
+                        place="foot" xml:id="ftn95" n="95"><p rend="footnote text">Cf. Ps.
+                            36:11.</p></note> Have you <pb n="02:216"/>not ‘thought’ of yourself
+                    ‘more highly than you ought to think’?<note place="foot" xml:id="ftn96" n="96"
+                            ><p rend="footnote text">Cf. Rom. 12:3.</p></note> Have you not in any
+                    respect ‘sacrificed to your own net, and burnt incense to your own drag’?<note
+                        place="foot" xml:id="ftn97" n="97"><p rend="footnote text">Cf. Hab.
+                            1:16.</p></note> Have you not ascribed your success in any undertaking
+                    to your own courage, or strength, or wisdom? Have you not boasted of something
+                    ‘you have received, as though you had not received it’?<note place="foot"
+                        xml:id="ftn98" n="98"><p rend="footnote text">See 1 Cor. 4:7.</p></note>
+                    Have you not gloried ‘in anything save the cross of our Lord Jesus Christ’?<note
+                        place="foot" xml:id="ftn99" n="99"><p rend="footnote text">Cf. Gal.
+                            6:14.</p></note> Have you not sought after or desired the praise of men?
+                    Have you not taken pleasure in it? If so, you see the way you are to take. If
+                    you have fallen by pride, ‘humble yourself under the mighty hand of God, and he
+                    will exalt you in due time.’<note place="foot" xml:id="ftn100" n="100"><p
+                            rend="footnote text">Cf. 1 Pet. 5:6.</p></note> Have you not forced him
+                    to depart from you by giving place to anger? Have you not ‘fretted yourself
+                    because of the ungodly’ or ‘been envious against the evil-doers’?<note
+                        place="foot" xml:id="ftn101" n="101"><p rend="footnote text">Cf. Ps. 37:1
+                            (BCP).</p></note> Have you not been offended at any of your brethren?
+                    Looking at their (real or imagined) sin, so as to sin yourself against the great
+                    law of love by estranging your heart from them? Then look unto the Lord, that
+                    you may renew your strength, that all this sharpness and coldness may be done
+                    away, that love and peace and joy may return together, and you may be invariably
+                    ‘kind to each other, and tender-hearted; forgiving one another, even as God for
+                    Christ’s sake hath forgiven you’.<note place="foot" xml:id="ftn102" n="102"><p
+                            rend="footnote text">Cf. Eph. 4:32.</p></note> Have not you given way to
+                    any foolish desire? To any kind or degree of inordinate affection? How then can
+                    the love of God have place in your heart, till you put away your idols? ‘Be not
+                    deceived; God is not mocked:’<note place="foot" xml:id="ftn103" n="103"><p
+                            rend="footnote text">Gal. 6:7.</p></note> he will not dwell in a divided
+                    heart. As long therefore as you cherish Delilah in your bosom he has no place
+                    there. It is vain to hope for a recovery of his light till you pluck out the
+                    right eye and cast it from you.<note place="foot" xml:id="ftn104" n="104"><p
+                            rend="footnote text">See Matt. 5:29.</p></note> O let there be no longer
+                    delay. Cry to him that he may enable you so to do! Bewail your own impotence and
+                    helplessness; and the Lord being your helper, enter in at the strait gate:<note
+                        place="foot" xml:id="ftn105" n="105"><p rend="footnote text">Matt.
+                        7:13.</p></note> take the kingdom of heaven by violence!<note place="foot"
+                        xml:id="ftn106" n="106"><p rend="footnote text">See Matt. 11:12.</p></note>
+                    Cast out every idol from his sanctuary, and the glory of the Lord shall soon
+                        appear.<note place="foot" xml:id="ftn107" n="107"><p rend="footnote text"
+                            >See Lev. 9:6.</p></note></p>
+                <p n="5">5. Perhaps it is this very thing, the want of striving, <hi rend="italic"
+                        >spiritual sloth</hi>, which keeps your soul in darkness. You dwell at ease
+                    in the land: there is no war in your coasts, and so you are quiet and <pb
+                        n="02:217"/>unconcerned. You go on in the same even track of outward duties,
+                    and are content there to abide. And do you wonder meantime that your soul is
+                    dead? O stir yourself up before the Lord! Arise, and shake yourself from the
+                    dust: wrestle with God for the mighty blessing.<note place="foot"
+                        xml:id="ftn108" n="108"><p rend="footnote text">See Gen.
+                        32:25-26.</p></note> Pour out your soul unto God in prayer, and continue
+                    therein with all perseverance.<note place="foot" xml:id="ftn109" n="109"><p
+                            rend="footnote text">See Eph. 6:18.</p></note> Watch! Awake out of
+                    sleep, and keep awake! Otherwise there is nothing to be expected but that you
+                    will be alienated more and more from the light and life of God.</p>
+                <p n="6">6. If upon the fullest and most impartial examination of yourself you
+                    cannot discern that you at present give way either to spiritual sloth or any
+                    other inward or outward sin,<note place="foot" xml:id="ftn110" n="110"><p
+                            rend="footnote text">See No. 8, ‘The First-fruits of the Spirit’, III.4
+                            and n.</p></note> then call to mind the time that is past. Consider your
+                    former tempers, words, and actions. Have these been right before the Lord?
+                    ‘Commune with him in your chamber, and be still,’<note place="foot"
+                        xml:id="ftn111" n="111"><p rend="footnote text">Cf. Ps. 4:4
+                        (BCP).</p></note> and desire of him to try the ground of your heart, and
+                    bring to your remembrance whatever has at any time offended the eyes of his
+                        glory.<note place="foot" xml:id="ftn112" n="112"><p rend="footnote text"
+                            >Isa. 3:8.</p></note> If the guilt of any unrepented sin remain on your
+                    soul it cannot be but you will remain in darkness, till, having been ‘renewed by
+                        repentance’,<note place="foot" xml:id="ftn113" n="113"><p
+                            rend="footnote text">Cf. Heb. 6:6. Another instance of ‘a second
+                            repentance’; see intro. to Nos. 13 and 14 (<hi rend="italic">On Sin in
+                                Believers</hi> and <hi rend="italic">The Repentance of
+                                Believers</hi>).</p></note> you are again washed by faith in the
+                    ‘fountain opened for sin and uncleanness’.<note place="foot" xml:id="ftn114"
+                        n="114"><p rend="footnote text">Zech. 13:1.</p></note></p>
+                <p n="7">7. Entirely different will be the manner of the cure if the cause of the
+                    disease be not sin, but <hi rend="italic">ignorance</hi>. It may be ignorance of
+                    the meaning of Scripture; perhaps occasioned by ignorant commentators—ignorant
+                    at least in this respect, however knowing or learned they may be in other
+                    particulars. And in this case that ignorance must be removed before we can
+                    remove the darkness arising from it. We must show the true meaning of those
+                    texts which have been misunderstood. My design does not permit me to consider
+                    all the passages of Scripture which have been pressed into this service. I shall
+                    just mention two or three which are frequently brought to prove that all
+                    believers must, sooner or later, ‘walk in darkness’.<note place="foot"
+                        xml:id="ftn115" n="115"><p rend="footnote text">Isa. 59:9; John
+                        8:12.</p></note></p>
+                <p n="8">8. One of these is Isaiah 50:10: ‘Who is among you that feareth the Lord,
+                    and obeyeth the voice of his servant, that walketh in <pb n="02:218"/>darkness
+                    and hath no light? Let him trust in the name of the Lord, and stay upon his
+                    God.’ But how does it appear either from the text or context that the person
+                    here spoken of ever had light? One who is ‘convinced of sin’<note place="foot"
+                        xml:id="ftn116" n="116"><p rend="footnote text">Cf. John 8:46.</p></note>
+                    ‘feareth the Lord and obeyeth the voice of his servant’. And him we should
+                    advise, though he was still dark of soul, and had never seen the light of God’s
+                    countenance, yet to ‘trust in the name of the Lord, and stay upon his God.’ This
+                    text therefore proves nothing less than that a believer in Christ ‘must
+                    sometimes “walk in darkness”’.<note place="foot" xml:id="ftn117" n="117"><p
+                            rend="footnote text">The intent of ‘nothing less than’ is to <hi
+                                rend="italic">negate</hi> the predicate of the sentence and is
+                            common eighteenth-century usage; in modern ears it can be taken in the
+                            opposite sense. Wesley is here going against the interpretations of both
+                            Henry, <hi rend="italic">Exposition</hi>, and Poole, <hi rend="italic"
+                                >Annotations</hi>, who understand Isa. 50:10 in terms of what Wesley
+                            will call ‘heaviness’ in the following sermon rather than ‘darkness’.
+                            Poole makes a distinction between <hi rend="italic">sin</hi> and <hi
+                                rend="italic">misery</hi> and supposes the prophet to be referring
+                            to misery that may pass. Similarly, Henry comments that ‘they walk in
+                            darkness when…their joy in God is interrupted, the testimony of the
+                            Spirit is interrupted, and the light of God’s countenance
+                        eclipsed.’</p></note></p>
+                <p n="9">9. Another text which has been supposed to speak the same doctrine is Hosea
+                    2:14: ‘I will allure her, and bring her into the wilderness, and speak
+                    comfortably unto her.’ Hence it has been inferred that God will bring every
+                    believer ‘into the wilderness’, into a state of deadness and darkness. But it is
+                    certain the text speaks no such thing. For it does not appear that it speaks of
+                    particular believers at all. It manifestly refers to the Jewish nation; and
+                    perhaps to that only. But if it be applicable to particular persons, the plain
+                    meaning of it is this: I will draw him by love; I will next convince him of sin,
+                    and then comfort him by my pardoning mercy.</p>
+                <p n="10">10. A third Scripture from whence the same inference has been drawn is
+                    that above-recited: ‘Ye now have sorrow; but I will see you again, and your
+                    heart shall rejoice, and your joy no man taketh from you.’ This has been
+                    supposed to imply that God would after a time withdraw himself from all
+                    believers; and that they could not, till after they had thus sorrowed, have the
+                    joy which no man could take from them. But the whole context shows that our Lord
+                    is here speaking personally to the apostles, and no others; and that he is
+                    speaking concerning those particular events—his own death and resurrection. ‘A
+                    little while’, says he, ‘and ye shall not see me;’ namely, while I am in the
+                    grave. ‘And again a little while, and ye shall see me,’<note place="foot"
+                        xml:id="ftn118" n="118"><p rend="footnote text">John 16:16-17.</p></note>
+                    when I am risen from <pb n="02:219"/>the dead. ‘Ye will weep and lament, and the
+                    world will rejoice: but your sorrow shall be turned into joy…. Ye now have
+                    sorrow,’ because I am about to be taken from your head; ‘but I will see you
+                    again,’ after my resurrection, ‘and your heart shall rejoice. And your joy’,
+                    which I will then give you, ‘no man taketh from you.’<note place="foot"
+                        xml:id="ftn119" n="119"><p rend="footnote text">John 16:20, 22.</p></note>
+                    All this we know was literally fulfilled in the particular case of the apostles.
+                    But no inference can be drawn from hence with regard to God’s dealings with
+                    believers in general.</p>
+                <p n="11">11. A fourth text (to mention no more) which has been frequently cited in
+                    proof of the same doctrine is 1 Peter 4:12: ‘Beloved, think it not strange
+                    concerning the fiery trial which is to try you.’ But this is full as foreign to
+                    the point as the preceding. The text, literally rendered, runs thus: ‘Beloved,
+                    wonder not at the burning which is among you, which is for your trial.’ Now
+                    however this may be accommodated to inward trials, in a secondary sense, yet
+                    primarily it doubtless refers to martyrdom and the sufferings connected with
+                        it.<note place="foot" xml:id="ftn120" n="120"><p rend="footnote text">An
+                            echo of Henry’s <hi rend="italic">Exposition</hi>, to this same effect;
+                            also an indirect refutation of Moravian interpretations of 1 Pet.
+                            4:12.</p></note> Neither therefore is this text anything at all to the
+                    purpose for which it is cited. And we may challenge all men to bring one text,
+                    either from the Old or New Testament, which is any more to the purpose than
+                    this.</p>
+                <p n="12">12. ‘But is not darkness much more profitable for the soul than light? Is
+                    not the work of God in the heart most swiftly and effectually carried on during
+                    a state of inward suffering? Is not a believer more swiftly and throughly
+                    purified by sorrow than by joy? By anguish and pain and distress and spiritual
+                    martyrdoms than by continual peace?’ So the <hi rend="italic">mystics</hi>
+                    teach; so it is written in their books—but not in <hi rend="italic">the oracles
+                        of God</hi>.<note place="foot" xml:id="ftn121" n="121"><p
+                            rend="footnote text">See No. 5, ‘Justification by Faith’, §2 and n. Cf.
+                            Law’s highest mystical flight in <hi rend="italic">The Spirit of
+                                Prayer</hi>, Pt. II (1750) (<hi rend="italic">Works</hi>,
+                            VII.129-30): ‘This “coldness” [i.e., darkness] is the divine offspring….
+                            It brings a divine effect, or more fruitful progress in the divine
+                            life…. Fervour is good and ought to be loved; but tribulation, distress,
+                            and coldness in their season are better, because they give means and
+                            power of exercising a higher faith, a purer love, and more perfect
+                            resignation to God—which are the best state of the soul…. Light and
+                            darkness equally assist the pious soul; …in the darkness he lays hold on
+                            God, and so [both light and darkness] do him the same good.’</p></note>
+                    The Scripture nowhere says that the absence of God best perfects his work in the
+                    heart! Rather his presence, and a clear communion with the Father and the Son. A
+                    strong consciousness of this will do more in an hour than his absence in an age.
+                    Joy in the Holy Ghost will far more effectually purify the soul than the want of
+                    that joy; and <pb n="02:220"/>the peace of God is the best means of refining the
+                    soul from the dross of earthly affections. Away then with the idle conceit that
+                    the kingdom of God is divided against itself; that the peace of God and joy in
+                    the Holy Ghost are obstructive of righteousness; and that ‘we are saved’, not
+                    ‘by faith’,<note place="foot" xml:id="ftn122" n="122"><p rend="footnote text"
+                            >Cf. Eph. 2:8.</p></note> but by unbelief; not by hope, but by
+                    despair!</p>
+                <p n="13">13. So long as men dream thus they may well ‘walk in darkness’. Nor can
+                    the effect cease till the cause is removed. But yet we must not imagine it will
+                    immediately cease, even when the cause is no more. When either ignorance or sin
+                    has caused darkness, one or the other may be removed, and yet the light which
+                    was obstructed thereby may not immediately return. As it is the free gift of
+                    God, he may restore it sooner or later, as it pleases him. In the case of sin we
+                    cannot reasonably expect that it should immediately return. The sin began before
+                    the punishment, which may therefore justly remain after the sin is at an end.
+                    And even in the natural course of things, though a wound cannot be healed while
+                    the dart is sticking in the flesh, yet neither is it healed as soon as that is
+                    drawn out, but soreness and pain may remain long after.</p>
+                <p n="14">14. Lastly, if darkness be occasioned by manifold, heavy, and unexpected
+                    temptations, the best way for removing and preventing this is—teach believers
+                    always to expect temptation; seeing they dwell in an evil world, among wicked,
+                    subtle, malicious spirits, and have an heart capable of all evil.<note
+                        place="foot" xml:id="ftn123" n="123"><p rend="footnote text">An unusually
+                            explicit avowal of the ‘remains of sin’; see intro. to No. 13, <hi
+                                rend="italic">On Sin in Believers</hi>, III. 1-9 and n. But notice
+                            the distinctions here between ‘involuntary sins’ (as in <hi
+                                rend="italic">On Sin in Believers</hi>) and ‘heaviness’ (as in the
+                            following sermon).</p></note> Convince them that the whole work of
+                    sanctification is not (as they imagined) wrought at once; that when they first
+                    believe they are but as new-born babes,<note place="foot" xml:id="ftn124"
+                        n="124"><p rend="footnote text">1 Pet. 2:2.</p></note> who are gradually to
+                    grow up, and may expect many storms before they come to the full stature of
+                    Christ. Above all let them be instructed, when the storm is upon them, not to
+                    reason with the devil, but to pray; to pour out their souls before God, and show
+                    him of their trouble. And these are the persons unto whom chiefly we are to
+                    apply the great and precious promises—not to the ignorant, till the ignorance is
+                    removed; much less to the impenitent sinner. To these we may largely and
+                    affectionately declare the loving-kindness of God our Saviour, <pb n="02:221"
+                    />and expatiate upon his tender mercies, which have been ever of old. Here we
+                    may dwell upon the faithfulness of God, whose ‘word is tried to the
+                        uttermost’,<note place="foot" xml:id="ftn125" n="125"><p
+                            rend="footnote text">Ps. 119:140 (BCP).</p></note> and upon the virtue
+                    of that blood which was shed for us, to ‘cleanse us from all sin’.<note
+                        place="foot" xml:id="ftn126" n="126"><p rend="footnote text">Cf. 1 John
+                            1:7.</p></note> And God will then bear witness to his word, and bring
+                    their souls out of trouble. He will say, ‘Arise, shine; for thy light is come,
+                    and the glory of the Lord is risen upon thee.’<note place="foot" xml:id="ftn127"
+                        n="127"><p rend="footnote text">Isa. 60:1.</p></note> Yea, and that light,
+                    if thou walk humbly and closely with God, will ‘shine more and more unto the
+                    perfect day’.<note place="foot" xml:id="ftn128" n="128"><p rend="footnote text"
+                            >Cf. Prov. 4:18.</p></note></p>
+            </div>
+        </body>
+    </text>
+</TEI>

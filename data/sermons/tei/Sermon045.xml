@@ -1,0 +1,728 @@
+<?xml version="1.0" encoding="UTF-8"?> <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Sermon 45: The New Birth</title>
+                <author>Wesley, John</author>
+                <editor role="text">Van Buskirk, Gregory P.</editor>
+                <editor role="digital">Taylor, Michelle M.</editor>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>The Wesley Works Digitzation Project</publisher>
+                <pubPlace>Tampa, FL</pubPlace>
+                <date>2024-02-28</date>
+            </publicationStmt>
+            <sourceDesc>
+                <listBibl>
+                    <biblStruct>
+                        <analytic>
+                            <title level="a">Sermon 45: The New Birth</title>
+                        </analytic>
+                        <monogr>
+                            <title level="j">The Works of John Wesley, Volume II: Sermons II,
+                                34-70</title>
+                            <editor role="volume">Outler, Albert</editor>
+                            <imprint>
+                                <publisher>Abingdon Press</publisher>
+                                <pubPlace>Nashville, TN</pubPlace>
+                                <date when="1985-11-01">1985-11-01</date>
+                                <biblScope unit="volume" n="2"/>
+                                <biblScope unit="page" from="186" to="201"/>
+                            </imprint>
+                        </monogr>
+                        <series>
+                            <title level="s">The Works of John Wesley</title>
+                            <editor role="general">Baker, Frank</editor>
+                        </series>
+                    </biblStruct>
+                </listBibl>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Greg Van Buskirk created Word docs for all of Wesley's sermons using a combination of
+                OCR software and manual proofing. Michelle Taylor converted these docx into XML
+                using Oxygen's DITA automatic transformation scenario, then touched them up
+                manually.</p>
+        </encodingDesc>
+        <standOff>
+            <taxonomy>
+                <keywords>
+                    <term/>
+                </keywords>
+            </taxonomy>
+            <!--Include keywords and terms here eventually.-->
+        </standOff>
+        <revisionDesc/>
+    </teiHeader>
+    <text>
+        <body>
+            <pb n="02:186"/>
+            <introduction>
+                <head>
+                    <hi rend="italic">An Introductory Comment</hi>
+                </head>
+                <p>In conventional Anglican soteriology the basic remedy for original sin had always
+                    lain in the church and the sacrament of baptism (as it had been in the ancient
+                    church, where ἄφεσιν ἁμαρτιών, ‘remission of sins’, is regularly included in the
+                    third article of the creeds in connection with belief in the Holy Spirit and the
+                    church). The young Wesley had grown up with this tradition and had reproduced it
+                    in his publication of ‘A Treatise on Baptism’ (1758), without any
+                    acknowledgement that he had abridged his father’s discourse, <hi rend="italic"
+                        >The Pious Communicant Rightly Prepared; …to which is added, A Short
+                        Discourse of Baptism</hi> (1700). Even the mature Wesley had remarked, as if
+                    it were a general commonplace, ‘that these privileges [of being “born again”] by
+                    the free mercy of God, are ordinarily annexed to baptism’.<note place="foot"
+                        xml:id="ftn1" n="1"><p rend="footnote text">See No. 18, ‘The Marks of the
+                            New Birth’, §1.</p></note> But as tensions in the Revival mounted,
+                    between the claims of nominal Christians to baptismal regeneration and the
+                    claims of the evangelicals to ‘conversion’, the whole problem of regeneration in
+                    relation both to justification and sanctification became more and more urgent.
+                    And now that Wesley had restated his doctrine of original sin, there was an
+                    obvious logic in following it with an updated version of his doctrine of ‘new
+                    birth’, with a special reference, in the new situation, to some of his revisions
+                    of the conventional notions of baptismal regeneration.</p>
+                <p>This written sermon, then, is a sort of distillate of more than sixty oral
+                    sermons on John 3:7, reaching back to the 1740s (once in 1740) and continued
+                    with increasing frequency in the 1750s (five times in 1755; eleven in 1756; six
+                    in 1757; fourteen in 1758; thirteen in 1759). We may see here a rough measure of
+                    the importance of the point about ‘conversion’ as perceived by Wesley and his
+                    people. ‘The New Birth’ is Wesley’s conscious effort to provide them with a
+                    formal statement of the issue, even though, as an essay, it is clearly
+                    incomplete in both its form and argument. Similar comments may be found in
+                    Wesley’s <hi rend="italic">Notes</hi> on Matt. 18:4 and John 3:7; see also Nos.
+                    1, <hi rend="italic">Salvation by Faith</hi>, II.7; 19, ‘The Great Privilege of
+                    those that are Born of God’, §1-2; 57, ‘On the Fall of Man’, II.9-10; and 83,
+                    ‘On Patience’, §9.</p>
+                <p><pb n="02:187"/>In addition to its first appearance in <hi rend="italic"
+                        >SOSO</hi>, IV (1760), and again in <hi rend="italic">Works</hi> (1771), IV,
+                    this sermon was printed separately at least five times during Wesley’s lifetime.
+                    For its publishing history, together with a list of variant readings, see the
+                    Appendix, Vol 4; see also <hi rend="italic">Bibliog</hi>, No. 131.i.</p>
+            </introduction>
+            <head>The New Birth</head>
+            <epigraph>
+                <p>John 3:7</p>
+                <p>
+                    <hi rend="italic">Ye must be born again.</hi>
+                </p>
+            </epigraph>
+            <div type="introduction">
+                <p n="">1. If any doctrines within the whole compass of Christianity may be properly
+                    termed fundamental they are doubtless these two—the doctrine of justification,
+                    and that of the new birth: the former relating to that great work which God does
+                        <hi rend="italic">for us</hi>, in forgiving our sins; the latter to the
+                    great work which God does <hi rend="italic">in us</hi>, in renewing our fallen
+                        nature.<note place="foot" xml:id="ftn2" n="2"><p rend="footnote text">Cf.
+                            No. 5, ‘Justification by Faith’, II.1 and n.</p></note> In order of time
+                    neither of these is before the other. In the moment we are justified by the
+                    grace of God through the redemption that is in Jesus we are also ‘born of the
+                        Spirit’<note place="foot" xml:id="ftn3" n="3"><p rend="footnote text">John
+                            3:6, 8.</p></note>; but in order of thinking, as it is termed,
+                    justification precedes the new birth. We first conceive his wrath to be turned
+                    away, and then his Spirit to work in our hearts.</p>
+                <p n="">2. How great importance, then, must it be of to every child of man throughly
+                    to understand these fundamental doctrines! From a full conviction of this, many
+                    excellent men have wrote very largely concerning justification, explaining every
+                    point relating thereto, and opening the Scriptures which treat upon it. Many
+                    likewise have wrote on the new birth—and some of them largely enough—but yet not
+                    so clearly as might have been desired, nor so deeply and accurately; having
+                    either given a dark, abstruse account of it, or a slight and superficial one.
+                    Therefore a full and at the same time a clear account of the new birth seems to
+                    be wanting still. Such as may enable us to give a satisfactory answer to these
+                    three questions: First, why must we be born again? What <pb n="02:188"/>is the
+                    foundation of this doctrine of the new birth? Secondly, how must we be born
+                    again? What is the nature of the new birth? And thirdly, wherefore must we be
+                    born again? To what end is it necessary? These questions, by the assistance of
+                    God, I shall briefly and plainly answer, and then subjoin a few inferences which
+                    will naturally follow.</p>
+            </div>
+            <div type="section" n="1">
+                <p n="1">I. 1. And, first, why must we be born again? What is the foundation of this
+                    doctrine? The foundation of it lies near as deep as the creation of the world,
+                    in the scriptural account whereof we read, ‘And God’, the three-one God,<note
+                        place="foot" xml:id="ftn4" n="4"><p rend="footnote text">Cf. No. 55, <hi
+                                rend="italic">On the Trinity</hi>, §17 and n.</p></note> ‘said, Let
+                    us make man in our image, after our likeness. So God created man in his own
+                    image, in the image of God created he him.’<hi rend="endnote_reference"><note
+                            place="end"><p rend="endnote text">Gen. 1:26-27.</p></note></hi> Not
+                    barely in his <hi rend="italic">natural image</hi>, a picture of his own
+                    immortality, a spiritual being endued with understanding, freedom of will, and
+                    various affections; nor merely in his <hi rend="italic">political image</hi>,
+                    the governor of this lower world, having ‘dominion over the fishes of the sea,
+                    and over the fowl of the air, and over the cattle, and over all the earth’;<note
+                        place="foot" xml:id="ftn5" n="5"><p rend="footnote text">Cf. Gen.
+                        1:26.</p></note> but chiefly in his <hi rend="italic">moral image</hi>,<note
+                        place="foot" xml:id="ftn6" n="6"><p rend="footnote text">These phrases,
+                            ‘political image’ (i.e., social) and ‘moral image’, are borrowings from
+                            Isaac Watts, <hi rend="italic">Ruin and Recovery of Mankind</hi> (1740);
+                            cf. Wesley’s long quotation from Watts in <hi rend="italic">The Doctrine
+                                of Original Sin</hi> (1757), pp. 310-11. See also No. 1, <hi
+                                rend="italic">Salvation by Faith</hi>, §1 and n.</p></note> which,
+                    according to the Apostle, is ‘righteousness and true holiness’.<hi
+                        rend="endnote_reference"><note place="end"><p rend="endnote text">Eph.
+                                4:24.</p></note></hi> In this image of God was man made. ‘God is
+                        love:’<note place="foot" xml:id="ftn7" n="7"><p rend="footnote text">1 John
+                            4:8, 16.</p></note> accordingly man at his creation was full of love,
+                    which was the sole principle of all his tempers, thoughts, words, and
+                        actions.<note place="foot" xml:id="ftn8" n="8"><p rend="footnote text">This
+                            passage reappears, in altered form, in J. Wakelin, <hi rend="italic"
+                                >Christ and Nicodemus</hi> (1760), a rare instance of any attention
+                            paid to Wesley’s sermons outside his own Methodist
+                        constituency.</p></note> God is full of justice, mercy, and truth: so was
+                    man as he came from the hands of his Creator. God is spotless purity: and so man
+                    was in the beginning pure from every sinful blot. Otherwise God could not have
+                    pronounced <hi rend="italic">him</hi> as well as all the other works of his
+                    hands, ‘very good’.<hi rend="endnote_reference"><note place="end"><p
+                                rend="endnote text">Gen. 1:31. [Cf. No. 141, ‘The Image of
+                                God’.]</p></note></hi> This he could not have been had he not been
+                    pure from sin, and filled with righteousness and true holiness. For there is no
+                    medium. If we suppose an intelligent creature not to love God, not to be <pb
+                        n="02:189"/>righteous and holy, we necessarily suppose him not to be good at
+                    all; much less to be ‘very good’.</p>
+                <p n="2">2. But although man was made in the image of God, yet he was not made
+                    immutable. This would have been inconsistent with that state of trial in which
+                    God was pleased to place him. He was therefore created able to stand, and yet
+                    liable to fall. And this God himself apprised him of, and gave him a solemn
+                    warning against it. Nevertheless ‘man did not abide in honour.’<note
+                        place="foot" xml:id="ftn9" n="9"><p rend="footnote text">Cf. Ps. 49:12
+                            (BCP).</p></note> He fell from his high estate. He ‘ate of the tree
+                    whereof the Lord had commanded him, Thou shalt not eat thereof.’<note
+                        place="foot" xml:id="ftn10" n="10"><p rend="footnote text">Cf. Gen. 3:11,
+                            17.</p></note> By this wilful act of disobedience to his Creator, this
+                    flat rebellion against his sovereign, he openly declared that he would no longer
+                    have God to rule over him; that he would be governed by his own will, and not
+                    the will of him that created him, and that he would not seek his happiness in
+                    God, but in the world, in the works of his hands. Now God had told him before,
+                    ‘In the day that thou eatest’ of that fruit ‘thou shalt surely die.’<note
+                        place="foot" xml:id="ftn11" n="11"><p rend="footnote text">Gen.
+                        2:17.</p></note> And the word of the Lord cannot be broken. Accordingly in
+                    that day he did die: he died to God, the most dreadful of all deaths. He lost
+                    the life of God: he was separated from him in union with whom his spiritual life
+                    consisted. The body dies when it is separated from the soul, the soul when it is
+                    separated from God. But this separation from God Adam sustained in the day, the
+                    hour, he ate of the forbidden fruit. And of this he gave immediate proof;
+                    presently showing by his behaviour that the love of God was extinguished in his
+                    soul, which was now ‘alienated from the life of God’.<note place="foot"
+                        xml:id="ftn12" n="12"><p rend="footnote text">Eph. 4:18.</p></note> Instead
+                    of this he was now under the power of servile fear, so that he fled from the
+                    presence of the Lord.<note place="foot" xml:id="ftn13" n="13"><p
+                            rend="footnote text">Jonah 1:10.</p></note> Yea, so little did he retain
+                    even of the knowledge of him who filleth heaven and earth that he endeavoured to
+                    ‘hide himself from the Lord God, among the trees of the garden’.<hi
+                        rend="endnote_reference"><note place="end"><p rend="endnote text">Gen.
+                                3:8.</p></note></hi> So had he lost both the knowledge and the love
+                    of God, without which the image of God would not subsist. Of this therefore he
+                    was deprived at the same time, and became unholy as well as unhappy.<note
+                        place="foot" xml:id="ftn14" n="14"><p rend="footnote text">Cf. below, III.3;
+                            also No. 5, ‘Justification by Faith’, I.4 and n.</p></note> In the room
+                    of this he had sunk into <pb n="02:190"/>pride and self-will, the very image of
+                    the devil, and into sensual appetites and desires, the image of the beasts that
+                    perish.</p>
+                <p n="3">3. If it be said, ‘Nay, but that threatening, “In the day that thou eatest
+                    thereof thou shalt surely die,” refers to temporal death, and that alone, to the
+                    death of the body only;’ the answer is plain: to affirm this is flatly and
+                    palpably to make God a liar—to aver that the God of truth positively affirmed a
+                    thing contrary to truth. For it is evident Adam did not <hi rend="italic"
+                        >die</hi> in this sense ‘in the day that he ate thereof’. He lived, in the
+                    sense opposite to this death, above nine hundred years after; so that this
+                    cannot possibly be understood of the death of the body without impeaching the
+                    veracity of God. It must therefore be understood of spiritual death, the loss of
+                    the life and image of God.</p>
+                <p n="4">4. And ‘in Adam all died,’<note place="foot" xml:id="ftn15" n="15"><p
+                            rend="footnote text">Cf. 1 Cor. 15:22.</p></note> all humankind, all the
+                    children of men who were then in Adam’s loins. The natural consequence of this
+                    is that everyone descended from him comes into the world spiritually dead, dead
+                    to God, wholly ‘dead in sin’;<note place="foot" xml:id="ftn16" n="16"><p
+                            rend="footnote text">Cf. Eph. 2:5; Col. 2:13.</p></note> entirely void
+                    of the life of God, void of the image of God, of all that ‘righteousness and
+                        holiness’<note place="foot" xml:id="ftn17" n="17"><p rend="footnote text"
+                            >Eph. 4:24.</p></note> wherein Adam was created. Instead of this every
+                    man born into the world now bears the image of the devil, in pride and
+                    self-will; the image of the beast, in sensual appetites and desires. This then
+                    is the foundation of the new birth—the entire corruption of our nature.<note
+                        place="foot" xml:id="ftn18" n="18"><p rend="footnote text">A recapitulation
+                            of the effects of the Fall, as in No. 44, <hi rend="italic">Original
+                                Sin</hi>, I.3, II.9; see also Nos. 57, ‘On the Fall of Man’; 60,
+                            ‘The General Deliverance’, I.6-II.2; 69, ‘The Imperfection of Human
+                            Knowledge’, §3; 76, ‘On Perfection’, I.1-2; 95, ‘On the Education of
+                            Children’, §5; 129, ‘Heavenly Treasure in Earthen Vessels’, §2; 130, ‘On
+                            Living without God’, §15; and 141, ‘The Image of God’, II.</p></note>
+                    Hence it is that being ‘born in sin’<note place="foot" xml:id="ftn19" n="19"><p
+                            rend="footnote text">Cf. John 9:34.</p></note> we ‘must be born
+                        again’.<note place="foot" xml:id="ftn20" n="20"><p rend="footnote text">John
+                            3:7.</p></note> Hence everyone that is born of a woman must be born of
+                    the Spirit of God.</p>
+            </div>
+            <div type="section" n="2">
+                <p n="1">II. 1. But how must a man be born again? What is the nature of the new
+                        birth?<note place="foot" xml:id="ftn21" n="21"><p rend="footnote text">See
+                            No. 19, ‘The Great Privilege of those that are Born of God’, I.1-2 and
+                            n.</p></note> This is the second question. And a question it is of the
+                    highest moment that can be conceived. We ought not, therefore, in so weighty a
+                    concern, to be content with a slight inquiry, but to examine it with all
+                    possible care, and to ponder it in our hearts, till we fully understand this
+                    important point, and clearly see how we are to be born again.</p>
+                <p n="2"><pb n="02:191"/>2. Not that we are to expect any minute, philosophical
+                    account of the <hi rend="italic">manner how</hi> this is done. Our Lord
+                    sufficiently guards us against any such expectation by the words immediately
+                    following the text: wherein he reminds Nicodemus of as indisputable a fact as
+                    any in the whole compass of nature—which, notwithstanding, the wisest man under
+                    the sun is not able fully to explain. ‘The wind bloweth where it listeth’, not
+                    by thy power or wisdom, ‘and thou hearest the sound thereof.’ Thou art
+                    absolutely assured, beyond all doubt, that it doth blow. ‘But thou canst not
+                    tell whence it cometh, neither whither it goeth.’ The precise manner how it
+                    begins and ends, rises and falls, no man can tell. ‘So is everyone that is born
+                    of the Spirit.’<note place="foot" xml:id="ftn22" n="22"><p rend="footnote text"
+                            >John 3:8.</p></note> Thou mayst be as absolutely assured of the fact as
+                    of the blowing of the wind; but the precise manner how it is done, how the Holy
+                    Spirit works this in the soul, neither thou nor the wisest of the children of
+                    men is able to explain.</p>
+                <p n="3">3. However, it suffices for every rational and Christian purpose that
+                    without descending into curious, critical inquiries, we can give a plain
+                    scriptural account of the nature of the new birth. This will satisfy every
+                    reasonable man who desires only the salvation of his soul. The expression,
+                    ‘being born again’, was not first used by our Lord in his conversation with
+                    Nicodemus. It was well known before that time, and was in common use among the
+                    Jews when our Saviour appeared among them. When an adult heathen was convinced
+                    that the Jewish religion was of God, and desired to join therein, it was the
+                    custom to baptize him first, before he was admitted to circumcision. And when he
+                    was baptized he was said to be ‘born again’: by which they meant that he who was
+                    before a child of the devil was now adopted into the family of God, and
+                    accounted one of his children.<note place="foot" xml:id="ftn23" n="23"><p
+                            rend="footnote text">See an extensive documentation of this in <hi
+                                rend="italic">The Jewish Encyclopedia</hi> (‘Birth, New’ and
+                            ‘Baptism’).</p></note> This expression therefore which Nicodemus, being
+                    ‘a teacher in Israel’,<note place="foot" xml:id="ftn24" n="24"><p
+                            rend="footnote text">John 3:10 (Geneva Bible).</p></note> ought to have
+                    understood well, our Lord uses in conversing with him; only in a stronger sense
+                    than he was accustomed to. And this might be the reason of his asking, ‘How can
+                    these things be?’<note place="foot" xml:id="ftn25" n="25"><p
+                            rend="footnote text">John 3:9.</p></note> They cannot be literally. ‘A
+                    man’ cannot ‘enter a second time into his mother’s womb and be born’.<note
+                        place="foot" xml:id="ftn26" n="26"><p rend="footnote text">Cf. John
+                        3:4.</p></note> But they may, spiritually. A man may be <pb n="02:192"
+                    />‘born from above’,<note place="foot" xml:id="ftn27" n="27"><p
+                            rend="footnote text">John 3:3. Cf. No. 3, <hi rend="italic">‘Awake, Thou
+                                That Steepest’</hi>, I.2 and n.</p></note> ‘born of God’,<note
+                        place="foot" xml:id="ftn28" n="28"><p rend="footnote text">1 John 3:9,
+                            etc.</p></note> ‘born of the Spirit’<note place="foot" xml:id="ftn29"
+                        n="29"><p rend="footnote text">John 3:6, 8.</p></note>—in a manner which
+                    bears a very near analogy to the natural birth.</p>
+                <p n="4">4. Before a child is born into the world he has eyes, but sees not; he has
+                    ears, but does not hear. He has a very imperfect use of any other sense. He has
+                    no knowledge of any of the things of the world, nor any natural understanding.
+                    To that manner of existence which he then has we do not even give the name of
+                    life. It is then only when a man is born that we say, he begins to live. For as
+                    soon as he is born he begins to see the light and the various objects with which
+                    he is encompassed. His ears are then opened, and he hears the sounds which
+                    successively strike upon them. At the same time all the other organs of sense
+                    begin to be exercised upon their proper objects. He likewise breathes and lives
+                    in a manner wholly different from what he did before. How exactly does the
+                    parallel hold in all these instances!<note place="foot" xml:id="ftn30" n="30"><p
+                            rend="footnote text">This point, basic to Wesley’s intuitionist
+                            epistemology, will be made again, with a remarkable anecdote, in No.
+                            130, ‘On Living without God’; see also No. 10, ‘The Witness of the
+                            Spirit, I’, I.12 and n.</p></note> While a man is in a mere natural
+                    state, before he is born of God, he has, in a spiritual sense, eyes and sees
+                    not; a thick impenetrable veil lies upon them. He has ears, but hears not; he is
+                    utterly deaf to what he is most of all concerned to hear. His other spiritual
+                    senses are all locked up; he is in the same condition as if he had them not.
+                    Hence he has no knowledge of God, no intercourse with him; he is not at all
+                    acquainted with him. He has no true knowledge of the things of God, either of
+                    spiritual or eternal things. Therefore, though he is a living man, he is a dead
+                    Christian. But as soon as he is born of God there is a total change in all these
+                    particulars. The ‘eyes of his understanding are opened’<note place="foot"
+                        xml:id="ftn31" n="31"><p rend="footnote text">Eph. 1:18.</p></note> (such is
+                    the language of the great Apostle). And he who of old ‘commanded light to shine
+                    out of darkness shining on his heart’, he sees ‘the light of the glory of God’,
+                    his glorious love, ‘in the face of Jesus Christ’.<note place="foot"
+                        xml:id="ftn32" n="32"><p rend="footnote text">Cf. 2 Cor. 4:6.</p></note> His
+                    ears being opened, he is now capable of hearing the inward voice of God, saying,
+                    ‘Be of good cheer, thy sins are forgiven thee:’<note place="foot" xml:id="ftn33"
+                        n="33"><p rend="footnote text">Cf. Matt. 9:2.</p></note> ‘Go and sin no
+                        more.’<note place="foot" xml:id="ftn34" n="34"><p rend="footnote text">John
+                            8:11.</p></note> This is the purport of what God speaks to his heart;
+                    although perhaps not in these very words. He is now ready to hear whatsoever ‘he
+                    that teacheth man knowledge’<note place="foot" xml:id="ftn35" n="35"><p
+                            rend="footnote text">Ps. 94:10.</p></note> is pleased <pb n="02:193"
+                    />from time to time to reveal to him. He ‘feels in his heart’ (to use the
+                    language of our Church) ‘the mighty working of the Spirit of God’.<note
+                        place="foot" xml:id="ftn36" n="36"><p rend="footnote text">The echoes here
+                            are from the Elizabethan Homily XVII for ‘Rogation Week’, III; and also
+                            XVI, for ‘Whitsunday’, I. From the former, cf. <hi rend="italic"
+                                >Homilies</hi>, p. 434: ‘God give us grace, good people, to know
+                            these things and to feel them in our hearts…. Let us therefore meekly
+                            call upon…the Holy Ghost…that he would assist us…that in him we may be
+                            able to hear the goodness of God declared unto us for our salvation.’
+                            From the latter, cf. <hi rend="italic">ibid.</hi>, p. 409: ‘…the more it
+                            is hid from our understanding, the more it ought to move all men to
+                            wonder at the <hi rend="italic">secret and mighty working of God’s Holy
+                                Spirit</hi> which is within us. For it is the Holy Ghost…that doth
+                            quicken the minds of men, stirring up good and godly motions in their
+                            hearts [i.e., prevenient grace].’ See also No. 130, ‘On Living without
+                            God’, §8; and <hi rend="italic">A Farther Appeal</hi>, Pt. I, V.24-26
+                            (11:166-70 in this edn.).</p></note> Not in a gross, carnal sense, as
+                    the men of the world stupidly and wilfully misunderstand the expression, though
+                    they have been told again and again, we mean thereby neither more nor less than
+                    this: he feels, is inwardly sensible of, the graces which the Spirit of God
+                    works in his heart. He feels, he is conscious of, a ‘peace which passeth all
+                        understanding’.<note place="foot" xml:id="ftn37" n="37"><p
+                            rend="footnote text">Phil. 4:7.</p></note> He many times feels such a
+                    joy in God as is ‘unspeakable and full of glory’.<note place="foot"
+                        xml:id="ftn38" n="38"><p rend="footnote text">1 Pet. 1:8.</p></note> He
+                    feels ‘the love of God shed abroad in his heart by the Holy Ghost which is given
+                    unto him’.<note place="foot" xml:id="ftn39" n="39"><p rend="footnote text">Cf.
+                            Rom. 5:5.</p></note> And all his spiritual senses are then ‘exercised to
+                    discern’ spiritual ‘good and evil’.<note place="foot" xml:id="ftn40" n="40"><p
+                            rend="footnote text">Heb. 5:14.</p></note> By the use of these he is
+                    daily increasing in the knowledge of God, of Jesus Christ whom he hath sent, and
+                    of all the things pertaining to his inward kingdom. And now he may properly be
+                    said <hi rend="italic">to live</hi>: God having quickened him by his
+                        Spirit,<note place="foot" xml:id="ftn41" n="41"><p rend="footnote text">See
+                            1 Pet. 3:18.</p></note> he is alive to God through Jesus Christ.<note
+                        place="foot" xml:id="ftn42" n="42"><p rend="footnote text">Rom.
+                        6:11.</p></note> He lives a life which the world knoweth not of, a ‘life’
+                    which ‘is hid with Christ in God’.<note place="foot" xml:id="ftn43" n="43"><p
+                            rend="footnote text">Col. 3:3.</p></note> God is continually breathing,
+                    as it were, upon his soul, and his soul is breathing unto God. Grace is
+                    descending into his heart, and prayer and praise ascending to heaven. And by
+                    this intercourse between God and man, this fellowship with the Father and the
+                        Son,<note place="foot" xml:id="ftn44" n="44"><p rend="footnote text">See 1
+                            John 1:3.</p></note> as by a kind of spiritual respiration, the life of
+                    God in the soul is sustained: and the child of God grows up, till he comes to
+                    ‘the full measure of the stature of Christ’.<note place="foot" xml:id="ftn45"
+                        n="45"><p rend="footnote text">Cf. Eph. 4:13.</p></note></p>
+                <p n="5">5. From hence it manifestly appears what is the nature of the new birth. It
+                    is that great change which God works in the soul when he brings it into
+                        life:<note place="foot" xml:id="ftn46" n="46"><p rend="footnote text">Cf.
+                            No. 19, ‘The Great Privilege of those that are Born of God’, I.1 and
+                            n.</p></note> when he raises it from the death of sin <pb n="02:194"/>to
+                    the life of righteousness. It is the change wrought in the whole soul by the
+                    almighty Spirit of God when it is ‘created anew in Christ Jesus’,<note
+                        place="foot" xml:id="ftn47" n="47"><p rend="footnote text">Cf. Eph.
+                            2:10.</p></note> when it is ‘renewed after the image of God’,<note
+                        place="foot" xml:id="ftn48" n="48"><p rend="footnote text">Cf. Col.
+                            3:10.</p></note> ‘in righteousness and true holiness’,<note place="foot"
+                        xml:id="ftn49" n="49"><p rend="footnote text">Eph. 4:24.</p></note> when the
+                    love of the world is changed into the love of God, pride into humility, passion
+                    into meekness; hatred, envy, malice, into a sincere, tender, disinterested love
+                    for all mankind. In a word, it is that change whereby the ‘earthly, sensual,
+                    devilish’ mind<note place="foot" xml:id="ftn50" n="50"><p rend="footnote text"
+                            >Jas. 3:15.</p></note> is turned into ‘the mind which was in
+                        Christ’.<note place="foot" xml:id="ftn51" n="51"><p rend="footnote text">Cf.
+                            Phil. 2:5.</p></note> This is the nature of the new birth. ‘So is
+                    everyone that is born of the Spirit.’<note place="foot" xml:id="ftn52" n="52"><p
+                            rend="footnote text">John 3:8.</p></note></p>
+            </div>
+            <div type="section" n="3">
+                <p n="1">III. 1. It is not difficult for any who has considered these things to see
+                    the necessity of the new birth, and to answer the third question: Wherefore, to
+                    what ends, is it necessary that we should be born again? It is very easily
+                    discerned that this is necessary, first, in order to holiness. For what is
+                    holiness, according to the oracles of God? Not a bare external religion, a round
+                    of outward duties, how many soever they be, and how exactly soever performed.
+                    No; gospel holiness is no less than the image of God stamped upon the
+                        heart.<note place="foot" xml:id="ftn53" n="53"><p rend="footnote text">Cf.
+                            Wesley’s letter to his father, Dec. 10, 1734, §§4, 6 (25:398-99 in this
+                            edn.): ‘That course of life tends most to the glory of God wherein we
+                            can most promote holiness in ourselves and others…. By holiness I mean,
+                            not fasting, or bodily austerity, or any other external means of
+                            improvement, but that inward temper to which all these are subservient,
+                            a renewal of soul in the image of God.’</p></note> It is no other than
+                    the whole mind which was in Christ Jesus. It consists of all heavenly affections
+                    and tempers mingled together in one. It implies such a continual, thankful love
+                    to him who hath not withheld from us his Son, his only Son,<note place="foot"
+                        xml:id="ftn54" n="54"><p rend="footnote text">See Gen. 22:12, 16.</p></note>
+                    as makes it natural, and in a manner necessary to us, to love every child of
+                    man; as fills us with ‘bowels of mercies, kindness, gentleness,
+                        long-suffering’.<note place="foot" xml:id="ftn55" n="55"><p
+                            rend="footnote text">Cf. Col. 3:12. For this concept of holiness as <hi
+                                rend="italic">love</hi> (of God <hi rend="italic">and</hi> of ‘every
+                            child of man’), cf. No. 7, ‘The Way to the Kingdom’, I.10 and
+                        n.</p></note> It is such a love of God as teaches us to be blameless in all
+                    manner of conversation; as enables us to present our souls and bodies, all we
+                    are and all we have, all our thoughts, words, and actions, a continual sacrifice
+                    to God, acceptable through Christ Jesus.<note place="foot" xml:id="ftn56" n="56"
+                            ><p rend="footnote text">See 1 Pet. 2:5.</p></note> Now this holiness
+                    can have no existence till we are renewed in the image of our mind. It cannot
+                    commence in the soul till that change be wrought, till by <pb n="02:195"/>the
+                    power of the highest overshadowing us<note place="foot" xml:id="ftn57" n="57"><p
+                            rend="footnote text">See Luke 1:35.</p></note> we are brought ‘from
+                    darkness to light, from the power of Satan unto God’;<note place="foot"
+                        xml:id="ftn58" n="58"><p rend="footnote text">Acts 26:18.</p></note> that
+                    is, till we are born again; which therefore is absolutely necessary in order to
+                    holiness.</p>
+                <p n="2">2. But ‘without holiness no man shall see the Lord,’<note place="foot"
+                        xml:id="ftn59" n="59"><p rend="footnote text">Cf. Heb. 12:14.</p></note>
+                    shall see the face of God in glory. Of consequence the new birth is absolutely
+                    necessary in order to eternal salvation. Men may indeed flatter themselves (so
+                    desperately wicked and so deceitful is the heart of man!)<note place="foot"
+                        xml:id="ftn60" n="60"><p rend="footnote text">See Jer. 17:9.</p></note> that
+                    they may live in their sins till they come to the last gasp, and yet afterward
+                    live with God. And thousands do really believe that they have found a ‘broad way
+                    which leadeth’ not ‘to destruction’.<note place="foot" xml:id="ftn61" n="61"><p
+                            rend="footnote text">Cf. Matt. 7:13.</p></note> What danger, say they,
+                    can a woman be in, that is so <hi rend="italic">harmless</hi> and so<hi
+                        rend="italic"> virtuous</hi>? What fear is there that so <hi rend="italic"
+                        >honest</hi> a man, one of so strict <hi rend="italic">morality</hi>, should
+                    miss of heaven? Especially if over and above all this they constantly attend on
+                    church and sacrament. One of these will ask with all assurance, ‘What, shall not
+                    I do as well as my neighbours?’ Yes, as well as your unholy neighbours; as well
+                    as your neighbours that die in their sins. For you will all drop into the pit
+                    together, into the nethermost hell. You will all lie together in the lake of
+                    fire, ‘the lake of fire burning with brimstone’.<note place="foot"
+                        xml:id="ftn62" n="62"><p rend="footnote text">Rev. 19:20.</p></note> Then at
+                    length you will see (but God grant you may see it before!) the necessity of
+                    holiness in order to glory—and consequently of the new birth, since none can be
+                    holy except he be born again.</p>
+                <p n="3">3. For the same reason, except he be born again none can be happy even in
+                    this world. For it is not possible in the nature of things that a man should be
+                    happy who is not holy.<note place="foot" xml:id="ftn63" n="63"><p
+                            rend="footnote text">See above, I.2 and n.</p></note> Even the poor
+                    ungodly poet could tell us,</p>
+                <lg><l><hi rend="italic">Nemo malus felix</hi></l>—<note place="foot" xml:id="ftn64"
+                        n="64"><p rend="footnote text">Juvenal, <hi rend="italic">Satires</hi>, iv.
+                            8-9: <hi rend="italic">Nemo malus felix, minime corruptor et idem
+                                incestus</hi> (‘no bad man can be happy: least of all an incestuous
+                            seducer’). This dictum of Juvenal’s (here levied against Crispinus) is
+                            repeated in No. 84, <hi rend="italic">The Important Question</hi>,
+                            III.7.</p></note></lg>
+                <p>no wicked man is happy. The reason is plain: all unholy tempers are uneasy
+                    tempers. Not only malice, hatred, envy, jealousy, revenge, create a present hell
+                    in the breast, but even the softer passions, if not kept within due bounds, give
+                    a thousand times more pain than pleasure. Even ‘hope’, when ‘deferred’ (and how
+                        <pb n="02:196"/>often must this be the case!) ‘maketh the heart sick.’<note
+                        place="foot" xml:id="ftn65" n="65"><p rend="footnote text">Prov.
+                        13:12.</p></note> And every desire which is not according to the will of God
+                    is liable to ‘pierce us through with many sorrows’.<note place="foot"
+                        xml:id="ftn66" n="66"><p rend="footnote text">Cf. 1 Tim. 6:10.</p></note>
+                    And all those general sources of sin, pride, self-will, and idolatry, are, in
+                    the same proportion as they prevail, general sources of misery. Therefore as
+                    long as these reign in any soul happiness has no place there. But they must
+                    reign till the bent of our nature is changed, that is, till we are born again.
+                    Consequently the new birth is absolutely necessary in order to happiness in this
+                    world, as well as in the world to come.</p>
+            </div>
+            <div type="section" n="4">
+                <p>IV. I proposed in the last place to subjoin a few inferences which naturally
+                    follow from the preceding observations.</p>
+                <p n="1">1. And, first, it follows that baptism is not the new birth: they are not
+                    one and the same thing. Many indeed seem to imagine they are just the same; at
+                    least, they speak as if they thought so. But I do not know that this opinion is
+                    publicly avowed by any denomination of Christians whatever. Certainly it is not
+                    by any within these kingdoms, whether of the Established Church, or dissenting
+                    from it. The judgment of the latter is clearly declared in their <hi
+                        rend="italic">Larger Catechism</hi>: ‘<hi rend="italic">Q</hi>. What are the
+                    parts of a sacrament? <hi rend="italic">A</hi>. The parts of a sacrament are
+                    two: the one, an outward and sensible sign […]; the other, an inward and
+                    spiritual grace thereby signified: […] <hi rend="italic">Q</hi>. What is
+                    baptism? <hi rend="italic">A</hi>. Baptism is a sacrament […] wherein Christ
+                    hath ordained the washing with water […] to be a sign and seal of […]
+                    regeneration by his Spirit.’<hi rend="endnote_reference"><note place="end"><p
+                                rend="endnote text"><hi rend="italic">Qq</hi>. 163, 165. [Published
+                                by the Westminster Assembly in 1647; the ellipses are here added to
+                                indicate Wesley’s abridgements of the original. Cf. his earlier
+                                abridgement of the Westminster <hi rend="italic">Shorter
+                                    Catechism</hi> (also in 1647) in the <hi rend="italic">Christian
+                                    Lib.</hi>, Vol. XXXI; see also the passage on ‘The Sacraments’
+                                in the BCP Catechism.]</p></note></hi> Here it is manifest [that]
+                    baptism, the sign, is spoken of as distinct from regeneration, the thing
+                    signified.</p>
+                <p>In the Church Catechism likewise the judgment of our Church is declared with the
+                    utmost clearness. ‘What meanest thou by this word, “sacrament”? I mean an
+                    outward and visible sign of an inward and spiritual grace. […] What is the
+                    outward part or form in baptism? Water, wherein the person is baptized, “In the
+                    name of the Father, Son, and Holy Ghost”. What is the inward part or thing
+                    signified? A death unto sin, and a new birth unto <pb n="02:197"
+                        />righteousness.’<note place="foot" xml:id="ftn67" n="67"><p
+                            rend="footnote text">An abridgement of the section on Baptism in the BCP
+                            Catechism. Henry Hammond, <hi rend="italic">Practical Catechism</hi>,
+                            VI.ii.348-57, had made no sharp distinction between the external and
+                            internal ‘works’ in baptism, nor had any of the other representative
+                            spokesmen of the Church of England; see, for examples, More and Cross,
+                                <hi rend="italic">Anglicanism</hi>, pp. 423-29, and espec. Jeremy
+                            Taylor, <hi rend="italic">The Great Exemplar; …the History of the Life
+                                and Death of the Ever-Blessed Jesus Christ</hi> (1649), I.ix, in <hi
+                                rend="italic">Works</hi> (1844), I.129: ‘In baptism we are born
+                            again…. The second birth spoken of in Scripture is baptism.’ See also
+                            Wesley’s own ‘Treatise on Baptism’: ‘This regeneration which our Church
+                            in so many places ascribes to baptism is more than barely being admitted
+                            into the Church…. By…the water of baptism we are regenerated or born
+                            again; whence it is also called by the Apostle, “the washing of
+                            regeneration” [Titus 3:5]….’ The fact is that Wesley had changed his
+                            views on this point; his evangelical concern was to separate ‘the new
+                            birth’ from all ‘external acts’ in order to support his newer emphasis
+                            on ‘conversion’. See also <hi rend="italic">Works</hi> (1771),
+                            XIX.275-97.</p></note> Nothing therefore is plainer than that, according
+                    to the Church of England, baptism is not the new birth.</p>
+                <p>But indeed the reason of the thing is so clear and evident as not to need any
+                    other authority. For what can be more plain than that the one is an external,
+                    the other an internal work? That the one is a visible, the other an invisible
+                    thing, and therefore wholly different from each other: the one being an act of
+                    man, purifying the body, the other a change wrought by God in the soul. So that
+                    the former is just as distinguishable from the latter as the soul from the body,
+                    or water from the Holy Ghost.</p>
+                <p n="2">2. From the preceding reflections we may, secondly, observe that as the new
+                    birth is not the same thing with baptism, so it does not always accompany
+                    baptism; they do not constantly go together. A man may possibly be ‘born of
+                        water’,<note place="foot" xml:id="ftn68" n="68"><p rend="footnote text">John
+                            3:5.</p></note> and yet not be ‘born of the Spirit’.<note place="foot"
+                        xml:id="ftn69" n="69"><p rend="footnote text">John 3:6, 8.</p></note> There
+                    may sometimes be the outward sign where there is not the inward grace. I do not
+                    now speak with regard to infants: it is certain, our Church supposes that all
+                    who are baptized in their infancy are at the same time born again. And it is
+                    allowed that the whole office for the baptism of infants proceeds upon this
+                    supposition. Nor is it an objection of any weight against this that we cannot
+                    comprehend how this work can be wrought in infants: for neither can we
+                    comprehend <hi rend="italic">how</hi> it is wrought in a person of riper years.
+                    But whatever be the case with infants, it is sure all of riper years who are
+                    baptized are not at the same time born again. ‘The tree is known by its
+                        fruits.’<note place="foot" xml:id="ftn70" n="70"><p rend="footnote text"
+                            >Matt. 12:33.</p></note> And hereby it appears too plain to be denied
+                    that divers of those who were children of the devil before they were baptized
+                    continue the same after baptism: ‘For the works of’ their ‘father they do’;<note
+                        place="foot" xml:id="ftn71" n="71"><p rend="footnote text">Cf. John 8:41,
+                            44.</p></note> they <pb n="02:198"/>continue servants of sin, without
+                    any pretence either to inward or outward holiness.</p>
+                <p n="3">3. A third inference which we may draw from what has been observed is that
+                    the new birth is not the same with sanctification. This is indeed taken for
+                    granted by many; particularly by an eminent writer in his late treatise on ‘the
+                    nature and grounds of Christian regeneration’.<note place="foot" xml:id="ftn72"
+                        n="72"><p rend="footnote text">Law, <hi rend="italic">The Grounds and
+                                Reasons of Christian Regeneration or the New Birth</hi> (1739), <hi
+                                rend="italic">Works</hi> (1762), V.155-66. Wesley had reacted
+                            sharply against this little book shortly after its publication, as in
+                            JWJ, Oct 23, 1739: ‘I read over Mr. Law’s book on the new birth:
+                            philosophical, speculative, precarious; Behmenish, void, and vain! “O
+                            what a fall is there!”’ See also CWJ, Oct 19, 1739. There are, however,
+                            echoes of Law’s treatise in Wesley’s sermon. For instance, Law is much
+                            concerned with ‘the nature, manner, and necessity of our redemption
+                            through Christ’s blood, and a life received from him…’ (§16), and holds
+                            it ‘proper to inquire when and how this great work is done in the soul’
+                            (§29). More, regeneration is defined as consisting ‘<hi rend="italic"
+                                >solely</hi> in the <hi rend="italic">restoration</hi> of the birth
+                            of the Son of God in the human soul’ (<hi rend="italic">ibid.</hi>). The
+                            crucial disagreement came over Law’s conflation of regeneration and
+                            sanctification, where he speaks of ‘regeneration…as a certain <hi
+                                rend="italic">process</hi>, a <hi rend="italic">gradual release</hi>
+                            from our captivity and disorder, consisting of several <hi rend="italic"
+                                >stages</hi> and <hi rend="italic">degrees</hi>, both of life and
+                            death, which the soul must go through before it can have thoroughly put
+                            off the old Man’ (§49). Even here, Wesley argued for <hi rend="italic"
+                                >sanctification</hi> as process, ‘a gradual release from our
+                            captivity and disorder’. What he denied was that it <hi rend="italic"
+                                >had</hi> to go through life <hi rend="italic">and death</hi> before
+                            ‘perfection in love’ might be attained.</p></note> To waive several
+                    other weighty objections which might be made to that tract, this is a palpable
+                    one: it all along speaks of regeneration as a progressive work carried on in the
+                    soul by slow degrees from the time of our first turning to God.<note
+                        place="foot" xml:id="ftn73" n="73"><p rend="footnote text">See No. 107, ‘On
+                            God’s Vineyard’, I.7.</p></note> This is undeniably true of
+                    sanctification; but of regeneration, the new birth, it is not true. This is a
+                    part of sanctification, not the whole; it is the gate of it, the entrance into
+                    it. When we are born again, then our sanctification, our inward and outward
+                    holiness, begins. And thenceforward we are gradually to ‘grow up in him who is
+                    our head’.<note place="foot" xml:id="ftn74" n="74"><p rend="footnote text">Cf.
+                            Eph. 4:15.</p></note> This expression of the Apostle admirably
+                    illustrates the difference between one and the other, and farther points out the
+                    exact analogy there is between natural and spiritual things. A child is born of
+                    a woman in a moment, or at least in a very short time. Afterward he gradually
+                    and slowly grows till he attains the stature of a man. In like manner a child is
+                    born of God in a short time, if not in a moment. But it is by slow degrees that
+                    he afterward grows up to the measure of the full stature of Christ.<note
+                        place="foot" xml:id="ftn75" n="75"><p rend="footnote text">See Eph.
+                            4:13.</p></note> The same relation therefore which there is between our
+                    natural birth and our growth there is also between our new birth and our
+                    sanctification.</p>
+                <p n="4"><pb n="02:199"/>4. One point more we may learn from the preceding
+                    observations. But it is a point of so great importance as may excuse the
+                    considering it the more carefully, and prosecuting it at some length. What must
+                    one who loves the souls of men, and is grieved that any of them should perish,
+                    say to one whom he sees living in sabbath-breaking, drunkenness, or any other
+                    wilful sin? What can he say, if the foregoing observations are true, but ‘you
+                    must be born again.’ ‘No’, says a zealous man, ‘that cannot be. How can you talk
+                    so uncharitably to the man? Has he not been baptized already? He cannot be born
+                    again now.’ Can he not be born again? Do you affirm this? Then he cannot be
+                    saved. Though he be as old as Nicodemus was, yet, ‘except he be born again, he
+                    cannot see the kingdom of God.’<note place="foot" xml:id="ftn76" n="76"><p
+                            rend="footnote text">Cf. John 3:3.</p></note> Therefore in saying, ‘he
+                    cannot be born again,’ you in effect deliver him over to damnation. And where
+                    lies the uncharitableness now? On my side, or on yours? I say, ‘He may be born
+                    again, and so become an heir of salvation.’ You say, ‘He cannot be born again.’
+                    And if so, he must inevitably perish. So you utterly block up his way to
+                    salvation, and send him to hell out of mere charity!</p>
+                <p>But perhaps the sinner himself, to whom in real charity we say, ‘You must be born
+                    again,’ has been taught to say, ‘I defy your new doctrine; I need not be born
+                    again. I was born again when I was baptized. What! Would you have me deny my
+                    baptism?’ I answer, first, there is nothing under heaven which can excuse a lie.
+                    Otherwise I should say to an open sinner, ‘If you have been baptized, do not own
+                    it.’ For how highly does this aggravate your guilt! How will it increase your
+                    damnation! Was you devoted to God at eight days old, and have you been all these
+                    years devoting yourself to the devil? Was you, even before you had the use of
+                    reason, consecrated to God the Father, the Son, and the Holy Ghost? And have
+                    you, ever since you had the use of it, been flying in the face of God, and
+                    consecrating yourself to Satan? Does the abomination of desolation,<note
+                        place="foot" xml:id="ftn77" n="77"><p rend="footnote text">Matt.
+                        24:15.</p></note> the love of the world, pride, anger, lust, foolish desire,
+                    and a whole train of vile affections, stand where it ought not? Have you set up
+                    all these accursed things in that soul which was once a ‘temple of the Holy
+                        Ghost’?<note place="foot" xml:id="ftn78" n="78"><p rend="footnote text">1
+                            Cor. 6:19.</p></note> Set apart for ‘an habitation of God through the
+                        Spirit’?<note place="foot" xml:id="ftn79" n="79"><p rend="footnote text"
+                            >Eph. 2:22.</p></note> Yea, solemnly <pb n="02:200"/>given up to him?
+                    And do you glory in this, that you once belonged to God? O, be ashamed! Blush!
+                    Hide yourself in the earth! Never boast more of what ought to fill you with
+                    confusion, to make you ashamed before God and man! I answer, secondly, you have
+                    already denied your baptism; and that in the most effectual manner. You have
+                    denied it a thousand and a thousand times; and you do so still day by day. For
+                    in your baptism you renounced the devil and all his works.<note place="foot"
+                        xml:id="ftn80" n="80"><p rend="footnote text">Cf. in the BCP rite ‘For the
+                            Ministration of Holy Baptism’, the question addressed to ‘Godfathers and
+                            Godmothers’ (in the case of infants) or to an adult baptized directly:
+                            ‘Dost thou, therefore, in the name of this child, renounce the devil and
+                            all his works, the vain pomp and glory of the world…?’</p></note>
+                    Whenever therefore you give place to him again, whenever you do any of the works
+                    of the devil, then you deny your baptism. Therefore you deny it by every wilful
+                    sin; by every act of uncleanness, drunkenness, or revenge; by every obscene or
+                    profane word; by every oath that comes out of your mouth. Every time you profane
+                    the day of the Lord you thereby deny your baptism; yea, every time you do
+                    anything to another which you would not he should do to you.<note place="foot"
+                        xml:id="ftn81" n="81"><p rend="footnote text">See Matt. 7:12.</p></note> I
+                    answer, thirdly, be you baptized or unbaptized, you must be born again.
+                    Otherwise it is not possible you should be inwardly holy: and without inward as
+                    well as outward holiness you cannot be happy even in this world; much less in
+                    the world to come. Do you say, ‘Nay, but I do no harm to any man; I am honest
+                    and just in all my dealings; I do not curse, or take the Lord’s name in vain; I
+                    do not profane the Lord’s day; I am no drunkard, I do not slander my neighbour,
+                    nor live in any wilful sin’? If this be so, it were much to be wished that all
+                    men went as far as you do. But you must go farther yet, or you cannot be saved.
+                    Still you must be born again. Do you add, ‘I do go farther yet; for I not only
+                    do no harm, but do all the good I can.’ I doubt that fact; I fear you have had a
+                    thousand opportunities of doing good which you have suffered to pass by
+                    unimproved, and for which therefore you are accountable to God. But if you had
+                    improved them all, if you really had done all the good you possibly could to all
+                    men, yet this does not at all alter the case. Still you must be born again.
+                    Without this nothing will do any good to your poor, sinful, polluted soul. ‘Nay,
+                    but I constantly attend all the ordinances of God: I keep to my church and
+                    sacrament.’ It is well you do. But all this will not keep you from hell, except
+                    you be born again. Go to church twice a day, go to the Lord’s table every week,
+                        <pb n="02:201"/>say ever so many prayers in private; hear ever so many
+                    sermons, good sermons, excellent sermons, the best that ever were preached; read
+                    ever so many good books—still you must be born again. None of these things will
+                    stand in the place of the new birth. No, nor anything under heaven. Let this,
+                    therefore, if you have not already experienced this inward work of God, be your
+                    continual prayer, ‘Lord, add this to all thy blessings: let me be “born again”.
+                    Deny whatever thou pleasest, but deny not this: let me be “born from above”.
+                    Take away whatsoever seemeth thee good, reputation, fortune, friends, health.
+                    Only give me this: to be “born of the Spirit”! To be received among the children
+                    of God. Let me be born, “not of corruptible seed, but incorruptible, by the Word
+                    of God, which liveth and abideth for ever”.<note place="foot" xml:id="ftn82"
+                        n="82"><p rend="footnote text">1 Pet. 1:23.</p></note> And then let me daily
+                    “grow in grace, and in the knowledge of our Lord and Saviour Jesus
+                        Christ”!’<note place="foot" xml:id="ftn83" n="83"><p rend="footnote text">2
+                            Pet. 3:18.</p></note></p>
+            </div>
+        </body>
+    </text>
+</TEI>

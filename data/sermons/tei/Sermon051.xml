@@ -1,0 +1,845 @@
+<?xml version="1.0" encoding="UTF-8"?> <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Sermon 51: The Good Steward</title>
+                <author>Wesley, John</author>
+                <editor role="text">Van Buskirk, Gregory P.</editor>
+                <editor role="digital">Taylor, Michelle M.</editor>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>The Wesley Works Digitzation Project</publisher>
+                <pubPlace>Tampa, FL</pubPlace>
+                <date>2024-02-28</date>
+            </publicationStmt>
+            <sourceDesc>
+                <listBibl>
+                    <biblStruct>
+                        <analytic>
+                            <title level="a">Sermon 51: The Good Steward</title>
+                        </analytic>
+                        <monogr>
+                            <title level="j">The Works of John Wesley, Volume II: Sermons II,
+                                34-70</title>
+                            <editor role="volume">Outler, Albert</editor>
+                            <imprint>
+                                <publisher>Abingdon Press</publisher>
+                                <pubPlace>Nashville, TN</pubPlace>
+                                <date when="1985-11-01">1985-11-01</date>
+                                <biblScope unit="volume" n="2"/>
+                                <biblScope unit="page" from="263" to="280"/>
+                            </imprint>
+                        </monogr>
+                        <series>
+                            <title level="s">The Works of John Wesley</title>
+                            <editor role="general">Baker, Frank</editor>
+                        </series>
+                    </biblStruct>
+                </listBibl>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Greg Van Buskirk created Word docs for all of Wesley's sermons using a combination of
+                OCR software and manual proofing. Michelle Taylor converted these docx into XML
+                using Oxygen's DITA automatic transformation scenario, then touched them up
+                manually.</p>
+        </encodingDesc>
+        <standOff>
+            <taxonomy>
+                <keywords>
+                    <term/>
+                </keywords>
+            </taxonomy>
+            <!--Include keywords and terms here eventually.-->
+        </standOff>
+        <revisionDesc/>
+    </teiHeader>
+    <text>
+        <body>
+            <pb n="02:281"/>
+            <introduction>
+                <head><hi rend="italic">An Introductory Comment</hi></head>
+                <p>In its substance and theme this sermon follows as a sequel to ‘The Use of Money’,
+                    but its form is different and so also is its style. It is one of the very few of
+                    Wesley’s sermons to the nobility, the fruit of a brief period of closer
+                    cooperation between Wesley and the Countess of Huntingdon and her circle of
+                    high-born friends in the closing years of the 1760s—an alliance shortly to be
+                    disrupted by the controversies stirred up by that provocative Minute of 1770.
+                    ‘The Use of Money’ is clearly to ‘plain people’ (<hi rend="italic">ad
+                        populum</hi>). <hi rend="italic">The Good Steward</hi> is an ‘inaugural
+                    sermon’ marking Wesley’s somewhat unlikely appointment as ‘Chaplain to the
+                    Countess Dowager of Buchan’. The Countess had been born Lady Agnes Stewart of
+                    Goodtrees (near Edinburgh), and now was the widow of David Erskine, tenth Earl
+                    of Buchan. After the latter’s triumphant death, December 1, 1767, his son and
+                    heir (also a convert to Methodism) ‘appointed Mr. Venn, Mr. Fletcher, and Mr.
+                    Berridge as his (personal chaplains]’; see the vivid account in Seymour, <hi
+                        rend="italic">Countess of Huntingdon</hi>, II.14-19. His mother (the
+                    Dowager), ‘a woman of strong natural understanding and of a highly cultivated
+                    mind’, seems to have been persuaded by Lady Huntingdon to appoint Mr. Wesley as
+                    her own chaplain (<hi rend="italic">ibid.</hi>, I.427; see also WHS, X.91-92).
+                    This was promptly acknowledged in a mildly stilted letter of Wesley’s to Lady
+                    Huntingdon on January 4, 1768: ‘I am obliged to your Ladyship, and to Lady
+                    Buchan, for such a mark of your regard as I did not at all expect. I purpose to
+                    return her Ladyship thanks by this post.’ On the following May 15, in Edinburgh,
+                    he preached to a ‘sufficiently crowded house, even with the rich and
+                    honourable’, and one may suppose that his topic for that occasion had been <hi
+                        rend="italic">The Good Steward</hi> (a <hi rend="italic">concio ad
+                        aulam</hi>, dated for publication as of May 14). He had already spoken on
+                    this same theme in No. 28, ‘Sermon on the Mount, VIII’, §§26-27. He and the
+                    well-read in his audience would have recognized the echoes here from William
+                    Law’s classic description of <hi rend="italic">the stewardship of life
+                        itself</hi> in his <hi rend="italic">Serious Call</hi>. The special
+                    obligations of Christian stewardship amongst ‘the rich and honourable’ had
+                    already been analyzed in quite genteel fashion by John Chappelow, <hi
+                        rend="italic">The Right Way to be Rich</hi>. What <pb n="02:282"/>Wesley
+                    adds is a vivid description of ‘The Last Judgment’, echoing his earlier sermon,
+                    No. 15, <hi rend="italic">The Great Assize</hi>.</p>
+                <p>Wesley’s style here is noticeably more formal than in the generality of his
+                    sermons, his learning slightly more in evidence. Even more notable, however, are
+                    his brief excursions into speculation (e.g., the controverted question about
+                    ‘the sleep of death’, etc.). The basic message is, of course, familiar from
+                    Wesley’s earliest interest in holy living: all of life is from God, and our use
+                    of <hi rend="italic">all</hi> its gifts and bounties are to be received
+                    gratefully and administered faithfully as ‘‘good <hi rend="italic"
+                    >stewards</hi>’, and always <hi rend="italic">ad interim</hi>.</p>
+                <p>What Wesley’s chaplaincy to the Dowager Countess amounted to is not altogether
+                    dear. He adverts to it in the title of his open <hi rend="italic">Letter to the
+                        Rev. Dr. Rutherforth</hi> (March 24, 1768) and, again, on the titlepage of
+                    his memorial sermon on the death of George Whitefield, November 18, 1770 (see
+                    No. 53).</p>
+                <p>Does his subsequent silence suggest that the appointment lapsed after the
+                    ‘Calvinist-Arminian’ disputes of the 1770s heated up? We do not know. What is
+                    certain is that, while it lasted, the patronage of the Erskine family would have
+                    aided Wesley’s work in Scotland. The sermon itself was first published in
+                    Newcastle in 1768 and then inserted into Vol. IV of Wesley’s <hi rend="italic"
+                        >Works</hi> (1771). For the publishing history of its nine extant editions
+                    during Wesley’s lifetime, and a list of its variant readings, see Appendix, Vol.
+                    4, and <hi rend="italic">Bibliog</hi>, No. 311.</p>
+            </introduction>
+            <head>The Good Steward</head>
+            <epigraph>
+                <p>Luke 16:2</p>
+                <p><hi rend="italic">Give an account of thy stewardship; for thou canst be no longer
+                        steward.</hi></p>
+            </epigraph>
+            <div>
+                <p>1. The relation which man bears to God, the creature to his Creator, is exhibited
+                    to us in the oracles of God under various representations. Considered as a
+                    sinner, a fallen creature, he is there represented as a <hi rend="italic"
+                        >debtor</hi> to his Creator. He is also frequently represented as a <hi
+                        rend="italic">servant</hi>, which indeed is essential to him as a creature,
+                    insomuch that this appellation is given to the Son of <pb n="02:283"/>God when
+                    in his state of humiliation: he ‘took upon him the form of a servant, being made
+                    in the likeness of men’.<note place="foot" xml:id="ftn1" n="1"><p
+                            rend="footnote text">Cf. Phil. 2:7.</p></note></p>
+                <p>2. But no character more exactly agrees with the present state of man than that
+                    of a <hi rend="italic">steward</hi>.<note place="foot" xml:id="ftn2" n="2"><p
+                            rend="footnote text">Cf. Wesley’s <hi rend="italic">Notes</hi> (Luke
+                            16:1); and also Poole, <hi rend="italic">Annotations</hi>: ‘We are but
+                            stewards of the good things God lends us, and must give an account to
+                            our Master of them.’ Henry, <hi rend="italic">Exposition</hi>, on the
+                            same passage, quotes from Rabbi Kimchi: ‘This world is a house; heaven
+                            the roof; the stars the lights; the earth…a table spread…; man is the
+                                <hi rend="italic">steward</hi>…; if he behave himself well, he shall
+                            find favour in the eyes of the Lord; if not, he shall be turned out of
+                            his stewardship.’</p></note> Our blessed Lord frequently represents him
+                    as such; and there is a peculiar propriety in the representation. It is only in
+                    one particular respect, namely, as he is a sinner, that he is styled a ‘debtor’;
+                    and when he is styled a ‘servant’ the appellation is general and indeterminate.
+                    But a ‘steward’ is a servant of a particular kind; such a one as man is in all
+                    respects. This appellation is exactly expressive of his situation in the present
+                    world, specifying what kind of servant he is to God, and what kind of service
+                    his divine master expects from him.</p>
+                <p>It may be of use, then, to consider this point throughly, and to make our full
+                    improvement of it. In order to this let us, first, inquire in what respects we
+                    are now God’s ‘stewards’. Let us, secondly, observe that when he requires our
+                    souls of us we ‘can be no longer stewards’. It will then only remain, as we may
+                    in the third place observe, to ‘give an account of our stewardship’.</p>
+            </div>
+            <div>
+                <p>I. 1. And, first, we are to inquire in what respects we are now God’s stewards.
+                    We are now indebted to him for all we have; but although a debtor is obliged to
+                    return what he has received, yet until the time of payment comes he is at
+                    liberty to use it as he pleases. It is not so with a steward: he is not at
+                    liberty to use what is lodged in his hands as <hi rend="italic">he</hi> pleases,
+                    but as his master pleases. He has no right to dispose of anything which is in
+                    his hands but according to the will of his lord. For he is not the proprietor of
+                    any of these things, but barely entrusted with them by another: and entrusted on
+                    this express condition, that he shall dispose of all as his master orders. Now
+                    this is exactly the case of every man with relation to God. We are not at
+                    liberty to use what he has lodged in our hands as <hi rend="italic">we</hi>
+                    please, but as he pleases, who alone is the Possessor of heaven and earth,<note
+                        place="foot" xml:id="ftn3" n="3"><p rend="footnote text">Gen. 14:19,
+                        22.</p></note> and the Lord of every creature. We have no right to dispose
+                    of anything we have but according to <pb n="02:284"/>his will, seeing we are not
+                    proprietors of any of these things. They are all, as our Lord speaks,
+                        ἀλλότρια<note place="foot" xml:id="ftn4" n="4"><p rend="footnote text">Luke
+                            16:12.</p></note>, ‘belonging to another person’; nor is anything
+                    properly ‘our own’ in the land of our pilgrimage.<note place="foot"
+                        xml:id="ftn5" n="5"><p rend="footnote text">See Exod. 6:4.</p></note> We
+                    shall not receive τὰ ἴδια,<note place="foot" xml:id="ftn6" n="6"><p
+                            rend="footnote text">Cf. Acts 4:32; but see also Bauer in Arndt and
+                            Gingrich, <hi rend="italic">Greek-English Lexicon</hi>.</p></note> ‘our
+                    own things’, till we come to our own country. Eternal things only are our own:
+                    with all these temporal things we are barely entrusted by another—the Disposer
+                    and Lord of all. And he entrusts us with them on this express condition, that we
+                    use them only as our Master’s goods, and according to the particular directions
+                    which he has given us in his Word.</p>
+                <p>2. On this condition he hath entrusted us with our souls, our bodies, our goods,
+                    and whatever other talents we have received: but in order to impress this
+                    weighty truth on our hearts it will be needful to come to particulars.</p>
+                <p>And first, God has entrusted us with our <hi rend="italic">soul</hi>, an immortal
+                    spirit made in the image of God,<note place="foot" xml:id="ftn7" n="7"><p
+                            rend="footnote text">Gen. 1:27; 9:6, etc.</p></note> together with all
+                    the powers and faculties thereof—understanding, imagination, memory; will, and a
+                    train of affections either included in it or closely dependent upon it; love and
+                    hatred, joy and sorrow, respecting present good and evil; desire and aversion,
+                    hope and fear, respecting that which is to come. All these St. Paul seems to
+                    include in two words when he says, ‘The peace of God shall keep your <hi
+                        rend="italic">hearts</hi> and <hi rend="italic">minds</hi>.’<note
+                        place="foot" xml:id="ftn8" n="8"><p rend="footnote text">Phil.
+                        4:7.</p></note> Perhaps, indeed the latter word, νσήματα, might rather be
+                    rendered ‘thoughts’,<note place="foot" xml:id="ftn9" n="9"><p
+                            rend="footnote text">Cf. Bengel, <hi rend="italic">Gnomon</hi>, <hi
+                                rend="italic">loc. cit.</hi>: ‘The heart is the seat of one’s
+                            thoughts.’ But see Bauer in Arndt and Gingrich, <hi rend="italic"
+                                >Greek-English Lexicon</hi> on νόημα.</p></note> provided we take
+                    that word in its most extensive sense, for every perception of the mind, whether
+                    active or passive.</p>
+                <p>3. Now of all these it is certain we are only stewards. God has entrusted us with
+                    these powers and faculties, not that we may employ them according to our own
+                    will, but according to the express orders which he has given us; although it is
+                    true that in doing his will we most effectually secure our own happiness, seeing
+                    it is herein only that we can be happy either in time or in eternity. Thus we
+                    are to use our understanding, our imagination, our memory, wholly to the glory
+                    of him that gave them. Thus our will is to be wholly given up to him, and all
+                    our affections to be <pb n="02:285"/>regulated as he directs. We are to love and
+                    hate, to rejoice and grieve, to desire and shun, to hope and fear, according to
+                    the rule which he prescribes whose we are, and whom we are to serve in all
+                        things.<note place="foot" xml:id="ftn10" n="10"><p rend="footnote text">See
+                            Acts 27:23.</p></note> Even our thoughts are not our own in this sense:
+                    they are not at our own disposal, but for every deliberate motion of our mind we
+                    are accountable to our great Master.</p>
+                <p>4. God has, secondly, entrusted us with our <hi rend="italic">bodies</hi> (those
+                    exquisitely wrought machines, so ‘fearfully and wonderfully made’),<note
+                        place="foot" xml:id="ftn11" n="11"><p rend="footnote text">Ps. 139:14. For
+                            Wesley’s frequent descriptions of the body as a machine, cf. Nos. 56,
+                            ‘God’s Approbation of His Works’, I.7; 57, ‘On the Fall of Man’, II.1,
+                            5; 69, ‘The Imperfection of Human Knowledge’, I.13; 71, ‘Of Good
+                            Angels’, I.7; 72, ‘Of Evil Angels’, II.8; 82, ‘On Temptation’, I.2; 116,
+                            ‘What is Man? Ps. 8:4’, §§1-4; 141, ‘The Image of God’, II.1. See also
+                            his <hi rend="italic">Thoughts Upon Necessity</hi>, III.9; and his <hi
+                                rend="italic">Survey</hi>, I.27-29, 164; II.275-76; IV.89; V.254.
+                            For another comment on his body/soul dualism, see No. 41, <hi
+                                rend="italic">Wandering Thoughts</hi>, III.5 and n.</p></note> with
+                    all the powers and members thereof. He has entrusted us with the organs of <hi
+                        rend="italic">sense</hi>, of sight, hearing, and the rest: but none of these
+                    are given us as our own, to be employed according to our own will. None of these
+                    are <hi rend="italic">lent</hi> us in such a sense as to leave us at liberty to
+                    use them as we please for a season. No; we have received them on these very
+                    terms, that as long as they abide with us we should employ them all in that very
+                    manner, and no other, which he appoints.</p>
+                <p>5. It is on the same terms that he has imparted to us that most excellent talent
+                    of <hi rend="italic">speech</hi>. ‘Thou hast given me a tongue’, says the
+                    ancient writer, ‘that I may praise thee therewith.’<note place="foot"
+                        xml:id="ftn12" n="12"><p rend="footnote text">Augustine, Confessions, V.i:
+                                ‘<hi rend="italic">Accipe sacrificium confessionum mearum de manu
+                                linguae meae, quam formasti et excitasti, ut confiteatur nomini
+                                tuo</hi>.’</p></note> For this purpose was it given to all the
+                    children of men, to be employed in glorifying God. Nothing therefore is more
+                    ungrateful, or more absurd, than to think or say, ‘our tongues are our own.’
+                    That cannot be, unless we have created ourselves, and so are independent on the
+                    Most High. Nay, but ‘it is he that hath made us, and not we ourselves.’<note
+                        place="foot" xml:id="ftn13" n="13"><p rend="footnote text">Cf. Ps.
+                            100:3.</p></note> The manifest consequence is that he is still <hi
+                        rend="italic">Lord over us</hi>, in this as in all other respects. It
+                    follows that there is not a word of our tongue for which we are not accountable
+                    to him.</p>
+                <p>6. To him we are equally accountable for the use of our <hi rend="italic"
+                        >hands</hi> and <hi rend="italic">feet</hi>, and all the <hi rend="italic"
+                        >members</hi> of our body. These are so many talents which are committed to
+                    our trust,<note place="foot" xml:id="ftn14" n="14"><p rend="footnote text">See 1
+                            Tim. 1:11.</p></note> until the time appointed by the Father.<note
+                        place="foot" xml:id="ftn15" n="15"><p rend="footnote text">See Gal.
+                        4:2.</p></note> Until then we have the use of all these; <pb n="02:286"/>but
+                    as stewards, not as proprietors: to the end we should ‘render them, not as
+                    instruments of unrighteousness unto sin, but as instruments of righteousness
+                    unto God’.<note place="foot" xml:id="ftn16" n="16"><p rend="footnote text">Cf.
+                            Rom. 6:13.</p></note></p>
+                <p>7. God has entrusted us, thirdly, with a portion of <hi rend="italic">worldly
+                        goods</hi>, with food to eat, raiment to put on, and a place where to lay
+                    our head, with not only the necessaries but the conveniences of life. Above all,
+                    he has committed to our charge that precious talent which contains all the rest,
+                        <hi rend="italic">money</hi>. Indeed, it is unspeakably precious if we are
+                    ‘wise and faithful stewards’<note place="foot" xml:id="ftn17" n="17"><p
+                            rend="footnote text">Cf. Luke 12:42.</p></note> of it; if we employ
+                    every part of it for such purposes as our blessed Lord has commanded us to
+                    do.</p>
+                <p>8. God has entrusted us, fourthly, with several talents which do not properly
+                    come under any of these heads: such is bodily <hi rend="italic">strength</hi>;
+                    such are <hi rend="italic">health</hi>, a pleasing <hi rend="italic"
+                    >person</hi>, an agreeable <hi rend="italic">address</hi>; such are <hi
+                        rend="italic">learning</hi> and <hi rend="italic">knowledge</hi> in their
+                    various degrees, with all the other advantages of <hi rend="italic"
+                        >education</hi>. Such is the <hi rend="italic">influence</hi> which we have
+                    over others, whether by their <hi rend="italic">love</hi> and <hi rend="italic"
+                        >esteem</hi> of us, or by <hi rend="italic">power</hi>—power to do them good
+                    or hurt, to help or hinder them in the circumstances of life. Add to these that
+                    invaluable talent of <hi rend="italic">time</hi>, with which God entrusts us
+                    from moment to moment. Add, lastly, that on which all the rest depend, and
+                    without which they would all be curses, not blessings: namely, the <hi
+                        rend="italic">grace</hi> of God, the power of his Holy Spirit, which alone
+                    worketh in us<note place="foot" xml:id="ftn18" n="18"><p rend="footnote text"
+                            >See Eph. 3:20.</p></note> all that is acceptable in his sight.<note
+                        place="foot" xml:id="ftn19" n="19"><p rend="footnote text">See Ps. 19:14; 1
+                            Tim. 2:3.</p></note></p>
+            </div>
+            <div><p>II. 1. In so many respects are the children of men stewards of the Lord, ‘the
+                    possessor of heaven and earth’.<note place="foot" xml:id="ftn20" n="20"><p
+                            rend="footnote text">Gen. 14:19, 22.</p></note> So large a portion of
+                    his goods of various kinds hath he committed to their charge. But it is not for
+                    ever, nor indeed for any considerable time. We have this trust reposed in us
+                    only during the short, uncertain space that we sojourn here below; only so long
+                    as we remain on earth, as this fleeting breath is in our nostrils. The hour is
+                    swiftly approaching, it is just at hand, when we ‘can be no longer
+                        stewards’.<note place="foot" xml:id="ftn21" n="21"><p rend="footnote text"
+                            >Cf. Luke 16:2.</p></note> The moment the body ‘returns to the dust as
+                    it was, and the spirit to God that gave it’,<note place="foot" xml:id="ftn22"
+                        n="22"><p rend="footnote text">Cf. Eccles. 12:7.</p></note> we bear that
+                    character no more; the time of our stewardship is at an end. Part of those goods
+                        <pb n="02:287"/>wherewith we were before entrusted are now come to an end;
+                    at least they are so with regard to <hi rend="italic">us</hi>; nor are we longer
+                    entrusted with them—and that part which remains can no longer be employed or
+                    improved as it was before.</p>
+                <p>2. Part of what we were entrusted with before is at an end, at least with regard
+                    to us. What have we to do after this life with food, and raiment, and houses,
+                    and earthly possessions? The food of the dead is the dust of the earth: they are
+                    clothed only with worms and rottenness. They dwell in ‘the house prepared for
+                    all flesh’:<note place="foot" xml:id="ftn23" n="23"><p rend="footnote text">Cf.
+                            Job 30:23, ‘the house appointed for all living’.</p></note> their lands
+                    know them no more. All their worldly goods are delivered into other hands, and
+                    they have ‘no more portion under the sun’.<note place="foot" xml:id="ftn24"
+                        n="24"><p rend="footnote text">Cf. Eccles. 9:6.</p></note></p>
+                <p>3. The case is the same with regard to the <hi rend="italic">body</hi>. The
+                    moment the spirit returns to God we are no longer stewards of this machine,
+                    which is then sown in corruption and dishonour.<note place="foot" xml:id="ftn25"
+                        n="25"><p rend="footnote text">See 1 Cor. 15:42-43. Cf. No. 129, ‘Heavenly
+                            Treasure in Earthen Vessels’, I.1.</p></note> All the parts and members
+                    of which it was composed lie mouldering in the clay. The hands have no longer
+                    power to move; the feet have forgot their office; the flesh, the sinews, the
+                    bones are all hasting to be dissolved into common dust.</p>
+                <p>4. Here end also the talents of a <hi rend="italic">mixed</hi> nature: our <hi
+                        rend="italic">strength</hi>, our <hi rend="italic">health</hi>, our <hi
+                        rend="italic">beauty</hi>; our <hi rend="italic">eloquence</hi> and <hi
+                        rend="italic">address</hi>; our faculty of pleasing, of persuading or
+                    convincing others. Here end likewise all the <hi rend="italic">honours</hi> we
+                    once enjoyed, all the <hi rend="italic">power</hi> which was lodged in our
+                    hands, all the <hi rend="italic">influence</hi> which we once had over others,
+                    either by the love or the esteem which they bore us. ‘Our love, our hatred, our
+                    desire is perished:’<note place="foot" xml:id="ftn26" n="26"><p
+                            rend="footnote text">Cf. Eccles. 9:6.</p></note> none regard how we were
+                    once affected toward them. They look upon the dead as neither able to help nor
+                    hurt them; so that ‘a living dog is better than a dead lion.’<note place="foot"
+                        xml:id="ftn27" n="27"><p rend="footnote text">Eccles. 9:4.</p></note></p>
+                <p>5. Perhaps a doubt may remain concerning some of the other talents wherewith we
+                    are now entrusted, whether they will cease to exist when the body returns to
+                    dust, or only cease to be improvable. Indeed there is no doubt but the kind of
+                        <hi rend="italic">speech</hi> which we now use, by means of these bodily
+                    organs, will then be entirely at an end, when those organs are destroyed. It is
+                    certain the tongue will no more occasion any vibrations in the air, neither will
+                        <pb n="02:288"/>the ear convey these tremulous motions to the common
+                        sensory.<note place="foot" xml:id="ftn28" n="28"><p rend="footnote text">Cf.
+                            Chambers’s <hi rend="italic">Cyclopaedia</hi>, ‘Sensory’: ‘<hi
+                                rend="italic">Sensorium commune</hi>, the seat of the common sense;
+                            or that part or place where the sensible soul is supposed more
+                            immediately to preside [over the body/soul interconnections]…. Descartes
+                            will have it in the conarion or pineal gland.’ But see also John Norris,
+                                <hi rend="italic">Reason and Religion</hi> (1689), II.ii.188. The
+                            classical source of the notion is in Aristotle, <hi rend="italic">De
+                                Memoria</hi>, 450<hi rend="italic">a</hi>, which speaks of ‘the
+                            primary faculty of perception’. Cf. also No. 124, ‘Human Life a Dream’,
+                            §7.</p></note> Even the <hi rend="italic">sonus exilis</hi>,<note
+                        place="foot" xml:id="ftn29" n="29"><p rend="footnote text">Cf. Sugden’s
+                            note, II.468-69; but none of his citations there comes close to the
+                            phrase, <hi rend="italic">sonus exilis</hi>. Could it be Wesley’s own
+                            Latin translation of Homer’s ὤχετο τετριγυῖα (<hi rend="italic"
+                                >Iliad</hi>, xxiii.99-101)? <hi rend="italic">Vox exilis</hi> is
+                            cited in Lewis and Short, <hi rend="italic">A Latin Dictionary</hi>, as
+                            from Quintilian (XI.iii.15), but not <hi rend="italic">sonus
+                            exilis</hi>; and Quintilian was not a ‘poet’.</p></note> the low, shrill
+                    voice which the poet supposes to belong to a separate spirit, we cannot allow to
+                    have a real being; it is a mere flight of imagination. Indeed it cannot be
+                    questioned but separate spirits have some way to communicate their sentiments to
+                    each other; but what inhabitant of flesh and blood can explain that way? What we
+                    term ‘speech’ they cannot have. So that we can no longer be stewards of this
+                    talent when we are numbered with the dead.</p>
+                <p>6. It may likewise admit of a doubt whether our <hi rend="italic">senses</hi>
+                    will exist when the organs of sense are destroyed. Is it not probable that those
+                    of the lower kind will cease—the feeling, the smell, the taste—as they have a
+                    more immediate reference to the body, and are chiefly, if not wholly, intended
+                    for the preservation of it? But will not some kind of <hi rend="italic"
+                        >sight</hi> remain, although the eye be closed in death? And will there not
+                    be something in the soul equivalent to the present sense of <hi rend="italic"
+                        >hearing</hi>? Nay, is it not probable that these will not only exist in the
+                    separate state, but exist in a far greater degree, in a more eminent manner than
+                    now. When the soul, disentangled from its clay, is no longer</p>
+                <lg>
+                    <l>A dying sparkle in a cloudy place;</l>
+                    <l>when it no longer</l>
+                    <l>Looks through the windows of the eye and ear,</l>
+                    <note place="foot" xml:id="ftn30" n="30"><p rend="footnote text">Wesley’s
+                            adaptation of Sir John Davies’s <hi rend="italic">Nosce Teipsum</hi>
+                            (‘Of Human Knowledge’), Pt. I, st. 17:</p><l>How can we hope, that
+                            through the eye and ear,</l><l>This dying sparkle, in this cloudy
+                            place,</l><l>Can recollect these beams of knowledge clear</l><l>Which
+                            were infused in the first minds by grace?</l><p rend="footnote text">St.
+                            15 has the phrase ‘windows of the mind’ which Wesley conflated with l.
+                            1, above. See also <hi rend="italic">A Collection of Moral and Sacred
+                                Poems</hi> (1744), I.17.</p></note>
+                </lg>
+                <p><pb n="02:289"/>but rather is all eye, all ear, all sense, in a manner we cannot
+                    yet conceive. And have we not a clear proof of the possibility of this, of
+                    seeing without the use of the eye, and hearing without the use of the ear? Yea,
+                    and an earnest of it continually? For does not the soul see, in the clearest
+                    manner, when the eye is of no use, namely in dreams?<note place="foot"
+                        xml:id="ftn31" n="31"><p rend="footnote text">Cf. No. 124, ‘Human Life a
+                            Dream’, §4 and n.</p></note> Does she not then enjoy the faculty of
+                    hearing without any help from the ear? But however this be, certain it is that
+                    neither will our <hi rend="italic">senses</hi>, any more than our <hi
+                        rend="italic">speech</hi>, be entrusted to us in the manner they are now,
+                    when the body lies in the silent grave.</p>
+                <p>7. How far the <hi rend="italic">knowledge</hi> or <hi rend="italic"
+                        >learning</hi> which we have gained by <hi rend="italic">education</hi> will
+                    then remain, we cannot tell. Solomon indeed says, ‘There is no work, nor device,
+                    nor knowledge, nor wisdom, in the grave whither thou goest.’<note place="foot"
+                        xml:id="ftn32" n="32"><p rend="footnote text">Eccles. 9:10.</p></note> But
+                    it is evident, these words cannot be understood in an absolute sense; for it is
+                    so far from being true that there is <hi rend="italic">no knowledge</hi> after
+                    we have quitted the body that the doubt lies on the other side, whether there be
+                    any such thing as real knowledge till then? Whether it be not a plain, sober
+                    truth, not a mere poetical fiction, that </p>
+                <lg>
+                    <l>…all these shadows which for things we take,</l>
+                    <l>Are but the empty dreams which in death’s sleep we make<note place="foot"
+                            xml:id="ftn33" n="33"><p rend="footnote text">Cf. Abraham Cowley, <hi
+                                    rend="italic">Pindarique Odes</hi>, ‘Life’, II.22-23. See also,
+                                    <hi rend="italic">A Collection of Moral and Sacred Poems</hi>
+                                (1744), I.43.</p></note></l>
+                </lg>— <p>only excepting those things which God himself has been pleased to reveal
+                    to man? I will speak for one. After having sought for truth with some diligence
+                    for half a century I am at this day hardly sure of anything but what I learn
+                    from the Bible. Nay, I positively affirm I know nothing else so certainly that I
+                    would dare to stake my salvation upon it.</p>
+                <p>So much, however, we may learn from Solomon’s words, that ‘there is no’ <hi
+                        rend="italic">such</hi> ‘knowledge or wisdom in the grave’ as will be of any
+                    use to an unhappy spirit; there is ‘no device’ there whereby he can now improve
+                    those talents with which he was once entrusted. For <hi rend="italic">time</hi>
+                    is no more: the time of our trial for everlasting happiness or misery is past.
+                        <hi rend="italic">Our day</hi>, the day of man, is over; ‘the day of
+                        salvation’<note place="foot" xml:id="ftn34" n="34"><p rend="footnote text">2
+                            Cor. 6:2; cf. Isa. 49:8.</p></note> is ended. Nothing now remains but
+                    the day of the Lord, ushering in wide, unchangeable eternity.<note place="foot"
+                        xml:id="ftn35" n="35"><p rend="footnote text">Cf. No. 54, ‘On Eternity’,
+                            §§1, 5-7.</p></note></p>
+                <p>8. But still our souls, being incorruptible and immortal, of a <pb n="02:290"
+                    />nature ‘little lower than the angels’<note place="foot" xml:id="ftn36" n="36"
+                            ><p rend="footnote text">Ps. 8:5; Heb. 2:7, 9.</p></note> (even if we
+                    are to understand that phrase of our original nature, which may well admit of a
+                    doubt), when our bodies are mouldered into earth, will remain with all their
+                    faculties. Our <hi rend="italic">memory</hi>, our <hi rend="italic"
+                        >understanding</hi>, will be so far from being destroyed, yea, or impaired
+                    by the dissolution of the body, that on the contrary we have reason to believe
+                    they will be inconceivably strengthened. Have we not the clearest reason to
+                    believe that they will then be wholly freed from those defects which now
+                    naturally result from the union of the soul with the corruptible body? It is
+                    highly probable that from the time these are disunited our memory will let
+                    nothing slip; yea, that it will faithfully exhibit everything to our view which
+                    was ever committed to it. It is true that the invisible world is in Scripture
+                    termed ‘the land of forgetfulness’;<note place="foot" xml:id="ftn37" n="37"><p
+                            rend="footnote text">Ps. 88:12 (AV).</p></note> or, as it is still more
+                    strongly expressed in the old translation, ‘the land where all things are
+                        forgotten’.<note place="foot" xml:id="ftn38" n="38"><p rend="footnote text"
+                                ><hi rend="italic">Ibid.</hi> (BCP). Cf. No. 54, ‘On Eternity’, §20
+                            and n.</p></note> They are forgotten; but by whom? Not by the
+                    inhabitants of that land, but by the inhabitants of the earth. It is with regard
+                    to them that the unseen world is ‘the land of forgetfulness’. All things therein
+                    are too frequently forgotten by these; but not by disembodied spirits. From the
+                    time they have put off the earthly tabernacle<note place="foot" xml:id="ftn39"
+                        n="39"><p rend="footnote text">See 2 Cor. 5:1; 2 Pet. 1:13, 14.</p></note>
+                    we can hardly think they forget anything.</p>
+                <p>9. In like manner the <hi rend="italic">understanding</hi> will doubtless be
+                    freed from the defects that are now inseparable from it. For many ages it has
+                    been an unquestioned maxim, <hi rend="italic">humanum est errare et
+                        nescire</hi><note place="foot" xml:id="ftn40" n="40"><p rend="footnote text"
+                            >See above, No. 39, ‘Catholic Spirit’, I.4 and n.</p></note>—‘ignorance
+                    and mistake are inseparable from human nature.’ But the whole of this assertion
+                    is only true with regard to living men, and holds no longer than while ‘the
+                    corruptible body presses down the soul’.<note place="foot" xml:id="ftn41" n="41"
+                            ><p rend="footnote text">Wisd. 9:15. Cf. No. 41, <hi rend="italic"
+                                >Wandering Thoughts</hi>, II.3 and n.</p></note> Ignorance indeed
+                    belongs to every finite understanding (seeing there is none beside God that
+                    knoweth all things), but not mistake. When the body is laid aside, this also is
+                    laid aside for ever.</p>
+                <p>10. What then can we say to an ingenious man who has lately made a discovery that
+                    disembodied spirits have not only no senses (not even sight or hearing), but no
+                    memory or understanding, no thought or perception, not so much as a
+                    consciousness of their <pb n="02:291"/>own existence! That they are in a dead
+                    sleep from death to the resurrection!<note place="foot" xml:id="ftn42" n="42"><p
+                            rend="footnote text">This theory runs back to the Anabaptists, at least;
+                            cf. G. H. Williams, <hi rend="italic">The Radical Reformation</hi>, pp.
+                            20-24, 104-6, 580-92. It had been denounced by Calvin in one of his
+                            earliest essays, <hi rend="italic">Psychopannychia; Or, a Refutation of
+                                the Error that the Soul Sleeps in the Interval Between Death and the
+                                Judgment</hi> (written in 1534; published in 1542). Cf. ‘First Part
+                            of the Sermon, against the Fear of Death’, <hi rend="italic"
+                                >Homilies</hi>, pp. 81-85. The same idea is analysed rather
+                            differently in John Donne’s famous sermon, ‘Death’s Duel’ (Sermon 15 in
+                            his <hi rend="italic">XXVI Sermons</hi> [1660]).</p><p
+                            rend="footnote text">The ‘ingenious man’ cited here, however, was Edmund
+                            Law (archdeacon of Carlisle; later bishop), who had advocated
+                            ‘mortalism’ in a D. D. exercise at Cambridge (1754), published as an
+                            ‘Appendix’ to the 3rd edn. of <hi rend="italic">The Theory of
+                                Religion</hi> (1755). This ‘Appendix’ had been roundly criticized
+                            (e.g., by John Steffe [1758]) but had then been defended by Francis
+                            Blackbume, <hi rend="italic">A Short Historical View Concerning An
+                                Intermediate State…</hi> (1765), and by Joseph Priestley, <hi
+                                rend="italic">Disquisitions Relating to Matter and Spirit…</hi>
+                            (1777), Sec. XIII, p. 155, and Sec. XVII, espec. p. 232. It is
+                            noteworthy that Wesley would have been so knowledgeable and yet also so
+                            casual in his references here and elsewhere to such a controversy; see
+                            No. 115, ‘Dives and Lazarus’, I.3 and n.</p></note>
+                    <hi rend="italic">Consanguineus lethi sopor</hi><note place="foot"
+                        xml:id="ftn43" n="43"><p rend="footnote text">Cf. Virgil, <hi rend="italic"
+                                >Aeneid</hi>, vi.278 (borrowed from Homer, <hi rend="italic"
+                                >Iliad</hi>, xiv.231). See also, Wesley’s <hi rend="italic"
+                                >Survey</hi>, V.254, where the same phrase appears in a different
+                            form, ‘<hi rend="italic">consanguineus somni</hi>’. The English
+                            quotation which follows is, of course, Wesley’s translation of the
+                            Latin.</p></note> indeed! Such a sleep we may well call ‘a near kinsman
+                    of death’, if it be not the same thing. What can we say but that ingenious men
+                    have strange dreams; and these they sometimes mistake for realities.<note
+                        place="foot" xml:id="ftn44" n="44"><p rend="footnote text">Locke discusses
+                            this in his <hi rend="italic">Essay Concerning Human Understanding</hi>
+                            (1690), II.i.17, and espec. II.xix.4. Cf. also No. 57, ‘On the Fall of
+                            Man’, II.2, where Wesley says: ‘the soul cannot dispense with [the
+                            body’s] service, imperfect as it is. For an embodied spirit cannot form
+                            one thought but by the mediation of its bodily organs. For thinking is
+                            not, as many suppose, an act of a pure spirit, but the act of a spirit
+                            connected with a body, and playing upon a set of material keys.’ Cf.
+                            also his letter to Mrs. Bennis, Oct 28, 1771; No. 132, ‘On Faith, Heb.
+                            11:1’, §8; and his <hi rend="italic">Survey</hi>, I.178.</p></note></p>
+                <p>11. But to return. As the soul will retain its understanding and memory,
+                    notwithstanding the dissolution of the body, so undoubtedly the <hi
+                        rend="italic">will</hi>, including all the <hi rend="italic"
+                    >affections</hi>, will remain in its full vigour. If our love or anger, our hope
+                    or desire, perish, it is only with regard to those whom we leave behind. To them
+                    it matters not whether they were the objects of our love or hate, of our desire
+                    or aversion. But in separate spirits themselves we have no reason to believe
+                    that any of these are extinguished. It is more probable that they work with far
+                    greater force than while the soul was clogged with flesh and blood.</p>
+                <p>12. But although all these, although both our knowledge and senses, our memory
+                    and understanding, together with our will, our love, hate, and all our
+                    affections, remain after the body is dropped off, yet in this respect they are
+                    as though they were not; we are no longer stewards of them. The things continue,
+                    but our <hi n="02:292"/> stewardship does not; we no more act in that capacity.
+                    Even the <hi rend="italic">grace</hi> which was formerly entrusted with us, in
+                    order to enable us to be faithful and wise stewards, is now no longer entrusted
+                    for that purpose. The days of our stewardship are ended.</p></div>
+            <div>
+                <p>III. 1. It now remains that, being ‘no longer stewards’, we ‘give an account of
+                    our stewardship’. Some have imagined, this is to be done immediately after
+                    death, as soon as we enter into the world of spirits. Nay, the Church of Rome
+                    does absolutely assert this; yea, makes it an article of faith.<note
+                        place="foot" xml:id="ftn45" n="45"><p rend="footnote text">This refers to
+                            the so-called ‘Doctrine of Particular Judgment’, which is not, strictly
+                            speaking, ‘an article of faith’ in the Roman Catholic Church. It
+                            affirms, as Wesley says, ‘that there are two judgments, a particular and
+                            a general’. The first divides the dead into three groups: (1) those free
+                            from all sin who are received forthwith into heaven (<hi rend="italic"
+                                >mox in coelum recipi</hi>); (2) those in a state of grace who need
+                            further purification; (3) those dying in mortal sin and impenitent who
+                            go forthwith to hell (<hi rend="italic">mox in infernum
+                            descendere</hi>), to be punished in proportion to their sin (<hi
+                                rend="italic">poenis tamen disparibus puniendas</hi>). See the
+                            decree of the Second Council of Lyons (1274) and the ‘<hi rend="italic"
+                                >de sorte defunctorum</hi>’ in the ‘Union Decree’ of Eugenius IV,
+                            1439 (Heinrich Denzinger, <hi rend="italic">Enchiridion Symbolorum</hi>
+                            [24th edn.], 1304-6). Wesley and his Protestant colleagues had collapsed
+                            groups (2) and (3) and supposed that ‘Purgatory’ held out the promise of
+                            salvation to souls dying in mortal sin and unrepentant; see Wesley’s <hi
+                                rend="italic">Roman Catechism</hi> (abridged from Bishop John
+                            Williams), <hi rend="italic">Qq.</hi> 20-24, where Bellarmine and Trent
+                            are misread as if they taught a purgatorial hope for souls dying in
+                            mortal sin. But see George Bull, <hi rend="italic">Some Important Points
+                                of Primitive Christianity</hi> (1713), Vol. I, Sermon II, pp. 25-49:
+                            ‘The soul of every man presently after death hath its proper place and
+                            state allotted by God, of happiness or misery, according as the man hath
+                            been good or bad in his past life.’ Cf. Wesley’s teachings on the
+                            intermediate state in No. 115, ‘Dives and Lazarus’, I.3 and
+                        n.</p></note> And thus much we may allow: the moment a soul drops the body,
+                    and stands naked before God, it cannot but know what its portion will be to all
+                    eternity. It will have full in its view either everlasting joy or everlasting
+                    torment, as it is no longer possible to be deceived in the judgment which we
+                    pass upon ourselves. But the Scripture gives us no reason to believe that God
+                    will then sit in judgment upon us. There is no passage in all the oracles of God
+                    which affirms any such thing. That which has been frequently alleged for this
+                    purpose seems rather to prove the contrary; namely, ‘It is appointed for men
+                    once to die, and after this, the judgment.’<hi rend="endnote_reference"><note
+                            place="end"><p rend="endnote text">Heb. 9:27.</p></note></hi> For in all
+                    reason, the word ‘once’ is here to be applied to judgment as well as death. So
+                    that the fair inference to be drawn from this very text is, not that there are
+                    two judgments, a particular and a general, but that we are to be judged, as well
+                    as to die, once only; not once immediately after death, and again after the
+                    general resurrection, but then only <pb n="02:293"/>‘when the Son of Man shall
+                    come in his glory, and all his holy angels with him’.<note place="foot"
+                        xml:id="ftn46" n="46"><p rend="footnote text">Cf. Matt. 25:31.</p></note>
+                    The imagination therefore of one judgment at death, and another at the end of
+                    the world, can have no place with those who make the written Word of God the
+                    whole and sole standard of their faith.</p>
+                <p>2. The time then when we are to give this account is when the ‘great white throne
+                    comes down from heaven, and he that sitteth thereon, from whose face the heavens
+                    and the earth flee away, and there is found no place for them’.<note
+                        place="foot" xml:id="ftn47" n="47"><p rend="footnote text">Cf. Rev.
+                            20:11.</p></note> It is then ‘the dead, small, and great,’ will ‘stand
+                    before God; and the books’ will be ‘opened’<note place="foot" xml:id="ftn48"
+                        n="48"><p rend="footnote text">Cf. Rev. 20:12.</p></note>—the book of
+                    Scripture, to them who were entrusted therewith, the book of conscience to all
+                    mankind. The ‘book of remembrance’<note place="foot" xml:id="ftn49" n="49"><p
+                            rend="footnote text">Mal. 3:16.</p></note> likewise (to use another
+                    scriptural expression), which had been writing from the foundation of the
+                        world,<note place="foot" xml:id="ftn50" n="50"><p rend="footnote text">Matt.
+                            13:35, etc. ‘writing’ is the erratum in Wesley’s <hi rend="italic"
+                                >Works</hi> (1771) for ‘written’ (Mal. 3:16) present in all the
+                            other printed edns.</p></note> will then be laid open to the view of all
+                    the children of men. Before all these, even the whole human race, before the
+                    devil and his angels,<note place="foot" xml:id="ftn51" n="51"><p
+                            rend="footnote text">Matt. 25:41.</p></note> before an innumerable
+                    company of holy angels,<note place="foot" xml:id="ftn52" n="52"><p
+                            rend="footnote text">Heb. 12:22.</p></note> and before God the Judge of
+                        all;<note place="foot" xml:id="ftn53" n="53"><p rend="footnote text">Gen.
+                            18:25; Heb. 12:23.</p></note> thou wilt appear without any shelter or
+                    covering, without any possibility of disguise, to give a particular account of
+                    the manner wherein thou hast employed all thy Lord’s goods.</p>
+                <p>3. The Judge of all will then inquire: ‘How didst thou employ thy <hi
+                        rend="italic">soul</hi>? I entrusted thee with an immortal spirit, endowed
+                    with various powers and faculties, with understanding, imagination, memory,
+                    will, affections. I gave thee withal full and express directions how all these
+                    were to be employed. Didst thou employ thy <hi rend="italic">understanding</hi>,
+                    as far as it was capable, according to those directions, namely, in the
+                    knowledge of thyself and me? My nature, my attributes? My works, whether of
+                    creation, of providence, or of grace? In acquainting thyself with my Word? In
+                    using every means to increase thy knowledge thereof? In meditating thereon day
+                    and night?<note place="foot" xml:id="ftn54" n="54"><p rend="footnote text">See
+                            Josh. 1:8.</p></note> Didst thou employ thy <hi rend="italic"
+                        >memory</hi> according to my will? In treasuring up whatever knowledge thou
+                    hadst acquired which might conduce to my glory, to thy own salvation, or the
+                    advantage of others? Didst thou store <pb n="02:294"/>up therein, not things of
+                    no value, but whatever experience thou hadst learned from my Word; and whatever
+                    experience thou hadst gained of my wisdom, truth, power, and mercy? Was thy <hi
+                        rend="italic">imagination</hi> employed, not in painting vain images, much
+                    less such as nourished foolish and hurtful desires,<note place="foot"
+                        xml:id="ftn55" n="55"><p rend="footnote text">1 Tim. 6:9.</p></note> but in
+                    representing to thee whatever would profit thy soul, and awaken thy pursuit of
+                    wisdom and holiness? Didst thou follow my directions with regard to thy <hi
+                        rend="italic">will</hi>? Was it wholly given up to me? Was it swallowed up
+                    in mine, so as never to oppose, but always run parallel with it? Were thy <hi
+                        rend="italic">affections</hi> placed and regulated in such a manner as I
+                    appointed in my Word? Didst thou give me thy heart? Didst thou not love the
+                    world, neither the things of the world?<note place="foot" xml:id="ftn56" n="56"
+                            ><p rend="footnote text">See 1 John 2:15.</p></note> Was I the object of
+                    thy love? Was all thy desire unto me, and unto the remembrance of my name? Was I
+                    the joy of thy heart, the delight of thy soul, the chief among ten
+                        thousand?<note place="foot" xml:id="ftn57" n="57"><p rend="footnote text">S.
+                            of S. 5:10.</p></note> Didst thou sorrow for nothing but what grieved my
+                    spirit? Didst thou fear and hate nothing but sin? Did the whole stream of thy
+                    affections flow back to the ocean from whence they came? Were thy <hi
+                        rend="italic">thoughts</hi> employed according to my will? Not in ranging to
+                    the ends of the earth, not on folly, or sin; but on “whatsoever things were
+                    pure, whatsoever things were holy”,<note place="foot" xml:id="ftn58" n="58"><p
+                            rend="footnote text">Cf. Phil. 4:8.</p></note> on whatsoever was
+                    conducive to my “glory”, and to “peace and goodwill among men”?’<note
+                        place="foot" xml:id="ftn59" n="59"><p rend="footnote text">Cf. Luke
+                            2:14.</p></note></p>
+                <p>4. Thy Lord will then inquire, ‘How didst thou employ the <hi rend="italic"
+                        >body</hi> wherewith I entrusted thee? I gave thee a <hi rend="italic"
+                        >tongue</hi> to praise me therewith. Didst thou use it to the end for which
+                    it was given? Didst thou employ it, not in evil-speaking or idle-speaking, not
+                    in uncharitable or unprofitable conversation; but in such as was good, as was
+                    necessary or useful, either to thyself or others? Such as always tended,
+                    directly or indirectly, to “minister grace to the hearers”?<note place="foot"
+                        xml:id="ftn60" n="60"><p rend="footnote text">Eph. 4:29.</p></note> I gave
+                    thee, together with thy other senses, those grand avenues of knowledge, <hi
+                        rend="italic">sight</hi>, and <hi rend="italic">hearing</hi>. Were these
+                    employed to those excellent purposes for which they were bestowed upon thee? In
+                    bringing thee in more and more instruction in righteousness<note place="foot"
+                        xml:id="ftn61" n="61"><p rend="footnote text">2 Tim. 3:16.</p></note> and
+                    true holiness? I gave thee hands and feet and various <hi rend="italic"
+                        >members</hi> wherewith to perform the works which were prepared for thee.
+                    Were they employed, not in doing “the will of the flesh”,<note place="foot"
+                        xml:id="ftn62" n="62"><p rend="footnote text">Cf. John 1:13.</p></note> of
+                    thy evil nature, or “the will of the <pb n="02:295"/>mind”,<note place="foot"
+                        xml:id="ftn63" n="63"><p rend="footnote text">Cf. <hi rend="italic"
+                                >ibid.</hi></p></note> the things to which thy reason or fancy led
+                    thee, but “the will of him that sent”<note place="foot" xml:id="ftn64" n="64"><p
+                            rend="footnote text">John 6:38.</p></note> thee into the world, merely
+                    to work out thy own salvation?<note place="foot" xml:id="ftn65" n="65"><p
+                            rend="footnote text">See Phil. 2:12.</p></note> Didst thou present all
+                    thy members, not to sin, as instruments of unrighteousness, but to me alone,
+                    through the Son of my love, “as instruments of righteousness”?’<note
+                        place="foot" xml:id="ftn66" n="66"><p rend="footnote text">Rom.
+                        6:13.</p></note></p>
+                <p>5. The Lord of all will next inquire, ‘How didst thou employ the <hi
+                        rend="italic">worldly goods</hi> which I lodged in thy hands? Didst thou use
+                    thy food, not so as to seek or place thy happiness therein, but so as to
+                    preserve thy body in health, in strength and vigour, a fit instrument for the
+                    soul? Didst thou use apparel, not to nourish pride or vanity, much less to tempt
+                    others to sin, but conveniently and decently to defend thyself from the injuries
+                    of the weather? Didst thou prepare and use thy house and all other conveniences
+                    with a single eye to my glory? In every point seeking not thy own honour, but
+                    mine; studying to please, not thyself, but me? Once more: in what manner didst
+                    thou employ that comprehensive talent, <hi rend="italic">money</hi>? Not in
+                    gratifying the desire of the flesh, the desire of the eye, or the pride of
+                        life?<note place="foot" xml:id="ftn67" n="67"><p rend="footnote text">1 John
+                            2:16.</p></note> Not squandering it away in vain expenses, the same as
+                    throwing it into the sea? Not hoarding it up to leave behind thee, the same as
+                    burying it in the earth? But first supplying thy own reasonable wants, together
+                    with those of thy family; then restoring the remainder to me, through the poor,
+                    whom I had appointed to receive it; looking upon thyself as only one of that
+                    number of poor whose wants were to be supplied out of that part of my substance
+                    which I had placed in thy hands for this purpose; leaving thee the right of
+                    being supplied first, and the blessedness of giving rather than receiving?<note
+                        place="foot" xml:id="ftn68" n="68"><p rend="footnote text">See Acts 20:35. A
+                            crucial clarification of the rule in No. 50, ‘The Use of Money’,
+                            III.1-2: ‘<hi rend="italic">Give</hi> all you can.’ Our stewardship of
+                            wealth is <hi rend="italic">to</hi> God, ‘<hi rend="italic">through the
+                                poor</hi>, whom [God has] appointed to receive it’. Charity is an
+                            expression of benevolence but, more, it is a specification of the
+                            Christian’s accountability to God.</p></note> Wast thou accordingly a
+                    general benefactor to mankind? Feeding the hungry, clothing the naked,
+                    comforting the sick, assisting the stranger, relieving the afflicted according
+                    to their various necessities?<note place="foot" xml:id="ftn69" n="69"><p
+                            rend="footnote text">See Matt. 25:35-36.</p></note> Wast thou eyes to
+                    the blind, and feet to the lame?<note place="foot" xml:id="ftn70" n="70"><p
+                            rend="footnote text">See Job 29:15.</p></note> A father to the
+                    fatherless, and an husband to the widow?<note place="foot" xml:id="ftn71" n="71"
+                            ><p rend="footnote text">See Ps. 68:5.</p></note> And didst thou labour
+                    to improve all outward works of mercy, as means of saving souls from
+                        death?’<note place="foot" xml:id="ftn72" n="72"><p rend="footnote text">See
+                            Jas. 5:20.</p></note></p>
+                <p><pb n="02:296"/>6. Thy Lord will farther inquire: ‘Hast thou been a wise and
+                    faithful steward with regard to the talents of a mixed nature which I lent thee?
+                    Didst thou employ thy health and strength, not in folly or sin, not in the
+                    pleasures which perished in the using, “not in making provision for the flesh,
+                    to fulfil the desires thereof”,<note place="foot" xml:id="ftn73" n="73"><p
+                            rend="footnote text">Rom. 13:14.</p></note> but in a vigorous pursuit of
+                    that better part which none could take away from thee?<note place="foot"
+                        xml:id="ftn74" n="74"><p rend="footnote text">See Luke 10:42.</p></note>
+                    Didst thou employ whatever was pleasing in thy person or address, whatever
+                    advantages thou hadst by education, whatever share of learning, whatever
+                    knowledge of things or men was committed thee, for the promoting of virtue in
+                    the world, for the enlargement of my kingdom? Didst thou employ whatever share
+                    of power thou hadst, whatever influence over others, by the love or esteem of
+                    thee which they had conceived, for the increase of their wisdom and holiness?
+                    Didst thou employ that inestimable talent of time with wariness and
+                    circumspection, as duly weighing the value of every moment, and knowing that all
+                    were numbered in eternity? Above all, wast thou a good steward of my grace,
+                    preventing, accompanying, and following thee? Didst thou duty observe and
+                    carefully improve all the influences of my Spirit? Every good desire? Every
+                    measure of light? All his sharp or gentle reproofs? How didst thou profit by
+                    “the spirit of bondage and fear” which was previous to “the Spirit of
+                        adoption”?<note place="foot" xml:id="ftn75" n="75"><p rend="footnote text"
+                            >Rom. 8:15.</p></note> And when thou wast made a partaker of this
+                    Spirit, “crying in thy heart, Abba, Father”,<note place="foot" xml:id="ftn76"
+                        n="76"><p rend="footnote text"><hi rend="italic">Ibid.</hi></p></note> didst
+                    thou stand fast in the glorious liberty wherewith I made thee free? Didst thou
+                    from thenceforth present thy soul and body, all thy thoughts, thy words, and
+                    actions, in one flame of love, as an holy sacrifice, glorifying me with thy body
+                    and thy spirit?<note place="foot" xml:id="ftn77" n="77"><p rend="footnote text"
+                            >See 1 Cor. 6:20.</p></note> Then “well done, good and faithful servant!
+                    […] Enter thou into the joy of thy Lord!”’<note place="foot" xml:id="ftn78"
+                        n="78"><p rend="footnote text">Matt. 25:21, 23.</p></note> And what will
+                    remain, either to the faithful or unfaithful steward? Nothing but the execution
+                    of that sentence which has been passed by the righteous Judge; fixing thee in a
+                    state which admits of no change, through everlasting ages. It remains only that
+                    thou be rewarded to all eternity according to thy works.</p>
+            </div>
+            <div>
+                <p>IV. 1. From these plain considerations we may learn, first, how important is this
+                    short, uncertain day of life! How precious, above all utterance, above all
+                    conception, is every portion of it! </p>
+                <pb n="02:297"/>
+                <lg>
+                    <l>The least of these a serious care demands;</l>
+                    <l>For though they are little, they are golden sands!</l>
+                    <note place="foot" xml:id="ftn79" n="79"><p rend="footnote text">Cf. John
+                            Gambold, ‘Upon Listening to the Vibrations of a Clock’, ll. 5-6, in his
+                                <hi rend="italic">Works</hi> (1789), p. 266. Wesley had published
+                            this in his <hi rend="italic">Moral and Sacred Poems</hi> (1744),
+                            III.195. See also Wesley’s letter to Samuel Furly, Nov. 10, 1756. Though
+                            Wesley and Gambold had long since parted company, Wesley is still
+                            prepared to quote his quondam friend.</p></note>
+                </lg>
+                <p>How deeply does it concern every child of man to let none of these run to waste;
+                    but to improve them all to the noblest purposes as long as the breath of God is
+                    in his nostrils!</p>
+                <p>2. We learn from hence, secondly, that there is no employment of our time, no
+                    action or conversation, that is purely <hi rend="italic">indifferent</hi>. All
+                    is good or bad, because all our time, as everything we have, is<hi rend="italic"
+                        > not our own</hi>. All these are, as our Lord speaks, τὰ ἀλλότρια,<note
+                        place="foot" xml:id="ftn80" n="80"><p rend="footnote text">Luke 16:12; cf.
+                            above, I.1.</p></note> the property of another—of God, our Creator. Now
+                    these either are or are not employed according to his will. If they are so
+                    employed, all is good; if they are not, all is evil. Again: it is his will that
+                    we should continually grow in grace and in the living knowledge of our Lord
+                    Jesus Christ.<note place="foot" xml:id="ftn81" n="81"><p rend="footnote text"
+                            >See 2 Pet. 3:18.</p></note> Consequently every thought, word, and work
+                    whereby this knowledge is increased, whereby we grow in grace, is good; and
+                    every one whereby this knowledge is not increased is truly and properly
+                    evil.</p>
+                <p>3. We learn from hence, thirdly, that there are no works of supererogation,<note
+                        place="foot" xml:id="ftn82" n="82"><p rend="footnote text">Cf. Art. XIV,
+                            which rejects all such ‘voluntary works besides, over and above, God’s
+                            commandments’. These may not be claimed ‘without arrogance and impiety’.
+                            In the Roman perspective, they are virtuous acts surpassing what is
+                            required by moral <hi rend="italic">duty</hi> or <hi rend="italic"
+                                >legal</hi> obligation. They are thus compared to other works, ‘not
+                            as good works to evil ones but as better works to good ones’ (cf. <hi
+                                rend="italic">The New Catholic Encyclopedia</hi>). And even Wesley
+                            allows for this distinction in his doctrine of <hi rend="italic">facere
+                                quod in se est</hi>.</p></note> that we can never do more than our
+                    duty; seeing all we have is not our own, but God’s, all we can do is due to him.
+                    We have not received this or that, or many things only, but everything from him:
+                    therefore everything is his due. He that gives us all must needs have a right to
+                    all. So that if we pay him anything less than all we cannot be ‘faithful
+                    stewards’. And considering ‘every man shall receive his own reward, according to
+                    his own labour,’<note place="foot" xml:id="ftn83" n="83"><p rend="footnote text"
+                            >1 Cor. 3:8.</p></note> we cannot be ‘wise stewards’ unless we labour to
+                    the uttermost of our power; not leaving anything undone which we possibly can
+                    do, but putting forth all our strength.</p>
+                <p>4. Brethren, ‘Who is an understanding man and endued with knowledge among
+                        you?’<note place="foot" xml:id="ftn84" n="84"><p rend="footnote text">Cf.
+                            Jas. 3:13.</p></note> Let him show the wisdom from above <pb n="02:298"
+                    />by walking suitably to his character. If he so account of himself as a steward
+                    of the manifold gifts of God, let him see that all his thoughts, and words, and
+                    works be agreeable to the post God has assigned him. It is no small thing to lay
+                    out for God all which you have received from God. It requires all your wisdom,
+                    all your resolution, all your patience and constancy; far more than ever you had
+                    by nature, but not more than you may have by grace. For his grace is sufficient
+                    for you,<note place="foot" xml:id="ftn85" n="85"><p rend="footnote text">See 2
+                            Cor. 12:9.</p></note> and ‘all things’, you know, ‘are possible to him
+                    that believeth.’<note place="foot" xml:id="ftn86" n="86"><p rend="footnote text"
+                            >Mark 9:23.</p></note> By faith, then, ‘put on the Lord Jesus
+                        Christ;’<note place="foot" xml:id="ftn87" n="87"><p rend="footnote text"
+                            >Rom. 13:14.</p></note> ‘put on the whole armour of God,’<note
+                        place="foot" xml:id="ftn88" n="88"><p rend="footnote text">Eph.
+                        6:11.</p></note> and you shall be enabled to glorify him in all your words
+                    and works, yea, to bring every thought into captivity to the obedience of
+                        Christ.<note place="foot" xml:id="ftn89" n="89"><p rend="footnote text">See
+                            2 Cor. 10:5.</p></note></p>
+            </div>
+            <p>Edinburgh</p>
+            <p>May 14, 1768</p>
+        </body>
+    </text>
+</TEI>

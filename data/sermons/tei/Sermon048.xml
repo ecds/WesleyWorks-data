@@ -1,0 +1,665 @@
+<?xml version="1.0" encoding="UTF-8"?> <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Sermon 48: Self-Denial</title>
+                <author>Wesley, John</author>
+                <editor role="text">Van Buskirk, Gregory P.</editor>
+                <editor role="digital">Taylor, Michelle M.</editor>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>The Wesley Works Digitzation Project</publisher>
+                <pubPlace>Tampa, FL</pubPlace>
+                <date>2024-02-28</date>
+            </publicationStmt>
+            <sourceDesc>
+                <listBibl>
+                    <biblStruct>
+                        <analytic>
+                            <title level="a">Sermon 48: Self-Denial</title>
+                        </analytic>
+                        <monogr>
+                            <title level="j">The Works of John Wesley, Volume II: Sermons II,
+                                34-70</title>
+                            <editor role="volume">Outler, Albert</editor>
+                            <imprint>
+                                <publisher>Abingdon Press</publisher>
+                                <pubPlace>Nashville, TN</pubPlace>
+                                <date when="1985-11-01">1985-11-01</date>
+                                <biblScope unit="volume" n="2"/>
+                                <biblScope unit="page" from="236" to="250"/>
+                            </imprint>
+                        </monogr>
+                        <series>
+                            <title level="s">The Works of John Wesley</title>
+                            <editor role="general">Baker, Frank</editor>
+                        </series>
+                    </biblStruct>
+                </listBibl>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Greg Van Buskirk created Word docs for all of Wesley's sermons using a combination of
+                OCR software and manual proofing. Michelle Taylor converted these docx into XML
+                using Oxygen's DITA automatic transformation scenario, then touched them up
+                manually.</p>
+        </encodingDesc>
+        <standOff>
+            <taxonomy>
+                <keywords>
+                    <term/>
+                </keywords>
+            </taxonomy>
+            <!--Include keywords and terms here eventually.-->
+        </standOff>
+        <revisionDesc/>
+    </teiHeader>
+    <text>
+        <body>
+            <pb n="02:236"/>
+            <introduction>
+                <head>
+                    <hi rend="italic">An Introductory Comment</hi>
+                </head>
+                <p>The concluding trio of sermons in <hi rend="italic">SOSO</hi>, IV, suggest that
+                    Wesley had finally rounded out his exposition of the ‘order of salvation’ with
+                    his paired essays on the difference between spiritual ‘darkness’ and
+                    ‘heaviness’. It was, therefore, time to turn to other, separate problems that
+                    continued to arise in any programme of Christian living. This sequence would
+                    have seemed natural enough, since Wesley’s concept of theology as a <hi
+                        rend="italic">scientia practica</hi> had always meant to him that
+                    evangelical doctrine entailed a series of ethical imperatives which issued, in
+                    turn, from clear conceptions of sound doctrine.</p>
+                <p>It may be somewhat startling to read that, until this sermon, ‘no writer in the
+                    English tongue [had] described the nature of self-denial in plain and
+                    intelligible terms,’ when one considers the popularity of this topic in Puritan
+                    preaching and such familiar classics as Richard Baxter’s <hi rend="italic"
+                        >Treatise of Self-Denyall</hi> (1660, 1675); William Penn, <hi rend="italic"
+                        >No Cross, No Crown…</hi> (1669, 1682); Jeremy Taylor, <hi rend="italic">The
+                        Rule and Exercises of Holy Living</hi> (1650), and <hi rend="italic">The
+                        Rule and Exercises of Holy Dying</hi> (1651), <hi rend="italic">Works</hi>,
+                    I.399-515, 516-604; Thomas Manton, <hi rend="italic">A Treatise of
+                        Self-Denial…</hi> in <hi rend="italic">Works</hi> (1689), IV.17ff; and
+                    William Law, <hi rend="italic">Christian Perfection</hi>, and <hi rend="italic"
+                        >A Serious Call to a Devout and Holy Life</hi> (1729), in <hi rend="italic"
+                        >Works</hi>, Vols. III and IV. And it goes without saying that a reader is
+                    free to judge how far Wesley may be compared with such predecessors.</p>
+                <p>What he may have had more directly in mind was the fact that the tradition on
+                    self-denial had rested on a general consensus, at least in an approval of the
+                    ideal. The conventional form of the problem had always come from the
+                    discrepancies between profession and practice. In his own lifetime, however,
+                    Wesley had seen even the ideal decried, both by the spreading fashions of
+                    self-advertised ostentation in eighteenth-century culture and by a rising tide
+                    of antinomian rejection of self-denial, <hi rend="italic">on principle</hi>. As
+                    far back as 1741 he had been shocked by Count von Zinzendorf’s scornful
+                    dismissal of self-abnegation as a Christian virtue (cf. JWJ, September 3, 1741:
+                    ‘We believers do as we please and nothing more; we laugh at all talk of
+                    “mortification”’). He had gone on to retort <pb n="02:237"/>to this in kind, in
+                    his own <hi rend="italic">General Rules</hi> of 1743, by instructing the
+                    Methodists to ‘trample under foot that enthusiastic doctrine of devils that “we
+                    are not to do good unless our heart be free to it.”’ But the tendency of the new
+                    piety to turn ‘Christian liberty’ into self-indulgence had persisted; there was
+                    evident need for yet another distillation of the ancient Christian wisdom on
+                    ‘cross-bearing’ and self-surrender to the will of God; hence, this present
+                    sermon.</p>
+                <p>The idea, as Wesley defines it here, had been a childhood commonplace in his
+                    family; it had been a major premise in Susanna’s theory of Christian
+                        nurture.<note place="foot" xml:id="ftn1" n="1"><p rend="footnote text">See
+                            Nos. 95, On the Education of Children’, and 96, ‘On Obedience to
+                            Parents’.</p></note> A sermon on this topic appears as No. 25 in
+                    Wesley’s own list of his early sermons.<note place="foot" xml:id="ftn2" n="2"><p
+                            rend="footnote text">See Heitzenrater, ‘John Wesley’s Early Sermons’, p.
+                            117.</p></note> He had preached on Luke 9:23 in Savannah, and very
+                    shortly after his return to England (February 21, 1738) he had used the same
+                    text for a sermon in one of the oldest churches in the City of London, Great St.
+                    Helen’s (in Bishopsgate). In the <hi rend="italic">Journal</hi> for August 16,
+                    1744, he had printed a letter about self-denial from his friend, the Revd. Henry
+                    Piers (Vicar of Bexley), and a few months later (February 17, 1745), he had
+                    inserted another letter into the <hi rend="italic">Journal</hi> on the same
+                    theme, from his ‘book steward’, William Briggs.</p>
+                <p>Since then, however, his use of Luke 9:23 had been sparse (only twice, both in
+                    1755). One may suppose, therefore, that our text here had been written expressly
+                    for inclusion in the fourth volume of his <hi rend="italic">SOSO</hi>; it should
+                    be noticed how much more clearly this sermon reflects the problem as it had to
+                    be perceived in the 1750s than it would have appeared in 1738. It was, of
+                    course, reprinted in the successive editions of <hi rend="italic">SOSO</hi>, but
+                    never separately.</p>
+            </introduction>
+            <pb n="02:238"/>
+            <head>Self-Denial</head>
+            <epigraph>
+                <p>Luke 9:23</p>
+                <p>
+                    <hi rend="italic">And he said to them all, If any man will come after me, let
+                        him deny himself, and take up his cross daily, and follow me.</hi>
+                </p>
+            </epigraph>
+            <div type="introduction">
+                <p n="1">1. It has been frequently imagined that the direction here given related
+                    chiefly, if not wholly, to the apostles; at least to the Christians of the first
+                    ages, or those in a state of persecution. But this is a grievous mistake; for
+                    although our blessed Lord is here directing his discourse more immediately to
+                    his apostles and those other disciples who attended him in the days of his
+                    flesh, yet in them he speaks to us, and to all mankind, without any exception or
+                    limitation. The very reason of the thing puts it beyond dispute that the duty
+                    which is here enjoined is not peculiar to them, or to the Christians of the
+                    early ages. It no more regards any particular order of men, or particular time,
+                    than any particular country. No; it is of the most universal nature, respecting
+                    all times and all persons. Yea, and all things—not meats and drinks only, and
+                    things pertaining to the senses. The meaning is, ‘If any man’, of whatever rank,
+                    station, circumstances, in any nation, in any age of the world, ‘will’
+                    effectually ‘come after me, let him deny himself in all things; let him take up
+                    his cross’ of whatever kind, yea, and that ‘daily, and follow me.’</p>
+                <p n="2">2. The ‘denying’ ourselves and the ‘taking up our cross’, in the full
+                    extent of the expression, is not a thing of small concern. It is not expedient
+                    only, as are some of the circumstantials of religion; but it is absolutely,
+                    indispensably necessary, either to our becoming or continuing his disciples. It
+                    is absolutely necessary, in the very nature of the thing, to our ‘coming after
+                    him’ and ‘following him’, insomuch that as far as we do not practise it we are
+                    not his disciples. If we do not continually ‘deny ourselves’, we do not learn of
+                    him, but of other masters. If we do not ‘take up our cross daily’, we do not
+                    ‘come after him’, but after the world, or the prince <pb n="02:239"/>of the
+                    world, or our own ‘fleshly mind’.<note place="foot" xml:id="ftn3" n="3"><p
+                            rend="footnote text">Col. 2:18.</p></note> If we are not walking in the
+                    way of the cross, we are not following him; we are not treading in his steps,
+                    but going back from, or at least wide of, him.</p>
+                <p n="3">3. It is for this reason that so many ministers of Christ in almost every
+                    age and nation, particularly since the Reformation of the Church from the
+                    innovations and corruptions gradually crept into it, have wrote and spoke so
+                    largely on this important duty, both in their public discourses and private
+                    exhortations. This induced them to disperse abroad many tracts upon the subject;
+                    and some in our own nation. They knew both from the oracles of God and from the
+                    testimony of their own experience how impossible it was not to deny our Master,
+                    unless we will deny ourselves; and how vainly we attempt to follow him that was
+                    crucified, unless we take up our cross daily.</p>
+                <p n="4">4. But may not this very consideration make it reasonable to inquire, ‘If
+                    so much has been said and wrote on the subject already, what need is there to
+                    say or write any more?’ I answer, there are no inconsiderable numbers, even of
+                    people fearing God, who have not had the opportunity either of hearing what has
+                    been spoke, or reading what has been wrote upon it. And perhaps if they had read
+                    much of what has been written they would not have been much profited. Many who
+                    have wrote (some of them large volumes) do by no means appear to have understood
+                    the subject. Either they had imperfect views of the very nature of it (and then
+                    they could never explain it to others) or they were unacquainted with the due
+                    extent of it; they did not see how <hi rend="italic">exceeding broad</hi> this
+                    command is; or they were not sensible of the absolute, the indispensable
+                    necessity of it. Others speak of it in so dark, so perplexed, so intricate, so
+                    mystical a manner, as if they designed rather to conceal it from the vulgar than
+                    to explain it to common readers.<note place="foot" xml:id="ftn4" n="4"><p
+                            rend="footnote text">It may be William Law that he has in mind here, or
+                            even Madame Guyon; but it is true that he found such classics as St.
+                            John of the Cross’s <hi rend="italic">Ascent of Mt. Carmel</hi> somewhat
+                            ‘dark, perplexed, and intricate’.</p></note> Others speak admirably
+                    well, with great clearness and strength, on the necessity of self-denial; but
+                    then they deal in generals only, without coming to particular instances, and so
+                    are of little use to the bulk of mankind, to men of ordinary capacity and
+                    education. And if some of them do descend to particulars, it is to those
+                    particulars only which do not affect the generality of men, since they seldom,
+                    if ever, occur in common life: such as the enduring imprisonment or tortures;
+                    the giving up, <pb n="02:240"/>in a literal sense, their houses or lands, their
+                    husbands or wives, children, or life itself—to none of which we are called, nor
+                    are likely to be, unless God should permit times of public persecution to
+                    return. In the meantime, I know of no writer in the English tongue<note
+                        place="foot" xml:id="ftn5" n="5"><p rend="footnote text">Note the assumption
+                            here that Wesley’s readers would not have been interested in
+                            cross-checking on so confident a generality.</p></note> who has
+                    described the nature of self-denial in plain and intelligible terms such as lie
+                    level with common understandings, and applied it to those little particulars
+                    which daily occur in common life. A discourse of this kind is wanted still. And
+                    it is wanted the more because in every stage of the spiritual life, although
+                    there is a variety of particular hindrances of our attaining grace or growing
+                    therein, yet are all resolvable into these general ones—either we do not deny
+                    ourselves, or we do not take up our cross.</p>
+                <p>In order to supply this defect in some degree, I shall endeavour to show, first,
+                    what it is for a man to deny himself, and what to take up his cross; and
+                    secondly, that if a man be not fully Christ’s disciple, it is always owing to
+                    the want of this.</p>
+            </div>
+            <div type="section" n="1">
+                <p n="1">I. 1. I shall, first, endeavour to show what it is for a man to ‘deny
+                    himself and take up his cross daily’. This is a point which is of all others
+                    most necessary to be considered and throughly understood, even on this account,
+                    that it is of all others most opposed, by numerous and powerful enemies. All our
+                    nature must certainly rise up against this, even in its own defence. The world,
+                    consequently, the men who take nature, not grace, for their guide, abhor the
+                    very sound of it. And the great enemy of our souls, well knowing its importance,
+                    cannot but move every stone against it. But this is not all: even those who have
+                    in some measure shaken off the yoke of the devil, who have experienced,
+                    especially of late years, a real work of grace in their hearts, yet are no
+                    friends to this grand doctrine of Christianity, though it is so peculiarly
+                    insisted on by their Master. Some of them are as deeply and totally ignorant
+                    concerning it as if there was not one word about it in the Bible. Others are
+                    farther off still, having unawares imbibed strong prejudices against it. These
+                    they have received partly from outside Christians—men of a fair speech and
+                    behaviour who want nothing of godliness but the power, nothing of religion but
+                    the spirit—and partly from those who did once, if they do not now, ‘taste of the
+                    powers of the world to come’.<note place="foot" xml:id="ftn6" n="6"><p
+                            rend="footnote text">Cf. Heb. 6:5.</p></note> But are there any <pb
+                        n="02:241"/>of these who do not both practise self-denial themselves and
+                    recommend it to others? You are little acquainted with mankind if you doubt of
+                    this. There are whole bodies of men who only do not declare war against it. To
+                    go no farther than London, look upon the whole body of predestinarians who by
+                    the free mercy of God have lately been called out of the darkness of nature into
+                    the light of faith.<note place="foot" xml:id="ftn7" n="7"><p
+                            rend="footnote text">See Col. 1:12-13.</p></note> Are they patterns of
+                    self-denial? How few of them even profess to practise it at all! How few of them
+                    recommend it themselves, or are pleased with them that do! Rather do they not
+                    continually represent it in the most odious colours, as if it were seeking <hi
+                        rend="italic">salvation by works</hi>, or ‘seeking to establish our own
+                        righteousness’?<note place="foot" xml:id="ftn8" n="8"><p
+                            rend="footnote text">Cf. Rom. 10:3; a caricature that ignores the
+                            commonplace that men like Thomas Manton, Lewis Bayley, George Whitefield
+                            (indeed, most Calvinists) taught both predestination <hi rend="italic"
+                                >and</hi> self-denial. Wesley may have had a special group in
+                            mind—e.g., John Cennick, William Cudworth, James Relty, and their
+                            disciples.</p></note> And how readily do antinomians of all kinds, from
+                    the smooth Moravian<note place="foot" xml:id="ftn9" n="9"><p
+                            rend="footnote text">A sarcastic reference to the elegant Count von
+                            Zinzendorf?</p></note> to the boisterous foul-mouthed Ranter,<note
+                        place="foot" xml:id="ftn10" n="10"><p rend="footnote text">If this is a
+                            reference to George Fox (cf. the ‘foul-mouthed…George Fox’ in No. 68,
+                            ‘The Wisdom of God’s Counsels’, §9), Wesley has confused his
+                            seventeenth-century church history. The Ranters proper (men like
+                            Laurence Clarkson, Abiezer Coope, Thomas Tany) were indeed famous for
+                            their indifference to customary morality and their cultic swearing, but
+                            they were condemned and disowned by the Quakers and even by the
+                            Muggletonians (‘The Seekers’). Cf. Robert Barclay, <hi rend="italic">The
+                                Anarchy of the Ranters, and Other Libertines…</hi> (1676); abridged
+                            in Barbour and Roberts, <hi rend="italic">Early Quaker Writings</hi>,
+                            pp. 215 ff. Ironically, the ‘Primitive Methodists’ of the early
+                            nineteenth century were also called ‘Ranters’, because of their
+                            boisterous preaching services and class meetings.</p></note> join the
+                    cry with their silly unmeaning cant of ‘legality’, and ‘preaching the law’!
+                    Therefore you are in constant danger of being wheedled, hectored, or ridiculed
+                    out of this important gospel doctrine either by false teachers or false brethren
+                    (more or less beguiled from the simplicity of the gospel) if you are not deeply
+                    grounded therein. Let fervent prayer then go before, accompany, and follow what
+                    you are now about to read, that it may be written in your heart by the finger of
+                    God, so as never to be erased.</p>
+                <p n="2">2. But what is self-denial? Wherein are we to deny ourselves? And whence
+                    does the necessity of this arise? I answer, the will of God is the supreme,
+                    unalterable rule for every intelligent creature; equally binding every angel in
+                    heaven and every man upon earth. Nor can it be otherwise: this is the natural,
+                    necessary result of the relation between creatures and their Creator. But if the
+                    will of God be our one rule of action in everything, great and <pb n="02:242"
+                    />small, it follows by undeniable consequence that we are not to do our own will
+                    in anything. Here therefore we see at once the nature, with the ground and
+                    reason, of self-denial. We see the nature of self-denial: it is the denying or
+                    refusing to follow our own will, from a conviction that the will of God is the
+                    only rule of action to us. And we see the reason thereof, because we are
+                    creatures; because ‘it is he that hath made us and not we ourselves.’<note
+                        place="foot" xml:id="ftn11" n="11"><p rend="footnote text">Ps. 100:3
+                            (AV).</p></note></p>
+                <p n="3">3. This reason for self-denial must hold even with regard to the angels of
+                    God in heaven; and with regard to man, innocent and holy, as he came out of the
+                    hands of his Creator. But a farther reason for it arises from the condition
+                    wherein all men are since the Fall. We are all now ‘shapen in wickedness, and in
+                    sin did our mother conceive us’.<note place="foot" xml:id="ftn12" n="12"><p
+                            rend="footnote text">Cf. Ps. 51:5 (BCP).</p></note> Our nature is
+                    altogether corrupt, in every power and faculty. And our will, depraved equally
+                    with the rest, is wholly bent to indulge our natural corruption. On the other
+                    hand, it is the will of God that we resist and counteract that corruption, not
+                    at some times, or in some things only, but at all times, and in all things. Here
+                    therefore is a farther ground for constant and universal self-denial.</p>
+                <p n="4">4. To illustrate this a little farther. The will of God is a path leading
+                    straight to God. The will of man which once ran parallel with it is now another
+                    path, not only different from it, but in our present state directly contrary to
+                    it. It leads from God; if therefore we walk in the one, we must necessarily quit
+                    the other. We cannot walk in both. Indeed a man of ‘faint heart and feeble
+                    hands’ may ‘go in two ways’,<note place="foot" xml:id="ftn13" n="13"><p
+                            rend="footnote text">Cf. Ecclus. 2:12.</p></note> one after the other;
+                    but he cannot walk in two ways at the same time. He cannot at one and the same
+                    time follow his own will and follow the will of God; he must choose the one or
+                    the other—denying God’s will to follow his own, or denying himself to follow the
+                    will of God.</p>
+                <p n="5">5. Now it is undoubtedly pleasing for the time to follow our own will, by
+                    indulging, in any instance that offers, the corruption of our nature. But by
+                    following it in anything we so far strengthen the perverseness of our will; and
+                    by indulging it we continually increase the corruption of our nature. So by the
+                    food which is agreeable to the palate we often increase a bodily disease. It
+                    gratifies the taste; but it inflames the disorder. It brings pleasure; but it
+                    also brings death.</p>
+                <p n="6"><pb n="02:243"/>6. On the whole, then, to deny ourselves is to deny our own
+                    will where it does not fall in with the will of God, and that however pleasing
+                    it may be. It is to deny ourselves any pleasure which does not spring from, and
+                    lead to, God; that is, in effect, to refuse going out of our way, though into a
+                    pleasant, flowery path; to refuse what we know to be deadly poison, though
+                    agreeable to the taste.</p>
+                <p n="7">7. And everyone that would follow Christ, that would be his real disciple,
+                    must not only ‘deny himself’, but ‘take up his cross’ also. A cross is anything
+                    contrary to our will, anything displeasing to our nature.<note place="foot"
+                        xml:id="ftn14" n="14"><p rend="footnote text">A notable and rare instance of
+                            allegorical interpretation; see also No. 99, <hi rend="italic">The
+                                Reward of Righteousness</hi>, §4. Wesley’s standard rule, of course,
+                            was that all Scripture is to be interpreted literally unless this leads
+                            into an absurdity; cf. No. 21, ‘Sermon on the Mount, I’, §6 and
+                        n.</p></note> So that taking up our cross goes a little farther than denying
+                    ourselves; it rises a little higher, and is a more difficult task to flesh and
+                    blood, it being more easy to forego pleasure than to endure pain.</p>
+                <p n="8">8. Now in ‘running the race which is set before us’<note place="foot"
+                        xml:id="ftn15" n="15"><p rend="footnote text">Cf. Heb. 12:1.</p></note>
+                    according to the will of God, there is often a cross lying in the way; that is,
+                    something which is not only not joyous, but grievous, something which is
+                    contrary to our will, which is displeasing to our nature. What then is to be
+                    done? The choice is plain: either we must ‘take up our cross’, or we must turn
+                    aside from the way of God, ‘from the holy commandment delivered to us’<note
+                        place="foot" xml:id="ftn16" n="16"><p rend="footnote text">Cf. 2 Pet.
+                            2:21.</p></note>—if we do not stop altogether, or turn back to
+                    everlasting perdition.</p>
+                <p n="9">9. In order to the healing of that corruption, that evil disease which
+                    every man brings with him into the world, it is often needful to pluck out as it
+                    were a right eye, to cut off a right hand; so painful is either the thing itself
+                    which must be done, or the only means of doing it; the parting suppose with a
+                    foolish desire,<note place="foot" xml:id="ftn17" n="17"><p rend="footnote text"
+                            >1 Tim. 6:9 (<hi rend="italic">Notes</hi>).</p></note> with an
+                    inordinate affection;<note place="foot" xml:id="ftn18" n="18"><p
+                            rend="footnote text">Col. 3:5.</p></note> or a separation from the
+                    object of it, without which it can never be extinguished. In the former kind,
+                    the tearing away such a desire or affection when it is deeply rooted in the soul
+                    is often like the piercing of a sword, yea, like ‘the dividing asunder of the
+                    soul and spirit, the joints and marrow’.<note place="foot" xml:id="ftn19" n="19"
+                            ><p rend="footnote text">Cf. Heb. 4:12. There is a personal note of
+                            remembered anguish here, for Wesley had experienced two profoundly
+                            disturbing misadventures in love—the successive loss of the only two
+                            women he had ever really loved romantically. The first was the Sophy
+                            Hopkey affair in Georgia, to which there are some clues in the printed
+                                <hi rend="italic">Journal</hi>, more in Wesley’s diary, but the
+                            fullest in his several MS journals of his experiences in Georgia, which
+                            will appear in print for the first time in the appendix to Vol. 18 of
+                            this edn., containing the Journals and diaries for Georgia. The scars of
+                            this disappointment may be seen as late as Dec. 23, 1782 (in a letter to
+                            an unnamed friend), and in his letters to Samuel Bradburn, Feb. 14,
+                            1786, and to Thomas Roberts, Feb. 12, 1789. Even more deeply disturbing,
+                            and more recent, had been his espousal to Grace Murray and his loss of
+                            her to John Bennet (through the meddling offices of his brother and
+                            George Whitefield); cf. JWJ, July 20-Oct 15, 1749; also Wesley’s MS
+                            account of her from her birth to her marriage to Bennet (BL Add. MSS.
+                            7119), published in J. A. Leger, <hi rend="italic">John Wesley’s Last
+                                Love</hi> (London, J. M. Dent and Sons, Ltd., 1910); see also,
+                            Curnock, III.417-22. There are not many more pathetic letters in the
+                            Wesley corpus than the one to Thomas Bigg, Oct. 7, 1749, expressing his
+                            anguish over ‘the fatal, irrecoverable stroke [that] was struck on
+                            Thursday last’, when he and Grace Murray ‘were torn asunder by a
+                            whirlwind’ (see 26:388-89 in this edn.).</p></note>
+                    <pb n="02:244"/>The Lord then sits upon the soul ‘as a refiner’s fire’,<note
+                        place="foot" xml:id="ftn20" n="20"><p rend="footnote text">Cf. Mal. 3:2,
+                            3.</p></note> to burn up all the dross thereof. And this is a cross
+                    indeed; it is essentially painful; it must be so in the very nature of the
+                    thing. The soul cannot be thus torn asunder, it cannot pass through the fire,
+                    without pain.</p>
+                <p n="10">10. In the latter kind, the means to heal a sin-sick soul,<note
+                        place="foot" xml:id="ftn21" n="21"><p rend="footnote text">‘Sin-sick soul’
+                            had been a part of poetic diction for over a century, and was becoming
+                            almost a religious cliché, even in prose, found in Brooke’s <hi
+                                rend="italic">Fool of Quality</hi>, Cowper’s <hi rend="italic">Olney
+                                Hymns</hi>, and in the Wesleys’ <hi rend="italic">Hymns and Sacred
+                                Poems</hi> (1739), p. 92: ‘Pity and heal my sin-sick soul.’ (Cf. <hi
+                                rend="italic">OED</hi>.)</p></note> to cure a foolish desire, an
+                    inordinate affection, are often painful, not in the nature of the thing, but
+                    from the nature of the disease. So when our Lord said to the rich young man, ‘Go
+                    sell that thou hast and give it to the poor’ (as well knowing this was the only
+                    means of healing his covetousness), the very thought of it gave him so much pain
+                    that ‘he went away sorrowful’;<note place="foot" xml:id="ftn22" n="22"><p
+                            rend="footnote text">Matt. 19:21-22.</p></note> choosing rather to part
+                    with his hope of heaven than his possessions on earth. This was a burden he
+                    could not consent to lift, a cross he would not take up. And in the one kind or
+                    the other every follower of Christ will surely have need to ‘take up his cross
+                    daily’.</p>
+                <p n="11">11. The ‘taking up’ differs a little from ‘bearing his cross’. We are then
+                    properly said to ‘bear our cross’ when we endure what is laid upon us without
+                    our choice, with meekness and resignation. Whereas we do not properly ‘take up
+                    our cross’ but when we voluntarily suffer what it is in our power to avoid; when
+                    we willingly embrace the will of God, though contrary to our own; when we choose
+                    what is painful because it is the will of our wise and gracious Creator.</p>
+                <p n="12">12. And thus it behoves every disciple of Christ to ‘take up’ as well as
+                    to ‘bear <hi rend="italic">his</hi> cross’. Indeed in one sense it is not <hi
+                        rend="italic">his</hi> alone: it <pb n="02:245"/>is common to him and many
+                    others, seeing ‘there is no temptation befalls any man’, εἰ μὴ ἀνθρώπινος, ‘but
+                    such as is common to men’,<note place="foot" xml:id="ftn23" n="23"><p
+                            rend="footnote text">Cf. 1 Cor. 10:13.</p></note> such as is incident
+                    and adapted to their common nature and situation in the present world. But in
+                    another sense, as it is considered with all its circumstances, it is <hi
+                        rend="italic">his</hi>; peculiar to himself. It is prepared of God for him;
+                    it is given by God to him, as a token of his love. And if he receives it as
+                    such, and (after using such means to remove the pressure as Christian wisdom
+                    directs) lies as clay in the potter’s hand,<note place="foot" xml:id="ftn24"
+                        n="24"><p rend="footnote text">See Jer. 18:6.</p></note> it is disposed and
+                    ordered by God for his good, both with regard to the quality of it and in
+                    respect to its quantity and degree, its duration, and every other
+                    circumstance.</p>
+                <p n="13">13. In all this we may easily conceive our blessed Lord to act as the
+                    physician of our souls, not merely ‘for his own pleasure, but for our profit,
+                    that we may be partakers of his holiness’.<note place="foot" xml:id="ftn25"
+                        n="25"><p rend="footnote text">Cf. Heb. 12:10.</p></note> If in searching
+                    our wounds he puts us to pain, it is only in order to heal them. He cuts away
+                    what is putrified or unsound in order to preserve the sound part. And if we
+                    freely choose the loss of a limb, rather than the whole body should perish, how
+                    much more should we choose, figuratively, to cut off a right hand, rather than
+                    the whole soul should be cast into hell!<note place="foot" xml:id="ftn26" n="26"
+                            ><p rend="footnote text">See Matt. 5:30.</p></note></p>
+                <p n="14">14. We see plainly, then, both the nature and ground of ‘taking up our
+                    cross’. It does not imply the ‘disciplining ourselves’ (as some speak), the
+                    literally tearing our own flesh: the wearing haircloth, or iron girdles, or
+                    anything else that would impair our bodily health (although we know not what
+                    allowance God may make for those who act thus through involuntary ignorance),
+                    but the embracing the will of God, though contrary to our own; the choosing
+                    wholesome, though bitter, medicines; the freely accepting temporary pain, of
+                    whatever kind, and in whatever degree, when it is either essentially or
+                    accidentally necessary to eternal pleasure.</p>
+            </div>
+            <div type="section" n="2">
+                <p n="1">II. 1. I am, secondly, to show that it is always owing to the want either
+                    of self-denial or taking up his cross that any man does not throughly ‘follow
+                    him’, is not fully a ‘disciple’ of Christ.</p>
+                <p>It is true this may be partly owing, in some cases, to the want of the means of
+                    grace; of hearing the true word of God spoken with power; of the sacraments; or
+                    of Christian fellowship. But where <pb n="02:246"/>none of these is wanting, the
+                    great hindrance of our receiving or growing in the grace of God<note
+                        place="foot" xml:id="ftn27" n="27"><p rend="footnote text">See 2 Pet.
+                            3:18.</p></note> is always the want of denying ourselves or taking up
+                    our cross.</p>
+                <p n="2">2. A few instances will make this plain. A man hears the word which is able
+                    to save his soul. He is well pleased with what he hears, acknowledges the truth,
+                    and is a little affected by it. Yet he remains ‘dead in trespasses and
+                        sins’,<note place="foot" xml:id="ftn28" n="28"><p rend="footnote text">Eph.
+                            2:1.</p></note> senseless and unawakened. Why is this? Because he will
+                    not part with his bosom sin,<note place="foot" xml:id="ftn29" n="29"><p
+                            rend="footnote text">See below, No. 62, ‘The End of Christ’s Coming’,
+                            §1, for Wesley’s quotation of George Herbert’s use of this phrase in
+                            verse. Cf. also Nos. 13, <hi rend="italic">On Sin in Believers</hi>,
+                            V.1; and 14, <hi rend="italic">The Repentance of Believers</hi>, I.3.
+                            For Wesley’s frequent usage of such phrases as ‘bosom sin’, ‘darling
+                            sin’, ‘darling lust’, etc.; cf. No. 25, ‘Sermon on the Mount, V’, III.2
+                            and n.</p></note> though he now knows it is an abomination to the Lord.
+                    He came to hear, full of lust and unholy desires; and he will not part with
+                    them. Therefore no deep impression is made upon him, but his foolish heart is
+                    still hardened; that is, he is still senseless and unawakened, because he will
+                    not ‘deny himself’.</p>
+                <p n="3">3. Suppose he begins to awake out of sleep, and his eyes are a little
+                    opened, why are they so quickly closed again? Why does he again sink into the
+                    sleep of death? Because he again yields to his bosom sin; he drinks again of the
+                    pleasing poison. Therefore it is impossible that any lasting impression should
+                    be made upon his heart; that is, he relapses into his fatal insensibility
+                    because he will not ‘deny himself’.</p>
+                <p n="4">4. But this is not the case with all. We have many instances of those who
+                    when once awakened sleep no more. The impressions once received do not wear
+                    away; they are not only deep, but lasting. And yet many of these have not found
+                    what they seek; they mourn, and yet are not comforted. Now why is this? It is
+                    because they do not ‘bring forth fruits meet for repentance’;<note place="foot"
+                        xml:id="ftn30" n="30"><p rend="footnote text">Matt. 3:8.</p></note> because
+                    they do not, according to the grace they have received, ‘cease from evil and do
+                        good’.<note place="foot" xml:id="ftn31" n="31"><p rend="footnote text">Cf.
+                            Isa. 1:16, 17.</p></note> They do not cease from the easily besetting
+                        sin,<note place="foot" xml:id="ftn32" n="32"><p rend="footnote text">See
+                            Heb. 12:1; and also <hi rend="italic">Notes</hi>.</p></note> the sin of
+                    their constitution, of their education, or of their profession. Or they omit
+                    doing the good they may, and know they ought to do, because of some disagreeable
+                    circumstance attending it; that is, they do not attain faith, because they will
+                    not ‘deny themselves’, or ‘take up their cross’.</p>
+                <p n="5">5. ‘But this man did receive “the heavenly gift”.<note place="foot"
+                        xml:id="ftn33" n="33"><p rend="footnote text">Heb. 6:4.</p></note> He did
+                    “taste <hi n="02:247"/> of the powers of the world to come”.<note place="foot"
+                        xml:id="ftn34" n="34"><p rend="footnote text">Cf. Heb. 6:5.</p></note> He
+                    saw “the light of the glory of God in the face of Jesus Christ”.<note
+                        place="foot" xml:id="ftn35" n="35"><p rend="footnote text">2 Cor.
+                        4:6.</p></note> The “peace which passeth all understanding” did “rule his
+                    heart and mind”;<note place="foot" xml:id="ftn36" n="36"><p rend="footnote text"
+                            >Cf. Phil. 4:7.</p></note> and the love of God was shed abroad<note
+                        place="foot" xml:id="ftn37" n="37"><p rend="footnote text">See Rom.
+                        5:5.</p></note> therein by the Holy Ghost which was given unto him. Yet he
+                    is now weak as another man. He again relishes the things of earth, and has more
+                    taste for the things which are seen than for those which are not seen.<note
+                        place="foot" xml:id="ftn38" n="38"><p rend="footnote text">Cf. 2 Cor.
+                            4:18.</p></note> The eye of his understanding<note place="foot"
+                        xml:id="ftn39" n="39"><p rend="footnote text">See Eph. 1:18.</p></note> is
+                    closed again, so that he cannot “see him that is invisible”.<note place="foot"
+                        xml:id="ftn40" n="40"><p rend="footnote text">Cf. Heb. 11:27.</p></note> His
+                    love is waxed cold, and the peace of God no longer rules in his heart.’ And no
+                    marvel: for he has again given place to the devil, and grieved the Holy Spirit
+                    of God.<note place="foot" xml:id="ftn41" n="41"><p rend="footnote text">See Eph.
+                            4:30.</p></note> He has turned again unto folly, to some pleasing sin,
+                    if not in outward act, yet in heart. He has given place to pride, or anger, or
+                    desire; to self-will, or stubbornness. Or he did not stir up the gift of God
+                    which was in him;<note place="foot" xml:id="ftn42" n="42"><p
+                            rend="footnote text">See 2 Tim. 1:6.</p></note> he gave way to spiritual
+                    sloth, and would not be at the pains of ‘praying always, and watching thereunto
+                    with all perseverance’;<note place="foot" xml:id="ftn43" n="43"><p
+                            rend="footnote text">Eph. 6:18.</p></note> that is, he made shipwreck of
+                    the faith<note place="foot" xml:id="ftn44" n="44"><p rend="footnote text">1 Tim.
+                            1:19.</p></note> for want of self-denial and ‘taking up his cross
+                    daily’.</p>
+                <p n="6">6. But perhaps he has not made shipwreck of the faith: he has still a
+                    measure of the Spirit of adoption, which continues to witness with his spirit
+                    that he is a child of God.<note place="foot" xml:id="ftn45" n="45"><p
+                            rend="footnote text">Rom. 8:15-16.</p></note> However, he is not ‘going
+                    on to perfection’;<note place="foot" xml:id="ftn46" n="46"><p
+                            rend="footnote text">Cf. Heb. 6:1.</p></note> he is not, as once,
+                    hungering and thirsting after righteousness,<note place="foot" xml:id="ftn47"
+                        n="47"><p rend="footnote text">See Matt. 5:6.</p></note> panting after the
+                    whole image and full enjoyment of God, as the hart after the water-brook.<note
+                        place="foot" xml:id="ftn48" n="48"><p rend="footnote text">See Ps.
+                        42:1.</p></note> Rather he is weary and faint in his mind, and as it were
+                    hovering between life and death. And why is he thus, but because he hath
+                    forgotten the word of God, ‘By works is faith made perfect’?<note place="foot"
+                        xml:id="ftn49" n="49"><p rend="footnote text">Cf. Jas. 2:22.</p></note> He
+                    does not use all diligence in working the works of God. He does not ‘continue
+                    instant in prayer’,<note place="foot" xml:id="ftn50" n="50"><p
+                            rend="footnote text">Rom. 12:12.</p></note> private as well as public;
+                    in communicating, hearing, meditation, fasting, and religious conference. If he
+                    does not wholly neglect some of these means, at least he does not use them all,
+                    with his might. Or he is not zealous of works of charity,<note place="foot"
+                        xml:id="ftn51" n="51"><p rend="footnote text">See Titus 2:14.</p></note> as
+                    well as works of piety. He is not merciful after his power, with the full
+                    ability which God giveth. He does <pb n="02:248"/>not fervently serve the Lord
+                    by doing good to men, in every kind and in every degree he can, to their souls
+                    as well as their bodies. And why does he not continue in prayer? Because in
+                    times of dryness it is pain and grief unto him. He does not continue in hearing
+                    at all opportunities, because sleep is sweet; or it is cold, or dark, or rainy.
+                    But why does he not continue in works of mercy?<note place="foot" xml:id="ftn52"
+                        n="52"><p rend="footnote text">For this pairing of <hi rend="italic"
+                                >piety</hi> (here ‘prayer’) and <hi rend="italic">mercy</hi>, cf.
+                            No. 14, <hi rend="italic">The Repentance of Believers</hi>, I.13 and n.
+                            65.</p></note> Because he cannot feed the hungry, or clothe the naked,
+                    unless he retrench the expense of his own apparel, or use cheaper and less
+                    pleasing food. Beside which the visiting the sick or those that are in prison is
+                    attended with many disagreeable circumstances. And so are most works of
+                    spiritual mercy—reproof, in particular. He <hi rend="italic">would</hi> reprove
+                    his neighbour; but sometimes shame, sometimes fear, comes between. For he may
+                    expose himself not only to ridicule but to heavier inconveniences too. Upon
+                    these and the like considerations he omits one or more, if not all, works of
+                    mercy and piety. Therefore his faith is not made perfect, neither can he grow in
+                    grace; namely, because he will not ‘deny himself, and take up his daily
+                    cross’.</p>
+                <p n="7">7. It manifestly follows that it is always owing to the want either of
+                    self-denial or taking up his cross that a man does not throughly follow his
+                    Lord, that he is not fully a disciple of Christ. It is owing to this that he who
+                    is dead in sin does not awake, though the trumpet be blown;<note place="foot"
+                        xml:id="ftn53" n="53"><p rend="footnote text">See Amos 3:16; this is both
+                            the text and theme of No. 143, ‘Public Diversions Denounced’.</p></note>
+                    that he who begins to awake out of sleep yet has no deep or lasting conviction;
+                    that he who is deeply and lastingly convinced of sin does not attain remission
+                    of sins; that some who have received this heavenly gift retain it not, but make
+                    shipwreck of the faith; and that others, if they do not draw back to perdition,
+                    yet are weary and faint in their mind, and do not reach the mark of the prize of
+                    the high calling of God in Christ Jesus.<note place="foot" xml:id="ftn54" n="54"
+                            ><p rend="footnote text">See Phil. 3:14.</p></note></p>
+            </div>
+            <div type="section" n="3">
+                <p n="1">III. 1. How easily may we learn hence that they know neither the Scripture
+                    nor the power of God who directly or indirectly, in public or in private, oppose
+                    the doctrine of self-denial and the daily cross! How totally ignorant are these
+                    men of an hundred particular texts, as well as of the general tenor of the whole
+                    oracles of God! And how entirely unacquainted must they be with true, <pb
+                        n="02:249"/>genuine, Christian experience! Of the manner wherein the Holy
+                    Spirit ever did, and does at this day, work in the souls of men! They may talk
+                    indeed very loudly and confidently (a natural fruit of ignorance), as though
+                    they were the only men who understood either the Word of God, or the experience
+                    of his children. But their words are, in every sense, ‘vain words’:<note
+                        place="foot" xml:id="ftn55" n="55"><p rend="footnote text">Exod.
+                        5:9.</p></note> they are weighed in the balance and found wanting.<note
+                        place="foot" xml:id="ftn56" n="56"><p rend="footnote text">Dan.
+                        5:27.</p></note></p>
+                <p n="2">2. We may learn from hence, secondly, the real cause why not only many
+                    particular persons, but even bodies of men, who were once burning and shining
+                        lights,<note place="foot" xml:id="ftn57" n="57"><p rend="footnote text">See
+                            John 5:35.</p></note> have now lost both their light and heat. If they
+                    did not hate and oppose, they at least lightly esteemed this precious gospel
+                    doctrine. If they did not boldly say, <hi rend="italic">Abnegationem omnem
+                        proculcamus, internecioni damus</hi> (‘We trample all self-denial under
+                    foot, we devote it to destruction’),<note place="foot" xml:id="ftn58" n="58"><p
+                            rend="footnote text">An echo of the debate, in Latin, between Wesley and
+                            Count von Zinzendorf in Gray’s Inn Walks, Sept. 3, 1741, reported in
+                            Wesley’s version in the <hi rend="italic">Journal</hi>. There,
+                            Zinzendorf is quoted as saying, ‘<hi rend="italic">Abnegationem omnem
+                                respuimus, conculcamus</hi>’ (lit. ‘we spew out all abnegations
+                            [self-denials], we tread them under foot’). <hi rend="italic"
+                                >Proculcamus</hi> is a synonym for <hi rend="italic"
+                                >conculcamus</hi>, and this tends to confirm the impression that
+                            Wesley reconstructed his reports from memory, then and here. The
+                            addition of <hi rend="italic">internecioni damus</hi> is out of order;
+                                <hi rend="italic">ad internecionem do</hi> is a fragment from an
+                            earlier passage in the debate. For other references to Zinzendorf, see
+                            No. 13, <hi rend="italic">On Sin in Believers</hi>, I.5 and
+                        n.</p></note> yet they neither valued it according to its high importance,
+                    nor took any pains in practising it. <hi rend="italic">Hanc mystici docent</hi>,
+                    said that great, bad man—‘The mystic writers teach self-denial.’<note
+                        place="foot" xml:id="ftn59" n="59"><p rend="footnote text">Apparently yet
+                            another snatch from the dispute with Zinzendorf, along with a rare
+                            instance of ungracious invective (‘that great, <hi rend="italic"
+                                >bad</hi> man’!). It is yet another indication that Wesley’s rift
+                            with the Moravians was still rankling, and a measure of how deep it
+                            still went.</p></note> No; the inspired writers. And God teaches it to
+                    every soul who is willing to hear his voice.</p>
+                <p n="3">3. We may learn from hence, thirdly, that it is not enough for a minister
+                    of the gospel not to oppose the doctrine of self-denial, to say nothing
+                    concerning it. Nay, he cannot satisfy his duty by saying a little in favour of
+                    it. If he would indeed be pure from the blood of all men he must speak of it
+                    frequently and largely; he must inculcate the necessity of it in the clearest
+                    and strongest manner; he must press it with his might on all persons, at all
+                    times, and in all places; laying ‘line upon line, line upon line, precept upon
+                    precept, precept upon precept’.<note place="foot" xml:id="ftn60" n="60"><p
+                            rend="footnote text">Cf. Isa. 28:10, 13.</p></note> So shall he have a
+                    conscience void of offence;<note place="foot" xml:id="ftn61" n="61"><p
+                            rend="footnote text">Acts 24:16.</p></note> so shall he save his own
+                    soul and those that hear him.<note place="foot" xml:id="ftn62" n="62"><p
+                            rend="footnote text">See 1 Tim. 4:16.</p></note></p>
+                <p n="4"><pb n="02:250"/>4. Lastly, see that you apply this, every one of you, to
+                    your own soul. Meditate upon it when you are in secret; ponder it in your heart.
+                    Take care not only to understand it throughly, but to remember it to your life’s
+                    end. Cry unto the Strong for strength,<note place="foot" xml:id="ftn63" n="63"
+                            ><p rend="footnote text">A favourite phrase derived from Job 9:19; cf.
+                            Nos. 72, ‘Of Evil Angels’, III.4; 78, ‘Spiritual Idolatry’, II.4; 80,
+                            ‘On Friendship with the World’, §19; 93, ‘On Redeeming the Time’, III.2;
+                            98, ‘On Visiting the Sick’, II.1. See also JWJ, May 26, 1752; and his
+                            letters to Mrs. Bennis, Dec. 16, 1772, and to William Minethorp, Nov.
+                            29, 1776.</p></note> that you may no sooner understand than enter upon
+                    the practice of it. Delay not the time, but practise it immediately, from this
+                    very hour. Practise it universally, on every one of the thousand occasions which
+                    will occur in all circumstances of life. Practise it daily, without
+                    intermission, from the hour you first set your hand to the plough; and
+                    perseveringly enduring therein to the end, till your spirit returns to God.</p>
+            </div>
+        </body>
+    </text>
+</TEI>

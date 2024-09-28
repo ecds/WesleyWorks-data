@@ -1,0 +1,875 @@
+<?xml version="1.0" encoding="UTF-8"?> <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Sermon 43: The Scripture Way of Salvation</title>
+                <author>Wesley, John</author>
+                <editor role="text">Van Buskirk, Gregory P.</editor>
+                <editor role="digital">Taylor, Michelle M.</editor>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>The Wesley Works Digitzation Project</publisher>
+                <pubPlace>Tampa, FL</pubPlace>
+                <date>2024-02-27</date>
+            </publicationStmt>
+            <sourceDesc>
+                <listBibl>
+                    <biblStruct>
+                        <analytic>
+                            <title level="a">Sermon 43: The Scripture Way of Salvation</title>
+                        </analytic>
+                        <monogr>
+                            <title level="j">The Works of John Wesley, Volume II: Sermons II,
+                                34-70</title>
+                            <editor role="volume">Outler, Albert</editor>
+                            <imprint>
+                                <publisher>Abingdon Press</publisher>
+                                <pubPlace>Nashville, TN</pubPlace>
+                                <date when="1985-11-01">1985-11-01</date>
+                                <biblScope unit="volume" n="2"/>
+                                <biblScope unit="page" from="153" to="169"/>
+                            </imprint>
+                        </monogr>
+                        <series>
+                            <title level="s">The Works of John Wesley</title>
+                            <editor role="general">Baker, Frank</editor>
+                        </series>
+                    </biblStruct>
+                </listBibl>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Greg Van Buskirk created Word docs for all of Wesley's sermons using a combination of
+                OCR software and manual proofing. Michelle Taylor converted these docx into XML
+                using Oxygen's DITA automatic transformation scenario, then touched them up
+                manually.</p>
+        </encodingDesc>
+        <standOff>
+            <taxonomy>
+                <keywords>
+                    <term/>
+                </keywords>
+            </taxonomy>
+            <!--Include keywords and terms here eventually.-->
+        </standOff>
+        <revisionDesc/>
+    </teiHeader>
+    <text>
+        <body>
+            <pb n="02:153"/>
+            <introduction>
+                <head><hi rend="italic">An Introductory Comment</hi></head>
+                <p>In 1750 Wesley had concluded the third volume of his <hi rend="italic">Sermons on
+                        Several Occasions: In Three Volumes</hi> with the sermon on ‘Satan’s
+                    Devices’. Ten years later, he decided to publish yet another, fourth, volume and
+                    to open it with his sermon on <hi rend="italic">Original Sin</hi>. During that
+                    decade, however, he had become embroiled in an unpleasant controversy with a
+                    Scottish dissenter, Robert Sandeman, and his disciples, on the relative merits
+                    of ‘a faith of <hi rend="italic">adherence</hi>’ (Sandeman’s notion of faith as
+                    an act of will) and ‘a faith of <hi rend="italic">assurance</hi>’ (Wesley’s
+                    ‘heart religion’). In 1757 Sandeman had expounded his views in two volumes, <hi
+                        rend="italic">Letters on Theron and Aspasio, Addressed to the Author</hi>
+                    (James Hervey), under the pen name ‘Palaemon’. His advocacy of salvation by
+                    assent had seemed dangerous to Wesley; already it had encouraged Thomas Maxfield
+                    and George Bell in their rush into antinomianism. Wesley’s reaction was,
+                    therefore, as vehement as anything he ever published: <hi rend="italic">A
+                        Sufficient Answer to the Letters to the Author of Theron and Aspasio</hi>
+                    (1757; reprinted in <hi rend="italic">Works</hi>, 1773, Vol. XX). He followed
+                    this up in 1762 with three pamphlets in the same vein: <hi rend="italic"
+                        >Thoughts on the Imputed Righteousness of Christ</hi>; <hi rend="italic">A
+                        Blow at the Root: or Christ Stabbed in the House of His Friends</hi>; and
+                        <hi rend="italic">Cautions and Directions given to the Greatest Professors
+                        in the Methodist Societies</hi>. In 1763 he continued with <hi rend="italic"
+                        >Farther Thoughts Upon Christian Perfection</hi>.</p>
+                <p>The controversy, of course, had a history. Nathaniel Culverwell had explored it a
+                    century before in ‘The White Stone’, a chapter in <hi rend="italic">A Discourse
+                        on the Light of Nature</hi> (1st edn., 1652; 3rd. edn., 1661):</p>
+                <quote>Assurance is the top and triumph of faith. Faith—that’s our victory ‘by which
+                    we overcome the world’. But assurance—that’s our triumph by which ‘we are more
+                    than conquerors’. ’Tis <hi rend="italic">flos fidei</hi>, the very lustre and
+                    eminency of faith. Faith—that’s the root; assurance the top-branch, the
+                    flourishing of faith. Justifying faith—that does not only dwell in the
+                    understanding, <hi rend="italic">in nudo assensus</hi>; but requires an act of
+                    the will, to which must embrace a promise. Indeed, it calls for an act resulting
+                    from the whole soul, which must receive Christ offered unto it. But now,
+                    assurance consists only in the mind, and so there you have the difference
+                    between the Faith of Adherence and the Faith of Assurance…. When I say that
+                    every believer may be assured of his salvation, I don’t <pb n="02:154"/>say that
+                    every believer is assured of it…. A man may be a true child of God and certainly
+                    saved, though he have not assurance he may be in a safe though in a sad
+                    condition. ’Tis required to the <hi rend="italic">bene esse</hi>, not to the <hi
+                        rend="italic">esse</hi> of a believer (p. 103).</quote>
+                <p>Wesley could never have agreed, after 1738, that assurance ‘consists only in the
+                    mind’; when he published his extract from Culverwell in the <hi rend="italic"
+                        >Christian Library</hi> (1752), Vol. XVII, he omitted the passage just
+                    quoted.</p>
+                <p>He would also have known of William Allen’s threefold distinction in <hi
+                        rend="italic">The Glass of Justification</hi> (1658): ‘Faith, as it
+                    justifies, hath three acts: credence, adherence, confidence’ (p. 43); this is
+                    very close to his own idea. And he also knew the famous summary of the question
+                    in Arthur Bedford’s <hi rend="italic">The Doctrine of Assurance</hi> (1738),
+                    Appendix, p. 36:</p>
+                <quote>To put this controversy into as clear a light as I can, I shall only add that
+                    there is a ‘faith of <hi rend="italic">adherence</hi>’ and a ‘faith of <hi
+                        rend="italic">assurance</hi>’. The ‘faith of adherence’ is a saving faith,
+                    wrought in the heart of a sinner by the Spirit and Word of God, whereby he is
+                    convinced of his sin and misery and of his disability in himself and all other
+                    creatures, to recover him out of his lost condition—[he] not only assenteth to
+                    the truth of the promise of the Gospel, but receives and rests on the death and
+                    righteousness of Christ Jesus, therein held for pardon of sin and for the
+                    accepting and accounting of his person as righteous in the sight of God. And
+                    thus he <hi rend="italic">hopes</hi>, though he hath no certainty. The ‘faith of
+                    assurance’ is that whereby a man absolutely knows all this to be true in his own
+                    particular case. So that the faith of adherence is general but the faith of
+                    assurance is particular. Now this ‘faith of adherence’ alone is sufficient to
+                    bring a man to heaven, because the promises are given in general to every one
+                    who believes. And, therefore, to limit salvation to a particular degree of faith
+                    is to destroy all those promises on which thousands of Christians have hitherto
+                    depended for their eternal comfort. From which ‘uncharitableness, false doctrine
+                    and heresy, Good Lord, deliver us!’</quote>
+                <p>Given, however, the still unsettled state of mind among the Methodists in 1765,
+                    Wesley decided to sum up the matter yet once more: to correlate the faith that
+                    saves with the faith that sanctifies. This was the task he set himself in <hi
+                        rend="italic">The Scripture Way of Salvation</hi>. In it, he gathered up the
+                    best residues of earlier sermons—<hi rend="italic">Salvation by Faith</hi>,
+                    ‘Justification by Faith’, and ‘The Circumcision of the Heart’. Here he could
+                    reemphasize the point that in the Christian life all is of grace—‘preventing’,
+                    ‘justifying’, ‘accompanying’, and ‘sanctifying’. He could have made Henry
+                    Smith’s point yet again, that ‘good works are the <hi rend="italic">way</hi> to
+                    come to heaven, though they be not the <hi rend="italic">cause why</hi> we shall
+                    come to heaven.’<note place="foot" xml:id="ftn1" n="1"><p rend="footnote text"
+                            >See <hi rend="italic">Sermons</hi>, ed. by Thomas Fuller (1675), p.
+                            562.</p></note> The result is the most successful summary of the
+                    Wesleyan vision of the <hi rend="italic">ordo salutis</hi> in the entire sermon
+                    corpus.</p>
+                <p>When, therefore, he was reordering and republishing his <hi rend="italic"
+                        >Sermons</hi>
+                    <pb n="02:155"/>in 1771, he could see the logic of adding <hi rend="italic">The
+                        Scripture Way of Salvation</hi> to the sequence of <hi rend="italic"
+                        >Christian Perfection</hi>, <hi rend="italic">Wandering Thoughts</hi>, and
+                    ‘Satan’s Devices’. Later, in 1787, he would revert to the order of 1760 and, in
+                    effect, discard <hi rend="italic">The Scripture Way of Salvation</hi>. Clearly,
+                    whatever the gain here in terms of the legal function of <hi rend="italic"
+                        >SOSO</hi>, its effect was an obvious loss in terms of doctrinal
+                    substance.</p>
+                <p>Of all the written sermons, this one had the most extensive history of oral
+                    preaching behind it: forty instances of his using Eph. 2:8 before 1765, nine in
+                    1738, including the first written sermon on it (No. 1, <hi rend="italic"
+                        >Salvation by Faith</hi>). The text continued to be a favourite: twenty
+                    recorded instances in the quarter century following 1765. <hi rend="italic">The
+                        Scripture Way of Salvation</hi> went through five further editions in
+                    Wesley’s lifetime. For its publishing history and a list of variant readings,
+                    see Appendix, Vol. 4; see also <hi rend="italic">Bibliog</hi>, No. 265.</p>
+            </introduction>
+            <head>The Scripture Way of Salvation</head>
+            <epigraph>
+                <p>Ephesians 2:8</p>
+                <p><hi rend="italic">Ye are saved through faith.</hi></p>
+            </epigraph>
+            <div type="introduction">
+                <p n="1">1. Nothing can be more intricate, complex, and hard to be understood, than
+                    religion as it has been often described. And this is not only true concerning
+                    the religion of the heathens, even many of the wisest of them, but concerning
+                    the religion of those also who were in some sense Christians; yea, and men of
+                    great name in the Christian world, men ‘who seemed to be pillars’<note
+                        place="foot" xml:id="ftn2" n="2"><p rend="footnote text">Gal. 2:9, οἵ
+                            δοκοῦντες στύλοι εἶναι…. Later, in No. 82, ‘On Temptation’, §2, Wesley
+                            will argue for a different translation: ‘by a careful consideration of
+                            every text in the New Testament wherein this word [δόκειν] occurs, I am
+                            fully convinced that it nowhere lessens, but everywhere strengthens, the
+                            sense of the word to which it is annexed. Accordingly, ὁ δόκει ἔχειν
+                            does not mean “what he <hi rend="italic">seems</hi> to have” but on the
+                            contrary, “who he <hi rend="italic">assuredly</hi> hath”.’ Cf. his
+                            translation to this same effect in the <hi rend="italic">Notes</hi>, and
+                            see also Nos. 85, ‘On Working Out Our Own Salvation’, IIΙ.7; 90, ‘An
+                            Israelite Indeed’, I.5; 128, ‘The Deceitfulness of the Human Heart’,
+                            III.3. He nowhere notices the irony of Paul’s use of δοκοῦντες in Gal.
+                            2:9.</p></note> thereof. Yet how easy to be understood, how plain and
+                    simple a thing, is the genuine religion of Jesus Christ! Provided only that <pb
+                        n="02:156"/>we take it in its native form, just as it is described in the
+                    oracles of God. It is exactly suited by the wise Creator and Governor of the
+                    world to the weak understanding and narrow capacity of man in his present state.
+                    How observable is this both with regard to the end it proposes and the means to
+                    attain that end! The end is, in one word, salvation: the means to attain it,
+                    faith.</p>
+                <p n="2">2. It is easily discerned that these two little words—I mean faith and
+                    salvation—include the substance of all the Bible, the marrow, as it were, of the
+                    whole Scripture. So much the more should we take all possible care to avoid all
+                    mistake concerning them, and to form a true and accurate judgment concerning
+                    both the one and the other.</p>
+                <p>Let us then seriously inquire,</p>
+                <p>I. What is salvation?</p>
+                <p>II. What is that faith whereby we are saved? And</p>
+                <p>ΙII. How we are saved by it.</p>
+            </div>
+            <div type="section" n="1">
+                <p n="1">I. 1. And first let us inquire, What is <hi rend="italic">salvation</hi>?
+                    The salvation which is here spoken of is not what is frequently understood by
+                    that word, the going to heaven, eternal happiness. It is not the soul’s going to
+                    paradise, termed by our Lord ‘Abraham’s bosom’.<note place="foot" xml:id="ftn3"
+                        n="3"><p rend="footnote text">Luke 16:22. Cf. the Talmudic tractate <hi
+                                rend="italic">Kiddushin</hi>, 72<hi rend="italic">b</hi>, and the
+                            comment of Kaufmann Kohler in <hi rend="italic">The Jewish
+                                Encyclopedia</hi>, ‘Abraham’s Bosom’. Bengel, <hi rend="italic"
+                                >Gnomon</hi>, <hi rend="italic">loc. cit.</hi>, comments that ‘the
+                            Jews used to call the state of the righteous dead “the bosom of Abraham”
+                            and “the Garden of Eden”.’ See No. 115, ‘Dives and Lazarus’, I.3 and
+                            n.</p></note> It is not a blessing which lies on the other side death,
+                    or (as we usually speak) in the other world. The very words of the text itself
+                    put this beyond all question. ‘Ye <hi rend="italic">are</hi> saved.’ It is not
+                    something at a distance: it is a present thing, a blessing which, through the
+                    free mercy of God, ye are now in possession of. Nay, the words may be rendered,
+                    and that with equal propriety, ‘Ye <hi rend="italic">have been</hi> saved.’ So
+                    that the salvation which is here spoken of might be extended to the entire work
+                    of God, from the first dawning of grace in the soul till it is consummated in
+                    glory.</p>
+                <p n="2">2. If we take this in its utmost extent it will include all that is wrought
+                    in the soul by what is frequently termed ‘natural conscience’, but more
+                    properly, ‘preventing grace’;<note place="foot" xml:id="ftn4" n="4"><p
+                            rend="footnote text">A special gracious activity of the Holy Spirit in
+                            the heart and will, always in anticipation (<hi rend="italic"
+                                >praeveniens</hi>) of any human initiative or act of choice.
+                            ‘Pre-venting’ grace (distantly kin to what the Calvinists called ‘common
+                            grace’, save that it is uniquely the work of the Holy Spirit) ‘goes
+                            before’ conscious awareness of one’s condition, to ‘turn’, to ‘draw’, to
+                            stir up ‘the desires after God…all the convictions which the Holy
+                            Spirit…works in every child of man.’ Thus, it displaces ‘natural
+                            conscience’ (the notion of which presupposes human autonomy and free
+                            will); it signifies the divine initiative in all human ‘re-actions’ that
+                            aspire to faith. Thus, ‘preventing’ (prevenient) grace is the
+                            theological principle that assigns an absolute priority to the
+                            indwelling Spirit and yet allows for actual and valid human involvement,
+                            since the actions of the Holy Spirit are ‘resistible’, as the decrees of
+                            the Father are not (cf. the canons of the Second Council of Orange, A.D.
+                            529).</p><p rend="footnote text">Wesley’s teaching here reaches back to
+                            Jerome, at least (cf. <hi rend="italic">Epistles</hi>, 31, 33, 34, 62),
+                            and thence through the Middle Ages to Martin Bucer, Johann Gropper, and
+                                <hi rend="italic">The King’s Book</hi> (<hi rend="italic">A
+                                Necessary Doctrine and Erudition for Any Christian Man</hi>, ‘The
+                            Article of Free Will’) to Fénelon (<hi rend="italic">Christian
+                                Counsel</hi>, ch. XXI). But it assumes an even more crucial role in
+                            Wesley’s thought, especially in his stress upon the Holy Spirit as its
+                            agent and on its transformation of ‘natural conscience’ (e.g., the
+                            analogue between its role in Wesley’s ethics to the role of ‘conscience’
+                            in Joseph Butler’s <hi rend="italic">Fifteen Sermons</hi>, II and III).
+                            It was in this sense that John Fletcher could rightly ‘deny that Mr.
+                            Wesley is an Arminian’, since ‘Arminius held that man hath a will to
+                            turn to God <hi rend="italic">before</hi> grace prevents him’ (<hi
+                                rend="italic">Works</hi>, 1825, I.229), whereas, for Wesley, it is
+                            the Spirit’s prevenient motion by which ‘we ever are moved and inspired
+                            to <hi rend="italic">any</hi> good thing’. The early Wesley tended to
+                            ground ‘preventing grace’ in baptism; the mature Wesley linked it more
+                            closely to repentance; the late Wesley correlates it with the order of
+                            salvation as a whole; cf. No. 85, ‘On Working Out Our Own Salvation’,
+                            I.21 (‘God <hi rend="italic">breathes</hi> into us every good desire,
+                            and brings every good desire to good effect’), and III.3-4, Wesley’s
+                            most compact and complete statement of the doctrine and its import. But
+                            see also <hi rend="italic">Notes</hi> on Rom. 2:14, together with the
+                            comment in <hi rend="italic">Predestination Calmly Considered</hi>
+                            (1752), §45; and yet another comment in <hi rend="italic">Some Remarks
+                                on Mr. Hill’s Review</hi> (1712), 12:xvi. Cf. Charles Rogers’s Duke
+                            University dissertation, <hi rend="italic">The Doctrine of Prevenient
+                                Grace in John Wesley</hi>. For other references to will and liberty,
+                            cf. No. 60, ‘The General Deliverance’, I.4 and n.</p></note> all the <pb
+                        n="02:157"/>‘drawings’ of ‘the Father’,<note place="foot" xml:id="ftn5"
+                        n="5"><p rend="footnote text">Cf. John 6:44; and below, No. 47, ‘Heaviness
+                            through Manifold Temptations’, IIΙ.9 and n.</p></note> the desires after
+                    God, which, if we yield to them, increase more and more; all that ‘light’
+                    wherewith the Son of God ‘enlighteneth everyone that cometh into the
+                        world’,<note place="foot" xml:id="ftn6" n="6"><p rend="footnote text">Cf.
+                            John 1:9.</p></note>
+                    <hi rend="italic">showing</hi> every man ‘to do justly, to love mercy, and to
+                    walk humbly with his God’;<note place="foot" xml:id="ftn7" n="7"><p
+                            rend="footnote text">Cf. Mic. 6:8.</p></note> all the <hi rend="italic"
+                        >convictions</hi> which his Spirit from time to time works in every child of
+                    man. Although it is true the generality of men stifle them as soon as possible,
+                    and after a while forget, or at least deny, that ever they had them at all.</p>
+                <p n="3">3. But we are at present concerned only with that salvation which the
+                    Apostle is directly speaking of. And this consists of two general parts,
+                    justification and sanctification.</p>
+                <p>Justification is another word for pardon.<note place="foot" xml:id="ftn8" n="8"
+                            ><p rend="footnote text">See No. 5, ‘Justification by Faith’, II.5 and
+                            n.</p></note> It is the forgiveness of all our sins, and (what is
+                    necessarily implied therein) our acceptance with God. The price whereby this
+                    hath been procured for us (commonly termed the ‘meritorious cause’ of our
+                        justification)<note place="foot" xml:id="ftn9" n="9"><p rend="footnote text"
+                            >An echo of the bitter controversy about the ‘causes’ of justification
+                            between the Roman Catholics, the Calvinists, and the Anglicans; cf. Nos.
+                            5, ‘Justification by Faith’, II.5; and 20, <hi rend="italic">The Lord
+                                Our Righteousness</hi>, intro.; see also C. F. Allison, <hi
+                                rend="italic">The Rise of Moralism</hi>, ch. 1.</p><p
+                            rend="footnote text">Session VI of Trent (ch. VII) had listed five
+                            distinguishable ‘causes’ of justification and had specified ‘“the
+                            meritorious cause” as the atoning Passion and death of Jesus Christ who
+                            “merited our justification…unto God the Father”’. The Calvinists had
+                            countered this by insisting on the atonement as the <hi rend="italic"
+                                >formal</hi> cause of the justification of <hi rend="italic">the
+                                elect</hi> (as in Davenant, Downham, and others). This had focused
+                            the issue: the idea of ‘formal cause’ entailed a doctrine of
+                            predestination on the one hand and irresistible grace on the other; the
+                            notion of ‘meritorious cause’ did not. Wesley had tried to hold to the
+                            good intentions of both views but finally was forced to come down on the
+                            side of ‘meritorious cause’ (as in No. 20, <hi rend="italic">The Lord
+                                Our Righteousness</hi>). No other single point (which embraces the
+                            correlative issue of ‘good works after faith’) so excited the Calvinist
+                            polemic against him from 1765, both until and after his
+                        death.</p></note> is the blood and righteousness of Christ, or (to <pb
+                        n="02:158"/>express it a little more clearly) all that Christ hath done and
+                    suffered for us till ‘he poured out his soul for the transgressors.’<note
+                        place="foot" xml:id="ftn10" n="10"><p rend="footnote text">Cf. Isa.
+                            53:12.</p></note> The immediate effects of justification are, the peace
+                    of God, a ‘peace that passeth all understanding’,<note place="foot"
+                        xml:id="ftn11" n="11"><p rend="footnote text">Cf. Phil. 4:7.</p></note> and
+                    a ‘rejoicing in <hi rend="italic">hope</hi> of the glory of God’,<note
+                        place="foot" xml:id="ftn12" n="12"><p rend="footnote text">Cf. Rom.
+                        5:2.</p></note> ‘with <hi rend="italic">joy</hi> unspeakable and full of
+                        glory’.<note place="foot" xml:id="ftn13" n="13"><p rend="footnote text">1
+                            Pet. 1:8.</p></note></p>
+                <p n="4">4. And at the same time that we are justified, yea, in that very moment,
+                        <hi rend="italic">sanctification</hi> begins. In that instant we are ‘born
+                    again’, ‘born from above’,<note place="foot" xml:id="ftn14" n="14"><p
+                            rend="footnote text">John 3:3, 7. Cf. No. 3, <hi rend="italic">‘Awake,
+                                Thou That Sleepest’</hi>, I.2 and n.</p></note> ‘born of the
+                        Spirit’.<note place="foot" xml:id="ftn15" n="15"><p rend="footnote text"
+                            >John 3:6, 8.</p></note> There is a <hi rend="italic">real</hi> as well
+                    as a <hi rend="italic">relative</hi> change.<note place="foot" xml:id="ftn16"
+                        n="16"><p rend="footnote text">Cf. No. 19, ‘The Great Privilege of those
+                            that are Born of God’, I.1 and n. The ‘relative change’ denotes the new
+                            relationship between God and his pardoned child; the ‘real change’ is in
+                            the actual heart and will of the justified one, which is the equivalent
+                            of regeneration, ‘the new birth’—which in turn is the beginning of a new
+                            lifelong process of sanctification or holy living; cf. Nos. 18, ‘The
+                            Marks of the New Birth’; and 45, ‘The New Birth’.</p></note> We are
+                    inwardly renewed by the power of God. We feel the ‘love of God shed abroad in
+                    our heart by the Holy Ghost which is given unto us’,<note place="foot"
+                        xml:id="ftn17" n="17"><p rend="footnote text">Cf. Rom. 5:5. Cf. No. 3, <hi
+                                rend="italic">‘Awake, Thou That Sleepest’</hi>, II.10 and
+                        n.</p></note> producing love to all mankind, and more especially to the
+                    children of God; expelling the love of the world, the love of pleasure, of ease,
+                    of honour, of money; together with pride, anger, self-will, and every other evil
+                    temper—in a word, changing the ‘earthly, sensual, devilish’<note place="foot"
+                        xml:id="ftn18" n="18"><p rend="footnote text">Jas. 3:15.</p></note> mind
+                    into ‘the mind which was in Christ Jesus’.<note place="foot" xml:id="ftn19"
+                        n="19"><p rend="footnote text">Cf. Phil. 2:5.</p></note></p>
+                <p n="5">5. How naturally do those who experience such a change imagine that all sin
+                    is gone! That it is utterly rooted out of their heart, and has no more any place
+                    therein! How easily do they draw that inference, ‘I <hi rend="italic">feel</hi>
+                    no sin; therefore I <hi rend="italic">have</hi> none.’ It does not <hi
+                        rend="italic">stir</hi>; therefore it does not <hi rend="italic">exist</hi>:
+                    it has no <hi rend="italic">motion</hi>; therefore it has no <hi rend="italic"
+                        >being</hi>.</p>
+                <p n="6"><pb n="02:159"/>6. But it is seldom long before they are undeceived,
+                    finding sin was only suspended, not destroyed. Temptations return and sin
+                    revives, showing it was but stunned before, not dead. They now feel two
+                    principles in themselves, plainly contrary to each other: ‘the flesh lusting
+                    against the spirit’<note place="foot" xml:id="ftn20" n="20"><p
+                            rend="footnote text">Cf. Gal. 5:17.</p></note>, nature opposing the
+                    grace of God. They cannot deny that although they still feel power to believe in
+                    Christ and to love God, and although his ‘Spirit’ still ‘witnesses with’ their
+                    ‘spirits that’ they ‘are the children of God’;<note place="foot" xml:id="ftn21"
+                        n="21"><p rend="footnote text">Cf. Rom. 8:16.</p></note> yet they feel in
+                    themselves, sometimes pride or self-will, sometimes anger or unbelief. They find
+                    one or more of these frequently <hi rend="italic">stirring</hi> in their heart,
+                    though not <hi rend="italic">conquering</hi>; yea, perhaps ‘thrusting sore at
+                    them, that they’ may ‘fall; but the Lord is’ their ‘help’.<note place="foot"
+                        xml:id="ftn22" n="22"><p rend="footnote text">Cf. Ps. 118:13 (BCP). See Nos.
+                            13, <hi rend="italic">On Sin in Believers</hi>; 14, <hi rend="italic"
+                                >The Repentance of Believers</hi>; and 41, <hi rend="italic"
+                                >Wandering Thoughts</hi>.</p></note></p>
+                <p n="7">7. How exactly did Macarius, fourteen hundred years ago, describe the
+                    present experience of the children of God! ‘The unskilful (or unexperienced),
+                    when grace operates, presently imagine they have no more sin. Whereas they that
+                    have discretion cannot deny that even we who have the grace of God may be
+                    molested again…. For we have often had instances of some among the brethren who
+                    have experienced such grace as to affirm that they had no sin in them. And yet
+                    after all, when they thought themselves entirely freed from it, the corruption
+                    that lurked within was stirred up anew, and they were wellnigh burnt up.’<note
+                        place="foot" xml:id="ftn23" n="23"><p rend="footnote text">There was a
+                            fourth-century Egyptian hermit with this name who was renowned for his
+                            miracles and spiritual counsel. He was, however, probably not the author
+                            of the homilies and other pieces attributed to him in Migne, <hi
+                                rend="italic">PG</hi>, XXXIV; neither Palladius nor Rufinus makes
+                            any mention of them. Cf. Werner Jaeger, <hi rend="italic">Two
+                                Rediscovered Works of Ancient Christian Literature: Gregory of Nyssa
+                                and Macarius</hi> (Leiden, E. J. Brill, 1954). Still, Wesley knew
+                            and loved the ‘Macarian homilies’; he extracted and published twenty-two
+                            of them in Vol. I of the <hi rend="italic">Christian Lib.</hi> (1749);
+                            for the passage cited here, cf. Homily IX, pp. 95-97. But cf. Migne, <hi
+                                rend="italic">PG</hi>, XXXIV.623-34, and the Eng. tr. (which Wesley
+                            knew), ‘By a Presbyter of the Church of England’, <hi rend="italic">The
+                                Spiritual Homilies of Macarius the Egyptian</hi> (1721), Homily
+                            XVII, ‘Concerning the Spiritual Unction and Glory of Christians. And
+                            that without Christ it is Impossible to be Saved, or to be made Partaker
+                            of Eternal Life’, p. 267: ‘But the unsteady and unskilful, whenever
+                            grace operates, tho’ but in part, imagine presently they have no more
+                            sin. Whereas they that have discretion and are prudent, never have the
+                            confidence to deny that we who even have the grace of God, are molested
+                            with obscene and filthy thoughts. For we have often had instances of
+                            some among the brethren, that have experienced such a degree of joy and
+                            grace, as to affirm that for five or six years running, concupiscence
+                            had withered quite away; and yet after all, when they thought themselves
+                            freed entirely from it, the corruption that lurked within, was stirred
+                            up anew, and they were even burnt up.’ See also No. 112, <hi
+                                rend="italic">On Laying the Foundation of the New Chapel</hi>,
+                            II.3.</p></note></p>
+                <p n="8"><pb n="02:160"/>8. From the time of our being ‘born again’ the gradual work
+                    of sanctification takes place. We are enabled ‘by the Spirit’ to ‘mortify the
+                    deeds of the body’,<note place="foot" xml:id="ftn24" n="24"><p
+                            rend="footnote text">Cf. Rom. 8:13.</p></note> of our evil nature. And
+                    as we are more and more dead to sin, we are more and more alive to God. We go on
+                    from grace to grace, while we are careful to ‘abstain from all appearance of
+                        evil’,<note place="foot" xml:id="ftn25" n="25"><p rend="footnote text">1
+                            Thess. 5:22.</p></note> and are ‘zealous of good works’,<note
+                        place="foot" xml:id="ftn26" n="26"><p rend="footnote text">Titus
+                        2:14.</p></note> ‘as we have opportunity doing good to all men’;<note
+                        place="foot" xml:id="ftn27" n="27"><p rend="footnote text">Cf. Gal.
+                            6:10.</p></note> while we walk in all his ordinances blameless,<note
+                        place="foot" xml:id="ftn28" n="28"><p rend="footnote text">Cf. Luke
+                        1:6.</p></note> therein worshipping him in spirit and in truth;<note
+                        place="foot" xml:id="ftn29" n="29"><p rend="footnote text">See John 4:23,
+                            24.</p></note> while we take up our cross and deny ourselves every
+                    pleasure that does not lead us to God.</p>
+                <p n="9">9. It is thus that we wait for entire sanctification, for a full salvation
+                    from all our sins, from pride, sell-will, anger, unbelief, or, as the Apostle
+                    expresses it, ‘Go on to perfection.’<note place="foot" xml:id="ftn30" n="30"><p
+                            rend="footnote text">Heb. 6:1.</p></note> But what is perfection? The
+                    word has various senses: here it means perfect love. It is love excluding sin;
+                    love filling the heart, taking up the whole capacity of the soul. It is love
+                    ‘rejoicing evermore, praying without ceasing, in everything giving thanks’.<note
+                        place="foot" xml:id="ftn31" n="31"><p rend="footnote text">Cf. 1 Thess.
+                            5:16-18.</p></note></p>
+            </div>
+            <div type="section" n="2">
+                <p>II. But what is that ‘faith through which we are saved’?<note place="foot"
+                        xml:id="ftn32" n="32"><p rend="footnote text">Cf. Eph. 2:8.</p></note> This
+                    is the second point to be considered.</p>
+                <p n="1">1. Faith in general is defined by the Apostle, ἔλεγχος πραγμάτων οὐ
+                    βλεπομένων—‘an evidence’, a divine ‘evidence and conviction’ (the word means
+                    both), ‘of things not seen’<note place="foot" xml:id="ftn33" n="33"><p
+                            rend="footnote text">Cf. Heb. 11:1; this, obviously, is a quotation from
+                            memory, since even <hi rend="italic">TR</hi> here reads πραγμάτων
+                            ἔλεγχος. See No. 3, <hi rend="italic">‘Awake, Thou That Sleepest’</hi>,
+                            I.1 and n.; also, <hi rend="italic">An Earnest Appeal</hi>, §§6-7
+                            (11:46-47 in this edn.).</p></note>—not visible, not perceivable either
+                    by sight or by any other of the external senses. It implies both a supernatural
+                        <hi rend="italic">evidence</hi> of God and of the things of God, a kind of
+                    spiritual <hi rend="italic">light</hi> exhibited to the soul, and a supernatural
+                        <hi rend="italic">sight</hi> or perception thereof. Accordingly the
+                    Scripture speaks sometimes of God’s giving light, sometimes a power of
+                    discerning it. So St. Paul: ‘God, who commanded light to shine out of darkness,
+                    hath shined in our hearts, to give us the light of the knowledge of the glory of
+                    God in the face of Jesus <hi n="02:161"/> Christ.’<note place="foot"
+                        xml:id="ftn34" n="34"><p rend="footnote text">Cf. 2 Cor. 4:6.</p></note> And
+                    elsewhere the same Apostle speaks ‘of the eyes of our ‘understanding being
+                        opened’.<note place="foot" xml:id="ftn35" n="35"><p rend="footnote text"
+                            >Eph. 1:18.</p></note> By this twofold operation of the Holy
+                    Spirit—having the eyes of our soul both <hi rend="italic">opened</hi> and <hi
+                        rend="italic">enlightened</hi>—we see the things which the natural ‘eye hath
+                    not seen, neither the ear heard’.<note place="foot" xml:id="ftn36" n="36"><p
+                            rend="footnote text">Cf. 1 Cor. 2:9.</p></note> We have a prospect of
+                    the invisible things of God. We see the <hi rend="italic">spiritual world</hi>,
+                    which is all round about us, and yet no more discerned by our natural faculties
+                    than if it had no being; and we see the <hi rend="italic">eternal world</hi>,
+                    piercing through the veil which hangs between time and eternity. Clouds and
+                    darkness then rest upon it no more,<note place="foot" xml:id="ftn37" n="37"><p
+                            rend="footnote text">An echo of Addison’s <hi rend="italic">Cato</hi>;
+                            cf. No. 117, ‘On the Discoveries of Faith’, §8 and n.</p></note> but we
+                    already see the glory which shall be revealed.<note place="foot" xml:id="ftn38"
+                        n="38"><p rend="footnote text">Rom. 8:18. Yet another instance of the theory
+                            that our knowledge ‘of God and the things of God’ is a sort of <hi
+                                rend="italic">sight</hi>, a direct intuition of ‘the eternal world’.
+                            See No. 10, ‘The Witness of the Spirit, I’, I.12 and n.</p></note></p>
+                <p n="2">2. Taking the word in a more particular sense, faith is a divine evidence
+                    and conviction, not only that ‘God was in Christ, reconciling the world unto
+                        himself,<note place="foot" xml:id="ftn39" n="39"><p rend="footnote text">2
+                            Cor. 5:19.</p></note> but also that Christ ‘loved <hi rend="italic"
+                        >me</hi>, and gave himself for <hi rend="italic">me</hi>’.<note place="foot"
+                        xml:id="ftn40" n="40"><p rend="footnote text">Gal. 2:20.</p></note> It is by
+                    this faith (whether we term it the <hi rend="italic">essence</hi>, or rather a
+                        <hi rend="italic">property</hi> thereof) that we ‘receive Christ’;<note
+                        place="foot" xml:id="ftn41" n="41"><p rend="footnote text">Cf. Col. 2:6.Cf.
+                            Col. 2:6.</p></note> that we receive him in all his offices, as our
+                    Prophet, Priest, and King.<note place="foot" xml:id="ftn42" n="42"><p
+                            rend="footnote text">For this Reformed concept of ‘offices’ and its
+                            import for Wesley’s Christology, see Deschner, <hi rend="italic"
+                                >Wesley’s Christology</hi>, chs. ΙII-VI.</p></note> It is by this
+                    that he ‘is made of God unto us wisdom, and righteousness, and sanctification,
+                    and redemption’.<note place="foot" xml:id="ftn43" n="43"><p rend="footnote text"
+                            >Cf. 1 Cor. 1:30.</p></note></p>
+                <p n="3">3. ‘But is this the “faith of assurance” or “faith of adherence”?’ The
+                    Scripture mentions no such distinction. The Apostle says: ‘There is one faith,
+                    and one hope of our calling,’ one Christian, saving faith, as ‘there is one
+                    Lord’ in whom we believe, and ‘one God and Father of us all.’<note place="foot"
+                        xml:id="ftn44" n="44"><p rend="footnote text">Cf. Eph. 4:4-6.</p></note> And
+                    it is certain this faith necessarily implies an <hi rend="italic">assurance</hi>
+                    (which is here only another word for <hi rend="italic">evidence</hi>, it being
+                    hard to tell the difference between them) that ‘Christ loved <hi rend="italic"
+                        >me</hi>, and gave himself for <hi rend="italic">me</hi>.’ For ‘he that
+                    believeth’ with the true, living faith, ‘hath the witness in himself.’<note
+                        place="foot" xml:id="ftn45" n="45"><p rend="footnote text">1 John
+                        5:10.</p></note> ‘The Spirit witnesseth with his spirit that he is a child
+                    of God.’<note place="foot" xml:id="ftn46" n="46"><p rend="footnote text">Rom.
+                            8:16.</p></note> ‘Because he <pb n="02:162"/>is a son, God hath sent
+                    forth the Spirit of his Son into his heart, crying, Abba, Father;’<note
+                        place="foot" xml:id="ftn47" n="47"><p rend="footnote text">Cf. Gal.
+                        4:6.</p></note> giving him an assurance that he is so, and a childlike
+                    confidence in him. But let it be observed that, in the very nature of the thing,
+                    the assurance goes before the confidence. For a man cannot have a childlike
+                    confidence in God till he knows he is a child of God. Therefore confidence,
+                    trust, reliance, adherence, or whatever else it be called, is not the first, as
+                    some have supposed, but the second branch or act of faith.</p>
+                <p n="4">4. It is by this faith we ‘are saved’, justified and sanctified, taking
+                    that word in its highest sense. But how are we justified and sanctified by
+                    faith? This is our third head of inquiry. And this being the main point in
+                    question, and a point of no ordinary importance, it will not be improper to give
+                    it a more distinct and particular consideration.</p>
+            </div>
+            <div type="section" n="3">
+                <p n="1">III. 1. And first, how are we justified by faith? In what sense is this to
+                    be understood? I answer, faith is the condition, and the only condition, of
+                    justification. It is the condition: none is justified but he that believes;
+                    without faith no man is justified. And it is the only condition: this alone is
+                    sufficient for justification. Everyone that believes is justified, whatever else
+                    he has or has not. In other words: no man is justified till he believes; every
+                    man when he believes is justified.</p>
+                <p n="2">2. ‘But does not God command us to <hi rend="italic">repent</hi> also? Yea,
+                    and to “bring forth fruits meet for repentance”?<note place="foot"
+                        xml:id="ftn48" n="48"><p rend="footnote text">Matt. 3:8.</p></note> To
+                    “cease”, for instance, “from doing evil”, and “learn to do well”?<note
+                        place="foot" xml:id="ftn49" n="49"><p rend="footnote text">Cf. Isa.
+                            1:16-17.</p></note> And is not both the one and the other of the utmost
+                    necessity? Insomuch that if we willingly neglect either we cannot reasonably
+                    expect to be justified at all? But if this be so, how can it be said that faith
+                    is the only condition of justification?’</p>
+                <p>God does undoubtedly command us both to repent and to bring forth fruits meet for
+                    repentance; which if we willingly neglect we cannot reasonably expect to be
+                    justified at all. Therefore both repentance and fruits meet for repentance are
+                    in some sense necessary to justification.<note place="foot" xml:id="ftn50"
+                        n="50"><p rend="footnote text">Elsewhere, Wesley stresses repentance as the
+                            normal preparatory state for the reception of justifying faith and, in
+                            that sense, ‘necessary’; cf. No. 14, <hi rend="italic">The Repentance of
+                                Believers</hi>, II.6 and n. See also Law’s insistence in <hi
+                                rend="italic">A Practical Treatise upon Christian Perfection</hi>
+                            (1726), in <hi rend="italic">Works</hi> (1762), III.84-86, that
+                            ‘Repentance and sorrow for sin are [strictly] necessary to
+                            salvation.’</p></note> But they are not necessary <pb n="02:163"/>in the
+                        <hi rend="italic">same sense</hi> with faith, nor in the <hi rend="italic"
+                        >same degree</hi>. Not in the <hi rend="italic">same degree</hi>; for those
+                    fruits are only necessary <hi rend="italic">conditionally</hi>, if there be time
+                    and opportunity for them. Otherwise a man may be justified without them, as was
+                    the ‘thief’ upon the cross (if we may call him so; for a late writer has
+                    discovered that he was no thief, but a very honest and respectable
+                        person!).<note place="foot" xml:id="ftn51" n="51"><p rend="footnote text"
+                            >See Matt. 27:38 and Mark 15:27. The ‘late writer’ was not Bengel,
+                            Burkitt, Heylyn, Henry, or Poole—and Wesley makes nothing of the idea
+                            that one of the λῃσταί was ‘very honest and respectable’. This
+                            interpretation goes back, of course, to Josephus’s account of the
+                            Zealots in his <hi rend="italic">Jewish War</hi>, II. Josephus’s first
+                            English translator, William Whiston (1737), may have been Wesley’s ‘late
+                            writer’; cf. his <hi rend="italic">Six Dissertations</hi> (1734), No. I.
+                            See also Karl Rengstorf’s article on λῃστής in Gerhard Kittel, ed., <hi
+                                rend="italic">Theological Dictionary of the New Testament</hi>,
+                            IV.262: ‘When Jesus was crucified and was thus punished as a political
+                            rebel against Rome, two others condemned as λῃσταί suffered with him.
+                            The title on the cross marked him as one of them.’ Cf. also Haim Cohn,
+                                <hi rend="italic">The Trial and Death of Jesus</hi> (New York,
+                            Harper and Row, 1967), p. 208.</p></note> But he cannot be justified
+                    without faith: this is impossible. Likewise let a man have ever so much
+                    repentance, or ever so many of the fruits meet for repentance, yet all this does
+                    not at all avail: he is not justified till he believes. But the moment he
+                    believes, with or without those fruits, yea, with more or less repentance, he is
+                    justified. Not in the <hi rend="italic">same sense</hi>: for repentance and its
+                    fruits are only <hi rend="italic">remotely</hi> necessary, necessary in order to
+                    faith; whereas faith is <hi rend="italic">immediately</hi> and <hi rend="italic"
+                        >directly</hi> necessary to justification. It remains that faith is the only
+                    condition which is <hi rend="italic">immediately</hi> and <hi rend="italic"
+                        >proximately</hi> necessary to justification.</p>
+                <p n="3">3. ‘But do you believe we are sanctified by faith? We know you believe that
+                    we are justified by faith; but do not you believe, and accordingly teach, that
+                    we are sanctified by our works?’</p>
+                <p>So it has been roundly and vehemently affirmed for these five and twenty
+                        years.<note place="foot" xml:id="ftn52" n="52"><p rend="footnote text">I.e.,
+                            approximately from 1739, with Wesley’s insistence in his preface to <hi
+                                rend="italic">Hymns and Sacred Poems</hi> on good works following
+                            upon faith (see <hi rend="italic">Bibliog</hi>, No. 13; and Vol. 12 of
+                            this edn.).</p></note> But I have constantly declared just the contrary,
+                    and that in all manner of ways. I have continually testified in private and in
+                    public that we are sanctified, as well as justified, by faith. And indeed the
+                    one of these great truths does exceedingly illustrate the other. Exactly as we
+                    are justified by faith, so are we sanctified by faith. Faith is the condition,
+                    and the only condition of sanctification, exactly as it is of justification. It
+                    is the condition: none is sanctified but he that believes; without faith no man
+                    is sanctified. And it is the only condition: this alone is sufficient for
+                    sanctification. Everyone that believes is sanctified, <pb n="02:164"/>whatever
+                    else he has or has not. In other words: no man is sanctified till he believes;
+                    every man when he believes is sanctified.<note place="foot" xml:id="ftn53"
+                        n="53"><p rend="footnote text">Cf. Wesley’s repetition of this emphasis on
+                            the close correlation between justification and sanctification in No.
+                            107, ‘On God’s Vineyard’, I.5-6.</p></note></p>
+                <p n="4">4. ‘But is there not a repentance consequent upon, as well as a repentance
+                    previous to, justification? And is it not incumbent on all that are justified to
+                    be “zealous of good works”?<note place="foot" xml:id="ftn54" n="54"><p
+                            rend="footnote text">Titus 2:14.</p></note> Yea, are not these so
+                    necessary that if a man willingly neglect them he cannot reasonably expect that
+                    he shall ever be sanctified in the full sense, that is, “perfected in
+                        love”?<note place="foot" xml:id="ftn55" n="55"><p rend="footnote text">Cf. 1
+                            John 2:5; 4:12, 18.</p></note> Nay, can he “grow” at all “in grace, in
+                    the” loving “knowledge of our Lord Jesus Christ”?<note place="foot"
+                        xml:id="ftn56" n="56"><p rend="footnote text">2 Pet. 3:18.</p></note> Yea,
+                    can he retain the grace which God has already given him? Can he continue in the
+                    faith which he has received, or in the favour of God? Do not you yourself allow
+                    all this, and continually assert it? But if this be so, how can it be said that
+                    faith is the only condition of sanctification?’</p>
+                <p n="5">5. I do allow all this, and continually maintain it as the truth of God. I
+                    allow there is a repentance consequent upon, as well as a repentance previous
+                    to, justification.<note place="foot" xml:id="ftn57" n="57"><p
+                            rend="footnote text">See Nos. 14, <hi rend="italic">The Repentance of
+                                Believers</hi>, proem, §2, and n.; 13, <hi rend="italic">On Sin in
+                                Believers</hi>; and 8, ‘The First-fruits of the Spirit’, for other
+                            versions of this notion of ‘repentance consequent upon justification’.
+                            The idea goes back to the <hi rend="italic">poenitentia secunda</hi> of
+                            Tertullian (at least) and is a correlate of the doctrine of double
+                            justification.</p></note> It is incumbent on all that are justified to
+                    be zealous of good works. And these are so necessary that if a man willingly
+                    neglect them, he cannot reasonably expect that he shall ever be sanctified. He
+                    cannot ‘grow in grace’, in the image of God, the mind which was in Christ
+                        Jesus;<note place="foot" xml:id="ftn58" n="58"><p rend="footnote text">See
+                            Phil. 2:5.</p></note> nay, he cannot retain the grace he has received,
+                    he cannot continue in faith, or in the favour of God.</p>
+                <p>What is the inference we must draw herefrom? Why, that both repentance, rightly
+                    understood, and the practice of all good works, works of piety, as well as works
+                    of mercy (now property so called, since they spring from faith) are in some
+                    sense necessary to sanctification.</p>
+                <p n="6">6. I say ‘repentance rightly understood’; for this must not be confounded
+                    with the former repentance. The repentance consequent upon justification is
+                    widely different from that which is antecedent to it. This implies no guilt, no
+                    sense of condemnation, no consciousness of the wrath of God. It does not <pb
+                        n="02:165"/>suppose any doubt of the favour of God, or any ‘fear that hath
+                        torment’.<note place="foot" xml:id="ftn59" n="59"><p rend="footnote text"
+                            >Cf. 1 John 4:18.</p></note> It is properly a conviction wrought by the
+                    Holy Ghost of the ‘sin’ which still ‘remains’<note place="foot" xml:id="ftn60"
+                        n="60"><p rend="footnote text">Cf. John 9:41.</p></note> in our heart, of
+                    the φρόνημα σαρκός,<note place="foot" xml:id="ftn61" n="61"><p
+                            rend="footnote text">Cf. No. 13, <hi rend="italic">On Sin in
+                                Believers</hi>, intro., I.3, III.1-9, and IV.1.</p></note> ‘the
+                    carnal mind’,<note place="foot" xml:id="ftn62" n="62"><p rend="footnote text"
+                            >Rom. 8:7.</p></note> which ‘does still <hi rend="italic">remain</hi>’,
+                    as our Church speaks, ‘even in them that are regenerate’<note place="foot"
+                        xml:id="ftn63" n="63"><p rend="footnote text">Cf. Art. IX, ‘Of Original or
+                            Birth Sin’.</p></note>—although it does no longer <hi rend="italic"
+                        >reign</hi>,<note place="foot" xml:id="ftn64" n="64"><p rend="footnote text"
+                            >Cf. No. 13, <hi rend="italic">On Sin in Believers</hi>, intro., I.6,
+                            and n. This distinction between ‘voluntary’ and ‘involuntary’ sins is
+                            crucial. Voluntary sins (‘sins properly so called’) generate guilt and
+                            alienation; their ‘reign’ must be broken by God’s pardoning mercy. The
+                            φρόνημα σαρκός remains, but has lost its dominion in the believer’s
+                            heart; it does not, therefore, annul his assurance that God will pardon
+                            subsequent sins on the basis of ‘consequent repentance’.</p></note> it
+                    has not now dominion over them. It is a conviction of our proneness to evil, of
+                    an heart ‘bent to backsliding’,<note place="foot" xml:id="ftn65" n="65"><p
+                            rend="footnote text">Hos. 11:7.</p></note> of the still continuing
+                    tendency of the ‘flesh’ to ‘lust against the Spirit’.<note place="foot"
+                        xml:id="ftn66" n="66"><p rend="footnote text">Cf. Gal. 5:17.</p></note>
+                    Sometimes, unless we continually watch and pray, it lusteth to pride, sometimes
+                    to anger, sometimes to love of the world, love of ease, love of honour, or love
+                    of pleasure more than of God. It is a conviction of the tendency of our heart to
+                    self-will, to atheism, or idolatry; and above all to unbelief, whereby in a
+                    thousand ways, and under a thousand pretences, we are ever ‘departing’ more or
+                    less ‘from the living God’.<note place="foot" xml:id="ftn67" n="67"><p
+                            rend="footnote text">Heb. 3:12.</p></note></p>
+                <p n="7">7. With this conviction of the sin <hi rend="italic">remaining</hi> in our
+                    hearts there is joined a clear conviction of the sin remaining in our lives,
+                    still <hi rend="italic">cleaving</hi> to all our words and actions. In the best
+                    of these we now discern a mixture of evil, either in the spirit, the matter, or
+                    the manner of them; something that could not endure the righteous judgment of
+                    God, were he ‘extreme to mark what is done amiss’.<note place="foot"
+                        xml:id="ftn68" n="68"><p rend="footnote text">Ps. 130:3 (BCP).</p></note>
+                    Where we least suspected it we find a taint of pride of self-will, of unbelief
+                    or idolatry; so that we are now more ashamed of our best duties than formerly of
+                    our worst sins. And hence we cannot but feel that these are so far from having
+                    anything meritorious in them, yea, so far from being able to stand in sight of
+                    the divine justice, that for those also we should be guilty before God were it
+                    not for the blood of the covenant.<note place="foot" xml:id="ftn69" n="69"><p
+                            rend="footnote text">Exod. 24:8; Heb. 10:29.</p></note></p>
+                <p n="8"><pb n="02:166"/>8. Experience shows that together with this conviction of
+                    sin <hi rend="italic">remaining</hi> our hearts and <hi rend="italic"
+                        >cleaving</hi> to all our words and actions, as well as the guilt which on
+                    account thereof we should incur were we not continually sprinkled with the
+                    atoning blood, one thing more is implied in this repentance, namely, a
+                    conviction of our helplessness, of our utter inability to think one good
+                    thought, or to form one good desire; and much more to speak one word aright, or
+                    to perform one good action but through his free, almighty grace, first
+                    preventing us, and then accompanying us every moment.<note place="foot"
+                        xml:id="ftn70" n="70"><p rend="footnote text">Cf. above, I.2 and
+                        n.</p></note></p>
+                <p n="9">9. ‘But what good works are those, the practice of which you affirm to be
+                    necessary to sanctification?’ First, all works of piety,<note place="foot"
+                        xml:id="ftn71" n="71"><p rend="footnote text">Cf. No. 14, <hi rend="italic"
+                                >The Repentance of Believers</hi>, I.13 and n.</p></note> such as
+                    public prayer, family prayer, and praying in our closet; receiving the Supper of
+                    the Lord; searching the Scriptures by hearing, reading, meditating; and using
+                    such a measure of fasting or abstinence as our bodily health allows.</p>
+                <p n="10">10. Secondly, all works of mercy, whether they relate to the bodies or
+                    souls of men; such as feeding the hungry, clothing the naked, entertaining the
+                    stranger, visiting those that are in prison, or sick, or variously afflicted;
+                    such as the endeavouring to instruct the ignorant, to awaken the stupid sinner,
+                    to quicken the lukewarm, to confirm the wavering, to comfort the
+                        feebleminded,<note place="foot" xml:id="ftn72" n="72"><p
+                            rend="footnote text">1 Thess. 5:14.</p></note> to succour the
+                        tempted,<note place="foot" xml:id="ftn73" n="73"><p rend="footnote text">See
+                            Heb. 2:18.</p></note> or contribute in any manner to the saving of souls
+                    from death. This is the repentance, and these the fruits meet for repentance,
+                    which are necessary to full sanctification. This is the way wherein God hath
+                    appointed his children to wait for complete salvation.</p>
+                <p n="11">11. Hence may appear the extreme mischievousness of that seemingly
+                    innocent opinion that ‘there is no sin in a believer; that all sin is destroyed,
+                    root and branch, the moment a man is justified.’<note place="foot"
+                        xml:id="ftn74" n="74"><p rend="footnote text">I.e., the view of men like
+                            Philip Molther (and, thereafter, of William Cudworth and James Relly);
+                            cf. No. 40, <hi rend="italic">Christian Perfection</hi>, II.10 and n.
+                            And, since it denied the necessity of a ‘second repentance’, Wesley
+                            regarded it as a premise for antinomianism.</p></note> By totally
+                    preventing that repentance<note place="foot" xml:id="ftn75" n="75"><p
+                            rend="footnote text">I.e., ‘second repentance’; cf. No. 14, <hi
+                                rend="italic">The Repentance of Believers</hi>, proem, §§1-3, <hi
+                                rend="italic">et seq.</hi></p></note> it quite blocks up the way to
+                    sanctification. There is no place for repentance in him who believes there is no
+                    sin either in his life or heart. Consequently there is no place for his being
+                    ‘perfected in love’,<note place="foot" xml:id="ftn76" n="76"><p
+                            rend="footnote text">Cf. 1 John 4:18. to which that repentance is
+                            indispensably necessary.</p></note></p>
+                <p n="12"><pb n="02:167"/>12. Hence it may likewise appear that there is no possible
+                    danger in <hi rend="italic">thus</hi> expecting full salvation. For suppose we
+                    were mistaken, suppose no such blessing ever was or can be attained, yet we lose
+                    nothing. Nay, that very expectation quickens us in using all the talents which
+                    God has given us; yea, in improving them all, so that when our Lord cometh he
+                    will ‘receive his own with increase’.<note place="foot" xml:id="ftn77" n="77"><p
+                            rend="footnote text">Cf. Matt. 25:27.</p></note></p>
+                <p n="13">13. But to return. Though it be allowed that both this repentance and its
+                    fruits are necessary to full salvation, yet they are not necessary either in the
+                        <hi rend="italic">same sense</hi> with faith or in the <hi rend="italic"
+                        >same degree</hi>. Not in the same degree; for these fruits are only
+                    necessary <hi rend="italic">conditionally</hi>, if there be time and opportunity
+                    for them. Otherwise a man may be sanctified without them. But he cannot be
+                    sanctified without faith. Likewise let a man have ever so much of this
+                    repentance, or ever so many good works, yet all this does not at all avail: he
+                    is not sanctified till he believes. But the moment he believes, with or without
+                    those fruits, yea, with more or less of this repentance, he is sanctified. Not
+                    in the <hi rend="italic">same sense</hi>; for this repentance and these fruits
+                    are only <hi rend="italic">remotely</hi> necessary, necessary in order to the
+                    continuance of his faith, as well as the increase of it; whereas faith is <hi
+                        rend="italic">immediately</hi> and <hi rend="italic">directly</hi> necessary
+                    to sanctification. It remains that faith is the only condition which is <hi
+                        rend="italic">immediately</hi> and <hi rend="italic">proximately</hi>
+                    necessary to sanctification.<note place="foot" xml:id="ftn78" n="78"><p
+                            rend="footnote text">The parallel here between faith and repentance in
+                            relation to both justification and sanctification is important for
+                            Wesley’s solution to his problem of ‘the remains of sin’; it is his
+                            alternative to the Lutheran <hi rend="italic">simul justus et
+                                peccator</hi>. Faith is the only and equally necessary condition in
+                            both cases.</p></note></p>
+                <p n="14">14. ‘But what is that faith whereby we are sanctified, saved from sin and
+                    perfected in love?’ It is a divine evidence and conviction, first, that God hath
+                    promised it in the Holy Scripture. Till we are thoroughly satisfied of this
+                    there is no moving one step farther. And one would imagine there needed not one
+                    word more to satisfy a reasonable man of this than the ancient promise, ‘Then
+                    will I circumcise thy heart, and the heart of thy seed, to love the Lord your
+                    God with all your heart, and with all your soul.’<note place="foot"
+                        xml:id="ftn79" n="79"><p rend="footnote text">Deut. 30:6. An echo of No. 17,
+                            ‘The Circumcision of the Heart’.</p></note> How clearly does this
+                    express the being perfected in love! How strongly imply the being saved from all
+                    sin! For as long as love takes up the whole heart, what room is there for sin
+                    therein?</p>
+                <p n="15">15. It is a divine evidence and conviction, secondly, that what <pb
+                        n="02:168"/>God hath promised he is <hi rend="italic">able</hi> to perform.
+                    Admitting therefore that ‘with men it is impossible’ to bring a clean thing out
+                    of an unclean, to purify the heart from all sin, and to fill it with all
+                    holiness, yet this creates no difficulty in the case, seeing ‘with God all
+                    things are possible.’<note place="foot" xml:id="ftn80" n="80"><p
+                            rend="footnote text">Cf. Matt. 19:26, etc.</p></note> And surely no one
+                    ever imagined it was possible to any power less than that of the Almighty! But
+                    if God speaks, it shall be done. God saith, ‘Let there be light: and there is
+                        light.’<note place="foot" xml:id="ftn81" n="81"><p rend="footnote text">Cf.
+                            Gen. 1:3.</p></note></p>
+                <p n="16">16. It is, thirdly, a divine evidence and conviction that he is able and
+                    willing to do it <hi rend="italic">now</hi>. And why not? Is not a moment to him
+                    the same as a thousand years?<note place="foot" xml:id="ftn82" n="82"><p
+                            rend="footnote text">See 2 Pet. 3:8; Ps. 90:4.</p></note> He cannot want
+                    more time to accomplish whatever is his will. And he cannot want or stay for any
+                    more <hi rend="italic">worthiness</hi> of <hi rend="italic">fitness</hi> in the
+                    persons he is pleased to honour. We may therefore boldly say, at any point of
+                    time, ‘Now is the day of salvation.’<note place="foot" xml:id="ftn83" n="83"><p
+                            rend="footnote text">2 Cor. 6:2.</p></note> ‘<hi rend="italic"
+                        >Today</hi> if ye will hear his voice, harden not your hearts.’<note
+                        place="foot" xml:id="ftn84" n="84"><p rend="footnote text">Heb.
+                        4:7.</p></note> ‘Behold! all things are now ready! Come unto the
+                        marriage!’<note place="foot" xml:id="ftn85" n="85"><p rend="footnote text"
+                            >Matt. 22:4.</p></note></p>
+                <p n="17">17. To this confidence, that God is both able and willing to sanctify us
+                        <hi rend="italic">now</hi>, there needs to be added one thing more, a divine
+                    evidence and conviction that <hi rend="italic">he doth it</hi>. In that hour it
+                    is done. God says to the inmost soul, ‘According to thy faith be it unto
+                        thee!’<note place="foot" xml:id="ftn86" n="86"><p rend="footnote text">Cf.
+                            Matt. 9:29.</p></note> Then the soul is pure from every spot of sin; ‘it
+                    is clean from all unrighteousness.’<note place="foot" xml:id="ftn87" n="87"><p
+                            rend="footnote text">Cf. 1 John 1:9.</p></note> The believer then
+                    experiences the deep meaning of those solemn words, ‘If we walk in the light, as
+                    he is in the light, we have fellowship one with another, and the blood of Jesus
+                    Christ his Son cleanseth us from all sin.’<note place="foot" xml:id="ftn88"
+                        n="88"><p rend="footnote text">1 John 1:7.</p></note></p>
+                <p n="18">18. ‘But does God work this great work in the soul <hi rend="italic"
+                        >gradually</hi> or <hi rend="italic">instantaneously</hi>?’ Perhaps it may
+                    be gradually wrought in some. I mean in this sense—they do not advert to the
+                    particular moment wherein sin ceases to be. But it is infinitely desirable, were
+                    it the will of God, that it should be done instantaneously; that the Lord should
+                    destroy sin ‘by the breath of his mouth’<note place="foot" xml:id="ftn89" n="89"
+                            ><p rend="footnote text">Job 15:30; Ps. 33:6.</p></note> in a moment, in
+                    the twinkling of an eye.<note place="foot" xml:id="ftn90" n="90"><p
+                            rend="footnote text">1 Cor. 15:52.</p></note> And so he generally does,
+                    a plain fact of <pb n="02:169"/>which there is evidence enough to satisfy any
+                    unprejudiced person. <hi rend="italic">Thou</hi> therefore look for it every
+                    moment. Look for it in the way above described; in all those ‘good works’
+                    whereunto thou art ‘created anew in Christ Jesus’.<note place="foot"
+                        xml:id="ftn91" n="91"><p rend="footnote text">Eph. 2:10.</p></note> There is
+                    then no danger. You can be no worse, if you are no better for that expectation.
+                    For were you to be disappointed of your hope, still you lose nothing. But you
+                    shall not be disappointed of your hope: it will come, and will not tarry.<note
+                        place="foot" xml:id="ftn92" n="92"><p rend="footnote text">See Heb.
+                            10:37.</p></note> Look for it then every day, every hour, every moment.
+                    Why not this hour, this moment? Certainly you may look for it <hi rend="italic"
+                        >now</hi>, if you believe it is by faith. And by this token may you surely
+                    know whether you seek it by faith or by works. If by works, you want something
+                    to be done <hi rend="italic">first</hi>, <hi rend="italic">before</hi> you are
+                    sanctified. You think, ‘I must first <hi rend="italic">be</hi> or <hi
+                        rend="italic">do</hi> thus or thus.’ Then you are seeking it by works unto
+                    this day. If you seek it by faith, you may expect it <hi rend="italic">as you
+                        are</hi>: and if as you are, then expect it <hi rend="italic">now</hi>. It
+                    is of importance to observe that there is an inseparable connection between
+                    these three points—expect it <hi rend="italic">by faith</hi>, expect it <hi
+                        rend="italic">as you are</hi>, and expect it <hi rend="italic">now</hi>! To
+                    deny one of them is to deny them all: to allow one is to allow them all. Do <hi
+                        rend="italic">you</hi> believe we are sanctified by faith? Be true then to
+                    your principle, and look for this blessing just as you are, neither better, nor
+                    worse; as a poor sinner that has still nothing to pay, nothing to plead but
+                    ‘Christ died.’<note place="foot" xml:id="ftn93" n="93"><p rend="footnote text"
+                            >Rom. 5:6, 8, etc.</p></note> And if you look for it as you are, then
+                    expect it <hi rend="italic">now</hi>. Stay for nothing. Why should you? Christ
+                    is ready. And he is all you want. He is waiting for you. He is at the door!<note
+                        place="foot" xml:id="ftn94" n="94"><p rend="footnote text">See Rev.
+                            3:20.</p></note> Let your inmost soul cry out,</p>
+                <lg>
+                    <l>Come in, come in, thou heavenly Guest!</l>
+                    <l>Nor hence again remove:</l>
+                    <l>But sup with me, and let the feast</l>
+                    <l>Be everlasting love.</l>
+                    <note place="foot" xml:id="ftn95" n="95"><p rend="footnote text">Cf. Wesley, <hi
+                                rend="italic">Hymns on God’s Everlasting Love</hi> (II), London,
+                            Strahan, 1742 (<hi rend="italic">Bibliog</hi>, No. 47), Hymn 8, p. 25
+                                (<hi rend="italic">Poet. Wks.</hi>, III.66); the orig. has been
+                            slightly retouched.</p></note>
+                </lg>
+            </div>
+        </body>
+    </text>
+</TEI>

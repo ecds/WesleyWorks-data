@@ -1,0 +1,552 @@
+<?xml version="1.0" encoding="UTF-8"?> <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Sermon 49: The Cure of Evil-Speaking</title>
+                <author>Wesley, John</author>
+                <editor role="text">Van Buskirk, Gregory P.</editor>
+                <editor role="digital">Taylor, Michelle M.</editor>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>The Wesley Works Digitzation Project</publisher>
+                <pubPlace>Tampa, FL</pubPlace>
+                <date>2024-02-28</date>
+            </publicationStmt>
+            <sourceDesc>
+                <listBibl>
+                    <biblStruct>
+                        <analytic>
+                            <title level="a">Sermon 49: The Cure of Evil-Speaking</title>
+                        </analytic>
+                        <monogr>
+                            <title level="j">The Works of John Wesley, Volume II: Sermons II,
+                                34-70</title>
+                            <editor role="volume">Outler, Albert</editor>
+                            <imprint>
+                                <publisher>Abingdon Press</publisher>
+                                <pubPlace>Nashville, TN</pubPlace>
+                                <date when="1985-11-01">1985-11-01</date>
+                                <biblScope unit="volume" n="2"/>
+                                <biblScope unit="page" from="251" to="262"/>
+                            </imprint>
+                        </monogr>
+                        <series>
+                            <title level="s">The Works of John Wesley</title>
+                            <editor role="general">Baker, Frank</editor>
+                        </series>
+                    </biblStruct>
+                </listBibl>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p n="">Greg Van Buskirk created Word docs for all of Wesley's sermons using a
+                combination of OCR software and manual proofing. Michelle Taylor converted these
+                docx into XML using Oxygen's DITA automatic transformation scenario, then touched
+                them up manually.</p>
+        </encodingDesc>
+        <standOff>
+            <taxonomy>
+                <keywords>
+                    <term/>
+                </keywords>
+            </taxonomy>
+            <!--Include keywords and terms here eventually.-->
+        </standOff>
+        <revisionDesc/>
+    </teiHeader>
+    <text>
+        <body>
+            <pb n="02:251"/>
+            <introduction>
+                <p><hi rend="italic">An Introductory Comment</hi></p>
+                <p>If, as we saw in ‘Self-denial’, pietists are all too easily tempted to a sort of
+                    religious narcissism, so also they find it hard to resist their strong
+                    temptations to high-minded censoriousness. Wesley saw the dangers here and
+                    roundly asserts (more hopefully, perhaps, than realistically) that ‘a
+                    distinguishing mark of a Methodist [is that] he censures no man behind his
+                    back.’ The magnitude of this problem within the closeknit fellowship of
+                    Methodist class meetings, etc., is reflected in a formal compact that was drawn
+                    up by the brothers Wesley, in John’s own handwriting, and eleven of their
+                    colleagues, including Edward and Charles Perronet, on January 29, 1752:</p>
+                <quote>It is agreed by us whose names are underwritten:</quote>
+                <quote>1. That we will not listen, or willingly inquire after any ill concerning
+                    each other.</quote>
+                <quote>2. That if we do hear any ill of each other, we will not be forward to
+                    believe it.</quote>
+                <quote>3. That as soon as possible we will communicate what we hear, by speaking or
+                    writing to the person concerned.</quote>
+                <quote>4. That till we have done this we will not write or speak a syllable of it to
+                    any other person whatsoever.</quote>
+                <quote>5. That neither will we mention it after we have done this to any other
+                    person.</quote>
+                <quote>6. That we will not make any exception to any of these rules, unless we think
+                    ourselves absolutely obliged in conscience so to do.<note place="foot"
+                        xml:id="ftn1" n="1"><p rend="footnote text">See <hi rend="italic"
+                                >Letters</hi>, 26:490 in this edn.</p></note></quote>
+                <p>This concern is confirmed by the fact that Wesley preached against
+                    ‘evil-speaking’ at least nine times in that year, then twice in 1753, and once
+                    again in 1758. The effectiveness of these various efforts, and of this written
+                    sermon summing up the issue, may be gauged from the fact that we hear no more of
+                    it until an oral sermon in 1786, and another written sermon—on how to reprove a
+                    neighbour to his face—in 1787 (No. 65, <hi rend="italic">The Duty of Reproving
+                        our Neighbour</hi>).</p>
+                <p>In light of Wesley’s definition of evil-speaking (‘neither more nor less than
+                    speaking evil of an <hi rend="italic">absent</hi> person’) it is worth noting
+                    that he does not use the terms ‘gossip’, on the one hand, or ‘candour’, on the
+                    other. This reminds us that, in the eighteenth century, neither term meant to
+                        <hi n="02:252"/> Wesley what they later came to mean, by cynical extension
+                    in the case of ‘gossip’ and by inference in the case of ‘candour’ (cf. <hi
+                        rend="italic">OED</hi> and Johnson’s <hi rend="italic">Dictionary</hi>).</p>
+                <p>This ‘tract for the times’ has no other publishing history than its place as a
+                    sort of addendum in <hi rend="italic">SOSO</hi>, IV.</p>
+            </introduction>
+            <head>The Cure of Evil-Speaking</head>
+            <epigraph>
+                <p>Matthew 18:15-17</p>
+                <p><hi rend="italic">If thy brother shall sin against thee, go and tell him his
+                        fault between thee and him alone: if he will hear thee, thou hast gained thy
+                        brother.</hi></p>
+                <p><hi rend="italic">But if he will not hear, take with thee one or two more, that
+                        by the mouth of two or three witnesses every word may be
+                    established.</hi></p>
+                <p><hi rend="italic">And if he will not hear them, tell it to the church: but if he
+                        will not hear the church, let him be to thee as an heathen man and a
+                        publican.</hi></p>
+            </epigraph>
+            <div type="introduction">
+                <p n="1">1. ‘Speak evil of no man,’<note place="foot" xml:id="ftn2" n="2"><p
+                            rend="footnote text">Titus 3:2.</p></note> says the great Apostle—as
+                    plain a command as ‘Thou shalt do no murder.’<note place="foot" xml:id="ftn3"
+                        n="3"><p rend="footnote text">Matt. 19:18.</p></note> But who even among
+                    Christians regards this command? Yea, how few are there that so much as
+                    understand it? What is ‘evil-speaking’? It is not (as some suppose) the same
+                    with lying or slandering. All a man says may be as true as the Bible; and yet
+                    the saying of it is evil-speaking. For evil-speaking is neither more nor less
+                    than speaking evil of an absent person; relating something evil which was really
+                    done or said by one that is not present when it is related.<note place="foot"
+                        xml:id="ftn4" n="4"><p rend="footnote text">The original μηδένα βλασφημεῖν
+                            is a prohibition against seditious language (cf. βλασφημέω in Liddell
+                            and Scott, <hi rend="italic">Greek-English Lexicon</hi>, as well as
+                            Bauer’s commentary in Arndt and Gingrich, <hi rend="italic"
+                                >Greek-English Lexicon</hi>), but without reference to the presence
+                            or absence of the person blasphemed. This point is ignored in the
+                            standard commentaries; it is not even made in the <hi rend="italic"
+                                >Notes</hi> on this text. But see No. 14, <hi rend="italic">The
+                                Repentance of Believers</hi>, I.11 and n.</p></note> Suppose, having
+                    seen a man drunk, or heard him curse or swear, I tell this when he is absent, it
+                    is evil-speaking. In our language this is also by an extremely proper name
+                    termed ‘backbiting’.<note place="foot" xml:id="ftn5" n="5"><p
+                            rend="footnote text">Cf. both Johnson’s <hi rend="italic"
+                                >Dictionary</hi> and <hi rend="italic">OED</hi>; they agree with
+                            Wesley’s stress on malice toward <hi rend="italic">absent</hi>
+                            persons.</p></note> Nor is there any <hi n="02:253"/> material
+                    difference between this and what we usually style ‘talebearing’. If the tale be
+                    delivered in a soft and quiet manner (perhaps with expressions of goodwill to
+                    the person, and of hope that things may not be quite so bad) then we call it
+                        ‘whispering’.<note place="foot" xml:id="ftn6" n="6"><p rend="footnote text"
+                            >Cf. Shakespeare, <hi rend="italic">King John</hi>, IV.ii.188-89: ‘When
+                            they talk of him, they shake their heads / And whisper one another in
+                            the ear.’</p></note> But in whatever manner it be done the thing is the
+                    same—the same in substance if not in circumstance. Still it is evil-speaking;
+                    still this command, ‘Speak evil of no man,’ is trampled under foot if we relate
+                    to another the fault of a third person when he is not present to answer for
+                    himself.</p>
+                <p n="2">2. And how extremely common is this sin among all orders and degrees of
+                    men! How do high and low, rich and poor, wise and foolish, learned and
+                    unlearned, run into it continually! Persons who differ from each other in all
+                    things else, nevertheless agree in this. How few are there that can testify
+                    before God, ‘I am clear in this matter I have always set a watch before my
+                    mouth, and kept the door of my lips!’<note place="foot" xml:id="ftn7" n="7"><p
+                            rend="footnote text">Cf. Ps. 141:3.</p></note> What conversation do you
+                    hear of any considerable length whereof evil-speaking is not one ingredient? And
+                    that even among persons who in the general have the fear of God before their
+                        eyes,<note place="foot" xml:id="ftn8" n="8"><p rend="footnote text">Rom.
+                            3:18.</p></note> and do really desire to have a conscience void of
+                    offence toward God and toward man.<note place="foot" xml:id="ftn9" n="9"><p
+                            rend="footnote text">See Acts 24:16.</p></note></p>
+                <p n="3">3. And the very commonness of this sin makes it difficult to be avoided. As
+                    we are encompassed with it on every side, so if we are not deeply sensible of
+                    the danger, and continually guarding against it, we are liable to be carried
+                    away by the torrent. In this instance almost the whole of mankind is, as it
+                    were, in a conspiracy against us. And their example steals upon us we know not
+                    how, so that we insensibly slide into the imitation of it. Besides, it is
+                    recommended from within as well as from without. There is scarce any wrong
+                    temper in the mind of man which may not be occasionally gratified by it, and
+                    consequently incline us to it. It gratifies our <hi rend="italic">pride</hi> to
+                    relate those faults of others whereof we think ourselves not to be guilty. <hi
+                        rend="italic">Anger</hi>, resentment, and all unkind tempers are indulged by
+                    speaking against those with whom we are displeased. And in many cases, by
+                    reciting the sins of their neighbours, men indulge their own ‘foolish and
+                    hurtful desires’.<note place="foot" xml:id="ftn10" n="10"><p
+                            rend="footnote text">1 Tim. 6:9 (<hi rend="italic"
+                        >Notes</hi>).</p></note></p>
+                <p n="4">4. Evil-speaking is the more difficult to be avoided because it frequently
+                    attacks us in disguise. We speak thus out of a noble, <pb n="02:254"/>generous
+                    (’tis well if we do not say, ‘holy’) ‘indignation’ against these vile creatures!
+                    We commit sin from mere hatred of sin! We serve the devil out of pure zeal for
+                    God! It is merely in order to punish the wicked that we run into this
+                    wickedness. So do ‘the passions’ (as one speaks) ‘all justify themselves’,<note
+                        place="foot" xml:id="ftn11" n="11"><p rend="footnote text">Cf. Francis
+                            Hutcheson, ‘Concerning Moral Good and Evil’, in <hi rend="italic">An
+                                Inquiry Into the Original of Our Ideas of Beauty and Virtue</hi>
+                            (1726), Treatise II, Sec. II, viii. 152. Cf. also No. 92, ‘On Zeal’, §2.
+                            For other references to Hutcheson, cf. No. 12, ‘The Witness of Our Own
+                            Spirit’, §5 and n. See also Thomas Browne, <hi rend="italic">Religio
+                                Medici</hi> (1642), I.19: ‘…as reason is a rebel unto faith, so
+                            passion unto reason;’ and Pope’s <hi rend="italic">Essay on Man</hi>,
+                            ii.42: ‘What reason weaves by passion is undone.’</p></note> and palm
+                    sin upon us under the veil of holiness!</p>
+                <p n="5">5. But is there no way to avoid the snare? Unquestionably there is. Our
+                    blessed Lord has marked out a plain way for his followers in the words above
+                    recited. None who warily and steadily walks in this path will ever fall into
+                    evil-speaking. This rule is either an infallible preventive or a certain cure of
+                    it. In the preceding verses our Lord had said, ‘Woe to the world because of
+                        offences!’<note place="foot" xml:id="ftn12" n="12"><p rend="footnote text"
+                            >Matt. 18:7.</p></note> Unspeakable misery will arise in the world from
+                    this baleful fountain. (‘Offences’ are all things whereby anyone is turned out
+                    of, or hindered in, the ways of God.) ‘For it must be that offences come.’<note
+                        place="foot" xml:id="ftn13" n="13"><p rend="footnote text"><hi rend="italic"
+                                >Ibid.</hi></p></note> Such is the nature of things; such the
+                    weakness, folly, and wickedness of mankind. ‘But woe to that man’, miserable is
+                    that man, ‘by whom the offence cometh. Wherefore if thy hand, thy foot, thine
+                    eye cause thee to offend’—if the most dear enjoyment, the most beloved and
+                    useful person, turn thee out of or hinder thee in the way—‘pluck it out, cut
+                    them off, and cast them from thee.’<note place="foot" xml:id="ftn14" n="14"><p
+                            rend="footnote text">Cf. Matt. 18:7-9.</p></note> But how can we avoid
+                    giving offence to some, and being offended at others? Especially suppose they
+                    are quite in the wrong, and we see it with our own eyes? Our Lord here teaches
+                    us how: he lays down a sure method of avoiding offences and evil-speaking
+                    together. ‘If thy brother shall sin against thee, go and tell him of his fault,
+                    between thee and him alone: if he will hear thee, thou hast gained thy brother.
+                    But if he will not hear thee, take with thee one or two more, that by the mouth
+                    of two or three witnesses every word may be established. And if he will not hear
+                    them, tell it to the church: but if he will not hear the church, let him be to
+                    thee as an heathen man and a publican.’</p>
+            </div>
+            <div type="section" n="1">
+                <p n="1">I. 1. First, ‘if thy brother shall sin against thee, go and tell him of his
+                    fault, between thee and him alone.’ The most literal way of <pb n="02:255"
+                    />following this first rule, where it is practicable, is the best. Therefore, if
+                    thou seest with thine own eyes a brother, a fellow-Christian, commit undeniable
+                    sin, or hearest it with thine own ears, so that it is impossible for thee to
+                    doubt the fact, then thy part is plain: take the very first opportunity of going
+                    to him; and if thou canst have access, ‘tell him of his fault between thee and
+                    him alone.’ Indeed great care is to be taken that this is done in a right <hi
+                        rend="italic">spirit</hi>, and in a right <hi rend="italic">manner</hi>. The
+                    success of a reproof greatly depends on the spirit wherein it is given.<note
+                        place="foot" xml:id="ftn15" n="15"><p rend="footnote text">Cf. No. 65, ‘The
+                            Duly of Reproving our Neighbour’.</p></note> Be not therefore wanting in
+                    earnest prayer to God that it may be given in a lowly spirit; with a deep,
+                    piercing conviction that it is God alone who maketh thee to differ, and that if
+                    any good be done by what is now spoken, God doth it himself. Pray that he would
+                    guard thy heart, enlighten thy mind, and direct thy tongue to such words as he
+                    may please to bless. See that thou speak in a meek as well as a lowly spirit;
+                    ‘for the wrath of man worketh not the righteousness of God.’<note place="foot"
+                        xml:id="ftn16" n="16"><p rend="footnote text">Jas. 1:20.</p></note> If he
+                    ‘be overtaken in a fault’, he can no otherwise be ‘restored’ than ‘in the spirit
+                    of meekness’.<note place="foot" xml:id="ftn17" n="17"><p rend="footnote text"
+                            >Cf. Gal. 6:1.</p></note> If he ‘opposes’ the truth, yet he cannot be
+                    ‘brought to the knowledge’ thereof but by ‘gentleness’.<note place="foot"
+                        xml:id="ftn18" n="18"><p rend="footnote text">Cf. 2 Tim. 2:25.</p></note>
+                    Still speak in a spirit of tender love, ‘which many waters cannot quench’.<note
+                        place="foot" xml:id="ftn19" n="19"><p rend="footnote text">S. of S.
+                        8:7.</p></note> If love is not conquered, it conquers all things. Who can
+                    tell the force of love?</p>
+                <lg>
+                    <l>Love can bow down the stubborn neck,</l>
+                    <l>The stone to flesh convert;</l>
+                    <l>Soften and melt and pierce and break</l>
+                    <l>An adamantine heart.</l>
+                    <note place="foot" xml:id="ftn20" n="20"><p rend="footnote text">Charles Wesley,
+                            ‘Against Hope, Believing in Hope’, in John and Charles Wesley, <hi
+                                rend="italic">Hymns and Sacred Poems</hi> (1740), p. 157 (<hi
+                                rend="italic">Poet. Wks.</hi> I.329).</p></note>
+                </lg>
+                <p>Confirm then your love toward him, and you will thereby ‘heap coals of fire upon
+                    his head’.<note place="foot" xml:id="ftn21" n="21"><p rend="footnote text">Cf.
+                            Prov. 25:22; Rom. 12:20.</p></note></p>
+                <p n="2">2. But see that the <hi rend="italic">manner</hi> also wherein you speak be
+                    according to the gospel of Christ. Avoid everything in look, gesture, word, and
+                    tone of voice that savours of <hi rend="italic">pride</hi> or self-sufficiency.
+                    Studiously avoid everything magisterial or dogmatical; everything that looks
+                    like arrogance or assuming. Beware of the most distant approach to disdain,
+                    overbearing, or <hi rend="italic">contempt</hi>. With equal care <pb n="02:256"
+                    />avoid all appearance of <hi rend="italic">anger</hi>, and though you use great
+                    plainness of speech, yet let there be no reproach, no railing accusation, no
+                    token of any warmth but that of love. Above all, let there be no shadow of <hi
+                        rend="italic">hate</hi> or ill will, no bitterness or sourness of
+                    expression; but use the air and language of sweetness, as well as gentleness,
+                    that all may appear to flow from love in the heart. And yet this sweetness need
+                    not hinder your speaking in the most serious and solemn manner, as far as may be
+                    in the very words of the oracles of God (for there are none like them), and as
+                    under the eye of him who is coming to judge the quick and [the] dead.<note
+                        place="foot" xml:id="ftn22" n="22"><p rend="footnote text">2 Tim. 4:1; 1
+                            Pet. 4:5. See also ‘The Apostles’ Creed’ and ‘The Creed Commonly Called
+                            Nicene’ (BCP).</p></note></p>
+                <p n="3">3. If you have not an opportunity of speaking to him in person, or cannot
+                    have access, you may do it by a messenger, by a common friend in whose prudence
+                    as well as uprightness you can throughly confide. Such a person, speaking in
+                    your name, and in the spirit and manner above described, may answer the same
+                    end, and in a good degree supply your lack of service. Only beware you do not
+                    feign want of opportunity in order to shun the cross; neither take it for
+                    granted that you cannot have access without ever making the trial. Whenever you
+                    can speak in your own person it is far better. But you should rather do it by
+                    another than not at all: this way is better than none.</p>
+                <p n="4">4. But what if you can neither speak yourself, nor find such a messenger as
+                    you can confide in? If this is really the case, it then only remains to write.
+                    And there may be some circumstances which make this the most advisable way of
+                    speaking. One of these circumstances is when the person with whom we have to do
+                    is of so warm and impetuous a temper as does not easily bear reproof, especially
+                    from an equal or inferior. But it may be so introduced and softened in writing
+                    as to make it far more tolerable. Besides, many will read the very same words
+                    which they could not bear to hear. It does not give so violent a shock to their
+                    pride, nor so sensibly touch their honour. And suppose it makes little
+                    impression at first, they will perhaps give it a second reading, and upon
+                    farther consideration lay to heart what before they disregarded. If you add your
+                    name, this is nearly the same thing as going to him and speaking in person. And
+                    this should always be done, unless it be rendered improper by some very
+                    particular reason.</p>
+                <p n="5"><pb n="02:257"/>5. It should be well observed, not only that this is a step
+                    which our Lord absolutely commands us to take, but that he commands us to take
+                    this step first, before we attempt any other. No alternative is allowed, no
+                    choice of anything else; this is the way; walk thou in it.<note place="foot"
+                        xml:id="ftn23" n="23"><p rend="footnote text">See Isa. 30:21.</p></note> It
+                    is true he enjoins us, if need require, to take two other steps. But they are to
+                    be taken successively <hi rend="italic">after</hi> this step, and neither of
+                    them <hi rend="italic">before</hi> it. Much less are we to take any other step
+                    either before or beside this. To do anything else, or not to do this, is
+                    therefore equally inexcusable.</p>
+                <p n="6">6. Do not think to excuse yourself for taking an entirely different step by
+                    saying, ‘Why, I did not speak to anyone till I was so <hi rend="italic"
+                        >burdened</hi> that I could not refrain.’ You was burdened! It was no wonder
+                    you should, unless your conscience was seared;<note place="foot" xml:id="ftn24"
+                        n="24"><p rend="footnote text">See 1 Tim. 4:2. Cf. No. 12, ‘The Witness of
+                            Our Own Spirit’, §19 and n.</p></note> for you was under the guilt of
+                    sin, of disobeying a plain commandment of God. You ought immediately to have
+                    gone and ‘told your brother of his fault between you and him alone’. If you did
+                    not, how should you be other than burdened (unless your heart was utterly
+                    hardened) while you was trampling the command of God under foot, and ‘hating
+                    your brother in your heart’?<note place="foot" xml:id="ftn25" n="25"><p
+                            rend="footnote text">Cf. Zech. 7:10.</p></note> And what a way have you
+                    found to <hi rend="italic">unburden</hi> yourself? God reproves you for a sin of
+                    omission, for not telling your brother of his fault; and you comfort yourself
+                    under his reproof by a sin of commission, by telling your brother’s fault to
+                    another person! Ease bought by sin is a dear purchase: I trust in God you will
+                    have no ease, but will be burdened so much the more till you ‘go to your brother
+                    and tell him’, and no one else.</p>
+                <p n="7">7. I know but of one exception to this rule. There may be a peculiar case
+                    wherein it is necessary to accuse the guilty, though absent, in order to
+                    preserve the innocent. For instance: you are acquainted with the design which a
+                    man has against the property or life of his neighbour. Now the case may be so
+                    circumstanced that there is no other way of hindering that design from taking
+                    effect but the making it known without delay to him against whom it is laid. In
+                    this case therefore this rule is set aside, as is that of the Apostle, ‘Speak
+                    evil of no man,’<note place="foot" xml:id="ftn26" n="26"><p rend="footnote text"
+                            >Titus 3:2.</p></note> and it is lawful, yea, it is our bounden duty to
+                    speak evil of an absent person, in order to prevent his doing evil to others and
+                    himself at the same time. But <pb n="02:258"/>remember meanwhile that all
+                    evil-speaking is in its own nature deadly poison. Therefore if you are sometimes
+                    constrained to use it as a medicine, yet use it with fear and trembling, seeing
+                    it is so dangerous a medicine that nothing but absolute necessity can excuse
+                    your using it at all. Accordingly use it as seldom as possible; never but when
+                    there is such a necessity. And even then use as little of it as is possible;
+                    only so much as is necessary for the end proposed. At all other times, ‘go and
+                    tell him of his fault, between thee and him alone.’</p>
+            </div>
+            <div type="section" n="2">
+                <p n="1">II. 1. But what ‘if he will not hear’? If he repay evil for good? If he be
+                    enraged rather than convinced? What if he hear to no purpose, and go on still in
+                    the evil of his way? We must expect this will frequently be the case; the
+                    mildest and tenderest reproof will have no effect, but the blessing we wished
+                    for another will return into our own bosom.<note place="foot" xml:id="ftn27"
+                        n="27"><p rend="footnote text">See Ps. 35:13.</p></note> And what are we to
+                    do then? Our Lord has given us a clear and full direction. Then ‘take with thee
+                    one or two more:’ this is the second step. Take one or two whom you know to be
+                    of a loving spirit, lovers of God and of their neighbour. See likewise that they
+                    be of a lowly spirit, and ‘clothed with humility’.<note place="foot"
+                        xml:id="ftn28" n="28"><p rend="footnote text">1 Pet. 5:5.</p></note> Let
+                    them also be such as are meek and gentle, patient and longsuffering; not apt to
+                    ‘return evil for evil, or railing for railing, but contrariwise blessing’.<note
+                        place="foot" xml:id="ftn29" n="29"><p rend="footnote text">Cf. 1 Pet.
+                            3:9.</p></note> Let them be men of understanding, such as are endued
+                    with wisdom from above; and men unbiased, free from partiality, free from
+                    prejudice of any kind. Care should likewise be taken that both the persons and
+                    their characters be well known to him. And let those that are acceptable to him
+                    be chosen preferable to any others.</p>
+                <p n="2">2. Love will dictate the manner wherein they should proceed, according to
+                    the nature of the case. Nor can any one particular manner be prescribed for all
+                    cases. But perhaps in general one might advise, before they enter upon the thing
+                    itself, let them mildly and affectionately declare that they have no anger or
+                    prejudice toward him, and that it is merely from a principle of goodwill that
+                    they now come, or at all concern themselves with his affairs. To make this the
+                    more apparent, they might then calmly attend to your repetition of your former
+                    conversation with him, and to what he said in his own defence, before they
+                    attempted to <pb n="02:259"/>determine anything. After this they would be better
+                    able to judge in what manner to proceed, ‘that by the mouth of two or three
+                    witnesses, every word might be established’; that whatever you have said may
+                    have its full force by the additional weight of their authority.</p>
+                <p n="3">3. In order to this, may they not, (1). Briefly repeat what you spoke, and
+                    what he answered? (2). Enlarge upon, open, and confirm the reasons which you had
+                    given? (3). Give weight to your reproof, showing how just, how kind, and how
+                    seasonable it was? And, lastly, enforce the advices and persuasions which you
+                    had annexed to it? And these may likewise hereafter, if need should require,
+                    bear witness of what was spoken.</p>
+                <p n="4">4. With regard to this, as well as the preceding rule, we may observe that
+                    our Lord gives us no choice, leaves us no alternative, but expressly commands us
+                    to do this, and nothing else in the place of it He likewise directs us when to
+                    do this. Neither sooner, nor later: namely, <hi rend="italic">after</hi> we have
+                    taken the first, and <hi rend="italic">before</hi> we have taken the third step.
+                    It is then only that we are authorized to relate the evil another has done to
+                    those whom we desire to bear a part with us in this great instance of brotherly
+                    love. But let us have a care how we relate it to any other person till both
+                    these steps have been taken. If we neglect to take these, or if we take any
+                    others, what wonder if we are burdened still! For we are sinners against God and
+                    against our neighbour. And how fairly soever we may colour it, yet if we have
+                    any conscience our sin will find us out, and bring a burden upon our soul.</p>
+            </div>
+            <div type="section" n="3">
+                <p n="1">III. 1. That we may be throughly instructed in this weighty affair our Lord
+                    has given us a still farther direction. ‘If he will not hear them’—then and not
+                    till then—‘tell it to the church.’ This is the third step. All the question is
+                    how this word, ‘the church’, is here to be understood. But the very nature of
+                    the thing will determine this beyond all reasonable doubt. You cannot tell it to
+                    the national church, the whole body of men termed ‘the Church of England’.<note
+                        place="foot" xml:id="ftn30" n="30"><p rend="footnote text">Note this
+                            unselfconscious assumption that ‘church’, in its broader denotation, is
+                            the Church of England. For Wesley’s understanding of himself as
+                            Anglican, see Vol. 1, Intro., p. 88.</p></note> Neither would it answer
+                    any Christian end if you could: this therefore is not the meaning of the word.
+                    Neither can you tell it to that whole body of people in England with whom you
+                    have a more immediate connexion. Nor indeed would this answer <pb n="02:260"
+                    />any good end: the word therefore is not to be understood thus. It would not
+                    answer any valuable end to tell the faults of every particular member to ‘the
+                    church’ (if you would so term it), the congregation or <hi rend="italic"
+                        >society</hi><note place="foot" xml:id="ftn31" n="31"><p
+                            rend="footnote text">I.e., the United Society of Methodists, here
+                            understood as an <hi rend="italic">ecclesiola</hi>, most of whose
+                            members were registered on one or another parish roll in the Church of
+                            England.</p></note> united together in London. It remains that you tell
+                    it to the elder or elders of the church, to those who are overseers of that
+                    flock of Christ to which you both belong, who watch over yours and his soul ‘as
+                    they that must give account’.<note place="foot" xml:id="ftn32" n="32"><p
+                            rend="footnote text">Heb. 13:17.</p></note> And this should be done, if
+                    it conveniently can, in the presence of the person concerned, and, though
+                    plainly, yet with all the tenderness and love which the nature of the thing will
+                    admit. It properly belongs to their office to determine concerning the behaviour
+                    of those under their care, and to ‘rebuke’, according to the demerit of the
+                    offence, ‘with all authority’.<note place="foot" xml:id="ftn33" n="33"><p
+                            rend="footnote text">Titus 2:15.</p></note> When therefore you have done
+                    this, you have done all which the Word of God or the law of love requireth of
+                    you. You are not now partaker of his sin, but if he perish his blood is on his
+                    own head.<note place="foot" xml:id="ftn34" n="34"><p rend="footnote text">See
+                            Ezek. 33:4-6.</p></note></p>
+                <p n="2">2. Here also let it be observed that this, and no other, is the third step
+                    which we are to take; and that we are to take it in its order, after the other
+                    two; not before the second, much less the first, unless in some very particular
+                    circumstance. Indeed in one case the second step may coincide with this: they
+                    may be, in a manner, one and the same. The elder or elders of the church may be
+                    so connected with the offending brother that they may set aside the necessity,
+                    and supply the place of the ‘one or two’ witnesses. So that it may suffice to
+                    tell it to them after you have told it to your brother, ‘between you and him
+                    alone’.</p>
+                <p n="3">3. When you have done this you have delivered your own soul.<note
+                        place="foot" xml:id="ftn35" n="35"><p rend="footnote text">See Ezek. 14:14,
+                            20; 33:9. Cf. above, No. 36, ‘The Law Established through Faith, ΙI’,
+                            I.5 and n.</p></note> ‘If he will not hear the church’, if he persist in
+                    his sin, ‘let him be to thee as an heathen man and a publican.’ You are under no
+                    obligation to think of him any more—only when you commend him to God in prayer.
+                    You need not speak of him any more, but leave him to his own Master. Indeed you
+                    still owe to him, as to all other heathens, earnest, tender goodwill. You owe
+                    him courtesy, and as occasion offers all the offices of humanity. But have no
+                    friendship, no familiarity with him; no other intercourse than with an open
+                    heathen.</p>
+                <p n="4"><pb n="02:261"/>4. But if this be the rule by which Christians walk, which
+                    is the land where the Christians live?<note place="foot" xml:id="ftn36" n="36"
+                            ><p rend="footnote text">See No. 4, <hi rend="italic">Scriptural
+                                Christianity</hi>, IV.1 and n.</p></note> A few you may possibly
+                    find scattered up and down who make a conscience of observing it. But how very
+                    few! How thinly scattered upon the face of the earth! And where is there any
+                    body of men that universally walk thereby? Can we find them in Europe? Or, to go
+                    no farther, in Great Britain or Ireland? I fear not: I fear we may search these
+                    kingdoms throughout, and yet search in vain. Alas for the Christian world! Alas
+                    for Protestants, for Reformed Christians! ‘O who will rise up with me against
+                    the wicked? Who will take God’s part against the evil-speakers?’<note
+                        place="foot" xml:id="ftn37" n="37"><p rend="footnote text">Cf. Ps. 94:16
+                            (BCP). ‘</p></note>Art thou the man?’<note place="foot" xml:id="ftn38"
+                        n="38"><p rend="footnote text">1 Kgs. 13:14.</p></note> By the grace of God
+                    wilt thou be one who art not carried away by the torrent? Art thou fully
+                    determined, God being thy helper, from this very hour to set a watch, a
+                    continual ‘watch before thy mouth, and keep the door of thy lips’?<note
+                        place="foot" xml:id="ftn39" n="39"><p rend="footnote text">Cf. Ps.
+                            141:3.</p></note> From this hour wilt thou walk by this rule, ‘speaking
+                    evil of no man’?<note place="foot" xml:id="ftn40" n="40"><p rend="footnote text"
+                            >Cf. Titus 3:2.</p></note> If thou seest thy brother do evil, wilt thou
+                    ‘tell him of his fault between thee and him alone’? Afterwards ‘take one or two
+                    witnesses’, and then only ‘tell it to the church’? If this be the full purpose
+                    of thy heart, then learn one lesson well: <hi rend="italic">Hear evil of no
+                        man</hi>. If there were no hearers, there would be no speakers of evil. And
+                    is not (according to the vulgar proverb) the receiver as bad as the thief? If
+                    then any begin to speak evil in thy hearing, check him immediately. Refuse to
+                    hear the voice of the charmer, charm he never so sweetly:<note place="foot"
+                        xml:id="ftn41" n="41"><p rend="footnote text">See Ps. 58:5 (BCP).</p></note>
+                    let him use ever so soft a manner, so mild an accent, ever so many professions
+                    of goodwill for him whom he is stabbing in the dark, whom he smiteth under the
+                    fifth rib.<note place="foot" xml:id="ftn42" n="42"><p rend="footnote text">See 2
+                            Sam. 2:23; 3:27.</p></note> Resolutely refuse to hear, though the
+                    whisperer complain of being ‘burdened’ till he speak. Burdened! thou fool, dost
+                    thou ‘travail with’ thy cursed <hi rend="italic">secret</hi>, ‘as a woman
+                    travaileth with child’?<note place="foot" xml:id="ftn43" n="43"><p
+                            rend="footnote text">Cf. Isa. 13:8; Rev. 12:2, etc.</p></note> Go then
+                    and be delivered of thy burden, in the way the Lord hath ordained. First, ‘go
+                    and tell thy brother of his fault, between thee and him alone.’ Next, ‘take with
+                    thee one or two’ common friends, and tell him in their presence. If neither of
+                    these steps take effect, then ‘tell it to the church.’ But at the peril of thy
+                    soul tell it to no one else, either before or after, unless in that one exempt
+                    case, when it is absolutely needful to preserve <pb n="02:262"/>the innocent.
+                    Why shouldst thou burden another as well as thyself by making him partaker of
+                    thy sin?</p>
+                <p n="5">5. O that all you who bear the reproach of Christ,<note place="foot"
+                        xml:id="ftn44" n="44"><p rend="footnote text">Heb. 11:26.</p></note> who are
+                    in derision called ‘Methodists’, would set an example to the Christian world, so
+                    called, at least in this one instance! Put ye away evil-speaking, talebearing,
+                    whispering: let none of them proceed out of your mouth. See that you ‘speak evil
+                    of no man;’<note place="foot" xml:id="ftn45" n="45"><p rend="footnote text"
+                            >Titus 3:2.</p></note> of the absent nothing but good. If ye must be
+                    distinguished, whether ye will or no, let this be the distinguishing mark of a
+                    Methodist: ‘He censures no man behind his back: by this fruit ye may know
+                        him.’<note place="foot" xml:id="ftn46" n="46"><p rend="footnote text">Cf.
+                            Matt. 7:16, 20.</p></note> What a blessed effect of this self-denial
+                    should we quickly feel in our hearts! How would our ‘peace flow as a
+                        river’,<note place="foot" xml:id="ftn47" n="47"><p rend="footnote text">Cf.
+                            Isa. 48:18.</p></note> when we thus ‘followed peace with all men’!<note
+                        place="foot" xml:id="ftn48" n="48"><p rend="footnote text">Cf. Heb.
+                            12:14.</p></note> How would the love of God abound in our own souls
+                    while we thus confirmed our love to our brethren! And what an effect would it
+                    have on all that were united together in the name of the Lord Jesus! How would
+                    brotherly love continually increase when this grand hindrance of it was removed!
+                    All the members of Christ’s mystical body would then <hi rend="italic">naturally
+                        care for</hi> each other: ‘If one member suffered, all would suffer with it;
+                    if one was honoured, all would rejoice with it;’<note place="foot"
+                        xml:id="ftn49" n="49"><p rend="footnote text">Cf. 1 Cor. 12:26.</p></note>
+                    and everyone would love his brother ‘with a pure heart fervently’.<note
+                        place="foot" xml:id="ftn50" n="50"><p rend="footnote text">1 Pet.
+                        1:22.</p></note> Nor is this all: but what an effect might this have even on
+                    the wild unthinking world! How soon would they descry in us what they could not
+                    find among all the thousands of their brethren, and cry (as Julian the Apostate
+                    to his heathen courtiers), ‘See how these Christians love one another!’<note
+                        place="foot" xml:id="ftn51" n="51"><p rend="footnote text">See No. 22,
+                            ‘Sermon on the Mount, II’, III.18 and n.</p></note> By this chiefly
+                    would God convince the world, and prepare them also for his kingdom, as we may
+                    easily learn from those remarkable words in our Lord’s last, solemn prayer: ‘I
+                    pray for them who will believe in me, that they all may be one, as thou, Father,
+                    art in me, and I in thee; that the world may believe that thou hast sent
+                        me!’<note place="foot" xml:id="ftn52" n="52"><p rend="footnote text">Cf.
+                            John 17:20-21.</p></note> The Lord hasten the time! The Lord enable us
+                    thus to love one another, not only ‘in word and in tongue, but in deed and in
+                        truth’,<note place="foot" xml:id="ftn53" n="53"><p rend="footnote text">Cf.
+                            1 John 3:18.</p></note> even as Christ hath loved us.</p>
+            </div>
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,1050 @@
+<?xml version="1.0" encoding="UTF-8"?> <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Sermon 53: On the Death of George Whitefield</title>
+                <author>Wesley, John</author>
+                <editor role="text">Van Buskirk, Gregory P.</editor>
+                <editor role="digital">Taylor, Michelle M.</editor>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>The Wesley Works Digitzation Project</publisher>
+                <pubPlace>Tampa, FL</pubPlace>
+                <date>2024-02-28</date>
+            </publicationStmt>
+            <sourceDesc>
+                <listBibl>
+                    <biblStruct>
+                        <analytic>
+                            <title level="a">Sermon 53: On the Death of George Whitefield</title>
+                        </analytic>
+                        <monogr>
+                            <title level="j">The Works of John Wesley, Volume II: Sermons II,
+                                34-70</title>
+                            <editor role="volume">Outler, Albert</editor>
+                            <imprint>
+                                <publisher>Abingdon Press</publisher>
+                                <pubPlace>Nashville, TN</pubPlace>
+                                <date when="1985-11-01">1985-11-01</date>
+                                <biblScope unit="volume" n="2"/>
+                                <biblScope unit="page" from="325" to="346"/>
+                            </imprint>
+                        </monogr>
+                        <series>
+                            <title level="s">The Works of John Wesley</title>
+                            <editor role="general">Baker, Frank</editor>
+                        </series>
+                    </biblStruct>
+                </listBibl>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Greg Van Buskirk created Word docs for all of Wesley's sermons using a combination of
+                OCR software and manual proofing. Michelle Taylor converted these docx into XML
+                using Oxygen's DITA automatic transformation scenario, then touched them up
+                manually.</p>
+        </encodingDesc>
+        <standOff>
+            <taxonomy>
+                <keywords>
+                    <term/>
+                </keywords>
+            </taxonomy>
+            <!--Include keywords and terms here eventually.-->
+        </standOff>
+        <revisionDesc/>
+    </teiHeader>
+    <text>
+        <body>
+            <pb n="02:325"/>
+            <introduction>
+                <head><hi rend="italic">An Introductory Comment</hi></head>
+                <p>On its face, this is scarcely more than a heartfelt tribute from one great
+                    evangelist to another, a eulogy for a brother minister fallen before his time in
+                    a splendid career. Certainly, it was thus intended and thus may be read But if
+                    one notices a certain formality in its tone or any lack of fervency, an
+                    understanding of its peculiar circumstances could be helpful. Actually, this
+                    sermon was the epilogue to a complex history of friendly rivalry and open
+                    conflict that would have been vivid in the memories of its first hearers and
+                    readers. This history has yet to be explored in sufficient depth, despite the
+                    massive but partisan biographical studies of Seymour, <hi rend="italic">Countess
+                        of Huntingdon</hi>, and Tyerman’s twin ‘Lives’ of John Wesley (3 vols.) and
+                    George Whitefield (2 vols.). But it was a more decisive influence in the course
+                    of the Evangelical Revival than has been fully realized.</p>
+                <p>Its occasion was not only solemn; it was downright awkward, and called for all
+                    the diplomacy and aplomb that Wesley could muster. Three months before (August
+                    7-10, 1770), Wesley and his ‘Conference’ had issued a public warning to all
+                    Methodists who ‘had leaned too much toward Calvinism’. This had given huge
+                    offence to Whitefield’s closest friends and sponsors—the Countess of Huntingdon
+                    and her ‘Connexion’. Even so, they had dutifully complied with Whitefield’s
+                    expressed desire that Wesley be invited to preach his funeral sermon; and Wesley
+                    had accepted. Behind this lies a fascinating story, some parts of which bear
+                    directly upon an understanding of the sermon itself.</p>
+                <p>George Whitefield, close on his eighteenth birthday, had come up to Oxford in
+                    1732 from his lowly origins in Gloucester to become a humble ‘servitor’ at
+                    Pembroke College, across St. Aldate’s Street from lordly Christ Church. He soon
+                    heard about ‘the Methodists’ and admired them at a distance, but was not
+                    admitted to ‘the Holy Club’ until the winter of 1735. Thus, he was too young to
+                    be included in the Georgia expedition (and he was also not yet ordained).
+                    Instead, he spent a year of informal ministry in and around Gloucester and
+                    Bristol, experienced his ‘new birth’ long before the Wesleys, and was ordained
+                    deacon by Bishop Martin Benson in Gloucester Cathedral, June 20, 1736.
+                    Personally <pb n="02:326"/>diffident and self-deprecating, he discovered an
+                    extraordinary talent for dramatic preaching, and quickly became the most popular
+                    preacher in England, with nine published sermons to his credit (one on ‘New
+                    Birth’, another on ‘The Almost Christian’, and a third on ‘Justification by
+                    Faith’), all before his twenty-third birthday, and still only a deacon.
+                    Moreover, he owed none of this success to the Wesleys, whom he had quickly
+                    eclipsed in fame and notoriety.</p>
+                <p>Nevertheless, he was interested in their Georgia mission and at their belated
+                    invitation decided to join them. The venture was, however, delayed, for various
+                    reasons, until February 1738. Indeed, he was in Deal harbour, ready to sail
+                    westward on February 7, his exuberantly hopeful departure making a poignant
+                    contrast to the dispirited homecoming of John Wesley. Wesley wrote Whitefield a
+                    hasty note, advising him to abandon his mission and return to London; see
+                    Tyerman, Life of Rev. George Whitefield (1876-77), I.114-16. Whitefield ignored
+                    this, of course, and thereafter was greatly vindicated by his almost instant
+                    success in Georgia. The colonists responded eagerly to his eloquence, and even
+                    William Stephens found his preaching impressive:</p>
+                <quote>May 21, 1738. Mr. Whitefield officiated this day at the church and made a
+                    sermon very engaging to the most thronged congregation I had ever seen
+                    there.</quote>
+                <quote>May 28th. Mr. Whitefield manifests great ability in the ministry and his
+                    sermons today were very moving.</quote>
+                <quote>July 2nd. Mr. Whitefield gains more and more on the affections of the people,
+                    by his labour and assiduity in the performance of divine offices [as a deacon!]
+                    to which an open and easy deportment without show of austerity or singularity of
+                    behaviour in conversation contribute not a little…. [Obviously, Stephens is here
+                    contrasting Whitefield with his predecessor.]</quote>
+                <p>By temperament, however, Whitefield was indisposed toward a settled ministry, and
+                    was back in England before the year was out, preaching and raising money for
+                    both his ‘Charity Schools’ and a projected ‘Orphans’ House’ in Georgia. On
+                    January 14, 1739, he was ordained priest in Christ Church Cathedral, Oxford, by
+                    Bishop Benson, who was acting for Bishop Secker and also for Bishop Gibson of
+                    London, who had agreed with the Georgia Trustees that Whitefield should return
+                    to Savannah as rector. For this unusual ordination, Lady Huntingdon and some of
+                    her noble friends (e.g., the Duchess of Marlborough) had come as lay sponsors.
+                    Shortly thereafter, Whitefield began to preach in the fields of Kingswood
+                    (February 17) and was promptly threatened with excommunication by the Chancellor
+                    of the diocese (February 20). Disregarding this, he went from success to success
+                    in his new irregular <pb n="02:327"/>ministry—and even managed to involve a
+                    reluctant John Wesley in it.</p>
+                <p>Five months later, he was on his way back to America with a collection of £2,530
+                    for his cherished Orphanage (on a five hundred acre tract of land donated by the
+                    Georgia Trustees). In the course of the next thirty years he raised more than
+                    £3,000 for this project. Moreover, he added five more evangelistic missions to
+                    America and, despite his untimely death at fifty-five, he had left a permanent
+                    mark on American Christianity as a part of the first ‘Great Awakening’. It was a
+                    career more spectacular than Wesley’s in almost all respects, save only that he
+                    left no organization to carry on his work and also that his message left a scant
+                    residue of original ideas. But, as a popular spokesman for the prevailing
+                    Puritan piety, he had no peer in his time.</p>
+                <p>In his doctrine, predestination was more presupposed than argued out, but he
+                    asserted it so vigorously that Wesley came to regard it not only as a denial of
+                    ‘free-will’ but as an encouragement to the relaxation of Christian <hi
+                        rend="italic">discipline</hi>. This is what Stephens had noticed in
+                    Georgia—and had approved. Moreover, Whitefield’s <hi rend="italic"
+                    >Journals</hi>, published in 1738-39, were candid beyond prudence and had made
+                    him an easy target for his critics. They pounced on his unguarded expressions of
+                    ‘enthusiasms’ (claims to ‘direct inspiration’) and on his equally unguarded
+                    invectives against the Establishment (cf. his comment that ‘Archbishop Tillotson
+                    knew no more about true Christianity than Mahomet’). When ‘Methodism’ was
+                    attacked (as by Bishop Gibson), it was Whitefield who was more often in view
+                    than the brothers Wesley—somewhat to their exasperation.</p>
+                <p>Although his first protests against Whitefield’s ‘overemphasis’ had been private,
+                    Wesley felt divinely led (in 1740) to preach <hi rend="italic">and publish</hi>
+                    a harsh attack upon the doctrine and all its partisans, in a sermon called <hi
+                        rend="italic">Free Grace</hi> (see No. 110). This caused an irreparable
+                    breach between what became ‘two sorts of Methodists’. Wesley and Whitefield both
+                    sought reconciliation, short of compromise—and Whitefield never lost his
+                    personal admiration for Wesley and for his mission. But Seymour’s insight on
+                    this point is shrewd: ‘Mr. Wesley and Mr. Whitefield interchanged letters not
+                    very frequently, and they preached occasionally in each other’s pulpits; but
+                    there was no cordial intercourse—no hearty cooperation. Such a wound as had been
+                    made in their friendship always leaves a scar…. Nevertheless, they did justice
+                    to each other’s intentions and virtues…’ (Seymour, <hi rend="italic">Countess of
+                        Huntingdon</hi>, I.474).</p>
+                <p>Wesley reports two important approaches to reconciliation in 1766—in January (see
+                    JWJ for the 31st) and August (17 and 24), on <pb n="02:328"/>the eve of
+                    Whitefield’s departure for America, from which he never returned. The latter is
+                    especially illuminating:</p>
+                <quote>It was at the earnest request of the Countess of Huntingdon, whose heart God
+                    has turned again, that I came hither [to meet Whitefield in London]; and if no
+                    other good result from it but our firm union with Mr. Whitefield, it is abundant
+                    recompense for my labour. My brother and I conferred with him every day, and we
+                    resolved…by the grace of God, to go on hand in hand through honour and
+                    dishonour.</quote>
+                <p>They would not meet again on earth.</p>
+                <p>But tensions between Wesley and the Calvinists continued:</p>
+                <quote>Many were not a little surprised in the evening [of Aug. 25] at seeing me in
+                    the Countess of Huntingdon’s chapel. The congregation was not only large but
+                    serious, and I fully delivered my own soul. So I am in no concern whether I
+                    preach there again or no.</quote>
+                <p>He never did.</p>
+                <p>Whitefield’s seventh mission to America ended in Newburyport, Massachusetts, on
+                    September 30, 1770. His untimely death and the extraordinary outpouring of grief
+                    and honour that followed are lovingly recounted in John Gillies, <hi
+                        rend="italic">Memoirs of the Life of the Rev. G. Whitefield, M.A.</hi>, in
+                    his collected edition of Whitefield’s <hi rend="italic">Works</hi> (1771-72),
+                    VII.269-346.</p>
+                <quote>The melancholy news of Mr. Whitefield’s death reached London on Monday, Nov.
+                    5, 1770, by the <hi rend="italic">Boston Gazette</hi> and by three letters from
+                    different persons at Boston, to his friend Mr. Keen, who also by the same post
+                    received two of [Whitefield’s] own handwriting, written in health (one seven and
+                    the other five days before his death). Mr. Keen had the melancholy event
+                    notified the same night at the Tabernacle [Moorfields] and the next night at
+                    Tottenham Court Chapel. His next step was to consider of the proper person to
+                    preach the funeral sermon; and recollecting he had often said to Mr. Whitefield,
+                    ‘If you should die abroad, whom shall we get to preach your funeral sermon? Must
+                    it be your old friend, the Rev. Mr. John Wesley?’ And having received constantly
+                    for answer, ‘He is the man’, Mr. Keen accordingly waited on the Rev. Mr. Wesley
+                    on the Saturday following [Nov. 10] and engaged him to preach it on the Lord’s
+                    day, Nov. 18, which he did to a very large, crowded, and mournful auditory, many
+                    hundreds going away who could not possibly get in (p. 276).</quote>
+                <p>Wesley’s record of this is in the <hi rend="italic">Journal</hi> for November
+                    10:</p>
+                <quote>I returned to London and had the melancholy news of Mr. Whitefield’s death
+                    confirmed by his executors, who desired me to preach his funeral sermon on
+                    Sunday the 18th. In order to write this, I retired to Lewisham on Monday, and on
+                    Sunday following went to the chapel in Tottenham Court Road…. It was an awful
+                    season. All were still as night; most appeared to be deeply affected; and an
+                    impression was made on many which one would hope will not speedily be
+                    effaced.</quote>
+                <quote>The time appointed for my beginning at the Tabernacle [in Upper Moorfields,
+                    three hundred yards from the Foundery] was half-hour after five, but it was
+                    quite filled at three, so I began at four…. Oh that all may hear the voice of
+                    him with whom are the <pb n="02:329"/>issues of life and death; and who so
+                    loudly, by this unexpected stroke, calls all his children to love one another.
+                    (See also <hi rend="italic">Journal</hi> entries for November 23.)</quote>
+                <p>The untypically fulsome title-page of this sermon suggests Wesley’s sense that it
+                    was, in some sense or other, the official memorial. There were, however, dozens
+                    of others both in America and England by closer friends and colleagues than
+                    Wesley; see Gillies’s <hi rend="italic">Extracts</hi> from ‘Some of the Funeral
+                    Sermons Preached on the Occasion of [Whitefield’s] Death’, <hi rend="italic"
+                        >Memoirs</hi> in <hi rend="italic">Works</hi>, VII.292-346. What is obvious
+                    is that Wesley was ‘thoroughly sensible how difficult it [was for him] to speak
+                    on so delicate a subject [under those circumstances]; what prudence is
+                    required…to say neither too little nor too much’ (II.3). The bulk of the sermon
+                    is a summary of Whitefield’s early career drawn chiefly from his <hi
+                        rend="italic">Journals</hi>, to which are added excerpts from <hi
+                        rend="italic">The Boston Gazette</hi> and <hi rend="italic">The London
+                        Evening Post</hi>. The conclusion is a moving tribute to one whose talents
+                    for dramatic oratory were clearly greater than his own. The only inlet for
+                    controversy would come in Wesley’s claim that the essence of Whitefield’s gospel
+                    could be ‘summed up in two words, “the new birth” and “justification by faith”’.
+                    His offer to edit and publish Whitefield’s writings (see below, I.17) was quite
+                    sincere but quietly ignored. That assignment went to Dr. John Gillies.</p>
+                <p>One of Whitefield’s most ardent admirers, William Romaine, had already been
+                    outraged by the anti-Calvinist ‘Minute’ and was further offended by what he
+                    regarded as Wesley’s presumption. In the ensuing issue of <hi rend="italic">The
+                        Gospel Magazine</hi> (January 1771) he attacked both the sermon and the
+                    preacher. His objection to the sermon was its <hi rend="italic">text</hi>: ‘How
+                    improper to apply the words of a mad prophet [Balaam] to so holy a man as Mr.
+                    Whitefield!’ But his main complaint was Wesley’s falsification, as he saw it, of
+                    Whitefield’s essential teaching. ‘On the contrary, the grand fundamental
+                    doctrines which [Whitefield] everywhere preached were the everlasting covenant
+                    between the Father and the Son and absolute predestination flowing therefrom.’
+                    Wesley’s cool reply to this may be seen in his open letter to <hi rend="italic"
+                        >Lloyd’s Evening Post</hi>, March 1, 1771.</p>
+                <p>This, and much more, lay behind what must have been, for Wesley, one of his most
+                    difficult ‘occasions’. It was a labour of love, an exercise in honest candour,
+                    an unaccustomed venture in diplomacy. The sermon went through five editions in
+                    two years and was not thereafter reprinted in Wesley’s lifetime; he omitted it
+                    from <hi rend="italic">SOSO</hi>, I-VIII (1787-88). For this publishing history
+                    and a list of variant readings, see Appendix, Vol. 4; see also <hi rend="italic"
+                        >Bibliog</hi>, No. 324.</p>
+            </introduction>
+            <pb n="02:330"/>
+            <head>On the Death of George Whitefield</head>
+            <epigraph>
+                <p>Numbers 23:10</p>
+                <p><hi rend="italic">Let me die the death of the righteous, and let my last end be
+                        like his!</hi></p>
+            </epigraph>
+            <div>
+                <p>1. ‘Let my last end be like his!’ How many of you join in this wish? Perhaps
+                    there are few of you who do not, even in this numerous congregation. And Oh!
+                    that this wish may rest upon your minds! That it may not die away till your
+                    souls also are lodged ‘where the wicked cease from troubling, and where the
+                    weary are at rest’!<note place="foot" xml:id="ftn1" n="1"><p
+                            rend="footnote text">Cf. Job 3:17; the text and an echo of Wesley’s
+                            early sermon, No. 109, <hi rend="italic">The Trouble and Rest of Good
+                                Men</hi>.</p></note></p>
+                <p>2. An elaborate exposition of the text will not be expected on this occasion. It
+                    would detain you too long from the sadly-pleasing thought of your beloved
+                    brother, friend, and pastor; yea, and father too; for how many are here whom he
+                    hath ‘begotten in the Lord’!<note place="foot" xml:id="ftn2" n="2"><p
+                            rend="footnote text">Cf. 1 Cor. 4:15.</p></note> Will it not then be
+                    more suitable to your inclinations, as well as to this solemnity, directly to
+                    speak of this man of God whom you have so often heard speaking in this
+                    place?—‘the end of whose conversation’ ye know, ‘Jesus Christ, the same
+                    yesterday, today, and for ever’.<note place="foot" xml:id="ftn3" n="3"><p
+                            rend="footnote text">Heb. 13:7-8.</p></note></p>
+                <p>And may we not,</p>
+                <p>First, observe a few particulars of his life and death;</p>
+                <p>Secondly, take some view of his character; and,</p>
+                <p>Thirdly, inquire how we may improve this awful providence, his sudden removal
+                    from us.</p>
+            </div>
+            <div>
+                <p>I. 1. We may, in the first place, observe a few particulars of his life and
+                    death. He was born at Gloucester in December 1714,<note place="foot"
+                        xml:id="ftn4" n="4"><p rend="footnote text">Dec. 16.</p></note> and put to a
+                    grammar-school there when about twelve years old.<note place="foot"
+                        xml:id="ftn5" n="5"><p rend="footnote text">St. Mary de Crypt.<hi
+                                rend="bold color(FF0000)">t</hi></p></note> When he was seventeen he
+                    began to be seriously religious, and served God to the best of his knowledge.
+                    About eighteen he <pb n="02:331"/>removed to the university, and was admitted at
+                    Pembroke College in Oxford. And about a year after he became acquainted with the
+                    Methodists (so called), whom from that time he loved as his own soul.</p>
+                <p>2. By them he was convinced that we ‘must be born again’,<note place="foot"
+                        xml:id="ftn6" n="6"><p rend="footnote text">John 3:7.</p></note> or outward
+                    religion will profit us nothing. He joined with them in fasting on Wednesdays
+                    and Fridays, in visiting the sick and the prisoners, and in gathering up the
+                    very fragments of time, that no moment might be lost; and he changed the course
+                    of his studies, reading chiefly such books as entered into the heart of
+                    religion, and led directly to an experimental knowledge of Jesus Christ and him
+                        crucified.<note place="foot" xml:id="ftn7" n="7"><p rend="footnote text">See
+                            1 Cor. 2:2.</p></note></p>
+                <p>3. He was soon tried as with fire. Not only his reputation was lost, and some of
+                    his dearest friends forsook him, but he was exercised with inward trials, and
+                    those of the severest kind. Many nights he lay sleepless upon his bed, many days
+                    prostrate on the ground. But after he had groaned several months under ‘the
+                    spirit of bondage’, God was pleased to remove the heavy load by giving him ‘the
+                    spirit of adoption’,<note place="foot" xml:id="ftn8" n="8"><p
+                            rend="footnote text">Rom. 8:15.</p></note> enabling him, through a
+                    living faith, to lay hold on ‘the Son of his love’.<note place="foot"
+                        xml:id="ftn9" n="9"><p rend="footnote text">A paraphrase of ὁ υἱός μου ὁ
+                            ἀγαπητός (as in Matt. 3:17; 17:5; and 2 Pet. 1:17: ‘my beloved
+                            son’).</p></note></p>
+                <p>4. However, it was thought needful for the recovery of his health, which was much
+                    impaired, that he should go into the country. He accordingly went to Gloucester,
+                    where God enabled him to awaken several young persons. These soon formed
+                    themselves into a little society, and were some of the first-fruits of his
+                    labour. Shortly after he began to read twice or thrice a week to some poor
+                    people in the town, and every day to read to and pray with the prisoners in the
+                    county gaol.</p>
+                <p>5. Being now about twenty-one years of age, he was solicited to enter into holy
+                    orders. Of this he was greatly afraid, being deeply sensible of his own
+                    insufficiency. But the bishop himself sending for him, and telling him, ‘Though
+                    I had purposed to ordain none under three and twenty, yet I will ordain <hi
+                        rend="italic">you</hi> whenever you come;’ and several other providential
+                    circumstances concurring, he submitted, and was ordained on Trinity Sunday,
+                        1736.<note place="foot" xml:id="ftn10" n="10"><p rend="footnote text">June
+                            20th.</p></note> The next Sunday he preached to a crowded auditory in
+                    the church wherein <pb n="02:332"/>he was baptized. The week following he
+                    returned to Oxford and took his bachelor’s degree. And he was now fully
+                    employed; the care of the prisoners and the poor lying chiefly on him.</p>
+                <p>6. But it was not long before he was invited to London to serve the cure of a
+                    friend going into the country.<note place="foot" xml:id="ftn11" n="11"><p
+                            rend="footnote text">Thomas Broughton (1712-77), curate of the Tower of
+                            London. He had been active in the Holy Club.</p></note> He continued
+                    there two months, lodging in the Tower, reading prayers in the chapel twice a
+                    week, catechizing and preaching once, besides daily visiting the soldiers in the
+                    barracks and the infirmary. He also read prayers every evening at Wapping Chapel
+                    and preached at Ludgate prison every Tuesday. While he was here letters came
+                    from his friends in Georgia which made him long to go and help them. But not
+                    seeing his call clear, at the appointed time he returned to his little charge at
+                    Oxford; where several youths met daily at his room to ‘build up each other in
+                    their most holy faith’.<note place="foot" xml:id="ftn12" n="12"><p
+                            rend="footnote text">Cf. Jude 20.</p></note></p>
+                <p>7. But he was quickly called from hence again to supply the cure of Dummer in
+                        Hampshire.<note place="foot" xml:id="ftn13" n="13"><p rend="footnote text"
+                            >As curate to Charles Kinchin (1711-42), another Oxford
+                        Methodist.</p></note> Here he read prayers twice a day, early in the morning
+                    and in the evening after the people came from work. He also daily catechized the
+                    children, and visited from house to house. He now divided the day into three
+                    parts, allotting eight hours for sleep and meals, eight for study and
+                    retirement, and eight for reading prayers, catechizing, and visiting the people.
+                    Is there a more excellent way for a servant of Christ and his church? If not,
+                    who will ‘go and do likewise’?<note place="foot" xml:id="ftn14" n="14"><p
+                            rend="footnote text">Cf. Luke 10:37.</p></note></p>
+                <p>8. Yet his mind still ran on going abroad. And being now fully convinced he was
+                    called of God thereto, he set all things in order, and in January 1737 went down
+                    to take leave of his friends in Gloucester. It was in this journey that God
+                    began to bless his ministry in an uncommon manner. Wherever he preached, amazing
+                    multitudes of hearers flocked together, in Gloucester, in Stonehouse,<note
+                        place="foot" xml:id="ftn15" n="15"><p rend="footnote text">Revd. Sampson
+                            Harris was the incumbent of St. Cyril’s parish church in Stonehouse,
+                            Gloucestershire. Whitefield preached in his pulpit and then in the
+                            churchyard to overflowing crowds.</p></note> in Bath, in Bristol; so
+                    that the heat of the churches was scarce supportable. And the impressions made
+                    on the minds of many were no less extraordinary. After his return to London,
+                    while he was detained by General Oglethorpe<note place="foot" xml:id="ftn16"
+                        n="16"><p rend="footnote text">A retrospective reference to James Edward
+                            Oglethorpe (1696-1785), one of the chief promoters and defenders of the
+                            Georgia colony; Oglethorpe’s promotion to brigadier-general did not come
+                            until 1743.</p></note> from week to <hi n="02:333"/> week and from month
+                    to month, it pleased God to bless his word still more. And he was indefatigable
+                    in his labour: generally on Sunday he preached four times, to exceeding large
+                    auditories; besides reading prayers twice or thrice, and walking to and fro,
+                        often<note place="foot" xml:id="ftn17" n="17"><p rend="footnote text"
+                            >‘Often’ is inserted only in <hi rend="italic">Works</hi>,
+                        1771.</p></note> ten or twelve miles.</p>
+                <p>9. On December 28 [1737] he left London. It was on the 29th that he first
+                    preached without notes. December 30 he went on board;<note place="foot"
+                        xml:id="ftn18" n="18"><p rend="footnote text">The <hi rend="italic"
+                                >Whitaker</hi>, from Purfleet.</p></note> but it was above a month
+                    before they cleared the land. One happy effect of their very slow passage he
+                    mentions in April following: ‘Blessed be God, we now live very comfortably in
+                    the great cabin. We talk of little else but God and Christ. […] And scarce a
+                    word is heard among us when together but what has reference to our fall in the
+                    first, and our new birth in the Second Adam.’<note place="foot" xml:id="ftn19"
+                        n="19"><p rend="footnote text">Cf. <hi rend="italic">George Whitefield’s
+                                Journals</hi>, ed., Iain Murray (London, Banner of Truth Trust,
+                            1960), p. 149.</p></note> It seems likewise to have been a peculiar
+                    providence that he should spend a little time at Gibraltar, where both citizens
+                    and soldiers, high and low, young and old, acknowledged the day of their
+                    visitation.</p>
+                <p>10. From Sunday, May 7, 1738, till the latter end of August following, he ‘made
+                    full proof of his ministry’<note place="foot" xml:id="ftn20" n="20"><p
+                            rend="footnote text">Cf. 2 Tim. 4:5.</p></note> in Georgia, particularly
+                    at Savannah. He read prayers and expounded twice a day, and visited the sick
+                    daily. On Sunday he expounded at five in the morning; at ten read prayers and
+                    preached, and at three in the afternoon; and at seven in the evening expounded
+                    the Church catechism. How much easier is it for our brethren in the ministry,
+                    either in England, Scotland, or Ireland, to find fault with such a labourer in
+                    our Lord’s vineyard than to tread in his steps!</p>
+                <p>11. It was now that he observed the deplorable condition of many children here;
+                    and that God put into his heart the first thought of founding an orphan-house,
+                    for which he determined to raise contributions in England, if God should give
+                    him a safe return thither. In December following he did return to London, and on
+                    Sunday, January the 14th, 1739, he was ordained priest at Christ Church, Oxford.
+                    The next day he came to London again; and on Sunday 21st preached twice. But
+                    though the churches were large, and crowded exceedingly, yet many hundred stood
+                    in <hi n="02:334"/> the churchyard, and hundreds more returned home. This put
+                    him upon the first thought of preaching in the open air. But when he mentioned
+                    it to some of his friends, they judged it to be mere madness. So he did not
+                    carry it into execution till after he had left London. It was on Wednesday,
+                    February 21, that finding all the church doors to be shut in Bristol (beside
+                    that no church was able to contain one half of the congregation) at three in the
+                    afternoon he went to Kingswood and preached abroad, to near two thousand people.
+                    On Friday he preached there to four or five thousand; and on Sunday to (it was
+                    supposed) ten thousand. The number continually increased all the time he stayed
+                    at Bristol. And a flame of holy love was kindled, which will not easily be put
+                    out. The same was afterwards kindled in various parts of Wales, of
+                    Gloucestershire, and Worcestershire. Indeed wherever he went God abundantly
+                    confirmed the word of his messenger.</p>
+                <p>12. On Sunday, April 29, he preached the first time in Moorfields, and on
+                    Kennington Common.<note place="foot" xml:id="ftn21" n="21"><p
+                            rend="footnote text">A then open tract of public ground on ‘the Surrey
+                            side of the Thames’ across from Pimlico and just beyond the celebrated
+                            Vauxhall ‘pleasure gardens’. Cf. Earl of Egmont, <hi rend="italic">Diary
+                                of Viscount Percival, Afterwards First Earl of Egmont</hi> (London,
+                            Historical Manuscripts Commission, 1920-23), III.64, 67-69, for an
+                            eyewitness account of Whitefield’s open air preaching on Woolwich Common
+                            (June 5, 1739) and on Charlton Green (June 8).</p></note> And the
+                    thousands of hearers were as quiet as they could have been in a church. Being
+                    again detained in England from month to month, he made little excursions into
+                    several counties, and received the contributions of willing multitudes for an
+                    orphan-house in Georgia. The embargo which was now laid on the shipping<note
+                        place="foot" xml:id="ftn22" n="22"><p rend="footnote text">Because of the
+                            tense situation in the West Indies, which led to open war (Oct. 19,
+                            1739); it was ‘the prelude to a struggle for dominion, lasting nearly a
+                            quarter of a century, between England and the Bourbon powers’; cf. Basil
+                            Williams, <hi rend="italic">The Whig Supremacy</hi>, p. 203; see also,
+                            pp. 197-200, 220-21.</p></note> gave him leisure for more journeys
+                    through various parts of England, for which many will have reason to bless God
+                    to all eternity. At length, on August 14, he embarked. But he did not land in
+                    Pennsylvania till October 30. Afterwards he went through Pennsylvania, the
+                    Jerseys, New York, Maryland, Virginia, North and South Carolina, preaching all
+                    along to immense congregations, with full as great effect as in England. On
+                    January 10, 1740, he arrived at Savannah.</p>
+                <p>13. January 29 he added three desolate orphans to near twenty which he had in his
+                    house before. The next day he laid out the ground for the house, about ten miles
+                    from Savannah. February <pb n="02:335"/>11 he took in four orphans more, and set
+                    out for Frederica<note place="foot" xml:id="ftn23" n="23"><p
+                            rend="footnote text">On St. Simon’s Island, where Charles Wesley had
+                            served briefly as minister. Cf. CWJ, Mar. 9-May 13, 1736.</p></note> in
+                    order to fetch the orphans that were in the southern parts of the colony. In his
+                    return he fixed a school, both for children and grown persons, at Darien,<note
+                        place="foot" xml:id="ftn24" n="24"><p rend="footnote text">A settlement of
+                            Scottish Highlanders at the mouth of the Altamaha River, seventy-three
+                            miles southwest of Savannah. Cf. JWJ, Dec. 2, 1737.</p></note> and took
+                    four orphans thence. March 25 he laid the first stone of the orphan-house, to
+                    which, with great propriety, he gave the name of ‘Bethesda’<note place="foot"
+                        xml:id="ftn25" n="25"><p rend="footnote text">See John 5:2.</p></note>—a
+                    work for which the children yet unborn shall praise the Lord. He had now about
+                    forty orphans, so that there were near an hundred mouths to be fed daily. But he
+                    was ‘careful for nothing’,<note place="foot" xml:id="ftn26" n="26"><p
+                            rend="footnote text">Phil. 4:6.</p></note> casting his care on him who
+                    ‘feedeth the young ravens that call upon him’.<note place="foot" xml:id="ftn27"
+                        n="27"><p rend="footnote text">Ps. 147:9 (BCP).</p></note></p>
+                <p>14. In April he made another tour through Pennsylvania, the Jerseys, and New
+                    York. Incredible multitudes flocked to hear, among whom were abundance of
+                    Negroes. In all places the greater part of the hearers were affected to an
+                    amazing degree. Many were deeply convinced of their lost state; many truly
+                    converted to God. In some places thousands cried out aloud; many as in the
+                    agonies of death; most were drowned in tears; some turned pale as death; others
+                    were wringing their hands; others lying on the ground; others sinking into the
+                    arms of their friends; almost all lifting up their eyes, and calling for
+                    mercy.</p>
+                <p>15. He returned to Savannah June 5. The next evening during the public service
+                    the whole congregation, young and old, were dissolved in tears. After service
+                    several of the parishioners, and all his family, particularly the little
+                    children, returned home crying along the street, and some could not help praying
+                    aloud. The groans and cries of the children continued all night, and great part
+                    of the next day.</p>
+                <p>16. In August he set out again, and through various provinces came to Boston.
+                    While he was here and in the neighbouring places he was extremely weak in body.
+                    Yet the multitudes of hearers were so great, and the effects wrought on them so
+                    astonishing, as the oldest men then alive in the town had never seen before. The
+                    same power attended his preaching at New York; particularly on Sunday, November
+                    2, almost as soon as he began, crying, weeping, and wailing were to be heard on
+                    every <hi n="02:336"/> side. Many sunk down to the ground, cut to the heart; and
+                    many were filled with divine consolation. Toward the close of his journey he
+                    made this reflection: ‘It is the seventy-fifth day since I arrived at Rhode
+                    Island, exceeding weak in body. Yet God has enabled me to preach an hundred and
+                    seventy-five times in public, beside exhorting frequently in private. Never did
+                    God vouchsafe me greater comforts. Never did I perform my journeys with less
+                    fatigue, or see such a continuance of the divine presence in the congregations
+                    to whom I preached.’<note place="foot" xml:id="ftn28" n="28"><p
+                            rend="footnote text">Cf. Whitefield, <hi rend="italic">Journals</hi>, p.
+                            499 (Dec. 1, 1740).</p></note> In December he returned to Savannah, and
+                    in the March following arrived in England.</p>
+                <p>17. You may easily observe that the preceding account is chiefly extracted from
+                    his own <hi rend="italic">Journals</hi>, which, for their artless and unaffected
+                    simplicity, may vie with any writings of the kind. And how exact a specimen is
+                    this of his labours both in Europe and America for the honour of his beloved
+                    Master during the thirty years that followed! As well as of the uninterrupted
+                    shower of blessings wherewith God was pleased to succeed his labours! Is it not
+                    much to be lamented that anything should have prevented his continuing this
+                    account till at least near the time when he was called by his Lord to enjoy the
+                    fruit of his labours? If he has left any papers of this kind, and his friends
+                    account me worthy of the honour, it would be my glory and joy to methodize,
+                    transcribe, and prepare them for the public view.</p>
+                <p>18. A particular account of the last scene of his life is thus given by a
+                    gentleman of Boston:</p>
+                <quote>After being about a month with us in Boston and its vicinity, and preaching
+                    every day, he went to Old York,<note place="foot" xml:id="ftn29" n="29"><p
+                            rend="footnote text">Then in ‘New Hampshire’; now York Village,
+                            Maine.</p></note> preached on Thursday, September 27, there; proceeded
+                    to Portsmouth and preached there on Friday. On Saturday morning he set out for
+                    Boston; but before he came to Newbury,<note place="foot" xml:id="ftn30" n="30"
+                            ><p rend="footnote text">Newburyport, Mass.</p></note> where he had
+                    engaged to preach the next morning, he was importuned to preach by the way. The
+                    house not being large enough to contain the people, he preached in an open
+                    field. But having been infirm for several weeks, this so exhausted his strength
+                    that when he came to Newbury he could not get out of the ferry-boat without the
+                    help of two men. In the evening, however, he recovered his spirits and appeared
+                    with his usual cheerfulness. He went to his chamber at nine, his fixed time,
+                    which no company could divert him from; and slept better than he had done for
+                    some weeks before. He rose at four in the morning, September 30, and went into
+                    his closet; and his companion observed he was unusually long in private. He left
+                    his <pb n="02:337"/>closet, returned to his companion, threw himself on the bed,
+                    and lay about ten minutes. Then he fell upon his knees, and prayed most
+                    fervently to God that if it was consistent with his will he might that day
+                    finish his Master’s work. He then desired his man to call Mr. Parsons,<note
+                        place="foot" xml:id="ftn31" n="31"><p rend="footnote text">Jonathan Parsons
+                            (1705-76), minister of the Old South Church of Newburyport.</p></note>
+                    the clergyman at whose house he was; but in a minute, before Mr. Parsons could
+                    reach him, died without a sigh or groan. On the news of his death, six gentlemen
+                    set out for Newbury in order to bring his remains hither, but he could not be
+                    moved, so that his precious ashes must remain at Newbury. Hundreds would have
+                    gone from this town to attend his funeral had they not expected he would have
+                    been interred here…. May this stroke be sanctified to the church of God in
+                    general, and to this province in particular!<note place="foot" xml:id="ftn32"
+                        n="32"><p rend="footnote text">Presumably from one of those ‘three letters
+                            from different persons at Boston’ which Robert Keen would have brought
+                            to Wesley, along with his copy of the <hi rend="italic">Boston
+                                Gazette</hi>—see above, p. 328.</p></note></quote>
+            </div>
+            <div><p>II. 1. We are, in the second place, to take some view of his character. A little
+                    sketch of this was soon after published in the <hi rend="italic">Boston
+                        Gazette</hi>, an extract of which is subjoined:</p>
+                <quote>Little can be said of him but what every friend to vital Christianity who has
+                    sat under his ministry will attest. In his public labours he has for many years
+                    astonished the world with his eloquence and devotion. With what divine pathos
+                    did he persuade the impenitent sinner to embrace the practice of piety and
+                    virtue! Filled with the spirit of grace, he spoke from the heart, and with a
+                    fervency of zeal perhaps unequalled since the days of the apostles, adorned the
+                    truths he delivered with the most graceful charms of rhetoric and oratory. From
+                    the pulpit he was unrivalled in the command of an ever-crowded auditory. Nor was
+                    he less agreeable and instructive in his private conversation: happy in a
+                    remarkable ease of address, willing to communicate, studious to edify. May the
+                    rising generation catch a spark of that flame which shone with such
+                    distinguished lustre in the spirit and practice of this faithful servant of the
+                    most high God!<note place="foot" xml:id="ftn33" n="33"><p rend="footnote text"
+                            >Abridged from an editorial in <hi rend="italic">The Massachusetts
+                                Gazette, and Boston Post-Boy and The Advertizer</hi>, No. 684 (Mon.
+                            Oct. 1, 1770), p. 3. The news itself had been reported in the same paper
+                            the day before.</p></note></quote>
+                <p>2. A more particular, and equally just character of him, has appeared in one of
+                    the English papers. It may not be disagreeable to you to add the substance of
+                    this likewise:</p>
+                <quote>The character of this truly pious person must be deeply impressed on the
+                    heart of every friend to vital religion. In spite of a tender and delicate
+                    constitution he continued to the last day of his life preaching with a frequency
+                    and a fervour that seemed to exceed the natural strength of the most robust.
+                    Being called to the exercise of his function at an early age, when most young
+                    men are only beginning to qualify themselves for it, he had not time to make a
+                    very considerable progress in the learned languages. But this defect was amply
+                        <pb n="02:338"/>supplied by a lively and fertile genius, by fervent zeal,
+                    and by a forcible and most persuasive delivery. And though in the pulpit he
+                    often found it needful by ‘the terrors of the Lord to persuade men’,<note
+                        place="foot" xml:id="ftn34" n="34"><p rend="footnote text">Cf. 2 Cor.
+                            5:11.</p></note> he had nothing gloomy in his nature, being singularly
+                    cheerful, as well as charitable and tender-hearted. He was as ready to relieve
+                    the bodily as the spiritual necessities of those that applied to him. It ought
+                    also to be observed that he constantly enforced upon his audience every moral
+                    duty, particularly industry in their several callings, and obedience to their
+                    superiors. He endeavoured by the most extraordinary efforts of preaching in
+                    different places, and even in the open fields, to rouse the lower class of
+                    people from the last degree of inattention and ignorance to a sense of religion.
+                    For this and his other labours the name of George Whitefield will long be
+                    remembered with esteem and veneration.<note place="foot" xml:id="ftn35" n="35"
+                            ><p rend="footnote text">An abridgement from <hi rend="italic">The
+                                London Evening Post</hi> for Nov. 10, 1770 (No. 1607), p. 4. Sugden
+                            cites it as from <hi rend="italic">The London Chronicle</hi> for Nov. 6,
+                            but that paper carried only an announcement of Whitefield’s death
+                            without the eulogy quoted here. The <hi rend="italic">Post</hi>’s
+                            encomium was then reprinted in <hi rend="italic">The Scots Magazine</hi>
+                            (Dec. 1770, XXXII.574-75), as from a ‘Lond[on]
+                    pap[er]’.</p></note></quote>
+                <p>3. That both these accounts are just and impartial will readily be allowed; that
+                    is, as far as they go. But they go little farther than the <hi rend="italic"
+                        >outside</hi> of his character. They show you the <hi rend="italic"
+                        >preacher</hi>, but not the <hi rend="italic">man</hi>, the <hi
+                        rend="italic">Christian</hi>, the <hi rend="italic">saint</hi> of God. May I
+                    be permitted to add a little on this head from a personal knowledge of near
+                    forty years? Indeed, I am thoroughly sensible how difficult it is to speak on so
+                    delicate a subject, what prudence is required to avoid both extremes, to say
+                    neither too little nor too much. Nay, I know it is impossible to speak at all,
+                    to say either less or more, without incurring from some the former, from others
+                    the latter censure. Some will seriously think that too little is said, and
+                    others that it is too much. But without attending to this I will speak just what
+                    I know, before him to whom we are all to give an account.</p>
+                <p>4. Mention has already been made of his unparalleled <hi rend="italic">zeal</hi>,
+                    his indefatigable <hi rend="italic">activity</hi>, his <hi rend="italic"
+                        >tender-heartedness</hi> to the afflicted, and <hi rend="italic"
+                        >charitableness</hi> toward the poor. But should we not likewise mention his
+                    deep <hi rend="italic">gratitude</hi> to all whom God had used as instruments of
+                    good to him? Of whom he did not cease to speak in the most respectful manner,
+                    even to his dying day? Should we not mention that he had a heart susceptible of
+                    the most generous and the most tender <hi rend="italic">friendship</hi>? I have
+                    frequently thought that this, of all others, was the distinguishing part of his
+                    character. How few have we known of so kind a temper, of such large and flowing
+                    affections! Was it not principally by this that the hearts of others were so
+                    strangely drawn and knit to him? Can anything but love <pb n="02:339"/>beget
+                    love? This shone in his very countenance, and continually breathed in all his
+                    words, whether in public or private. Was it not this, which, quick and
+                    penetrating as lightning, flew from heart to heart? Which gave that life to his
+                    sermons, his conversations, his letters? Ye are witnesses.</p>
+                <p>5. But away with the vile misconstruction of men of corrupt minds, who know of no
+                    love but what is ‘earthly and sensual’.<note place="foot" xml:id="ftn36" n="36"
+                            ><p rend="footnote text">Cf. Jas. 3:15.</p></note> Be it remembered at
+                    the same time that he was endued with the most nice and unblemished <hi
+                        rend="italic">modesty</hi>. His office called him to converse very
+                    frequently and largely with women as well as men; and those of every age and
+                    condition. But his whole behaviour toward them was a practical comment on that
+                    advice of St. Paul to Timothy, ‘Entreat the elder women as mothers, the younger
+                    as sisters, with all purity.’<note place="foot" xml:id="ftn37" n="37"><p
+                            rend="footnote text">1 Tim. 5:1-2.</p></note></p>
+                <p>6. Meantime, how suitable to the friendliness of his spirit was the <hi
+                        rend="italic">frankness</hi> and <hi rend="italic">openness</hi> of his
+                    conversation! Although it was as far removed from rudeness on the one hand as
+                    from guile and disguise on the other. Was not this frankness at once a fruit and
+                    a proof of his <hi rend="italic">courage</hi> and <hi rend="italic"
+                        >intrepidity</hi>? Armed with these, he feared not the faces of men, but
+                    ‘used great plainness of speech’<note place="foot" xml:id="ftn38" n="38"><p
+                            rend="footnote text">Cf. 2 Cor. 3:12.</p></note> to persons of every
+                    rank and condition, high and low, rich and poor; endeavouring only ‘by
+                    manifestation of the truth’ to ‘commend himself to every man’s conscience in the
+                    sight of God’.<note place="foot" xml:id="ftn39" n="39"><p rend="footnote text"
+                            >Cf. 2 Cor. 4:2.</p></note></p>
+                <p>7. Neither was he afraid of labour or pain, any more than of ‘what man could do
+                    unto him’,<note place="foot" xml:id="ftn40" n="40"><p rend="footnote text">Cf.
+                            Heb. 13:6.</p></note> being equally</p>
+                <l><hi rend="italic">Patient</hi></l> in bearing ill and doing well.<note
+                    place="foot" xml:id="ftn41" n="41"><p rend="footnote text">Samuel Wesley, Jun.,
+                        ‘The Battle of the Sexes’, st. xxxv, l. 8, in <hi rend="italic">Poems</hi>
+                        (1736), p. 38; cf. John Wesley, <hi rend="italic">A Collection of Moral and
+                            Sacred Poems</hi> (1744), III.33. See also, No. 83, ‘On Patience’, §7;
+                        his letters to Richard Morgan, Dec. 17, 1733, and Penelope Newman, Aug. 12,
+                        1744. Cf. Wesley’s obituary of Robert Swindells, <hi rend="italic"
+                            >Minutes</hi>, July 29, 1783.</p></note>
+                <p>And this appeared in the <hi rend="italic">steadiness</hi> wherewith he pursued
+                    whatever he undertook for his Master’s sake. Witness one instance for all, the
+                    orphan-house in Georgia, which he began and perfected in spite of all
+                    discouragements. Indeed, in whatever concerned himself he was pliant and
+                    flexible. In this case he was ‘easy to be entreated’,<note place="foot"
+                        xml:id="ftn42" n="42"><p rend="footnote text">Jas. 3:17.</p></note> easy to
+                    be either convinced or persuaded. But he was immovable in the things of God, or
+                    wherever his <hi n="02:340"/> conscience was concerned. None could persuade, any
+                    more than affright him, to vary in the least point from that <hi rend="italic"
+                        >integrity</hi> which was inseparable from his whole character, and
+                    regulated ail his words and actions. Herein he did</p>
+                <lg>
+                    <l>Stand as an iron pillar strong,</l>
+                    <l>And steadfast as a wall of brass.</l>
+                    <note place="foot" xml:id="ftn43" n="43"><p rend="footnote text">John and
+                            Charles Wesley, <hi rend="italic">Hymns and Sacred Poems</hi> (1739), p.
+                            203 (<hi rend="italic">Poet. Wks.</hi>, I.180). Cf. Wesley’s letter to
+                            the Countess of Huntingdon, Sept. 16, 1773.</p></note>
+                </lg>
+                <p>8. If it be inquired what was the foundation of this integrity, or of his
+                    sincerity, courage, patience, and every other valuable and amiable quality, it
+                    is easy to give the answer. It was not the excellence of his natural temper; not
+                    the strength of his understanding. It was not the force of education; no, nor
+                    the advice of his friends. It was no other than faith in a bleeding Lord: ‘faith
+                    of the operation of God’.<note place="foot" xml:id="ftn44" n="44"><p
+                            rend="footnote text">Col. 2:12.</p></note> It was ‘a lively hope’ of ‘an
+                    inheritance incorruptible, undefiled, and that fadeth not away’.<note
+                        place="foot" xml:id="ftn45" n="45"><p rend="footnote text">Cf. 1 Pet.
+                            1:3-4.</p></note> It was ‘the love of God shed abroad in his heart by
+                    the Holy Ghost which was given unto him’,<note place="foot" xml:id="ftn46"
+                        n="46"><p rend="footnote text">Cf. Rom. 5:5.</p></note> filling his soul
+                    with tender, disinterested love to every child of man. From this source arose
+                    that torrent of <hi rend="italic">eloquence</hi> which frequently bore down all
+                    before it; from this that astonishing force of <hi rend="italic"
+                    >persuasion</hi>, which the most hardened sinners could not resist. This it was
+                    which often made his ‘head as waters’ and his ‘eyes a fountain of tears’.<note
+                        place="foot" xml:id="ftn47" n="47"><p rend="footnote text">Cf. Jer.
+                        9:1.</p></note> This it was which enabled him to pour out his soul in <hi
+                        rend="italic">prayer</hi> in a manner peculiar to himself, with such
+                    fullness and ease united together, with such strength and variety both of
+                    sentiment and expression.</p>
+                <p>9. I may close this head with observing what an honour it pleased God to put upon
+                    his faithful servant by allowing him to declare his everlasting gospel in so
+                    many various countries, to such numbers of people, and with so great an effect
+                    on so many of their precious souls! Have we read or heard of any person since
+                    the apostles who testified the gospel of the grace of God through so widely
+                    extended a space, through so large a part of the habitable world? Have we read
+                    or heard of any person who called so many thousands, so many myriads of sinners
+                    to repentance? Above all, have we read or heard of any who has been a blessed
+                    instrument in his hand of bringing so many sinners ‘from <pb n="02:341"
+                    />darkness to light, and from the power of Satan unto God’?<note place="foot"
+                        xml:id="ftn48" n="48"><p rend="footnote text">Acts 26:18. On this same day
+                            (Nov. 18) Henry Venn was also preaching a similar sermon in the Countess
+                            of Huntingdon’s Chapel in Bath (on the text, Isa. 8:18) and agreed with
+                            Wesley on this point especially: ‘The greatness and intenseness of his
+                            labours…[and] their compass exceeds anything that others can pretend to’
+                            (see John Gillies, <hi rend="italic">Memoirs</hi>, in Whitefield’s <hi
+                                rend="italic">Works</hi>, VII.332). Tyerman, <hi rend="italic"
+                                >Whitefield</hi>, II.619-28, lists seventeen memorial sermons
+                            preached and seven as published. At least six other published sermons
+                            are in MA. All of them stress the extraordinary impact of Whitefield’s
+                            preaching. Augustus Toplady went so far as to declare Whitefield ‘the
+                            Apostle of the English empire, …the prince of [all English] preachers’
+                            (‘A Concise Character of the Late Rev. Mr. Whitefield’, <hi
+                                rend="italic">Works</hi> [1837], p. 494).</p></note> It is true,
+                    were we to talk thus to the gay world we should be judged to ‘speak as
+                        barbarians’.<note place="foot" xml:id="ftn49" n="49"><p rend="footnote text"
+                            >Cf. 1 Cor. 14:11.</p></note> But <hi rend="italic">you</hi> understand
+                    the language of the country to which you are going, and whither our dear friend
+                    is gone a little before us.</p></div>
+            <div>
+                <p>III. But how shall we improve this awful providence? This is the third thing
+                    which we have to consider. And the answer to this important question is easy
+                    (may God write it in all our hearts!): by keeping close to the <hi rend="italic"
+                        >grand doctrines</hi> which he delivered, and by drinking into his <hi
+                        rend="italic">spirit</hi>.</p>
+                <p>1. And, first, let us keep close to the grand scriptural doctrines which he
+                    everywhere delivered. There are many doctrines of a less essential nature, with
+                    regard to which even the sincere children of God (such is the present weakness
+                    of human understanding!) are and have been divided for many ages. In these we
+                    may think and let think;<note place="foot" xml:id="ftn50" n="50"><p
+                            rend="footnote text">Cf. No. 7, ‘The Way to the Kingdom’, I.6 and
+                        n.</p></note> we may ‘agree to disagree’.<note place="foot" xml:id="ftn51"
+                        n="51"><p rend="footnote text">In his letter to his brother Charles, Aug.
+                            19, 1785, Wesley wrote, ‘We can (as Mr. Whitefield used to say) agree to
+                            disagree.’ See also an earlier letter to Charles on Nov. 3, 1775. Cf.
+                            Ovid, <hi rend="italic">Metamorphoses</hi>, i.433: ‘<hi rend="italic"
+                                >Discors concordia</hi>’ (‘agreeing to differ’). St. Bernard of
+                            Clairvaux had already phrased the same notion in his letter to Cardinal
+                            Hugh of Ostia: ‘It became a matter of discord. But why do I say discord?
+                            It was rather a matter of concord, for all the brethren were found to
+                            agree completely in disagreeing’ (<hi rend="italic">Letters</hi> [1953],
+                            p. 443).</p></note> But meantime let us hold fast the essentials of ‘the
+                    faith which was once delivered to the saints’,<note place="foot" xml:id="ftn52"
+                        n="52"><p rend="footnote text">Jude 3.</p></note> and which this champion of
+                    God so strongly insisted on at all times and in all places.</p>
+                <p>2. His fundamental point was: give God all the glory of whatever is good in man.
+                    And in the business of salvation, set Christ as high and man as low as possible.
+                    With this point he and his friends at Oxford, the original Methodists<note
+                        place="foot" xml:id="ftn53" n="53"><p rend="footnote text">Wesley makes
+                            frequent autobiographical references to the Holy Club or ‘the young
+                            gentlemen at Oxford’. Cf. Nos. 63, ‘The General Spread of the Gospel’,
+                            §13; 79, ‘On Dissipation’, §20; see also 89, ‘The More Excellent Way’,
+                            VI.4; 112, <hi rend="italic">On Laying the Foundation of the New
+                                Chapel</hi>, I.2, II.15.</p></note> (so called), set out. <pb
+                        n="02:342"/>Their grand principle was: there is <hi rend="italic">no
+                        power</hi> (by nature) and <hi rend="italic">no merit</hi> in man. They
+                    insisted, all power to think, speak, or act right is in and from the Spirit of
+                    Christ; and all merit is (not in man, how high soever in grace, but merely) in
+                    the blood of Christ. So he and they taught: there is no power in man, till it is
+                    given him from above, to do one good work, to speak one good word, or to form
+                    one good desire. For it is not enough to say all men are <hi rend="italic">sick
+                        of sin</hi>. No, we are all ‘<hi rend="italic">dead</hi> in trespasses and
+                        sins’.<note place="foot" xml:id="ftn54" n="54"><p rend="footnote text">Eph.
+                            2:1.</p></note> It follows that all the children of men are ‘by nature
+                    children of wrath’.<note place="foot" xml:id="ftn55" n="55"><p
+                            rend="footnote text">Eph. 2:3.</p></note> We are all ‘guilty before
+                        God’,<note place="foot" xml:id="ftn56" n="56"><p rend="footnote text">Rom.
+                            3:19.</p></note> liable to death, temporal and eternal.</p>
+                <p>3. And we are all helpless, both with regard to the power and to the guilt of
+                    sin. For, ‘Who can bring a clean thing out of an unclean?’<note place="foot"
+                        xml:id="ftn57" n="57"><p rend="footnote text">Job 14:4.</p></note> None less
+                    than the Almighty. Who can raise those that are <hi rend="italic">dead</hi>,
+                    spiritually dead in sin? None but he who raised us from the dust of the earth.
+                    But on what consideration will he do this? ‘Not for works of righteousness that
+                    we have done.’<note place="foot" xml:id="ftn58" n="58"><p rend="footnote text"
+                            >Cf. Titus 3:5.</p></note> ‘The dead cannot praise thee, O Lord!’<note
+                        place="foot" xml:id="ftn59" n="59"><p rend="footnote text">Cf. Pss. 88:10;
+                            115:17.</p></note> Nor do anything for the sake of which they should be
+                    raised to life. Whatever therefore God does, he does it merely for the sake of
+                    his well-beloved Son: ‘He was wounded for our transgressions, he was bruised for
+                    our iniquities.’<note place="foot" xml:id="ftn60" n="60"><p rend="footnote text"
+                            >Isa. 53:5.</p></note> ‘He himself bore all our sins in his own body
+                    upon the tree.’<note place="foot" xml:id="ftn61" n="61"><p rend="footnote text"
+                            >1 Pet. 2:24.</p></note> ‘He was delivered for our offences, and rose
+                    again for our justification.’<note place="foot" xml:id="ftn62" n="62"><p
+                            rend="footnote text">Cf. Rom. 4:25.</p></note> Here then is the sole <hi
+                        rend="italic">meritorious cause</hi> of every blessing we do or can enjoy;
+                    in particular of our pardon and acceptance with God, of our full and free
+                        justification.<note place="foot" xml:id="ftn63" n="63"><p
+                            rend="footnote text">But this conflict between ‘meritorious’ and
+                            ‘formal’ causes in justification was one of the controverted issues
+                            between Wesley and the Calvinists (including Whitefield). See
+                            Whitefield’s Sermon XIV, ‘The Lord Our Righteousness’, in <hi
+                                rend="italic">Works</hi>, V.216-34; and Sermon XV, <hi rend="italic"
+                                >ibid.</hi>, pp. 235-50; and cf. Wesley’s No. 20, <hi rend="italic"
+                                >The Lord our Righteousness</hi>.</p></note> But by what means do we
+                    become interested in what Christ has done and suffered? ‘Not by works, lest any
+                    man should boast;’<note place="foot" xml:id="ftn64" n="64"><p
+                            rend="footnote text">Cf. Eph. 2:9.</p></note> but by faith alone. ‘We
+                    conclude’, says the apostle, ‘that a man is justified by faith, without the
+                    works of the law.’<note place="foot" xml:id="ftn65" n="65"><p
+                            rend="footnote text">Cf. Rom. 3:28.</p></note> And ‘to as many as’ thus
+                    ‘receive him giveth he power to become the sons of God: even to those that
+                    believe in his name, who are born, not of the will of man, but of God.’<note
+                        place="foot" xml:id="ftn66" n="66"><p rend="footnote text">Cf. John
+                            1:12-13.</p></note></p>
+                <p><pb n="02:343"/>4. And ‘except a man be thus born again he cannot see the kingdom
+                    of God.’<note place="foot" xml:id="ftn67" n="67"><p rend="footnote text">Cf.
+                            John 3:3.</p></note> But all who are thus ‘born of the Spirit’<note
+                        place="foot" xml:id="ftn68" n="68"><p rend="footnote text">Cf. John
+                        3:5.</p></note> have ‘the kingdom of God within’<note place="foot"
+                        xml:id="ftn69" n="69"><p rend="footnote text">Cf. Luke 17:21.</p></note>
+                    them. Christ sets up his kingdom in their hearts—‘righteousness, peace, and joy
+                    in the Holy Ghost’.<note place="foot" xml:id="ftn70" n="70"><p
+                            rend="footnote text">Rom. 14:17.</p></note> That ‘mind is in them which
+                    was in Christ Jesus’,<note place="foot" xml:id="ftn71" n="71"><p
+                            rend="footnote text">Cf. Phil. 2:5.</p></note> enabling them to ‘walk as
+                    Christ also walked’.<note place="foot" xml:id="ftn72" n="72"><p
+                            rend="footnote text">Cf. 1 John 2:6.</p></note> His indwelling Spirit
+                    makes them both holy in heart and ‘holy in all manner of conversation’.<note
+                        place="foot" xml:id="ftn73" n="73"><p rend="footnote text">1 Pet.
+                        1:15.</p></note> But still, seeing all this is a free gift through the
+                    righteousness and blood of Christ, there is eternally the same reason to
+                    remember, ‘he that glorieth, let him glory in the Lord.’<note place="foot"
+                        xml:id="ftn74" n="74"><p rend="footnote text">1 Cor. 1:31; 2 Cor.
+                        10:17.</p></note></p>
+                <p>5. You are not ignorant that these are the fundamental doctrines which he
+                    everywhere insisted on. And may they not be summed up, as it were, in two
+                        words—<hi rend="italic">the new birth</hi>, and <hi rend="italic"
+                        >justification by faith</hi>? These let us insist upon with all boldness, at
+                    all times, and in all places; in public (those of us who are called thereto)
+                    and, at all opportunities, in private. Keep close to these good, old,
+                    unfashionable doctrines, how many soever contradict and blaspheme. Go on, my
+                    brethren, ‘in the name of the Lord, and in the power of his might’;<note
+                        place="foot" xml:id="ftn75" n="75"><p rend="footnote text">Cf. Eph.
+                            6:10.</p></note> with all care and diligence ‘keep that safe which is
+                    committed to your trust;’<note place="foot" xml:id="ftn76" n="76"><p
+                            rend="footnote text">Cf. 1 Tim. 6:20.</p></note> knowing that ‘heaven
+                    and earth shall pass away; but’ this truth ‘shall not pass away’.<note
+                        place="foot" xml:id="ftn77" n="77"><p rend="footnote text">Cf. Matt. 24:35,
+                            etc.</p></note></p>
+                <p>6. But will it be sufficient to keep close to his <hi rend="italic"
+                        >doctrines</hi>, how pure soever they are? Is there not a point of still
+                    greater importance than this, namely, to drink into his <hi rend="italic"
+                        >spirit</hi>? Herein to ‘be a follower of’ him, ‘even as’ he was ‘of
+                        Christ’?<note place="foot" xml:id="ftn78" n="78"><p rend="footnote text">Cf.
+                            1 Cor. 11:1.</p></note> Without this the purity of our doctrines would
+                    only increase our condemnation. This, therefore, is the principal thing, to copy
+                    after his spirit. And allowing that in some points we must be content to <hi
+                        rend="italic">admire</hi> what we cannot <hi rend="italic">imitate</hi>; yet
+                    in many others we may, through the same free grace, be partakers of the same
+                    blessing. Conscious then of your own wants, and of his bounteous love who
+                    ‘giveth liberally and upbraideth not’,<note place="foot" xml:id="ftn79" n="79"
+                            ><p rend="footnote text">Jas. 1:5.</p></note> cry to him that worketh
+                    all in all for a measure of the same precious faith; of the same zeal and
+                    activity, the same tender-heartedness, charitableness, bowels of mercies.<note
+                        place="foot" xml:id="ftn80" n="80"><p rend="footnote text">See Col.
+                            3:12.</p></note> Wrestle <pb n="02:344"/>with God for some degree of the
+                    same grateful, friendly, affectionate temper; of the same openness, simplicity,
+                    and godly sincerity, ‘love without dissimulation’.<note place="foot"
+                        xml:id="ftn81" n="81"><p rend="footnote text">Rom. 12:9.</p></note> Wrestle
+                    on, till the power from on high works in you the same steady courage and
+                    patience; and above all, because it is the crown of all, the same invariable
+                    integrity.</p>
+                <p>7. Is there any other fruit of the grace of God with which he was eminently
+                    endowed, and the want of which among the children of God he frequently and
+                    passionately lamented? There is one, that is, <hi rend="italic">catholic
+                        love</hi>: that sincere and tender affection which is due to all those who,
+                    we have reason to believe, are children of God by faith; in other words, all
+                    those in every persuasion who ‘fear God and work righteousness’.<note
+                        place="foot" xml:id="ftn82" n="82"><p rend="footnote text">See Ps. 15:2
+                            (AV); Eccles. 12:13.</p></note> He longed to see all who had ‘tasted of
+                    the good word’<note place="foot" xml:id="ftn83" n="83"><p rend="footnote text"
+                            >Cf. Heb. 6:5.</p></note> of a truly <hi rend="italic">catholic
+                        spirit</hi>—a word little understood, and still less experienced, by many
+                    who have it frequently in their mouth. Who is he that answers this character?
+                    Who is a man of a ‘catholic spirit’?<note place="foot" xml:id="ftn84" n="84"><p
+                            rend="footnote text">Cf. No. 39, ‘Catholic Spirit’. Also Richard Baxter,
+                                <hi rend="italic">The True Catholick and Catholick Church
+                                Described</hi>.</p></note> One who loves as friends, as brethren in
+                    the Lord, as joint partakers of the present kingdom of heaven, and fellow-heirs
+                    of his eternal kingdom, all, of whatever opinion, mode of worship, or
+                    congregation, who believe in the Lord Jesus; who love God and man; who,
+                    rejoicing to please and fearing to offend God, are careful to abstain from evil,
+                    and zealous of good works.<note place="foot" xml:id="ftn85" n="85"><p
+                            rend="footnote text">Titus 2:14.</p></note> He is a man of a truly
+                    catholic spirit who bears all these continually upon his heart; who having an
+                    unspeakable tenderness for their persons, and an earnest desire of their
+                    welfare, does not cease to commend them to God in prayer, as well as to plead
+                    their cause before men; who speaks comfortably to them, and labours by all his
+                    words to strengthen their hands in God. He assists them to the uttermost of his
+                    power in all things, spiritual and temporal. He is ready ‘to spend and to be
+                        spent’<note place="foot" xml:id="ftn86" n="86"><p rend="footnote text">2
+                            Cor. 12:15.</p></note> for them; yea, to ‘lay down his life for his
+                        brethren’.<note place="foot" xml:id="ftn87" n="87"><p rend="footnote text"
+                            >Cf. John 15:13; 1 John 3:16.</p></note></p>
+                <p>8. How amiable a character is this! How desirable to every child of God! But why
+                    is it then so rarely found? How is it that there are so few instances of it?
+                    Indeed, supposing we have tasted of the love of God, how can any of us rest till
+                    it is our own! Why, there is <pb n="02:345"/>a delicate device whereby Satan
+                    persuades thousands<note place="foot" xml:id="ftn88" n="88"><p
+                            rend="footnote text">Cf. No. 42, ‘Satan’s Devices’; cf. also
+                            Whitefield’s Sermon XLVIII, ‘Satan’s Devices’, in <hi rend="italic"
+                                >Works</hi>, VI.241-56.</p></note> that they may stop short of it,
+                    and yet be guiltless. It is well if many here present are not in this ‘snare of
+                    the devil, taken captive at his will’.<note place="foot" xml:id="ftn89" n="89"
+                            ><p rend="footnote text">2 Tim. 2:26.</p></note> ‘O yes’, says one, ‘I
+                    have all this love for those I believe to be children of God. But I will never
+                    believe he is a child of God who belongs to that <hi rend="italic">vile
+                        congregation</hi>! Can he, do you think, be a child of God who holds such
+                        <hi rend="italic">detestable opinions</hi>? Or he that joins in such
+                    senseless and superstitious, if not idolatrous worship?’ So we justify ourselves
+                    in one sin by adding a second to it! We excuse the want of love in ourselves by
+                    laying the blame on others. To colour our own devilish temper we pronounce our
+                    brethren children of the devil. O beware of this! And if you are already taken
+                    in the snare, escape out of it as soon as possible. Go and learn that truly
+                    catholic love which ‘is not rash or hasty’ in judging; that love which ‘thinketh
+                    no evil’, which ‘believeth and hopeth all things’;<note place="foot"
+                        xml:id="ftn90" n="90"><p rend="footnote text">Cf. 1 Cor. 13:4, 5,
+                        7.</p></note> which makes all the allowances for others that we desire
+                    others should make for us. Then we shall take knowledge of the grace of God
+                    which is in every man, whatever be his opinion or mode of worship. Then will all
+                    that fear God be near and dear unto us ‘in the bowels of Jesus Christ’.<note
+                        place="foot" xml:id="ftn91" n="91"><p rend="footnote text">Cf. Phil.
+                            1:8.</p></note></p>
+                <p>9. Was not this the spirit of our dear friend? And why should it not be ours? O
+                    thou God of love, how long shall thy people be a by-word among the heathen?<note
+                        place="foot" xml:id="ftn92" n="92"><p rend="footnote text">See Ps. 44:14
+                            (AV).</p></note> How long shall they laugh us to scorn, and say, ‘See
+                    how <hi rend="italic">these</hi> Christians love one another!’<note place="foot"
+                        xml:id="ftn93" n="93"><p rend="footnote text">Tertullian, <hi rend="italic"
+                                >Apology</hi>, ch. 39, §7; see No. 22, ‘Sermon on the Mount, II’,
+                            III.18 and n.</p></note> When wilt thou roll away our reproach?<note
+                        place="foot" xml:id="ftn94" n="94"><p rend="footnote text">See Josh.
+                            5:9.</p></note> ‘Shall the sword devour for ever? How long will it be
+                    ere thou bid thy people return from following each other?’ Now at least ‘let all
+                    the people stand still, and pursue after’ their brethren ‘no more’!<note
+                        place="foot" xml:id="ftn95" n="95"><p rend="footnote text">Cf. 2 Sam. 2:26,
+                            28.</p></note> But whatever others do, let all of us, my brethren, hear
+                    the voice of him that ‘being dead, yet speaketh’!<note place="foot"
+                        xml:id="ftn96" n="96"><p rend="footnote text">Heb. 11:4.</p></note> Suppose
+                    ye hear him say: ‘Now at least “be ye followers of me as I was of Christ!”<note
+                        place="foot" xml:id="ftn97" n="97"><p rend="footnote text">Cf. 1 Cor.
+                            11:1.</p></note> Let brother “no more lift up sword” against brother,
+                    neither “know ye war any more”!<note place="foot" xml:id="ftn98" n="98"><p
+                            rend="footnote text">Cf. Isa. 2:4; Mic. 4:3.</p></note> Rather “put ye
+                    on, as the elect of God, bowels of mercies, humbleness of mind, brotherly
+                    kindness, gentleness, long-suffering, forbearing one another in love.”<note
+                        place="foot" xml:id="ftn99" n="99"><p rend="footnote text">Cf. Col.
+                            3:12-13.</p></note> Let the time past <pb n="02:346"/>suffice for
+                    strife, envy, contention, for “biting and devouring one another”.<note
+                        place="foot" xml:id="ftn100" n="100"><p rend="footnote text">Cf. Gal.
+                            5:15.</p></note> Blessed be God that ye have not long ago been “consumed
+                    one of another”!<note place="foot" xml:id="ftn101" n="101"><p
+                            rend="footnote text"><hi rend="italic">Ibid.</hi></p></note> From
+                    henceforth hold ye “the unity of the Spirit in the bond of peace”.’<note
+                        place="foot" xml:id="ftn102" n="102"><p rend="footnote text">Eph.
+                        4:3.</p></note></p>
+                <p>10. O God, with thee no word<note place="foot" xml:id="ftn103" n="103"><p
+                            rend="footnote text">All published edns. read ‘word’; but is this a
+                            printer’s misreading of ‘work’?</p></note> is impossible: thou dost
+                    whatsoever pleaseth thee! O that thou wouldst cause the mantle of thy prophet,
+                    whom thou hast taken up, now to fall upon us that remain! ‘Where is the Lord God
+                    of Elijah?’<note place="foot" xml:id="ftn104" n="104"><p rend="footnote text">2
+                            Kgs. 2:14.</p></note> ‘Let’ his ‘spirit rest upon’<note place="foot"
+                        xml:id="ftn105" n="105"><p rend="footnote text">2 Kgs. 2:9, 15.</p></note>
+                    these thy servants! Show thou art the God that ‘answerest by fire’!<note
+                        place="foot" xml:id="ftn106" n="106"><p rend="footnote text">Cf. 1 Kgs.
+                            18:24.</p></note> Let the fire of thy love fall on every heart! And
+                    because we love thee, let us love one another with a ‘love stronger than
+                        death’.<note place="foot" xml:id="ftn107" n="107"><p rend="footnote text"
+                            >Cf. S. of S. 8:6.</p></note> ‘Take away from us all anger, and wrath,
+                    and bitterness; all clamour, and evil-speaking.’<note place="foot"
+                        xml:id="ftn108" n="108"><p rend="footnote text">Cf. Eph. 4:31.</p></note>
+                    Let thy Spirit so rest upon us that from this hour we may ‘be kind to each
+                    other, tender-hearted; forgiving one another, even as God for Christ’s sake hath
+                    forgiven us’!<note place="foot" xml:id="ftn109" n="109"><p rend="footnote text"
+                            >Cf. Eph. 4:32.</p></note></p>
+            </div>
+            <div>
+                <p>An HYMN</p>
+                <lg>
+                    <l>I</l>
+                    <l>Servant of God, well done!</l>
+                    <l>Thy glorious warfare’s past,</l>
+                    <l>The battle’s fought, the race is won,</l>
+                    <l>And thou art crowned at last;</l>
+                    <l>Of all thy heart’s desire</l>
+                    <l>Triumphantly possessed,</l>
+                    <l>Lodged by the ministerial choir</l>
+                    <l>In thy Redeemer’s breast.</l>
+                </lg>
+                <lg>
+                    <l>II</l>
+                    <l>In condescending love</l>
+                    <l>Thy ceaseless prayer He heard,</l>
+                    <l>And bade thee suddenly remove</l>
+                    <l>To thy complete reward:</l>
+                    <l>Ready to bring the peace,</l>
+                    <l>Thy beauteous feet were shod,</l>
+                    <l>When mercy signed thy soul’s release</l>
+                    <l>And caught thee up to God.</l>
+                </lg>
+                <lg>
+                    <l>III</l>
+                    <l>With saints enthroned on high</l>
+                    <l>Thou dost thy Lord proclaim,</l>
+                    <l>And still to God salvation cry,</l>
+                    <l>Salvation to the Lamb!</l>
+                    <l>O happy, happy soul!</l>
+                    <l>In ecstasies of praise,</l>
+                    <l>Long as eternal ages roll,</l>
+                    <l>Thou seest thy Saviour’s face.</l>
+                </lg>
+                <lg>
+                    <l>IV</l>
+                    <l>Redeemed from earth and pain,</l>
+                    <l>Ah! when shall we ascend,</l>
+                    <l>And all in Jesus’ presence reign</l>
+                    <l>With our translated friend!</l>
+                    <l>Come, Lord, and quickly come !</l>
+                    <l>And when in thee complete,</l>
+                    <l>Receive thy longing servants home,</l>
+                    <l>To triumph—at thy feet!</l>
+                    <note place="foot" xml:id="ftn110" n="110"><p rend="footnote text">By Charles
+                            Wesley (<hi rend="italic">Poet. Wks.</hi>, VI.316-17); this hymn, almost
+                            certainly included in the sermon as delivered, would have served as the
+                            rhetorical equivalent of an ascription.</p></note>
+                </lg>
+            </div>
+        </body>
+    </text>
+</TEI>
