@@ -1,0 +1,676 @@
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Sermon 71: Of Good Angels</title>
+                <author>Wesley, John</author>
+                <editor role="text">Van Buskirk, Gregory P.</editor>
+                <editor role="digital">Taylor, Michelle M.</editor>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>The Wesley Works Digitzation Project</publisher>
+                <pubPlace>Tampa, FL</pubPlace>
+                <date>2024-02-25</date>
+             <idno type="URI">https://wesleyworks.ecdsdev.org/sermons/Sermon071</idno>                  
+            </publicationStmt>
+            <sourceDesc>
+                <listBibl>
+                    <biblStruct>
+                        <analytic>
+                            <title level="a">Sermon 71: Of Good Angels</title>
+                        </analytic>
+                        <monogr>
+                            <title level="j">The Works of John Wesley, Volume III: Sermons III,
+                                71-114</title>
+                            <editor role="volume">Outler, Albert</editor>
+                            <imprint>
+                                <publisher>Abingdon Press</publisher>
+                                <pubPlace>Nashville, TN</pubPlace>
+                                <date when="1986-11-01">1986-11-01</date>
+                                <biblScope unit="volume" n="3"/>
+                                <biblScope unit="page" from="3" to="4"/>
+                                <biblScope unit="page" from="4" to="15"/>
+                            </imprint>
+                        </monogr>
+                        <series>
+                            <title level="s">The Works of John Wesley</title>
+                            <editor role="general">Baker, Frank</editor>
+                        </series>
+                    </biblStruct>
+                </listBibl>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p n="">Greg Van Buskirk created Word docs for all of Wesley's sermons using a combination of
+                OCR software and manual proofing. Michelle Taylor converted these docx into XML
+                using Oxygen's DITA automatic transformation scenario, then touched them up
+                manually.</p>
+        </encodingDesc>
+        <standOff>
+            <taxonomy>
+                <keywords>
+                    <term/>
+                </keywords>
+            </taxonomy>
+            <!--Include keywords and terms here eventually.-->
+        </standOff>
+        <revisionDesc/>
+    </teiHeader>
+    <text>
+        <body>
+            <pb n="03:003"/>
+            <introduction>
+                <head>
+                    <hi rend="italic">An Introductory Comment [to Sermons 71-72]</hi>
+                </head>
+                <p n="">These twin essays in angelology were written as a single exercise in January
+                    1783, and then published in four successive instalments with texts but no titles
+                    in the <hi rend="italic">Arminian Magazine</hi>, 1783 (Vol. VI, January through
+                    April), under the rubric, ‘Original Sermons by the Rev. John Wesley, M. A.,
+                    Sermons XIII and XIV’. The paired sermons, with their present titles, were then
+                    published in <hi rend="italic">SOSO</hi>, VI.103-45, and not published again in
+                    Wesley’s lifetime.</p>
+                <p n="">He must have thought that he needed to say something about the place and role of
+                    angels in ‘the great chain of being’ which, along with the Christian Platonists,
+                    he conceived of as the general structure of creation (see No. 56, ‘God’s
+                    Approbation of His Works’, I.14 and n.). This would also help explain his
+                    placement of these sermons here, after his delineations of the limits of
+                    knowledge and reason. But angelology was not one of his prime interests; this is
+                    suggested by the fact that he had preached from Heb. 1:14 only three times
+                    before (in 1752, 1758, and 1782) and from Eph. 6:12 only once (in 1759); his
+                    other references to angels are few and scattered in his writings as a whole.</p>
+                <p n="">Wesley’s ideas here, with a single puzzling exception (see No. 72, ‘Of Evil
+                    Angels’, I.3), are unsurprisingly conventional. One finds much the same
+                    viewpoints in Anglican theology in the seventeenth and eighteenth centuries,
+                    usually in connection with a doctrine of Providence or other comments on ‘the
+                    ways of God to men’. However, there are two identifiable sources closer than
+                    others to Wesley’s basic arguments here; only their practical applications are
+                    clearly different. One of these is Bishop George Bull, <hi rend="italic">Some
+                        Important Points of Primitive Christianity</hi>, especially Sermons 11 and
+                    12. Note that Wesley has reversed Bull’s order. This would follow his other main
+                    source, Thomas Crane’s second chapter, ‘Of Good and Bad Angels’, in <hi rend="italic">Isagoge ad Dei Providentiam</hi>. And, of course, the great
+                    cosmic vision of <hi rend="italic">Paradise Lost</hi> stands in Wesley’s further
+                    background here. It is interesting that Wesley could not have known Milton’s
+                    chapter IX, ‘Of the Special Government of Angels’, in his posthumous <hi rend="italic">De Doctrina Christiana</hi>, since that was not published
+                    until 1825. But there is nothing in this part <pb n="03:004"/>of Milton’s
+                    ‘doctrine’ from which Wesley would have dissented. And, on a crucial point, that
+                    it was a majority of the angels who fell and enlisted under Satan’s banner,
+                    Milton’s scenario in <hi rend="italic">Paradise Lost</hi> is clearly decisive
+                    here.</p>
+            </introduction>
+            <head>Of Good Angels</head>
+            <epigraph>
+                <p n="">Hebrews 1:14</p>
+            </epigraph>
+            <p n="">
+                <hi rend="italic">Are they not all ministering spirits, sent forth to minister unto
+                    them that shall be heirs of salvation?</hi>
+            </p>
+            <div type="introduction">
+                <p n="1">1. Many of the ancient heathens had (probably from tradition) some notion
+                    of good and evil angels. They had some conception of a superior order of beings
+                    between men and God, whom the Greeks generally termed demons (‘knowing
+                        ones’)<note place="foot" xml:id="ftn1" n="1">
+                        <p rend="footnote text">A
+                            doubtful definition; cf. δαίμων in Liddell and Scott, and Arndt and
+                            Gingrich, <hi rend="italic">Greek-English Lexicons</hi>.</p>
+                    </note> and
+                    the Romans, <hi rend="italic">genii</hi>. Some of these they supposed to be kind
+                    and benevolent, delighting in doing good; others to be malicious and cruel,
+                    delighting in doing evil. But their conceptions both of one and the other were
+                    crude, imperfect, and confused, being only fragments of truth, partly delivered
+                    down by their forefathers, and partly borrowed from the inspired writings.</p>
+                <p n="2">2. Of the former, the benevolent kind, seems to have been the celebrated
+                    demon of Socrates, concerning which so many and so various conjectures have been
+                    made in succeeding ages. ‘This gives me notice’, said he, ‘every morning, of any
+                    evil which will befall me that day.’<note place="foot" xml:id="ftn2" n="2">
+                        <p rend="footnote text">An echo of Plato’s <hi rend="italic">Apology</hi>,
+                            31, 40.</p>
+                    </note> A late writer, indeed (I suppose one that hardly
+                    believes the existence of either angel or spirit), has published a dissertation
+                    wherein he labours to prove that the <pb n="03:005"/>demon of Socrates was only
+                    his reason.<note place="foot" xml:id="ftn3" n="3">
+                        <p rend="footnote text">Cf.
+                            John Gilbert Cooper, <hi rend="italic">The Life of Socrates</hi> (1750);
+                            his discussion of Socrates’s ‘familiar’ is in III.81-96, but to a quite
+                            different point than Wesley’s. Cooper is concerned to deny that Socrates
+                            had, or claimed to have, supernatural powers (p. 89). Instead, his
+                            ‘familiar’ was ‘nothing more than that inward feeling inseparable from
+                            the hearts of all good and wise men which…gives [them] an almost
+                            prophetic sensation of what ought to be done, before the slower
+                            faculties of the mind can prove the moral rectitude of conduct’. Thus,
+                            it was much more a certain ‘prescience’ than <hi rend="italic">reason</hi> in Wesley’s sense, and Cooper goes on to speak of it
+                            thus. For other comments on Socrates’s ‘demon’, see Adam Clarke, <hi rend="italic">Memoirs</hi>, p. 144 n.: ‘a tingling in the ears’; A.
+                            E. Taylor, <hi rend="italic">Socrates</hi> (New York, Doubleday Anchor
+                            Books, 1953), p. 44 n.: ‘supernatural sign’; Xenophon, <hi rend="italic">Memoirs</hi> (<hi rend="italic">Works</hi>, trans. by Sarah
+                            Fielding), pp 511-12: ‘an uncommon strength of judgment’. For other
+                            references to Socrates in the <hi rend="italic">Sermons</hi>, cf. No.
+                            70, ‘The Case of Reason Impartially Considered’, II.6 and n.</p>
+                    </note>
+                    But it was not the manner of Socrates to speak in such obscure and ambiguous
+                    terms. If he had meant his reason he would doubtless have said so. But this
+                    could not be his meaning. For it was impossible his reason should give him
+                    notice every morning of every evil which would befall him that day. It does not
+                    lie within the province of reason to give such notice of future contingencies.
+                    Neither does this odd interpretation in any wise agree with the inference which
+                    he himself draws from it. ‘My demon’, says he, ‘did not give me notice this
+                    morning of any evil that was to befall me today. Therefore I cannot regard as
+                    any evil my being condemned to die.’<note place="foot" xml:id="ftn4" n="4">
+                        <p rend="footnote text">Plato, <hi rend="italic">Apology</hi>,
+                        40.</p>
+                    </note> Undoubtedly it was some spiritual being, probably one of
+                    these ministering spirits.</p>
+                <p n="3">3. An ancient poet, one who lived several ages before Socrates, speaks more
+                    determinately on this subject. Hesiod does not scruple to say:</p>
+                <l>Millions of spiritual creatures walk the earth Unseen.</l>
+                <note place="foot" xml:id="ftn5" n="5">
+                    <p rend="footnote text">Actually, this is Milton’s paraphrase of Hesiod; cf. No.
+                        70, ‘The Case of Reason Impartially Considered’, II.1 and n.</p>
+                </note>
+                <p n="">Hence, it is probable, arose the numerous tales about the exploits of their
+                    demigods, <hi rend="italic">minorum gentium</hi>.<note place="foot" xml:id="ftn6" n="6">
+                        <p rend="footnote text">Cf Hesiod, <hi rend="italic">Works and Days</hi>, ll. 155-73: ἡμίθεοί (i.e., demigods). In his
+                                [<hi rend="italic">Tusculan</hi>] <hi rend="italic">Disputations,</hi> I.xiii.29, Cicero uses the phrase, <hi rend="italic">majorum gentium</hi>, to denote ‘the superior deities’
+                                (<hi rend="italic">dii consentes</hi>). <hi rend="italic">Minorum
+                                gentium</hi> would thus, by inference, denote ‘lesser deities’.
+                            However, no such usage is recorded in Lewis and Short, <hi rend="italic">A Latin Dictionary</hi>. The oft-cited instance in Cicero’s <hi rend="italic">Epistolae ad Familiares</hi> (<hi rend="italic">Letters to Friends</hi>), IX.xxi.2, clearly does not
+                        apply.</p>
+                    </note> Hence their satyrs, fauns, nymphs of every kind, wherewith
+                    they supposed both the sea and land to be filled. But how empty, childish,
+                    unsatisfactory, are all <pb n="03:006"/>the accounts they give of them—as,
+                    indeed, accounts that depend upon broken, uncertain tradition can hardly fail to
+                    be!</p>
+                <p n="4">4. Revelation only is able to supply this defect; this only gives us a
+                    clear, rational, consistent account of those whom our eyes have not seen, nor
+                    our ears heard:<note place="foot" xml:id="ftn7" n="7">
+                        <p rend="footnote text">See Isa. 64:4; 1 Cor. 2:9.</p>
+                    </note> of both good and evil angels. It
+                    is my design to speak at present only of the former, of whom we have a full,
+                    though brief, account in these words: ‘Are they not all ministering spirits,
+                    sent forth to minister unto them that shall be heirs of salvation?’</p>
+            </div>
+            <div type="section" n="1">
+                <p n="1">I. 1. The question is, according to the manner of the Apostle, equivalent
+                    to a strong affirmation. And hence we learn, first, that with regard to their
+                    essence or nature they are all spirits: not material or corporeal beings; not
+                    clogged with flesh and blood<note place="foot" xml:id="ftn8" n="8">
+                        <p rend="footnote text">Cf. No. 24, ‘Sermon on the Mount, IV’, III.5 and
+                            n.</p>
+                    </note> like us, but having bodies, if any, not gross and earthly
+                    like ours, but of a finer substance, resembling fire or flame more than any
+                    other of these lower elements. And is not something like this intimated in those
+                    words of the Psalmist, ‘Who maketh his angels spirits, and his ministers a flame
+                    of fire!’<hi rend="endnote_reference">
+                        <note place="end">
+                            <p rend="endnote text">[Cf.] Ps. 104:4 [AV; Wesley uses ‘spirits’ here as does AV; BCP,
+                                ‘winds’].</p>
+                        </note>
+                    </hi> As spirits he has endued them with
+                    understanding, will, or affections (which are indeed the same thing, as the
+                    affections are only the will exerting itself various ways), and liberty. And are
+                    not these—understanding, will, and liberty—essential to, if not the essence of,
+                    a spirit?<note place="foot" xml:id="ftn9" n="9">
+                        <p rend="footnote text">Cf. No.
+                            60, ‘The General Deliverance’, I.4 and n.</p>
+                    </note>
+                </p>
+                <p n="2">2. But who of the children of men can comprehend what is the <hi rend="italic">understanding</hi> of an angel? Who can comprehend how far
+                    their <hi rend="italic">sight</hi> extends? Analogous to sight in men, though
+                    not the same—but thus we are constrained to speak through the poverty of human
+                    language! Probably not only over one hemisphere of the earth, yea, or</p>
+                <l>Tenfold the length of their terrene,</l>
+                <note place="foot" xml:id="ftn10" n="10">
+                    <p rend="footnote text">Milton, <hi rend="italic">Paradise Lost</hi>, vi.78; see
+                        No. 54, ‘On Eternity’, §17 and n.</p>
+                </note>
+                <p n="">or even of the solar system; but so far as to take in at one view the whole
+                    extent of the creation. And we cannot conceive any defect in their perception,
+                    neither any error in their understanding. But in what manner do they use their
+                    understanding? We must in no <pb n="03:007"/>wise imagine that they creep from
+                    one truth to another by that slow method which we call reasoning. Undoubtedly
+                    they see at one glance whatever truth is presented to their understanding;<note place="foot" xml:id="ftn11" n="11">
+                        <p rend="footnote text">For Wesley’s
+                            speculation that angelic knowledge is intuitive, cf. No. 10, ‘The
+                            Witness of the Spirit, I’, I.12 and n.</p>
+                    </note> and that with all the
+                    certainty and clearness that we mortals see the most self-evident axiom. Who
+                    then can conceive the extent of their <hi rend="italic">knowledge</hi>? Not only
+                    of the nature, attributes, and works of God (whether of creation or providence),
+                    but of the circumstances, actions, words, tempers, yea, and thoughts of men? For
+                    although God only ‘knows the hearts of all men’;<note place="foot" xml:id="ftn12" n="12">
+                        <p rend="footnote text">Cf. Acts 1:24.</p>
+                    </note> unto
+                    whom ‘known are all his works’, together with the changes they undergo, ‘from
+                    the beginning of the world’;<note place="foot" xml:id="ftn13" n="13">
+                        <p rend="footnote text">Acts 15:18.</p>
+                    </note> yet we cannot doubt but his
+                    angels know the hearts of those to whom they more immediately minister. Much
+                    less can we doubt of their knowing the thoughts that are in our hearts at any
+                    particular time. What should hinder their seeing them as they arise? Not the
+                    thin veil of flesh and blood! Can these intercept the view of a spirit? Nay,</p>
+                <lg>
+                    <l>Walls within walls no more its passage bar,</l>
+                    <l>Than unopposing space of liquid air.</l>
+                </lg>
+                <note place="foot" xml:id="ftn14" n="14">
+                    <p rend="footnote text">Mark Le Pla, <hi rend="italic">A Paraphrase on the Song
+                            of the Three Children</hi> (1724), st. 25, ll. 7-8, ‘O ye Lightnings’;
+                        cf. Wesley, <hi rend="italic">A Collection of Moral and Sacred Poems</hi>
+                        (1744), II.121.</p>
+                </note>
+                <p n="">Far more easily, then, and far more perfectly than we can read a man’s thoughts
+                    in his face, do these sagacious beings read our thoughts, just as they rise in
+                    our hearts, inasmuch as they see their kindred spirit more clearly than we see
+                    the body. If this seem strange to any who had not adverted to it before, let him
+                    only consider. Suppose my spirit was out of the body, could not an angel see my
+                    thoughts? Even without my uttering any words (if words are used in the world of
+                    spirits)? And cannot that ministering spirit see them just as well now that I am
+                    in the body? It seems therefore to be an unquestionable truth (although perhaps
+                    not commonly observed) that angels know not only the words and actions, but also
+                    the thoughts, of those to whom they minister. And indeed without this knowledge
+                    they would be very ill qualified to perform various parts of their ministry.</p>
+                <p n="3">3. And what an inconceivable degree of <hi rend="italic">wisdom</hi> must
+                    they have acquired by the use of their amazing faculties, over and above that
+                        <pb n="03:008"/>with which they were originally endued, in the course of
+                    more than six thousand years. (That they have existed so long we are assured;
+                    for they ‘sang together’ ‘when the foundations of the earth were laid’.<note place="foot" xml:id="ftn15" n="15">
+                        <p rend="footnote text">Cf. Job 38:6, 7.
+                            Wesley’s comment that the foundations of the world were laid more than
+                            six thousand years before would mean that he was using Archbishop
+                            Ussher’s date of 4004 B.C., a figure already commonplace because of its
+                            use as a fixture as a marginal note in many edits. of the AV; cf. Robert
+                            K. Merton, <hi rend="italic">On the Shoulders of Giants</hi> (New York,
+                            A Harbinger Book, Harcourt, Brace and World, Inc., 1965), p. 80 and
+                            n.</p>
+                    </note>) How immensely must their wisdom have increased during so
+                    long a period, not only by surveying the hearts and ways of men in their
+                    successive generations, but by observing the works of God—his works of creation,
+                    his works of providence, his works of grace! And above all by ‘continually
+                    beholding the face of their Father which is in heaven’!<note place="foot" xml:id="ftn16" n="16">
+                        <p rend="footnote text">Cf. Matt. 18:10 (<hi rend="italic">Notes</hi>). The early Wesley makes the same point on
+                            the wisdom of angels; see No. 135, ‘On Guardian Angels’,
+                        II.2.</p>
+                    </note>
+                </p>
+                <p n="4">4. What measures of <hi rend="italic">holiness</hi>, as well as wisdom,
+                    have they derived from this inexhaustible ocean!</p>
+                <lg>
+                    <l>A boundless, fathomless abyss,</l>
+                    <l>Without a bottom or a shore!</l>
+                </lg>
+                <note place="foot" xml:id="ftn17" n="17">
+                    <p rend="footnote text">Probably Isaac Watts; cf. No. 54, ‘On Eternity’, §18 and
+                        n.</p>
+                </note>
+                <p n="">Are they not hence, by way of eminence, styled ‘the holy angels’? What goodness,
+                    what philanthropy, what love to man, have they drawn from those rivers that are
+                    at his right hand! Such as we cannot conceive to be exceeded by any but that of
+                    God our Saviour. And they are still drinking in more love from this ‘fountain of
+                    living water’.<note place="foot" xml:id="ftn18" n="18">
+                        <p rend="footnote text">Cf. Jer. 2:13; 17:13; cf. <hi rend="italic">Notes</hi> on John 4:10,
+                            14.</p>
+                    </note>
+                </p>
+                <p n="5">5. Such is the knowledge and wisdom of the angels of God, as we learn from
+                    his own oracles. Such are their holiness and goodness! And how astonishing is
+                    their <hi rend="italic">strength</hi>! Even a fallen angel is styled by an
+                    inspired writer, ‘the prince of the power of the air’.<note place="foot" xml:id="ftn19" n="19">
+                        <p rend="footnote text">Eph. 2:2.</p>
+                    </note> How
+                    terrible a proof did he give of this power in suddenly raising the whirlwind
+                    which ‘smote the four corners of the house’,<note place="foot" xml:id="ftn20" n="20">
+                        <p rend="footnote text">Job 1:19.</p>
+                    </note> and destroyed all the
+                    children of Job at once! That this was his work we may easily learn from the
+                    command to ‘save his life’.<note place="foot" xml:id="ftn21" n="21">
+                        <p rend="footnote text">Job 2:6.</p>
+                    </note> But he gave a far more terrible
+                    proof of his strength (if we suppose that ‘messenger of the Lord’ to have been
+                    an evil angel, as is not at all improbable) when he smote with death a hundred,
+                    fourscore and five thousand Assyrians in one night, nay, <pb n="03:009"/>
+                    possibly in one hour, if not one moment.<note place="foot" xml:id="ftn22" n="22">
+                        <p rend="footnote text">2 Kgs. 19:35; ‘the angel of the Lord’—i.e.,
+                            lit., ‘the messenger of the Lord’.</p>
+                    </note> Yet a strength abundantly
+                    greater than this must have been exerted by that angel (whether he was an angel
+                    of light or of darkness, which is not determined by the text) who ‘smote’ in one
+                    hour ‘all the first-born of Egypt, both of man and beast’.<note place="foot" xml:id="ftn23" n="23">
+                        <p rend="footnote text">Cf. Exod. 12:12.</p>
+                    </note>
+                    For considering the extent of the land of Egypt, the immense populousness
+                    thereof, and the innumerable cattle fed in their houses and grazing in their
+                    fruitful fields, the men and beasts who were slain in that night must have
+                    amounted to several millions! And if this be supposed to have been an evil
+                    angel, must not a good angel be as strong, yea, stronger than him? For surely
+                    any good angel must have more power than even an ‘archangel ruined’.<note place="foot" xml:id="ftn24" n="24">
+                        <p rend="footnote text">Cf. Milton, <hi rend="italic">Paradise Lost</hi>, i.593; and see No. 72, ‘Of Evil
+                            Angels’, I.3, where a longer passage is quoted.</p>
+                    </note> And what
+                    power must the ‘four angels’ in the Revelation have, who were appointed to ‘keep
+                    the four winds of heaven’?<note place="foot" xml:id="ftn25" n="25">
+                        <p rend="footnote text">Cf. Rev. 7:1.</p>
+                    </note> There seems therefore no
+                    extravagance in supposing that, if God were pleased to permit, any of the angels
+                    of light could heave the earth and all the planets out of their orbits; yea,
+                    that he ‘could arm himself with all these elements’,<note place="foot" xml:id="ftn26" n="26">
+                        <p rend="footnote text">A paraphrase from Milton, <hi rend="italic">Paradise Lost</hi>, vi.220-23.</p>
+                    </note> and crush
+                    the whole frame of nature. Indeed we do not know how to set any bounds to the
+                    strength of these first-born children of God.</p>
+                <p n="6">6. And although none but their great Creator is omnipresent; although none
+                    beside him can ask, ‘Do not I fill heaven and earth?’<note place="foot" xml:id="ftn27" n="27">
+                        <p rend="footnote text">Jer. 23:24.</p>
+                    </note>; yet
+                    undoubtedly he has given an immense sphere of action (though not unbounded) to
+                    created spirits. ‘The prince of the kingdom of Persia’ (mentioned Daniel 10:13),
+                    though probably an evil angel, seems to have had a sphere of action, both of
+                    knowledge and power, as extensive as that vast empire. And the same, if not
+                    greater, we may reasonably ascribe to the good angel whom he withstood for one
+                    and twenty days.<note place="foot" xml:id="ftn28" n="28">
+                        <p rend="footnote text">Dan. 10:13.</p>
+                    </note>
+                </p>
+                <p n="7">7. The angels of God have great power, in particular over the human body;
+                    power either to cause or remove pain and diseases; either to kill or to heal.
+                    They perfectly well understand whereof we are made; they know all the springs of
+                    this curious machine;<note place="foot" xml:id="ftn29" n="29">
+                        <p rend="footnote text">Wesley’s body-soul dualism, in the tradition of
+                            Descartes, regarded the human body as a ‘curious machine’, as also in
+                            No. 51, <hi rend="italic">The Good Steward</hi>, I.4 and n.</p>
+                    </note>
+                    and can doubtless, by God’s permission, touch any of them so as <pb n="03:010"/>either to stop or restore its motion. Of this power, even in an evil angel, we
+                    have a clear instance in the case of Job, whom he ‘smote with sore boils’ all
+                    over, ‘from the crown’ of the head ‘to the sole of the foot’.<note place="foot" xml:id="ftn30" n="30">
+                        <p rend="footnote text">Cf. Job 2:7.</p>
+                    </note> And in
+                    that instant undoubtedly he would have killed him if God had not ‘saved his
+                        life’.<note place="foot" xml:id="ftn31" n="31">
+                        <p rend="footnote text">Job
+                            2:6.</p>
+                    </note> And on the other hand, of the power of angels to heal we
+                    have a remarkable instance in the case of Daniel. ‘There remained no strength in
+                    me (said the prophet), neither was there breath in me. Then one came and touched
+                    me, and said, Peace be unto thee: be strong, yea, be strong. And when he had
+                    spoken unto me, I was strengthened.’<hi rend="endnote_reference">
+                        <note place="end">
+                            <p rend="endnote text">[Dan. 10:] ver. 17, etc [espec. ver.
+                                18].</p>
+                        </note>
+                    </hi> On the other hand, when they are commissioned
+                    from above, may they not put a period to human life? There is nothing improbable
+                    in what Dr. Parnell supposes the angel to say to the hermit concerning the death
+                    of the child:</p>
+                <lg>
+                    <l>To all but thee in fits he seemed to go:</l>
+                    <l>And ’twas my ministry to deal the blow.</l>
+                </lg>
+                <note place="foot" xml:id="ftn32" n="32">
+                    <p rend="footnote text">Thomas Parnell, ‘The Hermit’, 230-31. Wesley had
+                        included an extract of this in <hi rend="italic">A Collection of Moral and
+                            Sacred Poems</hi> (1744), I.275-76. Other quotations from this same poem
+                        are in No. 80, ‘On Friendship with the World’, §28 and n. The idea of the
+                        inscrutable purposes of God in cases of untimely death appears in a letter
+                        to Mrs. Betty Bradburn, Feb. 28, 1782, and in JWJ, Sept. 25, 1789: ‘[Mr.
+                        Henderson] could not save the life of his only son, who was probably taken
+                        to bring his father to God.’</p>
+                </note>
+                <p n="">From this great truth the heathen poets probably derived their imagination that
+                    Iris used to be sent down from heaven to discharge souls out of their
+                        bodies.<note place="foot" xml:id="ftn33" n="33">
+                        <p rend="footnote text">Iris
+                            was the goddess of the rainbow, daughter of Light (Electra) and Wonder
+                            (Thaumas). In the <hi rend="italic">Iliad</hi> she is mentioned
+                            frequently as a ‘swift-footed messenger’, especially from Zeus or Hera
+                            to the lesser gods and to men; she disappears from the <hi rend="italic">Odyssey</hi> where her role and function are taken by Hermes. This
+                            allusion to her ‘discharging souls out of their bodies’ has no explicit
+                            textual warrant; it may be a curious inference from <hi rend="italic">Iliad</hi>, xxiii.161-262 (the story of the funeral pyre of the
+                            Trojan heroes and of Iris’s assistance in kindling the fire).</p>
+                    </note>
+                    And perhaps the sudden death of many of the children of God may be owing to the
+                    ministry of an angel.</p>
+            </div>
+            <div type="section" n="2">
+                <p n="">II. So perfectly are the angels of God qualified for their high office. It
+                    remains to inquire how they discharge their office. How do they minister to the
+                    heirs of salvation?</p>
+                <p n="1">1. I will not say that they do not minister at all to those who <pb n="03:011"/>through their obstinate impenitence and unbelief disinherit
+                    themselves of the kingdom. This world is a world of mercy, wherein God pours
+                    down many mercies even on the evil and the unthankful. And many of these, it is
+                    probable, are conveyed even to them by the ministry of angels; especially so
+                    long as they have any thought of God, or any fear of God before their eyes.<note place="foot" xml:id="ftn34" n="34">
+                        <p rend="footnote text">Rom.
+                        3:18.</p>
+                    </note> But it is their favourite employ, their peculiar office, to
+                    minister to the heirs of salvation; to those who are ‘now saved by faith’, or at
+                    least seeking God in sincerity.</p>
+                <p n="2">2. Is it not their first care to minister to our souls? But we must not
+                    expect this will be done ‘with observation’<note place="foot" xml:id="ftn35" n="35">
+                        <p rend="footnote text">Luke 17:20.</p>
+                    </note>—in such a manner as
+                    that we may clearly distinguish their working from the workings of our own
+                    minds. We have no more reason to look for this than for their appearing in a
+                    visible shape. Without this they can in a thousand ways apply to our
+                    understanding. They may assist us in our search after truth, remove many doubts
+                    and difficulties, throw light on what was before dark and obscure, and confirm
+                    us in the truth that is after godliness.<note place="foot" xml:id="ftn36" n="36">
+                        <p rend="footnote text">Titus 1:1.</p>
+                    </note> They may warn us of evil
+                    in disguise, and place what is good in a clear, strong light. They may gently
+                    move our will to embrace what is good, and fly from that which is evil.<note place="foot" xml:id="ftn37" n="37">
+                        <p rend="footnote text">See Rom.
+                            12:9.</p>
+                    </note> They may many times quicken our dull affections,
+                    increase our holy hope or filial fear, and assist us more ardently to love <hi rend="italic">him</hi> who has first loved <hi rend="italic">us</hi>.<note place="foot" xml:id="ftn38" n="38">
+                        <p rend="footnote text">See 1 John
+                            4:19.</p>
+                    </note> Yea, they may be sent of God to answer that whole
+                    prayer put into our mouths by pious Bishop Ken:</p>
+                <lg>
+                    <l>O may thy angels while I sleep,</l>
+                    <l>Around my bed their vigils keep;</l>
+                    <l>Their love angelical instil;</l>
+                    <l>Stop every avenue of ill.</l>
+                    <l> May they celestial joys rehearse,</l>
+                    <l>And thought to thought with me converse!</l>
+                </lg>
+                <note place="foot" xml:id="ftn39" n="39">
+                    <p rend="footnote text">Thomas Ken, ‘An Evening Hymn’, in <hi rend="italic">A
+                            Manual of Prayers</hi> (1709), st. 10; repeated, along with st. 11, in
+                        No. 132, ‘On Faith, Heb. 11:1’, §12. See also Wesley’s letter to Hester Ann
+                        Roe, Dec. 9, 1781. In 1684, Ken had been consecrated Bishop of Bath and
+                        Wells. In 1689 he was deposed as a Nonjuror but refused the offer of
+                        reinstatement after the death of his replacement Benjamin Kidder in 1703.
+                        For another reference of Wesley’s to Ken, see No. 102, ‘Of Former Times’,
+                        §11.</p>
+                </note>
+                <p n="">
+                    <pb n="03:012"/>Although the manner of this we shall not be able to explain while
+                    we dwell in the body.</p>
+                <p n="3">3. May they not minister also to us with respect to our bodies, in a
+                    thousand ways which we do not now understand? They may prevent our falling into
+                    many dangers which we are not sensible of; and may deliver us out of many
+                    others, though we know not whence our deliverance comes. How many times have we
+                    been strangely and unaccountably preserved in sudden and dangerous falls? And it
+                    is well if we did not impute that preservation to chance,<note place="foot" xml:id="ftn40" n="40">
+                        <p rend="footnote text">Cf. No. 69, ‘The Imperfection
+                            of Human Knowledge’, II.1 and n.</p>
+                    </note> or to our own wisdom or
+                    strength. Not so; it was God gave his angels charge over us, and in their hands
+                    they bore us up.<note place="foot" xml:id="ftn41" n="41">
+                        <p rend="footnote text">See Ps. 91:11-12; Matt. 4:6.</p>
+                    </note> Indeed men of the world will
+                    always impute such deliverances to accident or to second causes. To these
+                    possibly some of them might have imputed Daniel’s preservation in the lion’s
+                    den. But himself ascribes it to the true cause: ‘My God has sent his angel, and
+                    shut the mouths of the lions.’<hi rend="endnote_reference">
+                        <note place="end">
+                            <p rend="endnote text">Dan. 6:22.</p>
+                        </note>
+                    </hi>
+                </p>
+                <p n="4">4. When a violent disease, supposed to be incurable, is totally and
+                    suddenly removed, it is by no means improbable that this is effected by the
+                    ministry of an angel. And perhaps it is owing to the same cause that a remedy is
+                    unaccountably suggested either to the sick person, or some attending upon him,
+                    by which he is entirely cured.<note place="foot" xml:id="ftn42" n="42">
+                        <p rend="footnote text">Cf. No. 135, ‘On Guardian Angels’,
+                    II.2.</p>
+                    </note>
+                </p>
+                <p n="5">5. It seems, what are usually called divine dreams may be frequently
+                    ascribed to angels.<note place="foot" xml:id="ftn43" n="43">
+                        <p rend="footnote text">Cf. No. 124, ‘Human Life a Dream’, §4 and
+                        n.</p>
+                    </note> We have a remarkable instance of this kind related by one that
+                    will hardly be thought an enthusiast; for he was a heathen, a philosopher, and
+                    an emperor. I mean Marcus Antoninus. ‘In his <hi rend="italic">Meditations</hi>
+                    he solemnly thanks God for revealing to him, when he was at Cajeta, in a dream,
+                    what totally cured the bloody flux, which none of his physicians were able to
+                        heal.’<note place="foot" xml:id="ftn44" n="44">
+                        <p rend="footnote text">The
+                            quotation here has not been located. Its source, however, and one that
+                            Wesley had read, was the so-called ‘Meditations’ of Marcus Aurelius,
+                            i.17(8); the text is ὧς μὴ πτύειν αἵμα καὶμὴ ἰλιγγιάν—i.e., spitting up
+                            blood and a spell of vertigo. ‘Cajeta’ would be the present-day
+                            Gaeta.</p>
+                    </note> And why may we not suppose that God gave him this
+                    notice by the ministry of an angel?</p>
+                <p n="6">6. And how often does God deliver us from evil men by the <pb n="03:013"/>ministry of his angels, overturning whatever their rage, or malice, or
+                    subtlety had plotted against us! These are about their bed, and about their
+                    path, and privy to all their dark designs;<note place="foot" xml:id="ftn45" n="45">
+                        <p rend="footnote text">See. Ps. 139:2 (BCP).</p>
+                    </note> and many of
+                    them undoubtedly they bring to nought by means that we think not of. Sometimes
+                    they blast their favourite schemes in the beginning; sometimes when they are
+                    just ripe for execution. And this they can do by a thousand means that we are
+                    not aware of. They can check them in their mid-career, by bereaving them of
+                    courage or strength; by striking faintness through their loins, or turning their
+                    wisdom into foolishness. Sometimes they bring to light the hidden things of
+                        darkness,<note place="foot" xml:id="ftn46" n="46">
+                        <p rend="footnote text">1
+                            Cor. 4:5.</p>
+                    </note> and show us the traps that are laid for our feet.
+                    In these and various other ways they hew the snares of the ungodly in
+                        pieces.<note place="foot" xml:id="ftn47" n="47">
+                        <p rend="footnote text">See
+                            Ps. 129:4 (BCP).</p>
+                    </note>
+                </p>
+                <p n="7">7. Another grand branch of their ministry is to counterwork evil angels;
+                    who are continually going about, not only as roaring lions, seeking whom they
+                    may devour;<note place="foot" xml:id="ftn48" n="48">
+                        <p rend="footnote text">See
+                            1 Pet. 5:8.</p>
+                    </note> but more dangerously still, as angels of
+                        light,<note place="foot" xml:id="ftn49" n="49">
+                        <p rend="footnote text">See 2
+                            Cor. 11:14.</p>
+                    </note> seeking whom they may deceive. And how great is
+                    the number of these! Are they not as the stars of heaven for multitude?<note place="foot" xml:id="ftn50" n="50">
+                        <p rend="footnote text">Deut. 1:10;
+                            10:22; 28:62.</p>
+                    </note> How great is their rage, envy, malice, revenge!
+                    Such as the wickedest men on earth never felt. How great is their subtlety!
+                    Matured by the experience of above six thousand years. How great is their
+                    strength! Only inferior to that of the angels of God. The strongest of the sons
+                    of men are but as grasshoppers before them.<note place="foot" xml:id="ftn51" n="51">
+                        <p rend="footnote text">See Num. 13:33.</p>
+                    </note> And what an
+                    advantage have they over us by that single circumstance, that they are
+                    invisible! As we have not strength to repel their force, so we have not skill to
+                    decline it But the merciful Lord hath not given us up to the will of our
+                    enemies. ‘His eyes’, that is his holy angels, ‘run to and fro over all the
+                        earth.’<note place="foot" xml:id="ftn52" n="52">
+                        <p rend="footnote text">Cf.
+                            2 Chr. 16:9; Zech. 4:10.</p>
+                    </note> And if our eyes were opened we
+                    should see, ‘they are more that are for us than they that are against us. We
+                    should see’,<note place="foot" xml:id="ftn53" n="53">
+                        <p rend="footnote text">Cf.
+                            2 Kgs. 6:16-17.</p>
+                    </note>
+                </p>
+                <lg>
+                    <l>A convoy attends,</l>
+                    <l> A minist’ring host of invisible friends.</l>
+                </lg>
+                <note place="foot" xml:id="ftn54" n="54">
+                    <p rend="footnote text">Charles Wesley, <hi rend="italic">Funeral Hymns</hi>,
+                        1746 (<hi rend="italic">Bibliog</hi>, No. 115), p. 23 (Hymn 15, st. 7 in <hi rend="italic">Poet. Wks.</hi>, VI.211); see also No. 84, <hi rend="italic">The Important Question</hi>, II.4.</p>
+                </note>
+                <p n="">
+                    <pb n="03:014"/>And whenever those assault us in soul or in body, these are able,
+                    willing, ready to defend us; who are at least equally strong, equally wise, and
+                    equally vigilant And who can hurt us while we have armies of angels and the God
+                    of angels on our side?</p>
+                <p n="8">8. And we may make one general observation: whatever assistance God gives
+                    to men by men, the same—and frequently in a higher degree—he gives to them by
+                        angels.<note place="foot" xml:id="ftn55" n="55">
+                        <p rend="footnote text">Cf.
+                            No. 135, ‘On Guardian Angels’, III.1.</p>
+                    </note> Does he administer to
+                    us, by men, light when we are in darkness, joy when we are in heaviness,
+                    deliverance when we are in danger, ease and health when we are sick or in pain?
+                    It cannot be doubted but he frequently conveys the same blessings by the
+                    ministry of angels; not so sensibly, indeed, but full as effectually, though the
+                    messengers are not seen. Does he frequently deliver us by means of men from the
+                    violence or subtlety of our enemies? Many times he works the same deliverance by
+                    these invisible agents. These shut the mouths of the human lions, so that they
+                    have no power to hurt us. And frequently they join with our human friends
+                    (although neither they nor we are sensible of it) giving them wisdom, courage,
+                    or strength, without which all their labour for us would be unsuccessful. Thus
+                    do they secretly minister in numberless instances to the heirs of salvation;
+                    while we hear only the voices of men, and see none but men round about us.</p>
+                <p n="9">9. But does not the Scripture teach, ‘The help which is done upon earth,
+                    God doth it himself’?<note place="foot" xml:id="ftn56" n="56">
+                        <p rend="footnote text">Cf. Ps. 74:13 (BCP; cf. AV here); see also No. 67,
+                            ‘On Divine Providence’, §29, for a comment on God’s ‘immediate
+                            power’.</p>
+                    </note> Most certainly he does. And he is able to do it by
+                    his own immediate power; he has no need of using any instruments at all, either
+                    in heaven or earth. He wants not either angels or men to fulfil the whole
+                    counsel of his will. But it is not his pleasure so to work. He never did; and we
+                    may reasonably suppose he never will. He has always wrought by such instruments
+                    as he pleases: but still it is God himself that doth the work. Whatever help
+                    therefore we have, either by angels or men, is as much the work of God as if he
+                    were to put forth his almighty arm and work without any means at all. But he has
+                    used them from the beginning of the world: in all ages he has used the ministry
+                    both of men and angels. And hereby especially is seen ‘the manifold wisdom of
+                    God in the Church’.<note place="foot" xml:id="ftn57" n="57">
+                        <p rend="footnote text">Cf. Eph. 3:10 (<hi rend="italic">Notes</hi>).</p>
+                    </note> Meantime the same glory redounds to him as if he
+                    used no instruments at all.</p>
+                <p n="10">
+                    <pb n="03:015"/>10. The grand reason why God is pleased to assist men by
+                    men, rather than immediately by himself, is undoubtedly to endear us to each
+                    other by these mutual good offices, in order to increase our happiness both in
+                    time and eternity. And is it not for the same reason that God is pleased to give
+                    his angels charge over us? Namely, that he may endear us and them to each other;
+                    that, by the increase of our love and gratitude to them, we may find a
+                    proportionable increase of happiness when we meet in our Father’s kingdom. In
+                    the meantime, though we may not worship them (worship is due only to our common
+                    Creator), yet we may ‘esteem them very highly in love, for their works’
+                        sake’.<note place="foot" xml:id="ftn58" n="58">
+                        <p rend="footnote text">1
+                            Thess. 5:13.</p>
+                    </note> And we may imitate them in all holiness; suiting
+                    our lives to the prayer our Lord himself has taught us; labouring to do his will
+                    on earth as angels do it in heaven.</p>
+                <p n="">I cannot conclude this discourse better than in that admirable collect of our
+                    Church:</p>
+                <quote>‘O everlasting God, who hast ordained and constituted the services of angels
+                    and men in a wonderful manner; [mercifully] grant that as thy holy angels always
+                    do thee service in heaven, so by thy appointment they may succour and defend us
+                    on earth, through Jesus Christ our Lord.’<note place="foot" xml:id="ftn59" n="59">
+                        <p rend="footnote text">The Collect for the Feast of St. Michael and
+                            All Angels, Sept. 29; the Prayer Book text reads, ‘wonderful order’
+                            rather than ‘wonderful manner’. Bishop Bull concludes his Sermon 12 with
+                            ‘The Preface and Sanctus’ in the Order for Holy Communion in place of a
+                            conventional ascription. For Wesley’s use of ascriptions, cf. No. 1, <hi rend="italic">Salvation by Faith</hi>, III.9 and
+                    n.</p>
+                    </note>
+                </quote>
+            </div>
+        </body>
+    </text>
+</TEI>

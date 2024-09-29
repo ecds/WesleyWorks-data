@@ -1,0 +1,609 @@
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Sermon 73: Of Hell</title>
+                <author>Wesley, John</author>
+                <editor role="text">Van Buskirk, Gregory P.</editor>
+                <editor role="digital">Taylor, Michelle M.</editor>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>The Wesley Works Digitzation Project</publisher>
+                <pubPlace>Tampa, FL</pubPlace>
+                <date>2024-02-25</date>
+             <idno type="URI">https://wesleyworks.ecdsdev.org/sermons/Sermon073</idno>                        
+            </publicationStmt>
+            <sourceDesc>
+                <listBibl>
+                    <biblStruct>
+                        <analytic>
+                            <title level="a">Sermon 73: Of Hell</title>
+                        </analytic>
+                        <monogr>
+                            <title level="j">The Works of John Wesley, Volume III: Sermons III,
+                                71-114</title>
+                            <editor role="volume">Outler, Albert</editor>
+                            <imprint>
+                                <publisher>Abingdon Press</publisher>
+                                <pubPlace>Nashville, TN</pubPlace>
+                                <date when="1986-11-01">1986-11-01</date>
+                                <biblScope unit="volume" n="3"/>
+                                <biblScope unit="page" from="30" to="31"/>
+                                <biblScope unit="page" from="31" to="44"/>
+                            </imprint>
+                        </monogr>
+                        <series>
+                            <title level="s">The Works of John Wesley</title>
+                            <editor role="general">Baker, Frank</editor>
+                        </series>
+                    </biblStruct>
+                </listBibl>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Greg Van Buskirk created Word docs for all of Wesley's sermons using a combination of
+                OCR software and manual proofing. Michelle Taylor converted these docx into XML
+                using Oxygen's DITA automatic transformation scenario, then touched them up
+                manually.</p>
+        </encodingDesc>
+        <standOff>
+            <taxonomy>
+                <keywords>
+                    <term/>
+                </keywords>
+            </taxonomy>
+            <!--Include keywords and terms here eventually.-->
+        </standOff>
+        <revisionDesc/>
+    </teiHeader>
+    <text>
+        <body>
+            <pb n="03:030"/>
+            <introduction>
+                <head>
+                    <hi rend="italic">An Introductory Comment</hi>
+                </head>
+                <p>This is a sermon on yet another topic about which Wesley had previously written
+                    very little and which, apparently, had not bulked large in his oral preaching
+                    save as it mirrored the conventional eschatological ideas of the day. As early
+                    as 1731, in Oxford, he had preached from Mark 9:48; he had used the same text
+                    again in 1770. Still later, in 1788, he would produce another sermon on hell and
+                    heaven (see No. 115, ‘Dives and Lazarus’). In all of these his views of hell and
+                    perdition were wholly conventional; already he had, as a matter of course,
+                    included the phrase, ‘descended into hell’ in the text of the Apostles’ Creed in
+                    his revision of the Order of Morning Prayer in <hi rend="italic">The Sunday
+                        Service</hi> (1784), and he would never have approved its omission by the
+                    American Methodists (1786 and thereafter). When Wesley’s references to hell
+                    (here and elsewhere) are compared to a classical Puritan statement like Jonathan
+                    Edwards’s famous ‘Sinners in the Hands of an Angry God’ (first preached in 1741
+                    and then published as Sermon XV in <hi rend="italic">Sermons on Various
+                        Subjects</hi>, 1765), Wesley’s emphases seem low-keyed. But when compared to
+                    a more direct source (<hi rend="italic">viz.</hi>, Isaac Watts, Discourses XII
+                    and XIII on Mark 9:46, in <hi rend="italic">The World to Come…</hi> [1745], in
+                        <hi rend="italic">Works</hi>, I.705-52), the resemblances are striking. If
+                    anything, Wesley’s tone is more severe than Watts’s.</p>
+                <p>‘Of Hell’ was finished on October 10, 1788, at Newport on the Isle of Wight; it
+                    was, therefore, written on the road during a regular preaching mission (cf. JWJ,
+                    October 7-11). One may guess that it was written expressly for inclusion in the
+                        <hi rend="italic">Arminian Magazine</hi> since it promptly appeared there,
+                    without a title but numbered as ‘Sermon XII’ in the ensuing issues (Vol. V,
+                    1782, November and December, pp. 565-69, 623-32)—i.e., <hi rend="italic">before</hi> the twin sermons on angels. In <hi rend="italic">SOSO</hi>, VI,
+                    he reversed this order and placed ‘Of Hell’ after the other two (i.e., pp.
+                    147-69). It was reprinted separately in 1789 and 1790, with a different title,
+                    ‘The Eternity of Hell Torments’. What is more distinctive than the doctrines in
+                    this sermon are Wesley’s applications of them, and his obvious efforts to update
+                    them with illustrations both from the traditional sources and contemporary ones
+                    as well.</p>
+                <p><pb n="03:031"/>Wesley had already included an eschatological discourse on 2 Pet.
+                    3:10-13, by James Knight, in his own collected <hi rend="italic">Works</hi>
+                    (1773), XX.290-321; cf. Knight, <hi rend="italic">A Discourse on the
+                        Conflagration and Renovation of the World</hi> (1736). A copy of Wesley’s
+                    extract is still extant—in the Methodist Archives in the John Rylands Library,
+                    Manchester—in a hand closely resembling Wesley’s own (but probably by John
+                    Jones). It had the following quaint superscript that would date from somewhere
+                    toward the end of the nineteenth century:</p>
+                <quote>The celebrated John Wesley gave this to a Mr. Whitney who gave it to Ann
+                    Livingston of Deptford, who, after giving it to Mrs. Eleanor Smith, she in her
+                    turn, gave it to John Overton of Rose Cottage, Kings Road, Chelsea.</quote>
+            </introduction>
+            <head>Of Hell</head>
+            <epigraph>
+                <p>Mark 9:48</p>
+                <p>
+                    <hi rend="italic">Where their worm dieth not, and the fire is not quenched.</hi>
+                </p>
+            </epigraph>
+            <div type="introduction">
+                <p n="1">1. Every truth which is revealed in the oracles of God is undoubtedly of
+                    great importance. Yet it may be allowed that some of those which are revealed
+                    therein are of greater importance than others, as being more immediately
+                    conducive to the grand end of all, the eternal salvation of men. And we may
+                    judge of their importance even from this circumstance, that they are not
+                    mentioned once only in the sacred writings, but are repeated over and over. A
+                    remarkable instance of this we have with regard to the awful truth which is now
+                    before us. Our blessed Lord, who uses no superfluous words, who makes no ‘vain
+                        repetitions’,<note place="foot" xml:id="ftn1" n="1"><p rend="footnote text">Matt. 6:7.</p></note> repeats it over and over in the same chapter, and
+                    as it were in the same breath. So verse 43, 44: ‘If thy hand offend thee’, if a
+                    thing or person as useful as a hand be an occasion of sin, and there is no other
+                    way to shun that sin, ‘cut it off. It is better for thee to enter into life
+                    maimed, than having two hands to go into hell; into <pb n="03:032"/>unquenchable
+                    fire, where their worm dieth not, and the fire is not quenched.’ So again, verse
+                    45,46: ‘If thy foot offend thee, cut it off. It is better for thee to enter halt
+                    into life, than having two feet to be cast into hell; into unquenchable fire,
+                    where their worm dieth not, and the fire is not quenched.’ And yet again, verse
+                    47, 48: ‘If thine eye’, a person or thing as dear as thine eye, ‘offend thee’,
+                    hinder thy running the race which is set before thee,<note place="foot" xml:id="ftn2" n="2"><p rend="footnote text">See Heb. 12:1.</p></note> ‘pluck
+                    it out: it is better for thee to enter into the kingdom of God with one eye,
+                    than having two eyes to be cast into hell-fire; where their worm dieth not, and
+                    the fire is not quenched.’</p>
+                <p n="2">2. And let it not be thought that the consideration of these terrible
+                    truths is proper only for enormous sinners. How is this supposition consistent
+                    with what our Lord speaks to those who were then doubtless the holiest men upon
+                    earth? ‘When innumerable multitudes were gathered together, he said to his
+                    disciples’ (the apostles) ‘first of all, I say unto you, my friends, Fear not
+                    them that can kill the body, and after that have no more that they can do. But I
+                    say unto you, Fear him who after he hath killed hath power to cast into hell;
+                    yea, I say unto you, Fear him!’<hi rend="endnote_reference"><note place="end"><p rend="endnote text">Luke 12:1, 4-5.</p></note></hi> Yea, fear him
+                    under this very notion, of having power to cast into hell; that is, in effect,
+                    fear lest he should cast you into the place of torment.’<note place="foot" xml:id="ftn3" n="3"><p rend="footnote text">Luke 16:28.</p></note> And this
+                    very fear, even in the children of God, is one excellent means of preserving
+                    them from it.</p>
+                <p n="3">3. It behoves therefore not only the outcasts of men but even ‘you, his
+                    friends’, you that fear and love God, deeply to consider what is revealed in the
+                    oracles of God concerning the future state of punishment. How widely distant is
+                    this from the most elaborate accounts which are given by the heathen authors!
+                    Their accounts are (in many particulars at least) childish, fanciful, and
+                    self-inconsistent. So that it is no wonder they did not believe themselves, but
+                    only related the tales of the vulgar. So Virgil strongly intimates, when, after
+                    the laboured account he had given of the shades beneath, he sends him that had
+                    related it out at the ivory gate, through which (as he tells us) only <hi rend="italic">dreams</hi> pass; thereby giving us to know that all the
+                    preceding account is no more than a <pb n="03:033"/>dream.<note place="foot" xml:id="ftn4" n="4"><p rend="footnote text">Cf. Virgil, <hi rend="italic">Aeneid</hi>, vi.893-98:</p><p rend="Verse">Sunt geminae Somni
+                            portae; quarum altera, fertur</p><p rend="Verse">Cornea, qua veris
+                            facilis datur exitus umbris,</p><p rend="Verse">Altera candenti perfecta
+                            nitens elephanto,</p><p rend="Verse">Sed falsa ad caelum mittunt
+                            insomnia Manes.</p><p rend="Verse">His ubi tum natum Anchises unaque
+                            Sibyllam</p><p rend="Verse">Prosequitur dictis portaque emittit
+                            eburna.</p><p rend="footnote text">Dryden’s translation (which Wesley
+                            had in mind) stresses the image of ‘the ivory gate’:</p><p rend="Verse">Two gates the silent house of Sleep adorn;</p><p rend="Verse">Of
+                            polish’d iv’ry this, that of transparent horn:</p><p rend="Verse">True
+                            visions thro’ transparent horn arise;</p><p rend="Verse">Thro’ polish’d
+                            iv’ry pass deluding lies,</p><p rend="Verse">Of various things
+                            discoursing as he pass’d,</p><p rend="Verse">Anchises hither bends his
+                            steps at last</p><p rend="Verse">Then, thro’ the gate of iv’ry, he
+                            dismiss’d</p><p rend="Verse">His valiant offspring and divining
+                            guest.</p><p rend="footnote text">Virgil’s source was Homer, <hi rend="italic">Odyssey</hi>, xix.562-67; cf. also No. 132, ‘On Faith,
+                            Heb. 11:1’, §16.</p></note> This he only insinuates; but his brother
+                    poet, Juvenal, speaks out flat and plain:</p>
+                <lg><l>
+                        <hi rend="italic">Esse aliquos manes, et subterranea regna, …</hi>
+                    </l>
+                    <l><hi rend="italic">Nec pueri credunt, nisi qui nondum aere
+                    lavantur</hi></l></lg><note place="foot" xml:id="ftn5" n="5"><p rend="footnote text">Juvenal, <hi rend="italic">Satires</hi>, ii. 149,152:
+                        ‘There are [stories about] the Manes [ghosts and infernal deities] and the
+                        underworld…that children do not believe except those too young to be allowed
+                        in the public baths.’ The Latin quotation, with a slightly different
+                        translation, is repeated in No. 132, ‘On Faith, Heb. 11:1’, §17. Hesiod also
+                        speaks of ‘spiritual creatures’ which Milton then versifies; see No. 70,
+                        ‘The Case of Reason Impartially Considered’, II.1 and n.</p></note>—
+                    <p>‘Even our children do not believe a word of the tales concerning another
+                    world.’</p>
+                <p n="4">4. Here, on the contrary, all is worthy of God the Creator, the Governor of
+                    mankind. All is awful and solemn, suitable to his wisdom and justice by whom
+                    ‘Tophet was ordained of old’;<note place="foot" xml:id="ftn6" n="6"><p rend="footnote text">Cf. Isa. 30:33.</p></note> although originally
+                    ‘prepared’, not for the children of men, but ‘for the devil and his
+                        angels’.<note place="foot" xml:id="ftn7" n="7"><p rend="footnote text">Matt.
+                            25:41.</p></note></p>
+                <p>The punishment of those who in spite of all the warnings of God resolve to have
+                    their portion with the devil and his angels<note place="foot" xml:id="ftn8" n="8"><p rend="footnote text"><hi rend="italic">Ibid.</hi></p></note> will,
+                    according to the ancient and not improper division, be either <hi rend="italic">poena damni</hi>, what they lose, or <hi rend="italic">poena sensus</hi>,
+                    what they feel.<note place="foot" xml:id="ftn9" n="9"><p rend="footnote text">Cf. one of Wesley’s favourite essays, Thomas Boston, <hi rend="italic">Human Nature in Its Fourfold State</hi> (1720), State IV, Head VI,
+                            pp 424 ff. The idea, however, comes from a familiar scholastic
+                            distinction between the punishment of bereavement and deprivation (<hi rend="italic">poena damni</hi>), i.e., of what had been valued in
+                            this life, and the active punishment of the bodily senses (<hi rend="italic">poena afflictiva seu sensus</hi>). Cf. Thomas, <hi rend="italic">Summa Theologia</hi>, Appendix I, Q. 2, Art. 1
+                            [Respondeo], and cf. R. J. Deferrari (ed), <hi rend="italic">A Lexicon
+                                of St. Thomas</hi> (1948), 844, for definitions and citations from
+                            Thomas. The idea, of course, runs back to patristic eschatology, cf. the
+                            article on ‘Hölle’, in <hi rend="italic">Lexikon für Theologie und
+                                Kirche</hi>.</p></note> After <pb n="03:034"/>considering these
+                    separately I shall touch on a few additional circumstances, and conclude with
+                    two or three inferences.</p>
+            </div>
+            <div type="section" n="1">
+                <p n="1">I. 1. And, first, let us consider <hi rend="italic">the poena damni</hi>,
+                    the punishment of loss. This commences in that very moment wherein the soul is
+                    separated from the body; in that instant the soul loses all those pleasures, the
+                    enjoyment of which depends on the outward senses. The smell, the taste, the
+                    touch delight no more; the organs that ministered to them are spoiled, and the
+                    objects that used to gratify them are removed far away. In the dreary regions of
+                    the dead all these things are forgotten; or, if remembered, are only remembered
+                    with pain, seeing they are gone for ever. All the pleasures of the imagination
+                    are at an end.<note place="foot" xml:id="ftn10" n="10"><p rend="footnote text">For more instances of this phrase, ‘pleasures of the imagination’, see
+                            No. 44, <hi rend="italic">Original Sin</hi>, II.10 and n.</p></note>
+                    There is no grandeur in the infernal region; there is nothing beautiful in those
+                    dark abodes, no light but that of livid flames. And nothing new, but one
+                    unvaried scene of horror upon horror. There is no music but that of groans and
+                    shrieks, of weeping, wailing, and gnashing of teeth;<note place="foot" xml:id="ftn11" n="11"><p rend="footnote text">See Matt. 8:12;
+                        13:42.</p></note> of curses and blasphemies against God, or cutting
+                    reproaches of one another. Nor is there anything to gratify the sense of honour:
+                    no, they are the heirs of shame and everlasting contempt.<note place="foot" xml:id="ftn12" n="12"><p rend="footnote text">Dan. 12:2.</p></note></p>
+                <p n="2">2. Thus are they totally separated from all the <hi rend="italic">things</hi> they were fond of in the present world. At the same instant
+                    will commence another loss—that of all the <hi rend="italic">persons</hi> whom
+                    they loved. They are torn away from their nearest and dearest relations, their
+                    wives, husbands, parents, children, and (what to some will be worse than all
+                    this) the friend which was as their own soul.<note place="foot" xml:id="ftn13" n="13"><p rend="footnote text">See 1 Sam. 18:1, 3; 20:17; and No. 47,
+                            ‘Heaviness through Manifold Temptations’, III.4.</p></note> All the
+                    pleasure they ever enjoyed in these is lost, gone, vanished away. For there is
+                    no friendship in hell.<note place="foot" xml:id="ftn14" n="14"><p rend="footnote text">The thesis of J.-P. Sartre, <hi rend="italic">Huis
+                                Clos</hi> (Paris, Gallimard, 1947); translated by Stuart Gilbert as
+                                <hi rend="italic">No Exit</hi> (New York, Knopf, 1948).</p></note>
+                    Even the poet who affirms (though I know not on what authority),</p>
+                <lg>
+                    <l>Devil with devil damned</l>
+                    <l>Firm concord holds;</l>
+                </lg>
+                <note place="foot" xml:id="ftn15" n="15">
+                    <p rend="footnote text">Milton, <hi rend="italic">Paradise Lost</hi>,
+                        ii.496-97.</p>
+                </note>
+                <p><pb n="03:035"/>does not affirm that there is any concord among the human fiends
+                    that inhabit the great abyss.</p>
+                <p n="3">3. But they will then be sensible of a greater loss than that of all they
+                    enjoyed on earth. They have lost their place in Abraham’s bosom,<note place="foot" xml:id="ftn16" n="16"><p rend="footnote text">Luke
+                        16:22.</p></note> in the paradise of God.<note place="foot" xml:id="ftn17" n="17"><p rend="footnote text">Rev. 2:7.</p></note> Hitherto indeed it hath
+                    not entered into their hearts to conceive what holy souls enjoy in the garden of
+                        God,<note place="foot" xml:id="ftn18" n="18"><p rend="footnote text">Ezek.
+                            28:13; 31:8, 9.</p></note> in the society of angels, and of the wisest
+                    and best men that have lived from the beginning of the world (not to mention the
+                    immense increase of knowledge which they will then undoubtedly receive). But
+                    they will then fully understand the value of what they have vilely cast
+                    away.</p>
+                <p n="4">4. But as happy as the souls in paradise are, they are preparing for far
+                    greater happiness. For paradise is only the porch of heaven; and it is there the
+                    spirits of just men are made perfect.<note place="foot" xml:id="ftn19" n="19"><p rend="footnote text">See Heb. 12:23. In Wesley’s eschatology, paradise
+                            was regarded as only ‘the ante-chamber of heaven’(cf. Nos. 84, <hi rend="italic">The Important Question</hi>, II.4; and 115, ‘Dives and
+                            Lazarus’, I.3 and n.); he sharply distinguished this from what he
+                            understood of the Roman Catholic doctrine of purgatory.</p></note> It is
+                    in heaven only that there is the fullness of joy, the pleasures that are at
+                    God’s right hand for evermore.<note place="foot" xml:id="ftn20" n="20"><p rend="footnote text">See Ps. 16:11 (AV).</p></note> The loss of this by
+                    those unhappy spirits will be the completion of their misery. They will then
+                    know and feel that God alone is the centre of all created spirits; and
+                    consequently that a spirit made for God can have no rest out of him.<note place="foot" xml:id="ftn21" n="21"><p rend="footnote text">Augustine, <hi rend="italic">Confessions</hi>, I.i; cf. No. 3, <hi rend="italic">‘Awake, Thou That Steepest’</hi>, II.5 and n.</p></note> It seems
+                    that the Apostle had this in his view when he spoke of those ‘who shall be
+                    punished with everlasting destruction from the presence of the Lord’.<note place="foot" xml:id="ftn22" n="22"><p rend="footnote text">2 Thess.
+                        1:9.</p></note> Banishment from the presence of the Lord is the very essence
+                    of destruction to a spirit that was made for God. And if that banishment lasts
+                    for ever, it is ‘everlasting destruction’.</p>
+                <p>Such is the loss sustained by those miserable creatures on whom that awful
+                    sentence will be pronounced, ‘Depart from me, ye cursed!’<note place="foot" xml:id="ftn23" n="23"><p rend="footnote text">Matt. 25:41.</p></note> What
+                    an unspeakable curse, if there were no other! But alas! This is far from being
+                    the whole; for to the punishment of <hi rend="italic">loss</hi> will be added
+                    the punishment of <hi rend="italic">sense</hi>. What they lose implies
+                    unspeakable misery, which yet is inferior to what they feel. This it is which
+                    our Lord expresses in those emphatical words, ‘where their worm dieth not, and
+                    the fire is not quenched’.</p>
+            </div>
+            <pb n="03:036"/>
+            <div type="section" n="2">
+                <p n="1">II. 1. From the time that sentence was pronounced upon man, ‘Dust thou art,
+                    and unto dust thou shalt return,’<note place="foot" xml:id="ftn24" n="24"><p rend="footnote text">Cf. Gen. 3:19.</p></note> it was the custom of all
+                    nations, so far as we can learn, to commit dust to dust: it seemed natural to
+                    restore the bodies of the dead to the general mother earth. But in process of
+                    time another method obtained, chiefly among the rich and great, of burning the
+                    bodies of their relations, and frequently in a grand magnificent manner. For
+                    which purpose they erected huge funeral piles, with immense labour and expense.
+                    By either of these methods the body of man was soon restored to its parent dust.
+                    Either the worm or the fire soon consumed the well-wrought frame; after which
+                    the worm itself quickly died, and the fire was entirely quenched. But there is
+                    likewise a worm that belongs to the future state; and that is a worm that never
+                    dieth. And there is a fire hotter than that of the funeral pile; and it is a
+                    fire that will never be quenched.</p>
+                <p n="2">2. The first thing intended by the worm that never dieth seems to be a
+                    guilty conscience, including self-condemnation, sorrow, shame, remorse, and a
+                    sense of the wrath of God. May not we have some conception of this by what is
+                    sometimes felt even in the present world? Is it not of this chiefly that Solomon
+                    speaks when he says, ‘The spirit of a man may bear his infirmities’, his
+                    infirmities or griefs of any other kind, ‘but a wounded spirit who can
+                        bear?’<note place="foot" xml:id="ftn25" n="25"><p rend="footnote text">Cf.
+                            Prov. 18:14.</p></note> Who can bear the anguish of an awakened
+                    conscience, penetrated with a sense of guilt, and the arrows of the Almighty
+                    sticking in the soul, and drinking up the spirit!<note place="foot" xml:id="ftn26" n="26"><p rend="footnote text">See Job 6:4.</p></note> How
+                    many of the stout-hearted have sunk under it, and chose strangling rather than
+                        life!<note place="foot" xml:id="ftn27" n="27"><p rend="footnote text">See
+                            Job 7:15.</p></note> And yet what are these wounds, what is all this
+                    anguish of a soul while in this present world, in comparison of those they must
+                    suffer when their souls are wholly awakened to feel the wrath of an offended
+                    God! Add to these all unholy passions, fear, horror, rage; evil desires, desires
+                    that can never be satisfied. Add all unholy tempers, envy, jealousy, malice, and
+                    revenge; all of which will incessantly gnaw the soul, as the vulture was
+                    supposed to do the liver of Tityus.<note place="foot" xml:id="ftn28" n="28"><p rend="footnote text">Cf. Homer, <hi rend="italic">Odyssey</hi>,
+                            xi.576-81. Tityus was ‘a son of Earth’ whose body covered ‘nine acres’
+                            and who was punished for his assault upon Leto by having two vultures to
+                            tear away at his liver. This is to be distinguished from the more
+                            familiar Promethean myth in Hesiod’s <hi rend="italic">Theogony</hi>
+                            where, for stealing fire from heaven and giving it to man, Prometheus is
+                            punished by being chained to a rock where an eagle gnawed away at his
+                            liver even as it was also continually renewed. Cf. <hi rend="italic">Theogony</hi>, 559-86 for the story of the ‘crime’ and 521-25 for
+                            the ‘punishment’; cf. also No. 84, <hi rend="italic">The Important
+                                Question</hi>, III.10. In No. 15, <hi rend="italic">The Great
+                                Assize</hi>, III.2, Wesley defines pride, malice, revenge, rage,
+                            horror, despair as the ‘dogs of hell’.</p></note> To these if we <pb n="03:037"/>add hatred of God and all his creatures—all these united
+                    together may serve to give us some little, imperfect idea of the worm that never
+                    dieth.</p>
+                <p n="3">3. We may observe a remarkable difference in the manner wherein our Lord
+                    speaks concerning the two parts of the future punishment. He says, ‘Where <hi rend="italic">their</hi> worm dieth not’ of the one; ‘where <hi rend="italic">the</hi> fire is not quenched’ of the other. This cannot be by
+                    chance. What then is the reason for this variation of the expression?</p>
+                <p>Does it not seem to be this? ‘The fire’ will be the same, essentially the same,
+                    to all that are tormented therein—only perhaps more intense to some than others,
+                    according to their degree of guilt. But ‘their worm’ will not, cannot be the
+                    same. It will be infinitely varied according to the various kinds as well as
+                    degrees of wickedness. This variety will arise partly from the just judgment of
+                    God, ‘rewarding every man according to his works’.<note place="foot" xml:id="ftn29" n="29"><p rend="footnote text">Cf. Matt. 16:27.</p></note>
+                    For we cannot doubt but this rule will take place no less in hell than in
+                    heaven. As in heaven ‘every man will receive his own reward’, incommunicably his
+                    own, according to ‘his own labours’,<note place="foot" xml:id="ftn30" n="30"><p rend="footnote text">1 Cor. 3:8.</p></note> incommunicably his, that is,
+                    the whole tenor of his tempers, thoughts, words, and actions;<note place="foot" xml:id="ftn31" n="31"><p rend="footnote text">The phrase, ‘incommunicably
+                            his own, according to “his own labours”’, is omitted in <hi rend="italic">SOSO</hi> (1788) and subsequent edns.</p></note> so
+                    undoubtedly every man in fact will receive his own bad reward, according to his
+                    own bad labour. And this likewise will be incommunicably <hi rend="italic">his
+                        own</hi>, even as his labour was. Variety of punishment will likewise arise
+                    from the very nature of the thing. As they that bring most holiness to heaven
+                    will find most happiness there, so on the other hand it is not only true that
+                    the more wickedness a man brings to hell the more misery he will find there; but
+                    that this misery will be infinitely varied according to the various kinds of his
+                    wickedness. It was therefore proper to say ‘the fire’ in general, but ‘their
+                    worm’ in particular.</p>
+                <p n="4">4. But it has been questioned by some whether there be any fire in
+                    hell—that is, any material fire. Nay, if there be any fire it is unquestionably
+                    material. For what is immaterial fire? The same as immaterial water or earth!
+                    Both the one and the other is absolute nonsense, a contradiction in terms.
+                    Either therefore we must affirm it to be material, or we deny its existence. But
+                    if we <pb n="03:038"/>granted them there is no fire at all there, what would
+                    they gain thereby? Seeing this is allowed on all hands, that it is either fire
+                    or something worse. And consider this: does not our Lord speak <hi rend="italic">as if</hi> it were real fire? No one can deny or doubt of this. Is it
+                    possible then to suppose that the God of truth would speak in this manner if it
+                    were not so? Does he design to fright his poor creatures? What, with scarecrows?
+                    With vain shadows of things that have no being? O let not anyone think so!
+                    Impute not such folly to the Most High!</p>
+                <p n="5">5. But others aver ‘It is not possible that fire should burn always. For by
+                    the immutable law of nature it consumes whatever is thrown into it. And by the
+                    same law, as soon as it has consumed its fuel, it is itself consumed; it goes
+                    out.’</p>
+                <p>It is most true that in the present constitution of things, during the present
+                    laws of nature, the element of fire does dissolve and consume whatever is thrown
+                    into it. But here is the mistake: the present laws of nature are not
+                        immutable.<note place="foot" xml:id="ftn32" n="32"><p rend="footnote text">An echo of Malebranche’s ‘occasionalism’, which Wesley found more
+                            congenial for apologetic purposes than the Newtonian world-view of
+                            ‘[physical] laws’. Cf. Wesley’s letter to ‘John Smith’, June 25, 1746,
+                            §7; see also Malebranche’s <hi rend="italic">Treatise Concerning the
+                                Search After Truth</hi> (1964), VI.ii.3.</p></note> When the heavens
+                    and the earth shall flee away,<note place="foot" xml:id="ftn33" n="33"><p rend="footnote text">See Matt. 24:35, etc.</p></note> the present scene
+                    will be totally changed; and with the present constitution of things, the
+                    present laws of nature will cease. After this great change nothing will be
+                    dissolved, nothing will be consumed any more. Therefore if it were true that
+                    fire consumes all things now, it would not follow that it would do the same
+                    after the whole frame of nature has undergone that vast, universal change.</p>
+                <p n="6">6. I say, ‘If it were true that fire consumes <hi rend="italic">all
+                        things</hi> now.’ But indeed it is not true. Has it not pleased God to give
+                    us already some proof of what will be hereafter? Is not the <hi rend="italic">linum asbestum</hi>, the incombustible flax, known in most parts of
+                        Europe?<note place="foot" xml:id="ftn34" n="34"><p rend="footnote text">Chambers’s <hi rend="italic">Cyclopaedia</hi> has a two-column article
+                            on asbestos and Wesley has more than two pages on it in the <hi rend="italic">Survey</hi> (1777), II.319-21. See also Peter Sterry,
+                                <hi rend="italic">Free Grace Exalted</hi> (1670), p. 12: ‘They say
+                            of the Romans of old that they had a sort of linen that would not be
+                            burnt in the fire, and after they had burned their dead as was their
+                            custom, they took up the bones and wrapt them in that linen and therein
+                            burnt them to ashes unmixed from the common ashes.’ See also No. 54, ‘On
+                            Eternity’, §7 and n.</p></note> If you take a towel or handkerchief made
+                    of this (one of which may now be seen in the British Museum<note place="foot" xml:id="ftn35" n="35"><p rend="footnote text">In the <hi rend="italic">Survey</hi>, <hi rend="italic">ibid.</hi>, an experiment with the
+                            attempted burning of ‘a handkerchief of [asbestos]’ is reported. The
+                            reference to the British Museum applies to the Sir Hans Sloane
+                            Collection which, in Wesley’s time, was in the great buildings on Great
+                            Russell Street. In 1826 this collection (with the ‘towel or
+                            handkerchief’ to which Wesley refers) was transferred to the new Museum
+                            of Natural History on West Cromwell Road.</p></note>) you may throw it
+                    into the hottest <pb n="03:039"/>fire, and when it is taken out again it will be
+                    observed, upon the nicest experiment, not to have lost one grain of its weight.
+                    Here therefore is a substance before our eyes, which even in the present
+                    constitution of things (as if it were an emblem of things to come) may remain in
+                    fire without being consumed.</p>
+                <p n="7">7. Many writers have spoken of other bodily torments added to the being
+                    cast into the lake of fire. One of these, even pious Kempis, supposes that
+                    misers, for instance, have melted gold poured down their throats; and he
+                    supposes many other particular torments to be suited to men’s particular
+                        sins.<note place="foot" xml:id="ftn36" n="36"><p rend="footnote text">A
+                            puzzle; no such reference appears in Kempis, although there is a passage
+                            where it would have been relevant; cf. <hi rend="italic">Imitation</hi>,
+                            i.24 (see Wesley’s translation, <hi rend="italic">The Christian’s
+                                Pattern</hi>, 1735, pp. 56-61). Nor has any other likely source been
+                            located. For other references to Kempis, see No. 55, <hi rend="italic">On the Trinity</hi>, §1 and n.</p></note> Nay, our great poet
+                    himself supposes the inhabitants of hell to undergo variety of tortures; not to
+                    continue always in the lake of fire, but to be frequently ‘by harpy-footed
+                    furies haled’<note place="foot" xml:id="ftn37" n="37"><p rend="footnote text">Milton, <hi rend="italic">Paradise Lost</hi>, ii.596.</p></note> into
+                    regions of ice, and then back again through ‘extremes by change more
+                        fierce’.<note place="foot" xml:id="ftn38" n="38"><p rend="footnote text"><hi rend="italic">Ibid.</hi>, 599.</p></note> But I find no word, no
+                    tittle of this, not the least hint of it, in all the Bible. And surely this is
+                    too awful a subject to admit of such play of imagination. Let us keep to the
+                    written Word. It is torment enough to dwell with everlasting burnings.<note place="foot" xml:id="ftn39" n="39"><p rend="footnote text">Isa.
+                        33:14.</p></note></p>
+                <p n="8">8. This is strongly illustrated by a fabulous story, taken from one of the
+                    eastern writers, concerning a Turkish king who, after he had been guilty of all
+                    manner of wickedness, once did a good thing; for seeing a poor man falling into
+                    a pit, wherein he must have inevitably perished, and kicking him from it, he
+                    saved his life. The story adds that when for his enormous wickedness he was cast
+                    into hell, that foot wherewith he had saved the man’s life was permitted to lie
+                    out of the flames.<note place="foot" xml:id="ftn40" n="40"><p rend="footnote text">π; source not identified.</p></note> But allowing
+                    this to be a real case, what a poor comfort would it be! What if both feet were
+                    permitted to lie out of the flames, yea, and both hands, how little would it
+                    avail! Nay, if all the body were taken out, and placed where no fire touched it,
+                    and only one hand or one foot kept in a burning fiery furnace, would the man
+                    meantime be much at ease? Nay, quite the contrary. Is it not common to say to a
+                    child, ‘Put <pb n="003:040"/>your finger into that candle: can you bear it even
+                    for one minute? How then will you bear hell-fire!’ Surely it would be torment
+                    enough to have the flesh burnt off from only one finger. What then will it be to
+                    have the whole body plunged into a lake of fire burning with brimstone!<note place="foot" xml:id="ftn41" n="41"><p rend="footnote text">Rev.
+                        19:20.</p></note></p>
+            </div>
+            <div type="section" n="3">
+                <p n="0">III. It remains now only to consider two or three circumstances attending
+                    the never-dying worm and the unquenchable fire.</p>
+                <p n="1">1. And first consider the company wherewith everyone is surrounded in that
+                    place of torment. It is not uncommon to hear even condemned criminals in our
+                    public prisons say, ‘O! I wish I was hanged out of the way, rather than to be
+                    plagued with these wretches that are round about me.’ But what are the most
+                    abandoned wretches upon earth, compared to the inhabitants of hell? None of
+                    these are as yet perfectly wicked, emptied of every spark of good; certainly not
+                    till this life is at an end; probably not till the day of judgment. Nor can any
+                    of these exert without control their whole wickedness on their fellow-creatures.
+                    Sometimes they are restrained by good men; sometimes even by bad. So even the
+                    torturers in the Roman Inquisition are restrained by those that employ them when
+                    they suppose the sufferer cannot endure any more. They then order the
+                    executioners to forbear; because it is contrary to the rules of the house that a
+                    man should die upon the rack.<note place="foot" xml:id="ftn42" n="42"><p rend="footnote text">Wesley’s knowledge of the Inquisition, apart from
+                            the common store of anti-Roman lore from which this detail probably
+                            comes, was largely based on Michael Geddes, <hi rend="italic">A View of
+                                the Inquisition of Portugal; with a list of the Prisoners which came
+                                out of the Inquisitions of Lisbon, in an Act of Faith</hi> (1682),
+                            in <hi rend="italic">Miscellaneous Tracts</hi> (1730), I.385-443; and
+                            Samuel Chandler, <hi rend="italic">The History of Persecution</hi>
+                            (1736). See also Nos. 82, ‘On Temptation’, II.2; and 91, ‘On Charity’,
+                            III.10.</p></note> And very frequently, when there is no human help,
+                    they are restrained by God, who hath set them their bounds which they cannot
+                    pass, and saith, ‘Hitherto shall ye come, and no farther.’<note place="foot" xml:id="ftn43" n="43"><p rend="footnote text">Cf. Job 38:11.</p></note> Yea,
+                    so mercifully hath God ordained that the very extremity of pain causes a
+                    suspension of it. The sufferer faints away, and so (for a time at least) sinks
+                    into insensibility. But the inhabitants of hell are perfectly wicked, having no
+                    spark of goodness remaining. And they are restrained by none from exerting to
+                    the uttermost their total wickedness. Not by men; none will be restrained from
+                    evil by his companions in damnation. And not by God; for he hath forgotten them,
+                    hath <pb n="03:041"/>delivered them over to the tormentors.<note place="foot" xml:id="ftn44" n="44"><p rend="footnote text">See Matt. 18:34.</p></note>
+                    And the devils need not fear, like their instruments upon earth, lest they
+                    should expire under the torture. They can die no more: they are strong to
+                    sustain whatever the united malice, skill, and strength of angels can inflict
+                    upon them. And their angelic tormentors have time sufficient to vary their
+                    torments a thousand ways. How infinitely may they vary one single
+                    torment—horrible appearances! Whereby, there is no doubt, an evil spirit, if
+                    permitted, could terrify the stoutest man upon earth to death.</p>
+                <p n="2">2. Consider, secondly, that all these torments of body and soul are without
+                    intermission. They have no respite from pain; but ‘the smoke of their torment
+                    ascendeth up day and night.’<note place="foot" xml:id="ftn45" n="45"><p rend="footnote text">Cf. Rev. 14:11.</p></note> Day and night! That is
+                    speaking according to the constitution of the present world, wherein God has
+                    wisely and graciously ordained that day and night should succeed each other, so
+                    that in every four and twenty hours there comes a</p>
+                <lg>
+                    <l>Daily sabbath, made to rest</l>
+                    <l>Toiling man and weary beast.</l>
+                </lg>
+                <note place="foot" xml:id="ftn46" n="46">
+                    <p rend="footnote text">Mark Le Pla, <hi rend="italic">A Paraphrase on the Song
+                            of the Three Children,</hi> st. 21, ll. 7-8 (cf. Wesley, <hi rend="italic">A Collection of Moral and Sacred Poems</hi> [1744],
+                        II.119).</p>
+                </note>
+                <lg>
+                    <l>Hence we seldom undergo much labour, or suffer much pain, before</l>
+                    <l>Tired nature’s kind restorer, balmy sleep,</l>
+                </lg>
+                <note place="foot" xml:id="ftn47" n="47">
+                    <p rend="footnote text">Cf. Edward Young, <hi rend="italic">Night Thoughts</hi>,
+                        i.1 (Wesley, <hi rend="italic">A Collection of Moral and Sacred Poems</hi>
+                        [1744], II.229); ‘Tired Nature’s sweet restorer, balmy sleep!’</p>
+                </note>
+                <p>steals upon us by insensible degrees, and brings an interval of ease. But
+                    although the damned have uninterrupted night, it brings no interruption of their
+                    pain. No sleep accompanies that darkness: whatever either ancient or modern
+                    poets, either Homer or Milton, dream, there is no sleep either in hell or
+                        heaven.<note place="foot" xml:id="ftn48" n="48"><p rend="footnote text">See
+                            No. 51, <hi rend="italic">The Good Steward</hi>, II.10 and n.</p></note>
+                    And be their suffering ever so extreme, be their pain ever so intense, there is
+                    no possibility of their fainting away—no, not for a moment.</p>
+                <p>Again. The inhabitants of earth are frequently diverted from attending to what is
+                    afflictive by the cheerful light of the sun, the vicissitudes of the seasons,
+                    ‘the busy hum of men’,<note place="foot" xml:id="ftn49" n="49"><p rend="footnote text">Milton, <hi rend="italic">L’Allegro</hi>, l. 118.
+                            Cf. Wesley’s Preface to <hi rend="italic">Sermons</hi> (1746), §5, where
+                            he speaks of ‘the busy ways of men’.</p></note> and a <pb n="03:042"/>thousand objects that roll around them with endless variety. But the
+                    inhabitants of hell have nothing to divert them from their torments even for a
+                    moment:</p>
+                <l>Total eclipse: no sun, no moon!</l><note place="foot" xml:id="ftn50" n="50"><p rend="footnote text">George Frederick Handel, <hi rend="italic">Samson, An
+                            Oratorio</hi> (1742):</p><p rend="Verse">Total eclipse: No sun, no
+                        moon,</p><p rend="Verse">All dark amidst the blaze of noon!</p><p rend="footnote text">Cf. Milton, <hi rend="italic">Samson Agonistes</hi>,
+                        ll. 80-81.</p></note>— <p n="">no change of seasons or of companions.<note place="foot" xml:id="ftn51" n="51"><p rend="footnote text">See above, I.2:
+                            ‘no friendship in hell’.</p></note> There is no business, but one
+                    uninterrupted scene of horror, to which they must be all attention. They have no
+                    interval of inattention or stupidity: they are all eye, all ear, all sense.
+                    Every instant of their duration it may be said of their whole frame that they
+                    are</p>
+                <lg><l>…tremblingly alive all o’er,</l>
+                    <l>And smart and agonize at every pore.</l></lg><note place="foot" xml:id="ftn52" n="52"><p rend="footnote text">Pope, <hi rend="italic">Essay on
+                            Man</hi>, i.197-98.</p></note>
+                <p n="3">3. And of this duration <hi rend="italic">there is no end</hi>! What a
+                    thought is this! Nothing but eternity is the term of their torment! And who can
+                    count the drops of rain, or the sands of the sea, or the days of eternity? Every
+                    suffering is softened if there is any hope, though distant, of deliverance from
+                    it. But here,</p>
+                <l>Hope never comes, that comes to all</l><note place="foot" xml:id="ftn53" n="53"><p rend="footnote text">Milton, <hi rend="italic">Paradise Lost</hi>,
+                        i.66-67; see also No. 84, <hi rend="italic">The Important Question</hi>,
+                        II.7.</p></note>
+                <p>the inhabitants of the upper world! What, sufferings never do end!</p>
+                <lg><l>Never! Where sinks the soul at that dread sound!</l>
+                    <l>Into a gulf how dark, and how profound!</l></lg><note place="foot" xml:id="ftn54" n="54"><p rend="footnote text">Cf. <hi rend="italic">The Last
+                            Day</hi>, iii.156-57; see No. 54, ‘On Eternity’, §15 and n.</p></note>
+                <p>Suppose millions of days, of years, of ages elapsed; still we are only on the
+                    threshold of eternity! Neither the pain of body nor of soul is any nearer at an
+                    end than it was millions of ages ago. When they are once cast into τὸ πῦρ τὸ
+                        ἄσβεστον<note place="foot" xml:id="ftn55" n="55"><p rend="footnote text">Mark 9:43.</p></note> (how emphatical!),<note place="foot" xml:id="ftn56" n="56"><p rend="footnote text">Cf. No. 72, ‘Of Evil Angels’,
+                            II.10.</p></note> ‘the fire, the unquenchable’, all is concluded: ‘their
+                    worm dieth not, and the fire is not quenched!’<note place="foot" xml:id="ftn57" n="57"><p rend="footnote text">Mark 9:44, 46, 48. Cf. No. 15, <hi rend="italic">The Great Assize</hi>, III.1, where endless torment is
+                            also affirmed.</p></note></p>
+                <p><pb n="03:043"/>Such is the account which the Judge of all<note place="foot" xml:id="ftn58" n="58"><p rend="footnote text">Heb. 12:23.</p></note> gives
+                    of the punishment which he has ordained for impenitent sinners. And what a
+                    counterbalance may the consideration of this be to the violence of any
+                    temptation! In particular to the fear of man, the very use to which it is
+                    applied by our Lord himself. ‘Be not afraid of them that kill the body, and
+                    after that have no more that they can do: but fear him who after he hath killed
+                    hath power to cast into hell.’<hi rend="endnote_reference"><note place="end"><p rend="endnote text">Luke 12:4-5.</p></note></hi></p>
+                <p>What a guard may these considerations be against any temptation from
+                    pleasure! Will you lose, for any of these poor, earthly pleasures which perish
+                    in the using (to say nothing of the present substantial pleasures of religion),
+                    the pleasures of paradise, such ‘as eye hath not seen, nor ear heard, neither
+                    hath it entered into our hearts to conceive’?<note place="foot" xml:id="ftn59" n="59"><p rend="footnote text">Cf. 1 Cor. 2:9.</p></note> Yea, the pleasures
+                    of heaven, the society of angels, and of the spirits of just men made
+                        perfect,<note place="foot" xml:id="ftn60" n="60"><p rend="footnote text">Heb. 12:23.</p></note> the conversing face to face with God your
+                    Father, your Saviour, your Sanctifier, and the drinking of those rivers of
+                        pleasure<note place="foot" xml:id="ftn61" n="61"><p rend="footnote text">See
+                            Ps. 36:8.</p></note> that are at God’s right hand for evermore?<note place="foot" xml:id="ftn62" n="62"><p rend="footnote text">See Ps. 16:11
+                            (AV).</p></note></p>
+                <p>Are you tempted by pain either of body or mind? O compare present things
+                    with future. What is the pain of body which you do or may endure, to that of
+                    lying in a lake of fire burning with brimstone?<note place="foot" xml:id="ftn63" n="63"><p rend="footnote text">Rev. 19:20.</p></note> What is any pain of
+                    mind, any fear, anguish, sorrow, compared to ‘the worm that never dieth’? <hi rend="italic">That never dieth</hi>! This is the sting of all! As for our
+                    pains on earth, blessed be God, they are not eternal. There are some intervals
+                    to relieve, and there is some period to finish them. When we ask a friend that
+                    is sick how he does, ‘I am in pain now,’ says he, ‘but I hope to be easy soon.’
+                    This is a sweet mitigation of the present uneasiness. But how dreadful would his
+                    case be if he should answer: ‘I am all over pain, and I shall never be eased of
+                    it. I lie under exquisite torment of body and horror of soul; and I shall feel
+                    it for ever.’ Such is the case of the damned sinners in hell. Suffer any pain,
+                    then, rather than come into that place of torment.<note place="foot" xml:id="ftn64" n="64"><p rend="footnote text">See Luke 16:28.</p></note></p>
+                <p>I conclude with one more reflection, taken from Dr. Watts:</p>
+                <quote><pb n="03:044"/>It demands our highest gratitude that we who have long ago
+                    deserved this misery are not yet plunged into it, while there are thousands who
+                    have been adjudged to this place of punishment before they had continued so long
+                    in sin as many of us have done. What an instance is it of divine goodness that
+                    we are not under this fiery vengeance! Have we not seen many sinners, on our
+                    right and left, cut off in their sins? And what but the tender mercy of God hath
+                    spared us week after week, month after month, and given us space for repentance?
+                    What shall we render unto the Lord for all his patience and long-suffering, even
+                    to this day? How often have we incurred the sentence of condemnation by our
+                    repeated rebellion against God? And yet we are still alive in his presence, and
+                    are hearing the words of hope and salvation. O let us look back and shudder at
+                    the thoughts of that dreadful precipice, on the edge of which we have so long
+                    wandered! Let us fly for refuge to the hope that is set before us, and give a
+                    thousand thanks to the divine mercy that we are not plunged into this
+                        perdition.<note place="foot" xml:id="ftn65" n="65"><p rend="footnote text">An abridgement and paraphrase of Watts’s longer and more graceful
+                            ‘Reflection V’, in his Discourse XII, ‘The Nature of the Punishments in
+                            Hell’ (on Mark 9:46), in <hi rend="italic">The World to Come…</hi>; see
+                                <hi rend="italic">Works</hi>, I.724.</p></note></quote>
+            </div>
+            <p>Newport, Isle of Wight, <date when="1782-10-10">Oct. 10, 1782</date><note place="foot" xml:id="ftn66" n="66"><p rend="footnote text">Place and date as in
+                            <hi rend="italic">AM</hi>.</p></note></p>
+        </body>
+    </text>
+</TEI>

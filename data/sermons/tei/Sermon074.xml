@@ -1,0 +1,691 @@
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Sermon 74: Of the Church</title>
+                <author>Wesley, John</author>
+                <editor role="text">Van Buskirk, Gregory P.</editor>
+                <editor role="digital">Taylor, Michelle M.</editor>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>The Wesley Works Digitzation Project</publisher>
+                <pubPlace>Tampa, FL</pubPlace>
+                <date>2024-02-25</date>
+             <idno type="URI">https://wesleyworks.ecdsdev.org/sermons/Sermon074</idno>                        
+            </publicationStmt>
+            <sourceDesc>
+                <listBibl>
+                    <biblStruct>
+                        <analytic>
+                            <title level="a">Sermon 74: Of the Church</title>
+                        </analytic>
+                        <monogr>
+                            <title level="j">The Works of John Wesley, Volume III: Sermons III,
+                                71-114</title>
+                            <editor role="volume">Outler, Albert</editor>
+                            <imprint>
+                                <publisher>Abingdon Press</publisher>
+                                <pubPlace>Nashville, TN</pubPlace>
+                                <date when="1986-11-01">1986-11-01</date>
+                                <biblScope unit="volume" n="3"/>
+                                <biblScope unit="page" from="30" to="31"/>
+                                <biblScope unit="page" from="31" to="44"/>
+                            </imprint>
+                        </monogr>
+                        <series>
+                            <title level="s">The Works of John Wesley</title>
+                            <editor role="general">Baker, Frank</editor>
+                        </series>
+                    </biblStruct>
+                </listBibl>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Greg Van Buskirk created Word docs for all of Wesley's sermons using a combination of
+                OCR software and manual proofing. Michelle Taylor converted these docx into XML
+                using Oxygen's DITA automatic transformation scenario, then touched them up
+                manually.</p>
+        </encodingDesc>
+        <standOff>
+            <taxonomy>
+                <keywords>
+                    <term/>
+                </keywords>
+            </taxonomy>
+            <!--Include keywords and terms here eventually.-->
+        </standOff>
+        <revisionDesc/>
+    </teiHeader>
+    <text>
+        <body>
+            <pb n="03:045"/>
+            <introduction>
+                <head>
+                    <hi rend="italic">An Introductory Comment [to Sermon 74]</hi>
+                </head>
+                <p>Wesley spent the month of September 1785 in and around Bristol. This was the year
+                    after the Deed of Declaration and after Wesley’s ‘ordinations’ of Coke,
+                    Whatcoat, and Vasey for their ministries in America. The Deed and the
+                    ordinations had been widely taken, not without reason, as portents of separation
+                    from the Church of England,<note place="foot" xml:id="ftn1" n="1">
+                        <p rend="footnote text">Cf. Frank Baker, <hi rend="italic">John Wesley and
+                                the Church of England</hi>, chs. 13-16.</p>
+                    </note> despite Wesley’s
+                    oft-repeated disavowals of all such intentions. Indeed, the <hi rend="italic">Journal</hi> entry for Sunday, September 4, tells us of his reaction to
+                    this continuing suspicion: ‘Finding a report had been spread abroad that I was
+                    going to leave the Church, to satisfy those that were grieved concerning it, I
+                    openly declared in the evening that I had now no more thought of separating from
+                    the Church than I had forty years ago.’<note place="foot" xml:id="ftn2" n="2">
+                        <p rend="footnote text">JWJ, Sept. 4-30, 1785.</p>
+                    </note> He went beyond
+                    the ‘open declaration’; he began to write this sermon, ‘Of the Church,’ the
+                    first written summary of his ecclesiology. It was finished on September 28, and
+                    published in the <hi rend="italic">Arminian Magazine</hi> for the following
+                    January and February (1786), IX.8-15, 71-75, without a title but numbered as
+                    ‘Sermon XXXI.’ Tyerman omits it from his list of Wesley’s ‘original sermons [for
+                    the year 1785] which are well worth reading’ (<hi rend="italic">Life of
+                        Wesley</hi>, III.470). Wesley’s reasons for its particular placement in <hi rend="italic">SOSO</hi>, VI.171-90, can only be conjectured. It was not
+                    reprinted in his lifetime.</p>
+                <p>One is bound to be impressed by Wesley’s wholly unselfconscious assumption that,
+                    even after all he had done that would inevitably lead to separation, he was, and
+                    always had been, a devoted and loyal Anglican. He speaks quite naturally of ‘our
+                    [Anglican] liturgy’, as when he cites the eucharistic prayer ‘for the whole
+                    state of Christ’s church militant here on earth’ (§5). His personal definition
+                    of <hi rend="italic">church</hi> (§14) is, or so he claims, ‘exactly agreeable
+                    to the nineteenth article of <hi rend="italic">our church</hi>’ (§16), although
+                    he feels free to interpret this article more comprehensively than its authors
+                    had ever intended.<note place="foot" xml:id="ftn3" n="3">
+                        <p rend="footnote text">So as, e.g., §§17-19, to include in ‘the church’ all true believers
+                            among the Dissenting churches, and even those in the Church of
+                        Rome.</p>
+                    </note> However, his final conclusions are <pb n="03:046"/>neither
+                    Anglican, Lutheran, nor Calvinist. The essence of the church, for Wesley, need
+                    not be sought in its visible institutions, not even some invisible <hi rend="italic">numerus electorum</hi>. The church as Body of Christ is the
+                    company of all true believers, ‘holy’ because its members are themselves holy
+                    (§28). This is, therefore, an unstable blend of Anglican and Anabaptist
+                    ecclesiologies; it is also one of Wesley’s more daring syntheses. Its
+                    outworkings in the subsequent histories of Methodist and Anglican ecclesiology
+                    have yet to be probed as deeply as they deserve, which is also to say that its
+                    ecumenical significance has yet to be fully appreciated.</p>
+            </introduction>
+            <head>Of the Church</head>
+            <epigraph>
+                <p>Ephesians 4:1-6</p>
+                <p>
+                    <hi rend="italic">I beseech you that ye walk worthy of the vocation wherewith ye
+                        are called, with all lowliness and meekness, with long-suffering, forbearing
+                        one another in love; endeavouring to keep the unity of the Spirit in the
+                        bond of peace. There is one body, and one Spirit, even as ye are called in
+                        one hope of your calling; one Lord, one faith, one baptism; one God and
+                        Father of all, who is above all, and through all, and in you all.</hi>
+                </p>
+            </epigraph>
+            <div type="introduction">
+                <p n="1">1. How much do we almost continually hear about the Church! With many it is
+                    matter of daily conversation. And yet how few understand what they talk of! How
+                    few know what the term means! A more ambiguous word than this, the ‘church’, is
+                    scarce to be found in the English language. It is sometimes taken for a building
+                    set apart for public worship, sometimes for a congregation or body of people
+                    united together in the service of God. It is only in the latter sense that it is
+                    taken in the ensuing discourse.</p>
+                <p n="2">2. It may be taken indifferently for any number of people, how small or
+                    great soever. As ‘where two or three are met together in his name’,<note place="foot" xml:id="ftn4" n="4">
+                        <p rend="footnote text">Cf. Matt.
+                            18:20.</p>
+                    </note> there is Christ; so (to speak with St. Cyprian) ‘where
+                    two or three believers are met together, there is a church.’<note place="foot" xml:id="ftn5" n="5">
+                        <p rend="footnote text">Cyprian, <hi rend="italic">On
+                                the Unity of the Church</hi>, xii (<hi rend="italic">Fathers of the
+                                Church</hi>, New York, 1947, XXXVI.107; cf. also <hi rend="italic">Ancient Christian Writers</hi>, London, 1957, 25:54-55).</p>
+                    </note>
+                    Thus <pb n="03:047"/>it is that St. Paul, writing to Philemon, mentions ‘the
+                    church which is in his house’;<note place="foot" xml:id="ftn6" n="6">
+                        <p rend="footnote text">Philem. 2; cf. Col. 4:15.</p>
+                    </note> plainly
+                    signifying that even a Christian family may be termed a church.</p>
+                <p n="3">3. Several of those whom God had ‘called out’ of the world (so the original
+                    word properly signifies),<note place="foot" xml:id="ftn7" n="7">
+                        <p rend="footnote text">Wesley here assumes the lexical kinship of κλήσεως
+                            ἐκλήθητε (Eph. 4:1) and ἐκκλησία with their common verbal root, καλέω.
+                            But see K. L. Schmidt, ‘ἐκκλησία’ in Gerhard Kittel, ed., <hi rend="italic">Theological Dictionary of the New Testament</hi>; cf.
+                            ‘καλέω’, <hi rend="italic">ibid.</hi>
+                        </p>
+                    </note> united together in one
+                    congregation, formed a larger church: as the church at Jerusalem, that is, all
+                    those in Jerusalem whom God had so called. But considering how swiftly these
+                    were multiplied after the day of Pentecost, it cannot be supposed that they
+                    could continue to assemble in one place; especially as they had not then any
+                    large place, neither would they have been permitted to build one. In consequence
+                    they must have divided themselves, even at Jerusalem, into several distinct
+                    congregations. In like manner, when St. Paul several years after wrote to the
+                    church in Rome (directing his letter ‘to all that are in Rome, called to be
+                        saints’)<note place="foot" xml:id="ftn8" n="8">
+                        <p rend="footnote text">Rom.
+                            1:7.</p>
+                    </note> it cannot be supposed that they had any one building
+                    capable of containing them all; but they were divided into several
+                    congregations, assembling in several parts of the city.</p>
+                <p n="4">4. The first time that the Apostle uses the word ‘church’ is in his preface
+                    to the former Epistle to the Corinthians: ‘Paul, called to be an apostle of
+                    Jesus Christ, unto the church of God which is at Corinth’; the meaning of which
+                    expression is fixed by the following words, ‘to them that are sanctified in
+                    Christ Jesus, with all that in every place’ (not Corinth only; so it was a kind
+                    of circular letter) ‘call upon the name of Jesus Christ our Lord, both yours and
+                        ours’.<note place="foot" xml:id="ftn9" n="9">
+                        <p rend="footnote text">Cf. 1
+                            Cor. 1:1-2.</p>
+                    </note> In the inscription of his second letter to the
+                    Corinthians he speaks still more explicitly: ‘Unto the church of God which is at
+                    Corinth, with all the saints that are in all Achaia’.<note place="foot" xml:id="ftn10" n="10">
+                        <p rend="footnote text">2 Cor. 1:1.</p>
+                    </note> Here he
+                    plainly includes all the churches or Christian congregations which were in the
+                    whole province.</p>
+                <p n="5">5. He frequently uses the word in the plural number. So Gal. 1:2:’Paul, an
+                    apostle, …unto the churches of Galatia’—that is, the Christian congregations
+                    dispersed throughout that country. In all these places (and abundantly more
+                    might be cited) the word church or churches means, not the buildings where the
+                        <pb n="03:048"/>Christians assembled (as it frequently does in the English
+                    tongue) but the people that used to assemble there—one or more Christian
+                    congregations. But sometimes the word ‘church’ is taken in Scripture in a still
+                    more extensive meaning, as including all the Christian congregations that are
+                    upon the face of the earth. And in this sense we understand it in our
+                        liturgy<note place="foot" xml:id="ftn11" n="11">
+                        <p rend="footnote text">Note
+                            this unselfconscious citation of the BCP as ‘our’.</p>
+                    </note> when we
+                    say, ‘Let us pray for the whole state of Christ’s church militant here on
+                        earth.’<note place="foot" xml:id="ftn12" n="12">
+                        <p rend="footnote text">‘The
+                            Prayer for the Church’ in the BCP, Communion.</p>
+                    </note> In this sense
+                    it is unquestionably taken by St. Paul in his exhortation to the elders of
+                    Ephesus, ‘Take heed to the church of God, which he hath purchased with his own
+                        blood.’<hi rend="endnote_reference">
+                        <note place="end">
+                            <p rend="endnote text">Acts 20:28.</p>
+                        </note>
+                    </hi> The ‘church’ here undoubtedly means the
+                    catholic or universal church, that is, all the Christians under heaven.</p>
+                <p n="6">6. Who those are that are properly ‘the church of God’ the Apostle shows at
+                    large, and that in the clearest and most decisive manner, in the passage above
+                    cited; wherein he likewise instructs all the members of the church how to ‘walk
+                    worthy of the vocation wherewith they are called’.<note place="foot" xml:id="ftn13" n="13">
+                        <p rend="footnote text">Cf. Eph. 4:1.</p>
+                    </note>
+                </p>
+            </div>
+            <div type="section" n="1">
+                <p n="7">[I.]<note place="foot" xml:id="ftn14" n="14">
+                        <p rend="footnote text">Wesley’s basic division of this sermon is by consecutively numbered
+                            sections, but he apparently intended to introduce a parallel numbering
+                            of three major divisions, prefixing ‘II’ to §20, which would imply an
+                            omitted ‘I’ at this point and ‘III’ at §27.</p>
+                    </note> 7. Let us
+                    consider, first, who are properly ‘the church of God’? What is the true meaning
+                    of that term? ‘The church at Ephesus’, as the Apostle himself explains it,
+                    means, ‘the saints’, the holy persons, ‘that are in Ephesus’,<note place="foot" xml:id="ftn15" n="15">
+                        <p rend="footnote text">Eph. 1:1.</p>
+                    </note> and there
+                    assemble themselves together to worship God the Father and his Son Jesus
+                    Christ—whether they did this in one, or (as we may probably suppose) in several
+                    places. But it is the church in general, the catholic or universal church, which
+                    the Apostle here considers as ‘one body’; comprehending not only the Christians
+                    ‘in the house of Philemon’,<note place="foot" xml:id="ftn16" n="16">
+                        <p rend="footnote text">Cf. Philem 2.</p>
+                    </note> or any one family; not
+                    only the Christians of one congregation, of one city, of one province or nation;
+                    but all the persons upon the face of the earth who answer the character here
+                    given. The several particulars contained therein we may now more distinctly
+                    consider.</p>
+                <p n="8">8. ‘There is one Spirit’ who animates all these, all the living <pb n="03:049"/>members of the church of God. Some understand hereby the Holy
+                    Spirit himself, the fountain of all spiritual life. And it is certain, ‘If any
+                    man have not the Spirit of Christ, he is none of his.’<note place="foot" xml:id="ftn17" n="17">
+                        <p rend="footnote text">Rom. 8:9.</p>
+                    </note> Others
+                    understand it of those spiritual gifts and holy dispositions which are afterward
+                    mentioned.</p>
+                <p n="9">9. ‘There is’, in all those that have received this Spirit, ‘one hope’, a
+                    hope full of immortality.<note place="foot" xml:id="ftn18" n="18">
+                        <p rend="footnote text">Wisd. 3:4; cf. No. 72, ‘Of Evil Angels’, II.4 and
+                            n. Also note the echoes here of the older debates between the Quakers
+                            and the Anglicans.</p>
+                    </note> They know, to die is not to be lost: their
+                    prospect extends beyond the grave. They can cheerfully say, ‘Blessed be the God
+                    and Father of our Lord Jesus Christ, who, according to his abundant mercy, hath
+                    begotten us again unto a lively hope by the resurrection of Jesus Christ from
+                    the dead, to an inheritance incorruptible, and undefiled, and that fadeth not
+                        away.’<note place="foot" xml:id="ftn19" n="19">
+                        <p rend="footnote text">1
+                            Pet. 1:3-4.</p>
+                    </note>
+                </p>
+                <p n="10">10. ‘There is one Lord’ who has now dominion over them, who has set up his
+                    kingdom in their hearts, and reigns over all those that are partakers of this
+                    hope. To obey him, to run the way of his commandments, is their glory and joy.
+                    And while they are doing this with a willing mind they, as it were, ‘sit in
+                    heavenly places with Christ Jesus’.<note place="foot" xml:id="ftn20" n="20">
+                        <p rend="footnote text">Cf. Eph. 2:6.</p>
+                    </note>
+                </p>
+                <p n="11">11. ‘There is one faith,’ which is the free gift of God, and is the ground
+                    of their hope. This is not barely the faith of a heathen;<note place="foot" xml:id="ftn21" n="21">
+                        <p rend="footnote text">For Wesley’s categories of
+                            faith, see No. 1, <hi rend="italic">Salvation by Faith</hi>, I.2 and
+                            n.</p>
+                    </note> namely, a belief that ‘there is a God’, and that he is
+                    gracious and just, and consequently ‘a rewarder of them that diligently seek
+                        him’.<note place="foot" xml:id="ftn22" n="22">
+                        <p rend="footnote text">Heb.
+                            11:6.</p>
+                    </note> Neither is it barely the faith of a devil; though this
+                    goes much farther than the former. For the devil believes, and cannot but
+                    believe, all that is written both in the Old and New Testament to be true. But
+                    it is the faith of St. Thomas, teaching him to say with holy boldness, ‘My Lord
+                    and my God.’<note place="foot" xml:id="ftn23" n="23">
+                        <p rend="footnote text">John 20:28.</p>
+                    </note> It is the faith which enables every true
+                    Christian believer to testify with St. Paul, ‘The life which I now live I live
+                    by faith in the Son of God, who loved me and gave himself for me.’<note place="foot" xml:id="ftn24" n="24">
+                        <p rend="footnote text">Cf. Gal.
+                            2:20.</p>
+                    </note>
+                </p>
+                <p n="12">12. ‘There is one baptism,’ which is the outward sign our one Lord has
+                    been pleased to appoint of all that inward and spiritual grace which he is
+                    continually bestowing upon his church. It is likewise a precious means whereby
+                    this faith and hope are given to those that diligently seek him. Some indeed
+                    have been inclined <pb n="03:050"/>to interpret this in a figurative sense, as
+                    if it referred to that baptism of the Holy Ghost which the apostles received at
+                    the day of Pentecost, and which in a lower degree is given to all
+                        believers.<note place="foot" xml:id="ftn25" n="25">
+                        <p rend="footnote text">An allusion to the views of Quakers and pentecostalists who had either
+                            rejected sacramental baptism or had claimed that ‘the baptism of the
+                            Spirit’ superseded it.</p>
+                    </note> But it is a stated rule in
+                    interpreting Scripture never to depart from the plain, literal sense, unless it
+                    implies an absurdity.<note place="foot" xml:id="ftn26" n="26">
+                        <p rend="footnote text">For an earlier version of this basic hermeneutical
+                            principle, see No. 21, ‘Sermon on the Mount, I’, §6 and n.</p>
+                    </note>
+                    And beside, if we thus understood it, it would be a needless repetition, as
+                    being included in, ‘There is one spirit.’</p>
+                <p n="13">13. ‘There is one God and Father of all’ that have the Spirit of adoption,
+                    which ‘crieth in their hearts, Abba, Father’;<note place="foot" xml:id="ftn27" n="27">
+                        <p rend="footnote text">Cf. Gal. 4:6.</p>
+                    </note> which ‘witnesseth’
+                    continually ‘with their spirits’<note place="foot" xml:id="ftn28" n="28">
+                        <p rend="footnote text">Cf. Rom. 8:16.</p>
+                    </note> that they are the
+                    children of God; ‘who is above all’—the Most High, the Creator, the Sustainer,
+                    the Governor of the whole universe. ‘And through all’—pervading all space,
+                    filling heaven and earth:</p>
+                <lg>
+                    <l>
+                        <hi rend="italic">Totam</hi>
+                    </l>
+                    <l>
+                        <hi rend="italic">Mens agitans molem, et magno se corpore miscens.</hi>
+                        <note place="foot" xml:id="ftn29" n="29">
+                            <p rend="footnote text">Cf. Virgil, <hi rend="italic">Aeneid</hi>,
+                                vi.726-27:</p>
+                        </note>
+                    </l>
+                    <l>
+                        <hi rend="italic">Totamque infusa per artus</hi>
+                    </l>
+                    <l>
+                        <hi rend="italic">Mens agitat molem et magno se corpore miscet.</hi>
+                    </l>
+                    <l>The all-informing soul,</l>
+                    <l>That fills, pervades, and actuates the whole.</l>
+                </lg>
+                <p rend="footnote text">Cf. also Nos. 77, ‘Spiritual Worship’, I.6; 118, ‘On the
+                    Omnipresence of God’, II.1; <hi rend="italic">An Earnest Appeal</hi>, §19 (11:51
+                    in this edn.); and <hi rend="italic">The Doctrine of Original Sin</hi>, Pt. I,
+                    I.13.</p>
+                <p>‘And in you all’—in a peculiar manner living in you that are one body by one
+                    spirit:</p>
+                <lg>
+                    <l>Making your souls his loved abode,</l>
+                    <l>The temples of indwelling God.</l>
+                </lg>
+                <note place="foot" xml:id="ftn30" n="30">
+                    <p rend="footnote text">Cf. Charles Wesley, ‘Groaning for the Spirit of
+                        Adoption’, in John and Charles Wesley, <hi rend="italic">Hymns and Sacred
+                            Poems</hi> (1740), p. 132 (<hi rend="italic">Poet. Wks.</hi>,
+                        I.308).</p>
+                </note>
+                <p n="14">14. Here then is a clear unexceptionable answer to that question, What is
+                    the church? The catholic or universal church is all the persons in the universe
+                    whom God hath so called out of the world as to entitle them to the preceding
+                    character; as to be ‘one body’, united by ‘one spirit’; having ‘one faith, one
+                    hope, one baptism; one God and Father of all, who is above all, and through all,
+                    and in them all.’</p>
+                <p n="15">
+                    <pb n="03:051"/>15. That part of this great body, of the universal church,
+                    which inhabits any one kingdom or nation, we may properly term a ‘national’
+                    church, as the Church of France, the Church of England, the Church of Scotland.
+                    A smaller part of the universal church are the Christians that inhabit one city
+                    or town, as the church of Ephesus, and the rest of the seven churches mentioned
+                    in the Revelation. Two or three Christian believers united together are a church
+                    in the narrowest sense of the word. Such was the church in the house of
+                    Philemon, and that in the house of Nymphas, mentioned Col. 4:15. A particular
+                    church may therefore consist of any number of members, whether two or three, or
+                    two or three millions. But still, whether it be larger or smaller, the same idea
+                    is to be preserved. They are one body, and have one Spirit, one Lord, one hope,
+                    one faith, one baptism, one God and Father of all.</p>
+                <p n="16">16. This account is exactly agreeable to the nineteenth Article of our
+                    Church, the Church of England—only the Article includes a little more than the
+                    Apostle has expressed.</p>
+                <quote>Of the Church<lb/> The visible church of Christ is a congregation of faithful
+                    men, in which the pure word of God is preached, and the sacraments be duly
+                    administered.</quote>
+                <note place="foot" xml:id="ftn31" n="31">
+                    <p rend="footnote text">The first half of the first sentence of Art. XIX which,
+                        in turn, had been borrowed from Art. VIII of the <hi rend="italic">Augsburg
+                            Confession</hi> (1530).</p>
+                </note>
+                <p>It may be observed that at the same time our Thirty-nine Articles were compiled
+                    and published a Latin translation of them was published by the same authority.
+                    In this the words were <hi rend="italic">coetus credentium</hi>,<note place="foot" xml:id="ftn32" n="32">
+                        <p rend="footnote text">An interesting
+                            conflation here. The Latin text of the Article (1517) reads <hi rend="italic">coetus fidelium</hi>; but in Art. VIII of the <hi rend="italic">Augsburg Confession</hi> the church is defined as a
+                                <hi rend="italic">congregatio sanctorum et vere credentium</hi>. For
+                            evidence that Wesley preferred his conflated phrase, see <hi rend="italic">An Earnest Appeal</hi>, §76 (11:77 in this edn.); see
+                            also his letter to his brother Charles, Aug. 19, 1785. For the official
+                            texts of the Confession and of the Articles, see Philip Schaff, <hi rend="italic">Creeds</hi>, III.3-73, 486-516.</p>
+                    </note> ‘a
+                    congregation of believers’, plainly showing that by ‘faithful men’<note place="foot" xml:id="ftn33" n="33">
+                        <p rend="footnote text">This is English
+                            for <hi rend="italic">fidelium</hi>. Thus, it would seem that Wesley had
+                            both the Anglican Article and the Lutheran Confession somehow conflated
+                            in his mind.</p>
+                    </note> the compilers meant men endued with ‘living
+                        faith’.<note place="foot" xml:id="ftn34" n="34">
+                        <p rend="footnote text">The
+                            official texts (as in Arts. XII and XXIX) read ‘lively’ for ‘living’, as
+                            does ‘A Catechism’ in the BCP. ‘The Prayer for the Church’ in the Order
+                            of Holy Communion refers to God’s ‘true and lively Word’.</p>
+                    </note>
+                    This brings the Article to a still nearer agreement to the account given by the
+                    Apostle.</p>
+                <p>But it may be doubted whether the Article speaks of a <pb n="03:052"/>particular
+                    church or of the church universal. The title, ‘Of the Church’, seems to have
+                    reference to the catholic church. But the second clause of the Article mentions
+                    the particular churches of Jerusalem, Antioch, Alexandria, and Rome. Perhaps it
+                    was intended to take in both—so to define the universal church as to keep in
+                    view the several particular churches of which it is composed.</p>
+                <p n="17">17. These things being considered, it is easy to answer that question,
+                    What is ‘the Church of England’? It is that part, those members, of the
+                    universal church, who are inhabitants of England. The Church of England is that
+                    ‘body’ of men in England in whom ‘there is one Spirit, one hope, one Lord, one
+                    faith’, which have ‘one baptism’, and ‘one God and Father of all’. This and this
+                    alone is the Church of England, according to the doctrine of the Apostle.</p>
+                <p n="18">18. But the definition of a church laid down in the Article includes not
+                    only this but much more, by that remarkable addition, ‘in which the pure Word of
+                    God is preached, and the sacraments be duly administered’. According to this
+                    definition those congregations in which the pure Word of God (a strong
+                    expression) is not preached are no parts either of the Church of England or the
+                    church catholic. As neither are those in which the sacraments are not duly
+                    administered.</p>
+                <p n="19">19. I will not undertake to defend the accuracy of this definition. I dare
+                    not exclude from the church catholic all those congregations in which any
+                    unscriptural doctrines which cannot be affirmed to be ‘the pure Word of God’ are
+                    sometimes, yea, frequently preached. Neither all those congregations in which
+                    the sacraments are not ‘duly administered’. Certainly if these things are so the
+                    Church of Rome is not so much as a part of the catholic church; seeing therein
+                    neither is ‘the pure Word of God’ preached nor the sacraments ‘duly
+                    administered’. Whoever they are that have ‘one Spirit, one hope, one Lord, one
+                    faith, one God and Father of all’, I can easily bear with their holding wrong
+                    opinions, yea, and superstitious modes of worship. Nor would I on these accounts
+                    scruple still to include them within the pale of the catholic church. Neither
+                    would I have any objection to receive them, if they desired it, as members of
+                    the Church of England.<note place="foot" xml:id="ftn35" n="35">
+                        <p rend="footnote text">An echo of the same point about theological
+                            opinions already made in No. 39, ‘Catholic Spirit’, <hi rend="italic">passim</hi>. For Wesley’s pluralism and vision of ‘comprehension’
+                            cf. No. 7, ‘The Way to the Kingdom’, I.6 and n.</p>
+                    </note>
+                </p>
+            </div>
+            <div type="section" n="2">
+                <p n="20">
+                    <pb n="03:053"/>II.<note place="foot" xml:id="ftn36" n="36">
+                        <p rend="footnote text">See §7 above n. 11, p. 48.</p>
+                    </note> 20. We
+                    proceed now to the second point. What is it to ‘walk worthy of the vocation
+                    wherewith we are called’?</p>
+                <p>It should always be remembered that the word ‘walk’ in the language of the
+                    Apostle is of a very extensive signification. It includes all our inward and
+                    outward motions, all our thoughts, and words, and actions. It takes in not only
+                    everything we do, but everything we either speak or think. It is therefore no
+                    small thing to walk, in this sense of the word, ‘worthy of the vocation
+                    wherewith we are called’—to think, speak, and act, in every instance in a manner
+                    worthy of our Christian calling.</p>
+                <p n="21">21. We are called to walk, first, ‘with all lowliness’; to have that mind
+                    in us which was also in Christ Jesus,<note place="foot" xml:id="ftn37" n="37">
+                        <p rend="footnote text">See Phil. 2:5.</p>
+                    </note> not to think of ourselves
+                    more highly than we ought to think,<note place="foot" xml:id="ftn38" n="38">
+                        <p rend="footnote text">See Rom. 12:3.</p>
+                    </note> to be little, and poor,
+                    and mean, and vile in our own eyes; to know ourselves as also we are known<note place="foot" xml:id="ftn39" n="39">
+                        <p rend="footnote text">See 1 Cor.
+                            13:12.</p>
+                    </note> by him to whom all hearts are open;<note place="foot" xml:id="ftn40" n="40">
+                        <p rend="footnote text">BCP, Communion, Collect for
+                            Purity.</p>
+                    </note> to be deeply sensible of our own unworthiness, of the
+                    universal depravity of our nature (in which dwelleth no good thing<note place="foot" xml:id="ftn41" n="41">
+                        <p rend="footnote text">Rom.
+                        7:18.</p>
+                    </note>), prone to all evil, averse to all good, insomuch that we
+                    are not only sick but dead in trespasses and sins,<note place="foot" xml:id="ftn42" n="42">
+                        <p rend="footnote text">Eph. 2:1.</p>
+                    </note> till God
+                    breathes upon the dry bones,<note place="foot" xml:id="ftn43" n="43">
+                        <p rend="footnote text">See Ezek. 37:1-10.</p>
+                    </note> and creates life by
+                    the fruit of his lips.<note place="foot" xml:id="ftn44" n="44">
+                        <p rend="footnote text">See Isa. 57:19.</p>
+                    </note> And suppose this is
+                    done, suppose he has now quickened us, infusing life into our dead souls; yet
+                    how much of the carnal mind remains! How prone is our heart still to depart from
+                    the living God! What a tendency to sin remains in our heart, although we know
+                    our past sins are forgiven!<note place="foot" xml:id="ftn45" n="45">
+                        <p rend="footnote text">An echo of the problem of the residue of sin in
+                            believers; cf. No. 13, <hi rend="italic">On Sin in Believers</hi>,
+                            intro., I.6, III. 1-9, and n.</p>
+                    </note> And how much sin, in spite of
+                    all our endeavours, cleaves both to our words and actions! Who can be duly
+                    sensible how much remains in him of his natural enmity to God? Or how far he is
+                    still alienated from God by the ignorance that is in him?<note place="foot" xml:id="ftn46" n="46">
+                        <p rend="footnote text">See Eph. 4:18.</p>
+                    </note>
+                </p>
+                <p n="22">22. Yea, suppose God has now thoroughly cleansed our heart, and scattered
+                    the last remains of sin; yet how can we be sensible enough of our own
+                    helplessness, our utter inability to all good, unless we are every hour, yea,
+                    every moment, endued with power from on high? Who is able to think one good
+                    thought, or to form one good desire, unless by that Almighty power which worketh
+                    in <pb n="03:054"/>us both to will and to do of his good pleasure?<note place="foot" xml:id="ftn47" n="47">
+                        <p rend="footnote text">See Phil.
+                            2:13.</p>
+                    </note> We have need even in this state of grace to be
+                    thoroughly and continually penetrated with a sense of this. Otherwise we shall
+                    be in a perpetual danger of robbing God of his honour, by glorying in something
+                    we have received as though we had not received it.</p>
+                <p n="23">23. When our inmost soul is thoroughly tinctured therewith, it remains
+                    that we be ‘clothed with humility’.<note place="foot" xml:id="ftn48" n="48">
+                        <p rend="footnote text">1 Pet. 5:5.</p>
+                    </note> The word used by St. Peter
+                    seems to imply that we be covered with it as with a surtout;<note place="foot" xml:id="ftn49" n="49">
+                        <p rend="footnote text">A French loanword already
+                            defined by Johnson, <hi rend="italic">Dictionary</hi>, as ‘a large coat
+                            worn over all the rest’—which is to say, a mantle, as here.</p>
+                    </note>
+                    that we be all humility, both within and without, tincturing all we think,
+                    speak, and do. Let all our actions spring from this fountain; let all our words
+                    breathe this spirit; that all men may know we have been with Jesus, and have
+                    learned of him to be lowly in heart.</p>
+                <p n="24">24. And being taught of him who was meek as well as lowly in heart,<note place="foot" xml:id="ftn50" n="50">
+                        <p rend="footnote text">See Matt.
+                            11:29.</p>
+                    </note> we shall then be enabled to ‘walk with all meekness’,
+                    being taught of him who teacheth as never man taught,<note place="foot" xml:id="ftn51" n="51">
+                        <p rend="footnote text">See John 7:46.</p>
+                    </note> to
+                    be meek as well as lowly in heart. This implies not only a power over anger, but
+                    over all violent and turbulent passions. It implies the having all our passions
+                    in due proportion; none of them either too strong or too weak, but all duly
+                    balanced with each other, all subordinate to reason; and reason directed by the
+                    Spirit of God. Let this equanimity govern your whole souls, that your thoughts
+                    may all flow in an even stream, and the uniform tenor of your words and actions
+                    be suitable thereto. In this patience you will then ‘possess your souls’,<note place="foot" xml:id="ftn52" n="52">
+                        <p rend="footnote text">Cf. Luke
+                            21:19.</p>
+                    </note> which are not our own while we are tossed by unruly
+                    passions. And by this all men may know that we are indeed followers of the meek
+                    and lowly Jesus.</p>
+                <p n="25">25. Walk with all long-suffering. This is nearly related to meekness, but
+                    implies something more. It carries on the victory already gained over all your
+                    turbulent passions, notwithstanding all the powers of darkness, all the assaults
+                    of evil men or evil spirits. It is patiently triumphant over all opposition, and
+                    unmoved though all the waves and storms thereof go over you. Though provoked
+                    ever so often, it is still the same, quiet and unshaken; never being ‘overcome
+                    of evil, but overcoming evil with good’.<note place="foot" xml:id="ftn53" n="53">
+                        <p rend="footnote text">Cf. Rom. 12:21.</p>
+                    </note>
+                </p>
+                <p n="26">
+                    <pb n="03:055"/>26. The ‘forbearing one another in love’ seems to mean not
+                    only the not resenting anything, and the not avenging yourselves; not only the
+                    not injuring, hurting, or grieving each other, either by word or deed; but also
+                    the bearing one another’s burdens;<note place="foot" xml:id="ftn54" n="54">
+                        <p rend="footnote text">See Gal. 6:2.</p>
+                    </note> yea, and lessening them by
+                    every means in our power. It implies the sympathizing with them in their
+                    sorrows, afflictions, and infirmities; the bearing them up when without our help
+                    they would be liable to sink under their burdens; the endeavouring to lift their
+                    sinking heads, and to strengthen their feeble knees.<note place="foot" xml:id="ftn55" n="55">
+                        <p rend="footnote text">See Job 4:4.</p>
+                    </note>
+                </p>
+            </div>
+            <div type="section" n="3">
+                <p n="27">[III.]<note place="foot" xml:id="ftn56" n="56">
+                        <p rend="footnote text">See
+                            §7, above.</p>
+                    </note> 27. Lastly: the true members of the church of
+                    Christ ‘endeavour’, with all possible diligence, with all care and pains, with
+                    unwearied patience (and all will be little enough), ‘to keep the unity of the
+                    Spirit in the bond of peace’; to preserve inviolate the same spirit of lowliness
+                    and meekness, of long-suffering, mutual forbearance and love; and all these
+                    cemented and knit together by that sacred tie, the peace of God filling the
+                    heart. Thus only can we be and continue living members of that church which is
+                    the body of Christ.</p>
+                <p n="28">28. Does it not clearly appear from this whole account why, in the ancient
+                    Creed commonly called the Apostles’, we term the universal or catholic church,
+                    ‘the holy catholic church’? How many wonderful reasons have been found out for
+                    giving it this appellation! One learned man informs us, ‘The church is called
+                    holy because Christ the head of it is holy.’ Another eminent author affirms, ‘It
+                    is so called because all its ordinances are designed to promote holiness;’ and
+                    yet another, ‘Because our Lord <hi rend="italic">intended</hi> that all the
+                    members of the church should be holy.’<note place="foot" xml:id="ftn57" n="57">
+                        <p rend="footnote text">A drastic oversimplification of a complex
+                            question about the holiness of the church that runs back at least to
+                            Novatian and Cyprian, to the Donatists and Augustine, and which had
+                            become focused in the debate about ‘the <hi rend="italic">marks</hi> of
+                            the church’: i.e., ‘one, <hi rend="italic">holy</hi>, catholic, and
+                            apostolic’. Cf. Heinrich Schmid, <hi rend="italic">Doctrinal Theology of
+                                the Evangelical Lutheran Church</hi>, p. 588; and Heinrich Heppe,
+                                <hi rend="italic">Reformed Dogmatics</hi>, pp. 662-63. From his own
+                            time and tradition, Wesley is echoing the discussion of ‘The Holy
+                            Catholick Church’ in John Pearson’s magisterial <hi rend="italic">An
+                                Exposition of the Creed</hi> (1659), Art. IX, 343-45. Wesley’s own
+                            conclusion is closer to the Donatists and Anabaptists than to most of
+                            his fellow Anglicans; cf. Edmund Gibson, <hi rend="italic">Codex Juris
+                                Ecclesiastici Anglicani</hi> (1713), Title I, chs. i, vi.</p>
+                    </note>
+                    Nay, the shortest and the plainest reason that can be given, and the only true
+                    one, is: the church is called ‘holy’ because it is holy; because every member
+                    thereof is holy, though in different <hi rend="Page">[03:056]</hi>degrees, as he
+                    that called them is holy.<note place="foot" xml:id="ftn58" n="58">
+                        <p rend="footnote text">See 1 Pet. 1:15.</p>
+                    </note> How clear is this! If
+                    the church, as to the very essence of it, is a body of believers, no man that is
+                    not a Christian believer can be a member of it. If this whole body be animated
+                    by one spirit, and endued with one faith and one hope of their calling; then he
+                    who has not that spirit, and faith, and hope, is no member of this body. It
+                    follows that not only no common swearer, no sabbath-breaker, no drunkard, no
+                    whoremonger, no thief, no liar, none that lives in any outward sin; but none
+                    that is under the power of anger or pride, no lover of the world—in a word, none
+                    that is dead to God—can be a member of his church.</p>
+                <p n="29">29. Can anything then be more absurd than for men to cry out, ‘the Church!
+                    the Church!’<note place="foot" xml:id="ftn59" n="59">
+                        <p rend="footnote text">Cf.
+                            Wesley’s <hi rend="italic">Notes</hi> on Matt. 22:14: ‘Many hear [the
+                            Gospel], few believe. Yea, many are members of the visible but few of
+                                <hi rend="italic">the invisible church</hi>.’ In CWJ, Oct. 27, 1739,
+                            there is a complaint against ‘our modern Pharisees’ who keep only to a
+                            minimum of outward observances. ‘And yet these men cry out, “The Church!
+                            The Church!” when they themselves will not hear the church….’ This
+                            phrase (‘The Church! The Church!’) had been a popular mob outcry, as in
+                            the Sacheverell riots of 1709; cf. Thomas Hearne, <hi rend="italic">Reliquiae Hernianae</hi>, I.187-88 (Mar. 4, 1710), and in the Lord
+                            Gordon riots of 1780. Addison mentions the cry in <hi rend="italic">The
+                                Spectator</hi>, No. 567, July 14, 1714: ‘These people may cry,
+                            “Church, Church”, as long as they please, …but the proof of the pudding
+                            is in the eating.’</p>
+                    </note> and to pretend to be very zealous for it,
+                    and violent defenders of it; while they themselves have neither part nor lot
+                        therein,<note place="foot" xml:id="ftn60" n="60">
+                        <p rend="footnote text">See
+                            Acts 8:21.</p>
+                    </note> nor indeed know what the church is? And yet the
+                    hand of God is in this very thing! Even in this his wonderful wisdom appears,
+                    directing their mistake to his own glory, and causing ‘the earth to help the
+                        woman’.<note place="foot" xml:id="ftn61" n="61">
+                        <p rend="footnote text">Cf.
+                            Rev. 12:16.</p>
+                    </note> Imagining that they are members of it themselves,
+                    the men of the world frequently defend the church. Otherwise the wolves that
+                    surround the little flock on every side would in a short time tear them in
+                    pieces. And for this very reason it is not wise to provoke them more than is
+                    unavoidable. Even on this ground let us, if it be possible, as much as lieth in
+                    us, live peaceably with all men.<note place="foot" xml:id="ftn62" n="62">
+                        <p rend="footnote text">See Rom. 12:18.</p>
+                    </note> Especially as we know
+                    not how soon God may call them too out of the kingdom of Satan into the kingdom
+                    of his dear Son.<note place="foot" xml:id="ftn63" n="63">
+                        <p rend="footnote text">Col. 1:13.</p>
+                    </note>
+                </p>
+                <p n="30">30. In the meantime let all those who are real members of the church see
+                    that they walk holy and unblameable in all things. ‘Ye are the light of the
+                    world!’ Ye are ‘a city set upon a hill, and cannot <pb n="03:057"/>be hid. O let
+                    your light shine before men!’<note place="foot" xml:id="ftn64" n="64">
+                        <p rend="footnote text">Cf. Matt. 5:14, 16.</p>
+                    </note> Show them your faith
+                    by your works.<note place="foot" xml:id="ftn65" n="65">
+                        <p rend="footnote text">See Jas. 2:18.</p>
+                    </note> Let them see by the whole tenor of your
+                    conversation that your hope is all laid up above! Let all your words and actions
+                    evidence the spirit whereby you are animated! Above all things, let your love
+                        abound.<note place="foot" xml:id="ftn66" n="66">
+                        <p rend="footnote text">See
+                            Phil. 1:9.</p>
+                    </note> Let it extend to every child of man; let it
+                    overflow to every child of God. By this let all men know whose disciples ye are,
+                    because you love one another.<note place="foot" xml:id="ftn67" n="67">
+                        <p rend="footnote text">See John 13:35.</p>
+                    </note>
+                </p>
+            </div>
+            <p n="">Bristol, <date when="1785-09-28">Sept. 28, 1785</date>
+                <note place="foot" xml:id="ftn68" n="68">
+                    <p rend="footnote text">Place and date as in <hi rend="italic">AM</hi>.</p>
+                </note>
+            </p>
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,795 @@
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Sermon 72: Of Evil Angels</title>
+                <author>Wesley, John</author>
+                <editor role="text">Van Buskirk, Gregory P.</editor>
+                <editor role="digital">Taylor, Michelle M.</editor>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>The Wesley Works Digitzation Project</publisher>
+                <pubPlace>Tampa, FL</pubPlace>
+                <date>2024-02-25</date>
+             <idno type="URI">https://wesleyworks.ecdsdev.org/sermons/Sermon072</idno>                
+            </publicationStmt>
+            <sourceDesc>
+                <listBibl>
+                    <biblStruct>
+                        <analytic>
+                            <title level="a">Sermon 72: Of Evil Angels</title>
+                        </analytic>
+                        <monogr>
+                            <title level="j">The Works of John Wesley, Volume III: Sermons III,
+                                71-114</title>
+                            <editor role="volume">Outler, Albert</editor>
+                            <imprint>
+                                <publisher>Abingdon Press</publisher>
+                                <pubPlace>Nashville, TN</pubPlace>
+                                <date when="1986-11-01">1986-11-01</date>
+                                <biblScope unit="volume" n="3"/>
+                                <biblScope unit="page" from="3" to="4"/>
+                                <biblScope unit="page" from="16" to="29"/>
+                            </imprint>
+                        </monogr>
+                        <series>
+                            <title level="s">The Works of John Wesley</title>
+                            <editor role="general">Baker, Frank</editor>
+                        </series>
+                    </biblStruct>
+                </listBibl>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Greg Van Buskirk created Word docs for all of Wesley's sermons using a
+                combination of OCR software and manual proofing. Michelle Taylor converted these
+                docx into XML using Oxygen's DITA automatic transformation scenario, then touched
+                them up manually.</p>
+        </encodingDesc>
+        <standOff>
+            <taxonomy>
+                <keywords>
+                    <term/>
+                </keywords>
+            </taxonomy>
+            <!--Include keywords and terms here eventually.-->
+        </standOff>
+        <revisionDesc/>
+    </teiHeader>
+    <text>
+        <body>
+            <pb n="03:003"/>
+            <introduction>
+                <head>
+                    <hi rend="italic">An Introductory Comment [to Sermons 71-72]</hi>
+                </head>
+                <p>These twin essays in angelology were written as a single exercise in January
+                    1783, and then published in four successive instalments with texts but no titles
+                    in the <hi rend="italic">Arminian Magazine</hi>, 1783 (Vol. VI, January through
+                    April), under the rubric, ‘Original Sermons by the Rev. John Wesley, M. A.,
+                    Sermons XIII and XIV’. The paired sermons, with their present titles, were then
+                    published in <hi rend="italic">SOSO</hi>, VI.103-45, and not published again in
+                    Wesley’s lifetime.</p>
+                <p>He must have thought that he needed to say something about the place and role of
+                    angels in ‘the great chain of being’ which, along with the Christian Platonists,
+                    he conceived of as the general structure of creation (see No. 56, ‘God’s
+                    Approbation of His Works’, I.14 and n.). This would also help explain his
+                    placement of these sermons here, after his delineations of the limits of
+                    knowledge and reason. But angelology was not one of his prime interests; this is
+                    suggested by the fact that he had preached from Heb. 1:14 only three times
+                    before (in 1752, 1758, and 1782) and from Eph. 6:12 only once (in 1759); his
+                    other references to angels are few and scattered in his writings as a whole.</p>
+                <p>Wesley’s ideas here, with a single puzzling exception (see No. 72, ‘Of Evil
+                    Angels’, I.3), are unsurprisingly conventional. One finds much the same
+                    viewpoints in Anglican theology in the seventeenth and eighteenth centuries,
+                    usually in connection with a doctrine of Providence or other comments on ‘the
+                    ways of God to men’. However, there are two identifiable sources closer than
+                    others to Wesley’s basic arguments here; only their practical applications are
+                    clearly different. One of these is Bishop George Bull, <hi rend="italic">Some
+                        Important Points of Primitive Christianity</hi>, especially Sermons 11 and
+                    12. Note that Wesley has reversed Bull’s order. This would follow his other main
+                    source, Thomas Crane’s second chapter, ‘Of Good and Bad Angels’, in <hi rend="italic">Isagoge ad Dei Providentiam</hi>. And, of course, the great
+                    cosmic vision of <hi rend="italic">Paradise Lost</hi> stands in Wesley’s further
+                    background here. It is interesting that Wesley could not have known Milton’s
+                    chapter IX, ‘Of the Special Government of Angels’, in his posthumous <hi rend="italic">De Doctrina Christiana</hi>, since that was not published
+                    until 1825. But there is nothing in this part <pb n="03:004"/>of Milton’s
+                    ‘doctrine’ from which Wesley would have dissented. And, on a crucial point, that
+                    it was a majority of the angels who fell and enlisted under Satan’s banner,
+                    Milton’s scenario in <hi rend="italic">Paradise Lost</hi> is clearly decisive
+                    here.</p>
+            </introduction>
+            <pb n="03:016"/>
+            <head>Of Evil Angels</head>
+            <epigraph>
+                <p>Ephesians 6:12</p>
+                <p>
+                    <hi rend="italic">We wrestle not against flesh and blood, but against
+                        principalities, against powers, against the rulers of the darkness of this
+                        world, against wicked spirits</hi>
+                    <note place="foot" xml:id="ftn1" n="1">
+                        <p rend="footnote text">Translated thus in Wesley’s <hi rend="italic">Notes</hi>.</p>
+                    </note>
+                    <hi rend="italic">in heavenly places.</hi>
+                </p>
+            </epigraph>
+            <div type="introduction">
+                <p n="1">1. It has been frequently observed that there are no gaps or chasms in the
+                    creation of God, but that all the parts of it are admirably connected together,
+                    to make up one universal whole. Accordingly there is one chain of beings,<note place="foot" xml:id="ftn2" n="2">
+                        <p rend="footnote text">For other
+                            references to this favourite notion of Wesley’s, cf. No. 56, ‘God’s
+                            Approbation of His Works’, I.14 and n.</p>
+                    </note> from the lowest to the
+                    highest point, from an unorganized particle of earth or water to Michael the
+                    archangel. And the scale of creatures does not advance <hi rend="italic">per
+                        saltum</hi>,<note place="foot" xml:id="ftn3" n="3">
+                        <p rend="footnote text">The ‘fixity of species’ and their continuous gradation was a basic
+                            supposition of Aristotelian biology which Wesley still took for granted;
+                            cf. <hi rend="italic">Historia Animalium</hi>, VIII.588<hi rend="italic">a-b</hi>.</p>
+                    </note> by leaps, but by smooth and gentle degrees;
+                    although it is true, these are frequently imperceptible to our imperfect
+                    faculties. We cannot accurately trace many of the intermediate links of this
+                    amazing chain, which are abundantly too fine to be discerned either by our
+                    senses or understanding.</p>
+                <p n="2">2. We can only observe, in a gross and general manner, rising one above
+                    another, first, inorganical earth, then minerals and vegetables in their several
+                    orders; afterwards insects, reptiles, fishes, birds, beasts, men, and angels. Of
+                    angels indeed we know nothing with any certainty but by revelation. The accounts
+                    which are left by the wisest of the ancients, or given by the modern heathens,
+                    being no better than silly, self-inconsistent fables, too gross to be imposed
+                    even upon children. But by divine revelation we are informed that they were all
+                    created holy and happy; yet they did not all continue as they were created—some
+                    kept, but some left, their first estate. The former of these are now good
+                    angels; the latter, evil angels. Of the former I have spoken in a <pb n="03:017"/>preceding discourse; I purpose now to speak of the latter. And highly
+                    necessary it is that we should well understand what God has revealed concerning
+                    them, that they may gain no advantage over us by our ignorance, that we may know
+                    how to wrestle against them effectually. For ‘we wrestle not against flesh and
+                    blood, but against principalities, against powers, against the rulers of the
+                    darkness of this world, against wicked spirits in heavenly places.’</p>
+                <p n="3">3. This single passage seems to contain the whole Scripture doctrine
+                    concerning evil angels. I apprehend the plain meaning of it, literally
+                    translated, is this: ‘Our wrestling’, the wrestling of real Christians, ‘is not’
+                    only, or chiefly, ‘against flesh and blood’—weak men or fleshly appetites and
+                    passions—‘but against principalities, against powers’—the mighty <hi rend="italic">princes</hi> of all the infernal legions,<note place="foot" xml:id="ftn4" n="4">
+                        <p rend="footnote text">Jackson emended the original
+                            ‘legions’ to ‘regions’, and may have had a textual warrant, since he had
+                            before him Wesley’s annotated copy of <hi rend="italic">Sermons</hi>,
+                            Vol. VI, now missing.</p>
+                    </note> with their combined forces: and great
+                    is their <hi rend="italic">power</hi>, as is also the power of the legions which
+                    they command—‘against the rulers of the world’ (this is the literal meaning of
+                    the word). Perhaps these principalities and powers remain chiefly in the citadel
+                    of their kingdom. But there are other evil spirits that range abroad, to whom
+                    the provinces of the world are committed. ‘Of the darkness’—chiefly the
+                    spiritual darkness—‘of this age’—which prevails during this present state of
+                    things—‘against wicked spirits’—eminently such, who mortally hate and
+                    continually oppose holiness, and labour to infuse unbelief, pride, evil desire,
+                    malice, anger, hatred, envy, or revenge—‘in heavenly places’—which were once
+                    their abode, and which they still aspire after.</p>
+                <p>In prosecuting this important subject, I will endeavour to explain, first, the
+                    nature and properties of evil angels; and, secondly, their employment.</p>
+            </div>
+            <div type="section" n="1">
+                <p n="1">I. 1. With regard to the first, we cannot doubt but all the angels of God
+                    were originally of the same <hi rend="italic">nature</hi>. Unquestionably they
+                    were the highest order of created beings. They were spirits, pure, ethereal
+                    creatures, simple and incorruptible; if not wholly immaterial, yet certainly not
+                    encumbered with gross, earthly flesh and blood. As spirits they were endued with
+                    understanding, with affections, and with liberty, or a power of
+                    self-determination; so <pb n="03:018"/>that it lay in themselves either to
+                    continue in their allegiance to God or to rebel against him.</p>
+                <p n="2">2. And their original <hi rend="italic">properties</hi> were doubtless the
+                    same with those of the holy angels. There is no absurdity in supposing Satan,
+                    their chief, otherwise styled ‘Lucifer, son of the morning’,<note place="foot" xml:id="ftn5" n="5">
+                        <p rend="footnote text">Isa. 14:12.</p>
+                    </note> to have
+                    been at least ‘one of the first, if not the first Archangel’.<note place="foot" xml:id="ftn6" n="6">
+                        <p rend="footnote text">Milton, <hi rend="italic">Paradise Lost</hi>, v.659-60.</p>
+                    </note> Like the other sons of the
+                    morning, they had a height and depth of understanding quite incomprehensible to
+                    us. In consequence of this they had such knowledge and wisdom that the wisest of
+                    the children of men (had men then existed) would have been mere idiots in
+                    comparison of them. Their strength was equal to their knowledge, such as it
+                    cannot enter into our heart to conceive; neither can we conceive to how wide a
+                    sphere of action either their strength or their knowledge extended. Their number
+                    God alone can tell: doubtless it was only less than infinite. And a third part
+                    of these stars of heaven the arch-rebel drew after him.<note place="foot" xml:id="ftn7" n="7">
+                        <p rend="footnote text">See Rev. 12:4.</p>
+                    </note>
+                </p>
+                <p n="3">3. We do not exactly know (because it is not revealed in the oracles of
+                    God) either what was the occasion of their apostasy, or what effect it
+                    immediately produced upon them. Some have not improbably supposed that when God
+                    ‘published the decree’ (mentioned Psalm 2:6-7) concerning the kingdom of his
+                    only-begotten Son to be over all creatures, these first-born of creatures gave
+                    place to pride, comparing themselves to him (possibly intimated by the very name
+                    of Satan, Lucifer, or Michael, which means, ‘Who is like God?’).<note place="foot" xml:id="ftn8" n="8">
+                        <p rend="footnote text">
+                            <hi rend="italic">AM</hi> (1783) reads ‘Satan, Lucess, or Michael…’, obviously a
+                            printer’s error. In the errata to <hi rend="italic">AM</hi> and in his
+                            personal copy Wesley altered this to ‘Satan, successor of Michael’. For
+                                <hi rend="italic">SOSO</hi> (1788) he altered it yet again to the
+                            reading here preferred. This preference presupposes Wesley’s
+                            disagreement with traditional angelology, in which Satan and Lucifer are
+                            allied, and Michael has no such successor—cf. Rev. 12:7-9 and Isa.
+                            14:12-20 (AV); see also J. B. Russell, <hi rend="italic">Satan, the
+                                Early Christian Tradition</hi> (Cornell Univ. Press, 1981), pp. 67,
+                            131, 194. The problem of Wesley’s first alteration, however, still
+                            remains as an unaccountable anomaly.</p>
+                    </note> It may be, Satan, then
+                    first giving way to temptation, said in his heart, ‘I too will have my throne.
+                    “I will sit upon the sides of the north! I will be like the Most High.”’<note place="foot" xml:id="ftn9" n="9">
+                        <p rend="footnote text">Isa.
+                        14:13-14.</p>
+                    </note> But how did the mighty then fall!<note place="foot" xml:id="ftn10" n="10">
+                        <p rend="footnote text">See 2 Sam. 1:19, 25, 27. Cf.
+                            Charles Wesley’s hymn on Gen. 1:27<hi rend="italic">, Short Hymns on
+                                Select Passages of the Holy Scriptures</hi>: ‘How are the mighty
+                            fallen!’ (<hi rend="italic">Poet. Wks.</hi>, IX.2).</p>
+                    </note> What an
+                    amazing loss did they sustain! If we allow of them all, what our poet supposes
+                    concerning their chief in particular:</p>
+                <pb n="03:019"/>
+                <lg>
+                    <l>His form had not yet lost</l>
+                    <l>All its original brightness, nor appeared</l>
+                    <l>Less than archangel ruined, and the excess</l>
+                    <l>Of glory obscured;</l>
+                </lg>
+                <note place="foot" xml:id="ftn11" n="11">
+                    <p rend="footnote text">Cf. Milton, <hi rend="italic">Paradise Lost</hi>,
+                        i.591-94; and see No. 71, ‘Of Good Angels’, I.5 and n.</p>
+                </note>
+                <p>If we suppose their outward form was not entirely changed (though it must have
+                    been in a great degree, because the evil disposition of the mind must dim the
+                    lustre of the visage), yet what an astonishing change was wrought within when
+                    angels became devils, when the holiest of all the creatures of God became the
+                    most unholy!</p>
+                <p n="4">4. From the time that they shook off their allegiance to God they shook off
+                    all goodness, and contracted all those tempers which are most hateful to him,
+                    and most opposite to his nature. And ever since they are full of pride,
+                    arrogance, haughtiness, exalting themselves above measure; and although so
+                    deeply depraved through their inmost frame, yet admiring their own perfections.
+                    They are full of envy, if not against God himself (and even that is not
+                    impossible, seeing they formerly aspired after his throne), yet against all
+                    their fellow-creatures; against the angels of God, who now enjoy the heaven from
+                    which they fell; and much more against those worms of the earth who are now
+                    called to ‘inherit the kingdom’.<note place="foot" xml:id="ftn12" n="12">
+                        <p rend="footnote text">1 Cor. 6:9, etc.</p>
+                    </note> They are full of
+                    cruelty, of rage, against all the children of men, whom they long to inspire
+                    with the same wickedness with themselves, and to involve in the same misery.</p>
+                <p n="5">5. In the prosecution of this infernal design they are diligent in the
+                    highest degree. To find out the most effectual means of putting it into
+                    execution, they apply to this end the whole force of their angelical
+                    understanding. And they second it with their whole strength, so far as God is
+                    pleased to permit. But it is well for mankind that God hath set them their
+                    bounds which they cannot pass. He hath said to the fiercest and strongest of the
+                    apostate spirits, ‘Hitherto shalt thou come, and no farther.’<note place="foot" xml:id="ftn13" n="13">
+                        <p rend="footnote text">Job 38:11.</p>
+                    </note>
+                    Otherwise how easily and how quickly might one of them overturn the whole frame
+                    of nature! How soon would they involve all in one common ruin, or at least
+                    destroy man from the face of the earth!<note place="foot" xml:id="ftn14" n="14">
+                        <p rend="footnote text">Gen. 6:7.</p>
+                    </note> And they are indefatigable
+                    in their bad work: they never are faint or weary. Indeed it seems no spirits are
+                    capable of weariness but those that inhabit flesh and blood.</p>
+                <p n="6">
+                    <pb n="03:020"/>6. One circumstance more we may learn from the Scripture
+                    concerning the evil angels. They do not wander at large, but are all united
+                    under one common head. It is he that is styled by our blessed Lord, ‘the prince
+                    of this world’;<note place="foot" xml:id="ftn15" n="15">
+                        <p rend="footnote text">John 12:31; 14:30; 16:11.</p>
+                    </note> yea, the Apostle does not scruple
+                    to call him ‘the god of this world’.<note place="foot" xml:id="ftn16" n="16">
+                        <p rend="footnote text">2 Cor. 4:4.</p>
+                    </note> He is frequently styled
+                    ‘Satan’, the adversary, being the great adversary both of God and man. He is
+                    termed, ‘the devil’; by way of eminence, ‘Apollyon’,<note place="foot" xml:id="ftn17" n="17">
+                        <p rend="footnote text">Rev. 9:11; see also Matthew
+                            Poole, <hi rend="italic">Annotations</hi>; Matthew Henry, <hi rend="italic">Exposition</hi>; and Wesley, <hi rend="italic">Notes</hi>, on the meaning of the name (from ἀπολλύειν, to
+                            destroy). Wesley says: ‘Both Abaddon and Apollyon signify a destroyer.
+                            By this he [Apollyon] is distinguished from the dragon, whose proper
+                            name is Satan.’ But he would also have had in mind ‘the foul fiend’ in
+                            Bunyan’s <hi rend="italic">Pilgrim’s Progress</hi> who assaults
+                            Christian on his way through the Valley of Humiliation.</p>
+                    </note> or
+                    the destroyer; ‘the old serpent’,<note place="foot" xml:id="ftn18" n="18">
+                        <p rend="footnote text">Rev. 12:9; 20:2.</p>
+                    </note> from his beguiling Eve
+                    under that form; and ‘the angel of the bottomless pit’.<note place="foot" xml:id="ftn19" n="19">
+                        <p rend="footnote text">Rev. 9:11.</p>
+                    </note> We have
+                    reason to believe that the other evil angels are under his command; that they
+                    are ranged by him according to their several orders, that they are appointed to
+                    their several stations, and have from time to time their several works and
+                    offices assigned them. And undoubtedly they are connected (though we know not
+                    how; certainly not by love) both to him and to each other.</p>
+            </div>
+            <div type="section" n="2">
+                <p n="0">II. But what is the employment of evil angels? This is the second point to
+                    be considered.</p>
+                <p n="1">1. They are (remember! so far as God permits) κοσμοκράτορες,<note place="foot" xml:id="ftn20" n="20">
+                        <p rend="footnote text">Cf. Eph. 6:12,
+                            and the references in the intertestamental literature in Arndt and
+                            Gingrich, <hi rend="italic">Greek-English Lexicon</hi>. For Wesley’s
+                            satanocratic views, cf. No. 12, ‘The Witness of Our Own Spirit’, §10 and
+                            n.</p>
+                    </note> ‘governors of the world’! So that there may be more ground
+                    than we are apt to imagine for that strange expression of Satan when he had
+                    ‘showed’ our Lord ‘all the kingdoms of the world, and the glory of them’: ‘All
+                    these things will I give thee, if thou wilt fall down and worship me.’<hi rend="endnote_reference">
+                        <note place="end">
+                            <p rend="endnote text">Matt.
+                                4:8-9.</p>
+                        </note>
+                    </hi> It is a little more particularly expressed in
+                    the fourth chapter of St. Luke. ‘The devil showed unto him all the kingdoms of
+                    the world in a moment of time.’<note place="foot" xml:id="ftn21" n="21">
+                        <p rend="footnote text">Luke 4:5.</p>
+                    </note>
+                    <pb n="03:021"/>(Such an astonishing measure of power is still left in the
+                    prince of darkness!) ‘And the devil said, All this power will I give thee, and
+                    the glory of them: for that is delivered unto me; and to whomsoever I will, I
+                    give it.’<hi rend="endnote_reference">
+                        <note place="end">
+                            <p rend="endnote text">[Luke 4:] ver. 5, 6.</p>
+                        </note>
+                    </hi> They are ‘the rulers of the
+                    darkness of this age’<note place="foot" xml:id="ftn22" n="22">
+                        <p rend="footnote text">Eph. 6:12 (<hi rend="italic">Notes</hi>).</p>
+                    </note> (so the words are literally translated), of the
+                    present state of things, during which ‘the whole world lieth in the wicked
+                        one.’<note place="foot" xml:id="ftn23" n="23">
+                        <p rend="footnote text">1 John
+                            5:19 (<hi rend="italic">Notes</hi>).</p>
+                    </note> He is the element of the
+                    children of men only, those who fear God being excepted. He and his angels, in
+                    connection with, and in subordination to him, dispose all the ignorance, all the
+                    error, all the folly, and particularly all the wickedness of men, in such a
+                    manner as may most hinder the kingdom of God, and most advance the kingdom of
+                    darkness.</p>
+                <p n="2">2. ‘But has every man a particular evil angel as well as a good one
+                    attending him?’ This has been an exceeding ancient opinion both among the
+                    Christians and the Jews before them. But it is generally doubted whether it can
+                    be sufficiently proved from Scripture. Indeed it would not be improbable that
+                    there is a particular evil angel with every man, if we were assured there is a
+                    good one. But this cannot be inferred from those words of our Lord concerning
+                    little children, ‘In heaven their angels do continually see the face of their
+                    Father which is in heaven.’<note place="foot" xml:id="ftn24" n="24">
+                        <p rend="footnote text">Cf. Matt. 18:10.</p>
+                    </note> This only proves that
+                    there are angels who are appointed to take care of little children. It does not
+                    prove that a particular angel is allotted to every child. Neither is it proved
+                    by the words of Rhoda, who hearing the voice of Peter said, ‘It is his
+                        angel.’<note place="foot" xml:id="ftn25" n="25">
+                        <p rend="footnote text">Acts
+                            12:15.</p>
+                    </note> We cannot infer any more from this, even suppose ‘his
+                    angel’ means his guardian angel, than that Rhoda believed the doctrine of
+                    guardian angels, which was then common among the Jews. But still it will remain
+                    a disputable point (seeing revelation determines nothing concerning it) whether
+                    every man is attended either by a particular good or a particular evil
+                    angel.</p>
+                <p n="3">3. But whether or no particular men are attended by particular evil
+                    spirits, we know that Satan and all his angels are continually warring against
+                    us, and watching over every child of man. They are ever watching to see whose
+                    outward or inward circumstances, whose prosperity or adversity, whose health or
+                    sickness, whose <pb n="03:022"/>friends or enemies, whose youth or age, whose
+                    knowledge or ignorance, whose business or idleness, whose joy or sorrow, may lay
+                    them open to temptation. And they are perpetually ready to make the utmost
+                    advantage of every circumstance. These skilful wrestlers espy the smallest slip
+                    we make, and avail themselves of it immediately; as they also are ‘about our
+                    bed, and about our path, and spy out all our ways’.<note place="foot" xml:id="ftn26" n="26">
+                        <p rend="footnote text">Cf. Ps. 139:2
+                        (BCP).</p>
+                    </note> Indeed each of them ‘walketh about as a roaring lion,
+                    seeking whom he may devour’,<note place="foot" xml:id="ftn27" n="27">
+                        <p rend="footnote text">Cf. 1 Pet. 5:8.</p>
+                    </note> or whom he may ‘beguile
+                    through his subtlety, as the serpent beguiled Eve’.<note place="foot" xml:id="ftn28" n="28">
+                        <p rend="footnote text">Cf. 2 Cor. 11:3.</p>
+                    </note>
+                    Yea, and in order to do this the more effectually they transform themselves into
+                    angels of light. Thus</p>
+                <lg>
+                    <l>With rage that never ends</l>
+                    <l>Their hellish arts they try:</l>
+                    <l>Legions of dire, malicious fiends,</l>
+                    <l>And spirits enthroned on high.</l>
+                </lg>
+                <note place="foot" xml:id="ftn29" n="29">
+                    <p rend="footnote text">Charles Wesley, ‘Hymns for the Watch-night’, No. 8, st.
+                        7, ll. 5-8, in <hi rend="italic">Hymns and Sacred Poems</hi> (1749), II.130
+                            (<hi rend="italic">Poet. Wks.</hi>, V.272). See also, No. 83, ‘On
+                        Patience’, §2, where the first four lines of this stanza appear.</p>
+                </note>
+                <p n="4">4. It is by these instruments chiefly that the ‘foolish hearts’ of those
+                    that know not God ‘are darkened’;<note place="foot" xml:id="ftn30" n="30">
+                        <p rend="footnote text">Cf. Rom. 1:21.</p>
+                    </note> yea, they frequently
+                    darken in a measure the hearts of them that do know God. ‘The god of this world
+                    knows’ how to ‘blind our hearts,’<note place="foot" xml:id="ftn31" n="31">
+                        <p rend="footnote text">Cf. 2 Cor. 4:4.</p>
+                    </note> to spread a cloud over
+                    our understanding, and to obscure the light of those truths which at other times
+                    shine as bright as the noonday sun. By this means he assaults our faith, our
+                    evidence of things unseen.<note place="foot" xml:id="ftn32" n="32">
+                        <p rend="footnote text">See Heb. 11:1.</p>
+                    </note> He endeavours to weaken
+                    that hope full of immortality<note place="foot" xml:id="ftn33" n="33">
+                        <p rend="footnote text">Wisd. 3:4. For Wesley’s other uses of this text,
+                            cf. Nos. 74, ‘Of the Church’, §9; 87, ‘The Danger of Riches’, I.11,
+                            II.12; and 129, ‘Heavenly Treasure in Earthen Vessels’, I.3.</p>
+                    </note>
+                    to which God had begotten us,<note place="foot" xml:id="ftn34" n="34">
+                        <p rend="footnote text">See 1 Pet. 1:3.</p>
+                    </note> and thereby to lessen,
+                    if he cannot destroy, our joy in God our Saviour. But above all he strives to
+                    damp our love of God, as he knows this is the spring of all our religion, and
+                    that as this rises or falls the work of God flourishes or decays in the
+                    soul.</p>
+                <p n="5">5. Next to the love of God there is nothing which Satan so cordially abhors
+                    as the love of our neighbour. He uses therefore <pb n="03:023"/>every possible
+                    means to prevent or destroy this; to excite either private or public suspicions,
+                    animosities, resentment, quarrels; to destroy the peace of families or of
+                    nations, and to banish unity and concord from the earth. And this indeed is the
+                    triumph of his art; to embitter the poor, miserable children of men against each
+                    other, and at length urge them to do his own work, to plunge one another into
+                    the pit of destruction.<note place="foot" xml:id="ftn35" n="35">
+                        <p rend="footnote text">Ps. 55:23 (AV).</p>
+                    </note>
+                </p>
+                <p n="6">6. This enemy of all righteousness is equally diligent to hinder every good
+                    word and work. If he cannot prevail upon us to do evil he will, if possible,
+                    prevent our doing good. He is peculiarly diligent to hinder the work of God from
+                    spreading in the hearts of men. What pains does he take to prevent or obstruct
+                    the general work of God! And how many are his devices to stop its progress in
+                    particular souls!<note place="foot" xml:id="ftn36" n="36">
+                        <p rend="footnote text">Cf. No. 42, ‘Satan’s Devices’, <hi rend="italic">passim</hi>.</p>
+                    </note> To hinder their continuing or growing in
+                    grace, in the knowledge of our Lord Jesus Christ!<note place="foot" xml:id="ftn37" n="37">
+                        <p rend="footnote text">See 2 Pet. 3:18.</p>
+                    </note> To
+                    lessen, if not destroy, that ‘love, joy, peace’; that ‘long-suffering,
+                    gentleness, goodness’; that ‘fidelity, meekness, temperance’,<note place="foot" xml:id="ftn38" n="38">
+                        <p rend="footnote text">Gal. 5:22-23 (<hi rend="italic">Notes</hi>).</p>
+                    </note> which our Lord works by his
+                    loving Spirit in them that believe, and wherein the very essence of religion
+                    consists.</p>
+                <p n="7">7. To effect these ends he is continually labouring with all his skill and
+                    power to infuse evil thoughts of every kind into the hearts of men. And
+                    certainly it is as easy for a spirit to speak to our heart as for a man to speak
+                    to our ears. But sometimes it is exceeding difficult to distinguish these from
+                    our own thoughts, those which he injects so exactly resembling those which
+                    naturally arise in our own minds. Sometimes indeed we may distinguish one from
+                    the other by this circumstance: the thoughts which naturally arise in our minds
+                    are generally, if not always, occasioned by, or at least connected with, some
+                    inward or outward circumstance that went before. But those that are
+                    preternaturally suggested have frequently no relation to or connection (at least
+                    none that we are able to discern) with anything which preceded. On the contrary
+                    they shoot in as it were across, and thereby show that they are of a different
+                        growth.<note place="foot" xml:id="ftn39" n="39">
+                        <p rend="footnote text">Cf.
+                            No. 41, <hi rend="italic">Wandering Thoughts</hi>, <hi rend="italic">passim</hi>.</p>
+                    </note>
+                </p>
+                <p n="8">8. He likewise labours to awaken evil passions or tempers in our souls. He
+                    endeavours to inspire those passions and tempers <pb n="03:024"/>which are
+                    directly opposite to ‘the fruit of the Spirit’.<note place="foot" xml:id="ftn40" n="40">
+                        <p rend="footnote text">Gal. 5:22; Eph. 5:9.</p>
+                    </note> He strives to
+                    instil unbelief, atheism, ill-will, bitterness, hatred, malice, envy—opposite to
+                    faith and love; fear, sorrow, anxiety, worldly care—opposite to peace and joy;
+                    impatience, ill nature, anger, resentment—opposite to long-suffering,
+                    gentleness, meekness; fraud, guile, dissimulation—contrary to fidelity; love of
+                    the world, inordinate affection, foolish desires—opposite to the love of God.
+                    One sort of evil desires he may probably raise or inflame by touching the
+                    springs of this animal machine,<note place="foot" xml:id="ftn41" n="41">
+                        <p rend="footnote text">Cf. No. 51, <hi rend="italic">The Good
+                            Steward</hi>, I.4 and n.</p>
+                    </note> endeavouring thus by means of the
+                    body to disturb or sully the soul.</p>
+                <p n="9">9. And in general we may observe that as no good is done, or spoken, or
+                    thought by any man without the assistance of God, working together <hi rend="italic">in</hi> and <hi rend="italic">with</hi> those that believe in
+                    him; so there is no evil done, or spoke[n], or thought, without the assistance
+                    of the devil, ‘who worketh with energy’, with strong though secret power, ‘in
+                    the children of unbelief’.<note place="foot" xml:id="ftn42" n="42">
+                        <p rend="footnote text">Cf. Eph. 2:2.</p>
+                    </note> Thus he ‘entered
+                        into’<note place="foot" xml:id="ftn43" n="43">
+                        <p rend="footnote text">Luke
+                            22:3.</p>
+                    </note> Judas, and confirmed him in the design of betraying his
+                    Master. Thus he ‘put it into the heart’ of Ananias and Sapphira ‘to lie unto the
+                    Holy Ghost’.<note place="foot" xml:id="ftn44" n="44">
+                        <p rend="footnote text">Cf.
+                            Acts 5:3.</p>
+                    </note> And in like manner he has a share in all the
+                    actions and words and designs of evil men. As the children of God ‘are workers
+                    together with God’<note place="foot" xml:id="ftn45" n="45">
+                        <p rend="footnote text">Cf. 2 Cor. 6:1.</p>
+                    </note> in every good thought,
+                    or word, or action; so the children of the devil are workers together with him
+                    in every evil thought, or word, or work. So that as all good tempers, and
+                    remotely all good words and actions, are the fruit of the good Spirit; in like
+                    manner all evil tempers, with all the words and works which spring from them,
+                    are the fruit of the evil spirit; insomuch that all the ‘works of the
+                        flesh’,<note place="foot" xml:id="ftn46" n="46">
+                        <p rend="footnote text">Gal.
+                            5:19.</p>
+                    </note> of our evil nature, are likewise the ‘works of the
+                        devil’.<note place="foot" xml:id="ftn47" n="47">
+                        <p rend="footnote text">1
+                            John 3:8.</p>
+                    </note>
+                </p>
+                <p n="10">10. On this account, because he is continually inciting men to evil, he is
+                    emphatically called, ‘the tempter’.<note place="foot" xml:id="ftn48" n="48">
+                        <p rend="footnote text">Matt. 4:3; 1 Thess. 3:5.</p>
+                    </note> Nor is it only
+                    with regard to his own children that he is thus employed. He is continually
+                    tempting the children of God also, and those that are labouring so to be:</p>
+                <pb n="03:025"/>
+                <lg>
+                    <l>A constant watch he keeps;</l>
+                    <l>He eyes them night and day:</l>
+                    <l>He never slumbers, never sleeps,</l>
+                    <l>Lest he should lose his prey.</l>
+                </lg>
+                <note place="foot" xml:id="ftn49" n="49">
+                    <p rend="footnote text">Cf. Charles Wesley, <hi rend="italic">Hymns and Sacred
+                            Poems</hi> (1749), II.119, No. 2 of ‘Hymns for the Watch-night’ (<hi rend="italic">Poet. Wks.</hi>, V.261):</p>
+                    <p rend="Verse">A constant watch he keeps,</p>
+                    <p rend="Verse">He eyes me night and day,</p>
+                    <p rend="Verse">And never slumbers, never sleeps,</p>
+                    <p rend="Verse">Lest he should lose his prey.</p>
+                    <p rend="footnote text">See also No. 132, ‘On Faith, Heb. 11:1’, §10, where
+                        Wesley again quotes this quatrain.</p>
+                </note>
+                <p n="">Indeed the holiest of men, as long as they remain upon earth, are not exempt
+                    from his temptations. They cannot expect it; seeing ‘it is enough for the
+                    disciple to be as his Master.’<note place="foot" xml:id="ftn50" n="50">
+                        <p rend="footnote text">Cf. Matt. 10:25.</p>
+                    </note> And we know he was
+                    tempted to evil till he said, ‘Father, into thy hands I commend my spirit.’<note place="foot" xml:id="ftn51" n="51">
+                        <p rend="footnote text">Luke
+                        23:46.</p>
+                    </note>
+                </p>
+                <p n="11">11. For such is the malice of the wicked one that he will torment whom he
+                    cannot destroy. If he cannot entice men to sin he will (so far as he is
+                    permitted) put them to pain. There is no doubt but he is the occasion, directly
+                    or indirectly, of many of the pains of mankind; which those who can no otherwise
+                    account for them lightly pass over as ‘nervous’. And innumerable ‘accidents’, as
+                    they are called, are undoubtedly owing to his agency, such as the unaccountable
+                    fright or falling of horses, the overturning of carriages, the breaking or
+                    dislocating of bones; the hurt done by the falling or burning of houses, by
+                    storms of wind, snow, rain, or hail, by lightning or earthquakes. But to all
+                    these, and a thousand more, this subtle spirit can give the appearance of
+                    ‘accidents’, for fear the sufferers, if they knew the real agent, should call
+                    for help on one that is stronger than him.</p>
+                <p n="12">12. There is little reason to doubt but many diseases likewise, both of
+                    the acute and chronical kind, are either occasioned or increased by diabolical
+                    agency; particularly those that begin in an instant, without any discernible
+                    cause; as well as those that continue, and perhaps gradually increase, in spite
+                    of all the power of medicine. Here indeed ‘vain men’ that ‘would be wise’<note place="foot" xml:id="ftn52" n="52">
+                        <p rend="footnote text">Job
+                        11:12.</p>
+                    </note> again call in the nerves to their assistance. But is not
+                    this explaining <hi rend="italic">ignotum per ignotius</hi>—a thing unknown by
+                    what is more <pb n="03:026"/>unknown?<note place="foot" xml:id="ftn53" n="53">
+                        <p rend="footnote text">A Latin tag long since a commonplace; cf. Chaucer,
+                            ‘The Canon’s Yeoman’s Tale’, l. 904, <hi rend="italic">Canterbury
+                                Tales</hi> (1687), p. 109. See Wesley’s letter to William Law, Jan.
+                            6, 1756: ‘<hi rend="italic">ignotum per aeque ignotum</hi>’; and also
+                                <hi rend="italic">A Farther Appeal</hi>, Pt. I, V.9 (11:147 in this
+                            edn.).</p>
+                    </note> For what do we know of the nerves themselves? Not even
+                    whether they are solid or hollow!</p>
+                <p n="13">13. Many years ago I was asking an experienced physician, and one
+                    particularly eminent for curing lunacy, ‘Sir, have you not seen reason to
+                    believe that some lunatics are really demoniacs?’ He answered: ‘Sir, I have been
+                    often inclined to think that most lunatics are demoniacs. Nor is there any
+                    weight in that objection that they are frequently cured by medicine. For so
+                    might any other disease occasioned by an evil spirit, if God did not suffer him
+                    to repeat the stroke by which that disease is occasioned.’<note place="foot" xml:id="ftn54" n="54">
+                        <p rend="footnote text">Probably Thomas Deacon
+                            (1698-1753), a physician and schismatic non-juring bishop, much
+                            interested in demoniacal possession and exorcisms. In No. 132, ‘On
+                            Faith, Heb. 11:1’, §8, Wesley speaks of ‘one of the most eminent
+                            physicians I ever knew, particularly in cases of insanity, Dr. Deacon’.
+                            He had known Deacon first at Oxford, and in his diary records a visit
+                            with Deacon in Manchester on May 17, 1733 (and occasional visits
+                            thereafter). See also <hi rend="italic">The Principles of a Methodist
+                                Farther Considered</hi>, IV.7, and Wesley’s letter to Thomas
+                            Stedman, Aug. 13, 1774. The same idea had already been suggested by
+                            Joseph Mede, Discourse VI, on John 10:20, <hi rend="italic">Works</hi>,
+                            p. 29.</p>
+                    </note>
+                </p>
+                <p n="14">14. This thought opens to us a wider scene. Who can tell how many of those
+                    diseases which we impute altogether to natural causes may be really
+                    preternatural? What disorder is there in the human frame which an evil angel may
+                    not inflict? Cannot he smite us, as he did Job, and that in a moment, with boils
+                    from the crown of the head to the sole of the foot?<note place="foot" xml:id="ftn55" n="55">
+                        <p rend="footnote text">Job 2:7.</p>
+                    </note> Cannot he
+                    with equal ease inflict any other either external or internal malady? Could not
+                    he in a moment, by divine permission, cast the strongest man down to the ground,
+                    and make him ‘wallow foaming’,<note place="foot" xml:id="ftn56" n="56">
+                        <p rend="footnote text">Mark 9:20.</p>
+                    </note> with all the symptoms either
+                    of an epilepsy or apoplexy? In like manner, it is easy for him to smite any one
+                    man, or everyone in a city or nation, with a malignant fever, or with the plague
+                    itself, so that vain would be the help of man.</p>
+                <p n="15">15. But that malice blinds the eyes of the wise,<note place="foot" xml:id="ftn57" n="57">
+                        <p rend="footnote text">Deut. 16:19.</p>
+                    </note> one
+                    would imagine so intelligent a being would not stoop so low as it seems the
+                    devil sometimes does to torment the poor children of men! For to him we may
+                    reasonably impute many little inconveniences which we suffer. ‘I believe’ (said
+                    that excellent man, the Marquis de Renty, when the bench on which he sat snapped
+                    in sunder <pb n="03:027"/>without any visible cause), ‘that Satan had a hand in
+                    it, making me to fall untowardly.’<note place="foot" xml:id="ftn58" n="58">
+                        <p rend="footnote text">Cf. Saint-Jure, <hi rend="italic">Life</hi>, p. 96:
+                            ‘He told her [the Prioress of the Carmelites of Dijon] that being led
+                            into his Chapel of Citry, and set down upon a bench, by reason of his
+                            sickness, the bench broke, without any appearance at all to him that
+                            such a thing could happen, and that he believed, the evil spirit had
+                            broken it, to move him to impatience, making him to fall untowardly:
+                            “But by the mercy of God, I was no more moved thereat”, said he, “than
+                            you see me now, although the pains that surprised me were very sharp.”’
+                            Cf. also, Wesley, <hi rend="italic">An Extract of the Life of M. de
+                                Renty</hi> (<hi rend="italic">Bibliog</hi>, No. 43), London, 1741,
+                            p. 21 (iv. 4).</p>
+                    </note> I know not whether he may not have a hand in
+                    that unaccountable horror with which many have been seized in the dead of night,
+                    even to such a degree that all their bones have shook. Perhaps he has a hand
+                    also in those terrifying dreams<note place="foot" xml:id="ftn59" n="59">
+                        <p rend="footnote text">Cf. No. 124, ‘Human Life a Dream’, §4 and
+                        n.</p>
+                    </note> which many have, even while they are in perfect health.</p>
+                <p n="">It may be observed in all these instances we usually say ‘the devil’, as if
+                    there was one only; because these spirits, innumerable as they are, do all act
+                    in concert, and because we know not whether one or more are concerned in this or
+                    that work of darkness.</p>
+            </div>
+            <div type="section" n="3">
+                <p n="0">[III.] It remains only to draw a few plain inferences from the doctrine
+                    which has been delivered.</p>
+                <p n="1">1. And first, as a general preservative against all the rage, the power,
+                    and subtlety of your great adversary, ‘put on the panoply’, the whole armour,
+                    ‘of God,’<note place="foot" xml:id="ftn60" n="60">
+                        <p rend="footnote text">Cf.
+                            Eph. 6:11.</p>
+                    </note> universal holiness. See that ‘the mind be in you
+                    which was also in Christ Jesus’,<note place="foot" xml:id="ftn61" n="61">
+                        <p rend="footnote text">Cf. Phil. 2:5.</p>
+                    </note> and that ye ‘walk as
+                    Christ also walked’;<note place="foot" xml:id="ftn62" n="62">
+                        <p rend="footnote text">Cf. 1 John 2:6.</p>
+                    </note> that ye have a
+                    conscience void of offence toward God and toward men.<note place="foot" xml:id="ftn63" n="63">
+                        <p rend="footnote text">Acts 24:16.</p>
+                    </note> So
+                    shall ye ‘be able to withstand’<note place="foot" xml:id="ftn64" n="64">
+                        <p rend="footnote text">Eph. 6:13.</p>
+                    </note> all the force and all the
+                    stratagems of the enemy. So shall ye be able to ‘withstand in the evil
+                        day’,<note place="foot" xml:id="ftn65" n="65">
+                        <p rend="footnote text">
+                            <hi rend="italic">Ibid</hi>.</p>
+                    </note> in the day of sore temptation.
+                    And ‘having done all, to stand’<note place="foot" xml:id="ftn66" n="66">
+                        <p rend="footnote text">
+                            <hi rend="italic">Ibid.</hi>
+                        </p>
+                    </note>—to remain
+                    in the posture of victory and triumph.</p>
+                <p n="2">2. To his ‘fiery darts’, his evil suggestions of every kind, blasphemous or
+                    unclean, though numberless as the stars of heaven, oppose ‘the shield of
+                        faith’;<note place="foot" xml:id="ftn67" n="67">
+                        <p rend="footnote text">Eph.
+                            6:16.</p>
+                    </note> a consciousness of the love of Christ Jesus will
+                    effectually quench them all.</p>
+                <lg>
+                    <l>Jesus hath died for <hi rend="italic">you</hi>!</l>
+                    <l>What can your faith withstand?</l>
+                    <l>Believe, hold fast your shield! and who</l>
+                    <l>Shall pluck you from his hand?</l>
+                </lg>
+                <note place="foot" xml:id="ftn68" n="68">
+                    <p rend="footnote text">Cf. Charles Wesley, ‘The Whole Armour of God’, <hi rend="italic">in Hymns and Sacred Poems</hi> (1749), I.237 (<hi rend="italic">Poet. Wks.</hi>, V.42). Orig., second line reads, ‘What
+                        can his love withstand?’</p>
+                </note>
+                <p n="3">
+                    <pb n="03:028"/>3. If he inject doubts whether you are a child of God, or
+                    fears lest you should not endure to the end, ‘Take to you for a helmet the hope
+                    of salvation.’<note place="foot" xml:id="ftn69" n="69">
+                        <p rend="footnote text">Cf. 1 Thess. 5:8.</p>
+                    </note> Hold fast that glad word, ‘Blessed be the
+                    God and Father of our Lord Jesus Christ, who according to his abundant mercy
+                    hath begotten us again unto a living hope of an inheritance incorruptible,
+                    undefiled, and that fadeth not away.’<note place="foot" xml:id="ftn70" n="70">
+                        <p rend="footnote text">Cf. 1 Pet. 1:3-4.</p>
+                    </note> You will never be
+                    overthrown, you will never be staggered by your adversary, if you ‘hold fast the
+                    beginning of this confidence steadfast unto the end.’<note place="foot" xml:id="ftn71" n="71">
+                        <p rend="footnote text">Cf. Heb. 3:14.</p>
+                    </note>
+                </p>
+                <p n="4">4. Whenever the ‘roaring lion, walking about and seeking whom he may
+                        devour’,<note place="foot" xml:id="ftn72" n="72">
+                        <p rend="footnote text">Cf.
+                            1 Pet. 5:8.</p>
+                    </note> assaults you with all his malice, and rage, and
+                    strength, ‘resist’ him, ‘steadfast in the faith’.<note place="foot" xml:id="ftn73" n="73">
+                        <p rend="footnote text">1 Pet. 5:9.</p>
+                    </note> Then is
+                    the time, having cried to the Strong for strength,<note place="foot" xml:id="ftn74" n="74">
+                        <p rend="footnote text">See No. 48, ‘Self-denial’,
+                            III.4 and n.</p>
+                    </note> to ‘stir up the gift of God that is in
+                        you;’<note place="foot" xml:id="ftn75" n="75">
+                        <p rend="footnote text">Cf. 2
+                            Tim. 1:6.</p>
+                    </note> to summon all your faith, and hope, and love; to
+                    turn the attack in the name of the Lord, and in the power of his might;<note place="foot" xml:id="ftn76" n="76">
+                        <p rend="footnote text">Eph.
+                        6:10.</p>
+                    </note> and ‘he will’ soon ‘flee from you.’<note place="foot" xml:id="ftn77" n="77">
+                        <p rend="footnote text">Jas. 4:7.</p>
+                    </note>
+                </p>
+                <p n="5">5. But ‘there is no temptation’, says one, ‘greater than the being without
+                        temptation.’<note place="foot" xml:id="ftn78" n="78">
+                        <p rend="footnote text">Miguel de Molinos, <hi rend="italic">The Spiritual Guide Which
+                                Disentangles the Soul</hi> (1688), I.63. Wesley extracted this for
+                            the <hi rend="italic">Christian Lib.</hi>, XXXVIII.262: ‘Finally thou
+                            art to know, that the greatest temptation is to be without
+                            temptation.’</p>
+                    </note> When therefore this is the case, when Satan
+                    seems to be withdrawn, then beware lest he hurt you more as a crooked serpent
+                    than he could do as a roaring lion. Then take care you are not lulled into a
+                    pleasing slumber, ‘lest he should beguile you as he did Eve’, even in innocence,
+                    and insensibly draw you ‘from your simplicity toward Christ’,<note place="foot" xml:id="ftn79" n="79">
+                        <p rend="footnote text">Cf. 2 Cor. 11:3.</p>
+                    </note>
+                    from seeking all your happiness in him.</p>
+                <p n="6">6. Lastly, if he ‘transform himself into an angel of light’,<note place="foot" xml:id="ftn80" n="80">
+                        <p rend="footnote text">Cf. 2 Cor.
+                            11:14.</p>
+                    </note> then are you in the greatest danger of all. Then have
+                    you need to beware, lest you also fall where many mightier have been slain: then
+                    have you the greatest need to ‘watch and pray, that ye enter not into
+                        temptation.’<note place="foot" xml:id="ftn81" n="81">
+                        <p rend="footnote text">Matt. 26:41.</p>
+                    </note> And if you continue so to do, the God whom you
+                    love and serve will deliver you. ‘The anointing of the <pb n="03:029"/>Holy One
+                    shall abide with you, and teach you of all things.’<note place="foot" xml:id="ftn82" n="82">
+                        <p rend="footnote text">Cf. 1 John 2:20, 27 (<hi rend="italic">Notes</hi>).</p>
+                    </note> Your eye will pierce through
+                        snares:<note place="foot" xml:id="ftn83" n="83">
+                        <p rend="footnote text">See
+                            Job 40:24.</p>
+                    </note> you shall know what that ‘holy, and acceptable,
+                    and perfect will of God is’,<note place="foot" xml:id="ftn84" n="84">
+                        <p rend="footnote text">Cf. Rom. 12:1, 2.</p>
+                    </note> and shall hold on your
+                    way till you ‘grow up in all things into him that is our head, even Christ
+                        Jesus.’<note place="foot" xml:id="ftn85" n="85">
+                        <p rend="footnote text">Cf.
+                            Eph. 4:15.</p>
+                    </note>
+                </p>
+            </div>
+            <p n="">January 7, 1783<note place="foot" xml:id="ftn86" n="86">
+                    <p rend="footnote text">Date as added in <hi rend="italic">AM</hi>.</p>
+                </note>
+            </p>
+        </body>
+    </text>
+</TEI>
