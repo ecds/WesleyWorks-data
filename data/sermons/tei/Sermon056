@@ -1,0 +1,692 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Sermon 56: On God’s Approbation of His Works</title>
+                <author>Wesley, John</author>
+                <editor role="text">Van Buskirk, Gregory P.</editor>
+                <editor role="digital">Taylor, Michelle M.</editor>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>The Wesley Works Digitzation Project</publisher>
+                <pubPlace>Tampa, FL</pubPlace>
+                <date>2024-02-29</date>
+            </publicationStmt>
+            <sourceDesc>
+                <listBibl>
+                    <biblStruct>
+                        <analytic>
+                            <title level="a">Sermon 56: On God’s Approbation of His Works</title>
+                        </analytic>
+                        <monogr>
+                            <title level="j">The Works of John Wesley, Volume II: Sermons II,
+                                34-70</title>
+                            <editor role="volume">Outler, Albert</editor>
+                            <imprint>
+                                <publisher>Abingdon Press</publisher>
+                                <pubPlace>Nashville, TN</pubPlace>
+                                <date when="1985-11-01">1985-11-01</date>
+                                <biblScope unit="volume" n="2"/>
+                                <biblScope unit="page" from="387" to="399"/>
+                            </imprint>
+                        </monogr>
+                        <series>
+                            <title level="s">The Works of John Wesley</title>
+                            <editor role="general">Baker, Frank</editor>
+                        </series>
+                    </biblStruct>
+                </listBibl>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Greg Van Buskirk created Word docs for all of Wesley's sermons using a combination of
+                OCR software and manual proofing. Michelle Taylor converted these docx into XML
+                using Oxygen's DITA automatic transformation scenario, then touched them up
+                manually.</p>
+        </encodingDesc>
+        <standOff>
+            <taxonomy>
+                <keywords>
+                    <term/>
+                </keywords>
+            </taxonomy>
+            <!--Include keywords and terms here eventually.-->
+        </standOff>
+        <revisionDesc/>
+    </teiHeader>
+    <text>
+        <body>
+            <pb n="02:387"/>
+            <introduction>
+                <head>
+                    <hi rend="italic">An Introductory Comment</hi>
+                </head>
+                <p>This sermon was written expressly for the <hi rend="italic">Arminian
+                        Magazine</hi> and appeared in its issues for July and August 1782 (V.341-46,
+                    397-403), as ‘Sermon X. On Genesis i:31’. There is no record of Wesley’s use of
+                    this text elsewhere (a rare instance of a text for a written sermon not already
+                    used in his oral preaching). It was then brought up to its present place in <hi
+                        rend="italic">SOSO</hi>, V.41-56, and given its new title.</p>
+            </introduction>
+            <head>God’s Approbation of His Works</head>
+            <epigraph>
+                <p>Genesis 1:31</p>
+                <p>
+                    <hi rend="italic">And God saw everything that he had made; and behold, it was
+                        very good.</hi>
+                </p>
+            </epigraph>
+            <div type="introduction">
+                <p n="1">1. When God created the heavens and the earth and all that is therein, at the
+                    conclusion of each day’s work it is said, ‘And God saw that it was good.’
+                    Whatever was created was good in its kind, suited to the end for which it was
+                    designed, adapted to promote the good of the whole and the glory of the great
+                    Creator. This sentence it pleased God to pass with regard to each particular
+                    creature. But there is a remarkable variation of the expression with regard to
+                    all the parts of the universe taken in connexion with each other, and
+                    constituting one system: ‘And God saw everything that he had made; and behold,
+                    it was very good!’</p>
+                <p n="2">2. How small a part of this great work of God is man
+                    able to understand! But it is our duty to contemplate what he has wrought, and
+                    to understand as much of it as we are able. For ‘The merciful Lord’, as the
+                    Psalmist observes, ‘hath so done his marvellous works’, of creation as well as
+                    of providence, ‘that they <pb n="02:388"/>ought to be had in remembrance’<note
+                        place="foot" xml:id="ftn1" n="1"><p rend="footnote text">Cf. Ps.
+                        105:5.</p></note> by all that fear him, which they cannot well be unless
+                    they are understood. Let us then by the assistance of that Spirit who giveth
+                    unto man understanding, endeavour to take a general survey of the works which
+                    God made in this lower world as they were before they were disordered and
+                    depraved in consequence of the sin of man. We shall then easily see that as
+                    every creature was ‘good’ in its primeval state, so, when all were compacted in
+                    one general system, ‘behold, they were very good.’<note place="foot"
+                        xml:id="ftn2" n="2"><p rend="footnote text">An echo of Wesley’s earlier
+                            project, <hi rend="italic">A Survey of the Wisdom of God in
+                                Creation</hi>.</p></note> I do not remember to have seen any attempt
+                    of this kind, unless in that truly excellent poem (termed by Mr. Hutchinson,
+                    ‘that wicked farce’),<note place="foot" xml:id="ftn3" n="3"><p
+                            rend="footnote text">Hutchinson’s actual words: ‘that cursed farce of
+                            Milton, where he…makes the Devil his her…]; cf. his <hi rend="italic"
+                                >Works</hi> (3rd edn., 1748-49), V.107; see also
+                        XII.xx-xxii.</p></note> Milton’s <hi rend="italic">Paradise Lost</hi>.<note
+                        place="foot" xml:id="ftn4" n="4"><p rend="footnote text">Cf. <hi
+                                rend="italic">Paradise Lost</hi>, vii.549-640. Wesley had already
+                            published <hi rend="italic">An Extract from Milton’s Paradise Lost</hi>
+                            in 1763 (322 pp.) with a commendation ‘To the Reader’: ‘Of all the poems
+                            which have hitherto appeared in the world, in whatever age or nation,
+                            the preference has generally been given, by impartial judges, to
+                            Milton’s <hi rend="italic">Paradise Lost</hi>.’ In the sermons Wesley
+                            quoted more than thirty-five different passages of <hi rend="italic"
+                                >Paradise Lost</hi>, many of them more than once. In an encomium on
+                            Matthew Prior, Wesley says he was equal to or superior to ‘any English
+                            poet, except <hi rend="italic">Milton</hi>…’ (see <hi rend="italic"
+                                >AM</hi>, V.665).</p></note></p>
+            </div>
+            <div type="section" n="1">
+                <p n="1">[I.] 1. ‘In the beginning God created the matter of the heavens and the
+                        earth.’<note place="foot" xml:id="ftn5" n="5"><p rend="footnote text">Cf.
+                            Gen. 1:1.</p></note> (So the words, as a great man observes,<note
+                        place="foot" xml:id="ftn6" n="6"><p rend="footnote text">In No. 57, ‘On the
+                            Fall of Man’, II.6, this ‘great man’ turns out to have been John
+                            Hutchinson. The idea of <hi rend="italic">creatio de nihilo</hi> is, of
+                            course, patristic, as in Tertullian, <hi rend="italic">Against
+                                Hermogenes</hi>, ii-xxxviii (espec. xviii); and in Augustine’s <hi
+                                rend="italic">Confessions</hi>, XI.vi-xxiii (espec. xx-xxii). Cf.
+                            No. 15, <hi rend="italic">The Great Assize</hi>, III.3 and n.</p></note>
+                    may properly be translated.) He first created the four elements out of which the
+                    whole universe was composed: earth, water, air, and fire, all mingled together
+                    in one common mass.<note place="foot" xml:id="ftn7" n="7"><p
+                            rend="footnote text">Cf. No. 57, ‘On the Fall of Man’, II.1.</p></note>
+                    The grossest parts of this, the earth and water, were utterly without form till
+                    God infused a principle of motion, commanding the air to move ‘upon the face of
+                    the waters’.<note place="foot" xml:id="ftn8" n="8"><p rend="footnote text">Gen.
+                            1:2.</p></note> In the next place, ‘The Lord God said, Let there be
+                    light: and there was light.’<note place="foot" xml:id="ftn9" n="9"><p
+                            rend="footnote text">Cf. Gen. 1:3.</p></note> Here were the four
+                    constituent parts of the universe: the true, original, simple elements. They
+                    were all essentially distinct from each other, and yet so intimately mixed
+                    together in all compound bodies that we cannot find any, be it ever so minute,
+                    which does not contain them all.</p>
+                <p n="2"><pb n="02:389"/>2. ‘And God saw that’ every one of these ‘was good’,<note
+                        place="foot" xml:id="ftn10" n="10"><p rend="footnote text">Gen.
+                        1:10.</p></note> was perfect in its kind. The <hi rend="italic">earth</hi>
+                    was good: the whole surface of it was beautiful in a high degree. To make it
+                    more agreeable,</p>
+                <lg>
+                    <l>He clothed</l>
+                    <l>The universal face with pleasant green.</l>
+                    <note place="foot" xml:id="ftn11" n="11">
+                        <p rend="footnote text">Cf. Milton, <hi rend="italic">Paradise Lost</hi>,
+                            vii.313, 315-16.</p>
+                    </note>
+                </lg>
+                <p>He adorned it with flowers of every hue, and with shrubs and trees of every kind.
+                    And every part was fertile as well as beautiful: it was nowhere deformed by
+                    rough or ragged rocks; it did not shock the view with horrid precipices, huge
+                    chasms, or dreary caverns, with deep, impassable morasses, or deserts of barren
+                    sand. But we have not any authority to say, with some learned and ingenious
+                    authors, that there were no mountains on the original earth, no unevennesses on
+                    its surface.<note place="foot" xml:id="ftn12" n="12"><p rend="footnote text">The
+                            principal advocate of a world view such as this was Thomas Burnet, whom
+                            Wesley would have known as a former Master of the Charterhouse. His <hi
+                                rend="italic">Telluris Theoria Sacra</hi> appeared in 1681, and an
+                            English revision, <hi rend="italic">Sacred Theory of the Earth</hi> in
+                            1684. Addison and Steele reviewed it enthusiastically; William Whiston
+                            countered with a different theory of a paradisiacal earth in his <hi
+                                rend="italic">A Near Theory of the Earth</hi>. The whole speculation
+                            was summarily dismissed by the scientists (e g., John Keill and John
+                            Flamsteed, <hi rend="italic">et al.</hi>) and remains as a sort of
+                            theological curio.</p></note> It is not easy to reconcile this
+                    hypothesis with those words of Moses, ‘The waters increased, …and all the high
+                    hills that were under the whole heaven were covered. Fifteen cubits upward
+                    (above the highest) did the waters prevail; and the mountains were covered.’<hi
+                        rend="endnote_reference"><note place="end"><p rend="endnote text">Gen.
+                                7:[17,] 19-20.</p></note></hi> We have no reason to believe that
+                    these mountains were produced by the deluge itself. Not the least intimation of
+                    this is given: therefore we cannot doubt but they existed before it. Indeed they
+                    answered many excellent purposes, besides greatly increasing the beauty of the
+                    creation by a variety of prospects which had been totally lost had the earth
+                    been one extended plain. Yet we need not suppose their sides were abrupt, or
+                    difficult of ascent. It is highly probable that they rose and fell by almost
+                    insensible degrees.</p>
+                <p n="3">3. As to the internal parts of the earth, even to
+                    this day we have scarce any knowledge of them. Many have supposed the centre of
+                    the globe to be surrounded with an abyss of fire. Many others have imagined it
+                    to be encompassed with an abyss of water, which <pb n="02:390"/>they supposed to
+                    be termed in Scripture ‘the great deep’,<hi rend="endnote_reference"><note
+                            place="end"><p rend="endnote text">Gen. 7:11.</p></note></hi> all the
+                    fountains of which were broken up in order to the general deluge. But however
+                    this was, we are sure all things were disposed therein with the most perfect
+                    order and harmony. Hence there were no agitations within the bowels of the
+                    globe, no violent convulsions, no concussions of the earth, no earthquakes, but
+                    all was unmoved as the pillars of heaven. There were then no such things as
+                    eruptions of fire: there were no volcanoes, burning mountains. Neither Vesuvius,
+                    Etna, nor Hekla, if they had any being, then poured out smoke and flame, but
+                    were covered with a verdant mantle from the top to the bottom.<note place="foot"
+                        xml:id="ftn13" n="13"><p rend="footnote text">Cf. No. 15, <hi rend="italic"
+                                >The Great Assize</hi>, III.4 and n.</p></note></p>
+                <p n="4">4. The element of <hi rend="italic">water</hi>, it
+                    is probable, was then mostly confined within the great abyss. In the new earth
+                    (as we are informed by the Apostle) ‘there will be no more sea,’<hi
+                        rend="endnote_reference"><note place="end"><p rend="endnote text">[Cf.] Rev.
+                                21:1.</p></note></hi> none covering as now the face of the earth,
+                    and rendering so large a part of it uninhabitable by man. Hence it is probable
+                    there was no external sea in the paradisiacal earth; none until the great deep
+                    burst the barriers which were originally appointed for it. Indeed there was not
+                    then that need of the ocean for navigation which there is now. For either (as
+                    the poet supposes)</p>
+                <l>
+                    <hi rend="italic">Omnis tulit omnia tellus—</hi>
+                    <note place="foot" xml:id="ftn14" n="14">
+                        <p rend="footnote text">Cf. Virgil, <hi rend="italic">Eclogues</hi>, iv.39:
+                            ‘each land shall bear all fruits.’ See also, No. 64, ‘The New Creation’,
+                            §12.</p>
+                    </note>
+                </l>
+                <p>every country produced whatever was requisite either for the necessity or comfort
+                    of its inhabitants; or man being then (as he will be again at the resurrection)
+                    equal to angels, was able to convey himself at his pleasure to any given
+                    distance. Over and above that, those flaming messengers were always ready to
+                    minister to the heirs of salvation. But whether there was sea or not, there were
+                    rivers sufficient to water the earth and make it very plenteous. These answered
+                    all the purposes of convenience and pleasure, by</p>
+                <l>liquid lapse of murmuring stream.<note place="foot" xml:id="ftn15" n="15"><p
+                            rend="footnote text">Cf. Milton, <hi rend="italic">Paradise Lost</hi>,
+                            viii.263; and see also Nos. 60, ‘The General Deliverance’, I.2; 64, ‘The
+                            New Creation’, §12; 78, ‘Spiritual Idolatry’, I.8; and a letter to Ann
+                            Granville, Aug. 14, 1731.</p></note></l>
+                <p><pb n="02:391"/>To which were added gentle, genial showers, with salutary mists
+                    and exhalations. But there were no putrid lakes, no turbid or stagnating waters;
+                    but only such as</p>
+                <lg>
+                    <l>bore impressed</l>
+                    <l>Fair Nature’s image on their placid breast.</l>
+                    <note place="foot" xml:id="ftn16" n="16">
+                        <p rend="footnote text">Cf. Thomas Parnell, ‘The Hermit’, ver. 2; see also
+                                <hi rend="italic">Moral and Sacred Poems</hi> (1744), I.268.</p>
+                    </note>
+                </lg>
+                <p n="5">5. The element of <hi rend="italic">air</hi> was
+                    then always serene, and always friendly to man. It contained no frightful
+                    meteor, no unwholesome vapours, no poisonous exhalations. There were no
+                    tempests, but only cool and gentle breezes,</p>
+                <l>
+                    <hi rend="italic">genitabilis aura favoni,</hi>
+                    <note place="foot" xml:id="ftn17" n="17">
+                        <p rend="footnote text">Cf. the whole of l.11 in Lucretius, <hi
+                                rend="italic">De Rerum Natura (On the Nature of Things)</hi>, i.:
+                            ‘and the breeze of the teeming southwind blows afresh.’</p>
+                    </note>
+                </l>
+                <p>fanning both man and beast, and wafting the fragrant odours on their silent
+                    wings.</p>
+                <p n="6">6. The sun, the fountain of <hi rend="italic"
+                        >fire</hi>,</p>
+                <l>of this great world both eye and soul,<note place="foot" xml:id="ftn18" n="18"><p
+                            rend="footnote text">Milton, <hi rend="italic">Paradise Lost</hi>,
+                            v.171; see also, I.10, below.</p></note></l>
+                <p>was situated at the most exact distance from the earth, so as to yield a
+                    sufficient quantity of heat (neither too little nor too much) to every part of
+                    it. God had not yet</p>
+                <lg>
+                    <l>bid his angels turn askance</l>
+                    <l>[…] this oblique globe.</l>
+                    <note place="foot" xml:id="ftn19" n="19">
+                        <p rend="footnote text">Cf. Milton, <hi rend="italic">Paradise Lost</hi>,
+                            x.668-71; see also No. 64, ‘The New Creation’, §14.</p>
+                    </note>
+                </lg>
+                <p>There was therefore then no country that groaned under</p>
+                <l>The rage of Arctos, and eternal frost<note place="foot" xml:id="ftn20" n="20"><p
+                            rend="footnote text">Cf. Prior, <hi rend="italic">Solomon,</hi> I.265;
+                            and <hi rend="italic">Moral and Sacred Poems</hi> (1744), I.106.
+                            Repeated in No. 64, ‘The New Creation’, §14; in a letter to Lawrence
+                            Coughlan, Aug. 27, 1768; and in JWJ of the same date.</p></note></l>
+                <p>There was no violent winter or sultry summer, no extreme either of heat or cold.
+                    No soil was burnt up by the solar heat, none uninhabitable through the want of
+                    it. Thus earth, water, air, and fire all conspired together to the welfare and
+                    pleasure of man.</p>
+                <p n="7">7. To the same purpose served the grateful
+                    vicissitude of light and darkness, day and night. For as the human body, though
+                    not <pb n="02:392"/> liable to death or pain, yet needed continual sustenance by
+                    food, so although it was not liable to weariness, yet it needed continual
+                    reparation by sleep. By this the springs of the animal machine<note place="foot"
+                        xml:id="ftn21" n="21"><p rend="footnote text">Cf. No. 51, <hi rend="italic"
+                                >The Good Steward,</hi> I.4 and n.</p></note> were wound up from
+                    time to time, and kept always fit for the pleasing labour for which man was
+                    designed by his Creator. Accordingly ‘the evening and the morning were the first
+                        day’<note place="foot" xml:id="ftn22" n="22"><p rend="footnote text">Gen.
+                                1:5<hi rend="italic">b</hi>.</p></note> before sin or pain was in
+                    the world. The first natural day had one part dark for a season of repose, one
+                    part light for a season of labour. And even in paradise Adam <hi rend="italic"
+                        >slept</hi><hi rend="endnote_reference"><note place="end"><p
+                                rend="endnote text">[Gen.] 2:21.</p></note></hi> before he sinned;
+                    sleep therefore belonged to innocent human nature. Yet I do not apprehend it can
+                    be inferred from hence that there is either darkness or sleep in heaven.<note
+                        place="foot" xml:id="ftn23" n="23"><p rend="footnote text">Cf. No. 51, <hi
+                                rend="italic">The Good Steward,</hi> II.10 and n.</p></note> Surely
+                    there is no darkness in that City of God. Is it not expressly said, ‘There shall
+                    be no night there’? Indeed they have no light from the sun; but ‘the Lord giveth
+                    them light.’<hi rend="endnote_reference"><note place="end"><p
+                                rend="endnote text">Rev. 22:5.</p></note></hi> So it is all day in
+                    heaven, as it is all night in hell. On earth we have a mixture of both. Day and
+                    night succeed each other till earth shall be turned to heaven. Neither can we at
+                    all credit the account given by the ancient poet concerning sleep in heaven,
+                    although he allows ‘cloud-compelling Jove’ to remain awake while the inferior
+                    gods were sleeping.<note place="foot" xml:id="ftn24" n="24"><p
+                            rend="footnote text">This translation of Homer’s νεφεληγέρετα Ζεύς, as
+                            in the <hi rend="italic">Iliad,</hi> i.511-12 and 517-18, or xiv.312-13,
+                            341-42 (more conventionally, ‘cloud-gathering Zeus’), may be seen in
+                            Edmund Waller, ‘Of the Danger of His Majesty…Escaped…’, l. 10, <hi
+                                rend="italic">Works </hi>(1729), p. 2; and in Samuel Wesley, Jun.,
+                            ‘The Iliad in a Nutshell’, in <hi rend="italic">Poems</hi>, p. 345. See
+                            also Nicholas Rowe, <hi rend="italic">Lucan’s Pharsalia</hi>, V.897; and
+                            Pope, <hi rend="italic">Iliad</hi>, xiv.388.</p></note> ’Tis pity
+                    therefore that our great poet should copy so servilely after the old heathen as
+                    to tell us,</p>
+                <lg>
+                    <l>Sleep had sealed</l>
+                    <l>All but the unsleeping eyes of God himself.</l>
+                    <note place="foot" xml:id="ftn25" n="25">
+                        <p rend="footnote text">Cf. Milton, <hi rend="italic">Paradise Lost</hi>,
+                            v.646-47; cf. also the <hi rend="italic">Iliad</hi>, ii.3-4, 5-8.</p>
+                    </note>
+                </lg>
+                <p>Not so: they that are ‘before the throne of God’ serve ‘him day and night’
+                    (speaking after the manner of men) ‘in his temple.’<hi rend="endnote_reference"
+                            ><note place="end"><p rend="endnote text">Rev. 7:15.</p></note></hi>
+                    That is, without any interval. As wicked spirits are tormented day and night,
+                    without any intermission of their misery, so holy spirits enjoy God day and
+                    night, without any intermission of their happiness.</p>
+                <p n="8"><pb n="02:393"/>8. On the second day God encompassed the terraqueous globe<note
+                        place="foot" xml:id="ftn26" n="26"><p rend="footnote text">Cf. I.10, below;
+                            and No. 15, <hi rend="italic">The Great Assize,</hi> I.1 and
+                        n.</p></note> with that noble appendage the atmosphere, consisting chiefly
+                    of air, but replete with earthly particles of various kinds, and with huge
+                    volumes of water—sometimes invisible, sometimes visible—buoyed up with that
+                    ethereal fire,<note place="foot" xml:id="ftn27" n="27"><p rend="footnote text"
+                            >Cf. <hi rend="italic">ibid</hi>, III.4 and n.</p></note> a particle of
+                    which cleaves to every particle of air. By this the water was divided into
+                    innumerable drops, which descending watered the earth and made it very
+                    plenteous, without incommoding any of its inhabitants. For there were then no
+                    impetuous currents of air, no tempestuous winds; no furious hail, no torrents of
+                    rain, no rolling thunders or forky<note place="foot" xml:id="ftn28" n="28"><p
+                            rend="footnote text"><hi rend="italic">OED</hi> traces this usage much
+                            further back (i.e., 1508) than ‘forked’ (1729).</p></note> lightnings.
+                    One perennial spring was perpetually smiling over the whole surface of the
+                    earth.</p>
+                <p n="9">9. On the third day God commanded all kind of
+                    vegetables to spring out of the earth. It pleased him first to clothe</p>
+                <l>The universal face with pleasant green.<note place="foot" xml:id="ftn29" n="29"
+                            ><p rend="footnote text">A repetition of I.2, above, omitted horn the
+                            text of <hi rend="italic">SOSO</hi>, V.</p></note></l>
+                <p>And then to add thereto innumerable herbs, intermixed with flowers of all hues.
+                    To these were added shrubs of every kind, together with tall and stately trees,
+                    whether for shade, for timber, or for fruit, in endless variety. Some of these
+                    were adapted to particular climates or particular exposures, while vegetables of
+                    more general use (as wheat in particular) were not confined to one country, but
+                    would flourish almost in every climate. But among all these there were no weeds,
+                    no useless plants, none that encumbered the ground. Much less were there any
+                    poisonous ones, tending to hurt any one creature, but everything was salutary in
+                    its kind, suitable to the gracious design of its great Creator.</p>
+                <p n="10">10. The Lord now created ‘the sun to rule the day,
+                    and the moon to govern the night’.<note place="foot" xml:id="ftn30" n="30"><p
+                            rend="footnote text">Cf. Gen. 1:16; Ps. 136:8-9 (BCP).</p></note> The
+                    sun was</p>
+                <l>Of this great world both eye and soul.<note place="foot" xml:id="ftn31" n="31"><p
+                            rend="footnote text">Milton. See above, I.6 and n.</p></note></l>
+                <p>The eye, making all things visible, imparting light to every part of the system,
+                    and thereby rejoicing both earth and sky; and the soul, the principle of all
+                    life, whether to vegetables or animals. Some of
+                    <pb n="02:394"/>the uses of the moon we are acquainted with: her causing the
+                    ebbing and flowing of the sea, and influencing in a greater or smaller degree
+                    all the fluids in the terraqueous globe.<note place="foot" xml:id="ftn32" n="32"
+                            ><p rend="footnote text">Cf. I.8, above; and No. 15, <hi rend="italic"
+                                >The Great Assize</hi>, I.1 and n.</p></note> And many other uses
+                    she may have, unknown to us, but known to the wise Creator. But it is certain
+                    she had no hurtful, no unwholesome influence on any living creature.<note
+                        place="foot" xml:id="ftn33" n="33"><p rend="footnote text">Cf. Chambers’s
+                            denial of the moon’s causal influence on lunacy, in <hi rend="italic"
+                                >Cyclopaedia</hi>.</p></note> ‘He made the stars also:’<note
+                        place="foot" xml:id="ftn34" n="34"><p rend="footnote text">Gen.
+                        1:16.</p></note> both those that move round the sun, whether of the primary
+                    or secondary order, or those that being at a far greater distance appear to us
+                    as fixed in the firmament of heaven. Whether <hi rend="italic">comets</hi><note
+                        place="foot" xml:id="ftn35" n="35"><p rend="footnote text">Chambers’s <hi
+                                rend="italic">Cyclopaedia</hi> has five columns for his entry on
+                            stars: ‘The stars are distinguished, from the phenomena of their motion,
+                            etc., into “fixed” and “erratic”…’ (i.e., planets and comets). His entry
+                            on comets runs to seven columns. Wesley was fascinated by astronomy, as
+                            most folk in the eighteenth century were (cf. No. 55, <hi rend="italic"
+                                >On the Trinity</hi>, §7 and n.). Cf. also his <hi rend="italic"
+                                >Survey</hi>, V.i.4, ‘Comets and Fixed Stars’ (III.272-73), and
+                            VI.i.3-5, ‘Planets and Comets’ (IV.62-64). Cf. also Nos. 64, ‘The New
+                            Creation’, §8; 68, ‘The Wisdom of God’s Counsels’, §3; 69, ‘The
+                            Imperfection of Human Knowledge’, I.5; 103,’What is Man? Ps. 8:3-4’,
+                            I.4-5; 132, ‘On Faith, Heb. 11:1’, §3. See also No. 15, <hi
+                                rend="italic">The Great Assize</hi>, III.4 and n.; and <hi
+                                rend="italic">Serious Thoughts on the Earthquake at
+                        Lisbon</hi>.</p></note> are to be numbered among the stars, and whether they
+                    were parts of the original creation, is perhaps not so easy to determine, at
+                    least with certainty, as we have nothing but probable conjecture either
+                    concerning their nature or their use. We know not whether (as some ingenious men
+                    have imagined) they are ruined worlds—worlds that have undergone a general
+                    conflagration—or whether (as others not improbably suppose) they are immense
+                    reservoirs of fluids, appointed to revolve at certain seasons, and to supply the
+                    still decreasing moisture of the earth. But certain we are that they did not
+                    either produce or portend any evil. They did not (as many have fancied
+                    since)</p>
+                <lg>
+                    <l>From their horrid hair</l>
+                    <l>Shake pestilence and war.</l>
+                    <note place="foot" xml:id="ftn36" n="36">
+                        <p rend="footnote text">Cf. Milton, <hi rend="italic">Paradise Lost</hi>,
+                            ii.710-11.</p>
+                    </note>
+                </lg>
+                <p n="11">11. The Lord God afterward peopled the earth with
+                    animals of every kind. He first commanded the waters to bring forth abundantly:
+                    to bring forth creatures which, as they inhabited a grosser element, so they
+                    were in general of a more stupid nature, endowed with fewer senses and less
+                    understanding than other animals. The bivalved shell-fish in particular seem to
+                    have no sense but that of feeling, unless perhaps a low measure of taste, so <pb n="02:395"/>that they are but one degree above vegetables. And even the king
+                    of the waters (a title which some give the whale because of his enormous
+                    magnitude), though he has sight added to taste and feeling, does not appear to
+                    have an understanding proportioned to his bulk. Rather, he is inferior therein
+                    not only to most birds and beasts but to the generality of even reptiles and
+                    insects. However, none of these then attempted to devour or in any wise hurt one
+                    another. All were peaceful and quiet, as were the watery fields wherein they
+                    ranged at pleasure.</p>
+                <p n="12">12. It seems the insect kinds were at least one
+                    degree above the inhabitants of the waters. Almost all these too devour one
+                    another and every other creature which they can conquer. Indeed, such is the
+                    miserably disordered state of the world at present that innumerable creatures
+                    can no otherwise preserve their own lives than by destroying others.<note
+                        place="foot" xml:id="ftn37" n="37"><p rend="footnote text">Cf. Nos. 60, ‘The
+                            General Deliverance’, II.3; and 64, ‘The New Creation’, §17. This notion
+                            of the predatory chain of the ladder of living things has a striking
+                            parallel in Bishop Joseph Hall, <hi rend="italic">Soliloquies</hi>, X,
+                                <hi rend="italic">Select Works</hi>, III.346: ‘I cannot but observe,
+                            how universal it is, in all kinds, for one creature to prey upon
+                            another: the greater fishes devour the less; the birds of rapine feed
+                            upon the smaller fowls: the ravenous wild beasts sustain themselves with
+                            the flesh of the weaker and tamer cattle: the dog pursues the hare; the
+                            cat, the mouse: yea, the very mole, under the earth, hunts for the worm;
+                            and the spider, in our window, for the fly. Whether it pleased God to
+                            ordain this antipathy in nature, or whether man’s sin brought this
+                            enmity upon the creature, I enquire not: this I am sure of, that both
+                            God hath given unto man, the lord of this inferior world, leave and
+                            power, to prey upon all these his fellow-creatures, and to make his use
+                            of them both for his necessity and lawful pleasure; and that the God of
+                            this world is only he, that hath stirred up men to prey upon one
+                            another: some, to eat their flesh, as the savage Indians; others, to
+                            destroy their lives, estates, good names: this proceeds only from him
+                            that is a murderer from the beginning. O my soul, do thou mourn in
+                            secret, to see the great enemy of mankind so woefully prevalent, as to
+                            make the earth so bloody a shambles to the sons of men; and see
+                            Christians so outrageously cruel to their own flesh. And O thou, that
+                            art the Lord of Hosts and the God of Peace, restrain thou the violent
+                            fury of those, which are called by thy name; and compose these unhappy
+                            quarrels, amongst them that should be brethren. Let me, if it may stand
+                            with thy blessed will, once again see peace smile over the earth, before
+                            I come to see thy face in glory.’</p></note> But in the beginning it was
+                    not so. The paradisiacal earth afforded a sufficiency of food for all its
+                    inhabitants, so that none of them had any need of temptation to prey upon the
+                    other. The spider was as harmless as the fly, and did not then lie in wait for
+                    blood. The weakest of them crept securely over the earth, or spread their gilded
+                    wings in the air, that waved in the breeze and glittered in the sun without any
+                    to make them afraid. Meantime the reptiles of every kind were equally harmless,
+                    and more intelligent than they. Yea, one species of <pb n="02:396"/>them ‘was
+                    more subtle’, or knowing, ‘than any of the’ brute creation ‘which God had
+                        made’.<note place="foot" xml:id="ftn38" n="38"><p rend="footnote text">Cf.
+                            Gen. 3:1.</p></note></p>
+                <p n="13">13. But in general the <hi rend="italic">birds</hi>,
+                    created to fly in the open firmament of heaven, appear to have been of an order
+                    far superior to either insects or reptiles, although still considerably inferior
+                    to <hi rend="italic">beasts</hi> (as we now restrain that word, to
+                    quadrupeds—four-footed animals—which two hundred years ago included every kind
+                    of living creatures).<note place="foot" xml:id="ftn39" n="39"><p
+                            rend="footnote text">Cf. <hi rend="italic">OED</hi>’s citation of Miles
+                            Coverdale’s usage of ‘beast’ (1535): ‘The Bey is but a small beast
+                            amonge the foules, yet is his fruit exceedinge swete.’</p></note> Many
+                    species of these are not only endowed with a large measure of natural
+                    understanding, but are likewise capable of much improvement by art, such as one
+                    would not readily conceive. But among all these there were no birds or beasts of
+                    prey, none that destroyed or molested another; but all the creatures breathed in
+                    their several kinds the benevolence of their great Creator.</p>
+                <p n="14">14. Such was the state of the creation, according to
+                    the scanty ideas which we can now form concerning it, when its great Author,
+                    surveying the whole system at one view, pronounced it ‘very good’! It was good
+                    in the highest degree whereof it was capable, and without any mixture of evil.
+                    Every part was exactly suited to the others, and conducive to the good of the
+                    whole. There was ‘a golden chain’ (to use the expression of <hi rend="italic"
+                        >Plato</hi>) ‘let down from the throne of God’<note place="foot"
+                        xml:id="ftn40" n="40"><p rend="footnote text">The ‘proof-text’ here is
+                            Plato’s <hi rend="italic">Thaeatetus</hi>, 153C, where Plato cites
+                            Homer’s <hi rend="italic">Iliad</hi>, viii.19, as a proof-text for the
+                            phrase, ἡ σειρὰ χρυσείν (‘the golden chain’). The two texts are
+                            metaphors for Plato’s pervasive and basic idea of ‘the great chain of
+                            being’ (i.e., the interconnectedness of all things in a single coherent
+                            whole). The classic survey of this idea is A. O. Lovejoy, <hi
+                                rend="italic">The Great Chain of Being: A Study of the History of an
+                                Idea</hi> (Cambridge, Mass., Harvard Univ. Press, 1936). Long before
+                            Wesley’s time, this monistic world view had become a philosophical
+                            commonplace celebrated by the Cambridge Platonists and by poets like
+                            Milton, Herbert, Pope, Thomson, <hi rend="italic">et al.</hi> See, e.g.,
+                            Herbert’s <hi rend="italic">The Temple</hi>, ‘Providence’, 133-36; or
+                            Pope, <hi rend="italic">Essay on Man</hi>, i.237-42:</p>
+                        <lg><l>Vast chain of being! which from God began</l>
+                            <l>Natures ethereal, human, angel, man,</l>
+                            <l>Beast, bird, fish, insect, what no eye can see,</l>
+                            <l>No glass can reach; from Infinite to thee,</l>
+                            <l>From thee to nothing….</l></lg><p rend="footnote text">See also James
+                            Thomson, <hi rend="italic">The Seasons</hi>, ‘Summer’, ll. 333-36:</p>
+                        <lg><l>Has any seen</l>
+                            <l>The mighty chain of being, lessening down</l>
+                            <l>From Infinite Perfection to the brink</l>
+                            <l>Of dreary nothing, desolate abyss!</l></lg><p rend="footnote text"
+                            >This idea is everywhere presupposed in Wesley, and yet without ever
+                            contradicting, in his mind, the premise of <hi rend="italic">creatio de
+                                nihilo</hi>. Cf., e.g., Nos. 42, ‘Satan’s Devices’, II.4; 60, ‘The
+                            General Deliverance’, III.6; 68, ‘The Wisdom of God’s Counsels’, §2; 71,
+                            ‘Of Good Angels’ (<hi rend="italic">passim</hi>, for the place of angels
+                            in the chain of being); 72, ‘Of Evil Angels’, §1. See also, Wesley’s <hi
+                                rend="italic">Survey</hi>, IV.57-333.</p></note>—an exactly
+                    connected series of <pb n="02:397"/>beings, from
+                    the highest to the lowest: from dead earth, through fossils, vegetables,
+                    animals, to man, created in the image of God, and designed to know, to love, and
+                    enjoy his Creator to all eternity.</p>
+            </div>
+            <div type="section" n="2">
+                <p n="1">[II.] 1. Here is a firm foundation laid on which we may stand and answer all the
+                    cavils of minute philosophers;<note place="foot" xml:id="ftn41" n="41"><p
+                            rend="footnote text">See No. 15, <hi rend="italic">The Great
+                            Assize</hi>, II.4 and n.</p></note> all the objections which ‘vain men
+                    who would be wise’<note place="foot" xml:id="ftn42" n="42"><p
+                            rend="footnote text">Cf. Job 11:12.</p></note> make to the goodness or
+                    wisdom of God in the creation. All these are grounded upon an entire mistake,
+                    namely, that the world is now in the same state it was at the beginning. And
+                    upon this supposition they plausibly build abundance of objections. But all
+                    these objections fall to the ground when we observe this supposition cannot be
+                    admitted. The world at the beginning was in a totally different state from that
+                    wherein we find it now. Object therefore whatever you please to the present
+                    state either of the animate or inanimate creation, whether in general or with
+                    regard to any particular instances, and the answer is ready: these are not now
+                    as they were in the beginning. Had you therefore heard that vain King of Castile
+                    crying out with exquisite self-sufficiency, ‘If I had made the world I would
+                    have made it better than God Almighty has made it,’<note place="foot"
+                        xml:id="ftn43" n="43"><p rend="footnote text">The ‘vain king’ was Alphonso
+                            X, ‘<hi rend="italic">El Sabio</hi>’ (1221-84), and his ironic aphorism
+                            survives in many different versions. Cf. Clarke, <hi rend="italic">A
+                                Mirrour or Looking-Glasse</hi> (1654), p. 190, where Clarke cites
+                            Justus Lipsius, <hi rend="italic">De Cruce Libri Tres…</hi> (1637). It
+                            surfaced as the motto for Dean Acheson’s autobiography, <hi
+                                rend="italic">Present at the Creation</hi> (New York, Norton, 1969):
+                            ‘Had I been present at the creation I would have given some useful hints
+                            for the better ordering of the universe (Alphonso X, the Learned…King of
+                            Spain).’ The original comment, however, seems not to have been aimed at
+                            the universe in general but more specifically at the complexities of the
+                            Ptolemaic astronomy. Cf. John Norris, ‘Sermon Preached Before the
+                            University of Oxford, Mar. 29, 1685’, p. 2, where mention is made of
+                            ‘that arrogant and peevish mathematician who charged the grand architect
+                            with want of skill in the mechanism of the world’ saying he could have
+                            done better. See also Pufendorf’s <hi rend="italic">Introduction to the
+                                History of the Principal Kingdoms and States of Europe</hi> (rev.
+                            edn., 1764), I.61, where it is also noted that ‘Alphonso X, surnamed
+                            “The Wise,” was universally esteemed for his learning and particularly
+                            for his skill in astronomy.’ Cf. No. 90, ‘An Israelite Indeed’, II.10
+                            and n.</p></note> you might have replied: ‘No: God Almighty—whether you
+                    know it or not—did not make it as it is <pb n="02:398"/>now. He himself made it
+                    better, unspeakably better than it is at present. He made it without any
+                    blemish, yea, without any defect. He made no corruption, no destruction in the
+                    inanimate creation. He made not death in the animal creation, neither its
+                    harbingers, sin and pain. If you will not believe his own account, believe your
+                    brother heathen. It was only</p>
+                <lg>
+                    <l>
+                        <hi rend="italic">Post ignem aetheria domo</hi>
+                    </l>
+                    <l>
+                        <hi rend="italic">Subductum…,</hi>
+                    </l>
+                </lg>
+                <p>that is, in plain English, after man, in utter defiance of his Maker, had eaten
+                    of the tree of knowledge, that</p>
+                <lg>
+                    <l>
+                        <hi rend="italic">macies et nova febrium</hi>
+                    </l>
+                    <l>
+                        <hi rend="italic">Terris incubuit cohors—</hi>
+                    </l>
+                    <note place="foot" xml:id="ftn44" n="44">
+                        <p rend="footnote text">Cf. Horace, <hi rend="italic">Odes</hi>,
+                            I.iii.29-31: ‘after fire was stolen from its home in heaven [by
+                            Prometheus], wasting disease and a new plague of fevers fell upon the
+                            earth.’ See also No. 129, ‘Heavenly Treasure in Earthen Vessels’,
+                            II.1.</p>
+                    </note>
+                </lg>
+                <p>that a whole army of evils, totally new, totally unknown till then, broke in upon
+                    rebel man, and all other creatures, and overspread the face of the earth.’</p>
+                <p n="2">2. ‘Nay’ (says a bold man who has since personated a
+                    Christian, and so well that many think him one!):<hi rend="endnote_reference"
+                            ><note place="end"><p rend="endnote text">Mr. S___ J___s. [I.e., Soame
+                                Jenyns (1704-87) in his <hi rend="italic">Free Inquiry into the
+                                    Nature and Origin of Evil</hi> (first published anonymously in
+                                1757). Cf. p. 15: ‘The true solution of this incomprehensible
+                                paradox must be this, that all evils owe their existence solely to
+                                the necessity of their own natures, by which I mean they could not
+                                possibly have been prevented without the loss of some Superior Good,
+                                or the permission of some greater evil than themselves; or that many
+                                (p. 16) evils will unavoidably insinuate themselves by the natural
+                                relations and circumstances of things into the most perfect system
+                                of created beings, even in opposition to the will of an almighty
+                                Creator….’ P. 17: ‘All that infinite power and wisdom could do was
+                                to make choice of that method which was attended with the least and
+                                fewest (evils).’ P. 108: ‘If it be objected that this (general
+                                argument) makes God the author of sin, I answer, God is and must be
+                                the author of everything.’ P. 109: ‘If natural evil owes its
+                                existence to necessity, why not moral (evil as well)? If misery
+                                brings with it its utility, why not wickedness?’ This was promptly
+                                denounced by Samuel Johnson (who readily recognized the author) in
+                                    <hi rend="italic">The Literary Magazine</hi>, 1757, and by
+                                others; cf. Richard Butterworth, ‘Soame Jenyns’, in WHS, XIII.3. See
+                                also, Nos. 57, ‘On the Fall of Man’, §1; 59, ‘God’s Love to Fallen
+                                Man’, II.15; 62, ‘The End of Christ’s Coming’, I.8. Cf. also
+                                Wesley’s letter to his father, Dec. 19, 1729, where he refers to
+                                Humphrey Ditton (1675-1715), <hi rend="italic">Discourse on the
+                                    Resurrection of Christ </hi>(1714). And cf. Wesley’s <hi
+                                    rend="italic">Notes</hi> on Matt 13:28.]</p></note></hi> ‘God is
+                    not to blame for either the natural or moral evils that are in the world. For he
+                    made it as well as he could: seeing evil must exist, in the very nature of
+                    things.’ It must, in the <hi rend="italic">present</hi> nature of things,
+                    supposing man to <pb n="02:399"/>have rebelled against God. But evil did not
+                    exist at all in the original nature of things. It was no more the necessary
+                    result of matter than it was the necessary result of spirit. All things then,
+                    without exception, were very good. And how should they be otherwise? There was
+                    no defect at all in the power of God, any more than in his goodness or wisdom.
+                    His goodness inclined him to make all things good: and this was executed by his
+                    power and wisdom. Let every sensible infidel then be ashamed of making such
+                    miserable <hi rend="italic">excuses</hi> for his Creator! He needs none of us to
+                    make <hi rend="italic">apologies</hi>, either for him or for his creation! ‘As
+                    for God, his way is perfect’<note place="foot" xml:id="ftn45" n="45"><p
+                            rend="footnote text">2 Sam. 22:31.</p></note>—and such originally were
+                    all his works. And such they will be again, when ‘the Son of God’ shall have
+                    ‘destroyed all the works of the devil’.<note place="foot" xml:id="ftn46" n="46"
+                            ><p rend="footnote text">Cf. 1 John 3:8.</p></note></p>
+                <p n="3">3. Upon this ground, then—that ‘God made man
+                    upright’, and every creature perfect in its kind, but that man ‘found out to
+                    himself many inventions’<note place="foot" xml:id="ftn47" n="47"><p
+                            rend="footnote text">Cf. Eccles. 7:29.</p></note> of happiness
+                    independent on God, and that by his apostasy from God he threw not only himself
+                    but likewise the whole creation, which was intimately connected with him, into
+                    disorder, misery, death—upon this ground, I say, we do not find it difficult
+                    to</p>
+                <l>Justify the ways of God with men.<note place="foot" xml:id="ftn48" n="48"><p
+                            rend="footnote text">Cf. Milton, <hi rend="italic">Paradise Lost</hi>,
+                            i.26. See No. 15, <hi rend="italic">The Great Assize</hi>, II.16 and
+                            n.</p></note></l>
+                <p>For although he left man in the hand of his own counsel, to choose good or evil,
+                    life or death; although he did not take away the liberty he had given him, but
+                    suffered him to choose death, in consequence of which the whole creation now
+                    groaneth together;<note place="foot" xml:id="ftn49" n="49"><p
+                            rend="footnote text">See Rom. 8:22.</p></note> yet when we consider all
+                    the evils introduced into the creation may work together for our good—yea, may
+                    work out for us a far more exceeding and eternal weight of glory<note
+                        place="foot" xml:id="ftn50" n="50"><p rend="footnote text">See 2 Cor.
+                            4:17.</p></note>—we may well praise God for permitting these temporary
+                    evils in order to our eternal good. Yea, we may well cry out: ‘O the depth both
+                    of the wisdom and of the goodness of God!<note place="foot" xml:id="ftn51"
+                        n="51"><p rend="footnote text">Cf. Rom. 11:33.</p></note> He hath done all
+                    things well.<note place="foot" xml:id="ftn52" n="52"><p rend="footnote text"
+                            >Mark 7:37.</p></note> Glory be unto God, and unto the Lamb for ever and
+                        ever!’<note place="foot" xml:id="ftn53" n="53"><p rend="footnote text">Rev.
+                            5:13; for Wesley’s usage of ascriptions as endings for his sermons, see
+                            No. 1, <hi rend="italic">Salvation by Faith</hi>, III.9 and
+                        n.</p></note></p>
+            </div>
+        </body>
+    </text>
+</TEI>
