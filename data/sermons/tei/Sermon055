@@ -1,0 +1,697 @@
+<?xml version="1.0" encoding="UTF-8"?> <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Sermon 55: On the Trinity</title>
+                <author>Wesley, John</author>
+                <editor role="text">Van Buskirk, Gregory P.</editor>
+                <editor role="digital">Taylor, Michelle M.</editor>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>The Wesley Works Digitzation Project</publisher>
+                <pubPlace>Tampa, FL</pubPlace>
+                <date>2024-02-29</date>
+            </publicationStmt>
+            <sourceDesc>
+                <listBibl>
+                    <biblStruct>
+                        <analytic>
+                            <title level="a">Sermon 55: On the Trinity</title>
+                        </analytic>
+                        <monogr>
+                            <title level="j">The Works of John Wesley, Volume II: Sermons II,
+                                34-70</title>
+                            <editor role="volume">Outler, Albert</editor>
+                            <imprint>
+                                <publisher>Abingdon Press</publisher>
+                                <pubPlace>Nashville, TN</pubPlace>
+                                <date when="1985-11-01">1985-11-01</date>
+                                <biblScope unit="volume" n="2"/>
+                                <biblScope unit="page" from="373" to="386"/>
+                            </imprint>
+                        </monogr>
+                        <series>
+                            <title level="s">The Works of John Wesley</title>
+                            <editor role="general">Baker, Frank</editor>
+                        </series>
+                    </biblStruct>
+                </listBibl>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Greg Van Buskirk created Word docs for all of Wesley's sermons using a combination of
+                OCR software and manual proofing. Michelle Taylor converted these docx into XML
+                using Oxygen's DITA automatic transformation scenario, then touched them up
+                manually.</p>
+        </encodingDesc>
+        <standOff>
+            <taxonomy>
+                <keywords>
+                    <term/>
+                </keywords>
+            </taxonomy>
+            <!--Include keywords and terms here eventually.-->
+        </standOff>
+        <revisionDesc/>
+    </teiHeader>
+    <text>
+        <body>
+            <pb n="02:373"/>
+            <introduction>
+                <head>
+                    <hi rend="italic">An Introductory Comment</hi>
+                </head>
+                <p>This sermon was written and published in Ireland in 1775 under the title, <hi
+                        rend="italic">A Sermon on 1st John, v. 7</hi>, and, despite its six further
+                    editions in Wesley’s lifetime, it was not reprinted in the <hi rend="italic"
+                        >Arminian Magazine</hi>. (For details of its publishing history and variant
+                    reading, see Appendix, Vol. 4, and<hi rend="italic"> Bibliog</hi>, No. 353.) The
+                    text (1 John 5:7), and so also presumably the topic, must have been a favourite
+                    in Wesley’s oral preaching, for its use is recorded twenty-three times. There
+                    are, however, very few references to the doctrine, as such, in Wesley’s writing;
+                    this is his only extended comment on it. This suggests that for Wesley, as for
+                    pietists generally, abstruse doctrines are better believed devoutly than
+                    analysed rationally.</p>
+                <p>Thus, the crucial point here is that the mystery of ‘the Three-One God’ is better
+                    left as mystery, to be pondered and adored. Speculations must not be overblown
+                    nor exalted to the rank of definitive statements. This, obviously, is a reaction
+                    to certain tendencies in Anglican rationalism (e.g., Richard Hooker, George
+                    Bull, Thomas Sherlock); it may have been a partial warrant for Wesley’s mildly
+                    surprising judgment that ‘one of the best tracts which that great man Dean
+                    [Jonathan] Swift ever wrote was his sermon upon the Trinity.’ Swift had argued
+                    in that sermon for the reality of the Trinity and for implicit belief even as he
+                    insisted that its understanding lay beyond the range of reason. Some of Wesley’s
+                    other references to Swift are less admiring (cf. JWJ, June 14, 1771; July 12,
+                    1773; and especially October 27, 1775, five months after this sermon had been
+                    written).</p>
+                <p>Despite these disavowals of rationalism, however, it is plain enough that the <hi
+                        rend="italic">substance</hi> of Wesley’s own trinitarian doctrine follows
+                    faithfully in the traditional Anglican line hewed out by Bishop John Pearson, of
+                    Chester, in <hi rend="italic">An Exposition of the Creed</hi> (first edition,
+                    1659; fifth edition [last in Pearson’s lifetime], 1683; but see also the
+                    enlarged folio edition of 1732, which Wesley would have seen at Oxford). The
+                    admission of the problems about the textual evidence for 1 John 5:7 is
+                    interesting; so also is Wesley’s appeal to J. A. Bengel’s <pb n="02:374"
+                    />authority, rather than to such English critics as Matthew Poole, Matthew
+                    Henry, or Henry Hammond. Even more interesting, however, is the high incidence
+                    of ‘learned allusions’ in this particular sermon. Simplified as its argument may
+                    be, was it meant to be <hi rend="italic">ad populum</hi>? But if not, why so
+                    blithe a disregard of the tradition?</p>
+            </introduction>
+            <head>On the Trinity</head>
+            <p>Advertisement</p>
+            <p>Some days since I was desired to preach on this text. I did so yesterday morning. In
+                the afternoon I was pressed to write down and print my sermon; if possible before I
+                left Cork. I have wrote it this morning: but I must beg the reader to make allowance
+                for the disadvantages I am under, as I have not here any books to consult, nor
+                indeed any time to consult them.</p>
+            <p>Cork, May 8, 1775</p>
+            <epigraph>
+                <p>1 John 5:7</p>
+                <p>
+                    <hi rend="italic">There are three that bear record in heaven, the Father, the
+                        Word, and the Holy Ghost: and these three are one.</hi>
+                </p>
+            </epigraph>
+            <p n="1">1. Whatsoever the generality of people may think, it is certain that opinion is
+                not religion: no, not right opinion, assent to one or to ten thousand truths. There
+                is a wide difference between them: even right opinion is as distant from religion as
+                the east is from the west. Persons may be quite right in their opinions, and yet
+                have no religion at all. And on the other hand persons may be truly religious who
+                hold many wrong opinions. Can anyone possibly doubt of this while there are
+                Romanists in the world? For who can deny, not only that many of them formerly have
+                been truly <pb n="02:375"/> religious (as à Kempis,<note place="foot" xml:id="ftn1"
+                    n="1"><p rend="footnote text">One of the three principal influences mentioned by
+                        Wesley in his own spiritual autobiography (JWJ, May 24, 1738). He knew à
+                        Kempis (1380-1471) chiefly as the author of <hi rend="italic">De Imitatione
+                            Christi</hi>, which in 1738 he said he had read ‘in Dean Stanhope’s
+                        translation’ (see JWJ, <hi rend="italic">ibid.</hi>). Born in Kempen, near
+                        Cologne, Thomas (Hemerken) lived most of his life in the Augustinian
+                        monastery of St. Agnes near Zwolle (Netherlands). He was a disciple of
+                        Groote and Ruysbroeck and became the most famous of the spokesmen for the
+                            ‘<hi rend="italic">Devotio Moderna</hi>’ (if, indeed, he <hi
+                            rend="italic">was</hi> the author of the <hi rend="italic"
+                            >Imitation</hi>). Wesley translated and published the <hi rend="italic"
+                            >Imitation</hi> in 1735. (Moore writes that Wesley was ‘dissatisfied
+                        with Stanhope’s translation and determined to give a full view of the
+                        self-denying purity of his favourite guide’; cf. <hi rend="italic"
+                            >Wesley</hi>, II.401).</p><p rend="footnote text">For some of Wesley’s
+                        repeated references to à Kempis see Nos. 73, ‘Of Hell’, II.7; 79, ‘On
+                        Dissipation’, §17; 125, ‘On a Single Eye’, §1. Cf. also his letter to his
+                        mother, May 28, 1725; to Joseph Taylor, Sept. 24, 1782; and to James
+                        Macdonald, Oct. 23, 1790. He used Castellio’s Ciceronian translation of it
+                            (<hi rend="italic">e Latino in Latinum</hi>) as a Latin text for the
+                        students at Kingswood.</p></note> Gregory Lopez,<note place="foot"
+                    xml:id="ftn2" n="2"><p rend="footnote text">An obscure Spanish mystic (1542-96),
+                        discovered by Wesley in Francisco Losa’s <hi rend="italic">Holy Life of
+                            Gregory Lopez, A Spanish Hermite in the West Indies</hi> (orig. in
+                        Spanish, 1618?; Eng. tr., 1675). This he abridged and published in the <hi
+                            rend="italic">Christian Lib.</hi>, L. 337-406. Wesley must have been
+                        impressed by Lopez’s ‘conversion’ in Toledo (age 20) and his resolution ‘to
+                        quit both the court, his friends and native country’. Lopez arrived in ‘New
+                        Spain’ (Mexico) in 1562, and shortly found a hermitage in the wilderness of
+                        Amajac and lived in great austerity for seven years in <hi rend="italic">un
+                            alto puro nudo di amore de Dios</hi> (‘in an exalted state of the pure,
+                        unadorned love of God’). Then came a period of itinerancy (Guasteca,
+                        Atrisco, Mexico City, etc.) but always in a severely ascetic lifestyle. His
+                        last seven years were spent in a little house near Santa Fé (‘two leagues
+                        from the city’ [Mexico City]) where he died. Before one of his infrequent
+                        communions, Losa records that Lopez ‘fell on his knees before Fr. Vincent
+                        and, striking his breast, said, “Through the mercy of God, I do not remember
+                        to have offended him in anything. Give me, if you please, the most holy
+                        Sacraments.” Fr. Vincent asked in amazement, “Is it possible a man should
+                        have attained so high a degree of virtue, as not to be conscious of
+                        [sin]?”’</p><p rend="footnote text">It is easy to see how Lopez’s example
+                        affected Wesley: (1) their mutual source in Scupoli’s <hi rend="italic"
+                            >Spiritual Combat</hi>; (2) Lopez’s voyage to Mexico had parallels to
+                        the Georgia mission; (3) ‘holy living’ as a lifelong quest; (4) stress on
+                        self-denial; (5) tranquillity of soul; (6) <hi rend="italic">contemptus
+                            mundi</hi>; (7) identification with the poor; (8) Lopez’s practice of
+                        ‘primitive physick’; (9) ‘perfection’ as purity of intention <hi
+                            rend="italic">in this life</hi>; (10) the equation of holiness and
+                        happiness.</p><p rend="footnote text">Lopez’s influence had already been
+                        acknowledged by Molinos and Madame Guyon. Cf. No. 114,<hi rend="italic"> On
+                            the Death of John Fletcher</hi>, III.12, as well as repeated references
+                        in JWJ and <hi rend="italic">Letters</hi>.</p></note> and the Marquis de
+                    Renty<note place="foot" xml:id="ftn3" n="3"><p rend="footnote text">Gaston Jean
+                        Baptiste de Renty (1611-49), a highborn Frenchman turned ascetic, known to
+                        Wesley through the <hi rend="italic">Life</hi> by Saint-Jure, (see No. 14,
+                            <hi rend="italic">The Repentance of Believers</hi>, n. 70). A precocious
+                        youth, de Renty was ‘converted’ by a reading of à Kempis and resolved to
+                        become a Carthusian hermit. His parents dissuaded him from this, encouraging
+                        him to marry and enter a career of public service. In 1638, however, he
+                        abandoned his career to devote himself wholly to ascetic piety (e.g.,
+                        wearing an iron girdle, etc.) and to charity. He also influenced Henry Buch
+                        (1590-1666) to found a religious congregation of <hi rend="italic">Les
+                            Frères Cordonniers</hi>, one of the models for Wesley’s societies.
+                        Wesley’s references to de Renty are numerous; cf. No. 14, <hi rend="italic"
+                            >The Repentance of Believers</hi>, I.15 and n.</p></note>), but that
+                many of them even at this day are real, inward Christians? And yet what an heap of
+                erroneous opinions do they hold, delivered by tradition from their fathers! Nay, who
+                can doubt of it while there are Calvinists in the world—asserters of <pb n="02:376"/>
+                absolute predestination? For who will dare to affirm that none of these are truly
+                religious men? Not only many of them in the last century were burning and shining
+                    lights,<note place="foot" xml:id="ftn4" n="4"><p rend="footnote text">See John
+                        5:35.</p></note> but many of them are now real Christians, loving God and
+                all mankind. And yet what are all the absurd opinions of all the Romanists in the
+                world compared to that one, that the God of love, the wise, just, merciful Father of
+                the spirits of all flesh, has from all eternity fixed an absolute, unchangeable,
+                irresistible decree that part of mankind shall be saved, do what they will, and the
+                rest damned, do what they can!<note place="foot" xml:id="ftn5" n="5"><p
+                        rend="footnote text">A bitter echo of the Calvinist controversy and of
+                        Wesley’s caricature of Augustus M. Toplady’s <hi rend="italic">Doctrine of
+                            Absolute Predestination</hi>, ch. 5, §9 (see <hi rend="italic"
+                            >Bibliog</hi>, No. 322): ‘The sum of all is this: One in twenty
+                        (suppose) of mankind are <hi rend="italic">elected</hi>; nineteen in twenty
+                        are <hi rend="italic">reprobated</hi>. The <hi rend="italic">elect</hi>
+                        shall be saved, do what they will. The <hi rend="italic">reprobate</hi>
+                        shall be damned, do what they can. Reader, believe this, or be damned.
+                        Witness my hand, A<hi rend="italic">[ugustus]</hi> T<hi rend="italic"
+                            >[oplady]</hi>.’</p></note></p>
+            <p n="2">2. Hence we cannot but infer that there are ten thousand mistakes which may
+                consist with real religion; with regard to which every candid, considerate man will
+                think and let think.<note place="foot" xml:id="ftn6" n="6"><p rend="footnote text"
+                        >Cf. No. 7, ‘The Way to the Kingdom’, I.6 and n.</p></note> But there are
+                some truths more important than others. It seems there are some which are of deep
+                importance. I do not term them <hi rend="italic">fundamental</hi> truths, because
+                that is an ambiguous word, and hence there have been so many warm disputes about the
+                number of ‘fundamentals’.<note place="foot" xml:id="ftn7" n="7"><p
+                        rend="footnote text">An echo of another bitter controversy from the
+                        sixteenth and seventeenth centuries (‘adiaphoristic’); cf. J. L. von
+                        Mosheim, <hi rend="italic">Institutiones Historiae Ecclesiasticae</hi>
+                        (1726; Eng. tr. by J. Murdock, 1841),‘Century XVI’, iii.2.28; see also
+                        Heppe, <hi rend="italic">Reformed Dogmatics</hi>, p. 688. In England the
+                        Parliament of 1653 had drawn up a list of sixteen ‘fundamental articles’,
+                        which narrowly missed enactment as church law; cf. Daniel Neal, <hi
+                            rend="italic">History of the Puritans</hi> (1754), II.143-44. In 1734
+                        Daniel Waterland had also drawn up a list of seven ‘fundamentals’ which had
+                        not included a formal doctrine of the Trinity. Here, as elsewhere, Wesley is
+                        reacting against the tendencies of both orthodoxy and pietism (<hi
+                            rend="italic">viz.</hi>, Lange, Spener, <hi rend="italic">et al</hi>.);
+                        he is taking the narrowest possible view of the irreducible ‘fundamentals’
+                        and a consciously tolerant view of a broad spectrum of theological opinions
+                        (i.e., <hi rend="italic">adiaphora</hi>).</p></note> But surely there are
+                some which it nearly concerns us to know, as having a close connection with vital
+                religion. And doubtless we may rank among these that contained in the words above
+                cited: ‘There are three that bear record in heaven, the Father, the Word, and the
+                Holy Ghost: and these three are one.’</p>
+            <p n="3">3. I do not mean that it is of importance to believe this or that <hi
+                    rend="italic">explication</hi> of these words. I know not that any well-judging
+                man <pb n="02:377"/> would attempt to explain them at all. One of the best tracts
+                which that great man Dean Swift ever wrote was his sermon upon the Trinity.<note
+                    place="foot" xml:id="ftn8" n="8"><p rend="footnote text">Jonathan Swift
+                        (1667-1745), Dean of St. Patrick’s, Dublin, from 1713; his sermon ‘On the
+                        Trinity’ was first published in 1744, in <hi rend="italic">Three
+                            Sermons</hi>; there is no record of when or where it was ever preached.
+                        The singling out of Swift’s sermon for praise reflects Wesley’s approval of
+                        Swift’s contention that the doctrine of the Trinity is a ‘mystery’, so far
+                        above reason as precludes rational explication altogether. Here, they were
+                        both dissenting from men like Robert South (‘The Doctrine of the Blessed
+                        Trinity Asserted’, in <hi rend="italic">Sermons</hi>, 1844, II.174-91) who,
+                        with many Anglicans, believed the doctrine could be shown as not contrary to
+                        reason. Cf. Joseph Trapp, ‘On the Trinity’ (London, 1730), where it was
+                        argued that the doctrine is demonstrably rational. See also Louis A. Landa,
+                        ‘Swift, the Mysteries, and Deism’, in <hi rend="italic">Studies in
+                            English</hi> (Austin, Tex., Univ. of Texas Press, 1944), pp. 239-56;
+                        Landa’s thesis is that Swift’s ‘antirationalism’ with regard to the
+                        ‘mystery’ of the Trinity is aimed at the rationalism of the
+                    Deists.</p></note> Herein he shows that all who endeavoured to explain it at all
+                have utterly lost their way; have above all other persons hurt the cause which they
+                intended to promote, having only, as Job speaks, ‘darkened counsel by words without
+                    knowledge’.<note place="foot" xml:id="ftn9" n="9"><p rend="footnote text">Cf.
+                        Job 38:2.</p></note> It was in an evil hour that these explainers began
+                their fruitless work. I insist upon no explication at all; no, not even on the best
+                I ever saw—I mean that which is given us in the creed commonly ascribed to
+                    Athanasius.<note place="foot" xml:id="ftn10" n="10"><p rend="footnote text">Cf.
+                        BCP, Athanasian Creed, directing that it ‘shall be said or sung at Morning
+                        Prayer instead of the Apostles’ Creed on Christmas Day, the Epiphany’, and
+                        eleven other festival days, including Trinity Sunday. Wesley was aware that
+                        Athanasian authorship of this Western creed had been abandoned by most
+                        scholars for more than a century (since G. J. Voss, 1642), and he must have
+                        known the conclusions of Daniel Waterland’s <hi rend="italic">Critical
+                            History of the Athanasian Creed</hi> (1723), where its date is placed in
+                        the decade A.D. 430-40 and its authorship attributed to St. Hilary of Arles;
+                        see the list of other possible authors in Philip Schaff, <hi rend="italic"
+                            >The Creeds of Christendom</hi> (New York, Harper and Harper, 1881-82),
+                        I, §10. The first certain witness to this creed is Caesarius of Arles (<hi
+                            rend="italic">c.</hi> A.D. 542). What is noteworthy about Wesley’s
+                        comments here is his qualified approval of this Creed’s positive statement
+                        on the Trinity and his rejection of the ‘damnatory clauses’ with which it
+                        opens and closes. In 1755, he had declined to ‘defend the <hi rend="italic"
+                            >damnatory clauses</hi> and the speaking of “this faith” (i.e., these
+                        opinions) as if it were the ground term of salvation’; see Frank Baker, <hi
+                            rend="italic">John Wesley and the Church of England</hi>, pp. 18-19,
+                        331. Cf. also Hooker, <hi rend="italic">Laws of Ecclesiastical Polity</hi>,
+                        Bk. V, ch. 42.</p></note> I am far from saying, he who does not assent to
+                this ‘shall without doubt perish everlastingly’. For the sake of that and another
+                clause I for some time scrupled subscribing to that creed, till I considered, (1),
+                that these sentences only relate to <hi rend="italic">wilful</hi>, not involuntary
+                unbelievers—to those who, having all the means of knowing the truth, nevertheless
+                obstinately reject it; (2), that they relate only to the <hi rend="italic"
+                    >substance</hi> of the doctrine there delivered, not the philosophical <hi
+                    rend="italic">illustrations</hi> of it.</p>
+            <p n="4">4. I dare not insist upon anyone’s using the word ‘Trinity’ or <pb n="02:378"/>
+                ‘Person’. I use them myself without any scruple, because I know of none better.
+                But if any man has any scruple concerning them, who shall constrain him to use them?
+                I cannot; much less would I burn a man alive—and that with moist, green wood—for
+                saying, ‘Though I believe the Father is God, the Son is God, and the Holy Ghost is
+                God, yet I scruple using the words “Trinity” and “Persons” because I do not find
+                those terms in the Bible.’ These are the words which merciful John Calvin cites as
+                wrote by Servetus in a letter to himself.<note place="foot" xml:id="ftn11" n="11"><p
+                        rend="footnote text">A remote paraphrase, apparently based on ‘<hi
+                            rend="italic">Sententiae vel Propositionum Excerptae Ex Libris Michaelis
+                            Serveti</hi>’ in Calvin’s <hi rend="italic">Defensio Orthodoxae Fidei de
+                            Sacra Trinitate</hi> (1554); see <hi rend="italic">Calvini Opera</hi>,
+                        VIII.501-8. These excerpts should be compared with Servetus’s own words:
+                        ‘The doctrine of the Trinity can be neither established by logic nor proved
+                        from Scripture…. The Scriptures and the Fathers teach one God the Father and
+                        Jesus Christ his Son; but scholastic philosophy has introduced terms which
+                        are not understood and do not accord with Scripture. Jesus taught that he
+                        himself was the Son of God…. But the doctrine of the Trinity incurs the
+                        ridicule of the Mohammedans [Servetus was a Spaniard] and the Jews. It arose
+                        out of Greek philosophy…, whereas the church should be founded on the belief
+                        that Jesus Christ is the Son of God’ (<hi rend="italic">The Two Treatises of
+                            Servetus on the Trinity </hi>[no date for the orig.; Eng. tr. by E. M.
+                        Wilbur, 1932], pp. 3-5). Wesley (JWJ, July 9, 1741) recounts his discovery
+                        of a history of the Calvin-Servetus affair in the Bodleian Library, and in
+                            <hi rend="italic">Some Remarks on a Defence of Aspasio Vindicated,</hi>
+                        §6, cites ‘Dr. Chandler, an eminent Presbyterian divine in London’ as having
+                        given ‘a circumstantial account of the whole affair’ (Samuel Chandler, <hi
+                            rend="italic">The History of Persecution in Four Parts</hi>, London,
+                        1736, espec. pp. 315-25); in the same <hi rend="italic">Remarks</hi>, §6,
+                        Wesley had already said very nearly what he repeats here.</p><p
+                        rend="footnote text">Calvin has, of course, been condemned and defended for
+                        his part in Servetus’s condemnation and death. In the ‘Dedicatory Preface’
+                        to <hi rend="italic">The Eternal Predestination of God </hi>(1552; Eng. tr.
+                        1856), pp. 20-21, Calvin denies that he was responsible for Servetus’s death
+                        and adds, in <hi rend="italic">The Secret Providence of God</hi> (1558; Eng.
+                        tr. 1856), p. 346: ‘That I myself earnestly entreated that Servetus might
+                        not be put to death, his judges themselves are witnesses.’ See also <hi
+                            rend="italic">Actes du Procès de Michael Servète</hi> (1553), in <hi
+                            rend="italic">Calvini Opera Omnia</hi>, VIII.725-856. But see Sebastian
+                        Castellio in <hi rend="italic">Concerning Heretic</hi>s, ed. and tr. by R.
+                        H. Bainton (1935), pp. 265-87.</p></note> I would insist only on the direct
+                words unexplained, just as they lie in the text: ‘There are three that bear record
+                in heaven, the Father, the Word, and the Holy Ghost: and these three are one.’</p>
+            <p n="5">5. ‘As they lie in the text’—but here arises a question. Is that text genuine?
+                Was it originally written by the Apostle or inserted in later ages? Many have
+                doubted of this; and in particular that great light of the Christian church, lately
+                removed to the church above, Bengelius—the most pious, the most judicious, and the
+                most laborious, of all the modern commentators on the New Testament.<note
+                    place="foot" xml:id="ftn12" n="12"><p rend="footnote text">John Albert Bengel
+                        (1687-1752), whose <hi rend="italic">Gnomon Novi Testamenti</hi> (1742) was
+                        Wesley’s principal source for his <hi rend="italic">Explanatory Notes Upon
+                            the New Testament</hi> (1755). Bengel’s comments on 1 John 5:7-9 run for
+                        sixteen pages in the <hi rend="italic">Gnomon</hi> and conclude that <hi
+                            rend="italic">TR</hi> of 5:7 is required by the context rather than by
+                        the weight of MS evidence. Wesley’s summary of Bengel’s argument seems to
+                        have been based, not upon the <hi rend="italic">Gnomon</hi>, but on a
+                        separate ‘dissertation’ in Bengel’s <hi rend="italic">Apparatus
+                            Criticus</hi> (1734). The words between ‘bear record’ (ver. 7) and ‘the
+                        spirit’ (ver. 8) are included in no modern critical edn.</p></note> For some
+                time he stood in doubt of its authenticity, <pb n="02:379"/>because it is wanting in
+                many of the ancient copies. But his doubts were removed by three considerations:
+                (1). That though it is wanting in many copies yet it is found in more, abundantly
+                more, and those copies of the greatest authority. (2). That it is cited by a whole
+                train of ancient writers from the time of St. John to that of Constantine. This
+                argument is conclusive; for they could not have cited it had it not then been in the
+                sacred canon. (3). That we can easily account for its being after that time wanting
+                in many copies when we remember that Constantine’s successor<note place="foot"
+                    xml:id="ftn13" n="13"><p rend="footnote text">Constantius, who became sole ruler
+                        of the Empire in A.D. 353 and who died in A.D. 361; cf. the vivid and
+                        circumstantial account of this period in William Cave, <hi rend="italic"
+                            >Ecclesiastici: Or, the History of the…Fathers of the Church</hi>
+                        (1716), pp. 399-441 (‘The Life of St. Athanasius’).</p></note> was a zealous
+                Arian, who used every means to promote his bad cause, to spread Arianism throughout
+                the empire; in particular the erasing this text out of as many copies as fell into
+                his hands. And he so far prevailed that the age in which he lived is commonly styled
+                    <hi rend="italic">seculum Arianum</hi>, the Arian age; there being then only one
+                eminent man who opposed him at the peril of his life. So that it was a proverb, <hi
+                    rend="italic">Athanasius contra mundum</hi>—‘Athanasius against the world’.<note
+                    place="foot" xml:id="ftn14" n="14"><p rend="footnote text">Dean Stanley, <hi
+                            rend="italic">Lectures on the History of the Eastern Church</hi> (1884),
+                        pp. 224-29, quotes a long section from Hooker’s <hi rend="italic">Law of
+                            Ecclesiastical Polity</hi>, V.xlii.5, which concludes: ‘So that this was
+                        the plain condition of those times: the whole world against Athanasius and
+                        Athanasius against it.’ From which he then infers: ‘It is probably from the
+                        Latin version of this celebrated passage that we derive the proverb, <hi
+                            rend="italic">Athanasius contra mundum</hi>.’ Cf. Wesley’s letter to
+                        William Wilberforce (commending his heroic struggles against slavery), as
+                        well as Charles’s letter to John, Jan. 2, 1738. Cf. also No. 88, ‘On Dress’,
+                        §23, where Wesley quotes from his brother Samuel’s verse which makes this
+                        same point in different words.</p></note></p>
+            <p n="6">6. But itis objected: ‘Whatever becomes of the text, we cannot believe what we
+                cannot comprehend. When therefore you require us to believe mysteries, we pray you
+                to have us excused.’</p>
+            <p>Here is a twofold mistake. (1). We do not require you to believe any mystery in this,
+                whereas you suppose the contrary. But (2), you do already believe many things which
+                you cannot comprehend.</p>
+            <p n="7">7. To begin with the latter. You do already believe many things which you
+                cannot comprehend. For you believe there is a <hi rend="italic">sun</hi> over your
+                head. But whether he stands still in the midst of his system, <pb n="02:380"/>or not
+                only revolves on his own axis but ‘rejoiceth as a giant to run his course’,<note
+                    place="foot" xml:id="ftn15" n="15"><p rend="footnote text">Ps.
+                    19:5(BCP).</p></note> you cannot comprehend either one or the other—<hi
+                    rend="italic">how</hi> he moves, or <hi rend="italic">how</hi> he rests. By what
+                power, what natural, mechanical power, is he upheld in the fluid ether? You cannot
+                deny the fact; yet you cannot account for it so as to satisfy a rational inquirer.
+                You may indeed give us the hypotheses of Ptolemy, Tycho Brahe, Copernicus,<note
+                    place="foot" xml:id="ftn16" n="16"><p rend="footnote text">A shorthand reference
+                        to the knowledge explosion in the physical sciences in his own and preceding
+                        centuries and a reflection of his interest in the impact of the new science
+                        upon religion. The Ptolemaic (geocentric) model of astronomy had dominated
+                        medieval world views until the sixteenth century when they were challenged,
+                        less radically by the Danish astronomer Tycho Brahe (1546-1601) and much
+                        more radically by the heliocentrism of Nicolaus Copernicus (1473-1543). It
+                        is interesting that Wesley here ignores Brahe’s more famous and influential
+                        assistant and successor, Johannes Kepler (1571-1630). What is important for
+                        him here is the development of the changing world views from the geocentrism
+                        of Ptolemy, the fixed earth theories of Brahe, to the radical heliocentrism
+                        of Copernicus. Wesley had also read (how carefully one can only guess) Sir
+                        Isaac Newton’s <hi rend="italic">Opticks</hi> (1704), and the <hi
+                            rend="italic">Principia Mathematica</hi> (1687), along with Bernard Le
+                        Bovier de Fontenelle’s <hi rend="italic">Conversations on the Plurality of
+                            Worlds</hi> (1686). He was equally interested in the speculations of
+                        Thomas Burnet (<hi rend="italic">Sacred Theory of the Earth</hi>) and John
+                        Keill’s critique (<hi rend="italic">An Examination of Dr. Burnet’s
+                            Theory</hi>, 1698), as well as the controversies generated by William
+                        Whiston’s <hi rend="italic">A New Theory of the Earth</hi>, and John
+                        Woodward’s <hi rend="italic">Natural History of the Earth</hi> (1695). He
+                        was even drawn into the eccentric notions of John Hutchinson’s <hi
+                            rend="italic">Moses’s Principia</hi> (1724), chiefly as a foil against
+                        what he regarded as the naturalistic tendencies of Newton and the
+                        Newtonians. His chief reliance, perhaps, was on John Rogers, <hi
+                            rend="italic">Dissertation on the Knowledge of the Antients in
+                            Astronomy</hi> (1755). His gleanings from these various excursions into
+                        ‘contemporary science’ may be seen in Nos. 69, ‘The Imperfection of Human
+                        Knowledge’, I.5; 77, ‘Spiritual Worship’, I.6; 103, ‘What is Man? Ps.
+                        8:3-4’, I.3-6, II.9-12; 132, ‘On Faith, Heb. 11:1’, §3; cf. also his letter
+                        ‘To the Editor of<hi rend="italic"> The London Magazine</hi>’<hi
+                            rend="italic">,</hi> Jan. 1, 1765. His summary of ‘modern astronomy’
+                        appears in the <hi rend="italic">Survey</hi>, espec. III.279, 296, 328-40.
+                        His consistent point, in all these passages, is that science cannot
+                        penetrate the mysteries of faith and should not presume to try. Its positive
+                        function is to extend and verify our knowledge of creation as the exhibition
+                        of the Creator’s providence, wisdom, and glory.</p></note> and twenty more.
+                I have read them over and over. I am sick of them I care not three straws for them
+                all.</p>
+            <lg>
+                <l>Each new solution but once more affords</l>
+                <l>New change of terms, and scaffolding of words:</l>
+                <l>In other garb my question I receive,</l>
+                <l>And take my doubt the very same I gave.</l>
+                <note place="foot" xml:id="ftn17" n="17">
+                    <p rend="footnote text">Prior, <hi rend="italic">Solomon</hi>, I.477-80,
+                        beginning, ‘Yet this solution…’. See also Wesley, <hi rend="italic">Moral
+                            and Sacred Poems</hi> (1744), I.111.</p>
+                </note>
+            </lg>
+            <p>Still I insist, the <hi rend="italic">fact</hi> you believe, you cannot deny. But the
+                    <hi rend="italic">manner </hi>you cannot comprehend.</p>
+            <p n="8">8. You believe there is such a thing as <hi rend="italic">light</hi>, whether
+                flowing from the sun or any other luminous body. But you cannot <pb n="02:381"/>
+                comprehend either its nature or the manner wherein it flows. How does it move from
+                Jupiter to the earth in eight minutes—two hundred thousand miles in a moment?<note
+                    place="foot" xml:id="ftn18" n="18"><p rend="footnote text">Cf. Chambers’s <hi
+                            rend="italic">Cyclopaedia</hi>, on ‘Jupiter’, ‘Planets’, and ‘Light’.
+                        Cf. also No. 69, ‘The Imperfection of Human Knowledge’, I.5 (where Wesley
+                        speaks of Rogers’s efforts to discredit Newton) and n. Even so, Wesley
+                        maintains a sceptical attitude toward all these claims: ‘With regard to [the
+                        planets’] distance from the earth, there is such an immense difference in
+                        the calculations of the astronomers…that it is wisest to confess our
+                        ignorance and to acknowledge we have nothing to rest on here but uncertain
+                        conjecture’ (<hi rend="italic">Survey</hi>, III.296). Thus Wesley stands
+                        closer to Rogers than he ever did to Newton.</p></note> How do the rays of
+                the candle brought into the room instantly disperse into every corner? Again: here
+                are three candles, yet there is but one light. Explain this, and I will explain the
+                Three-One God.</p>
+            <p n="9">9. You believe there is such a thing as <hi rend="italic">air</hi>. It both
+                covers you as a garment, and</p>
+            <lg>
+                <l>Wide interfused</l>
+                <l>Embraces round this florid earth.</l>
+                <note place="foot" xml:id="ftn19" n="19">
+                    <p rend="footnote text">Milton, <hi rend="italic">Paradise Lost</hi>, vii.89-90.
+                        Cf. No. 89, ‘The More Excellent Way’, V.5.</p>
+                </note>
+            </lg>
+            <p>But can you comprehend how? Can you give me a satisfactory account of its nature, or
+                the cause of its properties? Think only of one, its elasticity. Can you account for
+                this? It may be owing to electric fire<note place="foot" xml:id="ftn20" n="20"><p
+                        rend="footnote text">Cf. No. 15, <hi rend="italic">The Great Assize</hi>,
+                        III.4 and n.</p></note> attached to each particle of it: it may not—and
+                neither you nor I can tell. But if we will not breathe it till we can comprehend it,
+                our life is very near its period.</p>
+            <p n="10">10. You believe there is such a thing as <hi rend="italic">earth</hi>. Here,
+                you fix your foot upon it You are supported by it. But do you comprehend what it is
+                that supports the earth? ‘O, an elephant’, says a Malabarian philosopher; ‘and a
+                bull supports him.’<note place="foot" xml:id="ftn21" n="21"><p rend="footnote text"
+                        >Cf. Locke, <hi rend="italic">Essay Concerning Human Understanding</hi>,
+                        II.xiii.19, xxiii.2 (which discusses this Malabarian philosophy); cf. also
+                        Soame Jenyns, <hi rend="italic">A Free Inquiry into the Nature and Origin of
+                            Evil</hi> (1757) for a later discussion of the ‘fable’. Jeremy Taylor,
+                            <hi rend="italic">Works</hi>, I.lix (intro.) makes mention of this ‘sage
+                        system of Indian cosmogony’. See Wesley’s ‘Remarks on Mr. H.’s Account of
+                        the Gentoo Religion in Hindostan’, first published in <hi rend="italic"
+                            >Lloyd’s Evening Post</hi>, Nov. 30, 1774, and afterwards in <hi
+                            rend="italic">AM</hi> (1785), VIII.425-28, 474-76.</p></note> But what
+                supports the bull? The Indian and the Briton are equally at a loss for an answer. We
+                know it is God that ‘spreadeth the north over the empty space, and hangeth the earth
+                upon nothing’.<note place="foot" xml:id="ftn22" n="22"><p rend="footnote text">Cf.
+                        Job 26:7.</p></note> This is the fact. But how? Who can account for this?
+                Perhaps angelic, but not human creatures.</p>
+            <p>I know what is plausibly said concerning the powers of <pb n="02:382"/>projection and
+                    attraction.<note place="foot" xml:id="ftn23" n="23"><p rend="footnote text">Key
+                        terms in the wide-ranging debates about the ‘new science’, the theory of
+                        gravitation in particular. Cf. Chambers’s <hi rend="italic"
+                        >Cyclopaedia</hi>, on ‘Attraction’ (running to eight quarto columns); see
+                        also ‘Force’, ‘Projectile’, ‘Projection’, and ‘Gravitation’. The ‘cobweb
+                        hypothesis’ may refer here to the gossamer character of the various theories
+                        being spun out so profusely. One of them would have been the odd theory of
+                        biblical symbolism of John Hutchinson, who had found, in the <hi
+                            rend="italic">unpointed</hi> text of the Hebrew Bible, clues to a
+                        complete cosmology based on the physical interaction of light, fire, and air
+                        (analogous to the Trinity). This was the project of <hi rend="italic"
+                            >Moses’s Principia</hi> and his other prolific writings. Wesley
+                        appreciated Hutchinson as a counterweight to Newton, but the empirical turn
+                        of his mind quickly turned him away from Hutchinson’s fanciful theorizings;
+                        cf. No. 77, ‘Spiritual Worship’, I.6 and n.</p></note> But spin as fine as
+                we can, matter of fact sweeps away our cobweb hypothesis. Connect the force[s] of
+                projection and attraction how you can, they will never produce a circular motion.
+                The moment the projected steel comes within the attraction of the magnet, it does
+                not form a curve, but drops down.</p>
+            <p n="11">11. You believe you have a <hi rend="italic">soul</hi>. ‘Hold there’, says the
+                    Doctor;<hi rend="endnote_reference"><note place="end"><p rend="endnote text">Dr.
+                            Bl—ir, in his late tract [i.e., Patrick Blair, M.D., of Cork, <hi
+                                rend="italic">Thoughts on Nature and Religion</hi> (1774); cf. pp.
+                            61-63: ‘(since) all (animals) have a “mind” or faculty of thinking and
+                            judging…, they must have as equal a right to an immortal director as the
+                            human species.’ Wesley and Blair, however, have little else in common in
+                            their assumptions and conclusions].</p></note></hi> ‘I believe no such
+                thing. If you have an immaterial soul, so have the brutes too.’ I will not quarrel
+                with any that think they have; nay, I wish he could prove it. And surely I would
+                rather allow <hi rend="italic">them </hi>souls than I would give up my own. In this
+                I cordially concur in the sentiment of the honest heathen: <hi rend="italic">Si
+                    erro, libenter erro; et me redargui valde recusem</hi><note place="foot"
+                    xml:id="ftn24" n="24"><p rend="footnote text">A conflation of bits from two
+                        different passages in Cicero’s <hi rend="italic">De Senectute (On Old
+                            Age)</hi>, xxiii.85 and xxiii.83.</p></note>—if I err, I err willingly;
+                and I vehemently refuse to be convinced of it. And I trust most of those who do not
+                believe a Trinity are of the same mind. Permit me then to go on. You believe you
+                have a soul connected with this house of clay.<note place="foot" xml:id="ftn25"
+                    n="25"><p rend="footnote text">See Job 4:19. Cf. No. 28, ‘Sermon on the Mount,
+                        VIII’, §21 and n.116.</p></note> But can you comprehend how? What are the
+                ties that unite the heavenly flame with the earthly clod? You understand just
+                nothing of the matter. So it is; but how none can tell.</p>
+            <p n="12">12. You surely believe you have a <hi rend="italic">body</hi> together with
+                your soul, and that each is dependent on the other. Run only a thorn into your hand:
+                immediately pain is felt in your soul. On the other side, is shame felt in your
+                soul? Instantly a blush overspreads your cheek. Does the soul feel fear or violent
+                anger? Presently the body <pb n="02:383"/>trembles. There also are facts which you
+                cannot deny; nor can you account for them.</p>
+            <p n="13">13. I bring but one instance more. At the command of your soul your hand is
+                lifted up. But who is able to account for this, for the connection between the act
+                of the mind, and the outward actions? Nay, who can account for ‘muscular motion’ at
+                all, in any instance of it whatever? When one of the most ingenious physicians in
+                England had finished his lecture upon that head he added: ‘Now, gentlemen, I have
+                told you all the discoveries of our enlightened age. And now, if you understand one
+                jot of the matter, you understand more than I do.’<note place="foot" xml:id="ftn26"
+                    n="26"><p rend="footnote text">A similar comment may be found in <hi
+                            rend="italic">Christ Crucified</hi>, §11, the sermon preached by Wesley
+                        at Wakefield, Apr. 28, 1774 (see Appendix C, Vol. 1 of this edn.; also <hi
+                            rend="italic">Bibliog</hi>, No. 624), attributed to a ‘Dr. Hunter’,
+                        which could have been either of the two brothers, William (1718-83) or John
+                        (1728-93). One may guess (on the basis of his reputation as a popular
+                        lecturer) that this anecdote came from William. The idea may be found,
+                        earlier, in James Keill (another Scottish physician), <hi rend="italic"
+                            >Account of Animal Secretion: the Quantity of Blood in the Human Body
+                            and Muscular Motion</hi> (1708), with its frequent disclaimers of
+                        definitive knowledge.</p></note></p>
+            <p>The short of the matter is this. Those who will not believe anything but what they
+                can comprehend must not believe that there is a <hi rend="italic">sun</hi> in the
+                firmament, that there is <hi rend="italic">light</hi> shining around them, that
+                there is <hi rend="italic">air</hi>, though it encompasses them on every side, that
+                there is any <hi rend="italic">earth</hi>, though they stand upon it. They must not
+                believe that they have a <hi rend="italic">soul</hi>, no, nor that they have a <hi
+                    rend="italic">body</hi>.</p>
+            <p n="14">14. But, secondly, as strange as it may seem, in requiring you to believe,
+                ‘there are three that bear record in heaven, the Father, the Word, and the Holy
+                Ghost; and these three are one,’ you are not required to believe any mystery. Nay,
+                that great and good man, Dr. Peter Browne, sometime Bishop of Cork, has proved at
+                large that the Bible does not require you to believe any mystery at all.<note
+                    place="foot" xml:id="ftn27" n="27"><p rend="footnote text">Peter Browne (d.
+                        1735), <hi rend="italic">The Procedure, Extent, and Limits of Human
+                            Understanding</hi> (1728). Wesley read this in 1729 and drew up a précis
+                        of it for his further use. Cf. his letter to William Law, Jan. 6, 1756; his
+                        ‘Remarks on Mr. Locke’s Essay on Human Understanding’, printed in the <hi
+                            rend="italic">AM</hi> (1782-83), VI-VII; and his <hi rend="italic"
+                            >Survey</hi>, V.171-223. For Wesley, Browne’s essay stood as the most
+                        effective rejoinder to Hume and to the faithless sort of scepticism that
+                        cuts even the nerve of rational analysis of religious mysteries.</p></note>
+                The Bible barely requires you to believe such <hi rend="italic">facts</hi>, not the
+                manner of them. Now the mystery does not lie in the <hi rend="italic">fact</hi>, but
+                altogether in the <hi rend="italic">manner</hi>.</p>
+            <p>For instance, ‘God said, Let there be light; and there was light.’<note place="foot"
+                    xml:id="ftn28" n="28"><p rend="footnote text">Gen. 1:3.</p></note> I believe it:
+                I believe the plain <hi rend="italic">fact</hi>; there is no mystery at all <pb n="02:384"/> in this. The mystery lies in the <hi rend="italic">manner</hi> of
+                it. But of this I believe nothing at all; nor does God require it of me.</p>
+            <p>Again. ‘The word was made flesh.’<note place="foot" xml:id="ftn29" n="29"><p
+                        rend="footnote text">John 1:14.</p></note> I believe this fact also. There
+                is no mystery in it; but as to the <hi rend="italic">manner</hi>, <hi rend="italic"
+                    >how</hi> he was made flesh, wherein the mystery lies, I know nothing about it;
+                I believe nothing about it. It is no more the object of my faith than it is of my
+                understanding.</p>
+            <p n="15">15. To apply this to the case before us. ‘There are three that bear record in
+                heaven…: and these three are one.’ I believe this <hi rend="italic">fact</hi> also
+                (if I may use the expression)—that God is Three and One. But the <hi rend="italic"
+                    >manner</hi>, <hi rend="italic">how</hi>, I do not comprehend; and I do not
+                believe it. Now in this, in this <hi rend="italic">manner</hi>, lies the mystery.
+                And so it may; I have no concern with it. It is no object of my faith; I believe
+                just so much as God has revealed and no more. But this, the <hi rend="italic"
+                    >manner</hi>, he has not revealed; therefore I believe nothing about it. But
+                would it not be absurd in me to deny the fact because I do not understand the
+                manner? That is, to reject <hi rend="italic">what God has revealed </hi>because I do
+                not comprehend <hi rend="italic">what he has not revealed</hi>?</p>
+            <p n="16">16. This is a point much to be observed. There are many things which ‘eye hath not
+                seen, nor ear heard, neither hath it entered into the heart of man to
+                    conceive’.<note place="foot" xml:id="ftn30" n="30"><p rend="footnote text">Cf. 1
+                        Cor. 2:9.</p></note> Part of these God hath ‘revealed to us by his
+                    Spirit’<note place="foot" xml:id="ftn31" n="31"><p rend="footnote text">1 Cor.
+                        2:10.</p></note>—<hi rend="italic">revealed</hi>, that is, unveiled,
+                uncovered. That part he requires us to believe. Part of them he has not revealed.
+                That we need not, and indeed cannot, believe; it is far above, out of our sight.</p>
+            <p>Now where is the wisdom of rejecting what is revealed because we do not understand
+                what is not revealed? Of denying the <hi rend="italic">fact </hi>which God has
+                unveiled because we cannot see the <hi rend="italic">manner</hi>, which is veiled
+                still?</p>
+            <p n="17">17. Especially when we consider that what God has been pleased to reveal upon this
+                head is far from being a point of indifference, is a truth of the last importance.
+                It enters into the very heart of Christianity; it lies at the root of all vital
+                religion.</p>
+            <p>Unless these three are one, how can ‘all men honour the Son, even as they honour the
+                    Father’?<note place="foot" xml:id="ftn32" n="32"><p rend="footnote text">John
+                        5:23.</p></note> I know not what to do, says Socinus in a letter to his
+                friend, with my untoward followers. They will not worship Jesus Christ. I tell them,
+                it is written, ‘Let <pb n="02:385"/>all the angels of God worship him.’<note
+                    place="foot" xml:id="ftn33" n="33"><p rend="footnote text">Heb. 1:6.</p></note>
+                They answer, ‘However that be, if he is not God we dare not worship him. “For it is
+                written, Thou shalt worship the Lord thy God, and him only shalt thou serve.”’<note
+                    place="foot" xml:id="ftn34" n="34"><p rend="footnote text">Matt. 4:10. Cf. <hi
+                            rend="italic">Fausti Socini Senensis Opera Omnia</hi> (Irenopoli, 1656),
+                            ‘<hi rend="italic">Epistolae ad amicos</hi>’, <hi rend="italic">Ad
+                            Matthaeum Radecium, Epistola III</hi>, pp. 387-88. This would have been
+                        the Polish historian, Matthew Radecius.</p></note></p>
+            <p>But the thing which I here particularly mean is this: the knowledge of the Three-One
+                    God<note place="foot" xml:id="ftn35" n="35"><p rend="footnote text">This phrase
+                        had been used by Samuel Wesley, Sen., in his <hi rend="italic">Life of
+                            Christ</hi> (1697), II.778 (p. 53), VI.62 (p. 185), IX.833 (p. 318). It
+                        was repeated by Samuel Wesley, Jun., in his <hi rend="italic">Poems</hi>
+                        (1736), p. 234. See also John Wesley’s <hi rend="italic">Notes</hi> on Luke
+                        4:18.</p></note> is interwoven with all true Christian faith, with all vital
+                religion.</p>
+            <p>I do not say that every real Christian can say with the Marquis de Renty, ‘I bear
+                about with me continually an experimental verity, and a plenitude of the presence of
+                the ever blessed Trinity.’<note place="foot" xml:id="ftn36" n="36"><p
+                        rend="footnote text">Cf. Saint-Jure, <hi rend="italic">Life</hi>, p. 28. De
+                        Renty has ‘ordinarily’ for Wesley’s ‘constantly’ and speaks of ‘the most
+                        Holy Trinity’. Cf. Henri Bremond, <hi rend="italic">A Literary History of
+                            Religious Thought in France</hi>, II.431, where (in review of French
+                        mysticism, including de Renty) Bremond quotes Pére Poulain, from his <hi
+                            rend="italic">Les graces d’oraison</hi> (5th edn.), p. 66: ‘God no
+                        longer contents himself with helping us to think of him and putting us in
+                        mind of his Presence, but he imparts to us <hi rend="italic">an experimental
+                            intellectual knowledge of that Presence</hi>.’ Bremond adds: ‘This
+                        indeed is the fundamental mystical phenomenon.’ Cf. also No. 117, ‘On the
+                        Discoveries of Faith’, §17; and the ascriptions to Nos. 133, ‘Death and
+                        Deliverance’; and 134, ‘Seek First the Kingdom’; see also his letter to
+                        Hester Ann Roe, June 22, 1776; and the <hi rend="italic">Notes</hi> on Matt
+                        3:17; 6:13; Luke 4:18.</p></note> I apprehend this is not the experience of
+                    <hi rend="italic">babes</hi>, but rather <hi rend="italic">fathers in
+                    Christ</hi>.<note place="foot" xml:id="ftn37" n="37"><p rend="footnote text">Cf.
+                        No. 13, <hi rend="italic">On Sin in Believers</hi>, III.2 and
+                n.</p></note></p>
+            <p>But I know not how anyone can be a Christian believer till ‘he hath’ (as St. John
+                speaks) ‘the witness in himself’;<note place="foot" xml:id="ftn38" n="38"><p
+                        rend="footnote text">1 John 5:10.</p></note> till ‘the Spirit of God
+                witnesses with his spirit that he is a child of God’<note place="foot"
+                    xml:id="ftn39" n="39"><p rend="footnote text">Cf. Rom. 8:16.</p></note>—that is,
+                in effect, till God the Holy Ghost witnesses that God the Father has accepted him
+                through the merits of God the Son—and having this witness he honours the Son and the
+                blessed Spirit ‘even as he honours the Father’.<note place="foot" xml:id="ftn40"
+                    n="40"><p rend="footnote text">Cf. John 5:23.</p></note></p>
+            <p n="18">18. Not that every Christian believer <hi rend="italic">adverts</hi> to this; perhaps
+                at first not one in twenty; but if you ask any of them a few questions you will
+                easily find it is implied in what he believes.<pb n="02:386"/>
+            </p>
+            <p>Therefore I do not see how it is possible for any to have vital religion who denies
+                that these three are one. And all my hope for them is, not that they will be saved
+                during their unbelief (unless on the footing of honest heathens, upon the plea of
+                invincible ignorance),<note place="foot" xml:id="ftn41" n="41"><p
+                        rend="footnote text">Cf. No. 39, ‘Catholic Spirit’, I.5 and n.</p></note>
+                but that God, before they go hence, will ‘bring them to the knowledge of the
+                    truth’.<note place="foot" xml:id="ftn42" n="42"><p rend="footnote text">Cf. 1
+                        Tim. 2:4; 2 Tim. 3:7; Heb. 10:26.</p></note></p>
+        </body>
+    </text>
+</TEI>
