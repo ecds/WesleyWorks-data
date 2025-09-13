@@ -1,0 +1,948 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Sermon 69: The Imperfection of Human Knowledge</title>
+                <author>Wesley, John</author>
+                <editor role="text">Van Buskirk, Gregory P.</editor>
+                <editor role="digital">Taylor, Michelle M.</editor>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>The Wesley Works Digitzation Project</publisher>
+                <pubPlace>Tampa, FL</pubPlace>
+                <date>2024-02-29</date>
+            </publicationStmt>
+            <sourceDesc>
+                <listBibl>
+                    <biblStruct>
+                        <analytic>
+                            <title level="a">Sermon 69: The Imperfection of Human Knowledge</title>
+                        </analytic>
+                        <monogr>
+                            <title level="j">The Works of John Wesley, Volume II: Sermons II,
+                                34-70</title>
+                            <editor role="volume">Outler, Albert</editor>
+                            <imprint>
+                                <publisher>Abingdon Press</publisher>
+                                <pubPlace>Nashville, TN</pubPlace>
+                                <date when="1985-11-01">1985-11-01</date>
+                                <biblScope unit="volume" n="2"/>
+                                <biblScope unit="page" from="567" to="586"/>
+                            </imprint>
+                        </monogr>
+                        <series>
+                            <title level="s">The Works of John Wesley</title>
+                            <editor role="general">Baker, Frank</editor>
+                        </series>
+                    </biblStruct>
+                </listBibl>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Greg Van Buskirk created Word docs for all of Wesley's sermons using a combination of
+                OCR software and manual proofing. Michelle Taylor converted these docx into XML
+                using Oxygen's DITA automatic transformation scenario, then touched them up
+                manually.</p>
+        </encodingDesc>
+        <standOff>
+            <taxonomy>
+                <keywords>
+                    <term/>
+                </keywords>
+            </taxonomy>
+            <!--Include keywords and terms here eventually.-->
+        </standOff>
+        <revisionDesc/>
+    </teiHeader>
+    <text>
+        <body>
+            <pb n="02:567"/>
+            <head>
+                <hi rend="italic">An Introductory Comment [to Sermons 69-70]</hi>
+            </head>
+            <introdutction>
+                <p>These next two sermons were paired in this order in <hi rend="italic">SOSO</hi>,
+                    VI (1788), even though they had been written earlier and in reverse sequence.
+                    ‘The Case of Reason…’ dates from July 6, 1781, and from Langham Row in
+                    Lincolnshire (cf. the <hi rend="italic">Journal</hi> entry for that day for
+                    Wesley’s critical remarks on the then famous historian, William Robertson). He
+                    then had the sermon published as No. VI in the <hi rend="italic">Arminian
+                        Magazine</hi> for November and December of that year (IV.574-80, 630-36)
+                    without a title. Wesley had preached from its text, 1 Cor. 14:20, only twice
+                    before (January 8, 1753, and March 20, 1772). ‘Imperfection…’ had been written
+                    in early March 1784 in Bristol and then promptly printed in the <hi
+                        rend="italic">Arminian Magazine</hi> as No. XXI in June and July
+                    (VII.233-41, 290-98), also without a title and with an error in citation of the
+                    text (‘…we know in part’ is cited as 1 Cor. 13:10 instead of 13:9, and this
+                    error is faithfully repeated twice by Paramore in <hi rend="italic">SOSO</hi>,
+                    VI.53-54). That this was a problem still much on Wesley’s mind is suggested by
+                    the fact that he had preached on 1 Cor. 13:9 four times in 1783.</p>
+                <p>Wesley brought both sermons together in <hi rend="italic">SOSO</hi>, VI, and
+                    quite logically, since both are comments on the actual limitations of ‘human
+                    understanding’ and on the practical implications for Christian living of an
+                    intellectual modesty deeply grounded in a religious understanding of
+                    transcendence. Wesley had grown up in the fading days of an Anglican rationalism
+                    (Ray, Butler, Clarke, Paley) which took for granted that a sincere ‘faith
+                    seeking understanding’ would surely be richly rewarded, since faith and reason
+                    are finally consonant. And, as we have seen, he was himself a rationalist of
+                    sorts. But as deism and ‘the Enlightenment’ had progressed and, even more
+                    particularly, as a certain confidence in human rationality had filtered down to
+                    ordinary folk, Wesley recognized a growing threat both to Christian faith and to
+                    any proper sense of Christian reverence and awe.</p>
+                <p><pb n="02:568"/>These two sermons are therefore intended as antidotes and
+                    alternatives to what Wesley regarded as a <hi rend="italic">false</hi>
+                    rationalism. Even so, and not accidentally, Wesley also reflects here his
+                    undiminished interest in a valid ‘theology of culture.’ It is worth noting and
+                    comparing the higher than average number of his passing allusions here to
+                    ‘contemporary’ science, philosophy, and literature. If this is ‘plain truth for
+                    plain people’, the Methodists were no longer as ‘plain’ as they had been in
+                    their earlier, humbler beginnings.</p>
+            </introdutction>
+            <head>The Imperfection of Human Knowledge</head>
+            <epigraph>
+                <p>1 Corinthians 13:9<note place="foot" xml:id="ftn1" n="1"><p rend="footnote text"
+                            >All edns. up to and including that of Joseph Benson (1809-13) read 1
+                            Cor. 13:10 here—an unnoticed succession of the same error. The
+                            misreading was first corrected by Thomas Jackson in 1825.</p></note></p>
+                <p>
+                    <hi rend="italic">We know in part.</hi>
+                </p>
+            </epigraph>
+            <div type="introduction">
+                <p n="1">1. The desire of knowledge is an universal principle in man, fixed in his
+                    inmost nature.<note place="foot" xml:id="ftn2" n="2"><p rend="footnote text">Cf.
+                            Aristotle, <hi rend="italic">Metaphysics</hi>, I.i [980]: ‘All men, by
+                            nature, desire to know.’ But see also à Kempis’s qualification (to which
+                            Wesley subscribed) in <hi rend="italic">Imitation</hi>, I.ii.1: ‘All men
+                            naturally desire to know, but what availeth knowledge without the fear
+                            of God?’ Cf. No. 140, ‘The Promise of Understanding’, proem,
+                        §2.</p></note> It is not variable, but constant in every rational creature,
+                    unless while it is suspended by some stronger desire. And it is insatiable: ‘the
+                    eye is not satisfied with seeing, nor the ear with hearing;’<note place="foot"
+                        xml:id="ftn3" n="3"><p rend="footnote text">Eccles. 1:8.</p></note> neither
+                    the mind by any degree of knowledge which can be conveyed into it. And it is
+                    planted in every human soul for excellent purposes. It is intended to hinder our
+                    taking up our rest in anything here below; to raise our thoughts to higher and
+                    higher objects, more and more worthy of our consideration, till we ascend to the
+                    source of all knowledge and all excellence, the all-wise and all-gracious
+                    Creator.</p>
+                <p n="2">2. But although our desire of knowledge has no bounds, yet our knowledge
+                    itself has. It is indeed confined within very narrow bounds, abundantly narrower
+                    than common people imagine or <pb n="02:569"/>men of learning are willing to
+                    acknowledge—a strong intimation (since the great Creator doth nothing in vain)
+                    that there will be some future state of being wherein that now insatiable desire
+                    will be satisfied, and there will be no longer so immense a distance between the
+                    appetite and the object of it.</p>
+                <p n="3">3. The present knowledge of man is exactly adapted to his present wants. It
+                    is sufficient to warn us of, and preserve us from, most of the evils to which we
+                    are now exposed, and to procure us whatever is necessary for us in this our
+                    infant state of existence. We know enough of the nature and sensible qualities
+                    of the things that are round about us, so far as they are subservient to the
+                    health and strength of our bodies. We know how to procure and prepare our food;
+                    we know what raiment is fit to cover us; we know how to build our houses, and to
+                    furnish them with all necessaries and conveniences. We know just as much as is
+                    conducive to our living comfortably in this world. But of innumerable things
+                    above, below, and round about us, we know little more than that they exist. And
+                    in this our deep ignorance is seen the goodness as well as the wisdom of God, in
+                    cutting short his knowledge on every side on purpose to ‘hide pride from
+                        man.’<note place="foot" xml:id="ftn4" n="4"><p rend="footnote text">Job
+                            33:17; cf. No. 45, ‘The New Birth’, I.4 and n.</p></note></p>
+                <p n="4">4. Therefore it is that by the very constitution of their nature the wisest
+                    of men ‘know’ but ‘in part’. And how amazingly small a part do they know either
+                    of the Creator or of his works! This is a very needful, but a very unpleasing
+                    theme; for ‘vain man would be wise.’<note place="foot" xml:id="ftn5" n="5"><p
+                            rend="footnote text">Job 11:12.</p></note> Let us reflect upon it for a
+                    while. And may the God of wisdom and love open our eyes to discern our own
+                    ignorance!</p>
+            </div>
+            <div>
+                <p>I. 1. To begin with the great Creator himself. How astonishingly little do we
+                    know of God! How small a part of his nature do we know! Of his essential
+                    attributes! What conception can we form of his omnipresence? Who is able to
+                    comprehend how God is in this and every place? How he fills the immensity of
+                    space? If philosophers, by denying the existence of a vacuum,<note place="foot"
+                        xml:id="ftn6" n="6"><p rend="footnote text">I.e., the Cartesians; cf.
+                            articles on ‘Vacuum’ in Chambers’s <hi rend="italic">Cyclopaedia</hi>;
+                            together they run past four folio columns, suggesting how general and
+                            exigent the arguments about space and matter were in the eighteenth
+                            century.</p></note> only meant that there is no place empty of God, that
+                    every point of infinite space is full of God, certainly no man could call it in
+                    question. But still, the fact being admitted, what is omnipresence or ubiquity?
+                        <pb n="02:570"/>Man is no more able to comprehend this than to grasp the
+                    universe.</p>
+                <p>2.<note place="foot" xml:id="ftn7" n="7"><p rend="footnote text">The order here
+                            of §§2, 3 is that of the text of <hi rend="italic">Sermons</hi> (1788),
+                            a reversal of the order in <hi rend="italic">AM</hi>.</p></note> The
+                    omnipresence or immensity of God Sir Isaac Newton endeavours to illustrate by a
+                    strong expression, by terming infinite space ‘the sensorium of the Deity’.<note
+                        place="foot" xml:id="ftn8" n="8"><p rend="footnote text">Cf. H. G.
+                            Alexander, ed., <hi rend="italic">The Leibniz-Clarke Correspondence,
+                                With Extracts from Newton’s</hi> Principia <hi rend="italic"
+                                >and</hi> Opticks (Manchester, Univ. of Manchester, 1970), pp. 12-13
+                            (§3), 16-17 (§3), 28-29 (§§10-12), 40-41 (§24). An even more likely
+                            direct source of this phrase and its attribution, for Wesley, is
+                            Addison, <hi rend="italic">The Spectator</hi>, No. 565 (July 9, 1714):
+                            ‘The noblest and most exalted way of considering this infinite space is
+                            that of Sir Isaac Newton, who calls it the “Sensorium” of the Godhead.’
+                            There is a rather different reference in Luis Vaz de Camoens, <hi
+                                rend="italic">The Lusiad</hi> (tr. by W. J. Mickle in 1776), Bk. X,
+                            pp. 537-38 (see Mickle’s n.): ‘[Infinite space was] called by the old
+                            philosophers and school divines, “The Sensorium of the Deity”.’ The
+                            common source of the idea, of course, is Plato’s notion of a
+                            ‘Receptacle’ (τὸ ὑποχείμενον), as in the <hi rend="italic">Timaeus</hi>,
+                                51<hi rend="italic">A</hi>, 57<hi rend="italic">C</hi>, etc. See
+                            also No. 10, ‘The Witness of the Spirit, I’, I.12 and n.</p></note> And
+                    the very heathens did not scruple to say, ‘All things are full of God’<note
+                        place="foot" xml:id="ftn9" n="9"><p rend="footnote text">Attributed to
+                            Thales by Aristotle and Cicero; see No. 23, ‘Sermon on the Mount, III’,
+                            I.6 and n.</p></note>—just equivalent with his own declaration, ‘Do not
+                    I fill heaven and earth, saith the Lord?’<note place="foot" xml:id="ftn10"
+                        n="10"><p rend="footnote text">Jer. 23:24.</p></note> How beautifully does
+                    the Psalmist illustrate this! ‘Whither shall I flee from thy presence? If I go
+                    up into heaven, thou art there: if I go down to hell, thou art there also. If I
+                    take the wings of the morning, and remain in the uttermost parts of the sea:
+                    even there thy hand shall find me, and thy right hand shall hold me.’<note
+                        place="foot" xml:id="ftn11" n="11"><p rend="footnote text">Cf. Ps. 139:7-10
+                            (AV and BCP conflated).</p></note> But in the meantime, what conception
+                    can we form either of his eternity or immensity? Such knowledge is too wonderful
+                    for us: we cannot attain unto it.<note place="foot" xml:id="ftn12" n="12"><p
+                            rend="footnote text">See Ps. 139:6.</p></note></p>
+                <p>3. A second essential attribute of God is eternity. He existed before all time.
+                    Perhaps we might more properly say, he
+                    <hi rend="italic" xml:space="preserve">does exist </hi>from everlasting to
+                    everlasting. But what is eternity? A celebrated author says that the divine
+                    eternity is, <hi rend="italic">Vitae interminabilis tota simul et perfecta
+                        possessio</hi>—‘the at once entire and perfect possession of never-ending
+                        life’.<note place="foot" xml:id="ftn13" n="13"><p rend="footnote text">Cf.
+                            Boethius, <hi rend="italic">The Consolation of Philosophy</hi>, V.6
+                            (10): ‘<hi rend="italic">Aeternitas igitur est interminabilis vitae tota
+                                simul et perfecta possessio</hi>.’</p></note> But how much wiser are
+                    we for this definition? We know just as much of it as we did before. ‘The at
+                    once entire and perfect possession’! Who can conceive what this means?</p>
+                <p>4. If indeed God had stamped (as some have maintained) an <pb n="02:571"/>idea of
+                    himself on every human soul, we must certainly have understood something of
+                    these, as well as his other attributes; for we cannot suppose he would have
+                    impressed upon us either a false or imperfect idea of himself.<note place="foot"
+                        xml:id="ftn14" n="14"><p rend="footnote text">Christian Platonists in
+                            general had maintained this notion of innate ideas of God, and Wesley
+                            follows them since ‘our knowledge of God and the things of God’ are not
+                            ‘empirical’ but rather intuitive. Cf. Richard Bentley’s Boyle Lecture,
+                            No. 4 (1692): ‘The commonly received notion of an innate idea of God,
+                            imprinted upon every soul….’ See also Nos. 95,’On the Education of
+                            Children,’ §5; 96,’On Obedience to Parents’, §1; 117, ‘On the
+                            Discoveries of Faith’, §1; and ‘Remarks Upon Mr. Locke’s <hi
+                                rend="italic">Essay an Human Understanding</hi>’ (<hi rend="italic"
+                                >AM</hi>, 1783-84, Vols. VI-VII).</p></note> But the truth is, no
+                    man ever did, or does now find any such idea stamped upon his soul. The little
+                    which we do know of God (except what we receive by the inspiration of the Holy
+                    One) we do not gather from an inward impression, but gradually acquire from
+                    without. ‘The invisible things of God’, if they are known at all, ‘are known
+                    from the things that are made;’<note place="foot" xml:id="ftn15" n="15"><p
+                            rend="footnote text">Cf. Rom. 1:20.</p></note> not from what God hath
+                    written in our hearts, but from what he hath written in all his works.</p>
+                <p>5. Hence then, from his works, particularly his works of creation, we are to
+                    learn the knowledge of God.<note place="foot" xml:id="ftn16" n="16"><p
+                            rend="footnote text">The central theme of Wesley’s <hi rend="italic"
+                                >Survey</hi>; see espec. his closing summary, 1st edn. (1763),
+                            II.244-56; 3rd edn. (1777), V.235-55.</p></note> But it is not easy to
+                    conceive how little we know even of these. To begin with those that are at a
+                    distance. Who knows how far the universe extends? What are the limits of
+                        it?<note place="foot" xml:id="ftn17" n="17"><p rend="footnote text">For
+                            Wesley’s interest in astronomy, cf. No. 55, <hi rend="italic">On the
+                                Trinity</hi>, §7 and n.</p></note> The morning stars can tell, who
+                    sang together when the lines of it were stretched out,<note place="foot"
+                        xml:id="ftn18" n="18"><p rend="footnote text">Cf. Job 38:5-7.</p></note>
+                    when God said, ‘This be thy just circumference, O world!’<note place="foot"
+                        xml:id="ftn19" n="19"><p rend="footnote text">Milton, <hi rend="italic"
+                                >Paradise Lost</hi>, vii.231; repeated in Nos. 103, ‘What is Man?
+                            Ps. 8:3-4’, I.5; and 132, ‘On Faith, Heb. 11:1’, §7.</p></note> But all
+                    beyond the fixed stars is utterly hid from the children of men. And what do we
+                    know of the <hi rend="italic">fixed stars</hi>?<note place="foot" xml:id="ftn20"
+                        n="20"><p rend="footnote text">Cf. No. 56, ‘God’s Approbation of His Works’,
+                            I.10 and n.</p></note> Who telleth the <hi rend="italic">number</hi> of
+                    them? Even of that small portion of them that by their mingled light form what
+                    we call <hi rend="italic">the Milky Way</hi>? And who knows the <hi
+                        rend="italic">use</hi> of them? Are they so many suns that illuminate their
+                    respective planets? Or do they only minister to this (as Mr. Hutchinson<note
+                        place="foot" xml:id="ftn21" n="21"><p rend="footnote text">Cf. John
+                            Hutchinson, <hi rend="italic">Works</hi>, II (‘D’): ‘…the light is
+                            pressed <hi rend="italic">out</hi> by the influx of spirit and spirit is
+                            pressed <hi rend="italic">in</hi> by the influx of light; and so the
+                            whole matter of the heavens is perpetually changing conditions and
+                            circulating….’ See Wesley’s account of ‘The Hutchinsonian System’ in his
+                                <hi rend="italic">Survey</hi>, 1st edn. (1763), II.136-39; 3rd edn.
+                            (1777), III.276-80. Cf. also No. 57, ‘On the Fall of Man’, II.6 and
+                            n.</p></note> supposes) and contribute in some unknown way to the
+                    perpetual circulation of <hi rend="Page">[02:572]</hi>light and spirit? Who
+                    knows what <hi rend="italic">comets</hi> are? Are they planets not fully formed?
+                    Or planets destroyed by a conflagration? Or are they bodies of a wholly
+                    different nature, of which we can form no idea? Who can tell what is the <hi
+                        rend="italic">sun</hi>? Its use we know; but who knows of what <hi
+                        rend="italic">substance</hi> it is composed? Nay, we are not yet able to
+                    determine whether it be fluid or solid! Who knows what is the precise <hi
+                        rend="italic">distance</hi> of the sun from the earth? Many astronomers are
+                    persuaded it is a hundred millions of miles; others that it is only eighty-six
+                    millions, though generally accounted ninety. But equally great men say it is no
+                    more than fifty; some of them that it is but twelve. Last comes Dr. Rogers, and
+                        <hi rend="italic">demonstrates</hi> that it is just two millions, nine
+                    hundred thousand miles!<note place="foot" xml:id="ftn22" n="22"><p
+                            rend="footnote text">John Rogers, M.D., <hi rend="italic">Dissertation
+                                on the Knowledge of the Antients in Astronomy</hi>; cf. JWJ, May 12,
+                            1757: ‘I finished Dr. Rogers’ essay on the learning of the ancients. I
+                            think he has clearly proved that they had microscopes and telescopes,
+                            and knew all that is valuable in modern astronomy.’ Wesley’s doubts
+                            about the latter were reinforced by the gross variations in their
+                            calculations. E.g., for the distance between sun and earth, their
+                            estimates range from Rogers’s 2,910,164 miles to Copernicus’ 4,302,625,
+                            to Kepler’s 12,907,876, to De la Hire’s 136,923,591; see Rogers, p. 75.
+                            But see also A. Wolf, <hi rend="italic">A History of Science,
+                                Technology, and Philosophy in the 18th Century</hi> (New York,
+                            Harper Torchbooks, 1961), pp. 144, 175-76. It is now known that the
+                            earth’s distance from the sun is not constant, due to the changes in the
+                            earth’s orbit, but that the mean (with less than 2 percent variation) is
+                            about 93,000,000 miles (or a parallax of 8.79″). Unsurprisingly,
+                            Newton’s calculation (86,051,398) came closest to this. There is an
+                            interesting comment on the role of astronomy in England in Williams, <hi
+                                rend="italic">The Whig Supremacy</hi>, pp. 354-56. In any case, one
+                            may hope that Dr. Rogers was a better physician than
+                        astronomer.</p></note> So little do we know even of this glorious luminary,
+                    the eye and soul of the lower world! And just as much of the planets that
+                    surround him; yea, of our own planet, the <hi rend="italic">moon</hi>. Some
+                    indeed have discovered</p>
+                <quote>Rivers and mountains on her spotty globe;<note place="foot" xml:id="ftn23"
+                        n="23"><p rend="footnote text">Cf. Milton, <hi rend="italic">Paradise
+                                Lost</hi>, i.291; in No. 103, ‘What is Man? Ps. 8:3-4’, II.10,
+                            Wesley repeats the phrase without quotation marks. Cf. also JWJ, Sept.
+                            20, 1759.</p></note></quote>
+                <p>yea, have marked out all her seas and continents! But after all we know just
+                    nothing of the matter. We have nothing but mere uncertain conjecture concerning
+                    the nearest of all the heavenly bodies.</p>
+                <p>6. But let us come to the things that are still nearer home, and inquire what
+                    knowledge we have of them. How much do we know of that wonderful body, <hi
+                        rend="italic">light</hi>? How is it communicated to us? Does it flow in a
+                    continued stream from the sun? Or does the sun impel the particles next his orb,
+                    and so on and on, to the extremity of his system? Again, does light gravitate,
+                    or not? Does it attract or repel other bodies? Is it subject to the <hi
+                        rend="italic">general</hi> laws which obtain in <pb n="02:573"/>all other
+                    matter? Or is it a body <hi rend="italic">sui generis</hi>, altogether different
+                    from all other matter? Is it the same with the <hi rend="italic">electric
+                        fluid</hi> or not? Who can explain the phenomenon of electricity? Who knows
+                    why some bodies <hi rend="italic">conduct</hi> the electric fluid and others
+                    arrest its course? Why is the phial capable of being charged to such a point and
+                    no farther?<note place="foot" xml:id="ftn24" n="24"><p rend="footnote text">The
+                            phenomenon of the Leyden jar; cf. <hi rend="italic">Survey</hi>, 3rd
+                            edn. (1777), III.218-25.</p></note> A thousand more questions might be
+                    asked on this head, which no man living can answer.</p>
+                <p>7. But surely we understand the <hi rend="italic">air</hi> we breathe, and which
+                    encompasses us on every side. By that admirable property of elasticity it is the
+                    general spring of nature. But is elasticity essential to air, and inseparable
+                    from it? Nay, it has been lately proved by numberless experiments that air may
+                    be fixed, that is, divested of its elasticity, and <hi rend="italic"
+                        >generated</hi>, or restored to it again. Therefore it is no otherwise
+                    elastic than as it is connected with electric fire!<note place="foot"
+                        xml:id="ftn25" n="25"><p rend="footnote text">See No. 15, <hi rend="italic"
+                                >The Great Assize</hi>, II.13 and n.</p></note> And is not this
+                    electric or ethereal fire the only true, essential elastic in nature? Who knows
+                    by what power dew, rain, and other vapours rise and fall in the air? Can we
+                    account for the phenomenon of them upon the common principles? Or must we own
+                    with a late ingenious author that those principles are utterly insufficient, and
+                    that they cannot be rationally accounted for but upon the principle of
+                        electricity?<note place="foot" xml:id="ftn26" n="26"><p rend="footnote text"
+                            >Probably Benjamin Franklin, whose <hi rend="italic">Experiments and
+                                Observations on Electricity</hi> (1751) Wesley had read, Feb. 17,
+                            1753. Fascinated with this newly discovered mystery, Wesley also read
+                            Hoadly and Wilson, <hi rend="italic">Observations on a Series of
+                                Electrical Experiments</hi> (1756); William Watson, <hi
+                                rend="italic">Observations Upon the Effects of Electricity</hi>
+                            (1763); Richard Lovett, <hi rend="italic">Philosophical Essays</hi>
+                            (1766); John Freke, <hi rend="italic">An Essay to Shew the Cause of
+                                Electricity</hi> (2nd edn., 1746), <hi rend="italic">et al.</hi>
+                            (see the Preface to Wesley’s <hi rend="italic">Desideratum; or
+                                Electricity Made Plain and Useful</hi> [1760]), all of whom had
+                            tended to regard electrical phenomena in cosmic terms. Cf. Wesley’s <hi
+                                rend="italic">Survey</hi> (1777), III.215-47, espec. p. 242:
+                            ‘Electricity will probably soon be considered as the great vivifying
+                            principle of nature by which she carries on most of her operations. It
+                            is a fifth element distinct from and of a superior nature to the other
+                            four.’ See also No. 15, <hi rend="italic">The Great Assize</hi>, III.4
+                            and n.</p></note></p>
+                <p>8. Let us now descend to the <hi rend="italic">earth</hi> which we tread upon,
+                    and which God has peculiarly given to the children of men. Do the children of
+                    men understand this? Suppose the terraqueous globe to be seven or eight thousand
+                    miles in diameter,<note place="foot" xml:id="ftn27" n="27"><p
+                            rend="footnote text">Another measurement about which the geographers of
+                            Wesley’s time still differed; cf. William Pemble, <hi rend="italic">A
+                                Brief Introduction to Geography</hi> (1675), p. 9: ‘The thickness of
+                            half the earth [i.e., the radius] is about 4,000 miles;’ George Cheyne,
+                                <hi rend="italic">Philosophical Principles of Religion</hi> (4th
+                            edn., 1734), I.71-72: ‘The earth’s middle diameter is 7,846 miles, each
+                            of which contain 5,000 feet…;’ and Thomas Salmon, <hi rend="italic">A
+                                New Geographical and Historical Grammar</hi> (6th edn., 1758), p.
+                            17: ‘the circumference of the earth is 24,840 English miles’ and ‘the
+                            diameter almost a third, or 7,900 miles’. Current measurements push
+                            Wesley’s upper limit: i.e., 7,917.4 miles (12,742 km).</p></note> how
+                    much of this do we know? Perhaps a mile or two of its surface: so far the art of
+                    man has penetrated. But who can inform us what lies beneath this? Beneath the
+                    region of stones, metals, minerals, and other fossils? This is only a thin crust
+                    which bears an exceeding small <pb n="02:574"/>proportion to the whole. Who can
+                    acquaint us with the inner parts of the globe? Whereof do these consist? Is
+                    there a central fire, a grand reservoir which not only supplies the burning
+                        mountains,<note place="foot" xml:id="ftn28" n="28"><p rend="footnote text"
+                            >Cf. above, No. 15, <hi rend="italic">The Great Assize</hi>, III.4 and
+                            n.</p></note> but also ministers (though we know not how) to the
+                    ripening of gems and metals; yea, and perhaps to the production of vegetables,
+                    and the well-being of animals too? Or is the great deep still contained in the
+                    bowels of the earth, a central abyss of waters? Who hath seen? Who can tell? Who
+                    can give any solid satisfaction to a rational inquirer?</p>
+                <p>9. How much of the very <hi rend="italic">surface</hi> of the globe is still
+                    utterly unknown to us! How very little do we know of the polar regions, either
+                    north or south, either in Europe, or Asia! How little of those vast countries,
+                    the inland parts either of Africa or America! Much less do we know what is
+                    contained in the broad sea, the great abyss which covers so large a part of the
+                    globe. Most of its chambers are inaccessible to man, so that we cannot tell how
+                    they are furnished. How little do we know of those things on the dry land which
+                    fall directly under our notice! Consider even the most simple metals or stones:
+                    how imperfectly are we acquainted with their nature and properties! Who knows
+                    what it is that distinguishes metals from all other fossils? It is answered,
+                    ‘Why, they are heavier.’ Very true, but what is the cause of their being
+                    heavier? What is the specific difference between metals and stones? Or between
+                    one metal and another? Between gold and silver? Between tin and lead? It is all
+                    mystery to the sons of men!</p>
+                <p>10. Proceed we to the <hi rend="italic">vegetable</hi> kingdom. Who can
+                    demonstrate that the sap in any vegetable performs a regular circulation through
+                    its vessels or that it does not? Who can point out the specific difference
+                    between one kind of plant and another? Or the peculiar internal conformation and
+                    disposition of their component parts? Yea, what man living thoroughly
+                    understands the nature and properties of any one plant under heaven?</p>
+                <p>11. With regard to <hi rend="italic">animals</hi>. Are <hi rend="italic"
+                        >microscopic animals</hi><note place="foot" xml:id="ftn29" n="29"><p
+                            rend="footnote text">Cf. the section on ‘microscopic animalculae’ in
+                            Wesley’s <hi rend="italic">Survey</hi> (4th edn., 1784), II.70-71: ‘As
+                            to some of the animalculae observed by Leewenhoeck [1632-1723], he
+                            computed that three or four hundred of them placed close together in a
+                            line would equal the diameter of a grain of sand…. But [Nicolaas]
+                            Hartsoeker [<hi rend="italic">Meditationes in Oeconomiam Generationis
+                                Animalium</hi> (1715)] carries the matter still farther [and asks]
+                            according to our present system of generation…how minute the animalculae
+                            produced now may have been at the beginning.’ See also Chambers’s <hi
+                                rend="italic">Cyclopaedia</hi>, ‘Animalcule’.</p></note> (so called)
+                        <pb n="02:575"/><hi rend="italic">real</hi> animals or no? If they are, are
+                    they not essentially different from all other animals in the universe, as not
+                    requiring any food, nor generating or being generated? Are they no animals at
+                    all, but merely inanimate particles of matter in a state of fermentation? How
+                    totally ignorant are the most sagacious of men touching the whole affair of <hi
+                        rend="italic">generation</hi>! Even the generation of men. ‘In the book’ of
+                    the Creator indeed ‘were all our members written, which day by day were
+                    fashioned, when as yet there were none of them.’<note place="foot"
+                        xml:id="ftn30" n="30"><p rend="footnote text">Cf. Ps. 139:15-16.</p></note>
+                    But by what rule were they fashioned? In what manner? By what means was the
+                    first motion communicated to the <hi rend="italic">punctum saliens</hi>?<note
+                        place="foot" xml:id="ftn31" n="31"><p rend="footnote text">‘Salient point’;
+                            cf. <hi rend="italic">Survey</hi>, V.248 (Appendix), where the same
+                            rhetorical question had been asked. Cf. also Aristotle, <hi
+                                rend="italic">Historia Animalium</hi>, VI.iii: τούτο δὲ τὸ σημεῖον
+                            πηδᾷ καὶ κινείται. The Latin phrase had come to be a technical term for
+                            that ‘point’ in an egg or embryo where vital motion begins
+                            (spontaneously, as most naturalists agreed). Cf. Edward Phillips, <hi
+                                rend="italic">The New World of English Words</hi> (ed. J. Kersey,
+                            1706). But see also Ray, <hi rend="italic">The Wisdom of God Manifested
+                                in the Works of Creation</hi>, p. 59; Arthur Collier, <hi
+                                rend="italic">Clavis Universalis</hi>, p. 148; and Sir Richard
+                            Blackmore, ‘Creation, A Philosophical Poem’ (1712), p. 359.</p></note>
+                    When and how was the immortal spirit superadded to the senseless clay? ’Tis
+                    mystery all. And we can only say, ‘I am fearfully and wonderfully made.’<note
+                        place="foot" xml:id="ftn32" n="32"><p rend="footnote text">Ps.
+                        139:14.</p></note></p>
+                <p>12. With regard to <hi rend="italic">insects</hi>, many are the discoveries which
+                    have been lately made.<note place="foot" xml:id="ftn33" n="33"><p
+                            rend="footnote text">All the seventeenth- and eighteenth-century
+                            naturalists had sections on ‘Insects’. Cf. Ray, <hi rend="italic">op.
+                                cit.</hi>, pp. 6-7; Derham, <hi rend="italic">Physico-Theology</hi>;
+                            Goldsmith, <hi rend="italic">History of the Earth…</hi>; and Wesley’s
+                                <hi rend="italic">Survey</hi> (4th edn., 1784), II.56-135. Cf. also
+                            No. 60, ‘The General Deliverance’, III.7.</p></note> But how little is
+                    all that is discovered yet in comparison of what is undiscovered! How many
+                    millions of them, by their extreme minuteness, totally escape all our inquiries!
+                    And indeed the minute parts of the largest animals elude our utmost diligence.
+                    Have we a more complete knowledge of <hi rend="italic">fishes</hi> than we have
+                    of insects? A great part, if not the greatest part of the inhabitants of the
+                    waters, are totally concealed from us. It is probable the species of sea animals
+                    are full as numerous as the land animals. But how few of them are known to us!
+                    And it is very little we know of those few. With <hi rend="italic">birds</hi> we
+                    are a little better acquainted; and indeed it is but little. For of very many we
+                    know hardly anything more than their outward shape. We know a few of <pb
+                        n="02:576"/>the obvious properties of others, chiefly those that frequent
+                    our houses. But we have not a thorough, adequate knowledge even of them. How
+                    little do we know of <hi rend="italic">beasts</hi>! We do not know whence the
+                    different tempers and qualities arise, not only in different species of them,
+                    but in individuals of the same species: yea, and frequently in those who spring
+                    from the same parents, the same both male and female animal. Are they mere
+                    machines? Then they are incapable either of pleasure or pain. Nay, they can have
+                    no senses: they neither see nor hear; they neither taste nor smell. Much less
+                    can they know or remember, or move any otherwise than they are impelled from
+                    without. But all this (as daily experiments show) is quite contrary to matter of
+                    fact.</p>
+                <p>13. Well, but if we know nothing else, do not we know ourselves? Our bodies and
+                    our souls? What is our <hi rend="italic">soul</hi>? It is a spirit, we know. But
+                    what is a spirit? Here we are at a full stop. And where is the soul lodged? In
+                    the pineal gland?<note place="foot" xml:id="ftn34" n="34"><p
+                            rend="footnote text">Cf. Descartes’s discovery that the point of
+                            jointure of body and soul is ‘a certain very small gland…situated in the
+                            middle of its substance [the brain] and which is so suspended above the
+                            duct whereby the animal spirits in its anterior cavities have
+                            communication with those in the posterior that the slightest movements
+                            which take place in it alter very greatly the course of these spirits;
+                            and reciprocally so that the smallest changes which occur in the course
+                            of these spirits may do much to change the movements of this gland’ (<hi
+                                rend="italic">Passions of the Soul</hi>, I.30-31). This idea had
+                            become familiar in England; cf. Addison’s essay in <hi rend="italic">The
+                                Spectator</hi>, No. 275 (Jan. 15, 1712): ‘The pineal gland, which
+                            many of our modern philosophers suppose to be the seat of the soul’. Cf.
+                            also No. 116, ‘What is Man? Ps. 8:4’, §6; Wesley’s <hi rend="italic"
+                                >Survey</hi> (4th edn., 1784), I.52; ‘Remarks on the Limits of Human
+                            Knowledge’, <hi rend="italic">Survey</hi>, V.252; and ‘A Thought on
+                            Necessity’ (<hi rend="italic">AM</hi>, 1780, III.487).</p></note> In the
+                    whole brain? In the heart? In the blood? In any single part of the body? Or (if
+                    anyone can understand those terms) ‘all in all, and all in every part’?<note
+                        place="foot" xml:id="ftn35" n="35"><p rend="footnote text">Cf. No. 67, ‘On
+                            Divine Providence’, §10 and n. Cf. also Thomas Hobbes, <hi rend="italic"
+                                >Human Nature</hi> (1684), XI.72: ‘It is a plain contradiction in
+                            natural discourse to say of the soul of man that it is <hi rend="italic"
+                                >tota in toto et tota in qualibet parte corporis</hi>.’</p></note>
+                    How is the soul <hi rend="italic">united</hi> to the body? A spirit to a clod?
+                    What is the secret, imperceptible chain that couples them together? Can the
+                    wisest of men give a satisfactory answer to any of these plain questions?</p>
+                <p>And as to our <hi rend="italic">body</hi> itself, how little do we know!<note
+                        place="foot" xml:id="ftn36" n="36"><p rend="footnote text">For the body as a
+                            machine, cf. No. 51, <hi rend="italic">The Good Steward</hi>, I.4 and
+                            n.</p></note> During a night’s sleep a healthy man perspires one part in
+                    four less when he sweats than when he does not.<note place="foot" xml:id="ftn37"
+                        n="37"><p rend="footnote text">A distinction between ‘insensible
+                            perspiration’ (exhalation) and sweat (‘sensible perspiration’). Wesley
+                            had borrowed it from Joseph Rogers, M.D<hi rend="italic">.</hi>, <hi
+                                rend="italic">An Essay on Epidemic Disease</hi> (Dublin, 1734),
+                            ‘Appendix’. He uses it in the <hi rend="italic">Survey</hi> (4th edn.,
+                            1784), I.47: ‘An ingenious physician, Dr. Rogers, has found by numerous
+                            experiments that a person perspires abundantly less when he sweats than
+                            when he does not: that one who perspires twenty-four ounces in seven
+                            hours of sleep, if he sweats does not perspire above six…. Whence he
+                            infers that it is not the same matter which is evacuated by insensible
+                            perspiration and by sweat…. What a field does this open!’</p></note> Who
+                    can account for this? What <hi rend="Page">[02:577]</hi>is <hi rend="italic"
+                        >flesh</hi>? That of the muscles in particular? Are the fibres that compose
+                    it of a determinate size? So that they can be divided only so far? Or are they
+                    resolvable <hi rend="italic">in infinitum</hi>?<note place="foot" xml:id="ftn38"
+                        n="38"><p rend="footnote text">An allowable alternative to <hi rend="italic"
+                                >ad infinitum</hi>; cf. <hi rend="italic">A Farther Appeal</hi>, Pt.
+                            II, II.5 (11:219 in this edn.); and Wesley’s letter to Samuel Furly, May
+                            21, 1762.</p></note> How does a muscle <hi rend="italic">act</hi>? By
+                    being inflated, and consequently shortened? But what is it inflated with? If
+                    with blood, how and whence comes that blood? And whither does it go the moment
+                    the muscle is relaxed? Are the <hi rend="italic">nerves</hi> pervious or solid?
+                    How do they act? By vibration, or transmission of the animal spirits?<note
+                        place="foot" xml:id="ftn39" n="39"><p rend="footnote text">For some of
+                            Wesley’s other discussions of animal spirits, cf. No. 80, ‘On Friendship
+                            with the World’, §17; his ‘Thoughts on Nervous Disorders’ (<hi
+                                rend="italic">AM</hi>, 1786, IX.52-54, 94-97); his letter ‘To an old
+                            Friend’, Nov. 27, 1750. For other references, cf. Dr. Edward Young
+                            (father of the poet), Sermon V, ‘The Heavenly Pattern’, which Wesley
+                            extracted for the <hi rend="italic">Christian Lib.</hi>, XLVI.91-113
+                            (see espec. p. 98); Bishop Berkeley discussed the matter in an essay for
+                                <hi rend="italic">The Guardian</hi>, No. 35 (Apr. 21, 1713), as did
+                            Addison in <hi rend="italic">The Spectator</hi>, No. 128 (July 27,
+                            1711). Locke, in his <hi rend="italic">Essay Concerning Human
+                                Understanding</hi>, I.118, 121, 139, 143, spoke of them. So did
+                            Samuel Annesley in his sermon on ‘Universal Conscientiousness’, in <hi
+                                rend="italic">The Morning-Exercise at Cripplegate</hi> (1661), p. 7.
+                            Cf. also, ‘Essay on Learning’, in <hi rend="italic">The Young Students
+                                Library</hi> (1692), p. iii. Johnson, <hi rend="italic"
+                                >Dictionary</hi>, cites Bacon’s <hi rend="italic">Natural
+                                History</hi> as an illustration of ‘spirit’ (No. 17).</p></note> Who
+                    knows what the animal spirits are? Are they electric fire? What is <hi
+                        rend="italic">sleep</hi>? Wherein does it consist? What is <hi rend="italic"
+                        >dreaming</hi>?<note place="foot" xml:id="ftn40" n="40"><p
+                            rend="footnote text">For ‘sleep’, cf. No 93, ‘On Redeeming the Time’,
+                                <hi rend="italic">passim</hi>; for ‘dreams’ and ‘dreaming’, cf. No.
+                            124, ‘Human Life a Dream’, §4 and n.</p></note> How can we know dreams
+                    from waking thoughts? I doubt no man knows. O how little do we know even
+                    concerning ourselves! What then can we expect to know concerning the whole
+                    creation of God?</p>
+            </div>
+            <div type="section" n="2">
+                <p n="1">II. 1. But are we not better acquainted with his <hi rend="italic">works of
+                        providence</hi> than with his works of creation? It is one of the first
+                    principles of religion that his kingdom ruleth over all; so that we may say with
+                    confidence, ‘O Lord our Governor, how excellent is thy name over all the
+                        earth!’<note place="foot" xml:id="ftn41" n="41"><p rend="footnote text">Cf.
+                            Ps. 8:1, 9 (BCP).</p></note> It is a childish conceit to suppose chance
+                    governs the world, or has any part in the government of it;<note place="foot"
+                        xml:id="ftn42" n="42"><p rend="footnote text">A counter-thesis to Wesley’s
+                            emphatic faith in providence and moral agency; cf. Cicero, <hi
+                                rend="italic">De Natura Deorum (On the Nature of the Gods)</hi>,
+                            II.xxxvii.93: ‘The world’s order cannot be the result of some fortuitous
+                            concourse of atoms;’ and Richard Lucas, <hi rend="italic">Enquiry After
+                                Happiness</hi>, I.101: ‘’Tis beneath the dignity of a soul…to make
+                            chance and wind and waves the arbitrary disposers of his happiness…. Oh,
+                            how I hug the memory of those honest heathens who in a ragged gown and
+                            homely cottage bade defiance to fortune.’ This notion is repeated
+                            endlessly by Wesley; cf., e.g., Nos. 71, ‘Of Good Angels’, II.3; 95, ‘On
+                            the Education of Children’, §14; his <hi rend="italic">Notes</hi> on
+                            Luke 10:31 and Acts 17:18. See JWJ, July 6, 1781, where Wesley says, ‘So
+                            far as fortune or chance governs the world, God has no place in it.’
+                            Also his letter to Hester Ann Roe, Feb. 11, 1779: ‘Chance has no share
+                            in the government of the world.’ Cf. also, <hi rend="italic">An Estimate
+                                of Manners of the Present Times</hi>, §14.</p></note> no, not even
+                    in those things that to a vulgar eye appear to be <pb n="02:578"/>perfectly
+                    casual. ‘The lot is cast into the lap; but the disposal thereof is from the
+                        Lord.’<note place="foot" xml:id="ftn43" n="43"><p rend="footnote text">Cf.
+                            Prov. 16:33.</p></note> Our blessed Master himself has put this matter
+                    beyond all possible doubt. ‘Not a sparrow’, saith he, ‘falleth to the ground
+                    without the will of your Father which is in heaven.’<note place="foot"
+                        xml:id="ftn44" n="44"><p rend="footnote text">Cf. Matt. 10:29.</p></note>
+                    Yea (to express the thing more strongly still) ‘Even the very hairs of your head
+                    are all numbered.’<note place="foot" xml:id="ftn45" n="45"><p
+                            rend="footnote text">Luke 12:7.</p></note></p>
+                <p n="2">2. But although we are well apprised of this general truth, that all things
+                    are governed by the providence of God (the very language of the heathen orator,
+                        <hi rend="italic">deorum moderamine cuncta geri</hi>),<note place="foot"
+                        xml:id="ftn46" n="46"><p rend="footnote text">Cicero, <hi rend="italic">De
+                                Natura Deorum (On the Nature of the Gods)</hi>, II xxx.75; cf. No.
+                            67, ‘On Divine Providence’, §1 and n.</p></note> yet how amazingly
+                    little do we know of the particulars contained under this general! How little do
+                    we understand of his providential dealings, either with regard to nations, or
+                    families, or individuals! There are heights and depths in all these which our
+                    understanding can in no wise fathom. We can comprehend but a small part of his
+                    ways now; the rest we shall know hereafter.</p>
+                <p n="3">3. Even with regard to entire nations, how little do we comprehend of God’s
+                    providential dealings with them! What innumerable nations in the eastern world
+                    once flourished, to the terror of all around them, and are now swept away from
+                    the face of the earth; and their memorial is perished with them!<note
+                        place="foot" xml:id="ftn47" n="47"><p rend="footnote text">Ps.
+                        9:6.</p></note> Nor has the case been otherwise in the west. In Europe also
+                    we read of many large and powerful kingdoms of which the names only are left:
+                    the people are vanished away, and are as though they had never been. But why it
+                    has pleased the almighty Governor of the world to sweep them with the besom of
+                        destruction<note place="foot" xml:id="ftn48" n="48"><p rend="footnote text"
+                            >Cf. Isa. 14:23; a ‘besom’ was, originally, a bundle of twigs and rods
+                            used for punishment, then for sweeping (hence, ‘broom’); fig., a weapon
+                            to sweep away something undesirable.</p></note> we cannot tell; those
+                    who succeeded them being many times little better than themselves.</p>
+                <p n="4">4. But it is not only with regard to ancient nations that the providential
+                    dispensations of God are utterly incomprehensible to us: the same difficulties
+                    occur now. We cannot account for his present dealings with the inhabitants of
+                    the earth. We know, the <pb n="02:579"/>Lord is loving unto every man, and that
+                    his mercy is over all his works.<note place="foot" xml:id="ftn49" n="49"><p
+                            rend="footnote text">Ps. 145:9 (BCP).</p></note> But we know not how to
+                    reconcile this with the present dispensations of his providence. At this day is
+                    not almost every part of the earth full of darkness and cruel habitations? In
+                    what a condition, in particular, is the large and populous empire of
+                        Indostan?<note place="foot" xml:id="ftn50" n="50"><p rend="footnote text"
+                            >I.e., Hindustan, or India. Besides the general reports, Wesley was much
+                            impressed by William Bolt’s melancholy <hi rend="italic">Considerations
+                                on the Affairs of India</hi> (1772-75); cf. JWJ, Feb. 23, 1776. Home
+                            criticism of British rule in India had begun to mount, with the
+                            seven-year-long impeachment of Warren Hastings already foreshadowed. Cf.
+                            No. 61, ‘The Mystery of Iniquity’, §33. Notice also how, in §35,
+                            ‘ruffians’, ‘wolves’, and ‘bears’ are linked in Charles’s hymn (where he
+                            uses ‘beasts’); see below, John’s revision in this same
+                        paragraph.</p></note> How many hundred thousands of the poor, quiet people
+                    have been destroyed, and their carcases left as the dung of the earth! In what a
+                    condition (though they have no English ruffians there) are the numberless
+                    islands in the Pacific Ocean? How little is their state above that of wolves and
+                    bears! And who careth either for their souls or their bodies? But does not the
+                    Father of men care for them? O mystery of providence!</p>
+                <p n="5">5. And who cares for thousands, myriads, if not millions of the wretched
+                    Africans? Are not whole droves of these poor sheep (human if not rational
+                    beings!) continually driven to market, and sold like cattle into the vilest
+                    bondage, without any hope of deliverance but by death?<note place="foot"
+                        xml:id="ftn51" n="51"><p rend="footnote text">A detestation of slavery was
+                            part of Wesley’s lifelong concern for the oppressed. Cf., e.g., his
+                            comment on 1 Tim. 1:10 in <hi rend="italic">Notes</hi>, denouncing
+                            ‘traders in Negroes, procurers of servants for America’. He borrowed
+                            heavily from Anthony Benezet’s <hi rend="italic">Historical Account of
+                                Guinea</hi> (1771). They both agreed that ‘slavery under the pagan
+                            Romans and infidel Turks was more tolerable than in the Christian
+                            exploitation of African slaves for the Spanish and English colonies’
+                            (Benezet, VI.63-71); see also, Wesley’s extract of Benezet in <hi
+                                rend="italic">Thoughts Upon Slavery</hi>, 1774 <hi rend="italic"
+                                >(Bibliog</hi>, No. 350; Vol. 15 of the edn.). In
+                                <hi rend="italic" xml:space="preserve">A Seasonable Address to the Inhabitants of Great Britain </hi>(<hi
+                                rend="italic">Bibliog</hi>, No. 359; Vol. 15 of this edn.), he
+                            argues that ‘one principal sin of our nation is the blood we have shed
+                            in Asia, Africa, and America…. The African [slave] trade is iniquitous
+                            from first to last. It is the price of blood! It is a trade of blood,
+                            and has stained our land with blood!’</p><p rend="footnote text">Cf.
+                            also JWJ, Apr. 14, 1777, and Mar. 1788; and his letters to Samuel Hoare,
+                            Aug. 18, 1787; Granville Sharp, Oct. 11, 1787; Henry Moore, Mar. 14,
+                            1790; and William Wilberforce, Feb. 24, 1791.</p></note> Who cares for
+                    those outcasts of men, the well-known Hottentots? It is true, a late writer has
+                    taken much pains to represent them as a respectable people.<note place="foot"
+                        xml:id="ftn52" n="52"><p rend="footnote text">‘Hottentots’ was the generic
+                            label for natives of southern Africa. Much had been written about them
+                            by the frequent travellers who stopped over at the Cape of Good Hope.
+                            ‘The late writer’ cited here was Peter Kolben, in <hi rend="italic">The
+                                Present State of the Cape of Good Hope</hi> (1731); cf. IV.36. But
+                            even Kolben’s evaluation of them is ambivalent; see, e.g., pp. 47, 56,
+                            330-31. Cf. Wesley’s No. 28, ‘Sermon on the Mount, VIII’, §9 and
+                        n.</p></note> But from what motive it is not easy to say; since he himself
+                    allows (a specimen of <pb n="02:580"/>their elegance of manners) that the raw
+                    guts of sheep and other cattle are not only some of their choicest food but also
+                    the ornaments of their arms and legs; and (a specimen of their religion) that
+                    the son is not counted a man till he has beat his mother almost to death. And
+                    when his father grows old he fastens him in a little hut and leaves him there to
+                        starve!<note place="foot" xml:id="ftn53" n="53"><p rend="footnote text">Cf.
+                            Kolben, <hi rend="italic">ibid.</hi>, pp. 331-32. In Bond’s edn. of <hi
+                                rend="italic">The Spectator</hi>, III.461, n. 1, there is a
+                            reference to John Maxwell’s comment in his ‘Account of the Cape of Good
+                            Hope’ (<hi rend="italic">Philos. Trans.</hi> No. 310, 1707), that the
+                            Hottentots have ‘no notion of God’. They are also discussed in William
+                            Dampier’s <hi rend="italic">Voyages</hi> (1703), and by various writers
+                            in the <hi rend="italic">Collection of Voyages</hi> (1704) or A. and J.
+                            Churchill. Cf. also, Adam Smith, <hi rend="italic">Wealth of
+                                Nations</hi>, I.2 (intro.). See also No. 105, ‘On Conscience’, I.4;
+                            and
+                            the<hi rend="italic" xml:space="preserve"> Doctrine of Original Sin,</hi>
+                            I.ii.2 (Vol. 12 of this edn.).</p></note> O Father of mercies! Are these
+                    the works of thy own hands? The purchase of thy Son’s blood?</p>
+                <p n="6">6. How little better is either the civil or religious state of the poor
+                    American Indians!<note place="foot" xml:id="ftn54" n="54"><p
+                            rend="footnote text">Cf. No. 38. ‘A Caution against Bigotry’, I.9 and
+                            n.</p></note> That is, the miserable remains of them; for in some
+                    provinces not one of them is left to breathe. In Hispaniola,<note place="foot"
+                        xml:id="ftn55" n="55"><p rend="footnote text">The second largest island in
+                            the Caribbean (after Cuba) named Española by Columbus; it is now divided
+                            between the Dominican Republic and Haiti.</p></note> when the Christians
+                    came thither first, there were three millions of inhabitants. Scarce twelve
+                    thousand of them now survive. And in what condition are these? Or the other
+                    Indians who are still scattered up and down in the vast continent of South or
+                    North America? Religion they have none; no public worship of any kind. God is
+                    not in all their thoughts. And most of them have no civil government at all—no
+                    laws, no magistrates—but every man does what is right in his own eyes; therefore
+                    they are decreasing daily. And very probably in a century or two there will not
+                    be one of them left.</p>
+                <p n="7">7. However, the inhabitants of Europe are not in so deplorable a condition.
+                    They are in a state of civilization. They have useful laws and are governed by
+                    magistrates. They have religion. They are Christians. I am afraid, whether they
+                    are called Christians or not, many of them have not much religion. What say you
+                    to thousands of Laplanders,<note place="foot" xml:id="ftn56" n="56"><p
+                            rend="footnote text">Cf. No. 38, ‘A Caution against Bigotry’, I.4 and
+                            n.</p></note> of Finlanders? Samoyeds,<note place="foot" xml:id="ftn57"
+                        n="57"><p rend="footnote text">Wesley’s spelling: ‘Samoeids’—i.e., the
+                            Finno-Asian neighbours of the Laplanders and Finns in the Archangel
+                            district (Nenets) of what is now the extreme northwest corner of the
+                            USSR.</p></note> and Greenlanders? Indeed of all who live in high
+                    northern latitudes? Are they as civilized as sheep or oxen? To compare them with
+                        <pb n="02:581"/>horses or any of our domestic animals would be doing them
+                    too much honour. Add to these myriads of human savages that are freezing among
+                    the snows of Siberia; and as many, if not more, who are wandering up and down in
+                    the deserts of Tartary. Add thousands upon thousands of Poles and Muscovites,
+                    and of Christians, so called, from Turkey in Europe. And did ‘God so love’ these
+                    that ‘he gave his Son, his only begotten Son, to the end they might not perish
+                    but have everlasting life’?<note place="foot" xml:id="ftn58" n="58"><p
+                            rend="footnote text">Cf. John 3:16.</p></note> Then why are they thus? O
+                    wonder above all wonders!</p>
+                <p n="8">8. Is there not something equally mysterious in the divine dispensation
+                    with regard to Christianity itself? Who can explain why Christianity is not
+                    spread as far as sin? Why is not the medicine sent to everyplace where the
+                    disease is found? But alas! it is not; ‘the sound of it is’ not now ‘gone forth
+                    into all lands’!<note place="foot" xml:id="ftn59" n="59"><p rend="footnote text"
+                            >Cf. Ps. 19:4 (BCP).</p></note> The poison is diffused over the whole
+                    globe; the antidote is not known in a sixth part of it.<note place="foot"
+                        xml:id="ftn60" n="60"><p rend="footnote text">Another echo of Brerewood; see
+                            No. 15, <hi rend="italic">The Great Assize</hi>, II.4 and n. In any of
+                            his value judgments, the Wesley whose conscious evangel was ‘Universal
+                            Redemption’ (as on the masthead of his <hi rend="italic">Magazine</hi>)
+                            also makes an unselfconscious correlation between British Christianity
+                            at its best and Christianity as such.</p></note> Nay, and how is it that
+                    the wisdom and goodness of God suffer the antidote itself to be so grievously
+                    adulterated, not only in Roman Catholic countries, but almost in every part of
+                    the Christian world? So adulterated by mixing it frequently with useless,
+                    frequently with poisonous ingredients, that it retains none, or at least a very
+                    small part of its original virtue. Yea, it is so thoroughly adulterated by many
+                    of those very persons whom he has sent to administer it that it adds tenfold
+                    malignity to the disease which it was designed to cure! In consequence of this
+                    there is little more mercy or truth to be found among Christians than among
+                    pagans. Nay, it has been affirmed, and I am afraid truly, that many called
+                    Christians are far worse than the heathens that surround them: more profligate,
+                    more abandoned to all manner of wickedness, neither fearing God, nor regarding
+                        man!<note place="foot" xml:id="ftn61" n="61"><p rend="footnote text">See
+                            Luke 18:4.</p></note> O who can comprehend this! Doth not he who is
+                    higher than the highest regard it?</p>
+                <p n="9">9. Equally incomprehensible to us are many of the divine dispensations with
+                    regard to particular families. We cannot at all comprehend why he raises some to
+                    wealth, honour, and power; and why in the meantime he depresses others with
+                    poverty and <pb n="02:582"/>various afflictions. Some wonderfully prosper in all
+                    they take in hand, and the world pours in upon them; while others with all their
+                    labour and toil can scarce procure daily bread. And perhaps prosperity and
+                    applause continue with the former to their death; while the latter drink the cup
+                    of adversity to their life’s end—although no reason appears to us either for the
+                    prosperity of the one or the adversity of the other.</p>
+                <p n="10">10. As little can we account for the divine dispensations with regard to
+                        <hi rend="italic">individuals</hi>. We know not why the lot of this man is
+                    cast in Europe, the lot of that man in the wilds of America; why one is born of
+                    rich or noble, the other of poor parents; why the father and mother of one are
+                    strong and healthy, those of another weak and diseased; in consequence of which
+                    he drags a miserable being all the days of his life, exposed to want, and pain,
+                    and a thousand temptations from which he finds no way to escape. How many are
+                    from their very infancy hedged in with such relations that they seem to have no
+                    chance (as some speak), no possibility of being useful to themselves or others?
+                    Why are they, antecedent to their own choice, entangled in such connections? Why
+                    are hurtful people so cast in their way that they know not how to escape them?
+                    And why are useful persons hid out of their sight, or snatched away from them at
+                    their utmost need? O God, how unsearchable are thy judgments or counsels! Too
+                    deep to be fathomed by our reason: ‘and thy ways’ of executing those counsels
+                    ‘not to be traced’<note place="foot" xml:id="ftn62" n="62"><p
+                            rend="footnote text">Cf. Rom. 11:33.</p></note> by our wisdom!</p>
+            </div>
+            <div>
+                <p>III. 1. Are we able to search out his works of <hi rend="italic">grace</hi> any
+                    more than his works of providence? Nothing is more sure than that ‘without
+                    holiness no man shall see the Lord.’<note place="foot" xml:id="ftn63" n="63"><p
+                            rend="footnote text">Cf. Heb. 12:14.</p></note> Why is it then that so
+                    vast a majority of mankind are, so far as we can judge, cut off from all means,
+                    all possibility of holiness, even from their mother’s womb? For instance: what
+                    possibility is there that a Hottentot, a New Zealander, or an inhabitant of Nova
+                        Zembla,<note place="foot" xml:id="ftn64" n="64"><p rend="footnote text">‘New
+                            Land’. Two bleak islands in the Barents Sea off the northern coast of
+                            Siberia; now spelt Novaya Zemlya. Cf. Addison, <hi rend="italic">The
+                                Free-Holder</hi>, No. 5 (Jan. 6, 1716), where he compares the
+                            inhabitants of Nova Zembla and the Hottentots of the Cape of Good
+                            Hope.</p></note> if he lives and dies there, should ever know what
+                    holiness means? Or consequently ever attain it? Yea, but one may say: ‘He sinned
+                    before he was born, in a <hi rend="italic">pre-existent state</hi>. Therefore he
+                    was placed <pb n="02:583"/>here in so unfavourable a situation. And it is mere
+                    mercy that he should have a second trial.’ I answer: supposing such a
+                    pre-existent state, this which you call a second trial is really no trial at
+                    all. As soon as he is born into the world he is absolutely in the power of his
+                    savage parents and relations, who from the first dawn of reason train him up in
+                    the same ignorance, atheism, and barbarity with themselves. He has no chance, so
+                    to speak; he has no possibility of any better education. What trial has he then?
+                    From the time he comes into the world till he goes out of it again he seems to
+                    be under a dire necessity of living in all ungodliness and unrighteousness. But
+                    how is this? How can this be the case with so many millions of the souls that
+                    God has made? Art thou not the God ‘of all the ends of the earth, and of them
+                    that remain in the broad sea’?<note place="foot" xml:id="ftn65" n="65"><p
+                            rend="footnote text">Ps. 65:5 (BCP).</p></note></p>
+                <p>2. I desire it may be observed that if this be improved into an objection against
+                    revelation it is an objection that lies full as much against natural as revealed
+                        religion.<note place="foot" xml:id="ftn66" n="66"><p rend="footnote text"
+                            >For Wesley’s comments on ‘natural religion’, see No. 1, <hi
+                                rend="italic">Salvation by Faith</hi>, I.1 and n. But notice the
+                            resemblance between this turn of Wesley’s argument and the central
+                            thesis of Joseph Butler’s <hi rend="italic">Analogy of Religion, Natural
+                                and Revealed</hi> (1736); thus far had it become standard and thus
+                            far Wesley shared this aspect of Anglican rationalism; see Irène Simon,
+                                <hi rend="italic">Three Restoration Divines</hi>,
+                        I.i.75-148.</p></note> If it were conclusive it would not drive us into
+                    deism but into flat atheism.<note place="foot" xml:id="ftn67" n="67"><p
+                            rend="footnote text">Cf. No. 23, ‘Sermon on the Mount, III’, I.11 and
+                            n.</p></note> It would conclude not only against the Christian
+                    revelation but against the being of a God. And yet I see not how we can avoid
+                    the force of it but by resolving all into the unsearchable wisdom of God,
+                    together with a deep conviction of our ignorance and inability to fathom his
+                    counsels.</p>
+                <p>3. Even among us who are favoured far above these—to whom are entrusted the
+                    oracles of God,<note place="foot" xml:id="ftn68" n="68"><p rend="footnote text"
+                            >Cf. No. 5, ‘Justification by Faith’, §2 and n.</p></note> whose word is
+                    a lantern to our feet, and a light in all our paths<note place="foot"
+                        xml:id="ftn69" n="69"><p rend="footnote text">See Ps. 119:105
+                        (BCP).</p></note>—there are still many circumstances in his dispensations
+                    which are above our comprehension. We know not why he suffered us so long to go
+                    on in our own ways before we were convinced of sin. Or why he made use of this
+                    or the other instrument, and in this or the other manner. And a thousand
+                    circumstances attended the process of our conviction which we do not comprehend.
+                    We know not why he suffered us to stay so long before he revealed his Son in our
+                        <hi rend="Page">[02:584]</hi>hearts; or why this change from darkness to
+                    light was accompanied with such and such particular circumstances.</p>
+                <p>4. It is doubtless the peculiar prerogative of God to reserve the ‘times and
+                    seasons in his own power’.<note place="foot" xml:id="ftn70" n="70"><p
+                            rend="footnote text">Cf. Acts 1:7.</p></note> And we cannot give any
+                    reason why of two persons equally athirst for salvation one is presently taken
+                    into the favour of God and the other left to mourn for months or years. One, as
+                    soon as he calls upon God, is answered, and filled with peace and joy in
+                    believing. Another seeks after him—and it seems with the same degree of
+                    sincerity and earnestness—and yet cannot find him, or any consciousness of his
+                    favour, for weeks, or months, or years. We know well this cannot possibly be
+                    owing to any absolute decree, consigning one before he was born to everlasting
+                    glory, and the other to everlasting fire. But we do not know what is the reason
+                    for it: it is enough that God knoweth.</p>
+                <p>5. There is likewise great variety in the manner and time of God’s bestowing his
+                        <hi rend="italic">sanctifying grace</hi>,<note place="foot" xml:id="ftn71"
+                        n="71"><p rend="footnote text">Note the definition here, and cf. No. 19,
+                            ‘The Great Privilege of those that are Born of God’, §2 and
+                        n.</p></note> whereby he enables his children to give him their whole heart,
+                    which we can in no wise account for. We know not why he bestows this on some
+                    even before they ask for it (some unquestionable instances of which we have
+                    seen); on some after they have sought it but a few days; and yet permits other
+                    believers to wait for it perhaps twenty, thirty, or forty years; nay, and others
+                    till a few hours or even minutes before their spirits return to him. For the
+                    various circumstances also which attend the fulfilling of that great promise, ‘I
+                    will circumcise thy heart, to love the Lord thy God with all thy heart and with
+                    all thy soul,’<note place="foot" xml:id="ftn72" n="72"><p rend="footnote text"
+                            >Cf. Deut. 30:6.</p></note> God undoubtedly has reasons; but those
+                    reasons are generally hid from the children of men. Once more: some of those who
+                    are enabled to love God with all their heart and with all their soul, retain the
+                    same blessing without any interruption till they are carried to Abraham’s bosom.
+                    Others do not retain it, although they are not conscious of having grieved the
+                    Holy Spirit of God.<note place="foot" xml:id="ftn73" n="73"><p
+                            rend="footnote text">Cf. Eph. 4:30.</p></note> This also we do not
+                    understand: we do not herein ‘know the mind of the Spirit’.<note place="foot"
+                        xml:id="ftn74" n="74"><p rend="footnote text">Cf. Rom. 8:27.</p></note></p>
+            </div>
+            <div type="section" n="4">
+                <p n="1">IV. [1.] Several valuable lessons we may learn from a deep consciousness of
+                    this our own ignorance. First, we may learn <pb n="02:585"/>hence a lesson of
+                    humility: not to think of ourselves, particularly with regard to our
+                    understanding, ‘more highly than we ought to think’; but ‘to think
+                        soberly’,<note place="foot" xml:id="ftn75" n="75"><p rend="footnote text"
+                            >Cf. Rom. 12:3.</p></note> being thoroughly convinced that we are not
+                    sufficient of ourselves to think one good thought; that we should be liable to
+                    stumble at every step, to err every moment of our lives, were it not that we
+                    have ‘an anointing from the Holy One’ which ‘abideth with us’<note place="foot"
+                        xml:id="ftn76" n="76"><p rend="footnote text">Cf. 1 John 2:20,
+                        27.</p></note>—were it not that he who knoweth what is in man helpeth our
+                    infirmities; that ‘there is a spirit in man which giveth wisdom,’ and the
+                    inspiration of the Holy One which giveth understanding.<note place="foot"
+                        xml:id="ftn77" n="77"><p rend="footnote text">See Job 32:8.</p></note></p>
+                <p n="2">[2.] From hence we may learn, secondly, a lesson of faith, of confidence in
+                    God. A full conviction of our own ignorance may teach us a full trust in his
+                    wisdom. It may teach us (what is not always so easy as one would conceive it to
+                    be) to trust the invisible God farther than we can see him! It may assist us in
+                    learning that difficult lesson, ‘to cast down’ our own ‘imaginations’ (or
+                    reasonings rather, as the word properly signifies), to ‘cast down every high
+                    thing that exalteth itself against the knowledge of God, and bring into
+                    captivity every thought to the obedience of Christ.’<note place="foot"
+                        xml:id="ftn78" n="78"><p rend="footnote text">Cf. 2 Cor. 10:5.</p></note>
+                    There are at present two grand obstructions to our forming a right judgment of
+                    the dealings of God with respect to men. The one is, there are innumerable <hi
+                        rend="italic">facts</hi> relating to every man which we do not and cannot
+                    know. They are at present hid from us, and covered from our search by
+                    impenetrable darkness. The other is, we cannot see the <hi rend="italic"
+                        >thoughts</hi> of men, even when we know their actions. Still we know not
+                    their <hi rend="italic">intentions</hi>; and without this we can but ill judge
+                    of their outward actions. Conscious of this, ‘judge nothing before the time’
+                    concerning his providential dispensations; till he shall bring to light the
+                    ‘hidden things of darkness’, and manifest ‘the thoughts and intent of the
+                        heart.’<note place="foot" xml:id="ftn79" n="79"><p rend="footnote text">Cf.
+                            1 Cor. 4:5.</p></note></p>
+                <p n="3">[3.] From a consciousness of our ignorance we may learn, thirdly, a lesson
+                    of resignation.<note place="foot" xml:id="ftn80" n="80"><p rend="footnote text"
+                            >Cf. No. 22, ‘Sermon on the Mount, II’, I.4 and n.</p></note> We may be
+                    instructed to say at all times and in all instances, ‘Father, not as I will; but
+                    as thou wilt.’<note place="foot" xml:id="ftn81" n="81"><p rend="footnote text"
+                            >Matt. 26:39.</p></note> This was the last lesson which our blessed Lord
+                    (as man) learnt <pb n="02:586"/>while he was upon earth. He could go no higher
+                    than, ‘Not as I will, but as thou wilt,’ till he bowed his head and gave up the
+                        ghost.<note place="foot" xml:id="ftn82" n="82"><p rend="footnote text">John
+                            19:30.</p></note> Let us also herein be made conformable to his death,
+                    that we may know the full ‘power of his resurrection’.<note place="foot"
+                        xml:id="ftn83" n="83"><p rend="footnote text">Phil. 3:10.</p></note></p>
+            </div>
+            <p><placeName>Bristol</placeName>, <date when="03-05-1784">March 5, 1784</date><note
+                    place="foot" xml:id="ftn84" n="84"><p rend="footnote text">Place and date as
+                        given in <hi rend="italic">AM.</hi></p></note></p>
+        </body>
+    </text>
+</TEI>

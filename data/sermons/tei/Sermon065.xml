@@ -1,0 +1,513 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Sermon 65: The Duty of Reproving our Neighbour</title>
+                <author>Wesley, John</author>
+                <editor role="text">Van Buskirk, Gregory P.</editor>
+                <editor role="digital">Taylor, Michelle M.</editor>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>The Wesley Works Digitzation Project</publisher>
+                <pubPlace>Tampa, FL</pubPlace>
+                <date>2024-02-29</date>
+            </publicationStmt>
+            <sourceDesc>
+                <listBibl>
+                    <biblStruct>
+                        <analytic>
+                            <title level="a">Sermon 65: The Duty of Reproving our Neighbour</title>
+                        </analytic>
+                        <monogr>
+                            <title level="j">The Works of John Wesley, Volume II: Sermons II,
+                                34-70</title>
+                            <editor role="volume">Outler, Albert</editor>
+                            <imprint>
+                                <publisher>Abingdon Press</publisher>
+                                <pubPlace>Nashville, TN</pubPlace>
+                                <date when="1985-11-01">1985-11-01</date>
+                                <biblScope unit="volume" n="2"/>
+                                <biblScope unit="page" from="500" to="520"/>
+                            </imprint>
+                        </monogr>
+                        <series>
+                            <title level="s">The Works of John Wesley</title>
+                            <editor role="general">Baker, Frank</editor>
+                        </series>
+                    </biblStruct>
+                </listBibl>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Greg Van Buskirk created Word docs for all of Wesley's sermons using a combination of
+                OCR software and manual proofing. Michelle Taylor converted these docx into XML
+                using Oxygen's DITA automatic transformation scenario, then touched them up
+                manually.</p>
+        </encodingDesc>
+        <standOff>
+            <taxonomy>
+                <keywords>
+                    <term/>
+                </keywords>
+            </taxonomy>
+            <!--Include keywords and terms here eventually.-->
+        </standOff>
+        <revisionDesc/>
+    </teiHeader>
+    <text>
+        <body>
+            <pb n="02:511"/>
+            <head>
+                <hi rend="italic">An Introductory Comment</hi>
+            </head>
+            <introduction>
+                <p>In this sermon we have an abrupt change of theme and climate. It was written in
+                    July 1787, but not published in the <hi rend="italic">Arminian Magazine</hi>
+                    until the beginning of the following year (Vol. XI, January and February 1788)
+                    as number XLIII, and without a title. It was then promptly reprinted with its
+                    present title in <hi rend="italic">SOSO</hi> (V.223-36). Note that it is the
+                    fifteenth sermon in a volume already advertised as planned for fourteen. This
+                    rather sudden shift in plans might account for the fact that it is not a logical
+                    sequel to ‘The New Creation’. It was not published again in Wesley’s
+                    lifetime.</p>
+                <p>Its theme is reminiscent of an older Puritan concern that in view of their
+                    rejection of traditional forms of confession, and also in light of their
+                    discovery that self-examination is not enough for life together in Christian
+                    fellowship. Christians should therefore serve as ‘consciences’ to each other.
+                    Wesley had before him the example of Richard Baxter, <hi rend="italic">The
+                        Saints’ Everlasting Rest</hi> (1649/50), and even more specifically the
+                    sermon of John Kitchin on ‘How Must We Reprove That We May Not Partake of Other
+                    Men’s Sinnes’, which his grandfather, Samuel Annesley, had included in <hi
+                        rend="italic">The Morning-Exercise at Cripplegate</hi> (1661); cf. Robert C.
+                    Monk, <hi rend="italic">John Wesley: His Puritan Heritage</hi>, pp. 233-36. The
+                    only two recorded instances of Wesley’s use of Lev. 19:17 in his oral preaching
+                    occur in 1784 and 1787.</p>
+            </introduction>
+            <head>The Duty of Reproving our Neighbour</head>
+            <epigraph>
+                <p>Leviticus 19:17</p>
+                <p>
+                    <hi rend="italic">Thou shalt not hate thy brother in thy heart: thou shalt in
+                        any wise rebuke thy neighbour, and not suffer sin upon him.</hi>
+                </p>
+            </epigraph>
+            <div type="introduction">
+                <p>A great part of the book of Exodus, and almost the whole of the book of
+                    Leviticus, relate to the ritual or ceremonial law of Moses, which was peculiarly
+                    given to the children of Israel; but was such <pb n="02:512"/>‘a yoke’, says the
+                    apostle Peter, ‘as neither our fathers nor we were able to bear’.<note
+                        place="foot" xml:id="ftn1" n="1"><p rend="footnote text">Cf. Acts
+                        15:10.</p></note> We are therefore delivered from it: and this is one branch
+                    of ‘the liberty wherewith Christ hath made us free’.<note place="foot"
+                        xml:id="ftn2" n="2"><p rend="footnote text">Gal. 5:1.</p></note> Yet it is
+                    easy to observe that many excellent moral precepts are interspersed among these
+                    ceremonial laws. Several of them we find in this very chapter. Such as, ‘Thou
+                    shalt not gather every grape of thy vineyard; thou shalt leave them for the poor
+                    and stranger. I am the Lord your God.’<hi rend="endnote_reference"><note
+                            place="end"><p rend="endnote text">[Lev. 19,] ver. 10.</p></note></hi>
+                    ‘Ye shall not steal, neither deal falsely,’<note place="foot" xml:id="ftn3"
+                        n="3"><p rend="footnote text">This phrase from Leviticus was present in <hi
+                                rend="italic">AM</hi>, but omitted from <hi rend="italic"
+                            >SOSO</hi>.</p></note> ‘neither lie one to another.’<hi
+                        rend="endnote_reference"><note place="end"><p rend="endnote text">Ver.
+                                11.</p></note></hi> ‘Thou shalt not defraud thy neighbour, neither
+                    rob him: the wages of him that is hired shall not abide with thee till the
+                        morning.’<hi rend="endnote_reference"><note place="end"><p
+                                rend="endnote text">Ver. 13.</p></note></hi> ‘Thou shalt not curse
+                    the deaf, nor put a stumbling-block before the blind, but shalt fear thy God: I
+                    am the Lord.’<hi rend="endnote_reference"><note place="end"><p
+                                rend="endnote text">Ver. 14.</p></note></hi> As if he had said, I am
+                    he whose eyes are over all the earth, and whose ears are open to their cry. ‘Ye
+                    shall do no unrighteousness in judgment; thou shalt not respect the person of
+                    the poor,’ which compassionate men may be tempted to do, ‘nor honour the person
+                    of the mighty’, to which there are a thousand temptations.<hi
+                        rend="endnote_reference"><note place="end"><p rend="endnote text">Ver.
+                                15.</p></note></hi> ‘Thou shalt not go up and down as a talebearer
+                    among thy people’<hi rend="endnote_reference"><note place="end"><p
+                                rend="endnote text">Ver. 16.</p></note></hi>—although this is a sin
+                    which human laws have never yet been able to prevent. Then follows, ‘Thou shalt
+                    not hate thy brother in thy heart: thou shalt in any wise rebuke thy neighbour,
+                    and not suffer sin upon him.’</p>
+                <p>In order to understand this important direction aright, and to apply it
+                    profitably to our own souls, let us consider,</p>
+                <p>First, what it is that we are to rebuke or reprove. What is the thing that is
+                    here enjoined? Secondly, who are they whom we are commanded to reprove? And,
+                    thirdly, how are we to reprove them?</p>
+            </div>
+            <div type="section" n="1">
+                <p n="1">I. 1. Let us consider, first, What is the duty that is here enjoined? What
+                    is it we are to rebuke or reprove? And what is it ‘to reprove’? What is it to
+                    reprove? To tell anyone of his faults, as clearly appears from the following
+                    words, ‘Thou shalt not suffer sin upon him.’ Sin is therefore the thing we are
+                    called to reprove, or rather him that commits sin. We are to do all that in us
+                    lies to convince him of his fault, and lead him into the right way.</p>
+                <p n="2"><pb n="02:513"/>2. Love indeed requires us to warn him, not only of sin
+                    (although of this chiefly), but likewise of any error which if it were persisted
+                    in would naturally lead to sin. If we do not hate him in our heart, if we love
+                    our neighbour as ourselves, this will be our constant endeavour—to warn him of
+                    every evil way and of every mistake which tends to evil.</p>
+                <p n="3">3. But if we desire not to lose our labour,<note place="foot" xml:id="ftn4"
+                        n="4"><p rend="footnote text">See below, III.3. Cf. the anecdote in
+                            Boswell’s <hi rend="italic">Life of Johnson</hi> (in 1772), ‘On School
+                            Chastisement’, recalled from Locke’s <hi rend="italic">Treatise on
+                                Education</hi> (1693), about the mother who corrected her daughter
+                            for an eighth time because, said she, ‘I would have lost my labour if I
+                            had stopped at the seventh.’ A similar story is told of Samuel and
+                            Susanna Wesley and their eldest son. Samuel had asked his wife why she
+                            was repeating a lesson ‘to that dull child for the twentieth time’;
+                            Susanna’s reply: ‘Because the nineteenth would not have been enough.’
+                            See George J. Stevenson, <hi rend="italic">Memorials of the Wesley
+                                Family</hi> (London, 1876), p. 169; and Eliza Clarke, <hi
+                                rend="italic">Susanna Wesley</hi> (1886), p. 28. The same theme
+                            reappears in Nos. 91, ‘On Charity’, III.8; 93, ‘On Redeeming the Time’,
+                            III.3; 95, ‘On the Education of Children’, §15; and 96, ‘On Obedience to
+                            Parents’, II.1. Cf. also Wesley’s letter to Philothea Briggs, Oct. 16,
+                            1771.</p></note> we should rarely reprove anyone for anything that is of
+                    a disputable nature, that will bear much to be said on both sides. A thing may
+                    possibly appear evil to me; therefore I scruple the doing of it. And if I were
+                    to do it while that scruple remains I should be a sinner before God. But another
+                    is not to be judged by my conscience;<note place="foot" xml:id="ftn5" n="5"><p
+                            rend="footnote text">See 1 Cor. 10:29.</p></note> to his own master he
+                    standeth or falleth.<note place="foot" xml:id="ftn6" n="6"><p
+                            rend="footnote text">Rom. 14:4.</p></note> Therefore I would not reprove
+                    him but for what is clearly and undeniably evil. Such, for instance, is profane
+                    cursing and swearing, which even those who practise it most will not often
+                    venture to defend, if one mildly expostulates with them. Such is drunkenness,
+                    which even a habitual drunkard will condemn when he is sober. And such, in the
+                    account of the generality of people, is the profaning of the Lord’s day. And if
+                    any which are guilty of these sins for a while attempt to defend them, very few
+                    will persist to do it if you look them steadily in the face, and appeal to their
+                    own conscience in the sight of God.</p>
+            </div>
+            <div type="section" n="2">
+                <p n="1">II. 1. Let us, in the second place, consider, Who are those that we are
+                    called to reprove? It is the more needful to consider this because it is
+                    affirmed by many serious persons that there are some sinners whom the Scripture
+                    itself forbids us to reprove. This sense has been put on that solemn caution of
+                    our Lord in his Sermon on the Mount: ‘Cast not your pearls before swine, lest
+                    they trample them under foot, and turn again and rend you.’<note place="foot"
+                        xml:id="ftn7" n="7"><p rend="footnote text">Cf. Matt. 7:6; see also the <hi
+                                rend="italic">Notes</hi> on this verse.</p></note> But <pb
+                        n="02:514"/>the plain meaning of these words is, Do not offer the pearls,
+                    the sublime doctrines or mysteries of the gospel, to those whom you know to be
+                    brutish men, immersed in sins, and having no fear of God before their eyes.<note
+                        place="foot" xml:id="ftn8" n="8"><p rend="footnote text">Rom.
+                        3:18.</p></note> This would expose those precious jewels to contempt, and
+                    yourselves to injurious treatment. But even those whom we know to be, in our
+                    Lord’s sense, dogs and swine, if we saw them do or heard them speak what they
+                    themselves know to be evil, we ought in any wise to reprove them; else we ‘hate
+                    our brother in our heart’.</p>
+                <p n="2">2. The persons intended by ‘our neighbour’ are every child of man,<note
+                        place="foot" xml:id="ftn9" n="9"><p rend="footnote text">Cf. No. 7, ‘The Way
+                            to the Kingdom’, I.8 and n.</p></note> everyone that breathes the vital
+                    air, all that have souls to be saved. And if we refrain from performing this
+                    office of love to any because they are sinners above other men, they may persist
+                    in their iniquity, but their blood will God require at our hands.<note
+                        place="foot" xml:id="ftn10" n="10"><p rend="footnote text">See 2 Sam. 4:11;
+                            Ezek. 3:18, 20; 33:6, 8.</p></note></p>
+                <p n="3">3. How striking is Mr. Baxter’s reflection on this head, in his <hi
+                        rend="italic">Saints’ Everlasting Rest</hi>: ‘Suppose thou wert to meet one
+                    in the lower world to whom thou hadst denied this office of love when ye were
+                    both together under the sun; what answer couldst thou make to his upbraiding? At
+                    such a time and place, while we were under the sun, God delivered me into thy
+                    hands. I then did not know the way of salvation, but was seeking death in the
+                    error of my life.<note place="foot" xml:id="ftn11" n="11"><p
+                            rend="footnote text">Cf. Wisd. 1:12; and No. 6, ‘The Righteousness of
+                            Faith’, §2 and n.</p></note> And therein thou sufferedst me to remain,
+                    without once endeavouring to awake me out of sleep! Hadst thou imparted to me
+                    thy knowledge, and warned me to flee from the wrath to come,<note place="foot"
+                        xml:id="ftn12" n="12"><p rend="footnote text">Matt. 3:7.</p></note> neither
+                    I nor thou need ever have come into this place of torment.’<note place="foot"
+                        xml:id="ftn13" n="13"><p rend="footnote text">Cf. Baxter, <hi rend="italic"
+                                >The Saints’ Everlasting Rest</hi>, Pt. III, §7 in <hi rend="italic"
+                                >Works</hi>, III.226: ‘Consider, what a thing it will be to look
+                            upon your poor friends eternally in those flames, and to think that your
+                            neglect was a great cause of it! And that there was a time when you
+                            might have done much to prevent it! If you should there perish with
+                            them, it would be no small aggravation of your torment; if you be in
+                            heaven, it would sure be a sad thought, were it possible that any sorrow
+                            could dwell there, to hear a multitude of poor souls there to cry out
+                            for ever, Oh! if you would but have told me plainly of my sin and
+                            danger, and dealt roundly with me, and set it home, I might have escaped
+                            all this torment, and been now in rest. Oh! what a sad voice will this
+                            be!’</p></note></p>
+                <p n="4">4. Everyone therefore that has a soul to be saved is entitled to this good
+                    office from thee. Yet this does not imply that it is to be done in the same
+                    degree to everyone. It cannot be denied that <pb n="02:515"/>there are some to
+                    whom it is particularly due. Such, in the first place, are our parents, if we
+                    have any that stand in need of it; unless we should place our consorts and our
+                    children on an equal footing with them. Next to these we may rank our brothers
+                    and sisters, and afterwards our relations, as they are allied to us in a nearer
+                    or more distant manner, either by blood or by marriage. Immediately after these
+                    are our servants, whether bound to us for a term of years or any shorter term.
+                    Lastly, such in their several degrees are our countrymen, our fellow-citizens,
+                    and the members of the same society, whether civil or religious. The latter have
+                    a particular claim to our service; seeing these societies are formed with that
+                    very design, to watch over each other for this very end, that we may not suffer
+                    sin upon our brother.<note place="foot" xml:id="ftn14" n="14"><p
+                            rend="footnote text">An echo of the <hi rend="italic">General
+                            Rules</hi>, §5: ‘…doing good…by instructing, reproving, or
+                            exhorting…’.</p></note> If we neglect to reprove any of these when a
+                    fair opportunity offers we are undoubtedly to be ranked among those that ‘hate
+                    their brother in their heart’. And how severe is the sentence of the Apostle
+                    against those who fall under this condemnation! ‘He that hateth his brother’,
+                    though it does not break out into words or actions, ‘is a murderer. And ye
+                    know’, continues the Apostle, ‘that no murderer hath eternal life abiding in
+                        him.’<note place="foot" xml:id="ftn15" n="15"><p rend="footnote text">Cf. 1
+                            John 3:15.</p></note> He hath not that seed planted in his soul which
+                    groweth up unto everlasting life. In other words, he is in such a state that if
+                    he dies therein he cannot see life. It plainly follows that to neglect this is
+                    no small thing, but eminently endangers our final salvation.</p>
+            </div>
+            <div type="section" n="3">
+                <p>III. We have seen what is meant by reproving our brother, and who those are that
+                    we should reprove. But the principal thing remains to be considered. How, in
+                    what manner, are we to reprove them?</p>
+                <p n="1">1. It must be allowed that there is a considerable difficulty in performing
+                    this in a right manner. Although at the same time it is far less difficult to
+                    some than it is to others. Some there are who are particularly qualified for it,
+                    whether by nature, or practice, or grace. They are not encumbered either with
+                    evil shame or that sore burden, the fear of man.<note place="foot"
+                        xml:id="ftn16" n="16"><p rend="footnote text">An echo of Francke’s <hi
+                                rend="italic">Nicodemus: Or A Treatise Against the Fear of Man</hi>
+                            (1706); cf. No. 14, <hi rend="italic">The Repentance of Believers</hi>,
+                            I.7 and n.</p></note> They are both ready to undertake this labour of
+                    love, and skilful in performing it. To these therefore <pb n="02:516"/>it is
+                    little or no cross; nay, they have a kind of relish for it, and a satisfaction
+                    therein over and above that which arises from a consciousness of having done
+                    their duty. But be it a cross to us, greater or less, we know that hereunto we
+                    are called.<note place="foot" xml:id="ftn17" n="17"><p rend="footnote text">See
+                            1 Pet. 2:21.</p></note> And be the difficulty ever so great to us, we
+                    know in whom we have trusted; and that he will surely fulfil his word, ‘As thy
+                    day, so shall thy strength be.’<note place="foot" xml:id="ftn18" n="18"><p
+                            rend="footnote text">Cf. Deut. 33:25.</p></note></p>
+                <p n="2">2. In what manner then shall we reprove our brother, in order that our
+                    reproof may be most effectual? Let us first of all take care that whatever we do
+                    may be done in the spirit of <hi rend="italic">love</hi>;<note place="foot"
+                        xml:id="ftn19" n="19"><p rend="footnote text">Cf. No. 17, ‘The Circumcision
+                            of the Heart,’ I.2 and n.</p></note> in the spirit of tender goodwill to
+                    our neighbour, as for one who is the son of our common Father, and one for whom
+                    Christ died, that he might be a partaker of salvation. Then, by the grace of
+                    God, love will beget love. The affection of the speaker will spread to the heart
+                    of the hearer; and you will find in due time that your labour hath not been in
+                    vain in the Lord.<note place="foot" xml:id="ftn20" n="20"><p
+                            rend="footnote text">See 1 Cor. 15:58.</p></note></p>
+                <p n="3">3. Meantime the greatest care must be taken that you speak in the spirit of
+                        <hi rend="italic">humility</hi>. Beware that you do not think of yourself
+                    more highly than you ought to think.<note place="foot" xml:id="ftn21" n="21"><p
+                            rend="footnote text">Rom. 12:3. See also, No. 21, ‘Sermon on the Mount,
+                            I,’ I.7 and n.</p></note> If you think too highly of yourself, you can
+                    scarce avoid despising your brother. And if you show, or even feel, the least
+                    contempt of those whom you reprove, it will blast your whole work and occasion
+                    you to lose all your labour.<note place="foot" xml:id="ftn22" n="22"><p
+                            rend="footnote text">Cf. above, I.3 and n.</p></note> In order to
+                    prevent the very appearance of pride it will be often needful to be explicit on
+                    the head—to disclaim all preferring yourself before him; and at the very time
+                    you reprove that which is evil, to own and bless God for that which is good in
+                    him.</p>
+                <p n="4">4. Great care must be taken, in the third place, to speak in the spirit of
+                        <hi rend="italic">meekness</hi>,<note place="foot" xml:id="ftn23" n="23"><p
+                            rend="footnote text">Cf. No. 22, ‘Sermon on the Mount, II’, I.4 and
+                            n.</p></note> as well as <hi rend="italic">lowliness</hi>. The Apostle
+                    assures us that ‘the wrath of men worketh not the righteousness of God.’<note
+                        place="foot" xml:id="ftn24" n="24"><p rend="footnote text">Cf. Jas.
+                            1:20.</p></note> Anger, though it be adorned with the name of zeal,
+                    begets anger; not love or holiness. We should therefore avoid with all possible
+                    care the very appearance of it. Let there be no trace of it either in the eyes,
+                    the gesture, or the tone of voice; but let all of these concur in manifesting a
+                    loving, humble, and dispassionate spirit.</p>
+                <p><pb n="02:517"/>5. But all this time see that you do not trust in yourself. Put
+                    no confidence in your own wisdom, or address, or abilities of any kind. For the
+                    success of all you speak or do, trust not in yourself, but in the great Author
+                    of every good and perfect gift.<note place="foot" xml:id="ftn25" n="25"><p
+                            rend="footnote text">Jas. 1:17.</p></note> Therefore while you are
+                    speaking continually lift up your heart to him that worketh all in all.<note
+                        place="foot" xml:id="ftn26" n="26"><p rend="footnote text">1 Cor.
+                        12:6.</p></note> And whatsoever is spoken in the spirit of
+                    <hi rend="italic" xml:space="preserve">prayer </hi>will not fall to the
+                    ground.</p>
+                <p n="6">6. So much for the <hi rend="italic">spirit</hi> wherewith you should speak
+                    when you reprove your neighbour. I now proceed to the outward <hi rend="italic"
+                        >manner</hi>. It has been frequently found that the prefacing a reproof with
+                    a frank profession of goodwill has caused what was spoken to sink deep into the
+                    heart. This will generally have a far better effect than that grand fashionable
+                    engine, flattery,<note place="foot" xml:id="ftn27" n="27"><p
+                            rend="footnote text">Cf. No. 14, <hi rend="italic">The Repentance of
+                                Believers</hi>, I.7 and n. for Wesley’s comments on the ‘praise of
+                            men’.</p></note> by means of which the men of the world have often done
+                    surprising things. But the very same things, yea, far greater, have much oftener
+                    been effected by a plain and artless declaration of disinterested love. When you
+                    feel God has kindled this flame in your heart, hide it not; give it full vent.
+                    It will pierce like lightning. The stout, the hard-hearted, will melt before
+                    you, and know that God is with you of a truth.<note place="foot" xml:id="ftn28"
+                        n="28"><p rend="footnote text">See 1 Cor. 14:25.</p></note></p>
+                <p n="7">7. Although it is certain that the main point in reproving is to do it with
+                    a right spirit, yet it must also be allowed there are several little
+                    circumstances with regard to the outward manner which are by no means without
+                    their use, and therefore are not to be despised. One of these is—whenever you
+                    reprove, do it with great <hi rend="italic">seriousness</hi>; so that as you
+                    really are in earnest you may likewise appear so to be. A ludicrous<note
+                        place="foot" xml:id="ftn29" n="29"><p rend="footnote text">I.e., ‘jesting’
+                            or ‘sportive’; cf. Johnson, <hi rend="italic"
+                        >Dictionary</hi>.</p></note> reproof makes little impression, and is soon
+                    forgot. Besides, that many times is taken ill, as if you ridiculed the person
+                    you reprove. And indeed those who are not accustomed to make jests do not take
+                    it well to be jested upon. One means of giving a serious air to what you speak
+                    is, as often as maybe, to use the very words of Scripture. Frequently we find
+                    the word of God, even in a private conversation, has a peculiar energy; and the
+                    sinner, when he ejects it least, feels it ‘sharper than a two-edged sword’.<note
+                        place="foot" xml:id="ftn30" n="30"><p rend="footnote text">Cf. Heb.
+                            4:12.</p></note></p>
+                <p n="8">8. Yet there are some exceptions to this general rule of <pb n="02:518"
+                    />reproving seriously. There are some exempt cases, wherein, as a good judge of
+                    human nature observes,</p>
+                <quote><hi rend="italic">Ridiculum acri fortius</hi><note place="foot"
+                        xml:id="ftn31" n="31"><p rend="footnote text">Cf. Horace, <hi rend="italic"
+                                >Satires</hi>, I.x.14-15: ‘<hi rend="italic">Ridiculum acri/Fortius
+                                et melius magnas plerumque secat res</hi>.’ Compare this approving
+                            reference to Horace with Wesley’s more typical disapproval, as in No. 2,
+                                <hi rend="italic">The Almost Christian</hi>, I.9 and
+                    n.</p></note>—</quote>
+                <p>a little well-placed raillery will pierce deeper than solid argument. But this
+                    has place chiefly when we have to do with those who are strangers to religion.
+                    And when we condescend to give a ludicrous reproof to a person of this character
+                    it seems we are authorized so to do by that advice of Solomon, ‘Answer a fool
+                    according to his folly, lest he be wise in his own eyes.’<note place="foot"
+                        xml:id="ftn32" n="32"><p rend="footnote text">Cf. Prov. 26:5.</p></note></p>
+                <p n="9">9. The manner of the reproof may in other respects too be varied according
+                    to the occasion. Sometimes you may find it proper to use many words to express
+                    your sense at large. At other times you may judge it more expedient to use few
+                    words; perhaps a single sentence. And at others it may be advisable to use no
+                    words at all, but a gesture, a sigh, or a look. Particularly when the person you
+                    would reprove is greatly your superior. And frequently this silent kind of
+                    reproof will be attended by the power of God, and consequently have a far better
+                    effect than a long and laboured discourse.</p>
+                <p n="10">10. Once more. Remember the remark of Solomon, ‘A word spoken <hi
+                        rend="italic">in season</hi>, how good is it!’<note place="foot"
+                        xml:id="ftn33" n="33"><p rend="footnote text">Prov. 15:23.</p></note> It is
+                    true, if you are providentially called to reprove anyone whom you are not likely
+                    to see any more, you are to snatch the present opportunity, and to speak ‘in
+                    season’ or ‘out of season’.<note place="foot" xml:id="ftn34" n="34"><p
+                            rend="footnote text">2 Tim. 4:2.</p></note> But with them whom you have
+                    frequent opportunities of seeing you may wait for a fair occasion. Here the
+                    advice of the poet has place. You may speak</p>
+                <quote><hi rend="italic">Si validus, si laetus erit, si denique poscet</hi><note
+                        place="foot" xml:id="ftn35" n="35"><p rend="footnote text">Horace, <hi
+                                rend="italic">Epistles</hi>, I.xiii. 3: ‘<hi rend="italic">if</hi>
+                            he’s well, <hi rend="italic">if</hi> he’s in good spirits, <hi
+                                rend="italic">if—</hi>in fine—he asks for them’ (Loeb, 194:334-35).
+                            Addison quotes this in <hi rend="italic">The Spectator</hi>, No. 553,
+                            Dec. 4, 1712.</p></note>—</quote>
+                <p>when he is in a good humour, or when he asks it you. Here you may catch the</p>
+                <quote><hi rend="italic">mollia tempora fandi</hi><note place="foot" xml:id="ftn36"
+                        n="36"><p rend="footnote text">Cf. Virgil, <hi rend="italic">Aeneid</hi>,
+                            iv.293-94, ‘<hi rend="italic">mollissima fandi / tempora</hi>’, ‘the
+                            happiest season for speech’ (Loeb, 1:414-15). See also Wesley’s letter
+                            to George Whitefield and his friends at Oxford, Sept. 10, 1736, and his
+                                <hi rend="italic">Journal</hi> for the same
+                    date.</p></note>—</quote>
+                <p><pb n="02:519"/>the time when his mind is in a soft, mild frame. And then God
+                    will both teach you how to speak, and give a blessing to what is spoken.</p>
+                <p n="11">11. But here let me guard you against one mistake. It passes for an
+                    indisputable maxim, ‘Never attempt to reprove a man when he is intoxicated with
+                        drink.’<note place="foot" xml:id="ftn37" n="37"><p rend="footnote text"
+                            >E.g., Pliny the Elder, <hi rend="italic">Natural History</hi>,
+                            XXIII.i.23, ‘<hi rend="italic">In proverbium cessit, sapientiam vino
+                                obumbrari</hi>’, ‘It has passed into a proverb that wisdom is
+                            clouded by wine;’ cf. ‘When the wine is in, the wit is out,’ ‘Wine
+                            counsels seldom prosper,’ and other apothegms in the same
+                        vein.</p></note> Reproof, it is said, is then thrown away, and can have no
+                    good effect. I dare not say so. I have seen not a few clear instances of the
+                    contrary. Take one. Many years ago, passing by a man in Moorfields, who was so
+                    drunk he could hardly stand, I put a paper into his hand. He looked at it and
+                    said, ‘<hi rend="italic">A Word—A Word to a Drunkard</hi><note place="foot"
+                        xml:id="ftn38" n="38"><p rend="footnote text">Cf. Wesley’s little tract
+                            under this title; see <hi rend="italic">Bibliog</hi>, No. 111; Vol. 14
+                            of this edn.</p></note>—that is me—Sir, Sir! I am wrong.—I know I am
+                    wrong—Pray let me talk a little with you.’ He held me by the hand a full
+                    half-hour. And I believe he got drunk no more.</p>
+                <p n="12">12. I beseech you, brethren, by the mercies of God,<note place="foot"
+                        xml:id="ftn39" n="39"><p rend="footnote text">See Rom. 12:1.</p></note> do
+                    not despise poor drunkards. Have compassion on them. Be instant with them in
+                    season and out of season!<note place="foot" xml:id="ftn40" n="40"><p
+                            rend="footnote text">See 2 Tim. 4:2.</p></note> Let not shame or fear of
+                    men prevent your pulling these brands out of the burning;<note place="foot"
+                        xml:id="ftn41" n="41"><p rend="footnote text">See Zech. 3:2. Cf. No. 4, <hi
+                                rend="italic">Scriptural Christianity</hi>, II.2 and n.</p></note>
+                    many of them are<note place="foot" xml:id="ftn42" n="42"><p rend="footnote text"
+                            >Orig., <hi rend="italic">AM</hi> and <hi rend="italic">SOSO</hi>,
+                            ‘not’, altered in Wesley’s MS annotations to each work.</p></note>
+                    self-condemned:</p>
+                <lg>
+                    <l>Nor do they not discern the evil plight</l>
+                    <l>That they are in.</l>
+                    <note place="foot" xml:id="ftn43" n="43">
+                        <p rend="footnote text">Cf. Milton, <hi rend="italic">Paradise Lost</hi>,
+                            i.335-36:</p>
+                        <lg>
+                            <l>Nor did they not perceive the evil plight</l>
+                            <l>In which they were.</l>
+                        </lg>
+                    </note>
+                </lg>
+                <p>But they despair; they have no hope of escaping out of it. And they sink into it
+                    still deeper, because none else has any hope for them! ‘Sinners of every other
+                    sort’, said a venerable old clergyman, ‘have I frequently known converted to
+                    God. But an habitual drunkard I have never known converted.’ But I have known
+                    five hundred, perhaps five thousand. Ho! Art thou one, who readest these words?
+                    Then hear thou the words of the Lord! I have a message from God unto thee,<note
+                        place="foot" xml:id="ftn44" n="44"><p rend="footnote text">Judg.
+                        3:20.</p></note> O sinner! Thus saith the Lord, Cast not away thy hope.<note
+                        place="foot" xml:id="ftn45" n="45"><p rend="footnote text">See Heb.
+                            10:35.</p></note> I have not forgotten thee. He that tells <pb
+                        n="02:520"/>thee, ‘There is no help,’ is a liar from the beginning.<note
+                        place="foot" xml:id="ftn46" n="46"><p rend="footnote text">See John
+                            8:44.</p></note> Look up! Behold the Lamb of God who taketh away the sin
+                    of the world!<note place="foot" xml:id="ftn47" n="47"><p rend="footnote text"
+                            >John 1:29.</p></note> This day is salvation come to thy soul.<note
+                        place="foot" xml:id="ftn48" n="48"><p rend="footnote text">See Luke
+                            19:9.</p></note> Only see that thou despise not him that speaketh! Just
+                    now he saith unto thee: ‘Son, be of good cheer! Thy sins are forgiven
+                        thee!’<note place="foot" xml:id="ftn49" n="49"><p rend="footnote text">Cf.
+                            Matt. 9:2.</p></note></p>
+                <p n="13">13. Lastly, you that are diligent in this labour of love, see that you be
+                    not discouraged, although after you have used your best endeavours you should
+                    see no present fruit. You ‘have need of patience’, and then, ‘after ye have done
+                    the will of God’<note place="foot" xml:id="ftn50" n="50"><p rend="footnote text"
+                            >Heb. 10:36.</p></note> herein, the harvest will come. Never be ‘weary
+                    of well-doing; in due time ye shall reap, if ye faint not.’<note place="foot"
+                        xml:id="ftn51" n="51"><p rend="footnote text">Cf. Gal. 6:9.</p></note> Copy
+                    after Abraham, who ‘against hope, still believed in hope’.<note place="foot"
+                        xml:id="ftn52" n="52"><p rend="footnote text">Rom. 4:18.</p></note> ‘Cast
+                    thy bread upon the waters, and after many days thou shalt find it again.’<note
+                        place="foot" xml:id="ftn53" n="53"><p rend="footnote text">Eccles.
+                        11:1.</p></note></p>
+                <p n="14">14. I have now only a few words to add, unto you, my brethren, who are
+                    vulgarly called ‘Methodists’. I never heard or read of any considerable revival
+                    of religion which was not attended with a spirit of reproving. I believe it
+                    cannot be otherwise; for what is faith unless it worketh by love?<note
+                        place="foot" xml:id="ftn54" n="54"><p rend="footnote text">See Gal. 5:6; cf.
+                            No. 2, <hi rend="italic">The Almost Christian</hi>, II.6 and
+                        n.</p></note> Thus it was in every part of England when the present revival
+                    of religion began about fifty years ago: all the subjects of that revival—all
+                    the Methodists, so called, in every place—were reprovers of outward sin.<note
+                        place="foot" xml:id="ftn55" n="55"><p rend="footnote text">See No. 13, <hi
+                                rend="italic">On Sin in Believers</hi>, intro., III.1-9, and
+                        n.</p></note> And indeed so are all that ‘being justified by faith, have
+                    peace with God through Jesus Christ’.<note place="foot" xml:id="ftn56" n="56"><p
+                            rend="footnote text">Cf. Rom. 5:1.</p></note> Such they are at first;
+                    and if they use that precious gift it will never be taken away. Come, brethren!
+                    In the name of God, let us begin again! Rich or poor, let us all arise as one
+                    man! And in anywise let every man ‘rebuke his neighbour, and not suffer sin upon
+                    him’! Then shall all Great Britain and Ireland know that we do not go ‘a warfare
+                    at our own cost’.<note place="foot" xml:id="ftn57" n="57"><p
+                            rend="footnote text">Cf. 1 Cor. 9:7.</p></note> Yea, ‘God shall bless
+                    us, and all the ends of the world shall fear him.’<note place="foot"
+                        xml:id="ftn58" n="58"><p rend="footnote text">Ps. 67:7 (BCP).</p></note></p>
+            </div>
+            <p><placeName>Manchester</placeName>, <date when="07-28-1787">July 28, 1787</date></p>
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,764 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Sermon 67: On Divine Providence</title>
+                <author>Wesley, John</author>
+                <editor role="text">Van Buskirk, Gregory P.</editor>
+                <editor role="digital">Taylor, Michelle M.</editor>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>The Wesley Works Digitzation Project</publisher>
+                <pubPlace>Tampa, FL</pubPlace>
+                <date>2024-02-29</date>
+            </publicationStmt>
+            <sourceDesc>
+                <listBibl>
+                    <biblStruct>
+                        <analytic>
+                            <title level="a">Sermon 67: On Divine Providence</title>
+                        </analytic>
+                        <monogr>
+                            <title level="j">The Works of John Wesley, Volume II: Sermons II,
+                                34-70</title>
+                            <editor role="volume">Outler, Albert</editor>
+                            <imprint>
+                                <publisher>Abingdon Press</publisher>
+                                <pubPlace>Nashville, TN</pubPlace>
+                                <date when="1985-11-01">1985-11-01</date>
+                                <biblScope unit="volume" n="2"/>
+                                <biblScope unit="page" from="534" to="550"/>
+                            </imprint>
+                        </monogr>
+                        <series>
+                            <title level="s">The Works of John Wesley</title>
+                            <editor role="general">Baker, Frank</editor>
+                        </series>
+                    </biblStruct>
+                </listBibl>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Greg Van Buskirk created Word docs for all of Wesley's sermons using a combination of
+                OCR software and manual proofing. Michelle Taylor converted these docx into XML
+                using Oxygen's DITA automatic transformation scenario, then touched them up
+                manually.</p>
+        </encodingDesc>
+        <standOff>
+            <taxonomy>
+                <keywords>
+                    <term/>
+                </keywords>
+            </taxonomy>
+            <!--Include keywords and terms here eventually.-->
+        </standOff>
+        <revisionDesc/>
+    </teiHeader>
+    <text>
+        <body>
+            <pb n="02:534"/>
+            <head>
+                <hi rend="italic">An Introductory Comment</hi>
+            </head>
+            <introduction>
+                <p>Wesley placed this sermon as the first item in <hi rend="italic">SOSO</hi>, VI;
+                    it sums up his views on one of his favourite themes. From 1744 through 1785 he
+                    had used this present text (Luke 12:7) no fewer than forty-five times. Finally,
+                    in March 1786, he set down his thoughts in sermon form, as if in order to supply
+                    needed material for the <hi rend="italic">Arminian Magazine</hi>. In any case,
+                    the sermon was published straightway (March and April) in Vol. IX.125-32,
+                    185-93. Its only other publication in Wesley’s lifetime was in <hi rend="italic"
+                        >SOSO</hi>, VI.3-27.</p>
+                <p>Wesley had read David Hume’s ‘insolent book on miracles’ (cf. JWJ, March 5, 1769;
+                    cf. also No. 10, ‘Of Miracles’, in <hi rend="italic">Philosophical Essays
+                        Concerning Human Understanding</hi>, 1748) and was sufficiently incensed by
+                    its stringent denials of the <hi rend="italic">miracula</hi> in general that,
+                    later, he would denounce Hume as ‘the most insolent despiser of truth and virtue
+                    that ever appeared in the world’ (JWJ, May 5, 1772). But, as this sermon will
+                    show (together with its notes on Wesley’s sources), the force of Hume’s
+                    destructive analysis, powerful as it was in later generations, never really
+                    registered on Wesley’s mind. His arguments here, and the theological substance
+                    of the sermon, are in direct line with the classical Anglican statements of the
+                    doctrine of providence (e.g., Hooker, Pearson, Ussher). Special notice, however,
+                    might well be paid to John Wilkins, <hi rend="italic">Discourse Concerning the
+                        Beauty of Providence</hi> (sixth edition 1680); there are resemblances
+                    between Wilkins and Wesley that are too obvious to be explained merely by
+                    reference to their shared tradition.</p>
+            </introduction>
+            <pb n="02:535"/>
+            <head>
+                <p>On Divine Providence</p>
+            </head>
+            <epigraph>
+                <p>Luke 12:7</p>
+                <p>
+                    <hi rend="italic">Even the very hairs of your head are all numbered.</hi>
+                </p>
+            </epigraph>
+            <p>1. The doctrine of divine providence has been received<note place="foot"
+                    xml:id="ftn1" n="1"><p rend="footnote text">Orig., <hi rend="italic">AM</hi> and
+                            <hi rend="italic">SOSO</hi>, ‘renewed’, but altered by Wesley’s MS
+                        annotations in <hi rend="italic">AM</hi>.</p></note> by wise men in all
+                ages. It was believed by many of the eminent heathens, not only philosophers, but
+                orators and poets. Innumerable are the testimonies concerning it which are scattered
+                up and down in their writings; agreeable to that well-known saying in Cicero, <hi
+                    rend="italic">deorum moderamine cuncta geri</hi>,<note place="foot"
+                    xml:id="ftn2" n="2"><p rend="footnote text">Cf. <hi rend="italic">De Natura
+                            Deorum (On the Nature of the Gods)</hi>, II.xxx. 75; see also Apuleius,
+                            <hi rend="italic">De Mundo</hi>, 30. See No. 69, ‘The Imperfection of
+                        Human Knowledge’, II.2. Wesley’s quotation is not really close to Cicero’s
+                        own text; had he picked it up as an aphorism of the schools? He repeats
+                        another version of it in <hi rend="italic">An Estimate of the Manners of the
+                            Present Times</hi>, §13, and translates it ‘the providence of God
+                        directs all things’ (cf. <hi rend="italic">Bibliog</hi>, No. 426; Vol. 15 of
+                        this edn.).</p></note> that all things, all events in the<note place="foot"
+                    xml:id="ftn3" n="3"><p rend="footnote text">Orig., <hi rend="italic">AM</hi> and
+                            <hi rend="italic">SOSO</hi>, ‘this’, altered by Wesley’s MS annotations
+                        in <hi rend="italic">AM</hi>.</p></note> world, are under the management of
+                God. We might bring a cloud of witnesses to confirm this, were any so hardy as to
+                deny it.</p>
+            <p>2. The same truth is acknowledged at this day in most parts of the world; yea, even
+                in those nations which are so barbarous as not to know the use of letters. So when
+                Paustoobee, an Indian chief of the Chickasaw nation in North America, was asked,
+                ‘Why do you think the Beloved Ones (so they term God) take care of <hi rend="italic"
+                    >you</hi>?’ he answered without any hesitation, ‘I was in the battle with the
+                French, and the bullet went on this side, and the bullet went on that side; and this
+                man died, and that man died; but I am alive still: and by this I know that the
+                Beloved Ones take care of me.’<note place="foot" xml:id="ftn4" n="4"><p
+                        rend="footnote text">This interview with Paustoobee by the Wesleys and the
+                        Moravians is reported in <hi rend="italic">Gent’s Mag.</hi>, May 1737; and
+                        also in JWJ, July 20, 1736 (with the usual discrepancies in details). Both
+                        accounts associate ‘Beloved Ones’ with ‘four beloved things above: the
+                        clouds, the sun, the clear sky, and He that lives in the clear
+                    sky’.</p></note></p>
+            <p>3. But although the ancient as well as modern heathens had some conception of a
+                divine providence, yet the conceptions which most of them entertained concerning it
+                were dark, confused, and imperfect; yea, the accounts which the most enlightened
+                among them gave were usually contradictory to each <hi rend="Page"
+                >[02:536]</hi>other. Add to this that they were by no means assured of the truth of
+                those very accounts. They hardly dared to affirm anything, but spoke with the utmost
+                caution and diffidence. Insomuch that what Cicero himself, the author of that noble
+                declaration, ventures to affirm in cool blood at the end of his long dispute upon
+                the subject, amounts to no more than this lame and impotent conclusion, <hi
+                    rend="italic">Mihi verisimilior videbatur Cottae oratio</hi>—‘what Cotta said
+                (the person that argued in the defence of the being and providence of God) <hi
+                    rend="italic">seemed</hi> to me <hi rend="italic">more probable</hi> than what
+                his opponent had advanced to the contrary.’<note place="foot" xml:id="ftn5" n="5"><p
+                        rend="footnote text">Cf. Cicero, <hi rend="italic">De Natura Deorum (Of the
+                            Nature of the Gods)</hi>, III.xl.95: ‘<hi rend="italic">Haec cum essent
+                            diaa, ita discessimus ut Velleio Cottae disputatio verier, mihi Balbi ad
+                            veritatis similitudinem videretur esse propensior</hi>’ (‘Here the
+                        conversation ended, and we parted, Velleius thinking Cotta’s discourse to be
+                        the truer, while I felt that that of Balbus approximated more nearly to a
+                        semblance of the truth’).</p></note></p>
+            <p>4. And it is no wonder. For only God himself can give a clear, consistent, perfect
+                account (that is, as perfect as our weak understanding can receive in this our
+                infant state of existence; or at least, as is consistent with the designs of his
+                government) of his manner of governing the world. And this he hath done in his
+                written Word: all the oracles of God,<note place="foot" xml:id="ftn6" n="6"><p
+                        rend="footnote text">Cf. No. 5, ‘Justification by Faith’, §2 and
+                    n.</p></note> all the Scriptures both of the Old Testament and the New describe
+                so many scenes of divine providence. It is the beautiful remark of a fine writer:
+                ‘Those who object to the Old Testament, in particular, that it is not a connected
+                history of nations, but only a congeries of broken unconnected events, do not
+                observe the nature and design of these writings. They do not see that Scripture is
+                    <hi rend="italic">the history of God</hi>.’<note place="foot" xml:id="ftn7"
+                    n="7"><p rend="footnote text">This idea, though not the phrase itself, informs
+                        the whole of Jonathan Edwards, <hi rend="italic">A History of the Work of
+                            Redemption</hi>; cf. espec. X.v.436-38. The idea was one of the premises
+                        of the ‘federal theology’ of Johann Cocceius that had influenced both
+                        Edwards and Wesley; cf. his <hi rend="italic">Summa doctrinae de Foedere et
+                            Testamento Dei</hi> (1648). See also No. 58, <hi rend="italic">On
+                            Predestination</hi>, §4.</p></note> Those who bear this upon their minds
+                will easily perceive that the inspired writers never lose sight of it, but preserve
+                one unbroken, connected chain, from the beginning to the end. All over that
+                wonderful book, as ‘life and immortality’ (immortal life) is gradually ‘brought to
+                    light’,<note place="foot" xml:id="ftn8" n="8"><p rend="footnote text">Cf. 2 Tim.
+                        1:10.</p></note> so is ‘Immanuel, God with us’,<note place="foot"
+                    xml:id="ftn9" n="9"><p rend="footnote text">Matt. 1:23; note Wesley’s use of
+                        Isaiah’s spelling of Immanuel rather than Matthew’s.</p></note> and his
+                kingdom ruling over all.</p>
+            <p>5. In the verses preceding the text our Lord has been arming his disciples against
+                the fear of man. ‘Be not afraid (says he, verse <hi rend="Page">[02:536]</hi>4) of
+                them that can kill the body, and after [that] have no more that they can do.’ He
+                guards them against this fear, first, by reminding them of what was infinitely more
+                terrible than anything which man could inflict: ‘fear him who after he hath killed
+                hath power to cast into hell.’<note place="foot" xml:id="ftn10" n="10"><p
+                        rend="footnote text">Luke 12:5.</p></note> He guards them farther against it
+                by the consideration of an overruling providence. ‘Are not five sparrows sold for
+                two farthings? And not one of them is forgotten before God.’<note place="foot"
+                    xml:id="ftn11" n="11"><p rend="footnote text">Luke 12:6.</p></note> Or, as the
+                words are repeated by St. Matthew with a very inconsiderable variation, ‘Not one of
+                them shall fall to the ground without your Father. But even the very hairs of your
+                head are all numbered.’<hi rend="endnote_reference"><note place="end"><p
+                            rend="endnote text">Matt. 10:29, 30.</p></note></hi></p>
+            <p>6. We must indeed observe that this strong expression, though repeated by both the
+                Evangelists, need not imply (though if anyone thinks it does he may think so very
+                innocently) that God does literally number all the hairs that are on the heads of
+                all his creatures. But it is a proverbial expression, implying that nothing is so
+                small or insignificant in the sight of men as not to be an object of the care and
+                providence of God, before whom nothing is small that concerns the happiness of any
+                of his creatures.</p>
+            <p>7. There is scarce any doctrine in the whole compass of revelation which is of deeper
+                importance than this. And at the same time there is scarce any that is so little
+                regarded, and perhaps so little understood. Let us endeavour, then, with the
+                assistance of God, to examine it to the bottom, to see upon what foundation it
+                stands, and what it properly implies.</p>
+            <p>8. The eternal, almighty, all-wise, all-gracious God, is the Creator of heaven and
+                earth. He called out of nothing by his all-powerful word the whole universe, all
+                that is.<note place="foot" xml:id="ftn12" n="12"><p rend="footnote text">For a very
+                        earnest argument in favour of the doctrine of the <hi rend="italic">creatio
+                            de nihilo</hi>, cf. Arthur Collier, <hi rend="italic">Clavis
+                            Universalis: Or a New Inquiry After Truth. Being a Demonstration of the
+                            Non-Existence, or Impossibility of an External World</hi> (1713);
+                        Collier was a disciple of Berkeley and a source for Wesley. See No. 15, <hi
+                            rend="italic">The Great Assize</hi>, III.3 and n.</p></note> ‘Thus the
+                heavens and the earth were created, and all the hosts of them.’<note place="foot"
+                    xml:id="ftn13" n="13"><p rend="footnote text">Cf. Gen. 2:1.</p></note> And after
+                he had set all things else in array, the plants after their kinds, fish and fowl,
+                beasts and reptiles, after their kinds, ‘he created man after his own image.’<note
+                    place="foot" xml:id="ftn14" n="14"><p rend="footnote text">Cf. Gen.
+                    1:27.</p></note> And the Lord saw that every <pb n="02:538"/>distinct part of
+                the universe was good. But when he saw everything he had made, all in connection
+                with each other, ‘behold it was very good.’<note place="foot" xml:id="ftn15" n="15"
+                        ><p rend="footnote text">Gen. 1:31.</p></note></p>
+            <p>9. And as this all-wise, all-gracious Being created all things, so he sustains all
+                things. He is the preserver as well as the creator of everything that exists. ‘He
+                upholdeth all things by the word of his power,’<note place="foot" xml:id="ftn16"
+                    n="16"><p rend="footnote text">Cf. Heb. 1:3.</p></note> that is, by his powerful
+                word. Now it must be that he knows everything he has made, and everything he
+                preserves from moment to moment. Otherwise he could not preserve it: he could not
+                continue to it the being which he has given it. And it is nothing strange that he
+                who is omnipresent, who ‘filleth heaven and earth’,<note place="foot" xml:id="ftn17"
+                    n="17"><p rend="footnote text">Cf. Jer. 23:24. See No. 118, ‘On the Omnipresence
+                        of God’.</p></note> who is in every place, should see what is in every
+                place, where he is intimately present. If the eye of man discerns things at a small
+                distance, the eye of an eagle what is at a greater, the eye of an angel what is at a
+                thousand times greater distance (perhaps taking in the surface of the earth at one
+                view) how shall not the eye of God see everything through the whole extent of
+                creation? Especially considering that nothing is distant from him, in whom we all
+                ‘live and move and have our being’.<note place="foot" xml:id="ftn18" n="18"><p
+                        rend="footnote text">Acts 17:28.</p></note></p>
+            <p>10. It is true our narrow understandings but imperfectly comprehend this. But whether
+                we comprehend it or no, we are certain that so it is. As certain as it is that he
+                created all things, and that he still sustains all that he has created, so certain
+                it is that he is present at all times, in all places; that he is above, beneath;
+                that he ‘besets us behind and before’, and as it were ‘lays his hand upon us’. We
+                allow, ‘such knowledge is too high and wonderful for us; we cannot attain unto
+                    it.’<note place="foot" xml:id="ftn19" n="19"><p rend="footnote text">Cf. Ps.
+                        139:5-6 (AV).</p></note> The manner of his presence no man can explain, nor
+                probably any angel in heaven. Perhaps what the ancient philosopher speaks of the
+                soul in regard to its residence in the body, that it is <hi rend="italic">tota in
+                    toto, et tota in qualibet parte</hi>,<note place="foot" xml:id="ftn20" n="20"><p
+                        rend="footnote text">A Latin translation of Plotinus, <hi rend="italic"
+                            >Enneads</hi>, IV.ii.1. Cf. Stephen MacKenna’s Eng. tr. (Boston, Mass.,
+                        Charles T. Branford Company, 1916), II.4: ‘[The soul] does not consist of
+                        separate sections; its divisibility lies in its presence at every point in
+                        the recipient, but it is indivisible as dwelling <hi rend="italic">entire in
+                            the total and entire in every part</hi>’ (italics added). See also Nos.
+                        69, ‘The Imperfection of Human Knowledge’, I.13; and 116, ‘What is Man? Ps.
+                        8:4’, §6.</p></note> might in some sense be spoken of the omnipresent Spirit
+                in regard to the universe—that he is not only ‘all in the whole, but all in every
+                    <pb n="02:539"/>part’. Be this as it may, it cannot be doubted but he sees every
+                atom of his creation, and that a thousand times more clearly than we see the things
+                that are close to us: even of these we see only the surface, while he sees the
+                inmost essence of everything.</p>
+            <p>11. The omnipresent God sees and knows all the properties of all the beings that he
+                hath made. He knows all the connections, dependencies, and relations, and all the
+                ways wherein one of them can affect another. In particular he sees<note place="foot"
+                    xml:id="ftn21" n="21"><p rend="footnote text"><hi rend="italic">AM</hi> and <hi
+                            rend="italic">SOSO</hi>, ‘saw’, altered only in Wesley’s MS annotations
+                        to <hi rend="italic">AM</hi>.</p></note> all the inanimate parts of the
+                creation, whether in heaven above or in the earth beneath. He knows how the stars,
+                comets, or planets above influence the inhabitants of the earth beneath; what
+                influence the lower heavens, with their magazines of fire, hail, snow, and vapours,
+                winds and storms, have on our planet. And what effects may be produced in the bowels
+                of the earth by fire, air, or water; what exhalations may be raised therefrom, and
+                what changes wrought thereby; what effects every mineral or vegetable may have upon
+                the children of men: all these lie naked and open to the eye of the Creator and
+                Preserver of the universe.</p>
+            <p>12. He knows all the animals in this lower world, whether beasts, birds, fishes,
+                reptiles, or insects. He knows all the qualities and powers he hath given them, from
+                the highest to the lowest. He knows every good angel and every evil angel in every
+                part of his dominions; and looks from heaven upon the children of men over the whole
+                face of the earth.</p>
+            <p>He knows all the hearts of the sons of men, and understands all their thoughts. He
+                sees what any angel, any devil, any man, either thinks, or speaks, or does; yea, and
+                all they feel. He sees all their sufferings, with every circumstance of them.</p>
+            <p>13. And is the Creator and Preserver of the world unconcerned for what he sees
+                therein? Does he look upon these things either with a malignant or heedless eye? Is
+                he an Epicurean god? Does he sit at ease in the heaven, without regarding the poor
+                inhabitants of earth? It cannot be. He hath made us, not we ourselves;<note
+                    place="foot" xml:id="ftn22" n="22"><p rend="footnote text">See Ps. 100:3
+                        (AV).</p></note> and he cannot despise the work of his own hands.<note
+                    place="foot" xml:id="ftn23" n="23"><p rend="footnote text">See Job
+                    10:3.</p></note> We are his children. And can a mother forget the children of
+                her womb? Yea, she may forget; yet will not God forget us.<note place="foot"
+                    xml:id="ftn24" n="24"><p rend="footnote text">See Isa. 49:15.</p></note> On the
+                contrary, he hath expressly declared that as his ‘eyes are over all <pb n="02:540"
+                />the earth’;<note place="foot" xml:id="ftn25" n="25"><p rend="footnote text">Cf.
+                        Pss. 34:15; 83:18 (BCP).</p></note> so he ‘is loving to every man, and his
+                mercy is over all his works’.<note place="foot" xml:id="ftn26" n="26"><p
+                        rend="footnote text">Ps. 145:9 (BCP).</p></note> Consequently he is
+                concerned every moment for what befalls every creature upon earth; and more
+                especially for everything that befalls any of the children of men. It is hard indeed
+                to comprehend this; nay, it is hard to believe it, considering the complicated
+                wickedness and the complicated misery which we see on every side. But believe it we
+                must unless we will make God a liar, although it is sure no man can comprehend it.
+                It behoves us then to humble ourselves before God, and to acknowledge our ignorance.
+                Indeed how can we expect that a man should be able to comprehend the ways of God?
+                Can a worm comprehend a worm? How much less can it be supposed that a man can
+                comprehend God!</p>
+            <quote>For how can finite measure Infinite?<note place="foot" xml:id="ftn27" n="27"><p
+                        rend="footnote text">Nathaniel Lee and John Dryden, <hi rend="italic"
+                            >Oedipus, A Tragedy</hi>, III.i.240: ‘But how can Finite measure
+                        Infinite?’ See also, Dryden, ‘The Hind and the Panther’ i.105: ‘But how can
+                        finite grasp Infinity?’ See also Nos. 142, ‘The Wisdom of Winning Souls’, I;
+                        and 103, ‘What is Man? Ps. 8:3-4’, I.6.</p></note></quote>
+            <p>14. He is infinite in wisdom as well as in power; and all his wisdom is continually
+                employed in managing all the affairs of his creation for the good of all his
+                creatures. For his wisdom and goodness go hand in hand; they are inseparably united,
+                and continually act in concert with almighty power for the real good of all his
+                creatures. His power, being equal to his wisdom and goodness, continually
+                co-operates with them. And to him all things are possible. He doth whatsoever
+                pleaseth him, in heaven and earth, and in the sea and all deep places. And we cannot
+                doubt of his exerting all his power, as in sustaining, so in governing all that he
+                has made.</p>
+            <p>15. Only he that can do all things else cannot deny himself; he cannot counteract
+                himself, or oppose his own work. Were it not for this he would destroy all sin, with
+                its attendant pain, in a moment. He would abolish wickedness out of his whole
+                creation, and suffer no trace of it to remain. But in so doing he would counteract
+                himself, he would altogether overturn his own work, and undo all that he has been
+                doing since he created man upon the earth. For he created man in his own image:<note
+                    place="foot" xml:id="ftn28" n="28"><p rend="footnote text">Gen. 1:27.</p></note>
+                a spirit, like himself; a spirit endued with understanding, with will, or <pb
+                    n="02:541"/>affections, and liberty—without which neither his understanding nor
+                his affections could have been of any use, neither would he have been capable either
+                of vice or virtue. He could not be a moral agent, any more than a tree or a stone.
+                If therefore God were thus to exert his power there would certainly be no more vice;
+                but it is equally certain, neither could there be any virtue in the world. Were
+                human liberty taken away men would be as incapable of virtue as stones.<note
+                    place="foot" xml:id="ftn29" n="29"><p rend="footnote text">One of Wesley’s
+                        unvarying theses; of. No. 60, ‘The General Deliverance’, I.4 and
+                    n.</p></note> Therefore (with reverence be it spoken) the Almighty himself
+                cannot do this thing. He cannot thus contradict himself, or undo what he has done.
+                He cannot destroy out of the soul of man that image of himself wherein he made him.
+                And without doing this he cannot abolish sin and pain out of the world. But were it
+                to be done it would imply no wisdom at all, but barely a stroke of omnipotence.
+                Whereas all the manifold wisdom of God (as well as all his power and goodness) is
+                displayed in governing man as man; not as a stock or a stone, but as an intelligent
+                and free spirit, capable of choosing either good or evil. Herein appears the depth
+                of the wisdom of God in his adorable providence! In governing men so as not to
+                destroy either their understanding, will, or liberty! He commands all things both in
+                heaven and earth to assist man in attaining the end of his being, in working out his
+                own salvation—so far as it can be done without compulsion, without overruling his
+                liberty. An attentive inquirer may easily discern, the whole frame of divine
+                providence is so constituted as to afford man every possible help, in order to his
+                doing good and eschewing evil, which can be done without turning man into a machine;
+                without making him incapable of virtue or vice, reward or punishment.</p>
+            <p>16. Meantime it has been remarked by a pious writer<note place="foot" xml:id="ftn30"
+                    n="30"><p rend="footnote text">Cf. Thomas Crane,
+                        <hi rend="italic" xml:space="preserve">Isagoge ad Dei Providentiam, Or a Prospect of Divine Providence </hi>(1672),
+                        Observation XXIV.i.271-72: ‘(1) There is the outermost circle of common or
+                        general providence: here all men…may be placed (Matt. 5:45; Acts 14:17); (2)
+                        There is an intermediate circle of special or limited providence, which
+                        respects members in common of the visible Church. Unto the Jews were
+                        committed the oracles of God (Rom. 3:2); they are called the children of the
+                        kingdom, inasmuch as God honoured them with his worship and ordinances
+                        (Matt. 8:12); (3) There is the inmost circle of peculiar and singular
+                        providence. In this circle are the elect of God, and called of him in Christ
+                        Jesus. The former [is] of larger circumference that this latter (Matt.
+                        22:14)…. Quarrel not with God because all are not within the inmost circle
+                        of providence….’</p><p rend="footnote text">Wesley extracted this for the
+                            <hi rend="italic">Christian Lib.</hi>, XXXVIII.184-86 (Observation
+                        XIII). The idea is repeated in No. 77, ‘Spiritual Worship’, I.9. But see
+                        also Stephen Charnock,
+                        <hi rend="italic" xml:space="preserve">Works </hi>(1684), I.696, where God’s
+                        dominion is spoken of as ‘threefold’: (1) over all creatures; (2) over the
+                        church as in the Covenant of Grace; (3) over the blessed and, negatively,
+                        the damned.</p></note> that there is (as he expresses it) a threefold circle
+                of divine providence <pb n="02:542"/>over and above that which presides over the
+                whole universe. We do not now speak of that overruling hand which governs the
+                inanimate creation; which sustains the sun, moon, and stars in their stations, and
+                guides their motions; we do not refer to his care of the animal creation, every part
+                of which we know is under his government who ‘giveth food unto the cattle, and
+                feedeth the young ravens that call upon him’<note place="foot" xml:id="ftn31" n="31"
+                        ><p rend="footnote text">Cf. Ps. 147:9 (BCP).</p></note>—but we here speak
+                of that superintending providence which regards the children of men. Each of these
+                is easily distinguished from the others by those who accurately observe the ways of
+                God. The outermost circle includes the whole race of mankind, all the descendants of
+                Adam, all the human creatures that are dispersed over the face of the earth. This
+                comprises not only the Christian world, those that name the name of Christ,<note
+                    place="foot" xml:id="ftn32" n="32"><p rend="footnote text">See 2 Tim. 2:19.
+                        Wesley is relying on the demography of Edward Brerewood; see No. 63, ‘The
+                        General Spread of the Gospel’, §1 and n.</p></note> but the Mahometans also,
+                who considerably outnumber even the nominal Christians; yea, and the heathens
+                likewise, who very far outnumber the Mahometans and Christians put together. ‘Is he
+                the God of the Jews’, says the Apostle, ‘and not of the Gentiles also?’<note
+                    place="foot" xml:id="ftn33" n="33"><p rend="footnote text">Cf. Rom.
+                    3:29.</p></note> And so we may say, Is he the God of the Christians, and not of
+                the Mahometans and heathens also? Yea, doubtless of the Mahometans and heathens
+                also. His love is not confined: ‘The Lord is loving unto every man, and his mercy is
+                over all his works.’<note place="foot" xml:id="ftn34" n="34"><p rend="footnote text"
+                        >Ps. 145:9 (BCP).</p></note> He careth for the very outcasts of men: it may
+                truly be said,</p>
+            <lg>
+                <l>Free as the air thy bounty streams</l>
+                <l>O’er all thy works: thy mercies’ beams</l>
+                <l>Diffusive as thy sun’s arise.</l>
+                <note place="foot" xml:id="ftn35" n="35">
+                    <p rend="footnote text">John and Charles Wesley, <hi rend="italic">Hymns and
+                            Sacred Poems</hi> (1739), p. 160, a translation (almost certainly by
+                        John Wesley) from the German of J. A. Scheffler:</p>
+                    <lg>
+                        <l>Yet free as air thy bounty streams</l>
+                        <l>On all thy works; thy mercy’s beams,</l>
+                        <l>Diffusive as thy sun’s, arise.</l>
+                    </lg>
+                    <p rend="footnote text">(Cf. <hi rend="italic">Poet. Wks.</hi>, I.142.) </p>
+                </note>
+            </lg>
+            <p n="17">17. Yet it may be admitted that he takes more immediate care of those that are
+                comprised in the second, the smaller circle, which <pb m="02:543"/>includes all that
+                are called Christians, all that profess to believe in Christ. We may reasonably
+                think that these in some degree honour him, at least more than the heathens do. God
+                does likewise in some measure honour them, and has a nearer concern for them. By
+                many instances it appears that the prince of this world has not so full power over
+                these as over the heathens. The God whom they even profess to serve does in some
+                measure maintain his own cause. So that the spirits of darkness do not reign so
+                uncontrolled over them as they do over the heathen world.</p>
+            <p>18. Within the third, the innermost circle, are contained only the real Christians,
+                those that worship God, not in form only, but in spirit and in truth.<note
+                    place="foot" xml:id="ftn36" n="36"><p rend="footnote text">John
+                    4:23-24.</p></note> Herein are comprised all that love God, or at least truly
+                fear God and work righteousness,<note place="foot" xml:id="ftn37" n="37"><p
+                        rend="footnote text">See Acts 10:35.</p></note> all in whom is the mind
+                which was in Christ,<note place="foot" xml:id="ftn38" n="38"><p rend="footnote text"
+                        >See Phil. 2:5.</p></note> and who walk as Christ also walked.<note
+                    place="foot" xml:id="ftn39" n="39"><p rend="footnote text">See 1 John
+                    2:6.</p></note> The words of our Lord above recited peculiarly refer to these.
+                It is to these in particular that he says, ‘Even the very hairs of your head are all
+                numbered.’ He sees their souls and their bodies: he takes particular notice of all
+                their tempers, desires, and thoughts, all their words and actions. He marks all
+                their sufferings, inward and outward, and the source whence they arise; so that we
+                may well say,</p>
+            <lg>
+                <l>Thou know’st the pains thy servants feel,</l>
+                <l>Thou hear’st thy children’s cry;</l>
+                <l>And their best wishes to fulfil,</l>
+                <l>Thy grace is ever nigh.</l>
+                <note place="foot" xml:id="ftn40" n="40">
+                    <p rend="footnote text">Cf. Watts, <hi rend="italic">The Psalms of David</hi>,
+                        Ps. 145:14, 17, etc., Pt. 3, st. 4. See also <hi rend="italic">A Collection
+                            of Psalms and Hymns</hi> (London, 1741) p. 88.</p>
+                </note>
+            </lg>
+            <p>Nothing relative to these is too great, nothing too little, for his attention. He has
+                his eye continually, as upon every individual person that is a member of this his
+                family, so upon every circumstance that relates either to their souls or bodies,
+                either to their inward or outward state, wherein either their present or eternal
+                happiness is in any degree concerned.</p>
+            <p>19. But what say the wise men of the world to this? They answer with all readiness,
+                ‘Who doubts of this? We are not <hi rend="Page">[02:544]</hi>atheists. We all
+                acknowledge a providence. That is, a general providence, for indeed the particular
+                providence of which some talk, we know not what to make of.<note place="foot"
+                    xml:id="ftn41" n="41"><p rend="footnote text"><hi rend="italic">AM</hi>, orig.,
+                        ‘of it’, altered in Wesley’s MS annotation.</p></note> Surely the little
+                affairs of men are far beneath the regard of the great Creator and Governor of the
+                universe! Accordingly,</p>
+            <lg>
+                <l>He sees with equal eyes, as Lord of all,</l>
+                <l>A hero perish, or a sparrow fall.’</l>
+                <note place="foot" xml:id="ftn42" n="42">
+                    <p rend="footnote text">Pope, <hi rend="italic">Essay on Man</hi>, i.87-88. See
+                        No. 60, ‘The General Deliverance’, III.5 and n.</p>
+                </note>
+            </lg>
+            <p>Does he indeed? I cannot think it; because (whatever that fine poet did, or his
+                patron, whom he so deeply despised and yet grossly flattered)<note place="foot"
+                    xml:id="ftn43" n="43"><p rend="footnote text">Most probably Addison, whose
+                        favour greatly aided Pope’s early rise to fame. In turn, Pope’s praise of
+                        Addison’s <hi rend="italic">Cato</hi> was enthusiastic (at first); their
+                        friendship later foundered; cf. Leslie Stephen’s account of this in <hi
+                            rend="italic">DNB</hi>.</p></note> I believe the Bible; wherein the
+                Creator and Governor of the world himself tells me quite the contrary. That he has a
+                tender regard for the brute creatures I know: he does in a measure ‘take care for
+                    oxen’;<note place="foot" xml:id="ftn44" n="44"><p rend="footnote text">1 Cor.
+                        9:9.</p></note> ‘he provideth food for the cattle,’<note place="foot"
+                    xml:id="ftn45" n="45"><p rend="footnote text">Cf. Ps. 147:9 (BCP).</p></note> as
+                well as ‘herbs for the use of men’.<note place="foot" xml:id="ftn46" n="46"><p
+                        rend="footnote text">Cf. Ps. 147:8 (BCP).</p></note> ‘The lions roaring
+                after their prey do seek their meat from God.’<note place="foot" xml:id="ftn47"
+                    n="47"><p rend="footnote text">Ps. 104:21 (BCP).</p></note> ‘He openeth his hand
+                and filleth all things living with plenteousness.’<note place="foot" xml:id="ftn48"
+                    n="48"><p rend="footnote text">Cf. Ps. 145:16 (BCP).</p></note></p>
+            <lg>
+                <l>The various troops of sea and land</l>
+                <l>In sense of common want agree:</l>
+                <l>All wait on thy dispensing hand,</l>
+                <l>And have their daily alms from thee.</l>
+                <l>They gather what thy stores disperse,</l>
+                <l>Without their trouble to provide.</l>
+                <l>Thou op’st thy hand: the universe,</l>
+                <l>The craving world is all supplied.</l>
+                <note place="foot" xml:id="ftn49" n="49">
+                    <p rend="footnote text">Wesley implies in §20 that this is by ‘the same elegant
+                        poet’ as the quotation there, namely Pope. This is not the case; the source
+                        remains unidentified.</p>
+                </note>
+            </lg>
+            <p>Our heavenly Father ‘feedeth the fowls of the air’.<note place="foot" xml:id="ftn50"
+                    n="50"><p rend="footnote text">Cf. Matt. 6:26.</p></note> But mark! ‘Are not ye
+                much better than they? Shall he not then much more feed you,’<note place="foot"
+                    xml:id="ftn51" n="51"><p rend="footnote text">Matt. 6:26, 30.</p></note> who are
+                pre-eminent by so much odds?<note place="foot" xml:id="ftn52" n="52"><p
+                        rend="footnote text">Orig., <hi rend="italic">AM</hi> (1786), IX.188, ‘who
+                        are pre-eminently so much odds’; the text here is Wesley’s alteration in his
+                        own annotated copy, found also in <hi rend="italic">Sermons</hi> (1788).
+                        Neither is altogether clear. It is possible that Wesley’s MS may have read,
+                        ‘who are pre-eminently so much [at] odds’—i.e., who are so very different?
+                        This would conform to a familiar current usage of ‘at odds’; cf. <hi
+                            rend="italic">OED</hi>.</p></note> He does not <hi rend="Page"
+                    >[02:545]</hi>in that sense look upon <hi rend="italic">you</hi> and <hi
+                    rend="italic">them</hi> ‘with equal eyes’, set you on a level with <hi
+                    rend="italic">them</hi>. Least of all does he set you on a level with brutes in
+                respect of life and death. ‘Right precious in the sight of the Lord is the death of
+                his saints.’<note place="foot" xml:id="ftn53" n="53"><p rend="footnote text">Ps.
+                        116:13 (BCP); and Ps. 116:15 (AV); a conflation.</p></note> Do you really
+                think the death of a sparrow is equally precious in his sight? He tells us, indeed,
+                that ‘not a sparrow falleth on the ground without your Father.’<note place="foot"
+                    xml:id="ftn54" n="54"><p rend="footnote text">Cf. Matt. 10:29.</p></note> But he
+                asks at the same time, ‘Are ye not of more value than many sparrows?’<note
+                    place="foot" xml:id="ftn55" n="55"><p rend="footnote text">Cf. Matt.
+                    10:31.</p></note></p>
+            <p>20. But in support of a general in contradistinction<note place="foot" xml:id="ftn56"
+                    n="56"><p rend="footnote text">Orig., <hi rend="italic">AM</hi> and <hi
+                            rend="italic">SOSO</hi>, ‘contradiction’, altered in Wesley’s MS
+                        annotations to <hi rend="italic">AM</hi>.</p></note> to a particular
+                providence the same elegant poet lays it down as an unquestionable maxim,</p>
+            <lg><l>the Universal Cause</l>
+                <l>Acts not by partial, but by general laws</l>—<note place="foot" xml:id="ftn57"
+                    n="57"><p rend="footnote text">Pope, <hi rend="italic">Essay on Man</hi>, iv.
+                        35-36. Cf. Wesley,
+                        <hi rend="italic" xml:space="preserve">A Collection of Moral and Sacred Poems </hi>(1744),
+                        I.336, where he adds a footnote to the couplet: ‘God governs by <hi
+                            rend="italic">general</hi>, not <hi rend="italic">particular</hi>, laws;
+                        intends happiness to be <hi rend="italic">equal</hi>, and to be so it must
+                        be <hi rend="italic">social</hi>, since all particular happiness depends on
+                        general.’ Cf. also below, §29.</p></note></lg>
+            <p>plainly meaning that he never deviates from those general laws in favour of any
+                particular person. This is a common supposition, but which is altogether
+                inconsistent with the whole tenor of Scripture. For if God never deviates from these
+                general laws then there never was a miracle in the world, seeing every miracle is a
+                deviation from the general laws of nature. Did the Almighty confine himself to these
+                general laws when he divided the Red Sea?<note place="foot" xml:id="ftn58" n="58"><p
+                        rend="footnote text">Cf. Exod. 14:21.</p></note> When he commanded the
+                waters to stand on a heap,<note place="foot" xml:id="ftn59" n="59"><p
+                        rend="footnote text">See Ps. 78:14 (BCP).</p></note> and make a way for his
+                redeemed to pass over? Did he act by general laws when he caused the sun to stand
+                still for the space of a whole day?<note place="foot" xml:id="ftn60" n="60"><p
+                        rend="footnote text">Cf. Josh. 10:12-13.</p></note> No, nor in any of the
+                miracles which are recorded either in the Old or New Testament.</p>
+            <p>21. But it is on supposition that the Governor of the world never deviates from those
+                general laws that Mr. Pope adds those beautiful lines in full triumph, as having now
+                clearly gained the point:</p>
+            <lg>
+                <l><pb n="02:546"/>Shall burning Etna, if a sage requires,</l>
+                <l>Forget to thunder and recall her fires?</l>
+                <l>On air or sea new motions be impressed,</l>
+                <l>O blameless Bethel! to relieve thy breast?</l>
+                <l>When the loose mountain trembles from on high,</l>
+                <l>Shall gravitation cease, if you go by?</l>
+                <l>Or some old temple, nodding to its fall,</l>
+                <l>For Chartres’ head reserve the hanging wall?</l>
+                <note place="foot" xml:id="ftn61" n="61">
+                    <p rend="footnote text">Pope, <hi rend="italic">Essay on Man</hi>, iv.123-30.
+                        Cf. Wesley’s extract in his <hi rend="italic">Collection of Moral and Sacred
+                            Poems</hi> (1744), I.338, from which this particular passage is
+                        omitted.</p>
+                </note>
+            </lg>
+            <p>We answer: if it please God to continue the life of any of his servants he will
+                suspend that or any other law of nature. The stone shall not fall, the fire shall
+                not burn, the floods shall not flow. Or he will give his angels charge, and in their
+                hands shall they bear him up,<note place="foot" xml:id="ftn62" n="62"><p
+                        rend="footnote text">See Ps. 91:11-12; Matt. 4:6; Luke 4:10-11.</p></note>
+                through and above all dangers.</p>
+            <p>22. Admitting then that in the common course of nature God does act by general laws,
+                he has never precluded himself from making exceptions to them whensoever he pleases;
+                either by suspending that law in favour of those that love him, or by employing his
+                mighty angels: by either of which means he can deliver out of all danger them that
+                trust in him.</p>
+            <p>‘What! You expect miracles, then!’ Certainly I do, if I believe the Bible. For the
+                Bible teaches me that God hears and answers prayer. But every answer to prayer is
+                properly a miracle. For if natural causes take their course, if things go on in
+                their natural way, it is no answer at all. Gravitation therefore shall cease, that
+                is, cease to operate, whenever the Author of it pleases. Cannot the men of the world
+                understand these things? That is no wonder: it was observed long ago, ‘An unwise man
+                doth not consider this, and a fool doth not understand it.’<note place="foot"
+                    xml:id="ftn63" n="63"><p rend="footnote text">Ps. 92:6 (BCP).</p></note></p>
+            <p>23. But I have not done with this same <hi rend="italic">general providence</hi> yet.
+                By the grace of God I will sift it to the bottom. And I hope to show it is such
+                stark, staring nonsense as every man of sense ought to be utterly ashamed of.</p>
+            <p>You say, ‘You allow a <hi rend="italic">general</hi> providence, but deny
+                    a<hi rend="italic" xml:space="preserve"> particular </hi>one.’<note place="foot"
+                    xml:id="ftn64" n="64"><p rend="footnote text">Cf. No. 37, ‘The Nature of
+                        Enthusiasm’, §28, where Wesley also discusses ‘general’ and ‘particular’
+                        providence; and No. 23, ‘Sermon on the Mount, III’, III.5 (for a summary of
+                        Wesley’s doctrine of special providence); see also No. 41, <hi rend="italic"
+                            >Wandering Thoughts</hi>, III.1; <hi rend="italic">An Estimate of the
+                            Manners of the Present Times</hi>, §13. Cf. Thomas Crane, <hi
+                            rend="italic">op. cit.</hi>, in §16 above, as well as Bishop John
+                        Wilkins’s Sermon on Eccles. 3:11, <hi rend="italic">Discourse Concerning the
+                            Beauty of Providence</hi>.</p></note> And what is a general (of whatever
+                kind it be) that includes <pb n="02:547"/>no particulars? Is not every general
+                necessarily made up of its several particulars? Can you instance in any general that
+                is not? Tell me any genus, if you can, that contains no species. What is it that
+                constitutes a genus but so many species added together?<note place="foot"
+                    xml:id="ftn65" n="65"><p rend="footnote text">Cf. the definitions of ‘genus’ and
+                        ‘species’ in Wesley’s <hi rend="italic">Compendium of Logic</hi> (1750), ch.
+                        1, sect. v. (<hi rend="italic">Bibliog</hi>, No. 186; Vol. 15 of this
+                        edn.).</p></note> What, I pray, is a ‘whole that contains no parts’? Mere
+                nonsense and contradiction! Every whole must in the nature of things be made up of
+                its several parts; insomuch that if there be no parts there can be no whole.</p>
+            <p>24. As this is a point of the utmost importance we may consider it a little farther.
+                What do you mean by a general providence contradistinguished from a particular? Do
+                you mean a providence which superintends only the larger parts of the universe?
+                Suppose the sun, moon, and stars. Does it not regard the earth too? You allow it
+                does. But does it not likewise regard the inhabitants of it? Else what doth the
+                earth, an inanimate lump of matter, signify? Is not one spirit, one heir of
+                immortality, of more value than all the earth? Yea, though you add to it<note
+                    place="foot" xml:id="ftn66" n="66"><p rend="footnote text"><hi rend="italic"
+                            >AM,</hi> orig., ‘you add these to’, and his MS annotation ‘you add to
+                        these’, finally altered in <hi rend="italic">SOSO</hi>.</p></note> the sun,
+                moon, and stars? Nay, and the whole inanimate creation? Might we not say, ‘These
+                shall perish, but this remaineth; these all shall wax old as doth a garment;’ but
+                this (it may be said in a lower sense even of the creature) ‘is the same, and his
+                years shall not fail’.<note place="foot" xml:id="ftn67" n="67"><p
+                        rend="footnote text">Cf. Heb. 1:11-12, quoting Ps. 102:26-27.</p></note></p>
+            <p>25. Or do you mean when you assert a general providence distinct from a particular
+                one that God regards only some parts of the world, and does not regard others? What
+                parts of it does he regard? Those without, or those within, the solar system? Or
+                does he regard some parts of the earth and not others? Which parts? Only those
+                within the temperate zones? What parts then are under the care of his providence?
+                Where will you lay the line? Do you exclude from it those that live in the torrid
+                zone? Or those that dwell within the Arctic Circles? Nay, rather say, ‘The Lord is
+                loving to every man,’ and his care is ‘over all his works’.<note place="foot"
+                    xml:id="ftn68" n="68"><p rend="footnote text">Cf. Ps. 145:9
+                (BCP).</p></note></p>
+            <p>26. Do you mean (for we would fain find out your meaning, if you have any meaning at
+                all) that the providence of God does indeed extend to all parts of the earth with
+                regard to great and singular events, such as the rise and fall of empires; but that
+                the <pb n="02:548"/>little concerns of this or that man are beneath the notice of
+                the Almighty? Then you do not consider that ‘great’ and ‘little’ are merely relative
+                terms, which have place only with respect to men? With regard to the Most High, man
+                and all the concerns of men are nothing, less than nothing before him. And nothing
+                is ‘small’ in his sight that in any degree affects<note place="foot" xml:id="ftn69"
+                    n="69"><p rend="footnote text">Orig., <hi rend="italic">AM</hi>, ‘And nothing is
+                        “small” in his sight, not in any degree affects’, to which in his MS
+                        annotations he added ‘which’ before ‘affects’. The orig. text was altered in
+                            <hi rend="italic">SOSO</hi>, however, by changing ‘not’ to
+                        ‘that’—probably a closer approximation to the misread orig. MS.</p></note>
+                the welfare of any that fear God and work righteousness.<note place="foot"
+                    xml:id="ftn70" n="70"><p rend="footnote text">See Acts 10:35.</p></note> What
+                becomes then of your general providence, exclusive of a particular? Let it be for
+                ever rejected by all rational men as absurd, self-contradictory nonsense. We may
+                then sum up the whole scriptural doctrine of providence in that fine saying of St.
+                Austin, <hi rend="italic">Ita praesides singulis sicut universis, et universis sicut
+                    singulis</hi>!<note place="foot" xml:id="ftn71" n="71"><p rend="footnote text"
+                        >Cf. Augustine, <hi rend="italic">Confessions</hi>, III.xi; see No. 37, ‘The
+                        Nature of Enthusiasm’, n. 45.</p></note></p>
+            <lg>
+                <l>Father, how wide thy glories shine!</l>
+                <l>Lord of the universe—and mine.</l>
+                <l>Thy goodness watches o’er the whole,</l>
+                <l>As all the world were but one soul;</l>
+                <l>Yet keeps my every sacred hair,</l>
+                <l>As I remained thy single care.</l>
+                <note place="foot" xml:id="ftn72" n="72">
+                    <p rend="footnote text">Charles Wesley, <hi rend="italic">Scripture Hymns</hi>
+                        (1762), II.158; see No. 54, ‘On Eternity’, §20 and n.</p>
+                </note>
+            </lg>
+            <p>27. We may learn from this short view of the providence of God, first, to put our
+                whole trust in him who hath never failed them that seek him. Our blessed Lord
+                himself makes this very use of the great truth now before us. ‘Fear not,
+                    therefore’<note place="foot" xml:id="ftn73" n="73"><p rend="footnote text">Luke
+                        12:7.</p></note>—if you truly fear God you need fear none beside. He will be
+                a strong tower to all that trust in him, from the face of your enemies. What is
+                there either in heaven or in earth that can harm you while you are under the care of
+                the Creator and Governor of heaven and earth? Let all earth and all hell combine
+                against you—yea, the whole animate and inanimate creation—they cannot harm while God
+                is on your side; his favourable kindness covers you ‘as a shield’!<note place="foot"
+                    xml:id="ftn74" n="74"><p rend="footnote text">Ps. 5:12 (AV); 5:13
+                    (BCP).</p></note></p>
+            <p>28. Nearly allied to this confidence in God is the thankfulness we owe for his kind
+                protection. Let those give thanks whom the Lord thus delivers from the hand of all
+                their enemies. What an <hi rend="Page">[02:549]</hi>unspeakable blessing it is to be
+                the peculiar care of him that has all power in heaven and earth! How can we
+                sufficiently praise him while we are under his wings, and ‘his faithfulness and
+                truth are our shield and buckler’!<note place="foot" xml:id="ftn75" n="75"><p
+                        rend="footnote text">Cf. Ps. 91:4 (BCP).</p></note></p>
+            <p>29. But meantime we should take the utmost care to walk humbly and closely with our
+                    God.<note place="foot" xml:id="ftn76" n="76"><p rend="footnote text">See Mic.
+                        6:8.</p></note> Walk humbly: for if you in any wise rob God of his honour,
+                if you ascribe anything to yourself, the things which should have been for your
+                wealth will prove to you ‘an occasion of falling’.<note place="foot" xml:id="ftn77"
+                    n="77"><p rend="footnote text">Ps. 69:23 (BCP).</p></note> And walk closely! See
+                that you have ‘a conscience void of offence toward God and toward man’.<note
+                    place="foot" xml:id="ftn78" n="78"><p rend="footnote text">Acts
+                    24:26.</p></note> It is so long as you do this that you are the peculiar care of
+                your Father which is in heaven. But let not the consciousness of his caring for you
+                make you careless, indolent, or slothful: on the contrary, while you are penetrated
+                with that deep truth, ‘the help that is done upon earth, he doth it himself,’<note
+                    place="foot" xml:id="ftn79" n="79"><p rend="footnote text">Ps. 74:13 (BCP). Cf.
+                        No. 71, ‘Of Good Angels’, II.9.</p></note> be as earnest and diligent in the
+                use of all the means as if you were your own protector.</p>
+            <p>Lastly, in what a melancholy condition are those who do not believe there is any
+                providence; or, which comes to exactly the same point, not a particular one!
+                Whatever station they are in, as long as they are in the world they are exposed to
+                numberless dangers which no human wisdom can foresee, and no human power can resist.
+                And there is no help! If they trust in men they find them ‘deceitful upon the
+                    weights’.<note place="foot" xml:id="ftn80" n="80"><p rend="footnote text">Ps.
+                        62:9 (BCP).</p></note> In many cases they cannot help; in others they will
+                not. But were they ever so willing, they will die: therefore vain is the help of
+                man. And God is far above, out of their sight: they expect no help from him. These
+                modern (as well as the ancient) Epicureans have learnt that</p>
+            <lg>
+                <l>the Universal Cause</l>
+                <l>Acts not by partial, but by general laws.</l>
+                <note place="foot" xml:id="ftn81" n="81">
+                    <p rend="footnote text">Pope, <hi rend="italic">Essay on Man</hi>, iv.35-36; cf.
+                        §20, above.</p>
+                </note>
+            </lg>
+            <p>He only takes care of the great globe itself, not of its puny inhabitants. He heeds
+                not how those</p>
+            <lg>
+                <l>vagrant emmets crawl</l>
+                <l>At random on the air-suspended ball.</l>
+                <note place="foot" xml:id="ftn82" n="82">
+                    <p rend="footnote text">‘Emmets’—i.e., ants; see Young, <hi rend="italic">The
+                            Last Day</hi>, ii.219-20. This had been included in Wesley, <hi
+                            rend="italic">A Collection of Moral and Sacred Poems</hi> (1744),
+                        II.80.</p>
+                </note>
+            </lg>
+            <p><pb n="02:550"/>How uncomfortable is the situation of that man who has no farther
+                hope than this! But on the other hand, how unspeakably ‘happy’ is the man ‘that hath
+                the Lord for his help, and whose hope is in the Lord his God’!<note place="foot"
+                    xml:id="ftn83" n="83"><p rend="footnote text">Cf. Ps. 146:5 (AV).</p></note> Who
+                can say, ‘I have set the Lord always before me: because he is on my right hand I
+                shall not be moved.’<note place="foot" xml:id="ftn84" n="84"><p rend="footnote text"
+                        >Cf. Ps. 16:8 (AV).</p></note> Therefore, ‘though I walk through the valley
+                of the shadow of death, I will fear no evil; for thou art with me; thy rod and thy
+                staff, they comfort me.’<note place="foot" xml:id="ftn85" n="85"><p
+                        rend="footnote text">Ps. 23:4 (AV).</p></note></p>
+            <p>Bristol, March 3, 1786<note place="foot" xml:id="ftn86" n="86"><p
+                        rend="footnote text">Omitted from <hi rend="italic">SOSO</hi>,
+                    VI.</p></note></p>
+        </body>
+    </text>
+</TEI>

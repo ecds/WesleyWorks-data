@@ -1,0 +1,398 @@
+<?xml version="1.0" encoding="UTF-8"?> <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Wesley’s Preface to Sermons on Several Occasions, Volumes V-VIII</title>
+                <author>Wesley, John</author>
+                <editor role="text">Van Buskirk, Gregory P.</editor>
+                <editor role="digital">Taylor, Michelle M.</editor>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>The Wesley Works Digitzation Project</publisher>
+                <pubPlace>Tampa, FL</pubPlace>
+                <date>2024-02-29</date>
+            </publicationStmt>
+            <sourceDesc>
+                <listBibl>
+                    <biblStruct>
+                        <analytic>
+                            <title level="a">Wesley’s Preface to Sermons on Several Occasions, Volumes V-VIII</title>
+                        </analytic>
+                        <monogr>
+                            <title level="j">The Works of John Wesley, Volume II: Sermons II,
+                                34-70</title>
+                            <editor role="volume">Outler, Albert</editor>
+                            <imprint>
+                                <publisher>Abingdon Press</publisher>
+                                <pubPlace>Nashville, TN</pubPlace>
+                                <date when="1985-11-01">1985-11-01</date>
+                                <biblScope unit="volume" n="2"/>
+                                <biblScope unit="page" from="349" to="357"/>
+                            </imprint>
+                        </monogr>
+                        <series>
+                            <title level="s">The Works of John Wesley</title>
+                            <editor role="general">Baker, Frank</editor>
+                        </series>
+                    </biblStruct>
+                </listBibl>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Greg Van Buskirk created Word docs for all of Wesley's sermons using a combination of
+                OCR software and manual proofing. Michelle Taylor converted these docx into XML
+                using Oxygen's DITA automatic transformation scenario, then touched them up
+                manually.</p>
+        </encodingDesc>
+        <standOff>
+            <taxonomy>
+                <keywords>
+                    <term/>
+                </keywords>
+            </taxonomy>
+            <!--Include keywords and terms here eventually.-->
+        </standOff>
+        <revisionDesc/>
+    </teiHeader>
+<text>
+        <body>
+            <pb n="02:349"/>
+            <introduction>
+                <head><hi rend="italic">An Editorial Comment on</hi> Sermons on Several Occasions, Volumes V-VIII</head>
+            <p>We turn now to a much later collection of Wesley’s sermons, that mirrors his mind and
+                ministry in its last two decades. In the <hi rend="italic">Works</hi> of 1771-74, he
+                had included fifty-three ‘Sermons on Several Occasions’ in the first four volumes
+                (1771). In a prefatory note ‘To the Reader’ he had explained that in that edition
+                (and one thinks especially of the sermons):</p>
+            <quote>There is scarce any subject of importance, either in practical or
+                controversial divinity, which is not treated of, more or less, either professedly or
+                occasionally.... So that in this edition, I present…my last and maturest thoughts,
+                agreeable, I hope, to Scripture, reason, and Christian antiquity.<note place="foot"
+                    xml:id="ftn1" n="1"><p rend="footnote text">§§2, 4.</p></note></quote>
+            <p>This suggests an assumption on his part that in <hi rend="italic">SOSO</hi>, I-IV, he
+                had rounded off his theological task, in so far as written sermons could have done
+                that.</p>
+            <p>Actually, of course, two more tumultuous and fruitful decades lay ahead for him; to
+                his amazement, the Revival continued on from strength to strength. But this could
+                only have the effect of raising old problems in new contexts. His health and vigour
+                held up remarkably,<note place="foot" xml:id="ftn2" n="2"><p rend="footnote text"
+                        >Cf. the birthday entries in JWJ, June 28, 1774 and 1788.</p></note> and so
+                he went on, travelling, preaching, publishing—and arguing with the Calvinists. In
+                the first decade (1771-81), he published eight ‘new’ sermons; but then in the second
+                decade (1781-91) came an unexpected bumper crop of written sermons that exceeded the
+                whole of <hi rend="italic">SOSO</hi>, I-IV, both in number and also in range of
+                topics. It was as if he were building on the soteriological foundations securely
+                laid so that, reacting to the mounting challenges from the Calvinists, he felt free
+                to undertake a new sort of ‘instruction in the faith’ for second and third
+                generation Methodists. It was a new kind of Christian paranesis for men and women
+                who, though firmly grounded in their ‘Christian assurance’, were baffled by the new
+                challenges to Christian belief and ethics thrown up by the drastic changes in the
+                intellectual and cultural climate in Britain in the final quarter of the
+                century.</p>
+            <p><pb n="02:350"/>In response, and as a fresh new resource for the
+                Methodists, Wesley had launched a serial publication, entitled <hi rend="italic">The
+                    Arminian Magazine</hi> (1778-). Its axial theme was defined by its sub-title:
+                    <hi rend="italic">Extracts and Original Treatises on Universal Redemption</hi>.
+                Its monthly instalments were collected into annual volumes, with a comprehensive
+                table of ‘Contents’. Its obvious design was to furnish extra help to the Methodists
+                in their unending struggles ‘with the patrons of <hi rend="italic">particular
+                    redemption</hi>’.<note place="foot" xml:id="ftn3" n="3"><p rend="footnote text"
+                        >‘To the Reader’, 1778, §4.</p></note> It can rightly be seen as Wesley
+                continuing his role as their theological tutor in yet another guise:</p>
+            <quote>Each number will therefore consist of four parts. First, a defence of
+                that grand Christian doctrine, ‘God willeth all men to be saved, and to come to the
+                knowledge of the truth.’ Secondly, an extract from the life of some holy man,
+                whether Lutheran, Church of England man, Calvinist, or Arminian. Thirdly, accounts
+                and letters containing the experience of pious persons, the greatest part of whom
+                are still alive. And, fourthly, verses explaining or confirming the capital
+                doctrines we have in view.<note place="foot" xml:id="ftn4" n="4"><p
+                        rend="footnote text"><hi rend="italic">Ibid.</hi>, §7.</p></note></quote>
+            <p>To begin with, be it noted, there were to be no ‘original sermons’. Soon, however, he
+                was persuaded to alter this format, and to add new sermons of his own. In this way
+                he found a new ‘pulpit’ in the <hi rend="italic">Magazine</hi>. His explanation of
+                this development is given in the ‘Preface’ to Vol. IV (1781):</p>
+            <quote>Several of my friends have been frequently importuning me to write a few
+                more sermons. I thought indeed I might now have been fairly excused, and have
+                remitted that work to my younger brethren. But as they are not satisfied with this,
+                I submit to their well-meant importunity, and design to write, with God’s
+                assistance, a few more plain, practical discourses on those which I judge to be the
+                most necessary of the subjects I have not yet treated of. The former part of one of
+                these is published this month; the latter will follow in February. And so, every two
+                months, so long as God spares my life and health, I shall publish another.<note
+                    place="foot" xml:id="ftn5" n="5"><p rend="footnote text">Pref. 1781,
+                    §6.</p></note></quote>
+            <p>Thus it was that the <hi rend="italic">Arminian Magazine</hi> became a prod to the
+                publication, in one decade, of more sermons than had thus for appeared in print in
+                Wesley’s whole career. Moreover, these new sermons are not old oral favourites
+                reduced to writing; the correlation between the texts of the sermons written for the
+                    <hi rend="italic">Magazine</hi> and those of his oral preaching is unaccountably
+                low. The evangelical foundations of <hi rend="italic">SOSO</hi>, I-IV are everywhere
+                presupposed, and occasionally restated, but there is no announced ‘programme’ for
+                their progression. The one common concern in them is Wesley’s interest in dealing
+                with specific issues as they had emerged in the later course of the Revival. Where
+                earlier statements had <pb n="02:351"/>been misunderstood or
+                un-understood, he took this new forum to redefine and to revise them in fresh terms.
+                In every case, he is intent upon an updating of his message in the light of
+                unfolding cultural changes in ‘an age of transition’. This would seem to have been
+                his warrant for the marked increase of various sorts of rhetorical ornamentations
+                (quotations, allusions, illustrations, etc.).</p>
+            <p>Wesley’s overloaded schedule and the lack of qualified assistants created special
+                problems in the publishing operations of the <hi rend="italic">Magazine</hi>: this
+                helps to explain certain otherwise puzzling features here. First, and unavoidably,
+                Wesley was writing in haste, against unaccustomed deadlines and, more often than
+                not, without libraries to consult. Then, too, his advancing years were taking their
+                inevitable toll.<note place="foot" xml:id="ftn6" n="6"><p rend="footnote text">See
+                        his belated admissions of this in JWJ, Jan. 1 and June 28, 1790.</p></note>
+                Finally, Wesley’s assistants were not always equal to their tasks. Thus, in 1789, he
+                was compelled,</p>
+            <quote>however unwillingly, to drop Mr. [Thomas] O[livers], for only these two
+                reasons: (1), the errata are unsufferable; I have borne them for these twelve years,
+                but can bear it no longer; (2), several pieces are inserted without my knowledge,
+                both in verse and prose.<note place="foot" xml:id="ftn7" n="7"><p
+                        rend="footnote text">JWJ, Aug. 8, 1789. Actually Wesley was complaining in
+                        large measure about some of the ‘fillers’ used for otherwise empty
+                        spaces.</p></note> Further light on the situation comes from Olivers’s
+                successor, James Creighton (in a letter to his sister, August 22, 1789): …the chief
+                difficulty [in my editorial tasks] is in the <hi rend="italic">Magazine</hi>, a
+                great part of which is made out from manuscripts badly written. They must be…reduced
+                to grammar and sense…. Sometimes a whole page or leaf will be so blotted and
+                interlined (as we must cross out some words and insert others) that the printer can
+                hardly make it out. This is the case also with respect to these sermons of Mr.
+                W[esley] written in his own hand [a hand so legible earlier on], which it is almost
+                impossible for anyone now to make out….</quote>
+            <p>It may be doubted that Wesley had further plans for the republication of these <hi
+                    rend="italic">Magazine</hi> sermons. After all, ‘the first four volumes of
+                sermons’ (as they had been termed in the ‘Model Deed’ of 1763) remained in place as
+                a doctrinal baseline. In 1787, however, his hand was forced by a move by others to
+                publish an unauthorized collection of these later sermons. His response was a
+                decision to do the job himself. The cover of the <hi rend="italic">Magazine</hi> for
+                January 1788 announces the publication of a new edition of <hi rend="italic"
+                    >SOSO</hi>, I-IV. This appeared with its original ‘Preface’ (1746) and in its
+                original order of 1746-60. The notice added: ‘There are also in the press, and will
+                shortly be published in four volumes, <pb n="02:352"/>price 10<hi
+                    rend="italic">s.</hi>, all the sermons in the ten volumes of the <hi
+                    rend="italic">Arminian Magazine</hi>’—actually, as we have seen, in the <hi
+                    rend="italic">eight</hi> volumes, IV-XI.</p>
+            <p>This new quartet, numbered <hi rend="italic">SOSO</hi>, V-VIII, have their own
+                Preface, which affords a fresh revelation of Wesley’s interests at this later stage.
+                But it leaves some obvious questions unanswered. Why, for example, the reversion to
+                the forty-four sermons of 1746-60, and therefore the discarding of all but one of
+                the nine new sermons that had appeared in <hi rend="italic">SOSO</hi>, I-IV in 1771?
+                Only <hi rend="italic">The Lord Our Righteousness</hi> was retained, inserted out of
+                order in <hi rend="italic">SOSO</hi>, V.105-25. Again, why was the original design
+                (twelve sermons per volume) enlarged to fourteen? And, even more crucially, why the
+                particular ordering of this new collection? It is neither chronological, topical,
+                nor in the original sequence in the <hi rend="italic">Magazine</hi>. Wesley may have
+                been, as he claimed, ‘the properest person’<note place="foot" xml:id="ftn8" n="8"><p
+                        rend="footnote text">Pref. §2.</p></note> to supervise this new publication,
+                but why, then, did he fail to follow through on his own announced principle of
+                ordering—of ‘placing those first which are intended to throw light on some important
+                Christian doctrine, and afterwards those which more directly relate to some branch
+                of Christian practice’?<note place="foot" xml:id="ftn9" n="9"><p
+                        rend="footnote text"><hi rend="italic">Ibid.</hi>, §3.</p></note> One gets
+                the impression of a good deal of improvisation, and this is confirmed by Wesley’s
+                letter from Chester to Peard Dickinson in London (April 15, 1788): ‘Pray consult
+                with T. Olivers where the additional sermons may be most properly inserted. I have
+                another ready for the press and two more begun.’ The last sermon for Vol. VIII was
+                rushed to the printer in the barest nick of time.</p>
+            <p>Of the fifty-six sermons in <hi rend="italic">SOSO</hi>, V-VIII, forty-three had
+                already appeared in the <hi rend="italic">Magazine</hi>. Six would appear in the
+                concurrent volume (XI, 1788). Two more would appear in <hi rend="italic">SOSO</hi>,
+                VIII, before they did in the <hi rend="italic">Magazine</hi> (XII, 1789). As we have
+                seen, only one of the nine sermons from the 1760s survived in this new edition,
+                although four of those that had been discarded had been published separately.</p>
+            <p><hi rend="italic">SOSO</hi>, V-VIII, are still ‘plain truth for plain people’:
+                evangelical, strong on ‘application’. Their ‘Preface’ stresses this even more
+                emphatically than the 1746 ‘Preface’ had done. There is, however, no mistaking the
+                fact that Wesley’s homiletical style and theological substance had acquired fresh
+                nuances over the years. Thus, in V-VIII, the reader may expect more ornamentation,
+                more speculative formulations, more show of learning, more of an emphasis upon a
+                theology of culture. Salvation by faith alone is everywhere presupposed, but now the
+                stress is upon its outworkings in the new circumstances of the <pb
+                    n="02:353"/>Methodist people (social, economic, cultural). These new volumes
+                are not a mere addendum to I-IV; they amount to a second major phase in Wesley’s
+                development as a ‘folk theologian’.</p>
+            <p>They have, however, been sadly neglected by the generality of Wesley’s interpreters.
+                Joseph Benson, in the first posthumous edition of Wesley’s collected <hi
+                    rend="italic">Works</hi> (in seventeen volumes, 1809-13) adopts a different
+                rubric for the sermons.<note place="foot" xml:id="ftn10" n="10"><p
+                        rend="footnote text"> E.g., Vol VII, ‘Thirty-seven Sermons on Various
+                        Subjects’ (1811), and so on to Vol. XI, ‘Sixteen Sermons and Tracts on
+                        Various Subjects’ (1812).</p></note> In John Emory’s ‘first American
+                edition’ in seven volumes (1831), the first fifty-three sermons occupy Vol. I; the
+                others are gathered into Vol. II. Thomas Jackson, in 1825, divided the sermons into
+                five ‘series’—the ‘First’ contains Sermons 1 through 53—and there is an obvious
+                implication that the first series was by far the most important one.<note
+                    place="foot" xml:id="ftn11" n="11"><p rend="footnote text"> See Frank Baker, <hi
+                            rend="italic">Union Catalogue of the Publications of John and Charles
+                            Wesley</hi>, No. 420 (pp. 190-97) for an exhibit of the overwhelming
+                        predominance of ‘the standards’ in subsequent edns. of Wesley’s sermons; and
+                        see also E. H. Sugden’s account of the elaborate <hi rend="italic">law
+                            suit</hi> required by the British Conference to ‘settle’ their prolonged
+                        disputes as to the exact number implied by the phrase ‘standard sermons’
+                            (<hi rend="italic">Wesley’s Standard Sermons</hi>, 1921,
+                    II.331-40).</p></note> This preoccupation had supported the tendency<note
+                    place="foot" xml:id="ftn12" n="12"><p rend="footnote text"> Even as in Schmidt,
+                            <hi rend="italic">op. cit.</hi></p></note> to concentrate on <hi
+                    rend="italic">SOSO</hi>, 1-44 (or 1-53), at the expense of the much larger
+                fraction of the sermon corpus.</p>
+            <p>Such an imbalance needs redressing. Despite their uneven quality, these later sermons
+                exhibit Wesley’s ripened Christian wisdom in a quite remarkable fashion—its
+                broadened scope, its ample theological perspective, its quickened sensitivities to
+                Christian social imperatives. They are, therefore, a remarkable achievement by a
+                phenomenally busy old man, still leading a still burgeoning Revival. They give us a
+                sight of the continued stretching of his mind toward a fuller understanding of his
+                faith. Thus, they enlarge our resources for understanding that faith and its
+                lifelong passion for an integrated vision of the Christian order of salvation.</p>
+            </introduction>
+            <pb n="02:355"/>
+            <head>Wesley’s Preface to <hi rend="italic">Sermons on Several Occasions, Volumes V-VIII</hi></head>
+            <p n="1">1. A gentleman in the west of England informed me a few days ago that a clergyman in
+                his neighbourhood designed to print in two or three volumes the sermons which had
+                been published in the ten volumes of the <hi rend="italic">Arminian Magazine</hi>. I
+                had been frequently solicited to do this myself, and had as often answered, ‘I leave
+                this for my executors.’ But if it must be done before I go hence, methinks I am the
+                properest person to do it.</p>
+            <p n="2">2. I intend therefore to set about it without delay. And if it pleases God to
+                continue to me a little longer the use of my understanding and memory, I know not
+                that I can employ them better. And perhaps I may be better able than another to
+                revise my own writings, in order either to retrench what is redundant, to supply
+                what is wanting, or to make any farther alterations which shall appear needful.</p>
+            <p n="3">3. To make these plain discourses more useful I purpose now to range them in proper
+                order; placing those first which are intended to throw light on some important
+                Christian doctrines, and afterwards those which more directly relate to some branch
+                of Christian practice. And I shall endeavour to place them all in such an order that
+                one may illustrate and confirm the other.<note place="foot" xml:id="ftn13" n="13"><p
+                        rend="footnote text">Cf. <hi rend="italic">Works</hi> (1771), I. ‘To the
+                        Reader’, §2: ‘I wanted to methodize these tracts, …placing those together
+                        which were on similar subjects, and in such order that one might illustrate
+                        another.’</p></note> There may be the greater need of this because they were
+                occasionally written during a course of years, without any order or connection at
+                all, just as this or the other subject either occurred to my own mind or was
+                suggested to me at various times by one or another friend.</p>
+            <p n="4">4. To complete the number of twelve sermons in every volume I have added six sermons
+                to those printed in the <hi rend="italic">Magazine</hi>.<note place="foot"
+                    xml:id="ftn14" n="14"><p rend="footnote text"><hi rend="italic">On the
+                            Trinity</hi> (1775; see No. 55); <hi rend="italic">On
+                            Predestination</hi> (1776; see No. 58); <hi rend="italic">The Lord Our
+                            Righteousness</hi> (1765; see No. 20); <hi rend="italic">The Important
+                            Question</hi> (1775; see No. 84); <hi rend="italic">A Call to
+                            Backsliders</hi> (1778; see No. 86); <hi rend="italic">The Reward of
+                            Righteousness</hi> (1777; see No. 99).</p></note> And I did this the
+                rather because the subjects were important and cannot be too much insisted on.</p>
+            <p n="5">5. Is there need to apologize to sensible persons for the plainness of my style?<note
+                    place="foot" xml:id="ftn15" n="15"><p rend="footnote text">Cf. <hi rend="italic"
+                            >Works</hi> (1771), I. ‘Preface’. But see also Vicesimus Knox, <hi
+                            rend="italic">Essays Moral and Literary</hi>, No. 15, p. 73. Toward the
+                        century’s end, the vogue of the old ‘plain style’ had given place to things
+                        like Hervey’s <hi rend="italic">Meditations</hi>. Knox comments on ‘the
+                        rhapsodic style which wearies by its constant efforts to elevate the mind to
+                        ecstasy…. Many modern sermons…aim at sublimity and highly figurative
+                        eloquence [but have, instead] become turgid and affected.’</p></note> A
+                gentleman whom I much love and <pb n="02:356"/>respect lately informed
+                me, with much tenderness and courtesy, that ‘men of candour made great allowance for
+                the decay of my faculties, and did not expect me to write now, either with regard to
+                sentiment or language, as I did thirty or forty years ago.’ Perhaps they are
+                decayed, though I am not conscious of it. But is not this a fit occasion to explain
+                myself concerning the style I use, from choice, not necessity? I <hi rend="italic"
+                    >could</hi> even now write as floridly and rhetorically as even the admired Dr.
+                    B[lair].<note place="foot" xml:id="ftn16" n="16"><p rend="footnote text">Dr.
+                        Hugh Blair (1718-1800), a famous Scottish orator for whom the first ‘regius
+                        professorship of rhetoric and belles-lettres’ at the University of Edinburgh
+                        was created in 1762. Samuel Johnson praised his eloquence; Leslie Stephen
+                            (<hi rend="italic">DNB</hi>) speaks of ‘his unimpassioned and rather
+                        affected style’. On another front, however (the controversy over the
+                        authorship of ‘Ossian’s’ <hi rend="italic">Fingal</hi>), Blair and Wesley
+                        had been allies in an unpopular cause—both espousing the claims of James
+                        Macpherson to the poem’s ‘antiquity’; cf. JWJ, July 17, 1767; May 15, 1784;
+                        and June 23, 1786.</p></note> But I dare not; because I seek the honour that
+                cometh of God only!<note place="foot" xml:id="ftn17" n="17"><p rend="footnote text"
+                        >See John 5:44.</p></note> What is the praise of man to <hi rend="italic"
+                    >me</hi>, that have one foot in the grave, and am stepping into the land whence
+                I shall not return?<note place="foot" xml:id="ftn18" n="18"><p rend="footnote text"
+                        >See Job 10:21.</p></note> Therefore I dare no more write in a ‘fine style’
+                than wear a fine coat. But were it otherwise, had I time to spare, I should still
+                write just as I do. I should purposely decline what many admire, an highly
+                ornamented style. I cannot relish French oratory; I despise it from my heart.<note
+                    place="foot" xml:id="ftn19" n="19"><p rend="footnote text">It is not easy to
+                        explain Wesley’s prejudice against French culture: ‘French is the poorest,
+                        meanest language in Europe; it is no more comparable to the German or
+                        Spanish than a bagpipe is to an organ…. It is as impossible to write a fine
+                        poem in French as to make fine music upon a Jew’s harp’ (JWJ, Oct. 11,
+                        1756).</p></note> Let those that please be in raptures at the pretty,
+                elegant sentences of Massillon<note place="foot" xml:id="ftn20" n="20"><p
+                        rend="footnote text">Jean-Baptiste Massillon (1663-1742), celebrated
+                        preacher and reforming bishop of Clermont (1719-42). <hi rend="italic">The
+                            Catholic Encyclopedia</hi> ranks him ‘above Bossuet and Bourdaloue as a
+                        preacher’ and speaks of his concern ‘to speak to the heart in a language
+                        readily understood’. His <hi rend="italic">Works</hi> (mostly sermons) were
+                        first published in 1745; there is no record that Wesley had actually read
+                        them. But Massillon’s fame was immense, and this, apparently, was Wesley’s
+                        point of reference.</p></note> or Bourdaloue.<note place="foot"
+                    xml:id="ftn21" n="21"><p rend="footnote text">Louis Bourdaloue (1632-1704), the
+                        most famous court preacher in seventeenth-century France. Taine ranked him
+                        with Cicero, Livy, Bossuet, Burke, and Fox as an orator; Fénelon praised his
+                        lucid style and the clarity of the order in his sermons. There is no record
+                        of Wesley’s having read him, either.</p></note> But give me the <hi
+                    n="02:357"/> plain nervous style of Dr. South,<note place="foot"
+                    xml:id="ftn22" n="22"><p rend="footnote text">Robert South (1634-1716), the
+                        liveliest and most eloquent of the Caroline divines; cf. Irène Simon, <hi
+                            rend="italic">Three Restoration Divines</hi>, I.228-74. He was a staunch
+                        Tory and ardent polemicist against the Puritans and Nonconformists. His
+                        style is ‘nervous’ in Johnson’s sense of that term: ‘well-strung, strong,
+                        vigorous’.</p></note> Dr. Bates,<note place="foot" xml:id="ftn23" n="23"><p
+                        rend="footnote text">William Bates (1625-99), famed as ‘the silver-tongued
+                        preacher’ of the Commonwealth, who continued as an influential leader among
+                        the Nonconformists. John Howe, in his sermon, ‘On the Death of Dr. William
+                        Bates’ (<hi rend="italic">Works</hi>, VI.301), speaks of his ‘peculiar way
+                        of preaching and writing—especially his frequent most apt similitudes and
+                        allusions, …brisk and vivid fancy, regulated by judgment and sanctified by
+                        divine grace’.</p></note> or Mr. John Howe.<note place="foot" xml:id="ftn24"
+                    n="24"><p rend="footnote text">John Howe (1630-1705), one of Cromwell’s
+                        favourite preachers and a leading spirit in the cause of ‘comprehension’
+                        after the Restoration. Wesley gleaned some of his own ‘catholic spirit’ from
+                        Howe’s active concern for Christian unity, as in <hi rend="italic">The
+                            Carnality of Religious Contention Among Christians</hi> (1693). In Vol.
+                        XLVIII of the <hi rend="italic">Christian Lib.</hi> (1755), he had extracted
+                        a ‘Life’ of Howe and also his <hi rend="italic">Living Temple</hi> (1675), a
+                        Puritan essay on the theme of holy living.</p></note> And for elegance, show
+                me any French writer who exceeds Dean Young<note place="foot" xml:id="ftn25" n="25"
+                        ><p rend="footnote text">Edward Young (1643-1705), Dean of Salisbury, a
+                        plain style preacher, popular in his own age but already overshadowed in
+                        Wesley’s time by the fame of his son (also Edward), ‘the poet’. Wesley
+                        quotes from Dean Young’s <hi rend="italic">Sermons on Several Occasions</hi>
+                        in No. 144, ‘The Love of God’, III.4; his <hi rend="italic">exordium</hi>
+                        and Young’s are recognizably similar.</p></note> or Mr. Seed.<note
+                    place="foot" xml:id="ftn26" n="26"><p rend="footnote text">Jeremiah Seed
+                        (1700-47), Fellow of Queen’s College, Oxford, and rector of Knight’s Enham,
+                        Hampshire, 1741-47. His works, in two volumes, were published posthumously
+                        in 1750. Johnson comments of him that ‘he had a very fine style but was not
+                        very theological’ (Boswell’s <hi rend="italic">Life of Johnson</hi>, pp.
+                        913-14).</p></note> Let who will admire the French frippery:<note
+                    place="foot" xml:id="ftn27" n="27"><p rend="footnote text">The French preaching
+                        that Wesley affects to despise was chiefly aimed at courtly audiences in a
+                        culture in which style was highly prized. Laurence Sterne, who was no ‘plain
+                        style preacher’, had commented on ‘the theatrical character’ of French
+                        preaching in a letter to his wife from Paris, March 1762; cf. <hi
+                            rend="italic">Letters of Laurence Sterne</hi>, ed. by L. P. Curtis
+                        (Oxford, Oxford Univ. Press, 1935), pp. 154-55.</p></note> I am still for
+                plain, sound English.</p>
+            <p n="6">6. I think a preacher or a writer of sermons has lost his way when he imitates any of
+                the French orators, even the most famous of them—even Massillon or Bourdaloue. Only
+                let his language be plain, proper, and clear, and it is enough. God himself has told
+                us how to speak, both as to the matter and the manner: ‘If any man speak’ in the
+                name of God ‘let him speak as the oracles of God.’<note place="foot" xml:id="ftn28"
+                    n="28"><p rend="footnote text">1 Pet. 4:11.</p></note> And if he would imitate
+                any part of these above the rest, let it be the first Epistle of St. John. This is
+                the style, the most excellent style, for every gospel preacher.<note place="foot"
+                    xml:id="ftn29" n="29"><p rend="footnote text">Cf. JWJ, Jan. 5, 1787: ‘I do not
+                        admire [the] florid way of writing. Good sense does not need to be so
+                        studiously adorned. I love St John’s style as well as matter.’</p></note>
+                And let him aim at no more ornament than he finds in that sentence which is the sum
+                of the whole gospel: ‘We love him because he hath first loved us.’<note place="foot"
+                    xml:id="ftn30" n="30"><p rend="footnote text">Cf. 1 John 4:19.</p></note></p>
+            <p><placeName>London</placeName>, <date when="01-01-1788">Jan. 1, 1788</date></p>
+        </body>
+    </text>
+</TEI>

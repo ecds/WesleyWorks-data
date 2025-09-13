@@ -1,0 +1,785 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Sermon 70: The Case of Reason Impartially Considered</title>
+                <author>Wesley, John</author>
+                <editor role="text">Van Buskirk, Gregory P.</editor>
+                <editor role="digital">Taylor, Michelle M.</editor>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>The Wesley Works Digitzation Project</publisher>
+                <pubPlace>Tampa, FL</pubPlace>
+                <date>2024-02-29</date>
+            </publicationStmt>
+            <sourceDesc>
+                <listBibl>
+                    <biblStruct>
+                        <analytic>
+                            <title level="a">Sermon 70: The Case of Reason Impartially
+                                Considered</title>
+                        </analytic>
+                        <monogr>
+                            <title level="j">The Works of John Wesley, Volume II: Sermons II,
+                                34-70</title>
+                            <editor role="volume">Outler, Albert</editor>
+                            <imprint>
+                                <publisher>Abingdon Press</publisher>
+                                <pubPlace>Nashville, TN</pubPlace>
+                                <date when="1985-11-01">1985-11-01</date>
+                                <biblScope unit="volume" n="2"/>
+                                <biblScope unit="page" from="567" to="568"/>
+                                <biblScope unit="page" from="587" to="600"/>
+                            </imprint>
+                        </monogr>
+                        <series>
+                            <title level="s">The Works of John Wesley</title>
+                            <editor role="general">Baker, Frank</editor>
+                        </series>
+                    </biblStruct>
+                </listBibl>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Greg Van Buskirk created Word docs for all of Wesley's sermons using a combination of
+                OCR software and manual proofing. Michelle Taylor converted these docx into XML
+                using Oxygen's DITA automatic transformation scenario, then touched them up
+                manually.</p>
+        </encodingDesc>
+        <standOff>
+            <taxonomy>
+                <keywords>
+                    <term/>
+                </keywords>
+            </taxonomy>
+            <!--Include keywords and terms here eventually.-->
+        </standOff>
+        <revisionDesc/>
+    </teiHeader>
+    <text>
+        <body>
+            <pb n="02:567"/>
+            <head>
+                <hi rend="italic">An Introductory Comment [to Sermons 69-70]</hi>
+            </head>
+            <introduction>
+                <p>These next two sermons were paired in this order in <hi rend="italic">SOSO</hi>,
+                    VI (1788), even though they had been written earlier and in reverse sequence.
+                    ‘The Case of Reason…’ dates from July 6, 1781, and from Langham Row in
+                    Lincolnshire (cf. the <hi rend="italic">Journal</hi> entry for that day for
+                    Wesley’s critical remarks on the then famous historian, William Robertson). He
+                    then had the sermon published as No. VI in the <hi rend="italic">Arminian
+                        Magazine</hi> for November and December of that year (IV.574-80, 630-36)
+                    without a title. Wesley had preached from its text, 1 Cor. 14:20, only twice
+                    before (January 8, 1753, and March 20, 1772). ‘Imperfection…’ had been written
+                    in early March 1784 in Bristol and then promptly printed in the <hi
+                        rend="italic">Arminian Magazine</hi> as No. XXI in June and July
+                    (VII.233-41, 290-98), also without a title and with an error in citation of the
+                    text (‘…we know in part’ is cited as 1 Cor. 13:10 instead of 13:9, and this
+                    error is faithfully repeated twice by Paramore in <hi rend="italic">SOSO</hi>,
+                    VI.53-54). That this was a problem still much on Wesley’s mind is suggested by
+                    the fact that he had preached on 1 Cor. 13:9 four times in 1783.</p>
+                <p>Wesley brought both sermons together in <hi rend="italic">SOSO</hi>, VI, and
+                    quite logically, since both are comments on the actual limitations of ‘human
+                    understanding’ and on the practical implications for Christian living of an
+                    intellectual modesty deeply grounded in a religious understanding of
+                    transcendence. Wesley had grown up in the fading days of an Anglican rationalism
+                    (Ray, Butler, Clarke, Paley) which took for granted that a sincere ‘faith
+                    seeking understanding’ would surely be richly rewarded, since faith and reason
+                    are finally consonant. And, as we have seen, he was himself a rationalist of
+                    sorts. But as deism and ‘the Enlightenment’ had progressed and, even more
+                    particularly, as a certain confidence in human rationality had filtered down to
+                    ordinary folk, Wesley recognized a growing threat both to Christian faith and to
+                    any proper sense of Christian reverence and awe.</p>
+                <p><pb n="02:568"/>These two sermons are therefore intended as antidotes and
+                    alternatives to what Wesley regarded as a <hi rend="italic">false</hi>
+                    rationalism. Even so, and not accidentally, Wesley also reflects here his
+                    undiminished interest in a valid ‘theology of culture.’ It is worth noting and
+                    comparing the higher than average number of his passing allusions here to
+                    ‘contemporary’ science, philosophy, and literature. If this is ‘plain truth for
+                    plain people’, the Methodists were no longer as ‘plain’ as they had been in
+                    their earlier, humbler beginnings.</p>
+            </introduction>
+            <pb n="02:587"/>
+            <head>The Case of Reason Impartially Considered</head>
+            <epigraph>
+                <p>1 Corinthians 14:20</p>
+                <p>
+                    <hi rend="italic">Brethren, be not children in understanding: in wickedness be
+                        ye children; but in understanding be ye men.</hi>
+                    <note place="foot" xml:id="ftn1" n="1">
+                        <p rend="footnote text">This translation of κακία as ‘wickedness’ seems
+                            peculiar to Wesley; cf. his
+                            <hi rend="italic" xml:space="preserve">Notes </hi>for still further
+                            revisions of the AV. Wycliffe, Tyndale, Cranmer, Geneva, Rheims, and AV
+                            all render it as ‘malice’ or ‘maliciousness’.</p>
+                    </note>
+                </p>
+            </epigraph>
+            <div type="introduction">
+                <p n="1">1. It is the true remark of an eminent man, who had made many observations
+                    on human nature, ‘If reason be against a man, a man will always be against
+                        reason.’<note place="foot" xml:id="ftn2" n="2"><p rend="footnote text"
+                            >Thomas Hobbes; cf. <hi rend="italic">The Last Saying, or Dying Legacy
+                                of Mr. Thomas Hobbes of Malmesbury, Who Departed This Life on
+                                Thursday, December 4, 1679</hi>. Printed for the Author’s Executors
+                            (1680), p.39: ‘In matters of right or interest, where reason is against
+                            a man, a man will be against reason.’ See also Jonathan Swift, <hi
+                                rend="italic">A Letter to a Young Clergyman</hi>, §3. See also,
+                            below, II.4.</p></note> This has been confirmed by the experience of all
+                    ages. Very many have been the instances of it in the Christian as well as the
+                    heathen world; yea, and that in the earliest times. Even then there were not
+                    wanting well-meaning men who, not having much reason themselves, imagined that
+                    reason was of no use in religion; yea, rather, that it was a hindrance to it.
+                    And there has not been wanting a succession of men who have believed and
+                    asserted the same thing. But never was there a greater number of these in the
+                    Christian church, at least in Britain, than at this day.</p>
+                <p n="2">2. Among them that despise and vilify reason you may always expect to find
+                    those enthusiasts who suppose the dreams of their own imagination to be
+                    revelations from God. We cannot expect that men of this turn will pay much
+                    regard to reason. Having an infallible guide, they are very little moved by the
+                    reasonings of fallible men. In the foremost of these we commonly find the whole
+                    herd of antinomians; all that, however they may differ in other respects, agree
+                    in ‘making void the law through faith’.<note place="foot" xml:id="ftn3" n="3"><p
+                            rend="footnote text">Cf. Rom. 3:31.</p></note> If you oppose reason to
+                    these, when they are asserting propositions ever so full of absurdity and
+                    blasphemy, they will probably think it <pb n="02:588"/>a sufficient answer to
+                    say, ‘Oh, this is your reason!’ Or, your carnal reason. So that all arguments
+                    are lost upon them: they regard them no more than stubble or rotten wood.</p>
+                <p n="3">3. How natural is it for those who observe this extreme to run into the
+                    contrary! While they are strongly impressed with the absurdity of undervaluing
+                    reason, how apt are they to overvalue it! So much easier it is to run from east
+                    to west than to stop at the middle point! Accordingly we are surrounded with
+                    those—we find them on every side—who lay it down as an undoubted principle that
+                    reason is the highest gift of God. They paint it in the fairest colours: they
+                    extol it to the skies. They are fond of expatiating in its praise: they make it
+                    little less than divine. They are wont to describe it as very near, if not quite
+                    infallible. They look upon it as the all-sufficient director of all the children
+                    of men, able by its native light to guide them into all truth, and lead them
+                    into all virtue.<note place="foot" xml:id="ftn4" n="4"><p rend="footnote text"
+                            >Cf. Irène Simon, <hi rend="italic">Three Restoration Divines</hi>,
+                            I.ii, espec. the references to Lord Falkland of Great Tew,
+                            Chillingworth, Stillingfleet, <hi rend="italic">et al.</hi> But see also
+                            Joseph Butler, <hi rend="italic">Analogy of Religion</hi>, <hi
+                                rend="italic">passim</hi>.</p></note></p>
+                <p n="4">4. They that are prejudiced against the Christian revelation, who do not
+                    receive the Scriptures as the oracles of God, almost universally run into this
+                    extreme. I have scarce known any exception: so do all, by whatever name they are
+                    called, who deny the Godhead of Christ. (Indeed some of these say, they do not
+                    deny his Godhead, but only his supreme Godhead. Nay, this is the same thing; for
+                    in denying him to be the supreme God they deny him to be any God at all—unless
+                    they will assert that there are two gods, a great one and little one!) All these
+                    are vehement applauders of reason as the great unerring guide. To these
+                    overvaluers of reason we may generally add men of eminently strong
+                    understanding; who, because they do know more than most other men, suppose they
+                    can know all things. But we may likewise add many who are in the other extreme,
+                    men of eminently weak understanding; men in whom pride (a very common case)
+                    supplies the void of sense; who do not suspect themselves to be blind, because
+                    they were always so.<note place="foot" xml:id="ftn5" n="5"><p
+                            rend="footnote text">The prime example here would be, of course, David
+                            Hume; cf. also Nos. 120, ‘The Unity of the Divine Being’, §§19, 20; 128,
+                            ‘The Deceitfulness of the Human Heart’, §3, II.7; and ‘Remarks on Count
+                            de Buffon’s Natural History’ (<hi rend="italic">AM</hi>, 1782,
+                            V.546-48).</p></note></p>
+                <p n="5">5. Is there then no medium between these extremes,<note place="foot"
+                        xml:id="ftn6" n="6"><p rend="footnote text">Cf. No. 27, ‘Sermon on the
+                            Mount, VII’, §4 and n.</p></note> undervaluing and overvaluing reason?
+                    Certainly there is. But who <pb n="02:589"/>is there to point it out? To mark
+                    down the middle way? That great master of reason, Mr. Locke, has done something
+                    of the kind, something applicable to it, in one chapter of his <hi rend="italic"
+                        >Essay concerning Human Understanding</hi>.<note place="foot" xml:id="ftn7"
+                        n="7"><p rend="footnote text">Wesley had read Locke’s <hi rend="italic"
+                                >Essay</hi> (1690) in Oxford in 1725, and he had published a digest
+                            of it, with critical comments, in <hi rend="italic">AM</hi> (1782-84),
+                            V-VII. Locke’s empiricism was never more than partially satisfying to
+                            Wesley, as in the sections ‘Of Reason’ (IV.xvii) and ‘Of Faith and
+                            Reason and Their Distinct Provinces’ (IV.xviii). See also <hi
+                                rend="italic">The Reasonableness of Christianity</hi> (1695), which
+                            still fell short of Wesley’s concern for intuition in matters of ‘our
+                            knowledge of God and of the things of God.’</p></note> But it is only
+                    remotely applicable to this: he does not come home to the point. The good and
+                    great Dr. Watts has wrote admirably well both concerning reason and faith.<note
+                        place="foot" xml:id="ftn8" n="8"><p rend="footnote text">Wesley had read
+                            Watts, <hi rend="italic">The Strength and Weakness of Human Reason</hi>,
+                            in the year of its publication (1731), and in 1734 he records having
+                            read the better known <hi rend="italic">Logic, or, the Right Use of
+                                Reason in the Enquiry After Truth</hi> (1725). Watts had died (1748)
+                            before Wesley got round to <hi rend="italic">The Improvement of the
+                                Mind</hi> (1741). It would take a sharp-eyed critic to detect as
+                            much of a difference between Watts and Wesley as Wesley here implies,
+                            save for the latter’s greater stress on faith as noetic.</p></note> But
+                    neither does anything he has written point out the medium between valuing it too
+                    little and too much.</p>
+                <p>6. I would gladly endeavour in some degree to supply this grand defect: to point
+                    out, first, to undervaluers of it, what reason can do; and then to the
+                    overvaluers of it, what reason cannot do.</p>
+                <p>But before either the one or the other can be done it is absolutely necessary to
+                    define the term, to fix the precise meaning of the word in question. Unless this
+                    is done men may dispute to the end of the world without coming to any good
+                    conclusion. This is one great cause of the numberless altercations which have
+                    been on the subject. Very few of the disputants thought of this—of defining the
+                    word they were disputing about.<note place="foot" xml:id="ftn9" n="9"><p
+                            rend="footnote text">But see Locke’s ‘Epistle to the Reader’ in his <hi
+                                rend="italic">Essay</hi>, and his comments in I.i.7-8; see also his
+                            ‘Second Letter to the Bishop of Worcester’, in <hi rend="italic"
+                                >Works</hi> (London, 1823, Scientia Verlag Aalen, 1963),
+                        I.7ff.</p></note> The natural consequence was, they were just as far from an
+                    agreement at the end as at the beginning.</p>
+            </div>
+            <div type="section" n="1">
+                <p n="1">I. 1. First, then, <hi rend="italic">reason</hi> is sometimes taken for <hi
+                        rend="italic">argument</hi>. So. ‘Give me a <hi rend="italic">reason</hi>
+                    for your assertion.’ So in Isaiah, ‘Bring forth your strong reasons;’<note
+                        place="foot" xml:id="ftn10" n="10"><p rend="footnote text">Isa.
+                        41:21.</p></note> that is, your strong <hi rend="italic">arguments</hi>. We
+                    use the word in nearly the same sense when we say, ‘He has good
+                    <hi rend="italic" xml:space="preserve">reasons </hi>for what he does.’ It seems
+                    here to mean: he has sufficient <hi rend="italic">motives</hi>, such as ought to
+                    influence a wise man. But how is the word to be understood in the celebrated
+                    question concerning ‘the reasons of <pb n="02:590"/>things’?<note place="foot"
+                        xml:id="ftn11" n="11"><p rend="footnote text">Cf. Eccles. 7:25.</p></note>
+                    Particularly when it is asked, <hi rend="italic">An rationes rerum sint
+                        aeternae</hi>?<note place="foot" xml:id="ftn12" n="12"><p
+                            rend="footnote text">A perennial question in Western philosophical
+                            theology. Cf. Augustine, <hi rend="italic">De diversis
+                                quaestionibus</hi> LXXXIII (<hi rend="italic">q.</hi> LXVI, ‘<hi
+                                rend="italic">De ideis</hi>’), in Migne, <hi rend="italic">PL</hi>,
+                            XL.29-31, where he speaks of <hi rend="italic">rationes aeternae</hi> as
+                            subsisting in God. On the medieval influence of this text (and its
+                            thesis), see Martin Grabmann, ‘<hi rend="italic">Des H. Augustinus
+                                Quaestio “de ideis”…in ihrer inhaltlichen Bedeutung und
+                                mittelalterlichen Weiterwirkung</hi>’, in <hi rend="italic"
+                                >Mittelalterliches Geistesleben</hi> (München, Max Huber Verlag,
+                            1936), II.25-34. Thomas treats the question in his <hi rend="italic"
+                                >Super Sent.</hi> I.36; in <hi rend="italic">Summa Contra
+                                Gentiles</hi>, I.54; <hi rend="italic">Summa Theologica</hi>, I, <hi
+                                rend="italic">Qq.</hi> 55, 56, 93; in <hi rend="italic">De
+                                Veritate</hi>, <hi rend="italic">Q.</hi> 3; and in <hi rend="italic"
+                                >Quodlibeta</hi>, IV, <hi rend="italic">Q.</hi> 1. Cf. <hi
+                                rend="italic">An Earnest Appeal</hi>, §§28-32 (11:55-56 in this
+                            edn.).</p></note>—whether the reasons of things are eternal. Do not the
+                    ‘reasons of things’ here mean the <hi rend="italic">relations</hi> of things to
+                    each other? But what are the <hi rend="italic">eternal relations</hi> of <hi
+                        rend="italic">temporal</hi> things? Of things which did not exist till
+                    yesterday? Could the relations of these things exist before the things
+                    themselves had any existence? Is not then the talking of such relations a flat
+                    contradiction? Yea, as palpable a one as can be put into words.</p>
+                <p n="2">2. In another acceptation of the word, reason is much the same with <hi
+                        rend="italic">understanding</hi>. It means a faculty of the human soul; that
+                    faculty which exerts itself in three ways: by simple apprehension, by judgment,
+                    and by discourse. <hi rend="italic">Simple apprehension</hi> is barely
+                    conceiving a thing in the mind, the first and most simple act of understanding.
+                        <hi rend="italic">Judgment</hi> is the determining that the things before
+                    conceived either agree with or differ from each other.
+                    <hi rend="italic" xml:space="preserve">Discourse </hi>(strictly speaking) is the
+                    motion of progress of the mind from one judgment to another. The faculty of the
+                    soul which includes these three operations I here mean by the term <hi
+                        rend="italic">reason</hi>.</p>
+                <p n="3">3. Taking the word in this sense, let us now impartially consider, first,
+                    what it is that reason can do. And who can deny that it can do much, very much,
+                    in the affairs of common life? To begin at the lowest point, it can direct
+                    servants how to perform the various works wherein they are employed; to
+                    discharge their duty either in the meanest offices or in any of a higher nature.
+                    It can direct the husbandman at what time and in what manner to cultivate his
+                    ground: to plough, to sow, to reap, to bring in his corn, to breed and manage
+                    his cattle, and to act with prudence and propriety in every part of his
+                    employment. It can direct artificers how to prepare the various sorts of
+                    apparel, and the thousand necessaries and conveniences of life, not only for
+                    themselves and their households, but for their neighbours, whether nigh or afar
+                    off. It can direct those of higher abilities to plan and execute works of a more
+                    elegant kind. It can direct the <pb n="02:591"/>painter, the
+                    statuary, the musician, to excel in the stations wherein providence has placed
+                    them. It can direct the mariner to steer his course over the bosom of the great
+                    deep. It enables those who study the laws of their country to defend the
+                    property or life of their fellow-subjects; and those who study the art of
+                    healing to cure most of the maladies to which we are exposed in our present
+                        state.<note place="foot" xml:id="ftn13" n="13"><p rend="footnote text">An
+                            echo of a familiar Puritan theme already reiterated, e.g., in the
+                            anonymous pamphlet of 1687, entitled, <hi rend="italic">An Occasional
+                                Discourse Concerning God’s Fore-Knowledge and Man’s Free-Agency:
+                                Being an Attempt to reconcile their seeming Opposition and to assert
+                                the Truth of both from the Holy Scriptures</hi>: ‘…we see plainly
+                            that, by the good providence and disposal of Almighty God, men have
+                            power to do many things, as namely, to cultivate the earth, to build
+                            houses, to provide against hunger and cold, to educate their children,
+                            to exercise [their] several arts and trades, for the benefit of human
+                            life, and to manage all these according to certain rules, methods, and
+                            observations, arising partly from experience, and partly from men’s
+                            consulting one another. In short, I conceive that God, having indued man
+                            with an understanding to judge, and a will to choose, and continually
+                            supplying him with power to act according to his nature, he doth not
+                            ordinarily overpower or impel his faculties, but leaves them to the free
+                            use and exercise thereof in things within his proper sphere. And this
+                            [power to judge and to choose] is what I mean by free will. Now, I
+                            address to my [second] province, which is to assert this, together with
+                            God’s foreknowledge of future events from Scriptures’ (pp.
+                        25-26).</p></note></p>
+                <p n="4">4. To ascend higher still, it is certain reason can assist us in going
+                    through the whole circle of arts and sciences: of grammar, rhetoric, logic,
+                    natural and moral philosophy, mathematics, algebra, metaphysics. It can teach
+                    whatever the skill or industry of man has invented for some thousand years. It
+                    is absolutely necessary for the due discharge of the most important offices,
+                    such as are those of magistrates, whether of an inferior or superior rank; and
+                    those of subordinate or supreme governors, whether of states, provinces, or
+                    kingdoms.</p>
+                <p n="5">5. All this few men in their senses will deny. No thinking man can doubt
+                    but reason is of considerable service in all things relating to the present
+                    world. But suppose we speak of higher things, the things of another world. What
+                    can reason do here? Is it a help or a hindrance of religion? It may do much in
+                    the affairs of men. But what can it do in the things of God?</p>
+                <p n="6">6. This is a point that deserves to be deeply considered. If you ask, What
+                    can reason do in religion? I answer, It can do exceeding much, both with regard
+                    to the foundation of it, and the superstructure.</p>
+                <p>The foundation of true religion stands upon the oracles of God.<note place="foot"
+                        xml:id="ftn14" n="14"><p rend="footnote text">Cf. No. 5, ‘Justification by
+                            Faith’, §2 and n.</p></note> It is built upon the prophets and apostles,
+                    Jesus Christ <pb n="02:592"/>himself being the chief corner-stone.<note
+                        place="foot" xml:id="ftn15" n="15"><p rend="footnote text">See Eph.
+                            2:20.</p></note> Now of what excellent use is reason if we would either
+                    understand ourselves, or explain to others, those living oracles! And how is it
+                    possible without it to understand the essential truths contained therein? A
+                    beautiful summary of which we have in that which is called the Apostles’ Creed.
+                    Is it not reason (assisted by the Holy Ghost) which enables us to understand
+                    what the Holy Scriptures declare concerning the being and attributes of God?
+                    Concerning his eternity and immensity, his power, wisdom, and holiness? It is by
+                    reason that God enables us in some measure to comprehend his method of dealing
+                    with the children of men; the nature of his various dispensations, of the Old
+                    and New Covenant, of the law and the gospel. It is by this we understand (his
+                    Spirit opening and enlightening the eyes of our understanding)<note place="foot"
+                        xml:id="ftn16" n="16"><p rend="footnote text">See Eph. 1:18.</p></note> what
+                    that repentance is, not to be repented of;<note place="foot" xml:id="ftn17"
+                        n="17"><p rend="footnote text">See 2 Cor. 7:10.</p></note> what is that
+                    faith whereby we are saved; what is the nature and the condition of
+                    justification; what are the immediate and what the subsequent fruits of it. By
+                    reason we learn what is that new birth, without which we cannot enter into the
+                    kingdom of heaven, and what that holiness is, without which no man shall see the
+                        Lord.<note place="foot" xml:id="ftn18" n="18"><p rend="footnote text">See
+                            Heb. 12:14.</p></note> By the due use of reason we come to know what are
+                    the tempers implied in inward holiness, and what it is to be outwardly holy,
+                    holy in all manner of conversation<note place="foot" xml:id="ftn19" n="19"><p
+                            rend="footnote text">1 Pet. 1:15.</p></note>—in other words, what is the
+                    mind that was in Christ,<note place="foot" xml:id="ftn20" n="20"><p
+                            rend="footnote text">See Phil. 2:5.</p></note> and what it is to walk as
+                    Christ walked.<note place="foot" xml:id="ftn21" n="21"><p rend="footnote text"
+                            >See 1 John 2:6.</p></note></p>
+                <p n="7">7. Many particular cases will occur, with respect to several of the
+                    foregoing articles, in which we shall have occasion for all our understanding if
+                    we would keep a conscience void of offence.<note place="foot" xml:id="ftn22"
+                        n="22"><p rend="footnote text">Acts 24:16.</p></note> Many cases of
+                    conscience are not to be solved without the utmost exercise of our reason. The
+                    same is requisite in order to understand and to discharge our ordinary relative
+                    duties; the duties of parents and children, of husband and wives, and (to name
+                    no more) of masters and servants. In all these respects, and in all the duties
+                    of common life, God has given us our reason for a guide. And it is only by
+                    acting up to the dictates of it, by using all the understanding which God hath
+                    given us, that we can have a conscience void of offence towards God and towards
+                        man.<note place="foot" xml:id="ftn23" n="23"><p rend="footnote text"><hi
+                                rend="italic">Ibid.</hi></p></note></p>
+                <p n="8"><pb n="02:593"/>8. Here then there is a large field indeed wherein reason
+                    may expatiate and exercise all its powers. And if reason can do all this, both
+                    in civil and religious things, what is it that it cannot do?</p>
+                <p>We have hitherto endeavoured to lay aside all prejudice, and to weigh the matter
+                    calmly and impartially. The same course let us take still: let us now coolly
+                    consider, without prepossession on any side, what it is, according to the best
+                    light we have, that reason cannot do.</p>
+            </div>
+            <div type="section" n="2">
+                <p n="1">II. 1. And, first, reason cannot produce faith. Although it is always
+                    consistent with reason, yet reason cannot produce faith in the scriptural sense
+                    of the word. Faith, according to Scripture, is ‘an evidence or conviction of
+                    things not seen’.<note place="foot" xml:id="ftn24" n="24"><p
+                            rend="footnote text">Cf. Heb. 11:1.</p></note> It is a divine evidence,
+                    bringing a full conviction of an invisible, eternal world.<note place="foot"
+                        xml:id="ftn25" n="25"><p rend="footnote text">Cf. No. 3, <hi rend="italic"
+                                >‘Awake, Thou That Steepest’</hi>, I.11 and n.</p></note> It is true
+                    there was a kind of shadowy persuasion of this, even among the wiser heathens
+                    (probably from tradition, or from some gleams of light reflected from the
+                    Israelites). Hence many hundred years before our Lord was born, the Greek poet
+                    uttered that great truth,</p>
+                <lg>
+                    <l>Millions of spiritual creatures walk the earth</l>
+                    <l>Unseen, whether we wake, or if we sleep.</l>
+                    <note place="foot" xml:id="ftn26" n="26">
+                        <p rend="footnote text">The couplet is misremembered from Milton, <hi
+                                rend="italic">Paradise Lost</hi>, iv.677-78 (where 678 reads,
+                            ‘Unseen, both when we wake and when we sleep’). The Greek poet is
+                            Hesiod, who in <hi rend="italic">Works and Days,</hi> ll. 252-55, speaks
+                            of Zeus as having ‘thrice ten thousand spirits [who] keep watch on the
+                            judgments and deeds of wrong, as they roam, clothed in mist, all over
+                            the earth’. Cf. also Plato, <hi rend="italic">Symposium</hi>, 202, <hi
+                                rend="italic">D</hi>12 (203, <hi rend="italic">A</hi>6): ‘through
+                            the demons there is intercourse between men and gods whether in the
+                            waking state or during sleep.’ Also, Juvenal speaks of spirits of
+                            another realm, and Wesley quotes this in No. 73, ‘Of Hell’, §3 and
+                            n.</p>
+                        <p rend="footnote text">Wesley repeats the Miltonic version (citing Hesiod)
+                            in Nos. 71, ‘Of Good Angels’, §3; 117, ‘On the Discoveries of Faith’,
+                            §6; 119, ‘Walking by Sight and Walking by Faith’, §5 (where,
+                            incidentally, Wesley quotes I.678 correctly). Cf. also <hi rend="italic"
+                                >An Earnest Appeal</hi>, §10 (11:48 in this edn.).</p>
+                    </note>
+                </lg>
+                <p>But this was little more than faint conjecture. It was far from a firm
+                    conviction; which reason in its highest state of improvement could never produce
+                    in any child of man.</p>
+                <p n="2">2. Many years ago I found the truth of this by sad experience. After
+                    carefully heaping up the strongest arguments which I could find either in
+                    ancient or modern authors for the very being of a God and (which is nearly
+                    connected with it) the existence of an <pb n="02:594"/>invisible world, I have
+                    wandered up and down, musing with myself: What if all these things which I see
+                    around me, this earth and heaven, this universal frame,<note place="foot"
+                        xml:id="ftn27" n="27"><p rend="footnote text">See Dryden, ‘A Song for St.
+                            Cecilia’s Day, 1687’, ll. 1-2:</p>
+                        <lg>
+                            <l>From Harmony, from heav’nly Harmony</l>
+                            <l>This universal Frame began.</l></lg></note> has existed from
+                        eternity?<note place="foot" xml:id="ftn28" n="28"><p rend="footnote text"
+                            >Cf. No. 15, <hi rend="italic">The Great Assize</hi>, III.3 and
+                        n.</p></note> What if that melancholy supposition of the old poet be the
+                    real case.</p>
+                <quote>
+                    <hi rend="italic">Οἵη περ φύλλων γενεή, τοίη δὲ καὶ ἀνδρῶν.</hi>
+                    <note place="foot" xml:id="ftn29" n="29">
+                        <p rend="footnote text">Cf. Homer, <hi rend="italic">Iliad</hi>, vi.146. But
+                            see also the continuing lines (147-49): ‘Even as are the generations of
+                            leaves, such are those also of men. As for the leaves, the wind
+                            scattereth some upon the earth, but the forest, as it burgeons, putteth
+                            forth others when the spring is come; even so of men one generation
+                            springeth up and another passeth away.’ See Ecclus. 14:17-18.</p>
+                    </note>
+                </quote>
+                <lg>
+                    <l>All flesh grows old, like a garment;</l>
+                    <l>The age-old law is: All must die.</l>
+                    <l>As with the leaves that grow on a vigorous tree:</l>
+                    <l>One falls off and another sprouts—</l>
+                    <l>So with the generations of flesh and blood:</l>
+                    <l>One dies and another is born.</l>
+                    <p rend="footnote text">The metaphor is repeated in JWJ, <date when="07-10-1779"
+                            >July 10, 1779</date>: ‘Taking a solitary walk in the churchyard, I felt
+                        the truth of “One generation goeth, and another cometh.” See how the earth
+                        drops its inhabitants as the tree drops its leaves!’ Cf. also, <hi
+                            rend="italic">ibid.</hi>, <date when="10-13-1786">Oct. 13, 1786</date>;
+                        and No. 29, ‘Sermon on the Mount, IX’, §28.</p>
+                </lg>
+                <p>What if the generation of men be exactly parallel with the generation of leaves?
+                    If the earth drops its successive inhabitants just as the tree drops its leaves?
+                    What if that saying of a great man be really true,</p>
+                <lg>
+                    <l>
+                        <hi rend="italic">Post mortem nihil est ipsaque mors nihil?</hi>
+                    </l>
+                    <note place="foot" xml:id="ftn30" n="30">
+                        <p rend="footnote text">Cf. Seneca, <hi rend="italic">Troades</hi>,
+                            II.ii.397; more exactly: ‘There is nothing after death, and even death
+                            itself is nothing.’ This passage had been repeated by John Hawkins in a
+                            sermon in a London church that Wesley knew well (St. James,
+                            Clerkenwell), <hi rend="italic">The Certainty and Evidence of a Future
+                                State, being the Substance of Two Sermons Preached in the Parish
+                                Church of St. fames, Clerkenwell, Sunday, August 29, 1725</hi>, p.
+                            7.</p>
+                    </note>
+                    <l>Death is nothing and nothing is after death?</l>
+                </lg>
+                <p>How am I sure that this is not the case? That I have not followed cunningly
+                    devised fables? And I have pursued the thought till there was no spirit in me,
+                    and I was ready to choose strangling rather than life.<note place="foot"
+                        xml:id="ftn31" n="31"><p rend="footnote text">See Job 7:15.</p></note></p>
+                <p n="3">3. But in a point of so unspeakable importance do not depend on the word of
+                    another; but retire for a while from the busy world, <pb n="02:595"/>and make
+                    the experiment yourself. Try whether <hi rend="italic">your</hi> reason will
+                    give you a clear, satisfactory evidence of the invisible world. After the
+                    prejudices of education are laid aside, produce your strong reasons for the
+                    existence of this. Set them all in array; silence all objections, and put all
+                    your doubts to flight. Alas, you cannot, with all your understanding. You may
+                    perhaps repress them for a season. But how quickly will they rally again, and
+                    attack you with redoubled violence! And what can poor reason do for your
+                    deliverance? The more vehemently you struggle, the more deeply you are entangled
+                    in the toils. And you find no way to escape.</p>
+                <p n="4">4. How was the case with that great admirer of reason, the author of the
+                    maxim above cited? I mean the famous Mr. Hobbes. None will deny that he had a
+                    strong understanding. But did it produce in him a full and satisfactory
+                    conviction of an invisible world? Did it open the eyes of his understanding to
+                    see</p>
+                <quote>
+                    <hi rend="italic">Beyond the bounds of this diurnal sphere?</hi>
+                    <note place="foot" xml:id="ftn32" n="32">
+                        <p rend="footnote text">Milton, <hi rend="italic">Paradise Lost</hi>,
+                            vii.21-22; see No. 54, ‘On Eternity’, §18 and n.</p>
+                    </note>
+                </quote>
+                <p>Oh no! Far from it! His dying words ought never to be forgotten. ‘Where are you
+                    going, sir?’ said one of his friends. He answered, ‘I am taking a leap in the
+                    dark,’ and died.<note place="foot" xml:id="ftn33" n="33"><p rend="footnote text"
+                            >A legend that had already appeared in Samuel Wesley, Jun., <hi
+                                rend="italic">Poems</hi>, p. 84, and earlier in a ‘broadside’ sheet
+                            dated 1680, entitled <hi rend="italic">The Last Saying, or Dying Legacy
+                                of Mr. Thomas Hobbes</hi> (see also above, §1); and see John
+                            Watkins, <hi rend="italic">Characteristic Anecdotes</hi> (1808), <hi
+                                rend="italic">loc. cit.</hi></p></note> Just such an evidence of the
+                    invisible world can bare reason give to the wisest of men!</p>
+                <p n="5">5. Secondly, reason alone cannot produce hope in any child of man; I mean
+                    scriptural hope, whereby we ‘rejoice in hope of the glory of God’;<note
+                        place="foot" xml:id="ftn34" n="34"><p rend="footnote text">Rom.
+                        5:2.</p></note> that hope which St. Paul in one place terms, ‘tasting of the
+                    powers of the world to come’;<note place="foot" xml:id="ftn35" n="35"><p
+                            rend="footnote text">Cf. Heb. 6:5.</p></note> in another, the ‘sitting
+                    in heavenly places with Christ Jesus’.<note place="foot" xml:id="ftn36" n="36"
+                            ><p rend="footnote text">Cf. Eph. 2:6.</p></note> That which enables us
+                    to say, ‘Blessed be the God and Father of our Lord Jesus Christ, who hath
+                    begotten us again unto a lively hope, …to an inheritance incorruptible, and
+                    undefiled, and that fadeth not away, which is reserved in heaven for us.’<note
+                        place="foot" xml:id="ftn37" n="37"><p rend="footnote text">Cf. 1 Pet.
+                            1:3-4.</p></note> This hope can only spring from Christian faith:
+                    therefore where there is not faith, there is not hope. Consequently reason,
+                    being unable to produce faith, must be equally unable to produce hope.
+                    Experience confirms this likewise. How often have I laboured, <pb n="02:596"/>and that with my might, to beget this hope in myself? But it
+                    was lost labour. I could no more acquire this hope of heaven than I could touch
+                    heaven with my hand. And whoever of you makes the same attempt will find it
+                    attended with the same success. I do not deny that a self-deceiving enthusiast
+                    may work in himself a kind of hope. He may work himself up into a lively
+                    imagination, into a sort of pleasing dream. He may ‘compass himself about’, as
+                    the prophet speaks, ‘with sparks of his own kindling’. But this cannot be of
+                    long continuance; in a little while the bubble will surely break. And what will
+                    follow? ‘This shall ye have at my right hand,’ said the Lord, ‘ye shall lie down
+                    in sorrow.’<note place="foot" xml:id="ftn38" n="38"><p rend="footnote text">Cf.
+                            Isa. 50:11.</p></note></p>
+                <p n="6">6. If reason could have produced a hope full of immortality in any child of
+                    man, it might have produced it in that great man whom Justin Martyr scruples not
+                    to call, ‘a Christian before Christ’.<note place="foot" xml:id="ftn39" n="39"><p
+                            rend="footnote text">Cf. <hi rend="italic">The Second Apology</hi>, ch.
+                            10; and see also Robert Barclay<hi rend="italic">, Apology</hi> (1736),
+                            Prop. V-VI, ‘The Universal and Saving Light’, where a similar allusion
+                            is made to Socrates. For other references in the sermons to Socrates,
+                            cf. Nos. 54, ‘On Eternity’, §18; 71, ‘Of Good Angels’, §2; and 119,
+                            ‘Walking by Sight and Walking by Faith’, §10.</p></note> For who that
+                    was not favoured with the written Word of God ever excelled, yea, or equalled
+                    Socrates? In what other heathen can we find so strong an understanding, joined
+                    with so consummate virtue?<note place="foot" xml:id="ftn40" n="40"><p
+                            rend="footnote text">This allusion to Socrates’s ‘consummate virtue’
+                            calls to mind Wesley’s sarcastic reference to Dr. John Taylor’s applying
+                            the same to Jesus, as in Nos. 105, ‘On Conscience’, I.10; and 123, ‘On
+                            Knowing Christ after the Flesh’, §4.</p></note> But had he really this
+                    hope? Let him answer for himself. What is the conclusion of that noble apology
+                    which he made before his unrighteous judges? ‘And now, O judges, ye are going
+                    hence to live; and I am going hence to die. Which of these is best the gods
+                    know; but I suppose no man does.’<note place="foot" xml:id="ftn41" n="41"><p
+                            rend="footnote text">Cf. Plato, <hi rend="italic">Apology</hi>, 42: ‘I
+                            go to die and you to live; but which of us goes to the better lot is
+                            known only to God.’ Note that Wesley has magnified the distance between
+                            Socrates and Christianity by rendering Plato’s singular τῷ θεῷ as ‘the
+                            gods’. See No. 119, ‘Walking by Sight and Walking by Faith’,
+                        §10.</p></note> No man knows! How far is this from the language of the
+                    little Benjamite?<note place="foot" xml:id="ftn42" n="42"><p
+                            rend="footnote text">St. Paul, whose pride of tribal membership is
+                            reflected in Phil. 3:5 and Rom. 11:1. In his <hi rend="italic"
+                                >Notes</hi> also (Acts 19:21), Wesley uses the phrase, ‘the little
+                            Benjamite’ to apply to St. Paul. But he himself was ‘little’, and he had
+                            been brought up with the tradition (now proved incorrect) that his own
+                            middle name was Benjamin.</p></note> ‘I desire to depart and to be with
+                    Christ; for it is far better.’<note place="foot" xml:id="ftn43" n="43"><p
+                            rend="footnote text">Cf. Phil. 1:23.</p></note> And how many thousands
+                    are there at this day, even in our own nation, young men and maidens, old men
+                    and children, who are able to witness the same good confession!</p>
+                <p n="7"><pb n="02:597"/>7. But who is able to do this by the force of his reason,
+                    be it ever so highly improved? One of the most sensible and most amiable
+                    heathens that have lived since our Lord died, even though he governed the
+                    greatest empire in the world, was the Emperor Adrian.<note place="foot"
+                        xml:id="ftn44" n="44"><p rend="footnote text">I.e., Publius Aelius
+                            Hadrianus, Emperor A.D. 117-38, in succession to Trajan.</p></note> It
+                    is his well-known saying, ‘A prince ought to resemble the sun: he ought to shine
+                    on every part of his dominion, and to diffuse his salutary rays in every place
+                    where he comes.’<note place="foot" xml:id="ftn45" n="45"><p rend="footnote text"
+                            >Cf. Laurence Echard, <hi rend="italic">Ecclesiastical History</hi>,
+                            III.i.304: ‘Staying at Rome a short time, he [the Emperor Hadrian] took
+                            a resolution to visit the whole empire in person, and see if all things
+                            were well regulated and established; and taking with him a splendid
+                            retinue and a considerable force, he first entered Gaul, where he made a
+                            lustration of the inhabitants, viewed the cities and forts, giving marks
+                            of his favour, as in all other places of the empire. In his travels he
+                            usually said that an emperor ought to imitate the sun, who carried his
+                            light through all the regions of the earth; and he generally travelled
+                            on foot always with head bare, making no difference between the frozen
+                            Alps and the scorching sands of Egypt.’</p></note> And his life was a
+                    comment upon his word: wherever he went he was executing justice and showing
+                    mercy. Was not he then, at the close of a long life, full of immortal hope? We
+                    are able to answer this from unquestionable authority, from his own dying words.
+                    How inimitably pathetic!</p>
+                <lg>
+                    <l>
+                        <hi rend="italic">Adriani morientis ad animam suam</hi>
+                    </l>
+                    <l>
+                        <hi rend="italic">(Dying Adrian to his soul):</hi>
+                    </l>
+                    <l>
+                        <hi rend="italic">Animula, vagula, blandula,</hi>
+                    </l>
+                    <l>
+                        <hi rend="italic">Hospes, comesque corporis,</hi>
+                    </l>
+                    <l>
+                        <hi rend="italic">Quae nunc abibis in loca,</hi>
+                    </l>
+                    <l>
+                        <hi rend="italic">Pallidula, rigida, nudula,</hi>
+                    </l>
+                    <l>
+                        <hi rend="italic">Nec, ut soles, dabis jocos!</hi>
+                    </l>
+                    <note place="foot" xml:id="ftn46" n="46">
+                        <p rend="footnote text">Cf. <hi rend="italic">Minor Latin Poets</hi>, Loeb,
+                            284, p. 444. Wesley’s text here is verbatim.</p>
+                    </note>
+                </lg>
+                <p>Which the English reader may see translated into our own language with all the
+                    spirit of the original:</p>
+                <lg>
+                    <l>Poor, little, pretty, fluttering thing,</l>
+                    <l>Must we no longer live together.</l>
+                    <l>And dost thou prune thy trembling wing,</l>
+                    <l>To take thy flight thou know’st not whither?</l>
+                    <l>Thy pleasing vein, thy humorous folly,</l>
+                    <l>Lies all neglected, all forgot!</l>
+                    <l>And pensive, wav’ring, melancholy,</l>
+                    <l>Thou hop’st, and fear’st, thou know’st not what.</l>
+                    <note place="foot" xml:id="ftn47" n="47">
+                        <p rend="footnote text">Cf. Prior, ‘<hi rend="italic">Adriani morientis ad
+                                animam suam</hi>’ (cf. Aelius Spartianus, <hi rend="italic">De Vita
+                                Hadriani</hi>, §xxv); here, Wesley’s memory is less accurate. He had
+                            already published Pope’s experiments with this passage in <hi
+                                rend="italic">A Collection of Moral and Religious Poems</hi> (1744),
+                            II.184-85; see also Pope, <hi rend="italic">Works</hi> (1964), VI.91-94.
+                            The passage is repeated with further alterations in No. 119, ‘Walking by
+                            Sight and Walking by Faith’, §10; cf. Also <hi rend="italic">A Farther
+                                Appeal</hi>, Pt. II.III.19 (11:267 in this edn.).</p>
+                    </note>
+                </lg>
+                <p n="8"><pb n="02:598"/>8. Thirdly, reason, however cultivated and improved, cannot
+                    produce the love of God; which is plain from hence: it cannot produce either
+                    faith or hope, from which alone this love can flow. It is then only when we
+                    ‘behold’ by faith ‘what manner of love the Father hath bestowed upon us’,<note
+                        place="foot" xml:id="ftn48" n="48"><p rend="footnote text">1 John
+                        3:1.</p></note> in giving his only Son that we might not perish but have
+                    everlasting life,<note place="foot" xml:id="ftn49" n="49"><p
+                            rend="footnote text">John 3:16.</p></note> that ‘the love of God is shed
+                    abroad in our heart, by the Holy Ghost which is given unto us.’<note
+                        place="foot" xml:id="ftn50" n="50"><p rend="footnote text">Rom.
+                        5:5.</p></note> It is only then, when we ‘rejoice in hope of the glory of
+                        God’,<note place="foot" xml:id="ftn51" n="51"><p rend="footnote text">Rom.
+                            5:2.</p></note> that ‘we love him because he first loved us.’<note
+                        place="foot" xml:id="ftn52" n="52"><p rend="footnote text">1 John
+                        4:19.</p></note> But what can cold reason do in this matter? It may present
+                    us with fair ideas: it can draw a fine picture of love; but this is only a
+                    painted fire!<note place="foot" xml:id="ftn53" n="53"><p rend="footnote text"
+                            >Cf. <hi rend="italic">OED</hi> for an instance of this metaphor in
+                            Middle English as early as 1300.</p></note> And farther than this reason
+                    cannot go. I made the trial for many years. I collected the finest hymns,
+                    prayers, and meditations which I could find in any language; and I said, sung,
+                    or read them over and over with all possible seriousness and attention; but
+                    still I was like the bones in Ezekiel’s vision: ‘The skin covered them above;
+                    but there was no breath in them.’<note place="foot" xml:id="ftn54" n="54"><p
+                            rend="footnote text">Ezek. 37:8.</p></note></p>
+                <p n="9">9. And as reason cannot produce the love of God, so neither can it produce
+                    the love of our neighbour, a calm, generous, disinterested benevolence to every
+                    child of man. This earnest, steady goodwill to our fellow-creatures never flowed
+                    from any fountain but gratitude to our Creator. And if this be (as a very
+                    ingenious man supposes)<note place="foot" xml:id="ftn55" n="55"><p
+                            rend="footnote text">Probably Francis Hutcheson, professor of philosophy
+                            at Glasgow, whose stress on disinterested benevolence, transcending
+                            religious or utilitarian motives, struck Wesley as both wrong and
+                            dangerous. Cf. No. 12, ‘The Witness of Our Own Spirit’, §5 and
+                        n.</p></note> the very essence of virtue, it follows that virtue can have no
+                    being unless it spring from the love of God. Therefore as reason cannot produce
+                    this love, so neither can it produce virtue.</p>
+                <p n="10">10. And as it cannot give either faith, hope, love, or virtue, so it
+                    cannot give happiness, since separate from these there can be no happiness for
+                    any intelligent creature. It is true, those who are void of all virtue may have
+                    pleasures such as they are; but happiness they have not, cannot have. No:</p>
+                <pb n="02:599"/>
+                <lg>
+                    <l>Their joy is all sadness,</l>
+                    <l>Their mirth is all vain:</l>
+                    <l>Their laughter is madness:</l>
+                    <l>Their pleasure is pain!</l>
+                    <note place="foot" xml:id="ftn56" n="56">
+                        <p rend="footnote text">Charles Wesley, <hi rend="italic">Hymns for Those
+                                That Seek Redemption</hi> (1747), p. 32 (<hi rend="italic">Poet.
+                                Wks.</hi>, IV.241).</p>
+                    </note>
+                </lg>
+                <p>Pleasures? Shadows! Dreams! Fleeting as the wind; unsubstantial as the rainbow!
+                    As unsatisfying to the poor, gasping soul,</p>
+                <quote>As the gay colours of an eastern cloud.<note place="foot" xml:id="ftn57"
+                        n="57"><p rend="footnote text">See James Thomson, <hi rend="italic">The
+                                Seasons</hi>, ‘Spring’, I.203: ‘Meantime refracted from yon eastern
+                            cloud’.</p></note></quote>
+                <p>None of these will stand the test of reflection: if thought comes, the bubble
+                    breaks.</p>
+                <p>Suffer me now to add a few, plain words; first to you who undervalue reason.
+                    Never more declaim in that wild, loose, ranting manner against this precious
+                    gift of God. Acknowledge ‘the candle of the Lord’,<note place="foot"
+                        xml:id="ftn58" n="58"><p rend="footnote text">Prov. 20:27. A slogan of the
+                            Cambridge Platonists; cf. Benjamin Whichcote, <hi rend="italic">Moral
+                                and Religious Aphorisms</hi> (1753), No. 916; and Nathaniel
+                            Culverwell, <hi rend="italic">Discourse on the Light of Nature</hi>
+                            (1661; 2nd edn, 1669), I.1.</p></note> which he hath fixed in our souls
+                    for excellent purposes. You see how many admirable ends it answers, were it only
+                    in the things of this life; of what unspeakable use is even a moderate share of
+                    reason in all our worldly employments, from the lowest and meanest offices of
+                    life, through all the intermediate branches of business, till we ascend to those
+                    that are of the highest importance and the greatest difficulty. When therefore
+                    you despise or depreciate reason you must not imagine you are doing God service;
+                    least of all are you promoting the cause of God when you are endeavouring to
+                    exclude reason out of religion. Unless you wilfully shut your eyes, you cannot
+                    but see of what service it is both in laying the foundation of true religion,
+                    under the guidance of the Spirit of God, and in raising the whole
+                    superstructure. You see it directs us in every point both of faith and practice:
+                    it guides us with regard to every branch both of inward and outward holiness. Do
+                    we not glory in this, that the whole of our religion is a ‘reasonable
+                        service’.<note place="foot" xml:id="ftn59" n="59"><p rend="footnote text"
+                            >Rom. 12:1.</p></note> Yea, and that every part of it, when it is duly
+                    performed, is the highest exercise of our understanding.</p>
+                <p>Permit me to add a few words to you likewise who overvalue <pb n="02:600"
+                    />reason. Why should you run from one extreme into the other? Is not the middle
+                    way best?<note place="foot" xml:id="ftn60" n="60"><p rend="footnote text">Cf.
+                            No. 27, ‘Sermon on the Mount, VII’, §4 and n.</p></note> Let reason do
+                    all that reason can: employ it as far as it will go. But at the same time
+                    acknowledge it is utterly incapable of giving either faith, or hope, or love;
+                    and consequently of producing either real virtue or substantial happiness.
+                    Expect these from a higher source, even from the Father of the spirits of all
+                        flesh.<note place="foot" xml:id="ftn61" n="61"><p rend="footnote text">See
+                            Num. 16:22; 27:16.</p></note> Seek and receive them not as your own
+                    acquisition, but as the gift of God. Lift up your hearts to him who giveth to
+                    all men liberally, and upbraideth not.<note place="foot" xml:id="ftn62" n="62"
+                            ><p rend="footnote text">Jas. 1:5.</p></note> He alone can give that
+                    faith which is the evidence and ‘conviction of things not seen’.<note
+                        place="foot" xml:id="ftn63" n="63"><p rend="footnote text">Cf. Heb.
+                            11:1.</p></note> He alone can ‘beget you unto a lively hope’<note
+                        place="foot" xml:id="ftn64" n="64"><p rend="footnote text"> Cf. 1 Pet.
+                            1:3.</p></note> of an inheritance eternal in the heavens.<note
+                        place="foot" xml:id="ftn65" n="65"><p rend="footnote text">2 Cor.
+                        5:1.</p></note> And he alone can ‘shed abroad his love in your heart by the
+                    Holy Ghost given unto you’.<note place="foot" xml:id="ftn66" n="66"><p
+                            rend="footnote text">Cf. Rom. 5:5.</p></note> Ask, therefore, and it
+                    shall be given you;<note place="foot" xml:id="ftn67" n="67"><p
+                            rend="footnote text">See Matt. 7:7.</p></note> cry unto him, and you
+                    shall not cry in vain. How can you doubt! ‘If ye, being evil, know how to give
+                    good gifts unto your children, how much more shall your Father who is in heaven
+                    give the Holy Ghost unto them that ask him!’<note place="foot" xml:id="ftn68"
+                        n="68"><p rend="footnote text">Cf. Luke 11:13.</p></note> So shall you be
+                    living witnesses that wisdom, holiness, and happiness are one,<note place="foot"
+                        xml:id="ftn69" n="69"><p rend="footnote text">Cf. No. 5, ‘Justification by
+                            Faith’, I.4 and n.</p></note> are inseparably united; and are indeed the
+                    beginning of that ‘eternal life which God hath given us in his Son’.<note
+                        place="foot" xml:id="ftn70" n="70"><p rend="footnote text">Cf. 1 John
+                            5:11.</p></note></p>
+                <p><placeName>Langham Row</placeName>, <date>July 6, 1781</date><note place="foot"
+                        xml:id="ftn71" n="71"><p rend="footnote text">Place and date as in <hi
+                                rend="italic">AM</hi>.</p></note></p>
+            </div>
+        </body>
+    </text>
+</TEI>

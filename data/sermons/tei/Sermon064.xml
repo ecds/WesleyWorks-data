@@ -1,0 +1,505 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Sermon 64: The New Creation</title>
+                <author>Wesley, John</author>
+                <editor role="text">Van Buskirk, Gregory P.</editor>
+                <editor role="digital">Taylor, Michelle M.</editor>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>The Wesley Works Digitzation Project</publisher>
+                <pubPlace>Tampa, FL</pubPlace>
+                <date>2024-02-29</date>
+            </publicationStmt>
+            <sourceDesc>
+                <listBibl>
+                    <biblStruct>
+                        <analytic>
+                            <title level="a">Sermon 64: The New Creation</title>
+                        </analytic>
+                        <monogr>
+                            <title level="j">The Works of John Wesley, Volume II: Sermons II,
+                                34-70</title>
+                            <editor role="volume">Outler, Albert</editor>
+                            <imprint>
+                                <publisher>Abingdon Press</publisher>
+                                <pubPlace>Nashville, TN</pubPlace>
+                                <date when="1985-11-01">1985-11-01</date>
+                                <biblScope unit="volume" n="2"/>
+                                <biblScope unit="page" from="500" to="xxx"/>
+                            </imprint>
+                        </monogr>
+                        <series>
+                            <title level="s">The Works of John Wesley</title>
+                            <editor role="general">Baker, Frank</editor>
+                        </series>
+                    </biblStruct>
+                </listBibl>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Greg Van Buskirk created Word docs for all of Wesley's sermons using a combination of
+                OCR software and manual proofing. Michelle Taylor converted these docx into XML
+                using Oxygen's DITA automatic transformation scenario, then touched them up
+                manually.</p>
+        </encodingDesc>
+        <standOff>
+            <taxonomy>
+                <keywords>
+                    <term/>
+                </keywords>
+            </taxonomy>
+            <!--Include keywords and terms here eventually.-->
+        </standOff>
+        <revisionDesc/>
+    </teiHeader>
+    <text>
+        <body>
+            <pb n="02:500"/>
+            <head>
+                <hi rend="italic">An Introductory Comment</hi>
+            </head>
+            <introduction>
+                <p>The aged Wesley returned again and again to his vision of cosmic redemption: the
+                    restoration of all creation, including the entire human family, as the final,
+                    full benefit of God’s unbounded love. This sermon was written in 1785 for
+                    inclusion in the November and December issues of the <hi rend="italic">Arminian
+                        Magazine</hi> for that year (Vol. VIII), numbered XXX, without a title and
+                    no further indication of place or date. The only prior reference to a sermon on
+                    Rev. 21:5 comes just two years earlier (January 1, 1783); the only other
+                    recorded instance comes five years later (August 4, 1790). This present sermon
+                    was placed in <hi rend="italic">SOSO</hi> (V.209-22), with its present title and
+                    in the series of essays in Wesleyan eschatology that had begun with ‘God’s Love
+                    to Fallen Man’. It is remarkable for its unusual level of speculation (more than
+                    Wesley was wont to allow himself) and for its numerous allusions to the
+                    speculations of others, including an almost casual passing reference to a then
+                    quite lively controversy about ‘the plurality of [inhabited] worlds’. Wesley’s
+                    endorsement of the then novel idea of progress reflects his unfaltering
+                    optimism, in his case an optimism of grace rather than of nature.</p>
+            </introduction>
+            <head>The New Creation</head>
+            <epigraph>
+                <p>Revelation 21:5</p>
+                <p>
+                    <hi rend="italic">Behold, I make all things new.</hi>
+                </p>
+            </epigraph>
+            <p n="1">1. What a strange scene is here opened to our view! How remote from all our
+                natural apprehensions! Not a glimpse of what is here revealed was ever seen in the
+                heathen world.<note place="foot" xml:id="ftn1" n="1"><p>Wesley would, as a matter of
+                        course, have known the myth of Er which stands as the apocalyptic climax of
+                        Plato’s <hi rend="italic">Republic</hi>; why would he have regarded this as
+                        radically noncomparable with the biblical apocalypse?</p></note> Not only
+                the modern, barbarous, uncivilized heathens have not the least <pb n="02:501"
+                />conception of it; but it was equally unknown to the refined, polished heathens of
+                ancient Greece and Rome. And it is almost as little thought of or understood by the
+                generality of Christians: I mean, not barely those that are nominally such, that
+                have the form of godliness without the power;<note place="foot" xml:id="ftn2" n="2"
+                        ><p>See 2 Tim. 3:5.</p></note> but even those that in a measure fear God and
+                study to work righteousness.</p>
+            <p n="2">2. It must be allowed that after all the researches we can make, still our
+                knowledge of the great truth which is delivered to us in these words is exceedingly
+                short and imperfect. As this is a point of mere<note place="foot" xml:id="ftn3"
+                    n="3"><p><hi>Cf. Johnson’s definition of ‘mere’ as ‘this only; such and nothing
+                            else’.</hi></p></note> revelation, beyond the reach of all our natural
+                faculties, we cannot penetrate far into it, nor form any adequate conception of it.
+                But it may be an encouragement to those who have in any degree tasted of the powers
+                of the world to come<note place="foot" xml:id="ftn4" n="4"><p>See Heb.
+                    6:5.</p></note> to go as far as we can go, interpreting Scripture by Scripture,
+                according to the analogy of faith.<note place="foot" xml:id="ftn5" n="5"><p>Cf. No.
+                        5, ‘Justification by Faith’, §2 and n.; but see also No. 62, ‘The End of
+                        Christ’s Coming’, III.5 and n. </p></note></p>
+            <p n="3">3. The Apostle, caught up in the visions of God, tells us in the first verse of
+                the chapter, ‘I saw a new heaven and a new earth;’<note place="foot" xml:id="ftn6"
+                    n="6"><p>Rev. 21:1.</p></note> and adds, ‘He that sat upon the throne said (I
+                believe the only words which he is said to utter throughout the whole book), Behold,
+                I make all things new.’<hi rend="endnote_reference"><note place="end"><p
+                            rend="endnote text">[Rev. 21,] ver. 5.</p></note></hi></p>
+            <p n="4">4. Very many commentators entertain a strange opinion that this relates only to
+                the present state of things, and gravely tell us that the words are to be referred
+                to the flourishing state of the church, which commenced after the heathen
+                persecutions. Nay, some of them have discovered that all which the Apostle speaks
+                concerning the ‘new heaven and the new earth’ was fulfilled when Constantine the
+                Great poured in riches and honours upon the Christians.<note place="foot"
+                    xml:id="ftn7" n="7"><p><hi>Cf. No. 61, ‘The Mystery of Iniquity’, §27 and
+                            n.</hi></p></note> What a miserable way is this of making void the whole
+                counsel of God<note place="foot" xml:id="ftn8" n="8"><p> >See Luke 7:30.</p></note>
+                with regard to all that grand chain of events, in reference to his church, yea, and
+                to all mankind, from the time that John was in Patmos unto the end of the world!
+                Nay, the line of this prophecy reaches farther still. It does not end with the <pb
+                    n="02:502"/>present world, but shows us the things that will come to pass when
+                this world is no more.</p>
+            <p n="5">5. Thus saith the Creator and Governor of the universe, ‘Behold, I make all
+                things new:’ all which are included in that expression of the Apostle, ‘a new heaven
+                and a new earth’. ‘A new heaven’: the original word in Genesis (chapter one) is in
+                the plural number. And indeed this is the constant language of Scripture—not <hi
+                    rend="italic">heaven</hi>, but <hi rend="italic">heavens</hi>. Accordingly the
+                ancient Jewish writers are accustomed to reckon three heavens. In conformity to
+                which the apostle Paul speaks of his being ‘caught up into the third heaven’.<note
+                    place="foot" xml:id="ftn9" n="9"><p rend="footnote text">Cf. 2 Cor.
+                    12:2.</p></note> It is this, the third heaven, which is usually supposed to be
+                the more immediate residence of God—so far as any residence can be ascribed to his
+                omnipresent Spirit, who pervades and fills the whole universe. It is here (if we
+                speak after the manner of men) that the Lord sitteth upon his throne, surrounded by
+                angels and archangels, and by all his flaming ministers.</p>
+            <p n="6">6. We cannot think that this heaven will undergo any change, any more than its
+                great inhabitant. Surely this palace of the Most High was the same from eternity,
+                and will be world without end.<note place="foot" xml:id="ftn10" n="10"><p
+                        rend="footnote text">Eph. 3:21.</p></note> Only the inferior heavens are
+                liable to change; the highest of which we usually call the starry heaven.<note
+                    place="foot" xml:id="ftn11" n="11"><p rend="footnote text">Orig., ‘heavens’;
+                        Wesley deletes the ‘s’ in his annotated copy.</p></note> This, St. Peter
+                informs us, is ‘reserved unto fire, against the day of judgment and destruction of
+                ungodly men’.<note place="foot" xml:id="ftn12" n="12"><p rend="footnote text">Cf.
+                        Wesley’s <hi rend="italic">Notes</hi> on 2 Pet. 3:7, where he prefers the
+                        reading, ‘destruction’, in the Geneva Bible rather than the AV reading,
+                        ‘perdition’.</p></note> In that day, ‘being on fire’, it shall first shrivel
+                as a parchment scroll; then it shall ‘be dissolved’, and ‘shall pass away with a
+                great noise’;<note place="foot" xml:id="ftn13" n="13"><p rend="footnote text">Cf. 2
+                        Pet. 3:10-12; and note Wesley’s paraphrase and conflation of the
+                    text.</p></note> lastly it shall ‘flee from the face of him that sitteth on the
+                    throne’,<note place="foot" xml:id="ftn14" n="14"><p rend="footnote text">Cf.
+                        Rev. 6:16.</p></note> ‘and there shall be found no place for it.’<note
+                    place="foot" xml:id="ftn15" n="15"><p rend="footnote text">Cf. Rev.
+                    20:11.</p></note></p>
+            <p n="7">7. At the same time ‘the stars shall fall from heaven,’<note place="foot"
+                    xml:id="ftn16" n="16"><p rend="footnote text">Matt. 24:29.</p></note> the secret
+                chain being broken which had retained them in their several orbits from the
+                foundation of the world. In the meanwhile the lower or sublunary ‘heaven’,<note
+                    place="foot" xml:id="ftn17" n="17"><p rend="footnote text">I.e., this earth and
+                        its ‘heaven’ (atmosphere) as in Aristotelian and Ptolemaic astronomy; for
+                        this whole passage, cf. John Ray’s third discourse in <hi rend="italic"
+                            >Three Physico-Theological Discourses…III. The Dissolution of the
+                            World</hi> (4th edn. by William Derham, 1732).</p></note> with ‘the
+                elements’ (or <pb n="02:503"/>principles that compose it), ‘shall melt with fervent
+                heat,’ while ‘the earth with the works that are therein shall be burnt up.’<note
+                    place="foot" xml:id="ftn18" n="18"><p><hi>Cf. 2 Pet. 3:10.</hi></p></note> This
+                is the introduction to a far nobler state of things, such as it has not yet entered
+                into the heart of men to conceive—the universal restoration which is to succeed the
+                universal destruction. For ‘we look for’, says the Apostle, ‘new heavens and a new
+                earth, wherein dwelleth righteousness.’<hi rend="endnote_reference"><note
+                        place="end"><p rend="endnote text">2 Pet. 3:7, etc. [i.e., 7,
+                        13].</p></note></hi></p>
+            <p n="8">8. One considerable difference there will undoubtedly be in the starry heaven
+                when it is created anew; there will be no blazing stars, no comets there.<note
+                    place="foot" xml:id="ftn19" n="19"><p>Cf. No. 56, ‘God’s Approbation of His
+                        Works’, I.10 and n.</p></note> Whether those horrid, eccentric orbs are
+                half-formed planets, in a chaotic state (I speak on the supposition of a plurality
+                of worlds)<note place="foot" xml:id="ftn20" n="20"><p>Speculation as to the
+                        plurality of habitable worlds has a long history. Cicero, <hi rend="italic"
+                            >De Natura Deorum (On the Nature of the Gods),</hi> I.x.25, quotes
+                        Anaximenes as having held ‘that there are [inhabited] worlds, countless in
+                        number’; cf.<hi rend="italic">ibid.</hi> I.xxxix.98. See also Henry More,
+                            <hi rend="italic">Democritus Platonissans; Or An Essay Upon the Infinity
+                            of Worlds Out of Platonic Principles</hi> (Cambridge, 1647); and
+                        Christian Huygens, <hi rend="italic">The Celestial Worlds Discovered, Or
+                            Conjectures on the Planetary Worlds</hi> (1722), p. 18. Wesley’s
+                        interest in this is reflected in his quotation from Louis Dutens, <hi
+                            rend="italic">Inquiry into the Origin of the Discoveries Attributed to
+                            the Moderns</hi> (1769), about ‘the notion of the plurality of worlds’
+                        lately popularized ‘thanks to the elegant work of Mr. de Fontenelle’; see
+                        Wesley’s <hi rend="italic">Survey</hi> , V.114. This was Bernard de Bovier
+                        de Fontenelle, whose <hi rend="italic">Conversations On the Plurality of
+                            Worlds</hi> had become a conversation piece in eighteenth-century
+                        England. It had had four separate English translations (the first by the
+                        English novelist, Mrs. Aphra Behn) from 1688 to 1760. It is not known which
+                        of these Wesley had read.</p></note> or such as have undergone their general
+                conflagration, they will certainly have no place in the new heaven, where all will
+                be exact order and harmony. There may be many other differences between the heaven
+                that now is and that which will be after the renovation. But they are above our
+                apprehension: we must leave eternity to explain them.</p>
+            <p n="9">9. We may more easily conceive the changes which will be wrought in the lower
+                heaven, in the region of the air. It will be no more torn by hurricanes, or agitated
+                by furious storms or destructive tempests. Pernicious or terrifying meteors will
+                have no more place therein. We shall have no more occasion to say,</p>
+            <lg>
+                <l>There like a trumpet, loud and strong,</l>
+                <l> Thy thunder shakes our coast;</l>
+                <l>While the red lightnings wave along,</l>
+                <l> The banners of thy host!</l>
+                <note place="foot" xml:id="ftn21" n="21">
+                    <p> Watts, ‘A Song to Creating Wisdom’, Pt. II, st. vii, in <hi rend="italic"
+                            >Horae Lyricae</hi> (1705). Twelve stanzas of this appear in Wesley’s
+                            <hi rend="italic">A Collection of Psalms and Hymns</hi> (1738); it
+                        reappears in <hi rend="italic">A Collection of Hymns for the Use of the
+                            People Called Methodists</hi> (1780), No. 217 (Vol. 7 of this edn.).</p>
+                </note>
+            </lg>
+            <p><pb n="02:504"/>No; all will be then light, fair, serene—a lively picture of the
+                eternal day.</p>
+            <p n="10">10. All the elements (taking that word in the common sense for the principles
+                of which all natural beings are compounded)<note place="foot" xml:id="ftn22" n="22"
+                            ><p><hi rend="italic">Viz.</hi><hi>, earth, air, fire, and
+                        water.</hi></p></note> will be new indeed; entirely changed as to their
+                qualities, although not as to their nature. <hi rend="italic">Fire</hi> is at
+                present the general destroyer of all things under the sun; dissolving all things
+                that come within the sphere of its action, and reducing them to their primitive
+                atoms. But no sooner will it have performed its last great office of destroying the
+                heavens and the earth (whether you mean thereby one system only, or the whole fabric
+                of the universe—the difference between one and millions of worlds being nothing
+                before the great Creator); when, I say, it has done this, the destruction wrought by
+                fire will come to a perpetual end. It will destroy no more; it will consume no more;
+                it will forget its power to burn, which it possesses only during the present state
+                of things, and be as harmless in the new heavens and earth as it is now in the
+                bodies of men and other animals, and the substance of trees and flowers; in all
+                which (as late experiments show) large quantities of ethereal fire<note place="foot"
+                    xml:id="ftn23" n="23"><p> See No. 15, <hi rend="italic">The Great
+                            Assize</hi><hi>, III.3 and n.</hi>
+                    </p></note> are lodged—if it be not rather an essential component part of every
+                material being under the sun. But it will probably retain its vivifying power,
+                though divested of its power to destroy.</p>
+            <p n="11">11. It has been already observed that the calm, placid <hi rend="italic"
+                    >air</hi> will be no more disturbed by storms and tempests. There will be no
+                more meteors with their horrid glare, affrighting the poor children of men. May we
+                not add (though at first it may sound like a paradox) that there will be no more
+                rain. It is observable that there was none in paradise; a circumstance which Moses
+                particularly mentions: ‘The Lord God had not caused it to rain upon the earth. But
+                there went up a mist from the earth,’ which then covered up the abyss of waters,
+                ‘and watered the whole face of the ground’<hi rend="endnote_reference"><note
+                        place="end"><p rend="endnote text">Gen. 2:5-6.</p></note></hi> with moisture
+                sufficient for all the purposes of vegetation. We have all reason to believe that
+                the case will be the same when paradise is restored. Consequently there will be no
+                    <hi rend="Page">[02:505]</hi>more clouds or fogs; but one bright, refulgent day.
+                Much less will there be any poisonous damps or pestilential blasts. There will be no
+                sirocco in Italy; no parching or suffocating winds in Arabia; no keen north-east
+                winds in our own country,</p>
+            <quote>Shattering the graceful locks of yon fair trees;<note place="foot" xml:id="ftn24"
+                    n="24"><p>Cf. Milton, <hi rend="italic">Paradise Lost</hi>, x.1065-67:</p>
+                    <lg>
+                        <l>…while the winds</l>
+                        <l>Blow, moist and keen, shattering the graceful locks</l>
+                        <l>Of these fair spreading trees;…</l>
+                        <l>but only pleasing, healthful breezes,</l>
+                        <l>Fanning the earth with odoriferous wings.</l></lg></note></quote>
+            <note place="foot" xml:id="ftn25" n="25">
+                <p>Cf. <hi rend="italic">ibid.</hi>, iv.156-58:</p>
+                <lg>
+                    <l>Now gentle gales,</l>
+                    <l>Fanning their odoriferous wings, dispense</l>
+                    <l>Native perfumes…</l>
+                </lg>
+            </note>
+            <p n="12">12. But what change will the element of <hi rend="italic">water</hi> undergo
+                when all things are made new? It will be in every part of the world clear and
+                limpid, pure from all unpleasing or unhealthful mixtures; rising here and there in
+                crystal fountains to refresh and adorn the earth ‘with liquid lapse of murmuring
+                    stream’.<note place="foot" xml:id="ftn26" n="26"><p><hi rend="italic"
+                            >Ibid.</hi><hi>, viii.263. See No. 56, ‘God’s Approbation of His Works’,
+                            I.4 and n.</hi></p></note> For undoubtedly, as there were in paradise,
+                there will be various rivers gently gliding along, for the use and pleasure of both
+                man and beast. But the inspired writer has expressly declared, ‘there will be no
+                more sea.’<hi rend="endnote_reference"><note place="end"><p rend="endnote text">Rev.
+                            21:1.</p></note></hi> We have reason to believe that at the beginning of
+                the world, when God said, ‘Let the waters under the heaven be gathered together unto
+                one place, and let the dry land appear,’<hi rend="endnote_reference"><note
+                        place="end"><p rend="endnote text">Gen. 1:9.</p></note></hi> the dry land
+                spread over the face of the water, and covered it on every side. And so it seems to
+                have done till, in order to the general deluge which he had determined to bring upon
+                the earth at once, ‘the windows of heaven were opened, and the fountains of the
+                great deep broken up.’<note place="foot" xml:id="ftn27" n="27"><p>>Cf. Gen.
+                        7:11.</p></note> But the sea will then retire within its primitive bounds,
+                and appear on the surface of the earth no more. Neither indeed will there be any
+                more need of the sea. For either as the ancient poet supposes, <pb n="02:506"/></p>
+            <quote><hi rend="italic">Omnis feret omnia tellus</hi><note place="foot" xml:id="ftn28"
+                    n="28"><p rend="footnote text">Virgil, <hi rend="italic">Eclogues</hi>, iv.39;
+                        see No. 56, ‘God’s Approbation of His Works’, I.4 and n.</p></note>—</quote>
+            <p>every part of the earth will naturally produce whatever its inhabitants want—or all
+                mankind will procure what the whole earth affords by a much easier and readier
+                conveyance. For all the inhabitants of the earth, our Lord informs us, will then be
+                    ἰσάγγελοι,<note place="foot" xml:id="ftn29" n="29"><p rend="footnote text">Luke
+                        20:36.</p></note> ‘equal to angels’; on a level with them in swiftness as
+                well as strength; so that they can quick as thought transport themselves or whatever
+                they want from one side of the globe to the other.</p>
+            <p n="13">13. But it seems a greater change will be wrought in the earth than even in
+                the air and water. Not that I can believe that wonderful discovery of Jacob
+                    Behmen,<note place="foot" xml:id="ftn30" n="30"><p> An English spelling of Jakob
+                        Boehme (1575-1624), the famous German theosophist, widely influential in
+                        England, espec. in the later works of William Law. Cf. No. 15, <hi
+                            rend="italic">The Great Assize</hi><hi>, III.3. and n.</hi></p></note>
+                which many so eagerly contend for, that the earth itself with all its furniture and
+                inhabitants will then be transparent as glass.<note place="foot" xml:id="ftn31"
+                    n="31"><p><hi rend="italic">Ibid.</hi></p></note> There does not seem to be the
+                least foundation for this, either in Scripture or reason. Surely not in Scripture: I
+                know not one text in the Old or<note place="foot" xml:id="ftn32" n="32"><p><hi
+                            rend="italic">AM</hi> orig., ‘and’, altered in Wesley’s errata and MS
+                        annotations.</p></note> New Testament which affirms any such thing.
+                Certainly it cannot be inferred from that text in the Revelation, chapter the
+                fourth, verse the sixth: ‘And before the throne there was a sea of glass, like unto
+                crystal.’ And yet, if I mistake not, this is the chief, if not the only Scripture
+                which has been urged in favour of this opinion! Neither can I conceive that it has
+                any foundation in reason. It has indeed been warmly alleged that all things would be
+                far more beautiful if they were quite transparent. But I cannot apprehend this; yea,
+                I apprehend quite the contrary. Suppose every part of a human body were made
+                transparent as crystal, would it appear more beautiful than it does now? Nay, rather
+                it would shock us above measure. The surface of the body, and in particular ‘the
+                human face divine’,<note place="foot" xml:id="ftn33" n="33"><p> Milton, <hi
+                            rend="italic">Paradise Lost</hi><hi>, iii.44.</hi></p></note> is
+                undoubtedly one of the most beautiful objects that can be found under heaven. But
+                could you look through the rosy cheek, the smooth, fair forehead, or the rising
+                bosom, and distinctly see all that lies within, you would turn away from it with
+                loathing and horror.<hi rend="Page">[02:</hi><hi rend="Page">507]</hi></p>
+            <p n="14">14. Let us next take a view of those changes which we may reasonably suppose
+                will then take place in the <hi rend="italic">earth</hi>. It will no more be bound
+                up with intense cold, nor parched up with extreme heat; but will have such a
+                temperature as will be most conducive to its fruitfulness. If in order to punish its
+                inhabitants God did of old</p>
+            <lg>
+                <l>Bid his angels turn askance</l>
+                <l>This oblique globe,</l>
+                <note place="foot" xml:id="ftn34" n="34">
+                    <p rend="footnote text">Cf. Milton, <hi rend="italic">Paradise Lost</hi>,
+                        x.668-71; cf. No. 56, ‘God’s Approbation of His Works’, I.6 and n.</p>
+                </note>
+            </lg>
+            <p>thereby occasioning violent cold on one part, and violent heat on the other; he will
+                undoubtedly then order them to restore it to its original position; so that there
+                will be a final end, on the one hand of the burning heat which makes some parts of
+                it scarce habitable; and on the other of</p>
+            <quote>The rage of Arctos, and eternal frost.<note place="foot" xml:id="ftn35" n="35"
+                        ><p> Prior, <hi rend="italic">Solomon</hi><hi>, i.265; cf. No. 56, ‘God’s
+                            Approbation of His Works’, I.6 and n.</hi></p></note></quote>
+            <p n="15">15. And it will then contain no jarring or destructive principles within its
+                own bosom. It will no more have any of those violent convulsions in its own bowels.
+                It will no more be shaken or torn asunder by the impetuous force of <hi
+                    rend="italic">earthquakes</hi>; and will therefore need neither Vesuvius nor
+                Etna, nor any <hi rend="italic">burning mountains</hi><note place="foot"
+                    xml:id="ftn36" n="36"><p> Cf. Thomas Burnet, <hi rend="italic">Sacred Theory of
+                            the Earth</hi> , II.55 (a favourite of Wesley; cf. JWJ, Jan. 17, 1770),
+                        where among the features of the primal catastrophe are ‘burning mountains or
+                        volcanoes of the earth’. See Wesley’s echo of this in No. 15, <hi
+                            rend="italic">The Great Assize</hi><hi>, III.4 and n.</hi></p></note> to
+                prevent them. There will be no more horrid rocks or frightful precipices; no wild
+                deserts or barren sands; no impassable morasses or unfaithful<note place="foot"
+                    xml:id="ftn37" n="37"><p> Orig., <hi rend="italic">AM</hi> and <hi rend="italic"
+                            >SOSO</hi> , ‘unfruitful’, altered by Wesley in <hi rend="italic"
+                            >AM</hi> errata and his MS annotations to ‘unfaithful’.</p></note> bogs
+                to swallow up the unwary traveller. There will doubtless be inequalities on the
+                surface of the earth, which are not blemishes, but beauties. For<note place="foot"
+                    xml:id="ftn38" n="38"><p> Orig., <hi rend="italic">AM</hi> and <hi rend="italic"
+                            >SOSO</hi> , ‘And’, but altered by Wesley in <hi rend="italic">AM</hi>
+                        errata and MS annotations to ‘For’.</p></note> though I will not affirm
+                that</p>
+            <lg>
+                <l>earth hath this variety from heaven</l>
+                <l>Of pleasure situate in hill and dale;</l>
+                <note place="foot" xml:id="ftn39" n="39">
+                    <p> Milton, <hi rend="italic">Paradise Lost,</hi> vi. 640-41. See No. 124,
+                        ‘Human Life a Dream’, §7.</p>
+                </note>
+            </lg>
+            <p><pb n="02:508"/>yet I cannot think gently rising hills will be any defect, but an
+                ornament of the new-made earth. And doubtless we shall then likewise have occasion
+                to say:</p>
+            <lg>
+                <l>Lo there his wondrous skill arrays</l>
+                <l> The fields in cheerful green!</l>
+                <l>A thousand herbs his hand displays,</l>
+                <l> A thousand flowers between!</l>
+                <note place="foot" xml:id="ftn40" n="40">
+                    <p rend="footnote text">Cf. Watts, above, §9. Watts’s own text reads:</p>
+                    <lg>
+                        <l>How did his wondrous skill array</l>
+                        <l>Your fields in charming green;</l>
+                        <l>A thousand herbs his art display,</l>
+                        <l>A thousand flowers between!</l>
+                    </lg>
+                </note>
+            </lg>
+            <p n="16">16. And what will the general produce of the earth be? Not thorns, briars, or
+                thistles. Not any useless or fetid weed; not any poisonous, hurtful, or unpleasant
+                plant; but every one that can be conducive in any wise either to our use or
+                pleasure. How far beyond all that the most lively imagination is now able to
+                conceive! We shall no more regret the loss of the terrestrial paradise, or sigh at
+                that well-devised description of our great poet;</p>
+            <lg>
+                <l>Then shall this mount</l>
+                <l>Of paradise by might of waves be moved</l>
+                <l>Out of his place, pushed by the horned flood,</l>
+                <l>With all its verdure spoiled, and trees adrift,</l>
+                <l>Down the great river to the opening gulf,</l>
+                <l>And there take root, an island salt and bare!</l>
+                <note place="foot" xml:id="ftn41" n="41">
+                    <p> Milton, <hi rend="italic">Paradise Lost</hi>, xi.829-34.</p>
+                </note>
+            </lg>
+            <p>For all the earth shall then be a more beautiful paradise than Adam ever saw.<note
+                    place="foot" xml:id="ftn42" n="42"><p>>Cf. No. 59, ‘God’s Love to Fallen Man’,
+                        I.1 and n.</p></note></p>
+            <p n="17">17. Such will be the state of the new earth with regard to the meaner, the
+                inanimate parts of it. But great as this change will be, it is little, it is
+                nothing, in comparison of that which will then take place throughout all animated
+                nature. In the living part of the creation were seen the most deplorable effects of
+                Adam’s apostasy. The whole animated creation, whatever has life, from leviathan to
+                the smallest mite, was thereby ‘made subject’ to such ‘vanity’<note place="foot"
+                    xml:id="ftn43" n="43"><p> >Rom. 8:20.</p></note> as the inanimate creatures
+                could not be. They were <pb n="02:509"/>subject to that fell<note place="foot"
+                    xml:id="ftn44" n="44"><p> Johnson, <hi rend="italic">Dictionary</hi> , defines
+                        ‘fell’ as ‘cruel, barbarous, inhuman, savage, ravenous’. It occurs
+                        frequently in the literature of the time, referring to ‘war’ (as in Nicholas
+                        Rowe, <hi rend="italic">Tamerlane</hi> , Act I, sc. 1; see No. 128, ‘The
+                        Deceitfulness of the Human Heart’, II.4), ‘anger’ and ‘destruction’ (cf.
+                        Beaumont and Fletcher, <hi rend="italic">Bonduca</hi> , Act III, sc. 5),
+                        ‘revenge’ (Beattie, <hi rend="italic">The Minstrel</hi> , II.xlvi.6), and
+                        even to ‘love’ (as in Spenser, <hi rend="italic">Faerie Queene</hi><hi>, Bk.
+                            II, Canto IV.xxxv.3).</hi></p></note> monster, death, the conqueror of
+                all that breathe. They were made subject to its forerunner, pain, in its ten
+                thousand forms; although ‘God made not death, neither hath he pleasure in the death
+                of any living.’<note place="foot" xml:id="ftn45" n="45"><p>>Cf. Wisd. 1:13. See also
+                        No. 60, ‘The General Deliverance’, I.5 and n.</p></note> How many millions
+                of creatures in the sea, in the air, and on every part of the earth, can now no
+                otherwise preserve their own lives than by taking away the lives of others; by
+                tearing in pieces and devouring their poor, innocent, unresisting fellow-creatures!
+                Miserable lot of such innumerable multitudes, who, insignificant as they seem, are
+                the offspring of one common Father, the creatures of the same God of love! It is
+                probable not only two-thirds of the animal creation, but ninety-nine parts out of a
+                hundred, are under a necessity of destroying others in order to preserve their own
+                    life!<note place="foot" xml:id="ftn46" n="46"><p>>Cf. No. 56, ‘God’s Approbation
+                        of His Works’, I.12 and n.</p></note> But it shall not always be so. He that
+                sitteth upon the throne<note place="foot" xml:id="ftn47" n="47"><p>>See Rev. 5:13;
+                        6:16; 7:15.</p></note> will soon change the face of all things, and give a
+                demonstrative proof to all his<note place="foot" xml:id="ftn48" n="48"><p> Wesley
+                        adds ‘his’ only in the MS annotations to <hi rend="italic">SOSO</hi>
+                    >.</p></note> creatures that ‘his mercy is over all his works.’<note
+                    place="foot" xml:id="ftn49" n="49"><p> >Ps. 145:9 (BCP).</p></note> The horrid
+                state of things which at present obtains will soon be at an end. On the new earth no
+                creature will kill or hurt or give pain to any other. The scorpion will have no
+                poisonous sting, the adder no venomous teeth. The lion will have no claws to tear
+                the lamb; no teeth to grind his flesh and bones. Nay, no creature, no beast, bird,
+                or fish, will have any inclination to hurt any other. For cruelty will be far away,
+                and savageness and fierceness be forgotten. So that violence shall be heard no more,
+                neither wasting or destruction seen on the face of the earth. ‘The wolf shall dwell
+                with the lamb’ (the words may be literally as well as figuratively understood) ‘and
+                the leopard shall lie down with the kid.’<note place="foot" xml:id="ftn50" n="50"
+                            ><p><hi>Isa. 11:6.</hi></p></note> ‘They shall not hurt or
+                    destroy,’<note place="foot" xml:id="ftn51" n="51"><p> >Cf. Isa. 11:9.</p></note>
+                from the rising up of the sun to the going down of the same.</p>
+            <p n="18">18. But the most glorious of all will be the change which then <pb n="02:510"
+                />will take place on the poor, sinful, miserable children of men. These had fallen
+                in many respects, as from a greater height, so into a lower depth than any other
+                part of the creation. But they shall ‘hear a great voice out of heaven, saying,
+                Behold, the tabernacle of God is with men, and he will dwell with them, and they
+                shall be his people, and God himself shall be their God.’ Hence will arise an
+                unmixed state of holiness and happiness far superior to that which Adam enjoyed in
+                    paradise.<note place="foot" xml:id="ftn52" n="52"><p>>Cf. No. 5, ‘Justification
+                        by Faith’, I.4 and n.</p></note> In how beautiful and affecting a manner is
+                this described by the Apostle! ‘God shall wipe away all tears from their eyes; and
+                there shall be no more death, neither sorrow nor crying, neither shall there be any
+                more pain: for the former things are done away.’<hi rend="endnote_reference"><note
+                        place="end"><p rend="endnote text">Rev. 21:3-4.</p></note></hi> As there
+                will be no more death, and no more pain or sickness preparatory thereto; as there
+                will be no more grieving for or parting with friends; so there will be no more
+                sorrow or crying. Nay, but there will be a greater deliverance than all this; for
+                there will be no more sin. And to crown all, there will be a deep, an intimate, an
+                uninterrupted union with God; a constant communion with the Father and his Son Jesus
+                Christ, through the Spirit; a continual enjoyment of the Three-One God,<note
+                    place="foot" xml:id="ftn53" n="53"><p> Cf. No. 55, <hi rend="italic">On the
+                            Trinity</hi><hi>, §17 and n.</hi></p></note> and of all the creatures in
+                    him!<note place="foot" xml:id="ftn54" n="54"><p> For other summaries of Wesley’s
+                        eschatology, cf. No. 15, <hi rend="italic">The Great Assize</hi>, intro.,
+                        II.4, and n.</p></note></p>
+        </body>
+    </text>
+</TEI>
