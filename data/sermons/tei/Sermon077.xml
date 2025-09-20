@@ -1,0 +1,745 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Sermon 77: Spiritual Worship</title>
+                <author>Wesley, John</author>
+                <editor role="text">Van Buskirk, Gregory P.</editor>
+                <editor role="digital">Taylor, Michelle M.</editor>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>The Wesley Works Digitzation Project</publisher>
+                <pubPlace>Tampa, FL</pubPlace>
+                <date>2024-02-25</date>
+            </publicationStmt>
+            <sourceDesc>
+                <listBibl>
+                    <biblStruct>
+                        <analytic>
+                            <title level="a">Sermon 77: Spiritual Worship</title>
+                        </analytic>
+                        <monogr>
+                            <title level="j">The Works of John Wesley, Volume III: Sermons III,
+                                71-114</title>
+                            <editor role="volume">Outler, Albert</editor>
+                            <imprint>
+                                <publisher>Abingdon Press</publisher>
+                                <pubPlace>Nashville, TN</pubPlace>
+                                <date when="1986-11-01">1986-11-01</date>
+                                <biblScope unit="volume" n="3"/>
+                                <biblScope unit="page" from="88" to="89"/>
+                                <biblScope unit="page" from="90" to="102"/>
+                            </imprint>
+                        </monogr>
+                        <series>
+                            <title level="s">The Works of John Wesley</title>
+                            <editor role="general">Baker, Frank</editor>
+                        </series>
+                    </biblStruct>
+                </listBibl>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Greg Van Buskirk created Word docs for all of Wesley's sermons using a combination of
+                OCR software and manual proofing. Michelle Taylor converted these docx into XML
+                using Oxygen's DITA automatic transformation scenario, then touched them up
+                manually.</p>
+        </encodingDesc>
+        <standOff>
+            <taxonomy>
+                <keywords>
+                    <term/>
+                </keywords>
+            </taxonomy>
+            <!--Include keywords and terms here eventually.-->
+        </standOff>
+        <revisionDesc/>
+    </teiHeader>
+    <text>
+        <body>
+            <pb n="03:088"/>
+            <head>
+                <hi rend="italic">An Introductory Comment [to Sermons 77-78]</hi>
+            </head>
+            <introduction>
+                <p>This is another pair of sermons that belong together. They were written in the
+                    same fortnight and on the same text, 1 John 5:20-21; they were then quickly
+                    published in sequence in the <hi rend="italic">Arminian Magazine</hi> as
+                    ‘Sermons II and III’. Their shared theme is the very fundament of all Wesley’s
+                    theology: the valid worship of the one true God incarnate in the Son, and the
+                    folly of ‘spiritual idolatry’, which is to say, any other focus of human
+                    devotion than God in Christ. Together, they add up to a single essay in a
+                    Christocentric doctrine of spirituality. What is not so clear, however, is their
+                    placement (along with their sequel ‘On Dissipation’) in <hi rend="italic"
+                        >SOSO</hi>, VI, very far past the point where they could have served a
+                    schematic purpose as an essay in fundamental theology.</p>
+                <p>‘Spiritual Worship’, without that title, is dated in London on December 22, 1780.
+                    This, of course, would have been in the still tense aftermath of the tragic
+                    Gordon Riots of the previous June.<note place="foot" xml:id="ftn1" n="1"><p
+                            rend="footnote text">See John Paul De Castro, <hi rend="italic">The
+                                Gordon Riots</hi> (Oxford Univ. Press, 1926); George Rudé, <hi
+                                rend="italic">Hanoverian London, 1714-1808</hi>, pp. 178-79, 221-26;
+                            and Leslie Stephen’s article on Lord George Gordon [‘agitator’] in <hi
+                                rend="italic">DNB</hi>.</p></note> Wesley had been absent from
+                    London at the time of the riots, but his sympathies with Gordon and the
+                    Protestant Association are hard to reconcile with his repeated disavowals of any
+                    intention to persecute Catholics, since there is no denying that the riots
+                    themselves were savagely anti-Catholic.<note place="foot" xml:id="ftn2" n="2"><p
+                            rend="footnote text">Cf. JWJ, entries for Nov. 5 through Dec. 29, 1780,
+                            espec. Dec. 16, and his letter of Mar. 23, 1780, to <hi rend="italic"
+                                >Freeman’s Journal</hi>, reprinted in <hi rend="italic">AM</hi>,
+                            IV.295-300.</p></note> The sermon itself, however, is a sermonic essay
+                    in theology proper, the reality of God in trinitarian terms, ‘the essence of
+                    true religion’ understood as ‘our happy knowledge of God’, with knowledge being
+                    defined less as acquaintance than as communion. There is a special stress on
+                    divine prevenience and many an echo from his earlier Oxford sermon, ‘The
+                    Circumcision of the Heart’.</p>
+                <p>‘Spiritual Idolatry’ was dated January 5, 1781, also in London, and is clearly a
+                    sequel to ‘Spiritual Worship’. It was also as clearly written for the <hi
+                        rend="italic">Arminian Magazine</hi> as one of two parts of a basic theme.
+                    This <pb n="03:089"/>impression is reinforced by the fact that there is only a
+                    single reference to 1 John 5:21 as a preaching text before 1780 (and only two to
+                    1 John 5:20). It moves beyond conventional notions to the classical view of
+                    idolatry as the ‘idolizing of any human creature’ or anything like supreme
+                    devotion to any other good than God. Then it focuses on Wesley’s favourite text
+                    about sin: the famous <hi rend="italic">triplex concupiscentia</hi> of 1 John
+                    2:16, and the folly of life on any other terms than wholehearted piety to God.
+                    For other references to idolatry, cf. Nos. 44, <hi rend="italic">Original
+                        Sin</hi>, II.7; 127, ‘On the Wedding Garment’, §12; and 128, ‘The
+                    Deceitfulness of the Human Heart’, I.4; see also Wesley’s letter to Samuel,
+                    Jun., for a comment on an early sermon on the idolatry of the Samaritans
+                    (December 5, 1726); and <hi rend="italic">A Word to a Protestant</hi> (<hi
+                        rend="italic">Bibliog</hi>, No. 113; Vol. 14 of this edn.).</p>
+                <p>The two sermons were published in succession, without titles, in the first volume
+                    of the <hi rend="italic">Arminian Magazine</hi> to introduce Wesley’s original
+                    sermons, 1781: in March and April for ‘Spiritual Worship’ (IV.129-36, 184-89),
+                    and May and June for ‘Spiritual Idolatry’ (IV.242-50, 300-3). Titles were
+                    supplied for their republication in <hi rend="italic">SOSO</hi>, VI—‘Spiritual
+                    Worship’, pp. 239-60, and ‘Spiritual Idolatry’ pp. 261-80. There is no record of
+                    any other editions of them during Wesley’s lifetime.</p>
+            </introduction>
+            <head>Spiritual Worship</head>
+            <epigraph>
+                <p>1 John 5:20</p>
+                <p>
+                    <hi rend="italic">This is the true God, and eternal life.</hi>
+                </p>
+            </epigraph>
+            <div type="introduction">
+                <p n="1">1. In this epistle St. John speaks, not to any particular church, but to
+                    all the Christians of that age; although more especially to them among whom he
+                    then resided. And in them he speaks to the whole Christian church in all
+                    succeeding ages.</p>
+                <p n="2">2. In this letter, or rather tract (for he was present with those to whom
+                    it was more immediately directed, probably being not able to preach to them any
+                    longer, because of his extreme old age) he does not treat directly of faith,
+                    which St. Paul had done; neither of inward and outward holiness, concerning
+                    which both St. Paul, St. James, and St. Peter had spoken; but of the foundation
+                    of all, the <pb n="03:090"/>happy and holy communion which the faithful have
+                    with God the Father, Son, and Holy Ghost.</p>
+                <p n="3">3. In the preface he describes the authority by which he wrote and spoke,
+                    and expressly points out the design of his present writing.<hi
+                        rend="endnote_reference"><note place="end"><p rend="endnote text">[1 John]
+                                Chap. 1, ver. 1-4.</p></note></hi> To the preface exactly answers
+                    the conclusion of the Epistle, more largely explaining the same design, and
+                    recapitulating the marks of our communion with God, by ‘we know’, thrice
+                        repeated.<hi rend="endnote_reference"><note place="end"><p
+                                rend="endnote text">Chap. 5, ver. 18-20.</p></note></hi></p>
+                <p n="4">4. The tract itself treats,</p>
+                <p>First, severally, of communion with the Father, chapter one, verses 5-10; of
+                    communion with the Son, chapters two and three; of communion with the Spirit,
+                    chapter four.</p>
+                <p>Secondly, conjointly, of the testimony of the Father, Son, and Holy Ghost, on
+                    which faith in Christ, the being born of God, love to God and his children, the
+                    keeping his commandments, and victory over the world, are founded, chapter five,
+                    verses 1-12.</p>
+                <p n="5">5. The recapitulation begins, chapter five, verse 18: ‘We know that he who
+                    is born of God’, who sees and loves God, ‘sinneth not,’ so long as this loving
+                    faith abideth in him. ‘We know that we are of God’, children of God, by the
+                    witness and the fruit of the Spirit; ‘and the whole world’, all who have not the
+                    Spirit, ‘lieth in the wicked one.’ They are, and live, and dwell in him, as the
+                    children of God do in the Holy One. ‘We know that the Son of God is come; and
+                    hath given us a’ spiritual ‘understanding, that we may know the true one’, the
+                    faithful and true witness. ‘And we are in the true one’, as branches in the
+                    vine. ‘This is the true God, and eternal life.’</p>
+                <p>In considering these important words we may inquire,</p>
+                <p>First, how is he the true God?</p>
+                <p>Secondly, how is he eternal life?</p>
+                <p>I shall then, in the third place, add a few inferences.</p>
+            </div>
+            <div type="section" n="1">
+                <p n="1">I. [1.] And first we may inquire, how is he the true God?<note place="foot"
+                        xml:id="ftn3" n="3"><p rend="footnote text">Cf. John Deschner, <hi
+                                rend="italic">Wesley’s Christology</hi>, ch. I.</p></note> He is
+                    ‘God over all, blessed for ever’.<note place="foot" xml:id="ftn4" n="4"><p
+                            rend="footnote text">Cf. Rom. 9:5.</p></note> ‘He was with God’, with
+                    God the Father, ‘from the beginning’, from eternity, ‘and was God.’<note
+                        place="foot" xml:id="ftn5" n="5"><p rend="footnote text">Cf. John
+                        1:1-2.</p></note> ‘He and the Father are one;’<note place="foot"
+                        xml:id="ftn6" n="6"><p rend="footnote text">Cf. John 10:30.</p></note> and
+                    consequently he ‘thought it not robbery to be equal with God’.<note place="foot"
+                        xml:id="ftn7" n="7"><p rend="footnote text">Phil. 2:6.</p></note>
+                    Accordingly the inspired writers <pb n="03:091"/>give him all the titles of the
+                    most high God. They call him over and over by the incommunicable name, Jehovah,
+                    never given to any creature. They ascribe to him all the attributes and all the
+                    works of God. So that we need not scruple to pronounce him God of God, Light of
+                    Light, very God of very God:<note place="foot" xml:id="ftn8" n="8"><p
+                            rend="footnote text">From ‘the Creed Commonly Called Nicene’, BCP,
+                            Communion.</p></note> in glory equal with the Father, in majesty
+                        coeternal.<note place="foot" xml:id="ftn9" n="9"><p rend="footnote text">A
+                            paraphrase from the <hi rend="italic">Quicunque Vult</hi> (‘commonly
+                            called the Creed of St. Athanasius’), BCP (for Morning Prayer on
+                            thirteen special holy days). Orig.: ‘But the Godhead of the Father, of
+                            the Son, and of the Holy Ghost, is all one: the glory equal, the majesty
+                            coeternal.’</p></note></p>
+                <p n="2">2. He is ‘the true God’, the only Cause, the sole Creator of all things.
+                    ‘By him’, saith the Apostle Paul, ‘were created all things that are in heaven,
+                    and that are on earth’—yea, earth and heaven themselves; but the inhabitants are
+                    named, because more noble than the house—‘visible and invisible’. The several
+                    species of which are subjoined: ‘Whether they be thrones, or dominions, or
+                    principalities, or powers.’<note place="foot" xml:id="ftn10" n="10"><p
+                            rend="footnote text">Col. 1:16.</p></note> So St. John, ‘All things were
+                    made by him, and without him was not anything made that was made.’<note
+                        place="foot" xml:id="ftn11" n="11"><p rend="footnote text">John
+                        1:3.</p></note> And accordingly St. Paul applies to him those strong words
+                    of the Psalmist, ‘Thou, Lord, in the beginning hast laid the foundation of the
+                    earth, and the heavens are the work of thy hands.’<note place="foot"
+                        xml:id="ftn12" n="12"><p rend="footnote text">Ps. 102:25
+                    (BCP).</p></note></p>
+                <p n="3">3. And as ‘the true God’ he is also the <hi rend="italic">Supporter</hi> of
+                    all the things that he hath made. He ‘beareth’, upholdeth, sustaineth, ‘all’
+                    created ‘things by the word of his power’,<note place="foot" xml:id="ftn13"
+                        n="13"><p rend="footnote text">Cf. Heb. 1:3.</p></note> by the same powerful
+                    word which brought them out of nothing. As this was absolutely necessary for the
+                    beginning of their existence, it is equally so for the continuance of it: were
+                    his almighty influence withdrawn they could not subsist a moment longer. Hold up
+                    a stone in the air, the moment you withdraw your hand it naturally falls to the
+                    ground. In like manner, were he to withdraw his hand for a moment the creation
+                    would fall into nothing.</p>
+                <p n="4">4. As ‘the true God’ he is likewise the <hi rend="italic">Preserver</hi> of
+                    all things. He not only keeps them in being, but preserves them in that degree
+                    of well-being which is suitable to their several natures. He preserves them in
+                    their several relations, connections, and dependences, so as to compose one
+                    system of beings, to form one entire universe, according to the counsel of his
+                    will. How strongly and beautifully <pb n="03:092"/>is this expressed! Τὰ πάντα
+                    ἐν αὐτῷ, συνέστηκεν<note place="foot" xml:id="ftn14" n="14"><p
+                            rend="footnote text">Col. 1:17. Wesley’s translation of συνέστηκεν (from
+                            συνιστάνειν) is not ‘more literal’; actually it is a
+                        paraphrase.</p></note>—‘By him all things consist;’ or, more literally, ‘By
+                    and in him are all things compacted into one system.’ He is not only the support
+                    but also the cement of the whole universe.<note place="foot" xml:id="ftn15"
+                        n="15"><p rend="footnote text">Cf. Charles Wesley, ‘Hymns on the Four
+                            Gospels’, No. 1949, ver. 5, ll. 7-8:</p><lg><l>Cemented by thy blood
+                                alone,</l><l>And one with unity divine.</l></lg></note></p>
+                rend="footnote text">(<hi rend="italic">Poet. Wks.</hi>, XI.461.) Cf. also Johnson’s
+                definition (<hi rend="italic">Dictionary, </hi>1755) of ‘cement’ as ‘the bond of
+                union’, and his quotation from Robert South: ‘Look over the whole creation and you
+                shall see that the cement that holds together all the parts of this great and
+                glorious fabrick is gratitude.’ <p n="5">5. I would particularly remark (what
+                    perhaps has not been sufficiently observed) that he is the true ‘<hi
+                        rend="italic">Author</hi> of all’ the <hi rend="italic">motion </hi>that is
+                    in the universe. To spirits, indeed, he has given a small degree of self-moving
+                    power, but not to matter. All matter, of whatever kind it be, is absolutely and
+                    totally inert.<note place="foot" xml:id="ftn16" n="16"><p rend="footnote text">A
+                            view consistently repeated; cf. No. 15, <hi rend="italic">The Great
+                                Assize</hi>, III.3 and n.</p></note> It does not, cannot in any case
+                    move itself; and whenever any part of it seems to move it is in reality moved by
+                    something else. See that log which, vulgarly speaking, <hi rend="italic"
+                        >moves</hi> on the sea! It is in reality <hi rend="italic">moved</hi> by the
+                    water. The water is moved by the wind, that is, a current of air. And the air
+                    itself owes all its motion to the ethereal fire,<note place="foot"
+                        xml:id="ftn17" n="17"><p rend="footnote text">Another favourite notion, as
+                            also in the same sermon passage and n.</p></note> a particle of which is
+                    attached to every particle of it. Deprive it of that fire and it moves no
+                    longer: it is fixed; it is as inert as sand. Remove fluidity (owing to the
+                    ethereal fire intermixed with it) from water, and it has no more motion than the
+                    log. Impact fire into iron by hammering it when red hot, and it has no more
+                    motion than fixed air, or frozen water. But when it is unfixed, when it is in
+                    its most active state, what gives motion to fire? The very heathen will tell
+                    you. It is,</p>
+                <quote>
+                    <hi rend="italic">Magnam mens agitans molem, et vasto se corpore miscens.</hi>
+                    <note place="foot" xml:id="ftn18" n="18">
+                        <p rend="footnote text">Cf. Virgil, <hi rend="italic">Aeneid</hi>,
+                            vi.726-27:</p>
+                        <lg><l>
+                                <hi rend="italic">totamque infusa per artus</hi>
+                            </l>
+                            <l>
+                                <hi rend="italic">Mens agitat molem et magno se corpore miscet.</hi>
+                            </l></lg>
+                        <lg><l>The all-informing soul</l>
+                            <l>That fills, pervades, and actuates the whole.</l>
+                            <p rend="footnote text">See No. 74, ‘Of the Church’, §13 and
+                        n.</p></lg></note></quote>
+                <p n="6">6. To pursue this a little farther: we say the moon moves round <pb
+                        n="03:093"/>the earth, the earth and the other planets move round the sun,
+                    the sun moves round its own axis. But these are only vulgar expressions. For if
+                    we speak the truth of [them], neither the sun, moon, nor stars <hi rend="italic"
+                        >move</hi>. None of these move themselves. They are all <hi rend="italic"
+                        >moved</hi> every moment by the almighty hand that made them.</p>
+                <p>‘Yes’, says Sir Isaac, ‘the sun, moon, and all the heavenly bodies do move, do
+                    gravitate toward each other.’<note place="foot" xml:id="ftn19" n="19"><p
+                            rend="footnote text">Sir Isaac Newton; cf. <hi rend="italic"
+                                >Opticks</hi> (1721), p. 351, and elsewhere as one of Newton’s prime
+                            hypotheses. Cf. No. 55, <hi rend="italic">On the Trinity</hi>, §10 and
+                            n.</p></note> Gravitate! What is that? ‘Why, they all <hi rend="italic"
+                        >attract</hi> each other, in proportion to the quantity of matter they
+                    contain.’ ‘Nonsense all over’, says Mr. Hutchinson,<note place="foot"
+                        xml:id="ftn20" n="20"><p rend="footnote text">John Hutchinson; see No. 57,
+                            ‘On the Fall of Man’, II.6 and n. Wesley has his own theological reasons
+                            for stressing the conflict between the views of the several natural
+                            philosophers. This quoted expostulation from Hutchinson is not exact; it
+                            does, however, reflect Hutchinson’s indignant rejection of Newton’s
+                            theory of gravitation; cf. <hi rend="italic">A Treatise of Power</hi>,
+                            in <hi rend="italic">Works</hi> (3rd edn., 1748-49), V.142, 145-46,
+                            206-7; see also <hi rend="italic">Moses’ Principia </hi>(1724), Pt. I.
+                            On the other hand Wesley suggests in his <hi rend="italic">Address to
+                                the Clergy</hi>, II.2(5), that all well-furnished ministers would
+                            have mastered Newton’s <hi rend="italic">Principia Mathematica</hi>
+                            (1687), and it was prescribed reading at Kingswood School, so listed in
+                            the Library Catalogue of 1789.</p></note> ‘Jargon! self-contradiction!
+                    Can anything <hi rend="italic">act</hi>, <hi rend="italic">where it is not</hi>?
+                    No, they are continually <hi rend="italic">impelled</hi> toward each other.’
+                    Impelled, by what? ‘By the subtle matter, the ether, or electric fire.’ But
+                    remember! Be it ever so subtle, it is matter still. Consequently it is as inert
+                    in itself as either sand or marble. It cannot therefore move itself; but
+                    probably it is the first material mover, the main spring whereby the Creator and
+                    Preserver of all things is pleased to move the universe.</p>
+                <p n="7">7. ‘The true God’ is also the <hi rend="italic">Redeemer</hi> of all the
+                    children of men. It pleased the Father to ‘lay upon him the iniquities of us
+                        all’,<note place="foot" xml:id="ftn21" n="21"><p rend="footnote text">Cf.
+                            Isa. 53:6.</p></note> that by the one oblation of himself once offered,
+                    when he tasted death for every man, he might make a full and sufficient
+                    sacrifice, oblation, and satisfaction for the sins of the whole world.<note
+                        place="foot" xml:id="ftn22" n="22"><p rend="footnote text"> A paraphrase
+                            from the ‘Prayer of Consecration’, BCP, Communion.</p></note></p>
+                <p n="8">8. Again: the true God is the <hi rend="italic">Governor</hi> of all
+                    things; ‘his kingdom ruleth over all.’<note place="foot" xml:id="ftn23" n="23"
+                            ><p rend="footnote text">Ps. 103:19.</p></note> ‘The government’ rests
+                    ‘upon his shoulder’,<note place="foot" xml:id="ftn24" n="24"><p
+                            rend="footnote text">Cf. Isa. 9:6.</p></note> throughout all ages. He is
+                    the Lord and Disposer of the whole creation, and every part of it. And in how
+                    astonishing a manner does he govern the world! How far are his ways above human
+                    thought! How little do we know of his methods of government! Only this we know,
+                        <hi rend="italic">Ita praesides singulis sicut</hi>
+                    <pb n="03:094"/><hi rend="italic">universis, et universis sicut
+                        singulis!</hi><note place="foot" xml:id="ftn25" n="25"><p
+                            rend="footnote text">Cf. Augustine, <hi rend="italic">Confessions</hi>,
+                            III.xi.19; see No. 37, ‘The Nature of Enthusiasm’, §28 and
+                    n.</p></note>—thou presidest over each creature as if it were the universe, and
+                    over the universe as over each individual creature. Dwell a little upon this
+                    sentiment. What a glorious mystery does it contain! It is paraphrased in the
+                    words recited above.<note place="foot" xml:id="ftn26" n="26"><p
+                            rend="footnote text">This sentence is added to the text in <hi
+                                rend="italic">SOSO</hi> (1788).</p></note></p>
+                <lg><l>Father, how wide thy glories shine!</l>
+                    <l>Lord of the universe—and mine:</l>
+                    <l>Thy goodness watches o’er the whole,</l>
+                    <l>As all the world were but one soul:</l>
+                    <l>Yet keeps my ev’ry sacred hair,</l>
+                    <l>As I remained thy single care!</l><note place="foot" xml:id="ftn27" n="27"><p
+                            rend="footnote text">Charles Wesley, <hi rend="italic">Scripture
+                                Hymns</hi>, II.158; see No. 54, ‘On Eternity’, §20 and
+                    n.</p></note></lg>
+                <p n="9">9. And yet there is a difference, as was said before, in his providential
+                    government over the children of men. A pious writer<note place="foot"
+                        xml:id="ftn28" n="28"><p rend="footnote text">Thomas Crane, <hi
+                                rend="italic">Isagoge ad Dei Providentiam, Or a Prospect of Divine
+                                Providence</hi> (1672); see No. 67, ‘On Divine Providence’, §16 and
+                            n.</p></note> observes, there is a threefold circle of divine
+                    providence. The <hi rend="italic">outermost circle</hi> includes all the sons of
+                    men—heathens, Mahometans, Jews, and Christians. He causeth his sun to rise upon
+                    all. He giveth them rain and fruitful seasons. He pours ten thousand benefits
+                    upon them, and fills their hearts with food and gladness. With an <hi
+                        rend="italic">interior circle</hi> he encompasses the whole visible
+                    Christian church, all that name the name of Christ.<note place="foot"
+                        xml:id="ftn29" n="29"><p rend="footnote text">See 2 Tim. 2:19.</p></note> He
+                    has an additional regard to these, and a nearer attention to their welfare. But
+                    the <hi rend="italic">innermost circle</hi> of his providence encloses only the
+                    invisible church of Christ—all real Christians, wherever dispersed in all
+                    corners of the earth; all that worship God (whatever denomination they are of)
+                    in spirit and in truth.<note place="foot" xml:id="ftn30" n="30"><p
+                            rend="footnote text">See John 4:23.</p></note> He keeps these as the
+                    apple of an eye: he hides them under the shadow of his wings.<note place="foot"
+                        xml:id="ftn31" n="31"><p rend="footnote text">Ps. 17:8.</p></note> And it is
+                    to these in particular that our Lord says, ‘Even the hairs of your head are all
+                        numbered.’<note place="foot" xml:id="ftn32" n="32"><p rend="footnote text"
+                            >Luke 12:7.</p></note></p>
+                <p n="10">10. Lastly, being the true God he is the <hi rend="italic">End</hi> of all
+                    things, according to that solemn declaration of the Apostle: ‘Of him, and
+                    through him, and to him, are all things’<hi rend="endnote_reference"><note
+                            place="end"><p rend="endnote text">Rom. 11:36.</p></note></hi>—<hi
+                        rend="italic">of him</hi> as the Creator; <pb n="03:095"/><hi rend="italic"
+                        >through him</hi> as the Sustainer and Preserver; and <hi rend="italic">to
+                        him</hi> as the ultimate End of all.</p>
+            </div>
+            <div type="section" n="2">
+                <p>II. In all these senses Jesus Christ is ‘the true God’. But how is he ‘<hi
+                        rend="italic">eternal life</hi>’?</p>
+                <p n="1">1. The thing directly intended in this expression is not that he <hi
+                        rend="italic">will be</hi> eternal life—although this is a great and
+                    important truth, and never to be forgotten. ‘He is the author of eternal
+                    salvation to all them that obey him.’<note place="foot" xml:id="ftn33" n="33"><p
+                            rend="footnote text">Cf. Heb. 5:9.</p></note> He is the purchaser of
+                    that ‘crown of life’ which will be given to all that are ‘faithful unto
+                        death’.<note place="foot" xml:id="ftn34" n="34"><p rend="footnote text">Rev.
+                            2:10.</p></note> And he will be the soul of all their joys to all the
+                    saints in glory.</p>
+                <lg><l>The flame of angelical love</l>
+                    <l>Is kindled at Jesus’s face;</l>
+                    <l>And all the enjoyment above</l>
+                    <l>Consists in the rapturous gaze!</l><note place="foot" xml:id="ftn35" n="35"
+                            ><p rend="footnote text">Charles Wesley, Hymn VIII, st. 5, last
+                            quatrain, in<hi rend="italic"> Funeral Hymns</hi> (1746), p. 12 (<hi
+                                rend="italic">Poet. Wks.</hi>, VI.199), reading ‘their
+                            enjoyment’.</p></note></lg>
+                <p n="2">2. The thing directly intended is not that he is the resurrection; although
+                    this also is true, according to his own declaration, ‘I am the resurrection and
+                    the life:’<note place="foot" xml:id="ftn36" n="36"><p rend="footnote text">John
+                            11:25.</p></note> agreeable to which are St. Paul’s words, ‘As in Adam
+                    all died, even so in Christ shall all be made alive.’<note place="foot"
+                        xml:id="ftn37" n="37"><p rend="footnote text">Cf. 1 Cor. 15:22.</p></note>
+                    So that we may well say, ‘Blessed be the God and Father of our Lord Jesus
+                    Christ, who hath begotten us again unto a lively hope by the resurrection of
+                    Christ from the dead, to an inheritance incorruptible and undefiled, and that
+                    fadeth not away.’<note place="foot" xml:id="ftn38" n="38"><p
+                            rend="footnote text">1 Pet. 1:3-4.</p></note></p>
+                <p n="3">3. But waiving what he <hi rend="italic">will be</hi> hereafter, we are
+                    here called to consider what he <hi rend="italic">is now</hi>. He is now the
+                    life of everything that lives in any kind or degree. He is the source of the
+                    lowest species of life, that of <hi rend="italic">vegetables</hi>; as being the
+                    source of all the motion on which vegetation depends. He is the fountain of the
+                    life of <hi rend="italic">animals</hi>, the power by which the heart beats, and
+                    the circulating juices flow. He is the fountain of all the life which man
+                    possesses in common with other animals. And if we distinguish the <hi
+                        rend="italic">rational </hi>from the animal life, he is the source of this
+                        also.<note place="foot" xml:id="ftn39" n="39"><p rend="footnote text">A more
+                            conventional (i.e., Aristotelian) schema here than that in the <hi
+                                rend="italic">Survey</hi>.</p></note></p>
+                <p n="4">4. But how infinitely short does all this fall of the life which is here
+                    directly intended! And of which the Apostle speaks so explicitly in the
+                    preceding verses: ‘This is the testimony, that God <pb n="03:096"/><hi
+                        rend="italic">hath</hi> given us eternal life; and this life is in his Son.
+                    He that hath the Son <hi rend="italic">hath</hi> life’ (the eternal life here
+                    spoken of), ‘and he that hath not the Son of God, hath not this life.’<hi
+                        rend="endnote_reference"><note place="end"><p rend="endnote text">[1 John
+                                5:] Ver. 11, 12.</p></note></hi> As if he had said, ‘This is’ the
+                    sum of ‘the testimony which God hath’ testified ‘of his Son, that God <hi
+                        rend="italic">hath</hi> given us’, not only a title to but the real
+                    beginning of ‘eternal life. And this life is’ purchased by, and treasured up ‘in
+                    his Son’, who has all the springs and the fullness of it in himself, to
+                    communicate to his body, the church.</p>
+                <p n="5">5. This eternal life then commences when it pleases the Father to reveal
+                    his Son in our hearts; when we first know Christ, being enabled to ‘call him
+                    Lord by the Holy Ghost’;<note place="foot" xml:id="ftn40" n="40"><p
+                            rend="footnote text">Cf. 1 Cor. 12:3.</p></note> when we can testify,
+                    our conscience bearing us witness in the Holy Ghost, ‘the life which I now live,
+                    I live by faith in the Son of God, who loved me, and gave himself for me.’<note
+                        place="foot" xml:id="ftn41" n="41"><p rend="footnote text">Cf. Gal.
+                            2:20.</p></note> And then it is that happiness begins—happiness real,
+                    solid, substantial. Then it is that heaven is opened in the soul, that the
+                    proper, heavenly state commences, while the love of God, as loving us, is shed
+                    abroad in the heart,<note place="foot" xml:id="ftn42" n="42"><p
+                            rend="footnote text">See Rom. 5:5.</p></note> instantly producing love
+                    to all mankind: general, pure benevolence, together with its genuine fruits,
+                    lowliness, meekness, patience, contentedness in every state; an entire, clear,
+                    full acquiescence in the whole will of God, enabling us to ‘rejoice evermore,
+                    and in everything to give thanks’.<note place="foot" xml:id="ftn43" n="43"><p
+                            rend="footnote text">1 Thess. 5:16, 18.</p></note></p>
+                <p n="6">6. As our knowledge and our love of him increase by the same degrees, and
+                    in the same proportion, the kingdom of an inward heaven must necessarily
+                    increase also; while we ‘grow up in all things into him who is our head’.<note
+                        place="foot" xml:id="ftn44" n="44"><p rend="footnote text">Eph.
+                        4:15.</p></note> And when we are ἐν αὐτῷ πεπληρωμένοι,<note place="foot"
+                        xml:id="ftn45" n="45"><p rend="footnote text">Col. 2:10.</p></note>
+                    ‘complete in him’, as our translators render it—but more properly when we are
+                    ‘filled with him’; when ‘Christ in us, the hope of glory’,<note place="foot"
+                        xml:id="ftn46" n="46"><p rend="footnote text">Cf. Col. 1:27.</p></note> is
+                    our God and our all; when he has taken the full possession of our heart; when he
+                    reigns therein, without a rival, the Lord of every motion there;<note
+                        place="foot" xml:id="ftn47" n="47"><p rend="footnote text">See John Wesley,
+                            ‘Divine Love. From the German’ [of Gerhard Tersteegen], <hi
+                                rend="italic">Hymns and Sacred Poems</hi> (1739), p. 79 (<hi
+                                rend="italic">Poet Wks.</hi>, I.72):</p>
+                        <lg>
+                            <l>Is there a thing beneath the sun</l>
+                            <l>That strives with thee my heart to share?</l>
+                            <l>Ah, tear it thence, and reign alone,</l>
+                            <l>The Lord of every motion there.</l></lg><p rend="footnote text">In
+                                <hi rend="italic">A Plain Account of Christian Perfection</hi>
+                            (1766), §7, Wesley reports that he wrote this quatrain in Savannah.
+                            Actually, as first published in <hi rend="italic">A Collection of Psalms
+                                and Hymns </hi>(1738), p. 52, the couplet ran:</p>
+                        <lg><l>Ah, tear it thence, that thou alone</l>
+                            <l>May’st reign unrivall’d monarch there.</l></lg></note></p>
+                <p rend="footnote text">(See also <hi rend="italic">Collection</hi>, 1780, No.
+                    335—7:493 of this edn.)</p> when we dwell in <pb n="03:097"/>Christ, and Christ
+                in us, we are one with Christ, and Christ with us; then we are completely happy,
+                then we live all ‘the life that is hid with Christ in God’.<note place="foot"
+                    xml:id="ftn48" n="48"><p rend="footnote text">Cf. Col. 3:3.</p></note> Then, and
+                not till then, we properly experience what that word meaneth, ‘God is love; and
+                whosoever dwelleth in love, dwelleth in God, and God in him.’<note place="foot"
+                    xml:id="ftn49" n="49"><p rend="footnote text">Cf. 1 John 4:16.</p></note>
+            </div>
+            <div type="section" n="3">
+                <p>III. I have now only to add a few inferences from the preceding observations.</p>
+                <p n="1">1. And we may learn from hence, first, that as there is but one God in
+                    heaven above and in the earth beneath, so there is only one happiness for
+                    created spirits, either in heaven or earth. This one God made our heart for
+                    himself; and it cannot rest till it resteth in him.<note place="foot"
+                        xml:id="ftn50" n="50"><p rend="footnote text">Yet another repetition of
+                            Augustine, <hi rend="italic">Confessions</hi>, I.i; see No. 3, <hi
+                                rend="italic">‘Awake, Thou That Sleepest’</hi>, II.5 and
+                        n.</p></note> It is true that while we are in the vigour of youth and health
+                    while our blood dances in our veins; while the world smiles upon us and we have
+                    all the conveniences, yea, and superfluities of life—we frequently have pleasing
+                    dreams and enjoy a kind of happiness. But it cannot continue; it flies away like
+                    a shadow:<note place="foot" xml:id="ftn51" n="51"><p rend="footnote text">See
+                            Job 14:2.</p></note> and even while it lasts it is not solid or
+                    substantial; it does not satisfy the soul. We still pant after something else,
+                    something which we have not. Give a man everything that this world can give,
+                    still, as Horace observed near two thousand years ago,</p>
+                <quote>
+                    <hi rend="italic">Curtae nescio quid semper abest rei.</hi>
+                    <note place="foot" xml:id="ftn52" n="52">
+                        <p rend="footnote text">Horace, <hi rend="italic">Odes</hi>, III.xxiv.64:
+                            ‘…something is always lacking to make one’s fortune incomplete.’</p>
+                    </note>
+                </quote>
+                <p>Still</p>
+                <lg>
+                    <l>Amidst our plenty something still</l>
+                    <l>To me, to thee, to him is wanting!</l>
+                    <note place="foot" xml:id="ftn53" n="53">
+                        <p rend="footnote text">Matthew Prior, ‘The Ladle’, ll. 162, 164; see No.
+                            28, ‘Sermon on the Mount, VIII’, §20 and n.</p>
+                    </note>
+                </lg>
+                <p>That <hi rend="italic">something</hi> is neither more nor less than the knowledge
+                    and <pb n="03:098"/>love of God—without which no spirit<note place="foot"
+                        xml:id="ftn54" n="54"><p rend="footnote text">The <hi rend="italic">AM</hi>
+                            text here reads ‘creature’.</p></note> can be happy either in heaven or
+                    earth.</p>
+                <p n="2">2. Permit me to cite my own experience in confirmation of this. I
+                    distinctly remember that even in my childhood, even when I was at school, I have
+                    often said: ‘They say the life of a schoolboy is the happiest in the world, but
+                    I am sure I am not happy. For I always want something which I have not;
+                    therefore I am not content, and so cannot be happy.’ When I had lived a few
+                    years longer, being in the vigour of youth, a stranger to pain and sickness, and
+                    particularly to lowness of spirits (which I do not remember to have felt one
+                    quarter of an hour since I was born),<note place="foot" xml:id="ftn55" n="55"><p
+                            rend="footnote text">A blurred memory; cf. his letter to his brother
+                            Charles, June 27, 1766, about his fear of ‘falling into nothing’.
+                            Perhaps he was still focusing on his ‘happy’ youth and
+                        childhood.</p></note> having plenty of all things, in the midst of sensible
+                    and amiable friends who loved me, and I loved them; and being in the way of life
+                    which of all others suited my inclinations; still I was not happy! I wondered
+                    why I was not, and could not imagine what the reason was. The reason certainly
+                    was: I did not know God, the source of present as well as eternal happiness.
+                    What is a clear proof that I was not then happy is that, upon the coolest
+                    reflection, I knew not one week which I would have thought it worthwhile to have
+                    lived over again; taking it with every inward and outward sensation, without any
+                    variation at all.</p>
+                <p n="3">3. But a pious man affirms, ‘When I was young I was happy, though I was
+                    utterly without God in the world.’<note place="foot" xml:id="ftn56" n="56"><p
+                            rend="footnote text">π; —but cf. Eph. 2:12.</p></note> I do not believe
+                    you; though I doubt not but you believe yourself. But you are deceived, as I
+                    have been over and over. Such is the condition of human life!</p>
+                <lg>
+                    <l>Flowerets and myrtles fragrant seem to rise;</l>
+                    <l>All is at distance fair; but near at hand,</l>
+                    <l>The gay deceit mocks the desiring eyes</l>
+                    <l>With thorns, and desert heath, and barren sand.</l>
+                    <note place="foot" xml:id="ftn57" n="57">
+                        <p rend="footnote text">Cf. Samuel Wesley, Jun., ‘The Battle of the Sexes’,
+                            in <hi rend="italic">Poems on Several Occasions </hi>(1736), p. 22; see
+                            also, John Wesley, <hi rend="italic">Moral and Sacred Poems</hi>,
+                            III.20.</p>
+                    </note>
+                </lg>
+                <p>Look forward on any distant prospect: how beautiful does it appear! Come up to
+                    it; and the beauty vanishes away, and it is rough and disagreeable. Just so is
+                    life! But when the scene is past it resumes its former appearance; and we
+                    seriously believe that we <pb n="03:099"/>were then very happy, though in
+                    reality we were far otherwise. For as none is now, so none ever was happy
+                    without the loving knowledge of the true God.</p>
+                <p n="4">4. We may learn hence, secondly, that this happy knowledge of the true God
+                    is only another name for <hi rend="italic">religion</hi>; I mean <hi
+                        rend="italic">Christian religion</hi>, which indeed is the only one that
+                    deserves the name. Religion, as to the nature or essence of it, does not lie in
+                    this or that set of notions, vulgarly called ‘faith’; nor in a round of duties,
+                    however carefully ‘reformed’ from error and superstition. It does not consist in
+                    any number of outward actions. No; it properly and directly consists in the
+                    knowledge and love of God, as manifested in the Son of his love, through the
+                    eternal Spirit. And this naturally leads to every heavenly temper, and to every
+                    good word and work.<note place="foot" xml:id="ftn58" n="58"><p
+                            rend="footnote text">2 Thess. 2:17; cf. No. 24, ‘Sermon on the Mount,
+                            IV’, III.1 and n.</p></note></p>
+                <p n="5">5. We learn hence, thirdly, that none but a Christian is happy; none but a
+                    real, inward Christian. A glutton, a drunkard, a gamester may be ‘merry’; but he
+                    cannot be happy. The beau, the belle, may eat and drink, and rise up to
+                        play;<note place="foot" xml:id="ftn59" n="59"><p rend="footnote text">See
+                            Exod. 32:6.</p></note> but still they feel they are not happy. Men or
+                    women may adorn their own dear persons with all the colours of the rainbow. They
+                    may dance and sing, and hurry to and fro, and flutter hither and thither. They
+                    may roll up and down in their splendid carriages and talk insipidly to each
+                    other. They may hasten from one diversion to another; but happiness is not
+                    there. They are still ‘walking in a vain shadow, and disquieting themselves in
+                        vain’.<note place="foot" xml:id="ftn60" n="60"><p rend="footnote text">Cf.
+                            Ps. 39:7 (BCP).</p></note> One of their own poets has truly pronounced
+                    concerning the whole life of these sons of pleasure:</p>
+                <lg>
+                    <l>’Tis a dull farce, and empty show:</l>
+                    <l>Powder, and pocketglass, and beau.</l>
+                    <note place="foot" xml:id="ftn61" n="61">
+                        <p rend="footnote text">Matthew Prior, ‘An English Padlock’, ll. 60-61.
+                            Prior was one of Wesley’s favourites; see his ‘Thoughts on the Character
+                            and Writings of Mr. Prior’, in <hi rend="italic">AM</hi>, V.600-3,
+                            660-65 (Nov., Dec. 1782), where he ranks him above Pope and singles out
+                                <hi rend="italic">Solomon</hi> for especial praise, as he does in
+                            this sermon. Both John and Charles had memorized the entire poem, and
+                            Charles required his children to commit it to memory; cf. his letter to
+                            his daughter, Sally, Oct. 1, 1773, in <hi rend="italic">The Journal of
+                                the Rev. Charles Wesley, M.A., </hi>ed. by Thomas Jackson (London,
+                            1849), II.278, 280.</p>
+                    </note>
+                </lg>
+                <p>I cannot but observe of that fine writer that he came near the mark, and yet fell
+                    short of it. In his <hi rend="italic">Solomon</hi> (one of the noblest poems in
+                    the English tongue) he clearly shows where happiness <hi rend="italic">is
+                        </hi><pb n="03:100"/><hi rend="italic">not</hi>; that it is not to be found
+                    in natural knowledge, in power, or in the pleasures of sense or imagination. But
+                    he does not show where it is to be found. He could not, for he did not know it
+                    himself. Yet he came near it when he said,</p>
+                <lg>
+                    <l>Restore, great Father, thy instructed son;</l>
+                    <l>And in my act may thy great will be done!</l>
+                    <note place="foot" xml:id="ftn62" n="62">
+                        <p rend="footnote text">Prior, <hi rend="italic">Solomon</hi>, iii.889-90
+                            (the poem’s closing lines). See also, Wesley, <hi rend="italic">A
+                                Collection of Moral and Sacred Poems</hi> (1744), I.192.</p>
+                    </note>
+                </lg>
+                <p n="6">6. We learn hence, fourthly, that every Christian is happy, and that he who
+                    is not happy is not a Christian. If (as was observed above) religion is
+                    happiness, everyone that has it must be happy. This appears from the very nature
+                    of the thing; for if religion and happiness are in fact the same, it is
+                    impossible that any man can possess the former without possessing the latter
+                    also. He cannot have religion without having happiness, seeing they are utterly
+                    inseparable.</p>
+                <p>And it is equally certain, on the other hand, that he who is not happy is
+                    not a Christian; seeing if he was a real Christian he could not but be happy.
+                    But I allow an exception here in favour of those who are under violent
+                    temptation; yea, and of those who are under deep nervous disorders, which are
+                    indeed a species of insanity. The clouds and darkness which then overwhelm the
+                    soul suspend its happiness; especially if Satan is permitted to second those
+                    disorders by pouring in his fiery darts.<note place="foot" xml:id="ftn63" n="63"
+                            ><p rend="footnote text">See Eph. 6:16.</p></note> But excepting these
+                    cases the observation will hold, and it should be well attended to: whoever is
+                    not happy, yea, happy in God, is not a Christian.</p>
+                <p n="7">7. Are not <hi rend="italic">you</hi> a living proof of this? Do not you
+                    still wander to and fro, seeking rest, but finding none?<note place="foot"
+                        xml:id="ftn64" n="64"><p rend="footnote text">See Luke 11:24.</p></note>
+                    Pursuing happiness, but never overtaking it? And who can blame you for pursuing
+                    it? It is the very end of your being. The great Creator made nothing to be
+                    miserable, but every creature to be happy in its kind.<note place="foot"
+                        xml:id="ftn65" n="65"><p rend="footnote text">Gen. 1:31.</p></note> And upon
+                    a general review of the works of his hands he pronounced them all ‘very good’;
+                    which they would not have been had not every intelligent creature—yea, everyone
+                    capable of pleasure and pain—been happy in answering the end of its creation. If
+                        <hi rend="italic">you</hi> are now unhappy, it is because you are in an
+                    unnatural state: and shall <pb n="03:101"/>you not sigh for deliverance from it?
+                    ‘The whole creation’, being now ‘subject to vanity’, ‘groaneth and travaileth in
+                    pain together.’<note place="foot" xml:id="ftn66" n="66"><p rend="footnote text"
+                            >Cf. Rom. 8:20, 22.</p></note> I blame you only, or pity you, rather,
+                    for taking a wrong way to a right end: for seeking happiness where it never was
+                    and never can be found. You seek happiness in your fellow-creatures instead of
+                    your Creator. But these can no more make you happy than they can make you
+                    immortal. If you have ears to hear, every creature cries aloud, ‘Happiness is
+                    not in <hi rend="italic">me</hi>.’<note place="foot" xml:id="ftn67" n="67"><p
+                            rend="footnote text">Cf. Augustine, <hi rend="italic">Confessions</hi>,
+                            XI.iv, and see No. 125, ‘On a Single Eye’, II.4. In the <hi
+                                rend="italic">Survey</hi>, V.233, there is a comment on Job 28:14:
+                            ‘The depth saith, it [i.e., wisdom] is not in <hi rend="italic">me</hi>,
+                            and the sea saith, it is not in <hi rend="italic">me</hi>.’</p></note>
+                    All these are, in truth, ‘broken cisterns, that can hold no water’.<note
+                        place="foot" xml:id="ftn68" n="68"><p rend="footnote text">Jer.
+                        2:13.</p></note> O turn unto your rest! Turn to him in whom are hid all the
+                    treasures of happiness! Turn unto him ‘who giveth liberally unto all men’,<note
+                        place="foot" xml:id="ftn69" n="69"><p rend="footnote text">Cf. Jas.
+                        1:5.</p></note> and he will give you ‘to drink of the water of life
+                        freely’.<note place="foot" xml:id="ftn70" n="70"><p rend="footnote text">Cf.
+                            Rev. 21:6; 22:17.</p></note></p>
+                <p n="8">8. You cannot find your long sought happiness in all the <hi rend="italic"
+                        >pleasures of the world</hi>. Are they not ‘deceitful upon the weights’? Are
+                    they not ‘lighter than vanity itself?<note place="foot" xml:id="ftn71" n="71"><p
+                            rend="footnote text">Ps. 62:9 (BCP).</p></note> How long will ye ‘feed
+                    upon that which is not bread’,<note place="foot" xml:id="ftn72" n="72"><p
+                            rend="footnote text">Cf Isa. 55:2.</p></note> which may <hi
+                        rend="italic">amuse</hi>, but cannot satisfy? You cannot find it in the <hi
+                        rend="italic">religion of the world</hi>, either in opinions or a mere round
+                    of outward duties. Vain labour! Is not ‘God a spirit’? And therefore to be
+                    ‘worshipped in spirit and in truth’?<note place="foot" xml:id="ftn73" n="73"><p
+                            rend="footnote text">Cf. John 4:23-24.</p></note> In this alone can you
+                    find the happiness you seek—in the union of your spirit with the Father of
+                    spirits; in the knowledge and love of him who is the fountain of happiness,
+                    sufficient for all the souls he has made.</p>
+                <p n="9">9. But where is he to be found? Shall we ‘go up into heaven’ or ‘down into
+                    hell’ to seek him? Shall we ‘take the wings of the morning’ and search for him
+                    ‘in the uttermost parts of the sea’?<note place="foot" xml:id="ftn74" n="74"><p
+                            rend="footnote text">Cf. Ps. 139:8-9.</p></note> Nay,</p>
+                <quote>
+                    <hi rend="italic">Quod petis, hic est!</hi>
+                    <note place="foot" xml:id="ftn75" n="75">
+                        <p rend="footnote text">Horace, <hi rend="italic">Epistles</hi>,
+                            I.xi.29.</p>
+                    </note>
+                </quote>
+                <p>What a strange word to fall from the pen of a heathen—‘What you seek is here!’ He
+                    is ‘about your bed’! He is ‘about your path’.<note place="foot" xml:id="ftn76"
+                        n="76"><p rend="footnote text">Cf. Ps. 139:2 (BCP).</p></note> He <pb
+                        n="03:102"/>‘besets you behind and before’. He ‘lays his hand upon
+                        you’.<note place="foot" xml:id="ftn77" n="77"><p rend="footnote text">Cf.
+                            Ps. 139:5 (AV).</p></note> Lo! God is here! Not afar off!<note
+                        place="foot" xml:id="ftn78" n="78"><p rend="footnote text">See Jer.
+                            23:23.</p></note> Now, believe and feel him near! May he now reveal
+                    himself in your heart! Know him! Love him! And you are happy.</p>
+                <p n="10">10. Are you already happy in him? Then see that you ‘hold fast’<note
+                        place="foot" xml:id="ftn79" n="79"><p rend="footnote text">1 Thess.
+                            5:21.</p></note> ‘whereunto you have attained’!<note place="foot"
+                        xml:id="ftn80" n="80"><p rend="footnote text">Cf. 1 Tim. 4:6.</p></note>
+                    ‘Watch and pray,’<note place="foot" xml:id="ftn81" n="81"><p
+                            rend="footnote text">Matt. 26:41.</p></note> that you may never be
+                    ‘moved from your steadfastness’.<note place="foot" xml:id="ftn82" n="82"><p
+                            rend="footnote text">Cf. 2 Pet. 3:17.</p></note> ‘Look unto yourselves,
+                    that ye lose not what you have gained, but that ye receive a full reward.’<note
+                        place="foot" xml:id="ftn83" n="83"><p rend="footnote text">Cf. 2 John
+                        8.</p></note> In so doing, expect a continual growth in grace, in the loving
+                    knowledge of our Lord Jesus Christ.<note place="foot" xml:id="ftn84" n="84"><p
+                            rend="footnote text">See 2 Pet. 3:18.</p></note> Expect that the power
+                    of the Highest shall suddenly overshadow you,<note place="foot" xml:id="ftn85"
+                        n="85"><p rend="footnote text">See Luke 1:35.</p></note> that all sin may be
+                    destroyed, and nothing may remain in your heart but holiness unto the Lord.<note
+                        place="foot" xml:id="ftn86" n="86"><p rend="footnote text">Exod. 28:36,
+                            etc.</p></note> And this moment, and every moment, ‘present yourselves a
+                    living sacrifice, holy, acceptable to God,’<note place="foot" xml:id="ftn87"
+                        n="87"><p rend="footnote text">Cf. Rom. 12:1.</p></note> and ‘glorify him
+                    with your body, and with your spirit, which are God’s.’<note place="foot"
+                        xml:id="ftn88" n="88"><p rend="footnote text">Cf. 1 Cor.
+                    6:20.</p></note></p>
+            </div>
+            <p>
+                <placeName>London,</placeName>
+            </p>
+            <p>
+                <date when="12-22-1780">Dec. 22, 1780</date>
+                <note place="foot" xml:id="ftn89" n="89">
+                    <p rend="footnote text">Place and date as in <hi rend="italic">AM</hi>.</p>
+                </note>
+            </p>
+        </body>
+    </text>
+</TEI>
