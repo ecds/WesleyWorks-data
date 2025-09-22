@@ -1,0 +1,494 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Sermon 97: On Obedience to Pastors</title>
+                <author>Wesley, John</author>
+                <editor role="text">Van Buskirk, Gregory P.</editor>
+                <editor role="digital">Taylor, Michelle M.</editor>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>The Wesley Works Digitzation Project</publisher>
+                <pubPlace>Tampa, FL</pubPlace>
+                <date>2024-02-25</date>
+            </publicationStmt>
+            <sourceDesc>
+                <listBibl>
+                    <biblStruct>
+                        <analytic>
+                            <title level="a">Sermon 97: On Obedience to Pastors</title>
+                        </analytic>
+                        <monogr>
+                            <title level="j">The Works of John Wesley, Volume III: Sermons III,
+                                71-114</title>
+                            <editor role="volume">Outler, Albert</editor>
+                            <imprint>
+                                <publisher>Abingdon Press</publisher>
+                                <pubPlace>Nashville, TN</pubPlace>
+                                <date when="1986-11-01">1986-11-01</date>
+                                <biblScope unit="volume" n="3"/>
+                                <biblScope unit="page" from="373" to="383"/>
+                            </imprint>
+                        </monogr>
+                        <series>
+                            <title level="s">The Works of John Wesley</title>
+                            <editor role="general">Baker, Frank</editor>
+                        </series>
+                    </biblStruct>
+                </listBibl>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Greg Van Buskirk created Word docs for all of Wesley's sermons using a combination of
+                OCR software and manual proofing. Michelle Taylor converted these docx into XML
+                using Oxygen's DITA automatic transformation scenario, then touched them up
+                manually.</p>
+        </encodingDesc>
+        <standOff>
+            <taxonomy>
+                <keywords>
+                    <term/>
+                </keywords>
+            </taxonomy>
+            <!--Include keywords and terms here eventually.-->
+        </standOff>
+        <revisionDesc/>
+    </teiHeader>
+    <text>
+        <body>
+            <pb n="03:373"/>
+            <head>
+                <hi rend="italic">An Introductory Comment</hi>
+            </head>
+            <introduction>
+                <p>The problem of the relationships between the Methodists and their Anglican
+                    pastors (and sometimes also with their own pastors) had long been linked in
+                    Wesley’s mind with his paradoxical concern to hold his societies within the
+                    Church of England and yet also to maintain their qualified autonomy. He was
+                    equally concerned with his pastoral conviction that every Christian needs a
+                    spiritual director in the course of his spiritual growth and development. In
+                    1784 he had altered the character of his ‘annual conference’ from a personal
+                    convocation with his preachers into a quasi-public, legal entity, maintaining,
+                    however, that this should not be construed as ‘separation’. Also in 1784, he had
+                    turned to Heb. 13:17 as the text for a sermon in London. In March 1785, and
+                    almost certainly as a comment on the controversy stirred by the events of 1784,
+                    he wrote out this sermon as a sort of guideline by which Christians might
+                    rightly gauge their duties of ‘obedience’ to their ‘pastors’. There is no record
+                    of this in the <hi rend="italic">Journal</hi> and only a casual reference in the
+                    diary for March 18; clearly, he was simply setting down his summary of an
+                    extended discussion.</p>
+                <p>The sermon first appeared in the <hi rend="italic">Arminian Magazine</hi> for May
+                    and June 1785 (VIII.236-41, 291-97), without a title but numbered ‘Sermon
+                    XXVII’. It was then included with its present title in <hi rend="italic"
+                        >SOSO</hi>, VIII.49-66. We have no record of its being printed elsewhere in
+                    Wesley’s lifetime.</p>
+            </introduction>
+            <pb n="03:374"/>
+            <p>
+                <head>On Obedience to Pastors</head>
+            </p>
+            <epigraph>
+                <p>Hebrews 13:17</p>
+                <p>
+                    <hi rend="italic">Obey them that have the rule over you, and submit yourselves;
+                        for they watch over your souls, as they that shall give account; that they
+                        may do this with joy, and not with grief; for that is unprofitable for
+                        you.</hi>
+                </p>
+            </epigraph>
+            <div type="introduction">
+                <p n="1">1. Exceeding few, not only among nominal Christians, but among truly
+                    religious men, have any clear conception of that important doctrine which is
+                    here delivered by the Apostle. Very many scarce think of it, and hardly know
+                    that there is any such direction in the Bible. And the greater part of those who
+                    know it is there, and imagine they follow it, do not understand it, but lean too
+                    much either to the right hand or to the left, to one extreme or the other. It is
+                    well known to what an extravagant height the Romanists in general carry this
+                    direction. Many of them believe an implicit faith is due to the doctrines
+                    delivered by those that rule over them, and that implicit obedience ought to be
+                    paid to whatever commands they give: and not much less has been insisted on by
+                    several eminent men of the Church of England.<note place="foot" xml:id="ftn1"
+                        n="1"><p rend="footnote text">Chief among these would have been William Laud
+                            (1573-1645), Archbishop of Canterbury (1633-45), whose doctrines of
+                            divine regal and ecclesiastical authority required both implicit
+                            obedience and explicit conformity. His canons of 1640 required a
+                            so-called ‘etcetera oath’, ‘never to give their consent to alter the
+                            [episcopal] government of this church [of England]…, etc.’ Thus he
+                            became a prime target for the Puritans and another of their victims
+                            after their execution of the first Earl of Strafford in 1641.</p></note>
+                    Although it is true that the generality of Protestants are apt to run to the
+                    other extreme, allowing their pastors no authority at all, but making them both
+                    the creatures and the servants of their congregations.<note place="foot"
+                        xml:id="ftn2" n="2"><p rend="footnote text">I.e., the Baptists and
+                            Congregationalists. Note Wesley’s own unavowed Anglican presuppositions
+                            here (as generally).</p></note> And very many there are of our own
+                    Church who agree with them herein; supposing the pastors to be altogether
+                    dependent upon the people, who in their judgment have a right to direct as well
+                    as to choose their ministers.</p>
+                <p n="2">2. But is it not possible to find a medium between these two extremes?<note
+                        place="foot" xml:id="ftn3" n="3"><p rend="footnote text">See No. 27, ‘Sermon
+                            on the Mount, VII’, §4 and n. 9.</p></note> Is there any necessity for
+                    us to run either into one or <pb n="03:375"/>into the other? If we set human
+                    laws out of the question, and simply attend to the oracles of God, we may
+                    certainly discover a middle path in this important matter. In order thereto, let
+                    us carefully examine the words of the Apostle above recited. Let us
+                    consider,</p>
+                <p>First, who are the persons mentioned in the text, ‘they that rule over us’?</p>
+                <p>Secondly, who are they whom the Apostle directs to ‘obey and submit themselves’
+                    to them?</p>
+                <p>Thirdly, what is the meaning of this direction? In what sense are they to ‘obey
+                    and submit themselves’? I shall then endeavour to make a suitable application of
+                    the whole.</p>
+            </div>
+            <div type="section" n="1">
+                <p n="1">I. 1. Consider we, first, who are the persons mentioned in the text, ‘they
+                    that have the rule over you’? I do not conceive that the words of the Apostle
+                    are properly translated; because this translation makes the sentence little
+                    better than tautology.<note place="foot" xml:id="ftn4" n="4"><p
+                            rend="footnote text">Cf. Wesley’s translation and <hi rend="italic"
+                                >Notes</hi> for Heb. 13:17.</p></note> If they ‘rule over you’ you
+                    are certainly ruled by them; so that according to this translation you are only
+                    enjoined to do what you do already—to obey those whom you do obey. But there is
+                    another meaning of the Greek word which seems abundantly more proper: it means
+                    to ‘guide’, as well as to rule. And thus, it seems, it should be taken here. The
+                    direction then, when applied to our spiritual guides, is plain and
+                    pertinent.</p>
+                <p n="2">2. This interpretation seems to be confirmed by the seventh verse, which
+                    fixes the meaning of this. ‘Remember them which have the rule over you, who have
+                    spoken unto you the word of God.’<note place="foot" xml:id="ftn5" n="5"><p
+                            rend="footnote text">Heb. 13:7.</p></note> The Apostle here shows, by
+                    the latter clause of the sentence, whom he meant in the former. Those that ‘were
+                    over them’ were the same persons ‘who spoke unto them the word of God’; that is,
+                    they were their pastors, those who guided and fed this part of the flock of
+                        Christ.<note place="foot" xml:id="ftn6" n="6"><p rend="footnote text">An
+                            echo here of Poole, <hi rend="italic">Annotations</hi> (<hi
+                                rend="italic">loc. cit.</hi>) and the rule he propounds there for
+                            pastoral guidance in spiritual things.</p></note></p>
+                <p n="3">3. But by whom are these guides to be appointed? And what are they supposed
+                    to do in order to be entitled to the obedience which is here prescribed?</p>
+                <p>Volumes upon volumes have been wrote on that knotty question, ‘By whom are guides
+                    of souls to be appointed?’ I do not <pb n="03:376"/>intend here to enter at all
+                    into the dispute concerning church government; neither to debate whether it be
+                    advantageous or prejudicial to the interest of true religion that the church and
+                    the state should be blended together, as they have been ever since the time of
+                        Constantine<note place="foot" xml:id="ftn7" n="7"><p rend="footnote text"
+                            >Cf. No. 61, ‘The Mystery of Iniquity’, §27 and n.</p></note> in every
+                    part of the Roman Empire where Christianity has been received. Waiving all these
+                    points (which may find employment enough for men that abound in leisure), by
+                    them that guide you I mean them that do it, if not by your choice, at least by
+                    your consent; them that you willingly accept of to be your guides in the way to
+                    heaven.</p>
+                <p n="4">4. But what are they supposed to do in order to entitle them to the
+                    obedience here prescribed?</p>
+                <p>They are supposed to go before the flock (as is the manner of the eastern
+                    shepherds to this day) and to guide them in all the ways of truth and holiness;
+                    they are to ‘nourish them with the words of eternal life’,<note place="foot"
+                        xml:id="ftn8" n="8"><p rend="footnote text">Cf. 1 Tim. 4:6; John
+                        6:68.</p></note> to feed them with ‘the pure milk of the word’;<note
+                        place="foot" xml:id="ftn9" n="9"><p rend="footnote text">Cf. 1 Pet.
+                        2:2.</p></note> applying it continually ‘for doctrine’,<note place="foot"
+                        xml:id="ftn10" n="10"><p rend="footnote text">2 Tim. 3:16.</p></note>
+                    teaching them all the essential doctrines contained therein; ‘for reproof’,<note
+                        place="foot" xml:id="ftn11" n="11"><p rend="footnote text"><hi rend="italic"
+                                >Ibid.</hi></p></note> warning them if they turn aside from the way
+                    to the right hand or to the left; ‘for correction’,<note place="foot"
+                        xml:id="ftn12" n="12"><p rend="footnote text"><hi rend="italic"
+                            >Ibid.</hi></p></note> showing them how to amend what is amiss, and
+                    guiding them back into the way of peace; and ‘for instruction in
+                        righteousness’,<note place="foot" xml:id="ftn13" n="13"><p
+                            rend="footnote text"><hi rend="italic">Ibid.</hi></p></note> training
+                    them up in inward and outward holiness, ‘until they come to a perfect man, to
+                    the measure of the stature of the fullness of Christ’.<note place="foot"
+                        xml:id="ftn14" n="14"><p rend="footnote text">Cf. Eph. 4:13.</p></note></p>
+                <p n="5">5. They are supposed to ‘watch over your souls, as those that shall give
+                    account’. ‘As those that shall give account’! How unspeakably solemn and awful
+                    are those words! May God write them upon the heart of every guide of souls!</p>
+                <p>‘They watch’, waking while others sleep, over the flock of Christ;<note
+                        place="foot" xml:id="ftn15" n="15"><p rend="footnote text">See Luke
+                        2:8.</p></note> over the souls that he has bought with a price,<note
+                        place="foot" xml:id="ftn16" n="16"><p rend="footnote text">1 Cor. 6:20;
+                            7:23.</p></note> that he has purchased with his own blood.<note
+                        place="foot" xml:id="ftn17" n="17"><p rend="footnote text">Acts
+                        20:28.</p></note> They have them in their hearts both by day and by night;
+                    regarding neither sleep nor food in comparison of them. Even while they sleep
+                    their heart is waking, full of concern for their beloved children. ‘They watch’
+                    with deep earnestness, with uninterrupted seriousness, with unwearied care,
+                    patience, and diligence, as they that are about to <pb n="03:377"/>give an
+                    account of every particular soul to him that standeth at the door,<note
+                        place="foot" xml:id="ftn18" n="18"><p rend="footnote text">See Jas.
+                        5:9.</p></note> to the Judge of quick and dead.<note place="foot"
+                        xml:id="ftn19" n="19"><p rend="footnote text">Acts 10:42; cf. The Apostles’
+                            Creed.</p></note></p>
+            </div>
+            <div type="section" n="2">
+                <p n="1">II. 1. We are, secondly, to consider who those are whom the Apostle directs
+                    to obey them that have the rule over them. And in order to determine this with
+                    certainty and clearness, we shall not appeal to human institutions, but simply
+                    (as in answering the preceding question) appeal to that decision of it which we
+                    find in the oracles of God. Indeed we have hardly occasion to go one step
+                    farther than the text itself. Only it may be proper, first, to remove out of the
+                    way some popular opinions which have been almost everywhere taken for granted,
+                    but can in no wise be proved.</p>
+                <p n="2">2. It is usually supposed, first, that the Apostle is here directing <hi
+                        rend="italic">parishioners</hi> to obey and submit themselves to the <hi
+                        rend="italic">minister</hi> of their parish. But can anyone bring the least
+                    shadow of proof for this from the Holy Scripture? Where is it written that we
+                    are bound to obey any minister because we live in what is called his parish?
+                    ‘Yes’, you say, ‘we are bound to “obey every ordinance of man for the Lord’s
+                        sake”.’<note place="foot" xml:id="ftn20" n="20"><p rend="footnote text">Cf.
+                            1 Pet. 2:13.</p></note> True, in all things indifferent; but this is not
+                    so; it is exceeding far from it. It is far from being a thing indifferent to <hi
+                        rend="italic">me</hi> who is the guide of <hi rend="italic">my</hi> soul. I
+                    dare not receive one as my guide to heaven that is himself in the high road to
+                    hell. I dare not take a wolf for my shepherd, that has not so much as sheep’s
+                    clothing; that is a common swearer, an open drunkard, a notorious
+                    sabbath-breaker. And such (the more is the shame, and the more the pity!) are
+                    many parochial ministers at this day.</p>
+                <p n="">3. ‘But are you not properly members of that congregation to which your
+                    parents belong?’ I do not apprehend that I am; I know no Scripture that obliges
+                    me to this. I owe all deference to the commands of my parents, and willingly
+                    obey them in all things lawful.<note place="foot" xml:id="ftn21" n="21"><p
+                            rend="footnote text">Cf. No. 96, ‘On Obedience to Parents’,
+                        I.4.</p></note> But it is not lawful to ‘call them Rabbi’,<note place="foot"
+                        xml:id="ftn22" n="22"><p rend="footnote text">Cf. Matt. 23:8-10 and <hi
+                                rend="italic">Notes</hi>: ‘Our Lord, therefore, by forbidding us
+                            either to give or receive the title of Rabbi (Master or Father) forbids
+                            us either to receive any such reverence or to pay any such to any but
+                            God.’ See also his criticism of the Moravians for their calling
+                            Zinzendorf ‘Rabbi’ (JWJ, Sept. 3, 1741). Cf. his letters to the Moravian
+                            Church, §9, June 24, 1744, §9; to Micaiah Towgood, Jan. 10, 1758; his
+                            first Preface to the <hi rend="italic">Christian Lib.</hi>, I.v, §10;
+                            Nos. 123, ‘On Knowing Christ after the Flesh’, §8; and 150, ‘Hypocrisy
+                            in Oxford’, I.4.</p></note> that is, to believe or obey them implicitly.
+                    Everyone must give an account of himself to God. Therefore every man must judge
+                    for himself; especially <hi rend="Page">[03:378]</hi>in a point of so deep
+                    importance as this is, the choice of a guide for his soul.</p>
+                <p n="">4. But we may bring this matter to a short issue by recurring to the very
+                    words of the text. They that have voluntarily connected themselves with such a
+                    pastor as answers the description given therein; such as do in fact watch over
+                    their souls, as they that shall give account; such as do nourish them up with
+                    the words of eternal life;<note place="foot" xml:id="ftn23" n="23"><p
+                            rend="footnote text">See John 6:68; and n.8 above.</p></note> such as
+                    feed them as with the pure milk of the word,<note place="foot" xml:id="ftn24"
+                        n="24"><p rend="footnote text">See 1 Pet. 2:2.</p></note> and constantly
+                    apply it to them for doctrine, for reproof, for correction, and for instruction
+                    in righteousness:<note place="foot" xml:id="ftn25" n="25"><p
+                            rend="footnote text">2 Tim. 3:16.</p></note> all who have found and
+                    chosen guides of this character, of this spirit and behaviour, are undoubtedly
+                    required by the Apostle to ‘obey and submit themselves’ to them.</p>
+            </div>
+            <div type="section" n="3">
+                <p n="1">III. 1. But what is the meaning of this direction? This remains to be
+                    considered. In what sense, and how far, does the Apostle direct them to ‘obey
+                    and submit to their’ spiritual guides?</p>
+                <p>If we attend to the proper sense of the two words here used by the Apostle, we
+                    may observe that the former of them (πείθεσθε, from πείθω, to persuade) refers
+                    to the understanding, the latter, ὐπείκετε,<note place="foot" xml:id="ftn26"
+                        n="26"><p rend="footnote text">Cf. the Greek orig. of Heb. 13:17: πείθεσθε
+                            τοῖς ἡγουμένοις ὑμῶν καὶ ὑπείκετε….</p></note> to the will, and outward
+                    behaviour. To begin with the former. What influence ought our spiritual guides
+                    to have over our understanding? We dare no more call our spiritual fathers
+                    Rabbi, than the ‘fathers of our flesh’.<note place="foot" xml:id="ftn27" n="27"
+                            ><p rend="footnote text">Heb. 12:9.</p></note> We dare no more yield
+                    implicit faith to the former than to the latter. In this sense ‘one is our
+                    Master’ (or rather ‘Teacher’), ‘who is in heaven.’<note place="foot"
+                        xml:id="ftn28" n="28"><p rend="footnote text">Cf. Matt. 23:8-9 (<hi
+                                rend="italic">Notes</hi>).</p></note> But whatever submission, of
+                    even our understanding, is short of this, we may, nay, we ought to yield to
+                    them.</p>
+                <p n="2">2. To explain this a little farther. St. James uses a word which is nearly
+                    allied to the former of these. ‘The wisdom which is from above is’ εὐπειθής,
+                    ‘easy to be convinced,’ or ‘to be persuaded’.<note place="foot" xml:id="ftn29"
+                        n="29"><p rend="footnote text">Jas. 3:17; cf. No. 10, ‘The Witness of the
+                            Spirit, I’, II.6 and n.</p></note> Now if we ought to have and to show
+                    this wisdom toward all men; we ought to have it in a more eminent degree, and to
+                    show it upon every occasion, toward those that ‘watch over our souls’. With
+                    regard to these, above all other men, we should be ‘easy to be <hi rend="Page"
+                        >[03:379]</hi>entreated’; easily convinced of any truth, and easily
+                    persuaded to anything that is not sinful.</p>
+                <p n="3">3. A word of nearly the same import with this is frequently used by St.
+                    Paul; namely, ἐπιεικής.<note place="foot" xml:id="ftn30" n="30"><p
+                            rend="footnote text">The text in James has ἐπιεικής and εὐπειθής. In the
+                                <hi rend="italic">Notes</hi> Wesley translates ἐπιεικής ‘gentle’ and
+                            then explains it: ‘soft, mild, yielding, not rigid’. His dubious point
+                            is that St. Paul also uses ἐπιεικής in the same sense as St. James (as
+                            in Phil. 4:5; 1 Tim. 3:3; Titus 3:2). The only other cognate usage is 2
+                            Cor. 10:1, ἐπιείκεια; cf. No. 108, On Riches’, I.8 and n.</p></note> In
+                    our translation it is more than once rendered ‘gentle’. But perhaps it might be
+                    more properly rendered (if the word may be allowed) ‘yielding’; ready to yield,
+                    to give up our own will, in everything that is not a point of duty. This amiable
+                    temper every real Christian enjoys, and shows in his intercourse with all men.
+                    But he shows it in a peculiar manner toward those that watch over his soul. He
+                    is not only willing to receive any instruction from them, to be convinced of
+                    anything which he did not know before; lying open to their advice, and being
+                    glad to receive admonition, or reproof; but is ready to give up his own will,
+                    whenever he can do it with a clear conscience. Whatever they desire him to do,
+                    he does; if it be not forbidden in the Word of God. Whatever they desire him to
+                    refrain from, he does so; if it be not enjoined in the Word of God. This is
+                    plainly implied in those words of the Apostle, ‘Submit yourselves to
+                    them’—‘yield to them’<note place="foot" xml:id="ftn31" n="31"><p
+                            rend="footnote text">Cf. Rom. 6:13.</p></note>—give up your own will.
+                    This is meet, and right, and your bounden duty,<note place="foot" xml:id="ftn32"
+                        n="32"><p rend="footnote text">An echo of the Preface to the Sanctus in BCP,
+                            Communion.</p></note> if they do indeed watch over your souls as they
+                    that shall give account. If you do thus ‘obey and submit yourselves to them’,
+                    they will give an account of you ‘with joy; not with groaning’, as they must
+                    otherwise do; for although they should be clear of your blood, yet ‘that would
+                    be unprofitable to you’; yea, a prelude to eternal damnation.</p>
+                <p n="4">4. How acceptable to God was an instance of obedience somewhat similar to
+                    this! You have a large and particular account of it in the thirty-fifth chapter
+                    of Jeremiah. ‘The word of the Lord came to Jeremiah, saying, Go unto the house
+                    of the Rechabites, and give them wine to drink. Then I took the whole house of
+                    the Rechabites’ (all the heads of their families) ‘and set before them pots full
+                    of wine, and said unto them, Drink ye wine. But they said, We will drink no
+                    wine: for Jonadab’, a great man in the reign of Jehu, ‘the son of Rechab’, from
+                    whom we are named, being the father of our family, ‘commanded us, Ye shall drink
+                    no wine, <pb n="03:380"/>neither ye nor your sons for ever. And we have obeyed
+                    the voice of Jonadab our father, in all that he charged us.’<note place="foot"
+                        xml:id="ftn33" n="33"><p rend="footnote text">Cf. Jer. 35:1-3, 5-6,
+                        8.</p></note> We do not know any particular reason why Jonadab gave this
+                    charge to his posterity. But as it was not sinful they gave this strong instance
+                    of gratitude to their great benefactor. And how pleasing this was to the Father
+                    of their spirits we learn from the words that follow. ‘And Jeremiah said unto
+                    the Rechabites, Because ye have obeyed the voice of Jonadab your father,
+                    therefore thus saith the Lord of hosts, Jonadab shall not want a man to stand
+                    before my face for ever.’<note place="foot" xml:id="ftn34" n="34"><p
+                            rend="footnote text">Cf. Jer. 35:18-19.</p></note></p>
+                <p n="5">5. Now it is certain Christians owe full as much gratitude and obedience to
+                    those that watch over their souls as ever the house of the Rechabites owed to
+                    Jonadab the son of Rechab. And we cannot doubt but he is as well pleased with
+                    our obedience to these as ever he was with their obedience to Jonadab. If he was
+                    so well pleased with the gratitude and obedience of this people to their
+                    temporal benefactor, have we not all reason to believe he is full as well
+                    pleased with the gratitude and obedience of Christians to those who derive far
+                    greater blessings to them than ever Jonadab conveyed to his posterity?</p>
+                <p n="6">6. It may be of use yet again to consider, In what instances is it the duty
+                    of Christians to obey and submit themselves to those that watch over their
+                    souls? Now the things which they enjoin must be either enjoined of God, or
+                    forbidden by him, or indifferent. In things forbidden of God we dare not obey
+                    them; for we are to obey God rather than man. In things enjoined of God we do
+                    not properly obey them, but our common Father. Therefore if we are to obey them
+                    at all it must be in things indifferent. The sum is: it is the duty of every
+                    private Christian to obey his spiritual pastor, by either doing or leaving
+                    undone anything of an indifferent nature—anything that is in no way determined
+                    in the Word of God.</p>
+                <p n="7">7. But how little is this understood in the Protestant world! At least in
+                    England and Ireland! Who is there, even among those that are supposed to be good
+                    Christians, who dreams there is such a duty as this? And yet there is not a more
+                    express command either in the Old or New Testament. No words can be more clear
+                    and plain; no command more direct and positive. Therefore certainly <pb
+                        n="03:381"/>none who receive the Scripture as the Word of God can live in
+                    the habitual breach of this and plead innocence. Such an instance of wilful, or
+                    at least careless disobedience, must grieve the Holy Spirit of God. It cannot
+                    but hinder the grace of God from having its full effect upon the heart. It is
+                    not improbable that this very disobedience may be one cause of the deadness of
+                    many souls; one reason of their not receiving those blessings which they seek
+                    with some degree of sincerity.</p>
+                <p n="8">8. It remains only to make a short application of what has now been
+                    delivered.</p>
+                <p>You that read this, do you apply it to yourself? Do you examine yourself thereby?
+                    Do not <hi rend="italic">you</hi> stop your own growth in grace, if not by
+                    wilful disobedience to this command, yet by a careless inattention to it, by not
+                    considering it, as the importance of it deserves? If so, you defraud yourself of
+                    many blessings which you might enjoy. Or, are you of a better mind, of a more
+                    excellent spirit? Is it your fixed resolution and your constant endeavour ‘to
+                    obey them that have the rule over you’ in the Lord? To ‘submit yourself as
+                    cheerfully to your spiritual as to your natural parents? Do you ask, ‘Wherein
+                    should I submit to them?’ The answer has been given already: not in things
+                    enjoined of God; not in things forbidden by him; but in things indifferent—in
+                    all that are not determined one way or the other by the oracles of God. It is
+                    true this cannot be done in some instances without a considerable degree of
+                    self-denial, when they advise you to refrain from something that is agreeable to
+                    flesh and blood. And it cannot be obeyed in other instances without taking up
+                    your cross; without suffering some pain or inconvenience that is not agreeable
+                    to flesh and blood. For that solemn declaration of our Lord has place here, as
+                    well as on a thousand other occasions, ‘Except a man deny himself, and take up
+                    his cross daily, he cannot be my disciple.’<note place="foot" xml:id="ftn35"
+                        n="35"><p rend="footnote text">Cf. Luke 9:23; 14:27.</p></note> But this
+                    will not affright you, if you resolve to be not only almost, but altogether, a
+                        Christian;<note place="foot" xml:id="ftn36" n="36"><p rend="footnote text"
+                            >See No. 2, <hi rend="italic">The Almost Christian</hi>, on Acts
+                            26:28.</p></note> if you determine to fight the good fight of faith, and
+                    lay hold on eternal life.<note place="foot" xml:id="ftn37" n="37"><p
+                            rend="footnote text">1 Tim. 6:12.</p></note></p>
+                <p n="9">9. I would now apply myself in a more particular manner to <hi
+                        rend="italic">you </hi>who desire <hi rend="italic">me</hi> to watch over
+                    your souls. Do <hi rend="italic">you</hi> make it a point of conscience to <hi
+                        rend="italic">obey</hi> me, for my Master’s sake? To ‘submit <hi rend="Page"
+                        >[03:382]</hi>yourselves’ to <hi rend="italic">me</hi> in things
+                    indifferent, things not determined in the Word of God? In all things that are
+                    not enjoined, nor yet forbidden in Scripture? Are you ‘easy to be entreated’, as
+                    by men in general, so by me in particular? Easy to be convinced of any truth,
+                    however contrary to your former prejudices? And easy to be persuaded to do or
+                    forbear any indifferent thing at my desire? You cannot but see that all this is
+                    clearly contained in the very words of the text. And you cannot but acknowledge
+                    that it is highly reasonable for you so to do, if I do employ all my time, all
+                    my substance, all my strength both of body and soul, not in seeking my own
+                    honour, or pleasure; but in promoting your present and eternal salvation; if I
+                    do indeed ‘watch over your souls as one that must give account’.</p>
+                <p n="10">10. Do you then take my advice (I ask in the presence of God and all the
+                    world) with regard to <hi rend="italic">dress</hi>? I published that advice
+                    above thirty years ago:<note place="foot" xml:id="ftn38" n="38"><p
+                            rend="footnote text">Cf. <hi rend="italic">Advice to the People called
+                                Methodists with regard to Dress</hi>. See No. 88, intro. Briefer
+                            ‘advices’ on dress had appeared as early as 1744 in ‘Directions given to
+                            the Band Societies’ (Dec. 25), and also in <hi rend="italic">Advice to
+                                the People called Methodists</hi> (1745).</p></note> I have repeated
+                    it a thousand times since. I have advised you not to be conformable to the world
+                    herein; to lay aside all needless ornaments; to avoid all needless expense; to
+                    be patterns of plainness to all that are round about you. Have you taken this
+                    advice? Have you all, men and women, young and old, rich and poor, laid aside
+                    all those needless ornaments which I particularly objected to? Are you all
+                    exemplarily plain in your apparel? As plain as Quakers (so called) or
+                        Moravians?<note place="foot" xml:id="ftn39" n="39"><p rend="footnote text"
+                            >Cf. No. 88, ‘On Dress’, §26 and n.</p></note> If not, if you are still
+                    dressed like the generality of people of your own rank and fortune, you declare
+                    hereby to all the world that you will not obey them that are over you in the
+                    Lord. You declare, in open defiance of God and man, that you will not ‘submit
+                    yourselves’ to them. Many of you carry your sins on your forehead, openly and in
+                    the face of the sun. You harden your hearts against instruction and against
+                    conviction; you harden one another; especially those of you that were once
+                    convinced, and have now stifled your convictions. You encourage one another to
+                    stop your ears against the truth, and shut your eyes against the light, lest
+                    haply you should see that you are fighting against God and against your own
+                    souls. If I were now called to give an account of you, it would be ‘with groans,
+                    and not with joy’.<note place="foot" xml:id="ftn40" n="40"><p
+                            rend="footnote text">Cf. Heb. 13:17 (<hi rend="italic"
+                        >Notes</hi>).</p></note> And sure that would <pb n="03:383"/>be
+                    ‘unprofitable for you’:<note place="foot" xml:id="ftn41" n="41"><p
+                            rend="footnote text"><hi rend="italic">Ibid.</hi></p></note> the loss
+                    would fall upon your own head.</p>
+                <p n="11">11. I speak all this on supposition (though that is a supposition not to
+                    be made) that the Bible was silent on this head; that the Scripture said nothing
+                    concerning <hi rend="italic">dress</hi>, and left it to everyone’s own
+                    discretion. But if all other texts were silent, this is enough, ‘Submit
+                    yourselves to them that are over you in the Lord.’ I bind this upon your
+                    consciences, in the sight of God. Were it only in obedience to this direction,
+                    you cannot be clear before God unless you throw aside all needless ornaments, in
+                    utter defiance of that tyrant of fools, fashion;<note place="foot"
+                        xml:id="ftn42" n="42"><p rend="footnote text">Cf. No. 25, ‘Sermon on the
+                            Mount, V’, IV.3 and n.</p></note> unless you seek only to be adorned
+                    with good works, as men and women professing godliness.<note place="foot"
+                        xml:id="ftn43" n="43"><p rend="footnote text">1 Tim. 2:10.</p></note></p>
+                <p n="12">12. Perhaps you will say, ‘This is only a little thing: it is a mere
+                    trifle.’ I answer, If it be, you are the more inexcusable before God and man.
+                    What! Will you disobey a plain commandment of God for ‘a mere trifle’? God
+                    forbid! Is it a trifle to sin against God? To set his authority at nought? Is
+                    this a little thing? Nay, remember, there can be no little sin, till we can find
+                    a little god! Meantime be assured of one thing: the more conscientiously you
+                    obey your spiritual guides, the more powerfully will God apply the word which
+                    they speak in his name to your heart! The more plentifully will he water what is
+                    spoken with the dew of his blessing:<note place="foot" xml:id="ftn44" n="44"><p
+                            rend="footnote text">See Deut. 32:1-2.</p></note> and the more proofs
+                    will you have, it is not only they that speak, but the Spirit of your Father who
+                    speaketh in them.<note place="foot" xml:id="ftn45" n="45"><p
+                            rend="footnote text">See Matt. 10:20.</p></note></p>
+            </div>
+            <p><placeName>Bristol</placeName>, <date when="03-18-1785">March 18, 1785</date><note
+                    place="foot" xml:id="ftn46" n="46"><p rend="footnote text">Place and date as in
+                            <hi rend="italic">AM</hi>.</p></note></p>
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,660 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Sermon 102: Of Former Times</title>
+                <author>Wesley, John</author>
+                <editor role="text">Van Buskirk, Gregory P.</editor>
+                <editor role="digital">Taylor, Michelle M.</editor>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>The Wesley Works Digitzation Project</publisher>
+                <pubPlace>Tampa, FL</pubPlace>
+                <date>2024-02-25</date>
+            </publicationStmt>
+            <sourceDesc>
+                <listBibl>
+                    <biblStruct>
+                        <analytic>
+                            <title level="a">Sermon 102: Of Former Times</title>
+                        </analytic>
+                        <monogr>
+                            <title level="j">The Works of John Wesley, Volume III: Sermons III,
+                                71-114</title>
+                            <editor role="volume">Outler, Albert</editor>
+                            <imprint>
+                                <publisher>Abingdon Press</publisher>
+                                <pubPlace>Nashville, TN</pubPlace>
+                                <date when="1986-11-01">1986-11-01</date>
+                                <biblScope unit="volume" n="3"/>
+                                <biblScope unit="page" from="440" to="453"/>
+                            </imprint>
+                        </monogr>
+                        <series>
+                            <title level="s">The Works of John Wesley</title>
+                            <editor role="general">Baker, Frank</editor>
+                        </series>
+                    </biblStruct>
+                </listBibl>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Greg Van Buskirk created Word docs for all of Wesley's sermons using a combination of
+                OCR software and manual proofing. Michelle Taylor converted these docx into XML
+                using Oxygen's DITA automatic transformation scenario, then touched them up
+                manually.</p>
+        </encodingDesc>
+        <standOff>
+            <taxonomy>
+                <keywords>
+                    <term/>
+                </keywords>
+            </taxonomy>
+            <!--Include keywords and terms here eventually.-->
+        </standOff>
+        <revisionDesc/>
+    </teiHeader>
+    <text>
+        <body>
+            <pb n="03:440"/>
+            <head>
+                <hi rend="italic">An Introductory Comment</hi>
+            </head>
+            <introduction>
+                <p>This sermon provides an interesting sample of Wesley as a ‘theologian of
+                    culture’, concerned with various correlations between the Christian world view
+                    and emergent current issues. One such issue had become popular and controversial
+                    by the 1780s: the idea of ‘progress’. Traditional philosophies of history
+                    (orthodox, Puritan, ‘primitivist’, ‘restorationist’, etc.) had premised some
+                    sort of ‘golden age of mankind’, long since decayed—or, alternatively, a
+                    pristine ‘apostolic age’ of authentic Christian faith and praxis, long since
+                    corrupted. As sophisticated a theologian as Robert South, in preaching from
+                    Eccles. 7:10,<note place="foot" xml:id="ftn1" n="1"><p rend="footnote text"><hi
+                                rend="italic">Sermons</hi> (1823), No. XIV, Vol. V, pp.
+                        233-49.</p></note> had argued that the ‘former times’ mentioned there were
+                    not really better than our own—which was to say that every age has its own
+                    characteristic defects. Much earlier, Jean Bodin, in his <hi rend="italic"
+                        >Methodus, ad facilem historiarum cognitionem</hi> (1566) had expounded a
+                    sort of ‘law of oscillations’, thus rejecting both extremes of pessimism and
+                    optimism. Louis Le Roy had followed with a variation on the same theme in <hi
+                        rend="italic">De la Vicissitude ou varieté des choses en
+                        l’univers</hi>.<note place="foot" xml:id="ftn2" n="2"><p
+                            rend="footnote text">1st edn., 1576; Eng. trans, by Robert Ashley,
+                            1594.</p></note></p>
+                <p>The emergence of ‘the idea of progress’ has been traced, credibly enough, by J.
+                    B. Bury in his essay under that title (1932), with typically scant interest in
+                    its theological aspects or development. But this was precisely where Wesley’s
+                    view of the problem found its focus. For example, he knew George Hakewill’s
+                    rambling but pioneering <hi rend="italic">Apologie or Declaration of the Power
+                        and Providence of God in the Government of the World…</hi> (1627, 1630,
+                    1635), with its argument to the effect that Christianity had made a decisive
+                    contribution to human progress over pagan times (cf. Bury’s grudging praise of
+                    Hakewill’s interest in social progress, p. 92). Closer to Wesley’s time there
+                    had been Bishop Thomas Sprat’s vision in his <hi rend="italic">History of the
+                        Royal Society</hi> (1667) of the foreseeable ‘absolute perfection of the
+                    true philosophy [of nature]’. Wesley also knew Joseph Glanvill’s short essay,
+                        <hi rend="italic">Plus Ultra, or the Progress and Advancement of Knowledge
+                        since</hi>
+                    <pb n="03:441"/><hi rend="italic">the Days of Aristotle</hi> (1668), which had
+                    celebrated the unprecedented progress in useful knowledge generated by the new
+                    sciences. What interested Wesley most in Glanvill was the extension of the idea
+                    to the newly discovered ‘Transatlantic World’; this had been one of his
+                    recurring visions, too.</p>
+                <p>But the idea as a general conversation-piece had been popularized in France and
+                    England by two widely discussed works of Bernard Le Bovier de Fontenelle: <hi
+                        rend="italic">Dialogues of the Dead</hi>,<note place="foot" xml:id="ftn3"
+                        n="3"><p rend="footnote text">1st edn. in French, 1683; Eng. trans, by John
+                            Hughes, 1708.</p></note> and <hi rend="italic">Conversations on the
+                        Plurality of Worlds</hi>.<note place="foot" xml:id="ftn4" n="4"><p
+                            rend="footnote text">1st edn. in French, 1686; Eng. trans, by Mrs. Aphra
+                            Lehn; four edns. from 1688 to 1760.</p></note> How closely Wesley had
+                    read Fontenelle can only be conjectured. What is clear is that by 1787 he was
+                    convinced that his people needed a written sermon to connect two points not
+                    always held together by the apostles of progress: (1) the actuality of
+                    ‘progress’ and (2) the radical dependence of all so-called ‘progress’ upon the
+                    design and scope of God’s providence. Here, then, is a secular idea embraced and
+                    transformed by an evangelical theologian. It is one of the earlier essays in
+                    this vein that one can point to.</p>
+                <p>The written sermon was produced in June 1787, in the midst of Wesley’s long stay
+                    in Ireland that year; it is dated ‘Dublin, June 27’, which would have been the
+                    day following Thomas Coke’s return from a missionary journey to America: ‘We
+                    were agreeably surprised with the arrival of Dr. Coke, who came from
+                    Philadelphia in nine-and-twenty days, and gave us a pleasing account of the work
+                    of God in America.’<note place="foot" xml:id="ftn5" n="5"><p
+                            rend="footnote text">JWJ, June 26, 1787.</p></note> It was published in
+                    the <hi rend="italic">Arminian Magazine</hi> in the winter of that same year
+                    (November and December, X.566-72, 620-25); it had no title, but was numbered as
+                    ‘Sermon XLII’. It is interesting to note that Wesley had preached from Eccles.
+                    7:10 only once before (in 1759). Even when the sermon appeared in the <hi
+                        rend="italic">Arminian Magazine</hi>, Wesley must have been planning for its
+                    inclusion in <hi rend="italic">SOSO</hi>, VIII, where it appears with its
+                    present neutral title, pp. 153-72.</p>
+                <pb n="03:442"/>
+            </introduction>
+            <head>Of Former Times</head>
+            <epigraph>
+                <p>Ecclesiastes 7:10</p>
+                <p>
+                    <hi rend="italic">Say not thou, What is the cause that the former days mere
+                        better than these? For thou dost not inquire wisely concerning this.</hi>
+                </p>
+            </epigraph>
+            <p n="1">1. It is not easy to discern any connection between this text and the context,
+                between these words and either those that go before or those that follow after. It
+                seems to be a detached, independent sentence, like very many in the Proverbs of
+                Solomon. And like them, it contains a weighty truth, which deserves a serious
+                consideration. Is not the purport of the question this? It is not wise to inquire
+                into the cause of a supposition unless the supposition itself be not only true but
+                clearly proved so to be. Therefore it is not wise to inquire into the cause of this
+                supposition that ‘the former days were better than these’, because, common as it is,
+                it was never yet proved, nor indeed ever can be.</p>
+            <p n="2">2. Perhaps there are few suppositions which have passed more currently in the
+                world than this, that the former days were better than these; and that in several
+                respects. It is generally supposed that we now live in the dregs of time,<note
+                    place="foot" xml:id="ftn6" n="6"><p rend="footnote text">Cf. No. 52, <hi
+                            rend="italic">The Reformation of Manners</hi>, II.1 and n.</p></note>
+                when the world is as it were grown old, and consequently that everything therein is
+                in a declining state. It is supposed, in particular, that men were, some ages ago,
+                of a far taller stature than now; that they likewise had far greater abilities, and
+                enjoyed a deeper and stronger understanding, in consequence of which their writings
+                of every kind are far preferable to those of later times. Above all it is supposed
+                that the former generations of men excelled the present in virtue; that mankind in
+                every age and in every nation have degenerated more and more, so that at length they
+                have fallen from the golden into the iron age, and now justice is fled from the
+                    earth.<note place="foot" xml:id="ftn7" n="7"><p rend="footnote text">In the
+                        following month Wesley would be reading ‘Mr. [Francis] Dobbs’s [<hi
+                            rend="italic">Summary of</hi>] <hi rend="italic">Universal
+                        History</hi>’, and giving it a mixed appraisal. Dobbs, an Irish politician,
+                        was also an ardent millenarian and some parts of his <hi rend="italic"
+                            >History</hi> (4 vols., 1787-88) left Wesley sceptical: ‘It gave me a
+                        clearer view of ancient times than ever I had before, but I still doubt of
+                        many famous incidents which have passed current for many ages. To instance
+                        in one: I cannot believe there was ever such a nation as the Amazons in the
+                        world. The whole affair of the Argonauts I judge to be equally fabulous…’
+                        (JWJ, July 26, 1787).</p></note></p>
+            <pb n="03:443"/>
+            <p n="3">3. Before we consider the truth of these suppositions, let us inquire into the
+                rise of them. And as to the general supposition, that the world was once in a far
+                more excellent state than it is, may we not easily believe that this arose (as did
+                all the fabulous accounts of the golden age) from some confused traditions
+                concerning our first parents and their paradisiacal state? To this refer many of the
+                fragments of ancient writings which men of learning have gleaned up. Therefore we
+                may allow that there is some truth in the supposition; seeing it is certain, the
+                days which Adam and Eve spent in paradise were far better than any which have been
+                spent by their descendants, or ever will be till Christ returns to reign upon
+                earth.</p>
+            <p n="4">4. But whence could that supposition arise that men were formerly of a larger
+                stature than they are now? This has been a generally prevailing opinion, almost in
+                all nations and in all ages. Hence near two thousand years ago the well-known line
+                of Virgil,</p>
+            <quote>
+                <hi rend="italic">Qualia nunc hominum producit corpora tellus.</hi>
+                <note place="foot" xml:id="ftn8" n="8">
+                    <p rend="footnote text">Virgil, <hi rend="italic">Aeneid</hi>, xii.900: the
+                        context is Turnus’s discovery of a landmark stone that not even a dozen men
+                        could lift, ‘men of such frames as earth produces now’.</p>
+                </note>
+            </quote>
+            <p>Hence near a thousand years before him, Homer tells us of one of his heroes throwing
+                a stone which hardly ten men could lift, οἷοι νῦν βροτοί—‘such as men are now’.<note
+                    place="foot" xml:id="ftn9" n="9"><p rend="footnote text">An exaggeration of the
+                        interval between Virgil and Homer; and notice that in the <hi rend="italic"
+                            >Iliad</hi>, v.304, the stone is such as ‘not <hi rend="italic">two</hi>
+                        men could bear, such as mortals are now’. See also Wesley’s letter to his
+                        brother Charles, July 9, 1766.</p></note> We allow indeed there have been
+                giants in all ages, in various parts of the world.<note place="foot" xml:id="ftn10"
+                    n="10"><p rend="footnote text">Cf. Chambers’s <hi rend="italic"
+                        >Cyclopaedia</hi>, on ‘giants’, and his list of witnesses to them (Caesar,
+                        Tacitus, Florus, Saxo Grammaticus, <hi rend="italic">et al.</hi>).
+                        Chambers’s main point is that giants are, and always have been, rarities and
+                        marvels; ‘antique examples’ may be matched by ‘modern examples’ (e.g.,
+                        ‘porters and archers belonging to the emperor of China, fifteen foot high’,
+                        etc.).</p></note> Whether the antediluvians mentioned in Genesis were such
+                or no (which many have questioned), we cannot doubt but Og the King of Bashan<note
+                    place="foot" xml:id="ftn11" n="11"><p rend="footnote text">Deut.
+                    3:11.</p></note> was such, as well as Goliath of Gath.<note place="foot"
+                    xml:id="ftn12" n="12"><p rend="footnote text">1 Sam. 17:4.</p></note> Such also
+                were many of the children (or descendants) of Anak.<note place="foot" xml:id="ftn13"
+                    n="13"><p rend="footnote text">Deut. 9:2.</p></note> But it does not appear that
+                in any age or nation men in general were larger than they are now. We are very sure
+                they were not for many centuries past, by the tombs and coffins that have been
+                discovered, which are exactly of the same size with those that are now in use. And
+                in the <pb n="03:444"/>catacombs at Rome the niches for the dead bodies which were
+                hewn in the rock sixteen hundred years ago are none of them six feet in length, and
+                some a little under. Above all, the Pyramids of Egypt (that of King Cheops in
+                particular) have beyond all reasonable doubt remained at least three thousand years;
+                yet none of the mummies (embalmed bodies) brought therefrom are above five feet ten
+                inches long.<note place="foot" xml:id="ftn14" n="14"><p rend="footnote text">Cf.
+                        William Derham, <hi rend="italic">Physico-Theology</hi> (1716), pp. 291-92,
+                        where the evidence of the ancient pyramids, catacombs, monumental tombs,
+                        etc., is surveyed (from classical history and modern travel stories) and the
+                        conclusion drawn that ‘there is no decay in nature (though the question is
+                        as old as Homer); men of this age are of the same stature as they were near
+                        three thousand years ago….’ For example, the Emperor Augustus was five feet,
+                        seven inches, whereas Queen Elizabeth was five feet, nine inches. See also
+                        Samuel Clarke, <hi rend="italic">A Mirrour or Looking-Glasse</hi> (1654),
+                        pp. 608-11 (a description of the Egyptian pyramids), ‘…whereby it appears
+                        that men’s bodies are now almost as big as they were three thousand years
+                        ago’. In his <hi rend="italic">Survey</hi>, I.100 ff., Wesley reviews the
+                        same evidence and reasserts the same conclusion; e.g., p. 151: ‘Five feet
+                        and an half may be thought the ordinary height of man’—Wesley was five feet,
+                        three inches—and ‘seventy years the ordinary period of his life’—Wesley died
+                        at age eighty-seven. Cf. Joseph G. Wright, ‘Notes on Some Portraits of John
+                        Wesley’, WHS, III.189; see also No. 54, ‘On Eternity’, §8 and
+                n.</p></note></p>
+            <p n="5">5. But how then came this supposition to prevail so long and so generally in
+                the world? I know not but it may be accounted<note place="foot" xml:id="ftn15"
+                    n="15"><p rend="footnote text">Both 1787 and 1788 read ‘recounted’, surely an
+                        unnoticed error.</p></note> for from hence. Great and little are relative
+                terms, and all men judge of greatness and littleness by comparing things with
+                themselves. Therefore it is not strange if we think men are larger now than they
+                were when we were children. I remember a remarkable instance of this in my own case.
+                After having left it seven years I had a great desire to see the school where I was
+                brought up.<note place="foot" xml:id="ftn16" n="16"><p rend="footnote text">Wesley
+                        had grown up with historic landmarks on every side; e.g., the Charterhouse
+                        School in London was in sight of Smithfield and close to St. Andrew’s,
+                        Holborn. He had entered the school on Jan. 28, 1714 (aged ten) and left it
+                        in June 1720, just before his seventeenth birthday.</p></note> When I was
+                there, I wondered that the boys were so much smaller than they used to be when I was
+                at school. ‘Many of my schoolfellows ten years ago were taller by the head than me.
+                And few of them that are at school now reach up to my shoulders.’ Very true; but
+                what was the reason of this? Indeed a very plain one: it was not because they were
+                smaller, but because I was bigger than I was ten years before. I verily believe this
+                is the cause why men in general suppose the human race to decrease in stature. They
+                remember the time when most of those round about them were both taller and bigger
+                than themselves. Yea, and all men have done the same in their successive
+                generations. Is it <pb n="03:445"/>any wonder then that all should have run into the
+                same mistake? When it has been transmitted unawares from father to son, and probably
+                will be to the end of time.</p>
+            <p n="6">6. But there is likewise a general supposition that the understanding of man
+                and all his mental abilities were of a larger size in the ancient days than they are
+                now; and that the ancient inhabitants of the earth had far greater talents than the
+                present. Men of eminent learning have been of this mind, and have contended for it
+                with the utmost vehemence. It is granted that many of the ancient writers, both
+                philosophers, poets, and historians, will not easily be excelled, if equalled, by
+                those of later ages. We may instance in Homer and Virgil as poets, Thucydides and
+                Livy as historians. But this meantime is to be remarked concerning most of these
+                writers—that each of them spent his whole life in composing and polishing one book.
+                What wonder then if they were exquisitely finished, when so much labour was bestowed
+                upon them! I doubt whether any man in Europe or in the world has taken so much pains
+                in finishing any treatise. Otherwise it might possibly have equalled, if not
+                excelled, any that went before.<note place="foot" xml:id="ftn17" n="17"><p
+                        rend="footnote text">Cf. R. W. Harris, <hi rend="italic">Reason and Nature
+                            in Eighteenth Century Thought</hi>, pp. 237-38, citing Edward Young
+                        (‘the poet’) as having posed the same question with regard to the ancients,
+                        with a similar conclusion. John Dunton, editor of<hi rend="italic"> The
+                            Athenian Mercury</hi>, complained of his brother-in-law, Samuel Wesley,
+                        Sen., that ‘he usually wrote too fast to write well’; see Dunton’s <hi
+                            rend="italic">Life and Errors</hi> (Westminster, J. Nichols, Son, and
+                        Bentley, 1818), I.164.</p></note></p>
+            <p n="7">7. But that the generality of men were not one jot wiser in ancient times than
+                they are at the present time we may easily gather from the most authentic records.
+                One of the most ancient nations concerning whom we have any certain account is the
+                Egyptian. And what conception can we have of their understanding and learning when
+                we reflect upon the objects of their worship? These were not only the vilest of
+                animals, as dogs and cats, but the leeks and onions<note place="foot" xml:id="ftn18"
+                    n="18"><p rend="footnote text">Cf. Isaac Hawkins Browne, ‘Of the Immortality of
+                        the Soul’, translated from the Latin by Richard Grey, in <hi rend="italic"
+                            >English Poems</hi>, IX.12 (London, 1754):</p>
+                    <lg>
+                        <l>Those [idols] their propitious deities they called;</l>
+                        <l>As those unlucky, which would do them harm.</l>
+                        <l>Nay, to such height at last the frenzy grew,</l>
+                        <l>That little ugly beasts, nay even leeks</l>
+                        <l>And onions, were by mad antiquity</l>
+                        <l>Held sacred—and, as deities, adored.</l></lg>
+                    <p rend="footnote text">See also John Hutchinson, <hi rend="italic">Works</hi>,
+                        IV (‘G’).262, for a reference to ‘Egyptian religion’; cf. <hi rend="italic"
+                            >Works</hi>, I (‘B’).93-96.</p></note> that grew in their own gardens.
+                    <pb n="03:446"/>Indeed I knew<note place="foot" xml:id="ftn19" n="19"><p
+                        rend="footnote text">Altered in <hi rend="italic">SOSO</hi> to ‘we lately
+                        had’; if Wesley was personally acquainted with Hutchinson, he left no other
+                        record of this fact.</p></note> a great man (whose manner was to treat with
+                the foulest abuse all that dared to differ from him: I do not mean Dr. Johnson—he
+                was a mere courtier compared to Mr. Hutchinson<note place="foot" xml:id="ftn20"
+                    n="20"><p rend="footnote text">Cf. Spearman and Bate, Editors’ Preface to
+                        Hutchinson’s <hi rend="italic">Works</hi>, I.xi: ‘[Hutchinson]…offended
+                        sometimes with his tongue, spoke sometimes with more warmth than is strictly
+                        justifiable, and [often allowed] unguarded expressions to
+                drop….’</p></note>) who scurrilously abused all those who are so void of common
+                sense as to believe any such thing concerning them. He peremptorily affirms (but
+                without condescending to give us any proof) that the ancient inhabitants of Egypt
+                had a deep hidden meaning in all this. Let him believe it who can. I cannot believe
+                it, on any man’s bare assertion. I believe they had no deeper meaning in worshipping
+                cats than our schoolboys have in baiting them. And I apprehend the common Egyptians
+                were just as wise three thousand years ago as the common ploughmen in England and
+                Wales are at this day. I suppose their natural understanding, like their stature,
+                was on a level with ours, and their learning, their acquired knowledge, many degrees
+                inferior to that of persons of the same rank either in France, Holland, or
+                Germany.</p>
+            <p n="8">8. ‘However, did not the people of former times greatly excel us in virtue?’
+                This is the point of greatest importance; the rest are but trifles in comparison of
+                it. Now is it not universally allowed that every age grows worse and worse? Was it
+                not observed by the old heathen poet, almost two thousand years ago,</p>
+            <lg>
+                <l>
+                    <hi rend="italic">Aetas parentum, peior avis, tulit</hi>
+                </l>
+                <l>
+                    <hi rend="italic">Nos nequiores, iam daturos</hi>
+                </l>
+                <l>
+                    <hi rend="italic">Progeniem vitiosiorem.</hi>
+                </l>
+                <note place="foot" xml:id="ftn21" n="21">
+                    <p rend="footnote text">Cf. Horace, <hi rend="italic">Odes</hi>, III.vi.46-48,
+                        orig., ‘<hi rend="italic">mox daturos</hi>’. Wesley’s ‘plain prose’ is a
+                        very free translation, less subtle than Horace’s intended satire.</p>
+                </note>
+            </lg>
+            <p>That is, in plain prose: ‘The age of our parents was more vicious than that of our
+                grandfathers. Our age is more vicious than that of our fathers. We are worse than
+                our fathers were, and our children will be worse than us.’</p>
+            <p n="9">9. It is certain, this has been the common cry from generation to generation.
+                And if it is not true, whence should it arise? How can we account for it? Perhaps
+                another remark of the same poet may help us to an answer. May it not be extracted
+                from the general character which he gives of old men?</p>
+            <pb n="03:447"/>
+            <lg>
+                <l>
+                    <hi rend="italic">Difficilis, querulus, laudator temporis acti</hi>
+                </l>
+                <l>
+                    <hi rend="italic">Se puero, censor, castigatorque minorum.</hi>
+                </l>
+                <note place="foot" xml:id="ftn22" n="22">
+                    <p rend="footnote text">Cf. Horace, <hi rend="italic">Art of Poetry</hi>, ll.
+                        173-74: ‘Hard to please, querulous, praising the times when they were boys,
+                        and censorious reprovers of those who are young <hi rend="italic"
+                        >now</hi>.’</p>
+                </note>
+            </lg>
+            <p>Is it not the common practice of old men to praise the past and condemn the present
+                time? And this may probably operate much farther than one would at first imagine.
+                When those that have more experience than us—and therefore, we are apt to think,
+                more wisdom—are almost continually harping upon this, the degeneracy of the world;
+                [when] those who are accustomed from their infancy to hear how much better the world
+                was formerly than it is now (and so it really seemed to them when they were young,
+                and just come into the world, and when the cheerfulness of youth gave a pleasing air
+                to all that was round about them), the idea of the world’s being worse and worse
+                would naturally grow up with them. And so it will be till we, in our turn,<note
+                    place="foot" xml:id="ftn23" n="23"><p rend="footnote text"><hi rend="italic"
+                            >AM</hi> (1787), p. 571: ‘And so it would be till we, in our turn, grew
+                        peevish.’ In <hi rend="italic">SOSO </hi>‘would’ is changed to ‘will’, and
+                        although ‘grew’ remains, it seems clear that this should have been changed
+                        to ‘grow’.</p></note> grow peevish, fretful, discontented, and full of
+                melancholy complaints, ‘How wicked the world is grown!’ How much better it was when
+                we were young, in the golden days that we can remember!</p>
+            <p n="10">10. But let us endeavour, without prejudice or prepossession, to take a view
+                of the whole affair. And upon cool and impartial consideration it will appear that
+                the former days were not better than these; yea, on the contrary, that these are, in
+                many respects, beyond comparison better than them. It will clearly appear that as
+                the stature of men was nearly the same from the beginning of the world, so the
+                understanding of men in similar circumstances has been much the same from the time
+                of God’s bringing a flood upon the earth unto the present hour. We have no reason to
+                believe that the uncivilized nations of Africa, America, or the South Sea Islands,
+                had ever a better understanding, or were in a less barbarous state than they are
+                now. Neither, on the other hand, have we any sufficient proof that the natural
+                understanding of men in the most civilized countries, Babylon, Persia, Greece, or
+                Italy, were stronger or more improved than those of the Germans, French, or English
+                now alive. Nay, have we not reason to believe that by means of better instruments we
+                have attained that knowledge of nature which few, if any, of the ancients ever <pb
+                    n="03:448"/>attained? So that in this respect the advantage (and not a little
+                one) is clearly on our side: and we ought to acknowledge, with deep thankfulness to
+                the Giver of every good gift, that the former days were not to be compared to these
+                wherein we live.</p>
+            <p n="11">11. But the principal inquiry still remains. Were not ‘the former days better
+                than these’ with regard to virtue? Or to speak more properly, religion? This
+                deserves a full consideration.</p>
+            <p>By religion I mean the love of God and man, filling the heart<note place="foot"
+                    xml:id="ftn24" n="24"><p rend="footnote text">Cf. No. 25, ‘Sermon on the Mount,
+                        V’, IV.13 and n.</p></note> and governing the life. The sure effect of this
+                is the uniform practice of justice, mercy, and truth. This is the very essence of
+                it, the height and depth of religion, detached from this or that opinion, and from
+                all particular modes of worship. And I would calmly inquire, ‘Which of the former
+                times were better than these with regard to this, to the religion experienced and
+                practised by Archbishop Fénelon<note place="foot" xml:id="ftn25" n="25"><p
+                        rend="footnote text">Archbishop of Cambrai (1651-1715), a major figure in
+                        the development of mysticism in eighteenth-century France. Wesley had
+                        published some of his ‘Letters’ in the <hi rend="italic">Christian Lib.</hi>
+                        (Vol. XXXVIII), and recommended his <hi rend="italic">Télémaque</hi> for use
+                        in the Kingswood School. For other references to Fénelon, cf. Nos. 106, ‘ On
+                        Faith, Heb. 11:6’, II.3; and 123, ‘On Knowing Christ after the Flesh’, §14;
+                        see also Wesley’s letter to Ann Bolton, Sept. 27, 1777.</p></note> in
+                France, Bishop Ken<note place="foot" xml:id="ftn26" n="26"><p rend="footnote text"
+                        >Thomas Ken (1637-1711), teacher, hymn writer, Bishop of Bath and Wells,
+                        famed for his piety and Christian courage. He denied Nell Gwyn’s access to
+                        Charles II, he defied James II’s order to read the royal ‘Declaration of
+                        Indulgence’ (1687), but he also declined to take the oath of allegiance to
+                        William of Orange (1689). He carried his shroud with him on his travels and,
+                        like John Donne before him, put it on whenever he fell ill. His morning and
+                        evening hymns may be more familiar than his name (e.g., ‘Praise God, from
+                        whom all blessings flow,’ etc.). Wesley included some of these hymns in <hi
+                            rend="italic">A Collection of Psalms and Hymns</hi> (1738), and abridged
+                        Ken’s <hi rend="italic">Exposition on the Church Catechism</hi> (1686) in
+                        the <hi rend="italic">Christian Lib.</hi>, Vol XXV.</p></note> in England,
+                and Bishop Bedell<note place="foot" xml:id="ftn27" n="27"><p rend="footnote text"
+                        >William Bedell (1571-1642), a remarkable Bishop of Kilmore and Ardagh,
+                        revered even by the Irish. He was fortunate to have Gilbert Burnet for his
+                        biographer; his <hi rend="italic">Life </hi>appeared in 1685, and Wesley had
+                        abridged it for Vol. XXVII of the <hi rend="italic">Christian Lib.</hi>
+                        Later he used excerpts from the abridgement for <hi rend="italic">AM</hi>,
+                        1778-79.</p></note> in Ireland?’</p>
+            <p n="12">12. We need not extend our inquiry beyond the period when life and immortality
+                were brought to light by the gospel.<note place="foot" xml:id="ftn28" n="28"><p
+                        rend="footnote text">See 2 Tim. 1:10.</p></note> And it is allowed that the
+                days immediately succeeding the pouring out of the Holy Ghost on the day of
+                Pentecost were better even in this respect, even with regard to religion, than any
+                which have succeeded them.</p>
+            <p>But setting aside this short age of golden days, I must repeat the question: ‘Which
+                of the former days were better than the present in every known part of the habitable
+                world?’</p>
+            <pb n="03:449"/>
+            <p n="13">13. Was the former part of this century better either in these islands or any
+                part of the continent? I know no reason at all to affirm this. I believe every part
+                of Europe was full as void of religion in the reign of Queen Anne as it is at this
+                day. It is true, luxury increases to a high degree in every part of Europe. And so
+                does the scandal of England, profaneness, in every part of the kingdom. But it is
+                also true that the most infernal of all vices, cruelty, does as swiftly decrease.
+                And such instances of it as in times past continually occurred are now very seldom
+                heard of. Even in war that savage barbarity which was everywhere practised has been
+                discontinued for many years.</p>
+            <p n="14">14. Was the last century more religious than this? In the former part of it
+                there was much of the form of religion. And some undoubtedly experienced the power
+                    thereof.<note place="foot" xml:id="ftn29" n="29"><p rend="footnote text">See 2
+                        Tim. 3:5.</p></note> But how soon did the fine gold become dim!<note
+                    place="foot" xml:id="ftn30" n="30"><p rend="footnote text">See Lam.
+                    4:1.</p></note> How soon was it so mingled with worldly design, and with a total
+                contempt both of truth, justice, and mercy, as brought that scandal upon all
+                religion which is hardly removed to this day.<note place="foot" xml:id="ftn31"
+                    n="31"><p rend="footnote text">A reflection of Wesley’s bitter criticism of the
+                        Erastian corruptions of religion in the Restoration and also during ‘the
+                        Whig Supremacy’ (1714-60).</p></note> Was there more true religion in the
+                preceding century, the age of the Reformation? There was doubtless in many countries
+                a considerable reformation of religious opinions; yea, and modes of worship, which
+                were much changed for the better, both in Germany and several other places. But it
+                is well known that Luther himself complained, almost with his dying breath, ‘The
+                people that are called by my name (though I wish they were only called by the name
+                of Christ) are reformed as to their opinions and modes of worship; but their tempers
+                and lives are the same they were before.’<note place="foot" xml:id="ftn32" n="32"><p
+                        rend="footnote text">See No. 68, ‘The Wisdom of God’s Counsels’, §10 and n.;
+                        see also No. 14, <hi rend="italic">The Repentance of Believers</hi>, I.9 and
+                        n.</p></note> Even then both justice and mercy were so shamelessly trodden
+                under foot that an eminent writer computes the number of those that were slaughtered
+                during those religious contests to have been no less than forty millions, within the
+                compass of forty years!<note place="foot" xml:id="ftn33" n="33"><p
+                        rend="footnote text">Cf. Nos. 22, ‘Sermon on the Mount, II’, III.18 and n.;
+                        and 92, ‘On Zeal’, §1 and n.</p></note></p>
+            <p n="15">15. We may step back above a thousand years from this without finding any
+                better time. No historian gives us the least intimation of any such till we come to
+                the age of Constantine the Great. Of this period several writers have given us most
+                magnificent <pb n="03:450"/>accounts. Yea, one eminent author—no less a man than Dr.
+                    Newton,<note place="foot" xml:id="ftn34" n="34"><p rend="footnote text">Thomas
+                        Newton (1704-82); cf. No. 61, ‘The Mystery of Iniquity’, §27 and
+                    n.</p></note> the late Bishop of Bristol—has been at no small pains to show that
+                the conversion of Constantine to Christianity, and the emoluments which he bestowed
+                upon the church with an unsparing hand, were the event which is signified in the
+                Revelation by ‘the new Jerusalem coming down from heaven’!<note place="foot"
+                    xml:id="ftn35" n="35"><p rend="footnote text">Rev. 21:2. Cf. Eusebius’s ecstatic
+                        account of the dinner given by the Emperor Constantine for the bishops at
+                        Nicea: ‘One might have thought that a picture of Christ’s kingdom was thus
+                        shadowed forth…’; <hi rend="italic">Life of Constantine</hi>, III.15 (<hi
+                            rend="italic">NPNF</hi>,<hi rend="italic"> II</hi>,
+                I.524).</p></note></p>
+            <p n="16">16. But I cannot in any wise subscribe to the bishop’s opinion in this matter.
+                So far from it that I have been long convinced from the whole tenor of ancient
+                history that this very event—Constantine’s calling himself a Christian, and pouring
+                in that flood of wealth and power on the Christian church, the clergy in
+                particular—was productive of more evil to the church than all the ten persecutions
+                put together. From the time that power, riches, and honour of all kinds were heaped
+                upon the Christians, vice of all kinds came in like a flood, both on the clergy and
+                laity. From the time that the church and state, the kingdoms of Christ and of the
+                world, were so strangely and unnaturally blended together, Christianity and
+                heathenism were so thoroughly incorporated with each other that they will hardly
+                ever be divided till Christ comes to reign upon earth.<note place="foot"
+                    xml:id="ftn36" n="36"><p rend="footnote text">Note Wesley’s ambivalence toward
+                        this assumption that the church is a <hi rend="italic">corpus mixtum</hi> (a
+                        mixed society) and will always continue to be; cf. No. 104, ‘On Attending
+                        the Church Service’, §13 and n.</p></note> So that instead of fancying that
+                the glory of the new Jerusalem covered the earth at that period, we have terrible
+                proof that it was then, and has ever since been, covered with the smoke of the
+                bottomless pit.<note place="foot" xml:id="ftn37" n="37"><p rend="footnote text">Cf.
+                        Rev. 9:11; 20:1; cf. also No. 32, ‘Sermon on the Mount, XII’, I.7 and
+                    n.</p></note></p>
+            <p n="17">17. ‘However, were not the days antecedent to this, those of the third
+                century, better beyond all comparison than any that followed them?’ This has been
+                almost universally believed. Few doubt but in the age before Constantine the
+                Christian church was in its glory, worshipping God in the beauty of holiness. But
+                was it so indeed? What says St. Cyprian, who lived in the midst of that century, a
+                witness above all exception, and one that sealed the truth with his blood? What
+                account does he give of what he saw with his own eyes, and heard with his own ears?
+                Such a one as would almost make one imagine he was painting to the life, not the
+                ancient church of Carthage, but the modern church of Rome. <pb n="03:451"/>According
+                to his account, such abominations even then prevailed over all orders of men that it
+                was not strange God poured out his fury upon them in blood, by the grievous
+                persecutions which followed.<note place="foot" xml:id="ftn38" n="38"><p
+                        rend="footnote text">Cf. above, No. 61, ‘The Mystery of Iniquity’, §25 and
+                        n.</p></note></p>
+            <p n="18">18. Yea, and before this, even in the first century, even in the apostolic
+                age, what account does St. John give of several of the churches which he himself had
+                planted in Asia? How little were those congregations better than many in Europe at
+                this day? Nay, forty or fifty years before that, within thirty years of the descent
+                of the Holy Ghost, were there not such abominations in the church of Corinth as were
+                ‘not even named among the heathen’?<note place="foot" xml:id="ftn39" n="39"><p
+                        rend="footnote text">Cf. 1 Cor. 5:1 (<hi rend="italic"
+                    >Notes</hi>).</p></note> So early did ‘the mystery of iniquity’<note
+                    place="foot" xml:id="ftn40" n="40"><p rend="footnote text">2 Thess.
+                    2:7.</p></note> begin to work in the Christian church! So little reason have we
+                to appeal to the former days, as though they were ‘better than these’!</p>
+            <p n="19">19. To affirm this, therefore, as commonly as it is done, is not only contrary
+                to truth, but is an instance of black ingratitude<note place="foot" xml:id="ftn41"
+                    n="41"><p rend="footnote text">Cf. John Dryden’s drama, <hi rend="italic">The
+                            Spanish Fryar; Or the Double Discovery</hi>, Act I, sc. 1: ‘You brand us
+                        all with black ingratitude.’ Wesley read this in Sept. 1729.</p></note> to
+                God, and a grievous affront to his blessed Spirit. For whoever makes a fair and
+                candid inquiry will easily perceive that true religion has in no wise decreased, but
+                greatly increased, in the present century. To instance in one capital branch of
+                religion, the love of our neighbour. Is not persecution wellnigh vanished from the
+                face of the earth? In what age did Christians of various denominations show such
+                forbearance toward each other?<note place="foot" xml:id="ftn42" n="42"><p
+                        rend="footnote text"><hi rend="italic">SOSO</hi>, 1788, ‘of every
+                        denomination show such forbearance to each other?’ Cf. <hi rend="italic">OED
+                        </hi>for ‘denomination’ as a new term in the eighteenth century.</p></note>
+                When before was such lenity shown by governors toward their respective subjects? Not
+                only in Great Britain and Ireland, but in France and Germany; yea, every part of
+                Europe? Nothing like this has been seen since the time of Constantine; no, not since
+                the time of the apostles.<note place="foot" xml:id="ftn43" n="43"><p
+                        rend="footnote text">An echo of the age-old history of religious
+                        persecutions and of the comparative triumph of toleration in late Georgian
+                        England; cf. Wilbur K. Jordan, <hi rend="italic">The Development of
+                            Religious Toleration in England; Attainment of the Theory and
+                            Accommodations in Thought and Institutions (1664-60)</hi> (Cambridge,
+                        Harvard Univ. Press, 1940). Wesley ignores the fact, however, that the Test
+                        and Corporation Acts against Dissenters still had the force of law; he also
+                        seems to have repressed his memories of the ‘Lord Gordon (anti-Catholic)
+                        riots’ of 1778, and his complicity in them.</p></note></p>
+            <p n="20">20. If it be said, ‘Why, this is the fruit of the general infidelity, <pb
+                    n="03:452"/>the Deism which has overspread all Europe,’ I answer, Whatever be
+                the cause, we have reason greatly to rejoice in the effect. And if the all-wise God
+                has brought so great and universal a good out of this dreadful evil, so much the
+                more should we magnify his astonishing power, wisdom, and goodness herein. Indeed,
+                so far as we can judge, this was the most direct way whereby <hi rend="italic"
+                    >nominal </hi>Christians could be prepared, first, for tolerating, and,
+                afterwards, for receiving, <hi rend="italic">real</hi> Christianity. While the
+                governors were themselves unacquainted with it, nothing but this could induce them
+                to suffer it. O the depth both of the wisdom and knowledge of God!<note place="foot"
+                    xml:id="ftn44" n="44"><p rend="footnote text">Rom. 11:33.</p></note> Causing a
+                total disregard for all religion to pave the way for the revival of the only
+                religion which was worthy of God! I am not assured whether this be the case or no in
+                France and Germany. But it is so beyond all contradiction in North America: the
+                total indifference of the government there whether there be any religion or none
+                leaves room for the propagation of true scriptural religion without the least let or
+                    hindrance.<note place="foot" xml:id="ftn45" n="45"><p rend="footnote text">An
+                        interesting recognition of the positive effects of the principle of the
+                        separation of church and state. Wesley connects it here with Deism; it was
+                        also a belated triumph of one of the central ecclesial principles of the
+                        ‘Radical Reformation’; cf. G. H. Williams, <hi rend="italic">The Radical
+                            Reformation</hi>.</p></note></p>
+            <p n="21">21. But above all this, while luxury and profaneness have been increasing on
+                the one hand, on the other benevolence and compassion toward all the forms of human
+                woe have increased in a manner not known before, from the earliest ages of the
+                world. In proof of this we see more hospitals, infirmaries, and other places of
+                public charity have been erected, at least in and near London, within this century,
+                than in five hundred years before.<note place="foot" xml:id="ftn46" n="46"><p
+                        rend="footnote text">Cf. George Rudi, <hi rend="italic">Hanoverian London,
+                            1714-1808</hi>, pp. 84-86, for a list of hospitals and infirmaries that
+                        were newly built or extensively rebuilt in the eighteenth century. See also
+                        No. 99, <hi rend="italic">The Reward of Righteousness</hi>, for Wesley’s
+                        testimony to the sense of philanthropy in the latter half of the
+                        century.</p></note> And suppose this has been owing in part to vanity,
+                desire of praise; yet have we cause to bless God that so much good has sprung even
+                from this imperfect motive.</p>
+            <p n="22">22. I cannot forbear mentioning one instance more of the goodness of God to us
+                in the present age. He has lifted up a standard in our islands both against luxury,
+                profaneness, and vice of every kind. He caused near fifty years ago as it were a
+                grain of mustard seed to be sown near London, and it has now grown and put forth
+                great branches, reaching from sea to sea. Two or three <pb n="03:453"/>poor people
+                met together in order to help each other to be real Christians. They increased to
+                hundreds, to thousands, to myriads, still pursuing their one point, real religion,
+                the love of God and man ruling all their tempers, and words, and actions.<note
+                    place="foot" xml:id="ftn47" n="47"><p rend="footnote text">Another instance of
+                        Wesley’s effortless triumphalism with regard to the historic import of the
+                        Methodist Revival. Cf. Nos. 63, ‘The General Spread of the Gospel’, §18; 81,
+                        ‘In What Sense we are to Leave the World’, §19; 104, ‘On Attending the
+                        Church Service’, §17; 107, ‘On God’s Vineyard’, I.5; 112, <hi rend="italic"
+                            >On Laying the Foundation of the New Chapel</hi>, §4, II.11; and 122,
+                        ‘Causes of the Inefficacy of Christianity’, §8. See also Wesley’s letters to
+                        John Fletcher Jan. 15, 1787; to Mrs. Woodhouse July 30, 1773; to a
+                        clergyman, June 18, 1787; and to James Barry, Sept. 26, 1787; and ‘A Plain
+                        Account of the Kingswood School’, in<hi rend="italic"> AM</hi> (1781),
+                        IV.381-84, 432-35, 486-93; ‘Thoughts Upon a Late Phenomenon’, §§7-10, in <hi
+                            rend="italic">AM</hi> (1789), XII.46-49; and <hi rend="italic">A Farther
+                            Appeal</hi>, Pt. III, I.4, 7 (11:274-76 in this edn.). For Wesley’s
+                        Anglican triumphalism, see Nos. 38, ‘A Caution against Bigotry’, II.4; and
+                        33, ‘Sermon on the Mount, XIII’, III.1.</p></note> Now I will be bold to say
+                such an event as this, considered in all its circumstances, has not been seen upon
+                earth before, since the time that St. John went to Abraham’s bosom.</p>
+            <p n="23">23. Shall we now say, ‘The former days were better than these’? God forbid we
+                should be so unwise and so unthankful. Nay, rather let us praise him all the day
+                long; for he hath dealt bountifully with us. No ‘former time’ since the apostles
+                left the earth has been ‘better than the present’. None has been comparable to it in
+                several respects. We are not born out of due time,<note place="foot" xml:id="ftn48"
+                    n="48"><p rend="footnote text">1 Cor. 15:8.</p></note> but in the day of his
+                power, a day of glorious salvation,<note place="foot" xml:id="ftn49" n="49"><p
+                        rend="footnote text">See Ps. 110:3; 2 Cor. 6:2; Col. 1:11.</p></note>
+                wherein he is hastening to renew the whole race of mankind in righteousness and true
+                    holiness.<note place="foot" xml:id="ftn50" n="50"><p rend="footnote text">Eph.
+                        4:24.</p></note> How bright hath the Sun of righteousness already shone on
+                various parts of the earth! And how many gracious showers has he already poured down
+                upon his inheritance! How many precious souls has he already gathered into his
+                garner, as ripe shocks of corn! May we be always ready to follow them, crying in our
+                hearts, ‘Come, Lord Jesus! Come quickly!’<note place="foot" xml:id="ftn51" n="51"><p
+                        rend="footnote text">Cf. Rev. 22:20.</p></note></p>
+            <p><placeName>Dublin</placeName>, <date when="06-27-1787">June 27, 1787</date><note
+                    place="foot" xml:id="ftn52" n="52"><p rend="footnote text">Place and date as in
+                            <hi rend="italic">AM</hi>.</p></note></p>
+        </body>
+    </text>
+</TEI>

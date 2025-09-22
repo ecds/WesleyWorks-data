@@ -1,0 +1,529 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Sermon 93: On Redeeming the Time</title>
+                <author>Wesley, John</author>
+                <editor role="text">Van Buskirk, Gregory P.</editor>
+                <editor role="digital">Taylor, Michelle M.</editor>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>The Wesley Works Digitzation Project</publisher>
+                <pubPlace>Tampa, FL</pubPlace>
+                <date>2024-02-25</date>
+            </publicationStmt>
+            <sourceDesc>
+                <listBibl>
+                    <biblStruct>
+                        <analytic>
+                            <title level="a">Sermon 93: On Redeeming the Time</title>
+                        </analytic>
+                        <monogr>
+                            <title level="j">The Works of John Wesley, Volume III: Sermons III,
+                                71-114</title>
+                            <editor role="volume">Outler, Albert</editor>
+                            <imprint>
+                                <publisher>Abingdon Press</publisher>
+                                <pubPlace>Nashville, TN</pubPlace>
+                                <date when="1986-11-01">1986-11-01</date>
+                                <biblScope unit="volume" n="3"/>
+                                <biblScope unit="page" from="322" to="332"/>
+                            </imprint>
+                        </monogr>
+                        <series>
+                            <title level="s">The Works of John Wesley</title>
+                            <editor role="general">Baker, Frank</editor>
+                        </series>
+                    </biblStruct>
+                </listBibl>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Greg Van Buskirk created Word docs for all of Wesley's sermons using a combination of
+                OCR software and manual proofing. Michelle Taylor converted these docx into XML
+                using Oxygen's DITA automatic transformation scenario, then touched them up
+                manually.</p>
+        </encodingDesc>
+        <standOff>
+            <taxonomy>
+                <keywords>
+                    <term/>
+                </keywords>
+            </taxonomy>
+            <!--Include keywords and terms here eventually.-->
+        </standOff>
+        <revisionDesc/>
+    </teiHeader>
+    <text>
+        <body>
+            <pb n="03:322"/>
+            <head>
+                <hi rend="italic">An Introductory Comment</hi>
+            </head>
+            <introduction>
+                <p>Here Wesley turns abruptly from his praise of love to a moralistic admonition
+                    against ‘sleeping overmuch’. The unobvious notion of grounding such a counsel on
+                    Eph. 5:16 may have come to Wesley from Richard Baxter who, in his <hi
+                        rend="italic">Christian Directory</hi> (1673), Pt. I, ch. 5, ‘Directions for
+                    Redeeming or Well Improving Time’, had taken Eph. 5:15, 16 for his text; but
+                    Baxter’s comments range over all the different ways in which time may be
+                    ‘redeemed’ or wasted. In Title 4 (‘The Thieves or Time-wasters to be watchfully
+                    avoided’), the second ‘thief’ or ‘time-waster’ is ‘excess of sleep’. Here Baxter
+                    makes Wesley’s point one hundred years before him, although without the same
+                    specific references to a proper daily ration of sleep.</p>
+                <p>There is no hint of the idea in the extensive comments of Matthew Poole’s <hi
+                        rend="italic">Annotations</hi> on this verse or Matthew Henry’s <hi
+                        rend="italic">Exposition</hi> of it. The discussion, or course, is part of
+                    Wesley’s insistence upon the Christian stewardship of <hi rend="italic"
+                        >time</hi> as an aspect of the Christian ethic which aims at ‘universal
+                    self-denial…in a full pursuit of…inward and outward holiness’ (III.7).</p>
+                <p>Wesley had already spoken to this same point in his earlier sermon, No. 89, ‘The
+                    More Excellent Way’, I.1 (see n.). We know of eleven usages of Eph. 5:16 as a
+                    sermon text between 1750 and 1788. In 1782 (January 20) in London, he undertook
+                    to summarize the idea in writing. The result appeared shortly thereafter in the
+                        <hi rend="italic">Arminian Magazine</hi>, March and April 1782 (V.117-22,
+                    173-79), numbered as ‘Sermon VIII’. The following year it was reprinted in
+                    Cambridge by an anonymous editor who had been ‘much struck with the force and
+                    propriety of its reasoning’. This unknown admirer abridged the original (the
+                    great abridger abridged!), supplied it ‘with small additions from Law’s <hi
+                        rend="italic">Serious Call</hi> and two or three notes’, and entitled his
+                    pamphlet <hi rend="italic">The Duty and Advantage of Early Rising</hi>. In
+                    apparent approval, Wesley reissued this edited pamphlet under its title in four
+                    separate editions in his lifetime (and there were many subsequent editions
+                    thereafter). When, however, he decided to include the sermon in <hi
+                        rend="italic">SOSO</hi>
+                    <pb n="03:323"/>(VII.277-94), he reverted to the original text and gave it the
+                    ambiguous title it has carried ever since. (Actually the half-title [p.(277)],
+                    is ‘On Redeeming Time’, while the opening page (p. 279) is headed by the title
+                    ‘Ephesians V.16’, below which is the scriptural text, <hi rend="italic"
+                        >‘Redeeming the Time’</hi>.)</p>
+                <p>For a stemma illustrating its publishing history and all substantive variant
+                    readings, see Appendix, Vol. 4; see also <hi rend="italic">Bibliog</hi>, No.
+                    375.i.</p>
+            </introduction>
+            <head>On Redeeming the Time</head>
+            <epigraph>
+                <p>Ephesians 5:16</p>
+                <p>
+                    <hi rend="italic">Redeeming the time.</hi>
+                </p>
+            </epigraph>
+            <div type="introduction">
+                <p n="1">1. ‘See that ye walk circumspectly’, says the Apostle in the preceding
+                    verse, ‘not as fools, but as wise men: redeeming the time;’<note place="foot"
+                        xml:id="ftn1" n="1"><p rend="footnote text">Cf. Henry’s comment here:
+                            ‘“Redeeming the time”, literally “buying the opportunity”. It is a
+                            metaphor taken from merchants and traders who diligently observe and
+                            improve the seasons for merchandise and trade, etc.’; see also Poole,
+                                <hi rend="italic">Annotations</hi>, <hi rend="italic">loc.
+                            cit.</hi></p></note> saving all the time you can for the best purposes;
+                    buying up every fleeting moment out of the hands of sin and Satan, out of the
+                    hands of sloth, ease, pleasure, worldly business; the more diligently because
+                    the present ‘are evil days’, days of the grossest ignorance, immorality, and
+                    profaneness.</p>
+                <p n="2">2. This seems to be the general meaning of the words. But I purpose at
+                    present to consider only one particular way of ‘redeeming the time’, namely,
+                    from sleep.</p>
+                <p n="3">3. This appears to have been exceeding little considered, even by pious
+                    men. Many that have been eminently conscientious in other respects have not been
+                    so in this. They seemed to think it an indifferent thing whether they slept more
+                    or less, and never saw it in the true point of view, as an important branch of
+                    Christian temperance.</p>
+                <p>That we may have a more just conception hereof, I will endeavour to show,</p>
+                <p>I. What it is to ‘redeem the time’ from sleep;</p>
+                <p>II. The evil of not redeeming it; and</p>
+                <p>III. The most effectual manner of doing it.</p></div><pb n="03:324"/>
+            <div type="section" n="1">
+                <p n="1">I. 1. And, first, what is it to ‘redeem the time’ from sleep? It is, in
+                    general, to take that measure of sleep every night which nature requires, and no
+                    more; that measure which is the most conducive to the health and vigour both of
+                    the body and mind.</p>
+                <p n="2">2. But it is objected, ‘One measure will not suit all men: some require
+                    considerably more than others. Neither will the same measure suffice even the
+                    same persons at one time as at another. When a person is sick, or if not
+                    actually so, yet weakened by preceding sickness, he certainly wants more of this
+                    natural restorative than he did when in perfect health. And so he will when his
+                    strength and spirits are exhausted by hard or long-continued labour.’</p>
+                <p n="3">3. All this is unquestionably true, and confirmed by a thousand
+                    experiments. Whoever therefore they are that have attempted to fix one measure
+                    of sleep for all persons did not understand the nature of the human body, so
+                    widely different in different persons; as neither did they who imagined that the
+                    same measure would suit even the same person at all times. One would wonder
+                    therefore that so great a man as Bishop Taylor should have formed this strange
+                    imagination; much more that the measure which he has assigned for the general
+                    standard should be only three hours in four and twenty.<note place="foot"
+                        xml:id="ftn2" n="2"><p rend="footnote text">In his <hi rend="italic">Holy
+                                Living</hi>, which greatly influenced Wesley’s devotional
+                            discipline, including the maintaining of a diary and early rising,
+                            Taylor urged: ‘Let your sleep be necessary and healthful, not idle and
+                            expensive of time, beyond the needs and convenience of nature…’, which
+                            Wesley summarized for himself as, ‘sleep not immoderately’, but the
+                            restriction to three hours only is not found in this context (Jeremy
+                            Taylor, <hi rend="italic">Works</hi>, Heber, ed. (1844), III.10; cf.
+                            Heitzenrater, p. 60).</p></note> That good and sensible man, Mr. Baxter,
+                    was not much nearer the truth; who supposes four hours in four and twenty will
+                    suffice for any man.<note place="foot" xml:id="ftn3" n="3"><p
+                            rend="footnote text">In <hi rend="italic">Christian Directory</hi>, Pt.
+                            I, ch. viii (<hi rend="italic">Works</hi>, I.228-41), Richard Baxter has
+                            a set of ‘Directions Against Sinful Excess of Sleep’: ‘To some five
+                            hours is enough; to the ordinary sort of beautiful persons six hours is
+                            enough; to many weak, valetudinary persons seven hours is needful; to
+                            sick persons I am not to give directions.’</p></note> I knew an
+                    extremely sensible man who was absolutely persuaded that no one living needed to
+                    sleep above five hours in twenty-four. But when he made the experiment himself,
+                    he quickly relinquished the opinion. And I am fully convinced, by an observation
+                    continued for more than fifty years, that whatever may be done by extraordinary
+                    persons, or in some extraordinary cases (wherein persons have subsisted with
+                    very little sleep for some weeks or <pb n="03:325"/>even months) a human body
+                    can scarce continue in health and vigour without at least six hours’ sleep in
+                    four and twenty. Sure I am, I never met with such an instance: I never found
+                    either man or woman that retained vigorous health for one year with a less
+                    quantity of sleep than this.<note place="foot" xml:id="ftn4" n="4"><p
+                            rend="footnote text">Cf. No. 89, ‘The More Excellent Way’,
+                        I.1.</p></note></p>
+                <p n="4">4. And I have long observed that women in general want a little more sleep
+                    than men; perhaps because they are in common of a weaker as well as a moister
+                    habit of body.<note place="foot" xml:id="ftn5" n="5"><p rend="footnote text">An
+                            echo of the distinctions in medieval physiology between the
+                            ‘temperaments’ or ‘humours’ of the body; cf. Chambers’s <hi
+                                rend="italic">Cyclopaedia</hi>, ‘Temperament’ and ‘Humours’ for
+                            comments that seemed commonplace in Wesley’s time.</p></note> If
+                    therefore one might venture to name one standard (though liable to many
+                    exceptions and occasional alterations) I am inclined to think this would come
+                    near the mark: healthy men, in general, need a little above six hours’ sleep,
+                    healthy women, a little above seven, in four and twenty. I myself want six hours
+                    and a half, and I cannot well subsist with less.</p>
+                <p n="5">5. If anyone desires to know exactly what quantity of sleep his own
+                    constitution requires, he may very easily make the experiment which I made about
+                    sixty years ago.<note place="foot" xml:id="ftn6" n="6"><p rend="footnote text"
+                            >I.e., about 1722, in his undergraduate days in Christ
+                        Church.</p></note> I then waked every night about twelve or one, and lay
+                    awake for some time. I readily concluded that this arose from my lying longer in
+                    bed than nature required. To be satisfied I procured an alarum, which waked me
+                    the next morning at seven (near an hour earlier than I rose the day before), yet
+                    I lay awake again at night. The second morning I rose at six; but
+                    notwithstanding this I lay awake the second night. The third morning I rose at
+                    five; but nevertheless I lay awake the third night. The fourth morning I rose at
+                    four (as, by the grace of God, I have done ever since); and I lay awake no
+                        more.<note place="foot" xml:id="ftn7" n="7"><p rend="footnote text">A
+                            conveniently oversimplified recollection. The early diaries, however,
+                            show that Wesley was still experimenting with various diurnal patterns
+                            as late as 1729; it was in Aug. 1730 that he seems to have settled on a
+                            regular awakening hour between 4:00 and 5:00 a.m. What is not mentioned
+                            here is the fact that Wesley often took daytime cat naps whenever it was
+                            convenient; cf. A. H. S. Pask, in WHS, XXIX.95-96 (1953). In John
+                            Foster’s <hi rend="italic">Life and Correspondence</hi> (posthumously in
+                            Bohn’s Library, 1846, I.301) there is a report from Samuel Bradburn,
+                            (but possibly Joseph Bradford is intended, who was one of Wesley’s
+                            frequent travelling companions), that in addition to his six hours of
+                            regular sleep, ‘Wesley slept several hours in the course of the day’
+                            (i.e., after he switched from riding horseback to carriage); see also J.
+                            C. Adlard, ‘Notes’, in WHS, XI.96 (1917).</p></note> And I do not now
+                    lie awake (taking the year round) a quarter of an hour together in a month. By
+                    the same experiment, <pb n="03:326"/>rising earlier and earlier every morning,
+                    may anyone find how much sleep he really wants.</p>
+            </div>
+            <div type="section" n="2">
+                <p n="1">II. 1. ‘But why should anyone be at so much pains? What need is there of
+                    being so scrupulous? Why should we make ourselves so particular? What harm is
+                    there in doing as our neighbours do?—suppose in lying from ten till six or seven
+                    in summer, and till eight or nine in winter?’</p>
+                <p n="2">2. If you would consider this question fairly you will need a good deal of
+                    candour and impartiality, as what I am about to say will probably be quite new;
+                    different from anything you ever heard in your life; different from the
+                    judgment, at least from the example, of your parents and your nearest relations;
+                    nay, and perhaps of the most religious persons you ever were acquainted with.
+                    Lift up therefore your heart to the Spirit of truth,<note place="foot"
+                        xml:id="ftn8" n="8"><p rend="footnote text">John 14:17.</p></note> and beg
+                    of him to shine upon it, that without respecting any man’s person you may see
+                    and follow the truth as it in Jesus.<note place="foot" xml:id="ftn9" n="9"><p
+                            rend="footnote text">See Eph. 4:21.</p></note></p>
+                <p n="3">3. Do you really desire to know what harm there is in not redeeming all the
+                    time you can from sleep? Suppose in spending therein an hour a day more than
+                    nature requires? Why, first, it <hi rend="italic">hurts your substance</hi>. It
+                    is throwing away six hours a week which might turn to some temporal account. If
+                    you can do any work, you might earn something in that time, were it ever so
+                    small. And you have no need to throw even this away. If you do not want it
+                    yourself, give it to them that do: you know some of them that are not far off.
+                    If you are of no trade, still you may so employ the time that it will bring
+                    money, or money’s worth, to yourself or others.</p>
+                <p n="4">4. The not redeeming all the time you can from sleep, the spending more
+                    time therein than your constitution necessarily requires, in the second place,
+                        <hi rend="italic">hurts your health</hi>. Nothing can be more certain than
+                    this, though it is not commonly observed. It is not commonly observed because
+                    the evil steals on you by slow and insensible degrees. In this gradual and
+                    almost imperceptible manner it lays the foundation of many diseases. It is the
+                    chief, real (though unsuspected) cause of all nervous diseases in particular.
+                    Many inquiries have been made why nervous disorders are so much more common
+                    among us than among our ancestors. Other causes may frequently concur; but the
+                    chief is, we lie longer in <pb n="03:327"/>bed. Instead of rising at four, most
+                    of us who are not obliged to work for our bread lie till seven, eight, or nine.
+                    We need inquire no farther. This sufficiently accounts for the large increase of
+                    these painful disorders.<note place="foot" xml:id="ftn10" n="10"><p
+                            rend="footnote text">Cf. ‘Thoughts on Nervous Disorders’, <hi
+                                rend="italic">AM</hi> (1786), IX.52-54, 94-97. For other references
+                            to intemperance in sleep, cf. <hi rend="italic">Notes</hi> on Luke
+                            21:38, and Wesley’s letter to his niece, Sarah Wesley, July 17, 1781.
+                            See also No. 89, ‘The More Excellent Way’, I.1.</p></note></p>
+                <p n="5">5. It may be observed that most of these arise, not barely from sleeping
+                    too long, but even from what we imagine to be quite harmless—the lying too long
+                    in bed. By <hi rend="italic">soaking</hi> (as it is emphatically called) so long
+                    between warm sheets the flesh is, as it were, parboiled, and becomes soft and
+                        flabby.<note place="foot" xml:id="ftn11" n="11"><p rend="footnote text">Cf.
+                            Steele, <hi rend="italic">The Spectator</hi>, No. 65 (May 15, 1771):
+                            ‘Because it is vulgar to lie and soak together, we have each of us
+                            separate settle-beds.’</p></note> The nerves in the meantime are quite
+                    unstrung, and all the train of melancholy symptoms—faintness, tremors, lowness
+                    of spirits (so called)—come on, till life itself is a burden.</p>
+                <p n="6">6. One common effect of either sleeping too long, or lying in bed, is
+                    weakness of sight, particularly that weakness which is of the nervous kind. When
+                    I was young my sight was remarkably weak. Why is it stronger now than it was
+                    forty years ago?<note place="foot" xml:id="ftn12" n="12"><p rend="footnote text"
+                            >Cf. the memoir of Sophie de la Roche, <hi rend="italic">Sophie in
+                                London, 1786</hi>, Eng. trans, by Clare Williams (1933), p. 78. See
+                            above, Vol. 1 (this edn.), pp. 71-72.</p></note> I impute this
+                    principally to the blessing of God, who fits us for whatever he calls us to. But
+                    undoubtedly the outward means which he has been pleased to bless was the rising
+                    early in the morning.</p>
+                <p n="7">7. A still greater objection to the not rising early, the not redeeming all
+                    the time we can from sleep, is, it <hi rend="italic">hurts the soul</hi> as well
+                    as the body; it is a sin against God. And this indeed it must necessarily be, on
+                    both the preceding accounts. For we cannot waste or (which comes to the same
+                    thing) not improve any part of our worldly substance, neither can we impair our
+                    own health, without sinning against him.</p>
+                <p n="8">8. But this fashionable intemperance does also hurt the soul in a more
+                    direct manner. It sows the seeds of foolish and hurtful desires:<note
+                        place="foot" xml:id="ftn13" n="13"><p rend="footnote text">1 Tim. 6:9 (<hi
+                                rend="italic">Notes</hi>).</p></note> it dangerously inflames our
+                    natural appetites, which a person stretching and yawning in bed is just prepared
+                    to gratify. It breeds and continually increases sloth, so often objected to [in]
+                    the English nation. It opens the way and prepares the soul for every other kind
+                    of intemperance. It breeds an universal softness and faintness of spirit, making
+                    us afraid of every little <pb n="03:328"/>inconvenience, unwilling to deny
+                    ourselves any pleasure, or to take up or bear any cross. And how then shall we
+                    be able (without which we must drop into hell) to ‘take the kingdom of heaven by
+                        violence’?<note place="foot" xml:id="ftn14" n="14"><p rend="footnote text"
+                            >Cf. Matt. 11:12 (<hi rend="italic">Notes</hi>).</p></note> It totally
+                    unfits us for ‘enduring hardship as good soldiers of Jesus Christ’;<note
+                        place="foot" xml:id="ftn15" n="15"><p rend="footnote text">Cf. 2 Tim.
+                            2:3.</p></note> and consequently for ‘fighting the good fight of faith,
+                    and laying hold on eternal life’.<note place="foot" xml:id="ftn16" n="16"><p
+                            rend="footnote text">Cf. 1 Tim. 6:12.</p></note></p>
+                <p n="9">9. In how beautiful a manner does that great man, Mr. Law, treat this
+                    important subject! Part of his words I cannot but here subjoin for the use of
+                    every sensible reader:</p>
+                <quote>
+                    <p>I take it for granted that every Christian who is in health is up early in
+                        the morning; for it is much more reasonable to suppose a person is up early
+                        because he is a Christian, than because he is a labourer or a tradesman or a
+                        servant.</p>
+                    <p>We conceive an abhorrence of a man that is in bed when he should be at his
+                        labour. We cannot think good of him who is such a slave to drowsiness as to
+                        neglect his business for it.</p>
+                    <p>Let this therefore teach us to conceive how odious we must appear to God if
+                        we are in bed, shut up in sleep, when we should be praising God; and are
+                        such slaves to drowsiness as to neglect our devotions for it.</p>
+                    <p>Sleep is such a dull, stupid state of existence that even among mere animals
+                        we despise them most which are most drowsy. He therefore that chooses to
+                        enlarge the slothful indolence of sleep rather than be early at his
+                        devotions, chooses the dullest refreshment of the body before the noblest
+                            employment<note place="foot" xml:id="ftn17" n="17"><p
+                                rend="footnote text">Law’s term; Wesley or his printer had misread
+                                this as ‘enjoyments’.</p></note> of the soul. He chooses that state
+                        which is a reproach to mere animals before that exercise which is the glory
+                        of angels.</p>
+                    <p n="10">10. Besides, he that cannot deny himself this drowsy indulgence is no
+                        more prepared for prayer when he is up than he is prepared for fasting or
+                        any other act of self-denial. He may indeed more easily read over a form of
+                        prayer than he can perform these duties; but he is no more disposed for the
+                        spirit of prayer than he is disposed for fasting. For sleep, thus indulged,
+                        gives a softness to all our tempers, and makes us unable to relish anything
+                        but what suits an idle state of mind, as sleep does. So that a person who is
+                        a slave to this idleness is in the same temper when he is up. Everything
+                        that is idle or sensual pleases him. And everything that requires trouble or
+                        self-denial is hateful to him, for the same reason that he hates to
+                        rise.</p>
+                    <p n="11">11. It is not possible for an epicure to be truly devout. He must
+                        renounce his sensuality before he can relish the happiness of devotion. Now
+                        he that turns sleep into an idle indulgence does as much to corrupt his
+                        soul, to make it a slave to bodily appetites, as an epicure does. It does
+                        not disorder his life,<note place="foot" xml:id="ftn18" n="18"><p
+                                rend="footnote text">Again, Law’s term; Wesley’s text in <hi
+                                    rend="italic">AM</hi> reads ‘life’; <hi rend="italic">SOSO</hi>
+                                (1788), VII.288, has it ‘health’.</p></note> as notorious acts of
+                        intemperance do; but like any more moderate course of indulgence it <pb
+                            n="03:329"/>silently and by smaller degrees wears away the spirit of
+                        religion, and sinks the soul into dullness and sensuality.</p>
+                    <p>Self-denial of all kinds is the very life and soul of piety; but he that has
+                        not so much of it as to be able to be early at his prayers cannot think that
+                        he has taken up his cross, and is following Christ.</p>
+                    <p>What conquest has he got over himself? What right hand has he cut off? What
+                        trials is he prepared for? What sacrifice is he ready to offer to God, who
+                        cannot be so cruel to himself as to rise to prayer at such a time as the
+                        drudging part of the world are content to rise to their labour?</p>
+                    <p n="12">12. Some people will not scruple to tell you that they indulge
+                        themselves in sleep because they have nothing to do; and that if they had
+                        any business to rise to they would not lose so much of their time in sleep.
+                        But they must be told that they mistake the matter; that they have a great
+                        deal of business to do; they have a hardened heart to change; they have the
+                        whole spirit of religion to get. For surely he that thinks he has nothing to
+                        do because nothing but his prayers want him, may justly be said to have the
+                        whole spirit of religion to seek.</p>
+                    <p>You must not therefore consider how small a fault it is to rise late, but how
+                        great a misery it is to want the spirit of religion; and to live in such
+                        softness and idleness as makes you incapable of the fundamental duties of
+                        Christianity.</p>
+                    <p>If I was to desire you not to study the gratification of your palate I would
+                        not insist upon the sin of wasting your money, though it is a great one, but
+                        I would desire you to renounce such a way of life because it supports you in
+                        such a state of sensuality as renders you incapable of relishing the most
+                        essential doctrines of religion.</p>
+                    <p>For the same reason I do not insist much upon the sin of wasting your time in
+                        sleep, though it be a great one; but I desire you to renounce this
+                        indulgence because it gives a softness and idleness to your soul, and is so
+                        contrary to that lively, zealous, watchful, self-denying spirit, which was
+                        not only the spirit of Christ and his apostles, and the spirit of all the
+                        saints and martyrs that have ever been among men, but must be the spirit of
+                        all those who would not sink in the common corruption of the world.</p>
+                    <p n="13">13. Here therefore we must fix our charge against this practice. We
+                        must blame it, not as having this or that particular evil, but as a general
+                        habit that extends itself through our whole spirit, and supports a state of
+                        mind that is wholly wrong.</p>
+                    <p>It is contrary to piety; not as accidental slips or mistakes in life are
+                        contrary to it, but in such a manner as an ill state of body is contrary to
+                        health.</p>
+                    <p>On the other hand, if you was to rise early every morning as an instance of
+                        self-denial, as a method of renouncing indulgence, as a means of redeeming
+                        your time and fitting your spirit for prayer, you would soon find the
+                        advantage. This method, though it seems but a small circumstance, might be a
+                        means of great piety. It would constantly keep it in your mind that softness
+                        and idleness are the bane of religion. It would teach you to exercise power
+                        over yourself, and to renounce other pleasures and tempers that war against
+                        the soul. And what is so planted and watered, will certainty have an
+                        increase from God.<note place="foot" xml:id="ftn19" n="19"><p
+                                rend="footnote text">An untypically long quotation; it is from Law’s
+                                    <hi rend="italic">Serious Call </hi>(<hi rend="italic"
+                                    >Works</hi>, IV.128-34), which Wesley had extracted and
+                                published in 1744 (<hi rend="italic">Bibliog</hi>, No. 86), pp.
+                                118-22, and is here still further revised. One remembers that in the
+                                early days of the Revival Wesley had turned against Law with severe
+                                reproaches which Law, in turn, had shrugged off; cf. Wesley’s letter
+                                to Law, May 14, 1738, and Law’s reply in the same month and year
+                                (see 25:540-46 in this edn.). In later years Wesley’s references to
+                                Law are mixed. For example, cf. his letter to Law, Jan. 6, 1756. But
+                                in 1770 and the years following, there are several letters in which
+                                he speaks of Law approvingly; cf. the letters to Mrs. Marston, Aug.
+                                26, 1770; to Richard Locke, Sept. 14, 1770; to Philothea Briggs, May
+                                2, 1771; to Elizabeth Ritchie, Nov. 29, 1774; and to Ann Taylor,
+                                Mar. 8, 1787. See also the letter to Ann Bolton, Jan. 9, 1789. In
+                                No. 79, ‘On Dissipation’, §19, Wesley speaks of Law as ‘an excellent
+                                writer’; and in No. 125, ‘On a Single Eye’, §1, as ‘the strong and
+                                elegant writer, Mr. Law’.</p></note></p></quote>
+            </div>
+            <pb n="03:330"/>
+            <div type="section" n="3">
+                <p n="1">III. 1. It now only remains to inquire, in the third place, how we may
+                    redeem the time, how we may proceed in this important affair. In what manner
+                    shall we most effectually practise this important branch of temperance?</p>
+                <p>I advise all of you who are thoroughly convinced of the unspeakable importance of
+                    it, suffer not that conviction to die away, but instantly begin to act suitably
+                    to it. Only do not depend on your own strength. If you do, you will be utterly
+                    baffled. Be deeply sensible that as you are not able to do anything good of
+                    yourselves, so here in particular all your strength, all your resolution, will
+                    avail nothing. Whoever trusts in himself will be confounded. I never found an
+                    exception. I never knew one who trusted in his own strength that could keep this
+                    resolution for a twelvemonth.</p>
+                <p n="2">2. I advise you, secondly, cry to the Strong for strength.<note
+                        place="foot" xml:id="ftn20" n="20"><p rend="footnote text">See Job 9: 19;
+                            see also No. 48, ‘Self-denial’, III.4 and n.</p></note> Call upon him
+                    that hath all power in heaven and earth; and believe that he will answer the
+                    prayer that goeth not out of feigned lips.<note place="foot" xml:id="ftn21"
+                        n="21"><p rend="footnote text">Ps. 17:1.</p></note> As you cannot have too
+                    little confidence in yourself, so you cannot have too much in him. Then set out
+                    in faith; and surely his strength shall be made perfect in your weakness.<note
+                        place="foot" xml:id="ftn22" n="22"><p rend="footnote text">See 2 Cor.
+                            12:9.</p></note></p>
+                <p n="3">3. I advise you, thirdly, add to your faith, prudence: use the most
+                    rational means to attain your purpose. Particularly begin at the right end,
+                    otherwise you will lose your labour.<note place="foot" xml:id="ftn23" n="23"><p
+                            rend="footnote text">Cf. No. 65, ‘The Duty of Reproving our Neighbour’,
+                            I.3 and n.</p></note> If you desire to rise early, sleep early<note
+                        place="foot" xml:id="ftn24" n="24"><p rend="footnote text">Cf. No. 89, ‘The
+                            More Excellent Way’, I.1.</p></note>—secure this point at all events. In
+                    spite of the most dear and agreeable companions, in spite of their most earnest
+                    solicitations, in spite of entreaties, railleries, or reproaches, rigorously
+                    keep your hour. Rise up precisely at your time; and retire without ceremony.
+                    Keep your hour, notwithstanding the most pressing business: lay all things by
+                    till the <pb n="03:331"/>morning. Be it ever so great a cross, ever so great
+                    self-denial, keep your hour, or all is over.</p>
+                <p n="4">4. I advise you, fourthly, be steady. Keep your hour of rising, without
+                    intermission. Do not rise two mornings, and lie in bed the third; but what you
+                    do once, do always. ‘But my head aches.’ Do not regard that. It will soon be
+                    over. ‘But I am uncommonly drowsy; my eyes are quite heavy.’ Then you must not
+                    parley—otherwise it is a lost case—but start up at once.<note place="foot"
+                        xml:id="ftn25" n="25"><p rend="footnote text">Is there a possible echo here
+                            of a once familiar satire of the difficulties of early rising in Edward
+                            Ward, <hi rend="italic">The Wooden World Dissected…</hi> (1707)? In
+                            ‘character No. 14’ (a sailor) much is made of this, and on p. 76 there
+                            is a reference to the effect of the boatswain’s ‘whistling…, and you
+                            have a hundred or more <hi rend="italic">Cartesian Puppets</hi> pop up
+                            upon deck…’.</p></note> And if your drowsiness does not go off, lie down
+                    for awhile an hour or two after. But let nothing make a breach upon this rule:
+                    rise and dress yourself at your hour.</p>
+                <p n="5">5. Perhaps you will say: ‘The advice is good; but it comes too late: I have
+                    made a breach already. I did rise constantly, and for a season nothing hindered
+                    me. But I gave way by little and little, and I have now left it off for a
+                    considerable time!’ Then in the name of God begin again! Begin tomorrow; or
+                    rather tonight, by going to bed early, in spite of either company or business.
+                    Begin with more self-diffidence than before, but with more confidence in God.
+                    Only follow these few rules, and—my soul for yours—God will give you the
+                    victory. In a little time the difficulty will be over; but the benefit will last
+                    for ever.</p>
+                <p n="6">6. If you say: ‘But I cannot do now as I did then; for I am not what I was.
+                    I have many disorders, my spirits are low, my hands shake: I am all
+                        relaxed.’<note place="foot" xml:id="ftn26" n="26"><p rend="footnote text"
+                            >I.e., ‘enfeebled’; cf. <hi rend="italic">OED</hi> for
+                        instances.</p></note> I answer, all these are nervous symptoms; and they all
+                    partly arise from your taking too much sleep; nor is it probable they will ever
+                    be removed unless you remove the cause. Therefore on this very account (not only
+                    to punish yourself for your folly and unfaithfulness, but) in order to recover
+                    your health and strength, resume your early rising. You have no other way: you
+                    have nothing else to do. You have no other possible means of recovering, in any
+                    tolerable degree, your health both of body and mind. Do not murder yourself
+                    outright. Do not run on in the path that leads to the gates of death! As I said
+                    before, so I say again: in the name of God, this very day, set out anew. True,
+                    it will be more difficult than it was at the beginning. But <pb n="03:332"/>bear
+                    the difficulty which you have brought upon yourself, and it will not last long.
+                    The Sun of righteousness will soon arise again, and will heal both your soul and
+                    your body.<note place="foot" xml:id="ftn27" n="27"><p rend="footnote text">See
+                            Mal. 4:2.</p></note></p>
+                <p n="7">7. But do not imagine that this single point, rising early, will suffice to
+                    make you a Christian. No: although that single point, the not rising, may keep
+                    you a heathen, void of the whole Christian spirit; although this alone
+                    (especially if you had once conquered it) will keep you cold, formal, heartless,
+                    dead, and make it impossible for you to get one step forward in vital holiness:
+                    yet this alone will go but a little way to make you a real Christian. It is but
+                    one step out of many; but it is one. And having taken this, go forward. Go on to
+                    universal self-denial, to temperance in all things,<note place="foot"
+                        xml:id="ftn28" n="28"><p rend="footnote text">See 1 Cor. 9:25.</p></note> to
+                    a firm resolution of taking up daily every cross<note place="foot"
+                        xml:id="ftn29" n="29"><p rend="footnote text">See Luke 9:23.</p></note>
+                    whereto you are called. Go on, in a full pursuit of all the mind that was in
+                        Christ,<note place="foot" xml:id="ftn30" n="30"><p rend="footnote text">See
+                            Phil. 2:5.</p></note> of inward, and then outward holiness; so shall you
+                    be not almost, but altogether, a Christian;<note place="foot" xml:id="ftn31"
+                        n="31"><p rend="footnote text">See No. 2, <hi rend="italic">The Almost
+                                Christian</hi>, on Acts 26:28.</p></note> so shall you finish your
+                    course with joy:<note place="foot" xml:id="ftn32" n="32"><p rend="footnote text"
+                            >See Acts 20:24.</p></note> you shall awake up after his likeness, and
+                    be satisfied.<note place="foot" xml:id="ftn33" n="33"><p rend="footnote text"
+                            >See Ps. 17:16 (BCP); cf. also No. 3, <hi rend="italic">‘Awake, Thou
+                                That Steepest’</hi>.</p></note></p></div>
+            <p>London</p>, <date when="01-20-1782">Jan. 20, 1782</date><note place="foot"
+                xml:id="ftn34" n="34"><p rend="footnote text">Place and date as in <hi rend="italic"
+                        >AM</hi>.</p></note>
+        </body>
+    </text>
+</TEI>

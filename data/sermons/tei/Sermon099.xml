@@ -1,0 +1,787 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Sermon 99: The Reward of Righteousness</title>
+                <author>Wesley, John</author>
+                <editor role="text">Van Buskirk, Gregory P.</editor>
+                <editor role="digital">Taylor, Michelle M.</editor>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>The Wesley Works Digitzation Project</publisher>
+                <pubPlace>Tampa, FL</pubPlace>
+                <date>2024-02-25</date>
+            </publicationStmt>
+            <sourceDesc>
+                <listBibl>
+                    <biblStruct>
+                        <analytic>
+                            <title level="a">Sermon 99: The Reward of Righteousness</title>
+                        </analytic>
+                        <monogr>
+                            <title level="j">The Works of John Wesley, Volume III: Sermons III,
+                                71-114</title>
+                            <editor role="volume">Outler, Albert</editor>
+                            <imprint>
+                                <publisher>Abingdon Press</publisher>
+                                <pubPlace>Nashville, TN</pubPlace>
+                                <date when="1986-11-01">1986-11-01</date>
+                                <biblScope unit="volume" n="3"/>
+                                <biblScope unit="page" from="399" to="414"/>
+                            </imprint>
+                        </monogr>
+                        <series>
+                            <title level="s">The Works of John Wesley</title>
+                            <editor role="general">Baker, Frank</editor>
+                        </series>
+                    </biblStruct>
+                </listBibl>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Greg Van Buskirk created Word docs for all of Wesley's sermons using a combination of
+                OCR software and manual proofing. Michelle Taylor converted these docx into XML
+                using Oxygen's DITA automatic transformation scenario, then touched them up
+                manually.</p>
+        </encodingDesc>
+        <standOff>
+            <taxonomy>
+                <keywords>
+                    <term/>
+                </keywords>
+            </taxonomy>
+            <!--Include keywords and terms here eventually.-->
+        </standOff>
+        <revisionDesc/>
+    </teiHeader>
+    <text>
+        <body>
+            <pb n="03:399"/>
+            <head>
+                <hi rend="italic">An Introductory Comment</hi>
+            </head>
+            <introduction>
+                <p>This is one of the later Wesley’s rare sermons <hi rend="italic">ad aulam</hi>,
+                    preached in Lewisham on November 23, 1777, and published as a pamphlet before
+                    the year was out. There is a reference to it in the <hi rend="italic"
+                        >Journal</hi>: ‘Sun. 23. I preached in Lewisham church for the benefit of
+                    the Humane Society, instituted for the sake of those who seem to be drowned,
+                    strangled, or killed by any sudden stroke. It is a glorious design, in
+                    consequence of which many have been recovered that must otherwise have
+                    inevitably perished.’</p>
+                <p>We know from the Society’s official history that it ‘was founded on the 18th
+                    April, 1774, at the Chapter Coffee House in St. Paul’s Churchyard, London, by
+                    Dr. William Hawes (1736-1808) and Dr. Thomas Cogan (1736-1818) and their
+                    friends, …the Lord Mayor of London being the Society’s first President. Very
+                    quickly the Society and its work [‘in the life saving and restoring field’]
+                    caught the imagination of the general public, …and in 1783 King George III
+                    became its patron. Four years later the Society was granted the prefix “Royal”…’
+                    (Annual Report, 1970, p. 9). The Royal Humane Society still continues as an
+                    active voluntary lifesaving agency, with headquarters in Watergate House, York
+                    Buildings, Adelphi, London, W.C. 2. Its motto, from the beginning, has been ‘<hi
+                        rend="italic">Lateat Scintilla Forsan</hi>’ (‘Perhaps a scintilla [of life]
+                    remains’), and its medals for heroic service are still inscribed <hi
+                        rend="italic">Societas Londinii in Resuscitationem Intermortuorum</hi> (‘The
+                    London Society for the Recovery of Persons Still Hanging between Life and
+                    Death’). It is noteworthy that Wesley should have been invited to preach the
+                    Society’s annual ‘Benefit Sermon’ so early in its history (or that he should
+                    have accepted such an invitation) in view of the fact that one of its founders,
+                    Dr. William Hawes, had recently published (in 1776) <hi rend="italic">An
+                        Examination of Mr. John Wesley’s Primitive Physick, showing that a great
+                        number of the prescriptions therein contained are founded on ignorance of
+                        the medical art; and that it is a publication calculated to do essential
+                        injury to the health of those persons who may place confidence in
+                        it....</hi></p>
+                <p><pb n="03:400"/>It is unsurprising, therefore, that on such an occasion Wesley
+                    should have elevated his rhetoric and that he should have extended his range of
+                    classical and literary allusions. It is equally natural that he should have
+                    focused on the question of ‘good works’. Even as he carefully avoids any
+                    attribution of saving merit, he still firmly rejects the classical Protestant
+                    notion that heroic services of the sort here extolled may be nothing more than
+                    ‘splendid sins’.</p>
+                <p n="">The sermon had no further editions until Wesley decided to include it in <hi
+                        rend="italic">SOSO</hi>, VIII.89-111, with only a barebones title, ‘Preached
+                    Before the Humane Society’. In his edition of Wesley’s <hi rend="italic"
+                        >Works</hi> in 1809 Joseph Benson gave it a more descriptive title, ‘The
+                    Reward of Righteousness’ (VII.155-63), and was followed in this by Thomas
+                    Jackson in 1825 and again in 1829 (<hi rend="italic">Works</hi>, VII.127-38). On
+                    this point we have thought it suitable to follow in their train.</p>
+            </introduction>
+            <head>The Reward of Righteousness</head>
+            <p>Preached before the Humane Society</p>
+            <!--Should we come up with a better way to code this subtitle than with a paragraph tag?-->
+            <epigraph>
+                <p>Matthew 25:34</p>
+                <p>
+                    <hi rend="italic">Come, ye blessed of my Father! Inherit the kingdom prepared
+                        for you from the foundation of the world.</hi>
+                </p>
+            </epigraph>
+            <div type="introduction">
+                <p n="1">1. Reason alone will convince every fair inquirer that God ‘is a rewarder
+                    of them that diligently seek him’.<note place="foot" xml:id="ftn1" n="1"><p
+                            rend="footnote text">Heb. 11:6.</p></note> This alone teaches him to
+                    say, ‘Doubtless there is a reward for the righteous; there is a God that judgeth
+                    the earth.’<note place="foot" xml:id="ftn2" n="2"><p rend="footnote text">Cf.
+                            Ps. 58:10 (BCP).</p></note> But how little information do we receive
+                    from unassisted reason touching the particulars contained in this general truth!
+                    As eye hath not seen, or ear heard, so neither could it naturally enter into our
+                    heart to conceive,<note place="foot" xml:id="ftn3" n="3"><p rend="footnote text"
+                            >See 1 Cor. 2:9.</p></note> the circumstances of that awful day wherein
+                    God will judge the world. No information of this kind could be given but from
+                    the great Judge himself. And what an amazing instance of condescension it is
+                    that the Creator, the Governor, the Lord, the <pb n="03:401"/>Judge of all,
+                    should deign to give us so clear and particular an account of that solemn
+                    transaction! If the learned heathen acknowledged the sublimity of that account
+                    which Moses gives of the creation,<note place="foot" xml:id="ftn4" n="4"><p
+                            rend="footnote text">This would have been Plato. Wesley’s most probable
+                            source was Eusebius, <hi rend="italic">Praeparatio Evangelii</hi>, IX.6,
+                            X.2-8, VII.8, 27, with its echoes of the familiar patristic theme that
+                            Plato and other Greek philosophers had borrowed their best ideas from
+                            Moses and the Hebrew prophets; cf. Johannes Quasten, <hi rend="italic"
+                                >Patrology</hi>, III.329.</p></note> what would he have said if he
+                    had heard this account of the Son of man coming in his glory?<note place="foot"
+                        xml:id="ftn5" n="5"><p rend="footnote text">See Matt. 25:31.</p></note> Here
+                    indeed is no laboured pomp of words, no ornaments of language. This would not
+                    have suited either the speaker or the occasion. But what inexpressible dignity
+                    of thought! See him ‘coming in the clouds of heaven’!<note place="foot"
+                        xml:id="ftn6" n="6"><p rend="footnote text">Cf. Matt. 24:30, etc.</p></note>
+                    ‘And all the angels with him’!<note place="foot" xml:id="ftn7" n="7"><p
+                            rend="footnote text">Cf. Matt. 25:31.</p></note> See him ‘sitting on the
+                    throne of his glory, and all the nations gathered before him’!<note place="foot"
+                        xml:id="ftn8" n="8"><p rend="footnote text">Cf. Matt. 25:31-32.</p></note>
+                    And shall he separate them, placing the good on his right hand, and the wicked
+                    on his left?<note place="foot" xml:id="ftn9" n="9"><p rend="footnote text">See
+                            Matt. 25:33.</p></note> ‘Then shall the King say’—With what admirable
+                    propriety is the expression varied! <hi rend="italic">The Son of man </hi>comes
+                    down to judge the children of men; <hi rend="italic">the King</hi> distributes
+                    rewards and punishments to his obedient or rebellious subjects—‘Then shall the
+                    King say to them on his right hand, Come, ye blessed of my Father! Inherit the
+                    kingdom prepared for you from the foundation of the world.’</p>
+                <p n="2">2. ‘Prepared for you from the foundation of the world’. But does this agree
+                    with the common supposition that God created man merely to supply the vacant
+                    thrones of the rebel angels?<note place="foot" xml:id="ftn10" n="10"><p
+                            rend="footnote text">Cf. Augustine, <hi rend="italic">Enchiridion</hi>,
+                            ix.28-29. Here, as in the question of whether Christ would have come if
+                            man had not sinned, Wesley supposes that in the history of salvation,
+                            the Fall and its effects had not been <hi rend="italic">prevented</hi>
+                            by God’s sovereign grace but rather anticipated and transcended; see
+                            above, No. 59, ‘God’s Love to Fallen Man’, I.1 and n.</p></note> Does it
+                    not rather seem to imply that he would have created man, though the angels had
+                    never fallen? Inasmuch as he then prepared the kingdom for his human children
+                    when he laid the foundation of the earth.</p>
+                <p n="3">3. ‘Inherit the kingdom’—as being ‘heirs of God, and joint-heirs’<note
+                        place="foot" xml:id="ftn11" n="11"><p rend="footnote text">Rom.
+                        8:17.</p></note> with his beloved Son. It is your right, seeing I have
+                    purchased ‘eternal redemption for all them that obey me’.<note place="foot"
+                        xml:id="ftn12" n="12"><p rend="footnote text">Cf. Heb. 5:9; 9:12.</p></note>
+                    And ye did obey me in the days of your flesh. Ye ‘believed in the Father, and
+                    also in me’.<note place="foot" xml:id="ftn13" n="13"><p rend="footnote text">Cf.
+                            John 14:1.</p></note> Ye loved the Lord your God; and that <pb
+                        n="04:402"/>love constrained you to love all mankind. Ye continued in the
+                    faith that wrought by love.<note place="foot" xml:id="ftn14" n="14"><p
+                            rend="footnote text">See Gal. 5:6.</p></note> Ye showed your faith by
+                    your works.<note place="foot" xml:id="ftn15" n="15"><p rend="footnote text">See
+                            Jas. 2:18.</p></note> ‘For I was hungry, and ye gave me meat; I was
+                    thirsty, and ye gave me drink; I was a stranger, and ye took me in; naked, and
+                    ye clothed me; I was sick, and in prison, and ye came unto me.’<note
+                        place="foot" xml:id="ftn16" n="16"><p rend="footnote text"> Matt.
+                        25:35.</p></note></p>
+                <p n="4">4. But in what sense are we to understand the words that follow? ‘Lord,
+                    when saw we thee hungry, and gave thee meat? Or thirsty, and gave thee
+                        drink?’<note place="foot" xml:id="ftn17" n="17"><p rend="footnote text"
+                            >Matt. 25:37 (<hi rend="italic">Notes</hi>).</p></note> They cannot be
+                    literally understood; they cannot answer in these very words; because it is not
+                    possible they should be ignorant that God had really wrought by them. Is it not
+                    then manifest that these words are to be taken in a figurative sense?<note
+                        place="foot" xml:id="ftn18" n="18"><p rend="footnote text">A rare instance
+                            of allegory in Wesley (cf. also No. 48, ‘Self-denial’, I.7); it is,
+                            however, consistent with his hermeneutical rule to prefer a literal
+                            interpretation unless it involves an absurdity; see No. 21, ‘Sermon on
+                            the Mount, I’, §6 and n.</p></note> And can they imply any more than
+                    that all which they have done will appear as nothing to them, will as it were
+                    vanish away, in view of what God their Saviour had done and suffered for
+                    them!</p>
+                <p n="5">5. But ‘the King shall answer and say unto them, Verily I say unto you,
+                    Inasmuch as ye have done it to one of the least of these my brethren, ye did it
+                    unto me.’<note place="foot" xml:id="ftn19" n="19"><p rend="footnote text">Matt.
+                            25:40.</p></note> What a declaration this! Worthy to be had in
+                    everlasting remembrance!<note place="foot" xml:id="ftn20" n="20"><p
+                            rend="footnote text">See Ps. 112:6.</p></note> May the finger of the
+                    living God write it upon all our hearts!</p>
+                <p>I would take occasion from hence, first, to make a few reflections on good works
+                    in general; secondly, to consider in particular that institution for the
+                    promotion of which we are now assembled; and, in the third place, to make a
+                    short application.</p>
+            </div>
+            <div type="section" n="1">
+                <p n="1">I. 1. And, first, I would make a few reflections upon good works in
+                    general.</p>
+                <p>I am not insensible that many, even serious people, are jealous of all that is
+                    spoken upon this subject; nay, and whenever the necessity of good works is
+                    strongly insisted on, take it for granted that he who speaks in this manner is
+                    but one remove from popery.<note place="foot" xml:id="ftn21" n="21"><p
+                            rend="footnote text">A remembrance of the charges against him of being a
+                            ‘crypto-Catholic’, ‘papist’, etc., by the Calvinists and antinomians;
+                            cf. JWJ, Aug. 27, 1739, and Dec. 20, 1768; and <hi rend="italic">An
+                                Earnest Appeal</hi>, §68(11:74 in this edn.). See also, e.g.,
+                            Francis Blackburne, <hi rend="italic">Considerations on the Present
+                                State of Controversy Between the Protestants and Papists of Great
+                                Britain and Ireland</hi> (London, 1768), p.199: ‘The Popish party
+                            boast much of the increase of the Methodists and talk of that sect with
+                            rapture. How far the Methodists and Papists stand connected in
+                            principles I know not; but I believe it is beyond a doubt that they are
+                            in constant correspondence with each other.’</p></note> But should we
+                    for fear of this, or of any other reproach, <pb n="04:403"/>refrain from
+                    speaking ‘the truth as it is in Jesus’?<note place="foot" xml:id="ftn22" n="22"
+                            ><p rend="footnote text">Cf. Eph. 4:21.</p></note> Should we on any
+                    consideration ‘shun to declare the whole counsel of God’?<note place="foot"
+                        xml:id="ftn23" n="23"><p rend="footnote text">Cf. Acts 20:27.</p></note>
+                    Nay, if a false prophet could utter that solemn word, how much more may the
+                    ministers of Christ—‘We cannot go beyond the word of the Lord’, to speak ‘either
+                    more or less’!<note place="foot" xml:id="ftn24" n="24"><p rend="footnote text"
+                            >Cf. Num. 22:18.</p></note></p>
+                <p n="2">2. Is it not to be lamented that any who fear God should desire us to do
+                    otherwise? And that by speaking otherwise themselves they should occasion the
+                    way of truth to be evil spoken of?<note place="foot" xml:id="ftn25" n="25"><p
+                            rend="footnote text">See 2 Pet. 2:2.</p></note> I mean, in particular,
+                    the way of salvation by faith, which on this very account is despised, nay, had
+                    in abomination by many sensible men. It is now about forty years since this
+                    grand scriptural doctrine, ‘By grace ye are saved through faith,’<note
+                        place="foot" xml:id="ftn26" n="26"><p rend="footnote text">Cf. Eph.
+                        2:8.</p></note> began to be openly declared by a few clergymen of the Church
+                    of England. And not long after some who heard, but did not understand, attempted
+                    to preach the same doctrine, but miserably mangled it, wresting the Scripture,
+                    and ‘making void the law through faith’.<note place="foot" xml:id="ftn27" n="27"
+                            ><p rend="footnote text">Cf. Rom. 3:31. Wesley’s time reference here
+                            points to 1738 as the beginning of the Revival.</p></note></p>
+                <p n="3">3. Some of these, in order to exalt the value of faith, have utterly
+                    depreciated good works. They speak of them as not only not necessary to
+                    salvation, but as greatly obstructive of it. They represent them as abundantly
+                    more dangerous than evil ones to those who are seeking to save their souls. One
+                    cries aloud, ‘More people go to hell by praying than by thieving.’ Another
+                    screams out: ‘Away with your works! Have done with your works, or you cannot
+                    come to Christ!’ And this unscriptural, irrational, heathenish declamation is
+                    called, ‘preaching the gospel’!<note place="foot" xml:id="ftn28" n="28"><p
+                            rend="footnote text">Cf. No. 35, ‘The Law Established through Faith, I’,
+                            I.12 and n.</p></note></p>
+                <p n="4">4. But ‘shall not the Judge of all the earth’ speak as well as ‘do
+                        right?’<note place="foot" xml:id="ftn29" n="29"><p rend="footnote text">Gen.
+                            18:25.</p></note> Will not ‘he be justified in his saying, and clear
+                    when he is judged’?<note place="foot" xml:id="ftn30" n="30"><p
+                            rend="footnote text">Cf. Ps. 51:4.</p></note> Assuredly he will. And
+                    upon his authority we must continue to declare that whenever you do good to any
+                    for his sake—when you feed the hungry, give drink to the thirsty; when you
+                    assist the stranger, or clothe the naked; when you visit them <pb n="04:404"
+                    />that are sick, or in prison—these are not ‘splendid sins’,<note place="foot"
+                        xml:id="ftn31" n="31"><p rend="footnote text">The original of this phrase,
+                                <hi rend="italic">splendida peccata</hi>, has long been attributed
+                            to Augustine, and something of the idea does appear in <hi rend="italic"
+                                >De Civ. Dei</hi>, xix.25; see Pierre Jaccard, ‘<hi rend="italic">De
+                                S. Augustin à Pascal: histoire d’une maxime sur les vertus des
+                                philosophes</hi>’, <hi rend="italic">Revue de Théologie et de
+                                Philosophic,</hi> N. S., XXVIII (1940), 41-55. But the phrase itself
+                            is not there. Its first instance, as far as I know, is in Peter Martyr
+                            Vermigli, <hi rend="italic">Loci Communes…</hi> (1st edn., 1576, but see
+                            Landon edn. Of 1583), ‘<hi rend="italic">Classis Tertiae</hi>’, ch. XII,
+                                ‘<hi rend="italic">De Cruce et Affectionibus perferendis, ubi etiam
+                                de Fortitudine, Fuga et Exilio</hi>’, §7, p. 649: ‘…<hi
+                                rend="italic">Fateor equidem…splendida peccata</hi>’. This had been
+                            translated into English as, ‘And their works, although they were
+                            excellent (if we consider them after a civil manner), yet before God
+                            they were nothing else but glorious and glistering sinnes’ (<hi
+                                rend="italic">The Commonplaces of the Most Famous and Renowned
+                                Divine Doctor Peter Martyr…</hi>, 1583, p. 177). An English source
+                            for Wesley would have been Richard Fiddes, <hi rend="italic">Practical
+                                Discourses</hi>, II.15. Cf. also Matthew Mead, <hi rend="italic">The
+                                Almost Christian Discovered</hi> (1662), p. 97 of 1797 edn.; ‘A man
+                            may obey much and yet be in his old nature; and so then all his
+                            obedience in that estate is but <hi rend="italic">splendidum
+                                peccatum</hi>, a painted sin;’ John Norris, <hi rend="italic"
+                                >Considerations upon the Nature of Sin; Accommodated to the Ends of
+                                Speculation and Practice</hi>, sect. 7, in <hi rend="italic">A
+                                Collection of Miscellanies</hi> (1723), p. 288: ‘…the great question
+                            concerning the good actions done by heathens [is] whether they were
+                            properly virtues or only a kind of well-favoured sins, <hi rend="italic"
+                                >splendida peccata</hi>, as some have thought fit to call them;’
+                            Patrick Middleton, <hi rend="italic">A Short View of the Evidences upon
+                                which the Christian Religion and the Divine Authority of the Holy
+                                Scriptures is Established</hi> (1734), Appendix, 1:7: ‘Some of the
+                            [Calvinists’] learned authors do frankly drop all thoughts of any regard
+                            in God to the salvation of those famous men [‘the virtuous pagans’],
+                            accounting their brightest virtues as only glittering iniquity (<hi
+                                rend="italic">splendida peccata</hi>) because they did not proceed
+                            from a principle of faith and had not the glory of God for their only
+                            end….’ See also the Homily on Good Works, First Part, <hi rend="italic"
+                                >Homilies</hi>, p. 43, quoting Chrysostom: ‘they which glister and
+                            shine in good works without faith in God be like dead men;’ this is from
+                            a work wrongly attributed to Chrysostom (<hi rend="italic">Sermone de
+                                Fide, Lege et Spiritu Sancto</hi>; cf. Migne, <hi rend="italic"
+                                >PG</hi>, XLVIII.1081).</p><p rend="footnote text">See also the <hi
+                                rend="italic">Minutes</hi>, Aug. 2, 1745, <hi rend="italic">Q.</hi>
+                            8: ‘Were those works of [Cornelius] splendid sins?’ <hi rend="italic"
+                                >A.</hi> ‘No; nor were they done without the grace of Christ;’ and
+                                <hi rend="italic">Predestination Calmly Considered</hi>, §32. Cf.
+                            Nos. 5, ‘Justification by Faith’, III.5 and n.; and 130, On Living
+                            without God’, §14.</p></note> as one marvellously calls them, but
+                    ‘sacrifices wherewith God is well pleased’.<note place="foot" xml:id="ftn32"
+                        n="32"><p rend="footnote text">Cf. Heb. 13:16.</p></note></p>
+                <p n="5">5. Not that our Lord intended we should confine our beneficence to the
+                    bodies of men. He undoubtedly designed that we should be equally abundant in
+                    works of spiritual mercy. He died to ‘purify unto himself a peculiar people,
+                    zealous of’ all ‘good works’;<note place="foot" xml:id="ftn33" n="33"><p
+                            rend="footnote text">Titus 2:14.</p></note> zealous, above all, to ‘save
+                    souls from death’, and thereby ‘hide a multitude of sins’.<note place="foot"
+                        xml:id="ftn34" n="34"><p rend="footnote text">Cf. Jas. 5:20.</p></note> And
+                    this is unquestionably included in St. Paul’s exhortation, ‘As we have time, let
+                    us do good unto all men;’<note place="foot" xml:id="ftn35" n="35"><p
+                            rend="footnote text">Cf. Gal. 6:10; cf. also No. 24, ‘Sermon on the
+                            Mount, IV’, IV.1 and n.</p></note> good in every possible kind, as well
+                    as in every possible degree. But why does not our blessed Lord mention works of
+                    spiritual mercy? He could not do it with any propriety. It was not for him to
+                    say: ‘I was in error, and ye <pb n="04:405"/>convinced me; I was in sin, and you
+                    brought me back to God.’ And it needed not; for in mentioning <hi rend="italic"
+                        >some</hi> he included <hi rend="italic">all</hi> works of mercy.</p>
+                <p n="6">6. But may I not add one thing more (only he that heareth, let him
+                        understand):<note place="foot" xml:id="ftn36" n="36"><p rend="footnote text"
+                            >See Mark 13:14.</p></note> good works are so far from being hindrances
+                    of our salvation, they are so far from being insignificant, from being of no
+                    account in Christianity, that, supposing them to spring from a right principle,
+                    they are the perfection of religion. They are the highest part of that spiritual
+                    building whereof Jesus Christ is the foundation. To those who attentively
+                    consider the thirteenth chapter of the first Epistle to the Corinthians it will
+                    be undeniably plain that what St. Paul there describes as the highest of all
+                    Christian graces is properly and directly the love of our neighbour.<note
+                        place="foot" xml:id="ftn37" n="37"><p rend="footnote text">See No. 91, ‘On
+                            Charity’, I.2 and n.</p></note> And to him who attentively considers the
+                    whole tenor both of the Old and New Testament it will be equally plain that
+                    works springing from this love are the highest part of the religion therein
+                    revealed. Of these our Lord himself says, ‘Hereby is my Father glorified, that
+                    ye bring forth much fruit.’<note place="foot" xml:id="ftn38" n="38"><p
+                            rend="footnote text">Cf. John 15:8.</p></note> Much fruit! Does not the
+                    very expression imply the excellency of what is so termed? Is not the tree
+                    itself for the sake of the fruit? By bearing fruit, and by this alone, it
+                    attains the highest perfection it is capable of, and answers the end for which
+                    it was planted. Who, what is he, then, that is called a Christian, and can speak
+                    lightly of good works?</p>
+            </div>
+            <div type="section" n="2">
+                <p>II. From these general reflections I proceed to consider that institution in
+                    particular for the promotion of which we are now assembled. And in doing this I
+                    shall first observe the rise of this institution; secondly, the success; and
+                    thirdly, the excellency of it; after which you will give me leave to make a
+                    short application.</p>
+                <p>(I).<note place="foot" xml:id="ftn39" n="39"><p rend="footnote text">The original
+                            numbering of these subdivisions is confusing; the attempted
+                            reconstruction here is indicated by adding parentheses. The second
+                            series, which begins here, and deals with the Humane Society, has been
+                            renumbered ‘(I)’-‘(III)’ instead of ‘I’-‘III’. The third series consists
+                            of a listing of the Society’s principles as a subdivision of II(Ι).4,
+                            and has been left untouched. The final section has been renumbered ‘III’
+                            instead of the original ‘IV’, because Wesley apparently intended it to
+                            continue the general considerations begun in ‘I’ and ‘II’ rather than
+                            particular aspects of the Humane Society itself dealt with in
+                            ‘(I)’-‘(III)’.</p></note> On the first head, the rise of this
+                    institution, I may be very brief, as a great part of you know it already.</p>
+                <pb n="04:406"/>
+                <p n="1">1. One would wonder (as an ingenious writer observes) that such an
+                    institution as this, of so deep importance to mankind, should appear so late in
+                    the world. Have we anything wrote upon the subject earlier than the tract
+                    published at Rome in the year 1637?<note place="foot" xml:id="ftn40" n="40"><p
+                            rend="footnote text">Details of the tract and the name of the ‘ingenious
+                            writer’ are not known.</p></note> And did not the proposal then sleep
+                    for many years? Were there any more than one or two attempts, and those not
+                    effectually pursued, till the year 1700? By what steps it has been since revived
+                    and carried into execution we are now to inquire.</p>
+                <p n="2">2. I cannot give you a clearer view of this than by presenting you with a
+                    short extract from the introduction to the ‘Plan and Reports of the Society’,
+                    published two years ago.<note place="foot" xml:id="ftn41" n="41"><p
+                            rend="footnote text">Wesley’s abridged and emended précis of ‘The
+                            Introduction’ from <hi rend="italic">The Plan and Reports of the Society
+                                for the Recovery of Persons Apparently Drowned. Instituted at
+                                London</hi>. MDCCLXXIV (With an Appendix), 1775, pp. 3-19; Wesley
+                            has altered the original’s phrasing here and there but not its factual
+                            statements.</p></note></p>
+                <quote>
+                    <p>Many and indubitable are the instances of the possibility of restoring to
+                        life persons apparently struck with sudden death, whether by an apoplexy,
+                        convulsive fits, noxious vapours, strangling, or drowning. Cases of this
+                        nature have occurred in every country. But they were considered and <hi
+                            rend="italic">neglected</hi> as extraordinary phenomena, from which no
+                        salutary consequence could be drawn.</p>
+                    <p>3. At length a few benevolent gentlemen in Holland conjectured that some at
+                        least might have been saved had proper means been used in time; and formed
+                        themselves into a Society in order to make a trial. Their attempts succeeded
+                        far beyond their expectations. Many were restored who must otherwise have
+                        perished. And they were at length enabled to extend their plan over the
+                        seven provinces.</p>
+                    <p>Their success instigated other countries to follow their example. In the year
+                        1768 the Magistrates of Health at Milan and Venice issued orders for the
+                        treatment of drowned persons. The city of Hamburg appointed a similar
+                        ordinance to be read in all the churches. In the year 1769 the Empress of
+                        Germany published an edict, extending its directions and encouragements to
+                        every case that afforded a possibility of relief. In the year 1771 the
+                        magistrates of Paris founded an institution in favour of the drowned.</p>
+                    <p>4. In the year 1773 Dr. Cogan<note place="foot" xml:id="ftn42" n="42"><p
+                                rend="footnote text">Thomas Cogan had begun as a Nonconformist
+                                minister who served congregations in Rotterdam, Southampton, and The
+                                Hague. He then took a medical degree at Leyden in 1767 and practiced
+                                medicine, chiefly in London, until 1780, when he retired to Holland
+                                to pursue his studies in moral philosophy. In 1767, he had joined a
+                                society in Amsterdam, ‘In Favour of Drowned Persons’, and translated
+                                their <hi rend="italic">Memoirs</hi> into English in 1773. As
+                                co-founder of the Humane Society, he prepared the Society’s first
+                                six ‘Annual Reports’.</p></note> translated the <hi rend="italic"
+                            >Memoirs of the Society at Amsterdam</hi>, in order to inform our
+                        countrymen of the practicability of recovering persons apparently drowned.
+                        And Mr. Hawes<note place="foot" xml:id="ftn43" n="43"><p
+                                rend="footnote text">A London physician who had already been giving
+                                personal rewards for heroic rescues of apparent drowning victims
+                                before he joined with Cogan and others to found the Humane Society.
+                                He long served it as Registrar; cf. his <hi rend="italic">Address on
+                                    Premature Death and Premature Interment</hi>, 1777.</p></note>
+                        uniting with him, these <pb n="04:407"/>gentlemen proposed a plan for a
+                        similar institution in these kingdoms. They were soon enabled to form a
+                        Society for this excellent purpose. The plan is this:</p>
+                    <p>I. The Society will publish, in the most extensive manner possible, the
+                        proper methods of treating persons in such circumstances.</p>
+                    <p>II. They will distribute a premium of two guineas among the first persons who
+                        attempt to recover anyone taken out of the water as dead. And this reward
+                        will be given even if the attempt is unsuccessful, provided it has been
+                        pursued two hours, according to the method laid down by the Society.</p>
+                    <p>III. They will distribute a premium of four guineas where the person is
+                        restored to life.</p>
+                    <p>IV. They will give one guinea to any that admits the body into his house
+                        without delay, and furnishes the necessary accommodations.</p>
+                    <p>V. A number of medical gentlemen, living near the places where these
+                        disasters commonly happen, will give their assistance gratis.</p>
+                </quote>
+                <p>(II). Such was the <hi rend="italic">rise</hi> of this admirable institution.
+                    With what success it has been attended is the point which I purpose in the next
+                    place very briefly to consider.</p>
+                <p>And it must be allowed to be not only far greater than those who despised it had
+                    imagined, but greater than the most sanguine expectations of the gentlemen who
+                    were immediately engaged in it.</p>
+                <p>In the short space from its first establishment in May 1774, to the end of
+                    December, eight persons seemingly dead were restored to life.</p>
+                <p>In the year 1775 forty-seven were restored to life; thirty-two of them by the
+                    direct encouragement and assistance of the gentlemen of this Society, and the
+                    rest by medical gentlemen and others in consequence of their method of treatment
+                    being generally known.</p>
+                <p>In the year 1776 forty-one persons were restored to life by the assistance of
+                    this Society. And eleven cases of those who had been restored elsewhere were
+                    communicated to them.</p>
+                <p>So the number of lives preserved and restored in two years and an half since
+                    their first institution amounts to one hundred and seven! Add to these those
+                    that have been since restored, and out of two hundred and eighty-four persons
+                    who were dead to all appearance no less than an hundred and fifty-seven have
+                    been restored to life! Such is the <hi rend="italic">success</hi> which has
+                    attended them in so short a time! Such a blessing has the gracious providence of
+                    God given to this infant undertaking!<note place="foot" xml:id="ftn44" n="44"><p
+                            rend="footnote text">Cf. <hi rend="italic">Report of the Society</hi>
+                            (1776), p. vii.</p></note></p>
+                <pb n="03:408"/>
+                <p n="1">(III). 1. It remains only to show the <hi rend="italic">excellency</hi> of
+                    it. And this may appear from one single consideration. This institution unites
+                    together in one all the various acts of mercy. The several works of charity
+                    mentioned above are all contained in this. It comprises all corporal (if I may
+                    so speak) and all spiritual benefits—all the instances of kindness which can be
+                    shown either to the bodies or souls of men. To show this beyond all
+                    contradiction there needs no studied eloquence, no rhetorical colouring, but
+                    simply and nakedly to relate the thing as it is.</p>
+                <p n="2">2. The thing attempted, and not only attempted but actually performed (so
+                    has the goodness of God prospered the labours of these lovers of mankind!), is
+                    no less, in a qualified sense, than restoring life to the dead! Is it any wonder
+                    then that the generality of men should at first ridicule such an undertaking?
+                    That they should imagine the persons who aimed at any such thing must be utterly
+                    out of their senses? Indeed one of old said, ‘Why should it be thought a thing
+                    incredible with you that God should raise the dead?’<note place="foot"
+                        xml:id="ftn45" n="45"><p rend="footnote text">Acts 26:8. Cf. No. 116, ‘What
+                            is Man? Ps. 8:4’, §12, on the point of body-soul dualism; see also No.
+                            41, <hi rend="italic">Wandering Thoughts</hi>, III.5 and n.</p></note>
+                    Cannot he who bestowed life at first just as well bestow it again? But it may
+                    well be thought a thing incredible that <hi rend="italic">man </hi>should raise
+                    the dead! For no human power can create life. And what human power can restore
+                    it? Accordingly, when our Lord (whom the Jews at that time supposed to be a mere
+                    man) came to the house of Jairus in order to raise his daughter from the dead,
+                    upon the first intimation of his design ‘they laughed him to scorn’.<note
+                        place="foot" xml:id="ftn46" n="46"><p rend="footnote text">Matt.
+                        9:24.</p></note> ‘The maid’, said he, ‘is not dead, but sleepeth’<note
+                        place="foot" xml:id="ftn47" n="47"><p rend="footnote text"><hi rend="italic"
+                                >Ibid.</hi></p></note>—‘this is rather to be called sleep than
+                    death, seeing her life is not at an end; but I will quickly awaken her out of
+                    this sleep.’</p>
+                <p n="3">3. However, it is certain she was really dead, and so beyond all power but
+                    that of the Almighty. But see what power God has now given to man!<note
+                        place="foot" xml:id="ftn48" n="48"><p rend="footnote text">See Matt.
+                            9:8.</p></note> (To his name be all the praise!) See with what wisdom he
+                    has endued these sons of mercy! Teaching them to stop the parting soul, to
+                    arrest the spirit just quitting the breathless clay, and taking wing for
+                    eternity! Who hath seen such a thing? Who hath heard such things? Who hath read
+                    them in the annals of antiquity? Sons of men, ‘can these dry bones live?’<note
+                        place="foot" xml:id="ftn49" n="49"><p rend="footnote text">Ezek.
+                        37:3.</p></note> Can <pb n="04:409"/>this motionless heart beat again? Can
+                    this clotted blood flow any more? Can these dry, stiff vessels open, to give it
+                    passage? Can this cold flesh resume its native warmth, or those eyes again see
+                    the sun? Surely these are such things (might one not almost say, such miracles?)
+                    as neither we of the present generation, nor our fathers had known!</p>
+                <p n="4">4. Consider, I entreat you, how many miracles of mercy (so to speak) are
+                    contained in one! That poor man, who was lately numbered with the dead, by the
+                    care and pains of these messengers of God again breathes the vital air, opens
+                    his eyes, and stands upon his feet. He is restored to his rejoicing family, to
+                    his wife, to his (late) helpless children, that he may again by his honest
+                    labour provide them with all the necessaries of life. See now what ye have done,
+                    ye ministers of mercy! Behold the fruit of your labour of love! Ye have been an
+                    husband to the widow, a father to the fatherless. And hereby ye have given meat
+                    to the hungry, drink to the thirsty, clothes to the naked. For hungry, thirsty,
+                    and naked these little ones must have been had not you restored him that
+                    prevents it. You have more than relieved; you have prevented that sickness which
+                    might naturally have arisen from their want of sufficient food to eat, or
+                    raiment to put on. You have hindered those orphans from wandering up and down,
+                    not having a place where to lay their head. Nay, and very possibly you have
+                    prevented some of them from being lodged in a dreary, comfortless prison.</p>
+                <p n="5">5. So great, so comprehensive is the mercy which you have shown to the
+                    bodies of your fellow-creatures! But why should their souls be left out of the
+                    account? How great are the benefits you have conferred on these also! The
+                    husband has now again an opportunity of assisting his wife in things of the
+                    greatest moment. He may now again strengthen her hands in God, and help her to
+                    run with patience the race that is set before her.<note place="foot"
+                        xml:id="ftn50" n="50"><p rend="footnote text">See Heb. 12:1.</p></note> He
+                    may again join with her in instructing their children, and training them up in
+                    the way wherein they should go;<note place="foot" xml:id="ftn51" n="51"><p
+                            rend="footnote text">See Prov. 22:6.</p></note> who may live to be a
+                    comfort to their aged parents, and useful members of the community.</p>
+                <p n="6">6. Nay, it may be you have snatched the poor man himself, not only from the
+                    jaws of death, but from sinking lower than the waters, from the jaws of
+                    everlasting destruction. It cannot be <pb n="03:410"/>doubted but some of those
+                    whose lives you have restored, although they had been before without God in the
+                    world, will remember themselves, and not only with their lips, but in their
+                    lives, show forth his praise.<note place="foot" xml:id="ftn52" n="52"><p
+                            rend="footnote text">See BCP, Thanksgivings, A General Thanksgiving:
+                            ‘And, we beseech thee, give us that due sense of all thy mercies, that
+                            our hearts may be unfeignedly thankful, and that we show forth thy
+                            praise, not only with our lips, but in our lives….’</p></note> It is
+                    highly probable some of these (as ‘one’ out of the ‘ten lepers’) will ‘return
+                    and give thanks to God’,<note place="foot" xml:id="ftn53" n="53"><p
+                            rend="footnote text">Cf. Luke 17:15, 16.</p></note> real, lasting
+                    thanks, by devoting themselves to his honourable service.</p>
+                <p n="7">7. It is remarkable that several of those whom you have brought back from
+                    the margin of the grave were intoxicated at the very time when they dropped into
+                    the water. And at that very instant (which is frequently the case) they totally
+                    lost their senses. Here therefore was no place for, no possibility of,
+                    repentance. They had not time, they had not sense, so much as to cry out, ‘Lord,
+                    have mercy!’ So they were sinking through the mighty waters into the pit of
+                        destruction!<note place="foot" xml:id="ftn54" n="54"><p rend="footnote text"
+                            >See Ps. 5523 (AV).</p></note> And these instruments of divine mercy
+                    plucked them at once out of the water and out of the fire! By the same act
+                    delivered them from temporal and from eternal death!</p>
+                <p n="8">8. Nay, one poor sinner (let it never be forgotten!) was just coming down
+                    from the ship when (overtaken by the justice and mercy of God) her foot slipped
+                    and she fell into the river. Instantly her senses were lost, so that she could
+                    not call upon God. Yet he had not forgotten her. He sent those who delivered her
+                    from death; at least, from the death of the body. And who knows but she may lay
+                    it to heart, and turn from the error of her ways? Who knows but she may be saved
+                    from the second death,<note place="foot" xml:id="ftn55" n="55"><p
+                            rend="footnote text">See Rev. 2:11.</p></note> and with her deliverers
+                    ‘inherit the kingdom’?<note place="foot" xml:id="ftn56" n="56"><p
+                            rend="footnote text">Matt. 25:34, etc.</p></note></p>
+                <p n="9">9. One point more deserves to be particularly remarked. Many of those who
+                    have been restored to life (no less than eleven out of the fourteen that were
+                    saved in a few months) were in the number of those that are a reproach to our
+                    nation—wilful self-murderers. As many of the desperate men who attempt this
+                    horrid crime are men who have had a liberal education, ’tis pity but they would
+                    consider those fine words, not of a poor narrow-souled Christian, but of a
+                    generous heathen, nay a Roman! Let them calmly consider that beautiful
+                    passage:</p>
+                <pb n="03:411"/>
+                <lg>
+                    <l>
+                        <hi rend="italic">Proxima deinde tenent maesti loca, qui sibi letum</hi>
+                    </l>
+                    <l>
+                        <hi rend="italic">Insontes perperere manu, lucemque perosi</hi>
+                    </l>
+                    <l>
+                        <hi rend="italic">Projecere animas. Quam vellent aethere in alto</hi>
+                    </l>
+                    <l>
+                        <hi rend="italic">Nunc et pauperiem, et duros perferre labores!</hi>
+                    </l>
+                    <l>
+                        <hi rend="italic">Fata obstant, tristique palus innabilis unda</hi>
+                    </l>
+                    <l>
+                        <hi rend="italic">Alligat, et novies</hi>
+                    </l>
+                    <note place="foot" xml:id="ftn57" n="57">
+                        <p rend="footnote text">Virgil has ‘<hi rend="italic">tristisque</hi>’, ‘<hi
+                                rend="italic">inamabilis</hi>’ (‘revolting’) and ‘<hi rend="italic"
+                                >noviens</hi>’. Wesley’s ‘<hi rend="italic">innabilis unda</hi>’
+                            (‘the waters that cannot be swum in’) is an interjection from Ovid, <hi
+                                rend="italic">Metamorphoses</hi>, i.16.</p>
+                    </note>
+                    <hi rend="italic"> Styx interfusa coercet.</hi>
+                    <hi rend="endnote_reference">
+                        <note place="end">
+                            <lg>
+                                <l>Then crowds succeed, who, prodigal of breath,</l>
+                                <l>Themselves anticipate the doom of death;</l>
+                                <l>Though free from guilt, they cast their lives away,</l>
+                                <l>And sad and sullen hate the golden day.</l>
+                                <l>O with what joy the wretches now would bear</l>
+                                <l>Pain, toil, and woe, to breathe the vital air!</l>
+                                <l>In vain! By fate for ever are they bound</l>
+                                <l>And Styx with nine wide channels roars around!</l>
+                                <l>Mr. Pitt’s Virgil.</l>
+                            </lg>
+                            <p rend="endnote text">[Virgil, <hi rend="italic">Aeneid</hi>,
+                                vi.435-40. The translation of the <hi rend="italic">Aeneid</hi> by
+                                Christopher Pitt (1699-1748) was published in 1740. For the last two
+                                lines, cf. also <hi rend="italic">Georgics</hi>, iv.479-80: ‘<hi
+                                    rend="italic">Tardaque palus inamabilis unda alligat et noviens
+                                    Styx interjusa coercet</hi>.’]</p>
+                        </note>
+                    </hi>
+                </lg>
+                <p><hi rend="italic">Fata obstant</hi>!<note place="foot" xml:id="ftn58" n="58"><p
+                            rend="footnote text">‘The Fates oppose.’ See Virgil, <hi rend="italic"
+                                >Aeneid</hi>, vi.439, quoted above, and cf. iv.440.</p></note> But
+                    in favour of many we see God has overruled fate. They are brought back over the
+                    unnavigable river.<note place="foot" xml:id="ftn59" n="59"><p
+                            rend="footnote text">I.e., the Styx.</p></note> They do behold the upper
+                    skies. They see the light of the sun. O let them see the light of thy
+                    countenance! And let them so live their few remaining days on earth that they
+                    may live with thee for ever!</p>
+            </div>
+            <div type="section" n="3">
+                <p n="1">III. 1. Permit me now to make a short application. But to whom should I
+                    direct this? Are there any here who are unhappily prejudiced against that
+                    revelation which breathes nothing but benevolence? Which contains the richest
+                    display of God’s love to man that ever was made from the foundation of the
+                    world? Yet even to <hi rend="italic">you</hi> I would address a few words; for
+                    if you are not Christians, you are men. You too are susceptible of kind
+                    impressions; you have the feelings of humanity. Has not your heart too glowed at
+                    that noble sentiment (worthy the heart and the lips of the highest
+                    Christian)</p>
+                <quote>
+                    <hi rend="italic">Homo sum: humani nihil a me alienum puto!</hi>
+                    <note place="foot" xml:id="ftn60" n="60">
+                        <p rend="footnote text">Terence, <hi rend="italic">The Self-Tormentor</hi>,
+                            77 (I.i.25): ‘I am a man: nothing that partakes of humanity is a matter
+                            of indifference to me.’ Wesley used this quotation as a motto for <hi
+                                rend="italic">A Letter to a Friend Concerning Tea</hi> (1748), and
+                            for the 8th (1759) and subsequent edns. of <hi rend="italic">Primitive
+                                Physick</hi>. Steele, <hi rend="italic">The Spectator</hi>, No. 502,
+                            Oct. 6, 1712, wrote that Terence’s play ‘is from beginning to the end a
+                            perfect picture of humane life.’</p>
+                    </note>
+                </quote>
+                <p>Have not you also sympathized with the afflicted? How many times have you been
+                    pained at human misery? When you have <pb n="04:412"/>beheld a scene of deep
+                    distress, has not your soul melted within you?</p>
+                <lg>
+                    <l>And now and then a sigh you stole,</l>
+                    <l>And tears began to flow.</l>
+                    <note place="foot" xml:id="ftn61" n="61">
+                        <p rend="footnote text">Cf. Dryden, ‘Alexander’s Feast’, 87-88:</p>
+                        <lg>
+                            <l>And, now and then, a sigh he stole,</l>
+                            <l>And tears began to flow.</l>
+                        </lg>
+                    </note>
+                </lg>
+                <p>But is it easy for anyone to conceive a scene of deeper distress than this?
+                    Suppose you are standing by just when the messenger comes in, and the message is
+                    delivered: ‘I am sorry to tell you—but you must know it—your husband is no more.
+                    He was making haste out of the vessel, and his foot slipped…. It is true, after
+                    a time his body was found. But there it lies, without any signs of life.’ In
+                    what a condition are now both the mother and the children? Perhaps for a while
+                    stupid, overwhelmed, silent; staring at each other; then bursting out into loud
+                    and bitter lamentation! Now is the time to help them; by assisting those who
+                    make it their business so to do. Now let nothing hinder you from improving the
+                    glorious opportunity. Restore the husband to his disconsolate wife, the father
+                    to his weeping children! It is true you cannot do this in person; you cannot be
+                    upon the spot. But you may do it in an effectual manner by assisting those that
+                    are. You may now by your generous contribution <hi rend="italic">send</hi> them
+                    the help which you cannot personally give. O shut not up your bowels of
+                    compassion towards them.<note place="foot" xml:id="ftn62" n="62"><p
+                            rend="footnote text">See 1 John 3:17.</p></note> Now open your hearts
+                    and your hands! If you have much, give plenteously! If not, give a little, with
+                    a willing mind!</p>
+                <p n="2">2. To you who believe the Christian revelation I may speak in a still
+                    stronger manner. You believe your blessed Master ‘left you an example, that you
+                    might tread in his steps’.<note place="foot" xml:id="ftn63" n="63"><p
+                            rend="footnote text">Cf. 1 Pet. 2:21.</p></note> Now you know his whole
+                    life was one labour of love. You know how he ‘went about doing good’,<note
+                        place="foot" xml:id="ftn64" n="64"><p rend="footnote text">Acts
+                        10:38.</p></note> and that without intermission, declaring to all, ‘My
+                    Father worketh hitherto, and I work.’<note place="foot" xml:id="ftn65" n="65"><p
+                            rend="footnote text">John 5:17.</p></note> Is not that then the language
+                    of your heart:</p>
+                <pb n="03:413"/>
+                <lg>
+                    <l>Thy mind throughout my life be shown,</l>
+                    <l>While listening to the wretch’s cry,</l>
+                    <l>The widow’s and the orphan’s groan,</l>
+                    <l>On mercy’s wings I swiftly fly,</l>
+                    <l>The poor and helpless to relieve;</l>
+                    <l>My life, my all, for them to give.</l>
+                    <note place="foot" xml:id="ftn66" n="66">
+                        <p rend="footnote text">Charles Wesley, <hi rend="italic">Scripture
+                                Hymns</hi> (1762), II.380, on Jas. 1:27 (<hi rend="italic">Poet.
+                                Wks.</hi>, XIII.167); cf. No. 59, ‘God’s Love to Fallen Man’, I.9
+                            and n.</p>
+                    </note>
+                </lg>
+                <p>Occasions of doing this can never be wanting; for ‘the poor ye have always with
+                        you.’<note place="foot" xml:id="ftn67" n="67"><p rend="footnote text">Cf.
+                            Mark 14:7.</p></note> But what a peculiar opportunity does the solemnity
+                    of this day furnish you with of ‘treading in his steps’, after a manner which
+                    you did not before conceive? Did he say to the poor, afflicted parent (doubtless
+                    to the surprise of many) ‘weep not’?<note place="foot" xml:id="ftn68" n="68"><p
+                            rend="footnote text">Luke 7:13.</p></note> And did he surprise them
+                    still more when he stopped her flowing tears by restoring life to her dead son,
+                    and ‘delivering him to his mother’?<note place="foot" xml:id="ftn69" n="69"><p
+                            rend="footnote text">Cf. Luke 7:15.</p></note> Did he (notwithstanding
+                    all that ‘laughed him to scorn’)<note place="foot" xml:id="ftn70" n="70"><p
+                            rend="footnote text">Luke 8:53.</p></note> restore to life the daughter
+                    of Jairus? How many things of a nearly resembling sort,</p>
+                <quote>If human we may liken to divine,<note place="foot" xml:id="ftn71" n="71"><p
+                            rend="footnote text">Cf. Samuel Wesley, Jun., ‘On the Death of Mr.
+                            Morgan of Christ Church, Oxford’, <hi rend="italic">Poems</hi> (1736),
+                            p. 109: ‘For human may he liken’d to divine; ’ cf. also ‘The prisons
+                            Open’d’, <hi rend="italic">ibid.</hi>, p. 191: ‘If human joys we liken
+                            to divine.’</p></note></quote>
+                <p>have been done, and continue to be done daily by these lovers of mankind. Let
+                    everyone then be ambitious of having a share in this glorious work! Let everyone
+                    (in a stronger sense than Mr. Herbert meant)</p>
+                <quote>Join hands with God, to make a poor man live.<note place="foot"
+                        xml:id="ftn72" n="72"><p rend="footnote text">Cf. George Herbert, <hi
+                                rend="italic">The Temple</hi>, ‘The Church Porch’, ver. 63, l.
+                            4:</p><quote>Join hands with God to make a man to live.</quote><p
+                            rend="footnote text">See also <hi rend="italic">A Plain Account of the
+                                People called Methodists</hi> (1749), XV.2.</p></note></quote>
+                <p>By your generous assistance be ye partakers of their work, and partakers of their
+                    joy!</p>
+                <p n="3">3. To you I need add but one word more. Remember (what was spoken at first)
+                    the solemn declaration of him whose ye are, and whom ye serve, coming in the
+                    clouds of heaven!<note place="foot" xml:id="ftn73" n="73"><p
+                            rend="footnote text">Matt. 24:30, etc.</p></note> While you are <pb
+                        n="03:414"/>promoting this comprehensive charity, which contains feeding the
+                    hungry, clothing the naked, lodging the stranger, indeed all good works in one,
+                    let those animating words be written on your hearts, and sounding in your ears,
+                    ‘Inasmuch as ye have done it unto one of the least of these, ye have done it
+                    unto me.’<note place="foot" xml:id="ftn74" n="74"><p rend="footnote text">Matt.
+                            25:40.</p></note></p>
+            </div>
+            <p>
+                <date when="11-21-1777">Nov. 21, 1777</date>
+                <note place="foot" xml:id="ftn75" n="75">
+                    <p rend="footnote text">Date in 1777 edn. only.</p>
+                </note>
+            </p>
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,669 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Sermon 92: On Zeal</title>
+                <author>Wesley, John</author>
+                <editor role="text">Van Buskirk, Gregory P.</editor>
+                <editor role="digital">Taylor, Michelle M.</editor>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>The Wesley Works Digitzation Project</publisher>
+                <pubPlace>Tampa, FL</pubPlace>
+                <date>2024-02-25</date>
+            </publicationStmt>
+            <sourceDesc>
+                <listBibl>
+                    <biblStruct>
+                        <analytic>
+                            <title level="a">Sermon 92: On Zeal</title>
+                        </analytic>
+                        <monogr>
+                            <title level="j">The Works of John Wesley, Volume III: Sermons III,
+                                71-114</title>
+                            <editor role="volume">Outler, Albert</editor>
+                            <imprint>
+                                <publisher>Abingdon Press</publisher>
+                                <pubPlace>Nashville, TN</pubPlace>
+                                <date when="1986-11-01">1986-11-01</date>
+                                <biblScope unit="volume" n="3"/>
+                                <biblScope unit="page" from="308" to="319"/>
+                            </imprint>
+                        </monogr>
+                        <series>
+                            <title level="s">The Works of John Wesley</title>
+                            <editor role="general">Baker, Frank</editor>
+                        </series>
+                    </biblStruct>
+                </listBibl>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Greg Van Buskirk created Word docs for all of Wesley's sermons using a combination of
+                OCR software and manual proofing. Michelle Taylor converted these docx into XML
+                using Oxygen's DITA automatic transformation scenario, then touched them up
+                manually.</p>
+        </encodingDesc>
+        <standOff>
+            <taxonomy>
+                <keywords>
+                    <term/>
+                </keywords>
+            </taxonomy>
+            <!--Include keywords and terms here eventually.-->
+        </standOff>
+        <revisionDesc/>
+    </teiHeader>
+    <text>
+        <body>
+            <pb n="03:308"/>
+            <head>
+                <hi rend="italic">An Introductory Comment</hi>
+            </head>
+            <introduction>
+                <p>This sermon, written three years earlier than No. 91, ‘On Charity’, is
+                    thematically subsequent to it, so its place here is fitting. It is further
+                    comment on love in a single, crucial aspect. Thus, Wesley focuses on the much
+                    misunderstood impulse labelled ‘religious zeal’, and then proceeds to show that
+                        <hi rend="italic">true</hi> ‘zeal’ is actually an expression of love or else
+                    it is both false and destructive (‘Christian zeal is all love,’ etc.; I.2). This
+                    allows him then to distinguish between the zeal which fuels the fires of
+                    controversy and persecution and that special quality of holy love which is, as
+                    he says, ‘the queen of all graces’ (III.12). That this idea was a favourite in
+                    his mid-career is suggested by the fact that Gal. 4:18 is mentioned eighteen
+                    times as a preaching text between 1758 and 1779.</p>
+                <p>The written sermon first appeared in the September and October issues of the <hi
+                        rend="italic">Arminian Magazine</hi> for 1781 (IV.463-69, 520-25), numbered
+                    ‘Sermon V’, without a title but with a postscript: ‘Haverford West, May 6,
+                    1781’. This fits with his account in the <hi rend="italic">Journal</hi> (April
+                    29-May 7) of his visit for that year to Wales, where Haverford West is located
+                    as ‘seventeen measured miles from St. David’s’: ‘In the evening [of April 29th]
+                    I preached at Haverford West to the liveliest congregation I have seen in
+                    Wales.’</p>
+                <p>The sermon was then placed directly after ‘On Charity’ in <hi rend="italic"
+                        >SOSO</hi>, VII.257-76. It was not thereafter reprinted in Wesley’s
+                    lifetime.</p>
+            </introduction>
+            <head>On Zeal</head>
+            <epigraph>
+                <p>Galatians 4:18</p>
+                <p>
+                    <hi rend="italic">It is good to be always zealously affected in a good
+                        thing.</hi>
+                </p>
+            </epigraph>
+            <div>
+                <p n="1">1. There are few subjects in the whole compass of religion that are of
+                    greater importance than this. For without zeal it is impossible either to make
+                    any considerable progress in religion <pb n="03:309"/>ourselves, or to do any
+                    considerable service to our neighbour, whether in temporal or spiritual things.
+                    And yet nothing has done more disservice to religion, or more mischief to
+                    mankind, than a sort of zeal which has for several ages prevailed, both in
+                    pagan, Mahometan, and Christian nations. Insomuch that it may truly be said:
+                    pride, covetousness, ambition, revenge, have in all parts of the world slain
+                    their thousands, but zeal its ten thousands.<note place="foot" xml:id="ftn1"
+                        n="1"><p rend="footnote text">See 1 Sam. 18:7.</p></note> Terrible instances
+                    of this have occurred in ancient times, in the most civilized heathen nations.
+                    To this chiefly were owing the inhuman persecutions of the primitive Christians;
+                    and in later ages the no less inhuman persecutions of the Protestants by the
+                    Church of Rome. It was zeal that kindled fires in our nation during the reign of
+                    bloody Queen Mary.<note place="foot" xml:id="ftn2" n="2"><p rend="footnote text"
+                            >Cf. No. 23, ‘Sermon on the Mount, III’, III.5 and n.</p></note> It was
+                    zeal that soon after made so many provinces of France a field of blood. It was
+                    zeal that murdered so many thousand unresisting Protestants in the never to be
+                    forgotten massacre of Paris.<note place="foot" xml:id="ftn3" n="3"><p
+                            rend="footnote text">The bloodiest single episode of its kind in French
+                            history. The ‘Massacre’ had begun on St. Bartholomew’s Eve, Aug. 22,
+                            1572, and had raged in and around Paris for a full week by order, or at
+                            least by the connivance, of the queen mother (Catherine de Medici) and
+                            King Charles IX. Estimates of the total number of its victims (in the
+                            sources readily available to Wesley) varied from the 100,000 of Beaumont
+                            de Péréfixe (Archbishop of Paris, 1662-71) to J. L. von Mosheim’s and
+                            Samuel Pufendorf’s 30,000. Cf. Mosheim, <hi rend="italic">Institutiones
+                                historiae ecclesiastiae</hi> (1726; Eng. trans. by J. Murdock,
+                            1841), p. 667: ‘The bloody scene began at midnight at the signal of the
+                            tolling of the great bell of the palace…. Six thousand Protestants were
+                            butchered in Paris alone…. More than thirty thousand—some say seventy
+                            thousand—perished by the hands of the royal assassins, and the pope
+                            ordered a jubilee throughout Christendom.’ See also Pufendorf, <hi
+                                rend="italic">Introduction to the History of the Principal Kingdoms
+                                and States of Europe</hi> (rev. edn. 1764), I.260-61: ‘The example
+                            set at Paris being followed in many other cities, above 30,000
+                            Protestants were massacred…. This horrid business, which is commonly
+                            called <hi rend="italic">the Wedding at Paris</hi>, has been
+                            scandalously represented by Gabriel Maude as a masterpiece of
+                            policy.’</p></note> It was zeal that occasioned the still more horrid
+                    massacre in Ireland;<note place="foot" xml:id="ftn4" n="4"><p
+                            rend="footnote text">‘The Rising of 1641’, the beginning of the first
+                            large scale rebellion of the Irish against English rule, leading to the
+                            Ulster ‘plantation’ of Scottish colonists in Northern Ireland. This
+                            tragic struggle dragged on until Cromwell’s decisive reconquest in
+                            1649-50. The sober truth about this horror was soon lost in partisan
+                            legends with estimates of the victims of ‘the great Popish Massacre’
+                            ranging from Milton’s ‘hundreds of thousands’ to Cromwell’s Commission’s
+                            Report (2,109 murders in ten years of war). Ferdinand Warner, <hi
+                                rend="italic">History of the Irish Rebellion</hi> (1767; 2nd edn.,
+                            1770), calculated that 4,028 Protestants were killed within the first
+                            two years of the rebellion and 8,000 died of ‘ill-usage’. For all his
+                            love of the Irish, Wesley had no sympathy for their nationalism and had
+                            come to accept the Miltonian exaggeration. For example, in JWJ, Aug. 14,
+                            1747, he records having read Sir John Temple’s <hi rend="italic">The
+                                Irish Rebellion; or an history of the beginning and first progresse
+                                of the general rebellion raised within the Kingdom of Ireland upon
+                                the…23 October, 1641</hi> (1646), with the following comment: ‘I
+                            procured a genuine account of the great Irish massacre in 1641. Surely
+                            never was there such a transaction before, from the beginning of the
+                            world! More than two hundred thousand men, women, and children butchered
+                            within a few months, in cool blood, and with such circumstances of
+                            cruelty as make one’s blood run cold! It is well if God has not a
+                            controversy with the nation, on this very account, to this day.’</p><p
+                            rend="footnote text">For a careful and comparatively objective account
+                            of this rebellion, see Edmund Borlase, <hi rend="italic">The History of
+                                the Execrable Irish Rebellion…to the Grand Eruption</hi> (London,
+                            1680), pp. 109-25. This ‘appendix’ is an inventory, county by county, of
+                            English and Scots slain in the Insurrection of 1641-42; the total adds
+                            up to 9,350.</p></note> the like whereof, both with regard to the number
+                    of the murdered, and the shocking circumstances wherewith many of those murders
+                        <pb n="03:310"/>were perpetrated, I verily believe never occurred before,
+                    since the world began. As to the other parts of Europe, an eminent German writer
+                    has taken immense pains to search both the records in various places, and the
+                    most authentic histories, in order to gain some competent knowledge of the blood
+                    which has been shed since the Reformation; and computes that, partly by private
+                    persecution, partly by religious wars in the course of forty years, reckoning
+                    from the year 1520, above forty millions of persons have been destroyed.<note
+                        place="foot" xml:id="ftn5" n="5"><p rend="footnote text">Wesley’s apparent
+                            source here is Bengel, <hi rend="italic">Gnomon</hi>, Apocalypse 18:24.
+                            Bengel cites Matthias Hoë von Hoenegg, <hi rend="italic">Commentariorum
+                                in beati Apostoli et evangelistae Joannis Apocalypsin</hi> (2 pt.;
+                            Lipsiae, 1610-11), Apoc. XVII, Q. 234; and also G. D. Seyler, whose
+                            estimate is put at 900,000. Bengel’s own judgment is that ‘neither of
+                            these calculations is probable…. The true number, whatever it is, is
+                            stupendous;’ cf. Fausset’s edn. of the <hi rend="italic">Gnomon</hi>
+                            (1877), 4:360. Cf. also Nos. 102, ‘Of Former Times’, §14; and 22,
+                            ‘Sermon on the Mount, II’, III.18 and n.</p></note></p>
+                <p n="2">2. But is it not possible to distinguish right zeal from wrong? Undoubtedly
+                    it is possible. But it is difficult—such is the deceitfulness of the human
+                    heart! So skilfully do the passions justify themselves.<note place="foot"
+                        xml:id="ftn6" n="6"><p rend="footnote text">Cf. Nos. 49, ‘The Cure of
+                            Evil-speaking’, §4 and n.; and 12, ‘The Witness of Our Own Spirit’, §5
+                            and n.</p></note> And there are exceeding few treatises on the subject;
+                    at least in the English language. To this day I have seen or heard of only one
+                    sermon; and that was wrote above a hundred years ago by Dr. Sprat, then Bishop
+                    of Rochester, so that it is now exceeding scarce.<note place="foot"
+                        xml:id="ftn7" n="7"><p rend="footnote text">Thomas Sprat (1635-1713), Bishop
+                            of Rochester, 1684-1713. The sermon, on Gal. 4:18, was preached ‘before
+                            the King at Whitehall’, Dec. 22, 1678, when Sprat was not ‘then Bishop
+                            of Rochester’ but still Chaplain to the King; cf. <hi rend="italic"
+                                >Sermons Preached on Several Occasions</hi> (London, 1722), pp.
+                            143-90. In Sept. 1733 Wesley read William Reeves’s <hi rend="italic"
+                                >Fourteen Sermons Preached on Several Occasions</hi> (1729); No. 4
+                            in that volume is entitled ‘On Zeal for the Faith Requisite for a
+                            Christian.’</p></note></p>
+                <p n="3">3. I would gladly cast in my mite, by God’s assistance, toward the clearing
+                    up this important question, in order to enable well-meaning men who are desirous
+                    of pleasing God to <pb n="03:311"/>distinguish true Christian zeal from its
+                    various counterfeits. And this is more necessary at this time than it has been
+                    for many years. Sixty years ago there seemed to be scarce any such thing as
+                    religious zeal left in the nation. People in general were wonderfully cool and
+                    undisturbed about ‘that trifle, religion’.<note place="foot" xml:id="ftn8" n="8"
+                            ><p rend="footnote text">π; source unidentified.</p></note> But since
+                    then, it is easy to observe, there has been a very considerable alteration. Many
+                    thousands almost in every part of the nation have felt a real desire to save
+                    their souls. And I am persuaded there is at this day more religious zeal in
+                    England than there has been for a century past.</p>
+                <p n="4">4. But has this zeal been of the right or the wrong kind? Probably both the
+                    one and the other. Let us see if we cannot separate these, that we may avoid the
+                    latter and cleave to the former. In order to this, I would first inquire what is
+                    the nature of true Christian zeal; secondly, what are the properties of it; and
+                    thirdly, draw some practical inferences.</p>
+            </div>
+            <div type="section" n="1">
+                <p>I. And first, what is the nature of zeal in general, and of true Christian zeal
+                    in particular?</p>
+                <p n="1">1. The original word, in its primary signification, means <hi rend="italic"
+                        >heat</hi>, such as the heat of boiling water. When it is figuratively
+                    applied to the mind it means any warm emotion or affection. Sometimes it is
+                    taken for <hi rend="italic">envy</hi>. So we render it, Acts 5:17, where we
+                    read, ‘The high priest and all that were with him were filled with
+                    envy’—ἐπλήσθησαν ζήλου (although it might as well be rendered were filled with
+                        <hi rend="italic">zeal</hi>.)<note place="foot" xml:id="ftn9" n="9"><p
+                            rend="footnote text">Wesley’s translation (<hi rend="italic"
+                            >Notes</hi>), following Poole’s <hi rend="italic">Annotations</hi>, <hi
+                                rend="italic">loc. cit.</hi> The AV reads ‘indignation’, which is
+                            more literal; the NEB reads ‘jealousy’.</p></note> Sometimes it is taken
+                    for anger and indignation; sometimes for vehement desire. And when any of our
+                    passions are strongly moved on a religious account, whether for anything good,
+                    or against anything which we conceive to be evil, this we term, ‘religious
+                    zeal’.</p>
+                <p n="2">2. But it is not all that is called religious zeal which is worthy of that
+                    name. It is not properly religious or Christian zeal if it be not joined with
+                    charity. A fine writer (Bishop Sprat) carries the matter farther still. ‘It has
+                    been affirmed’, says that great man, ‘no zeal is right which is not charitable.
+                    But this is not saying enough. I affirm that true zeal is not only charitable,
+                    but is mostly so. Charity or love is not only one ingredient, but the chief <pb
+                        n="03:312"/>ingredient, in its composition.’<note place="foot"
+                        xml:id="ftn10" n="10"><p rend="footnote text">A misquotation from Sprat,
+                            whose text here (p. 166) reads: ‘Whereas no religion is true that is not
+                            peaceable, …no zeal is spiritual that is not also charitable, nay,
+                            chiefly so.’</p></note> May we not go farther still? May we not say that
+                    true zeal is not mostly charitable, but wholly so? That is, if we take charity
+                    in St. Paul’s sense, for love—the love of God and our neighbour. For it is a
+                    certain truth (although little understood in the world) that Christian zeal is
+                    all love. It is nothing else. The love of God and man fills up its whole
+                    nature.</p>
+                <p n="3">3. Yet it is not every degree of that love to which this appellation is
+                    given. There may be some love, a small degree of it, where there is no zeal. But
+                    it is properly love in a higher degree. It is ‘fervent love’.<note place="foot"
+                        xml:id="ftn11" n="11"><p rend="footnote text">1 Pet. 4:8 (<hi rend="italic"
+                                >Notes</hi>).</p></note> True Christian zeal is no other than <hi
+                        rend="italic">the flame of love</hi>. This is the nature, the inmost essence
+                    of it.</p>
+            </div>
+            <div type="section" n="2">
+                <p n="1">II. 1. From hence it follows that the properties of love are the properties
+                    of zeal also. Now one of the chief properties of love is <hi rend="italic"
+                        >humility</hi>—‘love is not puffed up.’<note place="foot" xml:id="ftn12"
+                        n="12"><p rend="footnote text">1 Cor. 13:4 (<hi rend="italic">Notes</hi>);
+                            see also No. 21, ‘Sermon on the Mount, I’, I.7 and n.</p></note>
+                    Accordingly this is a property of true zeal: humility is inseparable from it. As
+                    is the degree of zeal, such is the degree of humility: they must rise and fall
+                    together. The same love which fills a man with zeal for God makes him little,
+                    and poor, and vile in his own eyes.</p>
+                <p n="2">2. Another of the properties of love is <hi rend="italic"
+                        >meekness</hi>:<note place="foot" xml:id="ftn13" n="13"><p
+                            rend="footnote text">Cf. No. 22, ‘Sermon on the Mount, II’, I.4 and
+                            n.</p></note> consequently it is one of the properties of zeal. It
+                    teaches us to be meek as well as lowly; to be equally superior to anger and
+                    pride. Like as the wax melteth at the fire,<note place="foot" xml:id="ftn14"
+                        n="14"><p rend="footnote text">See Ps. 68:2 (BCP).</p></note> so before this
+                    sacred flame all turbulent passions melt away, and leave the soul unruffled and
+                    serene.</p>
+                <p n="3">3. Yet another property of love, and consequently of zeal, is unwearied <hi
+                        rend="italic">patience</hi>; for ‘love endureth all things’.<note
+                        place="foot" xml:id="ftn15" n="15"><p rend="footnote text">1 Cor. 13:7 (<hi
+                                rend="italic">Notes</hi>). For other comments on patience, cf. No.
+                            83, ‘On Patience’, §5 and n.</p></note> It arms the soul with entire
+                    resignation to all the disposals of divine providence, and teaches us to say in
+                    every occurrence, ‘It is the Lord; let him do what seemeth him good.’<note
+                        place="foot" xml:id="ftn16" n="16"><p rend="footnote text">1 Sam.
+                        3:18.</p></note> It enables us, in whatever state we are, therewith to be
+                        content;<note place="foot" xml:id="ftn17" n="17"><p rend="footnote text"
+                            >Phil. 4:11.</p></note> to repine at nothing to murmur at nothing; but
+                    ‘in everything to give thanks’.<note place="foot" xml:id="ftn18" n="18"><p
+                            rend="footnote text">Cf. 1 Thess. 5:18.</p></note></p>
+                <p n="4">4. There is a fourth property of Christian zeal, which deserves <pb
+                        n="03:313"/>to be more particularly considered. This we learn from the very
+                    words of the Apostle: ‘It is good to be zealously affected’ (not to have
+                    transient touches of zeal, but a steady, rooted disposition) ‘in a good
+                    thing’—in that which is good; for the proper object of zeal is good in general,
+                    that is, everything that is good, really such, in the sight of God.</p>
+                <p n="5">5. But what is good in the sight of God? What is that religion wherewith
+                    God is always well pleased? How do the parts of this rise one above another? And
+                    what is the comparative value of them?</p>
+                <p>This is a point exceeding little considered, and therefore little understood.
+                    Positive divinity many have some knowledge of. But few know anything of
+                    comparative divinity. I never saw but one tract wrote upon this head; a sketch
+                    of which it may be of use to subjoin.<note place="foot" xml:id="ftn19" n="19"><p
+                            rend="footnote text">James Garden (1647-1726), Scottish disciple of
+                            Antoinette Bourignon, brother to a more famous divine, George Garden
+                            (1649-1733), had written a tract entitled <hi rend="italic">Comparative
+                                Theology, or the True and Solid Grounds of a Pure and Peaceable
+                                Theology</hi> (1700), which Wesley regarded highly enough to extract
+                            and include in the <hi rend="italic">Christian Lib.</hi>, XXII.243-87.
+                            But if this is Wesley’s source here, he is taking large liberties with
+                            Garden’s text, for the metaphor of ‘love seated on the throne’ is not in
+                            Garden. However, the essential idea here of concentric circles of the
+                            Christian virtues and tempers, with love as their centre and peak, is
+                            reminiscent of both the Gardens and Bourignon—and William Law as
+                            well.</p></note></p>
+                <p>In a Christian believer <hi rend="italic">love</hi> sits upon the throne, which
+                    is erected in the inmost soul; namely, love of God and man, which fills the
+                    whole heart, and reigns without a rival. In a circle near the throne are all <hi
+                        rend="italic">holy tempers</hi>: long-suffering, gentleness, meekness,
+                    goodness, fidelity, temperance<note place="foot" xml:id="ftn20" n="20"><p
+                            rend="footnote text">See Gal. 5:22-23.</p></note>—and if any other is
+                    comprised in ‘the mind which was in Christ Jesus’.<note place="foot"
+                        xml:id="ftn21" n="21"><p rend="footnote text">Cf. Phil. 2:5.</p></note> In
+                    an exterior circle are all the <hi rend="italic">works of mercy</hi>,<note
+                        place="foot" xml:id="ftn22" n="22"><p rend="footnote text">Cf. below, III.7,
+                            12; also No. 14, <hi rend="italic">The Repentance of Believers</hi>,
+                            I.13 and n.</p></note> whether to the souls or bodies of men. By these
+                    we exercise all holy tempers; by these we continually improve them, so that all
+                    these are real <hi rend="italic">means of grace</hi>, although this is not
+                    commonly adverted to. Next to these are those that are usually termed <hi
+                        rend="italic">works of piety</hi>:<note place="foot" xml:id="ftn23" n="23"
+                            ><p rend="footnote text"><hi rend="italic">Ibid.</hi></p></note> reading
+                    and hearing the Word, public, family, private prayer, receiving the Lord’s
+                    Supper, fasting or abstinence. Lastly, that his followers may the more
+                    effectually provoke one another to love, holy tempers, and good works,<note
+                        place="foot" xml:id="ftn24" n="24"><p rend="footnote text">See Heb.
+                            10:24.</p></note> our blessed Lord has united them together in one—<hi
+                        rend="italic">the church</hi>, dispersed all over the earth; a little emblem
+                    of which, of <pb n="03:314"/>the church universal, we have in every particular
+                    Christian congregation.</p>
+                <p n="6">6. This is that religion which our Lord has established upon earth, ever
+                    since the descent of the Holy Ghost on the day of Pentecost. This is the entire,
+                    connected system of Christianity: and thus the several parts of it rise one
+                    above another, from that lowest point, ‘the assembling ourselves together’,<note
+                        place="foot" xml:id="ftn25" n="25"><p rend="footnote text">Heb.
+                        10:25.</p></note> to the highest, love enthroned in the heart. And hence it
+                    is easy to learn the comparative value of every branch of religion. Hence also
+                    we learn a fifth property of true zeal—that as it is always exercised ἐν
+                        καλῷ,<note place="foot" xml:id="ftn26" n="26"><p rend="footnote text">Gal.
+                            4:18.</p></note> ‘in that which is good’, so it is always <hi
+                        rend="italic">proportioned</hi> to that good, to the degree of goodness that
+                    is in its object.</p>
+                <p n="7">7. For example: every Christian ought undoubtedly to be zealous for <hi
+                        rend="italic">the church</hi>, bearing a strong affection to it, and
+                    earnestly desiring its prosperity and increase. He ought to be thus zealous, as
+                    for the church universal, praying for it continually, so especially for that
+                    particular church or Christian society whereof he himself is a member. For this
+                    he ought to wrestle with God in prayer; meantime using every means in his power
+                    to enlarge its borders, and to strengthen his brethren, that they may adorn the
+                    doctrine of God our Saviour.<note place="foot" xml:id="ftn27" n="27"><p
+                            rend="footnote text">Titus 2:10.</p></note></p>
+                <p n="8">8. But he should be more zealous for the <hi rend="italic">ordinances of
+                        Christ </hi>than for the church itself: for prayer in public and private,
+                    for the Lord’s Supper, for reading, hearing, and meditating on his Word; and for
+                    the much neglected duty of fasting. These he should earnestly recommend, first,
+                    by his example, and then by advice, by argument, persuasion, and exhortation, as
+                    often as occasion offers.</p>
+                <p n="9">9. Thus should he show his zeal for works of piety; but much more for <hi
+                        rend="italic">works of mercy</hi>; seeing ‘God will have mercy and not
+                        sacrifice’<note place="foot" xml:id="ftn28" n="28"><p rend="footnote text"
+                            >Cf. Hos. 6:6; Matt. 9:13; 12:7.</p></note>—that is, rather than
+                    sacrifice. Whenever, therefore, one interferes with the other, works of mercy
+                    are to be preferred. Even reading, hearing, prayer, are to be omitted, or to be
+                    postponed, ‘at charity’s almighty call’<note place="foot" xml:id="ftn29" n="29"
+                            ><p rend="footnote text">Samuel Wesley, Jun., ‘Upon These Two Verses of
+                            Mr. Oldham’, in <hi rend="italic">Poems</hi> (1736), p.
+                    121.</p></note>—when we are called to relieve the distress of our neighbour,
+                    whether in body or soul.</p>
+                <p n="10">10. But as zealous as we are for all good works, we should be <pb
+                        n="03:315"/>still more zealous for <hi rend="italic">holy tempers</hi>;<note
+                        place="foot" xml:id="ftn30" n="30"><p rend="footnote text">Cf. No. 91, ‘On
+                            Charity’, III.8 and n.</p></note> for planting and promoting both in our
+                    souls, and in all we have any intercourse with, lowliness of mind, meekness,
+                    gentleness, long-suffering, contentedness, resignation unto the will of God,
+                    deadness to the world and the things of the world, as the only means of being
+                    truly alive to God. For these proofs and fruits of living faith we cannot be too
+                    zealous. We should ‘talk of them as we sit in our house, and when we walk by the
+                    way, and when we lie down, and when we rise up’.<note place="foot"
+                        xml:id="ftn31" n="31"><p rend="footnote text">Cf. Deut. 6:7.</p></note> We
+                    should make them continual matter of prayer, as being far more excellent than
+                    any outward works whatever; seeing those will fail when the body drops off, but
+                    these will accompany us into eternity.</p>
+                <p n="11">11. But our choicest zeal should be reserved for <hi rend="italic"
+                        >love</hi> itself, the end of the commandment,<note place="foot"
+                        xml:id="ftn32" n="32"><p rend="footnote text">1 Tim. 1:5.</p></note> the
+                    fulfilling of the law.<note place="foot" xml:id="ftn33" n="33"><p
+                            rend="footnote text">Rom. 13:10.</p></note> The church, the ordinances,
+                    outward works of every kind, yea, all other holy tempers, are inferior to this,
+                    and rise in value only as they approach nearer and nearer to it. Here then is
+                    the great object of Christian zeal. Let every true believer in Christ apply with
+                    all fervency of spirit to the God and Father of our Lord Jesus Christ, that his
+                    heart may be more and more enlarged in love to God and to all mankind. This one
+                    thing let him do: let him ‘press on to this prize of our high calling of God in
+                    Christ Jesus’.<note place="foot" xml:id="ftn34" n="34"><p rend="footnote text"
+                            >Cf. Phil. 3:14.</p></note></p>
+            </div>
+            <div type="section" n="3">
+                <p>III. It remains only to draw some practical inferences from the preceding
+                    observations.</p>
+                <p n="1">1. And, first, if zeal, true Christian zeal, be nothing but the flame of
+                    love, then <hi rend="italic">hatred</hi>, in every kind and degree, then every
+                    sort of <hi rend="italic">bitterness</hi> toward them that oppose us, is so far
+                    from deserving the name of zeal that it is directly opposite to it. If zeal be
+                    only fervent love, then it stands at the utmost distance from <hi rend="italic"
+                        >prejudice</hi>, jealousy, evil surmising; seeing ‘love thinketh no
+                        evil’.<note place="foot" xml:id="ftn35" n="35"><p rend="footnote text">Cf. 1
+                            Cor. 13:5 (<hi rend="italic">Notes</hi>).</p></note> Then <hi
+                        rend="italic">bigotry</hi> of every sort, and above all the spirit of <hi
+                        rend="italic">persecution</hi>, are totally inconsistent with it.<note
+                        place="foot" xml:id="ftn36" n="36"><p rend="footnote text">Cf. Nos. 38, ‘A
+                            Caution against Bigotry’; and 39, ‘Catholic Spirit’.</p></note> Let not,
+                    therefore, any of these unholy tempers screen themselves under that sacred name.
+                    As all these are the works of the devil,<note place="foot" xml:id="ftn37" n="37"
+                            ><p rend="footnote text">1 John 3:8.</p></note> let them appear in their
+                    own <pb n="03:316"/>shape, and no longer under that specious disguise deceive
+                    the unwary children of God.</p>
+                <p n="2">2. Secondly; if lowliness be a property of zeal, then pride is inconsistent
+                    with it. It is true some degree of pride may remain after the love of God is
+                    shed abroad in the heart;<note place="foot" xml:id="ftn38" n="38"><p
+                            rend="footnote text">See Rom. 5:5. For other references to pride, cf.
+                            No. 14, <hi rend="italic">The Repentance of Believers</hi>, I.3 and
+                            n.</p></note> as this is one of the last evils that is rooted out when
+                    God creates all things new. But it cannot reign, nor retain any considerable
+                    power, where fervent love is found. Yea, were we to give way to it but a little,
+                    it would damp that holy fervour; and if we did not immediately fly back to
+                    Christ, would utterly quench the Spirit.<note place="foot" xml:id="ftn39" n="39"
+                            ><p rend="footnote text">See 1 Thess. 5:19.</p></note></p>
+                <p n="3">3. Thirdly; if meekness be an inseparable property of zeal, what shall we
+                    say of those who call their anger by that name? Why, that they mistake the truth
+                    totally; that they in the fullest sense put darkness for light, and light for
+                        darkness.<note place="foot" xml:id="ftn40" n="40"><p rend="footnote text"
+                            >Isa. 5:20.</p></note> We cannot be too watchful against this delusion,
+                    because it spreads over the whole Christian world. Almost in all places zeal and
+                    anger pass for equivalent terms; and exceeding few persons are convinced that
+                    there is any difference between them. How commonly do we hear it said, ‘See how
+                    zealous the man is!’ Nay, he cannot be zealous: that is impossible; for he is in
+                    a passion. And passion is as inconsistent with zeal as light with darkness, or
+                    heaven with hell.</p>
+                <p>It were well that this point were thoroughly understood. Let us consider it a
+                    little farther. We frequently observe one that bears the character of a
+                    religious man vehemently angry at his neighbour. Perhaps he calls his brother
+                    ‘Raca’, or ‘Thou fool’;<note place="foot" xml:id="ftn41" n="41"><p
+                            rend="footnote text">Matt. 5:22; cf. No. 7, ‘The Way to the Kingdom’,
+                            II.4 and n.</p></note> he brings a railing accusation against him.<note
+                        place="foot" xml:id="ftn42" n="42"><p rend="footnote text">See Jude
+                        9.</p></note> You mildly admonish him of his warmth. He answers, ‘It is my
+                    zeal!’ No, it is your sin; and unless you repent of it, will sink you lower than
+                    the grave. There is much such zeal as this in the bottomless pit. Thence all
+                    zeal of this kind comes. And thither it will go, and you with it, unless you are
+                    saved from it before you go hence.</p>
+                <p n="4">4. Fourthly; if patience, contentedness, and resignation, are the
+                    properties of zeal, then murmuring, fretfulness, discontent, impatience, are
+                    wholly inconsistent with it. And yet how ignorant are mankind of this! How often
+                    do we see men fretting at the ungodly, or telling you they are ‘out of patience’
+                    with such or such <pb n="03:317"/>things, and terming all this their zeal! O
+                    spare no pains to undeceive them! If it be possible, show them what zeal is; and
+                    convince them that all murmuring, or fretting at sin, is a species of sin, and
+                    has no resemblance of, or connection with, the true zeal of the gospel.</p>
+                <p n="5">5. Fifthly; if the object of zeal be ‘that which is good’,<note
+                        place="foot" xml:id="ftn43" n="43"><p rend="footnote text">See II.7,
+                            above.</p></note> then fervour for any <hi rend="italic">evil thing</hi>
+                    is not Christian zeal. I instance in <hi rend="italic">idolatry</hi>—worshipping
+                    of angels, saints, images, the cross. Although therefore a man were so earnestly
+                    attached to any kind of idolatrous worship that he would even ‘give his body to
+                    be burned’<note place="foot" xml:id="ftn44" n="44"><p rend="footnote text">Cf. 1
+                            Cor. 13:3.</p></note> rather than refrain from it, call this bigotry or
+                    superstition if you please, but call it not zeal. That is quite another
+                    thing.</p>
+                <p>From the same premises it follows that fervour for <hi rend="italic">indifferent
+                        things</hi> is not Christian zeal. But how exceedingly common is this
+                    mistake too! Indeed one would think that men of understanding could not be
+                    capable of such weakness. But alas! the history of all ages proves the contrary.
+                    Who were men of stronger understandings than Bishop Ridley and Bishop
+                        Hooper?<note place="foot" xml:id="ftn45" n="45"><p rend="footnote text"
+                            >Nicholas Ridley (<hi rend="italic">c.</hi> 1500-55) and John Hooper (d.
+                            1555). Ridley, Bishop of London, was a moderate reformer whereas Hooper,
+                            Bishop of Gloucester-Worcester, was an aggressive ‘puritan’ who regarded
+                            vestments as vestiges of popery and, therefore, ‘impious’ and
+                            ‘idolatrous’. Archbishop Cranmer refused to consecrate him as bishop
+                            without the traditional vestments and appointed Bishop Ridley to debate
+                            the issue with Hooper (cf. <hi rend="italic">DNB</hi>). John Strype
+                            reports that the debate was bitter and angry; cf. <hi rend="italic"
+                                >Historical Memorials, Chiefly Ecclesiastical as such as Concern
+                                Religion and the Reformation of It and the Progress Made Therein,
+                                Under the Reign and Influence of King Edward VI</hi> (London, 1721),
+                            II.224-27. Hooper later agreed to a vested consecration but carried his
+                            zeal over into his episcopal ministry. He was martyred in Gloucester in
+                            1555 during the same period that saw Ridley, Hugh Latimer, and
+                            Archbishop Cranmer burned in Oxford. Thomas Fuller, <hi rend="italic"
+                                >Church History of Britain</hi> (1656), XVI.21, says that ‘of all
+                            the Marian martyrs…Bishop Ridley was the profoundest scholar, ….
+                            Archbishop Cranmer of the mildest, meekest temper, Bishop Hooper of the
+                            sternest and austerest nature, …and Mr. Latimer had the plainest,
+                            simplest heart….’</p></note> And how warmly did these and other great
+                    men of that age dispute about the <hi rend="italic">sacerdotal vestments</hi>?
+                    How eager was the contention for almost a hundred years for and against wearing
+                    a <hi rend="italic">surplice</hi>! O shame to man! I would as soon have disputed
+                    about a straw or a barley-corn! And this, indeed, shall be called zeal! And why
+                    was it not rather called wisdom or holiness?</p>
+                <p n="6">6. It follows also from the same premises that fervour for <hi
+                        rend="italic">opinions</hi> is not Christian zeal. But how few are sensible
+                    of this! <pb n="03:318"/>And how innumerable are the mischiefs which even this
+                    species of false zeal has occasioned in the Christian world! How many thousand
+                    lives have been cast away by those who were zealous for the Romish opinions! How
+                    many of the excellent ones of the earth have been cut off by zealots for the
+                    senseless opinion of transubstantiation! But does not every unprejudiced person
+                    see that this zeal is ‘earthly, sensual, devilish’?<note place="foot"
+                        xml:id="ftn46" n="46"><p rend="footnote text">Jas. 3:15.</p></note> And that
+                    it stands at the utmost contrariety to the zeal which is here recommended by the
+                    Apostle?</p>
+                <p>What an excess of charity is it then which our great poet expresses in his poem
+                    on the last day! Where he talks of meeting in heaven,</p>
+                <lg>
+                    <l>Those who by mutual wounds expired,</l>
+                    <l>By <hi rend="italic">zeal</hi> for their distinct persuasions fired?</l>
+                    <note place="foot" xml:id="ftn47" n="47">
+                        <p rend="footnote text">Cf. Young, <hi rend="italic">The Last Day</hi>, ll.
+                            113-16:</p>
+                        <l>Some who, perhaps, by mutual wounds expired,</l>
+                        <l>With zeal for their distinct persuasions fired,</l>
+                        <l>In mutual friendship their long slumber break,</l>
+                        <l>And hand in hand their Saviour’s love partake.</l>
+                        <p rend="footnote text">See also John Wesley, <hi rend="italic">A Collection
+                                of Moral and Sacred Poems</hi> (1744), II.78.</p>
+                    </note>
+                </lg>
+                <p>Zeal indeed! What manner of zeal was this which led them to cut one another’s
+                    throats? Those who were <hi rend="italic">fired</hi> with this spirit, and died
+                    therein, will undoubtedly have their portion, not in heaven—only love is
+                    there—but in ‘the fire that never shall be quenched’.<note place="foot"
+                        xml:id="ftn48" n="48"><p rend="footnote text">Mark 9:43, 45.</p></note></p>
+                <p n="7">7. Lastly, if true zeal be always proportioned to the degree of goodness
+                    which is in its object, then should it rise higher and higher according to the
+                    scale mentioned above; according to the comparative value of the several parts
+                    of religion. For instance, all that truly fear God should be zealous for the <hi
+                        rend="italic">church</hi>: both for the catholic or universal church, and
+                    for that part of it whereof they are members. This is not the appointment of
+                    men, but of God. He saw ‘it was not good for men to be alone’,<note place="foot"
+                        xml:id="ftn49" n="49"><p rend="footnote text">Cf. Gen. 2:18.</p></note> even
+                    in this sense, but that the whole body of his children should be ‘knit together,
+                    and strengthened, by that which every joint supplieth’.<note place="foot"
+                        xml:id="ftn50" n="50"><p rend="footnote text">Cf. Eph. 4:16.</p></note> At
+                    the same time they should be more zealous for the <hi rend="italic"
+                        >ordinances</hi> of God: for public and private prayer, for hearing and
+                    reading the Word of <pb n="03:319"/>God, and for fasting, and the Lord’s Supper.
+                    But they should be more zealous for ‘works of mercy’ than even for works of
+                    piety. Yet ought they to be more zealous still for <hi rend="italic">holy
+                        tempers</hi>—lowliness, meekness, resignation; but most zealous of all for
+                    that which is the sum and the perfection of religion—the <hi rend="italic"
+                        >love</hi> of God and man.</p>
+                <p n="8">8. It remains only to make a close and honest application of these things
+                    to our own souls. We all know the general truth that ‘it is good to be always
+                    zealously affected in a good thing.’ Let us now, every one of us, apply it to
+                    his own soul in particular.</p>
+                <p n="9">9. Those indeed who are still dead in trespasses and sins<note place="foot"
+                        xml:id="ftn51" n="51"><p rend="footnote text">Eph. 2:1.</p></note> have
+                    neither part nor lot in this matter;<note place="foot" xml:id="ftn52" n="52"><p
+                            rend="footnote text">See Acts 8:21.</p></note> nor those that live in
+                    any open sin, such as drunkenness, sabbath-breaking, or profane swearing. These
+                    have nothing to do with zeal; they have no business at all even to take the word
+                    in their mouth. It is utter folly and impertinence for any to talk of zeal for
+                    God while he is doing the works of the devil. But if you have renounced the
+                    devil and all his works, and have settled it in your heart, I will ‘worship the
+                    Lord my God, and him only will I serve’,<note place="foot" xml:id="ftn53" n="53"
+                            ><p rend="footnote text">Cf. Matt. 4:10.</p></note> then beware of being
+                    neither cold nor hot;<note place="foot" xml:id="ftn54" n="54"><p
+                            rend="footnote text">See Rev. 3:15-16.</p></note> then be zealous for
+                    God! You may begin at the lowest step. Be zealous for <hi rend="italic">the
+                        church</hi>; more especially for that particular branch thereof wherein your
+                    lot is cast. Study the welfare of this, and carefully observe all the rules of
+                    it, for conscience’ sake. But in the meantime take heed that you do not neglect
+                    any of the <hi rend="italic">ordinances</hi> of God; for the sake of which, in a
+                    great measure, the church itself was constituted; so that it would be highly
+                    absurd to talk of zeal for the church if you were not more zealous for them. But
+                    are you more zealous for ‘works of mercy’ than even for works of piety? Do<hi
+                        rend="italic"> you</hi> follow the example of your Lord, and prefer mercy
+                    even before sacrifice? Do you use all diligence in feeding the hungry, clothing
+                    the naked, visiting them that are sick and in prison?<note place="foot"
+                        xml:id="ftn55" n="55"><p rend="footnote text">See Matt. 25:35-36.</p></note>
+                    And above all, do you use every means in your power to save souls from death?
+                    If, as you have time, ‘you do good unto all men’, though ‘especially to them
+                    that are of the household of faith’,<note place="foot" xml:id="ftn56" n="56"><p
+                            rend="footnote text">Cf. Gal. 6:10.</p></note> your zeal for the church
+                    is pleasing to God; but if not, if you are not ‘careful to maintain good
+                        works’,<note place="foot" xml:id="ftn57" n="57"><p rend="footnote text"
+                            >Titus 3:8. Note Wesley’s reversal here of the third General Rule (using
+                            the means of grace) and the second (‘do all the good you
+                        can’).</p></note> what have you to do with the church? If you have not <pb
+                        n="03:320"/>‘compassion on your fellow-servants’,<note place="foot"
+                        xml:id="ftn58" n="58"><p rend="footnote text">Cf. Matt. 18:33.</p></note>
+                    neither will your Lord have pity on <hi rend="italic">you</hi>. ‘Bring no more
+                    vain oblations.’<note place="foot" xml:id="ftn59" n="59"><p rend="footnote text"
+                            >Isa. 1:13.</p></note> All your service is ‘an abomination to the
+                        Lord’.<note place="foot" xml:id="ftn60" n="60"><p rend="footnote text">Deut.
+                            7:25, etc.</p></note></p>
+                <p n="10">10. Are you better instructed than to put asunder what God has
+                        joined?<note place="foot" xml:id="ftn61" n="61"><p rend="footnote text">See
+                            Matt. 19:6.</p></note> Than to separate works of piety from works of
+                    mercy? Are you uniformly zealous of both? So far you walk acceptably to God:
+                    that is, if you continually bear in mind that God ‘searcheth the heart and
+                        reins’;<note place="foot" xml:id="ftn62" n="62"><p rend="footnote text">Cf.
+                            Rev. 2:23.</p></note> that ‘He is a Spirit, and they that worship him,
+                    must worship him in spirit and in truth;’<note place="foot" xml:id="ftn63"
+                        n="63"><p rend="footnote text">Cf. John 4:24.</p></note> that consequently
+                    no outward works are acceptable to him unless they spring from <hi rend="italic"
+                        >holy tempers</hi>, without which no man can have a place in the kingdom of
+                    Christ and of God.</p>
+                <p n="11">11. But of all holy tempers, and above all others, see that you be most
+                    zealous for <hi rend="italic">love</hi>! Count all things loss in comparison of
+                    this, the love of God and all mankind. It is most sure that if you give all your
+                    goods to feed the poor, yea, and your body to be burned, and have not humble,
+                    gentle, patient love, it profiteth you nothing.<note place="foot" xml:id="ftn64"
+                        n="64"><p rend="footnote text">See 1 Cor. 13:3.</p></note> O let this be
+                    deep engraven upon your heart: all is nothing without love.</p>
+                <p n="12">12. Take then the whole of religion together, just as God has revealed it
+                    in his Word, and be uniformly zealous for every part of it, according to its
+                    degree of excellence, grounding all your zeal on the one foundation, ‘Jesus
+                    Christ and him crucified’;<note place="foot" xml:id="ftn65" n="65"><p
+                            rend="footnote text">1 Cor. 2:2.</p></note> holding fast this one
+                    principle, ‘The life I now live, I live by faith in the Son of God who loved <hi
+                        rend="italic">me</hi>, and gave himself for <hi rend="italic">me</hi>;’<note
+                        place="foot" xml:id="ftn66" n="66"><p rend="footnote text">Cf. Gal.
+                            2:20.</p></note> proportion your zeal to the value of its object. Be
+                    calmly zealous therefore, first, for the <hi rend="italic">church</hi>—‘the
+                    whole state of Christ’s church militant here on earth’,<note place="foot"
+                        xml:id="ftn67" n="67"><p rend="footnote text">Cf. BCP, Communion, Prayer for
+                            the Church Militant.</p></note> and in particular for that branch
+                    thereof with which you are more immediately connected. Be more zealous for all
+                    those <hi rend="italic">ordinances</hi> which our blessed Lord hath appointed to
+                    continue therein to the end of the world. Be more zealous for those <hi
+                        rend="italic">works of mercy</hi>, those ‘sacrifices wherewith God is well
+                        pleased’,<note place="foot" xml:id="ftn68" n="68"><p rend="footnote text"
+                            >Cf. Heb. 13:16.</p></note> those marks whereby the Shepherd of Israel
+                    will know his sheep at the last day. Be more zealous still for <hi rend="italic"
+                        >holy tempers</hi>, for ‘long-suffering, gentleness, goodness, meekness,
+                    lowliness, and resignation’;<note place="foot" xml:id="ftn69" n="69"><p
+                            rend="footnote text">Cf. Gal. 5:22-23.</p></note> but be most zealous of
+                    all for <hi rend="italic">love</hi>, the queen of all graces,<note place="foot"
+                        xml:id="ftn70" n="70"><p rend="footnote text">Cf. ‘Charity the queen of
+                            virtues’ (βασιλὶς τῶν ἀρετῶν), cited in Francis Atterbury, <hi
+                                rend="italic">Fourteen Sermons Preached on Several Occasions</hi>
+                            (1708), p. 58, as from Chrysostom, ‘Tom. VI.193’. But see Lampe, <hi
+                                rend="italic">Patristic Greek Lexicon</hi>, βασιλῖς, No.
+                        5.</p></note> the highest perfection in earth or heaven, the very image of
+                    the invisible God, as in men below, so in angels above. For ‘God is love; and he
+                    that dwelleth in love, dwelleth in God and God in him.’<note place="foot"
+                        xml:id="ftn71" n="71"><p rend="footnote text">1 John 4:16.</p></note></p>
+                <p><placeName>Haverford West</placeName>, <date when="05-06-1781">May 6,
+                        1781</date><note place="foot" xml:id="ftn72" n="72"><p rend="footnote text"
+                            >Place and date as in <hi rend="italic">AM</hi>, IV.525.</p></note></p>
+            </div>
+        </body>
+    </text>
+</TEI>

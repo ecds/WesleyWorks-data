@@ -1,0 +1,637 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Sermon 94: On Family Religion</title>
+                <author>Wesley, John</author>
+                <editor role="text">Van Buskirk, Gregory P.</editor>
+                <editor role="digital">Taylor, Michelle M.</editor>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>The Wesley Works Digitzation Project</publisher>
+                <pubPlace>Tampa, FL</pubPlace>
+                <date>2024-02-25</date>
+            </publicationStmt>
+            <sourceDesc>
+                <listBibl>
+                    <biblStruct>
+                        <analytic>
+                            <title level="a">Sermon 94: On Family Religion</title>
+                        </analytic>
+                        <monogr>
+                            <title level="j">The Works of John Wesley, Volume III: Sermons III,
+                                71-114</title>
+                            <editor role="volume">Outler, Albert</editor>
+                            <imprint>
+                                <publisher>Abingdon Press</publisher>
+                                <pubPlace>Nashville, TN</pubPlace>
+                                <date when="1986-11-01">1986-11-01</date>
+                                <biblScope unit="volume" n="3"/>
+                                <biblScope unit="page" from="333" to="346"/>
+                            </imprint>
+                        </monogr>
+                        <series>
+                            <title level="s">The Works of John Wesley</title>
+                            <editor role="general">Baker, Frank</editor>
+                        </series>
+                    </biblStruct>
+                </listBibl>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Greg Van Buskirk created Word docs for all of Wesley's sermons using a combination of
+                OCR software and manual proofing. Michelle Taylor converted these docx into XML
+                using Oxygen's DITA automatic transformation scenario, then touched them up
+                manually.</p>
+        </encodingDesc>
+        <standOff>
+            <taxonomy>
+                <keywords>
+                    <term/>
+                </keywords>
+            </taxonomy>
+            <!--Include keywords and terms here eventually.-->
+        </standOff>
+        <revisionDesc/>
+    </teiHeader>
+    <text>
+        <body>
+            <pb n="03:333"/>
+            <head>
+                <hi rend="italic">An Introductory Comment</hi>
+            </head>
+            <introduction>
+                <p>On May 25, 1783, Wesley was in Nottingham where, as he reports in the <hi
+                        rend="italic">Journal</hi>, ‘I had an easy day’s work, as Mr. Bayley
+                    assisted me by reading prayers and delivering the wine at the Lord’s Table.’ He
+                    remained there over the following Monday and wrote out this sermon on Josh.
+                    24:15, a text used sparingly heretofore in his oral preaching (three times up to
+                    mid-1783). The theme of ‘family religion’, however, was an old favourite with
+                    the Puritans; Wesley had already collected many extracts on the subject; see <hi
+                        rend="italic">Christian Library</hi> 2nd edn. (1819-27); e.g., VIII.72-85,
+                    Isaac Ambrose on ‘Family Duties’, ‘Duties of Parents’, ‘Duties of Children’ (<hi
+                        rend="italic">Prima, Media, &amp; Ultima</hi> [1674], Treatise II, ch. 10,
+                    sects. 1, 2, 4, 7, pp. 228-29, 231-33, 236-37); XXVIII.292-306, ‘Life of Philip
+                    Henry’; XXIX.399-400, ‘Bishop Hopkins’ Exposition of the Ten Commandments’;
+                    XXX.193 ff.; Jonathan Edwards, ‘Faithful Narrative…’; see also John Shower (a
+                    schoolmate of Samuel Wesley, Sen.), <hi rend="italic">Family Religion…</hi>
+                    (1694). Indeed, four of the seven essays added to the sermons in <hi
+                        rend="italic">SOSO</hi>, IV (1760)—<hi rend="italic">viz.</hi>, ‘The Duties
+                    of Husbands and Wives’, ‘Directions to Children’, ‘Directions to Servants’, and
+                    ‘Christian Instructions’—had been focused on ‘family religion’. Now in 1783,
+                    however, Wesley was aware that the Methodist Revival had already outlasted the
+                    normal life span of such movements, and that its future depended quite crucially
+                    on ‘family religion’, ‘the education of children’, ‘obedience to parents’,
+                    ‘obedience to pastors’, etc. Hence the sequence of Nos. 94-97.</p>
+                <p n="">This particular sermon first appeared in the <hi rend="italic">Arminian
+                        Magazine</hi> (September and October 1783), VI.452-58, 508-14, without a
+                    title but numbered as ‘Sermon XVII’. It was then included as the last sermon in
+                        <hi rend="italic">SOSO</hi>, VII.295-315, and not printed elsewhere in
+                    Wesley’s lifetime.</p>
+            </introduction>
+            <pb n="03:334"/>
+            <head>On Family Religion</head>
+            <epigraph>
+                <p>Joshua 24:15</p>
+                <p>
+                    <hi rend="italic">As for me and my house, we will serve the Lord.</hi>
+                </p>
+            </epigraph>
+            <div type="introduction">
+                <p n="1">1. In the foregoing verses we read that Joshua, now grown old, ‘gathered
+                    the tribes of Israel to Shechem, and called for the elders of Israel, for their
+                    heads, for their judges, and officers, and they presented themselves before the
+                        Lord.’<hi rend="endnote_reference"><note place="end"><p rend="endnote text"
+                                >Ver. 1.</p></note></hi> And Joshua rehearsed to them the great
+                    things which God had done for their fathers,<hi rend="endnote_reference"><note
+                            place="end"><p rend="endnote text">Ver. 2-13.</p></note></hi> concluding
+                    with the strong exhortation: ‘Now therefore fear the Lord, and serve him in
+                    sincerity and truth; and put away the gods which your fathers served on the
+                    other side the flood (Jordan), and in Egypt.’<hi rend="endnote_reference"><note
+                            place="end"><p rend="endnote text">Ver. 14 [AV reads, ‘on the other side
+                                of the flood, and in Egypt’; Wesley inserts ‘Jordan’ without the
+                                parentheses supplied].</p></note></hi> Can anything be more
+                    astonishing than this! That even in Egypt, yea, and in the wilderness, where
+                    they were daily fed, and both day and night guided by miracle, the Israelites in
+                    general should worship idols, in flat defiance of the Lord their God! He
+                    proceeds: ‘If it seemeth evil to you to serve the Lord, choose ye this day whom
+                    ye will serve: whether the gods your fathers served on the other side of the
+                    flood, or the gods of the Amorites in whose land ye dwell But as for me and my
+                    house, we will serve the Lord.’</p>
+                <p n="2">2. A resolution this worthy of a hoary-headed saint, who had had large
+                    experience from his youth up of the goodness of the Master to whom he had
+                    devoted himself, and the advantages of his service. How much is it to be wished
+                    that all who have tasted that the Lord is gracious,<note place="foot"
+                        xml:id="ftn1" n="1"><p rend="footnote text">1 Pet. 2:3.</p></note> all whom
+                    he has brought out of the land of Egypt, out of the bondage of sin; those
+                    especially who are united together in Christian fellowship, would adopt this
+                    wise resolution! Then would the work of the Lord prosper in our land; then would
+                    his word run and be glorified. Then would multitudes of sinners in every place
+                    stretch out their hands unto God, until ‘the glory of the Lord covered the land,
+                    as the waters cover the sea.’<note place="foot" xml:id="ftn2" n="2"><p
+                            rend="footnote text">Cf. Hab. 2:14.</p></note></p>
+                <pb n="03:335"/>
+                <p n="3">3. On the contrary, what will the consequence be if they do not adopt this
+                    resolution? If family religion be neglected? If care be not taken of the rising
+                    generation? Will not the present revival of religion in a short time die away?
+                    Will it not be, as the historian speaks of the Roman state in its infancy, <hi
+                        rend="italic">res unius aetatis</hi>, an event that has its beginning and
+                    end within the space of one generation?<note place="foot" xml:id="ftn3" n="3"><p
+                            rend="footnote text">Cf. <hi rend="italic">Minutes</hi>, Aug. 16, 1768,
+                                <hi rend="italic">Q</hi>. 23, <hi rend="italic">A</hi>. 10: ‘Unless
+                            we take care…, the present revival will be <hi rend="italic">res unius
+                                aetatis</hi> [‘a matter of a single generation’]; it will last only
+                            the age of a man.’ Cf. Cicero, <hi rend="italic">De Re Publica</hi> (<hi
+                                rend="italic">The Republic</hi>), I.viii, <hi rend="italic">unius
+                                aetatis</hi> (‘a single short period…’).</p></note> Will it not be a
+                    confirmation of that melancholy remark of Luther’s that ‘a revival of religion
+                    never lasts longer than one generation’?<note place="foot" xml:id="ftn4" n="4"
+                            ><p rend="footnote text">Cf. No. 63, ‘The General Spread of the Gospel’,
+                            §16 and n. For other references to Luther, cf. No. 14, <hi rend="italic"
+                                >The Repentance of Believers</hi>, I.9 and n.</p></note> By a
+                    generation (as he explains himself) he means thirty years. But, blessed be God,
+                    this remark does not hold with regard to the present instance; seeing this
+                    revival, from its rise in the year 1729, has already lasted above fifty
+                        years.<note place="foot" xml:id="ftn5" n="5"><p rend="footnote text">This
+                            dating reflects several conflations of Wesley’s memories. ‘Above fifty
+                            years’ before 1783 would mean ‘before 1733’; the year 1729 was the
+                            origin of the Holy Club, and Wesley has other places where he dates the
+                            Revival from 1729 (cf. No. 107, ‘On God’s Vineyard’, proem, I.1; and his
+                            letter to William Black, Nov. 26, 1786). This conflicts with th<hi
+                                rend="italic">e Journal</hi> evidence, the preface to the <hi
+                                rend="italic">General Rules</hi>, etc., that the Revival, as a
+                            popular movement, was not really active before 1739. Cf. Wesley’s <hi
+                                rend="italic">Plain Account of the People called Methodists</hi>
+                            (written in 1748; published in 1749) and his <hi rend="italic">Short
+                                History of Methodism</hi> (1765).</p></note></p>
+                <p n="4">4. Have we not already seen some of the unhappy consequences of good men’s
+                    not adopting this resolution? Is there not a generation arisen, even within this
+                    period, yea, and from pious parents, that know not the Lord? That have neither
+                    his love in their hearts, nor his fear before their eyes?<note place="foot"
+                        xml:id="ftn6" n="6"><p rend="footnote text">See Rom. 3:18.</p></note> How
+                    many of them already ‘despise their fathers, and mock at the counsel of their
+                        mothers’?<note place="foot" xml:id="ftn7" n="7"><p rend="footnote text">Cf.
+                            Prov. 30:17.</p></note> How many are utter strangers to real religion—to
+                    the life and power of it? And not a few have shaken off all religion, and
+                    abandoned themselves to all manner of wickedness! Now although this may
+                    sometimes be the case, even of children educated in a pious manner, yet this
+                    case is very rare. I have met with some, but not many instances of it: the
+                    wickedness of the children is generally owing to the fault or neglect of their
+                    parents. For it is a general, though not universal rule, though it admits of
+                    some exceptions, ‘Train up a child in the way he should go, and when he is old
+                    he will not depart from it.’<note place="foot" xml:id="ftn8" n="8"><p
+                            rend="footnote text">Prov. 22:6.</p></note></p>
+                <pb n="03:336"/>
+                <p n="5">5. But what is the purport of this resolution, ‘I and my house will serve
+                    the Lord’? In order to understand and practise this, let us first inquire what
+                    it is to ‘serve the Lord’; secondly, who are included in that expression, ‘my
+                    house’; and thirdly, what can we do, that ‘we and our house’ may ‘serve the
+                    Lord’.</p>
+            </div>
+            <div type="section" n="1">
+                <p n="1">I. 1. We may inquire, first, what it is to ‘serve the Lord’, not as a Jew,
+                    but as a Christian. Not only with an outward service (though some of the Jews
+                    undoubtedly went farther than this) but with inward; with the service of the
+                    heart, ‘worshipping him in spirit and in truth’.<note place="foot" xml:id="ftn9"
+                        n="9"><p rend="footnote text">Cf. John 4:24.</p></note> The first thing
+                    implied in this service is faith—believing in the name of the Son of God.<note
+                        place="foot" xml:id="ftn10" n="10"><p rend="footnote text">See 1 John
+                            5:13.</p></note> We cannot perform an acceptable service to God till we
+                    believe on Jesus Christ whom he hath sent.<note place="foot" xml:id="ftn11"
+                        n="11"><p rend="footnote text">See John 17:3.</p></note> Here the spiritual
+                    worship of God begins. As soon as anyone has the witness in himself, as soon as
+                    he can say, ‘The life that I now live, I live by faith in the Son of God, who
+                    loved me and gave himself for me,’<note place="foot" xml:id="ftn12" n="12"><p
+                            rend="footnote text">Cf. Gal. 2:20.</p></note> he is able truly to
+                    ‘serve the Lord’.</p>
+                <p n="2">2. As soon as he believes, he loves God, which is another thing implied in
+                    ‘serving the Lord’. ‘We love him, because he first loved us’<note place="foot"
+                        xml:id="ftn13" n="13"><p rend="footnote text">1 John 4:19.</p></note>—of
+                    which faith is the evidence. The love of a pardoning God ‘is shed abroad in our
+                    hearts by the Holy Ghost which is given unto us’.<note place="foot"
+                        xml:id="ftn14" n="14"><p rend="footnote text">Rom. 5:5.</p></note> Indeed
+                    this love may admit of a thousand degrees; but still everyone, as long as he
+                    believes, may truly declare before God, ‘Lord, thou knowest that I love
+                        thee.’<note place="foot" xml:id="ftn15" n="15"><p rend="footnote text">John
+                            21:15, 16, 17.</p></note> Thou knowest that ‘my desire is unto thee, and
+                    unto the remembrance of thy name’.<note place="foot" xml:id="ftn16" n="16"><p
+                            rend="footnote text">Cf. Isa. 26:8.</p></note></p>
+                <p n="3">3. And if any man truly love God he cannot but love his brother also.
+                    Gratitude to our Creator will surely produce benevolence to our
+                        fellow-creatures.<note place="foot" xml:id="ftn17" n="17"><p
+                            rend="footnote text">Note that Wesley has a place for benevolence in
+                            Christian ethics as a consequence of Christian gratitude to God (cf. No.
+                            91, ‘On Charity’, I.2 and n.). His quarrel with Hutcheson and others was
+                            their thesis that benevolence was a primal human disposition independent
+                            of divine endowment and grace; see No. 12, ‘The Witness of Our Own
+                            Spirit’, §5 and n.</p></note> If we love him, we cannot but love one
+                    another, as Christ loved us. We feel our souls enlarged in love toward every
+                    child of man. And toward all the children of God we put on ‘bowels of kindness,
+                    gentleness, long-suffering, forgiving <pb n="03:337"/>one another’,<note
+                        place="foot" xml:id="ftn18" n="18"><p rend="footnote text">Cf. Col. 3:12,
+                            13.</p></note> if we have a complaint against any, ‘even as God for
+                    Christ’s sake hath forgiven us’.<note place="foot" xml:id="ftn19" n="19"><p
+                            rend="footnote text">Cf. Eph. 4:32.</p></note></p>
+                <p n="4">4. One thing more is implied in ‘serving the Lord’, namely, the obeying
+                    him; the steadily walking in all his ways, the doing his will from the heart.
+                    Like those ‘his servants’ above ‘who do his pleasure’, who ‘keep his
+                    commandments, and hearken unto the voice of his words’,<note place="foot"
+                        xml:id="ftn20" n="20"><p rend="footnote text">Cf. Ps. 103:21, 20
+                        (BCP).</p></note> these his servants below hearken unto his voice,
+                    diligently keep his commandments, carefully avoid whatever he has forbidden, and
+                    zealously do whatever he has enjoined; studying always to have a conscience void
+                    of offence toward God and toward man.<note place="foot" xml:id="ftn21" n="21"><p
+                            rend="footnote text">See Acts 24:16.</p></note></p>
+            </div>
+            <div type="section" n="2">
+                <p>II. ‘I and my house will serve the Lord,’ will every real Christian say. But who
+                    are included in that expression, ‘my house’? This is the next point to be
+                    considered.</p>
+                <p n="1">1. The person in your house that claims your first and nearest attention is
+                    undoubtedly your wife; seeing you are to love her even as Christ loved the
+                        Church,<note place="foot" xml:id="ftn22" n="22"><p rend="footnote text">See
+                            Eph. 5:25.</p></note> when he laid down his life for it, that he might
+                    ‘purify it unto himself’,<note place="foot" xml:id="ftn23" n="23"><p
+                            rend="footnote text">Cf. Titus 2:14.</p></note> ‘not having spot or
+                    wrinkle or any such thing’.<note place="foot" xml:id="ftn24" n="24"><p
+                            rend="footnote text">Eph. 5:27.</p></note> The same end is every husband
+                    to pursue in all his intercourse with his wife, to use every possible means that
+                    she may be freed from every spot, and may walk unblameable in love.</p>
+                <p n="2">2. Next to your wife are your children: immortal spirits whom God hath for
+                    a time entrusted to your care, that you may train them up in all holiness, and
+                    fit them for the enjoyment of God in eternity. This is a glorious and important
+                    trust; seeing one soul is of more value than all the world beside.<note
+                        place="foot" xml:id="ftn25" n="25"><p rend="footnote text">See Young, <hi
+                                rend="italic">Night Thoughts</hi>, vii. 994-97:</p>
+                        <lg>
+                            <l>Behold this midnight glory: worlds on worlds!</l>
+                            <l>Amazing pomp! Redouble this amaze!</l>
+                            <l>Ten thousand add, add twice ten thousand more;</l>
+                            <l>Then weigh the whole: one soul outweighs them all.</l></lg>
+                        <p rend="footnote text">See also Charles Wesley, ‘As all the world were but
+                            one soul’, several times quoted by Wesley, as in No. 54, ‘On Eternity’,
+                            §20.</p></note> Every child therefore you are to watch over with the
+                    utmost care, that when you are called to give an account of each to the Father
+                    of Spirits, you may give your accounts with joy and not with grief.</p>
+                <pb n="03:338"/>
+                <p n="3">3. Your servants of whatever kind you are to look upon as a kind of <hi
+                        rend="italic">secondary children</hi>;<note place="foot" xml:id="ftn26"
+                        n="26"><p rend="footnote text">Cf. <hi rend="italic">OED</hi> (usage ‘c’),
+                            citing John Brown, Minister of the Gospel at Haddington, <hi
+                                rend="italic">Compendious View of Natural and Revealed Religion</hi>
+                            (1782), I.i.24: ‘Servants in families ought to be considered as
+                            secondary children and have due instruction….’ See also Law, <hi
+                                rend="italic">Christian Perfection </hi>(<hi rend="italic"
+                                >Works</hi>, III.223). The same point is made by J. H. Plumb in <hi
+                                rend="italic">The First Four Georges</hi>, p. 31; see No. 50, ‘The
+                            Use of Money’, III.3 and n</p></note> these likewise God has committed
+                    to your charge, as one that must give account; for everyone under your roof that
+                    has a soul to be saved is under your care; not only indented<note place="foot"
+                        xml:id="ftn27" n="27"><p rend="footnote text">An archaic form of
+                            ‘indentured’.</p></note> servants, who are legally engaged to remain
+                    with you for a term of years; not only hired servants, whether they voluntarily
+                    contract for a longer or shorter time; but also those who serve you by the week
+                    or day; for these too are in a measure delivered into your hands. And it is not
+                    the will of <hi rend="italic">your</hi> Master who is in heaven that any of
+                    these should go out of your hands before they have received from you something
+                    more valuable than gold or silver. Yea, and you are in a degree accountable even
+                    for ‘the stranger that is within your gates’.<note place="foot" xml:id="ftn28"
+                        n="28"><p rend="footnote text">Cf. Exod. 20:10; Deut. 5:14;
+                        31:12.</p></note> As you are particularly required to see that he does ‘no
+                    manner of work’<note place="foot" xml:id="ftn29" n="29"><p rend="footnote text"
+                            >Exod. 12:16; Lev. 23:31.</p></note> on the Lord’s day, while he is
+                    within your gates; so, by parity of reason, you are required to do all that is
+                    in your power to prevent his sinning against God in any other instance.</p>
+            </div>
+            <div type="section">
+                <p>III. Let us inquire, in the third place, what can we do that all these may ‘serve
+                    the Lord’?</p>
+                <p n="1">1. May we not endeavour, first, to <hi rend="italic">restrain</hi> them
+                    from all outward sin? From profane swearing; from taking the name of God in
+                    vain; from doing any needless work, or taking any pastime on the Lord’s day?
+                    This labour of love you owe even to your visitants; much more to your wife,
+                    children, and servants. The former, over whom you have the least influence, you
+                    may restrain by argument or mild persuasion. If you find that after repeated
+                    trials they will not yield, either to one or the other, it is your bounden duty
+                    to set ceremony aside, and to dismiss them from your house. Servants also,
+                    whether by the day or for a longer space, if you cannot reclaim either by
+                    reasoning added to your example, or by gentle or severe reproofs, though
+                    frequently repeated, you must in anywise dismiss from your family, though it
+                    should be ever so inconvenient.</p>
+                <pb n="03:339"/>
+                <p n="2">2. But you cannot dismiss your wife unless for the cause of
+                        fornication,<note place="foot" xml:id="ftn30" n="30"><p rend="footnote text"
+                            >See Matt. 19:9.</p></note> that is, adultery. What then can be done if
+                    she is habituated to any other open sin? I cannot find in the Bible that a
+                    husband has authority to strike his wife on any account—even suppose she struck
+                    him first—unless his life were in imminent danger. I never have known one
+                    instance yet of a wife that was mended thereby. I have heard indeed of some such
+                    instances; but as I did not see them, I do not believe them.<note place="foot"
+                        xml:id="ftn31" n="31"><p rend="footnote text">Note that, for Wesley, the
+                            logic of empirical evidence cuts both ways; cf. JWJ, May 25, 1768, where
+                            the question is whether Wesley had ever seen an apparition himself.
+                            ‘No’, says he, ‘nor did I ever see a murder; yet I believe there is such
+                            a thing…. The testimony of unexceptional witnesses fully convinces me
+                            both of the one and the other.’</p></note> It seems to me, all that can
+                    be done in this case is to be done partly by example, partly by argument or
+                    persuasion, each applied in such a manner as is dictated by Christian prudence.
+                    If evil can ever be overcome, it must be ‘overcome by good’.<note place="foot"
+                        xml:id="ftn32" n="32"><p rend="footnote text">Cf. Rom. 12:21.</p></note> It
+                    cannot be overcome by evil: we cannot beat the devil with his own weapons.
+                    Therefore if this evil cannot be overcome by good, we are called to suffer it.
+                    We are then called to say: ‘This is the cross which God hath chosen for me. He
+                    surely permits it for wise ends: “Let him do what seemeth him good.”<note
+                        place="foot" xml:id="ftn33" n="33"><p rend="footnote text">1 Sam.
+                        3:18.</p></note> Whenever he sees it to be best, he will remove this cup
+                    from me.’<note place="foot" xml:id="ftn34" n="34"><p rend="footnote text">Luke
+                            22:42.</p></note> Meantime continue in earnest prayer, knowing that with
+                    God no word is impossible; and that he will either in due time take the
+                    temptation away or make it a blessing to your soul.</p>
+                <p n="3">3. Your children, while they are young, you may restrain from evil not only
+                    by advice, persuasion, and reproof, but also by correction; only remembering
+                    that this means is to be used last—not till all other have been tried, and found
+                    to be ineffectual. And even then you should take the utmost care to avoid the
+                    very appearance of passion. Whatever is done should be done with mildness; nay,
+                    indeed, with kindness too. Otherwise your own spirit will suffer loss, and the
+                    child will reap little advantage.</p>
+                <p n="4">4. But some will tell you: ‘All this is lost labour; a child need not be
+                    corrected at all. Instruction, persuasion, and advice will be sufficient for any
+                    child, without correction; especially if gentle reproof be added, as occasion
+                    may require.’ I answer, there may be particular instances wherein this method
+                    may be successful. But you must not in any wise lay this down as an universal
+                    rule; unless you suppose yourself wiser than Solomon, or, to speak <pb
+                        n="03:340"/>more properly, wiser than God. For it is God himself, who best
+                    knoweth his own creatures, that has told us expressly, ‘He that spareth the rod
+                    hateth the child; but he that loveth him chasteneth him betimes.’<hi
+                        rend="endnote_reference"><note place="end"><p rend="endnote text">Prov.
+                                13:24.</p></note></hi> And upon this is grounded that plain
+                    commandment, directed to all that fear God, ‘Chasten thy son while there is
+                    hope; and let not thy soul spare for his crying.’<hi rend="endnote_reference"
+                            ><note place="end"><p rend="endnote text">Chap.
+                    19:18.</p></note></hi></p>
+                <p n="5">5. May we not endeavour, secondly, to <hi rend="italic">instruct</hi> them?
+                    To take care that every person who is under our roof have all such knowledge as
+                    is necessary to salvation? To see that our wife, servants, and children be
+                    taught all those things which belong to their eternal peace? In order to this,
+                    you should provide that not only your wife, but your servants also may enjoy all
+                    the public means of instruction. On the Lord’s day, in particular, you should so
+                    forecast what is necessary to be done at home that they may have an opportunity
+                    of attending all the ordinances of God. Yea, and you should take care that they
+                    have some time every day for reading, meditation, and prayer. And you should
+                    inquire whether they do actually employ that time in the exercises for which it
+                    is allowed. Neither should any day pass without family prayer, seriously and
+                    solemnly performed.</p>
+                <p n="6">6. You should particularly endeavour to instruct your children, early,
+                    plainly, frequently, and patiently. Instruct them <hi rend="italic">early</hi>,
+                    from the first hour that you perceive reason begins to dawn. Truth may then
+                    begin to shine upon the mind, far earlier than we are apt to suppose. And
+                    whoever watches the first openings of the understanding may by little and little
+                    supply fit matter for it to work upon, and may turn the eye of the soul toward
+                    good things, as well as toward bad or trifling ones. Whenever a child begins to
+                    speak, you may be assured reason begins to work. I know no cause why a parent
+                    should not just then begin to speak of the best things, the things of God. And
+                    from that time no opportunity should be lost of instilling all such truths as
+                    they are capable of receiving.</p>
+                <p n="7">7. But the speaking to them early will not avail, unless you likewise speak
+                    to them <hi rend="italic">plainly</hi>. Use such words as little children may
+                    understand, just such as they use themselves. Carefully observe the few ideas
+                    which they have already, and endeavour to graft what you say upon them. To take
+                    a little example: bid the <pb n="03:341"/>child look up, and ask, ‘What do you
+                    see there?’ ‘The sun.’ ‘See, how bright it is! Feel how warm it shines upon your
+                    hand! Look, how it makes the grass and the flowers grow, and the trees and
+                    everything look green! But God (though you cannot see him) is above the sky, and
+                    is a deal brighter than the sun! It is he, it is God, that made the sun, and you
+                    and me, and everything. It is he that makes the grass and the flowers grow; that
+                    makes the trees green, and the fruit to come upon them! Think what he can do! He
+                    can do whatever he pleases. He can strike me or you dead in a moment. But he
+                    loves you; he loves to do you good. He loves to make you happy. Should not you
+                    then love <hi rend="italic">him</hi>! You love <hi rend="italic">me</hi>,
+                    because I love you and do you good. But it is God that makes me love you.
+                    Therefore you should love him. And he will teach you how to love him.’<note
+                        place="foot" xml:id="ftn35" n="35"><p rend="footnote text">Cf. No. 95, ‘On
+                            the Education of Children’, §14. See also Samuel Lee, ‘What Means May be
+                            Used Towards the Conversion of Our Carnal Relations’, Sermon 8 in <hi
+                                rend="italic">The Morning-Exercise at Cripplegate</hi> (1661), pp.
+                            193 ff.</p></note></p>
+                <p n="8">8. While you are speaking in this, or some such manner, you should be
+                    continually lifting up your heart to God, beseeching him to open the eyes of
+                    their understanding, and to pour his light upon them. He and he alone can make
+                    them to differ herein from the beasts that perish. He alone can apply your words
+                    to their hearts; without which all your labour will be in vain. But whenever the
+                    Holy Ghost teaches, there is no delay in learning.<note place="foot"
+                        xml:id="ftn36" n="36"><p rend="footnote text">Cf. the Elizabethan ‘Homily
+                            for Whitsunday’, Pt. I, p. 412: ‘So true is the saying of Bede: “Where
+                            the Holy Ghost doth instruct and teach, there is no delay at all in
+                            learning.”’ The marginal note here reads ‘Hom. 9 sup. Lucam’, but the
+                            quotation itself has not been located in any of the homilies of Bede
+                            numbered nine in Migne, <hi rend="italic">PL</hi>, XCIV, <hi
+                                rend="italic">Sectio Prima—Homiliae</hi>. But cf. <hi rend="italic"
+                                >Homilia II (‘In Festo Visitationis Beatae Mariae’)</hi> [on Luke
+                            1:44], Migne, <hi rend="italic">PL</hi>, XCIV, col. 17: ‘<hi
+                                rend="italic">Et quam miranda, quam cita sancti Spiritus operatio!
+                                Nulla quippe in discendo mora est, ubi Spiritus sanctus doctor
+                                adest.</hi>’ See <hi rend="italic">A Farther Appeal,</hi> Pt. I,
+                            V.25 (11:168 in this edn.).</p></note></p>
+                <p n="9">9. But if you would see the fruit of your labour, you must teach them not
+                    only early and plainly, but <hi rend="italic">frequently</hi> too. It would be
+                    of little or no service to do it only once or twice a week. How often do you
+                    feed their bodies? Not less than three times a day. And is the soul of less
+                    value than the body? Will you not then feed this as often? If you find this a
+                    tiresome task, there is certainly something wrong in your own mind. You do not
+                    love them enough; or you do not love him who is your Father and their Father.
+                    Humble yourself before him! Beg that he would give you more love; and love will
+                    make the labour light.</p>
+                <pb n="03:342"/>
+                <p n="10">10. But it will not avail to teach them both early, plainly, and
+                    frequently, unless you <hi rend="italic">persevere</hi> therein. Never leave
+                    off, never intermit your labour of love, till you see the fruit of it. But in
+                    order to this you will find the absolute need of being endued with power from on
+                    high; without which, I am persuaded, none ever had or will have patience
+                    sufficient for the work. Otherwise the inconceivable dullness of some children,
+                    and the giddiness or perverseness of others, would induce them to give up the
+                    irksome task, and let them follow their own imagination.</p>
+                <p n="11">11. And suppose after you have done this—after you have taught your
+                    children from their early infancy, in the plainest manner you could, omitting no
+                    opportunity, and persevering therein—you did not presently see any fruit of your
+                    labour, you must not conclude that there will be none. Possibly the ‘bread which
+                    you have cast upon the waters’ may be ‘found after many days’.<note place="foot"
+                        xml:id="ftn37" n="37"><p rend="footnote text">Cf. Eccles. 11:1.</p></note>
+                    The seed which has long remained in the ground may at length spring up into a
+                    plentiful harvest. Especially if you do not restrain prayer before God, if you
+                    continue instant herein with all supplication. Meantime, whatever the effect of
+                    this be upon others, your reward is with the Most High.</p>
+                <p n="12">12. Many parents, on the other hand, presently see the fruit of the seed
+                    they have sown, and have the comfort of observing that their children grow in
+                    grace in the same proportion as they grow in years. Yet they have not done all.
+                    They have still upon their hands another task, sometimes of no small difficulty.
+                    Their children are now old enough to go to school. But to what school is it
+                    advisable to send them?</p>
+                <p n="13">13. Let it be remembered that I do not speak to the wild, giddy,
+                    thoughtless world, but to those that fear God. I ask, then, ‘For what end do you
+                    send your children to school?’ ‘Why, that they may be fit to live in the world.’
+                    In which world do you mean? This or the next? Perhaps you thought of this world
+                    only; and had forgot that there is a world to come—yea, and one that will last
+                    for ever! Pray take this into your account, and send them to such masters as
+                    will keep it always before their eyes. Otherwise to send them to school (permit
+                    me to speak plainly) is little better than sending them to the devil. At all
+                    events, then, send your boys, if you have any concern for their souls, not to
+                    any of the large public <pb n="03:343"/>schools (for they are nurseries of all
+                    manner of wickedness)<note place="foot" xml:id="ftn38" n="38"><p
+                            rend="footnote text">Steele in <hi rend="italic">The Guardian</hi>, No.
+                            94 (June 29, 1713), had spoken of the universities as ‘public
+                            nurseries’, and Bishop Edward Stillingfleet in <hi rend="italic">Sermons
+                                on Several Occasions</hi> (1696), I.31, had characterized ‘the
+                            houses of great men in too many places’ as ‘public schools of
+                            debauchery…’. Cf. also Charles Wesley’s ‘Commemorative Hymn’ (<hi
+                                rend="italic">Poet. Wks.</hi>, VIII.393): ‘The public schools of
+                            sin’.</p></note> but a private school kept by some pious man who
+                    endeavours to instruct a small number of children in religion and learning
+                    together.</p>
+                <p n="14">14. ‘But what shall I do with my girls?’ By no means send them to a large
+                    boarding-school. In these seminaries, too, the children teach one another pride,
+                    vanity, affectation, intrigue, artifice, and in short everything which a
+                    Christian woman ought not to learn. Suppose a girl were well inclined, yet what
+                    would she do in a crowd of children not one of whom has any thought of God, or
+                    the least concern for her soul? Is it likely, is it possible, she should retain
+                    any fear of God or any thought of saving her soul in such company? Especially as
+                    their whole conversation points another way, and turns upon things which one
+                    would wish she should never think of. I never yet knew a pious, sensible woman
+                    that had been bred at a large boarding-school who did not aver one might as well
+                    send a young maid to be bred in Drury Lane.<note place="foot" xml:id="ftn39"
+                        n="39"><p rend="footnote text">The then centre of the London theatre
+                            district (with the Theatre Royal and Covent Garden). Wesley’s low
+                            opinion of theatres and theatrical people was widely shared; see No. 89,
+                            ‘The More Excellent Way’, V.4 and n.</p></note></p>
+                <p n="15">15. ‘But where then shall I send my girls?’ If you cannot breed them up
+                    yourself (as my mother did, who bred up seven daughters to years of maturity),
+                    send them to some mistress that truly fears God, one whose life is a pattern to
+                    her scholars, and who has only so many that she can watch over each as one that
+                    must give account to God. Forty years ago I did not know such a mistress in
+                    England; but you may now find several.<note place="foot" xml:id="ftn40" n="40"
+                            ><p rend="footnote text">On May 22, 1781, in a letter to Mary Bishop, he
+                            could think of only two.</p></note> You may find such a mistress and
+                    such a school at Highgate,<note place="foot" xml:id="ftn41" n="41"><p
+                            rend="footnote text">Linden House, Hornsey Lane; its headmistress was
+                            Mary Teulon, daughter of Melchior Teulon (1734-1806), a prominent
+                            Methodist class-leader for twenty-four years.</p></note> at
+                        Deptford,<note place="foot" xml:id="ftn42" n="42"><p rend="footnote text">No
+                            such reference to Deptford in JWJ, <hi rend="italic">Letters</hi>, or in
+                            the autobiography of Sampson Staniforth, ‘the father of Deptford
+                            Methodism’, in <hi rend="italic">AM</hi> (1783). There are, however,
+                            references to a boarding-school presided over by a Mrs. Edwards in
+                            Lambeth; cf. JWJ, Dec. 11, 1778; and Dec. 29, 1787.</p></note> near
+                        Bristol,<note place="foot" xml:id="ftn43" n="43"><p rend="footnote text"
+                            >Mary Bishop’s school near Keynsham.</p></note> in Chester,<note
+                        place="foot" xml:id="ftn44" n="44"><p rend="footnote text">No other
+                            references to this in JWJ, <hi rend="italic">Letters</hi>, or in F. F.
+                            Bretherton, <hi rend="italic">Early Methodism in and Around Chester</hi>
+                            (Chester, Phillipson, and Golder, 1903), pp. 225-33.</p></note> or near
+                        Leeds.<note place="foot" xml:id="ftn45" n="45"><p rend="footnote text">Cross
+                            Hall, where Mary Bosanquet, who later married John Fletcher, had been
+                            headmistress; cf. No. 114, <hi rend="italic">On the Death of John
+                                Fletcher</hi>, III.11.</p></note></p>
+                <pb n="03:344"/>
+                <p n="16">16. We may suppose your sons have now been long enough at school, and you
+                    are thinking of some business for them. Before you determine anything on this
+                    head, see that your eye be single.<note place="foot" xml:id="ftn46" n="46"><p
+                            rend="footnote text">See Matt. 6:22; Luke 11:34.</p></note> Is it so? Is
+                    it your view to please God herein? It is well if you take him into your account.
+                    But surely if you love or fear God yourself this will be your first
+                    consideration: in what business will your son be most likely to love and serve
+                    God? In what employment will he have the greatest advantage for laying up
+                    treasures in heaven?<note place="foot" xml:id="ftn47" n="47"><p
+                            rend="footnote text">Cf. No. 50, ‘The Use of Money’, intro.</p></note> I
+                    have been shocked above measure in observing how little this is attended to,
+                    even by pious parents! Even these consider only how he may get most money; not
+                    how he may get most holiness! Even these, upon this glorious motive, send him to
+                    a heathen master, and into a family where there is not the very form, much less
+                    the power of religion!<note place="foot" xml:id="ftn48" n="48"><p
+                            rend="footnote text">See 2 Tim. 3:15.</p></note> Upon this motive they
+                    fix him in a business which will necessarily expose him to such temptations as
+                    will leave him not a probability, if a possibility, of serving God. O savage
+                    parents! Unnatural, diabolical cruelty!—if you believe there is another
+                    world.</p>
+                <p>‘But what shall I do?’ Set God before your eyes, and do all things with a view to
+                    please him. Then you will find a master, of whatever profession, that loves, or
+                    at least fears God; and you will find a family wherein is the form of religion,
+                    if not the power also.<note place="foot" xml:id="ftn49" n="49"><p
+                            rend="footnote text"><hi rend="italic">Ibid.</hi></p></note> Your son
+                    may nevertheless serve the devil if he will; but it is probable he will not. And
+                    do not regard if he gets less money, provided he gets more holiness. It is
+                    enough, though he have less of earthly goods, if he secure the possession of
+                    heaven.</p>
+                <p n="17">17. There is one circumstance more wherein you will have great need of the
+                    wisdom from above. Your son or your daughter is now of age to marry, and desires
+                    your advice relative to it. Now you know what the world calls a ‘good
+                        match’<note place="foot" xml:id="ftn50" n="50"><p rend="footnote text">Cf.
+                            Johnson, <hi rend="italic">The Rambler</hi>, No. 182, p. 4: ‘a wealthy
+                            match’. See also the Epilogue to James Thomson’s <hi rend="italic"
+                                >Edward and Eleonora</hi> (‘written by a friend’), ll. 9-14:</p>
+                        <lg><l>Look round this town—the question is not whether</l>
+                            <l>Spouse dies for spouse: but who will live together?</l>
+                            <l>Of old, they say, a husband was a lover,</l>
+                            <l>But, thank our stars! these foolish days are over:</l>
+                            <l>To such substantial prudence we are come,</l>
+                            <l>We wed not heart to heart—but plumb to plumb [i.e., fortune to
+                                fortune].</l></lg>
+                        <p rend="footnote text">Cf. Nos. 125, ‘On a Single Eye’, III.4; and 131,
+                            ‘The Danger of Increasing Riches’, I.6 and n.</p></note>—one whereby <pb
+                        n="03:345"/>much money is gained. Undoubtedly it is so, if it be true that
+                    money always brings happiness. But I doubt it is not true; money seldom brings
+                    happiness, either in this world or the world to come. Then let no man deceive
+                    you with vain words—riches and happiness seldom dwell together.<note
+                        place="foot" xml:id="ftn51" n="51"><p rend="footnote text">Repeated in No.
+                            95, ‘On the Education of Children’, §21 (‘riches cannot give
+                            happiness’).</p></note> Therefore if you are wise you will not seek
+                    riches for your children by their marriage. See that your eye be single in this
+                    also: aim simply at the glory of God, and the real happiness of your children,
+                    both in time and eternity. It is a melancholy thing to see how Christian parents
+                    rejoice in selling their son or their daughter to a wealthy heathen! And do you
+                    seriously call this ‘<hi rend="italic">a good match</hi>’! Thou fool, by a
+                    parity of reason thou mayst call hell a ‘good lodging’ and the devil a ‘good
+                    master’. O learn a better lesson from a better master. ‘Seek ye first the
+                    kingdom of God and his righteousness,’ both for <hi rend="italic">thyself and
+                        thy children</hi>, ‘and all other things shall be added unto you.’<note
+                        place="foot" xml:id="ftn52" n="52"><p rend="footnote text">Cf. Matt.
+                            6:33.</p></note></p>
+                <p n="18">18. It is undoubtedly true that if you are steadily determined to walk in
+                    this path; to endeavour by every possible means that you and your house may thus
+                    serve the Lord; that every member of your family may worship him, not only in
+                    form, but in spirit, and in truth; you will have need to use all the grace, all
+                    the courage, all the wisdom which God has given you. For you will find such
+                    hindrances in the way as only the mighty power of God can enable you to break
+                    through. You will have all the ‘saints of the world’<note place="foot"
+                        xml:id="ftn53" n="53"><p rend="footnote text">Juán de Valdés; see No. 4, <hi
+                                rend="italic">Scriptural Christianity</hi>, II.5 and n.</p></note>
+                    to grapple with, who will think you carry things too far. You will have all the
+                    powers of darkness against you, employing both force and fraud and above all the
+                    deceitfulness of your own heart, which if you will hearken to it will supply you
+                    with many reasons why you should be a <hi rend="italic">little more</hi>
+                    conformable to the world. But as you have begun, go on in the name of the Lord,
+                    and in the power of his might!<note place="foot" xml:id="ftn54" n="54"><p
+                            rend="footnote text">Eph. 6:10.</p></note> Set the smiling and the
+                    frowning world, with the prince thereof, at defiance. Follow reason and the
+                    oracles of God;<note place="foot" xml:id="ftn55" n="55"><p rend="footnote text"
+                            >Cf. No. 5, ‘Justification by Faith’, §2 and n.</p></note> not the
+                    fashions and customs<note place="foot" xml:id="ftn56" n="56"><p
+                            rend="footnote text">Cf. No. 25, ‘Sermon on the Mount, V’, IV.3 and
+                            n.</p></note> of men. ‘Keep thyself pure.’<note place="foot"
+                        xml:id="ftn57" n="57"><p rend="footnote text">1 Tim. 5:22.</p></note>
+                    Whatever others do, let you and your house ‘adorn the doctrine of <pb n="03:346"
+                    />God our Saviour’.<note place="foot" xml:id="ftn58" n="58"><p
+                            rend="footnote text">Titus 2:10.</p></note> Let you, your yokefellow,
+                    your children, and your servants be all on the Lord’s side; sweetly drawing
+                    together in one yoke, walking in all his commandments and ordinances,<note
+                        place="foot" xml:id="ftn59" n="59"><p rend="footnote text">See Luke
+                        1:6.</p></note> till every one of you ‘shall receive his own reward,
+                    according to his own labour’.<note place="foot" xml:id="ftn60" n="60"><p
+                            rend="footnote text">1 Cor. 3:8.</p></note></p>
+            </div>
+            <p><placeName>Nottingham</placeName>, <date when="05-26-1783">May 26, 1783</date><note
+                    place="foot" xml:id="ftn61" n="61"><p rend="footnote text">Place and date as in
+                            <hi rend="italic">AM</hi>.</p></note></p>
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,665 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Sermon 98: On Visiting the Sick</title>
+                <author>Wesley, John</author>
+                <editor role="text">Van Buskirk, Gregory P.</editor>
+                <editor role="digital">Taylor, Michelle M.</editor>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>The Wesley Works Digitzation Project</publisher>
+                <pubPlace>Tampa, FL</pubPlace>
+                <date>2024-02-25</date>
+            </publicationStmt>
+            <sourceDesc>
+                <listBibl>
+                    <biblStruct>
+                        <analytic>
+                            <title level="a">Sermon 98: On Visiting the Sick</title>
+                        </analytic>
+                        <monogr>
+                            <title level="j">The Works of John Wesley, Volume III: Sermons III,
+                                71-114</title>
+                            <editor role="volume">Outler, Albert</editor>
+                            <imprint>
+                                <publisher>Abingdon Press</publisher>
+                                <pubPlace>Nashville, TN</pubPlace>
+                                <date when="1986-11-01">1986-11-01</date>
+                                <biblScope unit="volume" n="3"/>
+                                <biblScope unit="page" from="384" to="397"/>
+                            </imprint>
+                        </monogr>
+                        <series>
+                            <title level="s">The Works of John Wesley</title>
+                            <editor role="general">Baker, Frank</editor>
+                        </series>
+                    </biblStruct>
+                </listBibl>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Greg Van Buskirk created Word docs for all of Wesley's sermons using a combination of
+                OCR software and manual proofing. Michelle Taylor converted these docx into XML
+                using Oxygen's DITA automatic transformation scenario, then touched them up
+                manually.</p>
+        </encodingDesc>
+        <standOff>
+            <taxonomy>
+                <keywords>
+                    <term/>
+                </keywords>
+            </taxonomy>
+            <!--Include keywords and terms here eventually.-->
+        </standOff>
+        <revisionDesc/>
+    </teiHeader>
+    <text>
+        <body>
+            <pb n="03:384"/>
+            <head>
+                <hi rend="italic">An Introductory Comment</hi>
+            </head>
+            <p>Mid-May of 1786 found Wesley on his travels from north-west England (Westmorland,
+                Cumberland) to Scotland. ‘In my way…I looked over Lord Bacon’s <hi rend="italic">Ten
+                    Centuries of Experiments [Sylva Sylvarum: Or, a Natural History. In Ten
+                    Experiments</hi> (an unfinished work intended as a section for the <hi
+                    rend="italic">Instauratio Magna</hi>), published posthumously in 1627]. Many of
+                them are extremely curious, and many may be highly useful. Afterwards I read Dr.
+                [James] <hi rend="italic">Anderson’s Account of the Hebrides [An Account of the
+                    Present State of the Hebrides and Western Coasts of Scotland…being the Substance
+                    of the West Coasts of Scotland, with hints for encouraging the Report to the
+                    Lords of the Treasury…together with the evidence given before the Committee of
+                    Fisheries…</hi>, Edinburgh, 1785]. How accurate and sensible a writer!’ (JWJ,
+                May 11). On his journey from Carlisle to Edinburgh to Dundee to Arbroath to
+                Aberdeen, he seems to have been working, in snatches, on a written sermon, ‘On
+                Visiting the Sick’, which he completed in Aberdeen on May 23.The diary suggests that
+                he gave most of Tuesday, the 23rd, to this task; the <hi rend="italic">Journal</hi>
+                has no entry for that day.</p>
+            <p>The sermon is a practical comment on one of those ‘works of mercy’ which are the
+                natural fruit of active love: <hi rend="italic">viz.</hi>, ‘visiting the sick’. He
+                seems never to have used Matt. 25:26 as a sermon text except this once. In the
+                sermon there are no unexpected turns in the argument or rhetoric and no speculative
+                flights. Even so, it is an interesting mirror of the concerns of the ageing
+                evangelist—a single Christian ‘duty’ expounded in the larger context of good works
+                in the true spirit of love as an efficacious means of grace.</p>
+            <p>It was first published in the <hi rend="italic">Arminian Magazine</hi> in September
+                and October, 1786 (IX.469-75, 525-31), without a title but numbered as ‘Sermon
+                XXXIV’. Two years later it was included in <hi rend="italic">SOSO</hi>, VIII.67-88,
+                with its present title; it was not printed elsewhere in Wesley’s lifetime.</p>
+            <p>
+                <pb n="03:385"/>
+            </p>
+            <head>On Visiting the Sick</head>
+            <p>Matthew 25:36</p>
+            <p>
+                <hi rend="italic">I was sick, and ye visited me.</hi>
+            </p>
+            <div type="introduction">
+                <p n="1">1. It is generally supposed that ‘the means of grace’ and ‘the ordinances
+                    of God’ are equivalent terms. We usually mean by that expression those that are
+                    usually termed ‘works of piety’,<note place="foot" xml:id="ftn1" n="1"><p
+                            rend="footnote text">Here, the ‘works of piety’ are nearly identical
+                            with ‘the means of grace’ as defined in the third General Rule. In No.
+                            92, ‘On Zeal’, I.4, the two were more sharply distinguished; cf. also
+                            No. 14, <hi rend="italic">The Repentance of Believers</hi>, I.13 and
+                            n.</p></note> namely, hearing and reading the Scripture, receiving the
+                    Lord’s Supper, public and private prayer, and fasting. And it is certain these
+                    are the ordinary channels which convey the grace of God to the souls of men. But
+                    are they the only means of grace? Are there no other means than these whereby
+                    God is pleased, frequently, yea, ordinarily to convey his grace to them that
+                    either love or fear him? Surely there are works of mercy, as well as works of
+                    piety, which are real means of grace. They are more especially such to those
+                    that perform them with a single eye. And those that neglect them do not receive
+                    the grace which otherwise they might. Yea, and they lose, by a continued
+                    neglect, the grace which they had received.<note place="foot" xml:id="ftn2"
+                        n="2"><p rend="footnote text">The obverse of an aphorism in No. 85, ‘On
+                            Working Out Our Own Salvation’, III.6: ‘stir up the spark of grace which
+                            is now in you and God will give you more grace.’</p></note> Is it not
+                    hence that many who were once strong in faith are now weak and feeble-minded?
+                    And yet they are not sensible whence that weakness comes, as they neglect none
+                    of the ordinances of God.<note place="foot" xml:id="ftn3" n="3"><p
+                            rend="footnote text">Cf. No. 22, ‘Sermon on the Mount, II’, II.4 and n.
+                            385.</p></note> But they might see whence it comes were they seriously
+                    to consider St. Paul’s account of all true believers. ‘We are his workmanship,
+                    created anew in Christ Jesus unto good works, which God hath before prepared,
+                    that we might walk therein.’<hi rend="endnote_reference"><note place="end"><p
+                                rend="endnote text">Eph. 2:10. [Another text that seems not to have
+                                been in Wesley’s sermon repertory; there is a single reference
+                                (1748) to Eph. 2:11-13. On the other hand, Eph. 2:8 was a prime
+                                favourite (more than a hundred recorded
+                    usages).]</p></note></hi></p>
+                <p n="2">2. The walking herein is essentially necessary, as to the continuance of
+                    that faith whereby we ‘are’ already ‘saved by <pb n="03:386"/>grace’,<note
+                        place="foot" xml:id="ftn4" n="4"><p rend="footnote text">Cf. Eph. 2:5,
+                            8.</p></note> so to the attainment of everlasting salvation. Of this we
+                    cannot doubt, if we seriously consider that these are the very words of the
+                    great Judge himself: ‘Come, ye blessed children of my Father, inherit the
+                    kingdom prepared for you from the foundation of the world. For I was hungry, and
+                    ye gave me meat, thirsty, and ye gave me drink. I was a stranger, and ye took me
+                    in; naked, and ye clothed me; I was sick, and ye visited me; I was in prison,
+                    and ye came unto me.’<hi rend="endnote_reference"><note place="end"><p
+                                rend="endnote text">Matt. 25:34, etc.</p></note></hi> ‘Verily I say
+                    unto you, inasmuch as ye have done it unto one of the least of these my
+                    brethren, ye have done it unto me.’ If this does not convince you that the
+                    continuance in works of mercy is necessary to salvation, consider what the Judge
+                    of all says to those on the left hand: ‘Depart, ye cursed, into everlasting
+                    fire, prepared for the devil and his angels. For I was hungry, and ye gave me no
+                    meat: thirsty, and ye gave me no drink: I was a stranger, and ye took me not in:
+                    naked, and ye clothed me not: sick and in prison, and ye visited me not.
+                    Inasmuch as ye have not done it unto one of the least of these, neither have ye
+                    done it unto me.’ You see, were it for this alone, they must ‘depart’ from God
+                    ‘into everlasting punishment’.<note place="foot" xml:id="ftn5" n="5"><p
+                            rend="footnote text">Cf. Matt. 25:40-46.</p></note></p>
+                <p n="3">3. Is it not strange that this important truth should be so little
+                    understood, or at least should so little influence the practice even of them
+                    that fear God? Suppose this representation be true, suppose the Judge of all the
+                    earth speaks right, those and those only that feed the hungry, give drink to the
+                    thirsty, clothe the naked, relieve the stranger, visit those that are sick and
+                    in prison, according to their power and opportunity, shall ‘inherit the
+                    everlasting kingdom’. And those that do not shall ‘depart into everlasting fire,
+                    prepared for the devil and his angels’.<note place="foot" xml:id="ftn6" n="6"><p
+                            rend="footnote text">Matt. 25:41.</p></note></p>
+                <p n="4">4. I purpose at present to confine my discourse to one article of these,
+                    ‘visiting the sick’; a plain duty, which all that are in health may practise in
+                    a higher or lower degree; and which nevertheless is almost universally
+                    neglected, even by those that profess to love God. And touching this I would
+                    inquire, first, what is implied in visiting the sick? Secondly, how is it to be
+                    performed? And thirdly, by whom?</p>
+            </div>
+            <pb n="03:387"/>
+            <div type="section" n="1">
+                <p>I. First, I would inquire, What is the nature of this duty? What is implied in
+                    ‘visiting the sick’?</p>
+                <p n="1">1. By the sick I do not mean only those that keep their bed, or that are
+                    sick in the strictest sense. Rather I would include all such as are in a state
+                    of affliction, whether of mind or body; and that whether they are good or bad,
+                    whether they fear God or not.</p>
+                <p n="2">[2.] ‘But is there need of visiting them in person? May we not relieve them
+                    at a distance? Does it not answer the same purpose if we send them help as if we
+                    carry it ourselves?’ Many are so circumstanced that they cannot attend the sick
+                    in person; and where this is the real case it is undoubtedly sufficient for them
+                    to send help, being the only expedient they can use. But this is not properly
+                    ‘visiting the sick’; it is another thing. The word which we render ‘visit’ in
+                    its literal acceptation means to ‘look upon’.<note place="foot" xml:id="ftn7"
+                        n="7"><p rend="footnote text">I.e., ἐπισκέπτεσθαι, as in Matt. 25:36, 43;
+                            Luke 1:68; 7:16; Acts 6:3; 7:23; 15:14, 36; Heb. 2:6; and Jas. 1:27. It
+                            is a familiar usage in classical Greek and occurs frequently in the
+                            Septuagint as a translation of פקד (<hi rend="italic">paqad</hi>) and
+                            its cognates; cf. Hatch and Redpath, <hi rend="italic">Concordance to
+                                the Septuagint</hi>, I.527-28.</p></note> And this, you well know,
+                    cannot be done unless you are present with them. To send them assistance is
+                    therefore entirely a different thing from visiting them. The former then ought
+                    to be done, but the latter not left undone.<note place="foot" xml:id="ftn8"
+                        n="8"><p rend="footnote text">An echo of BCP, General
+                    Confession.</p></note></p>
+                <p>‘But I send a physician to those that are sick; and he can do them more good than
+                    I can.’ He can in one respect: he can do them more good with regard to their
+                    bodily health. But he cannot do them more good with regard to their souls, which
+                    are of infinitely greater importance. And if he could, this would not excuse <hi
+                        rend="italic">you</hi>: his going would not fulfil <hi rend="italic"
+                        >your</hi> duty. Neither would it do the same good to <hi rend="italic"
+                        >you</hi>, unless you saw them with your own eyes. If you do not, you lose a
+                    means of grace; you lose an excellent means of increasing your thankfulness to
+                    God, who saves you from this pain and sickness, and continues your health and
+                    strength; as well as of increasing your sympathy with the afflicted, your
+                    benevolence, and all social affections.</p>
+                <p n="3">3. One great reason why the rich in general have so little sympathy for the
+                    poor is because they so seldom visit them. Hence it is that, according to the
+                    common observation, one part of the world does not know what the other
+                        suffers.<note place="foot" xml:id="ftn9" n="9"><p rend="footnote text"
+                            >Rabelais has the proverb as ‘one half of the world knoweth not how the
+                            other half liveth;’ cf. <hi rend="italic">Works</hi> (1532), II.xxxii.
+                            Bishop Joseph Hall, <hi rend="italic">Holy Observations</hi> (1607), No.
+                            XVII, repeats this in a context similar to Wesley’s (cf. Hall’s <hi
+                                rend="italic">Select Works</hi>, III.86); George Herbert has it also
+                            in <hi rend="italic">Jacula Prudentium</hi>, p. 906.</p></note> Many of
+                    them <pb n="03:388"/>do not know, because they do not care to know: they keep
+                    out of the way of knowing it—and then plead their voluntary ignorance as an
+                    excuse for their hardness of heart. ‘Indeed, sir’ (said a person of large
+                    substance), ‘I am a very compassionate man. But to tell you the truth, I do not
+                    know anybody in the world that is in want.’ How did this come to pass? Why, he
+                    took good care to keep out of their way. And if he fell upon any .of them
+                    unawares, ‘he passed over on the other side.’<note place="foot" xml:id="ftn10"
+                        n="10"><p rend="footnote text">Cf. Luke 10:31, 32.</p></note></p>
+                <p n="4">4. How contrary to this is both the spirit and behaviour of even people of
+                    the highest rank in a neighbouring nation! In Paris ladies of the first
+                    quality—yea, princesses of the blood, of the royal family—constantly visit the
+                    sick, particularly the patients in the Grand Hospital. And they not only take
+                    care to relieve their wants (if they need anything more than is provided for
+                    them) but attend on their sick-beds, dress their sores, and perform the meanest
+                    offices for them. Here is a pattern for the English, poor or rich, mean or
+                    honourable! For many years we have abundantly copied after the follies of the
+                    French. Let us for once copy after their wisdom and virtue, worthy the imitation
+                    of the whole Christian world. Let not the gentlewomen, or even the countesses in
+                    England, be ashamed to imitate those princesses of the blood! Here is a fashion
+                    that does honour to human nature. It began in France; but God forbid it should
+                    end there!<note place="foot" xml:id="ftn11" n="11"><p rend="footnote text">Cf.
+                            Samuel Wesley, Jun., ‘A Letter from a Guardian to a Young Lady’, <hi
+                                rend="italic">Poems</hi> (1736), p. 98:</p><l>And thus, if we may
+                            credit Fame’s Report,</l><l>The best and fairest in the Gallick
+                            Court,</l><l>An Hour sometimes in Hospitals employ,</l><l>To give the
+                            dying Wretch a Glimpse of joy;</l><l>T’ attend the Crowds that hopeless
+                            Pangs endure,</l><l>And sooth the Anguish which they cannot
+                            cure:</l><l>To clothe the Bare and give the Empty Food,</l><l>As bright
+                            as Guardian Angels and as good.</l><l>Better import this Custom out of
+                            France,</l><l>Than the last Top-knot, or the newest Dance.</l><p
+                            rend="footnote text">See also Anthony Horneck, ‘A Letter…Concerning the
+                            Lives of the Primitive Christians’, which Wesley extracted and printed
+                            in the <hi rend="italic">Christian Lib.</hi>, XXIX.120 (‘the greatest
+                            ladies [nursed the sick] as if they were their meanest servants’), and
+                            William Cave, <hi rend="italic">Primitive Christianity</hi> (also
+                            printed in the <hi rend="italic">Christian Lib.</hi>, XXXI.229), Pt. II,
+                            ch. 1 (how the Empress Placilla visited hospitals and nursed the sick
+                            with her own hands); cf. also Pt. III, ch. 2 (<hi rend="italic"
+                                >ibid.</hi>, pp. 272-73).</p></note></p>
+                <pb n="03:389"/>
+                <p n="5">5. And if your delicacy will not permit you to imitate those truly
+                    honourable ladies, by abasing yourselves in the manner which they do, by
+                    performing the lowest offices for the sick, you may, however, without humbling
+                    yourselves so far, supply them with whatever they want. And you may administer
+                    help of a more excellent kind, by supplying their spiritual wants; instructing
+                    them (if they need such instruction) in the first principles of religion;
+                    endeavouring to show them the dangerous state they are in, under the wrath and
+                    curse of God through sin, and point them to the Lamb of God, who taketh away the
+                    sins of the world.<note place="foot" xml:id="ftn12" n="12"><p
+                            rend="footnote text">See John 1:29; and cf. the <hi rend="italic">Agnus
+                                Dei</hi>, after Communion in BCP.</p></note> Beside this general
+                    instruction, you might have abundant opportunities of comforting those that are
+                    in pain of body or distress of mind; you might find opportunities of
+                    strengthening the feeble-minded, quickening those that are faint and weary; and
+                    of building up those that have believed, and encouraging them to ‘go on to
+                        perfection’.<note place="foot" xml:id="ftn13" n="13"><p rend="footnote text"
+                            >Heb. 6:1.</p></note> But these things you must do in your own person;
+                    you see, they cannot be done by proxy. Or suppose you could give the same relief
+                    to the sick by another, you could not reap the same advantage to yourself. You
+                    could not gain that increase in lowliness, in patience, in tenderness of spirit,
+                    in sympathy with the afflicted, which you might have gained if you had assisted
+                    them in person. Neither would you receive the same recompense in the
+                    resurrection of the just, when ‘every man shall receive his own reward,
+                    according to his own labour.’<note place="foot" xml:id="ftn14" n="14"><p
+                            rend="footnote text">1 Cor. 3:8.</p></note></p>
+            </div>
+            <div type="section" n="2">
+                <p n="1">II. 1. I proceed to inquire, in the second place, How are we to visit them?
+                    In what manner may this labour of love be most effectually performed? How may we
+                    do this most to the glory of God, and the benefit of our neighbour? But before
+                    ever you enter upon the work you should be deeply convinced that you are by no
+                    means sufficient for it; you have neither sufficient grace, nor sufficient
+                    understanding, to perform it in the most excellent manner. And this will
+                    convince you of the necessity of applying to the Strong for strength,<note
+                        place="foot" xml:id="ftn15" n="15"><p rend="footnote text">See No. 48,
+                            ‘Self-denial’, III.4 and n.</p></note> and of flying to the Father of
+                    lights, the Giver of every good gift,<note place="foot" xml:id="ftn16" n="16"><p
+                            rend="footnote text">See Jas. 1:17.</p></note> for wisdom; ever
+                    remembering, ‘there is a spirit in man that giveth wisdom, and the inspiration
+                    of the <pb n="03:390"/>Holy One that giveth understanding.’<note place="foot"
+                        xml:id="ftn17" n="17"><p rend="footnote text">Cf. Job 32:8, and note
+                            Wesley’s unusual translation of Shaddai here as ‘the Holy
+                        One’.</p></note> Whenever therefore you are about to enter upon the work,
+                    seek his help by earnest prayer. Cry to him for the whole spirit of humility,
+                    lest if pride steal into your heart, if you ascribe anything to yourself, while
+                    you strive to save others you destroy your own soul. Before and through the
+                    work, from the beginning to the end, let your heart wait upon him for a
+                    continual supply of meekness and gentleness, of patience and long-suffering,
+                    that you may never be angry or discouraged, at whatever treatment, rough or
+                    smooth, kind or unkind, you may meet with. Be not moved with the deep ignorance
+                    of some, the dullness, the amazing stupidity of others; marvel not at their
+                    peevishness or stubbornness, at their non-improvement after all the pains that
+                    you have taken; yea, at some of them turning back to perdition, and being worse
+                    than they were before. Still your record is with the Lord, and your reward with
+                    the Most High.</p>
+                <p n="2">2. As to the particular method of treating the sick, you need not tie
+                    yourself down to any; but may continually vary your manner of proceeding as
+                    various circumstances may require. But it may not be amiss usually to begin with
+                    inquiring into their outward condition. You may ask whether they have the
+                    necessaries of life. Whether they have sufficient food and raiment. If the
+                    weather be cold, whether they have fuel. Whether they have needful attendance.
+                    Whether they have proper advice with regard to their bodily disorder; especially
+                    if it be of a dangerous kind. In several of these respects you may be able to
+                    give them some assistance yourself: and you may move those that are more able
+                    than you to supply your lack of service. You might properly say in your own
+                    case, ‘To beg I am ashamed;’<note place="foot" xml:id="ftn18" n="18"><p
+                            rend="footnote text">Luke 16:3.</p></note> but never be ashamed to beg
+                    for the poor; yea, in this case, be an importunate beggar—do not easily take a
+                    denial. Use all the address, all the understanding, all the influence you have;
+                    at the same time trusting in him that has the hearts of all men in his
+                    hands.</p>
+                <p n="3">3. You will then easily discern whether there is any good office which you
+                    can do for them with your own hands. Indeed most of the things which are needful
+                    to be done, those about them can do better than you. But in some you may have
+                    more skill or more experience than them. And if you have, let not delicacy or
+                    honour stand in your way. Remember his word, ‘Inasmuch as ye have <pb n="03:391"
+                    />done it unto the least of these, ye have done it unto me.’<note place="foot"
+                        xml:id="ftn19" n="19"><p rend="footnote text">Matt. 25:40.</p></note> And
+                    think nothing too mean to do for him! Rejoice to be abased for his sake!</p>
+                <p n="4">4. These little labours of love will pave your way to things of greater
+                    importance. Having shown that you have a regard for their bodies you may proceed
+                    to inquire concerning their souls. And here you have a large field before you;
+                    you have scope for exercising all the talents which God has given you. May you
+                    not begin with asking, Have you ever considered that God governs the world? That
+                    his providence is over all? And over <hi rend="italic">you</hi> in particular?
+                    Does anything then befall you without his knowledge? Or without his designing it
+                    for your good? He knows all you suffer; he knows all your pains; he sees all
+                    your wants. He sees, not only your affliction in general, but every particular
+                    circumstance of it. Is he not looking down from heaven, and disposing all these
+                    things for your profit? You may then inquire whether he is acquainted with the
+                    general principles of religion. And afterwards lovingly and gently examine
+                    whether his life has been agreeable thereto. Whether he has been an outward,
+                    barefaced sinner, or has had a form of religion. See next whether he knows
+                    anything of the power [of godliness];<note place="foot" xml:id="ftn20" n="20"><p
+                            rend="footnote text">An apparent lacuna here in both early texts, but
+                            the phrase, ‘the form and the power of godliness’, is an old cliché and
+                            supports this conjecture; cf. 2 Tim. 3:5.</p></note> of worshipping God
+                    ‘in spirit and in truth’.<note place="foot" xml:id="ftn21" n="21"><p
+                            rend="footnote text">John 4:23, 24.</p></note> If he does not, endeavour
+                    to explain to him, ‘Without holiness no man shall see the Lord;’<note
+                        place="foot" xml:id="ftn22" n="22"><p rend="footnote text">Cf. Heb.
+                            12:14.</p></note> and ‘Except a man be born again, he cannot see the
+                    kingdom of God.’<note place="foot" xml:id="ftn23" n="23"><p rend="footnote text"
+                            >John 3:3.</p></note> When he begins to understand the nature of
+                    holiness, and the necessity of the new birth, then you may press upon him
+                    ‘repentance toward God, and faith in our Lord Jesus Christ’.<note place="foot"
+                        xml:id="ftn24" n="24"><p rend="footnote text">Cf. Acts 20:21.</p></note></p>
+                <p n="5">5. When you find any of them begin to fear God, it will be proper to give
+                    them one after another some plain tracts, as the <hi rend="italic">Instructions
+                        for Christians</hi>,<note place="foot" xml:id="ftn25" n="25"><p
+                            rend="footnote text">In 1745 Wesley had published a revised English
+                            ‘extract’ of Pierre Poieret (1646-1719), <hi rend="italic">Les Principes
+                                solides de la Religion et de la Vie Chrétienne, appliqués à l’
+                                éducation des enfans et applicables à toutes sortes de
+                                personnes</hi> (1705), under the title, <hi rend="italic"
+                                >Instructions for Children</hi>. In his <hi rend="italic"
+                            >Works</hi>, Vol. XXIV (1773), it appears with the title <hi
+                                rend="italic">Instructions for Christians</hi> (<hi rend="italic"
+                                >Bibliog</hi>, No. 101, and cf. No. 245). Poiret was a prominent
+                            French mystic, disciple and biographer of Antoinette Bourignon and
+                            author of the famous <hi rend="italic">Bibliotheca mysticorum
+                                selecta</hi> (1708).</p></note>
+                    <hi rend="italic">Awake, thou that Steepest</hi>,<note place="foot"
+                        xml:id="ftn26" n="26"><p rend="footnote text">See No. 3, <hi rend="italic"
+                                >‘Awake Thou That Steepest’.</hi></p></note> and <hi rend="italic"
+                        >The </hi><pb n="03:392"/><hi rend="italic">Nature and Design of
+                        Christianity</hi>.<note place="foot" xml:id="ftn27" n="27"><p
+                            rend="footnote text">An abridged extract from Law’s <hi rend="italic"
+                                >Christian Perfection</hi> which Wesley had published in 1740 under
+                            the title, <hi rend="italic">The Nature and Design of Christianity</hi>,
+                            and frequently reprinted thereafter (cf. <hi rend="italic">Bibliog</hi>,
+                            No. 41).</p></note> At the next visit you may inquire what they have
+                    read; what they remember; and what they understand. And then will be the time to
+                    enforce what they understand, and if possible impress it on their hearts. Be
+                    sure to conclude every meeting with prayer. If you cannot yet pray without a
+                    form you may use some of those composed by Mr. Spinckes,<note place="foot"
+                        xml:id="ftn28" n="28"><p rend="footnote text">Nathaniel Spinckes
+                            (1653-1727), <hi rend="italic">The Sick Man Visited and Furnished With
+                                Instructions, Meditations and Prayers</hi> (1712). Spinckes’s <hi
+                                rend="italic">The Church of England-man’s Companion in the
+                                Closet</hi> was the main source of Wesley’s <hi rend="italic"
+                                >Collection of Forms of Prayer</hi> (1733); cf. <hi rend="italic"
+                                >Bibliog</hi>, No. 1.</p></note> or any other pious writer. But the
+                    sooner you break through this backwardness the better. Ask of God, and he will
+                    soon open your mouth.</p>
+                <p n="6">6. Together with the more important lessons which you endeavour to teach
+                    all the poor whom you visit, it would be a deed of charity to teach them two
+                    things more, which they are generally little acquainted with—industry and
+                    cleanliness. It was said by a pious man, ‘Cleanliness is next to
+                        godliness.’<note place="foot" xml:id="ftn29" n="29"><p rend="footnote text"
+                            >Rabbi Phinehas ben Yair; see No. 88, ‘On Dress’, §5 and n.</p></note>
+                    Indeed the want of it is a scandal to all religion; causing the way of truth to
+                    be evil spoken of.<note place="foot" xml:id="ftn30" n="30"><p
+                            rend="footnote text">See 2 Pet. 2:2.</p></note> And without industry we
+                    are neither fit for this world nor for the world to come. With regard to both,
+                    ‘Whatsoever thy hand findeth to do, do it with thy might.’<note place="foot"
+                        xml:id="ftn31" n="31"><p rend="footnote text">Eccles. 9:10.</p></note></p>
+            </div>
+            <div type="section" n="3">
+                <p n="1">III. 1. The third point to be considered is, By whom is this duty to be
+                    performed? The answer is ready—by all that desire to ‘inherit the kingdom’ of
+                    their Father, which was prepared for them from the foundation of the world.<note
+                        place="foot" xml:id="ftn32" n="32"><p rend="footnote text">See Matt.
+                            25:34.</p></note> For thus saith the Lord: ‘Come, ye blessed…, inherit
+                    the kingdom…. For I was sick and ye visited me.’<note place="foot"
+                        xml:id="ftn33" n="33"><p rend="footnote text">Cf. Matt. 25:34,
+                        36.</p></note> And to those on the left hand: ‘Depart, ye cursed…. For I was
+                    sick, and ye visited me not.’<note place="foot" xml:id="ftn34" n="34"><p
+                            rend="footnote text">Cf. Matt. 25:41-43.</p></note> Does not this
+                    plainly imply that as all who do this are ‘blessed’, and shall ‘inherit the
+                    kingdom’; so all who do it not are ‘cursed’, and shall ‘depart into everlasting
+                    fire’?</p>
+                <p n="2">2. All therefore who desire to escape everlasting fire and to inherit the
+                    everlasting kingdom are equally concerned, according to their power, to practise
+                    this important duty. It is equally <pb n="03:393"/>incumbent on young and old,
+                    rich and poor, men and women, according to their ability. None are so young, if
+                    they desire to save their own souls, as to be excused from assisting their
+                    neighbours. None are so poor (unless they want the necessaries of life) but they
+                    are called to do something, more or less, at whatever time they can spare, for
+                    the relief and comfort of their afflicted fellow-creatures.</p>
+                <p n="3">3. But those who ‘are rich in this world’,<note place="foot" xml:id="ftn35"
+                        n="35"><p rend="footnote text">1 Tim. 6:17.</p></note> who have more than
+                    the conveniences of life, are peculiarly called of God to this blessed work, and
+                    pointed out to it by his gracious providence. As you are not under a necessity
+                    of working for your bread, you have your time at your own disposal! You may
+                    therefore allot some part of it every day for this labour of love. If it be
+                    practicable it is far [the] best to have a fixed hour (for ‘any time’, we say,
+                    ‘is no time’<note place="foot" xml:id="ftn36" n="36"><p rend="footnote text">In
+                            W. Gurney Benham’s <hi rend="italic">Book of Quotations</hi> we find,
+                            ‘Any time means no time;’ in James Kelly, <hi rend="italic">Complete
+                                Collection of Scottish Proverbs</hi> (1721), the point is made thus:
+                            ‘What may be done at any time will be done at no time.’</p></note>), and
+                    not to employ that time in any other business without urgent necessity. You have
+                    likewise a peculiar advantage over many, by your station in life. Being superior
+                    in rank to them, you have the more influence on that very account. Your
+                    inferiors of course look up to you with a kind of reverence. And the
+                    condescension which you show in visiting them gives them a prejudice<note
+                        place="foot" xml:id="ftn37" n="37"><p rend="footnote text">Terms that have
+                            come to have largely negative connotations; not so here, where they
+                            denote quite positive and reciprocal feelings.</p></note> in your favour
+                    which inclines them to hear you with attention, and willingly receive what you
+                    say. Improve this prejudice to the uttermost for the benefit of their souls, as
+                    well as their bodies. While you are as eyes to the blind and feet to the
+                        lame,<note place="foot" xml:id="ftn38" n="38"><p rend="footnote text">Job
+                            29:15.</p></note> a husband to the widow and a father to the fatherless,
+                    see that you still keep a higher end in view, even the saving of souls from
+                    death, and that you labour to make all you say and do subservient to that great
+                    end.</p>
+                <p n="4">4. ‘But have <hi rend="italic">the poor</hi> themselves any part or lot in
+                    this matter? Are they any way concerned in visiting the sick?’ What can they
+                    give to others who have hardly the conveniences, or perhaps necessaries, of life
+                    for themselves? If they have not, yet they need not be wholly excluded from the
+                    blessing which attends the practice of this duty. Even those may remember that
+                    excellent <pb n="03:394"/>rule, ‘Let our conveniences give way to our
+                    neighbour’s necessities; and our necessities give way to our neighbour’s
+                        extremities.’<note place="foot" xml:id="ftn39" n="39"><p
+                            rend="footnote text">Cf. Robert South, as in No. 30, ‘Sermon on the
+                            Mount, X’, §26 and n.</p></note> And few are so poor as not to be able
+                    sometimes to give ‘two mites’;<note place="foot" xml:id="ftn40" n="40"><p
+                            rend="footnote text">Mark 12:42.</p></note> but if they are not, if they
+                    have no money to give, may they not give what is of more value? Yea, of more
+                    value than thousands of gold and silver? If you speak ‘in the name of Jesus
+                    Christ of Nazareth’,<note place="foot" xml:id="ftn41" n="41"><p
+                            rend="footnote text">Acts 3:6; 4:10.</p></note> may not the words you
+                    speak be health to the soul, and marrow to the bones?<note place="foot"
+                        xml:id="ftn42" n="42"><p rend="footnote text">Prov. 3:8.</p></note> Can you
+                    give them nothing? Nay, in administering to them the grace of God you give them
+                    more than all this world is worth! Go on! Go on! Thou poor disciple of a poor
+                    Master! Do as he did in the days of his flesh! Whenever thou hast an
+                    opportunity, go about doing good, and healing all that are oppressed of the
+                        devil;<note place="foot" xml:id="ftn43" n="43"><p rend="footnote text">See
+                            Acts 10:38.</p></note> encouraging them to shake off his chains, and fly
+                    immediately to him</p>
+                <lg>
+                    <l>Who sets the prisoners free, and breaks</l>
+                    <l>The iron bondage from their necks.</l>
+                    <note place="foot" xml:id="ftn44" n="44">
+                        <p rend="footnote text">Cf. Watts, Hymn 97 in <hi rend="italic">Hymns and
+                                Spiritual Songs</hi> (<hi rend="italic">Works</hi>, IV.180). This
+                            had been included in Wesley’s first <hi rend="italic">Collection of
+                                Psalms and Hymns</hi> (1737), pp. 35-36, and thereafter in the
+                            enlarged collection under the same title in 1741. Both texts read ‘He’
+                            for ‘Who’.</p>
+                    </note>
+                </lg>
+                <p>Above all, give them your prayers. Pray with them; pray for them! And who knows
+                    but you may save their souls alive?<note place="foot" xml:id="ftn45" n="45"><p
+                            rend="footnote text">See Ezek. 13:18-19.</p></note></p>
+                <p n="5">5. You that are <hi rend="italic">old</hi>, whose feet are ready to stumble
+                    upon the dark mountains,<note place="foot" xml:id="ftn46" n="46"><p
+                            rend="footnote text">Jer. 13:16.</p></note> may not you do a little more
+                    good before you go hence and are no more seen! O remember,</p>
+                <lg>
+                    <l>’Tis time to live, if you grow old:</l>
+                    <l>Of little life the best to make,</l>
+                    <l>And manage wisely the last stake!</l>
+                    <note place="foot" xml:id="ftn47" n="47">
+                        <p rend="footnote text">Cf. Abraham Cowley, <hi rend="italic"
+                                >Anacreontiques</hi>, Ode V, ‘Age’, in <hi rend="italic">Works</hi>
+                            (10th edn., 1707), I.51. See also <hi rend="italic">Anacreontis Teii
+                                Odae et Fragmenta</hi> (1732), pp. 48-49.</p>
+                    </note>
+                </lg>
+                <p>As you have lived many years, it may be hoped you have attained such knowledge as
+                    may be of use to others. You have certainly more knowledge of men, which is
+                    commonly learnt by dear-bought experience. With what strength you have left,
+                    employ the few moments you have to spare in ministering to those who are weaker
+                    than yourselves. Your grey hairs will not fail to <pb n="03:395"/>give you
+                    authority, and add weight to what you speak. You may frequently urge, to
+                    increase their attention,</p>
+                <lg>
+                    <l>Believe me, youth; for I am read in cares,</l>
+                    <l>And groan beneath the weight of more than threescore years.</l>
+                    <note place="foot" xml:id="ftn48" n="48">
+                        <p rend="footnote text">A favourite quotation with the biographers of
+                            Susanna Wesley. The original appears in a letter from Susanna to John in
+                            1727; it was then quoted by George J. Stevenson, <hi rend="italic"
+                                >Memorials of the Wesley Family</hi> (1876), p. 204, and in his
+                            memoir of her death. Adam Clarke has it in his <hi rend="italic">Memoirs
+                                of the Wesley Family</hi> (1823), p. 273, as does Eliza Clarke, <hi
+                                rend="italic">Susanna Wesley</hi> (1886), p. 158, 200. See also John
+                            Dove, <hi rend="italic">Biographical History</hi> (1840), p. 168, and
+                            John Kirk, <hi rend="italic">Mother of the Wesleys</hi> (1864), p. 271.
+                            It seems to be a paraphrase of Alexander Pope’s ‘January and May: Or,
+                            the Merchant’s Tale from Chaucer’, ll. 87-88, in <hi rend="italic"
+                                >Works</hi> (1764), I.211:</p>
+                        <l>Beneath the weight of threescore years I bend</l>
+                        <l>And, worn with cares, am hastening to my end.</l>
+                        <p rend="footnote text">The ‘original’ in Chaucer, <hi rend="italic"
+                                >Works</hi> (1687), p. 54, is as follows:</p>
+                        <l>With face sad, his tale hath he them told:</l>
+                        <l>He said, good friends, I am hore and old</l>
+                        <l>And almost (God wot) on the pits brinke,</l>
+                        <l>Upon my soule somewhat I must I thinke.</l>
+                    </note>
+                </lg>
+                <p>You have frequently been a sufferer yourself; perhaps you are so still. So much
+                    the more give them all the assistance you can, both with regard to their souls
+                    and bodies, before they and you go to the place whence you will not return.<note
+                        place="foot" xml:id="ftn49" n="49"><p rend="footnote text">See Job 10:21,
+                            and Shakespeare, <hi rend="italic">Hamlet</hi>, III.i.79-80:</p>
+                        <lg><l>The undiscovered country, from whose bourne</l>
+                            <l>No traveller returns.</l></lg></note></p>
+                <p n="6">6. On the other hand, you that are <hi rend="italic">young</hi> have
+                    several advantages that are almost peculiar to yourselves. You have generally a
+                    flow of spirits, and a liveliness of temper which, by the grace of God, make you
+                    willing to undertake, and capable of performing, many good works at which others
+                    would be discouraged. And you have your health and strength of body, whereby you
+                    are eminently qualified to assist the sick and those that have no strength. You
+                    are able to take up and carry the crosses which may be expected to lie in the
+                    way. Employ then your whole vigour of body and mind in ministering to your
+                    afflicted brethren. And bless God that you have them to employ in so honourable
+                    a service; like those heavenly ‘servants of his that do his pleasure’<note
+                        place="foot" xml:id="ftn50" n="50"><p rend="footnote text">Ps. 103:21
+                            (BCP).</p></note> by continually ministering to the heirs of
+                    salvation.</p>
+                <p n="7">7. ‘But may not <hi rend="italic">women</hi> as well as men bear a part in
+                    this <pb n="03:396"/>honourable service?’ Undoubtedly they may; nay, they
+                    ought—it is meet, right, and their bounden duty.<note place="foot"
+                        xml:id="ftn51" n="51"><p rend="footnote text">BCP, Communion, Preface to the
+                            Sanctus.</p></note> Herein there is no difference: ‘there is neither
+                    male nor female in Christ Jesus.’<note place="foot" xml:id="ftn52" n="52"><p
+                            rend="footnote text">Gal. 3:28.</p></note> Indeed it has long passed for
+                    a maxim with many that ‘women are only to be seen, not heard.’<note place="foot"
+                        xml:id="ftn53" n="53"><p rend="footnote text">Derived from Sophocles, <hi
+                                rend="italic">Ajax</hi>, I.293 (‘…For women, silence appears as an
+                            ornament’). In the <hi rend="italic">Oxford Dictionary of English
+                                Proverbs</hi> the form ‘Silence is the best ornament of a woman’ is
+                            cited from Taverner (1545), <hi rend="italic">et al.</hi> See also under
+                            ‘Children (maidens) should be seen, and not heard.’</p></note> And
+                    accordingly many of them are brought up in such a manner as if they were only
+                    designed for agreeable playthings! But is this doing honour to the sex? Or is it
+                    a real kindness to them? No; it is the deepest unkindness; it is horrid cruelty;
+                    it is mere Turkish barbarity. And I know not how any woman of sense and spirit
+                    can submit to it. Let all you that have it in your power assert the right which
+                    the God of nature has given you. Yield not to that vile bondage any longer. You,
+                    as well as men, are rational creatures. You, like them, were made in the image
+                    of God: you are equally candidates for immortality.<note place="foot"
+                        xml:id="ftn54" n="54"><p rend="footnote text">Is this an echo of Dryden’s
+                            ‘To the Memory of Mrs. Killigrew’ (‘…while yet a young probationer and
+                            candidate for heaven’)? Cf. No. 100, ‘On Pleasing All Men’,
+                        II.5.</p></note> You too are called of God, as you have time, to ‘do good
+                    unto all men’.<note place="foot" xml:id="ftn55" n="55"><p rend="footnote text"
+                            >Gal. 6:10.</p></note> Be ‘not disobedient to the heavenly
+                        calling’.<note place="foot" xml:id="ftn56" n="56"><p rend="footnote text"
+                            >Cf. Acts. 26:19.</p></note> Whenever you have opportunity, do all the
+                    good you can, particularly to your poor sick neighbour. And every one of <hi
+                        rend="italic">you</hi> likewise ‘shall receive your own reward according to
+                    your own labour’.<note place="foot" xml:id="ftn57" n="57"><p
+                            rend="footnote text">Cf. 1 Cor. 3:8.</p></note></p>
+                <p n="8">8. It is well known that in the primitive church there were women
+                    particularly appointed for this work. Indeed there was one or more such in every
+                    Christian congregation under heaven. They were then termed ‘deaconesses’, that
+                    is, ‘servants’—servants of the church and of its great Master. Such was Phebe
+                    (mentioned by St. Paul), ‘a deaconess of the Church at Cenchrea’.<hi
+                        rend="endnote_reference"><note place="end"><p rend="endnote text">Rom. 16:1
+                                [Cf. <hi rend="italic">Notes</hi>].</p></note></hi> It is true most
+                    of these were women in years, and well experienced in the work of God. But were
+                    the young wholly excluded from that service? No; neither need they be, provided
+                    they know in whom they have believed,<note place="foot" xml:id="ftn58" n="58"><p
+                            rend="footnote text">See 2 Tim. 1:12.</p></note> and show that they are
+                        <pb n="03:397"/>holy of heart by being holy in all manner of
+                        conversation.<note place="foot" xml:id="ftn59" n="59"><p
+                            rend="footnote text">1 Pet. 1:15.</p></note> Such a deaconess, if she
+                    answered her picture, was Mr. Law’s Miranda.<note place="foot" xml:id="ftn60"
+                        n="60"><p rend="footnote text">An idealized character in Law, <hi
+                                rend="italic">Serious Call</hi>, chs. 8-9.</p></note> Would anyone
+                    object to her visiting and relieving the sick and poor because she was a woman?
+                    Nay, and a young one too? Do any of you that are young desire to tread in her
+                    steps? Have you a pleasing form? An agreeable address? So much the better, if
+                    you are wholly devoted to God. He will use these, if your eye be single,<note
+                        place="foot" xml:id="ftn61" n="61"><p rend="footnote text">See Matt.
+                            6:22.</p></note> to make your words strike the deeper. And while you
+                    minister to others, how many blessings may redound into your own bosom! Hereby
+                    your natural levity may be destroyed, your fondness for trifles cured, your
+                    wrong tempers corrected, your evil habits weakened, until they are rooted out.
+                    And you will be prepared to adorn the doctrine of God our Saviour<note
+                        place="foot" xml:id="ftn62" n="62"><p rend="footnote text">Titus
+                        2:10.</p></note> in every future scene of life. Only be very wary if you
+                    visit or converse with those of the other sex, lest your affections be entangled
+                    on one side or the other, and so you find a curse instead of a blessing.</p>
+                <p n="9">9. Seeing then this is a duty to which we are called, rich and poor, young
+                    and old, male and female (and it would be well if parents would train up their
+                    children herein, as well as in saying their prayers and going to church), let
+                    the time past suffice that almost all of us have neglected it, as by general
+                    consent. O what need has every one of us to say, ‘Lord, forgive me my sins of
+                        omission!’<note place="foot" xml:id="ftn63" n="63"><p rend="footnote text"
+                            >The dying words of Archbishop Ussher; see No. 14, <hi rend="italic">The
+                                Repentance of Believers</hi>, I.14 and n.</p></note> Well, in the
+                    name of God let us now from this day set about it with general consent. And, I
+                    pray, let it never go out of your mind that this is a duty which you cannot
+                    perform by proxy; unless in one only case—unless you are disabled by your own
+                    pain or weakness. In that only case it suffices to send the relief which you
+                    would otherwise give. Begin, my dear brethren, begin now: else the impression
+                    which you now feel will wear off; and possibly it may never return! What then
+                    will be the consequence? Instead of hearing that word, ‘Come, ye blessed…. For I
+                    was sick and ye visited me,’ you must hear that awful sentence, ‘Depart, ye
+                    cursed!… For I was sick, and ye visited me not!’<note place="foot"
+                        xml:id="ftn64" n="64"><p rend="footnote text">Cf. Matt. 25:34, 36, 41,
+                            43.</p></note></p>
+            </div>
+            <p><placeName>Aberdeen</placeName>, <date when="05-23-1786">May 23, 1786</date><note
+                    place="foot" xml:id="ftn65" n="65"><p rend="footnote text">Place and date as in
+                            <hi rend="italic">AM</hi>.</p></note></p>
+        </body>
+    </text>
+</TEI>

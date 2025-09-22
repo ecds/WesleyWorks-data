@@ -1,0 +1,549 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Sermon 101: The Duty of Constant Communion</title>
+                <author>Wesley, John</author>
+                <editor role="text">Van Buskirk, Gregory P.</editor>
+                <editor role="digital">Taylor, Michelle M.</editor>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>The Wesley Works Digitzation Project</publisher>
+                <pubPlace>Tampa, FL</pubPlace>
+                <date>2024-02-25</date>
+            </publicationStmt>
+            <sourceDesc>
+                <listBibl>
+                    <biblStruct>
+                        <analytic>
+                            <title level="a">Sermon 101: The Duty of Constant Communion</title>
+                        </analytic>
+                        <monogr>
+                            <title level="j">The Works of John Wesley, Volume III: Sermons III,
+                                71-114</title>
+                            <editor role="volume">Outler, Albert</editor>
+                            <imprint>
+                                <publisher>Abingdon Press</publisher>
+                                <pubPlace>Nashville, TN</pubPlace>
+                                <date when="1986-11-01">1986-11-01</date>
+                                <biblScope unit="volume" n="3"/>
+                                <biblScope unit="page" from="427" to="397"/>
+                            </imprint>
+                        </monogr>
+                        <series>
+                            <title level="s">The Works of John Wesley</title>
+                            <editor role="general">Baker, Frank</editor>
+                        </series>
+                    </biblStruct>
+                </listBibl>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Greg Van Buskirk created Word docs for all of Wesley's sermons using a combination of
+                OCR software and manual proofing. Michelle Taylor converted these docx into XML
+                using Oxygen's DITA automatic transformation scenario, then touched them up
+                manually.</p>
+        </encodingDesc>
+        <standOff>
+            <taxonomy>
+                <keywords>
+                    <term/>
+                </keywords>
+            </taxonomy>
+            <!--Include keywords and terms here eventually.-->
+        </standOff>
+        <revisionDesc/>
+    </teiHeader>
+    <text>
+        <body>
+            <pb n="03:427"/>
+            <head>
+                <hi rend="italic">An Introductory Comment</hi>
+            </head>
+            <introduction>
+                <p>The most celebrated Anglican liturgist of his time was the Nonjuror, Robert
+                    Nelson (1656-1715), whose <hi rend="italic">Companion for the Festivals and
+                        Fasts of the Church of England…</hi> (1704) had promptly become a classic,
+                    with ten thousand copies printed and, sold in its first five years and more than
+                    thirty editions within the century. In 1707 he had published an enlargement (and
+                    revision) of his <hi rend="italic">Companion</hi>’s chapter on ‘Vigils’ under
+                    the title, <hi rend="italic">The Great Duty of Frequenting the Christian
+                        Sacrifice</hi>.</p>
+                <p>Wesley had found Nelson a most helpful mentor in many ways; in 1732 he had
+                    written out an extract of <hi rend="italic">The Great Duty…</hi>, for use with
+                    his own pupils at Lincoln College. This extract has survived and may be seen in
+                    Volume 20 of the Colman Collection, now in the Methodist Archives in the John
+                    Rylands Library of the University of Manchester. In his extract Wesley actually
+                    rewrote a good deal of Nelson’s text. Fifty-five years later, he proceeded to
+                    abridge that extract (and to revise it still further); he then presented the
+                    result as an ‘original sermon’ in the <hi rend="italic">Arminian Magazine</hi>
+                    for May and June 1787 (X.229-36, 290-95). It has no title but is numbered as
+                    ‘Sermon XXXIX’—and also has a heading ‘To the Reader’, claiming the text as
+                    Wesley’s own. This, however, raises a nice question, since there is too much of
+                    Nelson here for it to be acknowledged as truly ‘original’ and too much of Wesley
+                    for it to be labelled as wholly ‘borrowed’ (as in the case of the sermons
+                    ‘collected’ from William Tilly, Benjamin Calamy, <hi rend="italic">et al.</hi>;
+                    see Appendix, Vol. 4). The shift of emphasis from Nelson’s ‘frequenting the
+                    Christian sacrifice’ to Wesley’s ‘constant communion’ seems to have been
+                    suggested by a tract of Arthur Bury’s, the controversial rector of neighbouring
+                    Exeter College, entitled <hi rend="italic">The Constant Communicant</hi> (1681);
+                    the Holy Club had studied this in January 1734. When Wesley decided to include
+                    the <hi rend="italic">Magazine</hi> revision of his earlier revision of Nelson
+                    in <hi rend="italic">SOSO</hi>, VIII.131-52, he gave it its present title and
+                    repeated the earlier heading, ‘To the Reader’.</p>
+                <p>What may be the most noteworthy thing about this sermon is that it represents
+                    Wesley’s fullest and most explicit statement of his eucharistic <pb n="03:428"
+                    />doctrine and praxis, and yet his untroubled reliance upon a classic expression
+                    of the ‘catholic tradition’ in current Anglican doctrine at that time.</p>
+            </introduction>
+            <head>The Duty of Constant Communion</head>
+            <div type="preface">
+                <p>To the Reader</p>
+                <p n=""><hi rend="italic">The following discourse was written above five and fifty
+                        years ago, for the use of my pupils at Oxford. I have added very little, but
+                        retrenched much; as I then used more words than I do now. But I thank God I
+                        have not yet seen cause to alter my sentiments in any point which is therein
+                        delivered.</hi> J.W.</p>
+            </div>
+            <epigraph>
+                <p>Luke 22:19</p>
+                <p>
+                    <hi rend="italic">Do this in remembrance of me.</hi>
+                </p>
+            </epigraph>
+            <div type="introduction">
+                <p>It is no wonder that men who have no fear of God should never think of doing
+                    this. But it is strange that it should be neglected by any that do fear God, and
+                    desire to save their souls. And yet nothing is more common. One reason why any
+                    neglect it is, they are so much afraid of ‘eating and drinking unworthily’<note
+                        place="foot" xml:id="ftn1" n="1"><p rend="footnote text">Cf. 1 Cor.
+                            11:29.</p></note> that they never think how much greater the danger is
+                    when they do not eat or drink it at all. That I may do what I can to bring these
+                    well-meaning men to a more just way of thinking, I shall,</p>
+                <p>First, show that it is the duty of every Christian to receive the Lord’s Supper
+                    as often as he can; and secondly, answer some objections.</p>
+            </div>
+            <div type="section" n="1">
+                <p>I. I am to show that it is the duty of every Christian to receive the Lord’s
+                    Supper as often as he can.</p>
+                <p n="1">1. The first reason why it is the duty of every Christian so to do is
+                    because it is a plain command of Christ. That this is his command appears from
+                    the words of the text, ‘Do this in remembrance of me:’ by which, as the Apostles
+                    were obliged to bless, break, and give the bread to all that joined with them in
+                        <pb n="03:429"/>those holy things, so were all Christians obliged to receive
+                    those signs of Christ’s body and blood. Here therefore the bread and wine are
+                    commanded to be received, in remembrance of his death, to the end of the world.
+                    Observe, too, that this command was given by our Lord when he was just laying
+                    down his life for our sakes.<note place="foot" xml:id="ftn2" n="2"><p
+                            rend="footnote text">Nelson’s phrase for ‘our Lord’ is ‘our Best
+                            Friend’.</p></note> They are therefore, as it were, his dying words to
+                    all his followers.</p>
+                <p n="2">2. A second reason why every Christian should do this as often as he can is
+                    because the benefits of doing it are so great to all that do it in obedience to
+                    him; namely, the forgiveness of our past sins and the present strengthening and
+                    refreshing of our souls. In this world we are never free from temptations.
+                    Whatever way of life we are in, whatever our condition be, whether we are sick
+                    or well, in trouble or at ease, the enemies of our souls are watching to lead us
+                    into sin. And too often they prevail over us. Now when we are convinced of
+                    having sinned against God, what surer way have we of procuring pardon from him
+                    than the ‘showing forth the Lord’s death’,<note place="foot" xml:id="ftn3" n="3"
+                            ><p rend="footnote text">Cf. 1 Cor. 11:26.</p></note> and beseeching
+                    him, for the sake of his Son’s sufferings, to blot out all our sins?</p>
+                <p n="3">3. The grace of God given herein confirms to us the pardon of our sins by
+                        enabling<note place="foot" xml:id="ftn4" n="4"><p rend="footnote text"><hi
+                                rend="italic">SOSO</hi>, VIII.135, revised this to ‘and enables
+                            us’.</p></note> us to leave them. As our bodies are strengthened by
+                    bread and wine, so are our souls by these tokens of the body and blood of
+                    Christ. This is the food of our souls: this gives strength to perform our duty,
+                    and leads us on to perfection. If therefore we have any regard for the plain
+                    command of Christ,<note place="foot" xml:id="ftn5" n="5"><p rend="footnote text"
+                            >Nelson’s phrase here is ‘our Saviour’.</p></note> if we desire the
+                    pardon of our sins, if we wish for strength to believe, to love and obey God,
+                    then we should neglect no opportunity of receiving the Lord’s Supper. Then we
+                    must never turn our backs on the feast which our Lord has prepared for us. We
+                    must neglect no occasion which the good providence of God affords us for this
+                    purpose. This is the true rule—so often are we to receive as God gives us
+                    opportunity. Whoever therefore does not receive, but goes from the holy table
+                    when all things are prepared, either does not understand his duty or does not
+                    care for the dying command of his Saviour,<note place="foot" xml:id="ftn6" n="6"
+                            ><p rend="footnote text">Nelson’s phrase, ‘for the plain command of his
+                            dying Saviour’.</p></note> the forgiveness of his sins, the
+                    strengthening of his soul, and the refreshing it with the hope of glory.</p>
+                <pb n="03:430"/>
+                <p n="4">4. Let everyone therefore who has either any desire to please God, or any
+                    love of his own soul, obey God and consult the good of his own soul by
+                    communicating every time he can; like the first Christians, with whom the
+                    Christian sacrifice was a constant part of the Lord’s day’s service. And for
+                    several centuries they received it almost every day. Four times a week always,
+                    and every saint’s day beside. Accordingly those that joined in the prayers of
+                    the faithful never failed to partake of the blessed sacrament. What opinion they
+                    had of any who turned his back upon it we may learn from that ancient canon, ‘If
+                    any believer join in the prayers of the faithful, and go away without receiving
+                    the Lord’s Supper, let him be excommunicated, as bringing confusion into the
+                    church of God.’<note place="foot" xml:id="ftn7" n="7"><p rend="footnote text"
+                            >Cf. Canon II of the Dedication Council of Antioch (‘<hi rend="italic"
+                                >in Encaeniis</hi>’, A.D. 341): ‘All who enter the Church of God and
+                            hear the Holy Scriptures but do not communicate with the people in the
+                            prayers, or who turn away, by reason of some disorder, from partaking of
+                            the Holy Supper, are to be cast out of the Church…as those who bring
+                            confusion into the order of the Church.’ This is a paraphrase of the
+                            eighth and ninth of the so-called ‘Apostolic Canons’. Cf. Thomas
+                            MacNally, <hi rend="italic">The Apostolical Canons…</hi> (1867); see
+                            also Henry R. Percival, <hi rend="italic">NPNF</hi>, <hi rend="italic"
+                                >II</hi>, XIV.103-9; and K. J. Hefele, tr. H. Leclercq, <hi
+                                rend="italic">Histoire des Conciles…</hi> (1907), I, Pt. 2, pp.
+                            702-15 (a full text of Canon II is on p. 715); see also No. 27, ‘Sermon
+                            on the Mount, VII’, III.7.</p></note></p>
+                <p n="5">5. In order to understand the nature of the Lord’s Supper, it would be
+                    useful carefully to read over those passages in the Gospel and in the first
+                    Epistle to the Corinthians which speak of the institution of it. Hence we learn
+                    that the design of this sacrament is the continual remembrance of the death of
+                    Christ, by eating bread and drinking wine, which are the outward signs of the
+                    inward grace,<note place="foot" xml:id="ftn8" n="8"><p rend="footnote text">See
+                            BCP, Catechism.</p></note> the body and blood of Christ.</p>
+                <p n="6">6. It is highly expedient for those who purpose to receive this, whenever
+                    their time will permit, to prepare themselves for this solemn ordinance by
+                    self-examination and prayer. But this is not absolutely necessary. And when we
+                    have not time for it, we should see that we have the habitual preparation which
+                    is absolutely necessary, and can never be dispensed with on any account or any
+                    occasion whatever. This is, first, a full <hi rend="italic">purpose</hi> of
+                    heart to keep all the commandments of God. And secondly, a sincere <hi
+                        rend="italic">desire</hi> to receive all his promises.</p>
+            </div>
+            <div type="section" n="2">
+                <p>II. I am, in the second place, to answer the common objections against constantly
+                    receiving the Lord’s Supper.</p>
+                <pb n="03:431"/>
+                <p n="1">1. I say ‘constantly’ receiving. For as to the phrase of ‘frequent
+                        communion’,<note place="foot" xml:id="ftn9" n="9"><p rend="footnote text">A
+                            quibble reflecting a conflict between three eucharistic traditions.
+                            High-Churchmen such as Nelson (and Samuel Wesley, Sen.) favoured the
+                            phrase ‘<hi rend="italic">frequent </hi>communion’; Latitudinarians were
+                            usually content with the canonical minimum prescribed in 1549 (thrice in
+                            a year); the Puritans also communed infrequently but made of it a very
+                            solemn occasion, prepared for by earnest self-examination; cf. Isaac
+                            Barrow’s comments on this question in <hi rend="italic">Works</hi>
+                            (1859), VII.524-27.</p></note> it is absurd to the last degree. If it
+                    means anything less than constant it means more than can be proved to be the
+                    duty of any man. For if we are not obliged to communicate ‘constantly’, by what
+                    argument can it be proved that we are obliged to communicate ‘frequently’? Yea,
+                    more than once a year, or once in seven years? Or once before we die? Every
+                    argument brought for this either proves that we ought to do it <hi rend="italic"
+                        >constantly</hi>, or proves nothing at all. Therefore that indeterminate,
+                    unmeaning way of speaking ought to be laid aside by all men of
+                    understanding.</p>
+                <p n="2">2. In order to prove that it is our duty to communicate constantly we may
+                    observe that the Holy Communion is to be considered either, (1), as a command of
+                    God, or (2), as a mercy to man.</p>
+                <p>First, as a command of God. God, our Mediator and Governor, from whom we have
+                    received our life and all things, on whose will it depends whether we shall be
+                    perfectly happy or perfectly miserable from this moment to eternity, declares to
+                    us that all who obey his commands shall be eternally happy; all who do not shall
+                    be eternally miserable. Now one of these commands is, ‘Do this in remembrance of
+                    me.’ I ask then, ‘Why do you not do this, when you can do it if you will? When
+                    you have an opportunity before you, why do not you obey the command of God?’</p>
+                <p n="3">3. Perhaps you will say, ‘God does not command me to do this <hi
+                        rend="italic">as often as I can</hi>;’ that is, the words ‘as often as you
+                    can’ are not added in this particular place. What then? Are we not to obey every
+                    command of God as often as we can? Are not all the promises of God made to
+                    those, and those only, who ‘give all diligence’;<note place="foot"
+                        xml:id="ftn10" n="10"><p rend="footnote text">Cf. 2 Pet. 1:5.</p></note>
+                    that is, to those who do all they can to obey his commandments?<note
+                        place="foot" xml:id="ftn11" n="11"><p rend="footnote text">Cf. No. 25,
+                            ‘Sermon on the Mount, V’, II.2 and n.</p></note> Our power is the one
+                    rule of our duty. Whatever we can do, that we ought. With respect either to this
+                    or any other command, he that when he may obey it if he will does not, will have
+                    no place in the kingdom of heaven.<note place="foot" xml:id="ftn12" n="12"><p
+                            rend="footnote text">The implication here (II.1-3) that Wesley is
+                            ‘correcting’ Nelson is misleading. Nelson’s phrase (see 4th edn., 1711,
+                            pp. 26-36) was ‘frequent communion’ (rejected by Wesley as ‘absurd to
+                            the last degree’). But Nelson’s point (p. 34) is that Christians ought
+                            to receive the Communion as frequently as they have <hi rend="italic"
+                                >any</hi> opportunity to do so, and this equals Wesley’s rule at the
+                            very least. Actually, Nelson had used the terms ‘frequent’ and
+                            ‘constant’ as interchangeable: ‘…we must <hi rend="italic"
+                                >constantly</hi> attend this holy ordinance…’ (p.
+                    34).</p></note></p>
+                <p n="4"><pb n="03:432"/>4. And this great truth, that we are obliged to keep every
+                    command as far as we can, is clearly proved from the absurdity of the contrary
+                    opinion; for were we to allow that we are not obliged to obey every commandment
+                    of God as often as we can, we have no argument left to prove that any man is
+                    bound to obey any command at any time. For instance, should I ask a man why he
+                    does not obey one of the plainest commands of God—why, for instance, he does not
+                    help his parents—he might answer, ‘I will not do it now, but I will at another
+                    time.’ When that time comes, put him in mind of God’s command again and he will
+                    say, ‘I will obey it some time or other.’ Nor is it possible ever to prove that
+                    he ought to do it now, unless by proving that he ought to do it as often as he
+                    can: and therefore he ought to do it now, because he can if he will.</p>
+                <p n="5">5. Consider the Lord’s Supper, secondly, as a mercy from God to man. As
+                    God, whose mercy is over all his works,<note place="foot" xml:id="ftn13" n="13"
+                            ><p rend="footnote text">Ps. 145:9 (BCP).</p></note> and particularly
+                    over the children of men, knew there was but one way for man to be happy like
+                    himself, namely, by being like him in holiness; as he knew we could do nothing
+                    toward this of ourselves, he has given us certain means of obtaining his help.
+                    One of these is the Lord’s Supper, which of his infinite mercy he hath given for
+                    this very end: that through this means we may be assisted to attain those
+                    blessings which he hath prepared for us; that we may obtain holiness on earth
+                    and everlasting glory in heaven.</p>
+                <p>I ask, then, why do you not accept of his mercy as often as ever you can? God now
+                    offers you his blessing: why do you refuse it? You have an opportunity of
+                    receiving his mercy: why do you not receive it? You are weak: why do not you
+                    seize upon every opportunity of increasing your strength? In a word: considering
+                    this as a command of God, he that does not communicate as often as he can has no
+                    piety; considering it as a mercy, he that does not communicate as often as he
+                    can has no wisdom.</p>
+                <p n="6">6. These two considerations will yield a full answer to all the common
+                    objections which have been made against constant <pb n="03:433"/>communion;
+                    indeed to all that ever were or can be made. In truth nothing can be objected
+                    against it but upon supposition that at this particular time, either the
+                    communion would be no mercy, or I am not commanded to receive it. Nay, should we
+                    grant it would be no mercy, that is not enough; for still the other reason would
+                    hold: whether it does you any good or none, you are to obey the command of
+                    God.</p>
+                <p n="7">7. However, let us see the particular excuses which men commonly make for
+                    not obeying it. The most common is, ‘I am <hi rend="italic">unworthy</hi>, and
+                    “he that eateth and drinketh unworthily, eateth and drinketh damnation to
+                        himself.”<note place="foot" xml:id="ftn14" n="14"><p rend="footnote text">1
+                            Cor. 11:29.</p></note> Therefore I dare not communicate, lest I should
+                    eat and drink my own damnation.’<note place="foot" xml:id="ftn15" n="15"><p
+                            rend="footnote text">In the BCP (1662), Holy Communion, this point is
+                            dwelt on both in the preparatory announcements and in the priest’s
+                            direct exhortation to the people.</p></note></p>
+                <p>The case is this. God offers you one of the greatest mercies on this side heaven,
+                    and commands you to accept it. Why do not you accept this mercy in obedience to
+                    his command? You say, ‘I am unworthy to receive it.’ And what then? You are
+                    unworthy to receive any mercy from God. But is that a reason for refusing all
+                    mercy? God offers you a pardon for all your sins. You are unworthy of it, ’tis
+                    sure, and he knows it: but since he is pleased to offer it nevertheless, will
+                    not you accept of it? He offers to deliver your soul from death. You are
+                    unworthy to live. But will you therefore refuse life? He offers to endue your
+                    soul with new strength. Because you are unworthy of it, will you deny to take
+                    it? What can God himself do for us farther, if we refuse his mercy, even because
+                    we are unworthy of it?</p>
+                <p n="8">8. But suppose this were no mercy to us (to suppose which is indeed giving
+                    God the lie; saying, that is not good for man which he purposely ordered for his
+                    good), still I ask, Why do not you obey God’s command? He says, ‘Do this.’ Why
+                    do you not? You answer, ‘I am unworthy to do it.’ What! Unworthy to obey God?
+                    Unworthy to do what God bids you do? Unworthy to obey God’s command? What do you
+                    mean by this? That those who are unworthy to obey God ought not to obey him? Who
+                    told you so? If he were even ‘an angel from heaven, let him be accursed’.<note
+                        place="foot" xml:id="ftn16" n="16"><p rend="footnote text">Cf. Gal.
+                        1:8.</p></note> If you think God himself has told you so by St. Paul, let us
+                    hear his words. They are these: ‘He that eateth and drinketh unworthily, eateth
+                    and drinketh damnation to himself.’<note place="foot" xml:id="ftn17" n="17"><p
+                            rend="footnote text">1 Cor. 11:29.</p></note></p>
+                <pb n="03:434"/>
+                <p>Why, this is quite another thing. Here is not a word said of ‘being unworthy’ to
+                    eat and drink. Indeed he does speak of eating and drinking ‘unworthily’; but
+                    that is quite a different thing—so he has told us himself. In this very chapter
+                    we are told that by eating and drinking unworthily is meant taking the holy
+                    sacrament in such a rude and disorderly way that one was ‘hungry and another
+                        drunken’.<note place="foot" xml:id="ftn18" n="18"><p rend="footnote text"
+                            >Cf. 1 Cor. 11:21.</p></note> But what is that to <hi rend="italic"
+                        >you</hi>? Is there any danger of <hi rend="italic">your</hi> doing so? Of
+                    your eating and drinking <hi rend="italic">thus </hi>‘unworthily’? However
+                    unworthy you are to communicate, there is no fear of your communicating thus.
+                    Therefore, whatever the punishment is of doing it thus unworthily, it does not
+                    concern <hi rend="italic">you</hi>. You have no more reason from this text to
+                    disobey God than if there was no such text in the Bible. If you speak of ‘eating
+                    and drinking unworthily’ in the sense St. Paul uses the words you may as well
+                    say, ‘I dare not communicate “for fear the church should fall” as for fear I
+                    should “eat and drink unworthily”.’</p>
+                <p n="9">9. If then you fear bringing <hi rend="italic">damnation</hi> on yourself
+                    by this, you fear where no fear is. Fear it not for eating and drinking
+                    unworthily; for that, in St. Paul’s sense, ye cannot do. But I will tell you for
+                    what you shall fear damnation: for not eating and drinking at all; for not
+                    obeying your Maker and Redeemer; for disobeying his plain command; for thus
+                    setting at nought both his mercy and authority. Fear ye this; for hear what his
+                    Apostle saith: ‘Whosoever shall keep the whole law, and yet offend in one point,
+                    is guilty of all.’<hi rend="endnote_reference"><note place="end"><p
+                                rend="endnote text">Jas. 2:10.</p></note></hi></p>
+                <p n="10">10. We see then how weak the objection is, ‘I dare not receive,<hi
+                        rend="endnote_reference"><note place="end"><p rend="endnote text">The Lord’s
+                                Supper [an added note in<hi rend="italic"> AM</hi> because this is
+                                the opening paragraph in the second instalment of the sermon; it is
+                                repeated in <hi rend="italic">SOSO</hi>, VIII.143].</p></note></hi>
+                    because I am unworthy.’ Nor is it any stronger, though the reason why you think
+                    yourself unworthy is that you have lately fallen into sin. It is true our Church
+                    forbids those ‘who have done any grievous crime’ to receive without
+                        repentance.<note place="foot" xml:id="ftn19" n="19"><p rend="footnote text"
+                            >Cf. Edmund Gibson, <hi rend="italic">Codex Juris Ecclesiastici
+                                Anglicani</hi> (1713), Canons XXVI and CIX.</p></note> But all that
+                    follows from this is that we should repent before we come; not that we should
+                    neglect to come at all.</p>
+                <p>To say, therefore, that ‘a man may turn his back upon the altar because he has
+                    lately fallen into sin; that he may impose this penance upon himself’, is
+                    talking without any warrant from <pb n="03:435"/>Scripture. For where does the
+                    Bible teach to atone for breaking one commandment of God by breaking another?
+                    What advice is this—‘Commit a new act of disobedience, and God will more easily
+                    forgive the past’!</p>
+                <p n="11">11. Others there are who to excuse their disobedience plead that they are
+                    unworthy in another sense, that they ‘cannot live up to it; they cannot pretend
+                    to lead so holy a life as constantly communicating would oblige them to do.’ Put
+                    this into plain words. I ask: Why do not you accept the mercy which God commands
+                    you to accept? You answer, ‘Because I cannot live up to the profession I must
+                    make when I receive it.’ Then it is plain you ought never to receive it at all.
+                    For it is no more lawful to promise once what you know you cannot perform than
+                    to promise it a thousand times. You know, too, that it is one and the same
+                    promise whether you make it every year or every day. You promise to do just as
+                    much whether you promise ever so often or ever so seldom.</p>
+                <p>If therefore you cannot live up to the profession they make who communicate once
+                    a week, neither can you come up to the profession you make who communicate once
+                    a year. But cannot you, indeed? Then it had been good for you that you had never
+                    been born.<note place="foot" xml:id="ftn20" n="20"><p rend="footnote text">See
+                            Mark 14:21.</p></note> For all that you profess at the Lord’s table you
+                    must both profess and keep, or you cannot be saved. For you profess nothing
+                    there but this, that you will diligently keep his commandments. And cannot you
+                    keep up to this profession? Then you cannot enter into life.</p>
+                <p n="12">12. Think then what you say, before you say you cannot live up to what is
+                    required of constant communicants. This is no more than is required of any
+                    communicants, yea, of everyone that has a soul to be saved. So that to say you
+                    cannot live up to this is neither better nor worse than renouncing Christianity.
+                    It is in effect renouncing your baptism, wherein you solemnly promised to keep
+                    all his commandments. You now fly from that profession. You wilfully break one
+                    of his commandments, and to excuse yourself say you cannot keep his
+                    commandments! Then you cannot expect to receive the promises, which are made
+                    only to those that keep them.</p>
+                <p n="13">13. What has been said on this pretence against constant communion is
+                    applicable to those who say the same thing in other <pb n="03:436"/>words: ‘We
+                    dare not do it, because it requires so perfect an obedience afterwards as we
+                    cannot promise to perform.’ Nay, it requires neither more nor less perfect
+                    obedience than you promised in your baptism. You then undertook to keep the
+                    commandments of God by his help, and you promise no more when you
+                    communicate.</p>
+                <p>But observe upon the whole, this is not so properly an objection against
+                    constantly communicating as against communicating at all. For if we are not to
+                    receive the Lord’s Supper till we are worthy of it, it is certain we ought never
+                    to receive it.<note place="foot" xml:id="ftn21" n="21"><p rend="footnote text"
+                            >This paragraph is in the original <hi rend="italic">AM</hi> text; it
+                            was dropped from <hi rend="italic">SOSO</hi>, VIII, and subsequent edns.
+                            (perhaps as redundant).</p></note></p>
+                <p n="14">14. A second objection which is often made against constant communion is
+                    the having so much business as will not allow time for such a preparation as is
+                    necessary thereto. I answer: all the preparation that is absolutely necessary is
+                    contained in those words, ‘Repent you truly of your sins past; have faith in
+                    Christ our Saviour’<note place="foot" xml:id="ftn22" n="22"><p
+                            rend="footnote text">Cf. BCP, Communion, Exhortation III.</p></note>
+                    (and observe, that word is not here taken in its highest sense!); ‘amend your
+                    lives, and be in charity with all men; so shall ye be meet partakers of these
+                    holy mysteries.’ All who are thus prepared may draw near without fear, and
+                    receive the sacrament to their comfort.<note place="foot" xml:id="ftn23" n="23"
+                            ><p rend="footnote text">A paraphrase from ‘The Invitation’: ‘…draw near
+                            with faith, and receive this holy Sacrament to your
+                        comfort….’</p></note> Now what business can hinder you from being thus
+                    prepared? From repenting of your past sins? From believing that Christ died to
+                    save sinners? From amending your lives, and being in charity with all men? No
+                    business can hinder you from this, unless it be such as hinders you from being
+                    in a state of salvation. If you resolve and design to follow Christ you are fit
+                    to approach the Lord’s table. If you do not design this, you are only fit for
+                    the table and company of devils.</p>
+                <p n="15">15. No business therefore can hinder any man from having that preparation
+                    which alone is necessary, unless it be such as unprepares him for heaven, as
+                    puts him out of a state of salvation. Indeed every prudent man will, when he has
+                    time, examine himself before he receives the Lord’s Supper: whether he repents
+                    him truly of his former sins; whether he believes the promises of God; whether
+                    he fully designs to walk in his ways, and be in charity with all men. In this,
+                    and in private prayer, he will doubtless spend all the time he conveniently can.
+                    But what is this <pb n="03:437"/>to <hi rend="italic">you</hi> who have not
+                    time? What excuse is this for not obeying God? He commands you to come, and
+                    prepare yourself by prayer if you have time; if you have not, however, come.
+                    Make not reverence to God’s command a pretence for breaking it. Do not rebel
+                    against him for fear of offending him. Whatever you do or leave undone besides,
+                    be sure to do what God bids you do. Examining yourself, and using private
+                    prayer, especially before the Lord’s Supper, is good. But behold! ‘To obey is
+                    better than’ self-examination, ‘and to hearken’<note place="foot" xml:id="ftn24"
+                        n="24"><p rend="footnote text">Cf. 1 Sam. 15:22.</p></note> than the prayer
+                    of an angel.</p>
+                <p n="16">16. A third objection against constant communion is that it abates our
+                    reverence for the sacrament. Suppose it did? What then! Will you thence conclude
+                    that you are not to receive it constantly? This does not follow. God commands
+                    you, ‘Do this.’ You may do it now, but will not; and to excuse yourself say, ‘If
+                    I do it so often, it will abate the reverence with which I do it now.’ Suppose
+                    it did. Has God ever told you that when the obeying his command abates your
+                    reverence to it then you may disobey it? If he has, you are guiltless; if not,
+                    what you say is just nothing to the purpose. The law is clear. Either show that
+                    the lawgiver makes this exception, or you are guilty before him.</p>
+                <p n="17">17. Reverence for the sacrament may be of two sorts: either such as is
+                    owing purely to the newness of the thing, such as men naturally have for
+                    anything they are not used to; or such as is owing to our faith, or to the love
+                    or fear of God. Now the former of these is not properly a religious reverence,
+                    but purely natural. And this sort of reverence for the Lord’s Supper the
+                    constantly receiving of it must lessen. But it will not lessen the true
+                    religious reverence, but rather confirm and increase it.</p>
+                <p n="18">18. A fourth objection is, ‘I have communicated constantly so long, but I
+                    have not found the benefit I expected.’ This has been the case with many
+                    well-meaning persons, and therefore deserves to be particularly considered. And
+                    consider this first: whatever God commands us to do we are to do because he
+                    commands, whether we feel any benefit thereby or no. Now God commands, ‘Do this
+                    in remembrance of me.’ This therefore we are to do, because he commands, whether
+                    we find present benefit thereby or not. But undoubtedly we shall find benefit
+                    sooner or later, though perhaps insensibly. We shall be insensibly strengthened,
+                    made more fit for the service of God, and more constant in it. At <pb n="03:438"
+                    />least we are kept from falling back, and preserved from many sins and
+                    temptations. And surely this should be enough to make us receive this food as
+                    often as we can; though we do not presently feel the happy effects of it, as
+                    some have done, and we ourselves may when God sees best.</p>
+                <p n="19">19. But suppose a man has often been at the sacrament, and yet received no
+                    benefit. Was it not his own fault? Either he was not rightly prepared, willing
+                    to obey all the commands, and to receive all the promises of God; or he did not
+                    receive it aright, trusting in God. Only see that you are duly prepared for it,
+                    and the oftener you come to the Lord’s table the greater benefit you will find
+                    there.</p>
+                <p n="20">20. A fifth objection which some have made against constant communion is
+                    that ‘the Church enjoins it only three times a year.’ The words of the Church
+                    are: ‘Note, that every parishioner shall communicate at the least three times in
+                    the year.’<note place="foot" xml:id="ftn25" n="25"><p rend="footnote text">Cf.
+                            the closing rubrics in BCP, Communion, where it is further stipulated,
+                            ‘…of which Easter [is] to be one [of those three times]’.</p></note> To
+                    this I answer, first: What if the Church had not enjoined it at all? Is it not
+                    enough that God enjoins it? We obey the Church only for God’s sake. And shall we
+                    not obey God himself? If then you receive three times a year because the Church
+                    commands it, receive every time you can because God commands it. Else your doing
+                    the one will be so far from excusing you for not doing the other that your own
+                    practice will prove your folly and sin, and leave you without excuse.</p>
+                <p>But, secondly, we cannot conclude from these words that the Church excuses him
+                    who receives only thrice a year. The plain sense of them is that he who does not
+                    receive thrice at least shall be cast out of the Church. But they do by no means
+                    excuse him who communicates no oftener. This never was the judgment of our
+                    Church. On the contrary, she takes all possible care that the sacrament be duly
+                    administered, wherever the Common Prayer is read, every Sunday and holiday in
+                    the year.</p>
+                <p>The Church gives a particular direction with regard to those that are in Holy
+                    Orders. ‘In all cathedral and collegiate churches and colleges, where there are
+                    many priests and deacons, they shall all receive the communion with the priest,
+                    every Sunday at the least.’<note place="foot" xml:id="ftn26" n="26"><p
+                            rend="footnote text">BCP, Communion, Closing (‘Red’) Rubrics, ¶8. Note
+                            that Wesley quietly drops the concluding clause (‘except they have a
+                            reasonable cause to the contrary’) which Nelson had printed in full as a
+                            matter of course.</p></note></p>
+                <pb n="03:439"/>
+                <p n="21">21. It has been shown, first, that if we consider the Lord’s Supper as a
+                    command of Christ, no man can have any pretence to Christian piety who does not
+                    receive it (not once a month, but) as often as he can; secondly, that if we
+                    consider the institution of it as a mercy to ourselves, no man who does not
+                    receive it as often as he can has any pretence to Christian prudence; thirdly,
+                    that none of the objections usually made can be any excuse for that man who does
+                    not at every opportunity obey his command and accept this mercy.</p>
+                <p n="22">22. It has been particularly shown, first, that unworthiness is no excuse,
+                    because, though in one sense we are all unworthy, yet none of us need be afraid
+                    of being unworthy in St. Paul’s sense, of ‘eating and drinking unworthily’;
+                    secondly, that the not having time enough for preparation can be no excuse,
+                    since the only preparation which is absolutely necessary is that which no
+                    business can hinder; nor indeed anything on earth, unless so far as it hinders
+                    our being in a state of salvation; thirdly, that its abating our reverence is no
+                    excuse, since he who gave the command, ‘Do this’, nowhere adds, ‘unless it
+                    abates your reverence;’ fourthly, that our not profiting by it is no excuse,
+                    since it is our own fault in neglecting that necessary preparation which is in
+                    our own power; lastly, that the judgment of our own Church is quite in favour of
+                    constant communion. If those who have hitherto neglected it on any of these
+                    pretences will lay these things to heart, they will, by the grace of God, come
+                    to a better mind, and never more forsake their own mercies.</p>
+            </div>
+            <p><placeName>Oxon.</placeName>, <date when="02-19-1732">Feb. 19, 1732</date><note
+                    place="foot" xml:id="ftn27" n="27"><p rend="footnote text">Place and date as in
+                            <hi rend="italic">AM</hi>.</p></note></p>
+        </body>
+    </text>
+</TEI>

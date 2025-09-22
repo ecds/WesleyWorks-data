@@ -1,0 +1,582 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Sermon 100: On Pleasing All Men</title>
+                <author>Wesley, John</author>
+                <editor role="text">Van Buskirk, Gregory P.</editor>
+                <editor role="digital">Taylor, Michelle M.</editor>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>The Wesley Works Digitzation Project</publisher>
+                <pubPlace>Tampa, FL</pubPlace>
+                <date>2024-02-25</date>
+            </publicationStmt>
+            <sourceDesc>
+                <listBibl>
+                    <biblStruct>
+                        <analytic>
+                            <title level="a">Sermon 100: On Pleasing All Men</title>
+                        </analytic>
+                        <monogr>
+                            <title level="j">The Works of John Wesley, Volume III: Sermons III,
+                                71-114</title>
+                            <editor role="volume">Outler, Albert</editor>
+                            <imprint>
+                                <publisher>Abingdon Press</publisher>
+                                <pubPlace>Nashville, TN</pubPlace>
+                                <date when="1986-11-01">1986-11-01</date>
+                                <biblScope unit="volume" n="3"/>
+                                <biblScope unit="page" from="415" to="426"/>
+                            </imprint>
+                        </monogr>
+                        <series>
+                            <title level="s">The Works of John Wesley</title>
+                            <editor role="general">Baker, Frank</editor>
+                        </series>
+                    </biblStruct>
+                </listBibl>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Greg Van Buskirk created Word docs for all of Wesley's sermons using a combination of
+                OCR software and manual proofing. Michelle Taylor converted these docx into XML
+                using Oxygen's DITA automatic transformation scenario, then touched them up
+                manually.</p>
+        </encodingDesc>
+        <standOff>
+            <taxonomy>
+                <keywords>
+                    <term/>
+                </keywords>
+            </taxonomy>
+            <!--Include keywords and terms here eventually.-->
+        </standOff>
+        <revisionDesc/>
+    </teiHeader>
+    <text>
+        <body>
+            <pb n="03:415"/>
+            <head>
+                <hi rend="italic">An Introductory Comment</hi>
+            </head>
+            <introduction>
+                <p>In this sermon Wesley turns back to the issues of Christian discipline—in this
+                    case the crucial distinction in his mind between, on the one hand, ‘pleasing all
+                    men’ with a view to serving their advantage and, on the other hand, all the
+                    self-serving arts of flattery. He had long abhorred the universal practice of
+                        ‘dissimulation’,<note place="foot" xml:id="ftn1" n="1"><p
+                            rend="footnote text">See No. 138A, ‘On Dissimulation’; see also No. 24,
+                            ‘Sermon on the Mount, IV’, IV.3 and n.</p></note> and his antipathies
+                    toward what seemed to him the essential hypocrisy of courtly etiquette had grown
+                    through the years, reinforced by his own experiences of life among the ‘honest
+                    poor’. He had come to regard Lord Chesterfield (Philip Dormer Stanhope) as the
+                    public impersonation of this spirit of calculated insincerity. His task here,
+                    then, is to provide his people with an alternative description of good manners
+                    appropriate to their Christian experience of grace.</p>
+                <p>Wesley’s visit to Ireland in the spring and summer of 1787 was unusually
+                    extended—from April 5 through July 11. May 20-22 he was in Castlebar, and it was
+                    there that he finished this written sermon on Rom. 15:2 (a rare text for him,
+                    used five times between 1783 and 1787). As far as one can tell from the <hi
+                        rend="italic">Journal</hi> and diaries, there was no particular occasion at
+                    the time for such a sermon, and there is nothing about courtesy or dissimulation
+                    in his letters of this period. The sermon first appeared in the <hi
+                        rend="italic">Arminian Magazine</hi> in September and October 1787
+                    (X.453-58, 510-14), without a title but numbered as ‘Sermon XLI’. It was then
+                    promptly included in <hi rend="italic">SOSO</hi>, VIII.113-29.</p>
+            </introduction>
+            <pb n="03:416"/>
+            <head>On Pleasing All Men</head>
+            <epigraph>
+                <p>Romans 15:2</p>
+                <p>
+                    <hi rend="italic">Let every man please his neighbour for his good to
+                        edification.</hi>
+                </p>
+            </epigraph>
+            <div type="introduction">
+                <p n="1">1. Undoubtedly the duty here prescribed is incumbent on all mankind; at
+                    least on every one of those to whom are entrusted the oracles of God.<note
+                        place="foot" xml:id="ftn2" n="2"><p rend="footnote text">See Rom.
+                        3:2.</p></note> For it is here enjoined to everyone without exception that
+                    names the name of Christ.<note place="foot" xml:id="ftn3" n="3"><p
+                            rend="footnote text">See 2 Tim. 2:19.</p></note> And the person whom
+                    everyone is commanded to please is ‘his neighbour’, that is, every child of
+                        man.<note place="foot" xml:id="ftn4" n="4"><p rend="footnote text">This
+                            definition of neighbour is consistent throughout all of Wesley’s
+                            writings; cf. No. 7, ‘The Way to the Kingdom’, I.8 and n.</p></note>
+                    Only we are to remember here what the same Apostle speaks upon a similar
+                    occasion. ‘If it be possible, as much as lieth in you, live peaceably with all
+                        men.’<note place="foot" xml:id="ftn5" n="5"><p rend="footnote text">Rom.
+                            12:18.</p></note> In like manner we are to please all men, if it be
+                    possible, as much as lieth in us. But strictly speaking it is not possible; it
+                    is what no man ever did, nor ever will perform. But suppose we use our utmost
+                    diligence, be the event as it may, we fulfil our duty.<note place="foot"
+                        xml:id="ftn6" n="6"><p rend="footnote text">I.e., in the course of doing
+                            what ‘is in us’ as our moral potency (<hi rend="italic">in se
+                            est</hi>).</p></note></p>
+                <p n="2">2. We may farther observe in how admirable a manner the Apostle limits this
+                    direction; otherwise, were it pursued without any limitation, it might produce
+                    the most mischievous consequences. We are directed to please them ‘for their
+                    good’; not barely for the sake of pleasing them, or pleasing ourselves; much
+                    less of pleasing them to their hurt, which is so frequently done—indeed
+                    continually done, by those who do not love their neighbour as themselves. Nor is
+                    it only their temporal good which we are to aim at in pleasing our neighbour;
+                    but what is of infinitely greater consequence; we are to do it ‘for their
+                    edification’—in such a manner as may conduce to their spiritual and eternal
+                    good. We are so to please them that the pleasure may not perish in the using,
+                    but may redound to their lasting advantage; may make them wiser and better,
+                    holier and happier, both in time and in eternity.</p>
+                <pb n="03:417"/>
+                <p n="3">3. Many are the treatises and discourses which have been published on this
+                    important subject. But all of them that I have either seen or heard were
+                    miserably defective. Hardly one of them proposed the right end: one and all had
+                    some lower design in pleasing men than to save their souls, to build them up in
+                    love and holiness. Of consequence they were not likely to propose the right
+                    means for the attainment of that end. One celebrated tract of this kind,
+                    entitled <hi rend="italic">The Courtier</hi>,<note place="foot" xml:id="ftn7"
+                        n="7"><p rend="footnote text">Probably the famous essay in Italian, <hi
+                                rend="italic">Il Cortegiano</hi> (1528), by Baldassar Castiglione
+                            (1478-1529). Its first English translation (1561) was by Thomas
+                            Hoby.</p></note> was published in Spain about two hundred years ago, and
+                    translated into various languages. But it has nothing to do with edification,
+                    and is therefore quite wide of the mark. Another treatise, entitled <hi
+                        rend="italic">The Refined Courtier</hi>,<note place="foot" xml:id="ftn8"
+                        n="8"><p rend="footnote text">In both early texts of the sermon the title of
+                            this book is given as <hi rend="italic">The Compleat Courtier</hi>.
+                            Wesley, however, corrected it in his own copy to read <hi rend="italic"
+                                >The Refined Courtier.</hi> This was an adaptation in English by
+                            Nathaniel Walker (1663) from <hi rend="italic">Il Galatheo</hi> (1559)
+                            by Giovanni della Casa (1503-56), Archbishop of Benevento. Wesley was
+                            also preparing to publish extracts from Walker in <hi rend="italic"
+                                >AM</hi> (1788), XI.27 <hi rend="italic">et seq.</hi>, and (1789),
+                            XII.28 <hi rend="italic">et seq.</hi>, with a commendatory foreword: ‘I
+                            read this tract above fifty years ago, and took an extract from it. But
+                            I have now made a larger extract, which I recommend to all those that
+                            are lovers of common sense. J. W.’ He seems not to have known of Richard
+                            Graves’s complete translation, <hi rend="italic">Galateo: Or, a Treatise
+                                on Politeness and Delicacy of Manners</hi> (1774).</p></note> was
+                    published in our own country, in the reign of King Charles II, and (as it seems)
+                    by a retainer to his court. In this there are several very sensible advices
+                    concerning our outward behaviour; and many little improprieties in word or
+                    action are observed whereby men displease others without intending it. But this
+                    author likewise has no view at all to the spiritual or eternal good of his
+                    neighbour. Seventy or eighty years ago another book was printed in London,
+                    entitled <hi rend="italic">The Art of Pleasing</hi>;<note place="foot"
+                        xml:id="ftn9" n="9"><p rend="footnote text"><hi rend="italic">The Art of
+                                Pleasing in Conversation</hi> (1691, 1707), supposedly from the
+                            French of Cardinal Richelieu, but actually by one Pierre d’Ortique de
+                            Vaumorière; cf. Halkett and Laing, <hi rend="italic">Anonyma and
+                                Pseudonyma</hi>,<hi rend="italic"> loc. cit.</hi></p></note> but as
+                    it was wrote in a languid manner and contained only common, trite observations,
+                    it was not likely to be of use to men of understanding, and still less to men of
+                    piety.</p>
+                <p n="4">4. But it may be asked, Has not the subject been since treated of by a
+                    writer of a very different character? Is it not exhausted by one who was himself
+                    a consummate master of the art of pleasing? And who writing to one he tenderly
+                    loved, to a favourite son, gives him all the advices which his great
+                    understanding, improved by various learning, and the experience of many years,
+                    and much converse with all sorts of men, could suggest? I mean, the late <pb
+                        n="03:418"/>Lord Chesterfield,<note place="foot" xml:id="ftn10" n="10"><p
+                            rend="footnote text">Philip Dormer Stanhope (1694-1773), fourth Earl of
+                            Chesterfield, famous Georgian courtier, politician, and wit. His widow
+                            published a collection of his <hi rend="italic">Letters…to His Son
+                            </hi>in 1774 (2 vols.). Wesley borrowed and read one of the two volumes
+                            in 1775, and reacted sharply to Chesterfield’s unabashed amorality (JWJ,
+                            Oct. 12, 1775); cf. No. 128, ‘The Deceitfulness of the Human Heart’,
+                            II.7. Johnson had an even harsher verdict on the <hi rend="italic"
+                                >Letters</hi>: ‘They teach the morals of a whore and the manners of
+                            a dancing master,’ cf. Boswell’s <hi rend="italic">Life</hi> (1957), p.
+                            188.</p></note> the general darling of all the Irish as well as the
+                    English nation.</p>
+                <p n="5">5. The means of pleasing which this wise and indulgent parent continually
+                    and earnestly recommends to his darling child, and on which he doubtless formed
+                    both his tempers and outward conduct,</p>
+                <l>Till death untimely stopped his tuneful tongue,<note place="foot" xml:id="ftn11"
+                        n="11"><p rend="footnote text">Pope, ‘Epistle to Robert, Earl of Oxford’, l.
+                            2.</p></note></l>
+                <p>were, first, <hi rend="italic">making love</hi> (in the grossest sense) to all
+                    the married women whom he conveniently could. (Single women he advises him to
+                    refrain from, for fear of disagreeable consequences.) Secondly, constant and
+                    careful <hi rend="italic">dissimulation</hi>, always wearing a mask; trusting no
+                    man upon earth so as to let him know his real thoughts, but perpetually seeming
+                    to mean what he did not mean, and seeming to be what he was not. Thirdly, well
+                    devised <hi rend="italic">lying</hi> to all sorts of people, speaking what was
+                    farthest from his heart; and in particular <hi rend="italic">flattering
+                    men</hi>, women, and children, as the infallible way of pleasing them.<note
+                        place="foot" xml:id="ftn12" n="12"><p rend="footnote text">One need not
+                            defend Chesterfield’s avowed worldliness in order to recognize here a
+                            rare instance of Wesley’s stooping to an uncharitable caricature; cf.
+                            Sir Sidney Lee’s memoir in <hi rend="italic">DNB</hi>, <hi rend="italic"
+                                >loc. cit.</hi>, or better yet, see also the <hi rend="italic"
+                                >Letters</hi> themselves as a whole.</p></note></p>
+                <p>It needs no great art to show that this is not the way to please our neighbour
+                    ‘for his good’, or ‘to edification’. I shall endeavour to show that there is a
+                    better way of doing it; and indeed a way diametrically opposite to this. It
+                    consists,</p>
+                <p>I. In removing hindrances out of the way, and</p>
+                <p>II. In using the means that directly tend to this end.</p>
+            </div>
+            <div type="section" n="1">
+                <p n="1">I. 1. I advise all that desire to ‘please their neighbour for his good to
+                    edification’, first, to remove all hindrances out of the way; or in other words
+                    to avoid everything which tends to displease wise and good men, men of sound
+                    understanding and real piety. Now ‘cruelty, malice, envy, hatred, and
+                        revenge’<note place="foot" xml:id="ftn13" n="13"><p rend="footnote text">Cf.
+                            Titus 3:3.</p></note> are displeasing <pb n="03:419"/>to all wise and
+                    good men, to all who are endued with sound understanding and genuine piety.
+                    There is likewise another temper, nearly related to these, only in a lower kind,
+                    and which is usually found in common life, wherewith men in general are not
+                    pleased. We commonly call it <hi rend="italic">ill nature</hi>. With all
+                    possible care avoid all these; nay, and whatever bears any resemblance to
+                    them—as sourness, sternness, sullenness, on the one hand; peevishness and
+                    fretfulness on the other—if ever you hope to ‘please your neighbour for his good
+                    to edification’.</p>
+                <p n="2">2. Next to cruelty, malice, and similar tempers, with the words and actions
+                    that naturally spring therefrom, nothing is more disgustful, not only to persons
+                    of sense and religion, but even to the generality of men, than pride,
+                    haughtiness of spirit, and its genuine fruit, an assuming, arrogant, overbearing
+                        behaviour.<note place="foot" xml:id="ftn14" n="14"><p rend="footnote text"
+                            >See Jer. 48:29. Cf. below, II.2; and No. 14, <hi rend="italic">The
+                                Repentance of Believers, </hi>I.3 and n.</p></note> Even uncommon
+                    learning joined with shining talents will not make amends for this; but a man of
+                    eminent endowments, if he be eminently haughty, will be despised by many, and
+                    disliked by all. Of this the famous Master of Trinity College in Cambridge was a
+                    remarkable instance. How few persons of his time had a stronger understanding or
+                    deeper learning than Dr. Bentley!<note place="foot" xml:id="ftn15" n="15"><p
+                            rend="footnote text">Richard Bentley (1662-1742), royal librarian
+                            (1696), Master of Trinity (1700), and leader in the restoration of
+                            classical learning in England. His popular fame came from a controversy
+                            with Charles Boyle (of Christ Church, Oxford) over the ‘Letters of
+                            Phalaris’ (Boyle contending for their authenticity; Bentley denouncing
+                            them as forgeries). The dispute ranged Oxford (Francis Atterbury, <hi
+                                rend="italic">et al.</hi>) against Cambridge, and the literary
+                            lights (Alexander Pope, <hi rend="italic">et al.</hi>) against the
+                            pedants. Bishop Warburton joined the fray against Bentley, but Bentley’s
+                            superior scholarship carried the day. However, Bentley’s arrogance had
+                            found still another outlet in the course of a protracted feud with the
+                            Fellows of his college; cf. <hi rend="italic">DNB</hi> and also Leslie
+                            Stephen, <hi rend="italic">History of English Thought in the Eighteenth
+                                Century</hi> (New York, Harcourt, Brace, and World, 1962),
+                            I.205.</p></note> And yet how few were less beloved! Unless one who was
+                    little if at all inferior to him in sense or learning, and equally distant from
+                    humility—the author of <hi rend="italic">The Divine Legation of Moses</hi>.<note
+                        place="foot" xml:id="ftn16" n="16"><p rend="footnote text">William Warburton
+                            (1698-1779), whose <hi rend="italic">Divine Legation</hi>, a sprawling
+                            dissertation on the development of the belief in a future life in the
+                            Old Testament and antiquity, was left unfinished even after forty years
+                            (Vol. I was published in 1738). Warburton was also famous for his
+                            arrogance and pomp and was constantly embroiled in controversy,
+                            including one with Wesley. Cf. <hi rend="italic">A Letter to the Bishop
+                                of Gloucester</hi> (1763), in Vol. 11 of this edn.; see also Nos.
+                            79, ‘On Dissipation’, §18; and 107,‘On God’s Vineyard’, I.3, for other
+                            references to Warburton. Wesley took quiet satisfaction from Bishop
+                            Robert Lowth’s masterful critique of Warburton (‘A Letter to the…Author
+                            of “The Divine Legation”’ [1765]). Cf. JWJ, Jan. 9, 1766: ‘If anything
+                            human could be a cure for pride, surely such a medicine as this
+                            would.’</p></note> Whoever therefore desires to please his neighbour for
+                    his good must take <pb n="03:420"/>care of splitting upon this rock; otherwise
+                    the same pride which impels him to seek the esteem of his neighbour will
+                    infallibly hinder his attaining it.</p>
+                <p n="3">3. Almost as disgustful to the generality of men as <hi rend="italic"
+                        >haughtiness </hi>itself is a <hi rend="italic">passionate</hi> temper and
+                    behaviour. Men of a tender disposition are afraid even to converse with persons
+                    of this spirit. And others are not fond of their acquaintance, as frequently
+                    (perhaps when they expected nothing less) meeting with shocks, which if they
+                    bear for the present yet they do not willingly put themselves in the way of
+                    meeting with again. Hence passionate men have seldom many friends; at least, not
+                    for any length of time. Crowds indeed may attend them for a season, especially
+                    when it may promote their interest. But they are usually disgusted one after
+                    another, and fall off like leaves in autumn. If therefore you desire lastingly
+                    to please your neighbour for his good, by all possible means avoid violent
+                    passion.</p>
+                <p n="4">4. Yea, and if you desire to please, even on this account, take that advice
+                    of the Apostle, ‘Put away all lying.’<note place="foot" xml:id="ftn17" n="17"><p
+                            rend="footnote text">Cf. Eph. 4:25.</p></note> It is the remark of an
+                    ingenious author that of all vices, <hi rend="italic">lying</hi> never yet found
+                    an apologist, any that would openly plead in its favour, whatever his private
+                    sentiments might be. But it should be remembered Mr. Addison went to a better
+                    world before Lord Chesterfield’s <hi rend="italic">Letters </hi>were
+                        published.<note place="foot" xml:id="ftn18" n="18"><p rend="footnote text"
+                            >Addison died in 1719; Chesterfield’s <hi rend="italic">Letters to His
+                                Son</hi> were published in 1774; no such quotation has yet been
+                            found in Addison’s prose or poetry, though Addison’s disdain for lying
+                            is evident enough, as in <hi rend="italic">The Spectator</hi>, Nos. 352,
+                            357, 505. Cf. Wesley’s early sermon, No. 138A, ‘On Dissimulation’, I.3:
+                            ‘So very generally is dissimulation despised that it never yet has found
+                            a defender;’ see also No. 111, <hi rend="italic">National Sins and
+                                Miseries</hi>, II.2.</p></note> Perhaps his apology for it was the
+                    best that ever was, or can be made for so bad a cause. But after all the labour
+                    he has bestowed thereupon, it has only ‘semblance of worth, not substance’.<note
+                        place="foot" xml:id="ftn19" n="19"><p rend="footnote text">Milton, <hi
+                                rend="italic">Paradise Lost</hi>, i.529.</p></note> It has no
+                    solidity in it; it is nothing better than a shining phantom. And as lying can
+                    never be commendable or innocent, so neither can it be pleasing; at least when
+                    it is stripped of its disguise, and appears in its own shape. Consequently it
+                    ought to be carefully avoided by all those who wish to please their neighbour
+                    for his good to edification.</p>
+                <p n="5">5. But is not <hi rend="italic">flattery</hi>, a man may say, one species
+                    of lying? And has not this been allowed in all ages to be the sure means of
+                    pleasing? Has not that observation been confirmed by numberless experiments,</p>
+                <quote><pb n="03:421"/><hi rend="italic">Obsequium amicos, veritas odium
+                        parit</hi><note place="foot" xml:id="ftn20" n="20"><p rend="footnote text"
+                            >Terence, <hi rend="italic">The Lady of Andros</hi>,
+                    68.</p></note>—</quote>
+                <p>‘flattery creates friends, plain-dealing enemies’? Has not a late witty
+                        writer,<note place="foot" xml:id="ftn21" n="21"><p rend="footnote text"
+                            >Laurence Sterne (1713-68), whose fame for whimsy and satire (<hi
+                                rend="italic">Tristram Shandy</hi>, 1760) overshadowed the fact that
+                            he was also a rural parson (Sutton-in-the-Forest) and prebend of York
+                            Minster. His <hi rend="italic">Sentimental Journey Through France and
+                                Italy</hi> (1768) was a glorification of a rather ‘pedestrian
+                            episode of travel’ (<hi rend="italic">DNB</hi>). Wesley looked into it
+                            casually in 1772, deplored Sterne’s usage of ‘sentimental’ and
+                            concluded: ‘For oddity, uncouthness, and unlikeness to all the world
+                            beside, I suppose the writer is without a rival’ (JWJ, Feb. 11, 1772).
+                            Actually, Sterne was very much in vogue, as one may see in <hi
+                                rend="italic">The Correspondence of Samuel Richardson</hi>, ed.,
+                            Anna Laetitia Barbauld (London, 1804), IV.282, where Lady Bradshaigh
+                            inquires of the novelist: ‘What, in your opinion, is the meaning of the
+                            word “sentimental”, so much in vogue among the polite? Everything clever
+                            and agreeable is comprehended in that word; but I am convinced a wrong
+                            interpretation is given, because it is impossible everything clever and
+                            agreeable can be as common as this word. I am frequently astonished to
+                            hear such a one is a “sentimental” man; we were a “sentimental” party; I
+                            have been taking a “sentimental” walk. And that I might be reckoned a
+                            little in the fashion, and, as I thought, show them the proper use of
+                            the word, about six weeks ago, I declared I had just received a
+                            “sentimental” letter.’</p></note> in his <hi rend="italic">Sentimental
+                        Journey</hi>, related some striking instances of this? I answer, It is true.
+                    Flattery is pleasing for a while, and that not only to weak minds; as the desire
+                    of praise,<note place="foot" xml:id="ftn22" n="22"><p rend="footnote text">Cf.
+                            No. 14, <hi rend="italic">The Repentance of Believers</hi>, I.7 and
+                            n.</p></note> whether deserved or undeserved, is planted in every child
+                    of man. But it is pleasing only for a while. As soon as the mask drops off, as
+                    soon as it appears that the speaker meant nothing by his soft words, we are
+                    pleased no longer. Every man’s own experience teaches him this. And we all know
+                    that if a man continues to flatter after his insincerity is discovered it is
+                    disgustful, not agreeable. Therefore even this fashionable species of lying is
+                    to be avoided by all that are desirous of pleasing their neighbour to his
+                    lasting advantage.</p>
+                <p n="6">6. Nay, whoever desires to do this must remember that not only <hi
+                        rend="italic">lying</hi>, in every species of it, but even <hi rend="italic"
+                        >dissimulation</hi> (which is not the same with lying, though nearly related
+                    to it) is displeasing to men of understanding,<note place="foot" xml:id="ftn23"
+                        n="23"><p rend="footnote text">Chesterfield had drawn a sharp distinction
+                            between dissimulation and simulation, as in his letter of May 22, 1749
+                                (<hi rend="italic">Letters</hi>, I.419): ‘It may be objected that I
+                            am now recommending dissimulation to you; I both own and justify it…. I
+                            go still further and say that without some dissimulation no business can
+                            be carried on at all. It is <hi rend="italic">simulation</hi> that is
+                            false, mean, and criminal…. As [Lord Bacon] says, dissimulation is only
+                            to hide our own cards, whereas simulation is put on in order to look
+                            into other people’s.’</p></note> though they have not religion. Terence
+                    represents even an old heathen, when it was imputed to him, as answering with
+                    indignation,</p>
+                <pb n="03:422"/>
+                <quote>
+                    <hi rend="italic">Simulare non est meum</hi>
+                    <note place="foot" xml:id="ftn24" n="24">
+                        <p rend="footnote text">Cf. Terence, <hi rend="italic">The
+                                Self-Tormentor</hi>, 783-84; Wesley here has conflated separate
+                            lines from both Chremes and Syrus:</p>
+                        <quote>Syrus: <hi rend="italic">Non ego dicebam in perpetuam ut illam illi
+                                dares, verum ut simulares.</hi><quote>Chremes: <hi rend="italic">Non
+                                    meast simulatio….</hi></quote><p rend="footnote text">(Syrus:
+                                ‘…only that you pretend’. Chremes: ‘I’m not given to
+                                pretending.’)</p></quote>
+                    </note>
+                </quote>
+                <p>dissimulation is no part of my character. Guile, subtlety, cunning, the whole art
+                    of deceiving, by whatever terms it is expressed, is not accounted an
+                    accomplishment by wise men; but is indeed an abomination to them. And even those
+                    who practise it most, who are the greatest artificers of fraud, are not pleased
+                    with it in other men, neither are fond of conversing with those that practise it
+                    on themselves. Yea, the greatest deceivers are greatly displeased at those that
+                    play their own arts upon them.</p>
+            </div>
+            <div type="section" n="2">
+                <p>II. Now if cruelty, malice, envy, hatred, revenge, ill nature; if pride and
+                    haughtiness; if irrational anger; if lying and dissimulation, together with
+                    guile, subtlety, and cunning, are all and every one displeasing to all men,
+                    especially to wise and good men, we may easily gather from hence what is the
+                    sure way to please them for their good to edification. Only we are to remember
+                    that there are those in every time and place whom we must not expect to please.
+                    We must not therefore be surprised when we meet with men who are not to be
+                    pleased any way. It is now as it was of old when our Lord himself complained:
+                    ‘Whereunto shall I liken the men of this generation? They are like unto children
+                    sitting in the market-place and saying to each other, We have piped unto you,
+                    but ye have not danced: we have mourned unto you, but ye have not wept.’<note
+                        place="foot" xml:id="ftn25" n="25"><p rend="footnote text">Cf. Luke
+                            7:31-32.</p></note> But leaving these froward ones to themselves, we may
+                    reasonably hope to please others by a careful and steady observation of the few
+                    directions following.</p>
+                <p n="1">1. First, let <hi rend="italic">love</hi> not visit you as a transient
+                    guest, but be the constant ruling temper of your soul. See that your heart be
+                    filled at all times and on all occasions with real, undissembled benevolence,
+                    not to those only that love <hi rend="italic">you</hi>, but to every soul of
+                    man. Let it pant in your heart, let it sparkle in your eyes, let it shine on all
+                    your actions. Whenever you open your lips, let it be with love, and let there be
+                    in your tongue the law of kindness.<note place="foot" xml:id="ftn26" n="26"><p
+                            rend="footnote text">See Prov. 31:26.</p></note>
+                    <pb n="03:423"/>Your word will then distil as the rain, and as the dew upon the
+                    tender herb.<note place="foot" xml:id="ftn27" n="27"><p rend="footnote text">See
+                            Deut. 32:2.</p></note> Be not straitened or limited in your affection,
+                    but let it embrace every child of man. Everyone that is born of a woman has a
+                    claim to your goodwill. You owe this not to some, but to all. And let all men
+                    know that you desire both their temporal and eternal happiness as sincerely as
+                    you do your own.</p>
+                <p n="2">2. Secondly, if you would please your neighbour for his good, study to be
+                        <hi rend="italic">lowly</hi> in heart.<note place="foot" xml:id="ftn28"
+                        n="28"><p rend="footnote text">Matt. 11:29.</p></note> Be little and vile in
+                    your own eyes, in honour preferring others before yourself. Be deeply sensible
+                    of your own weaknesses, follies, and imperfections; as well as of the sin
+                    remaining in your heart, and cleaving to all your words and actions. And let
+                    this spirit appear in all you speak or do: ‘be clothed with humility.’<note
+                        place="foot" xml:id="ftn29" n="29"><p rend="footnote text">1 Pet.
+                        5:5.</p></note> Reject with horror that favourite maxim of the old heathen,
+                    sprung from the bottomless pit,<note place="foot" xml:id="ftn30" n="30"><p
+                            rend="footnote text">Cf. Rev. 9:11; 20:1; cf. also No. 32, ‘Sermon on
+                            the Mount, XII’, I.7 and n.</p></note></p>
+                <quote><hi rend="italic">Tanti eris aliis, quanti tibi fueris</hi><note place="foot"
+                        xml:id="ftn31" n="31"><p rend="footnote text">Attributed to Cicero by James
+                                <hi rend="italic">Wood</hi>, <hi rend="italic">Dictionary of
+                                Quotations</hi> (1899), without citation; cf. W. Gurney Benham’s <hi
+                                rend="italic">Book of Quotations</hi>, following Wood. The text, as
+                            here, does not appear in the Loeb texts of Cicero. Cf., however, <hi
+                                rend="italic">De Amicitia</hi>, xvi.56: ‘<hi rend="italic">quanti
+                                quisque se ipse facit, tanti fiat ab amicis</hi>’ (‘whatever value a
+                            man places upon himself, the same value should be placed upon him by his
+                            friends’). A Greek version appears in Musonius Rufus, <hi rend="italic"
+                                >Strobaeus</hi>, <hi rend="italic">Florilegium</hi>,
+                        XXXI.6.</p></note>—</quote>
+                <p>‘the more you value yourself, the more others will value you.’ Not so. On the
+                    contrary, both God and man ‘resist the proud’: and as ‘God giveth grace to the
+                        humble’,<note place="foot" xml:id="ftn32" n="32"><p rend="footnote text">Cf.
+                            Jas. 4:6; 1 Pet. 5:5.</p></note> so humility, not pride, recommends us
+                    to the esteem and favour of men, especially those that fear God.</p>
+                <p n="3">3. If you desire to please your neighbour for his good to edification you
+                    should, thirdly, labour and pray that you may be <hi rend="italic">meek</hi>, as
+                    well as lowly in heart. Labour to be of a calm, dispassionate temper, <hi
+                        rend="italic">gentle</hi> towards all men. And let the gentleness of your
+                    disposition appear in the whole tenor of your conversation.<note place="foot"
+                        xml:id="ftn33" n="33"><p rend="footnote text">Cf. No. 10, ‘The Witness of
+                            the Spirit, I’, II.6 and n.</p></note> Let all your words and all your
+                    actions be regulated thereby. Remember likewise that advice of St. Peter. As an
+                    addition to your gentleness, ‘be merciful; be courteous; be pitiful;’<note
+                        place="foot" xml:id="ftn34" n="34"><p rend="footnote text">Cf. 1 Pet.
+                            3:8.</p></note> be tenderly compassionate to all that are in distress,
+                    to all that are under any affliction of mind, body, or estate. Let</p>
+                <pb n="03:424"/>
+                <lg>
+                    <l>The various scenes of human woe</l>
+                    <l>Excite your softest sympathy!</l>
+                    <note place="foot" xml:id="ftn35" n="35">
+                        <p rend="footnote text">Cf. Charles Wesley,<hi rend="italic"> Hymns of
+                                Intercession for all Mankind</hi>, Bristol (1758), p. 3 (<hi
+                                rend="italic">Poet. Wks.</hi>, VI.111). In <hi rend="italic"
+                                >SOSO</hi>, VIII.126, ‘your’ is corrected to ‘our’ (as in Charles’s
+                            orig. text).</p>
+                    </note>
+                </lg>
+                <p>Weep with them that weep.<note place="foot" xml:id="ftn36" n="36"><p
+                            rend="footnote text">Rom. 12:15.</p></note> If you can do no more, at
+                    least mix your tears with theirs; and give them healing words, such as may calm
+                    their minds, and mitigate their sorrows. But if you can, if you are able to give
+                    them actual assistance, let it not be wanting. Be as eyes to the blind, as feet
+                    to the lame,<note place="foot" xml:id="ftn37" n="37"><p rend="footnote text">See
+                            Job 29:15.</p></note> a husband to the widow, and a father to the
+                        fatherless.<note place="foot" xml:id="ftn38" n="38"><p rend="footnote text"
+                            >See Ps. 68:5.</p></note> This will greatly tend to conciliate the
+                    affection, and to give a profitable pleasure not only to those who are immediate
+                    objects of your compassion but to others likewise that ‘see your good works, and
+                    glorify your Father which is in heaven’.<note place="foot" xml:id="ftn39" n="39"
+                            ><p rend="footnote text">Matt. 5:16.</p></note></p>
+                <p n="4">4. And while you are <hi rend="italic">pitiful</hi> to the afflicted, see
+                    that you are <hi rend="italic">courteous</hi> toward all men. It matters not in
+                    this respect whether they are high or low, rich or poor, superior or inferior to
+                    you. No, nor even whether good or bad, whether they fear God or not. Indeed the
+                        <hi rend="italic">mode</hi> of showing your courtesy may vary, as Christian
+                    prudence will direct. But the thing itself is due to all: the lowest and worst
+                    have a claim to our courtesy. But what is courtesy? It may either be inward or
+                    outward; either a temper or a mode of behaviour. Such a mode of behaviour as
+                    naturally springs from courtesy of heart. Is this the same with good breeding or
+                    politeness (which seems to be only a high degree of good breeding)? Nay, good
+                    breeding is chiefly the fruit of education; but education cannot give courtesy
+                    of heart. Mr. Addison’s well-known definition of politeness seems rather to be a
+                    definition of this, ‘A constant desire of pleasing all men, appearing through
+                    the whole conversation.’<note place="foot" xml:id="ftn40" n="40"><p
+                            rend="footnote text">Cf. <hi rend="italic">The Spectator</hi>, No. 386,
+                            May 23, 1712; however, Steele was the author of this number, not
+                            Addison. See No. 22, ‘Sermon on the Mount, II’, III.8 and n.</p></note>
+                    Now this may subsist, even in a high degree, where there has been no advantage
+                    of education. I have seen as real courtesy in an Irish cabin as could be found
+                    in St. James’s or the Louvre.<note place="foot" xml:id="ftn41" n="41"><p
+                            rend="footnote text">The Louvre in Wesley’s time was a royal palace (as
+                            St. James’s was), not a museum; the contrast here, then, is between the
+                            Irish <hi rend="italic">cabin</hi> and the English and French <hi
+                                rend="italic">courts</hi>.</p></note></p>
+                <pb n="03:425"/>
+                <p n="5">5. Shall we endeavour to go a little deeper, to search into the foundation
+                    of this matter? What is the source of that desire to please which we term
+                    courtesy? Let us look attentively into our heart, and we shall soon find the
+                    answer. The same Apostle that teaches us to ‘be courteous’ teaches us to ‘honour
+                    all men’.<note place="foot" xml:id="ftn42" n="42"><p rend="footnote text">1 Pet.
+                            3:8; 2:17.</p></note> And his Master teaches me to love all men. Join
+                    these together, and what will be the effect? A poor wretch cries to me for an
+                    alms: I look and see him covered with dirt and rags. But through these I see one
+                    that has an immortal spirit, made to know and love and dwell with God to
+                    eternity: I honour him for his Creator’s sake. I see through all these rags that
+                    he is purpled over with the blood of Christ.<note place="foot" xml:id="ftn43"
+                        n="43"><p rend="footnote text">See Edmund Spenser, <hi rend="italic">Faerie
+                                Queene</hi>, Bk. IV, Canto 7, st. 6, l. 6: ‘Full dreadfully
+                            empurpled all with blood.’</p></note> I love him for the sake of his
+                    Redeemer. The courtesy therefore which I feel and show toward him is a mixture
+                    of the honour and love which I bear to the offspring of God, the purchase of his
+                    Son’s blood, and the candidate for immortality.<note place="foot" xml:id="ftn44"
+                        n="44"><p rend="footnote text">Cf. No. 98, ‘On Visiting the Sick’, III.7 and
+                            n.</p></note> This courtesy let us feel and show toward all men; and we
+                    shall please all men to their edification.</p>
+                <p n="6">6. Once more. Take all proper opportunities of <hi rend="italic"
+                        >declaring</hi> to others the <hi rend="italic">affection</hi> which you
+                    really feel for them. This may be done with such an air and in such a manner as
+                    is not liable to the imputation of flattery. And experience shows that honest
+                    men are pleased by this, full as much as knaves are by flattery. Those who are
+                    persuaded that your expressions of goodwill toward them are the language of your
+                    heart will be as well satisfied with them, as with the highest encomiums which
+                    you could pass upon them. You may judge them by yourselves, by what you feel in
+                    your own breast. You like to be honoured; but had you not rather be beloved?</p>
+                <p n="7">7. Permit me to add one advice more. If you would please all men for their
+                    good, at all events <hi rend="italic">speak</hi> to all men the very <hi
+                        rend="italic">truth </hi>from your heart. When you speak, open the window of
+                    your breast:<note place="foot" xml:id="ftn45" n="45"><p rend="footnote text">See
+                            No. 4, <hi rend="italic">Scriptural Christianity</hi>, III.5 and
+                        n.</p></note> let the words be the very picture of your heart. In all
+                    company and on all occasions be a man of <hi rend="italic">veracity</hi>. Nay,
+                    be not content with bare veracity; but ‘in simplicity and godly sincerity have
+                    all your conversation in the world’,<note place="foot" xml:id="ftn46" n="46"><p
+                            rend="footnote text">Cf. 2 Cor. 1:12.</p></note> as ‘an Israelite
+                    indeed, in whom is no guile’.<note place="foot" xml:id="ftn47" n="47"><p
+                            rend="footnote text">John 1:47.</p></note></p>
+                <p n="8"><pb n="03:426"/>8. To sum up all in one word—if you would please men,
+                    please God! Let truth and love possess your whole soul. Let them be the springs
+                    of all your affections, passions, tempers; the rule of all your thoughts. Let
+                    them inspire all your discourse; continually seasoned with that salt,<note
+                        place="foot" xml:id="ftn48" n="48"><p rend="footnote text">See Col.
+                        4:6.</p></note> and meet to ‘minister grace to the hearers’.<note
+                        place="foot" xml:id="ftn49" n="49"><p rend="footnote text">Eph.
+                        4:29.</p></note> Let all your actions be wrought in love. Never ‘let mercy
+                    or truth forsake thee: bind them about thy neck.’ Let them be open and
+                    conspicuous to all; and ‘write them on the table of thy heart. So shalt thou
+                    find favour and good understanding in the sight of God and man.’<note
+                        place="foot" xml:id="ftn50" n="50"><p rend="footnote text">Cf. Prov.
+                            3:3-4.</p></note></p>
+            </div>
+            <p><placeName>Castlebar</placeName>, <date when="05-22-1787">May 22, 1787</date><note
+                    place="foot" xml:id="ftn51" n="51"><p rend="footnote text">Place and date as in
+                            <hi rend="italic">AM</hi>.</p></note></p>
+        </body>
+    </text>
+</TEI>
