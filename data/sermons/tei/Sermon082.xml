@@ -1,0 +1,597 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Sermon 82: On Temptation</title>
+                <author>Wesley, John</author>
+                <editor role="text">Van Buskirk, Gregory P.</editor>
+                <editor role="digital">Taylor, Michelle M.</editor>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>The Wesley Works Digitzation Project</publisher>
+                <pubPlace>Tampa, FL</pubPlace>
+                <date>2024-02-25</date>
+            </publicationStmt>
+            <sourceDesc>
+                <listBibl>
+                    <biblStruct>
+                        <analytic>
+                            <title level="a">Sermon 82: On Temptation</title>
+                        </analytic>
+                        <monogr>
+                            <title level="j">The Works of John Wesley, Volume III: Sermons III,
+                                71-114</title>
+                            <editor role="volume">Outler, Albert</editor>
+                            <imprint>
+                                <publisher>Abingdon Press</publisher>
+                                <pubPlace>Nashville, TN</pubPlace>
+                                <date when="1986-11-01">1986-11-01</date>
+                                <biblScope unit="volume" n="3"/>
+                                <biblScope unit="page" from="156" to="168"/>
+                            </imprint>
+                        </monogr>
+                        <series>
+                            <title level="s">The Works of John Wesley</title>
+                            <editor role="general">Baker, Frank</editor>
+                        </series>
+                    </biblStruct>
+                </listBibl>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Greg Van Buskirk created Word docs for all of Wesley's sermons using a combination of
+                OCR software and manual proofing. Michelle Taylor converted these docx into XML
+                using Oxygen's DITA automatic transformation scenario, then touched them up
+                manually.</p>
+        </encodingDesc>
+        <standOff>
+            <taxonomy>
+                <keywords>
+                    <term/>
+                </keywords>
+            </taxonomy>
+            <!--Include keywords and terms here eventually.-->
+        </standOff>
+        <revisionDesc/>
+    </teiHeader>
+    <text>
+        <body>
+            <pb n="03:156"/>
+            <head>
+                <hi rend="italic">An Introductory Comment</hi>
+            </head>
+            <introduction>
+                <p>There would seem to have been no special occasion for this sermon except for the
+                    regular demands that the <hi rend="italic">Arminian Magazine</hi> had come to
+                    place on Wesley for an ‘original sermon’ in each two successive instalments. It
+                    was written by an eighty-three-year-old man in the midst of a busy autumnal
+                    itinerary in 1786 and finished during a stopover in London on October 7; cf. his
+                        <hi rend="italic">Journal</hi> entry for the preceding June 28, the
+                    conclusion of the last <hi rend="italic">Journal</hi> extract published in
+                    Wesley’s lifetime, and a birthday comment on his vigour: ‘I am a wonder to
+                    myself. It is now twelve years since I have felt any such sensation as
+                    weariness,’ etc.</p>
+                <p>His theme here may have been suggested by the continuing clash between Wesleyan
+                    and Calvinist notions as to the proper terms of Christian confidence—a further
+                    complication of the older debates about assurance. The fifth of the ‘Five
+                    Points’ of Calvinism was the affirmation of the perseverance of the saints,
+                    based on the trustworthiness of God’s indefectible grace. Wesley had always come
+                    at this problem of assurance from its other end: <hi rend="italic">viz.</hi>,
+                    the power of the Spirit’s prevenient <hi rend="italic">and</hi> accompanying
+                    grace to deliver the faithful soul not from but in temptation, and to ‘make a
+                    way of escape’ for anyone whose faith and trust are unfaltering. That this
+                    particular nuance on a lifelong view had evolved more or less recently is
+                    suggested by the fact that of the nine times Wesley records using 1 Cor. 10:13
+                    as a sermon text, the first is in 1763, and the second in 1771; but there are
+                    three instances for 1784, one more in 1785, and three again in 1786.</p>
+                <p>The written sermon was published in the first two issues of the <hi rend="italic"
+                        >Arminian Magazine</hi> for 1787 (January and February), X.8-13, 61-67,
+                    without title and numbered as ‘Sermon XXXVII’. In the following year it was
+                    included in <hi rend="italic">SOSO</hi>, VII.27-45. It was not thereafter
+                    reprinted in Wesley’s lifetime.</p>
+            </introduction>
+            <pb n="03:157"/>
+            <head>On Temptation</head>
+            <epigraph>
+                <p>1 Corinthians 10:13</p>
+                <p>
+                    <hi rend="italic">There hath no temptation taken you but such as is common to
+                        man. And God is faithful, who will not suffer you to be tempted above that
+                        ye are able; but will with the temptation also make a way to escape, that ye
+                        may be able to bear it.</hi>
+                </p>
+            </epigraph>
+            <div type="introduction">
+                <p n="1">1. In the foregoing part of the chapter the Apostle has been reciting, on
+                    the one hand, the unparalleled mercies of God to the Israelites; and, on the
+                    other, the unparalleled ingratitude of that disobedient and gainsaying
+                        people.<note place="foot" xml:id="ftn1" n="1"><p rend="footnote text">Rom.
+                            10:21.</p></note> And all these things, as the Apostle observes, ‘were
+                    written for our ensample’;<note place="foot" xml:id="ftn2" n="2"><p
+                            rend="footnote text">Cf. 1 Cor. 10:11 (AV marginal n.: ‘Or,
+                        type’).</p></note> that we might take warning from them, so as to avoid
+                    their grievous sins, and escape their terrible punishment. He then adds that
+                    solemn and important caution, ‘Let him that thinketh he standeth, take heed lest
+                    he fall.’<note place="foot" xml:id="ftn3" n="3"><p rend="footnote text">1 Cor.
+                            10:12.</p></note></p>
+                <p n="2">2. But if we observe these words attentively, will there not appear a
+                    considerable difficulty in them? ‘Let him that thinketh he standeth take heed
+                    lest he fall.’ If a man only <hi rend="italic">thinks he stands</hi> he is in no
+                    danger of falling. It is not possible that anyone should fall if he only <hi
+                        rend="italic">thinks he stands</hi>. The same difficulty occurs, according
+                    to our translation, in those well-known words of our Lord (the importance of
+                    which we may easily learn from their being repeated in the Gospel no less than
+                    eight times), ‘To him that hath shall be given; but from him that hath not shall
+                    be taken away even <hi rend="italic">what he seemeth to have</hi>.’<note
+                        place="foot" xml:id="ftn4" n="4"><p rend="footnote text">Cf. Luke 8:18;
+                            ‘eight times’ here refers to cognates of the verb <hi rend="italic"
+                                >SokbIv;</hi> cf. Alfred Schmoller, ed., <hi rend="italic"
+                                >Handkonkordanz zum griechischen Neuen Testament</hi> (Stuttgart,
+                            9th edn., 1951).</p></note> That which he <hi rend="italic">seemeth to
+                        have</hi>! Nay, if he only ‘seems to have it’, it is impossible it should be
+                    taken away. None can take away from another what he only ‘seems to have’. What a
+                    man only ‘seems to have’ he cannot possibly lose. This difficulty may at first
+                    appear impossible to be surmounted. It is really so; it cannot be surmounted if
+                    the common translation be <pb n="03:158"/>allowed. But if we observe the proper
+                    meaning of the original word the difficulty vanishes away. It may be allowed
+                    that the word δοκεῖ does (sometimes, at least in some authors) mean no more than
+                    to <hi rend="italic">seem</hi>. But I much doubt whether it ever bears that
+                    meaning in any part of the inspired writings. By a careful consideration of
+                    every text in the New Testament wherein this word occurs I am fully convinced
+                    that it nowhere lessens but everywhere strengthens the sense of the word to
+                    which it is annexed.<note place="foot" xml:id="ftn5" n="5"><p
+                            rend="footnote text">A repetition of a lexical opinion already expressed
+                            in Wesley’s <hi rend="italic">Notes</hi> on Luke 8:18 and 1 Cor. 10:12;
+                            cf. No. 43, <hi rend="italic">The Scripture Way of Salvation</hi>, §1
+                            and n. The point, however, had already been interpreted differently by
+                            Poole in his <hi rend="italic">Annotations</hi> on Matt. 13:12; Luke
+                            8:18; Jas. 1:26. It is equally doubtful in such cases as 1 Cor. 3:18;
+                            Phil. 3:4; and Heb. 12:11. Cf. Arndt and Gingrich, <hi rend="italic"
+                                >Greek-English Lexicon,</hi> on δοκέω, and Alfred Plummer, <hi
+                                rend="italic">The Gospel According to St. Luke</hi> in <hi
+                                rend="italic">The International Critical Commentary,</hi> on
+                            8:18.</p></note> Accordingly ὁ δοκεῖ ἔχειν does not mean ‘what he seems
+                    to have’, but on the contrary, ‘what he assuredly hath’. And so ὁ δοκῶν
+                        ἑστάναι<hi rend="italic">,</hi> not ‘he that seemeth to stand’, or he that
+                    ‘thinketh he standeth’, but ‘he that assuredly standeth’; he who standeth so
+                    fast that he does not appear to be in any danger of falling; he that saith, like
+                    David, ‘I shall never be moved; thou, Lord, hast made my hill so strong.’<note
+                        place="foot" xml:id="ftn6" n="6"><p rend="footnote text">Ps. 30:6
+                        (BCP).</p></note> Yet at that very time, thus saith the Lord, ‘Be not
+                    high-minded, but fear; else shalt thou be cut off,’<note place="foot"
+                        xml:id="ftn7" n="7"><p rend="footnote text">Rom. 11:20, 22.</p></note> else
+                    shalt thou also be moved from thy steadfastness. The strength which thou
+                    assuredly hast shall be taken away. As firmly as thou didst really stand thou
+                    wilt fall into sin, if not into hell.</p>
+                <p n="3">3. But lest any should be discouraged by the consideration of those who
+                    once ran well and were afterwards overcome by temptation; lest the fearful of
+                    heart should be utterly cast down, supposing it impossible for them to stand,
+                    the Apostle subjoins to that serious exhortation these comfortable words: ‘There
+                    hath no temptation taken you but such as is common to man. But God is faithful,
+                    who will not suffer you to be tempted above that ye are able; but will with the
+                    temptation also make a way to escape, that ye may be able to bear it.’</p>
+            </div>
+            <div type="section" n="1">
+                <p n="1">I. 1. Let us begin with the observation which ushers in this comfortable
+                    promise, ‘There hath no temptation taken you but such as is common to man.’ Our
+                    translators seem to have been sensible that this expression, ‘common to man’,
+                    does by no means reach the force of the original word. Hence they substitute <hi
+                        rend="Page">[03:159]</hi>another in the margin, ‘moderate’.<note
+                        place="foot" xml:id="ftn8" n="8"><p rend="footnote text">This appears as a
+                            marginal note in the folio edition of the AV in 1611 and again
+                            thereafter in all its annotated editions throughout the seventeenth and
+                            eighteenth centuries. Wesley, of course, used smaller, unannotated
+                            Bibles in his travels and for his preaching. One of his prized
+                            possessions at his death was a small Bible printed by John Field (1653;
+                            24mo.); it is still in use and is passed on in annual succession from
+                            President to President of the British Methodist Conference.</p></note>
+                    But this seems to be less significant than the other, and farther from the
+                    meaning of it. Indeed it is not easy to find any single word in the English
+                    tongue which answers the word ἀνθρὠπινος. I believe the sense of it can only be
+                    expressed by some such circumlocution as this: ‘Such as is suited to the nature
+                    and circumstances of man; such as every man may reasonably expect if he
+                    considers the nature of his body and his soul, and his situation in the present
+                    world.’ If we duly consider these we shall not be surprised at any temptation
+                    that hath befallen us; seeing it is no other than such a creature, in such a
+                    situation, has all reason to expect.</p>
+                <p n="2">2. Consider, first, the nature of that body with which your soul is
+                        connected.<note place="foot" xml:id="ftn9" n="9"><p rend="footnote text">For
+                            more on Wesley’s body-soul dualism, see No. 41, <hi rend="italic"
+                                >Wandering Thoughts</hi>, III.5 and n.; but see also, No. 141, ‘The
+                            Image of God’, II.1.</p></note> How many are the evils which it is every
+                    day, every hour liable to! Weakness, sickness, and disorders of a thousand
+                    kinds, are its natural attendants. Consider the inconceivably minute fibres,
+                    threads abundantly finer than hair (called from thence capillary vessels)
+                    whereof every part of it is composed; consider the innumerable multitude of
+                    equally fine pipes and strainers, all filled with circulating juice! And will
+                    not the breach of a few of these fibres, or the obstruction of a few of these
+                    tubes, particularly in the brain, or heart, or lungs, destroy our ease, health,
+                    strength, if not life itself?<note place="foot" xml:id="ftn10" n="10"><p
+                            rend="footnote text">Cf. Addison, <hi rend="italic">The Spectator</hi>,
+                            No. 115, July 12, 1711: ‘I consider the body as a system of tubes and
+                            glands, or to use a more rustick phrase, a bundle of pipes and
+                            strainers, fitted to one another after so wonderful a manner as to make
+                            a proper engine for the soul to work with. This description does not
+                            only comprehend the bowels, bones, tendons, veins, nerves, arteries, but
+                            every muscle, and every ligature, which is a composition of fibres that
+                            are so many imperceptible tubes or pipes interwoven on all sides with
+                            invisible glands or strainers.’</p></note> Now if we observe that all
+                    pain implies temptation, how numberless must the temptations be which will beset
+                    every man, more or less, sooner or late, while he dwells in this corruptible
+                    body!</p>
+                <p n="3">3. Consider, secondly, the present state of the soul as long as it inhabits
+                    the house of clay.<note place="foot" xml:id="ftn11" n="11"><p
+                            rend="footnote text">Job 4:19; cf. also No. 28, ‘Sermon on the Mount,
+                            VIII’, §21 and n.</p></note> I do not mean in its unregenerate state,
+                    while it lies in darkness and the shadow of death; under the <pb n="03:160"
+                    />dominion of the prince of darkness, without hope, and without God in the
+                        world.<note place="foot" xml:id="ftn12" n="12"><p rend="footnote text">Eph.
+                            2:12.</p></note> No: look upon men who are raised above that deplorable
+                    state. See those who have tasted that the Lord is gracious.<note place="foot"
+                        xml:id="ftn13" n="13"><p rend="footnote text">1 Pet. 2:3.</p></note> Yet
+                    still how weak is their understanding! How limited its extent! How confused, how
+                    inaccurate our apprehensions of even the things that are round about us! How
+                    liable are the wisest of men to mistake! To form false judgments! To take
+                    falsehood for truth, and truth for falsehood! Evil for good, and good for evil!
+                    What starts, what wanderings of imagination are we continually subject to! In
+                    how many instances does the corruptible body press down the soul!<note
+                        place="foot" xml:id="ftn14" n="14"><p rend="footnote text">Cf. Wisd. 9:15;
+                            and see No. 41, <hi rend="italic">Wandering Thoughts</hi>, II.3 and
+                            n.</p></note> And how many are the temptations which we have to expect,
+                    even from these innocent infirmities!<note place="foot" xml:id="ftn15" n="15"><p
+                            rend="footnote text"><hi rend="italic">SOSO,</hi> VII.33-34, omits
+                            ‘instances does…how many’, obviously a compositorial error. In his own
+                            copy of these <hi rend="italic">Sermons</hi> Wesley deleted ‘In’, thus
+                            making sense but also changing the original sense by at least a
+                            little.</p></note></p>
+                <p n="4">4. Consider, thirdly, what is the present situation of even those that fear
+                    God. They dwell in the ruins of a disordered world, among men that know not God,
+                    that care not for him, and whose heart is fully set in them to do evil. How many
+                    are forced to cry out, ‘Woe is me that I am constrained to dwell with Mesech; to
+                    have my habitation among the tents of Kedar,’<note place="foot" xml:id="ftn16"
+                        n="16"><p rend="footnote text">Ps. 120:4 (BCP, but note Wesley’s preference
+                            for the AV spelling of ‘Mesech’).</p></note> among the enemies of God
+                    and man! How immensely outnumbered are those that would do well by them that
+                    neither fear God nor regard man.<note place="foot" xml:id="ftn17" n="17"><p
+                            rend="footnote text">See Luke 18:4.</p></note> And how striking is
+                    Cowley’s observation: If a man that was armed cap-à-pie was closed in by a
+                    thousand naked Indians, their number would give them such advantage over him
+                    that it would be scarce possible for him to escape. What hope then would there
+                    be for a naked, unarmed man to escape, who was surrounded by a thousand armed
+                    men! Now this is the case of every good man. He is not armed either with force
+                    or fraud, and is turned out naked as he is among thousands that are armed with
+                    the whole armour of Satan, and provided with all the weapons which the prince of
+                    this world can supply out of the armoury of hell.<note place="foot"
+                        xml:id="ftn18" n="18"><p rend="footnote text">A misreading of Abraham
+                            Cowley’s <hi rend="italic">Several Discourses by Way of Essays</hi>,
+                            VIII, ‘The Dangers of an Honest Man in Much Company’: ‘If twenty
+                            thousand naked Americans were not able to resist the assaults of but
+                            twenty well armed Spaniards, I see but little possibility for one honest
+                            man to defend himself against twenty thousand knaves, who are all
+                            furnished cap-à-pie, with the defensive arms of worldly prudence, and
+                            the offensive too of craft and malice. He will find no less odds than
+                            this against him if he have much to do in human affairs’(<hi
+                                rend="italic">Works</hi>, 7th edn., 1681, p. 132). An extract of
+                            this appears in the <hi rend="italic">Christian Lib.</hi>,
+                            XXXIII.286-91; see also Wesley’s <hi rend="italic">Doctrine of Original
+                                Sin</hi>, Pt. I, II.9.</p></note> If then he is not destroyed, yet
+                    how must a good man be tempted in the midst of this evil world!</p>
+                <p n="5"><pb n="03:161"/>5. But is it only from wicked men that temptations arise to
+                    them that fear God? It is very natural to imagine this; and almost everyone
+                    thinks so. Hence how many of us have said in our hearts: ‘Oh! if my lot were but
+                    cast among good men, among those that loved or even feared God, I should be free
+                    from all these temptations.’ Perhaps you would; probably you would not find the
+                    same sort of temptations which you have now to encounter. But you would surely
+                    meet with temptations of some other kind, which you would find equally hard to
+                    bear. For even good men in general, though sin has not dominion over them, yet
+                    are not freed from the remains of it.<note place="foot" xml:id="ftn19" n="19"><p
+                            rend="footnote text">For Wesley’s wrestlings with the problem of ‘the
+                            remains of sin’, cf. No. 13, <hi rend="italic">On Sin in Believers</hi>,
+                            intro., III.1-9, and n.</p></note> They have still the remains of an
+                    evil heart, ever prone to ‘depart from the living God’.<note place="foot"
+                        xml:id="ftn20" n="20"><p rend="footnote text">Cf. Heb. 3:12.</p></note> They
+                    have the seeds of pride, of anger, of foolish desire; indeed of every unholy
+                    temper. And any of these, if they do not continually watch and pray, may, and
+                    naturally will spring up and trouble not themselves only, but all that are round
+                    about them. We must not therefore depend upon finding no temptation from those
+                    that fear, yea, in a measure, love God. Much less must we be surprised if some
+                    of those who once loved God in sincerity should lay greater temptations in our
+                    way than many of those that never knew him.</p>
+                <p n="6">6. ‘But can we expect to find any temptation from those that are “perfected
+                    in love”?’<note place="foot" xml:id="ftn21" n="21"><p rend="footnote text">Cf. 1
+                            John 2:5; 4:12, 18.</p></note> This is an important question, and
+                    deserves a particular consideration. I answer, first, You may find every kind of
+                    temptation from those who <hi rend="italic">suppose</hi> they are perfected when
+                    indeed they are not; and so you may, secondly, from those who once really were
+                    so, but are now moved from their steadfastness. And if you are not aware of
+                    this, if you think they are still what they were once, the temptation will be
+                    harder to bear. Nay, thirdly, even those who ‘stand fast in the liberty
+                    wherewith Christ has made them free’,<note place="foot" xml:id="ftn22" n="22"><p
+                            rend="footnote text">Cf. Gal. 5:1.</p></note> who are now really perfect
+                    in love, may still be an occasion of temptation to <hi rend="italic">you</hi>.
+                    For they are still encompassed with infirmities. They may be dull of <hi
+                        rend="Page">[03:162]</hi>apprehension; they may have a natural heedlessness,
+                    or a treacherous memory; they may have too lively an imagination: and any of
+                    these may cause little improprieties, either in speech or behaviour, which
+                    though not sinful in themselves may try all the grace you have. Especially if
+                    you impute to perverseness of will (as it is very natural to do) what is really
+                    owing to defect of memory or weakness of understanding; if these appear to you
+                    to be voluntary mistakes which are really involuntary. So proper was the answer
+                    which a saint of God (now in Abraham’s bosom) gave me some years ago when I
+                    said: ‘Jenny, surely now your mistress and you can neither of you be a trial to
+                    the other, as God has saved you both from sin.’ ‘O sir,’ said she, ‘if we are
+                    saved from sin, we still have infirmities enough to try all the grace that God
+                    has given us.’<note place="foot" xml:id="ftn23" n="23"><p rend="footnote text"
+                            >Probably Jane Cooper (1738-62); cf. Wesley’s references to her in JWJ,
+                            including her funeral, Nov. 25, 1762. In 1764 he published a small
+                            volume of <hi rend="italic">Letters Wrote by Jane Cooper </hi>(<hi
+                                rend="italic">Bibliog</hi>, No. 260).</p></note></p>
+                <p n="7">7. But besides evil men, do not evil spirits also continually surround us on
+                    every side? Do not Satan and his angels continually go about seeking whom they
+                    may devour?<note place="foot" xml:id="ftn24" n="24"><p rend="footnote text">See
+                            1 Pet. 5:8.</p></note> Who is out of the reach of their malice and
+                    subtlety? Not the wisest or the best of the children of men. ‘The servant is not
+                    above his Master.’<note place="foot" xml:id="ftn25" n="25"><p
+                            rend="footnote text">Cf. Matt. 10:24.</p></note> If then they tempted
+                    him, will they not tempt us also? Yea, it may be, should God see good to permit,
+                    more or less to the end of our lives. ‘No temptation’ therefore ‘hath taken us’
+                    which we had not reason to expect, either from our body or soul, either from
+                    evil spirits or evil men, yea, or even from good men, till our spirits return to
+                    God that gave them.<note place="foot" xml:id="ftn26" n="26"><p
+                            rend="footnote text">See Eccles. 12:7.</p></note></p>
+            </div>
+            <div type="section" n="2">
+                <p n="1">II. 1. Meantime what a comfort it is to know, with the utmost certainty,
+                    that ‘God is faithful, who will not suffer us to be tempted above that we are
+                    able.’ He knoweth what our ability is, and cannot be mistaken. ‘He knoweth’
+                    precisely ‘whereof we are made; he remembereth that we are but dust.’<note
+                        place="foot" xml:id="ftn27" n="27"><p rend="footnote text">Ps. 103:14
+                            (BCP).</p></note> And he will suffer no temptation to befall us but such
+                    as is proportioned to our strength. Not only his justice requires this, which
+                    could not punish us for not resisting any temptation if it was so
+                    disproportioned to our strength that it was impossible for us to <pb n="03:163"
+                    />resist it; not only his mercy, that tender mercy which is over us, as well as
+                    over all his works;<note place="foot" xml:id="ftn28" n="28"><p
+                            rend="footnote text">See Ps. 145:9.</p></note> but above all his
+                    faithfulness, seeing all his words are faithful and true, and the whole tenor of
+                    his promises altogether agrees with that declaration, ‘As thy day, so thy
+                    strength shall be.’<note place="foot" xml:id="ftn29" n="29"><p
+                            rend="footnote text">Cf. Deut. 33:25.</p></note></p>
+                <p n="2">2. In that execrable slaughter-house, the Romish Inquisition<note
+                        place="foot" xml:id="ftn30" n="30"><p rend="footnote text">For Wesley’s
+                            knowledge of the Inquisition, see No. 73, ‘Of Hell’, III.1 and
+                        n.</p></note> (most unfortunately called ‘the house of mercy’!), it is the
+                    custom of those holy butchers, while they are tearing a man’s sinews upon the
+                    rack, to have the physician of the house standing by. His business is from time
+                    to time to observe the eyes, the pulse, and other circumstances of the sufferer,
+                    and to give notice when the torture has continued so long as it can without
+                    putting an end to his life; that it may be preserved long enough for him to
+                    undergo the residue of their tortures. But notwithstanding all the physician’s
+                    care, he is sometimes mistaken, and death puts a period to the patient’s
+                    sufferings before his tormentors are aware. We may observe something like this
+                    in our own case. In whatever sufferings or temptations we are, our great
+                    Physician never departs from us. He is about our bed and about our path.<note
+                        place="foot" xml:id="ftn31" n="31"><p rend="footnote text">See Ps. 139:2
+                            (BCP).</p></note> He observes every symptom of our distress, that it may
+                    not rise above our strength. And he cannot be mistaken concerning us. He knows
+                    the souls and bodies which he has given us. He sees exactly how much we can
+                    endure with our present degree of strength. And if this is not sufficient he can
+                    increase it to whatever degree it pleases him. Nothing therefore is more certain
+                    than that in consequence of his wisdom, as well as his justice, mercy, and
+                    faithfulness, he never will, he never can suffer us to be tempted above that we
+                    are able—above the strength which he either hath given already, or will give as
+                    soon as we need it.</p>
+            </div>
+            <div type="section" n="3">
+                <p n="1">III. 1. ‘He will with the temptation also’ (this is the third point we are
+                    to consider) ‘make a way to escape, that we may be able to bear it.’</p>
+                <p>The word ἔκβασιν, which we render ‘a way to escape’, is extremely significant.
+                    The meaning of it is nearly expressed by the English word ‘outlet’; but more
+                    exact by the old word ‘outgate’, still frequently used by the Scottish writers.
+                    It literally <pb n="03:164"/>means ‘a way out’.<note place="foot" xml:id="ftn32"
+                        n="32"><p rend="footnote text">Cf. Liddell and Scott, <hi rend="italic"
+                                >Greek-English Lexicon</hi>, for ἔκβασις (i.e., ‘exit’, etc.); for
+                            ‘outgate’, cf. <hi rend="italic">OED</hi> (‘a way of escape or
+                            deliverance’). See also Thomas Boston, <hi rend="italic">Human Nature in
+                                Its Fourfold State</hi> (1720: Edinburgh, 1812), State IV, Head VI,
+                            p. 442: ‘It is an entry without an out-gate.’</p></note> And this God
+                    will either find or make: which he that hath all wisdom, as well as all power in
+                    heaven and earth, can never be at a loss how to do.</p>
+                <p n="2">2. Either he ‘makes a way to escape’ out of the temptation, by removing the
+                    occasion of it, or <hi rend="italic">in the temptation</hi>; that is, the
+                    occasion remaining as it was, it is a temptation no longer. First, he makes a
+                    way to escape out of the temptation, by removing the occasion of it. The
+                    histories of mankind, of the church in particular, afford us numberless
+                    instances of this. And many have occurred in our own memory, and within the
+                    little circle of our acquaintance. One of many I think it worth while to relate,
+                    as a memorable instance of the faithfulness of God in making a way to escape out
+                    of temptation: Elizabeth Chadsey, then living in London (whose daughter is
+                    living at this day, and is no dishonour to her parent), was advised to
+                        administer<note place="foot" xml:id="ftn33" n="33"><p rend="footnote text"
+                            >I.e., had undertaken to serve as executor of his estate; cf. <hi
+                                rend="italic">OED</hi> for this usage of ‘administer’.</p></note> to
+                    her husband, who was supposed to leave much substance behind him. But when a
+                    full inquiry into his circumstances was made, it appeared that this supposition
+                    was utterly destitute of foundation, and that he not only left nothing at all
+                    behind him, but also was very considerably in debt. It was not long after his
+                    burial that a person came to her house and said, ‘Mrs. Chadsey, you are much
+                    indebted to your landlord, and he has sent me to demand the rent that is due to
+                    him.’ She answered, ‘Sir, I have not so much money in the world; indeed I have
+                    none at all!’ ‘But’, said he, ‘have you nothing that will fetch money?’ She
+                    replied: ‘Sir, you see all that I have. I have nothing in the house but these
+                    six little children.’ ‘Then’, said he, ‘I must execute my writ and carry you to
+                    Newgate. But it is a hard case. I will leave you here till tomorrow, and will go
+                    and try if I cannot persuade your landlord to give you time.’ He returned the
+                    next morning and said: ‘I have done all I can. I have used all the arguments I
+                    could think of, but your landlord is not to be moved. He vows, if I do not carry
+                    you to prison without delay I shall go thither myself.’ She answered, ‘You have
+                    done <hi rend="italic">your</hi> part. The will of the Lord be done!’ He said,
+                    ‘I will venture to make one trial more, and will come again in the morning.’ He
+                    came in the morning, and said: ‘Mrs. Chadsey, God has undertaken your <pb
+                        n="03:165"/>cause. None can give you any trouble now; for your landlord died
+                    last night. But he has left no will, and no one knows who is heir to the
+                        estate.’<note place="foot" xml:id="ftn34" n="34"><p rend="footnote text"
+                            >This Mrs. Chadsey does not appear elsewhere in Wesley’s <hi
+                                rend="italic">Works, </hi>nor in <hi rend="italic">Gent’s Mag.
+                            </hi>(1731-86), nor in the indices of <hi rend="italic">AM</hi> and
+                            Charles Wesley’s <hi rend="italic">Letters</hi>.</p></note></p>
+                <p n="3">3. Thus God is able to deliver out of temptations, by removing the occasion
+                    of them. But are there not temptations, the occasions of which cannot be taken
+                    away? Is it not a striking instance of this kind which we have in a late
+                    publication? ‘I was walking’ (says the writer of the letter) ‘over Dover cliffs,
+                    in a calm, pleasant evening, with a person whom I tenderly loved, and to whom I
+                    was to be married in a few days. While we were engaged in earnest conversation
+                    her foot slipped, she fell down, and I saw her dashed in pieces on the beach. I
+                    lifted up my hands, and cried out: “This evil admits of no remedy. I must now go
+                    mourning all my days! My wound is incurable. It is impossible I should ever find
+                    such another woman! One so every way fitted for me.” I added in an agony, “This
+                    is such an affliction as even God himself cannot redress!” And just as I uttered
+                    the words I awoke; for it was a dream!’<note place="foot" xml:id="ftn35" n="35"
+                            ><p rend="footnote text">This story is adapted from <hi rend="italic"
+                                >The Tatler</hi>, No. 117, Jan. 7, 1710, by Addison: ‘When I was a
+                            youth in a part of the army which was then quartered at Dover, I fell in
+                            love with an agreeable young woman, of a good family in those parts, and
+                            had the satisfaction of seeing my addresses kindly received, which
+                            occasioned the perplexity I am going to relate. We were in a calm
+                            evening diverting ourselves upon the top of the cliff with the prospect
+                            of the sea, and trifling away the time in such little fondnesses as are
+                            most ridiculous to people in business, and most agreeable to those in
+                            love. In the midst of these our innocent endearments, she snatched a
+                            paper of verses out of my hand, and ran away with them. I was following
+                            her, when on a sudden the ground, though at a considerable distance from
+                            the verge of the precipice, sunk under her, and threw her down from so
+                            prodigious an height upon such a range of rocks, as would have dashed
+                            her into ten thousand pieces, had her body been made of adamant. It is
+                            much easier for my reader to imagine my state of mind upon such an
+                            occasion, than for me to express it. I said to myself, it is not in the
+                            power of heaven to relieve me! when I awaked, equally transported and
+                            astonished, to see myself drawn out of an affliction which, the very
+                            moment before, appeared to me altogether inextricable.’</p><p
+                            rend="footnote text">Dr. James Beattie in his <hi rend="italic"
+                                >Dissertations, Moral and Critical</hi> (1783) speaks of this as
+                            ‘one of the finest moral tales I ever read, which though it has every
+                            appearance of a real dream, comprehends a moral so sublime and so
+                            interesting that I question whether any man who attends to it, can ever
+                            forget it.’</p></note> Just so can God remove any possible temptation!
+                    Making it like a dream when one waketh!</p>
+                <p n="4">4. Thus is God able to deliver out of temptation by taking away the very
+                    ground of it. And he is equally able to deliver in the temptation, which perhaps
+                    is the greatest deliverance of all. I mean, suffering the occasion to remain as
+                    it was, he will take away the bitterness of it; so that it shall not be a
+                    temptation at all, but <pb n="03:166"/>only an occasion of thanksgiving. How
+                    many proofs of this have the children of God, even in their daily experience!
+                    How frequently are they encompassed with trouble! Or visited with pain or
+                    sickness! And when they cry unto the Lord, at some times he takes away the cup
+                    from them;<note place="foot" xml:id="ftn36" n="36"><p rend="footnote text">Cf.
+                            Matt. 26:39 and parallels.</p></note> he removes the trouble, or
+                    sickness, or pain, and it is as though it never had been. At other times he does
+                    not make any outward change—outward trouble, or pain, or sickness continue—but
+                    the consolations of the Holy One so increase as to overbalance them all. And
+                    they can boldly declare,</p>
+                <lg>
+                    <l>Labour is rest, and pain is sweet,</l>
+                    <l>When thou, my God, art here.</l>
+                    <note place="foot" xml:id="ftn37" n="37">
+                        <p rend="footnote text">John and Charles Wesley, ‘On a Journey’; cf. No. 52,
+                                <hi rend="italic">The Reformation of Manners</hi>, III.7 and n.</p>
+                    </note>
+                </lg>
+                <p n="5">5. An eminent instance of this kind of deliverance is that which occurs in
+                    the life of that excellent man, the Marquis de Renty. When he was in a violent
+                    fit of the rheumatism, a friend asked him, ‘Sir, are you in much pain?’ He
+                    answered: ‘My pains are extreme; but through the mercy of God I give myself up,
+                    not to them, but to him.’<note place="foot" xml:id="ftn38" n="38"><p
+                            rend="footnote text">Cf. Saint-Jure, <hi rend="italic">The Holy Life of
+                                Monsr. De Renty, A Late Nobleman of France and Sometimes Counsellor
+                                to King Lewis the 13th</hi>, p. 96: ‘My pains are great, even to
+                            crying out, and swouning [sic]; but although I feel them in the greatest
+                            extremity; yet through God’s grace, I yield not up myself to them, but
+                            to him.’ Cf. also Wesley’s <hi rend="italic">Extract of the Life of
+                                Monsieur De Renty</hi>, London, Strahan, 1741, iv.3-4 (p. 21). The
+                            quotation is repeated in his letter to Ann Bolton, Jan. 14, 1780; cf.
+                            also No. 14, <hi rend="italic">The Repentance of Believers</hi>, I.15
+                            and n.</p></note> It was in the same spirit that my own father answered,
+                    though exhausted with a severe illness (an ulcer in the bowels, which had given
+                    him little rest day or night for upwards of seven months). When I asked, ‘Sir,
+                    are you in pain now?’ he answered with a strong and loud voice: ‘God does indeed
+                    chasten me with pain; yea, all my bones with strong pain. But I thank him for
+                    all; I bless him for all; I love him for all.’<note place="foot" xml:id="ftn39"
+                        n="39"><p rend="footnote text">John and Charles heard that their father was
+                            ill and on Sunday, Mar. 30, 1735, they started walking from Oxford to
+                            Epworth, where they arrived on Apr. 4 (Good Friday). The old man died on
+                            Apr. 25, with John and Charles present at his deathbed. Cf. John’s
+                            Savannah sermon, ‘On Love’, III.7 (No. 149), and also his letter to
+                            ‘John Smith’, Mar. 22, 1748, §6.</p></note></p>
+                <p n="6">6. We may observe one more instance of a somewhat similar kind in the life
+                    of the Marquis de Renty. When his wife, whom he very tenderly loved, was
+                    exceeding ill, and supposed to be near death, a friend took the liberty to
+                    inquire how he felt himself on <pb n="03:167"/>the occasion. He replied: ‘I
+                    cannot but say that this trial affects me in the most tender part. I am
+                    exquisitely sensible of my loss. I feel more than it is possible to express. And
+                    yet I am so satisfied that the will of God is done, and not the will of a vile
+                    sinner, that were it not for fear of giving offence to others I could dance and
+                        sing!’<note place="foot" xml:id="ftn40" n="40"><p rend="footnote text"
+                            >Again, cf. Saint-Jure, <hi rend="italic">De Renty</hi>, p. 270; the
+                            reference to dancing and singing is an addition of Wesley’s.</p></note>
+                    Thus the merciful, the just, the faithful God, will in one way or other, in
+                    every ‘temptation make a way to escape, that we may be able to bear it’.</p>
+                <p n="7">7. This whole passage is fruitful of instruction. Some of the lessons which
+                    we may learn from it are:</p>
+                <p>First, ‘Let him that most assuredly standeth, take heed lest he fall’<note
+                        place="foot" xml:id="ftn41" n="41"><p rend="footnote text">Cf. 1 Cor. 10:12
+                                (<hi rend="italic">Notes</hi>).</p></note> into <hi rend="italic"
+                        >murmuring</hi>; lest he say in his heart, ‘Surely no one’s case is like
+                    mine: no one was ever tried like <hi rend="italic">me</hi>.’ Yea, ten thousand.
+                    ‘There has no temptation taken you but such as is common to man;’ such as you
+                    might reasonably expect if you considered <hi rend="italic">what you are</hi>—a
+                    sinner born to die, a sinful inhabitant of a mortal body, liable to numberless
+                    inward and outward sufferings—and <hi rend="italic">where you are</hi>, in a
+                    shattered, disordered world, surrounded by evil men and evil spirits. Consider
+                    this, and you will not repine at the common lot, the general condition of
+                    humanity.</p>
+                <p n="8">8. Secondly, let him that standeth ‘take heed lest he fall’, lest he ‘tempt
+                        God’,<note place="foot" xml:id="ftn42" n="42"><p rend="footnote text">Mal.
+                            3:15.</p></note> by thinking or saying: ‘This is insupportable; this is
+                    too hard; I can never get through it; my burden is heavier than I can bear.’ Not
+                    so; unless something is too hard for God. He will not suffer you to be ‘tempted
+                    above that ye are able’. He proportions the burden to your strength. If you want
+                    more strength, ask and it shall be given you.<note place="foot" xml:id="ftn43"
+                        n="43"><p rend="footnote text">Matt. 7:7; Luke 11:9.</p></note></p>
+                <p n="9">9. Thirdly, ‘Let him that standeth take heed lest he fall,’ lest he ‘tempt
+                    God’ <hi rend="italic">by unbelief</hi>, by distrusting his faithfulness. Hath
+                    he said, in every temptation he will make a way to escape? And shall he not do
+                    it? Yea, verily:</p>
+                <lg>
+                    <l>Far, far above thy thought</l>
+                    <l>His counsel shall appear,</l>
+                    <l>When fully he the work hath wrought,</l>
+                    <l>That caused thy needless fear.</l>
+                    <note place="foot" xml:id="ftn44" n="44">
+                        <p rend="footnote text">John Wesley, A hymn from the German, ‘Trust in
+                            Providence’, st. 14, <hi rend="italic">Hymns and Sacred Poems</hi>
+                            (1739), p. 143 (<hi rend="italic">Poet. Wks.</hi>, I.127). <hi
+                                rend="italic">SOSO</hi> (1788) alters to ‘And far above thy
+                            thought’. See also Wesley’s letter to the Revd. Mr. Heath, May 18,
+                            1787.</p>
+                    </note>
+                </lg>
+                <p n="10"><pb n="03:168"/>10. Let us then receive every trial with calm
+                        resignation,<note place="foot" xml:id="ftn45" n="45"><p rend="footnote text"
+                            >See No. 69, ‘The Imperfection of Human Knowledge’, IV.[3] and
+                        n.</p></note> and with humble confidence that he who hath all power, all
+                    wisdom, all mercy, and all faithfulness, will first support us in every
+                    temptation, and then deliver us out of all; so that in the end all things shall
+                    work together for good,<note place="foot" xml:id="ftn46" n="46"><p
+                            rend="footnote text">See Rom. 8:28.</p></note> and we shall happily
+                    experience that all these things were for our profit, ‘that we might be
+                    partakers of his holiness’.<note place="foot" xml:id="ftn47" n="47"><p
+                            rend="footnote text">Heb. 12:10.</p></note></p>
+            </div>
+            <p><placeName>London</placeName>, <date when="10-07-1786">October 7, 1786</date><note
+                    place="foot" xml:id="ftn48" n="48"><p rend="footnote text">Place and date as in
+                            <hi rend="italic">AM</hi>.</p></note></p>
+        </body>
+    </text>
+</TEI>

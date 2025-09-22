@@ -1,0 +1,1022 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Sermon 110: Free Grace</title>
+                <author>Wesley, John</author>
+                <editor role="text">Van Buskirk, Gregory P.</editor>
+                <editor role="digital">Taylor, Michelle M.</editor>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>The Wesley Works Digitzation Project</publisher>
+                <pubPlace>Tampa, FL</pubPlace>
+                <date>2024-02-25</date>
+            </publicationStmt>
+            <sourceDesc>
+                <listBibl>
+                    <biblStruct>
+                        <analytic>
+                            <title level="a">Sermon 110: Free Grace</title>
+                        </analytic>
+                        <monogr>
+                            <title level="j">The Works of John Wesley, Volume III: Sermons III,
+                                71-114</title>
+                            <editor role="volume">Outler, Albert</editor>
+                            <imprint>
+                                <publisher>Abingdon Press</publisher>
+                                <pubPlace>Nashville, TN</pubPlace>
+                                <date when="1986-11-01">1986-11-01</date>
+                                <biblScope unit="volume" n="3"/>
+                                <biblScope unit="page" from="542" to="563"/>
+                            </imprint>
+                        </monogr>
+                        <series>
+                            <title level="s">The Works of John Wesley</title>
+                            <editor role="general">Baker, Frank</editor>
+                        </series>
+                    </biblStruct>
+                </listBibl>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Greg Van Buskirk created Word docs for all of Wesley's sermons using a combination of
+                OCR software and manual proofing. Michelle Taylor converted these docx into XML
+                using Oxygen's DITA automatic transformation scenario, then touched them up
+                manually.</p>
+        </encodingDesc>
+        <standOff>
+            <taxonomy>
+                <keywords>
+                    <term/>
+                </keywords>
+            </taxonomy>
+            <!--Include keywords and terms here eventually.-->
+        </standOff>
+        <revisionDesc/>
+    </teiHeader>
+    <text>
+        <body>
+            <pb n="03:542"/>
+            <head>
+                <hi rend="italic">An Introductory Comment</hi>
+            </head>
+            <introduction>
+                <p>This sermon is noteworthy as the signal of a major schism in the ranks of English
+                    evangelicals, the consequences of which have outlasted the lives of the
+                    antagonists. It marks a personal breach between John Wesley and George
+                    Whitefield which was never more than partially healed (see No. 53, <hi
+                        rend="italic">On the Death of George Whitefield</hi>). What we have here,
+                    however, is a total rejection of predestination in any and all its Calvinist
+                    versions, with the predictable result that terms for further doctrinal dialogue
+                    between the ‘Calvinists’ and Arminians’ were sharply constricted. That Wesley
+                    was content that this should be is plain enough in his curt response to
+                    Whitefield’s anguished protests (as in his letter of August 9, 1740) that their
+                    private differences should not be aired in public.</p>
+                <p>Whitefield and Wesley had been active allies for a brief span in 1734-35, and
+                    later it was Whitefield who had opened Wesley’s way into the Revival in 1739. He
+                    was Wesley’s junior by ten years, but already he was a bold, exciting preacher,
+                    who took for granted that the doctrine of justification by faith stood or fell
+                    with some sort of presupposition of irresistible grace. Wesley’s brusque
+                    reaction to this position suggests something of the still toplofty don’s disdain
+                    for the erstwhile Oxford servitor. He had preached against predestination within
+                    weeks of the launching of the Revival, asking for divine signs—and believing
+                    that he received them—that this kind of preaching was a necessary corollary of
+                    preaching universal redemption by faith. On April 26, 1739, he again sought
+                    divine guidance by drawing lots about restricting his attack on predestination
+                    to preaching, but received the lot, ‘preach and print’. Forthwith, at Bristol,
+                    he published this sermon, <hi rend="italic">Free Grace</hi> (see <hi
+                        rend="italic">Letters</hi>, 25:639-40). As a separate sermon it went through
+                    ten or eleven editions during his lifetime, but he did not include it in his
+                    collected <hi rend="italic">Sermons</hi>, and in reprinting it in his <hi
+                        rend="italic">Works</hi> it was inserted among his controversial writings.
+                    For a stemma illustrating its publishing history and a list of substantive
+                    variants, see Appendix, Vol. 4 (for fuller details on its publishing history,
+                    see <hi rend="italic">Bibliog</hi>, No. 14).</p>
+                <p>One of the neglected problems in Wesley interpretation is a critical <pb
+                        n="03:543"/>analysis of his inability to recognize his aggressive role in
+                    this controversy (here, or in <hi rend="italic">Predestination Calmly
+                        Considered</hi>, 1752, or in his provocative ‘Minute’ of 1770, etc.). This
+                    was matched by an interesting insensitivity to the outrage of the Calvinists
+                    over what they regarded as a deliberate distortion of both the letter and the
+                    spirit of their teachings. For even though he would mellow in later years on
+                    this and other points, he would never accept any responsibility for the heat and
+                    bitterness of the conflict. In 1765, for example, he would freely grant to John
+                    Newton (then newly ordained, and curate at Olney) that ‘holding particular
+                    election and final perseverance is compatible with…a love to Christ and a work
+                    of grace,’ and reaffirm that on the point of <hi rend="italic"
+                        >justification</hi>, he never has differed ‘from [Mr. Calvin] an hair’s
+                    breadth’ (letter of May 14, 1765). It would seem that he had forgotten the
+                    charges levied here in <hi rend="italic">Free Grace</hi> that those who hold and
+                    teach predestination are blasphemers (§§23, 25-27). If Wesley had forgotten, the
+                    Calvinists never did. If Wesley came later to share and commend a truly
+                    ‘catholic spirit’, <hi rend="italic">Free Grace</hi> is a useful illustration of
+                    Wesley’s temper and methods as a polemicist.</p>
+                <p>For Whitefield’s side of this story, and his detailed refutation of Wesley’s
+                    sermon, see <hi rend="italic">George Whitefield’s Journals</hi> (Banner of Truth
+                    Trust, 1960), pp. 242-43, 260-61, 289, and ‘Appendix’, pp. 564-68, but
+                    especially ‘A Letter to the Rev. Mr. John Wesley in Answer to his Sermon
+                    entitled <hi rend="italic">Free Grace</hi>’ (December 24, 1740), pp. 571-88.</p>
+            </introduction>
+            <pb n="03:544"/>
+            <head>Free Grace</head>
+            <div type="preface">
+                <p>To the Reader</p>
+                <p>Nothing but the strongest conviction, not only that what is here advanced is ‘the
+                    truth as it is in Jesus’,<note place="foot" xml:id="ftn1" n="1"><p
+                            rend="footnote text">Cf. Eph. 4:21.</p></note> but also that I am
+                    indispensably obliged to declare this truth to all the world, could have induced
+                    me openly to oppose the sentiments of those whom I highly esteem for their
+                    works’ sake: at whose feet may I be found in the day of the Lord Jesus!<note
+                        place="foot" xml:id="ftn2" n="2"><p rend="footnote text">2 Cor.
+                        1:14.</p></note></p>
+                <p>Should any believe it his duty to reply hereto I have only one request to make:
+                    let whatsoever you do be done in charity, in love, and in the spirit of
+                        meekness.<note place="foot" xml:id="ftn3" n="3"><p rend="footnote text">1
+                            Cor. 4:21.</p></note> Let your very disputing show that you have ‘put
+                    on, as the elect of God, bowels of mercies, gentleness, long-suffering’:<note
+                        place="foot" xml:id="ftn4" n="4"><p rend="footnote text">Cf. Col.
+                        3:12.</p></note> that even according to this time it may be said, ‘See how
+                    these Christians love one another.’<note place="foot" xml:id="ftn5" n="5"><p
+                            rend="footnote text">Cf. Tertullian, <hi rend="italic">Apology</hi>, 39;
+                            see No. 22, ‘Sermon on the Mount, II’, III.8 and n. In the 1740 edn.
+                            (only) Wesley added a peremptory ‘Advertisement’ here: ‘Whereas a
+                            pamphlet entitled <hi rend="italic">Free Grace Indeed</hi> has been
+                            published against this sermon, this is to inform the publisher that I
+                            cannot answer his tract till he appears to be more <hi rend="italic">in
+                                earnest</hi>. For I dare not speak of the deep things of God in the
+                            spirit of a prize-fighter or a stage-player.’ <hi rend="italic">Free
+                                Grace Indeed</hi>, an anonymous counterblast published in London in
+                            1740 and subsequently reprinted in Philadelphia and Boston in 1741,
+                            illustrates from the other side how unbridgeable the chasm between the
+                            two doctrines and their partisans really was—and would continue to
+                            be.</p></note></p>
+            </div>
+            <epigraph>
+                <p>Romans 8:32</p>
+                <p>
+                    <hi rend="italic">He that spared not his own Son, but delivered him up for us
+                        all, how shall he not with him also freely give us all things?</hi>
+                </p>
+            </epigraph>
+            <p n="1">1. How freely does God love the world! While we were yet sinners,<note
+                    place="foot" xml:id="ftn6" n="6"><p rend="footnote text">Rom. 5:8.</p></note>
+                ‘Christ died for the ungodly.’<note place="foot" xml:id="ftn7" n="7"><p
+                        rend="footnote text">Rom. 5:6.</p></note> While we were ‘dead in sin’,<note
+                    place="foot" xml:id="ftn8" n="8"><p rend="footnote text">Cf. Eph.
+                    2:5.</p></note> God ‘spared not his own Son, but delivered him up for us all.’
+                And how ‘freely with him’ does he ‘give us all things’! Verily, free grace is all in
+                all!</p>
+            <p n="2">2. The grace or love of God, whence cometh our salvation, is free in all, and
+                free for all.</p>
+            <pb n="03:545"/>
+            <p n="3">3. First, it is free in all to whom it is given. It does not depend on any
+                power or merit in man; no, not in any degree, neither in whole, nor in part. It does
+                not in any wise depend either on the good works or righteousness of the receiver;
+                not on anything he has done, or anything he is. It does not depend on his
+                endeavours. It does not depend on his good tempers, or good desires, or good
+                purposes and intentions; for all these flow from the free grace of God. They are the
+                streams only, not the fountain. They are the fruits of free grace, and not the root.
+                They are not the cause, but the effects of it. Whatsoever good is in man, or is done
+                by man, God is the author and doer of it. Thus is his grace free in all, that is, no
+                way depending on any power or merit in man, but on God alone, who freely gave us his
+                own Son, and ‘with him freely giveth us all things’.<note place="foot" xml:id="ftn9"
+                    n="9"><p rend="footnote text">Cf. Rom. 8:32.</p></note></p>
+            <p n="4">4. But is it free for all, as well as in all? To this some have answered: ‘No:
+                it is free only for those whom God hath ordained to life, and they are but a little
+                flock. The greater part of mankind God hath ordained to death; and it is not free
+                for them. Them God hateth; and therefore before they were born decreed they should
+                die eternally. And this he absolutely decreed; because so was his good pleasure,
+                because it was his sovereign will. Accordingly, they are born for this: to be
+                destroyed body and soul in hell. And they grow up under the irrevocable curse of
+                God, without any possibility of redemption. For what grace God gives he gives only
+                for this: to increase, not prevent, their damnation.’<note place="foot"
+                    xml:id="ftn10" n="10"><p rend="footnote text">Wesley’s sources for this
+                        caricature of the High Calvinist doctrine of reprobation would have included
+                        Elisha Coles, <hi rend="italic">Practical Discourse of God’s
+                            Sovereignty</hi> (1673); it was this essay that had convinced Whitefield
+                        (so Josiah Tucker, <hi rend="italic">Brief History of the Principles of
+                            Methodism</hi>, p. 14). Wesley might also have known the anonymous
+                        pamphlet, <hi rend="italic">A Vindication of the Doctrine of
+                            Predestination</hi> (1709), ascribed to Richard Jenks in the Dr.
+                        Williams’s Library copy. He also knew the nine quasi-official theses of The
+                        Lambeth Articles (1595) and the more complete exposition of the position in
+                        William Perkins’s <hi rend="italic">Golden Chaine</hi> (1591). It is
+                        doubtful if he had read Calvin’s polemic against Pighius and Georgius, <hi
+                            rend="italic">The Eternal Predestination of God</hi> (1552); cf. <hi
+                            rend="italic">Predestination Calmly Considered</hi> (1752),
+                    §§8-15.</p></note></p>
+            <p n="5">5. This is that decree of predestination. But methinks I hear one say: ‘This is
+                not the predestination which I hold. I hold only “the election of grace”.<note
+                    place="foot" xml:id="ftn11" n="11"><p rend="footnote text">Rom. 11:5.</p></note>
+                What I believe is no more than this, that God, before the foundation of the world,
+                did elect a certain number of men to be justified, sanctified, and glorified. Now
+                all these will be saved, and none else. For the rest of mankind God leaves to
+                themselves: so they follow the imaginations of their own <pb n="03:546"/>hearts,
+                which are only evil continually,<note place="foot" xml:id="ftn12" n="12"><p
+                        rend="footnote text">See Jer. 23:17; Luke 1:51; Gen. 6:5.</p></note> and,
+                waxing worse and worse, are at length justly punished with everlasting
+                destruction.’</p>
+            <p n="6">6. Is this all the predestination which you hold? Consider; perhaps this is not
+                all. Do not you believe ‘God ordained them to this very thing’? If so, you believe
+                the whole decree; you hold predestination in the full sense, which has been above
+                described. But it may be you think you do not. Do not you then believe God hardens
+                the hearts of them that perish? Do not you believe he (literally) hardened Pharaoh’s
+                    heart,<note place="foot" xml:id="ftn13" n="13"><p rend="footnote text">Exod.
+                        7:13; cf. Calvin’s candid comment on this verse in his <hi rend="italic"
+                            >Commentaries on the Four Last Books of Moses, Arranged in the Form of a
+                            Harmony</hi> (Eng. tr. by C. W. Bingham, 1852): ‘…if God…inflicts
+                        deserved punishment upon the reprobate, he not only permits them to do what
+                        they themselves please, but actually executes a judgment which he knows to
+                        be just. Whence it follows that he not only withdraws the grace of his
+                        Spirit, but delivers over to Satan those whom he knows to be deserving of
+                        blindness of mind and obstinancy of heart.’ However, they are ‘foul
+                        calumniators who…pretend that God is made the author of sin…. The hardness
+                        of heart is the sin of man, but the hardening of the heart is the judgment
+                        of God.’</p></note> and that for this end he raised him up (or created him)?
+                Why, this amounts to just the same thing. If you believe Pharaoh, or any one man
+                upon the earth, was created for this end—to be damned—you hold all that has been
+                said of predestination. And there is no need you should add that God seconds his
+                decree, which is supposed unchangeable and irresistible, by hardening the hearts of
+                those vessels of wrath whom that decree had before fitted for destruction.<note
+                    place="foot" xml:id="ftn14" n="14"><p rend="footnote text">Rom. 9:22; cf. Poole,
+                            <hi rend="italic">Annotations</hi>, on this whole
+                passage.</p></note></p>
+            <p n="7">7. Well, but it may be you do not believe even this. You do not hold any decree
+                of reprobation. You do not think God decrees any man to be damned, nor hardens,
+                irresistibly fits him for damnation. You only say, ‘God eternally decreed that, all
+                being dead in sin, he would say to some of the dry bones, “Live”,<note place="foot"
+                    xml:id="ftn15" n="15"><p rend="footnote text">Cf. Ezek. 37:2-6.</p></note> and
+                to others he would not; that consequently these should be made alive, and those
+                abide in death<note place="foot" xml:id="ftn16" n="16"><p rend="footnote text">1
+                        John 3:14.</p></note>—these should glorify God by their salvation, and those
+                by their destruction.’<note place="foot" xml:id="ftn17" n="17"><p
+                        rend="footnote text">Cf. the quoted summaries of major reformed theologians
+                        on this point of reprobation and preterition in Heinrich Heppe, <hi
+                            rend="italic">Reformed Dogmatics</hi>, ch. viii, §§22-32, pp.
+                        178-89.</p></note></p>
+            <p n="8">8. Is not this what you mean by ‘the election of grace’? If it be, I would ask
+                one or two questions. Are any who are not thus elected, saved? Or were any, from the
+                foundation of the world? Is it possible any man should be saved unless he be thus
+                elected? If you say ‘No’, you are but where you was. You are not got one <pb
+                    n="03:547"/>hair’s breadth further. You still believe that in consequence of an
+                unchangeable, irresistible decree of God the greater part of mankind abide in death,
+                without any possibility of redemption: inasmuch as none <hi rend="italic">can</hi>
+                save them but God; and he <hi rend="italic">will not</hi> save them. You believe <hi
+                    rend="italic">he hath absolutely decreed not to save them</hi>; and what is this
+                but decreeing to damn them? It is, in effect, neither more nor less; it comes to the
+                same thing. For if you are dead, and altogether unable to make yourself alive; then
+                if God has absolutely decreed he will make others only alive, and not you, he hath
+                absolutely decreed your everlasting death—you are absolutely consigned to damnation.
+                So then, though you use softer words than some, you mean the selfsame thing. And
+                God’s decree concerning the election of grace, according to your own account of it,
+                amounts to neither more nor less than what others call, ‘God’s decree of
+                reprobation’.</p>
+            <p n="9">9. Call it therefore by whatever name you please—‘election’, ‘preterition’,
+                ‘predestination’, or ‘reprobation’—it comes in the end to the same thing. The sense
+                of all is plainly this: ‘By virtue of an eternal, unchangeable, irresistible decree
+                of God, one part of mankind are infallibly saved, and the rest infallibly damned; it
+                being impossible that any of the former should be damned, or that any of the latter
+                should be saved.’<note place="foot" xml:id="ftn18" n="18"><p rend="footnote text"
+                        >Cf. the pamphlet, <hi rend="italic">Free Grace Indeed</hi>, p. 4, and
+                        Wesley’s footnote to the 1740, 1741, and 1754 edns. of this sermon: ‘That
+                        this is the true state of the question the anonymous author of a pamphlet
+                        lately published acknowledges (p. 4) in the following words: “You have been
+                        at some pains, sections 4, 5, 6, 7, and 8, to put the Calvinistical notion
+                        of election in a clear light.” You might have said all in less bounds, viz.,
+                        “They hold an eternal, absolute, personal election of a certain number of
+                        Adam’s seed to salvation, without an antecedent respect to any qualification
+                        in them, and they leave you to conjecture how God shall deal with the
+                        rest.”’</p></note></p>
+            <p n="10">10. But if this be so, then is all preaching vain. It is needless to them that
+                are elected. For they, whether with preaching or without, will infallibly be saved.
+                Therefore the end of preaching, ‘to save souls’,<note place="foot" xml:id="ftn19"
+                    n="19"><p rend="footnote text">Cf. Jas. 5:19-20. See also Wesley’s letter to
+                        Christopher Hopper, Oct. 8, 1755: ‘You have one business on earth—to save
+                        souls.’ Also his letter to his brother Charles, Mar. 25, 1772: ‘Oh what a
+                        thing it is to have <hi rend="italic">curam animarum</hi> [“the care of
+                        souls”]. You and I are called to this; to save souls from death, to watch
+                        over them as those that must give account.’ Also another letter to Charles,
+                        Apr. 26, 1772: ‘Your business as well as mine is to save souls. When we took
+                        priests’ orders, we undertook to make it our <hi rend="italic">one</hi>
+                        business.’ See No. 142, ‘The Wisdom of Winning Souls’, II.</p></note> is
+                void with regard to them. And it is useless to them that are not elected. For they
+                cannot possibly be saved. They, whether with preaching or without, will infallibly
+                be damned. The end of preaching is therefore void with regard to <pb n="03:548"
+                    /><anchor xml:id="bookmark15"/>them likewise. So that in either case, our
+                preaching is vain,<note place="foot" xml:id="ftn20" n="20"><p rend="footnote text"
+                        >See 1 Cor. 15:14.</p></note> as your hearing is also vain.</p>
+            <p n="11">11. This then is a plain proof that the doctrine of predestination is not a
+                doctrine of God, because it makes void the ordinance of God; and God is not divided
+                against himself. A second is that it directly tends to destroy that holiness which
+                is the end of all the ordinances of God. I do not say, ‘None who hold it are holy’
+                (for God is of tender mercy to those who are unavoidably entangled in errors of any
+                kind), but that the doctrine itself—that every man is either elected or not elected
+                from eternity, and that the one must inevitably be saved, and the other inevitably
+                damned—has a manifest tendency to destroy holiness in general, for it wholly takes
+                away those first motives to follow after it, so frequently proposed in Scripture:
+                the hope of future reward and fear of punishment, the hope of heaven and fear of
+                hell. That ‘these shall go away into everlasting punishment, and those into life
+                    eternal’<note place="foot" xml:id="ftn21" n="21"><p rend="footnote text">Cf.
+                        Matt. 25:46.</p></note> is no motive to him to struggle for life who
+                believes his lot is cast already: it is not reasonable for him so to do if he thinks
+                he is unalterably adjudged either to life or death. You will say, ‘But he knows not
+                whether it is life or death.’ What then? This helps not the matter. For if a sick
+                man knows that he must unavoidably die or unavoidably recover, though he knows not
+                which, it is not reasonable for him to take any physic at all. He might justly say
+                (and so I have heard some speak, both in bodily sickness and in spiritual), ‘If I am
+                ordained to life, I shall live; if to death, I shall die. So I need not trouble
+                myself about it.’ So directly does this doctrine tend to shut the very gate of
+                holiness in general, to hinder unholy men from ever approaching thereto, or striving
+                to enter in thereat.</p>
+            <p n="12">12. As directly does this doctrine tend to destroy several particular branches
+                of holiness. Such are meekness and love: love, I mean, of our enemies, of the evil
+                and unthankful. I say not that none who hold it have meekness and love (for as is
+                the power of God, so is his mercy), but that it naturally tends to inspire or
+                increase a sharpness or eagerness of temper which is quite contrary to the meekness
+                of Christ<note place="foot" xml:id="ftn22" n="22"><p rend="footnote text">2 Cor.
+                        10:1.</p></note>—as then especially appears, when they are opposed on this
+                head. And it as naturally inspires contempt or coldness toward those whom we suppose
+                outcasts <pb n="03:549"/>from God. ‘Oh, (but you say) I suppose no particular man a
+                reprobate.’ You mean, you would not, if you could help it. You can’t help sometimes
+                applying your general doctrine to particular persons. The enemy of souls will apply
+                it for you. You know how often he has done so. But you ‘rejected the thought with
+                abhorrence’. True; as soon as you could. But how did it sour and sharpen your spirit
+                in the meantime! You well know it was not the spirit of love which you then felt
+                towards that poor sinner, whom you supposed or suspected, whether you would or no,
+                to have been hated of God from eternity.</p>
+            <p n="13">13. Thirdly, this doctrine tends to destroy the comfort of religion, the
+                happiness of Christianity. This is evident as to all those who believe themselves to
+                be reprobated, or who only suspect or fear it. All the great and precious promises
+                are lost to them. They afford them no ray of comfort. ‘For they are not the elect of
+                God; therefore they have neither lot nor portion in them.’ This is an effectual bar
+                to their finding any comfort or happiness, even in that religion whose ‘ways’ were
+                designed to be ‘ways of pleasantness, and all her paths peace’.<note place="foot"
+                    xml:id="ftn23" n="23"><p rend="footnote text">Prov. 3:17.</p></note></p>
+            <p n="14">14. And as to you who believe yourselves the elect of God, what is your
+                happiness? I hope, not a notion, a speculative belief, a bare opinion of any kind;
+                but a feeling possession of God in your heart, wrought in you by the Holy Ghost; or,
+                ‘the witness of God’s Spirit with your spirit, that you are a child of God’.<note
+                    place="foot" xml:id="ftn24" n="24"><p rend="footnote text">Cf. Rom. 8:16, and
+                        Wesley’s later sermons on this text: Nos. 10,‘The Witness of the Spirit, I’
+                        (1746); and 11, <hi rend="italic">The Witness of the Spirit,</hi> II (Apr.
+                        4, 1767).</p></note> This, otherwise termed ‘the full assurance of
+                    faith’,<note place="foot" xml:id="ftn25" n="25"><p rend="footnote text">Heb.
+                        10:22; cf. also Nos. 117, ‘On the Discoveries of Faith’, §15 and n.; and 3,
+                            <hi rend="italic">‘Awake, Thou That Steepest’</hi>, III.6 and
+                    n.</p></note> is the true ground of a Christian’s happiness. And it does indeed
+                imply a full assurance that all your past sins are forgiven, and that you are <hi
+                    rend="italic">now</hi> a child of God. But it does not necessarily imply a full
+                assurance of our future perseverance. I do not say, ‘This is never joined to it,’
+                but that it is not necessarily implied therein; for many have the one who have not
+                the other.</p>
+            <p n="15">15. Now, this witness of the Spirit experience shows to be much obstructed by
+                this doctrine; and not only in those who, believing themselves reprobated, by this
+                belief thrust it far from them, but even in them that have ‘tasted of that good
+                    gift’,<note place="foot" xml:id="ftn26" n="26"><p rend="footnote text">Cf. Heb.
+                        6:4, 5.</p></note> who <pb n="03:550"/>yet have soon lost it again, and
+                fallen back into doubts, and fears, and darkness—‘horrible darkness that might be
+                    felt’.<note place="foot" xml:id="ftn27" n="27"><p rend="footnote text">Cf. Exod.
+                        10:21.</p></note> And I appeal to any of you who hold this doctrine to say,
+                between God and your own hearts, whether you have not often a return of doubts and
+                fears concerning your election or perseverance? If you ask, ‘Who has not?’ I answer,
+                ‘Very few of those that hold this doctrine.’ But many, very many of those that hold
+                it not, in all parts of the earth; many of those who know and feel they are in
+                Christ today, and ‘take no thought for the morrow’;<note place="foot" xml:id="ftn28"
+                    n="28"><p rend="footnote text">Matt. 6:34.</p></note> who ‘abide in him’<note
+                    place="foot" xml:id="ftn29" n="29"><p rend="footnote text">1 John 2:27,
+                    28.</p></note> by faith from hour to hour, or rather from moment to moment. Many
+                of these have enjoyed the uninterrupted witness of his Spirit, the continual light
+                of his countenance,<note place="foot" xml:id="ftn30" n="30"><p rend="footnote text"
+                        >See Ps. 4:6.</p></note> from the moment wherein they first believed, for
+                many months or years to this day.</p>
+            <p n="16">16. That assurance of faith which these enjoy excludes all doubt and fear. It
+                excludes all kind of doubt and fear concerning their future perseverance; though it
+                is not properly (as was said before) an assurance of what is future, but only of
+                what <hi rend="italic">now</hi> is. And this needs not for its support a speculative
+                belief that whoever is once ordained to live, must live. For it is wrought from hour
+                to hour by the mighty power of God, ‘by the Holy Ghost which is given unto
+                    them’.<note place="foot" xml:id="ftn31" n="31"><p rend="footnote text">Rom.
+                        5:5.</p></note> And therefore that doctrine is not of God, because it tends
+                to obstruct, if not destroy, this great work of the Holy Ghost, whence flows the
+                chief comfort of religion, the happiness of Christianity.</p>
+            <p n="17">17. Again, how uncomfortable a thought is this, that thousands and millions of
+                men, without any preceding offence or fault of theirs, were unchangeably doomed to
+                everlasting burnings!<note place="foot" xml:id="ftn32" n="32"><p
+                        rend="footnote text">Isa. 33:14.</p></note> How peculiarly uncomfortable
+                must it be to those who have put on Christ!<note place="foot" xml:id="ftn33" n="33"
+                        ><p rend="footnote text">Gal. 3:27.</p></note> To those who being filled
+                with ‘bowels of mercy, tenderness, and compassion’,<note place="foot" xml:id="ftn34"
+                    n="34"><p rend="footnote text">Cf. Col. 3:12.</p></note> could even ‘wish
+                themselves accursed for their brethren’s sake’.<note place="foot" xml:id="ftn35"
+                    n="35"><p rend="footnote text">Cf. Rom. 9:3.</p></note></p>
+            <p n="18">18. Fourthly, this uncomfortable doctrine directly tends to destroy our zeal
+                for good works. And this it does, first, as it <pb n="03:551"/>naturally tends
+                (according to what was observed before) to destroy our love to the greater part of
+                mankind, namely, the evil and unthankful. For whatever lessens our love must so far
+                lessen our desire to do them good. This it does, secondly, as it cuts off one of the
+                strongest motives to all acts of bodily mercy, such as feeding the hungry, clothing
+                the naked, and the like, viz., the hope of saving their souls from death. For what
+                avails it to relieve their temporal wants who are just dropping into eternal
+                    fire?<note place="foot" xml:id="ftn36" n="36"><p rend="footnote text">Jude
+                        7.</p></note> ‘Well; but run and snatch them as brands out of the
+                    fire.’<note place="foot" xml:id="ftn37" n="37"><p rend="footnote text">See Zech.
+                        3:2; cf. No. 4, <hi rend="italic">Scriptural Christianity</hi>, II.2 and
+                        n.</p></note> Nay, this you suppose impossible. They were appointed
+                thereunto, you say, from eternity, before they had done either good or evil. You
+                believe it is the will of God they should die. And ‘who hath resisted his
+                    will?’<note place="foot" xml:id="ftn38" n="38"><p rend="footnote text">Rom.
+                        9:19.</p></note> But you say you ‘do not know whether these are elected or
+                not.’ What then? If you know they are one or the other, that they are either elected
+                or not elected, all your labour is void and vain. In either case your advice,
+                reproof, or exhortation, is as needless and useless as our preaching. It is needless
+                to them that are elected; for they will infallibly be saved without it. It is
+                useless to them that are not elected; for with or without it they will infallibly be
+                damned. Therefore you cannot, consistently with your principles, take any pains
+                about their salvation. Consequently those principles directly tend to destroy your
+                zeal for good works—for all good works, but particularly for the greatest of all,
+                the saving of souls from death.<note place="foot" xml:id="ftn39" n="39"><p
+                        rend="footnote text">See Jas. 5:20.</p></note></p>
+            <p n="19">19. But, fifthly, this doctrine not only tends to destroy Christian holiness,
+                happiness, and good works, but hath also a direct and manifest tendency to overthrow
+                the whole Christian revelation. The point which the wisest of the modern unbelievers
+                most industriously labour to prove is that the Christian revelation is not
+                necessary. They well know, could they once show this, the conclusion would be too
+                plain to be denied. ‘If it be not necessary, it is not true.’ Now this fundamental
+                point you give up. For supposing that eternal, unchangeable decree, one part of
+                mankind must be saved, though the Christian revelation were not in being, and the
+                other part of mankind must be damned, notwithstanding that revelation. And what
+                would an infidel desire more? You allow him all he asks. In making the gospel thus
+                unnecessary to all sorts of men you give up the whole Christian <pb n="03:552"
+                />cause. ‘O tell it not in Gath! Publish it not in the streets of Askelon! Lest the
+                daughters of the uncircumcised rejoice, lest the sons of unbelief triumph!’<note
+                    place="foot" xml:id="ftn40" n="40"><p rend="footnote text">Cf. 2 Sam.
+                    1:20.</p></note></p>
+            <p n="20">20. And as this doctrine manifestly and directly tends to overthrow the whole
+                Christian revelation, so it does the same thing, by plain consequence, in making
+                that revelation contradict itself. For it is grounded on such an interpretation of
+                some texts (more or fewer it matters not) as flatly contradicts all the other texts,
+                and indeed the whole scope and tenor of Scripture. For instance: the asserters of
+                this doctrine interpret that text of Scripture, ‘Jacob have I loved, but Esau have I
+                    hated,’<note place="foot" xml:id="ftn41" n="41"><p rend="footnote text">Rom.
+                        9:13. One might, therefore, expect such an interpretation in Luther’s <hi
+                            rend="italic">Lectures on Romans</hi>, Calvin’s <hi rend="italic"
+                            >Commentary</hi>, Poole’s <hi rend="italic">Annotations</hi> (or even
+                        Karl Barth); nothing of the sort appears in any of them. Matthew Henry,
+                        himself a moderate Calvinist, knows of those who interpret this text as
+                        meaning God’s love to Jacob and hatred of Esau, ‘from eternity’. But, says
+                        he, ‘the Apostle speaks of Jacob and Esau not in their own persons but as
+                            <hi rend="italic">ancestors</hi>…’ (see his <hi rend="italic"
+                            >Exposition</hi>).</p></note> as implying that God in a literal sense
+                hated Esau and all the reprobated from eternity. Now what can possibly be a more
+                flat contradiction than this, not only to the whole scope and tenor of Scripture,
+                but also to all those particular texts which expressly declare, ‘God is love’?<note
+                    place="foot" xml:id="ftn42" n="42"><p rend="footnote text">1 John
+                    4:16.</p></note> Again, they infer from that text, ‘I will have mercy on whom I
+                will have mercy,’<hi rend="endnote_reference"><note place="end"><p
+                            rend="endnote text">Rom. 9:15.</p></note></hi> that God is love only to
+                some men, viz., the elect, and that he hath mercy for those only: flatly contrary to
+                which is the whole tenor of Scripture, as is that express declaration in particular,
+                ‘The Lord is loving unto <hi rend="italic">every </hi>man, and his mercy is over <hi
+                    rend="italic">all</hi> his works.’<hi rend="endnote_reference"><note place="end"
+                            ><p rend="endnote text">Ps. 145:9 [(BCP); note the implied hermeneutical
+                            rule here which contrasts with Wesley’s typical emphasis upon literal
+                            interpretation; see No. 21, ‘Sermon on the Mount, I’, §6 and
+                        n.].</p></note></hi> Again, they infer from that and the like texts, ‘It is
+                not of him that willeth, neither of him that runneth, but of God that showeth
+                    mercy,’<note place="foot" xml:id="ftn43" n="43"><p rend="footnote text">Cf. Rom.
+                        9:16.</p></note> that he showeth mercy only to those to whom he had respect
+                from all eternity. ‘Nay, but who replieth against God’ now?<note place="foot"
+                    xml:id="ftn44" n="44"><p rend="footnote text">Cf. Rom. 9:20.</p></note> You now
+                contradict the whole oracles of God, which declare throughout, ‘God is no respecter
+                of persons;’<hi rend="endnote_reference"><note place="end"><p rend="endnote text"
+                            >Acts 10:34.</p></note></hi> ‘There is no respect of persons with
+                    him.’<hi rend="endnote_reference"><note place="end"><p rend="endnote text">Rom.
+                            2:11.</p></note></hi> Again, from that text, ‘The children being not yet
+                born, neither <pb n="03:553"/>having done good or evil, that the purpose of God
+                according to election might stand, not of works, but of him that calleth, it was
+                said unto her (unto Rebecca), ‘The elder shall serve the younger’<note place="foot"
+                    xml:id="ftn45" n="45"><p rend="footnote text">Rom. 9:11-12.</p></note>—you infer
+                that our being predestinated or elect no way depends on the foreknowledge of God.
+                Flatly contrary to this are all the Scriptures; and those in particular, ‘elect
+                according to the foreknowledge of God’,<hi rend="endnote_reference"><note
+                        place="end"><p rend="endnote text">1 Pet. 1:2.</p></note></hi> [and] ‘Whom
+                he did foreknow, he also did predestinate.’<hi rend="endnote_reference"><note
+                        place="end"><p rend="endnote text">Rom. 8:29.</p></note></hi></p>
+            <p n="21">21. And, ‘The same Lord over all is rich in mercy to all that call upon
+                    him.’<hi rend="endnote_reference"><note place="end"><p rend="endnote text">Rom.
+                            10:12.</p></note></hi> But you say, ‘No: he is such only to those for
+                whom Christ died. And those are not all, but only a few, “whom God hath chosen out
+                of the world”;<note place="foot" xml:id="ftn46" n="46"><p rend="footnote text">Cf.
+                        John 15:19.</p></note> for he died not for all, but only for those who were
+                “chosen in him before the foundation of the world”.’<hi rend="endnote_reference"
+                        ><note place="end"><p rend="endnote text">Eph. 1:4.</p></note></hi> Flatly
+                contrary to your interpretation of these Scriptures also is the whole tenor of the
+                New Testament; as are in particular those texts: ‘Destroy not him with thy meat for
+                whom Christ died’<hi rend="endnote_reference"><note place="end"><p
+                            rend="endnote text">Rom. 14:15.</p></note></hi>—a clear proof that
+                Christ died, not only for those that are saved, but also for them that perish; He is
+                ‘the Saviour of the world’;<hi rend="endnote_reference"><note place="end"><p
+                            rend="endnote text">John 4:42.</p></note></hi> He is ‘the Lamb of God,
+                that taketh away the sins of the world’;<hi rend="endnote_reference"><note
+                        place="end"><p rend="endnote text">John 1:29.</p></note></hi> ‘He is the
+                propitiation, not for our sins only, but also for the sins of the whole world;’<hi
+                    rend="endnote_reference"><note place="end"><p rend="endnote text">1 John
+                            2:2.</p></note></hi> ‘He (the living God) is the Saviour of all men;’<hi
+                    rend="endnote_reference"><note place="end"><p rend="endnote text">1 Tim.
+                            4:10.</p></note></hi> ‘He gave himself a ransom for all;’<hi
+                    rend="endnote_reference"><note place="end"><p rend="endnote text">1 Tim.
+                            2:6.</p></note></hi> ‘He tasted death for every man.’<hi
+                    rend="endnote_reference"><note place="end"><p rend="endnote text">Heb.
+                        2:9.</p></note></hi></p>
+            <p n="22">22. If you ask, ‘Why then are not all men saved?’ the whole law and the
+                testimony answer: first, not because of any decree of God, not because it is his
+                pleasure they should die. For, ‘as I live, saith the Lord God, I have no pleasure in
+                the death of him that dieth.’<hi rend="endnote_reference"><note place="end"><p
+                            rend="endnote text">Ezek. 18:32.</p></note></hi> Whatever be the cause
+                of their perishing it cannot be his will, if the oracles of God are true; for they
+                declare, ‘He is not willing that any should perish, but that all should come to
+                    repentance.’<hi rend="endnote_reference"><note place="end"><p
+                            rend="endnote text">2 Pet. 3:9.</p></note></hi> He ‘willeth that all men
+                should be saved’.<note place="foot" xml:id="ftn47" n="47"><p rend="footnote text"
+                        >Cf. 1 Tim. 2:4.</p></note> And they, secondly, declare what is the cause
+                why all men are not saved: namely, that they will not be saved. So our Lord
+                expressly: ‘They will not come <pb n="03:554"/>unto me that they may have life;’<hi
+                    rend="endnote_reference"><note place="end"><p rend="endnote text">John
+                        5:40.</p></note></hi> ‘The power of the Lord is present to heal them,’<note
+                    place="foot" xml:id="ftn48" n="48"><p rend="footnote text">Cf. Luke
+                    5:17.</p></note> but they will not be healed. They ‘reject the counsel’, the
+                merciful counsel ‘of God against themselves’,<note place="foot" xml:id="ftn49"
+                    n="49"><p rend="footnote text">Cf. Luke 7:30.</p></note> as did their
+                stiff-necked forefathers. And therefore are they without excuse, because God would
+                save them, but they will not be saved. This is the condemnation, ‘How often would I
+                have gathered you together, and ye would not.’<hi rend="endnote_reference"><note
+                        place="end"><p rend="endnote text">Matt. 23:37.</p></note></hi></p>
+            <p n="23">23. Thus manifestly does this doctrine tend to overthrow the whole Christian
+                revelation, by making it contradict itself; by giving such an interpretation of some
+                texts as flatly contradicts all the other texts, and indeed the whole scope and
+                tenor of Scripture—an abundant proof that it is not of God. But neither is this all.
+                For, seventhly, it is a doctrine full of blasphemy; of such blasphemy as I should
+                dread to mention but that the honour of our gracious God and the cause of his truth
+                will not suffer me to be silent. In the cause of God, then, and from a sincere
+                concern for the glory of his great name, I will mention a few of the horrible
+                blasphemies contained in this horrible doctrine. But first, I must warn every one of
+                you that hears, as ye will answer it at the great day, not to charge me (as some
+                have done) with blaspheming because I mention the blasphemy of others.<note
+                    place="foot" xml:id="ftn50" n="50"><p rend="footnote text">Cf. Wesley’s bland
+                        disclaimer in <hi rend="italic">A Farther Appeal</hi>, Pt. I, V.29
+                        (11:172-73 in this edn.), that he had never ‘anathematized’ Mr. Whitefield,
+                        but rather reverenced him ‘both as a child of God and a true minister of
+                        Jesus Christ…’. See also his claim to Bishop Lavington (letter of Dec. 1751,
+                        §32), that he had ‘opposed the doctrine of predestination, …but without any
+                        degree either of rancour or fierceness’.</p></note> And the more you are
+                grieved with them that do thus blaspheme, see that ye ‘confirm your love towards
+                    them’<note place="foot" xml:id="ftn51" n="51"><p rend="footnote text">Cf. 2 Cor.
+                        2:8.</p></note> the more, and that your heart’s desire and continual prayer
+                to God be, ‘Father, forgive them; for they know not what they do.’<note place="foot"
+                    xml:id="ftn52" n="52"><p rend="footnote text">Luke 23:34.</p></note></p>
+            <p n="24">24. This premised, let it be observed that this doctrine represents our
+                Blessed Lord—‘Jesus Christ the righteous’,<note place="foot" xml:id="ftn53" n="53"
+                        ><p rend="footnote text">1 John 2:1.</p></note> ‘the only-begotten Son of
+                the Father, full of grace and truth’<note place="foot" xml:id="ftn54" n="54"><p
+                        rend="footnote text">John 1:14.</p></note>—as an hypocrite, a deceiver of
+                the people, a man void of common sincerity. For it cannot be denied that he
+                everywhere speaks <hi rend="italic">as if</hi>
+                <pb n="03:555"/><hi rend="italic">he was</hi> willing that all men should be saved.
+                Therefore, to say <hi rend="italic">he was not</hi> willing that all men should be
+                saved is to represent him as a mere hypocrite and dissembler. It can’t be denied
+                that the gracious words which came out of his mouth are full of invitations to all
+                sinners. To say, then, he did not <hi rend="italic">intend</hi> to save all sinners
+                is to represent him as a gross deceiver of the people. You cannot deny that he says,
+                ‘Come unto me, all ye that are weary and heavy laden.’<note place="foot"
+                    xml:id="ftn55" n="55"><p rend="footnote text">Cf. Matt. 11:28.</p></note> If
+                then you say he calls those that cannot come, those whom he knows to be unable to
+                come, those whom he can make able to come but will not, how is it possible to
+                describe greater insincerity? You represent him as mocking his helpless creatures by
+                offering what he never intends to give. You describe him as saying one thing and
+                meaning another; as pretending the love which he had not. Him ‘in whose mouth was no
+                    guile’<note place="foot" xml:id="ftn56" n="56"><p rend="footnote text">Cf. 1
+                        Pet. 2:22.</p></note> you make full of deceit, void of common sincerity.
+                Then especially, when, drawing nigh the city, ‘he wept over it’,<note place="foot"
+                    xml:id="ftn57" n="57"><p rend="footnote text">Luke 19:41.</p></note> and said,
+                ‘O Jerusalem, Jerusalem, thou that killest the prophets, and stonest them that are
+                sent unto thee, how often <hi rend="italic">would</hi> I have gathered thy children
+                together…and <hi rend="italic">ye would not</hi>:’<note place="foot" xml:id="ftn58"
+                    n="58"><p rend="footnote text">Matt. 23:37.</p></note> (ἠθέλησα…καὶ ούκ
+                ἠθελήσατε). Now if you say, ‘They would’, but ‘he would not,’ you represent him
+                (which who could hear?) as weeping crocodile’s tears, weeping over the prey which
+                himself had doomed to destruction.<note place="foot" xml:id="ftn59" n="59"><p
+                        rend="footnote text">Cf. Shakespeare, <hi rend="italic">Henry VI, Part
+                            II</hi>, iii.1; and Robert Burton, <hi rend="italic">Anatomy of
+                            Melancholy </hi>(1621), Pt. III.2, §4; see also Brewer’s <hi
+                            rend="italic">Dictionary of Phrase and Fable</hi>
+                    (‘Crocodile’).</p></note></p>
+            <p n="25">25. Such blasphemy this, as one would think might make the ears of a Christian
+                tingle. But there is yet more behind; for just as it honours the Son, so doth this
+                doctrine honour the Father.<note place="foot" xml:id="ftn60" n="60"><p
+                        rend="footnote text">See John 5:23.</p></note> It destroys all his
+                attributes at once. It overturns both his justice, mercy, and truth. Yea, it
+                represents the most Holy God as worse than the devil; as both more false, more
+                cruel, and more unjust. More false; because the devil, liar as he is, hath never
+                said he ‘willeth all men to be saved’. More unjust; because the devil cannot, if he
+                would, be guilty of such injustice as you ascribe to God when you say that God
+                condemned millions of souls to everlasting fire prepared for the devil and his
+                    angels<note place="foot" xml:id="ftn61" n="61"><p rend="footnote text">Matt.
+                        25:41.</p></note> for continuing in sin, which for want of that grace <hi
+                    rend="italic">he will not</hi> give them, they cannot avoid. And more cruel;
+                because that unhappy <pb n="03:556"/>spirit ‘seeketh rest and findeth none’;<note
+                    place="foot" xml:id="ftn62" n="62"><p rend="footnote text">Matt.
+                    12:43.</p></note> so that his own restless misery is a kind of temptation to him
+                to tempt others. But God ‘resteth in his high and holy place’;<note place="foot"
+                    xml:id="ftn63" n="63"><p rend="footnote text">Cf. Isa. 57:15.</p></note> so that
+                to suppose him of his own mere motion, of his pure will and pleasure, happy as he
+                is, to doom his creatures, whether they will or no, to endless misery, is to impute
+                such cruelty to him as we cannot impute even to the great enemy of God and man. It
+                is to represent the most high God (he that hath ears to hear, let him hear!)<note
+                    place="foot" xml:id="ftn64" n="64"><p rend="footnote text">Matt.
+                    11:15.</p></note> as more cruel, false, and unjust than the devil.</p>
+            <p n="26">26. This is the blasphemy clearly contained in ‘the horrible decree’<note
+                    place="foot" xml:id="ftn65" n="65"><p rend="footnote text">Cf. Calvin, <hi
+                            rend="italic">Institutes</hi>, III.xxiii. 7: <hi rend="italic">Decretum
+                            quidem horribile fateor</hi>: ‘That this decree is dreadful, I admit.’
+                        ‘But no one can deny that God foreknew what end man was to have…. And if
+                        anyone inveighs against God’s foreknowledge…he stumbles rashly and
+                        heedlessly….’ (§8). ‘And let us not be ashamed to submit our understandings
+                        to God’s boundless wisdom…. For of those things which it is not given
+                        [us]…to know…the craving to know is a kind of madness.’ Calvin and Wesley
+                        are here poles apart and, for once, Wesley scorns any ‘third alternative’.
+                        Thereafter, all efforts at transcending these misunderstandings would have
+                        had the look of compromise.</p></note> of predestination. And here I fix my
+                foot. On this I join issue with every asserter of it. You represent God as worse
+                than the devil—more false, more cruel, more unjust. But you say you will ‘prove it
+                by Scripture’. Hold! What will you prove by Scripture? That God is worse than the
+                devil? It cannot be. Whatever that Scripture proves, it never can prove this.
+                Whatever its true meaning be, this cannot be its true meaning. Do you ask, ‘What is
+                its true meaning, then?’ If I say, ‘I know not,’ you have gained nothing. For there
+                are many Scriptures the true sense whereof neither you nor I shall know till death
+                is swallowed up in victory.<note place="foot" xml:id="ftn66" n="66"><p
+                        rend="footnote text">1 Cor. 15:54.</p></note> But this I know, better it
+                were to say it had no sense at all than to say it had such a sense as this. It
+                cannot mean, whatever it mean besides, that the God of truth is a liar. Let it mean
+                what it will, it cannot mean that the Judge of all the world is unjust. No Scripture
+                can mean that God is not love, or that his mercy is not over all his works.<note
+                    place="foot" xml:id="ftn67" n="67"><p rend="footnote text">Ps. 145:9
+                    (BCP).</p></note> That is, whatever it prove beside, no Scripture can prove
+                predestination.</p>
+            <p n="27">27. This is the blasphemy for which (however I love the persons who assert it)
+                I abhor the doctrine of predestination: a doctrine upon the supposition of which, if
+                one could possibly <pb n="03:557"/>suppose it for a moment (call it election,
+                reprobation, or what you please, for all comes to the same thing) one might say to
+                our adversary the devil:<note place="foot" xml:id="ftn68" n="68"><p
+                        rend="footnote text">1 Pet. 5:8.</p></note> ‘Thou fool, why dost thou roar
+                about any longer? Thy lying in wait for souls is as needless and useless as our
+                preaching. Hearest thou not that God hath taken thy work out of thy hands? And that
+                he doth it much more effectually? Thou, with all thy principalities and powers,<note
+                    place="foot" xml:id="ftn69" n="69"><p rend="footnote text">Col. 2:15,
+                    etc.</p></note> canst only so assault that we may resist thee; but he can
+                irresistibly destroy both body and soul in hell!<note place="foot" xml:id="ftn70"
+                    n="70"><p rend="footnote text">Matt. 10:28.</p></note> Thou canst only entice;
+                but his unchangeable decree to leave thousands of souls in death compels them to
+                continue in sin till they drop into everlasting burnings. Thou temptest; he forceth
+                us to be damned; for we cannot resist his will. Thou fool, why goest thou about any
+                longer seeking whom thou mayest devour?<note place="foot" xml:id="ftn71" n="71"><p
+                        rend="footnote text">See 1 Pet. 5:8.</p></note> Hearest thou not that God is
+                the devouring lion, the destroyer of souls, the murderer of men? Moloch caused only
+                children to pass through the fire;<note place="foot" xml:id="ftn72" n="72"><p
+                        rend="footnote text">See Lev. 18:21; Jer. 32:35.</p></note> and that fire
+                was soon quenched; or, the corruptible body being consumed, its torment was at an
+                end. But God, thou art told, by his eternal decree, fixed before they had done good
+                or evil, causes not only “children of a span long”<note place="foot" xml:id="ftn73"
+                    n="73"><p rend="footnote text">Lam. 2:20.</p></note> but the parents also to
+                pass through the fire of hell—that “fire which never shall be quenched”;<note
+                    place="foot" xml:id="ftn74" n="74"><p rend="footnote text">Cf. Mark
+                    9:43.</p></note> and the body which is cast thereinto, being now incorruptible
+                and immortal, will be ever consuming, and never consumed, but “the smoke of their
+                torment”, because it is God’s good pleasure, “ascendeth up for ever and ever”.’<note
+                    place="foot" xml:id="ftn75" n="75"><p rend="footnote text">Rev.
+                    14:11.</p></note></p>
+            <p n="28">28. O how would the enemy of God and man rejoice to hear these things were so!
+                How would he cry aloud and spare not! How would he lift up his voice and say: ‘To
+                your tents, O Israel!<note place="foot" xml:id="ftn76" n="76"><p
+                        rend="footnote text">1 Kgs. 12:16.</p></note> Flee from the face<note
+                    place="foot" xml:id="ftn77" n="77"><p rend="footnote text">See Gen. 16:8; Exod.
+                        14:25.</p></note> of this God, or ye shall utterly perish.<note place="foot"
+                    xml:id="ftn78" n="78"><p rend="footnote text">See Deut. 4:26.</p></note> But
+                whither will ye flee? Into heaven? He is there. Down to hell? He is there also.<note
+                    place="foot" xml:id="ftn79" n="79"><p rend="footnote text">See Ps. 139:7-8
+                        (AV).</p></note> Ye cannot flee from an omnipresent, almighty tyrant. And
+                whether ye flee or stay, I call heaven his throne, and earth his footstool<note
+                    place="foot" xml:id="ftn80" n="80"><p rend="footnote text">See Isa.
+                    66:1.</p></note> to witness against you, ye shall perish, ye shall die
+                eternally. Sing, O hell, and rejoice ye that are under the earth! For God, even the
+                mighty God, hath spoken, and devoted to death <pb n="03:558"/>thousands of souls,
+                from the rising up of the sun unto the going down thereof.<note place="foot"
+                    xml:id="ftn81" n="81"><p rend="footnote text">Ps. 113:3.</p></note> Here, O
+                death, is thy sting!<note place="foot" xml:id="ftn82" n="82"><p rend="footnote text"
+                        >See 1 Cor. 15:55.</p></note> They shall not, cannot escape; for the mouth
+                of the Lord hath spoken it.<note place="foot" xml:id="ftn83" n="83"><p
+                        rend="footnote text">Isa. 1:20, etc.</p></note> Here, O grave, is thy
+                    victory!<note place="foot" xml:id="ftn84" n="84"><p rend="footnote text">See 1
+                        Cor. 15:55.</p></note> Nations yet unborn, or ever they have done good or
+                evil, are doomed never to see the light of life, but thou shalt gnaw upon them for
+                ever and ever. Let all those morning stars sing together<note place="foot"
+                    xml:id="ftn85" n="85"><p rend="footnote text">See Job 38:7.</p></note> who fell
+                with Lucifer, son of the morning.<note place="foot" xml:id="ftn86" n="86"><p
+                        rend="footnote text">Isa. 14:12. Cf. Milton, <hi rend="italic">Paradise
+                            Lost</hi>, x.410-30; see also Tertullian, <hi rend="italic">Adv.
+                            Marc.</hi>, V.xi.17; and No. 72, ‘Of Evil Angels’, I.3.</p></note> Let
+                all the sons of hell shout for joy! For the decree is past, and who shall disannul
+                it?’</p>
+            <p n="29">29. Yea, the decree is past. And so it was before the foundation of the
+                    world.<note place="foot" xml:id="ftn87" n="87"><p rend="footnote text">Cf. John
+                        17:24.</p></note> But what decree? Even this: ‘“I will set before” the sons
+                of men “life and death, blessing and cursing”;<note place="foot" xml:id="ftn88"
+                    n="88"><p rend="footnote text">Cf. Deut. 30:19.</p></note> and the soul that
+                chooseth life shall live, as the soul that chooseth death shall die.’ This decree,
+                whereby ‘whom God did foreknow, he did predestinate,’<note place="foot"
+                    xml:id="ftn89" n="89"><p rend="footnote text">Cf. Rom. 8:29.</p></note> was
+                indeed from everlasting. This, whereby all who suffer Christ to make them alive are
+                ‘elect, according to the foreknowledge of God’,<note place="foot" xml:id="ftn90"
+                    n="90"><p rend="footnote text">1 Pet. 1:2.</p></note> now ‘standeth fast, even
+                as the moon, and as the faithful witness in heaven’.<note place="foot"
+                    xml:id="ftn91" n="91"><p rend="footnote text">Cf. Ps. 89:36 (BCP).</p></note>
+                And when heaven and earth shall pass away, yet this shall not pass away;<note
+                    place="foot" xml:id="ftn92" n="92"><p rend="footnote text">See Matt. 24:35,
+                        etc.</p></note> for it is as unchangeable and eternal as is the being of God
+                that gave it. This decree yields the strongest encouragement to abound in all good
+                works, and in all holiness; and it is a well-spring of joy, of happiness also, to
+                our great and endless comfort. This is worthy of God. It is every way consistent
+                with all the perfections of his nature. It gives us the noblest view both of his
+                justice, mercy, and truth. To this agrees the whole scope of the Christian
+                revelation, as well as all the parts thereof. To this Moses and all the prophets
+                bear witness, and our blessed Lord and all his apostles. Thus Moses, in the name of
+                his Lord: ‘I call heaven and earth to record against you this day, that I have set
+                before you life and death, blessing and cursing; therefore choose life, that thou
+                and thy seed may live.’<note place="foot" xml:id="ftn93" n="93"><p
+                        rend="footnote text">Cf. Deut. 30:19.</p></note> Thus Ezekiel (to cite one
+                prophet for all): ‘The soul that sinneth, it shall die. The son shall not bear
+                (eternally) the <pb n="03:559"/>iniquity of the father. The righteousness of the
+                righteous shall be upon him, and the wickedness of the wicked shall be upon him.’<hi
+                    rend="endnote_reference"><note place="end"><p rend="endnote text">[Ezek.]
+                            18:20.</p></note></hi> Thus our blessed Lord: ‘If any man thirst, let
+                him come to me and drink.’<hi rend="endnote_reference"><note place="end"><p
+                            rend="endnote text">John 7:37.</p></note></hi> Thus his great Apostle,
+                St. Paul: ‘God commandeth all men everywhere to repent.’<hi rend="endnote_reference"
+                        ><note place="end"><p rend="endnote text">Acts 17:30.</p></note></hi> ‘All
+                men, everywhere’—every man in every place, without any exception, either of place or
+                person. Thus St. James: ‘If any of you lack wisdom, let him ask of God, who giveth
+                to all men liberally and upbraideth not, and it shall be given him.’<hi
+                    rend="endnote_reference"><note place="end"><p rend="endnote text">Jas.
+                        1:5.</p></note></hi> Thus St. Peter: ‘The Lord is…not willing that any
+                should perish, but that all should come to repentance.’<hi rend="endnote_reference"
+                        ><note place="end"><p rend="endnote text">2 Pet. 3:9.</p></note></hi> And
+                thus St. John: ‘If any man sin, we have an advocate with the Father, …and he is the
+                propitiation for our sins; and not for ours only, but for the sins of the whole
+                    world.’<hi rend="endnote_reference"><note place="end"><p rend="endnote text">1
+                            John 2:1-2.</p></note></hi></p>
+            <p n="30">30. O hear ye this, ye that forget God! Ye cannot charge your death upon him.
+                ‘Have I any pleasure at all that the wicked should die, saith the Lord God? Repent,
+                and turn from all your transgressions; so iniquity shall not be your ruin. Cast away
+                from you all your transgressions, whereby ye have transgressed; …for why will ye
+                die, O house of Israel? For I have no pleasure in the death of him that dieth, saith
+                the Lord God. Wherefore turn yourselves, and live ye.’<hi rend="endnote_reference"
+                        ><note place="end"><p rend="endnote text">Ezek. 18:23, etc. [i.e.,
+                            30-32].</p></note></hi> ‘As I live, saith the Lord God, I have no
+                pleasure in the death of the wicked, … Turn ye, turn ye from your evil ways; for why
+                will ye die, O house of Israel?’<hi rend="endnote_reference"><note place="end"><p
+                            rend="endnote text">Ezek. 33:11.</p></note></hi></p>
+            <p>Universal Redemption<note place="foot" xml:id="ftn94" n="94"><p rend="footnote text">
+                        This hymn (one of several on ‘Universal Redemption’), after its appearance
+                        appended to <hi rend="italic">Free Grace</hi>, was then published in <hi
+                            rend="italic">Hymns and Sacred Poems</hi> (1740), pp. 136-42, and in <hi
+                            rend="italic">AM</hi> (May 1778), I.235-40, in each case with minor
+                        revisions. Some have conjectured that it was written by John Wesley himself,
+                        but its style and language make this doubtful (e.g., the ‘darling’ in l. 9).
+                        A larger consensus of partisans on both sides attributed its authorship to
+                        Charles; see No. 54, ‘On Eternity’, §14 and n.</p></note></p>
+            <lg>
+                <lg>
+                    <l>Hear, holy, holy, holy, Lord,</l>
+                    <l>Father of all mankind,</l>
+                    <l>Spirit of love, eternal Word, </l>
+                    <l>n mystic union join’d.</l>
+                </lg>
+                <lg>
+                    <l>Hear, and inspire my stammering tongue,</l>
+                    <l>Exalt my abject thought,</l>
+                    <l>Speak from my mouth a sacred song,</l>
+                    <l>Who spak’st the world from nought.</l>
+                </lg>
+                <pb n="03:560"/>
+                <lg>
+                    <l>Thy darling attribute I praise</l>
+                    <l>Which all alike may prove,</l>
+                    <l>The glory of thy boundless grace,</l>
+                    <l>Thy universal love.</l>
+                </lg>
+                <lg>
+                    <l>Mercy I sing, transporting sound,</l>
+                    <l>The joy of earth and heaven!</l>
+                    <l>Mercy, by every sinner found,</l>
+                    <l>Who takes what God hath given.</l>
+                </lg>
+                <lg>
+                    <l>Mercy for all thy hands have made,</l>
+                    <l>Immense, and unconfin’d,</l>
+                    <l>Throughout thy every work display’d,</l>
+                    <l>Embracing all mankind.</l>
+                </lg>
+                <lg>
+                    <l>Thine eye survey’d the fallen race</l>
+                    <l>When sunk in sin they lay,</l>
+                    <l>Their misery called for all thy grace,</l>
+                    <l>But justice stopped the way.</l>
+                </lg>
+                <lg>
+                    <l>Mercy the fatal bar removed,</l>
+                    <l>Thy only Son it gave—</l>
+                    <l>To save a world so dearly loved,</l>
+                    <l>A sinful world to save.</l>
+                </lg>
+                <lg>
+                    <l>For every man he tasted death,</l>
+                    <l>He suffered once for all,</l>
+                    <l>He calls as many souls as breathe,</l>
+                    <l>And all may hear the call.</l>
+                </lg>
+                <lg>
+                    <l>A power to choose, a will to obey,</l>
+                    <l>Freely his grace restores;</l>
+                    <l>We all may find the Living Way,</l>
+                    <l>And call the Saviour ours.</l>
+                </lg>
+                <lg>
+                    <l>Whom his eternal mind foreknew,</l>
+                    <l>That they the power would use,</l>
+                    <l>Ascribe to God the glory due,</l>
+                    <l>And not his grace refuse;</l>
+                </lg>
+                <lg>
+                    <l>Them, only them, his will decreed,</l>
+                    <l>Them did he choose alone,</l>
+                    <l>Ordained in Jesus’ steps to tread,</l>
+                    <l>And to be like his Son.</l>
+                </lg>
+                <lg>
+                    <l>Them, the elect, consenting few,</l>
+                    <l>Who yield to proffered love,</l>
+                    <l>Justified here he forms anew,</l>
+                    <l>And glorifies above.</l>
+                </lg>
+                <pb n="03:561"/>
+                <lg>
+                    <l>For as in Adam all have died,</l>
+                    <l>So all in Christ may live,</l>
+                    <l>May (for the world is justified)</l>
+                    <l>His righteousness receive.</l>
+                </lg>
+                <lg>
+                    <l>Who’er to God for pardon fly,</l>
+                    <l>In Christ may be forgiven,</l>
+                    <l>He speaks to all, ‘Why will ye die,</l>
+                    <l>And not accept my heaven?’</l>
+                </lg>
+                <lg>
+                    <l>No! in the death of him that dies</l>
+                    <l>(God by his life hath sworn)</l>
+                    <l>He is not pleased; but ever cries,</l>
+                    <l>Turn, O ye sinners, turn.</l>
+                </lg>
+                <lg>
+                    <l>He would that all his truths should own,</l>
+                    <l>His gospel all embrace,</l>
+                    <l>Be justified by faith alone,</l>
+                    <l>And freely saved by grace.</l>
+                </lg>
+                <lg>
+                    <l>And shall I, Lord, confine thy love,</l>
+                    <l>As not to others free?</l>
+                    <l>And may not every sinner prove,</l>
+                    <l>The grace that found out me?</l>
+                </lg>
+                <lg>
+                    <l>Doubtless through one eternal now</l>
+                    <l>Thou ever art the same,</l>
+                    <l>The universal Saviour thou,</l>
+                    <l>And Jesus is thy name.</l>
+                </lg>
+                <lg>
+                    <l>Ho! every one that thirsteth, come!</l>
+                    <l>Choose life; obey the Word;</l>
+                    <l>Open your hearts to make him room,</l>
+                    <l>And banquet with your Lord.</l>
+                </lg>
+                <lg>
+                    <l>When God invites, shall man repel?</l>
+                    <l>Shall man th’ exception make?</l>
+                    <l>‘Come, freely come, <hi rend="italic">whoever will</hi>,</l>
+                    <l>And living water take!’</l>
+                </lg>
+                <lg>
+                    <l>Thou bidd’st; and would’st thou bid us choose,</l>
+                    <l>When purposed not to save?</l>
+                    <l>Command us all a power to use,</l>
+                    <l>Thy mercy never gave?</l>
+                </lg>
+                <lg>
+                    <l>Thou can’st not mock the sons of men,</l>
+                    <l>Invite us to draw nigh,</l>
+                    <l>Offer thy grace to all, and then</l>
+                    <l>Thy grace to most deny!</l>
+                </lg>
+                <pb n="03:562"/>
+                <lg>
+                    <l>Horror to think that God is hate!</l>
+                    <l>Fury in God can dwell,</l>
+                    <l>God could an helpless world create,</l>
+                    <l>To thrust them into hell!</l>
+                </lg>
+                <lg>
+                    <l>Doom them an endless death to die,</l>
+                    <l>From which they could not flee—</l>
+                    <l>No, Lord! thine inmost bowels cry</l>
+                    <l>Against the dire decree!</l>
+                </lg>
+                <lg>
+                    <l>Believe who will that human pain,</l>
+                    <l>Pleasing to God can prove:</l>
+                    <l>Let Moloch feast him with the slain,</l>
+                    <l>Our God, we know, is love.</l>
+                </lg>
+                <lg>
+                    <l>Lord, if indeed, without a bound,</l>
+                    <l>Infinite love Thou art,</l>
+                    <l>The <hi rend="italic">horrible decree</hi> confound,</l>
+                    <l>Enlarge thy people’s heart!</l>
+                </lg>
+                <lg>
+                    <l>Ah! Who is as thy servants blind;</l>
+                    <l>So to misjudge their God!</l>
+                    <l>Scatter the darkness of their mind,</l>
+                    <l>And shed thy love abroad.</l>
+                </lg>
+                <lg>
+                    <l>Give them conceptions worthy thee,</l>
+                    <l>Give them, in Jesu’s face,</l>
+                    <l>Thy merciful design to see,</l>
+                    <l>Thy all-redeeming grace.</l>
+                </lg>
+                <lg>
+                    <l>Stir up thy strength, and help us, Lord,</l>
+                    <l>The preachers multiply;</l>
+                    <l>Send forth thy light, and give the word,</l>
+                    <l>And let the shadows fly.</l>
+                </lg>
+                <lg>
+                    <l>Oh! if thy Spirit send forth me,</l>
+                    <l>The meanest of the throng,</l>
+                    <l>I’ll sing thy grace divinely free,</l>
+                    <l>And teach mankind the song.</l>
+                </lg>
+                <lg>
+                    <l>Grace will I sing, through Jesu’s name,</l>
+                    <l>On all mankind bestowed;</l>
+                    <l>The everlasting truth proclaim,</l>
+                    <l>And seal that truth with blood.</l>
+                </lg>
+                <lg>
+                    <l>Come then, thou all-embracing love,</l>
+                    <l>Our frozen bosom warm;</l>
+                    <l>Dilating fire, within us move,</l>
+                    <l>With truth and meekness arm.</l>
+                </lg>
+                <pb n="03:563"/>
+                <lg>
+                    <l>Let us triumphantly ride on,</l>
+                    <l>And more than conquerors prove.</l>
+                    <l>With meekness bear th’ opposers down,</l>
+                    <l>And bind with cords of love.</l>
+                </lg>
+                <lg>
+                    <l>Shine in our hearts, Father of light;</l>
+                    <l>Jesu, thy beams impart;</l>
+                    <l>Spirit of truth, our minds unite,</l>
+                    <l>And make us one in heart.</l>
+                </lg>
+                <lg>
+                    <l>Then, only then, our eyes shall see</l>
+                    <l>Thy promised kingdom come;</l>
+                    <l>And every heart by grace set free,</l>
+                    <l>Shall make the Saviour room.</l>
+                </lg>
+                <lg>
+                    <l>Thee every tongue shall then confess,</l>
+                    <l>And every knee shall bow.</l>
+                    <l>Come quickly, Lord, we wait thy grace,</l>
+                    <l>We long to meet thee now.</l>
+                </lg>
+            </lg>
+        </body>
+    </text>
+</TEI>

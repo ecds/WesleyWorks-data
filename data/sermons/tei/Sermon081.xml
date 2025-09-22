@@ -1,0 +1,608 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Sermon 81: In What Sense We Are to Leave the World</title>
+                <author>Wesley, John</author>
+                <editor role="text">Van Buskirk, Gregory P.</editor>
+                <editor role="digital">Taylor, Michelle M.</editor>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>The Wesley Works Digitzation Project</publisher>
+                <pubPlace>Tampa, FL</pubPlace>
+                <date>2024-02-25</date>
+            </publicationStmt>
+            <sourceDesc>
+                <listBibl>
+                    <biblStruct>
+                        <analytic>
+                            <title level="a">Sermon 81: In What Sense We Are to Leave the
+                                World</title>
+                        </analytic>
+                        <monogr>
+                            <title level="j">The Works of John Wesley, Volume III: Sermons III,
+                                71-114</title>
+                            <editor role="volume">Outler, Albert</editor>
+                            <imprint>
+                                <publisher>Abingdon Press</publisher>
+                                <pubPlace>Nashville, TN</pubPlace>
+                                <date when="1986-11-01">1986-11-01</date>
+                                <biblScope unit="volume" n="3"/>
+                                <biblScope unit="page" from="141" to="155"/>
+                            </imprint>
+                        </monogr>
+                        <series>
+                            <title level="s">The Works of John Wesley</title>
+                            <editor role="general">Baker, Frank</editor>
+                        </series>
+                    </biblStruct>
+                </listBibl>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Greg Van Buskirk created Word docs for all of Wesley's sermons using a combination of
+                OCR software and manual proofing. Michelle Taylor converted these docx into XML
+                using Oxygen's DITA automatic transformation scenario, then touched them up
+                manually.</p>
+        </encodingDesc>
+        <standOff>
+            <taxonomy>
+                <keywords>
+                    <term/>
+                </keywords>
+            </taxonomy>
+            <!--Include keywords and terms here eventually.-->
+        </standOff>
+        <revisionDesc/>
+    </teiHeader>
+    <text>
+        <body>
+            <pb n="03:141"/>
+            <head>
+                <hi rend="italic">An Introductory Comment</hi>
+            </head>
+            <introduction>
+                <p>This is the first sermon in the seventh volume of <hi rend="italic">SOSO</hi>
+                    (1788) and is a logical sequel to the last one in <hi rend="italic">SOSO</hi>,
+                    VI. It argues the same practical conclusion—i.e., Christian discipline ‘requires
+                    us to keep at a distance, as far as is practicable, from all ungodly men’ (§4),
+                    and it is in this sense that we are ‘to leave the world’. It was, however,
+                    written almost two years earlier and in a very different setting (July 17,
+                    1784). Wesley had already recorded his optimistic reflections on his
+                    eighty-first birthday, in the midst of an arduous itinerary through the West
+                    Country, Wales, Ireland, Scotland, and now the north of England: ‘Today I
+                    entered on my eighty-second year, and found myself just as strong to labour and
+                    as fit for any exercise of body or mind as I was forty years ago.’ (JWJ, June
+                    28, 1784). The <hi rend="italic">Journal</hi> entry for July 15 is terse: ‘I
+                    retired to Otley and rested two days.’ The diary for the 17th records that he
+                    spent that morning writing a sermon; that it was this one is confirmed by its
+                    postscript in the <hi rend="italic">Arminian Magazine</hi> (VII.632): ‘Otley,
+                    July 17, 1784’.</p>
+                <p>What is not mentioned, either here or elsewhere in the <hi rend="italic"
+                        >Journal</hi> or diary, was a momentous crisis looming over the Methodist
+                    movement as a whole. By this time, Wesley had decided to provide his movement
+                    with a new structure in the form of a Deed of Declaration, to be proposed to the
+                    Conference in Leeds, July 27-August 3. One would never know from Wesley how
+                    deeply this move toward autonomy for the Conference had stirred the emotions of
+                    many, or how decisively it had marked the point of no return in the evolution of
+                    Methodism toward eventual separation from the Church of England.<note
+                        place="foot" xml:id="ftn1" n="1"><p rend="footnote text"> See Curnock’s
+                            understated note, VII.5-6, where he comments that ‘the manner in which
+                            the Deed was devised and executed, and the names selected for the
+                            constitution of the first Legal Conference, gave offence to some;’ see
+                            also Baker, <hi rend="italic">John Wesley and the Church of
+                            England</hi>, chs. 13-15.</p></note></p>
+                <p>In such a crisis it would have been important for Wesley to reject the
+                    conventional Nonconformist interpretations of 2 Cor. 6:17-18—which <pb
+                        n="03:142"/>had served so long as their scriptural warrant for separation
+                    from the Established Church. Wesley had never intended any such separation, and
+                    steadfastly denied that separation was inevitable or even ‘expedient’. Thus, he
+                    could lay an even heartier stress on his very different interpretation of the
+                    same Scripture as the basis for that asceticism-in-the-world to which he would
+                    return in ‘On Friendship with the World’. His ideal was a revival that helped
+                    renew the church without leaving it, and a Christian discipline that would
+                    ‘leave the world’ without fleeing from it.</p>
+                <p>This Otley sermon was published in the <hi rend="italic">Arminian Magazine</hi>,
+                    without title, in the November and December issues of 1784 (VII.569-77, 626-32),
+                    and numbered as ‘Sermon XXIV’. Then in 1788 he could invert the chronological
+                    order and use this sermon with a somewhat cumbersome title added to it for the
+                    opening message in the third volume of his ‘original sermons’. It was not
+                    reprinted in Wesley’s lifetime, but it serves both as a variation of a constant
+                    theme and as something of a mirroring of Wesley’s basic character: a man who had
+                    himself ‘left the world’ long since, and who never ceased to call on others to
+                    follow in his train.</p>
+            </introduction>
+            <head>In What Sense We Are to Leave the World</head>
+            <epigraph>
+                <p>2 Corinthians 6:17-18</p>
+                <p>
+                    <hi rend="italic">Come out from among them, and be ye separate, saith the Lord,
+                        and touch not the unclean thing; and I will receive you;</hi>
+                </p>
+                <p>
+                    <hi rend="italic">And I will be to you a Father, and ye shall be my sons and
+                        daughters, saith the Lord Almighty.</hi>
+                </p>
+            </epigraph>
+            <p n="1">1. How exceeding few in the religious world have duly considered these solemn
+                words! We have read them over and over, but never laid them to heart, or observed
+                that they contain as plain and express a command as any in the whole Bible. And it
+                is to be feared, there are still fewer that understand the genuine meaning of this
+                direction. Numberless persons in England have interpreted it as a command to come
+                out of the Established Church. And in the same sense it has been understood by <pb
+                    n="03:143"/> thousands in the neighbouring kingdoms.<note place="foot"
+                    xml:id="ftn2" n="2"><p rend="footnote text">In England this included both the
+                        Independents and the Nonconformists; cf. H. W. Clark, <hi rend="italic"
+                            >History of English Nonconformity</hi> (2 vols.; 1911-13), II.244-86.
+                        They regarded conformity to the Church of England as sinful and appealed to
+                        the arguments of Milton’s <hi rend="italic">Consideration Touching the
+                            Likeliest Means to Remove Hirelings Out of the Church</hi> (1659). In
+                        Scotland disestablishment sentiments were strong; in Ireland it was the
+                        Roman Catholics who were the disestablishmentarians. And, at the time of
+                        this writing, Wesley had just come from preaching visits to all of these
+                        ‘neighbouring kingdoms’.</p></note> Abundance of sermons have been preached
+                and of books wrote upon this supposition. And indeed many pious men have grounded
+                their separation from the Church chiefly on this text. ‘God himself,’ say they,
+                ‘commands us, “Come out from among them, and be ye separate.” And it is only upon
+                this condition that he “will receive” us, and we “shall be the sons and daughters of
+                the Lord Almighty”.’</p>
+            <p n="2">2. But this interpretation is totally foreign to the design of the Apostle, who
+                is not here speaking of this or that church, but on quite another subject. Neither
+                did the Apostle himself or any of his brethren draw any such inference from the
+                words. Had they done so it would have been a flat contradiction both to the example
+                and precept of their Master. For although the Jewish church was then full as
+                ‘unclean’, as unholy both inwardly and outwardly, as any Christian church now upon
+                earth, yet our Lord constantly attended the service of it. And he directed his
+                followers in this, as in every other respect, to ‘tread in his steps’.<note
+                    place="foot" xml:id="ftn3" n="3"><p rend="footnote text">Cf. 1 Pet.
+                    2:21.</p></note> This is clearly implied in that remarkable passage: ‘The
+                scribes and Pharisees sit in Moses’ seat; all therefore whatsoever they bid you
+                observe, that observe and do; but do not ye after their works; for they say and do
+                    not.’<hi rend="endnote_reference"><note place="end"><p rend="endnote text">Matt.
+                            23:2-3.</p></note></hi> Even though they themselves ‘say and do not’,
+                though their lives contradict their doctrines, though they were ungodly men, yet our
+                Lord here not only permits but requires his disciples to hear them. For he requires
+                them to ‘observe and do what they say’; but this could not be if they did not hear
+                them. Accordingly the apostles, as long as they were at Jerusalem, constantly
+                attended the public service. Therefore it is certain these words have no reference
+                to a separation from the Established Church.</p>
+            <p n="3">3. Neither have they any reference to the direction given by the Apostle in his
+                first Epistle to the Corinthians. The whole passage <pb n="03:144"/> runs thus: ‘I
+                wrote unto you in an epistle, not to company with fornicators. Yet not altogether
+                with the fornicators of this world, or with the covetous, or extortioners, or with
+                idolaters; for then must ye needs go out of the world. But now I have written unto
+                you, not to [keep]<note place="foot" xml:id="ftn4" n="4"><p rend="footnote text"
+                        >Wesley here is quoting the AV of 1 Cor. 5:11, which reads ‘not to <hi
+                            rend="italic">keep</hi> company’, etc. His omission, however, is in line
+                        with the translations of Tyndale, Cranmer, and the Geneva Bible, and good
+                        English—cf. the next sentence but one.</p></note> company, if <hi
+                    rend="italic">any man that is called a brother</hi> be a fornicator, or
+                covetous, or an idolater, or a railer, or a drunkard, or an extortioner; with such
+                an one, no not to eat.’<hi rend="endnote_reference"><note place="end"><p
+                            rend="endnote text">1 Cor. 5:9-11. [In the <hi rend="italic">Notes</hi>
+                            Wesley had translated this: ‘I wrote to you an epistle not to converse
+                            with lewd persons; …not to converse with such an one, no, not to eat
+                            with him.’]</p></note></hi> This wholly relates to them that are members
+                of the same Christian community. The Apostle tells them expressly, he does not give
+                this direction not to company with such and such persons, with regard to the
+                heathens or to men in general; and adds this plain reason: ‘For then must ye needs
+                go out of the world’—you could transact no business in it. ‘But if any man that is
+                called a brother’, that is connected with you in the same religious society, ‘be a
+                fornicator, or covetous, or an idolater, or a railer, or a drunkard, or an
+                extortioner; with such an one, no not to eat.’ How important a caution is this! But
+                how little is it observed even by those that are in other respects conscientious
+                Christians! Indeed some parts of it are not easy to be observed, for a plain
+                reason—they are not easy to be understood. I mean, it is not easy to be understood
+                to whom the characters belong. It is very difficult, for instance, to know, unless
+                in some glaring cases, to whom the character of an ‘extortioner’ or of a ‘covetous’
+                man belongs. We can hardly know one or the other without seeming (at least) to be
+                ‘busybodies in other men’s matters’.<note place="foot" xml:id="ftn5" n="5"><p
+                        rend="footnote text">Cf. 1 Pet. 4:15.</p></note> And yet the prohibition is
+                as strong concerning converse with these as with fornicators or adulterers. We can
+                only act in the simplicity of our hearts, without setting up for infallible judges
+                (still willing to be better informed), according to the best light we have.</p>
+            <p n="4">4. But although this direction relates only to our Christian brethren (such at
+                least by outward profession), that in the text is of a far wider extent: it
+                unquestionably relates to all mankind. It clearly requires us to keep at a distance,
+                as far as is practicable, from all ungodly men. Indeed it seems the word which we
+                render <pb n="03:145"/>‘unclean thing’, τοῦ ἀκαθάρτου, might rather be rendered
+                ‘unclean person’, probably alluding to the ceremonial law which forbade <hi
+                    rend="italic">touching</hi> one that was legally unclean.<note place="foot"
+                    xml:id="ftn6" n="6"><p rend="footnote text">See Lev. 5:2-3, etc.</p></note> But
+                even here, were we to understand the expression literally, were we to take the words
+                in the strictest sense, the same absurdity would follow: we must needs, as the
+                Apostle speaks, ‘go out of the world’. We should not be able to abide in those
+                callings which the providence of God has assigned us. Were we not to converse at all
+                with men of those characters it would be impossible to transact our temporal
+                business. So that every conscientious Christian would have nothing to do but to flee
+                into the desert. It would not suffice to turn recluses, to shut ourselves up in
+                monasteries or nunneries; for even then we must have some intercourse with ungodly
+                men in order to procure the necessaries of life.</p>
+            <p n="5">5. The words therefore must necessarily be understood with considerable
+                restriction. They do not prohibit our conversing with any man, good or bad, in the
+                way of worldly business. A thousand occasions will occur whereon we must converse
+                with them, in order to transact those affairs which cannot be done without them. And
+                some of these may require us to have frequent intercourse with drunkards or
+                fornicators; yea, sometimes it may be requisite for us to spend a considerable time
+                in their company; otherwise we should not be able to fulfil the duties of our
+                several callings. Such conversation therefore with men, holy or unholy, is no way
+                contrary to the Apostle’s advice.</p>
+            <p n="6">6. What is it then which the Apostle forbids? First, the conversing with
+                ungodly men when there is no necessity, no providential call, no business, that
+                requires it; secondly, the conversing with them more frequently than business
+                necessarily requires; thirdly, the spending more time in their company than is
+                necessary to finish our business; above all, fourthly, the choosing ungodly persons,
+                however ingenious or agreeable, to be our ordinary companions, or to be our familiar
+                friends. If any instance of this kind will admit of less excuse than others it is
+                that which the Apostle expressly forbids elsewhere, the being ‘unequally yoked with
+                an unbeliever’<note place="foot" xml:id="ftn7" n="7"><p rend="footnote text">Cf. 2
+                        Cor. 6:14.</p></note> in marriage—with any person that has not the love of
+                God in their heart, or at least the fear of God before their eyes.<note place="foot"
+                    xml:id="ftn8" n="8"><p rend="footnote text">Rom. 3:18.</p></note> I do not know
+                anything that can justify this; <pb n="03:146"/>neither the sense, wit, or beauty of
+                the person; nor temporal advantage; nor fear of want; no, nor even the command of a
+                parent. For if any parent command what is contrary to the Word of God, the child
+                ought to obey God rather than man.<note place="foot" xml:id="ftn9" n="9"><p
+                        rend="footnote text">Acts 5:29; cf. No. 96, ‘On Obedience to Parents’,
+                        §§5-6.</p></note></p>
+            <p n="7">7. The ground of this prohibition is laid down at large in the preceding
+                verses: ‘What fellowship hath righteousness with unrighteousness? What communion
+                hath light with darkness? And what concord hath Christ with Belial? Or what part
+                hath he that believeth with an unbeliever?’ (Taking that word in the extensive sense
+                for him that hath neither the love nor the fear of God.) ‘Ye are the temple of the
+                living God: as God hath said, I will dwell in them and walk in them; and I will be
+                their God, and they shall be my people.’ It follows, ‘Wherefore come out from among
+                them’—the unrighteous, the children of darkness, the sons of Belial, the
+                unbelievers—‘and be ye separate, and touch not the unclean thing (or person), and I
+                will receive you.’<note place="foot" xml:id="ftn10" n="10"><p rend="footnote text">2
+                        Cor. 6:14-17.</p></note></p>
+            <p n="8">8. Here is the sum of this prohibition—to have any more intercourse with unholy
+                men than is absolutely necessary. There can be no profitable ‘fellowship’ between
+                the righteous and the unrighteous; as there can be no ‘communion’ between light and
+                darkness (whether you understand this of natural or of spiritual darkness). As
+                Christ can have no ‘concord’ with Belial, so a believer in him can have no concord
+                with an unbeliever. It is absurd to imagine that any true union or concord should be
+                between two persons while one of them remains in darkness and the other walks in the
+                light. They are subjects not only of two separate, but of two opposite kingdoms.
+                They act upon quite different principles: they aim at quite different ends. It will
+                necessarily follow that frequently, if not always, they will walk in different
+                paths. How can they walk together till they are agreed?<note place="foot"
+                    xml:id="ftn11" n="11"><p rend="footnote text">See Amos 3:3.</p></note> Until
+                they both serve either Christ or Belial?</p>
+            <p n="9">9. And what are the consequences of our not obeying this direction? Of our not
+                coming out from among unholy men? Of not being separate from them, but contracting
+                or continuing a familiar intercourse with them? It is probable it will not
+                immediately have any apparent visible ill consequences. It is hardly to be expected
+                that it will immediately lead us into any outward sin. Perhaps it may not presently
+                occasion our neglect of <pb n="03:147"/>any outward duty. It will first sap the
+                foundations of our religion; it will by little and little damp our zeal for God; it
+                will gently cool that fervency of spirit which attended our first love. If they do
+                not openly oppose anything we say or do, yet their very spirit will by insensible
+                degrees affect our spirit, and transfuse into it the same lukewarmness and
+                indifference toward God and the things of God. It will weaken all the springs of our
+                soul, destroy the vigour of our spirit, and cause us more and more to slacken our
+                pace in running the race that is set before us.<note place="foot" xml:id="ftn12"
+                    n="12"><p rend="footnote text">See Heb. 12:1.</p></note></p>
+            <p n="10">10. By the same degrees all needless intercourse with unholy men will weaken
+                our divine evidence and conviction of things unseen;<note place="foot"
+                    xml:id="ftn13" n="13"><p rend="footnote text">See Heb. 11:1.</p></note> it will
+                dim the eyes of the soul, whereby we see him that is invisible, and weaken our
+                confidence in him. It will gradually abate our ‘taste of the powers of the world to
+                    come’,<note place="foot" xml:id="ftn14" n="14"><p rend="footnote text">Cf. Heb.
+                        6:5.</p></note> and deaden that hope which before made us ‘sit in heavenly
+                places with Christ Jesus’.<note place="foot" xml:id="ftn15" n="15"><p
+                        rend="footnote text">Cf. Eph. 2:6.</p></note> It will imperceptibly cool
+                that flame of love which before enabled us to say: ‘Whom have I in heaven but thee?
+                And there is none upon earth that I desire beside thee!’<note place="foot"
+                    xml:id="ftn16" n="16"><p rend="footnote text">Ps. 73:25 (AV).</p></note> Thus it
+                strikes at the root of all vital religion, of our fellowship with the Father and
+                with the Son.</p>
+            <p n="11">11. By the same degrees, and in the same secret and unobserved manner, it will
+                prepare us to ‘measure back our steps to earth again’.<note place="foot"
+                    xml:id="ftn17" n="17"><p rend="footnote text">Thomas Parnell, ‘The Hermit’, l.
+                        227; cf. No. 80, ‘On Friendship with the World’, §28 and n.</p></note> It
+                will lead us softly to relapse into the love of the world from which we were clean
+                escaped; to fall gently into ‘the desire of the flesh’, the seeking happiness in the
+                pleasures of sense; ‘the desire of the eye’, the seeking happiness in the pleasure
+                of imagination;<note place="foot" xml:id="ftn18" n="18"><p rend="footnote text">Cf.
+                        No. 44, <hi rend="italic">Original Sin</hi>, II.10 and n.</p></note> ‘and
+                the pride of life’,<note place="foot" xml:id="ftn19" n="19"><p rend="footnote text"
+                        >1 John 2:16; cf. No. 7, ‘The Way to the Kingdom’, II.2 and n.</p></note>
+                the seeking it in pomp, in riches, or in the praise of man. And all this may be
+                done, by the assistance of the spirit who ‘beguiled Eve through his subtlety’,<note
+                    place="foot" xml:id="ftn20" n="20"><p rend="footnote text">2 Cor.
+                    11:3.</p></note> before we are sensible of his attack, or are conscious of any
+                loss.</p>
+            <p n="12">12. And it is not only the love of the world in all its branches which
+                necessarily steals upon us while we converse with men of a worldly spirit farther
+                than duty requires, but every other evil <pb n="03:148"/>passion and temper of which
+                the human soul is capable: in particular pride, vanity, censoriousness, evil
+                surmising, proneness to revenge; while on the other hand levity, gaiety, and
+                dissipation, steal upon us and increase continually. We know how all these abound in
+                the men that know not God. And it cannot be but they will insinuate themselves into
+                all who frequently and freely converse with them: they insinuate most deeply into
+                those who are not apprehensive of any danger; and most of all if they have any
+                particular affection, if they have more love than duty requires, for those who do
+                not love God, with whom they familiarly converse.</p>
+            <p n="13">13. Hitherto I have supposed that the persons with whom you converse are such
+                as we use to call ‘good sort of people’; such as are styled in the cant term of the
+                day men of ‘worthy’ characters—one of the silliest insignificant<note place="foot"
+                    xml:id="ftn21" n="21"><p rend="footnote text">I.e., ‘meaningless’, as in Samuel
+                        Johnson’s first definition. In <hi rend="italic">SOSO</hi> (1788), the text
+                        reads, ‘one of the most silly, insignificant words, …’ as in Johnson’s
+                        second sense of ‘unimportant’; cf. No. 80, ‘On Friendship with the World’,
+                        §21 and n.</p></note> words that ever came into fashion. I have supposed
+                them to be free from cursing, swearing, profaneness; from sabbath-breaking and
+                drunkenness; from lewdness either in word or action; from dishonesty, lying, and
+                slandering—in a word, to be entirely clear from open vice of every kind. Otherwise
+                whoever has even the fear of God must in any wise keep at a distance from them. But
+                I am afraid I have made a supposition which hardly can be admitted. I am afraid some
+                of the persons with whom you converse more than business necessarily requires do not
+                deserve even the character of ‘good sort of men’; are not ‘worthy’ of anything but
+                shame and contempt. Do not some of them live in open sin? In cursing and swearing,
+                drunkenness, or uncleanness? You cannot long be ignorant of this; for they take
+                little pains to hide it. Now is it not certain, all vice is of an infectious
+                    nature?<note place="foot" xml:id="ftn22" n="22"><p rend="footnote text">Cf. No.
+                        80, ‘On Friendship with the World’, §17.</p></note> For who can touch pitch
+                and not be defiled?<note place="foot" xml:id="ftn23" n="23"><p rend="footnote text"
+                        >See Ecclus. 13:1.</p></note> From these therefore you ought undoubtedly to
+                flee, as from the face of a serpent.<note place="foot" xml:id="ftn24" n="24"><p
+                        rend="footnote text">See Rev. 12:14.</p></note> Otherwise how soon may ‘evil
+                communications corrupt good manners’!<note place="foot" xml:id="ftn25" n="25"><p
+                        rend="footnote text">1 Cor. 15:33.</p></note></p>
+            <p n="14">14. I have supposed likewise that those unholy persons with whom you
+                frequently converse have no desire to communicate their own spirit to <hi
+                    rend="italic">you</hi>, or to induce <hi rend="italic">you</hi> to follow their
+                example. <pb n="03:149"/>But this also is a supposition which can hardly be
+                admitted. In many cases their interest may be advanced by your being a partaker of
+                their sins. But supposing interest to be out of the question, does not every man
+                naturally desire and more or less endeavour to bring over his acquaintance to his
+                own opinion or party? So that as all good men desire and endeavour to make others
+                good like themselves, in like manner all bad men desire and endeavour to make their
+                companions as bad as themselves.</p>
+            <p n="15">15. But if they do not, if we allow this almost impossible supposition, that
+                they do not desire or use any endeavours to bring you over to their own temper and
+                practice, still it is dangerous to converse with them. I speak not only of openly
+                vicious men, but of all that do not love God, or at least fear him, and sincerely
+                seek the kingdom of God and his righteousness.<note place="foot" xml:id="ftn26"
+                    n="26"><p rend="footnote text">Matt. 6:33.</p></note> Admit such companions do
+                not endeavour to make you like themselves, does this prove you are in no danger from
+                them? See that poor wretch that is ill of the plague! He does not desire, he does
+                not use the least endeavour to communicate his distemper to you. Yet have a care!
+                Touch him not! Nay, go not near him, or you know not how soon you may be in just the
+                same condition. To draw the parallel: though we should suppose the man of the world
+                does not desire, design, or endeavour to communicate his distemper to you, yet touch
+                him not! Come not too near him. For it is not only his reasonings or persuasions
+                that may infect your soul, but his very breath is infectious—particularly to those
+                who are apprehensive of no danger.</p>
+            <p n="16">16. If conversing freely with worldly-minded men has no other ill effect upon
+                you, it will surely, by imperceptible degrees, make you less heavenly-minded. It
+                will give a bias to your mind which will continually draw your soul to earth. It
+                will incline you, without your being conscious of it, instead of being wholly
+                transformed in the renewing of your mind,<note place="foot" xml:id="ftn27" n="27"><p
+                        rend="footnote text">See Rom. 12:2.</p></note> to be again conformed to this
+                world, in its spirit, in its maxims, and in its vain conversation. You will fall
+                again into that levity and dissipation of spirit<note place="foot" xml:id="ftn28"
+                    n="28"><p rend="footnote text">Cf. No. 79, ‘On Dissipation’, §1 and
+                    n.</p></note> from which you had before clean escaped, into that superfluity of
+                apparel, and into that foolish, frothy, unprofitable conversation, which was an
+                abomination to you when your soul was alive to God. And you will daily decline from
+                that simplicity both of speech and behaviour <pb n="03:150"/>whereby you once
+                adorned the doctrine of God our Saviour.</p>
+            <p n="17">17. And if you go thus far in conformity to the world, it is hardly to be
+                expected you will stop here. You will go farther in a short time; having once lost
+                your footing, and begun to slide down, it is a thousand to one you will not stop
+                till you come to the bottom of the hill; till you fall yourself into some of those
+                outward sins which your companions commit before your eyes or in your hearing.
+                Hereby the dread and horror which struck you at first will gradually abate, till at
+                length you are prevailed upon to follow their example.<note place="foot"
+                    xml:id="ftn29" n="29"><p rend="footnote text">Cf. Addison’s essay on the effects
+                        of custom, in <hi rend="italic">The Spectator</hi>, No. 447, Aug. 2, 1712:
+                        ‘[We must] take particular care how we too frequently indulge ourselves in
+                        the most innocent diversions and entertainments, since the mind may
+                        insensibly fall off from the relish of virtuous actions and, by degrees,
+                        exchange that pleasure which takes in the performance of its duty for
+                        delights of a much more inferior and unprofitable nature.’</p></note> But
+                suppose they do not lead you into outward sin, if they infect your spirit with
+                pride, anger, or love of the world, it is enough: it is sufficient, without deep
+                repentance, to drown your soul in everlasting perdition; seeing (abstracted from all
+                outward sin) ‘to be carnally minded is death’.<note place="foot" xml:id="ftn30"
+                    n="30"><p rend="footnote text">Rom. 8:6.</p></note></p>
+            <p n="18">18. But as dangerous as it is to converse familiarly with men that know not
+                God, it is more dangerous still for men to converse with women of that character; as
+                they are generally more insinuating than men, and have far greater power of
+                persuasion; particularly if they are agreeable in their persons, or pleasing in
+                their conversation. You must be more than man if you can converse with such and not
+                suffer any loss. If you do not feel any foolish or unholy desire—and who can promise
+                that you shall not?—yet it is scarce possible that you should not feel more or less
+                of an improper softness, which will make you less willing and less able to persist
+                in that habit of denying yourself, and taking up your cross daily,<note place="foot"
+                    xml:id="ftn31" n="31"><p rend="footnote text">Luke 9:23.</p></note> which
+                constitute the character of a good soldier of Jesus Christ.<note place="foot"
+                    xml:id="ftn32" n="32"><p rend="footnote text">2 Tim. 2:3.</p></note> And we know
+                that not only fornicators and adulterers, but even ‘the soft and effeminate’,<note
+                    place="foot" xml:id="ftn33" n="33"><p rend="footnote text">Cf. 1 Cor.
+                        6:9—μαλακοί (i.e., ‘soft’) as in Matt. 11:8 and Luke 7:25. In the <hi
+                            rend="italic">General Rules</hi>, §4, Wesley inveighs against ‘softness
+                        and needless self-indulgence’.</p></note> the delicate followers of a
+                self-denying Master, ‘shall have no part in the kingdom of Christ and of God’.<note
+                    place="foot" xml:id="ftn34" n="34"><p rend="footnote text">Cf. Eph.
+                    5:5.</p></note></p>
+            <p n="19">19. Such are the consequences which must surely, though perhaps slowly, follow
+                the mixing of the children of God with the <pb n="03:151"/> men of the world. And by
+                this means more than by any other, yea, than by all others put together, are the
+                people called Methodists<note place="foot" xml:id="ftn35" n="35"><p
+                        rend="footnote text">For other comments on Methodist ‘triumphalism’, cf. No.
+                        102, ‘Of Former Times’, §22 and n.</p></note> likely to lose their strength
+                and become like other men.<note place="foot" xml:id="ftn36" n="36"><p
+                        rend="footnote text">A remembrance of Samson as in Judg. 16:7-17.</p></note>
+                It is indeed with a good design, and from a real desire of promoting the glory of
+                God, that many of them admit of familiar conversation with men that know not God.
+                You have a hope of awakening them out of sleep, and persuading them to seek the
+                things that make for their peace. But if after a competent time of trial you can
+                make no impression upon them, it will be your wisdom to give them up to God.
+                Otherwise you are more likely to receive hurt from them than to do them any good.
+                For if you do not raise their hearts up to heaven, they will draw yours down to
+                earth. Therefore retreat in time, and ‘come out from among them, and be ye
+                separate.’</p>
+            <p n="20">20. But how may this be done? What is the most easy and effectual method of
+                separating ourselves from unholy men? Perhaps a few advices will make this plain to
+                those that desire to know and do the will of God.</p>
+            <p>First, invite no unholy person to your house unless on some very particular occasion.
+                You may say, ‘But civility requires this; and sure, religion is no enemy to
+                civility. Nay, the Apostle himself directs us to “be courteous”, as well as to “be
+                    pitiful”.’<note place="foot" xml:id="ftn37" n="37"><p rend="footnote text">1
+                        Pet. 3:8.</p></note> I answer, You may be civil, sufficiently civil, and yet
+                keep them at a proper distance. You may be courteous in a thousand instances; and
+                yet stand aloof from them. And it was never the design of the Apostle to recommend
+                any such courtesy as must necessarily prove a snare to the soul.</p>
+            <p n="21">21. Secondly, on no account accept any invitation from an unholy person. Never
+                be prevailed upon to pay a visit unless you wish it to be repaid. It may be a person
+                desirous of your acquaintance will repeat the visit twice or thrice. But if you
+                steadily refrain from returning it the visitant will soon be tired. It is not
+                improbable he will be disobliged; and perhaps he will show marks of resentment. Lay
+                your account with this,<note place="foot" xml:id="ftn38" n="38"><p
+                        rend="footnote text">Cf. Joseph Wright, <hi rend="italic">The English
+                            Dialect Dictionary</hi> (1896-1905), <hi rend="italic">loc. cit.</hi>
+                        This is a Scottish phrase meaning, ‘to expect and be prepared for’, as in
+                        Wesley’s letter to his preachers, Aug. 4, 1769, §3, where he gives a similar
+                        forewarning.</p></note> that when anything of the kind occurs you may
+                neither be surprised nor <pb n="03:152"/>discouraged. It is better to please God and
+                displease man than to please man and displease God.</p>
+            <p n="22">22. Thirdly, it is probable you were acquainted with men of the world before
+                you yourself knew God. What is best to be done with regard to these? How may you
+                most easily drop their acquaintance? First, allow a sufficient time to try whether
+                you cannot by argument and persuasion, applied at the soft times of address, induce
+                them to choose the better part.<note place="foot" xml:id="ftn39" n="39"><p
+                        rend="footnote text">See Luke 10:42.</p></note> Spare no pains. Exert all
+                your faith and love, and wrestle with God in their behalf. If after all you cannot
+                perceive that any impression is made upon them, it is your duty gently to withdraw
+                from them, that you be not entangled with them. This may be done in a short time,
+                easily and quietly, by not returning their visits. But you must expect they will
+                upbraid you with haughtiness and unkindness, if not to your face, yet behind your
+                back. And this you can suffer for a good conscience. It is properly the reproach of
+                    Christ.<note place="foot" xml:id="ftn40" n="40"><p rend="footnote text">Heb.
+                        11:26.</p></note></p>
+            <p n="23">23. When it pleased God to give <hi rend="italic">me</hi> a settled resolution
+                to be not a <hi rend="italic">nominal</hi> but a <hi rend="italic">real</hi>
+                Christian (being then about two and twenty years of age)<note place="foot"
+                    xml:id="ftn41" n="41"><p rend="footnote text">I.e., in 1725, which would
+                        coincide with Wesley’s account in JWJ, May 24, 1738, §4 (‘When I was about
+                        twenty-two…I began to see that true religion was seated in the heart.’), and
+                        also with his report in <hi rend="italic">A Plain Account of Christian
+                            Perfection</hi>, §2 (‘In the year 1725…I met with Bishop Taylor’s “Rule
+                        and Exercises of Holy Living and Dying”…and I instantly resolved to dedicate
+                            <hi rend="italic">all</hi> my life to God.’). Then follows (in both
+                        accounts) the successive ‘moments’ of Wesley’s conversion from a ‘nominal’
+                        to a ‘real’ Christian. But both these accounts and Wesley’s remembrance here
+                        are in conflict with the public ‘confession’ in No. 2, <hi rend="italic">The
+                            Almost Christian</hi>, I.13, ‘that all this time [he was in Oxford] I
+                        was but almost a Christian’, and also with the familiar stereotype in
+                        Wesleyan biography that he was no better than a nominal Christian until
+                        Aldersgate. It is interesting how Wesley’s memories (and perspective) had
+                        changed over the years.</p></note> my acquaintance were as ignorant of God
+                as myself. But there was this difference: I knew my own ignorance; they did not know
+                theirs. I faintly endeavoured to help them; but in vain. Meantime I found by sad
+                experience that even their <hi rend="italic">harmless</hi><note place="foot"
+                    xml:id="ftn42" n="42"><p rend="footnote text">Cf. No. 32, ‘Sermon on the Mount,
+                        XII’, II.2 and n.</p></note> conversation (so called) damped all my good
+                resolutions. But how to get rid of them was the question, which I resolved in my
+                mind again and again. I saw no possible way, unless it should please God to remove
+                me to another college. He did so, in a manner utterly contrary to all human
+                probability. I was elected fellow of a college<note place="foot" xml:id="ftn43"
+                    n="43"><p rend="footnote text">Lincoln, where he had been elected in 1726 as one
+                        of the College’s twelve Fellows; cf. V. H. H. Green, <hi rend="italic">The
+                            Young Mr. Wesley</hi>, pp. 100-23. Here, Wesley’s recollections agree
+                        with his earlier <hi rend="italic">Journal</hi> memoir (May 24, 1738,
+                        §5).</p></note> where I knew not one person. I <pb n="03:153"/>foresaw
+                abundance of people would come to see me, either out of friendship, civility, or
+                curiosity; and that I should have offers of acquaintance, new and old: but I had now
+                fixed my plan. Entering now, as it were, into a new world, I resolved to have no
+                acquaintance by chance, but by choice; and to choose such only as I had reason to
+                believe would help me on in my way to heaven. In consequence of this I narrowly
+                observed the temper and behaviour of all that visited me. I saw no reason to think
+                that the greater part of these truly loved or feared God. Such acquaintance
+                therefore I did not choose: I could not expect they would do me any good. Therefore
+                when any of these came to see me, I behaved as courteously as I could. But to the
+                question, ‘When will you come to see me?’ I returned no answer. When they had come a
+                few times, and found I still declined returning the visit, I saw them no more. And I
+                bless God this has been my invariable rule for about threescore years. I knew many
+                reflections would follow; but that did not move me, as I knew full well it was my
+                calling to go ‘through evil report and good report’.<note place="foot"
+                    xml:id="ftn44" n="44"><p rend="footnote text">2 Cor. 6:8 (<hi rend="italic"
+                            >Notes</hi>).</p></note></p>
+            <p n="24">24. I earnestly advise all of you who resolve to be not ‘almost, but
+                altogether Christians’,<note place="foot" xml:id="ftn45" n="45"><p
+                        rend="footnote text">The ‘almost Christian’ here is presumed to be a
+                        worldling. In No. 2, <hi rend="italic">The Almost Christian</hi>, he had
+                        been portrayed as very ‘religious’ without, however, being a real <hi
+                            rend="italic">Christian </hi>(see espec. I.1-12).</p></note> to adopt
+                the same plan, however contrary it may be to flesh and blood. Narrowly observe which
+                of those that fall in your way are like minded with yourself. Who among them have
+                you reason to believe fears God and works righteousness?<note place="foot"
+                    xml:id="ftn46" n="46"><p rend="footnote text">Acts 10:35.</p></note> Set them
+                down as worthy of your acquaintance; gladly and freely converse with them at all
+                opportunities. As to all who do not answer that character, gently and quietly let
+                them drop. However good-natured and sensible they may be, they will do you no real
+                service. Nay, if they did not lead you into outward sin, yet they would be a
+                continual clog to your soul,<note place="foot" xml:id="ftn47" n="47"><p
+                        rend="footnote text">Cf. No. 24, ‘Sermon on the Mount, IV’, III.5 and
+                    n.</p></note> and would hinder your running with vigour and cheerfulness the
+                race that is set before you.<note place="foot" xml:id="ftn48" n="48"><p
+                        rend="footnote text">See Heb. 12:1.</p></note> And if any of your friends
+                that did once run well ‘turn back from the holy commandment once delivered to
+                    them’,<note place="foot" xml:id="ftn49" n="49"><p rend="footnote text">Cf. 2
+                        Pet. 2:21.</p></note> first use every method that prudence can suggest to
+                bring them again into the good way. But if you cannot prevail, let them <pb
+                    n="03:154"/>go; only still commending them unto God in prayer. Drop all familiar
+                intercourse with them, and save your own soul.<note place="foot" xml:id="ftn50"
+                    n="50"><p rend="footnote text">See Ezek. 33:9.</p></note></p>
+            <p n="25">25. I advise you, fourthly, walk circumspectly with regard to your relations.
+                With your parents, whether religious or not, you must certainly converse if they
+                desire it; and with your brothers and sisters—more especially if they want your
+                service. I do not know that you are under any such obligation with respect to your
+                more distant relations. Courtesy, indeed, and natural affection, may require that
+                you should visit them sometimes. But if they neither know nor seek God, it should
+                certainly be as seldom as possible. And when you are with them you should not stay a
+                day longer than decency requires. Again, whichsoever of them you are with at any
+                time, remember that solemn caution of the Apostle: ‘Let no corrupt communication
+                (conversation) come out of your mouth; but that which is good, to the use of
+                edifying, that it may minister grace to the hearers.’<note place="foot"
+                    xml:id="ftn51" n="51"><p rend="footnote text">Cf. Eph. 4:29.</p></note> You have
+                no authority to vary from this rule; otherwise you ‘grieve the Holy Spirit of
+                    God’.<note place="foot" xml:id="ftn52" n="52"><p rend="footnote text">Eph.
+                        4:30.</p></note> And if you keep closely to it, those who have no religion
+                will soon dispense with your company.</p>
+            <p n="26">26. Thus it is that those who fear or love God should ‘come out from among’
+                all that do not fear him. Thus in a plain scriptural sense you should ‘be separate’
+                from them, from all unnecessary intercourse with them. Yea, ‘Touch not’, saith the
+                Lord, ‘the unclean thing’ or person, any farther than necessity requires; ‘and I
+                will receive you’ into the family and household of God. ‘And I will be unto you a
+                Father’, will embrace you with paternal affection, ‘and ye shall be unto me sons and
+                daughters, saith the Lord Almighty.’ The promise is express to all that renounce the
+                company of ungodly men, provided their spirit and conversation are in other respects
+                also suitable to their duty. God does here absolutely engage to give them all the
+                blessings he has prepared for his beloved children, both in time and eternity. Let
+                all those therefore who have any regard for the favour and the blessing of God,
+                first, beware how they contract any acquaintance or form any connection with ungodly
+                men, any farther than necessary business or some other providential call requires;
+                and secondly, with all possible speed, all that the nature of the thing will admit,
+                break off all such acquaintance already contracted, and all such <pb n="03:155"/>
+                connections already formed. Let no pleasure resulting from such acquaintance, no
+                gain found or expected from such connections, be of any consideration when laid in
+                the balance against a clear, positive command of God. In such a case, ‘pluck out the
+                right eye,’ tear away the most pleasing acquaintance, ‘and cast it from thee:’ give
+                up all thought, all design of seeking it again. ‘Cut off the right hand,’ absolutely
+                renounce the most profitable connection, ‘and cast it from thee.’<note place="foot"
+                    xml:id="ftn53" n="53"><p rend="footnote text">Cf. Matt. 5:29-30.</p></note> ‘It
+                is better for thee to enter into life with one eye’, or one hand, ‘than having two,
+                to be cast into hell-fire.’<note place="foot" xml:id="ftn54" n="54"><p
+                        rend="footnote text">Matt. 18:9.</p></note></p>
+            <p><placeName>Otley</placeName>, <date when="07-17-1784">July 17, 1784</date><note
+                    place="foot" xml:id="ftn55" n="55"><p rend="footnote text">Place and date as in
+                            <hi rend="italic">AM</hi>.</p></note></p>
+        </body>
+    </text>
+</TEI>

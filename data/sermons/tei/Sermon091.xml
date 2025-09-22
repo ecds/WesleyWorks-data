@@ -1,0 +1,857 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Sermon 91: On Charity</title>
+                <author>Wesley, John</author>
+                <editor role="text">Van Buskirk, Gregory P.</editor>
+                <editor role="digital">Taylor, Michelle M.</editor>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>The Wesley Works Digitzation Project</publisher>
+                <pubPlace>Tampa, FL</pubPlace>
+                <date>2024-02-25</date>
+            </publicationStmt>
+            <sourceDesc>
+                <listBibl>
+                    <biblStruct>
+                        <analytic>
+                            <title level="a">Sermon 91: On Charity</title>
+                        </analytic>
+                        <monogr>
+                            <title level="j">The Works of John Wesley, Volume III: Sermons III,
+                                71-114</title>
+                            <editor role="volume">Outler, Albert</editor>
+                            <imprint>
+                                <publisher>Abingdon Press</publisher>
+                                <pubPlace>Nashville, TN</pubPlace>
+                                <date when="1986-11-01">1986-11-01</date>
+                                <biblScope unit="volume" n="3"/>
+                                <biblScope unit="page" from="290" to="307"/>
+                            </imprint>
+                        </monogr>
+                        <series>
+                            <title level="s">The Works of John Wesley</title>
+                            <editor role="general">Baker, Frank</editor>
+                        </series>
+                    </biblStruct>
+                </listBibl>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Greg Van Buskirk created Word docs for all of Wesley's sermons using a combination of
+                OCR software and manual proofing. Michelle Taylor converted these docx into XML
+                using Oxygen's DITA automatic transformation scenario, then touched them up
+                manually.</p>
+        </encodingDesc>
+        <standOff>
+            <taxonomy>
+                <keywords>
+                    <term/>
+                </keywords>
+            </taxonomy>
+            <!--Include keywords and terms here eventually.-->
+        </standOff>
+        <revisionDesc/>
+    </teiHeader>
+    <text>
+        <body>
+            <pb n="03:290"/>
+            <head>
+                <hi rend="italic">An Introductory Comment</hi>
+            </head>
+            <introduction>
+                <p>More often than not, Wesley’s published sermons were from texts infrequently used
+                    in his oral preaching. This sermon, however, is an interesting exception: it was
+                    written in London, October 15, 1784 (a year in which he used it a dozen times
+                    for oral sermons). It then appeared in the first two instalments of ‘Original
+                    Sermons by the Rev. John Wesley, M.A.’ in the <hi rend="italic">Arminian
+                        Magazine</hi> of 1785, VIII.8-16, 70-76, without a title but numbered as
+                    ‘Sermon XXV’. Three years later (1788), it reappeared in <hi rend="italic"
+                        >SOSO</hi>, VII.233-56.</p>
+                <p>In the interval he continued to use 1 Cor. 13:1-3 (eight times in 1785; three
+                    times in 1787). And, by a happy accident, we can compare his written sermon with
+                    an oral sermon on the same text which is remarkably close to the written text.
+                    There is in the Drew University Library a unique manuscript précis of a ‘Charity
+                    Sermon’ by ‘John Westley’, preached in the church of St. John’s Clerkenwell
+                    (near The Charterhouse and not far from Wesley’s New Chapel on City Road; in
+                    1787 it was a prominent parish church, but in 1962 was restored to its original
+                    status as the local priory church of the Knights Templar). This memoir deserves
+                    publication here as the only instance on record where we have a full report of
+                    an oral sermon and its written counterpart. Moreover, it is a careful report by
+                    an obviously well-educated and attentive hearer (maybe the rector?) who is
+                    evidently one of ‘Mr. Westley’s’ admirers but not, as it would appear, a
+                    Methodist himself:</p>
+                <quote>
+                    <p>Minutes of a Sermon preach’d at St. John’s Clerkenwell<lb/>by Mr. John
+                        Westley, Dec. 16, 1787.<lb/>Mr. Westley was then 85 years of age<lb/>The
+                        text was 1 Cor. 13, v. 3 [quoted from the AV].</p>
+                    <p>Mr. Westley began his discourse by defining the true religion which, he said,
+                        did not consist in opinion but in a proper temper and disposition of mind
+                        towards God and man. He then adverted to the word ‘charity’ in the text. In
+                        all the old translations of the Bible, he said, the word ἀγάπη was
+                        translated ‘love’: in the Bishops’ Bible published in the time of Henry the
+                        Eighth, in all the editions printed in the reigns of Queen Elizabeth, King
+                        Edward the Sixth, and James the First. The first edition where the word
+                        ‘charity’ occurs, he said, was that printed by Roger Daniel in 1647; later
+                        editions have adopted <pb n="03:291"/>the same word, which is neither
+                        English nor good Latin. By ‘love’ he understood love towards our neighbour:
+                        a spirit of universal goodwill and benevolence. He then proceeded to show
+                        more particularly the nature and excellence of this ‘love’, and its
+                        superiority over the other virtues and qualities mentioned in the text and
+                        the preceding verses.</p>
+                    <p>In mentioning the properties of love when he came to the passage, ‘is not
+                        easily provoked’, he observed that in all the translations of the Bible
+                        which he had seen in foreign languages, in the Dutch, German, French, and
+                        Italian, the word ‘easily’ was entirely left out. The English was the only
+                        translation which had that expression which was by no means justified by the
+                        original οὐ παροξύνεται. Why then, says he, did the translators of the Bible
+                        introduce this word? From very good motives, I doubt not; recollecting St.
+                        Paul’s conduct as recorded in the Acts of the Apostles, they were unwilling
+                        that <hi rend="italic">that</hi> conduct should seem contrary to his own
+                        rules. But, says he (quoting the passage, Acts 15, v. 36-39), it appears
+                        from hence that the anger was on the side of Barnabas and not of Paul. Away,
+                        then, with the word ‘easily’, and restore the original meaning without any
+                        modification.</p>
+                    <p>Speaking of the superiority of charity or <hi rend="italic">love</hi> over
+                        prophecy, he told the following story: ‘During the last continental war, it
+                        was rumoured here in England that a soldier in Flanders had prophesied some
+                        strange things which fell out just as he had foretold I suspended my belief
+                        till ——— returned (mentioning some person on whose veracity he could depend
+                        [i.e., John Haime]). He confirmed these reports and said that the officers
+                        had sent for the man, who persisted before them in the truth of his
+                        prophecies, which were relative to the events of the war, and said that he
+                        would give them three signs of his veracity. The first was that on the
+                        morrow morning there would be a very terrible storm of thunder and
+                        lightning. The second was that they should have a general engagement with
+                        the French within three days (an event very little expected) and [the third
+                        was] that he himself should be ordered to advance in the front line—if he
+                        was a false prophet he should be killed; if not, he should only receive a
+                        musket ball in the calf of his leg. All this happened as foretold. The next
+                        morning there was such a storm of thunder and lightning as had not been
+                        known in the memory of man. Within three days, the obstinate old Duke of
+                        Cumberland, without sense or reason, brought his troops to an engagement and
+                        the Battle of Fontenoy ensued. And this soldier advancing in the front line
+                        received a musket ball in the calf of his leg. Now this man, says Mr. W,
+                        when he came to England, was sent for by the Countess of Stair and many of
+                        the nobility, to whom he related the story, till at last he absolutely
+                        became mad with pride and was obliged to be confined till within these two
+                        years when, having a small glimmering of reason, he praised God and died.
+                        What was this man the better for his prophecy? It elated his heart and he
+                        narrowly escaped dying in his sins.’</p>
+                    <p>To illustrate the passage in the text, ‘Tho’ I give my body to be burned’, he
+                        said that if the poor sufferers burnt at an <hi rend="italic"
+                            >auto-da-fé</hi> by command of the Inquisition, instead of praying for
+                        their persecutors and following the example of Christ, are full of malice
+                        and revenge against them, tho’ they die in the flames, I will not say that
+                        they will go to God.</p>
+                    <p>Having summed up all by saying that whatever we do, whatever we hope,
+                        whatever we believe, yet if <hi rend="italic">love</hi> be wanting we shall
+                        not be meet partakers of the Kingdom of Heaven, he adverted to the subject
+                        of the day (it was a ‘Charity Sermon’). When he was a boy, he said, there
+                        were only two hospitals in London: St. Thomas’s and St. Bartholomew’s. A
+                        child, going along Deans’s Yard [Westminster], picked up a French book
+                        giving an account of the great hospital at Paris [<hi rend="italic">L’Hôtel
+                            de Dieu</hi>]. He carried it to his father who showed it to Mr. Wesley’s
+                        father (or uncle) who was then head usher at Westminster School [i.e., his
+                        brother, Samuel Wesley, Jun.]. ‘Come’, says Mr. W, ‘let <pb n="03:292"/>><hi
+                            rend="italic">us</hi> found an hospital.’ The other gentleman said, ‘You
+                        are jocular.’ Mr. W. assured him he was serious, and the very next day they
+                        went about soliciting contributions, in which they succeeded so well that
+                        the Hyde Park Hospital [i.e., St. George’s] was soon after built. Mr. Wesley
+                        then briefly mentioned the number of charitable institutions which are now
+                        established, and concluded with a fine exhortation to induce his audience to
+                        contribute upon the present occasion [to the Finsbury Dispensary; cf. JWJ,
+                        Dec. 16, 1787].</p>
+                    <p>Soon after Mr. Westley had begun his discourse, he made a pause and said:
+                        ‘This I learned of a good man, Mr. Romaine, to pause every now and then,
+                        especially in the wintertime, that those who happen to be troubled with
+                        coughs may have an opportunity of easing themselves without interrupting the
+                        congregation.’</p>
+                    <p>N.B. Mr. Westley’s sermon was 45 minutes in delivering. He preached without
+                        notes and had a small Bible in his hand.</p>
+                    <p>Wesley’s printed text can be read through, at a homiletical pace, in
+                        thirty-five minutes; but note that it omits the story about Samuel Wesley,
+                        Jun.’s role in helping to found St. George’s and also John’s ‘fine
+                        exhortation to induce the audience to contribute upon the present occasion’,
+                        as well as the pauses allowed for coughing.</p>
+                </quote>
+            </introduction>
+            <head>On Charity</head>
+            <epigraph>
+                <p>1 Corinthians 13:1-3</p>
+                <p>
+                    <hi rend="italic">Though I speak with the tongues of men and of angels, and have
+                        not charity, I am become as sounding brass, or a tinkling cymbal.</hi>
+                </p>
+                <p>
+                    <hi rend="italic">And though I have the gift of prophecy, and understand all
+                        mysteries, and all knowledge; and though I have all faith, so as to remove
+                        mountains, and have not charity, I am nothing.</hi>
+                </p>
+                <p>
+                    <hi rend="italic">And though I bestow all my goods to feed the poor, and give my
+                        body to be burned, and have not charity, it profiteth me nothing.</hi>
+                </p>
+            </epigraph>
+            <div type="introduction">
+                <p>We know, ‘All Scripture is given by inspiration of God,’<note place="foot"
+                        xml:id="ftn1" n="1"><p rend="footnote text">2 Tim. 3:16.</p></note> and is
+                    therefore true and right concerning all things. But we know, likewise, that
+                    there are some Scriptures which more immediately commend themselves to every
+                    man’s conscience. In this rank we may place the passage before us; there are
+                    scarce any that object to it. On the contrary, the generality of men very
+                    readily appeal <pb n="03:293"/>to it. Nothing is more common than to find even
+                    those who deny the authority of the Holy Scriptures yet affirming, ‘This is my
+                    religion—that which is described in the thirteenth chapter of the Corinthians.’
+                    Nay, even a Jew, Dr. Nunes,<note place="foot" xml:id="ftn2" n="2"><p
+                            rend="footnote text">Samuel Nuñez arrived in Savannah, July 10, 1733,
+                            and in the following December was awarded lot 43 in the new town; cf. E.
+                            Merton Coulter and Albert B. Sayre, eds., <hi rend="italic">A List of
+                                the Early Settlers of Georgia</hi> (Athens, Univ. of Georgia Press,
+                            1949), p. 91. He left Aug. 30, 1740. There are several references to Dr.
+                            Nuñez in Wesley’s diary; JWJ, Apr. 4, 1737, has this entry: ‘I began
+                            learning Spanish in order to converse with my Jewish parishioners [some
+                            eight in all]; some of whom seem nearer the mind that was in Christ than
+                            many of those who call him Lord.’ William Stephens (in 1737) also speaks
+                            of ‘Henriquez Nuñis, a Jew inhabitant’, as being ‘one of the greatest
+                            substance in Savannah’; cf. <hi rend="italic">A Journal of the
+                                Proceedings in Georgia</hi> (1742), I.21.</p></note> a Spanish
+                    physician, then settled at Savannah, in Georgia, used to say with great
+                    earnestness: ‘That Paul of Tarsus was one of the finest writers I have ever
+                    read. I wish the thirteenth chapter of his first letter to the Corinthians were
+                    wrote in letters of gold. And I wish every Jew were to carry it with him
+                    wherever he went.’ He judged (and herein he certainly judged right) that this
+                    single chapter contained the whole of true religion. It contains ‘whatsoever
+                    things are just, whatsoever things are pure, whatsoever things are lovely; if
+                    there be any virtue, if there be any praise’,<note place="foot" xml:id="ftn3"
+                        n="3"><p rend="footnote text">Phil. 4:8.</p></note> it is all contained in
+                    this.</p>
+                <p>In order to see this in the clearest light, we may consider,</p>
+                <p>First, what the charity here spoken of is;</p>
+                <p>Secondly, what those things are which are usually put in the place of it. We may
+                    then,</p>
+                <p>Thirdly, observe that neither any of them, nor all of them put together, can
+                    supply the want of it.</p>
+            </div>
+            <div type="section" n="1">
+                <p n="1">I. 1. We are first to consider what this charity is. What is the nature,
+                    and what are the properties of it?</p>
+                <p>St. Paul’s word is ἀγάπη, exactly answering to the plain English word
+                        ‘love’.<note place="foot" xml:id="ftn4" n="4"><p rend="footnote text">For
+                            Wesley’s preference for ‘love’ as the translation of ἀγάπη, see No. 17,
+                            ‘The Circumcision of the Heart’, I.2 and n.</p></note> And accordingly
+                    it is so rendered in all the old translations of the Bible. So it stood in
+                    William Tyndale’s Bible, which I suppose was the first English translation of
+                    the whole Bible. So it was also in the Bible published in London by the
+                    authority of King Henry VIII.<note place="foot" xml:id="ftn5" n="5"><p
+                            rend="footnote text">The first English translation (Wycliffe, 1380) had
+                            ‘charity’; successive translations (Tyndale, 1534; Coverdale, 1535;
+                            Cranmer, 1539; and the Geneva Bible, 1557) have ‘love’, as does the
+                            first edition of the Bishops’ Bible (1568). But, curiously enough, the
+                            second (and subsequent) edition of the Bishops’ Bible (1572) reads
+                            ‘charity’, the first known instance of this usage since Wycliffe. The
+                            moving spirit behind this revision was Giles Lawrence, friend of John
+                            Jewel and professor of Greek at Oxford; cf. T. H. Darlow and H. F.
+                            Moule, <hi rend="italic">Historical Catalogue of Printed Editions of the
+                                English Bible</hi> (1903), revised by A. S. Herbert (1968), Nos. 125
+                            and 132. All the Douai-Rheims editions (1st, 1582) read ‘charity’, but
+                            note that they had been anticipated by Lawrence. In the 1599 edition of
+                            the Geneva Bible the text reads ‘love’, but there is an extended
+                            marginal annotation that amounts to a short homily ‘On <hi rend="italic"
+                                >Charity</hi>’. Thus, the translators of the AV (1611) had a
+                            precedent for their preference for ‘charity’ over ‘love’ in this
+                            chapter.</p></note> So it was likewise in all the <pb n="03:294"
+                    />editions of the Bible that were successively published in England during the
+                    reign of King Edward VI, Queen Elizabeth, and King James I. Nay, so it is found
+                    in the Bibles of King Charles I’s reign—I believe, to the period of it. The
+                    first Bibles I have seen wherein the word was changed were those printed by
+                    Roger Daniel and John Field, printers to the Parliament, in the year 1649. Hence
+                    it appears, that the alteration was made during the reign of the Long
+                    Parliament; then it was that the Latin word ‘charity’ was put in the place of
+                    the plain English word ‘love’.<note place="foot" xml:id="ftn6" n="6"><p
+                            rend="footnote text">Wesley is more cautious in his text of 1788: ‘Hence
+                            it seems probable that the alteration was made during the sitting of the
+                            Long Parliament [1640-48]; probably it was then that the Latin word
+                            “charity” was put in the place of the English word “love”.’ But the
+                            facts are otherwise. None of a dozen representative editions of the AV
+                            (between 1611 and 1658) has ‘love’; it was not the Presbyterians who
+                            were responsible for the alteration; the first solo printing of the
+                            Bible by Roger Daniel is dated 1645 (and reads ‘charity’) and John
+                            Field’s first Bible is dated 1648; neither printed a Bible in 1649, nor
+                            did they ever collaborate on a joint edition. Wesley’s heavy stress on
+                            ‘love’ as the proper translation of ἀγάπη (cf. his translation of 1 Cor.
+                            13 in <hi rend="italic">Notes</hi> [1755]) was, therefore, more
+                            innovative than he seems to have realized, despite the older traditions
+                            to which he appeals. Even so, he had the backing of both Poole and Henry
+                            in this preference for ‘love’ over ‘charity’.</p></note> It was in an
+                    unhappy hour this alteration was made; the ill effects of it remain to this day;
+                    and these may be observed not only among the poor and illiterate; not only
+                    thousands of common men and women no more understand the word charity than they
+                    do the original Greek, but the same miserable mistake has diffused itself among
+                    men of education and learning. Thousands of these also are misled thereby, and
+                    imagine that the charity treated of in this chapter refers chiefly, if not
+                    wholly, to outward actions, and to mean little more than almsgiving. I have
+                    heard many sermons preached upon this chapter, particularly before the
+                    University of Oxford. And I never heard more than one wherein the meaning of it
+                    was not totally misrepresented. But had the old and proper word ‘love’ been
+                    retained, there would have been no room for misrepresentation.</p>
+                <p n="2">2. But what kind of love is that whereof the Apostle is speaking throughout
+                    the chapter? Many persons of eminent learning <pb n="03:295"/>and piety
+                    apprehend that it is the love of God. But from reading the whole chapter
+                    numberless times, and considering it in every light, I am thoroughly persuaded
+                    that what St. Paul is here directly speaking of is the love of our neighbour. I
+                    believe whoever carefully weighs the whole tenor of his discourse will be fully
+                    convinced of this. But it must be allowed to be such a love of our neighbour as
+                    can only spring from the love of God. And whence does this love of God flow?
+                    Only from that faith which is of the operation of God;<note place="foot"
+                        xml:id="ftn7" n="7"><p rend="footnote text">See Col. 2:12.</p></note> which
+                    whoever has, has a direct evidence that ‘God was in Christ, reconciling the
+                    world unto himself.’<note place="foot" xml:id="ftn8" n="8"><p
+                            rend="footnote text">2 Cor. 5:19.</p></note> When this is particularly
+                    applied to his heart, so that he can say with humble boldness, ‘The life which I
+                    now live, I live by the faith of the Son of God, who loved me and gave himself
+                    for me;’<note place="foot" xml:id="ftn9" n="9"><p rend="footnote text">Gal.
+                            2:20.</p></note> then, and not till then, ‘the love of God is shed
+                    abroad in his heart.’<note place="foot" xml:id="ftn10" n="10"><p
+                            rend="footnote text">Cf. Rom. 5:5.</p></note> And this love sweetly
+                    constrains him to love every child of man with the love which is here spoken of;
+                    not with a love of esteem or of complacence—for this can have no place with
+                    regard to those who are (if not his personal enemies, yet) enemies to God and
+                    their own souls—but with a love of benevolence, of tender goodwill to all the
+                    souls that God has made.<note place="foot" xml:id="ftn11" n="11"><p
+                            rend="footnote text">A general eighteenth-century theme, as in Joseph
+                            Butler’s <hi rend="italic">Fifteen Sermons Preached at the Rolls
+                                Chapel</hi> (1726), Law’s <hi rend="italic">Serious Call </hi>(<hi
+                                rend="italic">Works</hi>, xx.220): ‘Benevolence to all our fellow
+                            creatures as creatures of God and for his sake…. This love that loves
+                            all things in God as his creatures’, and in Johnson, <hi rend="italic"
+                                >Dictionary</hi> (‘charity’). See No. 94, On Family Religion’,
+                            I.3.</p></note></p>
+                <p n="3">3. But it may be asked: ‘If there be no true love of our neighbour but that
+                    which springs from the love of God; and if the love of God flows from no other
+                    fountain than faith in the Son of God; does it not follow that the whole heathen
+                    world is excluded from all possibility of salvation? Seeing they are cut off
+                    from faith; for faith cometh by hearing.<note place="foot" xml:id="ftn12" n="12"
+                            ><p rend="footnote text">Rom. 10:17.</p></note> And how shall they hear
+                    without a preacher?’<note place="foot" xml:id="ftn13" n="13"><p
+                            rend="footnote text">Rom. 10:14.</p></note> I answer, St. Paul’s words,
+                    spoken on another occasion, are applicable to this: ‘What the law speaketh, it
+                    speaketh to them that are under the law.’<note place="foot" xml:id="ftn14"
+                        n="14"><p rend="footnote text">Cf. Rom. 3:19.</p></note> Accordingly that
+                    sentence, ‘He that believeth not shall be damned,’<note place="foot"
+                        xml:id="ftn15" n="15"><p rend="footnote text">Mark 16:16.</p></note> is
+                    spoken of them to whom the gospel is preached. Others it does not concern; <pb
+                        n="03:296"/>and we are not required to determine anything touching their
+                    final state.<note place="foot" xml:id="ftn16" n="16"><p rend="footnote text">For
+                            other references to the salvability of the heathen (as yet another
+                            implication of Wesley’s ‘catholic spirit’), cf. Nos. 106, ‘On Faith,
+                            Heb. 11:16’, I.4; 127, ‘On the Wedding Garment’, §17; 130, ‘On Living
+                            without God’, §14; cf. also No. 44, <hi rend="italic">Original Sin</hi>,
+                            I.5 and n. See Michael Hurley, S.J., ‘Salvation Today and Wesley Today’,
+                            in Kenneth E. Rowe, ed., <hi rend="italic">The Place of Wesley in the
+                                Christian Tradition</hi>, pp. 101-12.</p></note> How it will please
+                    God, the Judge of all, to deal with <hi rend="italic">them</hi>, we may leave to
+                    God himself. But this we know, that he is not the God of the Christians only,
+                    but the God of the heathens also; that he is ‘rich in mercy to all that call
+                    upon him’,<note place="foot" xml:id="ftn17" n="17"><p rend="footnote text">Cf.
+                            Rom. 10:12.</p></note> ‘according to the light they have’;<note
+                        place="foot" xml:id="ftn18" n="18"><p rend="footnote text">Cf. Rom. 12:6.
+                            Note Wesley’s casual reiteration here of the medieval theme of
+                            divine-human synergism (<hi rend="italic">in se est</hi>).</p></note>
+                    and that ‘in every nation he that feareth God and worketh righteousness is
+                    accepted of him.’<note place="foot" xml:id="ftn19" n="19"><p
+                            rend="footnote text">Cf. Acts 10:35.</p></note></p>
+                <p n="4">4. But to return. This is the <hi rend="italic">nature</hi> of that love
+                    whereof the Apostle is here speaking. But what are the properties of it, the
+                    fruits which are inseparable from it? The Apostle reckons up many of them; but
+                    the principal of them are these:</p>
+                <p>First, ‘Love is not puffed up.’<note place="foot" xml:id="ftn20" n="20"><p
+                            rend="footnote text">1 Cor. 13:4 (<hi rend="italic"
+                        >Notes</hi>).</p></note> As is the measure of love, so is the measure of
+                    humility. Nothing humbles the soul so deeply as love: it casts out all ‘high
+                    conceits, engendering pride’,<note place="foot" xml:id="ftn21" n="21"><p
+                            rend="footnote text">Milton, <hi rend="italic">Paradise Lost</hi>,
+                            iv.809.</p></note> all arrogance and overweaning, makes us little, and
+                    poor, and base, and vile in our own eyes. It abases us both before God and man;
+                    makes us willing to be the least of all, and the servants of all, and teaches us
+                    to say, ‘A mote in the sunbeam is little, but I am infinitely less in the
+                    presence of God.’<note place="foot" xml:id="ftn22" n="22"><p
+                            rend="footnote text">A recollection from de Renty; cf. Edward Sheldon’s
+                            translation of Saint-Jure, <hi rend="italic">The Holy Life of Monsr. de
+                                Renty</hi>, p. 59: ‘He said, “A mote in the sun is very little, but
+                            yet I am far less in the presence of God, for I am not any
+                        thing.”’</p></note></p>
+                <p n="5">5. Secondly, ‘Love is not provoked.’<note place="foot" xml:id="ftn23"
+                        n="23"><p rend="footnote text">1 Cor. 13:5 (<hi rend="italic">Notes</hi>);
+                            cf. No. 22, ‘Sermon on the Mount, II’, III.10 and n.</p></note> Our
+                    present English translation renders it, ‘is not easily provoked’.<note
+                        place="foot" xml:id="ftn24" n="24"><p rend="footnote text">Here, Wesley has
+                            all the precedents with him, including Douai-Rheims. ‘Easily’ first
+                            appears in 1611.</p></note> But how did the word ‘easily’ come in? There
+                    is not a tittle of it in the text: the words of the Apostle are simply these, οὐ
+                        παροξύνεται.<note place="foot" xml:id="ftn25" n="25"><p rend="footnote text"
+                            >παροξίζω is the root verb from which ‘paroxysm’ is derived and more
+                            often connotes exasperation, ‘acute provocation’, than mere
+                            ‘provocation’; cf. Liddell and Scott, <hi rend="italic">Greek-English
+                                Lexicon</hi>, and NEB, ‘not quick to take offence’. <hi
+                                rend="italic">The Twentieth Century New Testament</hi> agrees with
+                            Wesley and his predecessors: ‘Love is never provoked.’</p></note> Is it
+                    not <pb n="03:297"/>probable it was inserted by the translators with a design to
+                    excuse St. Paul, for fear his practice should appear to contradict his doctrine?
+                    For we read:</p>
+                <quote>And some days after, Paul said unto Barnabas, Let us go again and visit our
+                    brethren in every city where we have preached the word of the Lord, and see how
+                    they do. And Barnabas determined to take with them John, whose surname was Mark.
+                    But Paul thought not good to take him with them who departed from the work. And
+                    the contention was so sharp between them that they departed asunder one from the
+                    other; and so Barnabas took Mark, and sailed unto Cyprus; and Paul chose Silas,
+                    and departed, being recommended by the brethren unto the grace of God. And he
+                    went through Syria and Cilicia, continuing the churches.<hi
+                        rend="endnote_reference"><note place="end"><p rend="endnote text">Acts 15,
+                                ver. 36 and seq.</p></note></hi></quote>
+                <p n="6">6. Would not anyone think on reading these words that they were both
+                    equally sharp? That Paul was just as hot as Barnabas, and as much wanting in
+                    love as he? But the text says no such thing, as will be plain if we consider
+                    first the occasion. When St. Paul proposed that they should ‘again visit the
+                    brethren in every city where they had preached the word’, so far they were
+                    agreed. ‘And Barnabas determined to take with him John,’ because he was his
+                    sister’s son, without receiving or asking St. Paul’s advice. ‘But Paul thought
+                    [it] not good to take him with them who had departed from them from Pamphylia’
+                    (whether through sloth or cowardice) ‘and went not with them to the work.’ And
+                    undoubtedly he thought right: he had reason on his side. The following words
+                    are, καὶ ἐγένετο παροξυσμός;<note place="foot" xml:id="ftn26" n="26"><p
+                            rend="footnote text">Acts 15:39. Wesley is here quoting from memory; the
+                            text actually reads ἐγένετο δὲ παροξυσμός. This incident interested
+                            Wesley very much; cf. No. 22, ‘Sermon on the Mount, II’, III.10 and
+                            n.</p></note> literally, ‘and there was a fit of anger.’ It does not say
+                    in St. Paul; probably it was in Barnabas alone, who thus supplied the want of
+                    reason with passion, so ‘that they departed asunder’. ‘And Barnabas’, resolved
+                    to have his own way, did as his nephew had done before, ‘departed from the work,
+                    took Mark with him, and sailed to Cyprus’. But Paul went on in his work, ‘being
+                    recommended by the brethren to the grace of God’ (which Barnabas seems not to
+                    have stayed for). ‘And he went through Syria and Cilicia, confirming the
+                    churches.’ From the whole account, it does not appear that St. Paul was in any
+                    fault; that he either felt any temper, or spoke any word contrary to <hi
+                        rend="Page">[03:298]</hi>the law of love. Therefore not being in any fault,
+                    he does not need any excuse.</p>
+                <p n="7">7. Certainly he who is full of love is ‘gentle towards all men’.<note
+                        place="foot" xml:id="ftn27" n="27"><p rend="footnote text">2 Tim. 2:24 (<hi
+                                rend="italic">Notes</hi>).</p></note> He ‘in meekness instructs
+                    those that oppose themselves’,<note place="foot" xml:id="ftn28" n="28"><p
+                            rend="footnote text">Cf. 2 Tim. 2:25.</p></note> that oppose what he
+                    loves the most, even the truth of God, or that holiness without which no man
+                    shall see the Lord;<note place="foot" xml:id="ftn29" n="29"><p
+                            rend="footnote text">Heb. 12:14.</p></note> not knowing but ‘God
+                    peradventure may bring them to the knowledge of the truth.’<note place="foot"
+                        xml:id="ftn30" n="30"><p rend="footnote text">Cf. 2 Tim. 2:25.</p></note>
+                    However provoked, he does ‘not return evil for evil, or railing for
+                        railing’.<note place="foot" xml:id="ftn31" n="31"><p rend="footnote text"
+                            >Cf. 1 Pet. 3:9.</p></note> Yea, he ‘blesses those that curse him, and
+                    does good to them that despitefully use him and persecute him’.<note
+                        place="foot" xml:id="ftn32" n="32"><p rend="footnote text">Matt. 5:44 (<hi
+                                rend="italic">Notes</hi>).</p></note> He ‘is not overcome of evil,
+                    but’ always ‘overcomes evil with good’.<note place="foot" xml:id="ftn33" n="33"
+                            ><p rend="footnote text">Cf. Rom. 12:21.</p></note></p>
+                <p n="8">8. Thirdly, ‘love is long-suffering.’<note place="foot" xml:id="ftn34"
+                        n="34"><p rend="footnote text">Cf. 1 Cor. 13:4.</p></note> It ‘endures’ not
+                    a few affronts, reproaches, injuries, but ‘all things’<note place="foot"
+                        xml:id="ftn35" n="35"><p rend="footnote text">1 Cor. 13:7.</p></note> which
+                    God is pleased to permit either men or devils to inflict. It arms the soul with
+                    inviolable patience; not harsh, stoical patience, but yielding as the air,
+                    which, making no resistance to the stroke, receives no harm thereby. The lover
+                    of mankind remembers him who suffered for us, ‘leaving us an example, that we
+                    might tread in his steps’.<note place="foot" xml:id="ftn36" n="36"><p
+                            rend="footnote text">Cf. 1 Pet. 2:21.</p></note> Accordingly, ‘if his
+                    enemy hunger, he feeds him;’ if he thirst, he ‘gives him drink’; and by so doing
+                    he heaps coals of fire, of melting love, upon his head.<note place="foot"
+                        xml:id="ftn37" n="37"><p rend="footnote text">Cf. Rom. 12:20. Poole’s <hi
+                                rend="italic">Annotations</hi> on this text cite his parallel
+                            comment on Prov. 25:22: ‘Thou shalt melt him into repentance, inflame
+                            him with love and kindness to thee for so unexpected and undeserved a
+                            favour.’</p></note> And ‘many waters cannot quench’ this ‘love;’
+                    ‘neither can’ even ‘the floods’ of ingratitude ‘drown it.’<note place="foot"
+                        xml:id="ftn38" n="38"><p rend="footnote text">Cf. S. of S.
+                    8:7.</p></note></p>
+            </div>
+            <div type="section" n="2">
+                <p n="1">II. 1. We are, secondly, to inquire what those things are which it is
+                    commonly supposed will supply the place of love. And the first of these is
+                    eloquence—a faculty of talking well, particularly on religious subjects. Men are
+                    generally inclined to think well of one that talks well. If he speaks properly
+                    and fluently of God and the things of God, who can doubt of his being in God’s
+                    favour? And it is very natural for him to think well of himself, to have as
+                    favourable an opinion of himself as others have.</p>
+                <pb n="03:299"/>
+                <p n="2">2. But men of reflection are not satisfied with this: they are not content
+                    with a flood of words; they prefer thinking before talking, and judge, one that
+                    knows much is far preferable to one that talks much. And it is certain,
+                    knowledge is an excellent gift of God; particularly knowledge of the Holy
+                    Scriptures, in which are contained all the depths of divine knowledge and
+                    wisdom. Hence it is generally thought that a man of much knowledge, knowledge of
+                    Scripture in particular, must not only be in the favour of God, but likewise
+                    enjoy a high degree of it.</p>
+                <p n="3">3. But men of deeper reflection are apt to say: ‘I lay no stress upon any
+                    other knowledge but the knowledge of God by faith. Faith is the only knowledge
+                    which in the sight of God is of great price.<note place="foot" xml:id="ftn39"
+                        n="39"><p rend="footnote text">See 1 Pet. 3:4; and cf. No. 88, ‘On Dress’,
+                            §12, which quotes the same passage from its text, 1 Pet.
+                        3:3-4.</p></note> “We are saved by faith;”<note place="foot" xml:id="ftn40"
+                        n="40"><p rend="footnote text">Cf. Eph. 2:8.</p></note> by faith alone: this
+                    is the one thing needful. He that believeth, and he alone, shall be saved
+                    everlastingly.’ There is much truth in this: it is unquestionably true that ‘we
+                    are saved by faith;’ consequently, that ‘he that believeth shall be saved; and
+                    he that believeth not shall be damned.’<note place="foot" xml:id="ftn41" n="41"
+                            ><p rend="footnote text">Cf. Mark 16:16.</p></note></p>
+                <p n="4">4. But some men will say, with the Apostle James, ‘Show me thy faith
+                    without thy works’ (if thou canst; but indeed it is impossible), ‘and I will
+                    show thee my faith by my works.’<note place="foot" xml:id="ftn42" n="42"><p
+                            rend="footnote text">Jas. 2:18.</p></note> And many are hereby induced
+                    to think that good works, works of piety and mercy,<note place="foot"
+                        xml:id="ftn43" n="43"><p rend="footnote text">Cf. No. 14, <hi rend="italic"
+                                >The Repentance of Believers</hi>, I.13 and n.</p></note> are of far
+                    more consequence than faith itself, and will supply the want of every other
+                    qualification for heaven. Indeed, this seems to be the general sentiment, not
+                    only of the members of the Church of Rome, but of Protestants also; not of the
+                    giddy and thoughtless, but the serious members of our own Church.</p>
+                <p n="5">5. And this cannot be denied, our Lord himself hath said, ‘Ye shall know
+                    them by their fruits:’<note place="foot" xml:id="ftn44" n="44"><p
+                            rend="footnote text">Matt. 7:16.</p></note> by their works ye know them
+                    that believe, and them that believe not. But yet it may be doubted whether there
+                    is not a surer proof of the sincerity of our faith than even our works; that is,
+                    our willingly suffering for righteousness’ sake;<note place="foot"
+                        xml:id="ftn45" n="45"><p rend="footnote text">Cf. Matt. 5:10; 1 Pet.
+                            3:14.</p></note> especially if after suffering reproach, and pain, and
+                    loss of friends and substance, a man gives up life itself, yea, by a shameful
+                    and painful death, by giving his body to be burned,<note place="foot"
+                        xml:id="ftn46" n="46"><p rend="footnote text">Cf. 1 Cor. 13:3.</p></note>
+                    <pb n="03:300"/>rather than he would give up faith and a good conscience by
+                    neglecting his known duty.</p>
+                <p n="6">6. It is proper to observe here, first, what a beautiful gradation there
+                    is, each step rising above the other in the enumeration of those several things
+                    which some or other of those that are called Christians, and are usually
+                    accounted so, really believe will supply the absence of love. St. Paul begins at
+                    the lowest point, ‘talking well’, and advances step by step, every one rising
+                    higher than the preceding, till he comes to the highest of all. A step above
+                    eloquence is knowledge; faith is a step above this. Good works are a step above
+                    that faith. And even above this, is suffering for righteousness’ sake. Nothing
+                    is higher than this but Christian love<note place="foot" xml:id="ftn47" n="47"
+                            ><p rend="footnote text">Cf. Richard Lucas, <hi rend="italic">Enquiry
+                                After Happiness</hi> (1717), III.410: ‘Love is the last round in the
+                            scale of perfection,’ and Robert Barclay’s comment on Rom. 8:30, in his
+                                <hi rend="italic">Apology</hi> (1736 edn.), Prop. VII, Of
+                            Justification’, pp. 220, 224: ‘This [gradation] is commonly called <hi
+                                rend="italic">The Golden Chain</hi>, as being acknowledged to
+                            comprehend the method and order of salvation.’ For other comments of
+                            Wesley on the instrumentality of faith to love, see No. 36, ‘The Law
+                            Established through Faith, II’, II.1-2.</p></note>—the love of our
+                    neighbour flowing from the love of God.</p>
+                <p n="7">7. It may be proper to observe, secondly, that whatever passes for religion
+                    in any part of the Christian world (whether it be a part of religion, or no part
+                    at all, but either folly, superstition, or wickedness) may with very little
+                    difficulty be reduced to one or other of these heads. Everything which is
+                    supposed to be religion, either by Protestants or Romanists, and is not, is
+                    contained under one or another of these five particulars. Make trial, as often
+                    as you please, with anything that is called religion, but improperly so called,
+                    and you will find the rule to hold without any exception.</p>
+            </div>
+            <div type="section" n="3">
+                <p n="1">ΙII. 1. I am now, in the third place, to demonstrate to all who have ears
+                    to hear, who do not harden themselves against conviction, that neither any one
+                    of these five qualifications, nor all of them together, will avail anything
+                    before God without the love above described.</p>
+                <p>In order to do this in the clearest manner we may consider them one by one. And
+                    first, ‘though I speak with the tongues of men and of angels’<note place="foot"
+                        xml:id="ftn48" n="48"><p rend="footnote text">1 Cor. 13:1.</p></note>—with
+                    an eloquence such as never was found in men, concerning the nature, attributes,
+                    and works of God, whether of creation or providence; though I were not herein a
+                    whit behind the chief of the apostles, preaching like St. Peter and <hi
+                        rend="Page">[03:301]</hi>praying like St. John; yet unless humble, gentle,
+                    patient love be the ruling temper of my soul, I am no better in the judgment of
+                    God ‘than sounding brass, or a rumbling cymbal’.<note place="foot"
+                        xml:id="ftn49" n="49"><p rend="footnote text"><hi rend="italic">Ibid.</hi>
+                            For Wesley’s preference for ‘rumbling’ over the consensus translation,
+                            ‘tinkling’, cf. No. 89, ‘The More Excellent Way’, §4, proem, and
+                        n.</p></note> The highest eloquence, therefore, either in private
+                    conversation or in public ministrations; the brightest talent, either for
+                    preaching or prayer, if it was not joined with humble, meek, and patient
+                    resignation, might sink me the deeper into hell, but will not bring me one step
+                    nearer heaven.</p>
+                <p n="2">2. A plain instance may illustrate this. I knew a young man, between fifty
+                    and sixty years ago, who during the course of several years never endeavoured to
+                    convince anyone of a religious truth but he <hi rend="italic">was</hi>
+                    convinced; and he never endeavoured to persuade anyone to engage in a religious
+                    practice but he was persuaded.<note place="foot" xml:id="ftn50" n="50"><p
+                            rend="footnote text">But cf. the young Wesley’s letter to his mother,
+                            Jan. 25, 1727, reporting his successful effort to persuade Robin
+                            Griffiths to a more decisive Christian commitment. ‘He [i.e., Griffiths]
+                            turned exceedingly serious and kept something of that disposition ever
+                            since. Yesterday was a fortnight he died of a consumption. I saw him
+                            three days before he died, and on the Sunday following…preach[ed] his
+                            funeral sermon;’ cf. No. 136, ‘On Mourning for the Dead’, which Wesley
+                            preached Jan. 11, 1727.</p></note> What then? All that power of
+                    convincing speech, all that force of persuasion, if it was not joined with
+                    meekness and lowliness, with resignation and patient love, would no more qualify
+                    him for the fruition of God than a clear voice, or a fine complexion. Nay, it
+                    would rather procure him a hotter place in the everlasting burnings.<note
+                        place="foot" xml:id="ftn51" n="51"><p rend="footnote text">Isa.
+                        33:14.</p></note></p>
+                <p n="3">3. Secondly, ‘though I have the gift of prophecy’,<note place="foot"
+                        xml:id="ftn52" n="52"><p rend="footnote text">Especially among the Puritans,
+                            the ‘gift of prophecy’ had come to mean the gifts of preaching. Cf.
+                            William Perkins, <hi rend="italic">The Art of Prophesying</hi> (1613);
+                            also Henry Smith, <hi rend="italic">Sermons </hi>(1657), p. 137:
+                            ‘prophesying doth signify preaching.’ See also, Wesley’s <hi
+                                rend="italic">Notes</hi> on 1 Thess. 5:20: ‘For the Apostle here is
+                            not speaking of extraordinary gifts. Prophesying or preaching it seems
+                            is one means of grace and is put in this place for all the means of
+                            grace’ (cf. No. 121, ‘Prophets and Priests’, §6). Here, however, Wesley
+                            is following the older usage of <hi rend="italic">foretelling</hi> and
+                            gnostic wisdom.</p></note> of foretelling those future events which no
+                    creature can foresee; and ‘though I understand all’ the ‘mysteries’ of nature,
+                    of providence, and of the Word of God; and ‘all knowledge’ of things divine or
+                    human that any mortal ever attained to; though I could explain the most
+                    mysterious passages of Daniel, of Ezekiel, and the Revelation; yet if I have not
+                    humility, gentleness, and resignation, I ‘am nothing’<note place="foot"
+                        xml:id="ftn53" n="53"><p rend="footnote text">1 Cor. 13:2.</p></note> in the
+                    sight of God.</p>
+                <pb n="03:302"/>
+                <p>A little before the conclusion of the late war in Flanders,<note place="foot"
+                        xml:id="ftn54" n="54"><p rend="footnote text">The so-called ‘War of the
+                            Austrian Succession’, 1740-48; the campaigns in Flanders ran from 1742
+                            to 1745. Cf. Charles Grant Robertson, <hi rend="italic">England Under
+                                the Hanoverians</hi>, pp. 91-94.</p></note> one who came from thence
+                    gave us a very strange relation. I knew not what judgment to form of this; but
+                    waited till John Haime<note place="foot" xml:id="ftn55" n="55"><p
+                            rend="footnote text">See his autobiography in <hi rend="italic">AM</hi>
+                            (1780), III.207-17, 255-73, 307-13, for an account of the religious
+                            society Haime had organized among the soldiers; it mentions the Battle
+                            of Fontenoy (§39) but not Jonathan Pyrah. After his military discharge,
+                            Haime became one of Wesley’s trusted veterans.</p></note> should come
+                    over, of whose veracity I could no more doubt than of his understanding. The
+                    account he gave was this: ‘Jonathan Pyrah was a member of our Society in
+                    Flanders. I knew him some years, and knew him to be a man of unblameable
+                    character. One day he was summoned to appear before the Board of General
+                    Officers. One of them said: “What is this which we hear of you? We hear you are
+                    turned prophet, and that you foretell the downfall of the bloody House of
+                    Bourbon, and the haughty House of Austria. We should be glad if you were a real
+                    prophet, and if your prophecies came true. But what sign do you give to convince
+                    us that you are so, and that your predictions will come to pass?” He readily
+                    answered: “Gentlemen, I give you a sign. Tomorrow at twelve o’clock you shall
+                    have such a storm of thunder and lightning as you never had before since you
+                    came into Flanders. I give you a second sign: as little as any of you expect any
+                    such thing, as little appearance of it as there is now, you shall have a general
+                    engagement with the French within three days. I give you a third sign: I shall
+                    be ordered to advance in the first line. If I am a false prophet, I shall be
+                    shot dead at the very first discharge. But if I am a true prophet I shall only
+                    receive a musket ball in the calf of my left leg.” At twelve the next day there
+                    was such thunder and lightning as they never had before in Flanders. On the
+                    third day, contrary to all expectations, was the general battle of
+                        Fontenoy.<note place="foot" xml:id="ftn56" n="56"><p rend="footnote text"
+                            >May 11, 1745, one of the most famous battles of the eighteenth century
+                            in terms of the classical patterns of military strategy and tactics—and
+                            a defeat for the Anglo-Allied armies; cf. Williams, <hi rend="italic"
+                                >The Whig Supremacy, 1714-1760</hi>, pp. 237-39; and Charles Grant
+                            Robertson, <hi rend="italic">op. cit.</hi>, 97-98.</p></note> He was
+                    ordered to advance in the first line. And at the very first discharge, he did
+                    receive a musket ball in the calf of his left leg.’</p>
+                <p n="4">4. And yet all this profited him nothing, either for temporal or eternal
+                    happiness. When the war was over he returned to England; but the story was got
+                    before him: in consequence of <pb n="03:303"/>which he was sent for by the
+                    Countess of St[air]s,<note place="foot" xml:id="ftn57" n="57"><p
+                            rend="footnote text">The Countess of Stair was Eleanor, daughter of the
+                            second Earl of Loudoun and widow of Viscount James Primrose. She is the
+                            heroine in Sir Walter Scott’s novel, ‘My Aunt Margaret’s Mirror’, in <hi
+                                rend="italic">Chronicles of the Canongate</hi> (1827). Lord Stair
+                            (John Dalrymple, second Earl of Stair [1673-1747]) distinguished himself
+                            in the battles of Dettingen and Fontenoy; ‘his countess survived him by
+                            twelve years and remained till her death the most striking figure in
+                            Edinburgh society’ (<hi rend="italic">DNB</hi>, <hi rend="italic">loc.
+                                cit.</hi>). John Hampson, <hi rend="italic">Memoirs of the Late Rev.
+                                John Wesley</hi>, II.142, refers to her and also spells the name
+                            Stairs as Wesley has done.</p></note> and several other persons of
+                    quality, who were desirous to receive so surprising an account from his own
+                    mouth. He could not bear so much honour. It quite turned his brain. In a little
+                    time he ran stark mad. And so he continues to this day, living still, as I
+                    apprehend, on Wibsey Moorside,<note place="foot" xml:id="ftn58" n="58"><p
+                            rend="footnote text">The text in both<hi rend="italic"> AM</hi> and <hi
+                                rend="italic">SOSO</hi> here reads ‘Websey’; Wibsey is two miles
+                            south of Bradford and Wibsey Moorside about a mile farther
+                        south.</p></note> within a few miles of Leeds.<hi rend="endnote_reference"
+                            ><note place="end"><p rend="endnote text">At the time of writing this
+                                sermon [i.e., 1784]. He is since dead [this footnote added in <hi
+                                    rend="italic">Sermons</hi> (1788), VII.250].</p></note></hi></p>
+                <p n="5">5. And what would it profit a man to ‘have all knowledge’, even that which
+                    is infinitely preferable to all other, the knowledge of the Holy Scripture? I
+                    knew a young man about twenty years ago who was so thoroughly acquainted with
+                    the Bible that if he was questioned concerning any Hebrew word in the Old or any
+                    Greek word in the New Testament, he would tell, after a little pause, not only
+                    how often the one or the other occurred in the Bible, but also what it meant in
+                    every place. His name was Thomas Walsh.<hi rend="endnote_reference"><note
+                            place="end"><p rend="endnote text">His Journal, written by himself, is
+                                extant [It was used by James Morgan for his <hi rend="italic">Life
+                                    and Death of Mr. Thomas Walsh</hi> (London, 1762). Wesley
+                                published extracts from this in <hi rend="italic">Works </hi>(1772),
+                                Vol. XI; cf. <hi rend="italic">Bibliog</hi>, No.
+                        252].</p></note></hi> Such a master of biblic knowledge I never saw before,
+                    and never expect to see again. Yet if with all his knowledge he had been void of
+                    love, if he had been proud, passionate, or impatient, he and all his knowledge
+                    would have perished together, as sure as ever he was born.</p>
+                <p n="6">6. ‘And though I have all faith, so that I could remove mountains.’<note
+                        place="foot" xml:id="ftn59" n="59"><p rend="footnote text">1 Cor.
+                        13:2.</p></note> The faith which is able to do this cannot be the fruit of
+                    vain imagination, a mere madman’s dream, a system of opinions; but must be a
+                    real work of God. Otherwise it could not have such an effect. Yet if this faith
+                    does not work by love, if it does not produce universal holiness, if it does not
+                    bring forth lowliness, meekness, and resignation, it will profit me nothing.
+                    This is as certain a truth as any that is delivered in the whole <pb n="03:304"
+                    />oracles of God. All faith that is, that ever was, or ever can be, separate
+                    from tender benevolence to every child of man, friend or foe, Christian, Jew,
+                    heretic, or pagan; separate from gentleness to all men; separate from
+                    resignation in all events, and contentedness in all conditions—is not the faith
+                    of a Christian, and will stand us in no stead before the face of God.</p>
+                <p n="7">7. Hear ye this, all you that are called Methodists. You of all men living
+                    are most concerned herein. You constantly speak of salvation by faith; and you
+                    are in the right for so doing. You maintain, one and all, that a man is
+                    justified by faith, without the works of the law.<note place="foot"
+                        xml:id="ftn60" n="60"><p rend="footnote text">See Gal. 2:16; note this
+                            stress on <hi rend="italic">faith alone</hi> as the foundation of
+                            Christian soteriology in a sermon in praise of ‘holy
+                        tempers’.</p></note> And you cannot do otherwise without giving up the
+                    Bible, and betraying your own souls. You insist upon it, that we are saved by
+                    faith; and undoubtedly so we are. But consider, meantime, that let us have ever
+                    so much faith, and be our faith ever so strong, it will never save us from hell
+                    unless it now save us from all unholy tempers; from pride, passion, impatience;
+                    from all arrogance of spirit, all haughtiness and overbearing; from wrath,
+                    anger, bitterness; from discontent, murmuring, fretfulness, peevishness. We are
+                    of all men most inexcusable, if having been so frequently guarded against that
+                    strong delusion we still, while we indulge any of these tempers, bless ourselves
+                    and dream we are in the way to heaven!</p>
+                <p n="8">8. Fourthly, ‘although I give all my goods to feed the poor’,<note
+                        place="foot" xml:id="ftn61" n="61"><p rend="footnote text">Cf. 1 Cor.
+                            13:3.</p></note> though I divide all my real and all my personal estate
+                    into small portions (so the original word properly signifies), and diligently
+                    bestow it on those who I have reason to believe are the most proper objects; yet
+                    if I am proud, passionate, or discontented; if I give way to any of these
+                    tempers; whatever good I may do to others, I do none to my own soul. O how
+                    pitiable a case is this! Who would not grieve that these beneficent men should
+                    lose all their labour!<note place="foot" xml:id="ftn62" n="62"><p
+                            rend="footnote text">Cf. No. 65, ‘The Duty of Reproving our Neighbour’,
+                            I.3 and n.</p></note> It is true, many of them have a reward in this
+                    world; if not before, yet after their death. They have costly and pompous
+                    funerals. They have marble monuments of the most exquisite workmanship. They
+                    have epitaphs, wrote in the most elegant strain, which extol their virtues to
+                    the skies.<note place="foot" xml:id="ftn63" n="63"><p rend="footnote text">There
+                            are few English churches from this period without a panoply of these
+                            elaborate monuments; overall, one gets the general impression that more
+                            of them date from the eighteenth than from any other century.</p></note>
+                    Perhaps they have <pb n="03:305"/>yearly orations spoken over them, to transmit
+                    their memory to all generations. So have many founders of religious houses, of
+                    colleges, alms-houses, and most charitable institutions. And it is an allowed
+                    rule that none can exceed in the praise of the founder of his house, college, or
+                    hospital. But still what a poor reward is this! Will it add to their comfort or
+                    to their misery, suppose (which must be the case if they did not die in faith)
+                    that they are in the hands of the devil and his angels? What insults, what
+                    cutting reproaches would these occasion from their infernal companions! O that
+                    they were wise! That all those who are zealous of good works<note place="foot"
+                        xml:id="ftn64" n="64"><p rend="footnote text">Titus 2:14.</p></note> would
+                    put them in their proper place! Would not imagine they can supply the want of
+                    holy tempers,<note place="foot" xml:id="ftn65" n="65"><p rend="footnote text"
+                            >Cf. Law, <hi rend="italic">Serious Call</hi>, <hi rend="italic"
+                                >passim.</hi> For Wesley’s other uses of ‘holy tempers’, see below,
+                            III.12; and No. 92,‘On Zeal’, II.10; as well as his letter to James
+                            Clark, Sept. 18, 1756; to Dr. Warburton, Bishop of Gloucester, Nov. 26,
+                            1762 (where he speaks of ‘right tempers’); and <hi rend="italic">The
+                                Principles of a Methodist</hi>, §2 (<hi rend="italic">Bibliog</hi>,
+                            No. 67, Vol. 9 of this edn.), where in his preface ‘To the Reader’,
+                            Wesley exhorts to a ‘right spirit’ in controversy; see also <hi
+                                rend="italic">The Principles of a Methodist Farther Explained</hi>,
+                            §3 (<hi rend="italic">Bibliog</hi>, No. 123, Vol. 9 of this
+                        edn.).</p></note> but take care that they may spring from them!</p>
+                <p n="9">9. How exceeding strange must this sound in the ears of most of those who
+                    are, by the courtesy of England, called Christians! But stranger still is that
+                    assertion of the Apostle which comes in the last place: ‘Although I give my body
+                    to be burned, and have not love, it profiteth me nothing.’<note place="foot"
+                        xml:id="ftn66" n="66"><p rend="footnote text">1 Cor. 13:3.</p></note>
+                    Although rather than deny the faith, rather than commit a known sin, or omit a
+                    known duty, I voluntarily submit to a cruel death—‘deliver up my body to be
+                    burned’—yet if I am under the power of pride, or anger, or fretfulness, ‘it
+                    profiteth me nothing.’</p>
+                <p n="10">10. Perhaps this may be illustrated by an example. We have a remarkable
+                    account in the <hi rend="italic">Tracts</hi> of Dr. Geddes<note place="foot"
+                        xml:id="ftn67" n="67"><p rend="footnote text">Michael Geddes, LL.D.
+                            (1650?-1713), chaplain to the English business community in Lisbon,
+                            1678-88; there is no record of his having been there in ‘the latter end
+                            of Queen Anne’s reign’ (cf. <hi rend="italic">DNB</hi>). His criticism
+                            of the Portuguese Inquisition compelled his return to England, where he
+                            became chancellor of the diocese of Salisbury. Wesley read his <hi
+                                rend="italic">Miscellaneous Tracts</hi> (1702-6) in Feb. 1731; they
+                            are full of indignant accounts of the cruelties of the Inquisition.
+                            Wesley’s story as told here has been adapted from <hi rend="italic"
+                                >Tracts</hi>, No. 5, I.409-10. Cf. also No. 73, ‘Of Hell’, III.1 and
+                            n.; and <hi rend="italic">The Doctrine of Original Sin</hi>, Pt. I,
+                            II.8.</p></note> (a civilian who was envoy from Queen Anne to the court
+                    of Portugal in the latter end of her reign). He was present at one of those <hi
+                        rend="italic">autos-de-fé</hi><note place="foot" xml:id="ftn68" n="68"><p
+                            rend="footnote text">Orig., ‘auto de fes’.</p></note> (acts of faith)
+                    wherein the Roman inquisitors burn heretics alive. <pb n="03:306"/>One of the
+                    persons who was then brought out for execution, having been confined in the
+                    dungeons of the Inquisition, had not seen the sun for many years. It proved a
+                    bright, sunshiny day. Looking up, he cried out in surprise, ‘O how can anyone
+                    who sees that glorious luminary worship any but the God that made it!’<note
+                        place="foot" xml:id="ftn69" n="69"><p rend="footnote text">Cf. No. 28,
+                            ‘Sermon on the Mount, VIII’, §5.</p></note> A friar standing by ordered
+                    them to run an iron gag through his lips, that he might speak no more. Now what
+                    did that poor man feel within when this order was executed? If he said in his
+                    heart, though he could not utter it with his lips, ‘Father, forgive them; for
+                    they know not what they do;’<note place="foot" xml:id="ftn70" n="70"><p
+                            rend="footnote text">Luke 23:34.</p></note> undoubtedly the angels of
+                    God were ready to carry his soul into Abraham’s bosom.<note place="foot"
+                        xml:id="ftn71" n="71"><p rend="footnote text">See Luke 16:22.</p></note> But
+                    if instead of this he cherished the resentment in his heart which he could not
+                    express with his tongue, although his body was consumed by the flames, I will
+                    not say his soul went into paradise.</p>
+                <p n="11">11. The sum of all that has been observed is this: whatever I speak,
+                    whatever I know, whatever I believe, whatever I do, whatever I suffer; if I have
+                    not the faith that worketh by love,<note place="foot" xml:id="ftn72" n="72"><p
+                            rend="footnote text">See Gal. 5:6; cf. above, No. 2, <hi rend="italic"
+                                >The Almost Christian</hi>, II.6 and n.</p></note> that produces
+                    love to God and all mankind, I am not in the narrow way which leadeth to life,
+                    but in the broad road that leadeth to destruction.<note place="foot"
+                        xml:id="ftn73" n="73"><p rend="footnote text">See Matt. 7:13-14.</p></note>
+                    In other words: whatever eloquence I have, whether natural or supernatural
+                    knowledge; whatever faith I have received from God; whatever works I do, whether
+                    of piety or mercy; whatever sufferings I undergo for conscience’ sake, even
+                    though I resist unto blood—all these things put together, however applauded of
+                    men, will avail nothing before God unless I am meek and lowly in heart,<note
+                        place="foot" xml:id="ftn74" n="74"><p rend="footnote text">Matt.
+                        11:29.</p></note> and can say in all things, ‘Not as I will, but as thou
+                        wilt.’<note place="foot" xml:id="ftn75" n="75"><p rend="footnote text">Matt.
+                            26:39.</p></note></p>
+                <p n="12">12. We conclude from the whole (and it can never be too much inculcated,
+                    because all the world votes on the other side), that true religion, in the very
+                    essence of it, is nothing short of <hi rend="italic">holy tempers</hi>.
+                    Consequently all other religion, whatever name it bears, whether pagan,
+                    Mahometan, Jewish, or Christian; and whether popish or Protestant, Lutheran or
+                    Reformed, without these is lighter than vanity<note place="foot" xml:id="ftn76"
+                        n="76"><p rend="footnote text">Ps. 62:9.</p></note> itself.</p>
+                <pb n="03:307"/>
+                <p n="13">13. Let every man therefore that has a soul to be saved see that he secure
+                    this one point. With all his eloquence, his knowledge, his faith, works, and
+                    sufferings, let him hold fast this ‘one thing needful’.<note place="foot"
+                        xml:id="ftn77" n="77"><p rend="footnote text">Luke 10:42.</p></note> He that
+                    through the power of faith endureth to the end in<note place="foot"
+                        xml:id="ftn78" n="78"><p rend="footnote text">See Matt. 10:22.</p></note>
+                    humble, gentle, patient love; he, and he alone, shall, through the merits of
+                    Christ, ‘inherit the kingdom prepared from the foundation of the world’.<note
+                        place="foot" xml:id="ftn79" n="79"><p rend="footnote text">Matt.
+                        25:34.</p></note></p>
+            </div>
+            <p><placeName>London</placeName>, <date when="10-15-1784">October 15, 1784</date><note
+                    place="foot" xml:id="ftn80" n="80"><p rend="footnote text">Place and date as in
+                            <hi rend="italic">AM</hi>.</p></note></p>
+        </body>
+    </text>
+</TEI>

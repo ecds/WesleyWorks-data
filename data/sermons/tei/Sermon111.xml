@@ -1,0 +1,631 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Sermon 111: National Sins and Miseries</title>
+                <author>Wesley, John</author>
+                <editor role="text">Van Buskirk, Gregory P.</editor>
+                <editor role="digital">Taylor, Michelle M.</editor>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>The Wesley Works Digitzation Project</publisher>
+                <pubPlace>Tampa, FL</pubPlace>
+                <date>2024-02-25</date>
+            </publicationStmt>
+            <sourceDesc>
+                <listBibl>
+                    <biblStruct>
+                        <analytic>
+                            <title level="a">Sermon 111: National Sins and Miseries</title>
+                        </analytic>
+                        <monogr>
+                            <title level="j">The Works of John Wesley, Volume III: Sermons III,
+                                71-114</title>
+                            <editor role="volume">Outler, Albert</editor>
+                            <imprint>
+                                <publisher>Abingdon Press</publisher>
+                                <pubPlace>Nashville, TN</pubPlace>
+                                <date when="1986-11-01">1986-11-01</date>
+                                <biblScope unit="volume" n="3"/>
+                                <biblScope unit="page" from="564" to="576"/>
+                            </imprint>
+                        </monogr>
+                        <series>
+                            <title level="s">The Works of John Wesley</title>
+                            <editor role="general">Baker, Frank</editor>
+                        </series>
+                    </biblStruct>
+                </listBibl>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Greg Van Buskirk created Word docs for all of Wesley's sermons using a combination of
+                OCR software and manual proofing. Michelle Taylor converted these docx into XML
+                using Oxygen's DITA automatic transformation scenario, then touched them up
+                manually.</p>
+        </encodingDesc>
+        <standOff>
+            <taxonomy>
+                <keywords>
+                    <term/>
+                </keywords>
+            </taxonomy>
+            <!--Include keywords and terms here eventually.-->
+        </standOff>
+        <revisionDesc/>
+    </teiHeader>
+    <text>
+        <body>
+            <pb n="03:564"/>
+            <head>
+                <hi rend="italic">An Introductory Comment</hi>
+            </head>
+            <introduction>
+                <p>Wesley had been bred up as a Tory and remained one all his life. He could even
+                    define the term (in 1785) in much the same sense as his father and elder brother
+                    before him: ‘one who believes God, not the people, to be the origin of all civil
+                        power’.<note place="foot" xml:id="ftn1" n="1"><p rend="footnote text">See
+                            his letter to <hi rend="italic">Gent’s Mag.</hi>, Dec. 24, 1785; see
+                            also his <hi rend="italic">Thoughts concerning the Origin of Power</hi>
+                            (1772).</p></note> From this ‘divine right’ premise, it followed that he
+                    recoiled as vigorously from John Wilkes’s populism as from his radical
+                        secularism.<note place="foot" xml:id="ftn2" n="2"><p rend="footnote text"
+                            >See Wesley, <hi rend="italic">Free Thoughts on the Present State of
+                                Public Affairs</hi> (1770); for an account of the Wilkes affair by a
+                            historian who was also interested in Wesley and Methodism, see W. E. H.
+                            Lecky, <hi rend="italic">A History of England in the Eighteenth
+                                Century</hi> (1892), III.242-345.</p></note> And it also followed
+                    equally that he had deplored the rising clamour among the American colonists for
+                    what he could only regard as a false ‘liberty’. Suiting deeds to thought, he
+                    issued a whole series of adverse judgments upon the American Revolution,
+                    including a paraphrase of Samuel Johnson’s <hi rend="italic">Taxation No
+                        Tyranny</hi> (1775) that gained a wider audience for Johnson’s views than
+                    the original.<note place="foot" xml:id="ftn3" n="3"><p rend="footnote text">See
+                            Wesley, <hi rend="italic">A Calm Address to our American Colonies</hi>,
+                            1775 (<hi rend="italic">Bibliog</hi>, No. 354, Vol. 15 of this
+                            edn.).</p></note> That these pamphlets had stirred a storm of
+                    controversy goes without saying but, by the same token, it may also be taken for
+                    granted that Wesley went on unmoved; see <hi rend="italic">Some Observations on
+                        Liberty</hi> (1776), <hi rend="italic">A Calm Address to the Inhabitants of
+                        England</hi> (1777), <hi rend="italic">A Serious Address to the People of
+                        England</hi> (1778), etc.</p>
+                <p>The opening battles of the new revolution had come in April 1775—at Lexington,
+                    Concord, Bunker Hill—and had resulted in an unexpectedly large number of English
+                    casualties. Almost as if by reflex, such events had rekindled Wesley’s dread and
+                    horror of yet another ‘civil war’, Briton against Briton.<note place="foot"
+                        xml:id="ftn4" n="4"><p rend="footnote text">Cf. Robertson, <hi rend="italic"
+                                >England under the Hanoverians</hi>, pp. 251-68.</p></note> Thus,
+                    when an invitation came to him to deliver a ‘charity sermon’ at St. Matthew’s
+                    Church (Bethnal Green) on November 12, 1775, for the benefit of the widows and
+                    orphans of these early victims of the war, he was glad to respond. But, quite
+                    contrary to his custom, he wrote out a manuscript in full (dated November 7),
+                    organizing his political sentiments around his providential view of <pb
+                        n="03:565"/>history: <hi rend="italic">viz.</hi>, a nation’s ‘miseries’ are
+                    the bitter fruit of a nation’s ‘sins’. His mood at this time is reflected in the
+                        <hi rend="italic">Journal</hi> entry for Saturday, November 11:</p>
+                <quote>I made some additions to the <hi rend="italic">Calm Address to Our American
+                        Colonies</hi>. Need anyone ask from what motive this was wrote? Let him look
+                    round: England is in a flame—a flame of malice and rage against the King and
+                    almost all that are in authority under him. I labour to put out this flame.
+                    Ought not every true patriot do the same? If hireling writers on either side
+                    judge of <hi rend="italic">me</hi> by themselves, that I cannot help.<note
+                        place="foot" xml:id="ftn5" n="5"><p rend="footnote text">Wesley had been
+                            accused of currying favour with the king: ‘…one hand stretched out to
+                            the King, the other raised up to God’; see <hi rend="italic">Gent’s
+                                Mag.</hi>, 1775, p. 561.</p></note></quote>
+                <p>The sermon’s actual occasion is then recorded as follows:</p>
+                <quote>Sunday, 12. I was desired to preach, in Bethnal Green Church, a charity
+                    sermon…. Knowing how many would seek offence, I wrote down my sermon. I dined
+                    with Sir John Hawkins and three other gentlemen that are in commission for the
+                        peace;<note place="foot" xml:id="ftn6" n="6"><p rend="footnote text">I.e.,
+                            local Justices of the Peace.</p></note> and was agreeably surprised at a
+                    very serious conversation, kept up during the whole time I stayed.</quote>
+                <p>The sermon was promptly printed, as <hi rend="italic">A Sermon preached at St.
+                        Matthew’s, Bethnal Green, on Sunday, Nov. 12, 1775</hi>. It was reissued in
+                    a second edition nine years later (1784). Its present title was supplied by
+                    Thomas Jackson in 1825. For further bibliographical details, see <hi
+                        rend="italic">Bibliog</hi>, No. 356.</p>
+            </introduction>
+            <pb n="03:566"/>
+            <head>National Sins and Miseries</head>
+            <epigraph>
+                <p>2 Samuel 24:17</p>
+                <p>
+                    <hi rend="italic">Lo, I have sinned, and I have done wickedly: but these sheep,
+                        what have they done?</hi>
+                </p>
+            </epigraph>
+            <div type="introduction">
+                <p n="1">1. The chapter begins, ‘And again the anger of the Lord was kindled against
+                    Israel, and he moved David against them to say, Go, number Israel and
+                        Judah.’<note place="foot" xml:id="ftn7" n="7"><p rend="footnote text">2 Sam.
+                            24:1.</p></note> ‘Again’—it had been kindled against them but a few
+                    years before; in consequence of which ‘there had been a famine in the land three
+                    years’, year after year, till ‘David inquired of the Lord’, and was taught the
+                    way of appeasing it.<hi rend="endnote_reference"><note place="end"><p
+                                rend="endnote text">Chap. 21:1.</p></note></hi> We are not informed
+                    in what particular manner Israel had now offended God, by what particular cause
+                    his anger was kindled, but barely with the effect. ‘He moved David against them
+                    to say, Go, number Israel and Judah.’ ‘He’—not God! Beware how you impute this
+                    to the fountain of love and holiness! It was not God, but Satan, who thus moved
+                        David.<note place="foot" xml:id="ftn8" n="8"><p rend="footnote text">An
+                            exegesis determined by a theological bias: the bare text of 2 Sam. 24:1
+                            leaves the translator no option with respect to the antecedent of ‘he’;
+                            it is God. But Wesley knew the difficulties here and implies that 1 Chr.
+                            21:1 establishes the <hi rend="italic">sense</hi> of 2 Sam. 24:1. He
+                            also knew the juggling act attempted by Poole, <hi rend="italic"
+                                >Annotations</hi>, on 2 Sam. 24:1, and Henry’s conclusion in his <hi
+                                rend="italic">Exposition</hi> that despite what the text might seem
+                            to say, still ‘God is not the author of sin; he tempts no
+                        man.’</p></note> So the parallel Scripture expressly declares: ‘And Satan
+                    stood up against Israel, and provoked David to number Israel.’<hi
+                        rend="endnote_reference"><note place="end"><p rend="endnote text">1 Chr.
+                                21:1.</p></note></hi> ‘Satan stood’ before God to accuse David and
+                    Israel, and to beg God’s permission to tempt David.<note place="foot"
+                        xml:id="ftn9" n="9"><p rend="footnote text">An echo of Job
+                        1:6-12.</p></note>
+                    <hi rend="italic">Standing</hi> is properly the accuser’s posture before the
+                    tribunals of men. And therefore the Scripture, which uses to speak of the things
+                    of God after the manner of men, represents Satan as appearing in this posture
+                    before the tribunal of God. ‘And David said to Joab, and to the rulers of the
+                    people, Go, number Israel from Beersheba even to Dan; and bring the number of
+                    them to me, that I may know it.’<hi rend="endnote_reference"><note place="end"
+                                ><p rend="endnote text">Ver. 2.</p></note></hi></p>
+                <pb n="03:567"/>
+                <p n="2">2. It does not clearly appear wherein the sin of thus numbering the people
+                    consisted. There is no express prohibition of it in any of the Scriptures which
+                    were then extant. Yet we read, ‘The king’s word was abominable to Joab,’<hi
+                        rend="endnote_reference"><note place="end"><p rend="endnote text">Ver.
+                                6.</p></note></hi> who was not a man of the tenderest conscience, so
+                    that he expostulated with David before he obeyed. ‘Joab answered, Why doth my
+                    lord require this thing? Why will he be a cause of trespass’—of punishment or
+                    calamity—‘to Israel?’<note place="foot" xml:id="ftn10" n="10"><p
+                            rend="footnote text">1 Chr. 21:3.</p></note> God frequently punishes a
+                    people for the sins of their rulers, because they are generally partakers of
+                    their sins in one kind or other. And the righteous Judge takes this occasion of
+                    punishing them for all their sins. In this Joab was right; for after they were
+                    numbered it is said, ‘And God was displeased with this thing.’<note place="foot"
+                        xml:id="ftn11" n="11"><p rend="footnote text">1 Chr. 21:7.</p></note> Yea,
+                    ‘David’s heart smote him, and he said unto the Lord, I have sinned greatly in
+                    that I have done: and now, I beseech thee, O Lord, take away the iniquity of thy
+                        servant.’<hi rend="endnote_reference"><note place="end"><p
+                                rend="endnote text">2 Sam. 24:10.</p></note></hi> Did not the sin
+                    lie in the motive on which the thing was done? Did he not do it in the pride of
+                    his heart?<note place="foot" xml:id="ftn12" n="12"><p rend="footnote text">See
+                            No. 14, <hi rend="italic">The Repentance of Believers</hi>, I.3 and
+                            n.</p></note> Probably out of a principle of vanity and ostentation,
+                    glorying not in God, but in the number of his people.</p>
+                <p n="3">3. In the sequel we find that even Joab was for once a true prophet: David
+                    was ‘a cause of trespass’, of punishment, ‘to Israel’. His sin, added to all the
+                    sins of the people, filled up the measure of their iniquities. So ‘the Lord sent
+                    a pestilence upon Israel, from the morning’—wherein Gad the prophet gave David
+                    his choice of war, famine, or pestilence<note place="foot" xml:id="ftn13" n="13"
+                            ><p rend="footnote text">See 2 Sam. 24:13.</p></note>—‘unto the evening
+                    of the third day.’ ‘And there died of the people from Dan unto Beersheba seventy
+                    thousand men.’<hi rend="endnote_reference"><note place="end"><p
+                                rend="endnote text">Ver. 15.</p></note></hi> ‘And when David saw the
+                    angel that smote the people’, who appeared in the form of a man with a drawn
+                    sword in his hand,<note place="foot" xml:id="ftn14" n="14"><p
+                            rend="footnote text">See Josh. 5:13; this particular detail is not in
+                            the 2 Sam. story.</p></note> to convince him the more fully that this
+                    plague was immediately from God, ‘he said, Lo, I have sinned, I have done
+                    wickedly: but these sheep, what have they done?’</p>
+                <p n="4">4. Is there not in several respects a remarkable resemblance between the
+                    case of Israel and our own? General wickedness then <pb n="03:568"/>occasioned a
+                    general visitation; and does not the same cause now produce the same effect? We
+                    likewise have sinned, and we are punished; and perhaps these are only the
+                    beginning of sorrows.<note place="foot" xml:id="ftn15" n="15"><p
+                            rend="footnote text">See Matt. 24:8.</p></note> Perhaps ‘the angel’ is
+                    now ‘stretching out his hand over’ England to destroy it. O that the Lord would
+                    at length say to him that destroyeth, ‘It is enough; stay now thine hand!’<note
+                        place="foot" xml:id="ftn16" n="16"><p rend="footnote text">Cf. 2 Sam.
+                            24:16.</p></note></p>
+                <p n="5">5. That vice is the parent of misery, few deny; it is confirmed by the
+                    general suffrage of all ages. But we seldom bring this home to ourselves: when
+                    we speak of sin as the cause of misery we usually mean the sin of other people,
+                    and suppose <hi rend="italic">we</hi> suffer because <hi rend="italic">they
+                    </hi>sin. But need we go so far? Are not our own vices sufficient to account for
+                    all our sufferings? Let us fairly and impartially consider this: let us examine
+                    our own hearts and lives. We all suffer: and we have <hi rend="italic">all</hi>
+                    sinned. But will it not be most profitable for us to consider every one his own
+                    sins as bringing sufferings both on himself and others? To say, ‘Lo, I have
+                    sinned, I have done wickedly: but these sheep, what have they done?’</p>
+            </div>
+            <div type="section" n="1">
+                <p n="1">I. 1. Let us inquire, first, what they suffer. And afterwards, what is the
+                    cause of these sufferings. That the people suffer none can deny, that they are
+                    afflicted in a more than ordinary manner. Thousands and tens of thousands are at
+                    this day deeply afflicted through want of business. It is true that this want is
+                    in some measure removed in some large and opulent towns. But it is also true
+                    that this is far, very far, from being the general case of the kingdom. Nothing
+                    is more sure than that thousands of people in the west of England—throughout
+                    Cornwall in particular—in the north, and even in the midland counties, are
+                    totally unemployed. Hence those who formerly wanted nothing are now in want of
+                    all things. They are so far from the plenty they once enjoyed that they are in
+                    the most deplorable distress, deprived not only of the conveniences, but most of
+                    the necessaries of life. I have seen not a few of these wretched creatures,
+                    within little more than an hundred miles of London, standing in the streets with
+                    pale looks, hollow eyes, and meagre limbs; or creeping up and down like walking
+                    shadows. I have known families who a few years ago lived in an easy, genteel
+                    manner, reduced to just as much raiment as they had on, and as much food as they
+                    could gather in the field. <pb n="03:569"/>To this one or other of them repaired
+                    once a day, to pick up the turnips which the cattle had left; which they boiled,
+                    if they could get a few sticks, or otherwise ate them raw. Such is the want of
+                    food to which many of our countrymen are at this day reduced by want of
+                        business.<note place="foot" xml:id="ftn17" n="17"><p rend="footnote text"
+                            >Wesley knew as much of rural England at first hand as any other man of
+                            his time, and his observations of the adverse economic (and human)
+                            effects of the Industrial Revolution are scattered through his <hi
+                                rend="italic">Journal</hi> and <hi rend="italic">Letters</hi> during
+                            the 1770s; cf., e.g., JWJ, Oct. 27, 1772; Dec. 21, 1772; Jan. 7, 1773;
+                            and his letters to Mrs. Barton, Jan. 21, 1773; and to Lord North, June
+                            14, 1775; see also <hi rend="italic">Thoughts on the Present Scarcity of
+                                Provisions</hi>, Jun. 20, 1773 (<hi rend="italic">Bibliog</hi>, No.
+                            344, Vol. 15 of this edn.). Something of the same picture appears in
+                            William Cobbett, <hi rend="italic">Rural Rides</hi> (1830); William
+                            Marshall, <hi rend="italic">A General Survey…of the Rural Economy of
+                                England</hi> (1787-98); F. M. Eden, <hi rend="italic">The State of
+                                the Poor</hi> (1797), which forms the background for T. R. Malthus’s
+                            gloomy <hi rend="italic">Essay on the Principle of Population</hi>
+                            (1798). Cf. Samuel Johnson’s comments that support Wesley’s observations
+                            reported in Boswell’s <hi rend="italic">Life of Johnson</hi> (Oct. 20,
+                            1769; Apr. 6, 1772; and Mar. 30, 1778). See also George Rudé, <hi
+                                rend="italic">Hanoverian London, 1714-1808</hi>, pp. 191
+                        ff.</p></note></p>
+                <p n="2">2. Grievous enough is this calamity, which multitudes every day suffer. But
+                    I do not know whether many more do not labour under a still more grievous
+                    calamity. It is a great affliction to be deprived of bread; but it is a still
+                    greater to be deprived of our senses. And this is the case with thousands upon
+                    thousands of our countrymen at this day. Widespread poverty (though not in so
+                    high a degree) I have seen several years ago. But so widespread a lunacy I never
+                    saw, nor I believe the oldest man alive. Thousands of plain, honest people
+                    throughout the land are driven utterly out of their senses by means of the
+                    poison which is so diligently spread through every city and town in the kingdom.
+                    They are screaming out for liberty while they have it in their hands,<note
+                        place="foot" xml:id="ftn18" n="18"><p rend="footnote text">An echo of
+                            Wesley’s favourable comments on the character and government of George
+                            III; in addition to the citations already given, see <hi rend="italic">A
+                                Word to a Freeholder </hi>(<hi rend="italic">Bibliog</hi>, No. 139,
+                            Vol. 14 of this edn.); and ‘How Far is it the Duty of a Christian
+                            Minister to Preach Politics?’ in <hi rend="italic">AM</hi> (1782),
+                            V.151-52.</p></note> while they actually possess it; and to so great an
+                    extent that the like is not known in any other nation under heaven; whether we
+                    mean civil liberty, a liberty of enjoying all our legal property, or religious
+                    liberty, a liberty of worshipping God according to the dictates of our own
+                    conscience. Therefore all those who are either passionately or dolefully crying
+                    out, ‘Bondage! Slavery!’ while there is no more danger of any such thing than
+                    there is of the sky falling upon their head, are utterly distracted; their
+                    reason is gone; their intellects are quite confounded. Indeed many of these have
+                    lately recovered their senses; yet are there multitudes <pb n="03:570"/>still
+                    remaining who are in this respect as perfectly mad as any of the inhabitants of
+                        Bedlam.<note place="foot" xml:id="ftn19" n="19"><p rend="footnote text">The
+                            Hospital of St. Mary of Bethlehem (London), used since the sixteenth
+                            century as an asylum for the mentally deranged; hence by extension ‘a
+                            lunatic asylum’. The original Bedlam was situated near London Wall, not
+                            far from Wesley’s headquarters in Upper Moorfields.</p></note></p>
+                <p n="3">3. Let not anyone think this is but a small calamity which is fallen upon
+                    our land. If you saw, as I have seen, in every county, city, town, men who were
+                    once of a calm, mild, friendly temper, mad with party zeal,<note place="foot"
+                        xml:id="ftn20" n="20"><p rend="footnote text">Cf. James Thomson, <hi
+                                rend="italic">The Seasons</hi>, ‘Spring’, l. 929: ‘And honest zeal,
+                            unwarped by party-rage’.</p></note> foaming with rage against their
+                    quiet neighbours, ready to tear out one another’s throats, and to plunge their
+                    swords into each other’s bowels; if you had heard men who once feared God and
+                    honoured the king<note place="foot" xml:id="ftn21" n="21"><p
+                            rend="footnote text">See 1 Pet. 2:17.</p></note> now breathing out the
+                    bitterest invectives against him, and just ripe, should any occasion offer, for
+                    treason and rebellion; you would not then judge this to be a little evil, a
+                    matter of small moment, but one of the heaviest judgments which God can permit
+                    to fall upon a guilty land.</p>
+                <p n="4">4. Such is the condition of Englishmen at home. And is it any better
+                    abroad? I fear not. From those who are now upon the spot I learn that in our
+                        colonies,<note place="foot" xml:id="ftn22" n="22"><p rend="footnote text">In
+                            the early stages of resistance to British rule in America Wesley had
+                            commented favourably on American demands for civil liberties; see his
+                            letter to the Earl of Dartmouth, June 14, 1775: ‘I cannot avoid thinking
+                            (if I think at all) that an oppressed people asked for nothing more than
+                            their legal rights, and that in the most modest and inoffensive manner
+                            which the nature of the thing would allow;’ see also his letter to Lord
+                            North, June 15, 1775. But when the colonists raised the cry of
+                            independence, Wesley turned against them.</p></note> also, many are
+                    causing the people to drink largely of the same deadly wine; thousands of whom
+                    are thereby inflamed more and more, till their heads are utterly turned, and
+                    they are mad to all intents and purposes. Reason is lost in rage; its small
+                    still voice is drowned by popular clamour. Wisdom is fallen in the streets.<note
+                        place="foot" xml:id="ftn23" n="23"><p rend="footnote text">See Isa.
+                            59:14.</p></note> And where is the place of understanding?<note
+                        place="foot" xml:id="ftn24" n="24"><p rend="footnote text">Job 28:12,
+                            20.</p></note> It is hardly to be found in these provinces. Here is <hi
+                        rend="italic">slavery</hi>, real slavery indeed, most properly so called.
+                    For the regular, legal, constitutional form of government is no more. Here is
+                    real, not imaginary, bondage; not the shadow of English liberty is left. Not
+                    only no <hi rend="italic">liberty of the press</hi> is allowed—none dare print a
+                    page or a line unless it be exactly conformable to the sentiments of our lords,
+                    the people—but no <hi rend="italic">liberty of speech</hi>. Their ‘tongue’ is
+                    not ‘their own’.<note place="foot" xml:id="ftn25" n="25"><p rend="footnote text"
+                            >Cf. Acts 2:8.</p></note> None must dare to utter one word <pb
+                        n="03:571"/>either in favour of King George, or in disfavour of the idol
+                    they have set up—the new, illegal, unconstitutional government, utterly unknown
+                    to us and to our forefathers. Here is no <hi rend="italic">religious
+                        liberty</hi>; no liberty of conscience for them that ‘honour the King’, and
+                    whom consequently a sense of duty prompts them to defend from the vile calumnies
+                    continually vented against him. Here is no <hi rend="italic">civil liberty</hi>;
+                    no enjoying the fruit of their labour any further than the populace pleases. A
+                    man has no security for his trade, his house, his property, unless he will swim
+                    with the stream. Nay, he has no security for his life if his popular neighbour
+                    has a mind to cut his throat. For there is no law, and no legal magistrate to
+                    take cognizance of offences. There is the gulf of tyranny—of arbitrary power on
+                    one hand, and of anarchy on the other.<note place="foot" xml:id="ftn26" n="26"
+                            ><p rend="footnote text">An echo of Horace Walpole’s dictum that ‘the
+                            name of the opposition is <hi rend="italic">anarchy</hi>’, cited in
+                            Robertson, <hi rend="italic">England Under the Hanoverians</hi>, p.
+                            265.</p></note> And, as if all this were not misery enough, see likewise
+                    the fell monster, war!<note place="foot" xml:id="ftn27" n="27"><p
+                            rend="footnote text">See No. 128, ‘The Deceitfulness of the Human
+                            Heart’, II.4, where Wesley, quoting from Nicholas Rowe’s <hi
+                                rend="italic">Tamerlane</hi>, Act I, sc. 1, ll. 96-100, speaks of
+                            ‘that foul monster, war’. For his other comments on war, see No. 22,
+                            ‘Sermon on the Mount, II’, III.18 and n.</p></note> But who can describe
+                    the complicated misery which is contained in this? Hark! The cannons roar! A
+                    pitchy cloud covers the face of the sky. Noise, confusion, terror, reign over
+                    all! Dying groans are on every side. The bodies of men are pierced, torn, hewed
+                    in pieces; their blood is poured on the earth like water! Their souls take their
+                    flight into the eternal world; perhaps into everlasting misery. The ministers of
+                    grace turn away from the horrid scene; the ministers of vengeance triumph. Such
+                    already has been the face of things in that once happy land where peace and
+                    plenty, even while banished from great part of Europe, smiled for near an
+                    hundred years.</p>
+                <p n="5">5. And what is it which drags on these poor victims into the field of
+                    blood? It is a great phantom which stalks before them, which they are taught to
+                    call, ‘liberty’! It is this which breathes</p>
+                <lg>
+                    <l>…into their hearts stern love of war,</l>
+                    <l>And thirst of vengeance, and contempt of death.</l>
+                    <note place="foot" xml:id="ftn28" n="28">
+                        <p rend="footnote text">Cf. Samuel Wesley, Jun., ‘The Battle of the Sexes’,
+                            vi.6-8 (<hi rend="italic">Poems</hi>, 1736, p. 24):</p>
+                        <lg>
+                            <l>Male banners wave, while sounding trumpets’ breath</l>
+                            <l>Kindles in martial breasts stern love of war,</l>
+                            <l>Delib’rate valour, and contempt of death.</l>
+                            <p rend="footnote text">See also John Wesley, <hi rend="italic">A
+                                    Collection of Moral and Sacred Poems</hi> (1744), III.21.</p>
+                        </lg>
+                    </note>
+                </lg>
+                <pb n="03:572"/>
+                <p>Real liberty, meantime, is trampled underfoot, and is lost in anarchy and
+                    confusion.</p>
+                <p n="6">6. But which of these warriors all the while considered the wife of his
+                    youth, that is now left a disconsolate widow—perhaps with none that careth for
+                    her; perhaps deprived of her only comfort and support, and not having where to
+                    lay her head? Who considered his helpless children, now desolate orphans; it may
+                    be, crying for bread, while their mother has nothing left to give them but her
+                    sorrows and her tears?</p>
+            </div>
+            <div>
+                <p n="">II. 1. And yet ‘these sheep, what have they done’, although all this is come
+                    upon them? ‘Suppose ye that’ they are ‘sinners above other men, because they
+                    suffer such things? I tell you, Nay; but except ye repent, ye shall all likewise
+                        perish.’<note place="foot" xml:id="ftn29" n="29"><p rend="footnote text">Cf.
+                            Luke 13:2-3.</p></note> It therefore behoves us to consider our own
+                    sins—the cause of all our sufferings. It behoves each of us to say, ‘Lo, I have
+                    sinned; I have done wickedly.’<note place="foot" xml:id="ftn30" n="30"><p
+                            rend="footnote text">2 Sam. 24:17.</p></note></p>
+                <p n="">2. The time would fail should I attempt to enumerate all the ways wherein we
+                    have sinned; but in general, this is certain:</p>
+                <lg>
+                    <l>The rich, the poor, the high, the low,</l>
+                    <l>Have wandered from his mild command;</l>
+                    <l>The floods of wickedness o’erflow,</l>
+                    <l>And deluge all the guilty land:</l>
+                    <l>People and priest lie drowned in sin,</l>
+                    <l>And Tophet yawns to take them in.</l>
+                    <note place="foot" xml:id="ftn31" n="31">
+                        <p rend="footnote text">See John and Charles Wesley, <hi rend="italic">Hymns
+                                for Times of Persecution</hi> (London, 1744), n. 4 (<hi
+                                rend="italic">Poet. Wks.</hi>, IV.4).</p>
+                    </note>
+                </lg>
+                <p>How innumerable are the violations of justice among us! Who does not adopt the
+                    old maxim,</p>
+                <quote>
+                    <hi rend="italic">Si possis, recte; si non, quocunque modo rem:</hi>
+                    <note place="foot" xml:id="ftn32" n="32">
+                        <p rend="footnote text">Horace, <hi rend="italic">Epistles</hi>, I.i.65-66;
+                            cf. No. 95, ‘On the Education of Children’, §19 and n.</p>
+                    </note>
+                    <quote>If you can get money honestly, do; but, however, get money.</quote>
+                </quote>
+                <p>Where is mercy to be found, if it would stand in opposition to interest? How few
+                    will scruple, for a valuable consideration, to oppress the widow or
+                        fatherless?<note place="foot" xml:id="ftn33" n="33"><p rend="footnote text"
+                            >See Zech. 7:10.</p></note> And where shall we find truth? Deceit and
+                    fraud go not out of our streets. Who is it that speaks <pb n="03:573"/>the truth
+                    from his heart? Whose words are the picture of his thoughts? Where is he that
+                    has ‘put away all lying’,<note place="foot" xml:id="ftn34" n="34"><p
+                            rend="footnote text">Cf. Eph. 4:25.</p></note> that never speaks what he
+                    does not mean? Who is ashamed of this? Indeed it was once said, and even by a
+                    statesman, ‘All other vices have had their patrons; but lying is so base, so
+                    abominable a vice, that never was anyone found yet who dared openly to plead for
+                        it.’<note place="foot" xml:id="ftn35" n="35"><p rend="footnote text">Cf. No.
+                            100, ‘On Pleasing All Men’, I.4, where Wesley identifies
+                        Addison.</p></note> Would one imagine this writer lived in a court? Yea, and
+                    that in the present century? Did not he himself, then, as well as all his
+                    brother statesmen, plead for a trade of deliberate lying? Did he not plead for
+                    the innocence, yea, and the necessity, of employing <hi rend="italic"
+                    >spies</hi>? The vilest race of liars under the sun? Yet who ever scrupled using
+                    them, but Lord Clarendon?<note place="foot" xml:id="ftn36" n="36"><p
+                            rend="footnote text">Edward Hyde, first Earl of Clarendon (1604-74),
+                            whose <hi rend="italic">History of the Rebellion </hi>(1702-4) Wesley
+                            had read in 1726 and had often recommended (cf. his letter to Samuel
+                            Furly, Mar. 7, 1758; and JWJ, Oct 18, 1774). On this point of spies and
+                            spying (and an explanation of how spies had come to be called ‘lions’),
+                            cf. Addison’s essay in <hi rend="italic">The Guardian</hi>, No. 17, June
+                            2, 1713; see also his remarks about the Earl of Clarendon in <hi
+                                rend="italic">The Spectator</hi>, No. 439, July 24, 1712. Actually,
+                            of course, Clarendon’s scruples were not strong enough to prevent his
+                            making use of them; see T. H. Lister, <hi rend="italic">Life and
+                                Administration of Edward, first Earl of Clarendon</hi> (1838), Vol.
+                            2.</p></note></p>
+                <p n="3">3. O truth, whither art thou fled? How few have any acquaintance with thee?
+                    Do not we continually tell lies for the nonce, without gaining thereby either
+                    profit or pleasure? Is not even our common language replete with falsehood?
+                    Above an hundred years ago the poet complained,</p>
+                <lg>
+                    <l>It never was good day</l>
+                    <l>Since lowly fawning was called compliment.</l>
+                    <note place="foot" xml:id="ftn37" n="37">
+                        <p rend="footnote text">Cf. Shakespeare, <hi rend="italic">Twelfth
+                                Night</hi>, III.i.109-10:</p>
+                        <l>’Twas never merry world</l>
+                        <l>Since lowly <hi rend="italic">feigning</hi> was called compliment.</l>
+                        <p rend="footnote text">In this context ‘fawning’ is clearly the wrong word;
+                            it may have been a printer’s misreading; but see No. 90, ‘An Israelite
+                            Indeed’, II.8 and n.</p>
+                    </note>
+                </lg>
+                <p>What would he have said had he lived a century later, when that art was brought
+                    to perfection?</p>
+                <p n="4">4. Perhaps there is one palpable evidence of this which is not usually
+                    attended to. If you blame a man in many other respects, he is not much
+                    affronted. But if you say he is a liar, he will not bear it; he takes fire at
+                    once. Why is this? Because a man can bear to be blamed when he is conscious of
+                    his own innocence. But if you say <pb n="03:574"/>he is a liar you touch a sore
+                    spot; he is guilty, and therefore cannot bear it.</p>
+                <p n="5">5. Is there a character more despicable than even that of a liar? Perhaps
+                    there is; even that of an epicure. And are we not a generation of epicures? Is
+                    not our ‘belly’ our ‘god’?<note place="foot" xml:id="ftn38" n="38"><p
+                            rend="footnote text">Cf. Phil. 3:19.</p></note> Are not eating and
+                    drinking our chief delight, our highest happiness? Is it not the main study (I
+                    fear, the only study) of many honourable men to enlarge the pleasure of
+                        tasting?<note place="foot" xml:id="ftn39" n="39"><p rend="footnote text">See
+                            No. 50, ‘The Use of Money’, II.2 and n.</p></note> When was luxury (not
+                    in food only, but in dress, furniture, equipage) carried to such an height in
+                    Great Britain, ever since it was a nation? We have lately extended the British
+                    empire almost over the globe. We have carried our laurels into Africa, into
+                    Asia, into the burning and the frozen climes of America. And what have we
+                    brought thence? All the elegance of vice which either the eastern or western
+                    world could afford.</p>
+                <p n="6">6. Luxury is constantly the parent of sloth.<note place="foot"
+                        xml:id="ftn40" n="40"><p rend="footnote text">Cf. Plato, <hi rend="italic"
+                                >Republic</hi>, IV.422: ‘Wealth is the parent of luxury and sloth….’
+                            But see also the proverb in Nicholas Ling, <hi rend="italic"
+                                >Politeuphuia, Wits Common-wealth</hi> (1699): ‘Sloth is the mother
+                            of poverty.’ In No. 89, ‘The More Excellent Way’, III.1, Wesley had said
+                            that sloth is inconsistent with religion; see also No. 113, <hi
+                                rend="italic">The Late Work of God in North America</hi>,
+                        I.14.</p></note> Every glutton will in due time be a drone. The more of meat
+                    and drink he devours, the less taste will he have for labour. This degeneracy of
+                    the Britons from their temperate, active forefathers, was taken notice of in the
+                    last century. But if Mr. Herbert then said,</p>
+                <quote>O England, full of sin, but most of sloth,<note place="foot" xml:id="ftn41"
+                        n="41"><p rend="footnote text">George Herbert, <hi rend="italic">The
+                                Temple</hi>, ‘The Church Porch’, ver. 16, l. 1.</p></note></quote>
+                <p>what would he have said now? Observe the difference between the last and the
+                    present century, only in a single instance. In the last, the Parliament used to
+                    meet <hi rend="italic">hora quinta ante meridiem!</hi><note place="foot"
+                        xml:id="ftn42" n="42"><p rend="footnote text">π;There is another reference
+                            to this alleged custom in Wesley’s <hi rend="italic">Estimate of the
+                                Manners of the Present Times</hi>, §1: ‘With regard to sloth, it was
+                            the constant custom of our ancestors to rise at four in the morning.
+                            This was the stated hour, summer and winter, for all that were in
+                            health. The two Houses of Parliament met “at five”; <hi rend="italic"
+                                >hora quinta antemeridiana</hi>, says their Journal.’ A proper
+                            citation for this is lacking.</p></note>—at five in the morning. Could
+                    these Britons look out of their graves, what would they think of the present
+                    generation?</p>
+                <p n="7">7. Permit me to touch on one article more wherein indeed we excel all the
+                    nations upon earth. Not one nation under the canopy of heaven can vie with the
+                    English in profaneness. Such a total <pb n="03:575"/>neglect, such an utter
+                    contempt of God, is nowhere else to be found. In no other streets, except in
+                    Ireland, can you hear on every side,</p>
+                <lg>
+                    <l>…the horrid oath, the direful curse,</l>
+                    <l>That latest weapon of the wretch’s war,</l>
+                    <l>And blasphemy, sad comrade of despair!</l>
+                    <note place="foot" xml:id="ftn43" n="43">
+                        <p rend="footnote text">Cf. Prior, ‘Henry and Emma’, ll. 464-66, beginning,
+                            ‘Must hear the frequent oath, the direful curse.’ See also, <hi
+                                rend="italic">A Serious Address to the People of England</hi>, §9
+                                (<hi rend="italic">Bibliog</hi>, No. 386, Vol. 15 of this edn.).</p>
+                    </note>
+                </lg>
+                <p n="8">8. Now let each of us lay his hand upon his heart and say, ‘Lord, is it
+                        I?<note place="foot" xml:id="ftn44" n="44"><p rend="footnote text">Matt.
+                            26:22.</p></note> Have I added to this flood of unrighteousness and
+                    ungodliness, and thereby to the misery of my countrymen? Am not I guilty in any
+                    of the preceding respects? And do not <hi rend="italic">they </hi>suffer because
+                    I have sinned?’ If we have any tenderness of heart, any bowels of mercies,<note
+                        place="foot" xml:id="ftn45" n="45"><p rend="footnote text">Col.
+                        3:12.</p></note> any sympathy with the afflicted, let us pursue this thought
+                    till we are deeply sensible of <hi rend="italic">our</hi> sins as one great
+                    cause of <hi rend="italic">their</hi> sufferings.</p>
+                <p n="">9. But now the plague is begun, and has already made such ravages both in
+                    England and America, what can <hi rend="italic">we</hi> do in order that it may
+                    be stayed? How shall we stand between the living and the dead? Is there any
+                    better way to turn aside the anger of God than that prescribed by St. James,
+                    ‘Purge your hands, ye sinners, and purify your hearts, ye double-minded’?<note
+                        place="foot" xml:id="ftn46" n="46"><p rend="footnote text">Cf. Jas.
+                        4:8.</p></note> First, ‘Purge your hands’. Immediately put away the evil of
+                    your doings. Instantly flee from sin, from every evil word and work, as from the
+                    face of a serpent.<note place="foot" xml:id="ftn47" n="47"><p
+                            rend="footnote text">Rev. 12:14.</p></note> ‘Let no corrupt
+                    communication proceed out of your mouth,’<note place="foot" xml:id="ftn48"
+                        n="48"><p rend="footnote text">Eph. 4:29.</p></note> no uncharitable, no
+                    unprofitable conversation. Let no guile be found in your mouth:<note
+                        place="foot" xml:id="ftn49" n="49"><p rend="footnote text">See 1 Pet.
+                            2:22.</p></note> speak to every man the truth from your heart. Renounce
+                    every way of acting, however gainful, which is contrary either to justice or
+                    mercy. Do to everyone as, in parallel circumstances, you would wish he should do
+                    unto you.<note place="foot" xml:id="ftn50" n="50"><p rend="footnote text">See
+                            Matt. 7:12.</p></note> Be sober, temperate, active; and in every word
+                    and work labour to have a conscience void of offence toward God and toward
+                        man.<note place="foot" xml:id="ftn51" n="51"><p rend="footnote text">See
+                            Acts 24:16.</p></note> Next, through the almighty grace of him that
+                    loved you and gave himself for you,<note place="foot" xml:id="ftn52" n="52"><p
+                            rend="footnote text">See Gal. 2:20.</p></note> ‘purify your hearts by
+                        faith.’<note place="foot" xml:id="ftn53" n="53"><p rend="footnote text">Cf.
+                            Acts 15:9.</p></note> Be no longer <pb n="03:576"/>double-minded,
+                    halting between earth and heaven, striving to serve God and mammon.<note
+                        place="foot" xml:id="ftn54" n="54"><p rend="footnote text">See Matt.
+                            6:24.</p></note> Purify your hearts from pride, humbling yourselves
+                    under the mighty hand of God;<note place="foot" xml:id="ftn55" n="55"><p
+                            rend="footnote text">See 1 Pet. 5:6.</p></note> from all party zeal,
+                    anger, resentment, bitterness, which now especially will easily beset you; from
+                    all prejudice, bigotry, narrowness of spirit; from impetuosity, and impatience
+                    of contradiction; from love of dispute, and from every degree of an unmerciful
+                    or implacable temper. Instead of this ‘earthly, devilish wisdom’ let ‘the wisdom
+                    from above’ sink deep into your hearts; that ‘wisdom’ which ‘is first pure’,
+                    then ‘peaceable, easy to be entreated’, convinced, persuaded, or appeased, ‘full
+                    of mercy and good fruits; without partiality’, embracing all men; ‘without
+                        hypocrisy’,<note place="foot" xml:id="ftn56" n="56"><p rend="footnote text"
+                            >Jas. 3:15, 17.</p></note> genuine and unfeigned. Now, if ever, ‘putting
+                    away with all malice, all clamour’—railing—‘and evil-speaking; be ye kind one to
+                    another’, to all your brethren and countrymen; ‘tenderhearted’ to all that are
+                    in distress, ‘forgiving one another, even as God for Christ’s sake hath forgiven
+                        you.’<note place="foot" xml:id="ftn57" n="57"><p rend="footnote text">Cf.
+                            Eph. 4:31-32.</p></note></p>
+                <p n="">10. And now ‘let my counsel be acceptable to you’, to every one of you
+                    present before God. ‘Break off thy sins by repentance, and thy iniquities by
+                    showing mercy to the poor, if it may be a lengthening of thy tranquility’<note
+                        place="foot" xml:id="ftn58" n="58"><p rend="footnote text">Cf. Dan.
+                            4:27.</p></note>—of what degree of it still remains among us. Show mercy
+                    more especially to the poor widows, to the helpless orphans of your countrymen
+                    who are now numbered among the dead, who fell among the slain in a distant land.
+                    Who knoweth but the Lord will yet be entreated, will calm the madness of the
+                    people, will quench the flames of contention, and breathe into all the spirit of
+                    love, unity, and concord. Then brother shall not lift up sword against brother,
+                    neither shall they know war any more.<note place="foot" xml:id="ftn59" n="59"><p
+                            rend="footnote text">See Isa. 2:4; Mic. 4:3.</p></note> Then shall
+                    plenty and peace flourish in our land, and all the inhabitants of it be thankful
+                    for the innumerable blessings which they enjoy, and shall ‘fear God, and honour
+                    the king’.<note place="foot" xml:id="ftn60" n="60"><p rend="footnote text">Cf. 1
+                            Pet. 2:17.</p></note></p>
+            </div>
+            <p><placeName>London</placeName>, <date when="11-07-1775">Nov. 7, 1775</date></p>
+        </body>
+    </text>
+</TEI>

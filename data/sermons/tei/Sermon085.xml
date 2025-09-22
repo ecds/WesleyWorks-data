@@ -1,0 +1,546 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Sermon 85: On Working Out Our Own Salvation</title>
+                <author>Wesley, John</author>
+                <editor role="text">Van Buskirk, Gregory P.</editor>
+                <editor role="digital">Taylor, Michelle M.</editor>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>The Wesley Works Digitzation Project</publisher>
+                <pubPlace>Tampa, FL</pubPlace>
+                <date>2024-02-25</date>
+            </publicationStmt>
+            <sourceDesc>
+                <listBibl>
+                    <biblStruct>
+                        <analytic>
+                            <title level="a">Sermon 85: On Working Out Our Own Salvation</title>
+                        </analytic>
+                        <monogr>
+                            <title level="j">The Works of John Wesley, Volume III: Sermons III,
+                                71-114</title>
+                            <editor role="volume">Outler, Albert</editor>
+                            <imprint>
+                                <publisher>Abingdon Press</publisher>
+                                <pubPlace>Nashville, TN</pubPlace>
+                                <date when="1986-11-01">1986-11-01</date>
+                                <biblScope unit="volume" n="3"/>
+                                <biblScope unit="page" from="199" to="209"/>
+                            </imprint>
+                        </monogr>
+                        <series>
+                            <title level="s">The Works of John Wesley</title>
+                            <editor role="general">Baker, Frank</editor>
+                        </series>
+                    </biblStruct>
+                </listBibl>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Greg Van Buskirk created Word docs for all of Wesley's sermons using a combination of
+                OCR software and manual proofing. Michelle Taylor converted these docx into XML
+                using Oxygen's DITA automatic transformation scenario, then touched them up
+                manually.</p>
+        </encodingDesc>
+        <standOff>
+            <taxonomy>
+                <keywords>
+                    <term/>
+                </keywords>
+            </taxonomy>
+            <!--Include keywords and terms here eventually.-->
+        </standOff>
+        <revisionDesc/>
+    </teiHeader>
+    <text>
+        <body>
+            <pb n="03:199"/>
+            <head>
+                <hi rend="italic">An Introductory Comment</hi>
+            </head>
+            <introduction>
+                <p>This must be considered as a landmark sermon, for it stands as the late Wesley’s
+                    most complete and careful exposition of the mystery of divine-human interaction,
+                    his subtlest probing of the paradox of prevenient grace and human agency. If
+                    there were ever a question as to Wesley’s alleged Pelagianism, this sermon alone
+                    should suffice to dispose of it decisively.</p>
+                <p>There is no indication of its date or provenance; but Wesley’s recorded use of
+                    Phil. 2:12-13 as a preaching text shows an interesting configuration. He used it
+                    four times at Oxford (twice in 1732 and twice in 1734) and only once thereafter;
+                    at Norwich (February 13, 1781). The written version appeared in the <hi
+                        rend="italic">Arminian Magazine</hi> (September and October 1785),
+                    VIII.450-54, 506-11, with no title but numbered as ‘Sermon XXIX’. It later
+                    appeared in <hi rend="italic">SOSO</hi>, VII.93-109, between <hi rend="italic"
+                        >The Important Question</hi> and <hi rend="italic">A Call to
+                        Backsliders</hi>; the question as to the progression here must be left open.
+                    Nor was it reprinted in Wesley’s lifetime. And yet, in any dozen of his sermons
+                    most crucial for an accurate assay of Wesley’s theology, this one would
+                    certainly deserve inclusion.</p>
+            </introduction>
+            <head>On Working Out Our Own Salvation</head>
+            <epigraph>
+                <p>Philippians 2:12-13</p>
+                <p>
+                    <hi rend="italic">Work out your own salvation with fear and trembling; for it is
+                        God that worketh in you, both to will and to do of his good pleasure.</hi>
+                </p>
+            </epigraph>
+            <div type="introduction">
+                <p n="1">1. Some great truths, as the being and attributes of God, and the
+                    difference between moral good and evil, were known in some measure to the
+                    heathen world; the traces of them are to be found in all nations; so that in
+                    some sense it may be said to every child of man: ‘He hath showed thee, O man,
+                    what is good; even to do <pb n="03:200"/>justly, to love mercy, and to walk
+                    humbly with thy God.’<note place="foot" xml:id="ftn1" n="1"><p
+                            rend="footnote text">Note the correlation here between Mic. 6:8 and a
+                            definition of ‘natural religion’.</p></note> With this truth he has in
+                    some measure ‘enlightened everyone that cometh into the world’.<note
+                        place="foot" xml:id="ftn2" n="2"><p rend="footnote text">Cf. John
+                        1:9.</p></note> And hereby they that ‘have not the law’, that have no
+                    written law, ‘are a law unto themselves’.<note place="foot" xml:id="ftn3" n="3"
+                            ><p rend="footnote text">Rom. 2:14.</p></note> They show ‘the work of
+                    the law’, the substance of it, though not the letter, ‘written in their hearts’,
+                    by the same hand which wrote the commandments on the tables of stone; ‘their
+                    conscience also bearing them witness’,<note place="foot" xml:id="ftn4" n="4"><p
+                            rend="footnote text">Cf. Rom. 2:15.</p></note> whether they act suitably
+                    thereto or not.</p>
+                <p n="2">2. But there are two grand heads of doctrine, which contain many truths of
+                    the most important nature, of which the most enlightened heathens in the ancient
+                    world were totally ignorant; as are also the most intelligent heathens that are
+                    now on the face of the earth: I mean those which relate to the eternal Son of
+                    God, and the Spirit of God—to the Son, giving himself to be ‘a propitiation for
+                    the sins of the world’,<note place="foot" xml:id="ftn5" n="5"><p
+                            rend="footnote text">Cf. 1 John 2:2.</p></note> and to the Spirit of
+                    God, renewing men in that image of God wherein they were created.<note
+                        place="foot" xml:id="ftn6" n="6"><p rend="footnote text">See Col. 3:10; cf.
+                            No. 44, <hi rend="italic">Original Sin</hi>, III.5 and n.</p></note> For
+                    after all the pains which ingenious and learned men have taken (that great man
+                    the Chevalier Ramsay<note place="foot" xml:id="ftn7" n="7"><p
+                            rend="footnote text">Andrew Michael Ramsay (1686-1743), a Scottish
+                            philosopher who, under the influence of Poiret and Fénelon, converted to
+                            Roman Catholicism and was made a Knight of the Order of St. Lazarus
+                            (thus ‘Le Chevalier’). Wesley’s annotated copy of Ramsay’s <hi
+                                rend="italic">Philosophical Principles of Natural and Revealed
+                                Religion</hi> (1749) is preserved in the John Rylands Library; see
+                            also his comments on it in JWJ, Sept. 14, 1753, and in his letter to Dr.
+                            John Robertson, Sept. 24, 1753 (see 26:515-24 in this edn.). Wesley also
+                            admired Ramsay’s <hi rend="italic">The Travels of Cyrus</hi> (1727); it
+                            was prescribed reading (in French?) for the scholars at Kingswood
+                            School; see also his reference in a letter to Mary Bishop, Aug. 18,
+                            1784. Ramsay was more widely read and admired in France and Scotland
+                            than he ever was in England.</p></note> in particular), to find some
+                    resemblance of these truths in the immense rubbish of heathen authors, the
+                    resemblance is so exceeding faint as not to be discerned but by a very lively
+                    imagination. Beside that even this resemblance, faint as it was, is only to be
+                    found in the discourses of a very few, and those were the most improved and
+                    deeply thinking men in their several generations; while the innumerable
+                    multitudes that surrounded them were little better for the knowledge of the
+                    philosophers, but remained as totally ignorant, even of these capital truths, as
+                    were the beasts that perish.</p>
+                <p n="3">3. Certain it is that these truths were never known to the vulgar, <pb
+                        n="03:201"/>the bulk of mankind, to the generality of men in any nation,
+                    till they were brought to light by the gospel.<note place="foot" xml:id="ftn8"
+                        n="8"><p rend="footnote text">See 2 Tim. 1:10.</p></note> Notwithstanding a
+                    spark of knowledge glimmering here and there, the whole earth was covered with
+                    darkness till the Sun of Righteousness arose<note place="foot" xml:id="ftn9"
+                        n="9"><p rend="footnote text">See Mal. 4:2.</p></note> and scattered the
+                    shades of night. Since this Day-spring from on high has appeared, a great light
+                    hath shined unto those who till then sat in darkness and in the shadow of
+                        death.<note place="foot" xml:id="ftn10" n="10"><p rend="footnote text">See
+                            Luke 1:78-79.</p></note> And thousands of them in every age have known,
+                    ‘that God so loved the world’ as to ‘give his only Son, to the end that
+                    whosoever believeth on him should not perish, but have everlasting life.’<note
+                        place="foot" xml:id="ftn11" n="11"><p rend="footnote text">Cf. John
+                            3:16.</p></note> And being entrusted with the oracles of God,<note
+                        place="foot" xml:id="ftn12" n="12"><p rend="footnote text">See Rom.
+                        3:2.</p></note> they have known that ‘God hath also given us his Holy
+                        Spirit,’<note place="foot" xml:id="ftn13" n="13"><p rend="footnote text">1
+                            Thess. 4:8.</p></note> who ‘worketh in us both to will and to do of his
+                    good pleasure’.<note place="foot" xml:id="ftn14" n="14"><p rend="footnote text"
+                            >Cf. Phil. 2:13.</p></note></p>
+                <p n="4">4. How remarkable are those words of the Apostle which precede these! ‘Let
+                    this mind be in you, which was also in Christ Jesus: who, being in the form of
+                    God’, the incommunicable nature of God from eternity, ‘counted it no act of
+                    robbery’ (that is the precise meaning of the word), no invasion of any other’s
+                    prerogative, but his own unquestionable right, ‘to be equal with God.’<note
+                        place="foot" xml:id="ftn15" n="15"><p rend="footnote text">Cf. Phil. 2:5-6
+                                (<hi rend="italic">Notes</hi>).</p></note> The word implies both the
+                        <hi rend="italic">fullness</hi> and the supreme <hi rend="italic"
+                        >height</hi> of the Godhead. To which are opposed the two words, he
+                    ‘emptied’, and he ‘humbled himself. He ‘emptied himself’ of that divine fullness
+                    veiled his fullness from the eyes of men and angels, ‘taking’—and by that very
+                    act emptying himself—‘the form of a servant, being made in the likeness of man’,
+                    a real man like other men.<note place="foot" xml:id="ftn16" n="16"><p
+                            rend="footnote text">Note the stress here (rare in Wesley) on the full
+                            humanity of Jesus Christ. Cf. William Tilly’s sermon on John 3:19, in
+                                <hi rend="italic">Sermons on Several Occasions</hi> (1712), pp.
+                            139-40: ‘…To suppose our Saviour a mere man like ourselves would be very
+                            much to weaken the awe and authority of his law….’ See also John
+                            Deschner, <hi rend="italic">Wesley’s Christology,</hi> pp. 24 ff.,
+                            40-41, 132-33, 146, 159-60, 165, 191. Wesley’s problem with the full and
+                            real humanity of Jesus Christ had a long history; see his letter to his
+                            mother, Feb. 28, 1732: ‘We cannot allow Christ’s human nature to be
+                            present [in the Eucharist] without allowing either con- or
+                            trans-substantiation.’ See also Nos. 20, <hi rend="italic">The Lord Our
+                                Righteousness,</hi> I.1-2; and 139, ‘On the Sabbath’,
+                        II.2.</p></note> ‘And being found in fashion as a man’, a common man,
+                    without any peculiar beauty or excellency, ‘he humbled himself’ to a still
+                    greater degree, ‘becoming obedient’ to God, though equal with him, ‘even unto
+                    death, yea the death of <pb n="03:202"/>the cross’<note place="foot"
+                        xml:id="ftn17" n="17"><p rend="footnote text">Phil. 2:7-8 (<hi rend="italic"
+                                >Notes</hi>).</p></note>—the greatest instance both of humiliation
+                    and obedience.</p>
+                <p>Having proposed the example of Christ, the Apostle exhorts them to secure the
+                    salvation which Christ hath purchased for them: ‘Wherefore work out your own
+                    salvation with fear and trembling; for it is God that worketh in you both to
+                    will and to do of his good pleasure.’</p>
+                <p>In these comprehensive words we may observe,</p>
+                <p>First, that grand truth, which ought never to be out of our remembrance, ‘It is
+                    God that worketh in us, both to will and to do of his own good pleasure;’</p>
+                <p>Secondly, the improvement we ought to make of it: ‘Work out your own salvation
+                    with fear and trembling;’</p>
+                <p>Thirdly, the connection between them: ‘It is God that worketh in you;’ therefore
+                    ‘work out your own salvation.’</p>
+            </div>
+            <div type="section" n="1">
+                <p n="1">I. 1. First, we are to observe that great and important truth which ought
+                    never to be out of our remembrance, ‘It is God that worketh in us both to will
+                    and to do of his good pleasure.’<note place="foot" xml:id="ftn18" n="18"><p
+                            rend="footnote text">Cf. below, III.6-7.</p></note> The meaning of these
+                    words may be made more plain by a small transposition of them: ‘It is God that
+                    of his good pleasure worketh in you both to will and to do.’ This position of
+                    the words, connecting the phrase of ‘his good pleasure’ with the word ‘worketh’,
+                    removes all imagination of merit from man, and gives God the whole glory of his
+                    own work. Otherwise we might have had some room for boasting, as if it were our
+                    own desert, some goodness in us, or some good thing done by us, which first
+                    moved God to work. But this expression cuts off all such vain conceits, and
+                    clearly shows his motive to work lay wholly in himself—in his own mere grace, in
+                    his unmerited mercy.</p>
+                <p n="2">2. It is by this alone he is impelled to work in man both to will and to
+                    do. The expression is capable of two interpretations, both of which are
+                    unquestionably true. First, ‘to will’ may include the whole of inward, ‘to do’
+                    the whole of outward religion. And if it be thus understood, it implies that it
+                    is God that worketh both inward and outward holiness.<note place="foot"
+                        xml:id="ftn19" n="19"><p rend="footnote text">For the love of God as the
+                            substance of inward holiness and the love of neighbour as the substance
+                            of outward holiness, cf. No. 7, ‘The Way to the Kingdom’, I.10 and
+                            n.</p></note> Secondly, ‘to will’ may imply every good desire, ‘to do’
+                    whatever results therefrom. And then the <pb n="03:203"/>sentence means, God
+                    breathes into us every good desire, and brings every good desire to good
+                    effect.</p>
+                <p n="3">3. The original words τὸ θέλειν and τὸ ἐνεργεῖν,<note place="foot"
+                        xml:id="ftn20" n="20"><p rend="footnote text">Phil. 2:13.</p></note> seem to
+                    favour the latter construction; τὸ θέλειν, which we render ‘to will’, plainly
+                    including every good desire, whether relating to our tempers, words, or actions,
+                    to inward or outward holiness. And τὸ ἐνεργεῖν, which we render ‘to do’,
+                    manifestly implies all that power from on high; all that energy which works in
+                    us every right disposition, and then furnishes us for every good word and
+                        work.<note place="foot" xml:id="ftn21" n="21"><p rend="footnote text">2
+                            Thess. 2:17.</p></note></p>
+                <p n="4">4. Nothing can so directly tend to hide pride from man as a deep, lasting
+                    conviction of this. For if we are thoroughly sensible that we have nothing which
+                    we have not received, how can we glory as if we had not received it?<note
+                        place="foot" xml:id="ftn22" n="22"><p rend="footnote text">See 1 Cor.
+                            4:7.</p></note> If we know and feel that the very first motion of good
+                    is from above, as well as the power which conducts it to the end—if it is God
+                    that not only infuses every good desire, but that accompanies and follows it,
+                    else it vanishes away—then it evidently follows that ‘he who glorieth must glory
+                    in the Lord.’<note place="foot" xml:id="ftn23" n="23"><p rend="footnote text"
+                            >Cf. 1 Cor. 1:31.</p></note></p>
+            </div>
+            <div type="section" n="2">
+                <p n="1">II. 1. Proceed we now to the second point: if God ‘worketh in you’, then
+                    ‘work out your own salvation.’ The original word rendered, ‘work out’, implies
+                    the doing a thing thoroughly. ‘Your own’—for you yourselves must do this, or it
+                    will be left undone for ever. ‘Your <hi rend="italic">own
+                    salvation</hi>’—salvation begins with what is usually termed (and very properly)
+                    ‘preventing grace’;<note place="foot" xml:id="ftn24" n="24"><p
+                            rend="footnote text">‘Preventing’ and ‘prevenient’ had long since become
+                            synonyms denoting the Holy Spirit’s activity in moving or drawing the
+                            will in advance of any conscious resolve. In III.4, below, Wesley
+                            relates it to natural conscience even while denying that anything
+                            natural is good in and of itself alone. Cf. Thomas Manton, <hi
+                                rend="italic">Works</hi> (1681), I.181: ‘There is <hi rend="italic"
+                                >gratia praeveniens</hi>, <hi rend="italic">operans</hi>, and <hi
+                                rend="italic">co-operans</hi>; there is preventing grace, working
+                            grace and co-working grace. Preventing grace that is when God converts
+                            us, when the Lord turns us to himself and doth plant grace in the soul
+                            at first. Working grace that is when God strengthens the habit.
+                            Co-working grace when God stirs up the act and helps us in the exercise
+                            of the grace we have.’ Cf. William Tilly’s first sermon on Phil. 2:12,
+                            13 (Sermon VIII, in <hi rend="italic">Sermons</hi>, pp. 245 ff.), where
+                            he uses the same term; and see No. 43, <hi rend="italic">The Scripture
+                                Way of Salvation</hi>, I.2 and n.</p></note> including the first
+                    wish to please God, the first dawn of light concerning his will, and the first
+                    slight, transient conviction of having sinned against him. All these imply some
+                    tendency toward <pb n="03:204"/>life, some degree of salvation, the beginning of
+                    a deliverance from a blind, unfeeling heart, quite insensible of God and the
+                    things of God. Salvation is carried on by ‘convincing grace’,<note place="foot"
+                        xml:id="ftn25" n="25"><p rend="footnote text">Cf. Tilly’s alternate phrase
+                                (<hi rend="italic">ibid.</hi>)<hi rend="italic">, </hi>‘assisting
+                            grace’. For Wesley this is equivalent to ‘the grace of repentance’; cf.
+                            No. 14, <hi rend="italic">The Repentance of Believers</hi>, II.6, and
+                            Wesley’s <hi rend="italic">Notes </hi>on Luke 23:40.</p></note> usually
+                    in Scripture termed ‘repentance’, which brings a larger measure of
+                    self-knowledge, and a farther deliverance from the heart of stone.<note
+                        place="foot" xml:id="ftn26" n="26"><p rend="footnote text">See Ezek.
+                            11:19.</p></note> Afterwards we experience the proper Christian
+                    salvation, whereby ‘through grace’ we ‘are saved by faith’,<note place="foot"
+                        xml:id="ftn27" n="27"><p rend="footnote text">Eph. 2:8.</p></note>
+                    consisting of those two grand branches, justification and sanctification. By
+                    justification we are saved from the guilt of sin, and restored to the favour of
+                    God: by sanctification we are saved from the power and root of sin, and restored
+                    to the image of God.<note place="foot" xml:id="ftn28" n="28"><p
+                            rend="footnote text">Cf. Bishop Francis Gastrell (whose death Samuel
+                            Wesley, Jun. commemorated in his <hi rend="italic">Poems</hi> [1736], p.
+                            130; see No. 84, <hi rend="italic">The Important Question</hi>, II.3 and
+                            n.), <hi rend="italic">The Certainty and Necessity of Religion in
+                                General</hi> (1697), pp. 315, 317, 336. See also No. 6, ‘The
+                            Righteousness of Faith’, II.9: ‘The best end of any fallen creature is
+                            the recovery of the favour [justification] and image [sanctification] of
+                            God;’ cf. No. 1, <hi rend="italic">Salvation by Faith</hi>, §1 and
+                            n.</p></note> All experience, as well as Scripture, shows this salvation
+                    to be both instantaneous and gradual. It begins the moment we are justified, in
+                    the holy, humble, gentle, patient love of God and man. It gradually increases
+                    from that moment, as a ‘grain of mustard seed, which at first is the least of
+                    all seeds, but’ gradually ‘puts forth large branches’,<note place="foot"
+                        xml:id="ftn29" n="29"><p rend="footnote text">Cf. Matt. 13:31-32.</p></note>
+                    and becomes a great tree; till in another instant the heart is cleansed from all
+                    sin, and filled with pure love to God and man. But even that love increases more
+                    and more, till we ‘grow up in all things into him that is our head’,<note
+                        place="foot" xml:id="ftn30" n="30"><p rend="footnote text">Cf. Eph.
+                            4:15.</p></note> ‘till we attain the measure of the stature of the
+                    fullness of Christ’.<note place="foot" xml:id="ftn31" n="31"><p
+                            rend="footnote text">Cf. Eph. 4:13.</p></note></p>
+                <p n="2">2. But how are we to ‘work out’ this salvation? The Apostle answers, ‘With
+                    fear and trembling’. There is another passage of St. Paul wherein the same
+                    expression occurs, which may give light to this: ‘Servants, obey your masters
+                    according to the flesh,’ according to the present state of things, although
+                    sensible that in a little time the servant will be free from his master, ‘with
+                    fear and trembling’. This is a proverbial expression which cannot be understood
+                    literally. For what master could bear, much less require, his servant to stand
+                    trembling and quaking before him? <pb n="03:205"/>And the following words
+                    utterly exclude this meaning: ‘in singleness of heart’, with a single eye to the
+                    will and providence of God, ‘not with eye-service, as men-pleasers, but as
+                    servants of Christ, doing the will of God from the heart’; doing whatever they
+                    do as the will of God, and therefore with their might.<hi
+                        rend="endnote_reference"><note place="end"><p rend="endnote text">Eph.
+                                6:5-6.</p></note></hi> It is easy to see that these strong
+                    expressions of the Apostle clearly imply two things: first, that everything be
+                    done with the utmost earnestness of spirit, and with all care and
+                    caution—perhaps more directly referring to the former word, μετὰ φόβου, ‘with
+                    fear’; secondly, that it be done with the utmost diligence, speed, punctuality,
+                    and exactness—not improbably referring to the latter word, μετὰ τρὸμου, ‘with
+                        trembling’.<note place="foot" xml:id="ftn32" n="32"><p rend="footnote text"
+                            >The Greek text reads μετὰ φόβου καὶ τρὸμου.</p></note></p>
+                <p n="3">3. How easily may we transfer this to the business of life, the working out
+                    our own salvation! With the same temper and in the same manner that Christian
+                    servants serve their masters that are upon earth, let other Christians labour to
+                    serve their Master that is in heaven: that is, first, with the utmost
+                    earnestness of spirit, with all possible care and caution; and, secondly, with
+                    the utmost diligence, speed, punctuality, and exactness.</p>
+                <p n="4">4. But what are the steps which the Scripture directs us to take, in the
+                    working out of our own salvation? The prophet Isaiah gives us a general answer
+                    touching the first steps which we are to take: ‘Cease to do evil; learn to do
+                        well.’<note place="foot" xml:id="ftn33" n="33"><p rend="footnote text">Isa.
+                            1:16-17; cf. this and the first and second of the <hi rend="italic"
+                                >General Rules,</hi> and note that Wesley can speak both positively
+                            and negatively of these rules, depending always upon the context. For
+                            other positive instances, cf. No. 24, ‘Sermon on the Mount, IV’, IV.1
+                            and n.; and for negative instances, cf. No. 22, ‘Sermon on the Mount,
+                            II’, II.4 and n.</p></note> If ever you desire that God should work in
+                    you that faith whereof cometh both present and eternal salvation, by the grace
+                    already given, fly from all sin as from the face of a serpent; carefully avoid
+                    every evil word and work; yea, abstain from all appearance of evil. And ‘learn
+                    to do well’; be zealous of good works,<note place="foot" xml:id="ftn34" n="34"
+                            ><p rend="footnote text">Titus 2:14.</p></note> of works of piety, as
+                    well as works of mercy. Use family prayer, and cry to God in secret. Fast in
+                    secret, and ‘your Father which seeth in secret, he will reward you openly.’<note
+                        place="foot" xml:id="ftn35" n="35"><p rend="footnote text">Cf. Matt. 6:4, 6,
+                            18.</p></note> ‘Search the Scriptures;’<note place="foot" xml:id="ftn36"
+                        n="36"><p rend="footnote text">John 5:39.</p></note> hear them in public,
+                    read them in private, and meditate therein. At every opportunity be a partaker
+                    of the Lord’s Supper. ‘Do this in remembrance of him,’<note place="foot"
+                        xml:id="ftn37" n="37"><p rend="footnote text">Cf. Luke 22:19; 1 Cor.
+                            11:24.</p></note>
+                    <pb n="03:206"/>and he will meet you at his own table. Let your conversation be
+                    with the children of God, and see that it ‘be in grace, seasoned with
+                        salt’.<note place="foot" xml:id="ftn38" n="38"><p rend="footnote text">Cf.
+                            Col. 4:6.</p></note> As ye have time, do good unto all men,<note
+                        place="foot" xml:id="ftn39" n="39"><p rend="footnote text">See Gal. 6:10,
+                            with ‘time’ once more in place of the AV’s ‘opportunity’.</p></note> to
+                    their souls and to their bodies. And herein ‘be ye steadfast, unmovable, always
+                    abounding in the work of the Lord.’<note place="foot" xml:id="ftn40" n="40"><p
+                            rend="footnote text">1 Cor. 15:58.</p></note> It then only remains that
+                    ye deny yourselves and take up your cross daily.<note place="foot"
+                        xml:id="ftn41" n="41"><p rend="footnote text">See Luke 9:23, etc.</p></note>
+                    Deny yourselves every pleasure which does not prepare you for taking pleasure in
+                    God, and willingly embrace every means of drawing near to God, though it be a
+                    cross, though it be grievous to flesh and blood. Thus when you have redemption
+                    in the blood of Christ, you will ‘go on to perfection’;<note place="foot"
+                        xml:id="ftn42" n="42"><p rend="footnote text">Heb. 6:1.</p></note> till,
+                    ‘walking in the light, as he is in the light’,<note place="foot" xml:id="ftn43"
+                        n="43"><p rend="footnote text">Cf. 1 John 1:7.</p></note> you are enabled to
+                    testify that ‘he is faithful and just’, not only ‘to forgive your sins’, but ‘to
+                    cleanse you from all unrighteousness.’<note place="foot" xml:id="ftn44" n="44"
+                            ><p rend="footnote text">Cf. 1 John 1:9.</p></note></p>
+            </div>
+            <div type="section" n="3">
+                <p n="1">III. 1. ‘But’, say some, ‘what connection is there between the former and
+                    the latter clause of this sentence? Is there not rather a flat opposition
+                    between the one and the other? If it is God that worketh in us both to will and
+                    to do, what need is there of our working? Does not his working thus supersede
+                    the necessity of our working at all? Nay, does it not render our working
+                    impracticable, as well as unnecessary? For if we allow that God does all, what
+                    is there left for us to do?’</p>
+                <p n="2">2. Such is the reasoning of flesh and blood. And at first hearing it is
+                    exceeding plausible. But it is not solid, as will evidently appear if we
+                    consider the matter more deeply. We shall then see there is no opposition
+                    between these—‘God works; therefore do ye work’—but on the contrary the closest
+                    connection, and that in two respects. For, first, God works; therefore you <hi
+                        rend="italic">can</hi> work. Secondly, God works; therefore you <hi
+                        rend="italic">must</hi> work.</p>
+                <p n="3">3. First, God worketh in you; therefore you can work—other­wise it would be
+                    impossible. If he did not work it would be impossible for you to work out your
+                    own salvation. ‘With man this is impossible—’, saith our Lord, ‘for a rich man
+                    to enter into the kingdom of heaven.’<note place="foot" xml:id="ftn45" n="45"><p
+                            rend="footnote text">Cf. Matt. 19:23, 26.</p></note> Yea, it is
+                    impossible for any man; for any that is born of a woman, unless God work in him.
+                    Seeing all men <pb n="03:207"/>are by nature not only sick, but ‘dead in
+                    trespasses, and sins’,<note place="foot" xml:id="ftn46" n="46"><p
+                            rend="footnote text">Eph. 2:1.</p></note> it is not possible for them to
+                    do anything well till God raises them from the dead. It was impossible for
+                    Lazarus to ‘come forth’<note place="foot" xml:id="ftn47" n="47"><p
+                            rend="footnote text">John 11:43.</p></note> till the Lord had given him
+                    life. And it is equally impossible for us to ‘come’ out of our sins, yea, or to
+                    make the least motion toward it, till he who hath all power in heaven and earth
+                    calls our dead souls into life.</p>
+                <p n="4">4. Yet this is no excuse for those who continue in sin, and lay the blame
+                    upon their Maker by saying: ‘It is God only that must quicken us; for we cannot
+                    quicken our own souls.’ For allowing that all the souls of men are dead in sin
+                    by <hi rend="italic">nature,</hi> this excuses none, seeing there is no man that
+                    is in a state of mere nature; there is no man, unless he has quenched the
+                    Spirit, that is wholly void of the grace of God.<note place="foot"
+                        xml:id="ftn48" n="48"><p rend="footnote text">For a summary of the Reformed
+                            doctrines of the state of fallen human nature, cf. Heppe, <hi
+                                rend="italic">Reformed Dogmatics</hi>, XV.13-39; cf. also No. 14,
+                                <hi rend="italic">The Repentance of Believers</hi>, I.17 and
+                        n.</p></note> No man living is entirely destitute of what is vulgarly called
+                    ‘natural conscience’.<note place="foot" xml:id="ftn49" n="49"><p
+                            rend="footnote text">Cf. II.1, above; also No. 129, ‘Heavenly Treasure
+                            in Earthen Vessels’, I.1.</p></note> But this is not natural; it is more
+                    properly termed ‘preventing grace’. Every man has a greater or less measure of
+                    this, which waiteth not for the call of man. Everyone has sooner or later good
+                    desires, although the generality of men stifle them before they can strike deep
+                    root or produce any considerable fruit. Everyone has some measure of that light,
+                    some faint glimmering ray, which sooner or later, more or less, enlightens every
+                    man that cometh into the world.<note place="foot" xml:id="ftn50" n="50"><p
+                            rend="footnote text">John 1:9.</p></note> And everyone, unless he be one
+                    of the small number whose conscience is seared as with a hot iron,<note
+                        place="foot" xml:id="ftn51" n="51"><p rend="footnote text">1 Tim. 4:2; cf.
+                            No. 12, ‘The Witness of Our Own Spirit’, §19 and n.</p></note> feels
+                    more or less uneasy when he acts contrary to the light of his own conscience. So
+                    that no man sins because he has not grace, but because he does not use the grace
+                    which he hath.<note place="foot" xml:id="ftn52" n="52"><p rend="footnote text"
+                            >Cf. No. 98, ‘On Visiting the Sick’, §1, and Wesley’s counsel to Miss
+                            March, Oct. 13, 1765: ‘To use the grace we have, and now to expect all
+                            we want, is the grand secret.’</p></note></p>
+                <p n="5">5. Therefore inasmuch as God works in you, you are now able to work out
+                    your own salvation. Since he worketh in you of his own good pleasure, without
+                    any merit of yours, both to will and to do, it is possible for you to fulfil all
+                        righteousness.<note place="foot" xml:id="ftn53" n="53"><p
+                            rend="footnote text">See Matt. 3:15.</p></note> It is possible for you
+                    to ‘love God, because he hath first loved us’,<note place="foot" xml:id="ftn54"
+                        n="54"><p rend="footnote text">Cf. 1 John 4:19.</p></note> and to ‘walk <pb
+                        n="03:208"/>in love’,<note place="foot" xml:id="ftn55" n="55"><p
+                            rend="footnote text">Eph. 5:2.</p></note> after the pattern of our great
+                    Master. We know indeed that word of his to be absolutely true, ‘Without me ye
+                    can do nothing.’<note place="foot" xml:id="ftn56" n="56"><p rend="footnote text"
+                            >John 15:5.</p></note> But on the other hand we know, every believer can
+                    say, ‘I can do all things through Christ that strengtheneth me.’<note
+                        place="foot" xml:id="ftn57" n="57"><p rend="footnote text">Cf. Phil.
+                            4:13.</p></note></p>
+                <p n="6">6. Meantime let us remember that God has joined these together in the
+                    experience of every believer. And therefore we must take care not to imagine
+                    they are ever to be put asunder.<note place="foot" xml:id="ftn58" n="58"><p
+                            rend="footnote text">See Matt. 19:6.</p></note> We must beware of that
+                    mock humility which teacheth us to say, in excuse for our wilful disobedience,
+                    ‘Oh, I can do nothing,’ and stops there, without once naming the grace of God.
+                    Pray think twice. Consider what you say. I hope you wrong yourself. For if it be
+                    really true that you can do nothing, then you have no faith. And if you have not
+                    faith you are in a wretched condition. Surely it is not so. You can do
+                    something, through Christ strengthening you.<note place="foot" xml:id="ftn59"
+                        n="59"><p rend="footnote text">See Phil. 4:13.</p></note> Stir up the spark
+                    of grace which is now in you, and he will give you more grace.<note place="foot"
+                        xml:id="ftn60" n="60"><p rend="footnote text">The essence of Wesley’s
+                            synergism; every human action is a reaction to prevenient grace. Cf.
+                            I.1, above; and No. 90, ‘An Israelite Indeed’, I.5; also Thomas Crane,
+                                <hi rend="italic">Isagoge ad Dei Providentiam</hi>, p. 275: ‘Men
+                            come not into the inmost circle of divine providence because they cannot
+                            but because they will not.’ See also Samuel Annesley’s sermon ‘On
+                            Conscience’, in <hi rend="italic">The Morning-Exercise at
+                                Cripplegate</hi> (1661), p. 13: ‘Do what you know, and God will
+                            teach you what to do. Do what you know to be your present duty and God
+                            will acquaint you with your future duty as it comes to be
+                        present.’</p></note></p>
+                <p n="7">7. Secondly, God worketh in you; therefore you <hi rend="italic">must</hi>
+                    work: you must be ‘workers together with him’<note place="foot" xml:id="ftn61"
+                        n="61"><p rend="footnote text">2 Cor. 6:1.</p></note> (they are the very
+                    words of the Apostle); otherwise he will cease working. The general rule on
+                    which his gracious dispensations invariably proceed is this: ‘Unto him that hath
+                    shall be given; but from him that hath not’, that does not improve the grace
+                    already given, ‘shall be taken away what he assuredly hath’<note place="foot"
+                        xml:id="ftn62" n="62"><p rend="footnote text">Luke 8:18 (<hi rend="italic"
+                                >Notes</hi>). Cf. Nos. 43, <hi rend="italic">The Scripture Way of
+                                Salvation</hi>, §1 and n.; and 82, ‘On Temptation’, §2 and
+                        n.</p></note> (so the words ought to be rendered).<note place="foot"
+                        xml:id="ftn63" n="63"><p rend="footnote text">Another instance of Wesley’s
+                            insistence that ὁ δοκεῖ does <hi rend="italic">not</hi> mean
+                            ‘appearance’ (as it does in most lexicons).</p></note> Even St.
+                    Augustine, who is generally supposed to favour the contrary doctrine, makes that
+                    just remark, <hi rend="italic">Qui fecit nos sine nobis, non salvabit nos sine
+                        nobis</hi>:<note place="foot" xml:id="ftn64" n="64"><p rend="footnote text"
+                            >Augustine, Sermon 169, xi (13); cf. No.63,‘The General Spread of the
+                            Gospel’, §12 and n.</p></note> ‘he that made us without ourselves, will
+                    not save us without ourselves.’ He will not save us unless we ‘save <pb
+                        n="03:209"/> ourselves from this untoward generation’;<note place="foot"
+                        xml:id="ftn65" n="65"><p rend="footnote text">Cf. Acts. 2:40.</p></note>
+                    unless we ourselves ‘fight the good fight of faith, and lay hold on eternal
+                        life’;<note place="foot" xml:id="ftn66" n="66"><p rend="footnote text">1
+                            Tim. 6:12.</p></note> unless we ‘agonize to enter in at the strait
+                        gate,’<note place="foot" xml:id="ftn67" n="67"><p rend="footnote text">Cf.
+                            Luke 13:24.</p></note> ‘deny ourselves, and take up our cross
+                        daily’,<note place="foot" xml:id="ftn68" n="68"><p rend="footnote text">Cf.
+                            Luke 9:23.</p></note> and labour, by every possible means, to ‘make our
+                    own calling and election sure’.<note place="foot" xml:id="ftn69" n="69"><p
+                            rend="footnote text">Cf. 2 Pet. 1:10.</p></note></p>
+                <p n="8">8. ‘Labour’ then, brethren, ‘not for the meat that perisheth, but for that
+                    which endureth to everlasting life.’<note place="foot" xml:id="ftn70" n="70"><p
+                            rend="footnote text">John 6:27 (<hi rend="italic"
+                        >Notes</hi>).</p></note> Say with our blessed Lord, though in a somewhat
+                    different sense, ‘My Father worketh hitherto, and I work.’<note place="foot"
+                        xml:id="ftn71" n="71"><p rend="footnote text">John 5:17.</p></note> In
+                    consideration that he still worketh in you, be never ‘weary of well-doing’.<note
+                        place="foot" xml:id="ftn72" n="72"><p rend="footnote text">Cf. Gal. 6:9; 2
+                            Thess. 3:13.</p></note> Go on, in virtue of the grace of God preventing,
+                    accompanying, and following you, in ‘the work of faith, in the patience of hope,
+                    and in the labour of love’.<note place="foot" xml:id="ftn73" n="73"><p
+                            rend="footnote text">Cf. 1 Thess. 1:3.</p></note> ‘Be ye steadfast and
+                    immovable; always abounding in the work of the Lord.’<note place="foot"
+                        xml:id="ftn74" n="74"><p rend="footnote text">Cf. 1 Cor. 15:58.</p></note>
+                    And ‘the God of peace, who brought again from the dead the great Shepherd of the
+                    sheep’,—Jesus—‘make you perfect in every good work to do his will, working in
+                    you what is well-pleasing in his sight, through Jesus Christ, to whom be glory
+                    for ever and ever!’<note place="foot" xml:id="ftn75" n="75"><p
+                            rend="footnote text">See Heb. 13:20-21 (<hi rend="italic">Notes</hi>).
+                            Note that the benediction in Hebrews serves here as an ascription. For
+                            Wesley’s rare usage of ascriptions, cf. No. 1, <hi rend="italic"
+                                >Salvation by Faith</hi>, III.9 and n.</p></note></p>
+            </div>
+        </body>
+    </text>
+</TEI>

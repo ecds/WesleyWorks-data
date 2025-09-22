@@ -1,0 +1,875 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Sermon 84: The Important Question</title>
+                <author>Wesley, John</author>
+                <editor role="text">Van Buskirk, Gregory P.</editor>
+                <editor role="digital">Taylor, Michelle M.</editor>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>The Wesley Works Digitzation Project</publisher>
+                <pubPlace>Tampa, FL</pubPlace>
+                <date>2024-02-25</date>
+            </publicationStmt>
+            <sourceDesc>
+                <listBibl>
+                    <biblStruct>
+                        <analytic>
+                            <title level="a">Sermon 84: The Important Question</title>
+                        </analytic>
+                        <monogr>
+                            <title level="j">The Works of John Wesley, Volume III: Sermons III,
+                                71-114</title>
+                            <editor role="volume">Outler, Albert</editor>
+                            <imprint>
+                                <publisher>Abingdon Press</publisher>
+                                <pubPlace>Nashville, TN</pubPlace>
+                                <date when="1986-11-01">1986-11-01</date>
+                                <biblScope unit="volume" n="3"/>
+                                <biblScope unit="page" from="181" to="198"/>
+                            </imprint>
+                        </monogr>
+                        <series>
+                            <title level="s">The Works of John Wesley</title>
+                            <editor role="general">Baker, Frank</editor>
+                        </series>
+                    </biblStruct>
+                </listBibl>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Greg Van Buskirk created Word docs for all of Wesley's sermons using a combination of
+                OCR software and manual proofing. Michelle Taylor converted these docx into XML
+                using Oxygen's DITA automatic transformation scenario, then touched them up
+                manually.</p>
+        </encodingDesc>
+        <standOff>
+            <taxonomy>
+                <keywords>
+                    <term/>
+                </keywords>
+            </taxonomy>
+            <!--Include keywords and terms here eventually.-->
+        </standOff>
+        <revisionDesc/>
+    </teiHeader>
+    <text>
+        <body>
+            <pb n="03:181"/>
+            <head>
+                <hi rend="italic">An Introductory Comment</hi>
+            </head>
+            <p>In August and September 1775 Wesley was itinerating through Wales, Cornwall, and
+                Somerset. On Wednesday, August 30, he ‘preached in the great Presbyterian
+                meeting-house at Taunton’, and in the same place on Monday, September 11, when he
+                ‘pressed that important question, “What is a man profited if he should gain the
+                whole world and lose his own soul?”’ (See the <hi rend="italic">Journal</hi> for
+                those dates and note the discrepancy between the date given in the <hi rend="italic"
+                    >Journal</hi> for the oral sermon and the date on the title-page for the
+                published sermon.)</p>
+            <p>The occasion for the Taunton sermon was ‘for the benefit of a public charity’ (i.e.,
+                    <hi rend="italic">ad aulam</hi>); this may account for the noticeable increase
+                in rhetorical ornamentation and length over what we have seen in most of his sermons
+                    <hi rend="italic">ad populum</hi>. It was written out in Bristol, September 30,
+                1775, and then printed in London as a separate pamphlet before the end of the year.
+                It proceeded to go through six further separate editions in Wesley’s lifetime in
+                addition to being included in <hi rend="italic">SOSO</hi>, VII.67-91. For further
+                details as to its publishing history and a list of variant readings in its
+                successive editions, see Appendix, Vol. 4, and <hi rend="italic">Bibliog</hi>, No.
+                355.</p>
+            <p>This sermon is unusual in yet another interesting way that helps illuminate the
+                relationship between Wesley’s oral preaching and his published sermons. Of all the
+                texts for his published sermons, Matt. 16:26 is the one he had used most often in
+                his oral preaching and by a fairly wide margin (one hundred seventeen times between
+                1747 and 1790). This in itself would seem to be a sufficient comment on the familiar
+                but misleading generalization that Wesley was less interested in eschatology than in
+                soteriology. There is a sense in which this is true; but the much more crucial fact
+                is that, for Wesley, soteriology and eschatology were actually two sides of the same
+                mystery of God’s proffered grace to man.</p>
+            <pb n="03:182"/>
+            <head>The Important Question</head>
+            <epigraph>
+                <p>Matthew 16:26</p>
+                <p>
+                    <hi rend="italic">What is a man profited if he shall gain the whole world, and
+                        lose his own soul?</hi>
+                </p>
+            </epigraph>
+            <div type="introduction">
+                <p n="1">1. There is a celebrated remark to this effect (I think in the works of Mr.
+                    Pascal), that if a man of low estate would speak of high things, as of what
+                    relates to kings or kingdoms, it is not easy for him to find suitable
+                    expressions, as he is so little acquainted with things of this nature. But if
+                    one of royal parentage speaks of royal things, of what concerns his own or his
+                    father’s kingdom, his language will be free and easy, as these things are
+                    familiar to his thoughts.<note place="foot" xml:id="ftn1" n="1"><p
+                            rend="footnote text">This would seem to be a recollection from a
+                            Pascalian fragment preserved in Basil Kennett’s Preface to his
+                            translation of <hi rend="italic">Thoughts on Religion</hi> (1727), p.
+                            xxiv: ‘A mechanic speaking of riches [speaks incompetently]; a solicitor
+                            speaking of war or of a regal state [does likewise]. But the rich
+                            discourse well of riches; a king speaks coldly of a vast present which
+                            he is about to make; and God discourseth well of God.’ The same idea
+                            recurs in the first of ‘Three Discourses by Pascal on the Station of
+                            Noblemen’, in <hi rend="italic">Great Shorter Works of Pascal</hi>,
+                            translated by Emile Cailliet and John C. Blankennagel (Philadelphia, The
+                            Westminster Press, 1948), pp. 211-13. Cf. Robert South, <hi
+                                rend="italic">Sermons on Several Occasions</hi> (Oxford, 1823), 138:
+                            ‘It is difficult for a peasant…to fancy in his mind the unseen
+                            splendours of a court.’ See also Seneca, <hi rend="italic"
+                            >Epistles</hi>, xciv.14.</p></note> In like manner, if a mere inhabitant
+                    of this lower world speaks concerning the great things of the kingdom of God,
+                    hardly is he able to find expressions suitable to the greatness of the subject.
+                    But when the Son of God speaks of the highest things, which concern his heavenly
+                    kingdom, all his language is easy and unlaboured, his words natural and
+                    unaffected: inasmuch as known unto him are all these things from all
+                    eternity.</p>
+                <p n="2">2. How strongly is this remark exemplified in the passage now before us!
+                    The Son of God, the great King of heaven and earth, here uses the plainest and
+                    easiest words; but how high and deep are the things which he expresses therein!
+                    None of the children of men can fully conceive them till, emerging out of the
+                    darkness of the present world, he commences an inhabitant of eternity.</p>
+                <p n="3">3. But we may conceive a little of these deep things if we consider, first,
+                    what is implied in that expression, a man’s ‘gaining the whole world’; secondly,
+                    what is implied in ‘losing his own soul’; we shall then, thirdly, see in the
+                    strongest light ‘what he is profited who gains the whole world, and loses his
+                    own soul’.</p>
+            </div>
+            <div>
+                <p n="1"><pb n="03:183"/>I. 1. We are, first, to consider what is implied in a man’s
+                    ‘gaining the whole world’. Perhaps at the first hearing this may seem to some
+                    equivalent with conquering the whole world. But it has no relation thereto at
+                    all; and indeed that expression involves a plain absurdity;<note place="foot"
+                        xml:id="ftn2" n="2"><p rend="footnote text">For Wesley’s rule that the
+                            literal sense of Scripture is to be preferred unless it ‘involves a
+                            plain absurdity’, see No. 21, ‘Sermon on the Mount, I’, §6 and
+                        n.</p></note> for it is impossible, any that is born of a woman should ever
+                    conquer the whole world, were it only because the short life of man could not
+                    suffice for so wild an undertaking. Accordingly no man ever did conquer the
+                    half, no, nor the tenth part of the world. But whatever others might do, there
+                    was no danger that any of our Lord’s hearers should have any thought of this.
+                    Among all the sins of the Jewish nation the desire of universal empire was not
+                    found. Even in their most flourishing times they never sought to extend their
+                    conquests beyond the river Euphrates. And in our Lord’s time all their ambition
+                    was at an end—‘the sceptre was departed from Judah’<note place="foot"
+                        xml:id="ftn3" n="3"><p rend="footnote text">Cf. Gen. 49:10.</p></note>—and
+                    Judea was governed by a Roman procurator, as a branch of the Roman empire.</p>
+                <p n="2">2. Leaving this, we may find a far more easy and natural sense of the
+                    expression. To gain the whole world may properly enough imply, to gain all the
+                    pleasures which the world can give.<note place="foot" xml:id="ftn4" n="4"><p
+                            rend="footnote text">A somewhat different nuance for the term ‘world’
+                            than above in Nos. 80, ‘On Friendship with the World’; and 81, ‘In What
+                            Sense we are to Leave the World’.</p></note> The man we speak of may
+                    therefore be supposed to have gained all that will gratify his senses. In
+                    particular, all that can increase his pleasure of tasting,<note place="foot"
+                        xml:id="ftn5" n="5"><p rend="footnote text">Cf. William Law, as in No. 50,
+                            ‘The Use of Money’, II.2 and n.</p></note> all the elegancies of meat
+                    and drink. Likewise, whatever can gratify his smell, or touch—all that he can
+                    enjoy in common with his fellow-brutes. He may have all the plenty and all the
+                    variety of these objects which the world can afford.</p>
+                <p n="3">3. We may farther suppose him to have gained all that gratifies ‘the desire
+                    of the eyes’;<note place="foot" xml:id="ftn6" n="6"><p rend="footnote text">1
+                            John 2:16 (<hi rend="italic">Notes</hi>). The <hi rend="italic"
+                                >concupiscientia triplex</hi> again; see No. 7, ‘The Way to the
+                            Kingdom’, II.2 and n. See also, below, III.10.</p></note> whatever (by
+                    means of the eye chiefly) conveys any pleasure to the imagination.<note
+                        place="foot" xml:id="ftn7" n="7"><p rend="footnote text">Cf. No. 44, <hi
+                                rend="italic">Original Sin</hi>, II.10 and n.</p></note> The
+                    pleasures of imagination arise from three sources: grandeur, beauty, and
+                    novelty. Accordingly we find by experience our own imagination <pb n="03:184"
+                    />is gratified by surveying either grand, or beautiful, or uncommon objects. Let
+                    him be encompassed then with the most grand, the most beautiful, and the newest
+                    things that can anywhere be found. For all this is manifestly implied in a man’s
+                    gaining the whole world.</p>
+                <p n="4">4. But there is also another thing implied herein, which men of the most
+                    elevated spirits have preferred before all the pleasures of sense and of
+                    imagination put together; that is, honour, glory, renown:</p>
+                <quote>
+                    <hi rend="italic">Virum volitare per ora.</hi>
+                    <note place="foot" xml:id="ftn8" n="8">
+                        <p rend="footnote text">Virgil, <hi rend="italic">Georgics</hi>, iii.9: ‘[To
+                            have one’s fame] flying about on the lips of men’.</p>
+                    </note>
+                </quote>
+                <p>It seems that hardly any principle in the human mind is of greater force than
+                    this. It triumphs over the strongest propensities of nature, over all our
+                    appetites and affections. If Brutus sheds the blood of his own children;<note
+                        place="foot" xml:id="ftn9" n="9"><p rend="footnote text">Lucus Junius
+                            Brutus, nephew of Tarquinius Superbus (last of the Roman kings) and one
+                            of the first two consuls of the new Republic. He sentenced his own two
+                            sons to death for treason; cf. Livy, <hi rend="italic">Annals</hi>,
+                            I.59, II.3; see also Voltaire, <hi rend="italic">Le Brutus</hi>
+                            (1731).</p></note> if we see another Brutus, in spite of every possible
+                    obligation, in defiance of all justice and gratitude,</p>
+                <quote>Cringing while he stabs his friend;<note place="foot" xml:id="ftn10" n="10"
+                            ><p rend="footnote text">Samuel Wesley, Jun, ‘On Mr. Hobbes’, ver. 1,
+                            ll. 5-6, in <hi rend="italic">Poems</hi> (1736), p. 102:</p>
+                        <lg>
+                            <l>’Twill task a Cowley’s genius to commend</l>
+                            <l>False Brutus cringing while he stabs his friend.</l></lg><p
+                            rend="footnote text">Cf. also John Wesley, <hi rend="italic">A
+                                Collection of Moral and Sacred Poems</hi> (1744), III.66. The
+                            reference here is to ‘another Brutus’, Marcus Junius, one of the
+                            assassins of Julius Caesar. Note the casual playing off here of two like
+                            and unlike classical references.</p></note></quote>
+                <p>if a far greater man than either of these, Paschal Paoli,<note place="foot"
+                        xml:id="ftn11" n="11"><p rend="footnote text">Pasquale Paoli (1725-1807), a
+                            Corsican liberator who after his defeat by the French (1769) fled to
+                            England and was still living there as a popular hero at the time of this
+                            sermon. Wesley records two visits with him during 1784 (JWJ, Feb. 19 and
+                            Nov. 6): ‘…the modern Hannibal, …probably the most accomplished general
+                            that is now in the world…’. A fulsome plaque in his honour in
+                            Westminster Abbey stands directly opposite the more modest memorial
+                            there to the brothers Wesley. There are numerous admiring references to
+                            Paoli in Boswell’s <hi rend="italic">Life of Johnson</hi>.</p></note>
+                    gave up ease, pleasure, everything, for a life of constant toil, pain, and
+                    alarms; what principle could support them? They might talk of <hi rend="italic"
+                        >amor patriae</hi>, the love of their country; but this would never have
+                    carried them through had there not been also the</p>
+                <quote><hi rend="italic">Laudum immensa cupido</hi><note place="foot" xml:id="ftn12"
+                        n="12"><p rend="footnote text">Virgil, <hi rend="italic">Aeneid</hi>,
+                            vi.823: <hi rend="italic">laudumque immensa cupido</hi>, a familiar
+                            theme in Latin literature. Cf. <hi rend="italic">ibid., </hi>v.138; <hi
+                                rend="italic">Georgics</hi>, iii.112; Tacitus, <hi rend="italic"
+                                >Histories</hi>, IV.vi, etc. Cf. also Nos. 62,‘The End of Christ’s
+                            Coming’, §2; and 14, <hi rend="italic">The Repentance of Believers</hi>,
+                            I.7 and n.</p></note>—</quote>
+                <p><pb n="03:185"/>the immense thirst of <hi rend="italic">praise</hi>. Now the man
+                    we speak of has gained abundance of this; he is praised, if not admired, by all
+                    that are round about him. Nay, his name is gone forth into distant lands, as it
+                    were to the ends of the earth.<note place="foot" xml:id="ftn13" n="13"><p
+                            rend="footnote text">See Ps. 48:10 (AV).</p></note></p>
+                <p n="5">5. Add to this that he has gained abundance of wealth; that there is no end
+                    of his treasures; that he has laid up silver as the dust, and gold as the sand
+                    of the sea.<note place="foot" xml:id="ftn14" n="14"><p rend="footnote text">See
+                            Job 27:16; Zech. 9:3.</p></note> Now when a man has obtained all these
+                    pleasures, all that will gratify either the senses or the imagination; when he
+                    has gained an honourable name, and also laid up much treasure for many years;
+                    then he may be said, in an easy, natural sense of the word, to have ‘gained the
+                    whole world’.</p>
+            </div>
+            <div type="section" n="2">
+                <p n="1">II. 1. The next point we have to consider is what is implied in a man’s
+                    ‘losing his own soul’. And here we draw a deeper scene, and have need of a more
+                    steady attention. For it is easy to sum up all that is implied in a man’s
+                    ‘gaining the whole world’. But it is not so easy to understand all that is
+                    implied in his ‘losing his own soul’. Indeed none can fully conceive this until
+                    he has passed through time into eternity.</p>
+                <p n="2">2. The first thing which it undeniably implies is the losing all the
+                    present pleasures of religion; all those which it affords to truly religious
+                    men, even in the present life. ‘If there be any consolation in Christ; if any
+                    comfort of love’,<note place="foot" xml:id="ftn15" n="15"><p
+                            rend="footnote text">Phil. 2:1.</p></note> in the love of God, and of
+                    all mankind; if any ‘joy in the Holy Ghost’;<note place="foot" xml:id="ftn16"
+                        n="16"><p rend="footnote text">Rom. 14:17.</p></note> if there be a peace of
+                    God, a peace that passeth all understanding;<note place="foot" xml:id="ftn17"
+                        n="17"><p rend="footnote text">Phil. 4:7.</p></note> if there be any
+                    rejoicing in the testimony of a good conscience toward God;<note place="foot"
+                        xml:id="ftn18" n="18"><p rend="footnote text">See Acts 23:1.</p></note> it
+                    is manifest, all this is totally lost by the man that loses his own soul.</p>
+                <p n="3">3. But the present life will soon be at an end: we know it passes away like
+                    a shadow.<note place="foot" xml:id="ftn19" n="19"><p rend="footnote text">See
+                            Ps. 144:4 (BCP). Cf. also Wisd. 5:9-13, and Wesley’s Preface (1746),
+                            §5.</p></note> The hour is at hand when the spirit will be summoned to
+                    return to God that gave it.<note place="foot" xml:id="ftn20" n="20"><p
+                            rend="footnote text">See Eccles. 12:7.</p></note> In that awful
+                    moment,</p>
+                <lg>
+                    <l>Leaving the old, both worlds at once they view,</l>
+                    <l>Who stand upon the threshold of the new.</l>
+                    <note place="foot" xml:id="ftn21" n="21">
+                        <p rend="footnote text">Cf. the last two lines of Edmund Waller’s ‘On the
+                            Foregoing Divine Poems’, <hi rend="italic">Works </hi>(1729), p.
+                            317.</p>
+                    </note>
+                </lg>
+                <p><pb n="03:186"/>And whether he looks backward or forward, how pleasing is the
+                    prospect to him that saves his soul! If he looks back, he has ‘the calm
+                    remembrance of the life well spent’.<note place="foot" xml:id="ftn22" n="22"><p
+                            rend="footnote text">Cf. Samuel Wesley Jun., ‘To the Memory of the Right
+                            Reverend Francis Gastrell’, l. 106, in <hi rend="italic">Poems</hi>
+                            (1736), p. 130; see also John Wesley, <hi rend="italic">A Collection of
+                                Moral and Sacred Poems </hi>(1744), III.81. Cf. ‘Dr. Arbuthnot’s
+                            Character Versified’, in <hi rend="italic">AM</hi> (1783), VI.448, for a
+                            similar line. As a motto for his <hi rend="italic">Guardian</hi>, No. 18
+                            (June 13, 1713), Richard Steele quotes Cicero for this basic human
+                            aspiration: ‘<hi rend="italic">Quiete et pure atque eleganter actae
+                                aetatis placida ac lenis recordatio</hi>’ (‘Placid and soothing is
+                            the remembrance of a life passed in quiet, innocence and elegance’). Cf.
+                                <hi rend="italic">De Senectute</hi>, v.13; see also
+                        iii.9.</p></note> If he looks forward, there is an inheritance
+                    incorruptible, undefiled, and that fadeth not away,<note place="foot"
+                        xml:id="ftn23" n="23"><p rend="footnote text">1 Pet. 1:4.</p></note> and he
+                    sees the convoy of angels ready to carry him into Abraham’s bosom.<note
+                        place="foot" xml:id="ftn24" n="24"><p rend="footnote text">See Luke
+                            16:22.</p></note> But how is it in that solemn hour with the man that
+                        <hi rend="italic">loses</hi> his soul? Does he look back? What comfort is
+                    there in this? He sees nothing but scenes of horror, matter of shame, remorse,
+                    and self-condemnation, a foretaste of ‘the worm that never dieth’.<note
+                        place="foot" xml:id="ftn25" n="25"><p rend="footnote text">Cf. Mark 9:44,
+                            46, 48.</p></note> If he looks forward, what does he see? No joy, no
+                    peace! No gleam of hope from any point of heaven! Some years since, one who
+                    turned back as a dog to his vomit<note place="foot" xml:id="ftn26" n="26"><p
+                            rend="footnote text">See Prov. 26:11; 2 Pet. 2:22.</p></note> was struck
+                    down in his mid-career of sin. A friend visiting him prayed, ‘Lord, have mercy
+                    upon those who are just stepping out of the body, and know not which shall meet
+                    them at their entrance into the other world, an angel or a fiend.’ The sick man
+                    shrieked out with a piercing cry, ‘A fiend! a fiend!’ and died. Just such an
+                    end, unless he die like an ox, may any man expect who loses his own soul.</p>
+                <p n="4">4. But in what situation is the spirit of a good man at his entrance into
+                    eternity? See,</p>
+                <lg>
+                    <l>The convoy attends,</l>
+                    <l>The minist’ring host of invisible friends.</l>
+                    <note place="foot" xml:id="ftn27" n="27">
+                        <p rend="footnote text">Cf. Charles Wesley, <hi rend="italic">Funeral
+                                Hymns</hi> (1746), No. 15 (<hi rend="italic">Poet. Wks.</hi>,
+                            VI.211); cf. also No. 71, ‘Of Good Angels’, II.7 and n.</p>
+                    </note>
+                </lg>
+                <p>They receive the new-born spirit, and conduct him safe into Abraham’s bosom, into
+                    the delights of paradise, the garden of God,<note place="foot" xml:id="ftn28"
+                        n="28"><p rend="footnote text">Ezek. 28:13; 31:8, 9.</p></note> where the
+                    light of his countenance perpetually shines. It is but one of a thousand
+                    commendations of this antechamber of heaven<note place="foot" xml:id="ftn29"
+                        n="29"><p rend="footnote text">Cf. No. 115, ‘Dives and Lazarus’, I.3 and
+                            n.</p></note> that ‘there the wicked cease from troubling, there the
+                    weary are at rest.’<note place="foot" xml:id="ftn30" n="30"><p
+                            rend="footnote text">Cf. Job 3:17.</p></note> For there they have
+                    numberless sources of <pb n="03:187"/>happiness which they could not have upon
+                    earth. There they meet with ‘the glorious dead of ancient days’.<note
+                        place="foot" xml:id="ftn31" n="31"><p rend="footnote text">Is this a
+                            misremembrance of Isaac Watts’s line, ‘Thy glorious deeds of ancient
+                            date’ (<hi rend="italic">Works</hi>, IV.137)? See also No. 117, ‘On the
+                            Discoveries of Faith’ §8; and cf. Wesley’s variant in No. 132, ‘On
+                            Faith, Heb. 11:1’, §11: ‘the <hi rend="italic">illustrious</hi> dead of
+                            ancient <hi rend="italic">days</hi>’.</p></note> They converse with
+                    Adam, first of men; with Noah, first of the new world; with Abraham, ‘the friend
+                    of God’;<note place="foot" xml:id="ftn32" n="32"><p rend="footnote text">Jas.
+                            2:23.</p></note> with Moses and the prophets; with the apostles of the
+                    Lamb; with the saints of all ages; and above all, they ‘are with Christ’.</p>
+                <p n="5">5. How different, alas! is the case with him who loses his own soul! The
+                    moment he steps into eternity he meets with the devil and his angels. Sad convoy
+                    into the world of spirits! Sad earnest of what is to come! And either he is
+                    bound with chains of darkness, and reserved unto the judgment of the great
+                        day;<note place="foot" xml:id="ftn33" n="33"><p rend="footnote text">Jude
+                            6.</p></note> or at best he wanders up and down, seeking rest, but
+                    finding none.<note place="foot" xml:id="ftn34" n="34"><p rend="footnote text"
+                            >See Luke 11:24.</p></note> Perhaps he may seek it (like the ‘unclean
+                    spirit cast out of the man’) in dry, dreary, desolate places;<note place="foot"
+                        xml:id="ftn35" n="35"><p rend="footnote text"><hi rend="italic"
+                            >Ibid.</hi></p></note> perhaps</p>
+                <lg>
+                    <l>Where nature all in ruins lies,</l>
+                    <l>And owns her sovereign, death!</l>
+                    <note place="foot" xml:id="ftn36" n="36">
+                        <p rend="footnote text">Cf. Watts, ‘Death and Eternity’, st. 1, ll. 3-4, <hi
+                                rend="italic">Horae Lyricae</hi>, Bk. I (<hi rend="italic"
+                                >Works</hi>, IV.343). Cf. also John Wesley, <hi rend="italic">A
+                                Collection of Moral and Sacred Poems</hi> (1744), I.194. See also
+                            No. 82, ‘On Temptation’, I.4.</p>
+                    </note>
+                </lg>
+                <p>And little comfort can he find here, seeing everything contributes to increase,
+                    not remove, the fearful expectation of fiery indignation which will devour the
+                        ungodly!<note place="foot" xml:id="ftn37" n="37"><p rend="footnote text">See
+                            Heb. 10:27.</p></note></p>
+                <p n="6">6. For even this is to him but the beginning of sorrows.<note place="foot"
+                        xml:id="ftn38" n="38"><p rend="footnote text">Matt. 24:8.</p></note> Yet a
+                    little while, and he will see ‘the great white throne coming down from heaven,
+                    and him that sitteth thereon, from whose face the heavens and the earth flee
+                    away, and there is found no place for them’. And ‘the dead, small and great,
+                    stand before God, and are judged, everyone according to his works.’<note
+                        place="foot" xml:id="ftn39" n="39"><p rend="footnote text">Cf. Rev.
+                            20:11-12.</p></note> ‘Then shall the King say to them on his right hand’
+                    (God grant he may say so to you!): ‘Come, ye blessed of my Father, inherit the
+                    kingdom prepared for you from the foundation of the world.’<note place="foot"
+                        xml:id="ftn40" n="40"><p rend="footnote text">Matt. 25:34.</p></note> And
+                    the angels shall tune their harps and sing, ‘Lift up your heads, O ye gates, and
+                    be ye lift up, ye everlasting doors, that the heirs of glory may come in.’<note
+                        place="foot" xml:id="ftn41" n="41"><p rend="footnote text">Cf. Ps.
+                        24:7.</p></note> And then shall they ‘shine as the brightness of the
+                    firmament, and as the stars for ever and ever.’<note place="foot" xml:id="ftn42"
+                        n="42"><p rend="footnote text">Dan. 12:3.</p></note></p>
+                <p n="7"><pb n="03:188"/>7. How different will be the lot of him that loses his own
+                    soul! No joyful sentence will be pronounced on him, but one that will pierce him
+                    through with unutterable horror (God forbid that ever it should be pronounced on
+                    any of you that are here before God!): ‘Depart ye cursed, into everlasting fire,
+                    prepared for the devil and his angels!’<note place="foot" xml:id="ftn43" n="43"
+                            ><p rend="footnote text">Matt. 25:41.</p></note> And who can doubt but
+                    those infernal spirits will immediately execute the sentence, will instantly
+                    drag those forsaken of God into their own place of torment!<note place="foot"
+                        xml:id="ftn44" n="44"><p rend="footnote text">Luke 16:28.</p></note> Into
+                    those</p>
+                <lg><l>Regions of sorrow, doleful shades; where joy,</l>
+                    <l>Where peace can never come! Hope never comes,</l>
+                    <l>That comes to all!</l><note place="foot" xml:id="ftn45" n="45"><p
+                            rend="footnote text">Cf. Milton, <hi rend="italic">Paradise Lost</hi>,
+                            i.65-69; see also Nos. 73,‘Of Hell’, III.3; and 124,‘Human Life a
+                            Dream’, §12.</p></note>—</lg>
+                <p>all the children of men who are on this side eternity. But not to them: the gulf
+                    is now fixed, over which they cannot pass.<note place="foot" xml:id="ftn46"
+                        n="46"><p rend="footnote text">See Luke 16:26; cf. above, I.4 and
+                        n.</p></note> From the moment wherein they are once plunged into the lake of
+                    fire, burning with brimstone,<note place="foot" xml:id="ftn47" n="47"><p
+                            rend="footnote text">See Rev. 19:20.</p></note> their torments are not
+                    only without intermission, but likewise without end. For ‘they have no rest, day
+                    or night, but the smoke of their torment ascendeth up for ever and ever.’<note
+                        place="foot" xml:id="ftn48" n="48"><p rend="footnote text">Cf. Rev.
+                            14:11.</p></note></p>
+            </div>
+            <div type="section" n="3">
+                <p>III. Upon ever so cursory a view of these things would not anyone be astonished
+                    that a man, that a creature endued with reason, should voluntarily choose (I say
+                        <hi rend="italic">choose</hi>; for God forces no man into inevitable
+                    damnation: he never yet</p>
+                <lg><l>Consigned one unborn soul to hell,</l>
+                    <l>Or damned him from his mother’s womb)</l><note place="foot" xml:id="ftn49"
+                        n="49"><p rend="footnote text">Cf. John and Charles Wesley, ‘Universal
+                            Redemption’, <hi rend="italic">Hymns and Sacred Poems </hi>(1740), p.
+                            133 (<hi rend="italic">Poet. Wks.</hi>, III.33). See No. 54, ‘On
+                            Eternity’, §14, where Wesley quotes the entire stanza; and cf. his
+                            letter to James Hervey, Oct. 15, 1756.</p></note>—</lg>
+                <p>should choose thus to lose his own soul, though it were to gain the whole world!
+                    For what shall a man be profited thereby upon the whole of the account?</p>
+                <p>But a little to abate our astonishment at this, let us observe the suppositions
+                    which a man generally makes before he can reconcile himself to this fatal
+                    choice.</p>
+                <p n="1"><pb n="03:189"/>1. He supposes, first, that a life of religion is a life of
+                    misery. That religion is misery! How is it possible that anyone should entertain
+                    so strange a thought! Do any of <hi rend="italic">you</hi> imagine this? If you
+                    do, the reason is plain; you know not what religion is. ‘No! But I do, as well
+                    as you.’ What is it then? ‘Why, the doing no harm.’ Not so; many birds and
+                    beasts do no harm, yet they are not capable of religion. ‘Then it is going to
+                    church and sacrament.’ Indeed it is not. This may be an excellent help to
+                    religion; and everyone who desires to save his soul should attend them at all
+                    opportunities; yet it is possible you may attend them all your days, and still
+                    have no religion at all. Religion is an higher and deeper thing than any outward
+                    ordinance whatever.</p>
+                <p n="2">2. ‘What is religion, then?’ It is easy to answer if we consult the oracles
+                    of God. According to these it lies in one single point: it is neither more nor
+                    less than love—it is love which ‘is the fulfilling of the law’,<note
+                        place="foot" xml:id="ftn50" n="50"><p rend="footnote text">Rom.
+                        13:10.</p></note> ‘the end of the commandment’.<note place="foot"
+                        xml:id="ftn51" n="51"><p rend="footnote text">1 Tim. 15.</p></note> Religion
+                    is the love of God and our neighbour—that is, every man under heaven.<note
+                        place="foot" xml:id="ftn52" n="52"><p rend="footnote text">An oft-repeated
+                            definition; cf. No. 7, ‘The Way to the Kingdom’, I.8 and n.; for ‘inward
+                            holiness’ (love of God) and ‘outward holiness’ (love of neighbour), cf.
+                                <hi rend="italic">ibid.</hi>, I.10 and n.</p></note> This love,
+                    ruling the whole life, animating all our tempers and passions, directing all our
+                    thoughts, words, and actions, is ‘pure religion and undefiled’.<note
+                        place="foot" xml:id="ftn53" n="53"><p rend="footnote text">Jas.
+                        1:27.</p></note></p>
+                <p n="3">3. Now will anyone be so hardy as to say that love is misery? Is it misery
+                    to love God? To give him my heart who alone is worthy of it? Nay, it is the
+                    truest happiness, indeed the only true happiness which is to be found under the
+                    sun. So does all experience prove the justness of that reflection which was made
+                    long ago: ‘Thou hast made us for thyself; and our heart cannot rest until it
+                    resteth in thee.’<note place="foot" xml:id="ftn54" n="54"><p
+                            rend="footnote text">Augustine, <hi rend="italic">Confessions</hi>, I.i;
+                            see No. 3, <hi rend="italic">‘Awake, Thou That Sleepest’</hi>, II.5 and
+                            n.</p></note> Or does anyone imagine the love of our neighbour is
+                    misery, even the loving every man as our own soul? So far from it that next to
+                    the love of God this affords the greatest happiness of which we are capable.
+                    Therefore,</p>
+                <lg>
+                    <l>Let not the stoic boast his mind unmoved,</l>
+                    <l>The brute-philosopher, who ne’er has proved</l>
+                    <l>The joy of loving, or of being loved.</l>
+                    <note place="foot" xml:id="ftn55" n="55">
+                        <p rend="footnote text"><hi rend="italic">OED</hi> (‘brute’), on Johnson’s
+                            authority, cites this as from Alexander Pope. Actually, it is a nearly
+                            exact quotation from Nicholas Rowe’s first play, <hi rend="italic">The
+                                Ambitious Step-Mother </hi>(1701), Prologue, ll. 6-8. Cf. Wesley’s
+                            earlier reference to ‘brute philosophers’, in No. 22, ‘Sermon on the
+                            Mount, II’, I.2.</p>
+                    </note>
+                </lg>
+                <p n="4"><pb n="03:190"/>4. So much every reasonable man must allow. But he may
+                    object: ‘There is more than this implied in religion. It implies not only the
+                    love of God and man (against which I have no objection) but also a great deal of
+                    doing and suffering. And how can this be consistent with happiness?’</p>
+                <p>There is certainly some truth in this objection. Religion does imply both doing
+                    and suffering. Let us then calmly consider whether this impairs or heightens our
+                    happiness.</p>
+                <p>Religion implies, first, the doing many things. For the love of God will
+                    naturally lead us at all opportunities to converse with him we love; to speak to
+                    him in (public or private) prayer, and to hear the words of his mouth, which
+                    ‘are dearer to us than thousands of gold and silver’.<note place="foot"
+                        xml:id="ftn56" n="56"><p rend="footnote text">Ps. 119:72 (BCP).</p></note>
+                    It will incline us to lose no opportunity of receiving</p>
+                <quote>The dear memorials of his dying love;<note place="foot" xml:id="ftn57" n="57"
+                            ><p rend="footnote text">Cf. John and Charles Wesley, Hymn 54, <hi
+                                rend="italic">Hymns on the Lord’s Supper</hi> (1745, <hi
+                                rend="italic">Poet. Wks.</hi>, III.253), beginning:</p>
+                        <lg><l>Why did my dying Lord ordain</l>
+                            <l>This dear memorial of his love?</l></lg><p rend="footnote text">In
+                                <hi rend="italic">SOSO</hi> (1788), VII.79, the quotation is altered
+                            to ‘The dear memorials of our dying Lord.’ The Wesleys may be indebted
+                            to Isaac Watts in this instance. Cf. his ‘Our Lord Jesus at His Own
+                            Table’, st. 1, l. 1, in Bk. III, Hymn XV (<hi rend="italic">Works</hi>,
+                            IV.263): ‘The mem’ry of our dying Lord’. See also Watts, ‘To the Memory
+                            of T. Gunston, Esq.’, l. 88 (<hi rend="italic">ibid.</hi>, p. 440),
+                            ‘That dear memorial of the best-loved name!’ See also, Edmund Spenser,
+                                <hi rend="italic">Faerie Queene</hi>, I.i-ii:</p>
+                        <lg><l>But on his breast a bloody cross he bore,</l>
+                            <l>The dear remembrance of his dying Lord.</l></lg></note></quote>
+                <p>to continue instant in thanksgiving; at morning, evening, and noonday to praise
+                    him. But suppose we do all this, will it lessen our happiness? Just the reverse.
+                    It is plain, all these fruits of love are means of increasing the love from
+                    which they spring; and of consequence they increase our happiness in the same
+                    proportion. Who then would not join in that wish:</p>
+                <lg><l>Rising to sing my Saviour’s praise,</l>
+                    <l>Thee may I publish all day long,</l>
+                    <l>And let thy precious word of grace</l>
+                    <l>Flow from my heart, and fill my tongue;</l>
+                    <l>Fill all my life with purest love,</l>
+                    <l>And join me to thy church above!</l><note place="foot" xml:id="ftn58" n="58"
+                            ><p rend="footnote text">Charles Wesley, ‘Hymn on Deut. 6:7’, in <hi
+                                rend="italic">Short Hymns on Select Passages of the Holy
+                                Scriptures</hi> (1762), I.93 (<hi rend="italic">Poet. Wks.</hi>,
+                            IX.95).</p></note>/lg> <p n="5"><pb n="03:191"/>5. It must also be
+                        allowed that as the love of God naturally leads to works of piety, so the
+                        love of our neighbour naturally leads all that feel it to works of mercy. It
+                        inclines us to feed the hungry, to clothe the naked, to visit them that are
+                        sick or in prison;<note place="foot" xml:id="ftn59" n="59"><p
+                                rend="footnote text">See Matt 25:35-36, 38.</p></note> to be as eyes
+                        to the blind and feet to the lame;<note place="foot" xml:id="ftn60" n="60"
+                                ><p rend="footnote text">Job 29:15.</p></note> an husband to the
+                        widow, a father to the fatherless.<note place="foot" xml:id="ftn61" n="61"
+                                ><p rend="footnote text">See Ps. 68:5.</p></note> But can you
+                        suppose that the doing this will prevent or lessen your happiness? Yea,
+                        though you did so much as to be like a guardian angel to all that are round
+                        about you? On the contrary, it is an infallible truth that</p>
+                    <lg><l>All worldly joys are less</l>
+                        <l>Than that one joy of doing kindnesses.</l><note place="foot"
+                            xml:id="ftn62" n="62"><p rend="footnote text">Cf. George Herbert, <hi
+                                    rend="italic">The Temple</hi>, ‘The Church Porch’, st. 55, ll.
+                                5-6; see No. 59, ‘God’s Love to Fallen Man’, I.9 and
+                        n.</p></note></lg>
+                    <p>A man of pleasure was asked some years ago, ‘Captain, what was the greatest
+                        pleasure you ever had?’ After a little pause he replied: ‘When we were upon
+                        our march in Ireland, in a very hot day, I called at a cabin on the road,
+                        and desired a little water. The woman brought me a cup of milk. I gave her a
+                        piece of silver; and the joy that poor creature expressed gave me the
+                        greatest pleasure I ever had in my life.’<note place="foot" xml:id="ftn63"
+                            n="63"><p rend="footnote text">Would this have belonged to an oral
+                                tradition? No literary source has yet been located.</p></note> Now
+                        if the doing good gave so much pleasure to one who acted merely from natural
+                        generosity, how much more must it give to one who does it on a nobler
+                        principle, the joint love of God and his neighbour? It remains, that the
+                        doing all which religion requires will not lessen, but immensely increase
+                        our happiness.</p>
+                    <p n="6">6. ‘Perhaps this also may be allowed. But religion implies, according
+                        to the Christian account, not only doing but <hi rend="italic"
+                            >suffering</hi>. And how can suffering be consistent with happiness?’
+                        Perfectly well. Many centuries ago it was remarked by St. Chrysostom: ‘The
+                        Christian has his sorrows as well as his joys; but his sorrow is sweeter
+                        than joy.’<note place="foot" xml:id="ftn64" n="64"><p rend="footnote text"
+                                >Cf. Chrysostom, Homily XVIII, §8 (<hi rend="italic">NPNF</hi>, <hi
+                                    rend="italic">II</hi>, IX.461). See also, Kempis, <hi
+                                    rend="italic">Imitation</hi>, III.xxx.</p></note> He may
+                        accidentally suffer loss, poverty, pain; but in all these things he is more
+                        than conqueror:<note place="foot" xml:id="ftn65" n="65"><p
+                                rend="footnote text">See Rom. 8:37.</p></note> he can testify,</p>
+                    <lg><l>Labour is rest, and pain is sweet,</l>
+                        <l>While thou, my God, art here.</l><note place="foot" xml:id="ftn66" n="66"
+                                ><p rend="footnote text">Cf. John and Charles Wesley, <hi
+                                    rend="italic">Hymns and Sacred Poems</hi> (1740), p. 127 (<hi
+                                    rend="italic">Poet. Wks.</hi>, I.304). See No. 52, <hi
+                                    rend="italic">The Reformation of Manners</hi>, III.7 and
+                            n.</p></note></lg>
+                    <p><pb n="03:192"/>He can say: ‘The Lord gave; the Lord taketh away: blessed be
+                        the name of the Lord!’<note place="foot" xml:id="ftn67" n="67"><p
+                                rend="footnote text">Cf. Job 1:21.</p></note> He <hi rend="italic"
+                            >must</hi> suffer more or less reproach; for ‘the servant is not above
+                        his master;’<note place="foot" xml:id="ftn68" n="68"><p rend="footnote text"
+                                >Cf. Matt. 10:24.</p></note> but so much the more does the Spirit of
+                        glory and of Christ rest upon him.<note place="foot" xml:id="ftn69" n="69"
+                                ><p rend="footnote text">See 1 Pet. 4:14.</p></note> Yea, love
+                        itself will on several occasions be the source of suffering: the love of God
+                        will frequently produce</p>
+                    <lg><l>... the pleasing smart,</l>
+                        <l>The meltings of a broken heart.</l><note place="foot" xml:id="ftn70"
+                            n="70"><p rend="footnote text">Charles Wesley, ‘The Invitation’, in <hi
+                                    rend="italic">Hymns on the Great Festivals</hi> (1746), p. 46
+                                    (<hi rend="italic">Poet. Wks.</hi>, V.64). For other lines from
+                                this hymn, cf. Nos. 63, ‘The General Spread of the Gospel’, §12; and
+                                123, ‘On Knowing Christ after the Flesh’, §12.</p></note></lg>
+                    <p>And the love of our neighbour will give rise to sympathizing sorrow: it will
+                        lead us to visit the fatherless and widow in their affliction,<note
+                            place="foot" xml:id="ftn71" n="71"><p rend="footnote text">Jas.
+                                1:27.</p></note> to be tenderly concerned for the distressed, and
+                        ‘to mix our pitying tear with those that weep’.<note place="foot"
+                            xml:id="ftn72" n="72"><p rend="footnote text">π; but cf. Pope, ‘Eloise
+                                to Abelard’, l. 22 (‘And pitying saints, whose statues learn to
+                                weep’) and a line from ‘The Rape of the Lock’, Canto V.1 (‘…the
+                                pitying audience melt in tears’).</p></note> But may we not well
+                        say, these are ‘tears that delight, and sighs that waft to heaven’?<note
+                            place="foot" xml:id="ftn73" n="73"><p rend="footnote text">Pope, ‘Eloise
+                                to Abelard’, l. 214.</p></note> So far then are all these sufferings
+                        from either preventing or lessening our happiness, that they greatly
+                        contribute thereto, and indeed constitute no inconsiderable part of it. So
+                        that upon the whole there cannot be a more false supposition than that a
+                        life of religion is a life of misery; seeing true religion, whether
+                        considered in its nature or its fruits, is true and solid happiness.</p>
+                    <p n="">7. The man who chooses to gain the world by the loss of his soul
+                        supposes, secondly, that a life of wickedness is a life of happiness! That
+                        wickedness is happiness! Even an old heathen poet could have taught him
+                        better. Even Juvenal discovered,</p>
+                    <quote><hi rend="italic">Nemo malus felix</hi><note place="foot" xml:id="ftn74"
+                            n="74"><p rend="footnote text">Juvenal, <hi rend="italic">Satires</hi>,
+                                iv.8; see No. 45, ‘The New Birth’, III.3 and n.</p></note>—</quote>
+                    <p>no wicked man is happy! And how expressly does God himself declare, ‘There is
+                        no peace to the wicked’<note place="foot" xml:id="ftn75" n="75"><p
+                                rend="footnote text">Isa. 57:21.</p></note>—no peace of mind; and
+                        without this there can be no happiness.</p>
+                    <p>But not to avail ourselves of authority, let us weigh the thing in <pb
+                            n="03:193"/>the balance of reason.<note place="foot" xml:id="ftn76"
+                            n="76"><p rend="footnote text">The obverse of ‘the balance of the
+                                sanctuary’; cf. No. 10, ‘The Witness of the Spirit, I’, II.8 and n.
+                                See also No. 147, ‘Wiser than the Children of Light’,
+                            III.2.</p></note> I ask, ‘What can make a wicked man happy?’ You answer,
+                        ‘He has “gained the whole world”.’ We allow it; and what does this imply? He
+                        has gained all that gratifies the senses: in particular, all that can please
+                        the taste, all the delicacies of meat and drink. True; but can eating and
+                        drinking make a man happy? They never did yet; and certain it is they never
+                        will. This is too coarse food for an immortal spirit. But suppose it did
+                        give him a poor kind of happiness during those moments wherein he was
+                        swallowing, what will he do with the residue of his time?<note place="foot"
+                            xml:id="ftn77" n="77"><p rend="footnote text">Cf. No. 50, ‘The Use of
+                                Money’, I.7 and n.</p></note> Will it not hang heavy upon his hands?
+                        Will he not groan under many a tedious hour, and think swift-winged time
+                        flies too slow? If he is not fully employed, will he not frequently complain
+                        of lowness of spirits?—an unmeaning expression, which the miserable
+                        physician usually no more understands than his miserable patient. We know
+                        there are such things as nervous disorders. But we know likewise that what
+                        is commonly called ‘nervous lowness’ is a secret reproof from God, a kind of
+                        consciousness that we are not in our place; that we are not as God would
+                        have us to be; we are unhinged from our proper centre.<note place="foot"
+                            xml:id="ftn78" n="78"><p rend="footnote text">Cf. No. 79, ‘On
+                                Dissipation’, §6 and n.</p></note></p>
+                    <p n="8">8. To remove, or at least soothe, this strange uneasiness, let him add
+                        the pleasures of imagination.<note place="foot" xml:id="ftn79" n="79"><p
+                                rend="footnote text">Cf. No. 44, <hi rend="italic">Original
+                                Sin</hi>, II.10 and n.</p></note> Let him bedaub himself with silver
+                        and gold, and adorn himself with all the colours of the rainbow. Let him
+                        build splendid palaces, and furnish them in the most elegant as well as
+                        costly manner. Let him lay out walks and gardens, beautified with all that
+                        nature and art can afford. And how long will these give him pleasure? Only
+                        as long as they are new. As soon as ever the novelty is gone, the pleasure
+                        is gone also. After he has surveyed them a few months, or years, they give
+                        him no more satisfaction. The man who is saving his soul has the advantage
+                        of him in this very respect. For he can say:</p>
+                    <lg><l>In the pleasures the rich man’s possessions display,</l>
+                        <l>Unenvied I challenge my part;</l>
+                        <l>While every fair object my eye can survey,</l>
+                        <l>Contributes to gladden my heart.</l><note place="foot" xml:id="ftn80"
+                            n="80"><p rend="footnote text">Cf. Thomas Fitzgerald, ‘An Ode’, st. 4,
+                                    <hi rend="italic">Poems</hi> (1733), pp. 12-13; see also John
+                                Wesley, <hi rend="italic">A Collection of Moral and Sacred
+                                    Poems</hi> (1744), II.142.</p></note></lg>
+                    <p n="9"><pb n="03:194"/>9. ‘However, he has yet another resource: applause,
+                        glory. And will not this make him happy?’ It will not; for he cannot be
+                        applauded by all men; no man ever was. Some will praise; perhaps many, but
+                        not all. It is certain some will blame; and he that is fond of applause will
+                        feel more pain from the censure of one than pleasure from the praise of
+                        many. So that whoever seeks happiness in applause will infallibly be
+                        disappointed, and will find, upon the whole of the account, abundantly more
+                        pain than pleasure.</p>
+                    <p n="10">10. But to bring the matter to a short issue. Let us take an instance
+                        of one who had gained more of this world than probably any man alive, unless
+                        he be a sovereign prince. But did all he had gained make him happy? Answer
+                        for thyself. Then said Haman, ‘Yet all this profiteth me nothing, while I
+                        see Mordecai sitting in the gate.’<note place="foot" xml:id="ftn81" n="81"
+                                ><p rend="footnote text">Cf. Esther 5:13.</p></note> Poor Haman! One
+                        unholy temper, whether pride, envy, jealousy, or revenge, gave him more
+                        pain, more vexation of spirit, than all the world could give pleasure. And
+                        so it must be in the nature of things; for all unholy tempers are unhappy
+                        tempers. Ambition, covetousness, vanity, inordinate affection, malice,
+                        revengefulness, carry their own punishment with them, and avenge themselves
+                        on the soul wherein they dwell. Indeed what are these, more especially when
+                        they are combined with an awakened conscience, but the dogs of hell<note
+                            place="foot" xml:id="ftn82" n="82"><p rend="footnote text">Cf. No. 15,
+                                    <hi rend="italic">The Great Assize</hi>, III.1 and n.</p></note>
+                        already gnawing the soul, forbidding happiness to approach! Did not even the
+                        heathens see this? What else means their fable of Tityus, chained to a rock
+                        with a vulture continually tearing up his breast and feeding upon his
+                            liver?<note place="foot" xml:id="ftn83" n="83"><p rend="footnote text"
+                                >Homer, <hi rend="italic">Odyssey</hi>, xi.576-81; cf. No. 73, ‘Of
+                                Hell’, II.2 and n.</p></note>
+                        <hi rend="italic">Quid rides?</hi> Why do you smile? Says the poet:</p>
+                    <lg>
+                        <l>
+                            <hi rend="italic">Mutate nomine, de te</hi>
+                        </l>
+                        <l>
+                            <hi rend="italic">Fabula narratur.</hi></l>
+                        <note place="foot" xml:id="ftn84" n="84">
+                            <p rend="footnote text">Cf. Horace, <hi rend="italic">Satires</hi>,
+                                I.i.68-70: ‘Tantalus, racked by thirst, reaches for the streams
+                                flowing by his lips. But why do you laugh at this? <hi rend="italic"
+                                    >Change but the name and this tale can be told of you</hi>.’ Cf.
+                                No. 87, ‘The Danger of Riches’, I.6.</p>
+                        </note>
+                    </lg>
+                    <p>It is another name: but thou art the man! Lust, foolish desire, envy, malice,
+                        or anger, is now tearing thy breast: love of money, or of praise, hatred, or
+                        revenge, is now feeding on thy poor spirit. Such happiness is in vice! So
+                        vain is the supposition that a life of wickedness is a life of
+                            happiness!<note place="foot" xml:id="ftn85" n="85"><p
+                                rend="footnote text">A negative of Wesley’s correlation of holiness
+                                and happiness; cf. I.3 above, and No. 7, ‘The Way to the Kingdom’,
+                                II.2 and n.</p></note></p>
+                    <p n="11"><pb n="03:195"/>11. But he makes a third supposition, that he shall
+                        certainly live forty or fifty or threescore years. Do <hi rend="italic"
+                            >you</hi> depend upon this? On living threescore years? Who told you
+                        that you should? It is no other than the enemy of God and man: it is the
+                        murderer of souls. Believe him not: he was a liar from the beginning;<note
+                            place="foot" xml:id="ftn86" n="86"><p rend="footnote text">See John
+                                8:44.</p></note> from the beginning of his rebellion against God. He
+                        is eminently a liar in this; for he would not give you life if he could.
+                        Would God permit, he would make sure work, and just now hurry you to his own
+                        place. And he cannot give you life if he would: the breath of man is not in
+                        his hands. He is not the disposer of life and death—that power belongs to
+                        the Most High. It is possible, indeed, God may, on some occasions, permit
+                        him to inflict death. I do not know but it was an evil angel who smote an
+                        hundred fourscore and five thousand Assyrians in one night;<note
+                            place="foot" xml:id="ftn87" n="87"><p rend="footnote text">See 2 Kgs.
+                                19:35; Isa. 37:36.</p></note> and the fine lines of our poet are as
+                        applicable to an evil as to a good spirit:</p>
+                    <lg><l>So when an angel, by divine command,</l>
+                        <l>Hurls death and terror o’er a guilty land—</l>
+                        <l>He, pleased th’ Almighty’s order to perform,</l>
+                        <l>Rides in the whirlwind, and directs the storm.</l></lg>
+                    <note place="foot" xml:id="ftn88" n="88"><p rend="footnote text">Cf. Addison,
+                            ‘The Campaign’, 286-91:</p><lg>
+                            <l>So when an angel, by divine command</l>
+                            <l>With rising tempests shakes the guilty land,</l>
+                            <l>Such as of late o’er pale Britannia passed,</l>
+                            <l>Calm and serene he drives the furious blasts;</l>
+                            <l>And, pleased th’ Almighty’s order to perform,</l>
+                            <l>Rides in the whirlwind, and directs the storm.</l></lg><p
+                            rend="footnote text">This was written as part of the celebration of the
+                            Duke of Marlborough’s triumphal return to London (Dec. 21, 1704) after
+                            his victory at Blenheim (Aug. 13, 1704).</p></note></lg>
+                <p>But though Satan may sometimes inflict death, I know not that he could ever give
+                    life. It was one of his most faithful servants that shrieked out some years ago:
+                    ‘A week’s life! A week’s life! Thirty thousand pounds for a week’s life!’<note
+                        place="foot" xml:id="ftn89" n="89"><p rend="footnote text">Was this an oral
+                            tradition about someone such as Lord Chesterfield (d. 1773)? Later,
+                            Wesley tells a similar story about Voltaire’s death (cf. JWJ, Sept. 13,
+                            1778); see also his letter of Jan. 4, 1779, to an unidentified man.
+                                In<hi rend="italic"> AM</hi> (1783), VI.645, Wesley printed the
+                            account of Voltaire’s death which he had recently read in the <hi
+                                rend="italic">Gent’s Mag.</hi> (Nov. 1782), LII.529.</p></note> But
+                    he could not purchase a day’s life. That night God required his soul of him! And
+                    how soon may he require it of <hi rend="italic">you</hi>? Are you sure of living
+                    threescore years? <pb n="03:196"/>Are you sure of living one year? One month?
+                    One week? One day? O make haste to live! Surely the man that may die tonight,
+                    should live today.</p>
+                <p n="12">12. So absurd are all the suppositions made by him who gains the world and
+                    loses his soul! But let us for a moment imagine that religion is misery, that
+                    wickedness is happiness, and that he shall certainly live threescore years; and
+                    still I would ask, ‘<hi rend="italic">What is he profited</hi> if he gain the
+                    whole world for threescore years, and then lose his soul eternally?’</p>
+                <p>Can such a choice be made by any that considers what eternity is? Philip
+                    Melanchthon, the most learned of all the German reformers, gives the following
+                    relation. (I pass no judgment upon it, but set it down nearly in his own words.)
+                    ‘When I was at Würtemberg, as I was walking out one summer evening with several
+                    of my fellow-students, we heard an uncommon singing, and following the sound saw
+                    a bird of an uncommon figure. One stepping up asked, “In the name of the Father,
+                    Son, and Holy Ghost, what art thou?” It answered, “I am a damned spirit;” and in
+                    vanishing away pronounced these words: “O eternity, eternity! Who can tell the
+                    length of eternity!”’<note place="foot" xml:id="ftn90" n="90"><p
+                            rend="footnote text">Wesley’s misattribution of this story to
+                            Melanchthon himself is interesting. Actually, it was one of
+                            Melanchthon’s published anecdotes about a reported incident from the
+                            Council of Basel (not Würtemberg) concerning a group of learned members
+                            strolling together one evening and being astonished by the sound of a
+                            speaking bird. One of the bolder men (<hi rend="italic">animosior</hi>)
+                            accosted the bird with the demand: ‘I adjure you, by the Son of God…,
+                            tell me who you are?’ Whereupon the bird responded <hi rend="italic">in
+                                Latin</hi>: ‘I am a damned spirit, and I have been stationed here as
+                            my destiny until the last days.’ Then he flew away, calling out, <hi
+                                rend="italic">in German</hi>, ‘Eternity, eternity, eternity! How
+                            long is eternity.’ The original appears in Melanchthon’s <hi
+                                rend="italic">Historiae Quaedam Recitatae Inter Publicas
+                                Lectiones</hi>, CXLIII, in <hi rend="italic">Opera</hi> (Brunsvigae,
+                            1854), <hi rend="italic">Corpus Reformatorum</hi>, 20:554-55: ‘<hi
+                                rend="italic">In concilia Basiliensi quidam docti viri (cum nunc ibi
+                                essent) deambulationis gratia exiverunt in proximum nemus; audiunt
+                                ibi suavissime canentem aviculam et inusitatos sonos edentem;
+                                mirantur, quid sit. Ibi unus inter illos animosior, qui suspicatus
+                                est non esse veram avem, accessit et alloquitur: Adiuro te, inquit,
+                                per filium Dei, Dominum nostrum Iesum Christum, ut dicas mihi, qui
+                                sis. Respondit: Ego sum damnatus spiritus, et est mihi hos
+                                domicilium destinatum usque ad novissimum diem. Postea avolavit et
+                                clamavit: EWIG EWIG EWIG WIE LANG IST DAS! Isti perterrefacti domini
+                                iverunt et coeperunt aegrotare ex consternatione, et aliqui etiam
+                                mortui sunt.</hi>’</p></note> And how soon will this be the language
+                    of him who sold his soul for threescore years’ pleasure!<note place="foot"
+                        xml:id="ftn91" n="91"><p rend="footnote text">Cf. No. 142, ‘The Wisdom of
+                            Winning Souls’, II.</p></note> How soon will he cry out, ‘O eternity,
+                    eternity! Who can tell the length of eternity!’</p>
+                <p n="13">13. In how striking a manner is this illustrated by one of the ancient
+                    fathers! ‘Supposing there were a ball of sand as big as the whole earth. Suppose
+                    a grain of this to be annihilated in a thousand years. Which would be more
+                    eligible, to be happy while <pb n="03:197"/>this ball was wasting away at the
+                    rate of one grain in a thousand years, and miserable ever after? Or to be
+                    miserable while it was wasting away at that proportion, and happy ever
+                        after?’<note place="foot" xml:id="ftn92" n="92"><p rend="footnote text"
+                            >Cyprian: see No. 54, ‘On Eternity’, §10 and n.</p></note> A wise man,
+                    it is certain, could not pause one moment upon the choice; seeing all the time
+                    wherein this ball would be wasting away bears infinitely less proportion to
+                    eternity than a drop of water to the whole ocean, or a grain of sand to the
+                    whole mass. Allowing then that a life of religion were a life of misery, that a
+                    life of wickedness were a life of happiness, and that a man were assured of
+                    enjoying that happiness for the term of threescore years; yet what would he be
+                    profited if he were then to be miserable to all eternity?</p>
+                <p n="14">14. But it has been proved that the case is quite otherwise, that religion
+                    is happiness, that wickedness is misery, and that no man is assured of living
+                    threescore days: and if so, is there any fool, any madman<note place="foot"
+                        xml:id="ftn93" n="93"><p rend="footnote text">No. 4, <hi rend="italic"
+                                >Scriptural Christianity</hi>, IV.2 and n.</p></note> under heaven,
+                    who can be compared to him that casts away his own soul, though it were to gain
+                    the whole world? For what is the real state of the case? What is the choice
+                    which God proposes to his creatures? It is not: ‘Will you be happy threescore
+                    years, and then miserable for ever; or, will you be miserable threescore years,
+                    and then happy for ever?’ It is not: ‘Will you have first a temporary heaven,
+                    and then hell eternal; or, will you have first a temporary hell, and then heaven
+                    eternal?’ But it is simply this: Will you be miserable threescore years, and
+                    miserable ever after; or, will you be happy threescore years, and happy ever
+                    after? Will you have a foretaste of heaven now, and then heaven for ever; or
+                    will you have a foretaste of hell now and then hell for ever? Will you have two
+                    hells, or two heavens?</p>
+                <p n="15">15. One would think there needed no great sagacity to answer this
+                    question. And this is the very question which I now propose to <hi rend="italic"
+                        >you</hi> in the name of God. Will you be happy here and hereafter—in the
+                    world that now is, and in that which is to come? Or will you be miserable here
+                    and hereafter, in time and in eternity? What is your choice? Let there be no
+                    delay: now take one or the other. I take heaven and earth to record this day
+                    that I set before you life and death, blessing and cursing. O choose life!<note
+                        place="foot" xml:id="ftn94" n="94"><p rend="footnote text">See Deut.
+                            30:19.</p></note> The life of peace and love now; the life of glory for
+                    ever. By the grace of God now choose that better part, which shall never be
+                    taken from you.<note place="foot" xml:id="ftn95" n="95"><p rend="footnote text"
+                            >See Luke 10:42.</p></note> And having once fixed your choice, never
+                    draw <pb n="03:198"/>back; adhere to it at all events. Go on in the name of the
+                    Lord whom ye have chosen, and in the power of his might!<note place="foot"
+                        xml:id="ftn96" n="96"><p rend="footnote text">Eph. 6:10.</p></note> In spite
+                    of all opposition, from nature, from the world, from all the powers of darkness,
+                    still fight the good fight of faith, and lay hold on eternal life!<note
+                        place="foot" xml:id="ftn97" n="97"><p rend="footnote text">1 Tim.
+                        6:12.</p></note> And then there is laid up for you a crown, which the Lord,
+                    the righteous Judge, will give you at that day!<note place="foot" xml:id="ftn98"
+                        n="98"><p rend="footnote text"> See 2 Tim. 4:8.</p></note></p>
+            </div>
+            <p><placeName>Bristol</placeName>, <date when="09-30-1775">Sept. 30, 1775</date></p>
+        </body>
+    </text>
+</TEI>

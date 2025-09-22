@@ -1,0 +1,638 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Sermon 90: An Israelite Indeed</title>
+                <author>Wesley, John</author>
+                <editor role="text">Van Buskirk, Gregory P.</editor>
+                <editor role="digital">Taylor, Michelle M.</editor>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>The Wesley Works Digitzation Project</publisher>
+                <pubPlace>Tampa, FL</pubPlace>
+                <date>2024-02-25</date>
+            </publicationStmt>
+            <sourceDesc>
+                <listBibl>
+                    <biblStruct>
+                        <analytic>
+                            <title level="a">Sermon 90: An Israelite Indeed</title>
+                        </analytic>
+                        <monogr>
+                            <title level="j">The Works of John Wesley, Volume III: Sermons III,
+                                71-114</title>
+                            <editor role="volume">Outler, Albert</editor>
+                            <imprint>
+                                <publisher>Abingdon Press</publisher>
+                                <pubPlace>Nashville, TN</pubPlace>
+                                <date when="1986-11-01">1986-11-01</date>
+                                <biblScope unit="volume" n="3"/>
+                                <biblScope unit="page" from="278" to="289"/>
+                            </imprint>
+                        </monogr>
+                        <series>
+                            <title level="s">The Works of John Wesley</title>
+                            <editor role="general">Baker, Frank</editor>
+                        </series>
+                    </biblStruct>
+                </listBibl>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Greg Van Buskirk created Word docs for all of Wesley's sermons using a combination of
+                OCR software and manual proofing. Michelle Taylor converted these docx into XML
+                using Oxygen's DITA automatic transformation scenario, then touched them up
+                manually.</p>
+        </encodingDesc>
+        <standOff>
+            <taxonomy>
+                <keywords>
+                    <term/>
+                </keywords>
+            </taxonomy>
+            <!--Include keywords and terms here eventually.-->
+        </standOff>
+        <revisionDesc/>
+    </teiHeader>
+    <text>
+        <body>
+            <pb n="03:278"/>
+            <head>
+                <hi rend="italic">An Introductory Comment</hi>
+            </head>
+            <introduction>
+                <p>This is another sermon prepared expressly for the <hi rend="italic">Arminian
+                        Magazine</hi>. We have no other data about its context except the
+                    interesting fact that Wesley seems to have used John 1:47 as a preaching text
+                    but twice—once in 1728 (see No. 138A, ‘On Dissimulation’) and again in 1755. In
+                    a way more probing than ‘The More Excellent Way’, this sermon is a discussion of
+                    a Christian’s inner motivations and aims, and his outward expressions of
+                    Christian benevolence; the illuminating metaphor for all this is Nathanael’s <hi
+                        rend="italic">guilelessness</hi>. The sermon also serves as Wesley’s belated
+                    refutation of the naturalist ethics of Francis Hutcheson and Hutcheson’s claim
+                    (along with the deists generally) that the virtues of human benevolence are
+                    innate and universal in human nature itself. (See No. 12, ‘The Witness of Our
+                    Own Spirit’, §5 and n.) One may suppose that Hutcheson’s influence had continued
+                    to grow, and Wesley had concluded that a formal rejection was needed, since on
+                    Hutcheson’s ground one could dispense with the supernatural aspects of biblical
+                    revelation. The sermon first appeared in the <hi rend="italic">Arminian
+                        Magazine</hi> (July and August 1785), VIII.349-54, 393-98, with no title but
+                    numbered as ‘Sermon XXVIII’. It was then included in <hi rend="italic"
+                    >SOSO</hi>, VII.215-31, with its present title apparently lifted from the text.
+                    It was not reprinted in Wesley’s lifetime.</p>
+            </introduction>
+            <pb n="03:279"/>
+            <head>An Israelite Indeed</head>
+            <epigraph>
+                <p>John 1:47</p>
+                <p>
+                    <hi rend="italic">Behold an Israelite indeed, in whom is no guile.</hi>
+                </p>
+            </epigraph>
+            <div>
+                <p n="1">1. Some years ago a very ingenious man, Professor Hutcheson of
+                        Glasgow,<note place="foot" xml:id="ftn1" n="1"><p rend="footnote text">Texts
+                            in both the <hi rend="italic">AM</hi> and <hi rend="italic">SOSO</hi>
+                            read ‘Hutchinson’, but this is obviously a printer’s error. The
+                            reference is to Francis Hutcheson (1694-1746); see above No. 12, ‘The
+                            Witness of Our Own Spirit’, §5 and n. Wesley secured a copy of <hi
+                                rend="italic">An Inquiry into the Original of Our Ideas of Beauty
+                                and Virtue</hi> in the year of its publication (1725); a copy of the
+                            third edn. (1729) initialled ‘J. W. 1772. Kingswood’ is still in the
+                            library of the Kingswood School where, along with Hutcheson’s <hi
+                                rend="italic">Essay on the Nature and Conduct of the Passions and
+                                Affections with Illustrations Upon the Moral Sense</hi> (1726), it
+                            had been used as a text.</p></note> published two treatises, on <hi
+                        rend="italic">The Original of our Ideas of Beauty and Virtue</hi>. In the
+                    latter of these he maintains that the very essence of virtue is the love of our
+                    fellow-creatures. He endeavours to prove that virtue and benevolence are one and
+                    the same thing; that every temper is only so far virtuous as it partakes of the
+                    nature of benevolence; and that all our words and actions are then only virtuous
+                    when they spring from the same principle. ‘But does he not suppose gratitude, or
+                    the love of God to be the foundation of this benevolence?’ By no means: such a
+                    supposition as this never entered into his mind. Nay, he supposes just the
+                    contrary; he does not make the least scruple to aver that if any temper or
+                    action be produced by any regard to God, or any view to a reward from him, it is
+                    not virtuous at all; and that if an action spring partly from benevolence and
+                    partly from a view to God, the more there is in it of a view to God, the less
+                    there is of virtue.<note place="foot" xml:id="ftn2" n="2"><p
+                            rend="footnote text">This is a caricature of Hutcheson’s argument (Pt.
+                            II, Concerning Moral Good and Evil); Hutcheson had repeatedly asserted
+                            that both virtue and the love of God are fixed in us by our divine
+                            Creator; cf. No. 12, ‘The Witness of Our Own Spirit’, §5 and
+                        n.</p></note></p>
+                <p n="2">2. I cannot see this beautiful essay of Mr. Hutcheson’s in any other light
+                    than as a decent, and therefore more dangerous, attack upon the whole of the
+                    Christian Revelation;<note place="foot" xml:id="ftn3" n="3"><p
+                            rend="footnote text">The quarrel between Wesley and Hutcheson turns upon
+                            the issue of the prime motivation for human benevolence (i.e., what is
+                            ‘the first and great commandment’?); and Hutcheson does deny that our
+                            primary ethical concern is to seek or earn God’s approval of our moral
+                            actions. Yet he insists (against Shaftesbury, Mandeville, Hobbes, and
+                            the deists) that even on naturalistic grounds, ‘Christianity…gives us
+                            the truest idea of virtue and recommends the love of God and of mankind
+                            as the sum of true religion’ (<hi rend="italic">Inquiry</hi>, xix-xx);
+                            cf. No. 105, ‘On Conscience’, I.8-10.</p></note> seeing this asserts the
+                        <pb n="03:280"/>love of God to be the true foundation both of the love of
+                    neighbour and all other virtues; and accordingly places this as ‘the first and
+                    great commandment’,<note place="foot" xml:id="ftn4" n="4"><p
+                            rend="footnote text">Matt. 22:38.</p></note> on which all the rest
+                    depend—‘Thou shalt love the Lord thy God will all thy heart, and with all thy
+                    mind, and with all thy soul, and with all thy strength.’<note place="foot"
+                        xml:id="ftn5" n="5"><p rend="footnote text">Cf. Mark 12:30.</p></note> So
+                    that according to the Bible, benevolence, or the love of our neighbour, is only
+                    the second commandment. And suppose the Scripture be of God, it is so far from
+                    being true that benevolence alone is both the foundation and the essence of all
+                    virtue that benevolence itself is no virtue at all, unless it spring from the
+                    love of God.</p>
+                <p n="3">3. Yet it cannot be denied that this writer himself has a marginal note in
+                    favour of Christianity. ‘Who would not wish’, says he, ‘that the Christian
+                    Revelation could be proved to be of God? Seeing it is unquestionably the most
+                    benevolent institution that ever appeared in the world.’<note place="foot"
+                        xml:id="ftn6" n="6"><p rend="footnote text">No such sentence appears in
+                            Hutcheson’s published writings; it is, apparently, a tenuous paraphrase
+                            by Wesley from Hutcheson’s rare allusions to Christianity as such. Cf.
+                                <hi rend="italic">Inquiry</hi>, p. 151: ‘Whoever would appeal to the
+                            general strain of Christian exhortations will find <hi rend="italic"
+                                >disinterested love</hi> [i.e., benevolence] more inculcated and <hi
+                                rend="italic">motives of gratitude</hi> more frequently suggested
+                            than any others.’ See also pp. 275-76 (1st edn.) and sect. 3, xv. Cf.
+                            Nos. 128, ‘The Deceitfulness of the Human Heart’, II.8; and 12, ‘The
+                            Witness of Our Own Spirit’, §5 and n.</p></note> But is not this, if it
+                    be considered thoroughly, another blow at the very root of that revelation? Is
+                    it more or less than to say: ‘I wish it could; but in truth it cannot be
+                    proved.’</p>
+                <p n="4">4. Another ingenious writer advances an hypothesis totally different from
+                    this. Mr. Wollaston, in the book which he entitles, <hi rend="italic">The
+                        Religion of Nature Delineated</hi>, endeavours to prove that ‘truth is the
+                    essence of virtue’, or conformableness to truth.<note place="foot" xml:id="ftn7"
+                        n="7"><p rend="footnote text">William Wollaston (1660-1724), a moral
+                            philosopher whose fame rests on one book (privately printed in 1722 and
+                            first published in 1724). It was yet another variation on the
+                            rationalistic ethics of Samuel Clarke, but with a distinctive emphasis
+                            on ‘the truth’ as the prime norm for all judgments ‘of moral good and
+                            evil’ (sect. I, Theses IV-X). Wollaston’s home was in Charterhouse
+                            Square, and Wesley ‘remembers to have seen [him] when I was at school,
+                            attending the public service at the Charterhouse chapel’ (No. 106, ‘On
+                            Faith, Heb. 11:6’, II.2). His alleged quotation does not appear in
+                            Wollaston’s text but is a reasonably accurate over-simplification of the
+                            basic argument. For example, Wollaston’s second ‘Thesis’ (p. 8) asserts
+                            that ‘those [moral propositions] are true which express things as they
+                            are…. Truth is the conformity of those words or signs by which things
+                            are exprest, to the things themselves.’ If one treats a post as if it
+                            were a man, or vice versa, this is more than a mistake; it is morally
+                            wrong (p. 15). But this presupposes that rational creatures are
+                            competent judges of ‘truth’, without any necessary aid of God’s
+                            self-revealed will or ‘law’—and this is what Wesley objects to. Even so,
+                            he kept copies of <hi rend="italic">The Religion of Nature
+                                Delineated</hi> (which he had read first in 1733) in the
+                            preaching-house libraries in London, Bristol, and Newcastle (cf. <hi
+                                rend="italic">Minutes</hi>, Aug. 3, 1745), and he includes it in a
+                            list of recommended readings in his edition of John Norris, <hi
+                                rend="italic">Reflections Upon the Conduct of Human Life</hi> (1741;
+                                <hi rend="italic">Bibliog</hi>, No. 3). For other references to
+                            Wollaston, cf. No. 120, ‘The Unity of the Divine Being’, §18; and JWJ,
+                            July 9, 1737. For ‘natural religion’, see No. 1, <hi rend="italic"
+                                >Salvation by Faith</hi>, I.2 and n.</p></note> But it seems <pb
+                        n="03:281"/>Mr. Wollaston goes farther from the Bible than Mr. Hutcheson
+                    himself. For Mr. Hutcheson’s scheme sets aside only one of the two great
+                    commandments, namely, ‘Thou shalt love the Lord thy God;’<note place="foot"
+                        xml:id="ftn8" n="8"><p rend="footnote text">Deut. 6:5; Matt.
+                        22:37.</p></note> whereas Mr. Wollaston sets aside both—for his hypothesis
+                    does not place the essence of virtue in either the love of God or of our
+                    neighbour.</p>
+                <p n="5">5. However, both of these authors agree, though in different ways, to put
+                    asunder what God has joined. But St. Paul unites them together in teaching us to
+                    ‘speak the truth in love’.<note place="foot" xml:id="ftn9" n="9"><p
+                            rend="footnote text">Cf. Eph. 4:15.</p></note> And undoubtedly both
+                    truth and love were united in him to whom he who knows the hearts of all men
+                    gives this amiable character, ‘Behold an Israelite indeed, in whom is no
+                    guile.’</p>
+                <p n="6">6. But who is it concerning whom our blessed Lord gives this glorious
+                    testimony? Who is this Nathanael, of whom so remarkable an account is given in
+                    the latter part of the chapter before us? Is it not strange that he is not
+                    mentioned again in any part of the New Testament? He is not mentioned again
+                    under this name; but probably he had another, whereby he was more commonly
+                    called. It was generally believed by the ancients that he is the same person who
+                    is elsewhere termed Bartholomew, one of our Lord’s apostles, and one that in the
+                    enumeration of them, both by St. Matthew and St. Mark, is placed immediately
+                    after St. Philip, who first brought him to his Master. It is very probable that
+                    his proper name was Nathanael—a name common among the Jews—and that his other
+                    name, Bartholomew, meaning only the son of Ptolemy, was derived from his father,
+                    a custom which was then exceeding common among the Jews, as well as the
+                        heathens.<note place="foot" xml:id="ftn10" n="10"><p rend="footnote text"
+                            >Cf. Wesley’s <hi rend="italic">Notes</hi> for John 1:45: ‘…Nathanael
+                            was probably the same with Bartholomew;’ he is here following Bengel’s
+                                <hi rend="italic">Gnomon</hi>, <hi rend="italic">lot. cit.</hi>, and
+                            an ancient tradition that thus reconciles John 1:45; John 21:2; Matt.
+                            10:3; and Acts 1:13. But see R. B. Y. Scott, ‘Who Was Nathanael?’ In <hi
+                                rend="italic">Expository Times</hi>, XXXVIII, No. 2 (Nov. 1926), pp.
+                            93-94, and U. Holzmeister, ‘<hi rend="italic">Nathanael, fuitne idem ac
+                                S. Bartholomaeus apostolus?</hi>’ in <hi rend="italic">Biblica</hi>,
+                            XXI (1940), 28-39.</p></note></p>
+                <p n="7">7. By what little is said of him in the context he appears to have been a
+                    man of an excellent spirit; not hasty of belief, and yet open to conviction, and
+                    willing to receive the truth from whencesoever <pb n="03:282"/>it came. So we
+                    read (verse 45): ‘Philip findeth Nathanael’ (probably by what we term accident),
+                    and said unto him, ‘We have found him of whom Moses in the law and the prophets
+                    did write, Jesus of Nazareth. Nathanael saith unto him, Can any good thing come
+                    out of Nazareth?’ Has Moses spoke, or did the prophets write, of any prophet to
+                    come from thence? ‘Philip saith unto him, Come and see,’ and thou wilt soon be
+                    able to judge for thyself. Nathanael took his advice, without staying to confer
+                    with flesh and blood.<note place="foot" xml:id="ftn11" n="11"><p
+                            rend="footnote text">See Gal. 1:16.</p></note> ‘Jesus saw Nathanael
+                    coming, and saith, Behold an Israelite indeed, in whom is no guile! Nathanael
+                    saith’, doubtless with surprise enough, ‘Whence knowest thou me? Jesus saith,
+                    Before Philip called thee, when thou wast under the fig tree, I saw thee.
+                    Nathanael answered and said unto him’ (so soon was all prejudice gone!): ‘Rabbi,
+                    thou art the Son of God! Thou art the King of Israel!’<note place="foot"
+                        xml:id="ftn12" n="12"><p rend="footnote text">John 1:45-49 (<hi
+                                rend="italic">Notes</hi>).</p></note></p>
+                <p n="">But what is implied in our Lord’s character of him—‘in whom is no guile’? It
+                    may include all that is contained in that advice,</p>
+                <lg>
+                    <l>Still let thy heart be true to God!</l>
+                    <l>Thy words to it, thy actions to them both.</l>
+                    <note place="foot" xml:id="ftn13" n="13">
+                        <p rend="footnote text">Cf. George Herbert, <hi rend="italic">The
+                                Temple</hi>, ‘The Church Porch’, II.73-74:</p>
+                        <p rend="Verse">Lie not; but let thy heart be true to God,</p>
+                        <p rend="Verse">Thy mouth to it, thy actions to them both.</p>
+                        <p rend="footnote text">See also John Wesley, <hi rend="italic">A Collection
+                                of Moral and Sacred Poems</hi> (1744), I.25.</p>
+                    </note>
+                </lg>
+            </div>
+            <div type="section" n="1">
+                <p n="1">I. 1. We may first observe what is implied in having our hearts true to
+                    God. Does this imply any less than is included in that gracious command, ‘My
+                    son, give me thy heart’?<note place="foot" xml:id="ftn14" n="14"><p
+                            rend="footnote text">Cf. Prov. 23:26.</p></note> Then only is our heart
+                    ‘true to God’, when we give it to him. We give him our heart in the lowest
+                    degree when we <hi rend="italic">seek</hi> our happiness in him; when we do not
+                    seek it in gratifying ‘the desire of the flesh’, in any of the pleasures of
+                    sense; or in gratifying ‘the desire of the eye’, in any of the pleasures of the
+                        imagination,<note place="foot" xml:id="ftn15" n="15"><p rend="footnote text"
+                            >Cf. No. 44, <hi rend="italic">Original Sin</hi>, II.10 and
+                        n.</p></note> arising from grand, or new, or beautiful objects, whether of
+                    nature or art; neither in ‘the pride of life’,<note place="foot" xml:id="ftn16"
+                        n="16"><p rend="footnote text">1 John 2:16. Cf. No. 7, ‘The Way to the
+                            Kingdom’, II.2 and n.</p></note> in ‘the honour that cometh of
+                        men’,<note place="foot" xml:id="ftn17" n="17"><p rend="footnote text">Cf.
+                            John 5:41, 44.</p></note> in being beloved, esteemed, and applauded by
+                    them; no, nor yet in what some term, with equal impudence and ignorance, ‘the
+                    main <pb n="03:283"/>chance’,<note place="foot" xml:id="ftn18" n="18"><p
+                            rend="footnote text">See No. 87, ‘The Danger of Riches’, II.4 and
+                        n.</p></note> the ‘laying up treasures on earth’.<note place="foot"
+                        xml:id="ftn19" n="19"><p rend="footnote text">Cf. Matt. 6:19; see also No.
+                            50, ‘The Use of Money’, intro.</p></note> When we seek happiness in none
+                    of these, but in God alone, then we in some sense give him our heart.</p>
+                <p n="2">2. But in a more proper sense we give God our heart when we not only seek
+                    but find happiness in him. This happiness undoubtedly begins when we begin to
+                    know him by the teaching of his own Spirit; when it pleases the Father to reveal
+                    his Son in our heart, so that we can humbly say ‘My Lord and my God;’<note
+                        place="foot" xml:id="ftn20" n="20"><p rend="footnote text">John
+                        20:28.</p></note> and when the Son is pleased to reveal his Father in us by
+                    ‘the Spirit of adoption crying in our hearts, Abba Father,’ and ‘bearing his
+                    ‘testimony to our spirits, that we are the children of God.’<note place="foot"
+                        xml:id="ftn21" n="21"><p rend="footnote text">Cf. Rom. 8:15-16.</p></note>
+                    Then it is that ‘the love of God also is shed abroad in our hearts.’<note
+                        place="foot" xml:id="ftn22" n="22"><p rend="footnote text">Rom.
+                        5:5.</p></note> And according to the degree of our love is the degree of our
+                    happiness.</p>
+                <p n="3">3. But it has been questioned whether it is the design of God that the
+                    happiness which is at first enjoyed by all that know and love him should
+                    continue any longer than, as it were, the day of their espousals. In very many,
+                    we must allow, it does not; but in a few months, perhaps weeks, or even days,
+                    the joy and peace either vanishes at once, or gradually decays. Now if God is
+                    willing that their happiness should continue, how is this to be accounted
+                    for?</p>
+                <p n="4">4. I believe, very easily. St. Jude’s exhortation, ‘Keep yourselves in the
+                    love of God’,<note place="foot" xml:id="ftn23" n="23"><p rend="footnote text"
+                            >Jude 21.</p></note> certainly implies that something is to be done on
+                    our part in order to its continuance. And is not this agreeable to that general
+                    declaration of our Lord concerning this and every gift of God: ‘Unto him that
+                    hath shall be given, and he shall have more abundantly; but from him that hath
+                    not’, that is, uses it not, improves it not, ‘shall be taken away even that
+                    which he hath’?<hi rend="endnote_reference"><note place="end"><p
+                                rend="endnote text">Luke 8:18 [cf. also John
+                    10:10].</p></note></hi></p>
+                <p n="5">5. Indeed part of this verse is translated in our version, ‘that which he
+                        <hi rend="italic">seemeth to have</hi>’. But it is difficult to make sense
+                    of this. For if he only <hi rend="italic">seemeth</hi> to have this, or any
+                    other gift of God, he really hath it not. And if so it cannot be taken away; for
+                    no man can lose what he never had. It is plain therefore ὅ δοκεῖ ἔχειν ought <pb
+                        n="03:284"/>to be rendered ‘what he assuredly hath’.<note place="foot"
+                        xml:id="ftn24" n="24"><p rend="footnote text">Luke 8:18 (<hi rend="italic"
+                                >Notes</hi>). Cf. Nos. 43, <hi rend="italic">The Scripture Way of
+                                Salvation</hi>, §1 and n.; and 82, ‘On Temptation’, §2 and n. See
+                            also Wesley’s <hi rend="italic">Notes</hi> for 1 Cor. 10:12.</p></note>
+                    And it may be observed that the word δοκέω, in various places of the New
+                    Testament, does not lessen but strengthens the sense of the word joined with it.
+                    Accordingly, whoever improves the grace he has already received, whoever
+                    increases in the love of God, will surely retain it. God will continue, yea,
+                    will give it more abundantly; whereas whoever does not improve this talent
+                    cannot possibly retain it.<note place="foot" xml:id="ftn25" n="25"><p
+                            rend="footnote text">Cf. No. 85, ‘On Working Out Our Own Salvation’,
+                            III.6 and n.</p></note> Notwithstanding all he can do, it will
+                    infallibly be taken away from him.</p>
+            </div>
+            <div type="section" n="2">
+                <p n="1">II. 1. Meantime, as the heart of him that is ‘an Israelite indeed’ is true
+                    to God, so his words are suitable thereto. And as there is no guile lodged in
+                    his heart, so there is none ‘found in his lips’.<note place="foot"
+                        xml:id="ftn26" n="26"><p rend="footnote text">Mal. 2:6; cf. 1 Pet.
+                        3:10.</p></note> The first thing implied herein is <hi rend="italic"
+                        >veracity</hi>, the speaking the truth from his heart; the putting away all
+                    wilful lying, in every kind and degree. A lie, according to a well-known
+                    definition of it, is<hi rend="italic">, falsum testmonium cum intentione
+                        fallendi</hi><note place="foot" xml:id="ftn27" n="27"><p
+                            rend="footnote text">Cf. Augustine, <hi rend="italic">De Mendacio</hi>,
+                            iv.5 (Migne, <hi rend="italic">PL</hi>, XL.491), or ‘On Lying’, §5, <hi
+                                rend="italic">in NPNF</hi>, <hi rend="italic">I</hi>,
+                        III.460.</p></note>—falsehood, known to be such by the speaker, and uttered
+                    with an intention to deceive. But even the speaking a falsehood is not a lie, if
+                    it be not spoken with an intent to deceive.</p>
+                <p n="2">2. Most casuists, particularly those of the Church of Rome, distinguish
+                    lies into three sorts: the first sort is malicious lies; the second, harmless
+                    lies; the third, officious lies<note place="foot" xml:id="ftn28" n="28"><p
+                            rend="footnote text">Cf. Thomas, <hi rend="italic">Summa
+                            Theologica</hi>, II-II, Q. 110, Art. 2: ‘Whether lies are rightly
+                            divided into <hi rend="italic">Officious</hi>, <hi rend="italic">Jocose,
+                            </hi>and <hi rend="italic">Mischievous</hi> lies?’ His answer is
+                            affirmative, and in Art. 3 he proceeds to the conclusion that ‘every lie
+                            is a sin, as also Augustine declares (<hi rend="italic">Contra
+                                Mendac.</hi> xiv)’. Cf. Bishop Ezekiel Hopkins, <hi rend="italic"
+                                >Exposition on the Ten Commandments</hi>, which Wesley extracted and
+                            printed in 1759 (<hi rend="italic">Bibliog</hi>, No. 234): ‘Now lies are
+                            usually distinguished into three kinds: the jocular, officious, and
+                            pernicious…’. See also Thomas Manton, <hi rend="italic">One Hundred and
+                                Ninety Sermons on the 119th Psalm</hi> (1681), p. 187: ‘There are
+                            three sorts of lies: <hi rend="italic">mendacium jocosum, officiosum, et
+                                perniciosum.</hi> There’s the sporting lie, tending to our
+                            recreation and delight; there’s the officious lie, tending to our own
+                            and others’ profit; and there’s the pernicious and hurtful lie, tending
+                            to our neighbour’s prejudice.’ Cf. Steele, <hi rend="italic">The
+                                Spectator</hi>, No. 234, Nov. 28, 1711; and John Tillotson, <hi
+                                rend="italic">Works</hi>, I.562.</p></note>—concerning which they
+                    pass a very different judgment. I know not any that are so hardy as even to
+                    excuse, much less defend, <hi rend="italic">malicious</hi> lies; that is, such
+                    as are told with a design to hurt any one. These are condemned by all parties.
+                    Men are more divided in their <pb n="03:285"/>judgment with regard to <hi
+                        rend="italic">harmless</hi> lies such as are supposed to do neither good nor
+                    harm. The generality of men, even in the Christian world, utter them without any
+                    scruple, and openly maintain that if they do no harm to anyone else, they do
+                    none to the speaker. Whether they do or no, they have certainly no place in the
+                    mouth of him that is ‘an Israelite indeed’. He cannot tell lies in jest, any
+                    more than in earnest; nothing but truth is heard from his mouth. He remembers
+                    the express command of God to the Ephesian Christians: ‘Putting away’ all ‘<hi
+                        rend="italic">lying</hi>, speak every man truth to his neighbour.’<hi
+                        rend="endnote_reference"><note place="end"><p rend="endnote text">Eph.
+                                4:25.</p></note></hi></p>
+                <p n="2">2. Concerning <hi rend="italic">officious</hi> lies, those that are spoken
+                    with a design to do good, there have been numerous controversies in the
+                    Christian church. Abundance of writers, and those men of renown for piety as
+                    well as learning, have published whole volumes upon the subject, and in despite
+                    of all opposers, not only maintained them to be innocent, but commended them as
+                        meritorious.<note place="foot" xml:id="ftn29" n="29"><p rend="footnote text"
+                            >Cf. Jeremy Taylor<hi rend="italic">, Ductor Dubitantium; Or, the Rule
+                                of Conscience</hi> (1660) Bk. III, ch. ii, ‘Of Laws Penal and
+                            Tributary’, Rule V, §§7-11. In §10, Taylor tells of a young Christian in
+                            Jerusalem who (by confessing to a deed of which he was not guilty) saved
+                            the larger community from execution ‘by an officious and charitable
+                            lie…. Himself indeed was put to death…but he saved the lives of all the
+                            rest; who, I doubt not, believed that young man to have in heaven a
+                            great reward for his piety, and no reproof for his innocent and pious
+                            lie;’ cf. Taylor, <hi rend="italic">Works</hi>, III.429. The burden of
+                            Taylor’s general argument, however, lies heavily against any
+                            self-serving form of lying.</p></note> But what saith the Scripture? One
+                    passage is so express that there does not need any other. It occurs in the third
+                    chapter of the Epistle to the Romans, where the very words of the Apostle are:
+                    ‘If the truth of God hath more abounded through my lie unto his glory, why am I
+                    yet judged as a sinner?’ (Will not that lie be excused from blame, for the good
+                    effect of it?) ‘And not rather (as we are slanderously reported, and as some
+                    affirm that we say), Let us do evil, that good may come? Whose damnation is
+                        just.’<hi rend="endnote_reference"><note place="end"><p rend="endnote text"
+                                >Ver. 7-8.</p></note></hi> Here the Apostle plainly declares: (1),
+                    that the good effect of a lie is no excuse for it; (2), that it is a mere
+                    slander upon Christians to say, ‘They teach men to do evil that good may come;’
+                    (3), that if any in fact do this, either teach men to do evil that good may
+                    come, or do so themselves, their damnation is just. This is peculiarly
+                    applicable to those who tell lies in order to do good thereby. It follows that
+                    officious lies, as well as all others, are <pb n="03:286"/>an abomination to the
+                    God of truth. Therefore there is no absurdity, however strange it may sound, in
+                    that saying of the ancient father, ‘I would not tell a wilful lie, to save the
+                    souls of the whole world.’<note place="foot" xml:id="ftn30" n="30"><p
+                            rend="footnote text">Cf. Augustine, <hi rend="italic">Contra
+                                Mendac.</hi>, xx.41, xv.31-32, vi.15 (Migne, <hi rend="italic"
+                                >PL</hi>, <hi rend="italic">XL.</hi>547-48, 539-40, 527), and their
+                            parallels in <hi rend="italic">NPNF</hi>,<hi rend="italic"> I</hi>, ‘To
+                            Consentius: Against Lying’, III.500, 495-96, 487. Cf. also Wesley, <hi
+                                rend="italic">A Farther Appeal</hi>, Pt. II, II.24 (11:236 in this
+                            edn.).</p></note></p>
+                <p n="4">4. The second thing which is implied in the character of ‘an Israelite
+                    indeed’ is <hi rend="italic">sincerity</hi>. As veracity is opposite to lying,
+                    so sincerity is to cunning. But it is not opposite to wisdom or discretion,
+                    which are well consistent with it. ‘But what is the difference between wisdom
+                    and cunning? Are they not almost, if not quite, the same thing?’ By no means.
+                    The difference between them is exceeding great. Wisdom is the faculty of
+                    discerning the best ends, and the fittest means of attaining them. The end of
+                    every rational creature is God: the enjoying him in time and in eternity. The
+                    best, indeed the only, means of attaining this end is ‘the faith that worketh by
+                        love’.<note place="foot" xml:id="ftn31" n="31"><p rend="footnote text">Cf.
+                            Gal. 5:6. Cf. also II.11, below, and No. 2, <hi rend="italic">The Almost
+                                Christian</hi>, II.6 and n.</p></note> True<hi rend="italic">
+                        prudence</hi>, in the general sense of the word, is the same thing with
+                    wisdom. <hi rend="italic">Discretion</hi> is but another name for prudence—if it
+                    be not rather a part of it, as it sometimes is referred to our outward
+                    behaviour, and means the ordering our words and actions right. On the contrary,
+                    cunning (so it is usually termed amongst common men, but policy among the great)
+                    is in plain terms neither better nor worse than the art of deceiving. If
+                    therefore it be any wisdom at all, it is ‘the wisdom from beneath’;<note
+                        place="foot" xml:id="ftn32" n="32"><p rend="footnote text">Cf. Jas.
+                            3:15.</p></note> springing from the bottomless pit,<note place="foot"
+                        xml:id="ftn33" n="33"><p rend="footnote text">See Rev. 9:11; 20:1; cf. also
+                            No. 32, ‘Sermon on the Mount, XII’, I.7 and n.</p></note> and leading
+                    down to the place from whence it came.</p>
+                <p n="5">5. The two great means which cunning uses in order to deceive are <hi
+                        rend="italic">simulation</hi> and <hi rend="italic">dissimulation</hi>.<note
+                        place="foot" xml:id="ftn34" n="34"><p rend="footnote text">Cf. Nos. 100, ‘On
+                            Pleasing All Men’, I.6; and 138A, ‘On Dissimulation’.</p></note>
+                    Simulation is the seeming to be what we are not; dissimulation, the seeming not
+                    to be what we are—according to the old verse, <hi rend="italic">Quod non est,
+                        simulo; dissimulo que quod est</hi>.<note place="foot" xml:id="ftn35" n="35"
+                            ><p rend="footnote text">Here Wesley turns a casual counsel of Ovid in
+                                <hi rend="italic">Remedia Amoris</hi> (‘The Remedies of Love’) into
+                            a formal aphorism. Ovid’s advice (I.493) is ‘<hi rend="italic">Et sanum
+                                simula</hi>…’ (‘Feign to be heart-whole…’) and (I.497) ‘<hi
+                                rend="italic">Quod non es, simula, positosque imitare furores</hi>’
+                            (‘Feign to be what you are not, and counterfeit an assuaged frenzy’).
+                            The distinction between <hi rend="italic">simulare</hi> and <hi
+                                rend="italic">dissimulare</hi> is not Ovid’s. Cf. Johnson, <hi
+                                rend="italic">Dictionary</hi>, on simulation and his quotation from
+                            Robert South: ‘…a deceiving by word is commonly called a lie; deceiving
+                            by actions, gestures, or behaviour is called simulation or
+                            “hypocrisy”.’</p></note> Both the one and the other we commonly term the
+                    hanging out of false colours. Innumerable are the shapes that simulation puts on
+                    in order to deceive. And almost as many are used by dissimulation for the same
+                    purpose. But the man of sincerity shuns them both, and always appears exactly
+                    what he is.</p>
+                <pb n="03:287"/>
+                <p n="6">6. ‘But suppose we are engaged with artful men, may we not use silence or
+                    reserve, especially if they ask insidious questions, without falling under the
+                    imputation of cunning?’ Undoubtedly we may; nay, we ought on many occasions
+                    either wholly to keep silence, or to speak with more or less reserve as
+                    circumstances may require. To say nothing at all is in many cases consistent
+                    with the highest sincerity. And so it is to speak with reserve, to say only a
+                    part, perhaps a small part, of what we know. But were we to pretend it to be the
+                    whole, this would be contrary to sincerity.</p>
+                <p n="7">7. A more difficult question than this is, ‘May we not speak the truth in
+                    order to deceive?’ Like him of old, who broke out into that exclamation,
+                    applauding his own ingenuity, <hi rend="italic">Hoc ego mihi puto palmarium, ut
+                        vera dicendo eos ambos fallam</hi><note place="foot" xml:id="ftn36" n="36"
+                            ><p rend="footnote text">A curious conflation from two different plays
+                            of Terence. In <hi rend="italic">The Eunuch</hi>, Act V, sc. 4, ll.
+                            929-30, Parmeno boasts of what he hopes to be his ‘veritable
+                            masterpiece’ (‘<hi rend="italic">hoc…ego mihi puto palmarium</hi>’); in
+                                <hi rend="italic">The Self-Tormentor,</hi> Act IV, sc. 4, ll.
+                            709-12), Syrus says to Clinia, ‘Here is my prize plan, my masterpiece,
+                            my pride and glory, that I’ve such force and cunning in me as by telling
+                            the truth to deceive the pair of them [Antiphila and Clitipho]’ (‘<hi
+                                rend="italic">huic equidem consilio palmam do: hic me magnifice
+                                ecfero, qui vim tantam in me et potestatem habeam tantae astutiae,
+                                vera dicendo ut eos ambos fallam</hi>’).</p></note>—‘this I take to
+                    be my masterpiece to deceive them both, by speaking the truth.’ I answer, A
+                    heathen might pique himself upon this; but a Christian could not. For although
+                    this is not contrary to veracity, yet it certainly is to sincerity. It is
+                    therefore the most excellent way, if we judge it proper to speak at all, to put
+                    away both simulation and dissimulation, and to speak the naked truth<note
+                        place="foot" xml:id="ftn37" n="37"><p rend="footnote text">Cf. No. 104, ‘On
+                            Attending the Church Service’, §17; see also Nos. 138A-C, ‘On
+                            Dissimulation’. Cf. JWJ, Aug. 1, 1738; and Wesley’s letter to John Fry,
+                            Jan. 1, 1791.</p></note> from our heart.</p>
+                <p n="8">8. Perhaps this is properly termed <hi rend="italic">simplicity</hi>. It
+                    goes a little farther than sincerity itself. It implies not only, first, the
+                    speaking no known falsehood, and secondly, the not designedly deceiving anyone;
+                    but thirdly, the speaking plainly and artlessly to everyone when we speak at
+                    all—the speaking as little children, in a childlike, though not a childish
+                    manner. Does not this utterly <pb n="03:288"/>exclude the using any <hi
+                        rend="italic">compliments</hi>? A vile word, the very sound of which I
+                    abhor; quite agreeing with our poet,</p>
+                <lg>
+                    <l>It never was a good day</l>
+                    <l>Since lowly fawning was called compliment.</l>
+                    <note place="foot" xml:id="ftn38" n="38">
+                        <p rend="footnote text">Cf. Shakespeare, <hi rend="italic">Twelfth
+                                Night</hi>, III.i.109-10:</p>
+                        <p rend="Verse">’Twas never a merry world</p>
+                        <l>Since lowly <hi rend="italic">feigning</hi> was call’d compliment.</l>
+                        <p rend="footnote text">Wesley repeats his emendation of Shakespeare in No.
+                            111, <hi rend="italic">National Sins and Miseries</hi>, II.3.</p>
+                    </note>
+                </lg>
+                <p>I advise men of sincerity and simplicity never to take that silly word in their
+                    mouth; but labour to keep at the utmost distance both from the name and the
+                    thing.</p>
+                <p n="9">9. Not long before that remarkable time,</p>
+                <lg>
+                    <l>When statesmen sent a prelate cross the seas,</l>
+                    <l>By long famed Act of Pains and Penalties,</l>
+                    <note place="foot" xml:id="ftn39" n="39">
+                        <p rend="footnote text">Another conflation, this one from a poem by his
+                            brother, Samuel Wesley, Jun., preserved in Adam Clarke, <hi
+                                rend="italic">Memoirs of the Wesley Family</hi> (1823), p. 382, and
+                            somehow omitted from <hi rend="italic">Poems</hi> (1736). Samuel, Jun.
+                            was a protégé of Bishop Francis Atterbury and a critic of Sir Robert
+                            Walpole; the reference is to Atterbury’s banishment because of his
+                            opposition (1715-23) to the new Whig government; cf. Williams, <hi
+                                rend="italic">The Whig Supremacy, 1714-1760</hi>, pp. 144-45,
+                            174-76. Here is Samuel’s poem with John’s epigrams picked out:</p>
+                        <l>
+                            <hi rend="italic">When patriots sent a Bishop ’cross the seas,</hi>
+                        </l>
+                        <l>
+                            <hi rend="italic">They met to fix the pains and penalties;</hi>
+                        </l>
+                        <l>While true-blue blood-hounds on his death were bent,</l>
+                        <l>Thy mercy, Walpole, voted banishment!</l>
+                        <l>Or, forc’d thy sov’reign’s orders to perform,</l>
+                        <l>Or, proud to govern, as to raise the storm.</l>
+                        <l>Thy goodness shewn in such a dangerous day,</l>
+                        <l>He only who receiv’d it can repay:</l>
+                        <l>Thou never justly recompens’d can be,</l>
+                        <p rend="Verse">Till banish’d Francis do the same for thee.</p>
+                        <l>* * *</l>
+                        <l>Tho’ some would give Sir Bob no quarter,</l>
+                        <l>But long to hang him in his garter;</l>
+                        <l>Yet sure he will deserve to have</l>
+                        <l>Such mercy as in power he gave:</l>
+                        <l>Send him abroad to take his ease,</l>
+                        <l>
+                            <hi rend="italic">By Act of pains and penalties:</hi>
+                        </l>
+                        <l>But if he e’er comes here again,</l>
+                        <l>Law, take thy course, and hang him then.</l>
+                    </note>
+                </lg>
+                <p>several Bishops attacked Bishop Atterbury at once, then Bishop of Rochester, and
+                    asked: ‘My lord, why will you not suffer your servants to deny you, when you do
+                    not care to see company? It is not a lie for them to say your lordship is not at
+                    home; for it deceives no one. Everyone knows it means only, your lordship is
+                    busy.’ He replied, ‘My lords, if it is (which I doubt) consistent <pb n="03:289"
+                    />with sincerity, yet I am sure it is not consistent with that simplicity which
+                    becomes a Christian bishop.’<note place="foot" xml:id="ftn40" n="40"><p
+                            rend="footnote text">All the Wesleys were partisans of Bishop Francis
+                            Atterbury (1662-1732) and of his Tory churchmanship and politics; they
+                            were saddened and outraged by Walpole’s ruthless treatment of him. This
+                            anecdote does not appear in Atterbury’s writings or in J. H. Overton’s
+                            biography in <hi rend="italic">DNB</hi>. One supposes that it was heard
+                            and preserved in the family’s painful memories of the tragedy of
+                            1723.</p></note></p>
+                <p n="10">10. But to return. The sincerity and simplicity of him in whom is no guile
+                    have likewise an influence on his whole behaviour; they give a colour to his
+                    whole outward conversation; which though it be far remote from everything of
+                    clownishness, and ill breeding, of roughness and surliness, yet is plain and
+                    artless, and free from all disguise, being the very picture of his heart. The
+                    truth and love which continually reign there produce an open front, and a serene
+                    countenance. Such as leave no pretence to say, with that arrogant King of
+                    Castile, ‘When God made man, he left one capital defect: he ought to have set a
+                    window in his breast;’<note place="foot" xml:id="ftn41" n="41"><p
+                            rend="footnote text">The ‘arrogant King of Castile’ was probably
+                            Alphonso X (<hi rend="italic">El Sabio</hi>); see No. 56, ‘God’s
+                            Approbation of His Works’, II.1 and n. The allusion here to a window in
+                            the human breast is an echo of the story of Momus, the Greek god of wit,
+                            who was supposed to have said of the human creature fashioned by
+                            Prometheus that ‘this new being should have had a window in his breast
+                            so that his thoughts might be seen.’ Cf. No. 4, <hi rend="italic"
+                                >Scriptural Christianity</hi>, III.5 and n.</p></note>—for he opens
+                    a window in his own breast by the whole tenor of his words and actions.</p>
+                <p n="11">11. This then is real, genuine, solid virtue. Not truth alone, nor
+                    conformity to truth. This is a property of real virtue, not the essence of it.
+                    Not love alone, though this comes nearer the mark; for ‘love’ in one sense ‘is
+                    the fulfilling of the law’.<note place="foot" xml:id="ftn42" n="42"><p
+                            rend="footnote text">Rom. 13:10.</p></note> No: truth and love united
+                    together are the essence of virtue or holiness.<note place="foot" xml:id="ftn43"
+                        n="43"><p rend="footnote text">Wesley’s definition of ‘the essence of
+                            virtue’, contra Hutcheson (see above, §2 proem). Note especially this
+                            correlation of ‘truth and love united’ with ‘virtue or holiness’, as if
+                            taken together they were working synonyms.</p></note> God indispensably
+                    requires ‘truth in the inward parts’,<note place="foot" xml:id="ftn44" n="44"><p
+                            rend="footnote text">Ps. 51:6.</p></note> influencing all our words and
+                    actions. Yet truth itself, separate from love, is nothing in his sight. But let
+                    the humble, gentle, patient love of all mankind be fixed on its right
+                    foundation, namely, the love of God, springing from faith, from a full
+                    conviction that God hath given his only Son to die for <hi rend="italic">my</hi>
+                    sins; and then the whole will resolve into that grand conclusion, ‘worthy of all
+                    men to be received’:<note place="foot" xml:id="ftn45" n="45"><p
+                            rend="footnote text">1 Tim. 1:15 (BCP, Communion, Comfortable
+                            Words).</p></note> ‘Neither circumcision availeth anything, nor
+                    uncircumcision, but faith that worketh by love.’<note place="foot"
+                        xml:id="ftn46" n="46"><p rend="footnote text">Cf. Gal. 5:6. Cf. above II.4;
+                            and No. 2, <hi rend="italic">The Almost Christian</hi>, II.6 and
+                        n.</p></note></p>
+            </div>
+        </body>
+    </text>
+</TEI>

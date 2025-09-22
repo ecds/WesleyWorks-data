@@ -1,0 +1,813 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Sermon 112: On Laying the Foundation of the New Chapel</title>
+                <author>Wesley, John</author>
+                <editor role="text">Van Buskirk, Gregory P.</editor>
+                <editor role="digital">Taylor, Michelle M.</editor>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>The Wesley Works Digitzation Project</publisher>
+                <pubPlace>Tampa, FL</pubPlace>
+                <date>2024-02-25</date>
+            </publicationStmt>
+            <sourceDesc>
+                <listBibl>
+                    <biblStruct>
+                        <analytic>
+                            <title level="a">Sermon 111: On Laying the Foundation of the New
+                                Chapel</title>
+                        </analytic>
+                        <monogr>
+                            <title level="j">The Works of John Wesley, Volume III: Sermons III,
+                                71-114</title>
+                            <editor role="volume">Outler, Albert</editor>
+                            <imprint>
+                                <publisher>Abingdon Press</publisher>
+                                <pubPlace>Nashville, TN</pubPlace>
+                                <date when="1986-11-01">1986-11-01</date>
+                                <biblScope unit="volume" n="3"/>
+                                <biblScope unit="page" from="577" to="592"/>
+                            </imprint>
+                        </monogr>
+                        <series>
+                            <title level="s">The Works of John Wesley</title>
+                            <editor role="general">Baker, Frank</editor>
+                        </series>
+                    </biblStruct>
+                </listBibl>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Greg Van Buskirk created Word docs for all of Wesley's sermons using a combination of
+                OCR software and manual proofing. Michelle Taylor converted these docx into XML
+                using Oxygen's DITA automatic transformation scenario, then touched them up
+                manually.</p>
+        </encodingDesc>
+        <standOff>
+            <taxonomy>
+                <keywords>
+                    <term/>
+                </keywords>
+            </taxonomy>
+            <!--Include keywords and terms here eventually.-->
+        </standOff>
+        <revisionDesc/>
+    </teiHeader>
+    <text>
+        <body>
+            <pb n="03:577"/>
+            <head>
+                <hi rend="italic">An Introductory Comment</hi>
+            </head>
+            <introduction>
+                <p>Wesley’s home and headquarters for the first four decades after ‘the rise of the
+                    United [Methodist] Society’ had been in ‘The Foundery’, a renovated cannon
+                    factory on the northern edge of Upper Moorfields, London. Wesley had leased and
+                    refurbished it at a total cost of some £800 (£115 for the lease, £685 for
+                    repairs and furnishings). This improvisation and its various uses reflected much
+                    of the ethos of Methodism in its first generation. But as the Revival flourished
+                    and as he looked toward the expiring of his lease, Wesley began to envisage a
+                        ‘<hi rend="italic">New</hi> Foundery’, that might serve Methodism’s future
+                    as well as the old one had done in its day. He broached the idea to his brother
+                    in a letter of October 7, 1775, and reported its development some five months
+                    later in the <hi rend="italic">Journal</hi> for March 1, 1776: ‘As we cannot
+                    depend on having the Foundery long, we met to consult about building a new
+                    chapel. Our petition to the City for a piece of ground lies before the
+                    Committee.’ In due course a lease was granted the Methodists for a piece of land
+                    ‘near the City Road’ (across from Bunhill Fields) and a building campaign was
+                    begun. Wesley’s circular letter to Methodists throughout the country (October
+                    18, 1776) reflects his presuppositions as to the connexional character of
+                    Methodism:</p>
+                <quote>The Society at London have given assistance to their brethren in various
+                    parts of England. They have done this for upwards of thirty years; they have
+                    done it cheerfully and liberally…. They now stand in need of assistance
+                    themselves. They are under a necessity of building, as the Foundery, with all
+                    the adjoining houses, is shortly to be pulled down. And the City of London has
+                    granted ground to build on, but on condition of covering it [i.e., screening it
+                    from the City Road] with large houses in front, which, together with the New
+                    Chapel, will, at a very moderate computation, cost upward of six thousand
+                    pounds. I must therefore beg the assistance of all our brethren.</quote>
+                <p>By the following April, the project was ready for the laying of a ‘foundation
+                    stone’ and for the construction to be turned over to a newly affluent Methodist
+                    builder, Samuel Tooth of ‘Messrs. Tooth and Co. of Worship Street, Upper
+                    Moorfields’.</p>
+                <p>This move represented a deliberate upward step toward ‘respectability’ <pb
+                        n="03:578"/>for the Methodists, as is confirmed by the ringing triumphalist
+                    tone of the whole occasion in Wesley’s <hi rend="italic">Journal</hi>:</p>
+                <quote>Monday the 21st was the day appointed for the laying the foundation of the
+                    New Chapel The rain befriended us much by keeping away thousands who purposed to
+                    be there. But there were still such multitudes that it was with great difficulty
+                    I got through them to lay the first stone. Upon this was a plate of brass…on
+                    which was engraved: ‘This was laid by Mr. John Wesley on April 21, 1777.’
+                    Probably this will be seen no more by any human eye, but will remain there till
+                    the earth and the works thereof are burned up.</quote>
+                <p>This, of course, was in the full knowledge that his lease had been granted for
+                    only fifty-nine years.<note place="foot" xml:id="ftn1" n="1"><p
+                            rend="footnote text">See George J. Stevenson, <hi rend="italic">City
+                                Road Chapel</hi> (1872), pp. 67-68; see also John Telford, <hi
+                                rend="italic">Wesley’s Chapel and Wesley’s House</hi>
+                        (1926).</p></note>
+                    <hi rend="italic">A Sermon on Numbers xxiii.23, preached Monday, April 21, 1777,
+                        on Laying the Foundation of the New Chapel, near the City Road, London</hi>,
+                    provides us with an interesting retrospective on the Revival, together with a
+                    few intriguing historical revisions. For example, in his review of Methodist
+                    origins Wesley has blotted out all memory of the early influences of the
+                    Moravians; moreover, he omits all mention of the Methodist beginnings at Bristol
+                    and Kingwood. His special concern, however, was to stress the unique
+                    relationship between Methodism and the Church of England; <hi rend="italic"
+                        >viz.</hi>, the symbiosis of a connexion of religious <hi rend="italic"
+                        >societies</hi> within a national <hi rend="italic">church</hi>. That this
+                    particular vision was not as heartily shared by the Methodists generally as by
+                    Wesley is suggested by the fact that the sermon had only two editions, both in
+                    1777, and then was not published again until 1809, when it appeared, with its
+                    present title, in Joseph Benson’s edition of the <hi rend="italic">Works</hi>,
+                    VI.106-15. The text here is based on the first edition, with minor corrections
+                    taken from the second. For fuller details, see <hi rend="italic">Bibliog</hi>,
+                    No. 366.</p>
+                <p>The Calvinists were quick to recognize that the New Chapel signified a new stage
+                    in the development of what they had come to regard as a rival movement. Rowland
+                    Hill promptly denounced the sermon as ‘a false and libellous harangue’, in <hi
+                        rend="italic">Imposture Detected and the Dead </hi>[i.e., George Whitefield]
+                        <hi rend="italic">Vindicated…</hi> (1777). He then went on to identify
+                    Wesley as ‘this grey-headed enemy to all righteousness’—and charged him with
+                    brazen duplicity in his ‘building dissenting meeting-houses the kingdom over’
+                    even while continuing to protest that these ‘houses’ were only adjuncts to the
+                    national church. Professor Frank Baker has pointed out the kernel of truth in
+                    Hill’s otherwise unedifying invective:</p>
+                <pb n="03:579"/>
+                <quote>Wesley’s New Chapel was not simply another preaching-house. It was seen by
+                    him as a special symbol of connexional unity, meriting universal Methodist
+                    support…. This new Methodist headquarters was separatist even in its
+                    architecture…. [It] was from the outset a centre for sacramental worship as well
+                    as for preaching and fellowship and social service…. These premises, in fact,
+                    functioned very much like those of a very active Anglican parish church, though
+                    without recognizing any allegiance to diocesan or parochial authorities.<note
+                        place="foot" xml:id="ftn2" n="2"><p rend="footnote text">Baker, <hi
+                                rend="italic">John Wesley and the Church of England</hi>, pp.
+                            213-14.</p></note></quote>
+            </introduction>
+            <head>On Laying the Foundation of the New Chapel</head>
+            <epigraph>
+                <p>Numbers 23:23</p>
+                <p>
+                    <hi rend="italic">According to this time it shall be said, What hath God
+                        wrought!</hi>
+                </p>
+            </epigraph>
+            <div type="introduction">
+                <p n="1">1. We need not now inquire in what sense this was applicable to the
+                    children of Israel. It may be of more use to consider in what sense the words
+                    are applicable to ourselves; how far the people of England have reason to say,
+                    ‘According to this time, what hath God wrought!’</p>
+                <p n="2">2. A great man, indeed, who I trust is now in a better world, Dr. Gibson,
+                    late Lord Bishop of London, in one of his charges to his clergy flatly denies
+                    that God has wrought any ‘extraordinary work’ in our nation; nay, affirms that
+                    to imagine any such thing is no better than downright enthusiasm.<note
+                        place="foot" xml:id="ftn3" n="3"><p rend="footnote text">Edmund Gibson; see
+                            No. 66, ‘The Signs of the Times’, II.2 and n.</p></note> It is so if his
+                    lordship’s supposition is true, if God has not wrought any extraordinary work.
+                    But if he really has, then we may believe and assert it without incurring any
+                    such imputation.</p>
+                <p n="3">3. Yet a still greater man of a neighbouring nation, a burning and a
+                    shining light,<note place="foot" xml:id="ftn4" n="4"><p rend="footnote text"
+                            >John 5:35.</p></note> equally eminent in piety and in learning, partly
+                    confirmed the bishop’s supposition. For Bengelius,<note place="foot"
+                        xml:id="ftn5" n="5"><p rend="footnote text">J. A. Bengel (1687-1752).
+                            Bengel’s prophecy of a revival appeared in his <hi rend="italic">Ordo
+                                temporum a principio per periedos oeconomiae divinae</hi>
+                            (1741).</p></note> being asked why he placed the grand revival of
+                    religion so late as the year 1836, replied: ‘I acknowledge all the prophecies
+                    would <pb n="03:580"/>incline me to place it a century sooner. But an
+                    insurmountable difficulty lies in the way: I cannot reconcile this to matter of
+                    fact. For I do not know of any remarkable work of God which has been wrought
+                    upon earth between the years 1730 and 1740.’ This is really surprising. It is
+                    strange that sensible men should know so little of what is done at so small a
+                    distance. How could so great a man be ignorant of what was transacted no farther
+                    off than England? Especially considering the accounts then published in Germany,
+                    some of which were tolerably impartial; nay, considering the particular account
+                    which I had sent as early as the year 1742 to one well known through all the
+                    empire, Pastor (afterwards Superintendent) Steinmetz.<note place="foot"
+                        xml:id="ftn6" n="6"><p rend="footnote text">Johann Adam Steinmetz
+                            (1689-1762), pietistic Lutheran, pastor of Teschen (Silesia), General
+                            Superintendent of the duchy of Magdeburg from 1732. Wesley had first
+                            heard of him, during his visit to Herrnhut, from Christian David; cf.
+                            JWJ, Aug. 10, 1738. In his early career Steinmetz had been on friendly
+                            terms with Count von Zinzendorf and the Herrnhuters, but afterwards
+                            broke with them. Wesley’s ‘particular account’ of the Revival sent to
+                            Steinmetz seems not to have survived; its substance may be seen in <hi
+                                rend="italic">Letters</hi>, II, 26:49-51 in this edn. There is no
+                            evidence of any reaction from Steinmetz or of Steinmetz’s connections
+                            with Bengel, if any.</p></note></p>
+                <p n="4">4. ‘But has there indeed been any extraordinary work of God wrought in
+                    England during this century?’ This is an important question; it is certainly
+                    worthy of our serious consideration. And it is capable of being answered to the
+                    full satisfaction of every fair inquirer. He may easily be informed what work it
+                    is, and in what manner it has been wrought. It is true I am in one respect an
+                    improper person to give this information, as it will oblige me frequently to
+                    speak of myself, which may have the appearance of ostentation. But with regard
+                    to this I can only cast myself upon the candour of my hearers, being persuaded
+                    they will put the most favourable construction upon what is not a matter of
+                    choice, but of necessity. For there is no other person, if I decline the task,
+                    who can supply my place, who has a perfect knowledge of the work in question
+                    from the beginning of it to this day.<note place="foot" xml:id="ftn7" n="7"><p
+                            rend="footnote text">For other instances of Methodist triumphalism, see
+                            below, II.11; and No. 102, ‘Of Former Times’, §22 and n.</p></note></p>
+                <p>We may consider, first, the rise and progress of this work; secondly, the nature
+                    of it.</p>
+            </div>
+            <div type="section" n="1">
+                <p n="1">I. 1. As to the rise of it. In the year 1725 a young student at Oxford was
+                    much affected by reading Kempis’s <hi rend="italic">Christian Pattern</hi>, and
+                    Bishop Taylor’s <hi rend="italic">Rules of Holy Living and Dying</hi>.<note
+                        place="foot" xml:id="ftn8" n="8"><p rend="footnote text">Cf. Wesley’s
+                            preface to JWJ, §1.</p></note> He found an <pb n="03:581"/>earnest
+                    desire to live according to those rules, and to flee from the wrath to
+                        come.<note place="foot" xml:id="ftn9" n="9"><p rend="footnote text">Matt.
+                            3:7.</p></note> He sought for some that would be his companions in the
+                    way, but could find none; so that for several years he was constrained to travel
+                    alone, having no man either to guide or to help him. But in the year 1729 he
+                    found one who had the same desire. They then endeavoured to help each other, and
+                    in the close of the year were joined by two more. They soon agreed to spend two
+                    or three hours together every Sunday evening. Afterwards they sat two evenings
+                    together, and in a while six evenings in the week; spending that time in reading
+                    the Scriptures, and provoking one another to love and to good works.<note
+                        place="foot" xml:id="ftn10" n="10"><p rend="footnote text">See Heb.
+                            10:24.</p></note></p>
+                <p n="2">2. The regularity of their behaviour gave occasion to a young gentleman of
+                    the college to say, ‘I think we have got a new set of <hi rend="italic"
+                        >Methodists</hi>’—alluding to a set of physicians who began to flourish at
+                    Rome about the time of Nero, and continued for several ages.<note place="foot"
+                        xml:id="ftn11" n="11"><p rend="footnote text">Wesley has more than one
+                            explanation of the term ‘Methodist’; see his open letter to Dr.
+                            Warburton, Nov. 26, 1762 (11:481-82 in this edn.); the Preface to <hi
+                                rend="italic">The Character of a Methodist</hi>; and his letter to
+                            Richard Morgan, Oct. 18, 1732. See also Fred C. Wright, ‘On the Origin
+                            of the Name Methodist’, WHS, III.10-13, and T. E. Brigden, ‘Notes and
+                            Queries’, in <hi rend="italic">ibid.</hi>, III.112. The first citation
+                            in the <hi rend="italic">OED</hi> is from 1593; later usages include ‘a
+                            class of Roman Catholic apologists (1686)’. Dr. Johnson refers to ‘a
+                            physician who practises by theory’ and yet also to ‘one of a new kind of
+                            puritans lately arisen, so called from their profession to live by rules
+                            and in constant method’. This latter would correspond to the usage in
+                                <hi rend="italic">A War Among the Angels of the Churches Wherein is
+                                Shewed the Principles of the New Methodists in the Great Point of
+                                Justification</hi> (1693), ‘By a Country Professor of Jesus Christ.’
+                            There ‘the New Methodists’ are associated with John Goodwin and accused
+                            of ‘tending to set man’s personal inherent righteousness as an element
+                            of our justifying righteousness…’ (p. 7), and of designing ‘to promote
+                            holiness and…self-righteousness’. There is no record of Wesley having
+                            read the <hi rend="italic">War Among the Angels</hi>, but the
+                            association of ‘Methodists’ with ideas of ‘personal inherent
+                            righteousness’ and of ‘holy living’ must already have been
+                        familiar.</p></note> The name was new and quaint; it clave to them
+                    immediately. And from that time both those four young gentlemen, and all that
+                    had any religious connection with them, were distinguished by the name of
+                    ‘Methodists’.</p>
+                <p n="3">3. In the four or five years following another and another were added to
+                    the number, till in the year 1735 there were fourteen of them who constantly met
+                    together. Three of these were tutors in their several colleges; the rest,
+                    Bachelors of Arts, or undergraduates.<note place="foot" xml:id="ftn12" n="12"><p
+                            rend="footnote text">This account of the Oxford Methodists as of 1735
+                            should be compared with ‘A Short History of the People called
+                            Methodists’ (dated Nov. 16, 1781), §§2-3, where Wesley says they were
+                            ‘fourteen or fifteen in number’ (<hi rend="italic">Bibliog</hi>, No.
+                            420); his letter to Henry Brooke, June 14, 1786, where he says the
+                            number was sixteen; and his ‘Thoughts upon Methodism’ (dated Aug. 4,
+                            1786), §3, where he says the number was fifteen (see <hi rend="italic"
+                                >AM</hi>, 1787, X.101); see also <hi rend="italic">A Short History
+                                of Methodism</hi>, §4. It is almost impossible to arrive at an exact
+                            membership list of the Oxford Methodists, since several groups met at
+                            several levels in the early 1730s, and membership in each fluctuated
+                            widely. Cf. Richard P. Heitzenrater, ‘The Oxford Diaries and the First
+                            Rise of Methodism’, <hi rend="italic">A.M.E Zion Quarterly
+                                Review/Methodist History</hi> (July 1974), pp. 111-35, espec. pp.
+                            126-28. See also No. 53, <hi rend="italic">On the Death of George
+                                Whitefield</hi>, III.2 and n.; and II.15, below.</p></note> They
+                    were all precisely of one judgment as well as of one <pb n="03:582"/>soul. All
+                    tenacious of order to the last degree, and observant, for conscience’ sake, of
+                    every rule of the church, and every statute both of the university and of their
+                    respective colleges.<note place="foot" xml:id="ftn13" n="13"><p
+                            rend="footnote text">See No. 150, ‘Hypocrisy in Oxford’,
+                        II.9-10.</p></note> They were all orthodox in every point; firmly believing
+                    not only the three creeds, but whatsoever they judged to be the doctrine of the
+                    Church of England, as contained in her Articles and Homilies. As to that
+                    practice of the apostolic church (which continued till the time of
+                        Tertullian,<note place="foot" xml:id="ftn14" n="14"><p rend="footnote text"
+                            >Cf. Tertullian, <hi rend="italic">Apology</hi>, espec. ch.
+                        39.</p></note> at least in many churches) the ‘having all things in
+                        common’,<note place="foot" xml:id="ftn15" n="15"><p rend="footnote text">Cf.
+                            Acts 2:44; 4:32.</p></note> they had no rule, nor any formed design
+                    concerning it. But it was so, in effect, and it could not be otherwise; for none
+                    could want anything that another could spare. This was the infancy of the work.
+                    They had no conception of anything that would follow. Indeed they took ‘no
+                    thought for the morrow’,<note place="foot" xml:id="ftn16" n="16"><p
+                            rend="footnote text">Matt. 6:34.</p></note> desiring only to live <hi
+                        rend="italic">today</hi>.</p>
+                <p n="4">4. Many imagined, that little society would be dispersed, and Methodism (so
+                    called) come to an end, when in October 1735 my brother, Mr. Ingham,<note
+                        place="foot" xml:id="ftn17" n="17"><p rend="footnote text">Benjamin Ingham
+                            (1712-72), an Oxford Methodist from at least the autumn of 1733 (see
+                            Heitzenrater, above, n. 10). He was ordained by Bishop Potter in June
+                            1735. After thirteen months in Georgia, he returned to become an
+                            Anglican evangelist in Yorkshire and the Midlands. He married Lady
+                            Margaret Hastings, sister-in-law to the Countess of Huntingdon, and
+                            eventually formed a cluster of religious societies under his own
+                            direction. It is odd that Wesley should have omitted the name of a third
+                            companion on the voyage, Charles Delamotte, whose service in Georgia
+                            outlasted all the others and who continued as a friend long after the
+                            Wesleys and Ingham had gone their separate ways; cf. JWJ, May 16,
+                            1782.</p></note> and I, were induced by a strange chain of providences
+                    to go over to the new colony in Georgia. Our design was to preach to the Indian
+                    nations bordering upon that province. But we were detained at Savannah and
+                    Frederica by the importunity of the people, who, having no other ministers,
+                    earnestly requested that we would not leave them. After a time I desired the
+                    most serious of them to meet me once or twice a week at my house. Here were the
+                    rudiments of a Methodist Society;<note place="foot" xml:id="ftn18" n="18"><p
+                            rend="footnote text">Cf. JWJ, Apr. 1736.</p></note>
+                    <pb n="03:583"/>but notwithstanding this, both my brother and I were as
+                    vehemently attached to the church as ever, and to every rubric of it: insomuch
+                    that I would never admit a Dissenter to the Lord’s Supper unless he would be
+                    rebaptized. Nay, when the Lutheran minister of the Saltzburgers at Ebenezer,
+                    being at Savannah, desired to receive it, I told him I did not dare to
+                    administer it to him, because I looked upon him as unbaptized, as I judged
+                    baptism by laymen to be invalid; and such I counted all that were not
+                    episcopally ordained.<note place="foot" xml:id="ftn19" n="19"><p
+                            rend="footnote text">This was Johann Martin Bolzius (cf. JWJ, July 17,
+                            1737). But see also JWJ, Sept. 30, 1749, for Wesley’s belated apology to
+                            Bolzius. Cf. Martin Schmidt, <hi rend="italic">John Wesley: A
+                                Theological Biography</hi>, I.169-78, for the important differences
+                            between the more moralistic (‘Halle-type’) pietism of Bolzius and the
+                            Salzburgers and the more mystical pietism of the
+                    Moravians.</p></note></p>
+                <p n="5">5. Full of these sentiments, of this zeal for the Church (from which I
+                    bless God he has now delivered me), I returned to England in the beginning of
+                    February 1738. I was now in haste to retire to Oxford, and bury myself in my
+                    beloved obscurity.<note place="foot" xml:id="ftn20" n="20"><p
+                            rend="footnote text">Public figure that he was, Wesley had a strong,
+                            lifelong bent to seclusion. Cf. his letter to Prof. John Liden (Lund,
+                            Sweden), Nov. 30, 1769 (‘having from my infancy loved silence and
+                            obscurity’). See the letter to his brother Charles, Dec. 15, 1772, and
+                            Editor’s Intro. (1:1-2 in this edn.). Despite his constant involvements,
+                            he arranged for as much privacy as possible for prayer, meditation, and
+                            study; cf. his letter to Miss March, Dec. 10, 1777, where he says: ‘It
+                            is true I travel four or five thousand miles in a year. But I generally
+                            travel alone in my carriage, and consequently am as retired ten hours in
+                            a day as if I was in a wilderness.’ This taste for solitude, however
+                            personal, was also in accord with the monastic tradition as Wesley had
+                            found it in Kempis, <hi rend="italic">Imitation</hi>, I.xix, xx (‘On the
+                            Love of Solitude and Silence’), or in Richard Lucas, <hi rend="italic"
+                                >Enquiry After Happiness</hi> (1717), I.228-29, or even in John
+                            Hughes’s drama, <hi rend="italic">The Siege of Damascus</hi>, Act V, sc.
+                            1, ‘Let me wear out my small remains of life,/Obscure, content with
+                            humble poverty.’</p></note> But I was detained in London week after week
+                    by the Trustees for the Colony of Georgia.<note place="foot" xml:id="ftn21"
+                        n="21"><p rend="footnote text">He had left Georgia under a cloud of grand
+                            jury indictments and his employment by the Georgia Trustees had not yet
+                            been formally terminated. It was not until Apr. 26 (nearly three months
+                            after his return to England) that the matter was settled. Cf. the <hi
+                                rend="italic">Diary of Viscount Percival, Afterwards First Earl of
+                                Egmont</hi> (London, Historical Manuscript Commission, 1920-23),
+                            II.481: ‘Mr. John Wesley, our minister at Savannah, left with us his
+                            license for performing ecclesiastical service at Savannah, which we took
+                            for a resignation, and therefore resolved to revoke his commission. In
+                            truth the Board did it with great pleasure, he appearing to us to be a
+                            very odd mixture of a man, an enthusiast and at the same time a
+                            hypocrite….’ Egmont was one of the Trustees; cf. some of his other
+                            references to Wesley in II.349-50, 370, 449-51, 466-67.</p></note> In
+                    the meantime I was continually importuned to preach in one and another church,
+                    and that not only morning, afternoon, and night, on Sunday, but on weekdays
+                    also. As I was lately come from a far country, vast multitudes flocked together.
+                    But in a short time, partly because of those unwieldy crowds, partly because of
+                    my unfashionable doctrine, I <pb n="03:584"/>was excluded from one and another
+                    church, and at length shut out of all. Not daring to be silent, after a short
+                    struggle between honour and conscience I made a virtue of necessity, and
+                    preached in the middle of Moorfields.<note place="foot" xml:id="ftn22" n="22"><p
+                            rend="footnote text">But cf. JWJ, Sunday, June 17, 1739: ‘I preached at
+                            seven in Upper Moorfields [i.e., very close by the site of this present
+                            sermon] to (I believe) six or seven thousand people on “Ho! everyone
+                            that thirsteth, come ye to the waters.”’ This quietly ignores that his
+                            initial venture in field preaching had been near Bristol ten weeks
+                            earlier; see JWJ, Apr. 2: ‘At four in the afternoon I submitted to be
+                            more vile, and proclaimed in the highways the glad tidings of salvation,
+                            speaking from a little eminence in the ground adjoining to the city [St.
+                            Philip’s Plain] to about three thousand people.’</p></note> Here were
+                    thousands upon thousands, abundantly more than any church could contain; and
+                    numbers among them who never went to any church or place of public worship at
+                    all. More and more of them were cut to the heart, and came to me all in tears,
+                    inquiring with the utmost eagerness what they must do to be saved.<note
+                        place="foot" xml:id="ftn23" n="23"><p rend="footnote text">See Acts 16:30.
+                            Cf. the opening sections to the <hi rend="italic">General Rules</hi> for
+                            an official summary of this telescoped history of Methodist
+                        origins.</p></note> I said, ‘If all of you will meet on Thursday evening, I
+                    will advise you as well as I can.’ The first evening about twelve persons came;
+                    the next week, thirty or forty. When they were increased to about an hundred, I
+                    took down their names and places of abode, intending, as often as it was
+                    convenient, to call upon them at their own houses. Thus, without any previous
+                    plan or design, began the Methodist Society in England—a company of people
+                    associating together to help each other to work out their own salvation.</p>
+                <p n="6">6. The next spring we were invited to Bristol and Kingswood, where likewise
+                    Societies were quickly formed.<note place="foot" xml:id="ftn24" n="24"><p
+                            rend="footnote text">An inversion of the order of events; it was, in
+                            fact, the spring just past (cf. JWJ, Mar. 10 to Apr. 4,
+                        1739).</p></note> The year following we went to Newcastle upon Tyne, and
+                    preached to all the colliers and keelmen round it. In 1744 we went through
+                    Cornwall, as far as Sennen,<note place="foot" xml:id="ftn25" n="25"><p
+                            rend="footnote text">Wesley’s spelling, ‘Sennan’; see also JWJ, Sept.
+                            10, 1743.</p></note> near the Land’s End; and in the compass of two or
+                    three years more to almost every part of England. Some time after we were
+                    desired to go over to Ireland,<note place="foot" xml:id="ftn26" n="26"><p
+                            rend="footnote text">John Wesley’s first visit to Dublin was Aug. 8-20,
+                            1747. In Sept. Charles Wesley followed for a lengthy visit.</p></note>
+                    and in process of time to every county therein. Last of all we were invited to
+                    Musselburgh, Glasgow, and several other parts of Scotland.<note place="foot"
+                        xml:id="ftn27" n="27"><p rend="footnote text">In Apr. 1751, by Captain
+                            Bartholomew Gallatin, a Methodist whose regiment had been transferred to
+                            Musselburgh from Manchester.</p></note> But it was in Edinburgh,
+                    Glasgow, Dundee, <pb n="03:585"/>Arbroath, and Aberdeen, that we saw the
+                    greatest fruit of our labour.</p>
+            </div>
+            <div type="section" n="2">
+                <p n="1">II. 1. Such was the rise, and such has been the progress of Methodism from
+                    the beginning to the present time. But you will naturally ask, What is
+                    Methodism? What does this new word mean? Is it not a new religion? This is a
+                    very common, nay, almost an universal supposition. But nothing can be more
+                    remote from the truth. It is a mistake all over. Methodism, so called, is the
+                    old religion, the religion of the Bible, the religion of the primitive church,
+                    the religion of the Church of England. This ‘old religion’ (as I observed in the
+                        <hi rend="italic">Earnest Appeal to Men of Reason and Religion</hi>) is</p>
+                <quote>no other than love: the love of God and of all mankind; the loving God with
+                    all our heart, and soul, and strength, as having first loved <hi rend="italic"
+                        >us</hi>, as the fountain of all the good we have received, and of all we
+                    ever hope to enjoy; and the loving every soul which God hath made, every man on
+                    earth, as our own soul.<note place="foot" xml:id="ftn28" n="28"><p
+                            rend="footnote text">Cf. No. 7, ‘The Way to the Kingdom’, I.8 and n. For
+                            the love of God being the substance of inward holiness and the love of
+                            neighbour the substance of outward holiness, cf. <hi rend="italic"
+                                >ibid.</hi>, I.10 and n.</p></note> This love is the great medicine
+                    of life, the never-failing remedy for all the evils of a disordered world, for
+                    all the miseries and vices of men. Wherever this is, there are virtue and
+                    happiness, going hand in hand. There is humbleness of mind, gentleness,
+                    long-suffering, the whole image of God, and at the same time a peace that
+                    passeth all understanding, with joy unspeakable, and full of glory. This
+                    religion of love, and joy, and peace, has its seat in the inmost soul, but is
+                    ever showing itself by its fruits, continually springing up, not only in all
+                    innocence—for love worketh no ill to his neighbour—but likewise in every kind of
+                    beneficence, spreading virtue and happiness all around it.<note place="foot"
+                        xml:id="ftn29" n="29"><p rend="footnote text">Cf. <hi rend="italic">An
+                                Earnest Appeal</hi>, §§2-4 (11:45-46 in this edn.), and note
+                            Wesley’s revisions here of that published text.</p></note></quote>
+                <p n="2">2. This is the <hi rend="italic">religion of the Bible</hi>, as no one can
+                    deny who reads it with any attention. It is the religion which is continually
+                    inculcated therein, which runs through both the Old and New Testament. Moses and
+                    the prophets, our Blessed Lord and his apostles, proclaim with one voice, ‘Thou
+                    shalt love the Lord thy God with all thy soul, and thy neighbour as
+                        thyself.’<note place="foot" xml:id="ftn30" n="30"><p rend="footnote text"
+                            >Cf. Deut. 6:5; Lev. 19:18; Matt. 22:37, 39, etc.</p></note> The Bible
+                    declares, ‘Love is the fulfilling of the Law,’<note place="foot" xml:id="ftn31"
+                        n="31"><p rend="footnote text">Rom. 13:10.</p></note> ‘the end of the
+                        commandment’,<note place="foot" xml:id="ftn32" n="32"><p
+                            rend="footnote text">1 Tim. 1:5.</p></note> of all the commandments
+                    which are contained in the oracles of God. The inward and outward fruits of this
+                    love are also largely described by the inspired writers. So that whoever <pb
+                        n="03:586"/>allows the Scripture to be the Word of God must allow this to be
+                    true religion.</p>
+                <p n="3">3. This is the <hi rend="italic">religion of the primitive church</hi>, of
+                    the whole church in the purest ages. It is clearly expressed even in the small
+                    remains of Clemens Romanus, Ignatius, and Polycarp. It is seen more at large in
+                    the writings of Tertullian, Origen, Clemens Alexandrinus, and Cyprian. And even
+                    in the fourth century it was found in the works of Chrysostom, Basil, Ephrem
+                    Syrus, and Macarius.<note place="foot" xml:id="ftn33" n="33"><p
+                            rend="footnote text">Note the omission here of Irenaeus; otherwise, this
+                            is Wesley’s standard roster of ‘the fathers of the church’ who
+                            represented, for him, the primitive Christian tradition; it is typical
+                            of Anglican patrology in general. See No. 43, <hi rend="italic">The
+                                Scripture Way of Salvation</hi>, I.7 and n.; also LPT <hi
+                                rend="italic">Wesley,</hi> p. 9, n. 26.</p></note> It would be easy
+                    to produce a cloud of witnesses testifying the same thing, were not this a point
+                    which no one will contest who has the least acquaintance with Christian
+                    antiquity.</p>
+                <p n="4">4. And this is the <hi rend="italic">religion of the Church of
+                    England</hi>, as appears from all her authentic records, from the uniform tenor
+                    of her liturgy, and from numberless passages in her Homilies. The scriptural
+                    primitive religion of love, which is now reviving throughout the three kingdoms,
+                    is to be found in her morning and evening service, and in her daily as well as
+                    occasional prayers; and the whole of it is beautifully summed up in that one,
+                    comprehensive petition, ‘Cleanse the thoughts of our hearts by the inspiration
+                    of thy Holy Spirit, that we may perfectly love thee, and worthily magnify thy
+                    holy name.’<note place="foot" xml:id="ftn34" n="34"><p rend="footnote text">BCP,
+                            Communion, Collect for Purity.</p></note></p>
+                <p n="5">5. Permit me to give a little fuller account, both of the progress and
+                    nature of this religion, by an extract from a treatise which was published many
+                    years ago.<hi rend="endnote_reference"><note place="end"><p rend="endnote text"
+                                    ><hi rend="italic">Farther Appeal</hi>, Part III [I.4-5,
+                                11:274-75 in this edn. which see for scriptural
+                            citations].</p></note></hi></p>
+                <quote>Just at the time when we wanted little of ‘filling up the measure of our
+                    iniquities’, two or three clergymen of the Church of England began vehemently to
+                    ‘call sinners to repentance’. Many thousands gathered together to hear them; and
+                    in every place where they came many began to show such concern for religion as
+                    they never had done before. Many were in a short time deeply convinced of the
+                    number and heinousness of their sins, of their evil tempers, of their inability
+                    to help themselves, and of the insignificancy of their <hi rend="italic">outside
+                        religion</hi>. And from this repentance sprung ‘fruits meet for repentance’:
+                    the whole form of their life was changed. They ‘ceased to do evil, and learned
+                    to do well’. Neither was this all; but over and above this outward change they
+                    began to experience <hi rend="italic">inward religion</hi>. ‘The love of God was
+                    shed abroad in their hearts,’ <pb n="03:587"/>which they enjoy to this day. They
+                    ‘love him, because he first loved us’; and this love constrains them to love all
+                    mankind, and inspires them with every holy and heavenly temper, with the mind
+                    which was in Christ. Hence it is that they are now uniform in their behaviour,
+                    unblameable in all manner of conversation, and in whatsoever state they are,
+                    they have learned therewith to be content. Thus they calmly travel on through
+                    life, never repining, or murmuring, or dissatisfied, till the hour comes that
+                    they shall drop this covering of earth,<note place="foot" xml:id="ftn35" n="35"
+                            ><p rend="footnote text">Cf. No. 28, ‘Sermon on the Mount, VIII’, §21
+                            and n.</p></note> and return to the Father of spirits.<note place="foot"
+                        xml:id="ftn36" n="36"><p rend="footnote text">An abridgement and further
+                            revision of <hi rend="italic">A Farther Appeal</hi>, Pt. III, I.4-5
+                            (11:274-75 in this edn.), continued in sects. 6-11 by revised extracts
+                            from I.7-11, 13-14 (11:276-80). (Again it should be noted that in the
+                            normal course quotations and allusions within even lengthy passages
+                            quoted from some other source are not cited.)</p></note></quote>
+                <p n="6">6. This revival of religion has spread to ‘such a degree as neither we nor
+                    our fathers had known’. How <hi rend="italic">extensive</hi> has it been! There
+                    is scarce a considerable town in the kingdom where some have not been made
+                    witnesses of it. It has spread to every age and sex, to most orders and degrees
+                    of men; and even to abundance of those who in time past were accounted monsters
+                    of wickedness.</p>
+                <quote>
+                    <p>Consider the <hi rend="italic">swiftness</hi> as well as extent of it. In
+                        what age has such a number of sinners been recovered in so short a time from
+                        the error of their ways? When has true religion—I will not say since the
+                        Reformation, but since the time of Constantine the Great—made so large a
+                        progress in any nation within so small a space? I believe, hardly can either
+                        ancient or modem history afford a parallel instance.</p>
+                    <p n="7">7. We may likewise observe the <hi rend="italic">depth</hi> of the work
+                        so extensively and swiftly wrought. Multitudes have been throughly
+                        ‘convinced of sin’; and shortly after, so filled with joy and love that
+                        whether they were in the body, or out of the body, they could hardly tell.
+                        And in the power of this love they have trampled underfoot whatever the
+                        world accounts either terrible or desirable, having evidenced in the
+                        severest trials an invariable and tender goodwill to mankind, and all the
+                        fruits of holiness. Now so deep a repentance, so strong a faith, so fervent
+                        love, and so unblemished holiness, wrought in so many persons in so short a
+                        time, the world, has not seen for many ages.</p>
+                    <p n="8">8. No less remarkable is the <hi rend="italic">purity</hi> of the
+                        religion which has extended itself so deeply and swiftly. I speak
+                        particularly as to the doctrines held by those who are the subjects of it.
+                        Those of the Church of England at least must acknowledge this. For where is
+                        there a body of people who, number for number, so closely adhere to the
+                        doctrines of the Church?</p>
+                    <p>Nor is their religion more pure from <hi rend="italic">heresy</hi> than it is
+                        from <hi rend="italic">superstition</hi>. In former times, wherever any
+                        unusual religious concern has appeared, there has sprung up with it a <hi
+                            rend="italic">zeal</hi> for things that were no part of religion. But it
+                        has not been so in the present case. No stress has been laid on anything as
+                        though it was necessary to salvation but what is plainly contained in the
+                        Word of God. And of the things contained therein the stress laid on each has
+                        been in proportion to the nearness of its relation to what is there laid
+                        down as the sum of all—the love of <pb n="03:588"/>God and our neighbour. So
+                        pure both from superstition and error is the religion which has lately
+                        spread in this nation.</p>
+                    <p n="9">9. It is likewise <hi rend="italic">rational</hi>. It is as pure from
+                            <hi rend="italic">enthusiasm</hi> as from superstition. It is true the
+                        contrary has been continually affirmed. But to affirm is one thing; to prove
+                        is another. Who will prove that it is <hi rend="italic">enthusiasm</hi> to
+                        love God? Yea, to love him with all our heart? Who is able to make good this
+                        charge against the love of all mankind? (I do but just touch on the general
+                        heads.) But if you cannot make it good, own this religion to be sober,
+                        manly, rational, divine.</p>
+                    <p n="10">10. It is also pure from <hi rend="italic">bigotry</hi>. Those who
+                        hold it are not bigoted to <hi rend="italic">opinions</hi>. They would hold
+                        right opinions; but they are peculiarly cautious not to rest the weight of
+                        Christianity there. They have no such overgrown fondness for any opinions as
+                        to think those alone will make them Christians, or to confine their
+                        affection or esteem to those that agree with them therein. Nor are they
+                        bigoted to any particular branch, even of practical religion. They are not
+                        attached to one point more than another; they aim at uniform, universal
+                        obedience. They contend for nothing circumstantial as if it were essential
+                        to religion, but for everything in its own order.</p>
+                    <p n="11">11. They dread that <hi rend="italic">bitter zeal</hi>, that spirit of
+                            <hi rend="italic">persecution</hi>, which has so often accompanied the
+                        spirit of reformation. They do not approve of using any kind of violence, on
+                        any pretence, in matters of religion. They allow no method of bringing any
+                        to the knowledge of the truth, except the methods of reason and persuasion.
+                        And their practice is consistent with their profession. They do not in fact
+                        hinder their dependents from worshipping God, in every respect, according to
+                        their own conscience.</p>
+                </quote>
+                <p>But if these things are so, may we not well say, ‘What hath God wrought!’<note
+                        place="foot" xml:id="ftn37" n="37"><p rend="footnote text">See JWJ, Aug. 8,
+                            1779, for Wesley’s account of his last night spent in the Foundery; note
+                            his repetition of this text from Num. 23:23.</p></note> For such a work,
+                    if we consider the <hi rend="italic">extensiveness</hi> of it, the <hi
+                        rend="italic">swiftness</hi> with which it has spread, the <hi rend="italic"
+                        >depth</hi> of the religion so swiftly diffused, and its<hi rend="italic">
+                        purity</hi> from all corrupt mixtures, we must acknowledge, cannot easily be
+                    paralleled in all these concurrent circumstances by anything that is found in
+                    the English annals since Christianity was first planted in this island.<note
+                        place="foot" xml:id="ftn38" n="38"><p rend="footnote text">See §4, above,
+                            and n.</p></note></p>
+                <p n="12">12. It may throw considerable light upon the nature of this work to
+                    mention one circumstance more attending the present revival of religion, which I
+                    apprehend is quite peculiar to it. I do not remember to have either seen, heard,
+                    or read of anything parallel. It cannot be denied that there have been several
+                    considerable revivals of religion in England since the Reformation. But the
+                    generality of the English nation were little profited thereby; because they that
+                    were the subjects of those revivals, preachers as well as people, soon separated
+                    from the Established Church, and formed themselves into a distinct sect. So did
+                    the <pb n="03:589"/>Presbyterians first, afterwards the Independents, the
+                    Anabaptists, and the Quakers. And after this was done they did scarce any good,
+                    except to their own little body. As they chose to separate from the Church, so
+                    the people remaining therein separated from them, and generally contracted a
+                    prejudice against them. But these were immensely the greatest number; so that by
+                    that unhappy separation the hope of a general, national reformation was totally
+                    cut off.</p>
+                <p n="13">13. But it is not so in the present revival of religion. The Methodists
+                    (so termed) know their calling. They weighed the matter at first, and upon
+                    mature deliberation determined to continue in the Church. Since that time they
+                    have not wanted temptations of every kind to alter their resolution. They have
+                    heard abundance said upon the subject, perhaps all that can be said. They have
+                    read the writings of the most eminent pleaders for separation, both in the last
+                    and present century. They have spent several days in a general conference upon
+                    this very question, ‘Is it <hi rend="italic">expedient</hi> (supposing, not
+                    granting, that it is <hi rend="italic">lawful</hi>) to separate from the
+                    established Church?’<note place="foot" xml:id="ftn39" n="39"><p
+                            rend="footnote text">Agitation among the Methodists for a separation
+                            from the Church of England had begun early but never reached crisis
+                            proportions until the Conference at Leeds in 1755. Wesley anticipated
+                            this crisis with a MS tract (still extant) entitled, ‘Ought We to
+                            Separate from the Church of England?’; it may actually have been read at
+                            the Conference. Shortly thereafter, he revised it for publication as
+                            item No. 13 in the collection entitled <hi rend="italic">A Preservative
+                                against Unsettled Notions in Religion</hi>, 1758.</p></note> But
+                    still they could see no sufficient cause to depart from their first resolution.
+                    So that their fixed purpose is—let the clergy or laity use them well or ill—by
+                    the grace of God to endure all things, to hold on their even course, and to
+                    continue in the Church, maugre<note place="foot" xml:id="ftn40" n="40"><p
+                            rend="footnote text">I.e., ‘despite’ or ‘notwithstanding’; cf. <hi
+                                rend="italic">OED</hi>.</p></note> men or devils, unless God permits
+                    them to be thrust out.</p>
+                <p n="14">14. Near twenty years ago, immediately after their solemn consultation on
+                    the subject, a clergyman who had heard the whole said with great earnestness:
+                    ‘In the name of God, let nothing move you to recede from this resolution. God is
+                    with you of a truth; and so he will be, while you continue in the Church. But
+                    whenever the Methodists leave the Church, God will leave them.’<note
+                        place="foot" xml:id="ftn41" n="41"><p rend="footnote text">I.e., Benjamin
+                            Ingham, whose separation followed closely on the heels of this warning;
+                            the Conference session was in May 1755, and in Leeds rather than London
+                            (as scheduled) mainly for the convenience of William Grimshaw of
+                            Haworth, Wesley’s chief clerical ally in the north; cf. Baker, <hi
+                                rend="italic">William Grimshaw</hi>, pp. 234-38. The Inghamite
+                            separation began in Dec., but the movement failed to
+                        flourish.</p></note> Lord, what is man! In a few months after, Mr. Ingham
+                        <pb n="03:590"/>himself left the Church, and turned all the societies under
+                    his care into congregations of Independents. And what was the event? The same
+                    that he had foretold. They swiftly mouldered into nothing.</p>
+                <p>Some years after a person of honour told me: ‘This is the peculiar glory of the
+                    Methodists. However convenient it might be, they will not on any account or
+                    pretence whatever form a distinct sect or party. Let no one rob you of this
+                        glorying.’<note place="foot" xml:id="ftn42" n="42"><p rend="footnote text"
+                            >Cf. ‘Thoughts upon a Late Phenomenon’, <hi rend="italic">AM</hi>
+                                (Jan<hi rend="italic">.</hi> 1789), XII.47-48: ‘This is a new thing
+                            in the world: this is the peculiar glory of the people called
+                            Methodists. In spite of all manner of temptations, they will not
+                            separate from the Church.’ The ‘person of honour’ mentioned here may
+                            have been Henry Venn; cf. Curnock’s note in JWJ, V.279 (Venn’s
+                            connection with the founding of the Highfield Independent Chapel in
+                            Huddersfield), and Wesley’s letter to Thomas Adam, July 19,
+                        1768.</p></note> I trust none will as long as I live. But the giver of this
+                    advice entirely forgot it in a very short time, and has almost ever since been
+                    labouring to form Independent congregations.</p>
+                <p n="15">15. This has occasioned many to ask, ‘Why do you say the Methodists form
+                    no distinct party? That they do not leave the Church? Are there not thousands of
+                    Methodists who have in fact left the Church? Who never attend the Church
+                    service? Never receive the Lord’s Supper there? Nay, who speak against the
+                    Church, even with bitterness, both in public and private? Yea, who appoint and
+                    frequent meetings for divine service at the same hour? How then can you affirm
+                    that the Methodists do not leave the Church?’</p>
+                <p>I am glad of so public an opportunity of explaining this; in order to which it
+                    will be necessary to look back some years. The Methodists at Oxford were all one
+                        body,<note place="foot" xml:id="ftn43" n="43"><p rend="footnote text">See
+                            above, I.2; also No. 53, <hi rend="italic">On the Death of George
+                                Whitefield</hi>, III.2 and n.</p></note> and as it were one soul,
+                    zealous for the religion of the Bible, of the primitive church, and in
+                    consequence of the Church of England; as they believed it to come nearer the
+                    scriptural and primitive plan than any other national church upon earth.</p>
+                <p>When my brother and I returned from Georgia we were in the same sentiments. And
+                    at that time we and our friends were the only persons to whom that innocent name
+                    was affixed. Thus far, therefore, all the Methodists were firm to the Church of
+                    England.</p>
+                <p n="16">16. But a good man who met with us when we were at Oxford, while he was
+                    absent from us, conversed much with Dissenters, and contracted strong prejudices
+                    against the Church. I mean Mr. <pb n="03:591"/>Whitefield. And not long after he
+                    totally separated from <hi rend="italic">us</hi>.<note place="foot"
+                        xml:id="ftn44" n="44"><p rend="footnote text">Cf<hi rend="italic">. A Short
+                                History of Methodism</hi> (1765), §11. Whitefield contradicts this
+                            charge of initiating the schism. His version is that Wesley’s
+                            publication of <hi rend="italic">Free Grace</hi> (see No. 110) caused
+                            the open break that was never realty healed thereafter. Cf. <hi
+                                rend="italic">George Whitefield’s Journals</hi> (The Banner of Truth
+                            Trust, 1960), Appendix II, pp. 561-88; see also Seymour, <hi
+                                rend="italic">Countess of Huntingdon</hi>, I.87-88, 118,
+                        474.</p></note> In some years William Cudworth<note place="foot"
+                        xml:id="ftn45" n="45"><p rend="footnote text">With James Relly, William
+                            Cudworth led the antinomian wing of the Revival; they turned Wesley’s
+                            doctrine of perfection-in-process into one of <hi rend="italic"
+                                >guiltless</hi> perfection (cf. intro. on the triple essay on Law
+                            and Grace, Nos. 34-36). They are the targets of Wesley’s two <hi
+                                rend="italic">Dialogues between an Antinomian and his Friend</hi>
+                            and also his <hi rend="italic">Blow at the Root; Or, Christ Stabbed in
+                                the House of his Friends</hi>, 1762. See also <hi rend="italic">A
+                                Short History of Methodism</hi>, §12.</p></note> and several others
+                    separated from him, and turned Independents; as did Mr. Maxfield<note
+                        place="foot" xml:id="ftn46" n="46"><p rend="footnote text">Thomas Maxfield,
+                            the first lay preacher accepted by Wesley as an assistant. His first
+                            endorsement in this office came to Wesley from the Countess of
+                            Huntingdon (cf. Seymour, I.32-35), but it was Susanna Wesley’s direct
+                            intervention on Maxfield’s behalf that decided the issue in her son’s
+                            mind (cf. Moore, <hi rend="italic">Wesley</hi>, I.505-6). Maxfield was
+                            later ordained by Dr. William Bernard, Bishop of Derry, and in 1763
+                            (with George Bell) he separated from Wesley in a bitter schism. He died
+                            in 1784. See JWJ, Jan. 23-Feb. 7, 1763, for Wesley’s account of the
+                            Maxfield schism; cf. <hi rend="italic">A Short History of
+                            Methodism</hi>, §14; and Charles Atmore, <hi rend="italic">The Methodist
+                                Memorial</hi>, pp. 266-69.</p></note> and a few more after
+                    separating from us. Lastly, a school was set up near Trevecka in Wales; and
+                    almost all who were educated there (except those that were ordained, and some of
+                    them too), as they disclaimed all connection with the Methodists, so they
+                    disclaimed the Church also.<note place="foot" xml:id="ftn47" n="47"><p
+                            rend="footnote text">For a more sympathetic account of the ‘history of
+                            the college at Trevecka’ in South Wales, cf. Seymour, II.78-86. It was
+                            ‘founded by the Countess of Huntingdon for the instruction of candidates
+                            for the Christian ministry’, and its first principal was John William
+                            Fletcher. Its alumni ‘might enter into the ministry either in the
+                            Established Church of England or among Protestants of any other
+                            denomination’.</p></note> Nay, they spoke of it upon all occasions with
+                    exquisite bitterness and contempt.</p>
+                <p>Now let every impartial person judge whether we are accountable for any of these!
+                    None of these have any manner of connection with the original Methodists. They
+                    are branches broken off from the tree: if they break from the Church also, we
+                    are not accountable for it.</p>
+                <p>These therefore cannot make our glorying void,<note place="foot" xml:id="ftn48"
+                        n="48"><p rend="footnote text">See 1 Cor. 9:15.</p></note> that we do not,
+                    will not, form any separate sect, but from principle remain what we always have
+                    been, true members of the Church of England.</p>
+                <p n="17">17. Brethren, I presume the greater part of you also are members of the
+                    Church of England. So at least you are called; but you are not so indeed unless
+                    you are witnesses of the religion above described. And are you really such?
+                    Judge not one another; <pb n="03:592"/>but every man look into his own bosom.
+                    How stands the matter in your own breast? Examine your conscience before God.
+                    Are <hi rend="italic">you </hi>an happy partaker of this scriptural, this truly
+                    primitive religion? Are you a witness of the religion of love? Are you a lover
+                    of God and all mankind? Does your heart glow with gratitude to the Giver of
+                    every good and perfect gift?<note place="foot" xml:id="ftn49" n="49"><p
+                            rend="footnote text">See Jas. 1:17.</p></note> The Father of the spirits
+                    of all flesh, who giveth you life, and breath, and all things?<note place="foot"
+                        xml:id="ftn50" n="50"><p rend="footnote text">See Acts 17:25.</p></note> Who
+                    hath given you his Son, his only Son, that you ‘might not perish, but have
+                    everlasting life’?<note place="foot" xml:id="ftn51" n="51"><p
+                            rend="footnote text">Cf. John 3:16.</p></note> Is your soul warm with
+                    benevolence to all mankind? Do you long to have all men virtuous and happy? And
+                    does the constant tenor of your life and conversation bear witness of this? Do
+                    you ‘love, not in word only, but in deed and in truth’?<note place="foot"
+                        xml:id="ftn52" n="52"><p rend="footnote text">Cf. 1 John 3:18.</p></note> Do
+                    you persevere in the ‘work of faith, and the labour of love’?<note place="foot"
+                        xml:id="ftn53" n="53"><p rend="footnote text">1 Thess. 1:3.</p></note> Do
+                    you ‘walk in love, as Christ also loved us, and gave himself for us’?<note
+                        place="foot" xml:id="ftn54" n="54"><p rend="footnote text">Cf. Eph.
+                        5:2.</p></note> Do you, as you have time, ‘do good unto all men’?<note
+                        place="foot" xml:id="ftn55" n="55"><p rend="footnote text">Gal.
+                        6:10.</p></note> And in as high a degree as you are able? ‘Whosoever’ thus
+                    ‘doeth the will of my Father which is in heaven, the same is my brother, and
+                    sister, and mother.’<note place="foot" xml:id="ftn56" n="56"><p
+                            rend="footnote text">Matt. 12:50.</p></note> Whosoever thou art whose
+                    heart is herein as my heart, give me thine hand.<note place="foot"
+                        xml:id="ftn57" n="57"><p rend="footnote text">See 2 Kgs. 10:15.</p></note>
+                    Come and let us magnify the Lord together,<note place="foot" xml:id="ftn58"
+                        n="58"><p rend="footnote text">See Ps. 34:3.</p></note> and labour to
+                    promote his kingdom upon earth. Let us join hearts and hands in this blessed
+                    work, in striving to bring glory to God in the highest, by establishing peace
+                    and goodwill among men<note place="foot" xml:id="ftn59" n="59"><p
+                            rend="footnote text">See Luke 2:14.</p></note> to the uttermost of our
+                    power. First let our hearts be joined herein; let us unite our wishes and
+                    prayers; let our whole soul pant after a general revival of pure religion and
+                        undefiled,<note place="foot" xml:id="ftn60" n="60"><p rend="footnote text"
+                            >Jas. 1:27.</p></note> of the restoration of the image of God, pure
+                    love, in every child of man. Then let us endeavour to promote in our several
+                    stations this scriptural, primitive religion; let us with all diligence diffuse
+                    the religion of love among all we have any intercourse with; let us provoke all
+                    men, not to enmity and contention, but to love and to good works;<note
+                        place="foot" xml:id="ftn61" n="61"><p rend="footnote text">See Heb.
+                            10:24.</p></note> always remembering those deep words (God engrave them
+                    on all our hearts!), ‘God is love; and he that dwelleth in love, dwelleth in
+                    God, and God in him.’<note place="foot" xml:id="ftn62" n="62"><p
+                            rend="footnote text">1 John 4:16.</p></note></p>
+            </div>
+        </body>
+    </text>
+</TEI>
