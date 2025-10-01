@@ -1,0 +1,794 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Sermon 107: On Faith</title>
+                <author>Wesley, John</author>
+                <editor role="text">Van Buskirk, Gregory P.</editor>
+                <editor role="digital">Taylor, Michelle M.</editor>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>The Wesley Works Digitzation Project</publisher>
+                <pubPlace>Tampa, FL</pubPlace>
+                <date>2024-02-25</date>
+            </publicationStmt>
+            <sourceDesc>
+                <listBibl>
+                    <biblStruct>
+                        <analytic>
+                            <title level="a">Sermon 107: On Faith</title>
+                        </analytic>
+                        <monogr>
+                            <title level="j">The Works of John Wesley, Volume III: Sermons III,
+                                71-114</title>
+                            <editor role="volume">Outler, Albert</editor>
+                            <imprint>
+                                <publisher>Abingdon Press</publisher>
+                                <pubPlace>Nashville, TN</pubPlace>
+                                <date when="1986-11-01">1986-11-01</date>
+                                <biblScope unit="volume" n="3"/>
+                                <biblScope unit="page" from="502" to="517"/>
+                            </imprint>
+                        </monogr>
+                        <series>
+                            <title level="s">The Works of John Wesley</title>
+                            <editor role="general">Baker, Frank</editor>
+                        </series>
+                    </biblStruct>
+                </listBibl>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Greg Van Buskirk created Word docs for all of Wesley's sermons using a combination of
+                OCR software and manual proofing. Michelle Taylor converted these docx into XML
+                using Oxygen's DITA automatic transformation scenario, then touched them up
+                manually.</p>
+        </encodingDesc>
+        <standOff>
+            <taxonomy>
+                <keywords>
+                    <term/>
+                </keywords>
+            </taxonomy>
+            <!--Include keywords and terms here eventually.-->
+        </standOff>
+        <revisionDesc/>
+    </teiHeader>
+    <text>
+        <body>
+            <pb n="03:502"/>
+            <hi rend="italic">An Introductory Comment</hi>
+            <introduction>
+                <p>Isa. 5:4 was something of a favourite of Wesley’s; there are fourteen notices of
+                    its use in his oral preaching from 1748 to 1788. He knew William Tilly’s
+                    reference to it in his university sermon, ‘On Grieving the Holy Spirit’; cf.
+                    Sermon XI in his <hi rend="italic">Sixteen Sermons</hi> (1712), p. 320. Wesley’s
+                    abridgement of this, copied out in 1733, was found among his papers after his
+                    death and published as a Wesley original by Thomas Jackson in 1825. Wesley also
+                    knew Jeremiah Seed’s sermon on the same text; cf. Sermon III in Seed’s <hi
+                        rend="italic">Posthumous Works</hi> (1750), I.69-94 (for Wesley’s admiring
+                    reference to him as a preacher, see the Preface to <hi rend="italic"
+                    >SOSO</hi>,V-VIII, §5, II.355-57).</p>
+                <p>What is wholly original in this present sermon, however, is Wesley’s direct
+                    identification of ‘God’s Vineyard’ with his own Methodist movement, together
+                    with the special pathos of his estimate of God’s special blessings to the
+                    Methodist people and of their failures to fulfil their original promise and
+                    prospects. I.8-9 is a capsule history of Methodism; V.1-7 is a candid summary of
+                    its leader’s discontents. Clearly, this was a sermon chiefly for Methodists,
+                    which raises the interesting question as to how widely Wesley expected the
+                    sermons in <hi rend="italic">SOSO</hi>, VIII, to be read.</p>
+                <p>At any rate, this sermon was written at Witney (near Oxford), on October 17, 1787
+                    (see JWJ for October 16 and diary for October 17) and was first published in <hi
+                        rend="italic">SOSO</hi>, VIII.249-72 (1788), with its present title. In the
+                    January and February issues of the <hi rend="italic">Arminian Magazine</hi>
+                    (1789), XII.6-14, 62-68, it was reprinted without a title and numbered ‘Sermon
+                    XLVIII’ (on p. 6) and ‘Sermon XLIX’ (on p. 62)—the latter number is the correct
+                    one. The present text here is based on <hi rend="italic">SOSO</hi>, VIII, which
+                    is very nearly identical with the <hi rend="italic">Magazine</hi> reprint.</p>
+            </introduction>
+            <pb n="03:503"/>
+            <head>On God’s Vineyard</head>
+            <epigraph>
+                <p>Isaiah 5:4</p>
+                <p>
+                    <hi rend="italic">What could have been done more to my vineyard, that I have not
+                        done in it? Wherefore, when I looked that it should bring forth grapes,
+                        brought it forth wild grapes?</hi>
+                </p>
+            </epigraph>
+            <div type="introduction">
+                <p>The ‘vineyard of the Lord’, taking the word in its widest sense, may include the
+                    whole world. All the inhabitants of the earth may in some sense be called ‘the
+                    vineyard of the Lord’, who ‘hath made all nations of men to dwell on all the
+                    face of the earth, that they might seek the Lord, if haply they may feel after
+                    him, and find him’.<note place="foot" xml:id="ftn1" n="1"><p
+                            rend="footnote text">Cf. Acts 17:26-27 (<hi rend="italic">Notes</hi>);
+                            Isa. 5:7.</p></note> But in a narrower sense the vineyard of the Lord
+                    may mean the Christian world; that is, all that name the name of Christ<note
+                        place="foot" xml:id="ftn2" n="2"><p rend="footnote text">Cf. 2 Tim.
+                            2:19.</p></note> and profess to obey his word. In a still narrower sense
+                    it may be understood of what is termed the reformed part of the Christian
+                    church. In the narrowest of all one may by that phrase, ‘the vineyard of the
+                    Lord’, mean the body of people commonly called Methodists.<note place="foot"
+                        xml:id="ftn3" n="3"><p rend="footnote text">An echo of Thomas Crane’s
+                            metaphor about the concentric circles of Providence; see No. 67, ‘On
+                            Divine Providence’, §16 and n.</p></note> In this sense I understand it
+                    now, meaning thereby that Society only, which began at Oxford in the year 1729,
+                    and remain united at this day. Understanding the word in this sense I repeat the
+                    question which God proposes to<note place="foot" xml:id="ftn4" n="4"><p
+                            rend="footnote text"><hi rend="italic">AM</hi>, ‘by’.</p></note> the
+                    Prophet: ‘What could have been done more to my vineyard that I have not done in
+                    it? Wherefore, when I looked that it should bring forth grapes, brought it forth
+                    wild grapes?’</p>
+                <p>What could God have done more in this his vineyard (suppose he had designed it
+                    should put forth great branches, and spread over the earth) which he hath not
+                    done in it?</p>
+                <p>First, with regard to doctrine;</p>
+                <p>Secondly, with regard to spiritual helps;</p>
+                <p>Thirdly, with regard to discipline; and</p>
+                <p>Fourthly, with regard to outward protection.</p>
+                <p>These things being considered, I would then briefly inquire, <pb n="504"
+                    />‘Wherefore, when he looked [that] it should bring forth grapes, brought it
+                    forth wild grapes?’</p>
+            </div>
+            <div type="section" n="1">
+                <p n="1">I. 1. First, what could have been done in this his vineyard which God hath
+                    not done in it? What could have been done more with regard to <hi rend="italic"
+                        >doctrine</hi>? From the very beginning, from the time that four young men
+                    united together, each of them was <hi rend="italic">homo unius libri</hi>—a man
+                    of one book.<note place="foot" xml:id="ftn5" n="5"><p rend="footnote text">See
+                            above, ‘Preface’ (1746), §5 and n. (1:104-5 in this edn.). For Wesley’s
+                            dating the Revival from 1729, of. No. 63, ‘The General Spread of the
+                            Gospel’, §16 and n.; see also below, I.3.</p></note> God taught them all
+                    to make his ‘Word a lantern unto their feet, and a light in all their
+                        paths’.<note place="foot" xml:id="ftn6" n="6"><p rend="footnote text">Cf.
+                            Ps. 119:105 (BCP).</p></note> They had one, and only one rule of
+                    judgment with regard to all their tempers, words, and actions, namely, the
+                    oracles of God. They were one and all determined to be <hi rend="italic"
+                        >Bible-Christians</hi>. They were continually reproached for this very
+                    thing; some terming them in derision <hi rend="italic">Bible-bigots</hi>; others
+                        <hi rend="italic">Bible-moths</hi>—feeding, they said, upon the Bible as
+                    moths do upon cloth. And indeed unto this day it is their constant endeavour to
+                    think and speak as the oracles of God.</p>
+                <p n="2">2. It is true a learned man, Dr. Trapp,<note place="foot" xml:id="ftn7"
+                        n="7"><p rend="footnote text">Joseph Trapp (1679-1747), ally of Henry
+                            Sacheverell and first professor of poetry at Oxford, whose four sermons
+                            on <hi rend="italic">The Nature, Folly, Sin, and Danger of Being
+                                Righteous Overmuch</hi> (1739), aimed mostly at Law and Whitefield,
+                            gained him more fame among the Methodists than he enjoyed
+                        elsewhere.</p></note> soon after their setting out, gave a very different
+                    account of them. ‘When I saw’, said the Doctor, ‘these two books, <hi
+                        rend="italic">The Treatise on Christian Perfection</hi>, and the <hi
+                        rend="italic">Serious Call to a Holy Life</hi>,<note place="foot"
+                        xml:id="ftn8" n="8"><p rend="footnote text">Law, <hi rend="italic">A
+                                Practical Treatise Upon Christian Perfection</hi> (1726), and <hi
+                                rend="italic">A Serious Call to a Devout and Holy Life</hi>
+                            (1729).</p></note> I thought, these books will certainly do mischief.
+                    And so it proved; for presently after up sprung the Methodists. So he (Mr. Law)
+                    was their parent.’<note place="foot" xml:id="ftn9" n="9"><p rend="footnote text"
+                            >Cf. Trapp,<hi rend="italic"> A Reply to Mr. Law’s Earnest and Serious
+                                Answer (as it is called) to Dr. Trapp’s Discourse of the Folly, Sin,
+                                and Danger of Being Righteous Overmuch</hi> (London, Gilliver,
+                            1741), pp. 6-7. Wesley paraphrases Trapp, whose references are mainly to
+                            Law’s <hi rend="italic">Christian Perfection</hi>. Cf. Moore, <hi
+                                rend="italic">Wesley</hi>, I.171, for Samuel Wesley, Sen.’s claim
+                            that if ‘my son John has the honour of being styled the “Father of the
+                            Holy Club”, I must be the grandfather of it…’.</p></note> Although this
+                    was not entirely true, yet there was some truth in it. All the Methodists
+                    carefully read these books, and were greatly profited thereby. Yet they did by
+                    no means spring from them, but from the Holy Scriptures; ‘being born again’, as
+                    St. Peter speaks, ‘by the word of God, which liveth and abideth for ever’.<note
+                        place="foot" xml:id="ftn10" n="10"><p rend="footnote text">Cf. 1 Pet.
+                            1:23.</p></note></p>
+                <pb n="03:505"/>
+                <p n="3">3. Another learned man, the late Bishop Warburton, roundly affirms that
+                    ‘they were the offspring of Mr. Law and Count Zinzendorf together.’<note
+                        place="foot" xml:id="ftn11" n="11"><p rend="footnote text">William Warburton
+                            (1698-1779), Bishop of Gloucester. In his <hi rend="italic">Doctrine of
+                                Grace </hi>(1762), p. 152 (cf. <hi rend="italic">Works</hi>,
+                            VII.342-43), he had asserted that ‘Mr. Law begot Methodism and Count
+                            Zinzendorf rocked the cradle.’ See No. 100, ‘On Pleasing All Men’, I.2
+                            and n. For other references to Zinzendorf, cf. No. 13, <hi rend="italic"
+                                >On Sin in Believers</hi>, I.5 and n.</p></note> But this was a
+                    greater mistake still. For they had met together several years before they had
+                    the least acquaintance with Count Zinzendorf, or even knew there was such a
+                    person in the world.<note place="foot" xml:id="ftn12" n="12"><p
+                            rend="footnote text">Another pointer to the origins of Methodism in the
+                            Holy Club in 1729. See above I.1; and No. 63, ‘The General Spread of the
+                            Gospel’, §16 and n.</p></note> And when they did know him, although they
+                    esteemed him very highly in love, yet they did not dare to follow him one step
+                    farther than they were warranted by the Scripture.</p>
+                <p n="4">4. The book which, next to the Holy Scripture, was of the greatest use to
+                    them in settling their judgment as to the grand point of justification by faith
+                    was the <hi rend="italic">Book of Homilies</hi>.<note place="foot"
+                        xml:id="ftn13" n="13"><p rend="footnote text">Cf. Wesley’s abridgement of
+                            the first Edwardian <hi rend="italic">Homilies</hi> in his little tract,
+                                <hi rend="italic">The Doctrine of Salvation, Faith, and Good Works,
+                                Extracted from the Homilies of the Church of England</hi> (1739).
+                            Cf. LPT <hi rend="italic">Wesley,</hi> pp. 121-33; see <hi rend="italic"
+                                >Bibliog</hi>, No. 11, and Vol. 12 of this edn.</p></note> They were
+                    never clearly convinced that we are justified by faith alone till they carefully
+                    consulted these, and compared them with the Sacred Writings, particularly St.
+                    Paul’s Epistle to the Romans.<note place="foot" xml:id="ftn14" n="14"><p
+                            rend="footnote text">See JWJ, Nov. 11, 1738.</p></note> And no minister
+                    of the Church can with any decency oppose these, seeing at his ordination he
+                    subscribed to them in subscribing the Thirty-sixth Article of the Church.<note
+                        place="foot" xml:id="ftn15" n="15"><p rend="footnote text">Actually, it was
+                            the thirty-fifth ‘Article’: ‘Of the Homilies’.</p></note></p>
+                <p n="5">5. It has been frequently observed that very few were clear in their
+                    judgment both with regard to justification and sanctification. Many who have
+                    spoken and written admirably well concerning justification had no clear
+                    conception, nay, were totally ignorant, of the doctrine of sanctification. Who
+                    has wrote more ably than Martin Luther on justification by faith alone? And who
+                    was more ignorant of the doctrine of sanctification, or more confused in his
+                    conceptions of it? In order to be thoroughly convinced of this, of his total
+                    ignorance with regard to sanctification, there needs no more than to read over,
+                    without prejudice, his celebrated comment on the Epistle to the Galatians.<note
+                        place="foot" xml:id="ftn16" n="16"><p rend="footnote text">Cf. JWJ, June 15,
+                            1741, for Wesley’s disparaging evaluation of Luther’s <hi rend="italic"
+                                >Commentary on Galatians</hi>; see also No. 14, <hi rend="italic"
+                                >The Repentance of Believers</hi>, I.9 and n.</p></note> On the
+                    other hand, how many writers of the Romish <pb n="03:506"/>Church (as Francis
+                        Sales<note place="foot" xml:id="ftn17" n="17"><p rend="footnote text"
+                            >Francis de Sales (1567-1622), Bishop of Geneva and author of two
+                            classics of devotional literature: <hi rend="italic">An Introduction to
+                                the Devout Life</hi> (1609), and <hi rend="italic">A Treatise on the
+                                Lave of God</hi> (1616). Wesley had read the former in
+                        1733.</p></note> and Juan de Castaniza<note place="foot" xml:id="ftn18"
+                        n="18"><p rend="footnote text">Juan de Castañiza (<hi rend="italic">c.</hi>
+                            1536-99), a Spanish Benedictine, credited in the eighteenth century as
+                            author of <hi rend="italic">Pugna Spiritualis; tractatus vere aureus de
+                                perfectione vitae Christianae</hi> (1599). Susanna Wesley owned a
+                            copy of its English translation (by Richard Lucas in 1698) and used it
+                            in the family devotions in the Epworth rectory. Since then, it has been
+                            more often attributed to Lorenzo Scupoli, a Spanish Theatine. Cf. M.
+                            Alamo in <hi rend="italic">Dictionnaire d’histoire et de géographie
+                                ecclésiastiques</hi>, XI.1414-15; see also No. 3, <hi rend="italic"
+                                >‘Awake, Thou That Sleepest’</hi>, II.9 and n.</p></note> in
+                    particular) have wrote strongly and scripturally on sanctification; who
+                    nevertheless were entirely unacquainted with the nature of justification.
+                    Insomuch that the whole body of their divines at the Council of Trent in their
+                        <hi rend="italic">Catechismus ad Parochos</hi><hi rend="endnote_reference"
+                            ><note place="end"><p rend="endnote text">Catechism which every parish
+                                priest is to teach his people. [Wesley had read this Catechism in
+                                Oct. 1732. Cf. <hi rend="italic">The Catechism of the Council of
+                                    Trent for Parish Priests</hi> (1566), translated into English,
+                                with notes, by T. A. Buckley, 1852.]</p></note></hi> totally
+                    confound sanctification and justification together. But it has pleased God to
+                    give the Methodists a full and clear knowledge of each, and the wide difference
+                    between them.<note place="foot" xml:id="ftn19" n="19"><p rend="footnote text"
+                            >For other comments on Methodist ‘triumphalism’, cf. No. 102, ‘Of Former
+                            Times’, §22 and n.</p></note></p>
+                <p n="6">6. They know, indeed, that at the same time a man is justified
+                    sanctification properly begins. For when he is justified he is ‘born
+                        again’,<note place="foot" xml:id="ftn20" n="20"><p rend="footnote text">John
+                            3:3, 7.</p></note> ‘born from above’,<note place="foot" xml:id="ftn21"
+                        n="21"><p rend="footnote text">John 3:3, where ἄνωθεν literally means ‘from
+                            above’. Cf. No. 45, ‘The New Birth’, II.3; and below, I.9.</p></note>
+                    ‘born of the Spirit’;<note place="foot" xml:id="ftn22" n="22"><p
+                            rend="footnote text">John 3:6, 8.</p></note> which, although it is not
+                    (as some suppose) the whole process of sanctification, [it] is doubtless the
+                    gate of it. Of this likewise God has given them a full view. They know the new
+                    birth implies as great a change in the soul, in him that is ‘born of the
+                    Spirit’, as was wrought in his body when he was born of a woman; not an outward
+                    change only, as from drunkenness to sobriety, from robbery or theft to honesty
+                    (this is the poor, dry, miserable conceit of those that know nothing of real
+                    religion); but an inward change, from all unholy to all holy tempers, from pride
+                    to humility, from passionateness to meekness, from peevishness and discontent to
+                    patience and resignation—in a word, from an earthly, sensual, devilish<note
+                        place="foot" xml:id="ftn23" n="23"><p rend="footnote text">Jas.
+                        3:15.</p></note> mind to the mind that was in Christ Jesus.<note
+                        place="foot" xml:id="ftn24" n="24"><p rend="footnote text">Phil.
+                        2:5.</p></note></p>
+                <pb n="03:507"/>
+                <p n="7">7. It is true a late very eminent author, in his strange treatise on
+                        regeneration,<note place="foot" xml:id="ftn25" n="25"><p
+                            rend="footnote text">William Law, whose <hi rend="italic">The Grounds
+                                and Reasons of Christian Regeneration</hi> (1739) had been read
+                            straightaway by Charles Wesley to the Methodist Society in London in
+                            1739. Cf. Moore, <hi rend="italic">Wesley</hi>, I.300, and see Law’s <hi
+                                rend="italic">Works</hi> (1762), V.180, 170. Echoed in No. 45, ‘The
+                            New Birth’, IV.3. The most famous eighteenth-century essay on this
+                            theme, however, was Daniel Waterland’s <hi rend="italic">Regeneration
+                                Stated and Explained</hi> (1740), which Wesley had also
+                        read.</p></note> proceeds entirely on the supposition that it is the whole,
+                    gradual progress of sanctification. No; it is only the threshold of
+                    sanctification—the first entrance upon it. And as in the natural birth a man is
+                    born at once, and then grows larger and stronger by degrees, so in the spiritual
+                    birth a man is born at once, and then gradually increases in spiritual stature
+                    and strength. The new birth, therefore, is the first point of sanctification,
+                    which may increase more and more unto the perfect day.<note place="foot"
+                        xml:id="ftn26" n="26"><p rend="footnote text">Prov. 4:18.</p></note></p>
+                <p n="8">8. It is then a great blessing given to this people that, as they do not
+                    think or speak of justification so as to supersede sanctification, so neither do
+                    they think or speak of sanctification so as to supersede justification. They
+                    take care to keep each in its own place, laying equal stress on one and the
+                    other. They know God has joined these together, and it is not for man to put
+                    them asunder.<note place="foot" xml:id="ftn27" n="27"><p rend="footnote text"
+                            >See Matt. 19:6.</p></note> Therefore they maintain with equal zeal and
+                    diligence the doctrine of free, full, present justification on the one hand, and
+                    of entire sanctification both of heart and life on the other—being as tenacious
+                    of inward holiness as any mystic, and of outward as any Pharisee.</p>
+                <p n="9">9. Who then is a Christian, according to the light which God hath
+                    vouchsafed to this people? He that, being justified by faith, hath peace with
+                    God through our Lord Jesus Christ;<note place="foot" xml:id="ftn28" n="28"><p
+                            rend="footnote text">See Rom. 5:1.</p></note> and at the same time is
+                    ‘born again’, ‘born from above’, ‘born of the Spirit’;<note place="foot"
+                        xml:id="ftn29" n="29"><p rend="footnote text">See above, I.6.</p></note>
+                    inwardly changed from the image of the devil to that ‘image of God wherein he
+                    was created’.<note place="foot" xml:id="ftn30" n="30"><p rend="footnote text"
+                            >Cf. Col. 3:10.</p></note> He that finds the love of God shed abroad in
+                    his heart by the Holy Ghost which is given unto him;<note place="foot"
+                        xml:id="ftn31" n="31"><p rend="footnote text">See Rom. 5:5.</p></note> and
+                    whom this love sweetly constrains to ‘love his neighbour’, every man, ‘as
+                        himself’.<note place="foot" xml:id="ftn32" n="32"><p rend="footnote text"
+                            >Cf. Mark 12:33 and Matt. 22:38-40; see also No. 7, ‘The Way to the
+                            Kingdom’, I.8 and n. For Wesley’s definition of inward and outward
+                            holiness (love of God and love of neighbour), cf. <hi rend="italic"
+                                >ibid.</hi>, I.10 and n.</p></note> He that has learned of his Lord
+                    to be meek and lowly in heart,<note place="foot" xml:id="ftn33" n="33"><p
+                            rend="footnote text">Matt. 11:29.</p></note> and in every state to be
+                        content.<note place="foot" xml:id="ftn34" n="34"><p rend="footnote text">See
+                            Phil. 4:11.</p></note> He in <pb n="03:508"/>whom is that whole mind,
+                    all those tempers, which were also in Christ Jesus.<note place="foot"
+                        xml:id="ftn35" n="35"><p rend="footnote text">See Phil. 2:5.</p></note> He
+                    that abstains from all appearance of evil<note place="foot" xml:id="ftn36"
+                        n="36"><p rend="footnote text">See 1 Thess. 5:22.</p></note> in his actions,
+                    and that ‘offends not’ with ‘his tongue’.<note place="foot" xml:id="ftn37"
+                        n="37"><p rend="footnote text">Cf. Ps. 39:1 (BCP).</p></note> He that walks
+                    in all the commandments of God, and in all his ordinances, blameless.<note
+                        place="foot" xml:id="ftn38" n="38"><p rend="footnote text">See Luke
+                        1:6.</p></note> He that in all his intercourse with men does to others as he
+                    would they should do to him;<note place="foot" xml:id="ftn39" n="39"><p
+                            rend="footnote text">See Matt. 7:12.</p></note> and in his whole life
+                    and conversation, whether he eats or drinks, or whatsoever he doth, doth all to
+                    the glory of God.<note place="foot" xml:id="ftn40" n="40"><p
+                            rend="footnote text">See 1 Cor. 10:31.</p></note></p>
+                <p>Now what could God have done more for this his vineyard which he hath not done in
+                    it, with regard to <hi rend="italic">doctrine</hi>?</p>
+            </div>
+            <div type="section" n="2">
+                <p>II. We are to inquire, secondly, what could have been done which he hath not done
+                    in it, with regard to <hi rend="italic">spiritual helps</hi>.</p>
+                <p n="1">1. Let us consider this matter from the very beginning. Two young
+                    clergymen, not very remarkable any way, of middle age, having a tolerable
+                    measure of health, though rather weak than strong, began about fifty years ago
+                    to call sinners to repentance. This they did, for a time, in many of the
+                    churches in and about London. But two difficulties arose: first, the churches
+                    were so crowded that many of the parishioners could not get in; secondly, they
+                    preached new doctrines—that we are saved by faith, and, that ‘without holiness
+                    no man could see the Lord’.<note place="foot" xml:id="ftn41" n="41"><p
+                            rend="footnote text">Cf. Heb. 12:14. A recollection of the first
+                            critical reactions to ‘Methodism’; the most popular charge was
+                            ‘enthusiasm’, the most serious was doctrinal inconsistency. Cf. Josiah
+                            Tucker’s letter, June 14, 1739, in the <hi rend="italic">Gent’s
+                                Mag.</hi> (1739), IX.292-97 (‘…this <hi rend="italic">new</hi> set
+                            of principles’, etc.). But see also Tucker’s longer critique of the
+                            ‘medley of [Wesley’s] principles’ in his <hi rend="italic">Brief History
+                                of the Principles of Methodism; Wherein the Rise and Progress…and
+                                Present Inconsistencies of this Sect Are…Traced Out and Accounted
+                                For</hi> (1742), p. 32. Tucker’s main thesis (pp. 32-39) is that
+                            Wesley was trying to reconcile William Law, John Calvin, and James
+                            Arminius, a venture that was patently absurd.</p></note> For one or
+                    other of these reasons they were not long suffered to preach in the churches.
+                    They then preached in Moorfields, in Kennington Common, and in many other public
+                        places.<note place="foot" xml:id="ftn42" n="42"><p rend="footnote text"
+                            >Wesley records having first preached in Moorfields on June 17, 1739.
+                            This was the large open tract outside the City of London, north of
+                            Moorgate. The Foundery was there, and later it became Wesley’s
+                            headquarters and home. Also on June 17, he preached on Kennington
+                            Common, another open space south of the Thames, across London Bridge and
+                            just east of the pleasure gardens of Vauxhall. Note that this account
+                            ignores the fact that he had already begun his field preaching near
+                            Bristol Apr. 2, 1739.</p></note> The fruit of their preaching quickly
+                    appeared. Many sinners were changed both in heart and life. But it seemed this
+                    could not continue long; for everyone clearly saw these preachers would quickly
+                    wear <pb n="03:509"/>themselves out, and no clergyman dared to assist them. But
+                    soon one and another, though not ordained, offered to assist them. God gave a
+                    signal blessing to their word. Many sinners were thoroughly convinced of sin,
+                    and many truly converted to God. Their assistants increased both in number and
+                    in the success of their labours. Some of them were learned, some unlearned. Most
+                    of them were young, a few middle-aged. Some of them were [of] weak, some, on the
+                    contrary, of remarkably strong understanding. But it pleased God to own them
+                    all, so that more and more brands were plucked out of the burning.<note
+                        place="foot" xml:id="ftn43" n="43"><p rend="footnote text">See Amos 4:11;
+                            Zech. 3:2; cf. No. 4, <hi rend="italic">Scriptural Christianity</hi>,
+                            II.2 and n.</p></note></p>
+                <p n="2">2. It may be observed that these clergymen, all this time, had no plan at
+                    all. They only went hither and thither, wherever they had a prospect of saving
+                    souls from death. But when more and more asked, ‘What must I do to be
+                        saved?’<note place="foot" xml:id="ftn44" n="44"><p rend="footnote text">Acts
+                            16:30.</p></note> they were desired to meet all together. Twelve came
+                    the first Thursday night;<note place="foot" xml:id="ftn45" n="45"><p
+                            rend="footnote text">Would Wesley’s choice of Thursday night have been
+                            influenced by his memories that it was the special evening of the week
+                            that his mother had ‘formerly bestowed upon [him]’ for study and
+                            counselling? Cf. his letter to her from Oxford, Feb. 28, 1732; and see
+                            Susanna’s letter to her husband, dated Feb. 6, 1712, which Wesley
+                            included in his <hi rend="italic">Journal </hi>account of her death and
+                            burial, Aug. 1, 1742.</p></note> forty, the next; soon after, a hundred.
+                    And they continued to increase, till three or four and twenty years ago the
+                    London Society amounted to about 2,800.<note place="foot" xml:id="ftn46" n="46"
+                            ><p rend="footnote text">The first official record of membership in the
+                            Society at London is in the <hi rend="italic">Minutes</hi>, Aug. 18,
+                            1767, §8: ‘2250’.</p></note></p>
+                <p n="3">3. But how should this multitude of people be kept together? And how should
+                    it be known whether they walked worthy of their profession? They were
+                    providentially led, when they were thinking on another thing (namely, paying the
+                    public debt),<note place="foot" xml:id="ftn47" n="47"><p rend="footnote text"
+                            >Debts owed to lenders outside the Methodist Societies.</p></note> to
+                    divide all the people into little companies, or classes, according to their
+                    places of abode, and appoint one person in each class to see all the rest
+                    weekly. By this means it was quickly discovered if any of them lived in any
+                    known sin. If they did, they were first admonished; and, when judged
+                    incorrigible, excluded from the Society.</p>
+                <p n="4">4. This division of the people, and exclusion of those that walked
+                    disorderly, without any respect of persons, were helps which few other
+                    communities had. To these, as the societies increased, was soon added another.
+                    The stewards of the societies <pb n="03:510"/>in each district were desired to
+                    meet the preachers once a quarter, in some central place, to give an account of
+                    the spiritual and temporal state of their several societies. The use of these
+                    Quarterly Meetings was soon found to be exceeding great; in consideration of
+                    which they were gradually spread to all the societies in the kingdom.</p>
+                <p n="5">5. In order to increase the union between the preachers (as well as that of
+                    the people) they were desired to meet all together in London, and, some time
+                    after, a select number of them.<note place="foot" xml:id="ftn48" n="48"><p
+                            rend="footnote text">This annual ‘Conference of Preachers in Connexion
+                            with Mr. Wesley’ was a unique feature of Methodist polity from 1744
+                            onwards. Cf. Wesley’s description of it in the <hi rend="italic"
+                                >Minutes</hi>, Aug. 12, 1766, §§4-5, and his insistence that it was
+                            a consultative body only, without any legislative function or authority.
+                            For a summary of the history and role of the conference in Methodist
+                            polity, see also his ‘Thoughts Upon Some Late Occurrences’, dated Mar.
+                            3, 1785, and published in<hi rend="italic"> AM</hi> (1785),
+                            VIII.267-69.</p></note> Afterwards, for more convenience, they met at
+                    London, Bristol, and Leeds, alternately. They spent a few days together in this
+                    general Conference in considering what might most conduce to the general good.
+                    The result was immediately signified to all their brethren.<note place="foot"
+                        xml:id="ftn49" n="49"><p rend="footnote text">In ‘Minutes of Several
+                            Conversations Between the Rev. Mr. John and Charles Wesley and Others.’
+                            There are such records for 1744-47, and also ‘brief notices’ of the
+                            fifteen Conferences between 1749 and 1765; then a continuous run of <hi
+                                rend="italic">Minutes</hi> from 1765 onwards (see Vol. 10 of this
+                            edn.).</p></note> And they soon found that what St. Paul observes of the
+                    whole church may be in a measure applied to every part of it: ‘The whole body
+                    being fitly framed together, and compacted by that which every joint supplieth,
+                    maketh increase of the body, to the edifying of itself in love.’<hi
+                        rend="endnote_reference"><note place="end"><p rend="endnote text">Eph.
+                                4:16.</p></note></hi></p>
+                <p n="6">6. That this may be the more effectually done, they have another excellent
+                    help in the constant change of preachers;<note place="foot" xml:id="ftn50"
+                        n="50"><p rend="footnote text">Wesley set especial store by this idea of
+                            itinerancy, making it a distinctive feature of Methodist polity which
+                            has continued, in one form or another in Methodism until modern times.
+                            Cf. his letters to Joseph Benson, Dec. 11, 1772; to Samuel Walker, Sept.
+                            3, 1756; to Mrs. Ward, July 16, 1788; see also, Baker, <hi rend="italic"
+                                >John Wesley and the Church of England</hi>, pp. 114, 172, 226,
+                            320.</p></note> it being their rule that no preacher shall remain in the
+                    same circuit more than two years together, and few of them more than one year.
+                    Some indeed have imagined that this was a hindrance to the work of God. But long
+                    experience in every part of the kingdom proves the contrary. This has always
+                    shown that the people profit less by any one person than by a variety of
+                    preachers; while they</p>
+                <pb n="03:511"/>
+                <lg>
+                    <l>Used the gifts on each bestowed,</l>
+                    <l>Tempered by the art of God.</l>
+                    <note place="foot" xml:id="ftn51" n="51">
+                        <p rend="footnote text">Cf. John and Charles Wesley, <hi rend="italic">Hymns
+                                and Sacred Poems</hi> (1740), p. 195 (<hi rend="italic">Poet.
+                                Wks.</hi>, I.362; see also No. 504 in <hi rend="italic"
+                                >Collection</hi>, 7:693-94 of this edn.). For quotations of other
+                            lines from this hymn, see Nos. 13, <hi rend="italic">On Sin in
+                                Believers</hi>, IV.6; and 132, ‘On Faith, Heb. 11:1’, §6.</p>
+                    </note>
+                </lg>
+                <p n="7">7. Together with these helps which are peculiar to their own Society, they
+                    have all those which are enjoyed in common by the other members of the Church of
+                    England. Indeed they have been long pressed to separate from it, to which they
+                    have had temptations of every kind. But they cannot, they dare not, they will
+                    not separate from it, while they can remain therein with a clear conscience. It
+                    is true, if any sinful terms of communion were imposed upon them, then they
+                    would be constrained to separate; but as this is not the case at present we
+                    rejoice to continue therein.</p>
+                <p n="8">8. What then could God have done more for this his vineyard which he hath
+                    not done in it, with regard to spiritual helps? He has hardly dealt so with any
+                    other people in the Christian world! If it be said, He could have made them a
+                    separate people like the Moravian Brethren, I answer, This would have been a
+                    direct contradiction to his whole design in raising them up; namely, to spread
+                    scriptural religion throughout the land, among people of every
+                        denomination,<note place="foot" xml:id="ftn52" n="52"><p
+                            rend="footnote text">A relatively new usage for this term; cf. No. 104,
+                            ‘On Attending the Church Service’, §4 and n.</p></note> leaving everyone
+                    to hold his own opinions and to follow his own mode of worship. This could only
+                    be done effectually by leaving these things as they were, and endeavouring to
+                    leaven the whole nation with that ‘faith that worketh by love’.<note
+                        place="foot" xml:id="ftn53" n="53"><p rend="footnote text">Cf. Gal. 5:6; see
+                            also No. 2, <hi rend="italic">The Almost Christian</hi>, II.6 and
+                        n.</p></note></p>
+            </div>
+            <div type="section" n="3">
+                <p n="1">III. 1. Such are the <hi rend="italic">spiritual helps</hi> which God has
+                    bestowed on this his vineyard, with no sparing hand. <hi rend="italic"
+                        >Discipline</hi> might be inserted among these; but we may as well speak of
+                    it under a separate head. It is certain that in this respect the Methodists are
+                    a highly favoured people. Nothing can be more simple, nothing more rational,
+                    than the Methodist discipline: it is entirely founded on common sense,
+                    particularly applying the general rules of Scripture. Any person determined to
+                    save his soul may be united (this is the only condition required) with them. But
+                    this desire must be evidenced by three marks: avoiding all known sin, doing good
+                    after his power, and attending all the ordinances of God.<note place="foot"
+                        xml:id="ftn54" n="54"><p rend="footnote text">A summary of the <hi
+                                rend="italic">General Rules</hi>; cf. Vol. 9 of this edn.</p></note>
+                    He is then placed in such a class as is convenient for him, <pb n="03:512"
+                    />where he spends about an hour in a week. And the next quarter, if nothing is
+                    objected to him, he is admitted into the Society. And therein he may continue as
+                    long as he continues to meet his brethren and walks according to his
+                    profession.</p>
+                <p n="2">2. Their public service is at five in the morning and six or seven in the
+                    evening, that their temporal business may not be hindered. Only on Sunday it
+                    begins between nine and ten, and concludes with the Lord’s Supper. On Sunday
+                    evening the Society meets; but care is taken to dismiss them early, that all the
+                    heads of families may have time to instruct their several households. Once a
+                    quarter the principal preacher in every circuit examines every member of the
+                    societies therein. By this means, if the behaviour of anyone is blameable, which
+                    is frequently to be expected in so numerous a body of people, it is easily
+                    discovered, and either the offence or the offender removed in time.</p>
+                <p n="3">3. Whenever it is needful to exclude any disorderly member out of the
+                    Society, it is done in the most quiet and inoffensive manner—only by not
+                    renewing his ticket<note place="foot" xml:id="ftn55" n="55"><p
+                            rend="footnote text">These tokens of membership in good standing,
+                            personally subscribed by Wesley or one of his Assistants, were required
+                            for admission to class meetings and to Holy Communion.</p></note> at the
+                    quarterly visitation. But in some cases, where the offence is great, and there
+                    is danger of public scandal, it is judged necessary to declare when all the
+                    members are present, ‘A. B. is no longer a member of our Society.’ Now what can
+                    be more rational or more scriptural than this simple discipline—attended from
+                    the beginning to the end with no trouble, expense, or delay?</p>
+            </div>
+            <div type="section" n="4">
+                <p n="1">IV. 1. But was it possible that all these things should be done without a
+                    flood of opposition? The prince of this world was not dead, nor asleep: and
+                    would he not fight that his kingdom might not be delivered up? If the word of
+                    the Apostle be found true, in all ages and nations ‘all they that will live
+                    godly in Christ Jesus shall suffer persecution.’<note place="foot"
+                        xml:id="ftn56" n="56"><p rend="footnote text">Cf. 2 Tim. 3:12.</p></note> If
+                    this be true with regard to every individual Christian, how much more with
+                    regard to bodies of men visibly united together with the avowed design to
+                    overthrow his kingdom! And what could withstand the persecution he would not
+                    fail to stir up against a poor, defenceless, despised people, without any
+                    visible help, without money, without power, without friends?</p>
+                <pb n="03:513"/>
+                <p n="2">2. In truth the god of this world was not asleep. Neither was he idle. He
+                        <hi rend="italic">did</hi> fight, and that with all his power, that his
+                    kingdom might not be delivered up. He ‘brought forth all his hosts to war’.<note
+                        place="foot" xml:id="ftn57" n="57"><p rend="footnote text">Cf. Charles
+                            Wesley, ‘Christ the Friend of Sinners’, ‘And call forth all his hosts to
+                            war’, in <hi rend="italic">Hymns and Sacred Poems</hi> (1739), p. 102.
+                            This hymn was also published in <hi rend="italic">A Collection of
+                                Hymns</hi> (1780), No. 29, omitting st. 6. This is probably the hymn
+                            which Charles Wesley wrote on his conversion; cf. CWJ, May 23, 1738. For
+                            a more complete history of the hymn, cf. Baker, <hi rend="italic"
+                                >Representative Verse of Charles Wesley</hi> (London, Epworth Press,
+                            1962), pp. 3-4.</p></note> First, he stirred up the beasts of the
+                        people.<note place="foot" xml:id="ftn58" n="58"><p rend="footnote text">Ps.
+                            68:30 (BCP). Cf. No. 52, <hi rend="italic">The Reformation of
+                                Manners</hi>, I.5 and n.</p></note> They roared like lions: they
+                    encompassed the little and defenceless flock on every side.<note place="foot"
+                        xml:id="ftn59" n="59"><p rend="footnote text">‘Flock’ is inserted in ink in
+                            Wesley’s own copies of the <hi rend="italic">Sermons </hi>and<hi
+                                rend="italic"> AM</hi>, though not in his hand.</p></note> And the
+                    storm rose higher and higher till deliverance came, in a way that none expected.
+                    God stirred up the heart of our late gracious Sovereign<note place="foot"
+                        xml:id="ftn60" n="60"><p rend="footnote text">George II (1683-1760); cf.
+                            Wesley’s comment upon the king’s death (‘When will England have a better
+                            Prince?’), JWJ, Oct. 25, 1760. See also Leslie Stephen’s account in <hi
+                                rend="italic">DNB</hi> of Samuel Chandler’s funeral sermon (Nov. 9,
+                            1760) in which he compared George II to David (‘a man after God’s own
+                            heart’). In the Appendix to Chandler’s <hi rend="italic">History of
+                                Persecution from the Patriarchal Age to the Reign of George II; A
+                                New Edition</hi> (Hull, 1813), p. 416, the late king is quoted as
+                            having declared in open court that ‘no man should be persecuted for
+                            conscience’ sake in his dominions’. Cf. also Wesley’s <hi rend="italic"
+                                >Thoughts upon Liberty</hi>, §19, and No. 127, ‘On the Wedding
+                            Garment’, §14. For other comments on George II, cf. No. 15, <hi
+                                rend="italic">The Great Assize</hi>, §1.</p></note> to give such
+                    orders to his magistrates as, being put in execution, effectually quelled the
+                    madness of the people. It was about the same time that a great man applied
+                    personally to his Majesty, begging that he would please to ‘take a course to
+                    stop these run-about preachers’. His Majesty, looking sternly upon him, answered
+                    without ceremony, like a king, ‘I tell you, while I sit on the throne, no man
+                    shall be persecuted for conscience’ sake.’<note place="foot" xml:id="ftn61"
+                        n="61"><p rend="footnote text">On Nov. 1, 1762, Howell Harris recorded bits
+                            of gossip he picked up in Bath, including the statement: ‘Archbishop
+                            Seeker offered to Mr. Onslow, late Speaker, a scheme against the
+                            Methodists, and he [the elder Pitt, Leader of the House of Commons] said
+                            he did not like persecution;’ cf. Tom Beynon, ed., <hi rend="italic"
+                                >Howell Harris, Reformer and Soldier </hi>(Caernarvon, Calvinistic
+                            Methodist Bookroom, 1958), p. 139. See also Baker, <hi rend="italic"
+                                >John Wesley and the Church of England</hi>, pp. 180,
+                        376.</p></note></p>
+                <p n="3">3. But in defiance of this, several who bore his Majesty’s commission have
+                    persecuted them from time to time, and that under colour of law, availing
+                    themselves of what is called the Conventicle Act—one in particular, in Kent, who
+                    some years since took upon him to fine one of the preachers and several of his
+                    hearers. But they thought it their duty to appeal to his Majesty’s Court of
+                    King’s Bench. The cause was given for the plaintiffs, <pb n="03:514"/>who have
+                    ever since been permitted to worship God according to their own conscience.<note
+                        place="foot" xml:id="ftn62" n="62"><p rend="footnote text">For this case in
+                            Rolvenden, Kent, in 1760, see WHS, XVIII.113-20; cf. John Wesley’s
+                            letter to his brother Charles, June 24, 1760. There are other references
+                            to the Methodists appealing to His Majesty’s Court of King’s Bench. The
+                            Canterbury rioters (Kent) are mentioned in JWJ, Nov. 11, 1751: ‘We had
+                            not any disturbance from first to last, the Court of King’s Bench having
+                            broke the spirit of the rioters.’ See also entries for Aug. 30, 1766;
+                            Apr. 20, 1752; July 29, 1786; and Wesley’s letter to Richard Bailey,
+                            Aug. 15, 1751.</p></note></p>
+                <p n="4">4. I believe this is a thing wholly without precedent. I find no other
+                    instance of it in any age of the church, from the day of Pentecost to this day.
+                    Every opinion, right and wrong, has been tolerated, almost in every age and
+                    nation. Every mode of worship has been tolerated, however superstitious or
+                    absurd. But I do not know that true, vital, scriptural religion was ever
+                    tolerated before. For this the people called Methodists have abundant reason to
+                    praise God. In their favour he hath wrought a new thing in the earth: he hath
+                    stilled the enemy and the avenger.<note place="foot" xml:id="ftn63" n="63"><p
+                            rend="footnote text">See Ps. 8:2.</p></note> This then they must ascribe
+                    unto him, the author of their outward as well as inward peace.</p>
+            </div>
+            <div type="section" n="5">
+                <p n="1">V. 1. What indeed could God have done more for this his vineyard which he
+                    hath not done in it? This having been largely showed, we may now proceed to that
+                    strong and tender expostulation: ‘After all that I had done, might I not have
+                    looked for the most excellent grapes? Wherefore then brought it forth wild
+                    grapes? Might I not have expected a general increase of faith and love, of
+                    righteousness and true holiness? Yea, and of the fruit of the Spirit—love, joy,
+                    peace, long-suffering, meekness, gentleness, fidelity, goodness,
+                        temperance?’<note place="foot" xml:id="ftn64" n="64"><p rend="footnote text"
+                            >Cf. Gal. 5:22-23 (<hi rend="italic">Notes</hi>); note Wesley’s
+                            rearrangement of the order of these Christian virtues.</p></note> Was it
+                    not reasonable to expect that these fruits would have overspread his whole
+                    church? Truly, when I saw what God had done among his people between forty and
+                    fifty years ago, when I saw them, warm in their first love, magnifying the Lord
+                    and rejoicing in God their Saviour,<note place="foot" xml:id="ftn65" n="65"><p
+                            rend="footnote text">See Luke 1:46-47.</p></note> I could expect nothing
+                    less than that all these would have lived like angels here below; that they
+                    would have walked as continually seeing him that is invisible,<note place="foot"
+                        xml:id="ftn66" n="66"><p rend="footnote text">Heb. 11:27.</p></note> having
+                    constant communion with the Father and the Son, living in eternity and <pb
+                        n="03:515"/>walking in eternity. I looked to see ‘a chosen generation, a
+                    royal priesthood, a holy nation, a peculiar people’, in the whole tenor of their
+                    conversation ‘showing forth his praise who had called them into his marvellous
+                        light’.<note place="foot" xml:id="ftn67" n="67"><p rend="footnote text">Cf.
+                            1 Pet. 2:9.</p></note></p>
+                <p n="2">2. But instead of this it brought forth wild grapes, fruit of a quite
+                    contrary nature. It brought forth error in ten thousand shapes, turning many of
+                    the simple out of the way. It brought forth enthusiasm, imaginary inspiration,
+                    ascribing to the all-wise God all the wild, absurd, self-inconsistent dreams of
+                    an heated imagination. It brought forth pride, robbing the Giver of every good
+                    gift of the honour due to his name. It brought forth prejudice, evil surmising,
+                    censoriousness, judging, and condemning one another—all totally subversive of
+                    that brotherly love which is the very badge of the Christian profession; without
+                    which, whosoever liveth is counted dead before God. It brought forth anger,
+                    hatred, malice, revenge, and every evil word and work—all direful fruits, not of
+                    the Holy Spirit, but of the bottomless pit.</p>
+                <p n="3">3. It brought forth likewise in many—particularly those that are increased
+                    in goods—that grand poison of souls, the love of the world, and that in all
+                    branches: ‘the desire of the flesh’, that is, the seeking happiness in the
+                    pleasures of sense; ‘the desire of the eyes’, that is, seeking happiness in
+                    dress, or any of the pleasures of imagination;<note place="foot" xml:id="ftn68"
+                        n="68"><p rend="footnote text">Cf. No. 44, <hi rend="italic">Original
+                                Sin</hi>, II.10 and n.</p></note> and ‘the pride of life’,<note
+                        place="foot" xml:id="ftn69" n="69"><p rend="footnote text">Cf. 1 John 2:16;
+                            and No. 7, ‘The Way to the Kingdom’, II.2 and n.</p></note> that is,
+                    seeking happiness in the praise of men;<note place="foot" xml:id="ftn70" n="70"
+                            ><p rend="footnote text">Cf. No. 14, <hi rend="italic">The Repentance of
+                                Believers</hi>, I.7 and n.</p></note> or in that which ministers to
+                    all these, laying up treasures on earth. It brought forth self-indulgence of
+                    every kind, delicacy, effeminacy, softness; but not softness of the right kind,
+                    that melts at human woe. It brought [forth] such base, grovelling affections,
+                    such deep earthly-mindedness as that of the poor heathens, which occasioned the
+                    lamentation of their own poet over them,</p>
+                <lg>
+                    <l>
+                        <hi rend="italic">O curvae in terras animae et caelestium inanes!</hi>
+                        <note place="foot" xml:id="ftn71" n="71">
+                            <p rend="footnote text">Cf. Persius, <hi rend="italic">Satires</hi>,
+                                ii.61. Wesley had already used this tag in his letter to Colonel
+                                Oglethorpe, Apr. 20, 1736, and would use it again in No. 125, ‘On a
+                                Single Eye’, III.8. He could have read it in Lactantius, <hi
+                                    rend="italic">Divinarum Institutionum</hi>, II.ii; and in Jeremy
+                                Taylor, ‘The House of Feasting’ (Sermon XVI), <hi rend="italic"
+                                    >Works</hi>, I.701, where it appears in both Greek and
+                                Latin.</p>
+                        </note>
+                        <hi rend="italic">—</hi>
+                    </l>
+                    <l>O souls bowed down to earth, and void of God!</l>
+                </lg>
+                <pb n="03:516"/>
+                <p n="4">4. O ye that have riches in possession,<note place="foot" xml:id="ftn72"
+                        n="72"><p rend="footnote text">Ps. 73:12 (BCP).</p></note> once more hear
+                    the word of the Lord! Ye that are rich in this world,<note place="foot"
+                        xml:id="ftn73" n="73"><p rend="footnote text">1 Tim. 6:17.</p></note> that
+                    have food to eat, and raiment to put on, and something over, are you clear of
+                    the curse of loving the world? Are you sensible of your danger? Do you feel,
+                    ‘How hardly will they that have riches enter into the kingdom of heaven?’<note
+                        place="foot" xml:id="ftn74" n="74"><p rend="footnote text">Cf. Mark
+                            10:23.</p></note> Do you continue unburnt in the midst of the fire? Are
+                    you untouched with the love of the world? Are you clear from the desire of the
+                    flesh, the desire of the eyes, and the pride of life? Do you ‘put a knife to
+                    your throat’<note place="foot" xml:id="ftn75" n="75"><p rend="footnote text">Cf.
+                            Prov. 23:2.</p></note> when you sit down to meat, lest your ‘table’
+                    should ‘be a snare to you’?<note place="foot" xml:id="ftn76" n="76"><p
+                            rend="footnote text">Cf. Ps. 69:22 (AV); Rom. 11:9.</p></note> Is not
+                    your belly your god? Is not eating and drinking, or any other pleasure of sense,
+                    the greatest pleasure you enjoy? Do not you seek happiness in dress, furniture,
+                    pictures, gardens; or anything else that pleases the eye? Do not you grow soft
+                    and delicate? Unable to bear cold, heat, the wind, or the rain, as you did when
+                    you were poor? Are you not increasing in goods, laying up treasures on
+                        earth;<note place="foot" xml:id="ftn77" n="77"><p rend="footnote text">See
+                            Matt. 6:19.</p></note> instead of restoring to God in the poor, not so
+                    much, or so much, but all that you can spare? Surely ‘it is easier for a camel
+                    to go through the eye of a needle than for a rich man to enter into the kingdom
+                    of heaven’!<note place="foot" xml:id="ftn78" n="78"><p rend="footnote text">Cf.
+                            Matt. 19:24.</p></note></p>
+                <p n="5">5. But why will ye still bring forth wild grapes? What excuse can ye make?
+                    Hath God been wanting on <hi rend="italic">his</hi> part? Have you not been
+                    warned over and over? Have ye not been fed with the sincere milk of the
+                        word?<note place="foot" xml:id="ftn79" n="79"><p rend="footnote text">1 Pet.
+                            2:2.</p></note> Hath not the whole word of God been delivered to you,
+                    and without any mixture of error? Were not the fundamental doctrines both of
+                    free, full, present justification delivered to you, as well as sanctification,
+                    both gradual and instantaneous? Was not every branch both of inward and outward
+                    holiness clearly opened and earnestly applied? And that by preachers of every
+                    kind, young and old, learned and unlearned? But it is well if some of you did
+                    not despise the helps which God had prepared for you. Perhaps you would hear
+                    none but clergymen; or at least, none but men of learning. Will you not then
+                    give God leave to choose his own messengers? To send by whom he <hi
+                        rend="italic">will</hi> send?<note place="foot" xml:id="ftn80" n="80"><p
+                            rend="footnote text">See Exod. 4:13; cf. No. 4, <hi rend="italic"
+                                >Scriptural Christianity</hi>, IV.2 and n.</p></note> It is well if
+                    this bad wisdom was not one cause of your ‘bringing forth wild grapes’!</p>
+                <p n="6"><pb n="03:517"/>6. Was not another cause of it your despising that
+                    excellent help, union with a Christian society? Have you not read, ‘How can one
+                    be warm alone?’<note place="foot" xml:id="ftn81" n="81"><p rend="footnote text"
+                            >Eccles. 4:11.</p></note> And, ‘Woe be unto him that is alone when he
+                        falleth’?<note place="foot" xml:id="ftn82" n="82"><p rend="footnote text"
+                            >Cf. Eccles. 4:10.</p></note> ‘But you have companions enough.’ Perhaps
+                    more than enough; more than are helpful to your soul. But have you enough that
+                    are athirst for God? And that labour to make <hi rend="italic">you</hi> so? Have
+                    you companions enough that watch over your soul as they that must give
+                        account?<note place="foot" xml:id="ftn83" n="83"><p rend="footnote text">See
+                            Heb. 13:17.</p></note> And that freely and faithfully warn you if you
+                    take any false step, or are in danger of doing so? I fear you have few of these
+                    companions, or else you would bring forth better fruit.</p>
+                <p n="7">7. If you are a member of the Society, do you make a full use of your
+                    privilege? Do you never fail to meet your class? And that, not as matter of
+                    form, but expecting that when you are met together in his name your Lord will be
+                    in the midst of you? Are you truly thankful for the amazing liberty of
+                    conscience which is vouchsafed to you and your brethren? Such as never was
+                    enjoyed before by persons in your circumstances?<note place="foot"
+                        xml:id="ftn84" n="84"><p rend="footnote text">The Methodists profited from
+                            the growing spirit of religious toleration even more than the
+                            Nonconformists or the Roman Catholics; cf. John H. Overton and Frederic
+                            Relton, <hi rend="italic">The English Church from the Accession of
+                                George I to the End of the Eighteenth Century (1714-1800)</hi>, Vol.
+                            VII in<hi rend="italic"> A History of the English Church</hi>, W. R. W.
+                            Stephens and William Hunt, eds. (London, Macmillan and Co., Ltd., 1924),
+                            pp. 226-29.</p></note> And are you thankful to the Giver of every good
+                    gift for the general spread of true religion? Surely you can never praise God
+                    enough for all these blessings, so plentifully showered down upon you, till you
+                    praise him with angels and archangels, and all the company of heaven.<note
+                        place="foot" xml:id="ftn85" n="85"><p rend="footnote text">See BCP,
+                            Communion, Preface to the Sanctus. For Wesley’s use of ascriptions, cf.
+                            No. 1, <hi rend="italic">Salvation by Faith</hi>, III.9 and
+                        n.</p></note></p>
+            </div>
+            <p><placeName>Witney</placeName>, <date when="10-17-1787">October 17, 1787</date><note
+                    place="foot" xml:id="ftn86" n="86"><p rend="footnote text">Place and date as in
+                            <hi rend="italic">AM</hi>.</p></note></p>
+        </body>
+    </text>
+</TEI>

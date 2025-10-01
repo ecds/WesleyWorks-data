@@ -1,0 +1,555 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Sermon 109: The Trouble and Rest of Good Men</title>
+                <author>Wesley, John</author>
+                <editor role="text">Van Buskirk, Gregory P.</editor>
+                <editor role="digital">Taylor, Michelle M.</editor>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>The Wesley Works Digitzation Project</publisher>
+                <pubPlace>Tampa, FL</pubPlace>
+                <date>2024-02-25</date>
+            </publicationStmt>
+            <sourceDesc>
+                <listBibl>
+                    <biblStruct>
+                        <analytic>
+                            <title level="a">Sermon 109: The Trouble and Rest of Good Men</title>
+                        </analytic>
+                        <monogr>
+                            <title level="j">The Works of John Wesley, Volume III: Sermons III,
+                                71-114</title>
+                            <editor role="volume">Outler, Albert</editor>
+                            <imprint>
+                                <publisher>Abingdon Press</publisher>
+                                <pubPlace>Nashville, TN</pubPlace>
+                                <date when="1986-11-01">1986-11-01</date>
+                                <biblScope unit="volume" n="3"/>
+                                <biblScope unit="page" from="531" to="541"/>
+                            </imprint>
+                        </monogr>
+                        <series>
+                            <title level="s">The Works of John Wesley</title>
+                            <editor role="general">Baker, Frank</editor>
+                        </series>
+                    </biblStruct>
+                </listBibl>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Greg Van Buskirk created Word docs for all of Wesley's sermons using a combination of
+                OCR software and manual proofing. Michelle Taylor converted these docx into XML
+                using Oxygen's DITA automatic transformation scenario, then touched them up
+                manually.</p>
+        </encodingDesc>
+        <standOff>
+            <taxonomy>
+                <keywords>
+                    <term/>
+                </keywords>
+            </taxonomy>
+            <!--Include keywords and terms here eventually.-->
+        </standOff>
+        <revisionDesc/>
+    </teiHeader>
+    <text>
+        <body>
+            <pb n="03:531"/>
+            <head>
+                <hi rend="italic">An Introductory Comment</hi>
+            </head>
+            <introduction>
+                <p>Wesley embarked for Georgia on October 14, 1735. The decision for that surprising
+                    venture had been only recently taken, and the seven weeks since August 28 (when
+                    the invitation was first tendered by Dr. John Burton) had been filled with
+                    distractions—an array of family problems complicating his preparations for his
+                    voyage into the unknown. In the midst of all this, however, he had kept a
+                    previous appointment to preach to the university, in Oxford, on Sunday,
+                    September 21. There is no mention of this in any of Wesley’s records, and there
+                    is no evidence about its provenance other than its title page. Even so, it
+                    stands as Wesley’s first published sermon, and it is from the same text as his
+                    very first sermon ten years before (see No. 133, ‘Death and Deliverance’). That
+                    he intended for it to be published, ‘at the request of several of the hearers’,
+                    is suggested by the fact that he left it with the same publisher who had just
+                    brought out his new translation of Thomas à Kempis, <hi rend="italic">The
+                        Imitation of Christ</hi> (<hi rend="italic">viz.</hi>, <hi rend="italic">The
+                        Christian’s Pattern: Or, a Treatise of the Imitation of Christ</hi>, London,
+                    C. Rivington, 1735). The sermon was published during Wesley’s absence from
+                    England, and never reprinted in his lifetime. Its title was, <hi rend="italic">A
+                        Sermon Preached at St. Mary’s in Oxford, on Sunday, September 21, 1735</hi>.
+                    The present title was supplied by Thomas Jackson in his edition of Wesley’s <hi
+                        rend="italic">Sermons</hi> in 1825. For fuller details of its history, see
+                        <hi rend="italic">Bibliog</hi>, No. 6.</p>
+                <p>Its significance for us lies in its lucid mirroring of Wesley’s mind—at a
+                    critical stage in his theological development—of an idea already adumbrated in
+                    the funeral sermon for Robin Griffith, January 11, 1727 (see No. 136, ‘On
+                    Mourning for the Dead’). It is yet another comment in the famed <hi
+                        rend="italic">ars moriendi</hi> tradition, with special stress on the notion
+                    that while death is the effect of sin, it has also been appointed by God as the
+                    cure of sin. Thomas Jackson found himself moved to warn all readers against this
+                    ‘unevangelical’ idea and to ‘observe that while the sermon displays great
+                    seriousness and zeal, it exhibits a very inadequate view of real Christianity’
+                    (see his editorial note in <hi rend="italic">Works</hi>, 1829, VII.365-66).</p>
+                <p>Clearly, Jackson was indifferent to the fact, if indeed he knew it, that the
+                    sermon’s point about death as deliverance from our mortal ills and <pb
+                        n="03:532"/>sin would have been familiar to an Oxford audience as an
+                    oversimplification of the old tradition of ‘the art of dying’ which had
+                    flourished in England since at least the fifteenth century; see Nancy Lee Beaty,
+                    ‘The <hi rend="italic">Ars Moriendi</hi>: Wellspring of the Tradition’, ch. 1,
+                    in <hi rend="italic">The Craft of Dying: A Study in the Literary Tradition of
+                        the Ars Moriendi in England</hi> (New Haven, Yale University Press, 1970);
+                    see also Mary Catherine O’Connor, <hi rend="italic">The Art of Dying Well</hi>
+                    (New York, Columbia University Press, 1942). Wesley knew this tradition best
+                    from Jeremy Taylor, although he seems to ignore Taylor’s crucial distinction
+                    between death as deliverance from the <hi rend="italic">bodily agent</hi> of sin
+                    and death as deliverance from the <hi rend="italic">guilt</hi> of sin. Many of
+                    his hearers would also have recognized in it a variation on the well-known
+                    Lutheran doctrine of invincible concupiscence and its implication that ‘the <hi
+                        rend="italic">sense</hi> of sin [though not its guilt, <hi rend="italic"
+                        >reatus</hi>] is removed in death and the <hi rend="italic">matter</hi> of
+                    sin in the dissolution of the body,’ as in J. A. Quenstedt, <hi rend="italic"
+                        >Theologia Didactico-Polemica</hi> (1685), II.62; cf. Heinrich Schmid, <hi
+                        rend="italic">Doctrinal Theology of the Evangelical Lutheran Church</hi>
+                    (1889), pp. 238, 250, 624.</p>
+                <p>‘Unevangelical’ or not, Wesley’s doctrine here represents two established
+                    traditions and reflects a stage of Wesley’s theological development that
+                    deserves careful notice in special relationship to the earlier university
+                    sermons on ‘The Image of God’ (No. 141), and ‘The Circumcision of the Heart’
+                    (No. 17). For when he later changed his basic understanding of ‘sin in
+                    believers’, he quite pointedly left this sermon in limbo, where it has remained
+                    ever since, as far as any attention paid to it in Wesley studies is concerned.
+                    This means that it might be ready for reconsideration in the light of the whole
+                    question of his theological development and in connection with his doctrine of
+                    perfection in love<hi rend="italic"> in this life</hi>.</p>
+            </introduction>
+            <pb n="03:533"/>
+            <head>The Trouble and Rest of Good Men</head>
+            <epigraph>
+                <p>Job 3:17</p>
+                <p>
+                    <hi rend="italic">There the wicked cease from troubling, and there the weary be
+                        at rest.</hi>
+                </p>
+            </epigraph>
+            <div type="introduction">
+                <p>When God at first surveyed all the works he had made, behold, they were very
+                        good.<note place="foot" xml:id="ftn1" n="1"><p rend="footnote text">See Gen.
+                            1:31.</p></note> All were perfect in beauty, and man, the lord of all,
+                    was perfect in holiness. And as his holiness was, so was his happiness; knowing
+                    no sin, he knew no pain. But when sin was conceived, it soon brought forth pain;
+                    the whole scene was changed in a moment. He now groaned under the weight of a
+                    mortal body and—what was far worse—a corrupted soul. That ‘spirit’ which could
+                    have borne all his other ‘infirmities’ was itself ‘wounded’<note place="foot"
+                        xml:id="ftn2" n="2"><p rend="footnote text">Cf. Prov. 18:14.</p></note> and
+                    sick unto death. Thus ‘in the day wherein he sinned he’ began to ‘die’;<note
+                        place="foot" xml:id="ftn3" n="3"><p rend="footnote text">Cf. Ezek. 18:4, 20;
+                            33:12.</p></note> and thus, ‘in the midst of life we are in death;’<note
+                        place="foot" xml:id="ftn4" n="4"><p rend="footnote text">BCP,
+                        Burial.</p></note> yea, ‘the whole creation groaneth together’,<note
+                        place="foot" xml:id="ftn5" n="5"><p rend="footnote text">Cf. Rom.
+                        8:22.</p></note> ‘being in bondage to sin’,<note place="foot" xml:id="ftn6"
+                        n="6"><p rend="footnote text">Cf. Rom. 8:21.</p></note> and therefore to
+                    misery.</p>
+                <p>The whole world is indeed, in its present state, only one great infirmary:<note
+                        place="foot" xml:id="ftn7" n="7"><p rend="footnote text">Cf. Sir Thomas
+                            Browne,(1642), <hi rend="italic">Religio Medici</hi> (1642), II.11 (‘For
+                            the world I count not an inn but an hospital…’); see also Jeremy Taylor,
+                                <hi rend="italic">The Ride and Exercises of Holy Dying</hi> (1651),
+                            ch. I, sect. IV, 3 (<hi rend="italic">Works</hi>, I.530): ‘an
+                            hospital…is indeed a map of the whole world, where you see the effects
+                            of Adam’s sin and the ruins of human nature;’ and Taylor’s <hi
+                                rend="italic">Great Exemplar</hi> (1649), Pt. I, sect. IX, Discourse
+                            V, §10 (<hi rend="italic">Works</hi>, I.105):‘Those are the persons of
+                            Christ’s infirmary whose restitution and reduction to a state of life
+                            and health was his great design.’</p></note> all that are therein are
+                    sick of sin, and their one business there is to be healed. And for this very end
+                    the great Physician of souls is continually present with them, marking all the
+                    diseases of every soul, and ‘giving medicines to heal its sickness’.<note
+                        place="foot" xml:id="ftn8" n="8"><p rend="footnote text">Cf. Ps. 147:3
+                            (BCP).</p></note> These medicines are often painful, too. Not that God
+                    willingly afflicts his creatures, but he allots them just as much pain as is
+                    necessary to their health; and for that reason—because it is so.</p>
+                <p>The pain of cure must then be endured by every man, as well as the pain of
+                        sickness.<note place="foot" xml:id="ftn9" n="9"><p rend="footnote text">See
+                            No. 73, ‘Of Hell’, I.1 and n., for a later comment on a distinction that
+                            Wesley would have learned in Oxford between <hi rend="italic">poena
+                                sensus</hi> and <hi rend="italic">poena damni</hi>.</p></note> And
+                    herein is manifest the infinite wisdom <pb n="03:534"/>of him who careth for us,
+                    that the very sickness of those with whom he converses may be a great means of
+                    every man’s cure. The very wickedness of others is, in a thousand ways,
+                    conducive to a good man’s holiness. They trouble him, ’tis true, but even that
+                    trouble is ‘health to his soul, and marrow to his bones’.<note place="foot"
+                        xml:id="ftn10" n="10"><p rend="footnote text">Cf. Prov. 3:8.</p></note> He
+                    suffers many things from them; but it is to this end, that he may be ‘made
+                    perfect through’ those ‘sufferings’.<note place="foot" xml:id="ftn11" n="11"><p
+                            rend="footnote text">Cf. Heb. 2:10.</p></note></p>
+                <p>But as perfect holiness is not found on earth, so neither is perfect happiness:
+                    some remains of our disease will ever be felt, and some physic be necessary to
+                    heal it.<note place="foot" xml:id="ftn12" n="12"><p rend="footnote text">An
+                            explicit assertion of the Puritan doctrine that perfection is reserved
+                            for ‘the state of glory only’ (<hi rend="italic">in statu gloriae</hi>).
+                            Wesley will reverse himself on this point completely. Cf. Nos. 40, <hi
+                                rend="italic">Christian Perfection</hi>; and 76, ‘On Perfection’;
+                            see also, below, II.3.</p></note> Therefore we must be more or less
+                    subject to the pain of cure, as well as the pain of sickness. And, accordingly,
+                    neither do ‘the wicked’ here ‘cease from troubling’, nor can ‘the weary be at
+                    rest.’</p>
+                <p>‘Who then will deliver us from the body of this death?’<note place="foot"
+                        xml:id="ftn13" n="13"><p rend="footnote text">Cf. Rom. 7:24; see also
+                            No.136, ‘On Mourning for the Dead’, ¶¶6-7.</p></note> Death will deliver
+                    us. Death shall set those free in one moment who were ‘all their lifetime
+                    subject to bondage’.<note place="foot" xml:id="ftn14" n="14"><p
+                            rend="footnote text">Heb. 2:15.</p></note> Death shall destroy at once
+                    the whole body of sin,<note place="foot" xml:id="ftn15" n="15"><p
+                            rend="footnote text">An echo from <hi rend="italic">The Apology of the
+                                Augsburg Confession</hi> (1531), sections 151-54, and of ‘The Second
+                            Part of the Sermon Against the Fear of Death’ in the Edwardian <hi
+                                rend="italic">Homilies</hi>, IX. Contrast this with No. 13, <hi
+                                rend="italic">On Sin in Believers</hi>, I.4 and n.</p></note> and
+                    therewith of its companion, pain. And therefore, ‘there the wicked cease from
+                    troubling, and there the weary be at rest.’</p>
+                <p>The Scriptures give us no account of the place where the souls of the just remain
+                    from death to the resurrection.<note place="foot" xml:id="ftn16" n="16"><p
+                            rend="footnote text">See below, I.3 and n.</p></note> But we have an
+                    account of their state in these words; in explaining which I shall consider,</p>
+                <p>I. How the ‘wicked’ do here ‘trouble’ good men. And,</p>
+                <p>II. How the ‘weary are there at rest’.</p>
+            </div>
+            <div type="section" n="1">
+                <p>[I.] Let us consider, first, how the ‘wicked’ here ‘trouble’ good men. And this
+                    is a spacious field. Look round the world, take a view of all the troubles
+                    therein—how few are there whereof the wicked are not the occasion! ‘From whence
+                    come wars and fightings among you?’<note place="foot" xml:id="ftn17" n="17"><p
+                            rend="footnote text">Jas. 4:1.</p></note> Whence all the ills that
+                    embitter society? That often turn that highest of blessings into a curse, and
+                    make it <pb n="03:535"/>‘good for man to be alone’?<note place="foot"
+                        xml:id="ftn18" n="18"><p rend="footnote text">A curious inversion of Gen.
+                            2:18; wickedness confounds God’s judgment that ‘it is <hi rend="italic"
+                                >not</hi> good that man should be alone.’</p></note> ‘Come they not
+                        hence’,<note place="foot" xml:id="ftn19" n="19"><p rend="footnote text">Jas.
+                            4:1.</p></note> from self-will, pride, inordinate affection—in one word,
+                    from wickedness? And can it be otherwise, so long as it remains upon earth? As
+                    well may ‘the Ethiopian change his skin’<note place="foot" xml:id="ftn20" n="20"
+                            ><p rend="footnote text">Jer. 13:23.</p></note> as a wicked man cease to
+                    trouble both himself and his neighbour, but especially good men; inasmuch as
+                    while he is wicked he is continually injuring either them, or himself, or
+                    God.</p>
+                <p n="1">1. First, wicked men trouble those who serve God by the injuries they do
+                    them. As at first ‘he that was born after the flesh persecuted him that was born
+                    after the Spirit, even so it is now.’<note place="foot" xml:id="ftn21" n="21"><p
+                            rend="footnote text">Gal. 4:29.</p></note> And so it must be till all
+                    things are fulfilled; till ‘heaven and earth pass away’,<note place="foot"
+                        xml:id="ftn22" n="22"><p rend="footnote text">Matt. 24:35, etc.</p></note>
+                    ‘all that will live godly in Christ Jesus shall suffer persecution.’<note
+                        place="foot" xml:id="ftn23" n="23"><p rend="footnote text">2 Tim.
+                        3:12.</p></note> For there is an irreconcilable enmity between the Spirit of
+                    Christ and the spirit of the world. If the followers of Christ ‘were of the
+                    world, the world would love its own; but, because they are not of the world,
+                    therefore the world hateth them’.<note place="foot" xml:id="ftn24" n="24"><p
+                            rend="footnote text">Cf. John 15:19.</p></note> And this hatred they
+                    will not fail to show by their words: ‘they will say all manner of evil against
+                    them falsely;’<note place="foot" xml:id="ftn25" n="25"><p rend="footnote text"
+                            >Cf. Matt. 5:11.</p></note> ‘they will find out many inventions’<note
+                        place="foot" xml:id="ftn26" n="26"><p rend="footnote text">Cf. Eccles.
+                            7:29.</p></note> whereby even ‘the good that is in them may be evil
+                    spoken of’,<note place="foot" xml:id="ftn27" n="27"><p rend="footnote text">Cf.
+                            Rom. 14:16.</p></note> and in a thousand instances ‘lay to their charge’
+                    the ill ‘that they know not’.<note place="foot" xml:id="ftn28" n="28"><p
+                            rend="footnote text">Cf. Ps. 35:11.</p></note> From words in due time
+                    they proceed to deeds; treating the servants as their forefathers did their
+                    Master, wronging and despitefully using them in as many ways as fraud can invent
+                    and force accomplish.</p>
+                <p n="2">[2.] ’Tis true these troubles sit heaviest upon those who are yet weak in
+                    the faith; and the more of the Spirit of Christ any man gains the lighter do
+                    they appear to him; so that to him who is truly renewed therein, who is full of
+                    the knowledge and love of God, all the wrongs of wicked men are not only no
+                    evils, but are matter of real and solid joy. But still, though he rejoices for
+                    his own sake, he cannot but grieve for theirs. ‘He hath great heaviness and
+                    continual sorrow in his heart’ for his ‘brethren according to the flesh’,<note
+                        place="foot" xml:id="ftn29" n="29"><p rend="footnote text">Cf. Rom.
+                            9:2-3.</p></note> who are thus ‘treasuring up to themselves wrath
+                    against the day of wrath, and revelation of the righteous judgment of God’.<note
+                        place="foot" xml:id="ftn30" n="30"><p rend="footnote text">Cf. Rom.
+                        2:5.</p></note> ‘His eyes weep for them in secret places;’<note place="foot"
+                        xml:id="ftn31" n="31"><p rend="footnote text">Cf. Jer. 13:17.</p></note> he
+                    is ‘horribly <pb n="03:536"/>afraid’<note place="foot" xml:id="ftn32" n="32"><p
+                            rend="footnote text">Ezek. 32:10.</p></note> for them; yea, ‘he could
+                    even wish to be accursed himself,’<note place="foot" xml:id="ftn33" n="33"><p
+                            rend="footnote text">Cf. Rom. 9:3.</p></note> so they might inherit a
+                    blessing. And thus it is that they who can not only slight but rejoice in the
+                    greatest injury done to them, yet are troubled at that which wicked men do to
+                    themselves, and the grievous misery that attends them.</p>
+                <p n="3">[3.] How much more are they troubled at the injuries wicked men are
+                    continually offering to God! This was the circumstance which made the
+                    contradiction of sinners<note place="foot" xml:id="ftn34" n="34"><p
+                            rend="footnote text">See Heb. 12:3.</p></note> so severe a trial to our
+                    Lord himself: ‘He that despiseth me, despiseth him that sent me.’<note
+                        place="foot" xml:id="ftn35" n="35"><p rend="footnote text">Luke
+                        10:16.</p></note> And how are these despisers now multiplied upon earth! Who
+                    fear not the Son, neither the Father. How are we surrounded with those who
+                    blaspheme the Lord and his Anointed, either reviling the whole of his glorious
+                    gospel, or making him a liar as to some of the blessed truths which he hath
+                    graciously revealed therein! How many of those who profess to believe the whole,
+                    yet in effect preach another gospel; so disguising the most essential doctrines
+                    thereof by their new interpretations as to retain the words only, but nothing of
+                    the faith once delivered to the saints!<note place="foot" xml:id="ftn36" n="36"
+                            ><p rend="footnote text">Jude 3.</p></note> How many who have not yet
+                    made shipwreck of the faith<note place="foot" xml:id="ftn37" n="37"><p
+                            rend="footnote text">1 Tim. 1:19.</p></note> are strangers to the fruits
+                    of it! It hath not purified their hearts; it hath not overcome the world; they
+                    are yet ‘in the gall of bitterness, and in the bond of iniquity’.<note
+                        place="foot" xml:id="ftn38" n="38"><p rend="footnote text">Acts
+                        8:23.</p></note> They are still ‘lovers of themselves’,<note place="foot"
+                        xml:id="ftn39" n="39"><p rend="footnote text">2 Tim. 3:2.</p></note> ‘lovers
+                    of the world’,<note place="foot" xml:id="ftn40" n="40"><p rend="footnote text"
+                            >Cf. 1 John 2:15.</p></note> ‘lovers of pleasure’, and not ‘lovers of
+                        God’.<note place="foot" xml:id="ftn41" n="41"><p rend="footnote text">2 Tim.
+                            3:4.</p></note> Lovers of God? No. ‘He is not in all their
+                        thoughts!’<note place="foot" xml:id="ftn42" n="42"><p rend="footnote text"
+                            >Cf. Ps. 10:4.</p></note> They delight not in him, they thirst not after
+                    him; they do not rejoice in doing his will, neither make their boast of his
+                    praise! O faith working by love,<note place="foot" xml:id="ftn43" n="43"><p
+                            rend="footnote text">See Gal. 5:6; cf. No. 2, <hi rend="italic">The
+                                Almost Christian</hi>, II.6 and n.</p></note> whither art thou fled?
+                    Surely the Son of man did once plant thee upon earth. Where then art thou now?
+                    Among the wealthy? No. The ‘deceitfulness of riches’ there ‘chokes the word, and
+                    it becometh unfruitful’.<note place="foot" xml:id="ftn44" n="44"><p
+                            rend="footnote text">Cf. Mark 4:19.</p></note> Among the poor? No. ‘The
+                    cares of the world’<note place="foot" xml:id="ftn45" n="45"><p
+                            rend="footnote text"><hi rend="italic">Ibid.</hi></p></note> are there,
+                    ‘so that it bringeth forth no fruit to perfection.’<note place="foot"
+                        xml:id="ftn46" n="46"><p rend="footnote text">Cf. Luke 8:14.</p></note>
+                    However, there is nothing to prevent its growth among those who have neither
+                    poverty nor riches.—Yes, the desire of other things. And <pb n="03:537"
+                    />experience shows, by a thousand melancholy examples, that the allowed desire
+                    of anything, great or small, otherwise than as a means to the one thing
+                        needful,<note place="foot" xml:id="ftn47" n="47"><p rend="footnote text">See
+                            Luke 10:42. Cf. Jeremy Taylor’s <hi rend="italic">Unum Necessarium</hi>
+                            (1655). Charles Wesley frequently reported having preached on ‘the one
+                            thing needful’ in CWJ; cf., e.g., Sept. 27, 1736; Oct. 30, 1737; Oct.
+                            15, 22, 1738. John preached from this text from 1734 to the end of his
+                            ministry (seven times recorded in 1790); see No. 146, ‘The One Thing
+                            Needful’, the text of which Charles copied from John’s
+                        manuscript.</p></note> will by degrees banish the care of that out of the
+                    soul, and unfit it for every good word or work.<note place="foot" xml:id="ftn48"
+                        n="48"><p rend="footnote text">See 2 Thess. 2:17.</p></note></p>
+                <p>Such is the trouble, not to descend to particulars which are endless, that wicked
+                    men continually occasion to the good. Such is the state of all good men while on
+                    earth. But it is not so with their souls in paradise. In the moment wherein they
+                    are loosed from the body they know pain no more. Though they are not yet
+                    possessed of the fullness of joy, yet all grief is done away.<note place="foot"
+                        xml:id="ftn49" n="49"><p rend="footnote text">Cf. proem, above, and No. 115,
+                            ‘Dives and Lazarus’, I.3 and n.</p></note> For ‘there the wicked cease
+                    from troubling; and there the weary be at rest.’</p>
+            </div>
+            <div type="section" n="2">
+                <p n="1">II. [1.] ‘There the weary are at rest’—which was the second thing to be
+                    considered—not only from those evils which prudence might have prevented or
+                    piety removed even in this life, but from those which were inseparable
+                    therefrom, which were their unavoidable portion on earth. They are now at rest
+                    whom wicked men would not suffer to rest before; for into the seat of the
+                    spirits of just men, none but the spirits of the just can enter.<note
+                        place="foot" xml:id="ftn50" n="50"><p rend="footnote text">See Heb.
+                            12:23.</p></note> They are at length hid from the scourge of the
+                        tongue:<note place="foot" xml:id="ftn51" n="51"><p rend="footnote text">Job
+                            5:21.</p></note> their name is not here cast out as evil.<note
+                        place="foot" xml:id="ftn52" n="52"><p rend="footnote text">See Luke
+                            6:22.</p></note> Abraham, Isaac, and Jacob, and the prophets do not
+                    revile or separate them from their company.<note place="foot" xml:id="ftn53"
+                        n="53"><p rend="footnote text"><hi rend="italic">Ibid.</hi></p></note> They
+                    are no longer despitefully used and persecuted;<note place="foot" xml:id="ftn54"
+                        n="54"><p rend="footnote text">See Matt. 5:44.</p></note> neither do they
+                    groan under the hand of the oppressor.<note place="foot" xml:id="ftn55" n="55"
+                            ><p rend="footnote text">Jer. 21:12; 22:3.</p></note> No injustice, no
+                    malice, no fraud is there; they are all ‘Israelites indeed, in whom is no
+                        guile’.<note place="foot" xml:id="ftn56" n="56"><p rend="footnote text">Cf.
+                            John 1:47.</p></note> There are no sinners against their own souls;<note
+                        place="foot" xml:id="ftn57" n="57"><p rend="footnote text">Num.
+                        16:38.</p></note> therefore there is no painful pity, no fear for them.
+                    There are no blasphemers of God or of his Word, no profaners of his name or of
+                    his sabbaths; no denier of the Lord that bought him;<note place="foot"
+                        xml:id="ftn58" n="58"><p rend="footnote text">See 2 Pet. 2:1.</p></note>
+                    none that tramples upon the blood of his everlasting covenant:<note place="foot"
+                        xml:id="ftn59" n="59"><p rend="footnote text">See Heb. 13:20.</p></note> in
+                    a word, <pb n="03:538"/>no earthly or sensual, no devilish spirit;<note
+                        place="foot" xml:id="ftn60" n="60"><p rend="footnote text">See Jas.
+                            3:15.</p></note> none who do not love the Lord their God with all their
+                        heart.<note place="foot" xml:id="ftn61" n="61"><p rend="footnote text">See
+                            Matt. 22:37, etc.</p></note></p>
+                <p n="2">2. There, therefore, ‘the weary are at rest’ from all the troubles which
+                    the wicked occasioned; and, indeed, from all the other evils which are necessary
+                    in this world, either as the consequence of sin or for the cure of it. They are
+                    at rest, in the first place, from bodily pain. In order to judge of the
+                    greatness of this deliverance, let but those who have not felt it take a view of
+                    one who lies on a sick- or death-bed.<note place="foot" xml:id="ftn62" n="62"><p
+                            rend="footnote text">An echo here of Wesley’s memories of his own
+                            father’s prolonged illness and painful death just five months earlier
+                            (Apr. 25). Cf. John’s letter to ‘John Smith’, Mar. 22, 1748 (§6); and
+                            Charles’s letter to their brother Samuel Wesley, Jun., in Tyerman, <hi
+                                rend="italic">Samuel Wesley</hi>, pp. 445-46.</p></note> Is this he
+                    that was made a little lower than the angels?<note place="foot" xml:id="ftn63"
+                        n="63"><p rend="footnote text">Ps. 8:5.</p></note> How is the glory departed
+                    from him! His eye is dim and heavy, his cheek pale and wan, his tongue falters,
+                    his hand trembles, his breast heaves and pants, his whole body is now distorted
+                    and writhed<note place="foot" xml:id="ftn64" n="64"><p rend="footnote text"
+                            >I.e., ‘twisted’; for this past participle of ‘writhe’, cf. <hi
+                                rend="italic">OED</hi>, and JWJ, Jan. 13, 1743.</p></note> to and
+                    fro, now moist and cold and motionless, like the earth to which it is going. And
+                    yet all this which you see is but the shadow of what he feels. You see not the
+                    pain that tears his heart, that shoots through all his veins, and chases the
+                    flying soul through every part of her once loved habitation. Could we see this,
+                    too, how earnestly should we cry out: ‘O sin, what hast thou done? To what hast
+                    thou brought the noblest part of the visible creation? Was it for this the good
+                    God made man?’ O no! Neither will he suffer it long. Yet a little while, and all
+                    the storms of life shall be over! And thou shalt be gathered into the storehouse
+                    of the dead! And there ‘the weary are at rest.’</p>
+                <p n="3">3. ‘They are at rest,’ from all these infirmities and follies which they
+                    could not escape in this life.<note place="foot" xml:id="ftn65" n="65"><p
+                            rend="footnote text">Cf. proem, above, and No. 76, ‘On Perfection’, II.7
+                            and n.</p></note> They are no longer exposed to the delusions of sense,
+                    or the dreams of imagination. They are not hindered from seeing the noblest
+                    truths, by inadvertence, nor do they ever lose the sight they have once gained,
+                    by inattention. They are not entangled with prejudice, nor ever misled by hasty
+                    or partial views of the object. And consequently, no error is there. O blessed
+                    place, where truth alone can enter! Truth unmixed, undisguised, enlightening
+                    every man who cometh into the world.<note place="foot" xml:id="ftn66" n="66"><p
+                            rend="footnote text">See John 1:9.</p></note> Where there is no
+                    difference of opinions, but all think <pb n="03:539"/>alike, all are of one
+                    heart and of one mind.<note place="foot" xml:id="ftn67" n="67"><p
+                            rend="footnote text">See Acts 4:32. Cf. Wesley’s later claim of such a
+                            unity among the early Methodists in JWJ, Nov. 9, 1740. The phrase recurs
+                            in his <hi rend="italic">Short Method of Converting All the Roman
+                                Catholics in the Kingdom of Ireland</hi> (1752), §2, and in Charles
+                            Wesley’s ‘Primitive Christianity’, first published appended to <hi
+                                rend="italic">An Earnest Appeal</hi>, §101 (11:91 in this
+                            edn.):</p><l>They all are of one heart and soul,</l><l>And only love
+                            informs the whole.</l><p rend="footnote text">See also Nos. 63, ‘The
+                            General Spread of the Gospel’, §20 and n.; and 68, ‘The Wisdom of God’s
+                            Counsels’, §7.</p></note> Where that offspring of hell,
+                        controversy,<note place="foot" xml:id="ftn68" n="68"><p rend="footnote text"
+                            >Cf. No. 52, <hi rend="italic">The Reformation of Manners</hi>, IV.4,
+                            where Wesley defines dissimulation (what the world calls ‘prudence’) as
+                            ‘the offspring of hell’.</p></note> which turneth this world upside
+                    down, can never come. Where those who have been sawn asunder thereby, and often
+                    cried out in the bitterness of their soul,<note place="foot" xml:id="ftn69"
+                        n="69"><p rend="footnote text">Cf. Job 10:1, etc.</p></note> ‘Peace,
+                        peace,’<note place="foot" xml:id="ftn70" n="70"><p rend="footnote text">Jer.
+                            6:14; 8:11.</p></note> shall find what they then sought in vain, even a
+                    peace which none taketh from them.<note place="foot" xml:id="ftn71" n="71"><p
+                            rend="footnote text">Cf. John 16:22.</p></note></p>
+                <p n="4">4. And yet all this, inconceivably great as it is, is the least part of
+                    their deliverance. For in the moment wherein they shake off the flesh they are
+                    delivered, not only from the troubling of the wicked, not only from pain and
+                    sickness, from folly and infirmity, but also from sin. A deliverance this in
+                    sight of which all the rest vanish away. This is the triumphal song which
+                    everyone heareth when he entereth the gates of paradise: ‘Thou, being dead,
+                    sinnest no more. Sin hath no more dominion over thee. For in that thou diedst,
+                    thou diedst unto sin once, but in that thou livest, thou livest unto God.’<note
+                        place="foot" xml:id="ftn72" n="72"><p rend="footnote text">Cf. Rom. 6:7,
+                            9-14; see also Rom. 14:7-9, 11-12.</p></note></p>
+                <p n="5">5. ‘There’ then ‘the weary be at rest.’ The blood of the Lamb hath healed
+                    all their sickness,<note place="foot" xml:id="ftn73" n="73"><p
+                            rend="footnote text">See Rev. 7:14.</p></note> ‘hath washed them
+                    throughly from their wickedness, and cleansed them from their sin’.<note
+                        place="foot" xml:id="ftn74" n="74"><p rend="footnote text">Cf. Ps. 51:2
+                            (BCP).</p></note> The disease of their nature is cured; they are at
+                    length made whole; they are restored to perfect soundness. They no longer mourn
+                    the ‘flesh lusting against the Spirit’;<note place="foot" xml:id="ftn75" n="75"
+                            ><p rend="footnote text">Cf. Gal. 5:17.</p></note> ‘the law in their
+                    members’ is now at an end, and no longer ‘wars against the law of their mind,
+                    and brings them into captivity to the law of sin.’<note place="foot"
+                        xml:id="ftn76" n="76"><p rend="footnote text">Cf. Rom. 7:23.</p></note>
+                    There is no root of bitterness<note place="foot" xml:id="ftn77" n="77"><p
+                            rend="footnote text">Heb. 12:15.</p></note> left, no remains even of
+                    that sin which did so easily beset them;<note place="foot" xml:id="ftn78" n="78"
+                            ><p rend="footnote text">See Heb. 12:1.</p></note> no forgetfulness of
+                    ‘him in whom they live, move, and have their being’;<note place="foot"
+                        xml:id="ftn79" n="79"><p rend="footnote text">Cf. Acts 17:28.</p></note> no
+                    ingratitude to their gracious <pb n="03:540"/>Redeemer, who poured out his soul
+                    unto the death for them;<note place="foot" xml:id="ftn80" n="80"><p
+                            rend="footnote text">Isa. 53:12.</p></note> no unfaithfulness to that
+                    blessed Spirit who so long bore with their infirmities. In a word, no pride, no
+                    self-will is there; so that they who are thus delivered from the bondage of
+                        corruption<note place="foot" xml:id="ftn81" n="81"><p rend="footnote text"
+                            >Rom. 8:21.</p></note> may indeed say one to another, and that in an
+                    emphatical sense, ‘Beloved, now we are the children of God; and it doth not yet
+                    appear what we shall be; but we shall be like him; for we shall see him as he
+                        is.’<note place="foot" xml:id="ftn82" n="82"><p rend="footnote text">Cf. 1
+                            John 3:2 (<hi rend="italic">Notes</hi>).</p></note></p>
+                <p n="6">6. Let us view a little more nearly the state of a Christian at his
+                    entrance into the otherworld. Suppose ‘the silver cord’ of life just ‘loosed’,
+                    and ‘the wheel broken at the cistern’;<note place="foot" xml:id="ftn83" n="83"
+                            ><p rend="footnote text">Cf. Eccles. 12:6.</p></note> the heart can now
+                    beat no more; the blood ceases to move; the last breath flies off from the
+                    quivering lips, and the soul springs forth into eternity. What are the thoughts
+                    of such a soul, that has just subdued her last enemy, death?<note place="foot"
+                        xml:id="ftn84" n="84"><p rend="footnote text">See 1 Cor. 15:26.</p></note>
+                    That sees the body of sin lying beneath her, and is new born into the world of
+                    spirits? How does she sing: ‘O death, where is thy sting? O grave, where is thy
+                    victory? Thanks be unto God, who hath given me the victory, through our Lord
+                    Jesus Christ!’<note place="foot" xml:id="ftn85" n="85"><p rend="footnote text"
+                            >Cf. 1 Cor. 15:55, 57.</p></note> O happy day, wherein I begin to live,
+                    wherein I taste my native freedom! When I was ‘born of a woman’, I had ‘but a
+                    short time to live’, and that time was ‘full of misery’;<note place="foot"
+                        xml:id="ftn86" n="86"><p rend="footnote text">BCP, Burial, At the grave (cf.
+                            Job 14:1-2).</p></note> that corruptible body pressed me down,<note
+                        place="foot" xml:id="ftn87" n="87"><p rend="footnote text">Cf. Wisd. 9:15;
+                            see also No. 41, <hi rend="italic">Wandering Thoughts</hi>, II.3 and
+                            n.</p></note> and enslaved me to sin and pain. But ‘the snare is broken,
+                    and I am delivered.’<note place="foot" xml:id="ftn88" n="88"><p
+                            rend="footnote text">Cf. Ps. 124:6 (BCP).</p></note> ‘Henceforth I know
+                    them no more.’<note place="foot" xml:id="ftn89" n="89"><p rend="footnote text"
+                            >Cf. 2 Cor. 5:16.</p></note> That head is no more an aching head; those
+                    eyes shall no more run down with tears;<note place="foot" xml:id="ftn90" n="90"
+                            ><p rend="footnote text">See Jer. 9:18.</p></note> that heart shall no
+                    more pant with anguish or fear, or be weighed down with sorrow or care; those
+                    limbs shall no more be racked with pain; yea, ‘sin hath no more dominion over
+                        me.’<note place="foot" xml:id="ftn91" n="91"><p rend="footnote text">Cf.
+                            Rom. 6:14; see also No. 13, <hi rend="italic">On Sin in Believers</hi>,
+                            I.4 and n.</p></note> At length I have parted from thee, O my enemy, and
+                    I shall see thy face no more. I shall never more be unfaithful to my Lord, or
+                    offend the eyes of his glory!<note place="foot" xml:id="ftn92" n="92"><p
+                            rend="footnote text">Isa. 3:8.</p></note> I am no longer that wavering,
+                    fickle, self-inconsistent creature, sinning and repenting, and sinning again.
+                    No. I shall never cease, day or night to love and praise the Lord my God, with
+                    all my heart, and <pb n="03:541"/>with all my strength. But what are ye? ‘Are
+                    all these ministering spirits sent forth to minister’ unto one ‘heir of
+                        salvation?’<note place="foot" xml:id="ftn93" n="93"><p rend="footnote text"
+                            >Cf. Heb. 1:14.</p></note> Then, dust and ashes, farewell. I hear a
+                    voice from heaven saying, Come away, and rest from thy labours; ‘thy warfare is
+                    accomplished, thy sin is pardoned,’<note place="foot" xml:id="ftn94" n="94"><p
+                            rend="footnote text">Cf. Isa. 40:2.</p></note> ‘and the days of thy
+                    mourning are ended.’<note place="foot" xml:id="ftn95" n="95"><p
+                            rend="footnote text">Cf. Isa. 60:20.</p></note></p>
+                <p n="7">7. Brethren, these truths need little application. Believe ye that these
+                    things are so?<note place="foot" xml:id="ftn96" n="96"><p rend="footnote text"
+                            >See Acts 7:1.</p></note> What then hath each of you to do but to ‘lay
+                    aside every weight, and run with patience the race set before him’?<note
+                        place="foot" xml:id="ftn97" n="97"><p rend="footnote text">Cf. Heb.
+                            12:1.</p></note> ‘To count all things else but dung and dross’?<note
+                        place="foot" xml:id="ftn98" n="98"><p rend="footnote text">Cf. Phil.
+                            3:8.</p></note>—especially those grand idols, learning and reputation,
+                    if they are pursued in any other measure, or with any other view, than as they
+                    conduce to the knowledge and love of God. To have this one thing ‘continually in
+                    thine heart’,<note place="foot" xml:id="ftn99" n="99"><p rend="footnote text"
+                            >Cf. Prov. 6:21.</p></note> ‘when thou sittest in thine house, and when
+                    thou walkest by the way, and when thou liest down, and when thou risest
+                        up’;<note place="foot" xml:id="ftn100" n="100"><p rend="footnote text">Deut.
+                            6:7; 11:19.</p></note> to have thy ‘loins’ ever ‘girt’, and ‘thy light
+                        burning’;<note place="foot" xml:id="ftn101" n="101"><p rend="footnote text"
+                            >Cf. Luke 12:35.</p></note> to serve the Lord thy God with all thy
+                        might;<note place="foot" xml:id="ftn102" n="102"><p rend="footnote text">See
+                            Deut. 6:5.</p></note> if by any means, when he requireth thy soul of
+                        thee,<note place="foot" xml:id="ftn103" n="103"><p rend="footnote text">See
+                            Luke 12:20.</p></note> perhaps in an hour when thou lookest not for
+                        him,<note place="foot" xml:id="ftn104" n="104"><p rend="footnote text">See
+                            Luke 12:46.</p></note> thou mayst enter ‘where the wicked cease from
+                    troubling, and where the weary be at rest’.</p>
+            </div>
+        </body>
+    </text>
+</TEI>

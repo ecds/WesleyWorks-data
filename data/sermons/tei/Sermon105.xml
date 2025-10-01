@@ -1,0 +1,571 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Sermon 105: On Conscience</title>
+                <author>Wesley, John</author>
+                <editor role="text">Van Buskirk, Gregory P.</editor>
+                <editor role="digital">Taylor, Michelle M.</editor>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>The Wesley Works Digitzation Project</publisher>
+                <pubPlace>Tampa, FL</pubPlace>
+                <date>2024-02-25</date>
+            </publicationStmt>
+            <sourceDesc>
+                <listBibl>
+                    <biblStruct>
+                        <analytic>
+                            <title level="a">Sermon 105: On Conscience</title>
+                        </analytic>
+                        <monogr>
+                            <title level="j">The Works of John Wesley, Volume III: Sermons III,
+                                71-114</title>
+                            <editor role="volume">Outler, Albert</editor>
+                            <imprint>
+                                <publisher>Abingdon Press</publisher>
+                                <pubPlace>Nashville, TN</pubPlace>
+                                <date when="1986-11-01">1986-11-01</date>
+                                <biblScope unit="volume" n="3"/>
+                                <biblScope unit="page" from="479" to="490"/>
+                            </imprint>
+                        </monogr>
+                        <series>
+                            <title level="s">The Works of John Wesley</title>
+                            <editor role="general">Baker, Frank</editor>
+                        </series>
+                    </biblStruct>
+                </listBibl>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Greg Van Buskirk created Word docs for all of Wesley's sermons using a combination of
+                OCR software and manual proofing. Michelle Taylor converted these docx into XML
+                using Oxygen's DITA automatic transformation scenario, then touched them up
+                manually.</p>
+        </encodingDesc>
+        <standOff>
+            <taxonomy>
+                <keywords>
+                    <term/>
+                </keywords>
+            </taxonomy>
+            <!--Include keywords and terms here eventually.-->
+        </standOff>
+        <revisionDesc/>
+    </teiHeader>
+    <text>
+        <body>
+            <pb n="03:479"/>
+            <head>
+                <hi rend="italic">An Introductory Comment</hi>
+            </head>
+            <introduction>
+                <p>In his <hi rend="italic">Journal</hi> for March 3, 1788, Wesley reports that he
+                    ‘went on to Bristol and, having two or three quiet days, finished [his] sermon
+                    on Conscience’. This was then published with that title in <hi rend="italic"
+                        >SOSO</hi>, VIII.213-31 (there is no record of Wesley’s previous use of 2
+                    Cor. 1:12 as a preaching text).</p>
+                <p>When the sermon appeared in the September and October issues of the <hi
+                        rend="italic">Arminian Magazine</hi>, 1788 (XI.453-58, 508-13), numbered
+                    ‘Sermon XLVII’ (but without a title), it was dated ‘Bristol, April 8, 1788’.
+                    According to the diary, however, Wesley was in Stockport on April 8 (Sermon
+                    XLVIII, which appeared in the November and December issues of the <hi
+                        rend="italic">Arminian Magazine</hi>, is dated ‘Stockport, April 9, 1788’).
+                    The diary confirms that Wesley did indeed arrive in Bristol on March 3, and
+                    worked on a sermon on March 4, 5, 6, and 8 (the date he probably finished
+                    transcribing it), and supports our dating it from the <hi rend="italic"
+                        >Journal</hi> rather than from the <hi rend="italic">Arminian
+                    Magazine</hi>.</p>
+                <p>What seems clear, in any case, is that Wesley was under pressure to complete the
+                    fourteen sermons that would make up the concluding volume of his <hi
+                        rend="italic">Sermons on Several Occasions</hi>. This present sermon, ‘On
+                    Conscience’, is a summing up of reflections on a theme that had fascinated
+                    Wesley all his life, as it had his Puritan forebears. Thus, the crucial point,
+                    that our <hi rend="italic">universal</hi> ‘moral sense’ is not ‘natural’ (as
+                    Francis Hutcheson had argued) but rather the effect of prevenient grace, had
+                    already been made in No. 85, ‘On Working Out Our Own Salvation’, and in many
+                    another text as well. And, Wesley’s conscious link with the Puritans on this
+                    point is emphasized by his inclusion of an untypically extensive quotation from
+                    a century-old sermon by his maternal grandfather, Samuel Annesley. It was as if
+                    grandfather and grandson were able to speak with one voice on one of the basic
+                    presuppositions of Christian ethics.</p>
+            </introduction>
+            <pb n="03:480"/>
+            <head>On Conscience</head>
+            <epigraph>
+                <p>2 Corinthians 1:12</p>
+                <p>
+                    <hi rend="italic">For our rejoicing is this, the testimony of our
+                        conscience.</hi>
+                </p>
+            </epigraph>
+            <p n="1">1. How few words are there in the world more common than this—‘conscience’! It
+                is almost in everyone’s mouth. And one would thence be apt to conclude that no word
+                can be found which is more generally understood. But it may be doubted whether this
+                is the case or no, although numberless treatises have been written upon it. For it
+                is certain a great part of those writers have rather puzzled the cause than cleared
+                it, that they have usually ‘darkened counsel by uttering words without
+                    knowledge’.<note place="foot" xml:id="ftn1" n="1"><p rend="footnote text">Cf.
+                        Job 38:2.</p></note></p>
+            <p n="2">2. The best treatise on the subject which I remember to have seen is translated
+                from the French of Mons. Placette,<note place="foot" xml:id="ftn2" n="2"><p
+                        rend="footnote text">I.e., Jean La Placette (1639-1718), a Huguenot exile,
+                        whose <hi rend="italic">Divers traités sur des matières de conscience…</hi>
+                        (1697) had been translated by Basil Kennett as <hi rend="italic">The
+                            Christian Casuist; or, A Treatise of Conscience</hi> (1705). Wesley’s
+                        complaint about the inadequacy of the ‘numberless treatises [that] have been
+                        written upon [conscience]’ is an echo of La Placette’s preface but ignores
+                        his citation of Bishop Sanderson’s ‘uncompleted’ but ‘promising inquiry’
+                        which had ‘induced [La Placette] to lend [his] hand to the service’. The
+                        complaint is puzzling in any case, since Wesley’s views are not strikingly
+                        different from the ‘numberless treatises’ of Richard Baxter, Jeremy Taylor,
+                        Dean Swift, the Danish bishop J. R. Brochmand, Robert South, <hi
+                            rend="italic">et al.</hi>, save on the particular point of conscience as
+                        a constant work of prevenience and, therefore, supernatural. And it may well
+                        be that it was this point that Wesley regarded as crucial. (The original
+                        ‘Placatt’ is altered to ‘Placette’ in notes added to Wesley’s own copy of
+                            <hi rend="italic">AM</hi>.)</p></note> which describes in a clear and
+                rational manner the nature and offices of conscience. But though it was published
+                near a hundred years ago, it is in very few hands. And indeed a great part of those
+                that have read it complain of the length of it. An octavo volume<note place="foot"
+                    xml:id="ftn3" n="3"><p rend="footnote text">An indication that Wesley was using
+                        the Kennett translation, which is octavo; the original is
+                    duodecimo.</p></note> of several hundred pages upon so plain a subject was
+                likely to prove a trial of patience to most persons of understanding. It seems
+                therefore there is still wanting a discourse upon the subject, short as well as
+                clear. This by the assistance of God I will endeavour to supply, by showing, first,
+                the nature of conscience; and then the several sorts of it; after which I shall
+                conclude with a few important directions.</p>
+            <pb n="03:481"/>
+            <div type="section" n="1">
+                <p n="1">I. 1. And, first, I am to show the nature of conscience. This a very pious
+                    man in the last century (in his sermon on <hi rend="italic">Universal
+                        Conscientiousness</hi><note place="foot" xml:id="ftn4" n="4"><p
+                            rend="footnote text">This was Samuel Annesley (1620-96), father of
+                            Susanna Wesley. His sermon (on Acts 24:16) was published in <hi
+                                rend="italic">The Morning-Exercise at Cripplegate</hi>, a sermon
+                            collection which he had edited in 1661. Wesley had abridged and
+                            published it in the <hi rend="italic">Christian Lib.</hi>,
+                            XXXVIII.297-338, where it is mistakenly attributed to ‘The Rev. Matthew
+                            Pool’ (author of the <hi rend="italic">Annotations</hi>). A long
+                            quotation from the same sermon, correctly attributed, appears below as
+                            Wesley’s conclusion (I.19).</p></note>) describes in the following
+                    manner: ‘This word, which literally signifies “knowing with another”,
+                    excellently sets forth the scriptural notion of it. So Job 16:19, “My witness is
+                    in heaven;”<note place="foot" xml:id="ftn5" n="5"><p rend="footnote text">Cf.
+                            Poole, <hi rend="italic">Annotations</hi>, on Job 16:19: ‘Besides the
+                            witness of men and of my own conscience, God is witness of my
+                            integrity.’</p></note> and so the Apostle, Rom. 9:1, “I say the truth,
+                    my conscience also bearing me witness in the Holy Ghost.” In both places it is
+                    as if he had said, God witnesseth with my conscience.<note place="foot"
+                        xml:id="ftn6" n="6"><p rend="footnote text">Cf. Robert Sanderson, <hi
+                                rend="italic">De obligatione conscientiae…</hi> (1660),
+                        I.17:23.</p></note> Conscience is placed in the middle—under God, and above
+                    man. It is a kind of silent reasoning of the mind, whereby those things which
+                    are judged to be right are approved of with pleasure; but those which are judged
+                    evil are disapproved of with uneasiness.’<note place="foot" xml:id="ftn7" n="7"
+                            ><p rend="footnote text">Annesley’s quotation (garbled) from the Danish
+                            Lutheran polemicist, J. R. Brochmand (1585-1652), <hi rend="italic"
+                                >Universae Theologiae Systema</hi> (1658), I.i.3:7.</p></note> This
+                    is a tribunal in the breast of men to accuse sinners and excuse them that do
+                    well.</p>
+                <p n="2">2. To view it in a somewhat different light, conscience, as well as the
+                    Latin word from which it is taken, and the Greek word συνειδήσεως,<note
+                        place="foot" xml:id="ftn8" n="8"><p rend="footnote text">Cf. 2 Cor. 1:12;
+                            the nominative form is συνειδήσις (variations of which occur twenty-five
+                            times in the New Testament).</p></note> necessarily imply <hi
+                        rend="italic">the knowledge of two or more things together</hi>—suppose the
+                    knowledge of our words and actions, and at the same time of their goodness or
+                    badness; if it be not rather the faculty whereby we know at once our actions and
+                    the quality of them.</p>
+                <p n="3">3. <hi rend="italic">Conscience</hi>, then, is that faculty whereby we are
+                    at once conscious of our own thoughts, words, and actions, and of their merit or
+                    demerit, of their being good or bad, and consequently deserving either praise or
+                    censure. And some pleasure generally attends the former sentence, some
+                    uneasiness the latter. But this varies exceedingly, according to education and a
+                    thousand other circumstances.</p>
+                <p n="4">4. Can it be denied that something of this is found in every man born into
+                    the world? And does it not appear as soon as the <pb n="03:482"/>understanding
+                    opens? as soon as reason begins to dawn? Does not everyone then begin to know
+                    that there is a difference between good and evil, how imperfect soever the
+                    various circumstances of this sense of good and evil may be? Does not every man,
+                    for instance, know, unless blinded by the prejudice of education (like the
+                    inhabitants of the Cape of Good Hope<note place="foot" xml:id="ftn9" n="9"><p
+                            rend="footnote text">For Wesley’s knowledge of the Cape of Good Hope and
+                            its inhabitants (‘the Hottentots’), cf. Nos. 28, ‘Sermon on the Mount,
+                            VIII’, §9 and n.; and 69, ‘The Imperfection of Human Knowledge’, II.5
+                            and n.</p></note>) that it is good to honour his parents? Do not all
+                    men, however uneducated or barbarous, allow it is right to do to others as we
+                    would have them do to us? And are not all who know this condemned in their own
+                    mind when they do anything contrary thereto? As, on the other hand, when they
+                    act suitable thereto they have the approbation of their own conscience.</p>
+                <p n="5">5. This faculty seems to be what is usually meant by those who speak of
+                    ‘natural conscience’, an expression frequently found in some of our best
+                    authors, but yet not strictly just. For though in one sense it may be termed
+                    ‘natural’, because it is found in all men, yet properly speaking it is not <hi
+                        rend="italic">natural</hi>; but a supernatural gift of God, above all his
+                    natural endowments.<note place="foot" xml:id="ftn10" n="10"><p
+                            rend="footnote text">Cf. Nos. 85, ‘On Working Out Our Own Salvation’,
+                            III.4; and 129, ‘Heavenly Treasure in Earthen Vessels’, I.1.</p></note>
+                    No, it is not nature but the Son of God that is ‘the true light, which
+                    enlighteneth every man which cometh into the world’.<note place="foot"
+                        xml:id="ftn11" n="11"><p rend="footnote text">Cf. John 1:9.</p></note> So
+                    that we may say to every human creature, ‘He’, not nature, ‘hath shown thee, O
+                    man, what is good.’<note place="foot" xml:id="ftn12" n="12"><p
+                            rend="footnote text">Cf. Mic. 6:8.</p></note> And it is his Spirit who
+                    giveth thee an inward check, who causeth thee to feel uneasy, when thou walkest
+                    in any instance contrary to the light which he hath given thee.</p>
+                <p n="6">6. It may give a peculiar force to that beautiful passage to consider by
+                    whom, and on what occasion, the words were uttered. The persons speaking are
+                    Balak the King of Moab, and Balaam, then under divine impressions (it seems,
+                    then, ‘not far from the kingdom of God’,<note place="foot" xml:id="ftn13" n="13"
+                            ><p rend="footnote text">Mark 12:34.</p></note> although afterward he so
+                    foully revolted). Probably Balak too at that time experienced something of the
+                    same influence. This occasioned his ‘consulting with’, or asking counsel of,
+                    Balaam; his proposing the question to which Balaam gives so full an answer: ‘O
+                    my people’ (saith the prophet in the name of God), ‘remember what Balak the King
+                    of Moab <hi rend="Page">[03:483]</hi>consulted’ (it seems in the fullness of his
+                    heart), ‘and what Balaam the son of Beor answered him. Wherewith’, said he,
+                    ‘shall I come before the Lord, and bow myself before the high God? Shall I come
+                    before him with calves of a year old? Will the Lord be pleased with thousands of
+                    rams, or with ten thousand rivers of oil? Shall I give my first-born for my
+                    transgression? The fruit of my body for the sin of my soul?’ (This the kings of
+                    Moab had actually done on occasions of deep distress; a remarkable account of
+                    which is recorded in the third chapter of the second book of Kings.) To this
+                    Balaam makes that noble reply (being doubtless then taught of God): ‘He hath
+                    showed thee, O man, what is good. And what doth the Lord thy God require of thee
+                    but to do justly, to love mercy, and to walk humbly with thy God!’<hi
+                        rend="endnote_reference"><note place="end"><p rend="endnote text">Micah
+                                6:5-8. [Note the anachronistic conflation here of Balaam and
+                                Micah.]</p></note></hi></p>
+                <p n="7">7. To take a more distinct view of conscience, it appears to have a
+                    threefold office. First, it is a <hi rend="italic">witness</hi>, testifying what
+                    we have done, in thought, or word, or action. Secondly, it is a <hi
+                        rend="italic">judge</hi>, passing sentence on what we have done, that it is
+                    good or evil. And thirdly, it in some sort <hi rend="italic">executes</hi> the
+                    sentence, by occasioning a degree of complacency in him that does well, and a
+                    degree of uneasiness in him that does evil.<note place="foot" xml:id="ftn14"
+                        n="14"><p rend="footnote text">Cf. the parallels between conscience and the
+                            judicial process, as in No. 15, <hi rend="italic">The Great Assize</hi>,
+                            IV.4 and n.</p></note></p>
+                <p n="8">8. Professor Hutcheson, late of Glasgow,<note place="foot" xml:id="ftn15"
+                        n="15"><p rend="footnote text">Both early texts have ‘Hutchinson’ here, but
+                            Wesley’s own copy of <hi rend="italic">AM</hi> has it correctly in the
+                            margin. The reference is to Francis Hutcheson (see No. 12, ‘The Witness
+                            of Our Own Spirit’, §5 and n.) and to his <hi rend="italic">Essay on the
+                                Nature and Conduct of the Passions and Affections with Illustrations
+                                Upon the Moral Sense</hi> (1726), which was prescribed reading for
+                            the scholars at the Kingswood School (cf. <hi rend="italic">A Short
+                                Account of the School in Kingswood</hi>, Supplement, 1768). Wesley,
+                            however, had decided that Hutcheson’s ethical theory excluded the
+                            supernatural on principle and thereby denied the concept of prevenience
+                            on which he himself set such great store; cf. JWJ, Dec. 17, 1772, and
+                            Nov. 9, 1773; see also No. 90, ‘An Israelite Indeed’, proem. Hutcheson’s
+                            analysis of the various moral senses is on pp. 4-6 of his <hi
+                                rend="italic">Essay</hi>. Cf. his <hi rend="italic">System of Moral
+                                Philosophy</hi> (1755), where he adds yet another ‘sense’: <hi
+                                rend="italic">viz.</hi>, ‘the sense of the admiration of
+                            excellence’.</p></note> places conscience in a different light. In his
+                        <hi rend="italic">Essay on the Passions</hi> he observes that we have
+                    several <hi rend="italic">senses</hi>, or natural avenues of pleasure and pain,
+                    besides the five external senses. One of these he terms, ‘the public sense’,
+                    whereby we are naturally pained at the misery of a fellow-creature, and pleased
+                    at his deliverance from it. And every man, says he, has a ‘moral sense’, whereby
+                    he approves of benevolence and disapproves of cruelty. Yea, he is uneasy when
+                        <hi rend="Page">[03:484]</hi>he himself has done a cruel action, and pleased
+                    when he has done a generous one.</p>
+                <p n="9">9. All this is in some sense undoubtedly true. But it is not true that
+                    either the ‘public’ or the ‘moral sense’ (both of which are included in the term
+                    conscience) is now <hi rend="italic">natural</hi> to man. Whatever may have been
+                    the case at first, while man was in a state of innocence, both the one and the
+                    other is now a branch of that supernatural gift of God which we usually style
+                    ‘preventing grace’. But the professor does not at all agree with this. He sets
+                    God wholly out of the question. God has nothing to do with his scheme of virtue
+                    from the beginning to the end. So that to say the truth, his scheme of virtue is
+                    atheism all over.<note place="foot" xml:id="ftn16" n="16"><p
+                            rend="footnote text">That Wesley and Hutcheson stood poles apart in
+                            their theories of ethical motivation is obvious. But that Hutcheson’s
+                            theory ‘sets God wholly out of the question’ is a misreading at the very
+                            least. ‘As endowed by our Creator’ is a phrase as pat in Hutcheson as
+                            ‘moral sense’ (the two are often linked). ‘Good dispositions…must be
+                            originally implanted in our nature by its Great Author…’; cf. <hi
+                                rend="italic">An Inquiry into the Original of Our Ideas of Beauty
+                                and Virtue</hi> (2nd edn., 1726), p. 270; see also xiv, 44, 46, 50,
+                            93, 101, 166, 184, 211, etc.</p></note> This is refinement indeed! Many
+                    have excluded God out of the world: he excludes him even out of religion!</p>
+                <p n="10">10. But do we not mistake him? Do we take his meaning right? That it may
+                    be plain enough, that no man may mistake him, he proposes this question: ‘What
+                    if a man in doing a virtuous, that is, a generous action, in helping a
+                    fellow-creature, has an eye to God, either as commanding or as promising to
+                    reward it? Then’, says he, ‘so far as he has an eye to God, the virtue of the
+                    action is lost. Whatever actions spring from an eye to the recompense of reward
+                    have no virtue, no moral goodness in them.’<note place="foot" xml:id="ftn17"
+                        n="17"><p rend="footnote text">Hutcheson’s point, throughout, is that virtue
+                            must be disinterested, devoid of any motive of reward, even from God.
+                            Cf. William T. Blackstone, <hi rend="italic">Francis Hutcheson and
+                                Contemporary Ethical Theory</hi> (Athens, Georgia, Univ. of Georgia
+                            Press, 1965), pp. 11-40.</p></note> Alas! Was this man called a
+                    Christian? How unjustly was he slandered with that appellation!<note
+                        place="foot" xml:id="ftn18" n="18"><p rend="footnote text">The two early
+                            texts here read ‘assertion’; ‘appellation’ appears as a marginal
+                            correction in Wesley’s own copy of <hi rend="italic">AM</hi>.</p></note>
+                    Even Dr. Taylor, though he does not allow Christ to be God, yet does not scruple
+                    to term him, ‘a person of consummate <hi rend="italic">virtue</hi>’.<note
+                        place="foot" xml:id="ftn19" n="19"><p rend="footnote text">Dr. John Taylor
+                            (1694-1761), Unitarian minister of Norwich, against whose <hi
+                                rend="italic">The Scripture-Doctrine of Original Sin: Proposed to
+                                Free and Candid Examination</hi> (1740) Wesley published <hi
+                                rend="italic">The Doctrine of Original Sin</hi> (1757). Cf. the 4th
+                            edn. of Taylor (1767), p. 75: ‘The worthiness of Christ is his
+                            consummate virtue. It is virtue, obedience to the truth, or the divine
+                            will, and benevolence to his creatures that wins every prize, that
+                            carrieth every cause to heaven.’ P. 74: ‘What was it that gave this
+                            glorious personage, emblemized by the Lamb (Rev. 5) his superior
+                            WORTHINESS, his prevailing interest in God beyond all others in heaven
+                            and earth? Evidently, it was his being slain, and having redeemed us
+                            unto God by his blood. This is to say, it was his obedience to God and
+                            goodwill to men—it was his <hi rend="italic">consummate virtue</hi>.’
+                            Elsewhere (pp. 73, 65, 47, 45, etc.), Taylor speaks of Christ’s perfect
+                            obedience, even unto death, as the ground and power of our redemption.
+                            This is, at best, an exemplarist theory of atonement; even so, Jesus
+                            Christ, for Taylor, was more than merely ‘a man of consummate virtue’;
+                            cf. pp. 82-83. See also No. 123, ‘On Knowing Christ after the Flesh’,
+                            §4; and note that in No. 70, ‘The Case of Reason Impartially
+                            Considered’, II.6, Wesley had applied the term, ‘consummate virtue’, to
+                            Socrates.</p></note> But the professor cannot allow him any virtue at
+                    all!</p>
+                <pb n="03:485"/>
+                <p n="11">11. But to return. What is conscience in the Christian sense? It is that
+                    faculty of the soul which, by the assistance of the grace of God, sees at one
+                    and the same time, (1), our own tempers and lives, the real nature and quality
+                    of our thoughts, words, and actions; (2), the rule whereby we are to be
+                    directed; and (3), the agreement or disagreement therewith. To express this a
+                    little more largely: conscience implies, first, the faculty a man has of knowing
+                    himself, of discerning both in general and in particular his own tempers,
+                    thoughts, words, and actions. But this it is not possible for him to do without
+                    the assistance of the Spirit of God. Otherwise self-love, and indeed every other
+                    irregular passion, would disguise and wholly conceal him from himself. It
+                    implies, secondly, a knowledge of the rule whereby he is to be directed in every
+                    particular, which is no other than the written Word of God. Conscience implies,
+                    thirdly, a knowledge that all his thoughts and words and actions are or are
+                        not<note place="foot" xml:id="ftn20" n="20"><p rend="footnote text">The
+                            phrase, ‘or are not’, stands as a marginal note in Wesley’s copy of <hi
+                                rend="italic">AM</hi>, though not in his own hand; clearly it
+                            improves the sense here.</p></note> conformable to that rule. In all the
+                    offices of conscience the ‘unction of the Holy One’<note place="foot"
+                        xml:id="ftn21" n="21"><p rend="footnote text">Cf. 1 John 2:20.</p></note> is
+                    indispensably needful. Without this neither could we clearly discern our lives
+                    or tempers, nor could we judge of the rule whereby we are to walk, or of our
+                    conformity or disconformity to it.</p>
+                <p n="12">12. This is properly the account of a <hi rend="italic">good</hi>
+                    conscience, which may be in other terms expressed thus: a divine consciousness
+                    of walking in all things according to the written Word of God. It seems, indeed,
+                    that there can be no conscience which has not a regard to God. If you say, ‘Yes:
+                    there certainly may be a consciousness of having done right or wrong without any
+                    reference to him.’ I answer, This I cannot grant. I doubt whether the very
+                    words, ‘right and wrong’, according to the Christian system, do not imply, in
+                    the very idea of them, agreement and disagreement to the will and word of God.
+                    If so, there is no such <pb n="03:486"/>thing as conscience in a Christian if we
+                    leave God out of the question.</p>
+                <p n="13">13. In order to the very existence of a good conscience, as well as to the
+                    continuance of it, the continued influence of the Spirit of God is absolutely
+                    needful. Accordingly the Apostle John declares to the believers of all ages: ‘Ye
+                    have an unction from the Holy One; and ye know all things:’<note place="foot"
+                        xml:id="ftn22" n="22"><p rend="footnote text"><hi rend="italic"
+                            >Ibid.</hi></p></note> all things that are needful to your having ‘a
+                    conscience void of offence toward God and toward man’.<note place="foot"
+                        xml:id="ftn23" n="23"><p rend="footnote text">Cf. Acts 24:16.</p></note> So
+                    he adds, ‘Ye have no need that anyone should teach you,’ otherwise ‘than as that
+                    anointing teacheth you’.<note place="foot" xml:id="ftn24" n="24"><p
+                            rend="footnote text">Cf. 1 John 2:27.</p></note> That anointing clearly
+                    teacheth us those three things, first, the true meaning of God’s Word; secondly,
+                    our own tempers and lives, bringing all our thoughts, words, and actions to
+                    remembrance; and thirdly, the agreement of all with the commandments of God.</p>
+                <p n="14">14. Proceed we now to consider, in the second place, the several <hi
+                        rend="italic">sorts</hi> of conscience.<note place="foot" xml:id="ftn25"
+                        n="25"><p rend="footnote text">Cf., for the basic argument from here on, Dr.
+                            Annesley’s sermon in <hi rend="italic">The Morning-Exercise at
+                                Cripplegate</hi> (1661), pp. 7-13.</p></note> A good conscience has
+                    been spoken of already. This St. Paul expresses various ways. In one place he
+                    simply terms it, a ‘good conscience toward God’;<note place="foot"
+                        xml:id="ftn26" n="26"><p rend="footnote text">Cf. Acts 23:1.</p></note> in
+                    another, ‘a conscience void of offence toward God and toward man’.<note
+                        place="foot" xml:id="ftn27" n="27"><p rend="footnote text">Cf. Acts
+                            24:16.</p></note> But he speaks still more largely in the text: ‘Our
+                    rejoicing is this, the testimony of our conscience, that in simplicity’—with a
+                    single eye—‘and godly sincerity, we have had our conversation in the
+                        world.’<note place="foot" xml:id="ftn28" n="28"><p rend="footnote text">2
+                            Cor. 1:12.</p></note> Meantime he observes that this was done, ‘not by
+                    fleshly wisdom’, commonly called prudence (this never did, nor ever can produce
+                    such an effect), ‘but by the grace of God’,<note place="foot" xml:id="ftn29"
+                        n="29"><p rend="footnote text"><hi rend="italic">Ibid.</hi></p></note> which
+                    alone is sufficient to work this in any child of man.</p>
+                <p n="15">15. Nearly allied to this (if it be not the same placed in another view,
+                    or a particular branch of it) is a <hi rend="italic">tender</hi> conscience. One
+                    of a tender conscience is exact in observing any deviation from the Word of God,
+                    whether in thought, or word, or work, and immediately feels remorse and
+                    self-condemnation for it. And the constant cry of his soul is,</p>
+                <lg>
+                    <l>O that my tender soul may fly</l>
+                    <l>The first abhorred approach of ill:</l>
+                    <l>Quick as the apple of an eye</l>
+                    <l>The slightest touch of sin to feel.</l>
+                    <note place="foot" xml:id="ftn30" n="30">
+                        <p rend="footnote text">John and Charles Wesley, ‘Watch in All Things’, <hi
+                                rend="italic">Hymns and Sacred Poems</hi> (1742), p. 218 (<hi
+                                rend="italic">Poet. Wks.</hi>, II.273); see No. 12, ‘The Witness of
+                            Our Own Spirit’, §19 and n.</p>
+                    </note>
+                </lg>
+                <pb n="03:487"/>
+                <p n="16">16. But sometimes this excellent quality, <hi rend="italic"
+                        >tenderness</hi> of conscience, is carried to an extreme. We find some who
+                    fear where no fear is, who are continually condemning themselves without cause;
+                    imagining some things to be sinful which the Scripture nowhere condemns; and
+                    supposing other things to be their duty which the Scripture nowhere enjoins.
+                    This is properly termed a ‘scrupulous’ conscience, and is a sore evil. It is
+                    highly expedient to yield to it as little as possible; rather it is a matter of
+                    earnest prayer that you may be delivered from this sore evil, and may recover a
+                    sound mind: to which nothing would contribute more than the converse of a pious
+                    and judicious friend.</p>
+                <p n="17">17. But the extreme which is opposite to this is far more dangerous. A
+                    ‘hardened’ conscience is a thousand times more dangerous than a scrupulous one:
+                    that can violate a plain command of God without any self-condemnation, either
+                    doing what he has expressly forbidden, or neglecting what he has expressly
+                    commanded, and yet without any remorse; yea, perhaps glorying in this very
+                    hardness of heart! Many instances of this deplorable stupidity we meet with at
+                    this day—and even among people that suppose themselves to have no small share of
+                    religion. A person is doing something which the Scripture clearly forbids. You
+                    ask, ‘How do you dare to do this?’ and are answered with perfect unconcern, ‘Oh,
+                    my heart does not condemn me.’ I reply: ‘So much the worse. I would to God it
+                    did. You would then be in a safer state than you are now. It is a dreadful thing
+                    to be condemned by the Word of God, and yet not to be condemned by your own
+                    heart!’ If we can break the least of the known commands of God without any
+                    self-condemnation, it is plain, the god of this world<note place="foot"
+                        xml:id="ftn31" n="31"><p rend="footnote text">2 Cor. 4:4.</p></note> hath
+                    hardened our hearts. If we do not soon recover from this we shall be ‘past
+                        feeling’,<note place="foot" xml:id="ftn32" n="32"><p rend="footnote text"
+                            >Eph. 4:19.</p></note> and our consciences (as St. Paul speaks) will be
+                    ‘seared as with a hot iron’.<note place="foot" xml:id="ftn33" n="33"><p
+                            rend="footnote text">1 Tim. 4:2 (<hi rend="italic">Notes</hi>); see also
+                            No. 85, ‘On Working Out Our Own Salvation’, III.4.</p></note></p>
+                <p n="18">18. I have now only to add a few important directions. The first great
+                    point is this: suppose we have a tender conscience, how shall we preserve it? I
+                    believe there is only one possible way of doing this, which is—to obey it. Every
+                    act of disobedience tends to blind and deaden it, to put out its eyes, that it
+                    may not see the good and the acceptable will of God,<note place="foot"
+                        xml:id="ftn34" n="34"><p rend="footnote text">See Rom. 12:2.</p></note> and
+                    to deaden the heart that it may <pb n="03:488"/>not feel self-condemnation when
+                    we act in opposition to it. And, on the contrary, every act of obedience gives
+                    to the conscience a sharper and stronger sight, and a quicker feeling of
+                    whatever offends the glorious majesty of God. Therefore if you desire to have
+                    your conscience always quick to discern and faithful to accuse or excuse you; if
+                    you would preserve it always sensible and tender, be sure to obey it at all
+                    events. Continually listen to its admonitions, and steadily follow them.
+                    Whatever it directs you to do according to the Word of God, do, however grievous
+                    to flesh and blood. Whatever it forbids, if the prohibition be grounded on the
+                    Word of God, see you do it not, however pleasing it may be to flesh and blood.
+                    The one or the other may frequently be the case. What God forbids may be
+                    pleasing to our evil nature. There you are called to deny yourself, or you deny
+                    your Master. What he enjoins maybe painful to nature: there take up your cross.
+                    So true is our Lord’s word, ‘Except a man deny himself, and take up his cross
+                        daily’,<note place="foot" xml:id="ftn35" n="35"><p rend="footnote text">Cf.
+                            Luke 9:23.</p></note> ‘he cannot be my disciple’.<note place="foot"
+                        xml:id="ftn36" n="36"><p rend="footnote text">Luke 14:26, 27,
+                    33.</p></note></p>
+                <p n="19">19. I cannot conclude this discourse better than with an extract from Dr.
+                    Annesley’s sermon on <hi rend="italic">Universal Conscientiousness</hi>.<hi
+                        rend="endnote_reference"><note place="end"><p rend="endnote text">Dr.
+                                Annesley (my mother’s father), was rector of the parish of
+                                Cripplegate. [The quotation begins in Annesley on p. 21 and runs
+                                through p. 24. It is severely abridged and freely revised; all of
+                                Annesley’s annotations are omitted.]</p></note></hi></p>
+                <quote>
+                    <p>Be persuaded to practise the following directions, and your conscience will
+                        continue right.</p>
+                    <p>(1). Take heed of every sin; count no sin small; and obey every command with
+                        your might. Watch against the first risings of sin, and beware of the
+                        borders of sin. Shun the very appearance of evil. Venture not upon
+                        temptations or occasions of sin.</p>
+                    <p>(2). Consider yourself as living under God’s eye: live as in the sensible
+                        presence of the jealous God. Remember all things are naked and open before
+                        him! You cannot deceive him; for he is infinite wisdom. You cannot fly from
+                        him; for he is everywhere. You cannot bribe him; for he is righteousness
+                        itself! Speak as knowing God hears you: walk as knowing God besets you on
+                        every side. The Lord is with you while you are with him; that is, you shall
+                        enjoy his favourable presence while you live in his awful presence.</p>
+                    <p>(3). Be serious and frequent in the examination of your heart and life. There
+                        are some duties like those parts of the body, the want of which may be
+                        supplied by other parts; but the want of these nothing can supply. Every
+                        evening review your carriage through the day: what you have done, or
+                        thought, that was unbecoming your character; whether your heart has been
+                        instant upon religion, <pb n="03:489"/>and indifferent to the world. Have a
+                        special care of two portions of your time, namely morning and evening: the
+                        morning to forethink what you have to do, and the evening to examine whether
+                        you have done what you ought.</p>
+                    <p>(4). Let every action have reference to your whole life, and not to a part
+                        only. Let all your subordinate ends be suitable to the great end of your
+                        living. ‘Exercise yourself unto godliness.’<note place="foot" xml:id="ftn37"
+                            n="37"><p rend="footnote text">Cf. 1 Tim. 4:7.</p></note> Be as diligent
+                        in religion as thou wouldst have thy children that go to school be in
+                        learning. Let thy whole life be a preparation for heaven, like the
+                        preparation of wrestlers for the combat.</p>
+                    <p>(5). Do not venture on sin because Christ hath purchased a pardon; that is a
+                        most horrible abuse of Christ. For this very reason there was no sacrifice
+                        under the law for any wilful sin; lest people should think they knew the
+                        price of sins, as those do who deal in popish indulgences.</p>
+                    <p>(6). Be nothing in your own eyes: for what is it, alas, that we have to be
+                        proud of? Our very conception was sinful, our birth painful, our life
+                        toilsome, our death we know not what! But all this is nothing to the state
+                        of our soul. If we know this, what excuse have we for pride?</p>
+                    <p>(7). Consult duty, not events. We have nothing to do but to mind our duty.
+                        All speculations that tend not to holiness are among your superfluities; but
+                        forebodings of what may befall you in doing your duty may be reckoned among
+                        your sins; and to venture upon sin to avoid danger is to sink the ship for
+                        fear of pirates. O how quiet, as well as holy, would our lives be had we
+                        learned that single lesson, to be careful for nothing but to do our duty,
+                        and leave all consequences to God! What madness for silly dust to prescribe
+                        to Infinite Wisdom! To let go our work and meddle with God’s! He hath
+                        managed the concerns of the world, and of every individual in it, without
+                        giving cause of complaint to any, for above these five thousand years. And
+                        does he now need <hi rend="italic">your</hi> counsel? Nay, it is <hi
+                            rend="italic">your</hi> business to mind your own duty.</p>
+                    <p>(8). What advice you would give another, take yourself: the worst of men are
+                        apt enough to lay burdens on others, which if they would take on themselves
+                        they would be rare Christians.</p>
+                    <p>(9). Do nothing on which you cannot pray for a blessing. Every action of a
+                        Christian that is good is sanctified by the Word and prayer.<note
+                            place="foot" xml:id="ftn38" n="38"><p rend="footnote text">Cf. 1 Tim.
+                                4:5.</p></note> It becomes not a Christian to do anything so trivial
+                        that he cannot pray over it. And if he would but bestow a serious
+                        ejaculation on every occurrent action, such a prayer would cut off all
+                        things sinful and encourage all things lawful.</p>
+                    <p>(10). Think, and speak, and do what you are persuaded Christ himself would do
+                        in your case were he on earth. It becomes a Christian rather to be an
+                        example than to follow one. But by imitating Christ you become an example to
+                        all, who was, and is, and ever will be, our absolute pattern. O Christians,
+                        how did Christ pray and redeem time for prayer? How did Christ preach, out
+                        of whose mouth proceeded no other but gracious words? What time did Christ
+                        spend in impertinent discourse? How did Christ go up and down doing good to
+                        men, and what was pleasing to God? Beloved, I commend to you these four
+                        memorials: i, mind duty; ii, what is the duty of another in your case is
+                        your own; iii, do not meddle with anything if you cannot say, ‘The blessing
+                        of the Lord be upon it’; iv, <pb n="03:490"/>above all, sooner forget your
+                        Christian name than forget to eye Christ! Whatever treatment you meet with
+                        from the world, remember him and follow his steps, ‘who did no sin, neither
+                        was guile found in his mouth! Who, when he was reviled, reviled not again,
+                        but committed himself to him that judgeth righteously.’<note place="foot"
+                            xml:id="ftn39" n="39"><p rend="footnote text">1 Pet.
+                        2:22-23.</p></note></p>
+                </quote>
+            </div>
+            <p><placeName>Bristol</placeName>, <date when="04-08-1788">April 8, 1788</date><note
+                    place="foot" xml:id="ftn40" n="40"><p rend="footnote text">Place and date as in
+                            <hi rend="italic">AM</hi>; but see above, No. 105, ‘On Conscience’,
+                        intro.</p></note></p>
+        </body>
+    </text>
+</TEI>

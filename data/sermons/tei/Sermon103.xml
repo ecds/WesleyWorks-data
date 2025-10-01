@@ -1,0 +1,510 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Sermon 103: What is Man?</title>
+                <author>Wesley, John</author>
+                <editor role="text">Van Buskirk, Gregory P.</editor>
+                <editor role="digital">Taylor, Michelle M.</editor>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>The Wesley Works Digitzation Project</publisher>
+                <pubPlace>Tampa, FL</pubPlace>
+                <date>2024-02-25</date>
+            </publicationStmt>
+            <sourceDesc>
+                <listBibl>
+                    <biblStruct>
+                        <analytic>
+                            <title level="a">Sermon 103: What is Man?</title>
+                        </analytic>
+                        <monogr>
+                            <title level="j">The Works of John Wesley, Volume III: Sermons III,
+                                71-114</title>
+                            <editor role="volume">Outler, Albert</editor>
+                            <imprint>
+                                <publisher>Abingdon Press</publisher>
+                                <pubPlace>Nashville, TN</pubPlace>
+                                <date when="1986-11-01">1986-11-01</date>
+                                <biblScope unit="volume" n="3"/>
+                                <biblScope unit="page" from="454" to="463"/>
+                            </imprint>
+                        </monogr>
+                        <series>
+                            <title level="s">The Works of John Wesley</title>
+                            <editor role="general">Baker, Frank</editor>
+                        </series>
+                    </biblStruct>
+                </listBibl>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Greg Van Buskirk created Word docs for all of Wesley's sermons using a combination of
+                OCR software and manual proofing. Michelle Taylor converted these docx into XML
+                using Oxygen's DITA automatic transformation scenario, then touched them up
+                manually.</p>
+        </encodingDesc>
+        <standOff>
+            <taxonomy>
+                <keywords>
+                    <term/>
+                </keywords>
+            </taxonomy>
+            <!--Include keywords and terms here eventually.-->
+        </standOff>
+        <revisionDesc/>
+    </teiHeader>
+    <text>
+        <body>
+            <pb n="03:454"/>
+            <head>
+                <hi rend="italic">An Introductory Comment</hi>
+            </head>
+            <introduction>
+                <p>Here is yet another essay on Wesley’s theology of culture, in which he seeks to
+                    correlate man’s relative insignificance in creation as a whole with God’s
+                    special interest in his role and worth. In the following year he will write
+                    another sermon, on Ps. 8:4, in which his stress is on man’s unique place in
+                    God’s creation (see No. 116, ‘What is Man? Ps. 8:4’). Neither of these sermons
+                    has a history in Wesley’s oral preaching; no use of Ps. 8:3-4 has been reported.
+                    This first discourse is therefore more of an essay than a sermon; its ending
+                    lacks Wesley’s usual stress on ‘application’, and there is no proper rhetorical
+                    climax.</p>
+                <p>But the problem of man’s unique place in creation had fascinated Wesley since his
+                    youth; see Vol. 4, the early unpublished sermon (No. 141) on Gen. 1:27. In those
+                    early days he would have read Joseph Addison’s beautiful essay in <hi
+                        rend="italic">The Spectator</hi>, No. 565 (July 9, 1714) on Psalm 8:3-4, and
+                    most of what Wesley has to say thereafter on this question echoes Addison (e.g.,
+                    the references to Huygens and Pascal, to the great chain of being, space as the
+                    sensorium of the Deity, etc.). It is interesting, therefore, that ‘the late
+                    Wesley’ should have returned, in these two complementary discourses, to the
+                    issue of an adequate theological anthropology after having neglected it in his
+                    oral preaching during the years between.</p>
+                <p>This present essay was finished in Manchester on Monday, July 23, 1787, shortly
+                    after Wesley’s return from an extended visit to Ireland. He reports that on the
+                    previous Wednesday he had ‘retired to a little house of Mr. Brocklehurst’s, two
+                    miles beyond Manchester…,’ and had spent the rest of that week ‘in writing’. On
+                    Monday he ‘preached morning and afternoon’ in Manchester and ‘in the evening met
+                    the bands and admired their liveliness and simplicity’ (cf. JWJ, <hi
+                        rend="italic">loc. cit.</hi>). The diary for the day refers to a sermon but
+                    gives no other detail. The result did not appear in the <hi rend="italic"
+                        >Arminian Magazine</hi> until May and June 1788, which means it was
+                    published twice in the same year, since Wesley had already decided to include it
+                    in <hi rend="italic">SOSO</hi>, VIII (1788). In its <hi rend="italic"
+                        >Magazine</hi> version (XI.228-32, 285-89) it had no title but was numbered
+                    ‘Sermon XLV’. In <hi rend="italic">SOSO</hi>, VIII.173-88, it has been given its
+                    present title, drawn from the Psalmist’s query in verse 4.</p>
+            </introduction>
+            <pb n="03:455"/>
+            <head>What is Man?</head>
+            <epigraph>
+                <p>Psalm 8:3-4</p>
+                <p>
+                    <hi rend="italic">When I consider thy heavens, the work of thy fingers, the moon
+                        and [the] stars, which thou hast ordained: What is man?</hi>
+                </p>
+            </epigraph>
+            <div type="introduction">
+                <p>How often has it been observed that the book of Psalms is a rich treasury of
+                    devotion, which the wisdom of God has provided to supply the wants of his
+                    children in all generations! In all ages the Psalms have been of singular use to
+                    those that loved or feared God: not only to the pious Israelites, but to the
+                    children of God in all nations. And this book has been of sovereign use to the
+                    church of God, not only while it was in its state of infancy (so beautifully
+                    described by St. Paul in the former part of the fourth chapter to the Galatians)
+                    but also since, in the fullness of time, ‘life and immortality were brought to
+                    light by the gospel’.<note place="foot" xml:id="ftn1" n="1"><p
+                            rend="footnote text">Cf. 2 Tim. 1:10.</p></note> The Christians in every
+                    age and nation have availed themselves of this divine treasure, which has richly
+                    supplied the wants, not only of ‘babes in Christ’<note place="foot"
+                        xml:id="ftn2" n="2"><p rend="footnote text">1 Cor. 3:1.</p></note>—of those
+                    who were just setting out in the ways of God—but of those also who had made good
+                    progress therein, yea, of such as were swiftly advancing toward ‘the measure of
+                    the stature of the fullness of Christ’.<note place="foot" xml:id="ftn3" n="3"><p
+                            rend="footnote text">Eph. 4:13.</p></note></p>
+                <p>The subject of this psalm is beautifully proposed in the beginning of it: ‘O
+                    Lord, our Governor, how excellent is thy name in all the earth! who hast set thy
+                    glory above the heavens!’<note place="foot" xml:id="ftn4" n="4"><p
+                            rend="footnote text">Cf. Ps. 8:1, and note Wesley’s reversion here to
+                            the BCP after having announced his text from the AV Psalter.</p></note>
+                    It celebrates the glorious wisdom and love of God as the Creator and Governor of
+                    all things. It is not an improbable conjecture that David wrote this psalm in a
+                    bright starlight night, while he observed the moon also ‘walking in her
+                        brightness’;<note place="foot" xml:id="ftn5" n="5"><p rend="footnote text"
+                            >Cf. Job 31:26.</p></note> that while he surveyed</p>
+                <lg>
+                    <l>This fair half-round, the ample azure sky,</l>
+                    <l>Terribly large, and beautifully bright,</l>
+                    <l>With stars unnumbered and unmeasured light,</l>
+                    <note place="foot" xml:id="ftn6" n="6">
+                        <p rend="footnote text">Prior, <hi rend="italic">Solomon</hi>, i.638-40; cf.
+                            No. 78, ‘Spiritual Idolatry’, I.7 and n.</p>
+                    </note>
+                </lg>
+                <pb n="03:456"/>
+                <p>he broke out from the fullness of his heart into that natural exultation, ‘When I
+                    consider thy heavens, the work of thy fingers, the moon and the stars which thou
+                    hast ordained: What is man?’ How is it possible that the Creator of these, the
+                    innumerable armies of heaven and earth, should have any regard to this speck of
+                        creation<note place="foot" xml:id="ftn7" n="7"><p rend="footnote text">See
+                            Young, <hi rend="italic">The Last Day</hi>, ii.221; and see No. 54, ‘On
+                            Eternity’, §18 and n.</p></note> whose time ‘passeth away like a
+                        shadow’!<note place="foot" xml:id="ftn8" n="8"><p rend="footnote text">Ps.
+                            144:4 (BCP).</p></note></p>
+                <lg>
+                    <l>Thy frame but dust, thy stature but a span,</l>
+                    <l>A moment thy duration, foolish man!</l>
+                    <note place="foot" xml:id="ftn9" n="9">
+                        <p rend="footnote text">Cf. Prior, <hi rend="italic">Solomon</hi>, i.551-52;
+                            see also Wesley, <hi rend="italic">A Collection of Moral and Sacred
+                                Poems </hi>(1744), I.113.</p>
+                    </note>
+                </lg>
+                <p>‘What is man?’ I would consider this, first, with regard to his magnitude, and
+                    secondly, with regard to his duration.</p>
+            </div>
+            <div type="section" n="1">
+                <p n="1">I. 1. Consider we, first, What is man with regard to his magnitude? And in
+                    this respect, what is any one individual compared to all the inhabitants of
+                    Great Britain? He shrinks into nothing in the comparison. How inconceivably
+                    little is one compared to eight or ten millions of people?<note place="foot"
+                        xml:id="ftn10" n="10"><p rend="footnote text">Cf. JWJ, Sept. 9, 1776, where
+                            Wesley reports Dr. Richard Price’s estimate that ‘the people of England
+                            are between four and five million…’; cf. Price’s <hi rend="italic"
+                                >Observations on the Expectations of Lives, the Increase of
+                                Mankind…</hi> (1769), and <hi rend="italic">An Essay on the
+                                Population of England</hi> (1780).</p></note> Is he not</p>
+                <quote>Lost like a drop in the unbounded main?<note place="foot" xml:id="ftn11"
+                        n="11"><p rend="footnote text">Cf. Young, <hi rend="italic">The Last
+                                Day</hi>, ii. 196; see also No. 15, <hi rend="italic">The Great
+                                Assize</hi>, II.4 and n.</p></note></quote>
+                <p n="2">2. But what are all the inhabitants of Great Britain compared to all the
+                    inhabitants of the earth? These have frequently been supposed to amount to about
+                    four hundred millions. But will this computation be allowed to be just by those
+                    who maintain China alone to contain fifty-eight millions?<note place="foot"
+                        xml:id="ftn12" n="12"><p rend="footnote text">Cf. Jean Baptiste Du Halde,
+                                <hi rend="italic">General History of China</hi>, translated from the
+                            French by R. Brookes (1736); see also Robert Wallace, <hi rend="italic"
+                                >A Dissertation on the Numbers of Mankind in Ancient and Modern
+                                Times</hi> (1753), pp. 3-13. For another reference to China, cf. No.
+                            113, <hi rend="italic">The Late Work of God in North America</hi>,
+                            I.14.</p></note> If it be true that this one empire contains little less
+                    than sixty millions, we may easily suppose that the inhabitants of the whole
+                    terraqueous globe<note place="foot" xml:id="ftn13" n="13"><p
+                            rend="footnote text">Cf. No. 15, <hi rend="italic">The Great
+                            Assize</hi>, I.1 and n.</p></note> amount to four thousand millions of
+                    inhabitants, rather than four hundred.<note place="foot" xml:id="ftn14" n="14"
+                            ><p rend="footnote text"><hi rend="italic">Ibid.</hi>, I.4 and n.; cf.
+                            also Wallace, <hi rend="italic">op. cit.</hi>, pp. 10-11.</p></note> And
+                    what is any single individual in comparison of this number!</p>
+                <pb n="03:457"/>
+                <p>3. But what is the magnitude of the earth itself compared to that of the solar
+                        system!<note place="foot" xml:id="ftn15" n="15"><p rend="footnote text">See
+                            below, II.9-12; cf. also No. 55, <hi rend="italic">On the Trinity</hi>,
+                            §7 and n.</p></note> Including, beside that vast body the sun, so
+                    immensely larger than the earth, the whole train of primary and secondary
+                    planets; several of which (I mean of the secondary planets—suppose the
+                    satellites or moons of Jupiter and Saturn) are abundantly larger than the whole
+                    earth.</p>
+                <p n="4">4. And yet what is the whole quantity of matter contained in the sun and
+                    all these primary and secondary planets, with all the spaces comprised in the
+                    solar system, in comparison of that which is pervaded by those amazing bodies,
+                    the comets? Who but the Creator himself can ‘tell the number of’ these, and
+                    ‘call them all by their names’?<note place="foot" xml:id="ftn16" n="16"><p
+                            rend="footnote text">Cf. Ps. 147:4.</p></note> Yet what is even the
+                    orbit of a comet, and the space contained therein, to the space which is
+                    occupied by the fixed stars,<note place="foot" xml:id="ftn17" n="17"><p
+                            rend="footnote text">Cf. No. 56, ‘God’s Approbation of His Works’, I.10
+                            and n.</p></note> which are at so immense a distance from the earth that
+                    they appear when they are viewed through the largest telescope just as they do
+                    to the naked eye?</p>
+                <p n="5">5. Whether the bounds of the creation do or do not extend beyond the region
+                    of the fixed stars who can tell? Only ‘the morning stars’ who ‘sang together’
+                    when the foundations thereof were laid.<note place="foot" xml:id="ftn18" n="18"
+                            ><p rend="footnote text">Job 38:4, 7.</p></note> But that it is finite,
+                    that the bounds of it are fixed, we have no reason to doubt. We cannot doubt but
+                    when the Son of God had finished all the work which he created and made, he
+                    said,</p>
+                <lg>
+                    <l>These be thy bounds!</l>
+                    <l>This be thy just circumference, O world!<note place="foot" xml:id="ftn19"
+                            n="19"><p rend="footnote text">Cf. Milton, <hi rend="italic">Paradise
+                                    Lost</hi>, vii.230-31:</p><l>Thus far thy bounds;</l><l>This be
+                                thy just circumference, O world!</l><p rend="footnote text">See No.
+                                69, ‘The Imperfection of Human Knowledge’, I.5 and n.</p></note></l>
+                </lg>
+                <p>But what is man to this?</p>
+                <p n="6">6. We may take one step, and only one step, farther still. What is the
+                    space of the whole creation, what is all finite space that is or can be
+                    conceived, in comparison of infinite?<note place="foot" xml:id="ftn20" n="20"><p
+                            rend="footnote text">Cf. No. 67, ‘On Divine Providence’, §13 and
+                        n.</p></note> What is it but a point, a cipher, compared to that which is
+                    filled by him that is all in all! Think of this, and then ask, ‘What is
+                    man?’</p>
+                <p n="7"><pb n="03:458"/>7. What is man, that the great God who filleth heaven and
+                    earth, ‘the high and lofty one that inhabiteth eternity’,<note place="foot"
+                        xml:id="ftn21" n="21"><p rend="footnote text">Isa. 57:15.</p></note> should
+                    stoop so inconceivably low as to be ‘mindful of him’?<note place="foot"
+                        xml:id="ftn22" n="22"><p rend="footnote text">Ps. 8:4.</p></note> Would not
+                    reason suggest to us that so diminutive a creature would be overlooked by him in
+                    the immensity of his works? Especially when we consider,</p>
+            </div>
+            <div type="section" n="2">
+                <p>II. Secondly, What is man with regard to his duration?</p>
+                <p n="1">1. ‘The days of man’, since the last reduction of human life, which seems
+                    to have taken place in the time of Moses (and not improbably was revealed to the
+                    man of God at the time that he made this declaration) ‘are threescore years and
+                        ten.’<note place="foot" xml:id="ftn23" n="23"><p rend="footnote text">Cf.
+                            Ps. 90:10.</p></note> This is the general standard which God hath now
+                    appointed. ‘And if men be so strong’, perhaps one in a hundred, ‘that they come
+                    to fourscore years, yet then is their strength but labour and sorrow: so soon
+                    passeth it away, and we are gone!’<note place="foot" xml:id="ftn24" n="24"><p
+                            rend="footnote text"><hi rend="italic">Ibid.</hi> (BCP).</p></note></p>
+                <p n="2">2. Now what a poor pittance of duration is this compared to the life of
+                    Methuselah! ‘And Methuselah lived nine hundred and sixty and nine years.’<note
+                        place="foot" xml:id="ftn25" n="25"><p rend="footnote text">Cf. Gen. 5:25,
+                            27.</p></note> But what are these nine hundred and sixty-nine years to
+                    the duration of an angel, which began ‘or ever the mountains were brought
+                    forth’, or the foundations of the earth were laid?<note place="foot"
+                        xml:id="ftn26" n="26"><p rend="footnote text">Cf. Ps. 90:2.</p></note> And
+                    what is the duration which has passed since the creation of angels to that which
+                    passed before they were created—to unbeginning eternity? to that half of
+                    eternity (if one may so speak) which had then elapsed! And what are threescore
+                    years and ten to this!</p>
+                <p n="3">3. Indeed what proportion can there possibly be between any finite and
+                    infinite duration? What proportion is there between a thousand or ten thousand
+                    years, or ten thousand times ten thousand ages, to eternity? I know not that the
+                    inexpressible disproportion between any conceivable part of time and eternity
+                    can be illustrated in a more striking manner than it is in the well-known
+                    passage of St. Cyprian: ‘Suppose there was a ball of sand as large as the globe
+                    of earth; and suppose one grain of this were to be annihilated in a thousand
+                    years; yet that whole space of time wherein this ball would be annihilating, at
+                    the rate of one grain in a thousand years, would bear less, yea, unspeakably,
+                    infinitely less proportion to eternity than a single grain of sand <pb n="03:459"/>would bear to that whole mass.’<note place="foot"
+                        xml:id="ftn27" n="27"><p rend="footnote text">Cf. No. 54, ‘On Eternity’, §10
+                            and n.</p></note> What then are the seventy years of human life in
+                    comparison of eternity? In what terms can the proportion between these be
+                    expressed? It is nothing, yea, infinitely less than nothing!</p>
+                <p n="4">4. If then we add to the littleness of man the inexpressible shortness of
+                    his duration, is it any wonder that a man of reflection should sometimes feel a
+                    kind of fear, lest the great, eternal, infinite Governor of the universe should
+                    disregard so diminutive a creature as man? A creature so every way
+                    inconsiderable when compared either with immensity or eternity! Did not both
+                    these reflections glance through, if not dwell upon, the mind of the royal
+                    psalmist? Thus, in contemplation of the former, he breaks out into the strong
+                    words of the text, ‘When I consider the heavens, the work of thy fingers, the
+                    moon and the stars which thou hast ordained, What is man, that thou shouldst be
+                    mindful of him? Or the son of man, that thou shouldst regard him?’ He is indeed
+                    (to use St. Augustine’s words), <hi rend="italic">aliqua portio creaturae
+                        tuae</hi>:<note place="foot" xml:id="ftn28" n="28"><p rend="footnote text"
+                            >The exact quotation of a twice-repeated phrase from <hi rend="italic"
+                                >The Confessions</hi>, I.1. <hi rend="italic">Quantula portio</hi>
+                            (lit., ‘so small a portion’) is, however, an annotation of
+                        Wesley’s.</p></note> some portion of thy creation. But <hi rend="italic"
+                        >quantula portio!</hi>—how amazingly small a portion! How utterly beneath
+                    thy notice! It seems to be in contemplation of the latter that he cries out in
+                    the hundred and forty-fourth psalm, ‘Lord, what is man, that thou hast such
+                    respect unto him; or the son of man, that thou shouldst so regard him? Man is
+                    like a thing of nought.’ Why? ‘His time passeth away like a shadow.’<note
+                        place="foot" xml:id="ftn29" n="29"><p rend="footnote text">Cf. Ps. 144:3-4
+                            (BCP).</p></note> In this (although in a very few places) the new
+                    translation of the Psalms—that bound up in our Bibles—is perhaps more proper
+                    than the old, that which we have in the Common Prayer Book. It runs thus: ‘Lord,
+                    what is man, that thou takest knowledge of him? or the son of man, that thou
+                    makest account of him?’<note place="foot" xml:id="ftn30" n="30"><p
+                            rend="footnote text"><hi rend="italic">Ibid.</hi> (AV); cf. No. 54, ‘On
+                            Eternity’, §20 and n. </p></note> According to the former translation
+                    David seems to be amazed that the eternal God, considering the littleness of
+                    man, should have so much respect unto him, and should so much regard him! But in
+                    the latter he seems to wonder, seeing the life of man ‘passeth away like a
+                    shadow’, that God should take any knowledge of him at all, or make any account
+                    of him!</p>
+                <p n="5">5. And it is natural for us to make the same reflection, and to <pb
+                        n="03:460"/>entertain the same fear. But how may we prevent this uneasy
+                    reflection, and effectually cure this fear? First, by considering what David
+                    does not appear to have taken at all into his account, namely, that the body is
+                    not the man; that man is not only a house of clay,<note place="foot"
+                        xml:id="ftn31" n="31"><p rend="footnote text">See Job 4:19; also No. 28,
+                            ‘Sermon on the Mount, VIII’, §21 and n.</p></note> but an immortal
+                    spirit; a spirit made in the image of God, an incorruptible picture of the God
+                    of glory; a spirit that is of infinitely more value than the whole earth; of
+                    more value than the sun, moon, and stars put together; yea, than the whole
+                    material creation. Consider, that the spirit of man is not only of a higher
+                    order, of a more excellent nature than any part of the visible world, but also
+                    more durable, not liable either to dissolution or decay. We know all ‘the things
+                    which are seen are temporal’, of a changing, transient nature; ‘but the things
+                    which are not seen’ (such as is the soul of man in particular) ‘are
+                        eternal.’<note place="foot" xml:id="ftn32" n="32"><p rend="footnote text">2
+                            Cor. 4:18.</p></note> ‘They shall perish,’<note place="foot"
+                        xml:id="ftn33" n="33"><p rend="footnote text">Heb. 1:11.</p></note> but the
+                    soul remaineth. ‘They all shall wax old as a garment.’<note place="foot"
+                        xml:id="ftn34" n="34"><p rend="footnote text">Cf. <hi rend="italic"
+                                >ibid.</hi></p></note> But when heaven and earth shall pass away,
+                    the soul shall not pass away.</p>
+                <p n="6">6. Consider, secondly, that declaration which the Father of spirits hath
+                    made to us by the prophet Hosea: ‘I am God, and not man:’<note place="foot"
+                        xml:id="ftn35" n="35"><p rend="footnote text">Hos. 11:9.</p></note>
+                    ‘therefore my compassions fail not.’<note place="foot" xml:id="ftn36" n="36"><p
+                            rend="footnote text">Cf. Lam. 3:22.</p></note> As if he had said, ‘If I
+                    were only a man, or an angel, or any finite being, my knowledge might admit of
+                    bounds, and my mercy might be limited. But “my thoughts are not as your
+                    thoughts,” and my mercy is not as your mercy. “As the heavens are higher than
+                    the earth, so are my thoughts higher than your thoughts”, and my mercy, my
+                    compassion, my ways of showing it, “higher than your ways”.’<note place="foot"
+                        xml:id="ftn37" n="37"><p rend="footnote text">Cf. Isa. 55:9.</p></note></p>
+                <p n="7">7. That no shadow of fear might remain, no possibility of doubting; to show
+                    what manner of regard the great eternal God bears to little, short-lived man,
+                    but especially to his immortal part, God gave his Son, ‘his only Son, to the end
+                    that whosoever believeth in him should not perish, but have everlasting
+                        life’.<note place="foot" xml:id="ftn38" n="38"><p rend="footnote text">Cf.
+                            John 3:16.</p></note> See how God loved the world! The Son of God, that
+                    was God of God, Light of light, very God of very God,<note place="foot"
+                        xml:id="ftn39" n="39"><p rend="footnote text">BCP, Communion, Nicene
+                            Creed.</p></note> in glory equal with the Father, in majesty
+                        co-eternal,<note place="foot" xml:id="ftn40" n="40"><p rend="footnote text"
+                            >BCP, Athanasian Creed.</p></note> ‘emptied himself, took upon him the
+                    form of a servant, and being found in fashion as a man, was <pb n="03:461"
+                    />obedient unto death, even the death of the cross’.<note place="foot"
+                        xml:id="ftn41" n="41"><p rend="footnote text">Cf. Phil. 2:7-8.</p></note>
+                    And all this he suffered not for himself, but for us men and for our
+                        salvation.<note place="foot" xml:id="ftn42" n="42"><p rend="footnote text"
+                            >BCP, Communion, Nicene Creed.</p></note> ‘He bore all our sins in his
+                    own body upon the tree, that by his stripes we might be healed.’<note
+                        place="foot" xml:id="ftn43" n="43"><p rend="footnote text">Cf. 1 Pet.
+                            2:24.</p></note> After this demonstration of his love is it possible to
+                    doubt any longer of God’s tender regard for man, even though he was ‘dead in
+                    trespasses and sins’?<note place="foot" xml:id="ftn44" n="44"><p
+                            rend="footnote text">Eph. 2:1.</p></note> Even when he saw us in our
+                    sins and in our blood he said unto us, Live! Let us then fear no more! Let us
+                    doubt no more. ‘He that spared not his own Son, but delivered him up for us all,
+                    shall he not with him freely give us all things?’<note place="foot"
+                        xml:id="ftn45" n="45"><p rend="footnote text">Rom. 8:32.</p></note></p>
+                <p n="8">8. ‘Nay’, says the philosopher, ‘if God so loved the world, did he not love
+                    a thousand other worlds as well as he did this?<note place="foot" xml:id="ftn46"
+                        n="46"><p rend="footnote text">An echo of an old problem (cf. Augustine, <hi
+                                rend="italic">De Civ. Dei</hi>, xii.18-19) and a current controversy
+                            (cf. the <hi rend="italic">London Magazine</hi>, 1764-65). In his <hi
+                                rend="italic">Survey</hi> (1763), II.143, Wesley had commented: ‘It
+                            is now almost universally supposed that the moon is just like the
+                            earth…. And hence it is generally inferred that she is inhabited like
+                            the earth, and by parity of reason that all the other planets, as well
+                            as the earth and the moon, have their respective inhabitants.’ He had
+                            then observed that Huygens (see n. to II.10) ‘brings strong reasons why
+                            the moon is not and cannot be inhabited’, adding, ‘and so the whole
+                            ingenious hypothesis of innumerable suns and worlds moving round them
+                            vanishes into air.’ A correspondent in the <hi rend="italic">London
+                                Magazine</hi> for Nov. 1764 (pp. 570-73), had disputed this
+                            interpretation. In his reply, Jan. 1765 (pp. 26-29, reprinted in
+                            subsequent edns. of the <hi rend="italic">Survey</hi>), Wesley holds to
+                            the point that such hypotheses are no more than probable at
+                        best.</p></note> It is now allowed that there are thousands, if not millions
+                    of worlds, besides this in which we live. And can any reasonable man believe
+                    that the Creator of all these, many of which are probably as large, yea, far
+                    larger than ours, would show such astonishingly greater regard to one than to
+                    all the rest?’ I answer, Suppose there were millions of worlds, yet God may see,
+                    in the abyss of his infinite wisdom, reasons that do not appear to us why he saw
+                    good to show this mercy to ours in preference to thousands or millions of other
+                    worlds.</p>
+                <p n="9">9. I speak this even upon the common supposition of the plurality of
+                        worlds,<note place="foot" xml:id="ftn47" n="47"><p rend="footnote text">Put
+                            forward by such men as Louis Omens and Bernard Le Bovier de Fontenelle
+                            whose <hi rend="italic">Conversations on the Plurality of Worlds</hi>
+                            turns up in the 3rd edn. of the <hi rend="italic">Survey</hi> (1777),
+                            V.114. Wesley may have read <hi rend="italic">The Plurality of
+                                Worlds</hi> in Jan. 1727 (there is a bare listing in the diary,
+                            ‘Fontenelle’). Cf. Nos. 64, ‘The New Creation’, §8; and 102, ‘Of Former
+                            Times’, intro.</p></note> a very favourite notion with all those who
+                    deny the Christian revelation—and for this reason: because it affords them a
+                    foundation for so plausible an objection to it. But the more I consider that
+                    supposition, the more I doubt of it. <pb n="03:462"/>Insomuch that if it were
+                    allowed by all the philosophers in Europe, still I could not allow it without
+                    stronger proof than any I have met with yet.</p>
+                <p n="10">10. ‘Nay, but is not the argument of the great Huygens<note place="foot"
+                        xml:id="ftn48" n="48"><p rend="footnote text">Christiaan Huygens (1629-95);
+                            Wesley, in JWJ, Sept. 21, 1759, mentions having read his <hi
+                                rend="italic">Celestial Worlds Discovered, Or Conjectures on the
+                                Planetary Worlds</hi> (Eng. trans. 1689, 1698, 1722, 1757): ‘He
+                            surprised me. I think he clearly proves that the moon is not habitable….
+                            Hence he very rationally infers that “neither are any of the secondary
+                            planets inhabited”. And who can prove that the primary are? I know the
+                            earth is. Of the rest I know nothing.’</p></note> sufficient to put it
+                    beyond all doubt? When we view, says that able astronomer, the moon through a
+                    good telescope, we clearly discover</p>
+                <quote>Rivers and mountains on her spotty globe.<note place="foot" xml:id="ftn49"
+                        n="49"><p rend="footnote text">Cf. Milton, <hi rend="italic">Paradise
+                                Lost</hi>, i.291; see No. 69, ‘The Imperfection of Human Knowledge’,
+                            I.5 and n.</p></note></quote>
+                <p>Now where rivers are, there are doubtless plants and vegetables of various kinds.
+                    And where vegetables are, there are undoubtedly animals, yea, rational ones as
+                    on earth. It follows then that the moon has its inhabitants, and probably near
+                    akin to ours. But if our moon is inhabited, we may easily suppose, so are all
+                    the secondary planets; and in particular all the satellites or moons of Jupiter
+                    and Saturn. And if the secondary planets are inhabited, why not the primary? Why
+                    should we doubt it of Jupiter and Saturn themselves, as well as Mars, Venus, and
+                    Mercury.’</p>
+                <p n="11">11. But do not you know that Mr. Huygens himself, before he died, doubted
+                    of this whole hypothesis? For upon farther observation he found reason to
+                    believe that the moon has no atmosphere. He observed that in a total eclipse of
+                    the sun, on the removal of the shade from any part of the earth, the sun
+                    immediately shines bright upon it; whereas if the moon had an atmosphere the
+                    solar light, while it shone through that atmosphere, would appear dim and dusky.
+                    Thus after an eclipse of the moon, first a dusky light appears on that part of
+                    it from which the shadow of the earth removes, while that light passes through
+                    the atmosphere of the earth. Hence it appears that the moon has no atmosphere.
+                    Consequently it has no clouds, no rain, no springs, no rivers; and therefore no
+                    plants or animals. But there is no proof or probability that the moon is
+                    inhabited; neither have we any proof that the other planets are. Consequently,
+                    the foundation being removed, the whole fabric falls to the ground.</p>
+                <pb n="03:463"/>
+                <p n="12">12. ‘But’, you will say, ‘suppose this argument fails, we may infer the same
+                    conclusion, the plurality of worlds, from the unbounded wisdom, and power, and
+                    goodness of the Creator. It was full as easy to him to create thousands or
+                    millions of worlds as one. Can anyone then believe that he would exert all his
+                    power and wisdom in creating a single world? What proportion is there between
+                    this speck of creation and the great God that filleth heaven and earth!
+                    While</p>
+                <lg>
+                    <l>We know the power of his Almighty hand</l>
+                    <l>Could form another world from every sand!</l>
+                    <note place="foot" xml:id="ftn50" n="50">
+                        <p rend="footnote text">Cf. William Broome (1689-1745), ‘The Forty-third
+                            Chapter of Ecclesiasticus Paraphrased’, the closing couplet:</p>
+                        <l>And yet the pow’r of thy almighty hand</l>
+                        <l>Can build another world from every sand.</l>
+                        <p rend="footnote text">See Wesley, <hi rend="italic">A Collection of Moral
+                                and Sacred Poems</hi> (1744), II.99.</p>
+                    </note>
+                </lg>
+                <p n="13">13. To this boasted proof, this <hi rend="italic">argumentum
+                        palmarium</hi><note place="foot" xml:id="ftn51" n="51"><p
+                            rend="footnote text">A ‘knockdown argument’, supposedly unanswerable;
+                                ‘<hi rend="italic">palmarium</hi>’ means ‘a masterpiece’ or
+                            ‘prizewinner’, as in Terence, <hi rend="italic">The Eunuch</hi>, V.iv.8.
+                            Wesley had used this same phrase in No. 90, ‘An Israelite Indeed’, II.7
+                            (see n.), and again in a letter to his brother Charles, Nov. 3,
+                            1775.</p></note> of the learned infidels, I answer, Do you expect to
+                    find any proportion between finite and infinite? Suppose God had created a
+                    thousand more worlds than there are grains of sand in the universe, what
+                    proportion would all these together bear to the infinite Creator? Still, in
+                    comparison of him, they would be, not a thousand times, but infinitely less than
+                    a mite compared to the universe. Have done then with this childish prattle about
+                    the proportion of creatures to their Creator; and leave it to the all-wise God
+                    to create what and when he pleases! For ‘who’, besides himself, ‘hath known the
+                    mind of the Lord? Or who hath been his counsellor?’<note place="foot"
+                        xml:id="ftn52" n="52"><p rend="footnote text">Rom. 11:34.</p></note></p>
+                <p n="14">14. Suffice it then for us to know this plain and comfortable truth—that
+                    the almighty Creator hath shown that regard to these poor little creatures of a
+                    day which he hath not shown even to the inhabitants of heaven, ‘who kept not
+                    their first estate’.<note place="foot" xml:id="ftn53" n="53"><p
+                            rend="footnote text">Cf. Jude 6.</p></note> He hath given us his Son,
+                    his only Son, both to live and to die for us! O let us live unto him, that we
+                    may die unto him, and live with him for ever!</p>
+                <p><placeName>Manchester</placeName>, <date when="07-23-1787">July 23,
+                        1787</date><note place="foot" xml:id="ftn54" n="54"><p rend="footnote text"
+                            >Place and date as in <hi rend="italic">AM</hi>.</p></note></p>
+            </div>
+        </body>
+    </text>
+</TEI>

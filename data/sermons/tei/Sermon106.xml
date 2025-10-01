@@ -1,0 +1,546 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Sermon 106: On Faith</title>
+                <author>Wesley, John</author>
+                <editor role="text">Van Buskirk, Gregory P.</editor>
+                <editor role="digital">Taylor, Michelle M.</editor>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>The Wesley Works Digitzation Project</publisher>
+                <pubPlace>Tampa, FL</pubPlace>
+                <date>2024-02-25</date>
+            </publicationStmt>
+            <sourceDesc>
+                <listBibl>
+                    <biblStruct>
+                        <analytic>
+                            <title level="a">Sermon 106: On Faith</title>
+                        </analytic>
+                        <monogr>
+                            <title level="j">The Works of John Wesley, Volume III: Sermons III,
+                                71-114</title>
+                            <editor role="volume">Outler, Albert</editor>
+                            <imprint>
+                                <publisher>Abingdon Press</publisher>
+                                <pubPlace>Nashville, TN</pubPlace>
+                                <date when="1986-11-01">1986-11-01</date>
+                                <biblScope unit="volume" n="3"/>
+                                <biblScope unit="page" from="491" to="501"/>
+                            </imprint>
+                        </monogr>
+                        <series>
+                            <title level="s">The Works of John Wesley</title>
+                            <editor role="general">Baker, Frank</editor>
+                        </series>
+                    </biblStruct>
+                </listBibl>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Greg Van Buskirk created Word docs for all of Wesley's sermons using a combination of
+                OCR software and manual proofing. Michelle Taylor converted these docx into XML
+                using Oxygen's DITA automatic transformation scenario, then touched them up
+                manually.</p>
+        </encodingDesc>
+        <standOff>
+            <taxonomy>
+                <keywords>
+                    <term/>
+                </keywords>
+            </taxonomy>
+            <!--Include keywords and terms here eventually.-->
+        </standOff>
+        <revisionDesc/>
+    </teiHeader>
+    <text>
+        <body>
+            <pb n="03:491"/>
+            <head>
+                <hi rend="italic">An Introductory Comment</hi>
+            </head>
+            <introduction>
+                <p>This sermon was first published in <hi rend="italic">SOSO</hi>, VIII.233-48
+                    (1788), with the title as given here but with no indication of place and date.
+                    In the <hi rend="italic">Arminian Magazine</hi>, where it appeared in the
+                    November and December issues (without title but numbered as ‘Sermon XLVIII’), it
+                    was dated as at ‘Stockport, April 9, 1788’. Wesley was in Stockport on April 9,
+                    and probably put the finishing touches on a manuscript that he had already been
+                    writing in snatches before sending it back to London to be printed. It may be
+                    interesting that Wesley had not preached on Heb. 11:6 before. However, on June
+                    8, 1790 (in Newcastle), he returned to it; moreover, in his last two years he
+                    wrote two more sermons about ‘faith’ (Nos. 117, ‘On the Discoveries of Faith’;
+                    and 132, ‘On Faith, Heb. 11:1’) and another on 2 Cor. 5:7 (No. 119, ‘Walking by
+                    Sight and Walking by Faith’).</p>
+                <p>This present sermon summarizes Wesley’s gradual but decisive move away from his
+                    early, stark disjunctions between the <hi rend="italic">conscious assurance</hi>
+                    of God’s favour and its total absence. Here, we find a sort of tacit retraction
+                    of his earlier harsh judgments against ‘lower degrees of faith’, as in <hi
+                        rend="italic">The Almost Christian</hi> and <hi rend="italic">Scriptural
+                        Christianity</hi>. It can be read, therefore, as a concluding comment on the
+                    whole idea of <hi rend="italic">degrees</hi> of faith (each valid in its
+                    degree); indeed, it comes closer to an explicit statement of his vision of
+                    universal saving grace than anything else in the Wesley corpus.<note
+                        place="foot" xml:id="ftn1" n="1"><p rend="footnote text">Cf. Michael Hurley,
+                            S.J., ‘Salvation Today and Wesley Today’, in <hi rend="italic">The Place
+                                of Wesley in the Christian Tradition</hi>, ed. Kenneth E. Rowe, pp.
+                            94-116; note that Fr. Hurley does not mention this sermon but recognizes
+                            its motif as characteristic in other writings of Wesley.</p></note></p>
+            </introduction>
+            <pb n="03:492"/>
+            <head>On Faith</head>
+            <epigraph>
+                <p>Hebrews 11:6</p>
+                <p>
+                    <hi rend="italic">Without faith it is impossible to please him.</hi>
+                </p>
+            </epigraph>
+            <div type="introduction">
+                <p n="1">1. But what is <hi rend="italic">faith</hi>? It is a divine ‘evidence, and
+                    conviction of things not seen’;<note place="foot" xml:id="ftn2" n="2"><p
+                            rend="footnote text">Cf. Heb. 11:1; see No. 3, <hi rend="italic">‘Awake,
+                                Thou That Sleepest’</hi>, I.11 and n.</p></note> of things which are
+                    not seen now, whether they are visible or invisible in their own nature.
+                    Particularly, it is a divine evidence and conviction of God and of the things of
+                    God. This is the most comprehensive definition of faith that ever was or can be
+                    given, as including every species of faith, from the lowest to the highest. And
+                    yet I do not remember any eminent writer that has given a full and clear account
+                    of the several sorts of it, among all the verbose and tedious treatises which
+                    have been published upon the subject.</p>
+                <p n="2">2. Something indeed of a similar kind has been written by that great and
+                    good man, Mr. Fletcher, in his treatise on the various <hi rend="italic"
+                        >dispensations</hi> of the grace of God.<note place="foot" xml:id="ftn3"
+                        n="3"><p rend="footnote text">Cf. John W. Fletcher, <hi rend="italic">The
+                                Doctrines of Grace and Justice…</hi> (1777), sect. I, pp. 1-13.
+                            Fletcher’s ‘four capital dispensations’ are ‘I. Gentilism, which is
+                            frequently called “natural religion”;’ ‘II. Judaism, which is frequently
+                            called the Mosaic dispensation;’ ‘III. The Gospel of John the Baptist;’
+                            and ‘IV. The Perfect Gospel of Christ.’</p></note> Herein he observes
+                    that there are four dispensations that are distinguished from each other by the
+                    degree of light which God vouchsafes to them that are under each. A small degree
+                    of light is given to those that are under the <hi rend="italic">heathen</hi>
+                    dispensation. These generally believed ‘that there was a God, and that he was a
+                    rewarder of them that diligently sought him.’<note place="foot" xml:id="ftn4"
+                        n="4"><p rend="footnote text">Cf. Heb. 11:6.</p></note> But a far more
+                    considerable degree of light was vouchsafed to the Jewish nation; inasmuch as to
+                    them <hi rend="italic">were entrusted</hi> the grand means of light, the oracles
+                    of God.<note place="foot" xml:id="ftn5" n="5"><p rend="footnote text">See Rom.
+                            3:2.</p></note> Hence many of these had clear and exalted views of the
+                    nature and attributes of God; of their duty to God and man; yea, and of the
+                    great promise, made to our first parents and transmitted by them to their
+                    posterity, that ‘the seed of the woman should bruise the serpent’s head.’<note
+                        place="foot" xml:id="ftn6" n="6"><p rend="footnote text">Cf. Gen.
+                        3:15.</p></note></p>
+                <p n="3">3. But above both the heathen and Jewish dispensation was that of John the
+                    Baptist. To him a still clearer light was given: and he <pb n="03:493"/>was
+                    himself ‘a burning and a shining light’.<note place="foot" xml:id="ftn7" n="7"
+                            ><p rend="footnote text">John 5:35.</p></note> To him it was given to
+                    ‘behold the Lamb of God, that taketh away the sin of the world’.<note
+                        place="foot" xml:id="ftn8" n="8"><p rend="footnote text">Cf. John
+                        1:29.</p></note> Accordingly our Lord himself affirms that, ‘of all which
+                    had been born of women’, there had not till that time arisen ‘a greater than
+                    John the Baptist’! But nevertheless, he informs us, ‘He that is least in the
+                    kingdom of God’, the Christian dispensation, ‘is greater than he.’<note
+                        place="foot" xml:id="ftn9" n="9"><p rend="footnote text">Cf. Luke
+                        7:28.</p></note> By one that is under the Christian dispensation Mr.
+                    Fletcher means one that has received the Spirit of adoption, that has the Spirit
+                    of God witnessing ‘with his spirit that he is a child of God’.<note place="foot"
+                        xml:id="ftn10" n="10"><p rend="footnote text">Cf. Rom.
+                    8:15-16.</p></note></p>
+                <p>In order to explain this still farther I will endeavour by the help of God,
+                    first, to point out the several sorts of faith, and, secondly, to draw some
+                    practical inferences.</p>
+            </div>
+            <div type="section" n="1">
+                <p>I. In the first place I will endeavour to point out the several sorts of faith.
+                    It would be easy either to reduce these to a smaller number or to divide them
+                    into a greater. But it does not appear that this would answer any valuable
+                    purpose.</p>
+                <p n="1">1. The lowest sort of faith, if it be any faith at all, is that of a <hi
+                        rend="italic">materialist</hi>—a man who (like the late Lord Kames)<note
+                        place="foot" xml:id="ftn11" n="11"><p rend="footnote text">Henry Home, Lord
+                            Kames (1696-1782), a Scottish jurist and philosopher (of Castle Kames,
+                            Berwickshire); Wesley consistently misspelled his title as ‘Kaim’. A
+                            follower of David Hume, Kames had expounded his materialism in his <hi
+                                rend="italic">Essays on the Principles of Morality and Natural
+                                Religion</hi> (1751) and <hi rend="italic">Sketches of the History
+                                of Man</hi> (1774). Wesley had responded to the essay, ‘On Liberty
+                            and Necessity’, in his <hi rend="italic">Thoughts Upon Necessity</hi>
+                            (1774), and in 1781 had denounced the <hi rend="italic">Sketches</hi> as
+                            ‘a masterpiece of infidelity’ (cf. JWJ, May 24-25, 1774; July 6,
+                            1781).</p></note> believes there is nothing but matter in the universe.
+                    I say, if it be any faith at all; for properly speaking, it is not. It is not
+                    ‘an evidence or conviction of God’,<note place="foot" xml:id="ftn12" n="12"><p
+                            rend="footnote text">Cf. Heb. 11:1 (<hi rend="italic"
+                        >Notes</hi>).</p></note> for they do not believe there is any; neither is it
+                    a conviction of things not seen, for they deny the existence of such. Or if, for
+                    decency[’s] sake, they allow there is a God, yet they suppose even him to be
+                    material. For one of their maxims is,</p>
+                <quote>
+                    <hi rend="italic">Jupiter est quodcumque vides—</hi>
+                    <note place="foot" xml:id="ftn13" n="13">
+                        <p rend="footnote text">Cf. Lucan, <hi rend="italic">Civil War</hi>, ix.580:
+                                ‘<hi rend="italic">Jupiter est quodcumque vides, quodcumque
+                                moveris</hi>’, ‘God is whatever we see, wherever we move.’</p>
+                    </note>
+                </quote>
+                <lg>
+                    <l>Whatever you see is God.</l>
+                    <l>‘Whatever you see’! A visible, tangible god! Excellent divinity! Exquisite
+                        nonsense!</l>
+                </lg>
+                <pb n="03:494"/>
+                <p n="2">2. The second sort of faith, if you allow a materialist to have any, is the
+                    faith of a <hi rend="italic">deist</hi>. I mean, one who believes there is a
+                    God, distinct from matter, but does not believe the Bible. Of these we may
+                    observe two sorts: one sort are mere beasts in human shape, wholly under the
+                    power of the basest passions, and having</p>
+                <quote>A downright appetite to mix with mud.<note place="foot" xml:id="ftn14" n="14"
+                            ><p rend="footnote text">π;Source unidentified.</p></note></quote>
+                <p>Other deists are, in most respects, rational creatures, though unhappily
+                    prejudiced against Christianity. Most of these believe the being and attributes
+                    of God; they believe that God made and governs the world, and that the soul does
+                    not die with the body, but will remain for ever in a state of happiness or
+                    misery.</p>
+                <p n="3">3. The next sort of faith is the faith of <hi rend="italic"
+                        >heathens</hi>,<note place="foot" xml:id="ftn15" n="15"><p
+                            rend="footnote text">See No. 1, <hi rend="italic">Salvation by
+                                Faith</hi>, I.2 and n.</p></note> with which I join that of
+                    Mahometans. I cannot but prefer this before the faith of the deists; because,
+                    though it embraces nearly the same objects, yet they are rather to be pitied
+                    than blamed for the narrowness of their faith. And their not believing the whole
+                    truth is not owing to want of sincerity, but merely to want of light. When one
+                    asked Chicali, an old Indian chief, ‘Why do not you <hi rend="italic">red</hi>
+                    men know as much as us <hi rend="italic">white</hi> men?’ he readily answered,
+                    ‘Because you have <hi rend="italic">the Great Word</hi>, and we have not.’<note
+                        place="foot" xml:id="ftn16" n="16"><p rend="footnote text">A blurred memory
+                            of Wesley’s conversation with Chicali in Savannah on July 3, 1736 (cf.
+                            JWJ, July 1).</p></note></p>
+                <p n="4">4. It cannot be doubted but this plea will avail for millions of modern
+                    ‘heathens’. Inasmuch as to them little is given, of them little will be
+                        required.<note place="foot" xml:id="ftn17" n="17"><p rend="footnote text"
+                            >See Luke 12:48.</p></note> As to the ancient heathens, millions of them
+                    likewise were savages. No more, therefore, will be expected of them than the
+                    living up to the light they had.<note place="foot" xml:id="ftn18" n="18"><p
+                            rend="footnote text">For Wesley’s other references to the salvability of
+                            the heathen, see No. 91, ‘On Charity’, I.3 and n.</p></note> But many of
+                    them, especially in the civilized nations, we have great reason to hope,
+                    although they lived among heathens, yet were quite of another spirit; being
+                    taught of God, by his inward voice, all the essentials of true religion. Yea,
+                    and so was that Mahometan, an Arabian, who a century ago wrote the life of Hai
+                    Ebn Yokton.<note place="foot" xml:id="ftn19" n="19"><p rend="footnote text">Cf.
+                                <hi rend="italic">The Improvement of Human Reason, exhibited in the
+                                life of Hai Ebn Yokdhan, written above five hundred years ago, by
+                                Abu Jaafar Ebn Tuphail, translated from the original Arabic by Simon
+                                Ockley [1678-1728], with an appendix, in which the possibility of
+                                man’s attaining the true knowledge of God, and things necessary to
+                                salvation without instruction, is briefly considered</hi> (1708).
+                            This went through two other editions in the eighteenth century (1711 and
+                            1731) and has been more recently ‘revised and edited with an
+                            introduction’ by A. S. Fulton (1929). The work of Abu Bakr Ibn Al-Tufail
+                            was introduced to the Western world by Edward Pocock (1671) in a Latin
+                            translation from the Arabic (<hi rend="italic">Philosophus
+                                Autodidactus</hi>). Wesley read it in 1734, in a version entitled,
+                                <hi rend="italic">The Life of Ebenezer Yokton, An Exact Entire
+                                Mystic</hi>; cf. Green, <hi rend="italic">Wesley</hi>, p. 319. See
+                            also Robert Barclay’s <hi rend="italic">Apology</hi>, Props. V-VI, ‘The
+                            Universal Saving Light’. The gist of the story in all these versions is
+                            the growth to maturity of a solitary child on a desert isle who, without
+                            benefit of schools or mosques, acquired the principles of ‘true
+                            religion, pure and undefiled’ (as well as the elements of science and
+                            philosophy)—hence Pocock’s <hi rend="italic">Autodidactus</hi>. Abu Bakr
+                            has a similar story of ‘Don Antonio Trezzanio, who was self-educated and
+                            lived forty-five years in an uninhabited island in the East Indies’.
+                            Pope tells another version of the story in <hi rend="italic">The
+                                Guardian</hi>, No. 61, May 21, 1713; its author is cited as
+                            ‘Telliamed’. Cf. No. 44, <hi rend="italic">Original Sin</hi>,
+                        II.4.</p></note>
+                    <pb n="03:495"/>The story seems to be feigned; but it contains all the
+                    principles of pure religion and undefiled.<note place="foot" xml:id="ftn20"
+                        n="20"><p rend="footnote text">See Jas. 1:27.</p></note></p>
+                <p n="5">5. But in general we may surely place the faith of a Jew above that of a
+                    heathen or Mahometan. By <hi rend="italic">Jewish</hi> faith I mean the faith of
+                    those who lived between the giving of the law and the coming of Christ.
+                    These—that is, those that were serious and sincere among them—believed all that
+                    is written in the Old Testament. In particular they believed that in the
+                    fullness of time the Messiah would appear ‘to finish the transgression, to make
+                    an end of sin, and bring in everlasting righteousness’.<note place="foot"
+                        xml:id="ftn21" n="21"><p rend="footnote text">Dan. 9:24.</p></note></p>
+                <p n="6">6. It is not so easy to pass any judgment concerning the faith of our
+                    modern Jews. It is plain, ‘The veil is still upon their hearts, when Moses and
+                    the prophets are read.’<note place="foot" xml:id="ftn22" n="22"><p
+                            rend="footnote text">Cf. 2 Cor. 3:15.</p></note> The god of this world
+                    still hardens their hearts, and still blinds their eyes, ‘lest at any time the
+                    light of the glorious gospel’<note place="foot" xml:id="ftn23" n="23"><p
+                            rend="footnote text">Cf. 2 Cor. 4:4.</p></note> should break in upon
+                    them. So that we may say of this people, as the Holy Ghost said to their
+                    forefathers, ‘The heart of this people is waxed gross, and their ears are dull
+                    of hearing, and their eyes have they closed; lest they should see with their
+                    eyes, and hear with their ears, and understand with their hearts, and should be
+                    converted, and I should heal them.’<hi rend="endnote_reference"><note
+                            place="end"><p rend="endnote text">Acts 28:27.</p></note></hi> Yet it is
+                    not our part to pass sentence upon them, but to leave them to their own
+                    Master.</p>
+                <p n="7">7. I need not dwell upon the faith of<hi rend="italic"> John the
+                        Baptist</hi>, any more than the dispensation which he was under, because
+                    these, as Mr. Fletcher well describes them, were peculiar to himself. Setting
+                    him aside, the faith of <hi rend="italic">Roman Catholics</hi> in general seems
+                    to be <pb n="03:496"/>above that of the ancient Jews. If most of these are
+                    volunteers in faith,<note place="foot" xml:id="ftn24" n="24"><p
+                            rend="footnote text">I.e., credulous, not to say gullible. Wesley could
+                            have found this phrase in Shaftesbury’s ‘Letter Concerning Enthusiasm’
+                            (1708): ‘If a reverend Christian prelate may be so great a volunteer in
+                            faith, as beyond the ordinary prescription of the Catholic church, to
+                            believe in fairies, why may not a heathen poet, in the ordinary way of
+                            his religion, be allowed to believe in muses?’; cf. Anthony Ashley
+                            Cooper, third Earl of Shaftesbury, <hi rend="italic">Characteristicks of
+                                Men, Manners, Opinions and Times</hi> (5th edn.; 1773), I.6. Wesley
+                            found the phrase (and idea) useful for polemical purposes, as in <hi
+                                rend="italic">An Earnest Appeal</hi>, §14 (11:49 in this edn.); in
+                            JWJ, June 2, 1755; in <hi rend="italic">Serious Thoughts Occasioned by
+                                the Late Earthquake at Lisbon</hi>, 1755; and in his letter to the
+                                <hi rend="italic">London Magazine</hi>, Jan. 1, 1765.</p></note>
+                    believing more than God has revealed, it cannot be denied that they believe all
+                    which God has revealed as necessary to salvation. In this we rejoice on their
+                    behalf: we are glad that none of those new articles which were<note place="foot"
+                        xml:id="ftn25" n="25"><p rend="footnote text">Orig., ‘they’ changed to
+                            ‘were’ in the MS errata in Wesley’s copy of the <hi rend="italic"
+                                >Sermons</hi>.</p></note> added at the Council of Trent to ‘the
+                    faith once delivered to the saints’,<note place="foot" xml:id="ftn26" n="26"><p
+                            rend="footnote text">Jude 3.</p></note> does so materially contradict
+                    any of the ancient articles as to render them of no effect.</p>
+                <p n="8">8. The faith of the <hi rend="italic">Protestants</hi>, in general,
+                    embraces only those truths as necessary to salvation which are clearly revealed
+                    in the oracles of God.<note place="foot" xml:id="ftn27" n="27"><p
+                            rend="footnote text">Cf. No. 5, ‘Justification by Faith’, §2 and
+                        n.</p></note> Whatever is plainly declared in the Old and New Testament is
+                    the object of their faith. They believe neither more nor less than what is
+                    manifestly contained in, and provable by, the Holy Scriptures. The Word of God
+                    is ‘a lantern to their feet, and a light in all their paths’.<note place="foot"
+                        xml:id="ftn28" n="28"><p rend="footnote text">Cf. Ps. 119:105
+                        (BCP).</p></note> They dare not on any pretence go from it to the right hand
+                    or the left. The written Word is the whole and sole rule of their faith, as well
+                    as practice. They believe whatsoever God has declared, and profess to do
+                    whatsoever he hath commanded. This is the proper faith of Protestants:<note
+                        place="foot" xml:id="ftn29" n="29"><p rend="footnote text">An echo of
+                            William Chillingworth’s famous slogan, ‘The Scripture is the only rule
+                            to judge all controversies by,’ in <hi rend="italic">The Religion of
+                                Protestants</hi> (4th edn., 1674), p. 87; cf. the whole of Pt. I,
+                            ch. ii.</p></note> by this they will abide and no other.</p>
+                <p n="9">9. Hitherto faith has been considered chiefly as an evidence and conviction
+                    of such or such truths. And this is the sense wherein it is taken at this day in
+                    every part of the Christian world. But in the meantime let it be carefully
+                    observed (for eternity depends upon it) that neither the faith of a Roman
+                    Catholic nor that of a Protestant, if it contains no more than this, no more
+                    than the embracing such and such truths, will avail any more before God than the
+                    faith of a Mahometan or a heathen, yea of a deist or <pb n="03:497"
+                    />materialist. For ‘can’ this ‘faith save him?’<note place="foot" xml:id="ftn30"
+                        n="30"><p rend="footnote text">Jas. 2:14.</p></note> Can it save any man
+                    either from sin or from hell? No more than it could save Judas Iscariot; no more
+                    than it could save the devil and his angels—all of whom are convinced that every
+                    title of Holy Scripture is true.</p>
+                <p n="10">10. But what is the faith which is properly saving? Which brings eternal
+                    salvation to all those that keep it to the end? It is such a divine conviction
+                    of God and of the things of God as even in its infant state enables everyone
+                    that possesses it to ‘fear God and work righteousness’.<note place="foot"
+                        xml:id="ftn31" n="31"><p rend="footnote text">Cf. Acts 10:35.</p></note> And
+                    whosoever in every nation believes thus far the Apostle declares is ‘accepted of
+                        him’.<note place="foot" xml:id="ftn32" n="32"><p rend="footnote text"><hi
+                                rend="italic">Ibid.</hi></p></note> He actually is at that very
+                    moment in a state of acceptance. But he is at present only a <hi rend="italic"
+                        >servant</hi> of God, not properly a <hi rend="italic">son</hi>.<note
+                        place="foot" xml:id="ftn33" n="33"><p rend="footnote text">See No. 117, ‘On
+                            the Discoveries of Faith’, §§13-14; No. 119,‘Walking by Sight and
+                            Walking by Faith’, §1; and Wesley’s letters to Ann Bolton, Apr. 7, 1768,
+                            and Nov. 16, 1770; and to Alexander Knox, Aug. 29, 1777. Cf. also No. 9,
+                            ‘The Spirit of Bondage and of Adoption’, §2 and n.</p></note> Meantime
+                    let it be well observed that ‘the wrath of God’ no longer ‘abideth on him’.<note
+                        place="foot" xml:id="ftn34" n="34"><p rend="footnote text">John
+                        3:36.</p></note></p>
+                <p n="11">11. Indeed nearly fifty years ago, when the preachers commonly called
+                    Methodists began to preach that grand scriptural doctrine, salvation by faith,
+                    they were not sufficiently apprised of the difference between a servant and a
+                    child of God. They did not clearly understand that even one ‘who feared God, and
+                    worketh righteousness, is accepted of him’. In consequence of this they were apt
+                    to make sad the hearts of those whom God had not made sad. For they frequently
+                    asked those who feared God, ‘Do you know that your sins are forgiven?’ And upon
+                    their answering, ‘No’, immediately replied, ‘Then you are a child of the devil.’
+                    No; that does not follow. It might have been said (and it is all that can be
+                    said with propriety) ‘Hitherto you are only a <hi rend="italic">servant</hi>;
+                    you are not a <hi rend="italic">child</hi> of God.<note place="foot"
+                        xml:id="ftn35" n="35"><p rend="footnote text">Cf. No. 3, <hi rend="italic"
+                                >‘Awake, Thou That Sleepest’</hi>, III.6 and n.</p></note> You have
+                    already great reason to praise God that he has called you to his honourable
+                    service. Fear not. Continue crying unto him: “and you shall see greater things
+                    than these”.’<note place="foot" xml:id="ftn36" n="36"><p rend="footnote text"
+                            >Cf. John 1:50.</p></note></p>
+                <p n="12">12. And, indeed, unless the servants of God halt by the way, they will
+                    receive the adoption of sons.<note place="foot" xml:id="ftn37" n="37"><p
+                            rend="footnote text">Gal. 4:5.</p></note> They will receive the <hi
+                        rend="italic">faith </hi>of the children of God by his <hi rend="italic"
+                        >revealing</hi> his only-begotten Son in their hearts.<note place="foot"
+                        xml:id="ftn38" n="38"><p rend="footnote text">See Gal. 1:16.</p></note> Thus
+                    the faith of a child is properly and directly a <pb n="03:498"/>divine
+                    conviction whereby every child of God is enabled to testify, ‘The life that I
+                    now live, I live by faith in the Son of God, who loved me, and gave himself for
+                        me.’<note place="foot" xml:id="ftn39" n="39"><p rend="footnote text">Cf.
+                            Gal. 2:20.</p></note> And whosoever hath this, ‘the Spirit of God
+                    witnesseth with his spirit that he is a child of God.’<note place="foot"
+                        xml:id="ftn40" n="40"><p rend="footnote text">Cf. Rom. 8:16; see No. 5,
+                            ‘Justification by Faith’, IV.2 and n.</p></note> So the Apostle writes
+                    to the Galatians, ‘Ye are the sons of God by faith.’<note place="foot"
+                        xml:id="ftn41" n="41"><p rend="footnote text">Cf. Gal. 3:26 (<hi
+                                rend="italic">Notes</hi>).</p></note> ‘And because ye are sons, God
+                    hath sent forth the Spirit of his Son into your hearts, crying, Abba,
+                        Father;’<note place="foot" xml:id="ftn42" n="42"><p rend="footnote text"
+                            >Gal. 4:6.</p></note> that is, giving you a childlike confidence in him,
+                    together with a kind affection toward him. This then it is that (if St. Paul was
+                    taught of God, and wrote as he was moved by the Holy Ghost) properly constitutes
+                    the difference between a servant of God and a child of God. ‘He that believeth’,
+                    as a child of God, ‘hath the witness in himself.’<note place="foot"
+                        xml:id="ftn43" n="43"><p rend="footnote text">Cf. 1 John 5:10.</p></note>
+                    This the servant hath not. Yet let no man discourage him; rather, lovingly
+                    exhort him to expect it every moment!</p>
+                <p n="13">13. It is easy to observe that all the sorts of faith which we can
+                    conceive are reducible to one or other of the preceding. But let us covet the
+                    best gifts, and follow the most excellent way.<note place="foot" xml:id="ftn44"
+                        n="44"><p rend="footnote text">See 1 Cor. 12:31.</p></note> There is no
+                    reason why you should be satisfied with the faith of a materialist, a heathen,
+                    or a deist; nor indeed with that of a servant: I do not know that God requires
+                    it at your hands. Indeed if you have received this you ought not to cast it
+                    away; you ought not in any wise to undervalue it, but to be truly thankful for
+                    it. Yet, in the meantime, beware how you rest here: press on till you receive
+                    the Spirit of adoption. Rest not till that Spirit clearly witnesses with your
+                    spirit that you are a child of God.<note place="foot" xml:id="ftn45" n="45"><p
+                            rend="footnote text">Rom. 8:15-16; the Pauline version of the doctrine
+                            of assurance.</p></note></p>
+            </div>
+            <div type="section" n="2">
+                <p>II. I proceed, in the second place, to draw a few inferences from the preceding
+                    observations.</p>
+                <p n="1">1. And I would, first, infer in how dreadful a state, if there be a God, is
+                    a materialist—one who denies not only ‘the Lord that bought him’,<note
+                        place="foot" xml:id="ftn46" n="46"><p rend="footnote text">Cf. 2 Pet.
+                            2:1.</p></note> but also the Lord that made him! ‘Without faith it is
+                    impossible to please God.’<note place="foot" xml:id="ftn47" n="47"><p
+                            rend="footnote text">Cf. Heb. 11:6.</p></note> But it is impossible he
+                    should have any faith at all, any conviction of any invisible world—for he <pb
+                        n="03:499"/>believes there is no such thing; any conviction of the being of
+                    a God—for a <hi rend="italic">material</hi> God is no god at all. For you cannot
+                    possibly suppose the sun or skies to be God, any more than you can suppose a god
+                    of wood or stone. And farther, whosoever believes all things to be mere matter
+                    must of course believe that all things are governed by dire necessity!
+                    Necessity, that is as inexorable as the winds, as ruthless as the rocks, as
+                    merciless as the waves that dash upon them, or the poor shipwrecked mariners!
+                    Who then shall help thee, thou poor desolate wretch, when thou art most in need
+                    of help? Winds, and seas, and rocks, and storms! Such are the best helpers which
+                    the materialists can hope for!</p>
+                <p n="2">2. Almost equally desperate is the case of the poor <hi rend="italic"
+                        >deist</hi>, how learned, yea, how moral soever he be. For you likewise,
+                    though you may not advert to it, are really ‘without God in the world’.<note
+                        place="foot" xml:id="ftn48" n="48"><p rend="footnote text">Eph.
+                        2:12.</p></note> See your religion, ‘the religion of nature delineated’ by
+                    the ingenious Mr. Wollaston<note place="foot" xml:id="ftn49" n="49"><p
+                            rend="footnote text">William Wollaston; cf. No. 90, ‘An Israelite
+                            Indeed’, §4 and n.</p></note> (whom I remember to have seen when I was
+                    at school, attending the public service at the Charterhouse chapel). Does he
+                    found his religion upon God? Nothing less. He founds it on truth—abstract truth.
+                    But does he not by that expression mean God? No; he sets him out of the
+                    question, and builds a beautiful castle in the air, without being beholden
+                    either to him or his word. See your smooth-tongued orator of Glasgow,<note
+                        place="foot" xml:id="ftn50" n="50"><p rend="footnote text">Francis
+                            Hutcheson; cf. No. 12, ‘The Witness of Our Own Spirit’, §5 and n. Samuel
+                            Wesley, Jun., <hi rend="italic">Poems</hi>, p. 104, had referred to
+                            Thomas Hobbes as ‘a sweet-tongued orator’.</p></note> one of the most
+                    pleasing writers of the age. Has he any more to do with God on his system than
+                    Mr. Wollaston? Does he deduce his ‘Idea of Virtue’<note place="foot"
+                        xml:id="ftn51" n="51"><p rend="footnote text">Wesley’s own inscribed copy of
+                            the third edn. of Hutcheson’s <hi rend="italic">Inquiry into the
+                                Original of Our Ideas of Beauty and Virtue</hi> (1729) is still in
+                            the library of the Kingswood School.</p></note> from him? As the Father
+                    of lights, the Source of all good? Just the contrary. He not only plans his
+                    whole theory without taking the least notice of God, but toward the close of it
+                    proposes that question, ‘Does the having an eye to God in an action enhance the
+                    virtue of it?’ He answers, ‘No! it is so far from this that if, in doing a
+                    virtuous, that is, a benevolent action, a man mingles a desire to please God,
+                    the more there is of this desire, the less virtue there is in that action.’<note
+                        place="foot" xml:id="ftn52" n="52"><p rend="footnote text">Cf. No. 105, ‘On
+                            Conscience’, I.8-10 and n.; it is interesting to note Wesley’s return to
+                            this emphatic misrepresentation of Hutcheson’s text and
+                        intention.</p></note> Never before did I meet with either Jew, Turk, or
+                    heathen, who so flatly renounced God as this Christian professor!</p>
+                <pb n="03:500"/>
+                <p n="3">3. But with heathens, Mahometans, and Jews, we have at present nothing to
+                    do; only we may wish that their lives did not shame many of us that are called
+                    Christians. We have not much more to do with the members of the Church of Rome.
+                    But we cannot doubt that many of them, like the excellent Archbishop of
+                        Cambrai,<note place="foot" xml:id="ftn53" n="53"><p rend="footnote text"
+                            >François de Salignac de la Mothe-Fénelon; cf. No. 102, ‘Of Former
+                            Times’, §11 and n.</p></note> still retain (notwithstanding many
+                    mistakes) that faith that worketh by love.<note place="foot" xml:id="ftn54"
+                        n="54"><p rend="footnote text">Gal. 5:6; cf. No. 2, <hi rend="italic">The
+                                Almost Christian</hi>, II.6 and n.</p></note> And how many of the
+                    Protestants enjoy this, whether members of the Church of England,<note
+                        place="foot" xml:id="ftn55" n="55"><p rend="footnote text">The early texts
+                            read ‘of the church’. A marginal annotation in Wesley’s copy of <hi
+                                rend="italic">AM </hi>(not in Wesley’s hand) adds ‘of
+                        England’.</p></note> or of other congregations? We have reason to believe a
+                    considerable number, both of one and the other (and, blessed be God! an
+                    increasing number) in every part of the land.</p>
+                <p n="4">4. Once more. I exhort you that fear God and work righteousness, you that
+                    are servants of God, first, flee from all sin as from the face of a
+                        serpent,<note place="foot" xml:id="ftn56" n="56"><p rend="footnote text">See
+                            Rev. 12:14.</p></note> being</p>
+                <lg>
+                    <l>Quick as the apple of an eye,</l>
+                    <l>The slightest touch of sin to feel;</l>
+                    <note place="foot" xml:id="ftn57" n="57">
+                        <p rend="footnote text">John and Charles Wesley, ‘Watch in All Things’, <hi
+                                rend="italic">Hymns and Sacred Poems</hi> (1742), p. 218 (<hi
+                                rend="italic">Poet. Wks.</hi>, II.273). For other quotations from
+                            this hymn, see No. 12, ‘The Witness of Our Own Spirit’, §19 and n.</p>
+                    </note>
+                </lg>
+                <p>and to work righteousness, to the utmost of the power you now have; to abound in
+                    works both of piety and mercy.<note place="foot" xml:id="ftn58" n="58"><p
+                            rend="footnote text">Cf. No. 14, <hi rend="italic">The Repentance of
+                                Believers</hi>, I.13 and n.</p></note> And, secondly, continually to
+                    cry to God that he would reveal his Son in your hearts, to the intent you maybe
+                    no more servants, but sons;<note place="foot" xml:id="ftn59" n="59"><p
+                            rend="footnote text">See Gal. 4:7.</p></note> having his love shed
+                    abroad in your hearts,<note place="foot" xml:id="ftn60" n="60"><p
+                            rend="footnote text">See Rom. 5:5.</p></note> and walking in ‘the
+                    glorious liberty of the children of God’.<note place="foot" xml:id="ftn61"
+                        n="61"><p rend="footnote text">Rom. 8:21.</p></note></p>
+                <p n="5">5. I exhort you, lastly, who already feel the Spirit of God witnessing with
+                    your spirit that you are the children of God,<note place="foot" xml:id="ftn62"
+                        n="62"><p rend="footnote text">See Rom. 8:16.</p></note> follow the advice
+                    of the Apostle, ‘Walk in all the <hi rend="italic">good works </hi>whereunto ye
+                    are created in Christ Jesus.’<note place="foot" xml:id="ftn63" n="63"><p
+                            rend="footnote text">Cf. Eph. 2:10.</p></note> And then, ‘leaving the
+                    principles of the doctrine of Christ, and not laying again the <pb n="03:501"
+                    />foundation of repentance from dead works, and of faith toward God’, go on to
+                        perfection.<note place="foot" xml:id="ftn64" n="64"><p rend="footnote text"
+                            >Cf. Heb. 6:1.</p></note> Yea, and when ye have attained a measure of
+                    perfect love, when God has ‘circumcised your hearts’,<note place="foot"
+                        xml:id="ftn65" n="65"><p rend="footnote text">Cf. Deut. 30:6.</p></note> and
+                    enabled you to love him with all your heart and with all your soul, think not of
+                    resting there. That is impossible. You cannot stand still; you must either rise
+                    or fall—rise higher or fall lower. Therefore the voice of God to the children of
+                    Israel, to the children of God is, ‘Go forward.’<note place="foot"
+                        xml:id="ftn66" n="66"><p rend="footnote text">Exod. 14:15.</p></note>
+                    ‘Forgetting the things that are behind, and reaching forward unto those that are
+                    before, press on to the mark, for the prize of your high calling of God in
+                    Christ Jesus!’<note place="foot" xml:id="ftn67" n="67"><p rend="footnote text"
+                            >Cf. Phil. 3:13-14.</p></note></p>
+            </div>
+            <p><placeName>Stockport</placeName>, <date when="04-09-1788"/>April 9, 1788<note
+                    place="foot" xml:id="ftn68" n="68"><p rend="footnote text">Place and date as in
+                            <hi rend="italic">AM</hi>; but see above, p. 491, and cf. p.
+                    479.</p></note></p>
+        </body>
+    </text>
+</TEI>
