@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>To Dorothy Furly (October 21, 1757)</title>
+            <author>Wesley, John</author>
+            <editor>Van Buskirk, Gregory P.</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>The Wesley Works</publisher>
+            <pubPlace>Tampa, FL</pubPlace>
+            <date>2021-04-07</date>
+            <idno type="URI">http://wesleyworks.smu.edu/reviewer4/1757-10-21-ToDorothyFurly</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <listBibl>
+               <biblStruct>
+                  <analytic>
+                     <title level="a">To Dorothy Furly (October 21, 1757)</title>
+                     <date when="1757-10-21"/>
+                  </analytic>
+                  <monogr>
+                     <title level="j">The Works of John Wesley, Volume 27: Letters III,
+                        1756-1765</title>
+                     <editor role="volume">Campbell, Ted A.</editor>
+                     <imprint>
+                        <publisher>Abingdon Press</publisher>
+                        <pubPlace>Nashville, TN</pubPlace>
+                        <date when="2015-11-03">2015-11-03</date>
+                        <biblScope unit="volume" n="27"/>
+                        <biblScope unit="page" from="102" to="103"/>
+                     </imprint>
+                  </monogr>
+                  <series>
+                     <title level="s">The Works of John Wesley</title>
+                     <editor role="general">Maddox, Randy L.</editor>
+                  </series>
+               </biblStruct>
+               <bibl n="2">Source: published transcription; Benson, <hi rend="italic">Works</hi>,
+                  16:320–21.</bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <particDesc>
+            <listPerson type="correspondents">
+               <person xml:id="pers2180">
+                  <persName>John Wesley</persName>
+               </person>
+               <person xml:id="pers0762">
+                  <persName>Dorothy Furly</persName>
+               </person>
+            </listPerson>
+            <listPerson type="mentions">
+               <person xml:id="pers1897">
+                  <persName>Lucretia Smith</persName>
+               </person>
+            </listPerson>
+         </particDesc>
+      </profileDesc>
+      <revisionDesc>
+         <listChange>
+            <change when="2023-04-06"> Jenna Gatley revised file to updated format/schema</change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <head>To <persName>Dorothy Furly</persName>
+            </head>
+         <opener>
+            <placeName>
+                    <settlement>Bristol</settlement>
+                </placeName>
+            <lb/>
+            <date when="1757-10-21">October 21, 1757</date>
+            <lb/>
+            <lb/>
+            <salute>My Dear Sister,</salute>
+         </opener>
+         <p>
+                <seg ana="workOfGod soteriologicalVariety">God will do his own work in his own manner,
+               and exceeding variously in different persons. It matters not whether it be wrought in
+               a more pleasing or painful manner, so it is wrought; <seg ana="humanNature pride self-will">so nature is subdued, pride and self-will
+                  dethroned</seg>, and <seg ana="divineWill soteriologicalMonergism soteriologicalSynergism">the will of God
+                  done in us and by us</seg>. <seg ana="experience">Therefore trouble not yourself
+                  about the experience of others.</seg>
+               <seg ana="divineWisdom">God knows <hi rend="italic">you</hi>, and let him do with you
+                  as he sees best.</seg>
+                </seg>
+            </p>
+         <pb n="103"/>
+         <p>
+                <seg ana="hardship sickness">I judge your late distress to be partly the effect of
+               disease, but chiefly preternatural. In the third <hi rend="italic">Journal</hi> there
+               is a case nearly parallel, only the symptoms were more severe. <seg ana="atheism afterlife">For in a moment, <persName>
+                            <ref target="/persons/pers1897.xml"/>Lucretia Smith</persName> felt such a cloud
+                  spread over her that she could not believe there was a God or an
+                  after-state.</seg>
+                    <note place="foot" n="1">
+                        <index indexName="works">
+                     <term cRef="19:175">Cf. <persName>
+                                    <ref target="/persons/pers2180.xml"/>JW</persName>, <hi rend="italic">Journal</hi>, <date when="1740-12-24">Dec. 24, 1740</date>, 19:175 in this edn.</term>
+                  </index>
+                    </note>
+               <seg ana="prayer spiritualDarkness heavinessOfSpirit">You did right to pray, as you
+                  could pray, and this is the best method which can be taken in heaviness or
+                  darkness of any kind.</seg>
+               <seg ana="sin">Then, if sin be the cause, it will be discovered.</seg>
+                </seg> But take
+            care that you do not refuse any help. Even rough speakers may be of service. Only spread
+            what they say before the Lord, and he will turn it to good.</p>
+         <closer>I am,<lb/>
+            <signed>Your affectionate brother,<lb/>
+               <persName>J. Wesley</persName>
+            </signed>
+         </closer>
+      </body>
+   </text>
+</TEI>

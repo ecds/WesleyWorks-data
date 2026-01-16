@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>To Ebenezer Blackwell (May 28, 1757)</title>
+            <author>Wesley, John</author>
+            <editor>Van Buskirk, Gregory P.</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>The Wesley Works</publisher>
+            <pubPlace>Tampa, FL</pubPlace>
+            <date>2021-04-07</date>
+            <idno type="URI">http://wesleyworks.smu.edu/reviewer5/1757-05-28-ToEbenezerBlackwell</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <listBibl>
+               <biblStruct>
+                  <analytic>
+                     <title level="a">To Ebenezer Blackwell (May 28, 1757)</title>
+                     <date when="1757-05-28"/>
+                  </analytic>
+                  <monogr>
+                     <title level="j">The Works of John Wesley, Volume 27: Letters III,
+                        1756-1765</title>
+                     <editor role="volume">Campbell, Ted A.</editor>
+                     <imprint>
+                        <publisher>Abingdon Press</publisher>
+                        <pubPlace>Nashville, TN</pubPlace>
+                        <date when="2015-11-03">2015-11-03</date>
+                        <biblScope unit="volume" n="27"/>
+                        <biblScope unit="page" from="84" to="86"/>
+                     </imprint>
+                  </monogr>
+                  <series>
+                     <title level="s">The Works of John Wesley</title>
+                     <editor role="general">Maddox, Randy L.</editor>
+                  </series>
+               </biblStruct>
+               <bibl n="2">Address: 'To / Mr <persName>
+                            <ref target="/persons/pers0179.xml"/>Blackwell</persName> / In <placeName>Exchange Alley</placeName> /
+                        <placeName>
+                            <region>London</region>
+                        </placeName>'. Postmarks: '3 /
+                  IV' (<date when="1757-06-03">June 3</date>)
+                        '<placeName>
+                            <settlement>COCKER / MOUTH</settlement>
+                        </placeName>'.
+                  Charge: '4'. Endorsement: 'Rev'd Mr <persName>
+                            <ref target="/persons/pers2180.xml"/>John Wesley</persName> /
+                        <placeName>
+                            <settlement>Whitehaven</settlement>
+                        </placeName>
+                  <date when="1757-05-28">28. May 1757</date>'. Source: holograph;
+                     <placeName>Bridwell Library</placeName> (SMU).</bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <particDesc>
+            <listPerson type="correspondents">
+               <person xml:id="pers2180">
+                  <persName>John Wesley</persName>
+               </person>
+               <person xml:id="pers0179">
+                  <persName>Ebenezer Blackwell</persName>
+               </person>
+            </listPerson>
+            <listPerson type="mentions">
+               <person xml:id="pers0749">
+                  <persName>Mary Freeman</persName>
+               </person>
+               <person xml:id="pers2091">
+                  <persName>Mary Wesley</persName>
+               </person>
+               <person xml:id="pers2176">
+                  <persName>Charles Wesley</persName>
+               </person>
+               <person xml:id="pers0133">
+                  <persName>William Belchier</persName>
+               </person>
+            </listPerson>
+            <listPerson type="notes">
+               <person xml:id="pers2191">
+                  <persName>Sarah Wesley</persName>
+               </person>
+               <person xml:id="pers2190">
+                  <persName>Samuel Wesley</persName>
+               </person>
+            </listPerson>
+         </particDesc>
+      </profileDesc>
+      <revisionDesc>
+         <listChange>
+            <change when="2023-04-09"> Jenna Gatley revised file to updated format/schema</change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <head>To <persName>Ebenezer Blackwell</persName>
+            </head>
+         <opener>
+            <placeName>
+               <settlement>Whitehaven</settlement>
+            </placeName>
+            <lb/>
+            <date when="1757-05-28">May 28, 1757</date>
+            <lb/>
+            <lb/>
+            <salute>Dear Sir,</salute>
+         </opener>
+         <p>Does the rule still hold, 'Out of sight out of mind'? I am afraid it does with
+            poor <persName>
+                    <ref target="/persons/pers0749.xml"/>Miss Freeman</persName>,<note place="foot" n="1">
+                    <persName>
+                        <ref target="/persons/pers0749.xml"/>Mary
+                  Freeman</persName> (<date from="1731" to="1815">1731–1815</date>), was a cousin of
+                     <persName>
+                        <ref target="/persons/pers0179.xml"/>Ebenezer Blackwell</persName>,
+               born in <placeName>
+                        <country>England</country>
+                    </placeName> but descended on her
+               maternal side from Italian <seg ana="theRich">aristocratic roots</seg>. <seg ana="RomanCatholicism">She was educated at a convent in
+                        <placeName>
+                            <region>Rome</region>
+                        </placeName>
+                    </seg>, and a devoted Roman
+               Catholic her whole life. But she also became close friends with <seg ana="Wesley'sFamily">
+                        <persName>
+                            <ref target="/persons/pers2176.xml"/>Charles</persName> and <persName>Sarah Wesley</persName> and their
+                  children</seg> (perhaps influencing their son <persName>
+                        <ref target="/persons/pers2190.xml"/>Samuel</persName> in his decision to convert to
+               the Church of Rome). <persName>
+                        <ref target="/persons/pers0749.xml"/>Freeman</persName> never married, but <date when="1784">about 1784</date> she
+               formally changed her name to <persName>
+                        <ref target="/persons/pers0749.xml"/>Mary
+                  Freeman <addName>Shepherd</addName>
+                    </persName>, in honor of her uncle
+                  <persName>Nathaniel Shepherd</persName>, who was her godfather and
+               benefactor.</note> as <seg ana="correspondenceFrequency">she does not give me one
+               line in <pb n="85"/>answer to the long letter I wrote from
+                     <placeName>
+                        <settlement>Liverpool</settlement>
+                    </placeName>.<note place="foot" n="2">
+                        <persName>
+                            <ref target="/persons/pers2180.xml"/>JW</persName> had been in
+                        <placeName>
+                            <settlement>Liverpool</settlement>
+                        </placeName>
+                  <date from="1757-04-21" to="1757-04-30">Apr. 21–30</date>.</note> I was in hopes
+               we might have interchanged several letters in less than six weeks' time</seg>.
+               <seg ana="temporalAffairs eternalAffairs">As for you, I presume you are full of
+               business, and yet not so full of temporal business as to exclude the thoughts of
+               higher concerns, <seg ana="eschatology">business that will endure when earth and the
+                  works of it are burned up</seg>. Were anything temporal even to damp or lessen
+               (though not destroy) our care and zeal for things eternal, what could countervail the
+               loss? What could make us amends for the damage thereby sustained? <seg ana="thoughts">Sometimes, indeed, we may go through abundance of business, and yet have God in
+                  all our thought.</seg> But is this the case always? <seg ana="spiritualHindrances">Are not even lawful, nay necessary, things at other times a grievous hindrance,
+                  especially when we undertake them without any suspicion of danger, and
+                  consequently without any <seg ana="prayer">prayer</seg> against that
+               danger?</seg>
+                </seg>
+            </p>
+         <p>
+            <seg ana="gratitude">In this respect, as in many others, I have lately had peculiar
+               reason to be thankful.</seg>
+            <seg ana="counsel guidance temporalAffairs spiritualAffairs">In every place people flock
+               about me for direction in secular as well as spiritual affairs; and <seg ana="biblicalAllusion">
+                        <index indexName="biblical">
+                     <term cRef="Matt11:30">I dare not throw even this burden off my shoulders,
+                        though I have employment enough without it. But it is a burden, and no
+                        burden. It is no encumbrance, no weight upon my mind. <seg ana="immanence">If we see God in all things and do all for him</seg>, then all things
+                        are easy.</term>
+                  </index>
+                    </seg>
+                </seg>
+         </p>
+         <p>
+                <seg ana="Wesley'sMarriage">I think it is <date notBefore="1757-05-13" notAfter="1757-05-14">fourteen or fifteen days since</date>
+               <persName>
+                        <ref target="/persons/pers2091.xml"/>my wife</persName> wrote to me. I am
+               afraid she is not well, or is angry at <persName>
+                        <ref target="/persons/pers2176.xml"/>my brother</persName>, and consequently, with me.</seg> If any letters for me
+            come enclosed to <persName>
+                    <ref target="/persons/pers0133.xml"/>Mr.
+               Belchier</persName>,<note place="foot" n="3">
+                    <persName>
+                        <ref target="/persons/pers0133.xml"/>William Belchier</persName>, of
+                     <placeName>
+                        <settlement>Epsom</settlement>
+                    </placeName>, <seg ana="Parliament">a
+                  Member of Parliament</seg>; <index indexName="works">
+                  <term cRef="26:283">see <persName>
+                                <ref target="/persons/pers2180.xml"/>JW</persName>'s letter to <persName>
+                                <ref target="/persons/pers0179.xml"/>Blackwell</persName> dated <date when="1755-03-15">Mar. 15, 1755</date> (26:283 and fn. 14 in this
+                     edn.)</term>
+               </index>.</note> I will be obliged to you if you will (not send them to
+                  <persName>
+                    <ref target="/persons/pers2091.xml"/>her</persName>, but) direct them to
+            me at <placeName>
+                    <region>Newcastle</region>
+                </placeName>, where I hope to be in a few
+               days.<note place="foot" n="4">He arrived in
+                  <placeName>
+                        <region>Newcastle</region>
+                    </placeName> on <date when="1757-06-19">June
+                  19</date>.</note> Wishing all grace and peace to you and yours, I am, dear
+            sir,</p>
+         <closer>
+            <signed>Your most affectionate servant,<lb/>
+               <persName>John Wesley</persName>
+            </signed>
+         </closer>
+         <postscript>
+            <p>I breakfasted at <placeName>
+                        <settlement>Keswick</settlement>
+                    </placeName>
+               <date when="1757-05-24">last Tuesday</date>.</p>
+         </postscript>
+      </body>
+   </text>
+</TEI>

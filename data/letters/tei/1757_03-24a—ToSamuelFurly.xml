@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>To Samuel Furly</title>
+            <author>Wesley, John</author>
+            <editor>Van Buskirk, Gregory P.</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>The Wesley Works</publisher>
+            <pubPlace>Tampa, FL</pubPlace>
+            <date>2021-04-07</date>
+         </publicationStmt>
+         <sourceDesc>
+            <listBibl>
+               <bibl n="1">
+                  <title>The Works of John Wesley, Volume 27: Letters III, 1756-1765</title>
+                  <editor role="volume">Campbell, Ted A.</editor>
+                  <editor role="general">Maddox, Randy L.</editor>
+                  <publisher>Abingdon Press</publisher>
+                  <pubPlace>Nashville, TN</pubPlace>
+                  <date>2015-11-03</date>
+               </bibl>
+               <bibl n="2"><hi rend="italic">Address</hi>: ‘To / <persName MrFurly="SamuelFurly">Mr Furly</persName> / At <placeName>Queen’s College / Cambridge</placeName>’.</bibl>
+               <bibl n="3"><hi rend="italic">Postmark</hi>: ‘25/MR’. <hi rend="italic">Charge</hi>: ‘3’.</bibl>
+               <bibl n="4"><hi rend="italic">Source</hi>: holograph; <institution>MARC</institution>, MAM JW 3/16.</bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <head>To <persName>Samuel Furly</persName></head>
+         <opener>
+            <placeName><district>Lewisham</district></placeName>
+            <lb/>
+            <date when="1757-03-24">March 24, 1757</date>
+            <lb/>
+            <lb/>
+            <salute>Dear <persName Sammy="SamuelFurly">Sammy</persName>,</salute>
+         </opener>
+         <p>I am glad you are so fully employed. <seg ana="useOfTime women">I think you need not speak to each of the women every day; at least, not for an hour altogether. You may say all you have to say in less time.</seg> <seg ana="health exercise">But whatever you do, or leave undone, you must, absolutely must, find time for exercise. Otherwise, you are penny wise and pound foolish, for one fit of sickness will cost you more time than you have saved in several years. <seg ana="sleep">Nay, you already lose much time by your past want of exercise, <pb n="76"/>namely in sleep. Why do I need less sleep than you? Because I constantly use more exercise.</seg></seg></p>
+         <p><date from="1757-04-03" to="1757-04-09">All Passion Week</date> I purpose spending in <placeName><region>London</region></placeName>. On <date when="1757-04-10">Easter Sunday</date> I hope to be at <placeName><settlement>Bedford</settlement></placeName>, in my way to the north. I thank <persName Mr.Drake="SamuelDrake">Mr. Drake</persName> and you for the trouble you have taken.<note place="foot" n="1">The reference is apparently to <persName>Samuel Drake</persName>; <index indexName="works"><term cRef="26:596">see 26:596, n. 9 in this edn</term></index>.</note> <seg ana="GreekNewTestament endurance"><foreign lang="Greek">κακοπάθητε ὡς καλοὶ στρατιῶται</foreign>.<note place="foot" n="2"><index indexName="biblical"><term cRef="2Tim2:3">Cf. 2 Tim. 2:3 (Greek), <gloss>‘Endure as good soldiers’</gloss></term></index>; <persName Wesley="JohnWesley">Wesley</persName> has altered the expression by making it plural and using a simpler form of the verb.</note></seg> I am,</p>
+         <closer>
+            <signed>Your affectionate brother,<lb/>
+               <persName J.Wesley="JohnWesley">J. Wesley</persName>
+            </signed>
+         </closer>
+      </body>
+      <p><hi rend="italic">Address</hi>: ‘To / <persName MrFurly="SamuelFurly">Mr Furly</persName> / At <placeName>Queen’s College / Cambridge</placeName>’.</p>
+      <p><hi rend="italic">Postmark</hi>: ‘25/MR’. <hi rend="italic">Charge</hi>: ‘3’.</p>
+      <p><hi rend="italic">Source</hi>: holograph; <institution>MARC</institution>, MAM JW 3/16.</p>
+   </text>
+</TEI>

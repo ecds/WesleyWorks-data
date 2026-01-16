@@ -1,0 +1,416 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>To Samuel Walker (September 19, 1757)</title>
+            <author>Wesley, John</author>
+            <editor>Van Buskirk, Gregory P.</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>The Wesley Works</publisher>
+            <pubPlace>Tampa, FL</pubPlace>
+            <date>2021-04-07</date>
+            <idno type="URI">http://wesleyworks.smu.edu/reviewer2/1757-09-19-ToSamuelWalker</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <listBibl>
+               <biblStruct>
+                  <analytic>
+                     <title level="a">To Samuel Walker (September 19, 1757)</title>
+                     <date when="1757-09-19"/>
+                  </analytic>
+                  <monogr>
+                     <title level="j">The Works of John Wesley, Volume 27: Letters III,
+                        1756-1765</title>
+                     <editor role="volume">Campbell, Ted A.</editor>
+                     <imprint>
+                        <publisher>Abingdon Press</publisher>
+                        <pubPlace>Nashville, TN</pubPlace>
+                        <date when="2015-11-03">2015-11-03</date>
+                        <biblScope unit="volume" n="27"/>
+                        <biblScope unit="page" from="93" to="97"/>
+                     </imprint>
+                  </monogr>
+                  <series>
+                     <title level="s">The Works of John Wesley</title>
+                     <editor role="general">Maddox, Randy L.</editor>
+                  </series>
+               </biblStruct>
+               <bibl n="2">Address: 'To/ the <persName>
+                            <ref target="/persons/pers2119.xml"/>Revd Mr Walker</persName> / In
+                     <placeName>
+                            <settlement>Truro</settlement>
+                        </placeName>'. No postmark or
+                  indications of postal <hi rend="italic">charge</hi>; apparently delivered by hand.
+                  Endorsement: '<persName>
+                            <ref target="/persons/pers2180.xml"/>JW</persName> to
+                        <persName>
+                            <ref target="/persons/pers2119.xml"/>SW</persName>
+                  <date when="1757-09-19">Sep. 19th 1757</date>'. Source: holograph; MARC, MAM
+                  JW 5/38. <persName>
+                            <ref target="/persons/pers2180.xml"/>Wesley</persName>
+                  published a transcription with only minor variants in <hi rend="italic">Arminian
+                     Magazine</hi> 3 (<date when="1780">1780</date>): 48–54.</bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <particDesc>
+            <listPerson type="correspondents">
+               <person xml:id="pers2180">
+                  <persName>John Wesley</persName>
+               </person>
+               <person xml:id="pers2119">
+                  <persName>Samuel Walker</persName>
+               </person>
+            </listPerson>
+            <listPerson type="mentions">
+               <person xml:id="pers1016">
+                  <persName>John Hingeston</persName>
+               </person>
+               <person xml:id="pers2106">
+                  <persName>James Vowler</persName>
+               </person>
+               <person xml:id="pers0456">
+                  <persName>George Conon</persName>
+               </person>
+            </listPerson>
+            <listPerson type="notes">
+               <person xml:id="pers2176">
+                  <persName>Charles Wesley</persName>
+               </person>
+               <person xml:id="pers2093">
+                  <persName>Henry Venn</persName>
+               </person>
+            </listPerson>
+         </particDesc>
+      </profileDesc>
+      <revisionDesc>
+         <listChange>
+            <change when="2023-04-09"> Jenna Gatley revised file to updated format/schema1</change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <head>To <persName>
+                    <ref target="/persons/pers2119.xml"/>Samuel Walker</persName>
+                <note place="foot" n="1">Replying to a letter of <persName>
+                        <ref target="/persons/pers2119.xml"/>Walker</persName> that it quotes repeatedly.
+                     <persName>
+                        <ref target="/persons/pers2180.xml"/>JW</persName> would be in
+                     <placeName>
+                        <settlement>Truro</settlement>
+                    </placeName>, where <persName>
+                        <ref target="/persons/pers2119.xml"/>Walker</persName> was vicar, <date when="1757-09-20">the next day</date>, and likely hand delivered this letter
+               dealing with issues between them. <seg ana="Evangelicalism clergy ChurchOfEngland">
+                        <persName>
+                            <ref target="/persons/pers2119.xml"/>Walker</persName> was one of
+                  a group of Evangelical clergy (that <date notBefore="1758-09">within a year or
+                     so</date> would include <persName>
+                            <ref target="/persons/pers2176.xml"/>CW</persName>) who insisted on <seg ana="ArticlesOfReligion churchLaw itinerancy EnglishLaws">canonical conformity
+                     to the Church of England and believed that itinerant preaching violated the
+                     canons of the Church and perhaps the laws of the realm, specifically the
+                     Toleration Act of <date when="1689">1689</date>
+                        </seg>.</seg> In addition to
+               addressing specific issues that <persName>
+                        <ref target="/persons/pers2119.xml"/>Walker</persName> raised, <seg ana="MethodistSocieties">
+                        <persName>
+                            <ref target="/persons/pers2180.xml"/>JW</persName> pleads for <persName>
+                            <ref target="/persons/pers2119.xml"/>Walker</persName> to allow people in his
+                  parish to identify themselves voluntarily with the Wesleyan societies and <seg ana="MethodistConference MethodistPreachers">to hear <persName>
+                                <ref target="/persons/pers2180.xml"/>Wesley</persName> and other preachers
+                     sent by the Wesleyan Conference</seg>.</seg>
+               <persName>
+                        <ref target="/persons/pers2180.xml"/>JW</persName> sent <index indexName="works">
+                  <term cRef="27:335-339">a similar appeal to <persName>
+                                <ref target="/persons/pers2093.xml"/>Henry Venn</persName> on <date when="1763-06-22">June 22, 1763</date>
+                        </term>
+               </index>.</note>
+            </head>
+         <opener>
+            <placeName>
+               <district>Penryn</district>
+            </placeName>
+            <date when="1757-09-19">September 19, 1757</date>
+            <lb/>
+            <lb/>
+            <salute>Reverend and Dear Sir,</salute>
+         </opener>
+         <p>Nothing can be more kind than the mentioning to me whatever you think is amiss in my
+            conduct. And the more freedom you use in doing this, the more I am indebted to you. I am
+            thoroughly convinced that you 'wish me well', and that it is this, together
+            with <seg ana="principlesOfReligion">a 'concern for the common interests of
+               religion'</seg>, which obliges you to speak with more plainness than otherwise
+            you would. The same motives induce me to lay aside all reserve and tell you the naked
+            sentiments of my heart.</p>
+         <p>
+                <date when="1755">Two years since</date>, <seg ana="MethodistSocieties">eleven or twelve
+               persons of <placeName>
+                        <district>Falmouth</district>
+                    </placeName> were members of our
+               society. <date when="1756">Last year</date> I was informed that <seg ana="ChristianOpinions heterodoxy prejudice schism">a young man there had begun to
+                  teach them new opinions, and that soon after offence and prejudice crept in and
+                  increased till they were all torn asunder</seg>.</seg>
+            <seg ana="connexion">What they have done since I know not, for they have no connection
+               with us. <seg ana="separationCoE societyMembership">I do 'exert myself' so
+                  far as to separate from us those that separate from the Church.</seg>
+                </seg>
+            <seg ana="strengthOfSpirit">But in a thousand other instances I feel the want of more
+               resolution and firmness of spirit.</seg>
+            <seg ana="authority MethodistLeaders">Yet sometimes that may appear irresolution which
+               is not so. I exercise as little authority as possible, because <seg ana="MethodistGovernance humility cultOfPersonality">I am afraid of people's
+                  depending upon me <hi rend="italic">too much</hi> and paying me more reverence
+                  than they ought</seg>.</seg>
+            </p>
+         <p>But I proceed to the substance of your letter. You say, 1. <seg ana="justifyingFaith assurance spiritualState">'If you still hold the essence of
+               justifying faith to be in assurance, why did you encourage <persName>
+                        <ref target="/persons/pers1016.xml"/>John Hingeston</persName> to believe his state
+               good?'</seg>
+            </p>
+         <p>
+            <seg ana="assurance">Assurance is a word I do not use because it is not scriptural. But
+                  <seg ana="conviction">
+                        <seg ana="divineEvidence justifyingFaith loveOfGod atonement doctrine">I hold a
+                     divine evidence or conviction that Christ loved <hi rend="italic">me</hi> and
+                     gave himself for <hi rend="italic">me</hi> is essential to, if not the very
+                     essence of, justifying faith.</seg>
+                  <persName>
+                            <ref target="/persons/pers1016.xml"/>John Hingeston</persName> told me
+                  he had more than this, even <seg ana="pardon sin">a clear conviction that his sins
+                     were forgiven</seg>, although he said that conviction was not so clear now as
+                  it had been in times past.</seg>
+                </seg>
+         </p>
+         <pb n="94"/>
+         <p>2. <seg ana="clergy">'If you believed <persName>
+                        <ref target="/persons/pers2106.xml"/>Mr. Vowler</persName>
+                    <note place="foot" n="2">
+                        <persName>
+                            <ref target="/persons/pers2106.xml"/>James Vowler</persName> (d. <date when="1758">1758</date>), whose 'thundering sermons' <persName>
+                            <ref target="/persons/pers2180.xml"/>Wesley</persName> had heard at
+                        <placeName>
+                            <settlement>St. Agnes</settlement>
+                        </placeName> a fortnight
+                  before, on <date when="1757-09-04">Sept. 4, 1757</date>; <index indexName="works">
+                     <term cRef="21:122">see <persName>
+                                    <ref target="/persons/pers2180.xml"/>JW</persName>, <hi rend="italic">Journal</hi> (21:122 in this
+                        edn.)</term>
+                  </index>. See also a biographical notice about <persName>
+                            <ref target="/persons/pers2106.xml"/>James Vowler</persName> in the <hi rend="italic">Christian Observer</hi> (<date when="1877">1877</date>):
+                  232–33.</note> to be a gracious person and a gospel minister, why did you not in
+               justice to your people leave them to him?'</seg>
+            </p>
+         <p>
+                <seg ana="divineEvidence conviction reconciliation pardon">
+                    <persName>
+                        <ref target="/persons/pers1016.xml"/>John Hingeston</persName> assured me that
+                     <persName>
+                        <ref target="/persons/pers2106.xml"/>Mr. Vowler</persName> also had a
+               clear conviction of his being reconciled to God.</seg> If so, I could not deny his
+            being a gracious person; and <seg ana="theGospel">I heard him preach the <hi rend="italic">true</hi> though not the <hi rend="italic">whole</hi> gospel</seg>.
+            But had it been the whole, there are several reasons still why I did not give up the
+            people to him. 1) No one mentioned or intimated any such thing, nor did it once enter
+            into my thought. But if it had, 2) <seg ana="preaching ministry ministerialQualifications wisdom">I do not know that everyone
+               who preaches the truth has wisdom and experience to guide and govern a flock.</seg> I
+            do not know that <persName>
+                    <ref target="/persons/pers2106.xml"/>Mr. Vowler</persName> in
+            particular has. He may or he may not. 3) <seg ana="holiness ministry">I do not know
+               whether he could or would give that flock all the advantages for holiness which they
+               now enjoy, and <seg ana="justice mercy">to leave them to him before I was assured of
+                  this would be neither justice nor mercy</seg>.</seg> 4) <seg ana="conscience libertyOfConscience">Unless they were also assured of this, they
+               could not in conscience give up themselves to him, and I have neither right nor power
+               to dispose of them contrary to their conscience.</seg>
+            </p>
+         <p>
+            <seg ana="churchLaw ChurchOfEngland">'But they are his already by legal
+               establishment.' <seg ana="Eucharist preaching">If they receive the sacrament
+                  from him thrice a year and attend his ministrations on the Lord's Day, I see
+                  no more which the law requires.</seg> But to go a little deeper into this matter
+               of 'legal establishment', does <persName>
+                        <ref target="/persons/pers0456.xml"/>Mr. Conon</persName>
+                    <note place="foot" n="3">
+                        <persName>
+                            <ref target="/persons/pers0456.xml"/>George Conon</persName> was
+                  the master of <orgName>
+                            <placeName>
+                                <settlement>Truro</settlement>
+                            </placeName>
+                     Grammar School</orgName> and had been influential in <persName>
+                            <ref target="/persons/pers2119.xml"/>Samuel Walker</persName>'s conversion;
+                  see <hi rend="ital">WHS</hi> 28 (<date when="1952">1952</date>): 106, n. 1; and
+                     <index indexName="works">
+                     <term cRef="21:25">21:25, n. 95 in this edn</term>
+                  </index>.</note> or you think that <seg ana="pastors churchGovernance">
+                        <seg ana="monarch Parliament">the King and Parliament</seg> have a right to
+                  prescribe to me what pastor I shall use? If they prescribe one which I know God
+                  never sent, am I obliged to receive him? <seg ana="conscience">If he be sent of
+                     God, can I receive him with a clear conscience till I <hi rend="italic">know</hi> he is?</seg> And even when I do, <seg ana="sin">if I believe my
+                     former pastor is more profitable to my soul, can I leave him without sin?</seg>
+                  Or has any man living a right to require this of me?</seg>
+                </seg>
+         </p>
+         <p>
+            <seg ana="clergy ChurchOfEngland">I 'extend this to every gospel minister in
+                     <placeName>
+                        <country>England</country>
+                    </placeName>'.</seg>
+            <seg ana="MethodistSocieties">Before I could with a clear conscience leave the Methodist
+               society even to such an one, all these considerations must come in.</seg>
+         </p>
+         <p>
+                <seg ana="MethodistPreachers separationCoE ChurchOfEngland">And with regard to the
+               people, far from thinking that 'the withdrawing our preachers' from such a
+               society without their consent would prevent a separation from the Church, I think it
+               would be the direct way to cause it.</seg>
+                <note place="foot" n="4">
+                    <seg ana="itinerancy MethodistPreachers travelingPreachers">
+                        <persName>
+                            <ref target="/persons/pers2180.xml"/>JW</persName> is pleading with
+                        <persName>
+                            <ref target="/persons/pers2119.xml"/>Walker</persName> not to
+                  reject Wesleyan itinerant preachers who visit his area.</seg>
+                </note>
+            <seg ana="remainingCoE">While we are with them, our advice has <pb n="95"/>weight and
+               keeps them to the Church.</seg> But were we totally to withdraw, it would be of
+            little or no weight. <seg ana="death">Nay, perhaps resentment of our unkindness (as it
+               would probably appear to them) would prompt them to act in flat opposition to it.
+               'And will it not be the same at your death?' I believe not. For there will
+               be no resentment in this case, and the last advice of a dying friend is not likely to
+               be so soon forgotten.</seg>
+            </p>
+         <p>3. But 'was there no inconsistency in your visiting <persName>
+                    <ref target="/persons/pers2106.xml"/>Mr. Vowler</persName> as a gospel minister when
+            you do not give up your people to him?' No. My receiving him as a gospel minister
+            did not imply any obligation so to do.</p>
+         <p>4. 'If that was not the design of your visit, you should not have visited him at
+            all.' Does that follow? I visited <persName>
+                    <ref target="/persons/pers2106.xml"/>him</persName> because he desired it, as a brother and <seg ana="clergy">fellow
+               labourer</seg>.</p>
+         <p>5. <seg ana="partisanship">'Does not this conduct on the whole savour of a party
+               spirit and show a desire to please the Methodists as Methodists?'</seg>
+            <seg ana="pleasingOthers">I am not conscious of any such spirit, or of any desire but
+               that of pleasing all men for their good to edification. I have as great a desire thus
+               to please you as any Methodist under heaven.</seg>
+            </p>
+         <p>You add one thing more, which is of deep importance and deserves a particular
+            consideration. 'You spoke to <persName>
+                    <ref target="/persons/pers2106.xml"/>Mr.
+               Vowler</persName> of your being as one man. Nothing is so desirable. But really
+            before it can be effected, something must be done on your part more than paying us
+            visits; which, as far as I can see, can serve no other purpose in the present
+            circumstances than to bring us under needless difficulties.'</p>
+         <p>I did indeed speak to <persName>
+                    <ref target="/persons/pers2106.xml"/>Mr.
+               Vowler</persName> of our being as one man. And not to him only, but to several
+            others, for it lay much upon my heart. <seg ana="MethodistConference MethodistUnity ChristianUnity clergy">Accordingly I proposed
+               that question to all who met at our late Conference, 'What can be done in order
+               to a close union with the clergy who preach the truth?'<note place="foot" n="5">The Conference had met in <placeName>
+                            <region>London</region>
+                        </placeName>
+                  beginning on <date when="1757-08-04">August 4</date>, but no detailed minutes have
+                  survived; <index indexName="works">
+                     <term cRef="10:279">cf. 10:279 in this edn.</term>
+                  </index>
+                    </note> We all agreed that nothing could be more desirable.</seg>
+            <seg ana="blessing workOfGod">I in particular have long desired it, not from any view to
+               my own ease or honour or temporal convenience in any kind, but because I was deeply
+               convinced it might be a blessing to my own soul and a means of increasing the general
+               work of God.</seg>
+            </p>
+         <p>But you say, 'Really, before it can be effected, something must be done on your
+            part.' Tell me what, and I will do it without delay, however contrary it may be to
+            my ease or natural inclination, <seg ana="conscience">provided only that it consists
+               with my keeping a conscience void of offence <pb n="96"/>toward God and toward
+               man</seg>. <seg ana="ministry pastors holiness">It would not consist with this to
+               give up the flock under my care to any other minister, till I and they were convinced
+               they would have the same advantages for holiness under him which they now
+               enjoy.</seg>
+            </p>
+         <p>But 'paying us visits can serve no other purpose than to bring us under needless
+            difficulties.' I will speak very freely on this head. <seg ana="ChristianConversation">Can our conversing together serve 'no other
+               purpose'? You seem then not to have the least conception of <hi rend="italic">your own</hi> wanting any such thing! But whether you do or not, I feel I do. I
+               am not in <foreign rend="italic">memet totus teres atque rotundus</foreign>.<note place="foot" n="6">Cf. <persName>Horace</persName>, <hi rend="italic">Satires</hi>
+                  II.vii.86; <gloss>'complete in himself, a smooth, rounded
+                     sphere'</gloss>.</note>
+               <seg ana="spiritualIllumination">
+                        <seg ana="walkingWithGod">I want more light, more
+                     strength, for my personal walking with God</seg>; and <seg ana="meansOfGrace">I
+                     know not but he may give it me through you</seg>. And (whether you do or no)
+                     <seg ana="ministry">I want more light and strength for guiding the flock
+                     committed to my charge</seg>.</seg>
+               <seg ana="meansOfGrace">May not the Lord send this also by whom he will send? And by
+                  you as probably as by any other? <seg ana="spiritualIllumination doctrine discipline">It is not improbable that he
+                     may by you give me clearer light, either as to doctrine or
+                  discipline.</seg>
+                    </seg>
+               <seg ana="comfort atonement">And even hereby how much comfort and profit might
+                  redound to thousands of those for whom Christ hath died?</seg> Which, I apprehend
+               would fully compensate any 'difficulties' that might arise from such
+               conversation.</seg>
+            </p>
+         <p>
+            <seg ana="MethodistApologetics ChristAsExemplar">But what difficulties are those? All
+               that are the necessary consequence of your sharing our reproach. And what reproach is
+               it which we bear? Is it the reproach of Christ or not? <seg ana="MethodistOrigins">It
+                  arose first while <persName>
+                            <ref target="/persons/pers2176.xml"/>my
+                     brother</persName> and I were at <placeName>Oxford</placeName>, from <seg ana="trueChristianity">our endeavouring to be real Christians</seg>. <seg ana="preaching">
+                            <seg ana="repentance pardon">It was increased abundantly when
+                        we began to preach repentance and remission of sins and insist that <seg ana="justification justifyingFaith faith">we are justified by
+                        faith</seg>.</seg>
+                     <seg ana="MethodistPreachers">For this cause were we excluded from preaching in
+                        the churches. <seg ana="fieldPreaching">(I say for <hi rend="italic">this</hi>—as yet there was no field-preaching.)</seg> And this
+                        exclusion occasioned our preaching elsewhere, with the other irregularities
+                        that followed.</seg>
+                        </seg> Therefore all the reproach consequent thereon is
+                  no other than the reproach of Christ.</seg>
+                </seg>
+         </p>
+         <p>
+            <seg ana="MethodistApologetics">
+               <seg ana="fleshAndBlood">And what are we the worse for this? It is not pleasing to
+                  flesh and blood.</seg>
+               <seg ana="workOfGod meansOfGrace">But is it any hindrance to the work of God? Did he
+                  work more by us when we were honourable men? By no means. God never used us to any
+                  purpose till we were a proverb of reproach.</seg>
+               <seg ana="dishonour">Nor have we now a jot more of dishonour, of evil report, than we
+                  know is necessary, both for us and for the people to balance that honour and good
+                  report which otherwise could not be borne.</seg>
+            </seg>
+         </p>
+         <p>You need not, therefore, be so much afraid of or so careful to avoid this. It is a
+            precious balm. It will not break your head, neither lessen your usefulness. And, indeed,
+            you cannot avoid it any otherwise <pb n="97"/>than by departing from the work. You do
+            not avoid it by standing aloof from us; <seg ana="prudence ChristianPrudence worldlyPrudence">which you call <hi rend="italic">christian</hi>, I <hi rend="ital">worldly</hi>, prudence</seg>.</p>
+         <p>
+                <index indexName="biblical">
+               <term cRef="2Cor11:1">I speak as a fool. Bear with me.<note place="foot" n="7">See 2
+                     Cor. 11:1.</note>
+                    </term>
+            </index>
+            <seg ana="faith love mindOfChrist">I am clearly satisfied that you have far more faith,
+               more love, and more of <index indexName="biblical">
+                  <term cRef="Phil2:5">the mind which was in Christ</term>
+               </index> than I have.</seg>
+            <seg ana="workOfGod giftsOfGod spiritualFruit ministry">But have you more gifts for the
+               work of God or more fruit of your labour? Has God owned you more? I would he had a
+               thousand-fold! I pray God that he may!</seg>
+            <seg ana="worldlyPrudence Satan">Have you at present more experience of the wisdom of
+               the world and the devices of Satan? Or of <seg ana="workOfGod providence">the manner
+                  and method wherein it pleases God to counterwork them in this period of his
+                  providence</seg>?</seg>
+            <seg ana="ChristianConversation meansOfGrace">Are you sure God would add nothing to you
+               by me beside what he might add to me by you?</seg> Perhaps <seg ana="death">when the
+               time is slipped out of your hands, when I am no more seen</seg>, you may wish you had
+            not rejected the assistance of even</p>
+         <closer>
+            <signed>Your affectionate brother,<lb/>
+               <persName>J.W.</persName>
+            </signed>
+         </closer>
+      </body>
+   </text>
+</TEI>

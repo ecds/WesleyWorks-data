@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>To Samuel Furly</title>
+            <author>Wesley, John</author>
+            <editor>Van Buskirk, Gregory P.</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>The Wesley Works</publisher>
+            <pubPlace>Tampa, FL</pubPlace>
+            <date>2021-04-07</date>
+         </publicationStmt>
+         <sourceDesc>
+            <listBibl>
+               <bibl n="1">
+                  <title>The Works of John Wesley, Volume 27: Letters III, 1756-1765</title>
+                  <editor role="volume">Campbell, Ted A.</editor>
+                  <editor role="general">Maddox, Randy L.</editor>
+                  <publisher>Abingdon Press</publisher>
+                  <pubPlace>Nashville, TN</pubPlace>
+                  <date>2015-11-03</date>
+               </bibl>
+               <bibl n="2"><hi rend="italic">Source</hi>: holograph; <institution>Gateshead, Co. Durham, England, Public Library</institution> (framed, so no access to <hi rend="italic">address</hi>, <hi rend="italic">postmark</hi>, or indications of postal <hi rend="italic">charge</hi>).</bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <head>To <persName>Samuel Furly</persName></head>
+         <opener>
+            <placeName><region>London</region></placeName>
+            <lb/>
+            <date when="1757-03-08">March 8, 1757</date>
+            <lb/>
+            <lb/>
+            <salute>Dear <persName Sammy="SamuelFurly">Sammy</persName>,</salute>
+         </opener>
+         <p><seg ana="preaching">I have preached on that subject again and again, and shall do when it comes my way</seg>. Pray look into <persName Mr.Taylor="JohnTaylor">Mr. Taylor</persName>’s note on <index indexName="biblical"><term cRef="2Tim2:26">that verse of 2 Tim.: ‘taken captive at his will’</term></index>.<note place="foot" n="1">2 Tim. 2:26.<!--Should this citation be tagged *AGAIN*?--> <seg ana="originalSin"><persName JW="JohnWesley">JW</persName> refers here to <persName>John Taylor</persName>’s <hi rend="italic">The Scripture-Doctrine of Original Sin Proposed to Free and Candid Examination</hi> (3rd edn.; <placeName><region>London</region></placeName>, <date when="1750">1750</date>), 152. <persName Wesley="JohnWesley">Wesley</persName> was at work on <seg ana="publishing">a response to <persName Taylor="JohnTaylor">Taylor</persName>, which he published <date when="1757-11">later this year</date></seg>; on this point, <index indexName="works"><term cRef="12:269">see 12:269 in this edn</term></index></seg>.</note> See <seg ana="classics(Greek)">the verse he cites from <persName>Homer</persName>.<note place="foot" n="2">In a note on p. 154, <persName Taylor="JohnTaylor">Taylor</persName> referred to <persName>Homer</persName>’s <hi rend="italic">Iliad</hi>, Book V, line 698,<!--We could very likely link directly to this passage.--> in his attempt to explain <seg ana="Greek(language)">the Greek expression translated ‘to revive’</seg>.</note> Consult the book and tell me whether <persName his="JohnTaylor">his</persName> assertion be true or false.</seg></p>
+         <pb n="75"/>
+         <p><seg ana="philsophy moralPhilosophy"><persName Hutcheson="FrancisHutcheson">Hutcheson</persName>’s <hi rend="italic">Moral Philosophy</hi> is a solemn trifle.<note place="foot" n="3"><persName>Francis Hutcheson</persName>, <hi rend="italic">Philosophiae Moralis Institutio Compendiaria, Ethices et Jurisprudentiae Naturalis Elementa Continens</hi> (<placeName><region>Glasgow</region></placeName>, <date when="1742">1742</date>); English translation: <hi rend="italic">System of Moral Philosophy</hi> (3 vols.; <placeName><region>London</region></placeName>, <date when="1755">1755</date>).</note> <seg ana="Latin(language)">His Latin is not easy and natural. It is abundantly too laboured and thence less easy to be understood. This is an essential defect in his language.</seg></seg></p>
+         <p><seg ana="useOfTime">Have not time? Why have not you time? When I was at the university, I had always time to do whatever I would.</seg> And so I should now, but that</p>
+         <lg><foreign lang="Latin">
+            <l><hi rend="italic">…aliena negotia centum</hi></l>
+            <l><hi rend="italic">per caput et circa saliunt latus.</hi><note place="foot" n="4"><persName>Horace</persName>, <hi rend="italic">Satires</hi>, II.vi.33–34; <gloss>‘A hundred matters from other people encompass me about my head and on every side’</gloss>.</note></l></foreign></lg>
+         <p>Last week you was in great danger. <persName>Thomas Walsh</persName> and <persName I="JohnWesley">I</persName> were <placeName><offset>within <measure>twelve miles</measure> of</offset> <region>Cambridge</region></placeName>. But the <placeName><settlement>Norwich</settlement></placeName> coach could not go out of its way. So you are escaped.</p>         
+         <closer>Above all <seg ana="naturalKnowledge">knowledge</seg>, know Christ. I am,
+            <signed>Your affectionate brother,<lb/>
+               <persName J.Wesley="JohnWesley">J. Wesley</persName>
+            </signed>
+         </closer>
+      </body>
+      <p><hi rend="italic">Source</hi>: holograph; <institution>Gateshead, Co. Durham, England, Public Library</institution> (framed, so no access to <hi rend="italic">address</hi>, <hi rend="italic">postmark</hi>, or indications of postal <hi rend="italic">charge</hi>).</p>
+   </text>
+</TEI>

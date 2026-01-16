@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>To Mary (Goldhawk/Vazeille) Wesley</title>
+            <author>Wesley, John</author>
+            <editor>Van Buskirk, Gregory P.</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>The Wesley Works</publisher>
+            <pubPlace>Tampa, FL</pubPlace>
+            <date>2021-04-07</date>
+         </publicationStmt>
+         <sourceDesc>
+            <listBibl>
+               <bibl n="1">
+                  <title>The Works of John Wesley, Volume 27: Letters III, 1756-1765</title>
+                  <editor role="volume">Campbell, Ted A.</editor>
+                  <editor role="general">Maddox, Randy L.</editor>
+                  <publisher>Abingdon Press</publisher>
+                  <pubPlace>Nashville, TN</pubPlace>
+                  <date>2015-11-03</date>
+               </bibl>
+               <bibl n="2"><hi rend="italic">Address</hi>: ‘To / <persName MrsWesley="MaryWesley">Mrs Wesley</persName>’.</bibl>
+               <bibl n="3">No <hi rend="italic">postmark</hi> or indications of postal <hi rend="italic">charge</hi>; apparently delivered by hand.</bibl>
+               <bibl n="4"><hi rend="italic">Source</hi>: holograph; <institution>MARC</institution>, MAM JW 5/57.</bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <head>To <persName MaryGoldhawkVazeilleWesley="MaryWesley">Mary <addName>(Goldhawk/Vazeille)</addName> Wesley</persName></head>
+         <opener>
+            <placeName><settlement>Liverpool</settlement></placeName>
+            <lb/>
+            <date when="1757-04-24">April 24, 1757</date>
+            <lb/>
+            <lb/>            
+         </opener>
+         <p><seg ana="Wesley'sMarriage">I see plainly, my dear <persName Molly="MaryWesley">Molly</persName>, you are resolved to make me love you better and better.</seg> <seg ana="diligence watchfulness">Be as careful as ever you will (only not so as to make yourself sick) and as diligent as ever you can. <seg ana="theologicalSynergy"><seg ana="giftsOfGod responsibility">This is one of the talents which God has given you. O use it to the uttermost!</seg> <seg ana="spiritualLife temporalAffairs">Put forth all your strength in things temporal as well as in things spiritual.</seg> Whatsoever your hand findeth to do, do it with your might. What a blessed rule is that of <persName Kempis="ThomasÀKempis">Kempis</persName>. ‘Do what is in thee, and God will supply what is lacking’!<note place="foot" n="1"><persName>Thomas à Kempis</persName>, <hi rend="italic">Imitation of Christ</hi>, IV.xii.2.</note></seg> <seg ana="soul">Only, my love, watch over your own spirit! Take heed that it be not sharpened.</seg> <seg ana="patience">Fret not thyself because of the ungodly, but <index indexName="biblical"><term cRef="Luke21:19">in quietness and patience possess your own soul.<note place="foot" n="2">See Luke 21:19.</note></term></index></seg></seg></p>
+         <p><seg ana="stewards">I believe my letter to the stewards will stir them up. What if you gave it to <persName>Thomas Butts</persName> and desired him and <persName>John Matthews</persName><note place="foot" n="3"><persName>John Matthews</persName> was a <placeName><region>London</region></placeName> supporter of <persName JW="JohnWesley">JW</persName>, who married <seg ana="Wesley'sFamily">his stepdaughter <persName>Jeanne Vazeille</persName></seg> on <date when="1757-07-24">July 24, 1757</date>; <persName JW="JohnWesley">JW</persName> records in his <hi rend="italic">Journal</hi> that he was at <persName Matthews="JohnMatthews">Matthews</persName>’s side when he died on <date when="1764-12-28">Dec. 28, 1764</date> (<index indexName="works"><term cRef="21:497">21:497 in this edn.</term></index>).</note> to second it? If they speak to <persName>William Atkinson</persName> in good earnest, it will certainly do good, one way or the other.</seg></p>
+         <pb n="83"/>
+         <p><seg ana="letter-burning">Now I have burnt your letter.</seg> <seg ana="health">My health continues to a miracle.</seg> <date when="1757-05-04">Ten days hence</date> I shall probably see <persName>John Haime</persName> and <persName>Joseph Jones</persName> if he finds his way back from <placeName><district>Bilbrook</district></placeName>.</p>
+         <p>It grows late, but I could not persuade myself to lose one post, though I cannot tell you how much I am, dear <persName Molly="MaryWesley">Molly</persName>,</p>
+         <closer>
+            <signed>Your affectionate husband, lover, and friend,<lb/>
+               <persName>John Wesley</persName>
+            </signed>
+         </closer>
+         <postscript>My dear <persName>sister Hacket</persName> was to have a cag of the elder wine.<note place="foot" n="4">A ‘cag’ was a barrel or wooden vessel containing four or five gallons. Elderberries (genus <hi rend="italic">sambucus</hi>) were used to produce a fruit wine.</note> Has she had it?</postscript>
+      </body>
+      <p><hi rend="italic">Address</hi>: ‘To / <persName MrsWesley="MaryWesley">Mrs Wesley</persName>’.</p>
+      <p>No <hi rend="italic">postmark</hi> or indications of postal <hi rend="italic">charge</hi>; apparently delivered by hand.</p>
+      <p><hi rend="italic">Source</hi>: holograph; <institution>MARC</institution>, MAM JW 5/57.</p>
+   </text>
+</TEI>

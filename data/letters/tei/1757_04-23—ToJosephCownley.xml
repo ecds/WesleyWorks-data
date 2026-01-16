@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>To Joseph Cownley</title>
+            <author>Wesley, John</author>
+            <editor>Van Buskirk, Gregory P.</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>The Wesley Works</publisher>
+            <pubPlace>Tampa, FL</pubPlace>
+            <date>2021-04-07</date>
+         </publicationStmt>
+         <sourceDesc>
+            <listBibl>
+               <bibl n="1">
+                  <title>The Works of John Wesley, Volume 27: Letters III, 1756-1765</title>
+                  <editor role="volume">Campbell, Ted A.</editor>
+                  <editor role="general">Maddox, Randy L.</editor>
+                  <publisher>Abingdon Press</publisher>
+                  <pubPlace>Nashville, TN</pubPlace>
+                  <date>2015-11-03</date>
+               </bibl>
+               <bibl n="2"><hi rend="italic">Address</hi>: ‘To Mr <persName>Joseph Cownley</persName> / At the <placeName>Orphan-house</placeName> / <placeName NewcastleUponTyne="Newcastle-Upon-Tyne"><region>Newcastle upon Tyne</region></placeName> / North Post <placeName><region>Manchester</region></placeName>’.</bibl>
+               <bibl n="3"><hi rend="italic">Postmark</hi>: ‘LIVER / POOL’. <hi rend="italic">Charge</hi>: ‘3’.</bibl>
+               <bibl n="4"><hi rend="italic">Source</hi>: holograph; <placeName>Wesley’s Chapel (<placeName><region>London</region></placeName>)</placeName>, LDWMM 1994/1995.</bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <head>To <persName>Joseph Cownley</persName></head>
+         <opener>
+            <placeName>Liverpool</placeName>
+            <lb/>
+            <date when="1757-04-23">April 23, 1757</date>
+            <lb/>
+            <lb/>
+            <salute>Dear <persName Joseph="JosephCownley">Joseph</persName>,</salute>
+         </opener>
+         <p>Your letter came to me <place here="Liverpool">here</place>. <seg ana="health"><persName TedPerronet="EdwardPerronet">Ted Perronet</persName> says <persName>Dr. Turner</persName><note place="foot" n="1"><index indexName="works"><term cRef="27:41-42">See <persName JW="JohnWesley">JW</persName>’s letter to <pers hisWife="MaryWesley">his wife</pers>, <date when="1756-07-10">July 10, 1756</date></term></index>, where he urges her to see <persName>Dr. Turner</persName>.</note> expects no fee at all, but will do you all the service he can. I sent to <persName theDr.="Dr.Turner">the Dr.</persName> before I left <placeName><region>London</region></placeName>. <seg ana="medicalAdvice">He said he had wrote his thoughts on your case at large, but had not yet had time to transcribe them. But he does not think it is a desperate case. When I talked with him concerning it, he said: 1) no physician hitherto seems to have understood it; <seg ana="disorder medicine">2) a proper course of medicines will probably remove the whole disorder</seg>; and if not, <seg ana="regimen">3) an entire milk diet will hardly fail to restore your health.</seg></seg></seg></p>
+         <p>I will write to <placeName><region>London</region></placeName>, that he may send his thoughts directly. <seg ana="medicalAdvice">Meantime I advise you to apply, not a murdering blister, but a large treacle-plaster to your head, renewing it in twelve hours if you find any benefit.</seg></p>
+         <p><seg ana="medicalAdvice electrification">If after all <persName>Dr. Turner</persName> does not cure you, I am <hi rend="italic">almost certain</hi> electrifying will.<note place="foot" n="2"><index indexName="works"><term cRef="32"><persName JW="JohnWesley">JW</persName>’s <hi rend="italic">Primitive Physick</hi></term></index> (<date when="1747">1747</date> with numerous republications thereafter) suggests electrification as a treatment for a number of ailments.</note></seg> Courage, <persName Joseph="JosephCownley">Joseph</persName>! <seg ana="healing">I trust your deliverance draws nigh! If it does, be not less, but tenfold more serious.</seg></p>
+         <closer>With love to <persName Suky="MarthaSusannah(Cownley)Massiot">Suky</persName>,<note place="foot" n="3">I.e., <persName Cownley="JosephCownley">Cownley</persName>’s wife.</note> I am,
+            <signed>Your affectionate friend and brother,<lb/>
+               <persName J.Wesley="JohnWesley">J. Wesley</persName>
+            </signed>
+         </closer>
+         <pb n="82"/>
+         <postscript><p><date when="1757-05-03">Ten days hence</date> I go to <placeName><region>Manchester</region></placeName>, and then to <placeName><settlement>Leeds</settlement></placeName>. <seg ana="electrification">At <placeName><region>Manchester</region></placeName> we have an electrifying machine.</seg></p>
+            <p>I am obliged by the state of things there, to go into <placeName><region>Yorkshire</region></placeName>, before I go to <placeName><country>Scotland</country></placeName>. Therefore I shall not be at <placeName><district>Berwick</district></placeName> till <date when="1757-06-09">June 9</date>, at <placeName><district>Alnwick</district></placeName> till <date when="1757-06-11">Sat. June 11th</date>, nor at <placeName><district>Morpeth</district></placeName>, <placeName>Placey</placeName>, and <placeName><region>Newcastle</region></placeName> till <date when="1757-06-13">June 13th</date>.</p></postscript>
+      </body>
+      <p><hi rend="italic">Address</hi>: ‘To Mr <persName>Joseph Cownley</persName> / At the <placeName>Orphan-house</placeName> / <placeName NewcastleUponTyne="Newcastle-Upon-Tyne"><region>Newcastle upon Tyne</region></placeName> / North Post <placeName><region>Manchester</region></placeName>’.</p>
+      <p><hi rend="italic">Postmark</hi>: ‘LIVER / POOL’. <hi rend="italic">Charge</hi>: ‘3’.</p>
+      <p><hi rend="italic">Source</hi>: holograph; <placeName>Wesley’s Chapel (<placeName><region>London</region></placeName>)</placeName>, LDWMM 1994/1995.</p>
+   </text>
+</TEI>

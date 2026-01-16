@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>To Mary (Goldhawk/Vazeille) Wesley</title>
+            <author>Wesley, John</author>
+            <editor>Van Buskirk, Gregory P.</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>The Wesley Works</publisher>
+            <pubPlace>Tampa, FL</pubPlace>
+            <date>2021-04-07</date>
+         </publicationStmt>
+         <sourceDesc>
+            <listBibl>
+               <bibl n="1">
+                  <title>The Works of John Wesley, Volume 27: Letters III, 1756-1765</title>
+                  <editor role="volume">Campbell, Ted A.</editor>
+                  <editor role="general">Maddox, Randy L.</editor>
+                  <publisher>Abingdon Press</publisher>
+                  <pubPlace>Nashville, TN</pubPlace>
+                  <date>2015-11-03</date>
+               </bibl>
+               <bibl n="2"><hi rend="italic">Address</hi>: ‘To / <persName MrsWesley="MaryWesley">Mrs Wesley</persName>’.</bibl>
+               <bibl n="3">No <hi rend="italic">postmark</hi> or indications of postal <hi rend="italic">charge</hi>; apparently delivered by hand.</bibl>
+               <bibl n="4"><hi rend="italic">Source</hi>: holograph; WHS Library, Heaton bequest.</bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <pb n="80"/>
+      <body>
+         <head>To <persName MaryGoldhawkVazeilleWesley="MaryWesley">Mary <addName>(Goldhawk/Vazeille)</addName> Wesley</persName></head>
+         <opener>
+            <placeName><settlement>Liverpool</settlement></placeName>
+            <lb/>
+            <date when="1757-04-22">April 22, 1757</date>
+            <lb/>
+            <lb/>
+         </opener>
+         <p>Now, my dear <persName Molly="MaryWesley">Molly</persName>, you do just as you should. I was really uneasy for want of hearing from you. <seg ana="itinerancy MethodistPreachers">Thus far God has brought me safe and well, but I have left my companions behind me. <persName>John Haime</persName><note place="foot" n="1">On <persName>John Haime</persName>, <index indexName="works"><term cRef="26:98">see 26:98 in this edn.</term></index></note> could reach no farther than <placeName><settlement>Leicester</settlement></placeName> (but he hopes to meet me at <placeName><settlement>Manchester</settlement></placeName>). <persName>Joseph Jones</persName><note place="foot" n="2"><persName>Joseph Jones</persName> was one of the first Methodist itinerants, but settled in <placeName><region>Somerset</region></placeName> in <date when="1760">1760</date>; see Atmore, <hi rend="italic">Memorial</hi>, 225–26.</note> held out to <placeName><settlement>Poole</settlement></placeName>, near <placeName><district>Nantwich</district></placeName>. But having forgot his bags at <placeName><district>Bilbrook</district></placeName>, he was obliged to go back for them. <persName BrotherLucas="RichardLucas">Brother Lucas</persName><note place="foot" n="3"><persName>Richard Lucas</persName> (d. <date when="1766">1766</date>), an itinerant at least as early as <date when="1755">1755</date>; <index indexName="works"><term cRef="10:273">see 10:273 in this edn.</term></index>; and Atmore, <hi rend="italic">Memorial</hi>, 246.</note> came with me from <placeName><settlement>Chester</settlement></placeName> today, but he also must leave me <date when="1757-04-25">on Monday</date>, and go into the round. I shall then want <persName simpleMichael="MichaelFenwick">simple Michael</persName>,<note place="foot" n="4">Presumably <persName>Michael Fenwick</persName>.</note> for without a companion in travel, <seg ana="MethodistRancor MethodistSocieties">I am like a bird without a wing, especially in this place which is at present the seat of war<!--Is this a reference to the Seven Years' War, or to the "open defiance" from James Scholefield?-->, for poor <persName>James Schol[e]field</persName> sets me at open defiance.<note place="foot" n="5">Cf. <persName JW="JohnWesley">JW</persName>, <hi rend="italic">Journal</hi>, <date when="1757-04-21">April 21, 1757</date> (<index indexName="works"><term cRef="21:93-94">21:93–94 and n. 63 in this edn.</term></index>).</note> But I am not afraid of that, I fear only fair words, and that weapon he is not at present inclined to use. I suppose he has carried off about half the society by telling them how cruelly I have treated him.</seg></seg></p>
+         <p><seg ana="publishing"><seg ana="money">I expect brother <persName>[William] Atkinson</persName> will give you every week an account of the books sold.</seg> I am sorry I forgot to mention it to him. Your labour in the printing-house was well bestowed, as also in getting the books collated. Now, my love, go on to <index indexName="biblical"><term cRef="Rom12:21">overcome evil with good</term></index>. <seg ana="grace"><index indexName="biblical"><term cRef="2Cor9:8">By the grace of God, you are able.</term></index></seg></seg></p>
+         <p><seg ana="MethodistPreachers">I am afraid <persName JemmyRouquet="JamesRouquet">Jemmy Rouquet</persName>’s head is not quite right.<note place="foot" n="6"><persName>James Rouquet</persName> (<date from="1730" to="1776)">1730–76</date>) was a descendant of <persGroup>Huguenot refugees</persGroup> to <placeName><country>England</country></placeName> who became one of <persName JW="JohnWesley">JW</persName>’s close colleagues. He was educated at <placeName>St. John’s College, Oxford</placeName>, and <seg ana="conversion">converted under <persName>George Whitefield</persName>’s influence while in school</seg>. <seg ana="KingswoodSchool"><persName JW="JohnWesley">JW</persName> appointed <persName Rouquet="JamesRouquet">Rouquet</persName> as Master of <placeName>Kingswood School</placeName> <date notBefore="1751" notAfter="1754">between 1751 and 1754</date>.</seg> <seg ana="itinerancy">He then became an itinerant preacher.</seg> <seg ana="priesthood ChurchOfEngland">In <date when="1765">1765</date> <persName Rouquet="JamesRouquet">Rouquet</persName> was ordained as a priest and served the remainder of his life in parishes around <placeName><settlement>Bristol</settlement></placeName>.</seg> Cf. A. Barrett Sackett, <hi rend="italic"><persName>James Rouquet</persName> and His Part in Early Methodism</hi> (Broxton, Cheshire, <date when="1972">1972</date>).</note> I have written him a long, mild, loving answer.</seg> <seg ana="NTNotes publishing">Pray let the <hi rend="italic">Notes</hi><note place="foot" n="7">A second edition of the <hi rend="italic">NT Notes</hi> was published <date when="1757">this year</date>.</note> (in quires) be sent down to <placeName><settlement>Leeds</settlement></placeName> directly, and with them two hundred of each sort of proposals.</seg></p>
+         <p>The post constrains me to break off. <seg ana="Wesley'sFamily">Grace and peace, my dear life, be with you and <persName Jenny="JeanneVazeille">Jenny</persName> and <persName Noah="NoahVazeille">Noah</persName> forever!<note place="foot" n="8">This is <persName Wesley="JohnWesley">Wesley</persName>’s first reference to his stepson <persName>Noah Vazeille</persName> (<date from="1747" to="1809">1747–1809</date>), along with <persName Jeanne="JeanneVazeille">Jeanne</persName>.</note></seg></p>
+         <pb n="81"/>         
+         <closer>
+            <signed>Adieu!
+            </signed>
+         </closer>
+         <postscript><p>Pray tell <persName Mr.Blackwell="EbenezerBlackwell">Mr. Blackwell</persName> I stay <placeName here="Liverpool">here</placeName> <date from="1757-04-22" to="1757-05-02">ten days</date>, then <date from="1757-05-03" to="1757-05-08">six days</date> at <persName>Mr. Philips</persName> in <placeName><settlement>Manchester</settlement></placeName>, and <date from="1757-05-08" to="1757-05-15">seven more</date> in or near <placeName><settlement>Leeds</settlement></placeName>.</p>
+            <p>Pray put the enclosed into the post directly.</p></postscript>
+      </body>
+      <p><hi rend="italic">Address</hi>: ‘To / <persName MrsWesley="MaryWesley">Mrs Wesley</persName>’.</p>
+      <p>No <hi rend="italic">postmark</hi> or indications of postal <hi rend="italic">charge</hi>; apparently delivered by hand.</p>
+      <p><hi rend="italic">Source</hi>: holograph; WHS Library, Heaton bequest.</p>
+   </text>
+</TEI>

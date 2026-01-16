@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>To Potential Subscribers</title>
+            <author>Wesley, John</author>
+            <editor>Van Buskirk, Gregory P.</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>The Wesley Works</publisher>
+            <pubPlace>Tampa, FL</pubPlace>
+            <date>2021-04-07</date>
+         </publicationStmt>
+         <sourceDesc>
+            <listBibl>
+               <bibl n="1">
+                  <title>The Works of John Wesley, Volume 27: Letters III, 1756-1765</title>
+                  <editor role="volume">Campbell, Ted A.</editor>
+                  <editor role="general">Maddox, Randy L.</editor>
+                  <publisher>Abingdon Press</publisher>
+                  <pubPlace>Nashville, TN</pubPlace>
+                  <date>2015-11-03</date>
+               </bibl>
+               <bibl n="2"><hi rend="italic">Source</hi>: <hi rend="italic"><persName>Felix Farley</persName>’s <placeName><settlement>Bristol</settlement></placeName> Journal</hi>, <date when="1757-04-16 1757-04-23 1757-04-30">April 16, 23, and 30, 1757</date>; <hi rend="italic"><placeName><region>Newcastle</region></placeName> Journal</hi>, <date when="1757-06-25">June 25, 1757</date>.</bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <head><seg ana="publishing subscriptions">To Potential Subscribers<note place="foot" n="1">There were at least two published versions of this appeal for subscriptions to <persName JW="JohnWesley">JW</persName>’s <seg ana="originalSin"><hi rend="italic">The Doctrine of Original Sin</hi></seg>. The version printed in <persName>Felix Farley</persName>’s <hi rend="italic"><placeName><settlement>Bristol</settlement></placeName> Journal</hi> is followed here, with substantive variants in other printings noted. <persName JW="JohnWesley">JW</persName>’s volume was published later that year (<index indexName="works"><term cRef="12:155-481">see 12:155–481 in this edn.</term></index>).</note></seg></head>
+         <opener>
+            [<placeName>London</placeName>]
+            <lb/>
+            [<date when="1757-03-25">March 25, 1757</date>]
+            <lb/>
+            <lb/>            
+         </opener>
+         <p><seg ana="publishing subscriptions">Proposals for Printing by Subscription</seg>,</p>
+         <p><seg ana="originalSin"><hi rend="italic">The Doctrine of Original Sin</hi></seg></p>
+         <p>By <persName>John Wesley</persName></p>
+         <p>Occasioned by the Writings of Mr.<note place="foot" n="2"><date when="1757-06-25">June 25</date>, <placeName><region>Newcastle</region></placeName>, has ‘Dr.’ in this and the other four instances.</note> <persName>John Taylor</persName></p>
+         <pb n="78"/>
+         <seg ana="publishing subscriptions"><p>Conditions:</p>
+         <lb/>
+         <p>I. The work will contain about five hundred pages, octavo, on good paper and new leather.<note place="foot" n="3"><date when="1757-06-25">June 25</date>, <placeName><region>Newcastle</region></placeName>, omits ‘octavo’ and ‘and new leather’.</note></p>
+         <p>II. <seg ana="money">The price to subscribers of a book in quires is five shillings, half to be paid at the time of subscribing.</seg></p>
+         <p>III. Subscribers for six will have a seventh <hi rend="italic"><foreign lang="Latin">gratis</foreign></hi>.</p>
+         <p>IV. The work is ready to be put into the press.</p></seg>
+         <lb/>
+         <p><!--Until the next comment, all these subscriptions are for LONDON.--><seg ana="subscriptions">Subscriptions are taken in by <persName>T. Trye</persName>, near <placeName>Gray’s Inn Gate</placeName>, <placeName><district>Holbourn</district></placeName>; <persName><surname>Robinson</surname></persName>, in <placeName><street>Ludgate Street</street></placeName>; <persName>J. Hodges</persName>, at <placeName>London Bridge</placeName>; and at <placeName>the Found[e]ry</placeName>, in <placeName><district>Upper Moorfields</district></placeName>, <placeName><region>London</region></placeName>; <persName>J. Fox</persName>, <placeName>Westminster Hall</placeName>; and <persName>J. Jolliffe</persName>, <placeName><street>St. James’s Street</street></placeName>, <placeName><settlement>Westminster</settlement></placeName>. <!--Until the next comment, all these subscriptions are for BRISTOL.-->By <persName J.Palmer="JosephPalmer">J. Palmer</persName>, in <placeName><street>Wine Street</street></placeName>; <persName>J. Wilson</persName>, in <placeName><street>Peter Street</street></placeName>, and <persName>J. Long</persName>, in <placeName><street>Tower Lane</street></placeName>, <placeName><settlement>Bristol</settlement></placeName>. <!--These final subscriptions are for NEWCASTLE.-->By <persName W.Shent="WilliamShent">W. Shent</persName>, in <placeName><settlement>Leeds</settlement></placeName>; and <persName>R. Akenhead</persName>,<note place="foot" n="4"><date when="1757-04-23 1757-04-30">April 23, 30</date> alter to ‘<persName>R. Fleming</persName>’.</note> in <placeName><region>Newcastle upon Tyne</region></placeName>.<note place="foot" n="5"><date when="1757-06-25">June 25</date>, ‘Subscriptions are taken by <persName>James Fleming</persName>, <persName>Michael Calendar</persName>, and at the <placeName>Orphan House</placeName>.’</note></seg></p>
+         <p><placeName><region>London</region></placeName>, <date when="1757-03-25">March 25, 1757</date></p>
+         <p><seg ana="originalSin doctrine">It has been constantly affirmed by Mr. <persName>John Taylor</persName>’s admirers ‘that his book upon <hi rend="italic">Original Sin</hi> has never been answered’. And it is in some sense true. Indeed presently after the publication of it Dr. <persName>[David] Jenning[s]</persName> published a tract which contained strong and pertinent remarks on many parts of it. Not long after, Mr. <persName>[Samuel] Hebden</persName> of <placeName><region>Suffolk</region></placeName> wrote several excellent treatises on the same subject, in which the most considerable arguments used by <persName Mr.Taylor="JohnTaylor">Mr. Taylor</persName> are calmly and solidly refuted. <seg ana="humanNature">Dr. <persName>[Isaac] Watts</persName> then wrote his ingenious book entitled <hi rend="italic">The Ruin and Recovery of Human Nature</hi>, some parts of which strike at the very foundation of <persName Mr.Taylor="JohnTaylor">Mr. Taylor</persName>’s hypothesis.</seg> <seg ana="scripture">Lastly, Mr. <persName>[James] Hervey</persName> has, in his <hi rend="italic">Dialogues</hi>, many beautiful strokes, whereby he rescues the Scripture from <persName Mr.Taylor="JohnTaylor">Mr. Taylor</persName>’s misrepresentations.<note place="foot" n="6">For details on each of these earlier responses to <persName Taylor="JohnTaylor">Taylor</persName> see <index indexName="works"><term cRef="12:132-136">the editorial introduction to <persName JW="JohnWesley">JW</persName>, <hi rend="italic">The Doctrine of Original Sin</hi>, 12:132–36 in this edn.</term></index></note></seg></seg> Nevertheless, as none of these have followed <persName him="JohnTaylor">him</persName> step by step, from the beginning of his book to the end, it is still confidently affirmed, ‘That he is <hi rend="italic">unanswered</hi>, and therefore, <hi rend="italic">unanswerable</hi>’.</p>
+         <pb n="79"/>
+         <p>Is there not then a loud call for some person to treat <persName him="JohnTaylor">him</persName> in a different manner? To examine this <hi rend="italic">unanswered</hi>, <hi rend="italic">unanswerable</hi> work from the very beginning to the end? To weigh every argument there advanced both ‘in the balance of the sanctuary’<note place="foot" n="7"><seg ana="doctrine scripture">Cf. <persName>John Gill</persName>, <hi rend="italic">Exposition of the Old Testament</hi> (<date from="1763" to="1765">1763–65</date>), commenting on <index indexName="biblical"><term cRef="Prov11:1">Prov. 11:1</term></index>, ‘A false balance is an abomination to the Lord’: ‘This may be understood of balances and weights in religious affairs; the balance of the sanctuary is the word of God, with which all doctrines are to be weighed, and, if found wanting, they are to be rejected.’</seg></note> and (wherever the nature of the thing admits) in <seg ana="reasoning">the scale of impartial reason</seg>?</p>
+         <p>This is what I have attempted to do, although with this great disadvantage (besides many others) that I have not time to weigh every point so throughly and answer it so fully as the importance of it requires. Nevertheless I flatter myself <seg ana="reasoning">the impartial reader will find a clear and rational answer (if not very correctly or elegantly expressed) to every argument <persName Mr.Taylor="JohnTaylor">Mr. Taylor</persName> has advanced.</seg> <seg ana="gentleness anger bitterness">And I trust this is done <index indexName="biblical"><term cRef="1Cor4:21">‘in the spirit of meekness’;<note place="foot" n="8">1 Cor. 4:21.</note></term></index> without anger, without bitterness, and without contempt.</seg> <seg ana="truth love">I think I speak the truth only. And I know I <index indexName="biblical"><term cRef="Eph4:15">‘speak’ that ‘truth in love’.<note place="foot" n="9">Cf. Eph. 4:15.</note></term></index></seg> Though not with coolness or indifference, as being most thoroughly<note place="foot" n="10"><date when="1757-06-25">June 25</date>, ‘throughly’.</note> convinced <seg ana="doctrine originalSin revealedReligion">the whole cause of <hi rend="italic">revealed religion</hi> is at stake, and that it stands or falls with the doctrine of <hi rend="italic">original sin</hi>. Could I once be persuaded to give up this, I must give up the Christian system with it.</seg> <seg ana="naturalReligion philosophy">Nor could I ever after concern myself with any other religion than that of <persName>Seneca</persName> or <persName>Marcus Antoninus</persName>.<note place="foot" n="11"><date when="1757-04-16">Apr. 16</date> &amp; <date when="1757-06-25">June 25</date>, ‘<persName Antonius="MarcusAntonius">Antonius</persName>’.</note></seg></p>
+         <p><seg ana="controversy doctrine">I would only add that, as <seg ana="originalSin">I have here <hi rend="italic">one</hi> point of view, I meddle with no other<note place="foot" n="12"><date when="1757-06-25">June 25</date> omits ‘other’.</note> controversy</seg>. <seg ana="Arminianism Calvinism">I touch not in any degree on things disputed between <personGrp>Remonstrants</personGrp> and <personGrp>Counter-Remonstrants</personGrp>, or any other Christians.</seg> No serious Christian of any denomination will find here any positions that <index indexName="biblical"><term cRef="2Tim2:23">‘[en]gender strife’,<note place="foot" n="13">2 Tim. 2:23.</note></term></index> or any that will not be allowed by all who agree to the plain sense of that weighty declaration, <seg ana="regeneration"><index indexName="biblical"><term cRef="1Cor15:22">‘As in Adam all died, so in Christ shall all be made alive.’<note place="foot" n="14">1 Cor. 15:22.</note></term></index></seg></seg></p>
+      </body>
+      <p><hi rend="italic">Source</hi>: <hi rend="italic"><persName>Felix Farley</persName>’s <placeName><settlement>Bristol</settlement></placeName> Journal</hi>, <date when="1757-04-16 1757-04-23 1757-04-30">April 16, 23, and 30, 1757</date>; <hi rend="italic"><placeName><region>Newcastle</region></placeName> Journal</hi>, <date when="1757-06-25">June 25, 1757</date>.</p>
+   </text>
+</TEI>

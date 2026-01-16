@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>To Sarah Ryan (November 22, 1757)</title>
+            <author>Wesley, John</author>
+            <editor>Van Buskirk, Gregory P.</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>The Wesley Works</publisher>
+            <pubPlace>Tampa, FL</pubPlace>
+            <date>2021-04-07</date>
+            <idno type="URI">http://wesleyworks.smu.edu/reviewer5/1757-11-22-ToSarahRyan</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <listBibl>
+               <biblStruct>
+                  <analytic>
+                     <title level="a">To Sarah Ryan (November 22, 1757)</title>
+                     <date when="1757-11-22"/>
+                  </analytic>
+                  <monogr>
+                     <title level="j">The Works of John Wesley, Volume 27: Letters III,
+                        1756-1765</title>
+                     <editor role="volume">Campbell, Ted A.</editor>
+                     <imprint>
+                        <publisher>Abingdon Press</publisher>
+                        <pubPlace>Nashville, TN</pubPlace>
+                        <date when="2015-11-03">2015-11-03</date>
+                        <biblScope unit="volume" n="27"/>
+                        <biblScope unit="page" from="105" to="106"/>
+                     </imprint>
+                  </monogr>
+                  <series>
+                     <title level="s">The Works of John Wesley</title>
+                     <editor role="general">Maddox, Randy L.</editor>
+                  </series>
+               </biblStruct>
+               <bibl n="2">Source: published transcription; <hi rend="italic">Arminian Magazine</hi>
+                  5 (<date when="1782">1782</date>): 46–47.</bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <particDesc>
+            <listPerson type="correspondents">
+               <person xml:id="pers2180">
+                  <persName>John Wesley</persName>
+               </person>
+               <person xml:id="pers1793">
+                  <persName>Sarah Ryan</persName>
+               </person>
+            </listPerson>
+            <listPerson type="notes">
+               <person xml:id="pers2091">
+                  <persName>Mary Wesley</persName>
+               </person>
+            </listPerson>
+         </particDesc>
+      </profileDesc>
+      <revisionDesc>
+         <listChange>
+            <change when="2023-04-06"> Jenna Gatley revised file to updated format/schema</change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <pb n="105"/>
+         <head>To <persName>Sarah Ryan</persName>
+                <note place="foot" n="1">Replying to <persName>
+                        <ref target="/persons/pers1793.xml"/>Ryan</persName>'s letter of <date when="1757-11-13">Nov.
+               13</date><!--We have this in Wesley's in-correspondence: 1756-1760, p. 96-->.</note>
+            </head>
+         <opener>
+            <placeName>
+                    <settlement>Norwich</settlement>
+                </placeName>
+            <lb/>
+            <date when="1757-11-22">November 22, 1757</date>
+            <lb/>
+            <lb/>
+            <salute>My Dear Sister,</salute>
+         </opener>
+         <p>
+                <seg ana="peace love">May the peace and love of God spring up in your heart as in time
+               past, and more abundantly!</seg>
+            <index indexName="biblical">
+               <term cRef="Phlm1:20">You have refreshed my bowels in the Lord.</term>
+            </index>
+            <seg ana="praisingGod">I feel your words, and praise God on your behalf.</seg>
+            <seg ana="simplicity freedom">I not only excuse but love your simplicity; and whatever
+               freedom you use, it will be welcome.</seg>
+            </p>
+         <p>Surely God will never suffer me to be ashamed of my confidence in you. <seg ana="jealousy Wesley'sMarriage">I have been censured for it by some of your nearest
+               friends, but I cannot repent of it.<note place="foot" n="2">
+                        <persName>
+                            <ref target="/persons/pers2091.xml"/>Mary Wesley</persName> and others had
+                  questioned the propriety of appointing a woman with such a reputation as that of
+                        <persName>
+                            <ref target="/persons/pers1793.xml"/>Sarah Ryan</persName> to the
+                  important role at <seg ana="KingswoodSchool">
+                            <placeName>Kingswood</placeName>
+                        </seg>. <index indexName="works">
+                     <term cRef="27:103">See the introductory note on the previous letter.</term>
+                  </index>
+                    </note>
+                </seg> Will not you <seg ana="strengthOfSpirit pneumatology theologicalSynergy workOfGod">put forth all your
+               strength (which indeed is not yours, it is the Spirit of the Father which now worketh
+               in you)</seg>: 1) in <seg ana="KingswoodSchool discipline">managing all things
+               pertaining to the house</seg>, so as to adorn the gospel of God our Saviour? 2) in
+               <seg ana="worksOfMercy">
+                    <index indexName="biblical">
+                  <term cRef="John21:15-19">feeding the sheep he has committed to your immediate
+                     care</term>
+               </index>, and carrying the weak and sickly in your bosom</seg>? 3) in <seg ana="cooperativeGrace discipline">
+                    <seg ana="KingswoodSchool">assisting, quickening,
+                  and directing the family at <placeName>Kingswood</placeName>
+                    </seg>, whom I trust
+               you will always bear upon your heart</seg>? 4) in <seg ana="discipline providence">reproving, stirring up, or confirming all whom the providence of God shall put into
+               your hands</seg>? And lastly, [5)] in <seg ana="watchfulness">watching over and
+               helping forward in the ways of God one who has more need of help than all the rest,
+               and who is always willing to receive it from <hi rend="italic">you</hi>, because you
+               always <index indexName="biblical">
+                  <term cRef="Eph4:15">speak the truth in love</term>
+               </index>
+                </seg>?</p>
+         <p>
+                <seg ana="spiritualInquiry">Do you find no interruption or abatement at any time of <seg ana="joy">your joy in the Lord</seg>?<note place="foot" n="3">These are typical
+                  questions that <persName>
+                            <ref target="/persons/pers2180.xml"/>JW</persName>
+                  addressed to those who had claimed <seg ana="ChristianPerfection salvation cleansedOfSin">Christian perfection, or
+                     being saved from all sin</seg> (<index indexName="works">
+                     <term cRef="27:106-107">see his letter to <persName>
+                                    <ref target="/persons/pers1793.xml"/>Ryan</persName> of <date when="1757-11-30">Nov. 30</date>
+                            </term>
+                  </index>). <seg ana="ChristianPerfection experience workOfGod grace">He was not
+                     trying to call their claim into question, but seeking to understand this
+                     experience of God's gracious work.</seg>
+                    </note> Do you continually see
+               God, and that without any cloud or darkness or mist between?<!--This may be an allusion to 1 Corinthians 13:12 ("for now we see through a glass, darkly…"-->
+               <seg ana="prayer inward/outward">Do you <index indexName="biblical">
+                     <term cRef="1Thess5:17">pray without ceasing,<note place="foot" n="4">See 1
+                           Thess. 5:17.</note>
+                            </term>
+                  </index> without ever being diverted from it by anything inward or outward?</seg>
+               <seg ana="spiritualHindrances">Are you never hindered by any person or thing? By <seg ana="Satan">the power or subtlety of Satan</seg>, or by <seg ana="disorder weaknessOfBody body/soul">the weakness or disorders of the body
+                     pressing down the soul</seg>?</seg>
+               <index indexName="biblical">
+                  <term cRef="1Thess5:18">Can you <seg ana="gratitude">be thankful for
+                        everything</seg>
+                     <pb n="106"/>without exception?<note place="foot" n="5">See 1 Thess.
+                        5:18.</note>
+                        </term>
+               </index> And do you feel <index indexName="biblical">
+                  <term cRef="Rom8:28">all working together for good?<note place="foot" n="6">See
+                        Rom. 8:28.</note>
+                        </term>
+               </index>
+               <seg ana="pleasingGod">Do you do nothing, great or small, merely to please
+                  yourself?</seg>
+               <seg ana="desire affections moralPsychology loveOfGod">Do you feel no touch of any
+                  desire or affection, but <seg ana="springs">what springs from the pure love of
+                     God</seg>?</seg>
+               <seg ana="ChristianConversation love pneumatology">Do you speak no words but from a
+                  principle of love and under the guidance of his Spirit?</seg>
+                </seg>
+            <seg ana="holiness">O how I long to find you unblameable in all things, and <index indexName="biblical">
+                  <term cRef="1Pet1:15">holy as he that hath called you is holy!<note place="foot" n="7">See 1 Pet. 1:15.</note>
+                        </term>
+               </index>
+                </seg>
+            </p>
+         <closer>I am,<lb/>
+            <signed>Yours, etc.,<lb/>
+               <persName>J.W.</persName>
+            </signed>
+         </closer>
+      </body>
+   </text>
+</TEI>

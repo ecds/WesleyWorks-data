@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>To Mary (Goldhawk/Vazeille) Wesley</title>
+            <author>Wesley, John</author>
+            <editor>Van Buskirk, Gregory P.</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>The Wesley Works</publisher>
+            <pubPlace>Tampa, FL</pubPlace>
+            <date>2021-04-07</date>
+         </publicationStmt>
+         <sourceDesc>
+            <listBibl>
+               <bibl n="1">
+                  <title>The Works of John Wesley, Volume 27: Letters III, 1756-1765</title>
+                  <editor role="volume">Campbell, Ted A.</editor>
+                  <editor role="general">Maddox, Randy L.</editor>
+                  <publisher>Abingdon Press</publisher>
+                  <pubPlace>Nashville, TN</pubPlace>
+                  <date>2015-11-03</date>
+               </bibl>
+               <bibl n="2"><hi rend="italic">Source:</hi> published excerpt, <bibl><hi rend="italic"><persName Wesley="JohnWesley">Wesley</persName>’s Chapel Magazine</hi> 8, no. 30 (<date when="1938-06">June 1938</date>): 11</bibl>.</bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <head>To <persName MaryGoldhawkVazeilleWesley="MaryWesley">Mary <addName>(Goldhawk/Vazeille)</addName> Wesley</persName></head>
+         <opener>
+            <placeName><district>Helston</district></placeName>
+            <lb/>
+            <date when="1757-09-15">September 15, 1757</date>
+            <lb/>
+            <lb/>
+           </opener>
+         <p><index indexName="biblical"><term cRef="Rom12:21">It is a blessed thing to overcome evil with good.<note place="foot" n="1">See Rom. 12:21.</note></term></index> <seg ana="education"><persName you="MaryWesley">You</persName> are at present the mistress of <orgName KingswoodHouse="KingswoodSchool"><placeName><district>Kingswood</district></placeName> house</orgName> and the women there are to follow your direction. If they do not know it, I desire <persName brotherParkinson="JohnParkinson"><addName>brother</addName> Parkinson</persName> to tell them so, <seg ana="mildness">only in a mild and loving manner</seg>. <seg ana="tea moderation">I desire him also to tell them I will allow no one in <orgName thatHouse="KingswoodSchool">that house</orgName> to drink tea twice a day</seg>.</seg></p>
+         </body>
+      <p><hi rend="italic">Source:</hi> published excerpt, <bibl><hi rend="italic"><persName Wesley="JohnWesley">Wesley</persName>’s Chapel Magazine</hi> 8, no. 30 (<date when="1938-06">June 1938</date>): 11</bibl>.</p>
+   </text>
+</TEI>

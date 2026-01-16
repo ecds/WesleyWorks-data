@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>To Thomas Olivers (March 24, 1757)</title>
+            <author>Wesley, John</author>
+            <editor>Van Buskirk, Gregory P.</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>The Wesley Works</publisher>
+            <pubPlace>Tampa, FL</pubPlace>
+            <date>2021-04-07</date>
+            <idno type="URI">http://wesleyworks.smu.edu/reviewer2/1757-03-24b-ToThomasOlivers</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <listBibl>
+               <biblStruct>
+                  <analytic>
+                     <title level="a">To Thomas Olivers (March 24, 1757)</title>
+                     <date when="1757-03-24"/>
+                  </analytic>
+                  <monogr>
+                     <title level="j">The Works of John Wesley, Volume 27: Letters III,
+                        1756-1765</title>
+                     <editor role="volume">Campbell, Ted A.</editor>
+                     <imprint>
+                        <publisher>Abingdon Press</publisher>
+                        <pubPlace>Nashville, TN</pubPlace>
+                        <date when="2015-11-03">2015-11-03</date>
+                        <biblScope unit="volume" n="27"/>
+                        <biblScope unit="page" from="76" to="77"/>
+                     </imprint>
+                  </monogr>
+                  <series>
+                     <title level="s">The Works of John Wesley</title>
+                     <editor role="general">Maddox, Randy L.</editor>
+                  </series>
+               </biblStruct>
+               <bibl n="2">Address: 'To / Mr <persName>
+                            <ref target="/persons/pers1539.xml"/>Tho. Olivers</persName>'. Source: holograph; <placeName>Drew, Methodist
+                     Archives</placeName>.</bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <particDesc>
+            <listPerson type="correspondents">
+               <person xml:id="pers2180">
+                  <persName>John Wesley</persName>
+               </person>
+               <person xml:id="pers1539">
+                  <persName>Thomas Olivers</persName>
+               </person>
+            </listPerson>
+            <listPerson type="mentions">
+               <person xml:id="pers1451">
+                  <persName>Frances 'Fanny' Moore</persName>
+               </person>
+               <person xml:id="pers1454">
+                  <persName>Sarah 'Sally' Moore</persName>
+               </person>
+            </listPerson>
+            <listPerson type="notes">
+               <person xml:id="pers1065">
+                  <persName>Christopher Hopper</persName>
+               </person>
+            </listPerson>
+         </particDesc>
+      </profileDesc>
+      <revisionDesc>
+         <listChange>
+            <change when="2023-04-07"> Jenna Gatley revised file to updated format/schema</change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <head>To <persName>Thomas Olivers</persName>
+            </head>
+         <opener>
+            <placeName>
+               <district>Lewisham</district>
+            </placeName>
+            <lb/>
+            <date when="1757-03-24">March 24, 1757</date>
+            <lb/>
+            <lb/>
+            <salute>Dear <persName>
+                        <ref target="/persons/pers1539.xml"/>Tommy</persName>,</salute>
+         </opener>
+         <p>
+            <seg ana="ChristianPerfection entireSanctification experience">We should neither be
+               forward nor backward in believing those who think they have attained <seg ana="secondBlessing">the second blessing.<note place="foot" n="1">There was
+                     currently a flurry of Methodists claiming the 'second blessing', a
+                     term that <persName>
+                                <ref target="/persons/pers2180.xml"/>JW</persName> used on
+                     occasion for entire sanctification or Christian perfection. This letter
+                     reflects <persName>
+                                <ref target="/persons/pers2180.xml"/>Wesley</persName>'s high interest in such claims, yet desire to test
+                     their validity.</note>
+                    </seg>
+               <seg ana="IrishMethodism">Of those in
+                     <placeName>
+                            <district>Courtmatrix</district>
+                        </placeName> and
+                        <placeName>
+                            <district>Ballingarrane</district>
+                        </placeName> I can form no
+                  judgment yet.</seg>
+               <seg ana="spiritualState sin peace joy love">Barely to feel no sin, or to feel
+                  constant peace, joy, and love, will not prove the point. <seg ana="backsliding">We
+                     have known some who remained in that state for several years, and yet have
+                     afterwards lost almost all they had received.</seg>
+                    </seg>
+                </seg>
+         </p>
+         <p>
+            <seg ana="ChristianPerfection">In the two sermons on this subject, <seg ana="MethodistConference">the Minutes of the Conference</seg>, the preface to the
+               second and third volumes of Hymns, and some of our controversial writings, you have a
+               full account of Christian perfection.<note place="foot" n="2">
+                        <persName>
+                            <ref target="/persons/pers2180.xml"/>Wesley</persName> refers specifically to
+                     <index indexName="works">
+                     <term cRef="1:398-414">Sermon 17, 'The Circumcision of the Heart'
+                        (1:398–414 in this edn.)</term>
+                  </index>; <index indexName="works">
+                     <term cRef="2:97-121">Sermon 40, <hi rend="italic">Christian Perfection</hi>
+                        (2:97–121 in this edn.)</term>
+                  </index>; <index indexName="works">
+                     <term cRef="10:778-785">the Doctrinal Minutes of <date when="1749">1749</date>
+                        (10:778–85 in this edn.)</term>
+                  </index>; and <index indexName="works">
+                     <term cRef="13:42-53">the prefaces to <hi rend="italic">
+                                    <abbr>HSP</abbr>
+                                </hi>
+                        <date when="1740">1740</date> and <hi rend="italic">
+                                    <abbr>HSP</abbr>
+                                </hi>
+                        <date when="1742">1742</date> (13:42–53 in this edn.)</term>
+                  </index>.</note> 1) <seg ana="salvation cleansedOfSin inward/outward holiness">It
+                  undoubtedly implies salvation from all sin, inward and outward, into all
+                  holiness.</seg> 2) <seg ana="heaven holinessAndHappiness">Without it none can be
+                  admitted into heaven, nor be completely happy upon earth. <seg ana="perfectionNotRequired guidance counsel study">But <pb n="77"/>we must
+                     speak very tenderly on this head, for it is far better to <hi rend="italic">lead</hi> men than to <hi rend="italic">drive</hi>. Study to recommend it
+                     rather as amiable and desirable than as necessary.</seg>
+                    </seg> 3) <seg ana="growthInGrace gradualGrowth instantaneousGrowth processiveSalvation instantaneousSalvation prevenientGrace operativeGrace">A <hi rend="italic">gradual</hi> growth in grace precedes, but the gift itself is
+                  always given <hi rend="italic">instantaneously</hi>.</seg> I never knew or heard
+               of any exception; and I believe there never was one. 4) <seg ana="testimonyOfTheSpirit assurance spiritualFruit inabilityToSin">One fruit given
+                  at the same instant (at least usually) is a direct, positive testimony of the
+                  Spirit that the work is done, <seg ana="perseverance">that they cannot fall
+                     away</seg>, that they cannot sin.</seg>
+               <seg ana="spiritOfBondage fear light love joy wisdom holinessAndHappiness">In
+                  consequence of this they have no slavish fear, but uninterrupted light, love, and
+                  joy, <seg ana="spiritualGrowth">with continual growth in wisdom, holiness, and
+                     happiness, till they <index indexName="biblical">
+                        <term cRef="Eph3:19">are filled with all the fullness of God</term>
+                     </index>.</seg>
+                    </seg>
+                </seg>
+         </p>
+         <p>
+            <seg ana="pride stubbornness">Beware of pride and stubbornness.</seg>
+            <seg ana="itinerancy MethodistLeaders IrishMethodism">Consult <persName>brother
+                  Hopper</persName> in all things.<note place="foot" n="3">I.e., <persName>
+                            <ref target="/persons/pers1065.xml"/>Christopher Hopper</persName>, who was
+                  apparently the senior itinerant supervising <persName>
+                            <ref target="/persons/pers1539.xml"/>Olivers</persName> during this stationing in
+                        <placeName>
+                            <country>Ireland</country>
+                        </placeName>.</note>
+                </seg>
+            <seg ana="ChristianPerfection">Be obstinate only in <index indexName="biblical">
+                  <term cRef="Heb6:1">pressing on to perfection</term>
+               </index>.</seg>
+         </p>
+         <closer>
+                <seg ana="IrishMethodism">My love to <persName>
+                        <ref target="/persons/pers1451.xml"/>Fanny</persName> and <persName>
+                        <ref target="/persons/pers1454.xml"/>Sally
+                  Moore</persName>. They forget me as soon as I cross the water.</seg> Peace be with
+            your spirit. I am, <signed>Your affectionate brother,<lb/>
+               <persName>J. Wesley</persName>
+            </signed>
+         </closer>
+      </body>
+   </text>
+</TEI>
