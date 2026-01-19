@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>To Francis Okeley (October 4, 1758)</title>
+            <author>Wesley, John</author>
+            <editor>Gatley, Jenna</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>The Wesley Works</publisher>
+            <pubPlace>Tampa, FL</pubPlace>
+            <date>2022-02-24</date>
+            <idno type="URI">http://wesleyworks.smu.edu/reviewer2/1758-10-04-ToFrancisOkeley</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <listBibl>
+               <biblStruct>
+                  <analytic>
+                     <title level="a">To Francis Okeley (October 4, 1758)</title>
+                            <date when="1758-10-04"/>
+                  </analytic>
+                  <monogr>
+                     <title level="j">The Works of John Wesley, Volume 27: Letters III,
+                        1756-1765</title>
+                     <editor role="volume">Campbell, Ted A.</editor>
+                     <imprint>
+                        <publisher>Abingdon Press</publisher>
+                        <pubPlace>Nashville, TN</pubPlace>
+                        <date when="2015-11-03">2015-11-03</date>
+                        <biblScope unit="volume" n="27"/>
+                        <biblScope unit="page" from="135" to="137"/>
+                     </imprint>
+                  </monogr>
+                  <series>
+                     <title level="s">The Works of John Wesley</title>
+                     <editor role="general">Maddox, Randy L.</editor>
+                  </series>
+               </biblStruct>
+               <bibl n="2">Endorsement: in <persName>
+                            <ptr target="/persons/pers2180.xml"/>JW</persName>’s hand, ‘<date when="1758-10-08">Oct. 8 [<hi rend="italic">sic</hi>], 1758</date> / to <persName>
+                            <ptr target="/persons/pers1528.xml"/>Mr O</persName>’. Source: manuscript copy by secondary hand for <persName>
+                            <ptr target="/persons/pers2180.xml"/>JW</persName>; MARC, MA <date when="1977">1977</date>/609.</bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <particDesc>
+            <listPerson type="correspondents">
+               <person xml:id="pers2180">
+                        <persName>John Wesley</persName>
+                    </person>
+               <person xml:id="pers1528">
+                        <persName>Francis Okeley</persName>
+                    </person>
+            </listPerson>
+            <listPerson type="mentions">
+               <person xml:id="pers2102">
+                        <persName>Richard Viney</persName>
+                    </person>
+               <person xml:id="pers2176">
+                        <persName>Charles Wesley</persName>
+                    </person>
+            </listPerson>
+            <listPerson type="notes">
+               <person xml:id="persx3">
+                        <persName>[x]</persName>
+                    </person>
+            </listPerson>
+         </particDesc>
+      </profileDesc>
+      <revisionDesc>
+         <listChange>
+            <change when="2022-01-01">note about revisions made</change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <head>To <persName>
+                    <ptr target="/persons/pers1528.xml"/>Francis Okeley</persName>
+                <note place="foot" n="1">
+                    <persName>
+                        <ptr target="/persons/pers1528.xml"/>Francis Okeley</persName> (<date from="1719" to="1794">1719–94</date>), a fellow member with <persName>
+                        <ptr target="/persons/pers2180.xml"/>JW</persName> of the <seg ana="FetterLaneSociety">Fetter Lane society</seg> in <date when="1738">1738</date>, <seg ana="Moravians">had cast his lot with the Moravians as this group split. He ministered most of his life among the Moravians, though frequently became dissatisfied and moved around.</seg> <seg ana="itinerancy">For a short time in <date when="1758">1758</date> he had joined <persName>
+                            <ptr target="/persons/pers2180.xml"/>JW</persName> in his tour of <placeName>Ireland</placeName>
+                    </seg>, but as this letter shows he quickly made clear that <seg ana="Moravians">he would not align with <persName>
+                            <ptr target="/persons/pers2180.xml"/>Wesley</persName> if it meant disavowing his Moravian ‘Brethren’.</seg> For more on <persName>
+                        <ptr target="/persons/pers1528.xml"/>Okeley</persName>, see <index indexName="works">
+                        <term cRef="21:136">21:136, n. 45 in this edn.</term>
+                    </index>
+                </note>
+            </head>
+         <opener>
+                <placeName>Salisbury</placeName>
+            <lb/>
+            <date when="1758-10-04">October 4, 1758</date>
+            <lb/>
+            <salute>Dear Sir,</salute>
+         </opener>
+         <p>
+                <seg ana="correspondenceFrequency">The plain reason why I did not answer you before is I had no heart to write</seg>, for I had no expectation of doing any good. And why should I trouble myself or you to no purpose? <seg ana="providence">However, I will once more cast my bread upon the waters,<note place="foot" n="2">Cf. <index indexName="biblical">
+                            <term cRef="Eccl11:1">Eccl. 11:1</term>
+                        </index>.</note> and leave the event to God.</seg>
+            </p>
+         <p>1. <seg ana="preaching faith">You say, <q>‘I cannot preach because I have not faith.’</q>
+                </seg>
+                <note place="foot" n="3">As <persName>
+                        <ptr target="/persons/pers2180.xml"/>JW</persName> states later, he is quoting from and replying to a letter that <persName>
+                        <ptr target="/persons/pers1528.xml"/>Okeley</persName> wrote to <persName>
+                        <ptr target="/persons/pers2176.xml"/>CW</persName>, which does not appear to have survived.</note> That is not the thing; you do not speak simply. <seg ana="Moravians preaching">The direct reason why you did not preach at <placeName>Bristol</placeName> was because you would not displease the Brethren. They have still hold of your heart. The chain enters into your soul, therefore you could not even seem to <hi rend="italic">act against them</hi>.</seg>
+            </p>
+            <pb n="136"/>
+         <p>2. <seg ana="faith doctrine">
+                    <q>‘I am not convinced, and cannot be so, that what <hi rend="italic">now passes</hi> for faith…’</q> Hold! <seg ana="Methodists">Do you mean that what <hi rend="italic">now passes</hi> for faith among the Methodists is not true Christian faith, that we have not a right conception of faith?</seg> <seg ana="Moravians">I know the teachers among <hi rend="italic">the Brethren</hi> have not.</seg> <seg ana="apostles primitiveChurch">But the conception which we now have of faith is the same which the apostles had</seg>, <seg ana="conviction">for we conceive faith to be ‘a divine <foreign>ἔλεγχος</foreign><!--GVB: I would like to add the lang="Greek" attribute here and below.--> of things not seen’,<note place="foot" n="4">
+                            <index indexName="biblical">
+                                <term cRef="Heb11:1">Heb. 11:1</term>
+                            </index>; <foreign>ἔλεγχος</foreign> is the term translated <gloss>‘conviction’</gloss> in this verse.</note>
+                    </seg> particularly of this, <seg ana="Aldersgate">that Christ loved <hi rend="italic">me</hi> and gave himself for <hi rend="italic">me</hi>.</seg>
+                </seg> Did St. Paul conceive it to be either less or more? <hi rend="italic">You</hi> know he did not.</p>
+         <p>
+                <q>‘But I am not convinced, and cannot be so, that this is experienced by most that profess it’</q>—<seg ana="MethodistSocieties">suppose in the united society at <placeName>Bristol</placeName>
+                </seg>. I know you are not convinced of this and that you cannot be so. But <seg ana="humanUnderstanding heart">the hindrance lies in your heart, not your understanding</seg>. You <hi rend="italic">cannot</hi> because you <hi rend="italic">will not</hi>; so much of the old prejudice still remains, and says, <foreign>non persuadebis etiamsi persuaseris</foreign><!--GVB: I would like to add the lang="Latin" attribute here.-->.<note place="foot" n="5">Aristophanes, <hi rend="italic">Plutus</hi>, l. 60; which <persName>
+                        <ptr target="/persons/pers2180.xml"/>JW</persName> translated, <gloss>‘Thou shalt not persuade me, though thou dost persuade me’</gloss> in Sermon 83, ‘On Patience’, § 11, <index indexName="works">
+                        <term cRef="3:177">3:177 in this edn.</term>
+                    </index>
+                </note> <seg ana="faith">But you <hi rend="italic">ought</hi> to be convinced that <hi rend="italic">most of them</hi> who there profess it truly experience what they profess. For (unless they are an whole heap of wilful liars, which you <hi rend="italic">ought</hi> not to think without proof) <seg ana="fruitsOfFaith">they have those fruits which cannot possibly subsist without true Christian faith. <seg ana="peace">They have <index indexName="biblical">
+                                <term cRef="Phil4:7">a peace that passes all understanding</term>
+                            </index>
+                            <note place="foot" n="6">See <index indexName="biblical">
+                                    <term cRef="Phil4:7">Phil. 4:7</term>
+                                </index>.</note> and <seg ana="fear death">banishes the fear of death</seg>.</seg> <seg ana="love loveFromGod">They have <index indexName="biblical">
+                                <term cRef="Rom5:5">the love of God shed abroad in their heart</term>
+                            </index>,<note place="foot" n="7">See <index indexName="biblical">
+                                    <term cRef="Rom5:5">Rom. 5:5</term>
+                                </index>.</note> <seg ana="worldliness">overcoming the love of the world</seg>.</seg> <seg ana="powerOverSin">And they have abiding power over all sin, even that which did easily beset them.<note place="foot" n="8">See <index indexName="biblical">
+                                    <term cRef="Heb12:1">Heb. 12:1</term>
+                                </index>.</note>
+                        </seg> Now, what excuse have you for not being convinced that <hi rend="italic">they</hi> have faith, who have fruits which nothing but faith can produce?</seg>
+                </seg>
+            </p>
+         <p>3. <q>‘But they seem at best to have the <hi rend="italic">letter of the new covenant</hi> and the <hi rend="italic">spirit of the old</hi>.’</q> How so? <seg ana="theGospel love loveForGod loveForHumanity">What is the spirit of the new covenant? Is it not love, the love of God and man? <hi rend="italic">This spirit</hi> they have; <seg ana="springs desire actions words">it is the great moving spring both of their desires, designs, words, and actions</seg>.</seg> This also cannot be denied, unless they are the vilest liars upon earth. <seg ana="examination">I speak now more confidently, having last week (together with my <persName>
+                        <ptr target="/persons/pers2176.xml"/>brother</persName>) examined all one by one.</seg>
+            </p>
+         <p>4. <q>‘But still you have not found what you expected <seg ana="Methodists">among the Methodists, nor can you see your way clear to join them</seg>.’</q> I think this was the sum of what you wrote to <persName>
+                    <ptr target="/persons/pers2176.xml"/>my brother</persName>. But what did <pb n="137"/>you expect to have found among them? <seg ana="faith love holiness">Faith and love and holiness (whether in your own soul or not) you did find among them—at least, you <hi rend="italic">ought</hi> to have found them, for there they are</seg>, which neither men nor devils can deny. What else did you expect to find? Or why cannot you see your way clear to join them? I will tell you why. <seg ana="marriage family ease cowardice">You have at least five strong reasons to the contrary: 1) a wife, 2) a mother, 3) children, 4) cowardice, 5) love of ease.</seg> But are these reasons good in the sight of God? I will not affirm that.</p>
+         <p>5. <seg ana="Moravians">
+                    <q>‘However, <hi rend="italic">the Brethren</hi> are good men, and I dare not oppose them.’</q> If they are not <hi rend="italic">the only people</hi> of God<note place="foot" n="9">
+                        <persName>
+                            <ptr target="/persons/pers2180.xml"/>JW</persName> assumes that the Brethren are making this claim.</note> (which they cannot be if the Scriptures are true), they are not good men; they are very wicked men. <seg ana="deception lying pride">They are as a body deceiving and being deceived. They are liars, proud, boasters, despisers of those that are good, <seg ana="devil"><!--GVB: This tag is rather conjectural!-->slaves to an ungodly man, and continually labouring to enslave others to him</seg>.</seg> O take warning at last! Have no commerce with them! <index indexName="biblical">
+                        <term cRef="Num16:26">Come not near the tents of these wicked men</term>
+                    </index>,<note place="foot" n="10">
+                        <index indexName="biblical">
+                            <term cRef="Num16:26">Num. 16:26</term>
+                        </index>.</note> <index indexName="biblical">
+                        <term cRef="Ps55:21">whose words are smoother than oil, and yet they are very swords!</term>
+                    </index>
+                    <note place="foot" n="11">
+                        <index indexName="biblical">
+                            <term cRef="Ps55:21">Ps. 55:21</term>
+                        </index>.</note> <seg ana="workOfGod">I dare not but oppose them, for in many places they have wellnigh destroyed the work of God.</seg> <seg ana="faith love hell">Many souls, once full of faith and love, they have caused to draw back to perdition. Many they have driven into the deep and then triumphed over them.</seg>
+                </seg> Beware it be not so with <hi rend="italic">you</hi>. You have greatly resisted the Spirit in this matter! Remember <persName>
+                    <ptr target="/persons/pers2102.xml"/>Richard Viney</persName>
+                <note place="foot" n="12">
+                    <persName>
+                        <ptr target="/persons/pers2102.xml"/>Richard Viney</persName> was one of the earliest English adherents of the <seg ana="Moravians">Moravians</seg> in <placeName>London</placeName>. He was later ejected from the <seg ana="Moravians">Moravian</seg> community and sought fellowship with <persName>
+                        <ptr target="/persons/pers2180.xml"/>Wesley</persName>, but ended up creating <seg ana="MethodistRancor">a disturbance in <seg ana="MethodistSocieties">the Wesleyan society in <placeName>Birstall</placeName>
+                        </seg>
+                    </seg>; <index indexName="works">
+                        <term cRef="19:159 25:583">see 19:159, n. 26 &amp; 25:583, n. 7 in this edn.</term>
+                    </index>
+                </note>—<seg ana="biblicalAllusion">
+                    <index indexName="biblical">
+                        <term cRef="Gen19:26">a pillar of salt, not because he came out of <placeName>Sodom</placeName>, but because he <hi rend="italic">looked back</hi>
+                        </term>
+                    </index>!<note place="foot" n="13">See <index indexName="biblical">
+                            <term cRef="Gen19:26">Gen. 19:26</term>
+                        </index>.</note>
+                </seg>
+            </p>
+         <closer>I am, dear sir,<lb/>
+            <signed>Your affectionate brother and servant,
+               <lb/>
+               <persName>
+                        <ptr target="/persons/pers2180.xml"/>J. Wesley</persName>
+            </signed>
+         </closer>
+      </body>
+   </text>
+</TEI>

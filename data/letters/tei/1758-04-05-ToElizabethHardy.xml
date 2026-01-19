@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>To Elizabeth Hardy (April 5, 1758)</title>
+            <author>Wesley, John</author>
+            <editor>Gatley, Jenna</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>The Wesley Works</publisher>
+            <pubPlace>Tampa, FL</pubPlace>
+            <date>2022-02-20</date>
+            <idno type="URI">http://wesleyworks.smu.edu/reviewer1/1758-04-05-ToElizabethHardy</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <listBibl>
+               <biblStruct>
+                  <analytic>
+                     <title level="a">To Elizabeth Hardy (April 5, 1758)</title>
+                     <date when="1758-04-05"/>
+                  </analytic>
+                  <monogr>
+                     <title level="j">The Works of John Wesley, Volume 27: Letters III,
+                        1756-1765</title>
+                     <editor role="volume">Campbell, Ted A.</editor>
+                     <imprint>
+                        <publisher>Abingdon Press</publisher>
+                        <pubPlace>Nashville, TN</pubPlace>
+                        <date when="2015-11-03">2015-11-03</date>
+                        <biblScope unit="volume" n="27"/>
+                        <biblScope unit="page" from="119" to="123"/>
+                     </imprint>
+                  </monogr>
+                  <series>
+                     <title level="s">The Works of John Wesley</title>
+                     <editor role="general">Maddox, Randy L.</editor>
+                  </series>
+               </biblStruct>
+               <bibl n="2">Source: published transcription; Arminian Magazine 3 (<date when="1780">1780</date>): 223–27.</bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <particDesc>
+            <listPerson type="correspondents">
+               <person xml:id="pers2180"><persName>John Wesley</persName></person>
+               <person xml:id="pers0934"><persName>Elizabeth Hardy</persName></person>
+            </listPerson>
+            <listPerson type="mentions">
+               <person xml:id="pers1778"><persName>James Rouquet</persName></person>
+               <person xml:id="pers2127"><persName>Thomas Walsh</persName></person>
+            </listPerson>
+         </particDesc>
+      </profileDesc>
+      <revisionDesc>
+         <listChange>
+            <change when="2022-01-01">note about revisions made</change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <head>To <persName><ptr target="/persons/pers0934.xml"/>Elizabeth Hardy</persName><note place="foot" n="1"><hi rend="italic">AM</hi> labels this simply ‘To Miss H—’. But <index indexName="works"><term cRef="27:125-126 27:279-280">related letters of <date when="1758-05">May 1758</date> and <date when="1761-12-26">Dec. 26, 1761</date></term></index> are specified as being to <persName><ptr target="/persons/pers0934.xml"/>Elizabeth Hardy</persName>. Little is known of <persName><ptr target="/persons/pers0934.xml"/>Hardy</persName> beyond these letters. <persName>Telford</persName><!--GVB: Telford was the editor of the previous edition of Wesley's letters. I've debated whether to include such person-al references.--> says she lived in <placeName>Bristol</placeName>.</note></head>
+         <opener>
+            <placeName>Dublin</placeName>
+            <lb/>
+            <date when="1758-04-05">April 5, 1758</date>
+            <lb/>
+            <salute/>
+         </opener>
+         <p><seg ana="disputation">It is with great reluctance that I at length begin to write: first, because I abhor disputing, and never enter upon it but when I am, <pb n="120"/>as it were, dragged into it by the hair of the head; and next, because I have so little hope that any good will arise from the present dispute.</seg> <seg ana="passions reasoning">I fear your passions are too deeply interested in the question to admit the force of the strongest reason.</seg> So that, were it not for the tender regard I have for you, which makes your desire a motive I cannot resist, I should not spend half an hour in so thankless a labour, and one wherein I have so little prospect of success.</p>
+         <lb/>
+         <p><seg ana="doctrine perfection">‘The doctrine of perfection’, you say, ‘has perplexed you much since <seg ana="MethodistPreachers">some of our preachers</seg> have placed it in so dreadful a light, one of them affirming a believer, till perfect, is <seg ana="punishment">under the curse of God and in a state of damnation; another, if you die before you have attained it, you will surely perish</seg>.’</seg></p>
+         <p><seg ana="perfection perfectLove loveForGod">By ‘perfection’ I mean ‘perfect love’, or the loving God with all our heart, so as to <index indexName="biblical"><term cRef="1Thess5:16">rejoice evermore</term></index>, to <index indexName="biblical"><term cRef="1Thess5:17">pray without ceasing</term></index>, and <index indexName="biblical"><term cRef="1Thess5:18">in everything to give thanks</term></index>.<note place="foot" n="2">See <index indexName="biblical"><term cRef="1Thess5:16-18">1 Thess. 5:16–18</term></index>.</note></seg> I am convinced every believer may attain this, yet I do not say he is in a state of damnation or under the curse of God till he does attain. <seg ana="grace stateOfGrace favorOfGod">No, he is in a state of grace and in favour with God as long as he believes.</seg> Neither would I say, ‘If you die without it, you will perish’; but rather, <seg ana="moralPsychology tempers unholyTempers">‘Till you are saved from unholy tempers, you are not ripe for glory. There will, therefore, more promises be fulfilled in your soul before God takes you to himself.’</seg></p>
+         <p><seg ana="perfection attainability">‘But none can attain perfection unless they first believe it attainable.’ Neither do I affirm this. <seg ana="Calvinism">I know a Calvinist in <placeName>London</placeName> who never believed it attainable till the moment she did attain it, and then lay declaring it aloud for many days</seg> till her spirit returned to God.</seg></p>
+         <p><seg ana="corruptibleBody sinAsInfection originalSin">‘But you yourself believed twenty years ago that we should not put off the infection of nature but with our bodies.’ I did so. But I believe otherwise now</seg><!--GVB: I am taking a significant interpretive leap here.-->, for many reasons, some of which you afterwards mention. How far Mr. <persName><ptr target="/persons/pers1778.xml"/>[James] Rouquet</persName> or Mr. <persName><ptr target="/persons/pers2127.xml"/>[Thomas] Walsh</persName> may have mistaken these I know not. I can only answer for myself.</p>
+         <p>‘The nature and fitness of things’ is so ambiguous an expression that I never make use of it. Yet <seg ana="cleansedOfSin">if you ask me, ‘Is it fit or necessary in the nature of things that a soul should be saved from all sin before it enters into glory?’ I answer, it is.</seg> And so it is written, ‘<index indexName="biblical"><term cRef="Rev21:27">No unclean thing shall enter into it</term></index>.’<note place="foot" n="3"><index indexName="biblical"><term cRef="Rev21:27">Rev. 21:27</term></index>.</note> <seg ana="degreesOfHoliness cleansedOfSin eternalLife">Therefore, whatever degrees of holiness <pb n="121"/>they did or did not attain in the preceding parts of life, <seg ana="Jews heathens">neither Jews nor heathens any more than Christians ever did or ever will enter into the New Jerusalem unless they are cleansed from all sin before they enter into eternity</seg>.</seg></p>
+         <p><seg ana="Jews"><seg ana="HebrewBible revelation">I do by no means exclude the Old Testament from bearing witness to any truths of God. Nothing less! But I say <seg ana="experience">the experience of the <hi rend="italic">Jews</hi> is not the standard of <hi rend="italic">Christian</hi> experience</seg></seg> and that therefore, were it true ‘The Jews did not love God with all their heart and soul’, it would not follow ‘Therefore no Christian can’, because we may attain what they did not.</seg></p>
+         <p><seg ana="perfection covenant">‘But’, you say, ‘either their words do not contain a promise of <hi rend="italic">such perfection</hi>, or God did not fulfil this promise to them to whom he made it.’ I answer, he surely will fulfil it to <hi rend="italic">them to whom he made it</hi>—namely, <seg ana="JewishDiaspora">to the Jews <hi rend="italic">after their dispersion into all lands</hi></seg>. And to these is the promise made, as will be clear to any who impartially considers <index indexName="biblical"><term cRef="Deut30">the 30th chapter of Deuteronomy</term></index>, wherein it stands.</seg></p>
+         <p><seg ana="perfection">I doubt whether this perfection can be proved by <index indexName="biblical"><term cRef="Luke6:40">Luke 6:40</term></index>. <seg ana="childOfGod">From <index indexName="biblical"><term cRef="1John3:9">1 John 3:9</term></index> (which belongs to all the children of God)</seg> I never attempted to prove it. But I still think it is clearly described in those words, ‘<index indexName="biblical"><term cRef="1John4:17">As he is, so are we in this world</term></index>.’<note place="foot" n="4"><index indexName="biblical"><term cRef="1John4:17">1 John 4:17</term></index>.</note></seg> And yet it doth not now appear <index indexName="biblical"><term cRef="Phil3:21">‘what we shall be’ when <seg ana="corruptibleBody">this vile body</seg> is <seg ana="bodyOfChrist">‘fashioned like unto his glorious body</seg></term></index>’,<note place="foot" n="5">Phil. 3:21.</note> <index><term cRef="1Cor13:12 2Cor3:18"><seg ana="beatificVision spiritualTransformation">when we shall see him, not in a glass, but face to face, and be transformed into his likeness</seg>.</term></index></p>
+         <p><seg ana="justification">Those expressions <index indexName="biblical"><term cRef="John13:10">(John 13:10), ‘Ye are clean, clean every whit,’</term></index> are allowed to refer to justification only. <seg ana="walkingLikeChrist light">But that expression, <index indexName="biblical"><term cRef="1John1:7">‘If we walk in the light as he is in the light’,<note place="foot" n="6">1 John 1:7.</note></term></index> cannot refer to justification only. It does not relate to justification at all, whatever the other clause may do.</seg></seg> Therefore those texts are by no means parallel, neither can the latter be limited by the former, although it is sure the privileges described in both belong to every adult believer.</p>
+         <p><seg ana="scripture">Not<note place="foot" n="7">Orig., ‘But not’.</note> only abundance of particular texts, but the whole tenor of Scripture declares</seg>, <seg ana="workOfChrist salvation sin devil">Christ came to <index indexName="biblical"><term cRef="1John3:8">‘destroy the works of the devil’,<note place="foot" n="8">1 John 3:8.</note></term></index> to <index indexName="biblical"><term cRef="Matt1:21">‘save us from our sins’;<note place="foot" n="9">Cf. Matt. 1:21.</note></term></index> all the works of the devil, all our sins, without any exception or limitation</seg>. Indeed, should <index indexName="biblical"><term cRef="1John1:8">‘we say we have no sin’<note place="foot" n="10">1 John 1:8.</note></term></index> <seg ana="cleansedOfSin">to be saved or cleansed from, we should make him come in <pb n="122"/>vain. But it is at least as much for his glory to cleanse us from them all before our death as after it</seg>.</p>
+         <p>‘But St James says, <index indexName="biblical"><term cRef="James3:2">“In many things we offend all”;<note place="foot" n="11">James 3:2.</note></term></index> and whatever “we” might mean if alone, the expression “we all” was never before understood to exclude the person speaking.’<note place="foot" n="12"><persName><ptr target="/persons/pers0934.xml"/>Hardy</persName> is specifically rejecting <persName><ptr target="/persons/pers2180.xml"/>Wesley</persName>’s treatment of this verse in Sermon 40, <hi rend="italic">Christian Perfection</hi>, II.17 (<index indexName="works"><term cRef="2:114-115">2:114–15 in this edn.</term></index>).</note> Indeed it was. It is unquestionably to be understood so as to exclude Isaiah, the person speaking, <index indexName="biblical"><term cRef="Isaiah64:6">‘We are all as an unclean thing. We all do fade as a leaf; and our iniquities, like the wind, have taken us away’ (64<!--GVB: Corrected.-->:6)</term></index>. For this was not the case with Isaiah himself. Of himself he says, <index indexName="biblical"><term cRef="Isaiah61:10">‘My soul shall be joyful in my God; for he hath clothed me with the garments of salvation. He hath covered me with the robe of righteousness’ (61<!--GVB: Corrected.-->:10)</term></index>. Here the prophet, like the apostle, uses the word ‘we’ instead of ‘you’ to soften the harshness of an unpleasing truth.</p>
+         <p>In this chapter the apostle is not cautioning them against censuring others, but entering upon a new argument wherein the second verse has an immediate reference to the first, but none at all to the thirteenth of the preceding chapter.<note place="foot" n="13"><index indexName="biblical"><term cRef="James2:13">James 2:13, ‘For he shall have judgment without mercy that hath showed no mercy, and mercy rejoiceth against judgment.’</term></index></note></p>
+         <p>I added, ‘“We offend all” cannot be spoken of all […] Christians, for immediately there follows the mention of one who “offends not,” as the “we” before-mentioned did.’<note place="foot" n="14">Sermon 40, <hi rend="italic">Christian Perfection</hi>, II.17 (<index indexName="works"><term cRef="2:115">2:115 in this edn.</term></index>).</note> You answer, ‘His not offending <hi rend="italic">in word</hi> will not prove that he does not offend <hi rend="italic">in many things</hi>.’ <seg ana="actions words holiness perfection divineWill">I think St James himself proves it in saying, <index indexName="biblical"><term cRef="James3:2">‘He is able to bridle also the whole body’,<note place="foot" n="15">James 3:2.</note></term></index> to direct all his actions as well as words according to the holy, perfect will of God, which those, and those only, are able to do who love God with all their hearts.</seg> <seg ana="pardon sin sinProperlySoCalled">And yet these very persons can sincerely say, ‘Forgive us our trespasses.’ <seg ana="corruptibleBody mistakes">For as long as they are in the body, they are liable to mistake and to speak or act according to that mistaken judgement.</seg><note place="foot" n="16">Another instance of <persName><ptr target="/persons/pers2180.xml"/>JW</persName>’s distinction between such trespasses and ‘sin properly so called’, or <seg ana="humanVolition willfulDisobedience divineLaw">‘a voluntary transgression of a known law of God’</seg>; cf. <persName><ptr target="/persons/pers2180.xml"/>JW</persName>, ‘Thoughts on Christian Perfection’ (<date when="1760">1760</date>), Q. 6, <index indexName="works"><term cRef="13:61-62">13:61–62 in this edn.</term></index></note> <seg ana="justice mercy">Therefore they cannot abide the rigour of justice, but still need mercy and forgiveness.</seg></seg></p>
+         <p><seg ana="death salvation">Were <hi rend="italic">you</hi> to ask, ‘What if I should die this moment?’ I should answer, I believe you would be saved, because I am persuaded <seg ana="faith justification doctrine peace joy">none that has faith can die before he is made ripe for glory. This is the doctrine which I continually teach which has nothing to do with <pb n="123"/>justification by works. Nor can it discourage any who have faith, neither weaken their peace, nor damp their joy in the Lord.</seg> <seg ana="temptation unholyTemper devil">True believers are not distressed hereby, either in life or in death; unless in some rare instance wherein the temptation of the devil is joined with a melancholy temper.</seg></seg></p>
+         <p>Upon the whole, <seg ana="doctrine">I observe your great argument turns all along on a mistake of the doctrine.</seg> Whatever warm expressions may drop from young men, <seg ana="punishment">we do not teach that any believer is under condemnation</seg>. So that all the inferences drawn from this supposition fall to the ground at once.</p>
+         <p>Your other letter I hope to consider hereafter. Though I have great reason to apprehend your prejudice will still be too strong for my arguments. <seg ana="perfection">However, whether you expect it or not, I must wish for your perfection. You of all people have most need of <seg ana="perfectLove fear"><index indexName="biblical"><term cRef="1John4:18">perfect love, because this alone casts out fear</term></index></seg>.</seg></p>
+         <closer>I am, with great sincerity,<lb/>
+            <signed>Your affectionate brother and servant,
+               <lb/>
+               <persName><ptr target="/persons/pers2180.xml"/>John Wesley</persName>
+            </signed>
+         </closer>
+      </body>
+   </text>
+</TEI>
