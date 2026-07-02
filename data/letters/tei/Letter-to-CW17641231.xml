@@ -14,8 +14,9 @@
             <publisher>The Wesley Works</publisher>
             <pubPlace>Tampa, FL</pubPlace>
             <date>2024-07-18</date>
-                      <idno type="URI">https://wesleyworks.ecdsdev.org/letters/Letter-to-CW17641231</idno>       
+            <idno type="URI">https://wesleyworks.ecdsdev.org/letters/Letter-to-CW17641231</idno>       
             <!--Student encoders should not worry about the idno about this time. You can leave it an empty element.-->
+                      
          </publicationStmt>
          <sourceDesc>
             <listBibl>
@@ -44,9 +45,10 @@
                <bibl n="2">No <hi rend="italic">address</hi>, <hi rend="italic">postmark</hi>, or
                   indications of postal <hi rend="italic">charge</hi>; apparently delivered by
                   hand.<lb/>
-                  Endorsement: in <persName><ref target="/persons/pers2176.xml"
-                  />CW</persName>&apos;s hand, &apos;B. <date when="1764-12-31">Dec. 31, 1764</date>
-                  <persName><ref target="/persons/pers1396.xml"/>J. Matthews</persName> death&apos;.
+                  Endorsement: in <persName>
+                            <ref target="/persons/pers2176.xml"/>CW</persName>'s hand, 'B. <date when="1764-12-31">Dec. 31, 1764</date>
+                  <persName>
+                            <ref target="/persons/pers1396.xml"/>J. Matthews</persName> death'.
                   Source: holograph; MARC, DDWes 3/26.</bibl>
                <!--Not sure how to add "the address/delivered by hand."-->
             </listBibl>
@@ -138,73 +140,92 @@
    <text>
       <body>
          <pb n="405"/>
-         <head>To <persName><ref target="/persons/pers2176.xml"/>the Rev. Charles
-            Wesley</persName></head>
+         <head>To <persName>
+                    <ref target="/persons/pers2176.xml"/>the Rev. Charles
+            Wesley</persName>
+            </head>
          <opener>
             <placeName>London</placeName>
             <lb/>
             <date when="12-31-1764">December 31, 1764</date>
             <lb/>
             <lb/>
-            <salute>Dear Brother,</salute>
+            <salute>[[Dear Brother,]]</salute>
          </opener>
          <pb n="406"/>
-         <p>Pray tell <persName><ref target="/persons/pers1290.xml"/>Thomas Lewis</persName> I
+         <p>Pray tell <persName>
+                    <ref target="/persons/pers1290.xml"/>Thomas Lewis</persName> I
             believe on I spoke to yesterday will make us a good housekeeper. She is selling off her
             things, and can come in two or three weeks.</p>
          <!-- How to add line number? Or should I? -->
-         <p><persName><ref target="/persons/pers1396.xml"/>John Matthews</persName> sent for me
-            between 2 and 3 on Friday morning.<note place="foot" n="1"><persName><ref
-                     target="/persons/pers1396.xml"/>John Matthews</persName>, husband of
-                     <persName><ref target="/persons/pers2180.xml"/>JW</persName>&apos;s
-               step-daughter <persName><ref target="/persons/pers2089.xml"/>Jeanne
+         <p>
+                <persName>
+                    <ref target="/persons/pers1396.xml"/>John Matthews</persName> sent for me
+            between 2 and 3 on Friday morning.<note place="foot" n="1">
+                    <persName>
+                        <ref target="/persons/pers1396.xml"/>John Matthews</persName>, husband of
+                     <persName>
+                        <ref target="/persons/pers2180.xml"/>JW</persName>'s
+               step-daughter <persName>
+                        <ref target="/persons/pers2089.xml"/>Jeanne
                   (Vazeille)</persName>, had been dying of consumption since at least August; see
-                     <persName><ref target="/persons/pers2180.xml"/>JW</persName>, <hi rend="italic"
-                  >Journal</hi>, <date when="1764-08-27">Aug. 27, 1764</date>, 21:487 in this
+                     <persName>
+                        <ref target="/persons/pers2180.xml"/>JW</persName>, <hi rend="italic">Journal</hi>, <date when="1764-08-27">Aug. 27, 1764</date>, 21:487 in this
                edn.</note> One had a little before asked him how he found himself, and he answered,
-            &apos;The Lord protects, for ever near.&apos; When I came, he was perfectly sensible. I
+            'The Lord protects, for ever near.' When I came, he was perfectly sensible. I
             began to pray at three, and before I had spoken many words his soul was set at liberty,
-            without a groan. Here is a subject for your pen.<note place="foot" n="2">There is a
-               hole in the paper and the words in brackets are supplied.</note> He has had
-            &apos;the witness&apos;, in <hi rend="italic">my</hi> sense, for several
-            months&#8212;that is, he <hi rend="italic">knew</hi> he was in the favour of God, and
-            had <hi rend="italic">no doubt</hi> of going to heaven.<note place="foot" n="3"
-                     ><persName><ref target="/persons/pers2176.xml"/>Charles Wesley</persName> did
-               in fact write a manuscript poem &apos;On the Death of Mr. <persName><ref
-                     target="/persons/pers1396.xml"/>John Matthews</persName>, <date
-                  when="1764-12-28">Dec. 28, 1764</date>&apos;, surviving in MARC, MA 1977/583/20. A
+            without a groan. Here is a subject for y&lt;our pen.<note place="foot" n="2">There is a
+               hole in the paper and the words in brackets are supplied.</note>&gt; He has had
+            'the witness', in <hi rend="italic">my</hi> sense, for several
+            months—that is, he <hi rend="italic">knew</hi> he was in the favour of God, and
+            had <hi rend="italic">no doubt</hi> of going to heaven.<note place="foot" n="3">
+                    <persName>
+                        <ref target="/persons/pers2176.xml"/>Charles Wesley</persName> did
+               in fact write a manuscript poem 'On the Death of Mr. <persName>
+                        <ref target="/persons/pers1396.xml"/>John Matthews</persName>, <date when="1764-12-28">Dec. 28, 1764</date>', surviving in MARC, MA 1977/583/20. A
                transcription is available in S T Kimbrough, Jr., and Oliver Beckerlegge, eds., The
                Unpublished Poetry of Charles Wesley (Nashville, 1992), 3:335-37 (or on the CSWT
-               website; see p. xv above).</note></p>
-         <p>I hope <persName><ref target="/persons/pers0826.xml"/>Goodwin</persName> is above
-            three-quarters printed.<note place="foot" n="4">I.e., <persName><ref
-                     target="/persons/pers2180.xml"/>JW</persName>&apos;s extract of <persName><ref
-                     target="/persons/pers0826.xml"/>John Goodwin</persName>&apos;s <hi
-                  rend="italic">Treatise on Justification</hi>.</note></p>
-         <p>You know doctors differ. I could trust <persName><ref target="/persons/pers2075.xml"
-               />Dr. Turner</persName> as well as any.<note place="foot" n="5"><persName><ref
-                     target="/persons/pers2180.xml"/>JW</persName> had recommended <persName><ref
-                     target="/persons/pers2075.xml"/>Dr. Turner</persName> to his wife in a letter
-               of <date when="1756-07-10">July 10, 1756</date>.</note></p>
+               website; see p. xv above).</note>
+            </p>
+         <p>I hope <persName>
+                    <ref target="/persons/pers0826.xml"/>Goodwin</persName> is above
+            three-quarters printed.<note place="foot" n="4">I.e., <persName>
+                        <ref target="/persons/pers2180.xml"/>JW</persName>'s extract of <persName>
+                        <ref target="/persons/pers0826.xml"/>John Goodwin</persName>'s <hi rend="italic">Treatise on Justification</hi>.</note>
+            </p>
+         <p>You know doctors differ. I could trust <persName>
+                    <ref target="/persons/pers2075.xml"/>Dr. Turner</persName> as well as any.<note place="foot" n="5">
+                    <persName>
+                        <ref target="/persons/pers2180.xml"/>JW</persName> had recommended <persName>
+                        <ref target="/persons/pers2075.xml"/>Dr. Turner</persName> to his wife in a letter
+               of <date when="1756-07-10">July 10, 1756</date>.</note>
+            </p>
          <p>I shall say a word to the preachers in <placeName>Ireland</placeName>. I really thought
-                  <persName><ref target="/persons/pers0546"/>Mark Davis</persName> had had more wit
+                  <persName>
+                    <ref target="/persons/pers0546"/>Mark Davis</persName> had had more wit
             and more modesty.</p>
          <p>I do not yet find anything on the atonement fit for a deist. Pray inquire of your
             learned friends.</p>
-         <closer>My love to <persName><ref target="/persons/pers2191"/>Sally</persName>. <lb/>
-            <signed>Adieu.<lb/></signed></closer>
+         <closer>My love to <persName>
+                    <ref target="/persons/pers2191"/>Sally</persName>. <lb/>
+            <signed>[[Adieu.]]<lb/>
+                </signed>
+            </closer>
          <lb/>
-         <p>I have sent you by <persName><ref target="/persons/pers0170.xml"/>Miss Billo</persName>
-            the Preface to <persName><ref target="/persons/pers0826.xml"/>Goodwin</persName> and the
+         <p>I have sent you by <persName>
+                    <ref target="/persons/pers0170.xml"/>Miss Billo</persName>
+            the Preface to <persName>
+                    <ref target="/persons/pers0826.xml"/>Goodwin</persName> and the
                <hi rend="italic">Appeals</hi>. You will English the Latin verses, and produce the
-            nearest and correctest edition of them which has ever appeared.<note place="foot" n="6"
-               >Cf. <persName><ref target="/persons/pers2180.xml"/>JW</persName> to <persName><ref
-                     target="/persons/pers2176.xml"/>CW</persName>, <date when="1764-12-07">Dec. 7,
-                  1764</date>. There is no evidence that <persName><ref
-                     target="/persons/pers2176.xml"/>CW</persName> prepared the English translations
+            nearest and correctest edition of them which has ever appeared.<note place="foot" n="6">Cf. <persName>
+                        <ref target="/persons/pers2180.xml"/>JW</persName> to <persName>
+                        <ref target="/persons/pers2176.xml"/>CW</persName>, <date when="1764-12-07">Dec. 7,
+                  1764</date>. There is no evidence that <persName>
+                        <ref target="/persons/pers2176.xml"/>CW</persName> prepared the English translations
                requested at this time. Only the <hi rend="italic">Earnest Appeal</hi> was issued in
                a new edition in <date when="1765">1765</date>, and there was no English translation
-               provided for the Latin verse.</note></p>
+               provided for the Latin verse.</note>
+            </p>
       </body>
    </text>
 </TEI>
