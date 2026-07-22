@@ -1,0 +1,508 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Sermon 133: Death and Deliverance</title>
+                <author>Wesley, John</author>
+                <editor role="text">Van Buskirk, Gregory P.</editor>
+                <editor role="digital">Taylor, Michelle M.</editor>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>The Wesley Works Digitzation Project</publisher>
+                <pubPlace>Tampa, FL</pubPlace>
+                <date>2024-02-25</date>
+            </publicationStmt>
+            <sourceDesc>
+                <listBibl>
+                    <biblStruct>
+                        <analytic>
+                            <title level="a">Sermon 133: Death and Deliverance</title>
+                        </analytic>
+                        <monogr>
+                            <title level="j">The Works of John Wesley, Volume IV: Sermons IV,
+                                115-151</title>
+                            <editor role="volume">Outler, Albert</editor>
+                            <imprint>
+                                <publisher>Abingdon Press</publisher>
+                                <pubPlace>Nashville, TN</pubPlace>
+                                <date when="1987-11-01">1987-11-01</date>
+                                <biblScope unit="volume" n="4"/>
+                                <biblScope unit="page" from="204" to="214"/>
+                            </imprint>
+                        </monogr>
+                        <series>
+                            <title level="s">The Works of John Wesley</title>
+                            <editor role="general">Baker, Frank</editor>
+                        </series>
+                    </biblStruct>
+                </listBibl>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Greg Van Buskirk created Word docs for all of Wesley's sermons using a combination of
+                OCR software and manual proofing. Michelle Taylor converted these docx into XML
+                using Oxygen's DITA automatic transformation scenario, then touched them up
+                manually.</p>
+        </encodingDesc>
+        <standOff>
+            <taxonomy>
+                <keywords>
+                    <term/>
+                </keywords>
+            </taxonomy>
+            <!--Include keywords and terms here eventually.-->
+        </standOff>
+        <revisionDesc/>
+    </teiHeader>
+    <text>
+        <body>
+            <pb n="04:204"/>
+            <head>
+                <hi rend="italic">An Introductory Comment</hi>
+            </head>
+            <introduction>
+                <p>This is Wesley’s first sermon. In his diary he records that he had begun to write
+                    a sermon immediately following his ordination as a deacon (September 19, 1725).
+                    He preached it for the first time at Fleet Marston and Winchendon (villages in
+                    nearby Buckinghamshire) on October 3rd. His text was Job 3:17.<note place="foot"
+                        xml:id="ftn1" n="1"><p rend="footnote text">Cf. Heitzenrater, ‘John Wesley’s
+                            Early Sermons’, pp. 110-12.</p></note> The holograph consists of fifteen
+                    numbered pages (roughly 4″ by 6″), and he kept these in his papers for the rest
+                    of his life. After his death, they came into Adam Clarke’s possession and then,
+                    much later, into the collection of Wesleyana and Methodistica of Mrs. Mary Ann
+                    Morley. She, in turn, bequeathed her collection to Wesley College, Leeds, in
+                    1880, whence it came over to the library of Wesley College, Bristol. Other
+                    Wesley holographs in this collection include No. 138A, ‘On Dissimulation’, a
+                    Latin essay, <hi rend="italic">De Satisfactione Christi</hi>, and the Larin
+                    sermon No. 151, ‘Hypocrisy in Orford’.</p>
+                <p>This manuscript still retains its original paper cover, on which there are
+                    several inscriptions in various hands. The most important, of course, is the
+                    number ‘1’ in Wesley’s own hand (confirmation of his later listing of it in his
+                    diary as his first sermon). There are also two later notes by Wesley: ‘The first
+                    sermon I ever wrote’, and ‘4 [struck through] 3 old sermons, L[ette]rs of
+                    Orders, Mr. Whitefield’s Presentation’. This suggests that he had a small sheaf
+                    of materials filed together with it. There is an interesting reference, in an
+                    unidentified hand, to ‘Miss Molly Beaucannon, <hi rend="italic">Aura digna</hi>’
+                    (‘a worthy auditor’). The manuscript had also been in Charles Wesley’s
+                    possession, for he had seen fit to add, ‘Master Bobby Kirkham, <hi rend="italic"
+                        >baculo dignus</hi>’ (‘a worthy supporter’; a usage of <hi rend="italic"
+                        >baculus</hi> from ecclesiastical Latin; its ordinary meaning was ‘staff’ or
+                    ‘sceptre’). Finally, there is a more formal heading written in Adam Clarke’s
+                    hand: ‘1725. Job iii.17, “There the wicked cease from troubling, etc.”’</p>
+                <p>The young Wesley was not one to write a sermon for a single use. This <pb
+                        n="04:205"/>one has a listing on its back cover, in cipher, of other places
+                    where it was preached during the subsequent sixteen months:</p>
+                <table rend="rules">
+                    <row>
+                        <cell style="text-align: left;">At</cell>
+                        <cell style="text-align: left;">
+                            <p n="">Buckland</p>
+                            <p n="">Stanton</p>
+                        </cell>
+                        <cell style="text-align: left;">
+                            <hi style="font-size:16pt">}</hi>
+                        </cell>
+                        <cell style="text-align: left;">at Christmass 1725 [actually January
+                            1725/26]</cell>
+                    </row>
+                    <row>
+                        <cell style="text-align: left;"/>
+                        <cell style="text-align: left;">
+                            <p n="">St. Thomas’</p>
+                            <p n="">Weston</p>
+                        </cell>
+                        <cell style="text-align: left;">
+                            <hi style="font-size:16pt">}</hi>
+                        </cell>
+                        <cell style="text-align: left;">in January [actually February
+                            1725/26]</cell>
+                    </row>
+                    <row>
+                        <cell style="text-align: left;">At</cell>
+                        <cell style="text-align: left;">
+                            <p n="">Wroote</p>
+                            <p n="">Epworth</p>
+                        </cell>
+                        <cell style="text-align: left;">
+                            <hi style="font-size:16pt">}</hi>
+                        </cell>
+                        <cell style="text-align: left;">in May [1726]</cell>
+                    </row>
+                    <row>
+                        <cell style="text-align: left;"/>
+                        <cell style="text-align: left;">
+                            <p n="">Haxey</p>
+                            <p n="">Finningley</p>
+                        </cell>
+                        <cell style="text-align: left;">
+                            <hi style="font-size:16pt">}</hi>
+                        </cell>
+                        <cell style="text-align: left;"/>
+                    </row>
+                </table>
+                <p>Beneath this list, in John Wesley’s longhand, is a further notation:</p>
+                <table rend="rules">
+                    <row>
+                        <cell style="text-align: left;" cols="2">Preached at Stanton Harcourt</cell>
+                        <cell style="text-align: left;">
+                            <hi style="font-size:16pt">}</hi>
+                        </cell>
+                        <cell style="text-align: left;">1727, in February</cell>
+                    </row>
+                    <row>
+                        <cell style="text-align: left;"/>
+                        <cell style="text-align: left;">South Lye [i.e., Leigh]</cell>
+                        <cell style="text-align: left;"/>
+                        <cell style="text-align: left;"/>
+                    </row>
+                </table>
+                <p>This sermon is a striking instance of the young Wesley’s preoccupation with ‘the
+                    art of dying’ and with its correlative doctrines of providence and grace. Its
+                    exegesis is heavily dependent on the comments of Matthew Poole and Matthew Henry
+                    on Job 3:17 (cf. Henry’s epigram: ‘Death is the prisoner’s discharge…and the
+                    servant’s manumission’). The untowardness and miseries of life are taken for
+                    granted; here death is celebrated as a passport to a happier life than this
+                    world affords. This, then, is our first glimpse into the mind and heart of ‘a
+                    very serious young man’ and his view of life as chiefly a preparation for death
+                    and eternity. Variations on this theme will, as we have seen, continue in
+                    Wesley’s preaching throughout his whole career.</p>
+                <p>For another sermon on Job 3:17, i.e., Wesley’s first published sermon, see No.
+                    109, <hi rend="italic">The Trouble and Rest of Good Men</hi> (1735).</p>
+            </introduction>
+            <pb n="04:206"/>
+            <head>Death and Deliverance</head>
+            <epigraph>
+                <p>Job 3:17</p>
+                <p>In the third chapter of Job, at the seventeenth verse, are these words:</p>
+                <p>
+                    <hi rend="italic">There the wicked cease from troubling;</hi>
+                    <lb/>
+                    <hi rend="italic">there the weary are at rest.</hi>
+                </p>
+            </epigraph>
+            <p n="1">[1.] The miseries of life have been so copiously described and the
+                inconsistency of perfect happiness with this state of probation so clearly evinced
+                by many writers that reason alone would easily induce us to give sentence on their
+                side. This is confirmed by the testimony of daily experience, too great an assurance
+                of so melancholy a truth. The words of Jacob, ‘Few and evil have been the days of
+                the years of thy servant,’<hi rend="endnote_reference"><note place="end"><p
+                            rend="endnote text">[Cf.] Gen. 47:9.</p></note></hi> may be justly
+                applied to the whole race of mankind. Such is the inheritance which the sin of our
+                first father has entailed on his whole posterity. We meet with a far greater
+                multitude of objects that excite a painful than which raise in us a pleasing
+                reflection; and the number of our faculties is<note place="foot" xml:id="ftn2" n="2"
+                        ><p rend="footnote text">An interlinear substitution for ‘being’.</p></note>
+                in this respect a great inconvenience, since they afford us so many more capacities
+                of suffering: every sense being an inlet to bodily pain, and every power of the mind
+                [an inlet] to vexation of spirit.</p>
+            <p n="2">[2.] Nor shall we wonder that so small a part of our life can lay any claim to
+                real happiness, if we consider how many circumstances must concur to compose it. The
+                disorder of any one part of the body is sufficient indeed to give us pain; but till
+                the whole is in such a particular state as rightly to perform all its offices we are
+                not capable of any degree of pleasure. And so likewise in the mind: a single desire
+                is able to make us effectually miserable, while happiness is not to be obtained
+                without the concurrence of all.</p>
+            <p n="3">[3.] Nor can we with justice ascribe the misery of men to their <pb n="04:207"
+                />folly, as if their misfortunes were chiefly owing to want of judgment. Were this
+                the case, all men would regularly advance in happiness as they attained to a higher
+                degree of wisdom. But on the contrary we may observe that the wise [man] is equally
+                if not more miserable than the fool; and his greater discernment (such is the tax
+                laid on knowledge by nature) only gives him a quicker sense of his misfortune. Thus
+                the Preacher himself affirms on his own experience, ‘In much wisdom is much grief,
+                and he that increases knowledge increases sorrow.’<note place="foot" xml:id="ftn3"
+                    n="3"><p rend="footnote text">Eccles. 1:18.</p></note> For most temporal
+                enjoyments are not of such a nature as to suit the capacities of a reasonable soul,
+                which observes the pleasing cheat<note place="foot" xml:id="ftn4" n="4"><p
+                        rend="footnote text">Cf. Dryden, <hi rend="italic">Aureng-Zebe</hi> (1676),
+                        IV.1:</p><p rend="Verse">When I consider life, ’tis all a cheat</p><p
+                        rend="Verse">Yet, fooled with hope, men favour the deceit.</p><p
+                        rend="footnote text">See also Samuel Butler, <hi rend="italic">Hudibras</hi>
+                        (1663-64), Pt. 2, ch. 3.</p></note> with too strict an attention. They may
+                indeed give entertainment to a weak understanding; but can never afford him any
+                solid satisfaction who sees through them and knows that all is vanity.</p>
+            <p n="4">[4.] Yet although we all agree in calling life a burden,<note place="foot"
+                    xml:id="ftn5" n="5"><p rend="footnote text">Wesley’s accustomed spelling was
+                        ‘burthen’; cf. <hi rend="italic">OED</hi> for a review of its progression to
+                        ‘burden’.</p></note> it is a burden which very few are willing to lay down.
+                We all know the ill[ness] and yet shun the cure; and though we are assured of being
+                some way wretched as long as we continue here, we have an earnest desire for such a
+                continuance. The thought of present death sets all our faculties in alarm. Nay,
+                although when we calmly contemplate it at a distance we may some of us think with
+                the Apostle, that ‘to die is gain’,<note place="foot" xml:id="ftn6" n="6"><p
+                        rend="footnote text">Phil. 1:21.</p></note> yet even many good men are
+                terrified at its approaches. The wisest heathens were so sensible of this natural
+                frailty that they used all means to arm themselves and their followers against it.
+                Very different indeed were the remedies they proposed. Some advised to think as
+                little of it as possible, and divert the mind with less melancholy considerations.
+                They were delaying the evil they could not prevent, not attending to the consequence
+                of such a proceeding, which only gives the enemy time to gather more force, till it
+                breaks out again with redoubled vehemence. Little, alas! will it avail that the hour
+                of suffering is put off, if that delay gives new strength to what we are
+                endeavouring to weaken, and if the sharpness of the pain <pb n="04:208"/> increases
+                in the same proportion as we lessen the length of its duration. More agreeable to
+                reason was the method of those who instead of representing death as a necessary evil
+                denied it to be any evil at all: who describe it as a safe and quiet haven, an
+                object of desire rather than fear; where we shall be secure from all future
+                misfortune and danger, from the gusts of passion and the storms of malice and envy
+                which, while we are fluctuating here, will be more or less continually beating
+                against us. Nor is this consideration taken away, but improved, by Christianity,
+                since we learn from Holy Writ that death is not only a haven, but an entrance into a
+                far more desirable country—a land not flowing with milk and honey like the earthly
+                    Canaan,<note place="foot" xml:id="ftn7" n="7"><p rend="footnote text">See Exod.
+                        3:8, etc.</p></note> but with joys knowing neither cessation nor end. Who
+                would not sink under the weight of oppression and misery, who could bear up against
+                the assaults of present evils and the fear of future [evils], against the tormenting
+                thoughts of his own many infirmities within, and the calumnies and injurious
+                treatment he is frequently to expect from without; were he not assured that all
+                these things will come to an end, and that his misery with his time passeth away
+                like a shadow;<note place="foot" xml:id="ftn8" n="8"><p rend="footnote text">Ps.
+                        144:4 (BCP).</p></note> that God hath prepared an eternal mansion for him,
+                where sorrow and pain shall never know him;<note place="foot" xml:id="ftn9" n="9"><p
+                        rend="footnote text">Wesley first wrote, ‘whence sorrow and sighing shall
+                        flee away’ (Isa. 35:10), and then altered it; cf. John 14:2.</p></note>
+                where his soul shall be no more moved with the scornful reproof of the wealthy, the
+                despiteful usage of the evil-doer; a place, as it is beautifully described in the
+                context, where the prisoners rest together and hear not the voice of the
+                    oppressor<note place="foot" xml:id="ftn10" n="10"><p rend="footnote text">Job
+                        3:18.</p></note>—in a word, ‘where the wicked cease from troubling, and
+                where the weary are at rest’.</p>
+            <p n="5">[5.] In these words are contained the original of most and the final cure of
+                all our afflictions; the former part of the verse showing the usual source of our
+                troubles, the latter that we shall in due time be delivered from them.</p>
+            <p n="6">[6.] That most of the evils of life are owing to wicked men may be proved both
+                from reason and experience. A contempt of God is seldom attended with too great a
+                regard for our neighbour, ungodliness and wrong usually going hand in hand. The
+                disciple is not greater than his master; so that if they despise and—as much as in
+                them lies—trouble him, how much more will they do <pb n="04:209"/>so to those of his
+                    household!<note place="foot" xml:id="ftn11" n="11"><p rend="footnote text">See
+                        Matt. 10:24-25.</p></note> Accordingly we find those of the most exemplary
+                virtue and piety despitefully used and traduced by wicked men in all ages. Those
+                were desirous of taking away the peace they could not give, even without any
+                prospect of advantage to themselves—imitating in this the grand adversary of
+                mankind, who goeth daily about seeking whom he may devour,<note place="foot"
+                    xml:id="ftn12" n="12"><p rend="footnote text">1 Pet. 5:8; for a more developed
+                        statement of Wesley’s satanocratic views, cf. No. 12, ‘The Witness of Our
+                        Own Spirit’, §10 and n.</p></note> though it can be no alleviation of his
+                own misery.</p>
+            <p n="7">[7.] And if men of ill principles will not cease from troubling, even where
+                there is no external temptation; if they will thus sell their immortal souls for
+                naught, and take no price for them; if they will pursue vice, as some would have us
+                to do virtue, for its own sake and without any hope of reward; what may we not
+                expect when that natural appetite for evil is whetted by views of pleasure or
+                advantage? If they drink iniquity like water,<note place="foot" xml:id="ftn13"
+                    n="13"><p rend="footnote text">Job 15:16.</p></note> even though insipid and
+                tasteless, how will they swallow it with greediness when sweetened by some present
+                satisfaction! The desire of happiness is inseparably [bound] to our nature,<note
+                    place="foot" xml:id="ftn14" n="14"><p rend="footnote text">An early formulation
+                        of Wesley’s lifelong eudaemonism; cf. No. 5. ‘Justification by Faith’, I.4
+                        and n. See also Aristotle’s <hi rend="italic">Nicomachean Ethics</hi> (the
+                        standard text in ethics at Oxford), Bk. I, ch. 4; this is the <hi
+                            rend="italic">locus classicus</hi> of the eudaemonist
+                    tradition.</p></note> and is the spring which sets all our faculties a-moving.
+                We must not therefore admire if those who place it in temporal goods refuse no means
+                that may in any wise conduce to the acquiring them: especially if they have arrived
+                at such a perfection in impiety as either to say in their heart, ‘There is no
+                    God,’<note place="foot" xml:id="ftn15" n="15"><p rend="footnote text">Pss. 14:1;
+                        53:1.</p></note> or to deny his providence if not his being, and think he
+                careth not for it.<note place="foot" xml:id="ftn16" n="16"><p rend="footnote text"
+                        >See Ps. 10:14 (BCP).</p></note> Well may destruction and misery proceed
+                from their ways who have no fear of God before their eyes.<note place="foot"
+                    xml:id="ftn17" n="17"><p rend="footnote text">Rom. 3:18.</p></note> Well may
+                rapine and fraud, oppression and injustice extend their quarters and set up their
+                banners for tokens, when pleasure and interest assist them. When so many united
+                enemies are advancing, ’tis high time for the poor to fly for refuge to him who
+                professes himself the helper of the friendless!<note place="foot" xml:id="ftn18"
+                    n="18"><p rend="footnote text">Ps. 10:16 (BCP)</p></note></p>
+            <p n="8">[8.] Next to life itself and the necessaries of it,<note place="foot"
+                    xml:id="ftn19" n="19"><p rend="footnote text">For Wesley’s distinction between
+                        life’s necessaries, conveniencies, and riches, cf. No. 30, ‘Sermon on the
+                        Mount, X’, §26 and n.</p></note> good men have always agreed to esteem
+                reputation, a great tenderness for it being <pb n="04:210"/>implanted in our nature;
+                insomuch that some have judged it preferable to life, which they cheerfully parted
+                with to preserve it. Now the violation of this interest is an act so peculiar to
+                wicked men that no one who is guilty of it in any kind can have any pretence to the
+                contrary character. Thus Solomon makes tale-bearing and detraction the proper
+                employment of a fool,<note place="foot" xml:id="ftn20" n="20"><p
+                        rend="footnote text">See Prov. 18:6-7.</p></note> which in Scripture
+                language is the same as a wicked man; and David no less expressly ascribes it to the
+                workers of iniquity ‘to whet their tongue like a sword, and shoot out their arrows,
+                even bitter words.’<hi rend="endnote_reference"><note place="end"><p
+                            rend="endnote text">Psalm 64[:2-3].</p></note></hi></p>
+            <p n="9">[9.] One would think the wicked should then have obtained their end, when they
+                had deprived a good man of all the world calls blessings; when they had robbed him
+                not only of fortune, but even of reputation, of far greater value than much riches.
+                But as if this were a small thing, they frequently endeavour to deprive him also of
+                his only support and comfort in misery, his reliance on him who careth for him. To
+                this end they leave no method untried to shake his innocence. They strive to terrify
+                him by threats, or allure him by promises, and represent integrity as nothing but a
+                dead weight, which only makes it the more difficult for him to rise. Nay, if his
+                malady be so desperate as not to admit of a cure, yet may it be capable of
+                aggravation. He will scarce want evil counsellors who, like the wife of Job, will
+                advise him to curse God and die;<note place="foot" xml:id="ftn21" n="21"><p
+                        rend="footnote text">Job 2:9.</p></note> who will [assure] him, ’tis some
+                comfort to hope for none<note place="foot" xml:id="ftn22" n="22"><p
+                        rend="footnote text">I.e., ‘nothing’.</p></note>—and from the false
+                supposition that providence has disclaimed him [will] draw as false a conclusion:
+                that he ought to disclaim providence.</p>
+            <p n="10">[10.] Nor are the temptations of ill men to be feared only in adversity, but
+                also in the greatest affluence of honours and fortune. No eminence of station can
+                secure us from the danger of sometimes meeting with those enthusiasts in the cause
+                of impiety who take more pains to make converts to irreligion than many Christians,
+                however sincere in their profession, will take to defend the holy faith delivered to
+                them. And though we may perhaps be too well grounded in our principles to be shaken
+                by their assaults, though we have an utter abhorrence to their <pb n="04:211"
+                />opinions as well as their practice, yet are we not entirely out of danger: for
+                that abhorrence itself proves sometimes an occasion of falling. The anger we
+                conceive against the fault may be immoderate, so as to give rise to uneasy and
+                discontented reflections; or we may not sufficiently distinguish between the offence
+                and the offender, but level our displeasure at the person rather than the
+                    crime.<note place="foot" xml:id="ftn23" n="23"><p rend="footnote text">For other
+                        references to the distinction between ‘offence’ and ‘offender’, ‘person’ and
+                        ‘crime’, see No. 22, ‘Sermon on the Mount, II’, I.8 and n.</p></note> The
+                advice of the Psalmist is therefore worthy of our observation: ‘Fret not thyself
+                because of the ungodly, neither be thou envious against the evil-doers. Leave off
+                from wrath, and let go displeasure; else shalt thou be moved to do evil.’<note
+                    place="foot" xml:id="ftn24" n="24"><p rend="footnote text">Ps. 37:1, 8
+                        (BCP).</p></note></p>
+            <p n="11">[11.] The secret poison of ill examples is no less apt to infect us than those
+                more open attempts upon our piety. Vice has always been observed to be of a
+                contagious nature, and its progress is the more sure for being unperceived. We too
+                often find in ourselves a great proneness to imitate, even the evil actions of those
+                about us; whether this fantastic<note place="foot" xml:id="ftn25" n="25"><p
+                        rend="footnote text">I.e., in the literal sense of ‘illusory’; later,
+                        Johnson, <hi rend="italic">Dictionary</hi>, would define it as ‘irrational;
+                        bred only in the imagination’.</p></note> compliance proceed from that
+                innate desire of society which makes us esteem it not good to be alone, even in
+                virtue; or whether we vainly imagine that company will alleviate our punishment,
+                that it will take off from the weight of it, to be divided among many.</p>
+            <p n="12">[12.] Innumerable are the calamities derived from this fountain, with which we
+                are here obliged to maintain a perpetual conflict, till we are made partakers of
+                that blessed rest the weary will enjoy when the wicked shall cease from
+                troubling.</p>
+            <p n="13">[13.] It is not my design (in speaking on this head, which was the second
+                thing proposed) to enter into any particular inquiry whether the happiness of the
+                just immediately after death be the same with that they will enjoy when united again
+                to their bodies;<note place="foot" xml:id="ftn26" n="26"><p rend="footnote text">For
+                        Wesley’s development of the ‘middle states’ between death and the final
+                        judgment, cf. Nos. 117, ‘On the Discoveries of Faith’, §§8-9; 115, ‘Dives
+                        and Lazarus’, I.5-6, 9-11; and 132, ‘On Faith, Heb. 11:1’, §4.</p></note> or
+                whether, as seems most agreeable to Holy Writ, it receives a new accession at the
+                great day. Sure we are that it is infinitely superior to any happiness it is
+                possible to arrive at in this world. They are delivered from all those cares,
+                afflictions, and dangers, all that anguish and anxiety, which is unavoidably their
+                portion as <pb n="04:212"/>long as they remain in this transitory life. They are
+                exempted from sorrow, need, and sickness, and from a possibility of any future
+                adversity, and enjoy a perfect quiet and rest from their labours.<note place="foot"
+                    xml:id="ftn27" n="27"><p rend="footnote text">See Rev. 14:13.</p></note> They
+                shall hunger no more, neither thirst any more; neither shall the sun light on them;
+                nor any heat: the Lord God shall wipe all tears from their eyes,<note place="foot"
+                    xml:id="ftn28" n="28"><p rend="footnote text">Rev. 7:16-17.</p></note> and
+                sorrow and sighing shall flee away.<note place="foot" xml:id="ftn29" n="29"><p
+                        rend="footnote text">Isa. 35:10.</p></note></p>
+            <p n="14">[14.] Add to this that they are freed from the tyranny of sin, a yoke they
+                could never hope to cast off entirely as long as they carried about them those
+                mortal bodies in which the seeds of corruption were so deeply implanted.<note
+                    place="foot" xml:id="ftn30" n="30"><p rend="footnote text">An echo of the
+                        Lutheran doctrine of death as the conquest over concupiscence and sin; cf.
+                        the <hi rend="italic">Apology of the Augsburg Confession</hi> (1531), Art.
+                        ΧII, §§151-61, in T. G. Tappert, ed., <hi rend="italic">The Book of
+                            Concord</hi> (1959), pp. 206-8. See also Heinrich Schmid, <hi
+                            rend="italic">Doctrinal Theology of the Evangelical Lutheran Church</hi>
+                        (1899), pp. 624-28. This was the early Wesley’s settled view; cf. Nos. 136,
+                        ‘On Mourning for the Dead’; and 109, <hi rend="italic">The Trouble and Rest
+                            of Good Men</hi>, I, II.6. Note how this view supports the Lutheran
+                        doctrine of ‘the remains of sin’ (<hi rend="italic">fomes peccati</hi>)
+                        continuing throughout this life. Later on, this notion will pose a real
+                        difficulty for Wesley’s idea of ‘perfection in love in this
+                    life’.</p></note> The law of our members is now continually warring against the
+                law of our mind,<note place="foot" xml:id="ftn31" n="31"><p rend="footnote text">See
+                        Rom. 7:23.</p></note> and even when we would do good, evil is present with
+                    us.<note place="foot" xml:id="ftn32" n="32"><p rend="footnote text">See Rom.
+                        7:21.</p></note> But we lay down these infirmities with this veil of flesh,
+                and the spirit will then be able as well as willing to perform its duty; and the
+                more sensible we are of our present weakness, the more shall we rejoice at our
+                deliverance from it. What a satisfaction must [it] be to a good man to perceive the
+                good works he had begun in this life continued and perfected in himself, to find
+                every one of those Christian virtues with which he had endeavoured to adorn his soul
+                improved and drawn out to its utmost extent!</p>
+            <p n="15">[15.] And it will be no small addition to his happiness that he has a lively
+                sense of the farther glory reserved for him. St. Peter observes that pious men, even
+                in manifold temptations,<note place="foot" xml:id="ftn33" n="33"><p
+                        rend="footnote text">See No. 47, ‘Heaviness through Manifold
+                        Temptations’.</p></note> rejoice with joy unspeakable and full of glory when
+                they contemplate the inheritance of which they will one day be made partakers.<note
+                    place="foot" xml:id="ftn34" n="34"><p rend="footnote text">See 1 Pet. 1:4, 6, 8;
+                        Col. 1:12.</p></note> How inconceivable then must be their joy when they see
+                it no longer through a glass darkly,<note place="foot" xml:id="ftn35" n="35"><p
+                        rend="footnote text">1 Cor. 13:12.</p></note> but have a full and clear
+                prospect of that crown of righteousness which the Lord, the righteous Judge,<note
+                    place="foot" xml:id="ftn36" n="36"><p rend="footnote text">2 Tim.
+                    4:8.</p></note> has appointed for them; when they are no longer tormented with
+                    <pb n="04:213"/>fears of falling away<note place="foot" xml:id="ftn37" n="37"><p
+                        rend="footnote text">See No. 1, <hi rend="italic">Salvation by Faith</hi>,
+                        II.4 and n.</p></note> and coming short of the reward they have in view,
+                being already possessed of a partial happiness, as an earnest of one more complete
+                and perfect.</p>
+            <p n="16">[16.] Now if the reward of the just even before the day of final retribution
+                will [be] so inexpressibly, so inconceivably great and glorious; if their happiness
+                be so great already, and will nevertheless be still greater, what shall we say of
+                the state of just men made perfect?<note place="foot" xml:id="ftn38" n="38"><p
+                        rend="footnote text">Heb. 12:23.</p></note> When to the absence of all evil
+                shall be added the presence of all the good that a Being of infinite wisdom and
+                power is able to bestow? When God shall make them possess the fullness of joy at his
+                own right hand for evermore,<note place="foot" xml:id="ftn39" n="39"><p
+                        rend="footnote text">See Ps. 16:11.</p></note> and drink of the rivers of
+                    pleasure<note place="foot" xml:id="ftn40" n="40"><p rend="footnote text">See Ps.
+                        36:8.</p></note> in the new Jerusalem?<note place="foot" xml:id="ftn41"
+                    n="41"><p rend="footnote text">See Rev. 21:2.</p></note> Very excellent things
+                are indeed spoken of thee, O thou city of God!<note place="foot" xml:id="ftn42"
+                    n="42"><p rend="footnote text">Ps. 87:2 (BCP).</p></note> But who, even with the
+                tongue of men and angels,<note place="foot" xml:id="ftn43" n="43"><p
+                        rend="footnote text">1 Cor. 13:1; for a similar usage of ‘tongue’ in the
+                        singular, cf. Samuel Wesley, Sen., <hi rend="italic">Advice to a Young
+                            Clergyman</hi> (1735), p. 7.</p></note> can worthily describe what eye
+                hath not seen nor ear heard, neither hath it entered into the heart of man to
+                    conceive!<note place="foot" xml:id="ftn44" n="44"><p rend="footnote text">1 Cor.
+                        2:9.</p></note></p>
+            <p n="17">[17.] Seeing, then, all these things are for our sakes; seeing we have the
+                promise of perfect happiness annexed to our obedience, of ‘an inheritance
+                incorruptible, undefiled, and that fadeth not away’;<hi rend="endnote_reference"
+                        ><note place="end"><p rend="endnote text">1 Pet. 1:3 [i.e.,
+                    4].</p></note></hi> ‘what manner of men ought we to be in all holy conversation
+                and godliness!’<hi rend="endnote_reference"><note place="end"><p rend="endnote text"
+                            >[Cf.] 2 Pet. 3:11.</p></note></hi> What diligence, even according to
+                human prudence, should we use to make our calling and election sure!<note
+                    place="foot" xml:id="ftn45" n="45"><p rend="footnote text">See 2 Pet.
+                    1:10.</p></note> With what unconcern should we encounter all temporal
+                afflictions, with what patience, yea, cheerfulness, shall we face death itself, so
+                terrible to the natural man, when we are assured that all these things work together
+                for our good,<note place="foot" xml:id="ftn46" n="46"><p rend="footnote text">See
+                        Rom. 8:28.</p></note> and will entitle us to an eternal weight of
+                    glory!<note place="foot" xml:id="ftn47" n="47"><p rend="footnote text">2 Cor.
+                        4:17.</p></note> When we are defamed, reviled, or despitefully treated by
+                men, let us comfort ourselves with the firm persuasion that we shall soon rest where
+                the wicked cease front troubling. If we are at any time oppressed with a sense of
+                our infirmities, or discouraged by the mortifying reflection that this <pb
+                    n="04:214"/>body, however now set off with outward advantages or adorned with
+                the bloom of youth and beauty, must shortly be resolved into its principles of dust
+                and ashes; let us reflect at the same time that God will not leave our soul in
+                    hell,<note place="foot" xml:id="ftn48" n="48"><p rend="footnote text">See Ps.
+                        16:10; Acts 2:27.</p></note> but in his own good time reunite it to its
+                ancient companion; and that then this corruptible shall put on incorruption, and
+                this mortal be clothed with immortality;<note place="foot" xml:id="ftn49" n="49"><p
+                        rend="footnote text">1 Cor. 15:53-54.</p></note> finally, that though after
+                our skin worms destroy this body, yet even in our flesh shall we see God.<hi
+                    rend="endnote_reference"><note place="end"><p rend="endnote text">Job
+                        19:26.</p></note></hi></p>
+            <p n="18">[18.] Now to the adorable and ever-blessed Trinity, the Father, the Son, and
+                the Holy Ghost, be ascribed, as is most due, all honour, majesty, and dominion, both
+                now and for ever! Amen.<note place="foot" xml:id="ftn50" n="50"><p
+                        rend="footnote text">Note this conventional ascription here as the sermon’s
+                        climax; it would have seemed natural enough to the young deacon. Later, he
+                        will use ascriptions sparingly; cf. No. 1, <hi rend="italic">Salvation by
+                            Faith</hi>, III.9 and n.</p></note></p>
+        </body>
+    </text>
+</TEI>

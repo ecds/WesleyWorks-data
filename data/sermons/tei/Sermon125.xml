@@ -1,0 +1,556 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Sermon 125: On a Single Eye</title>
+                <author>Wesley, John</author>
+                <editor role="text">Van Buskirk, Gregory P.</editor>
+                <editor role="digital">Taylor, Michelle M.</editor>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>The Wesley Works Digitzation Project</publisher>
+                <pubPlace>Tampa, FL</pubPlace>
+                <date>2024-02-25</date>
+            </publicationStmt>
+            <sourceDesc>
+                <listBibl>
+                    <biblStruct>
+                        <analytic>
+                            <title level="a">Sermon 125: On a Single Eye</title>
+                        </analytic>
+                        <monogr>
+                            <title level="j">The Works of John Wesley, Volume IV: Sermons IV,
+                                115-151</title>
+                            <editor role="volume">Outler, Albert</editor>
+                            <imprint>
+                                <publisher>Abingdon Press</publisher>
+                                <pubPlace>Nashville, TN</pubPlace>
+                                <date when="1987-11-01">1987-11-01</date>
+                                <biblScope unit="volume" n="4"/>
+                                <biblScope unit="page" from="120" to="130"/>
+                            </imprint>
+                        </monogr>
+                        <series>
+                            <title level="s">The Works of John Wesley</title>
+                            <editor role="general">Baker, Frank</editor>
+                        </series>
+                    </biblStruct>
+                </listBibl>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Greg Van Buskirk created Word docs for all of Wesley's sermons using a combination of
+                OCR software and manual proofing. Michelle Taylor converted these docx into XML
+                using Oxygen's DITA automatic transformation scenario, then touched them up
+                manually.</p>
+        </encodingDesc>
+        <standOff>
+            <taxonomy>
+                <keywords>
+                    <term/>
+                </keywords>
+            </taxonomy>
+            <!--Include keywords and terms here eventually.-->
+        </standOff>
+        <revisionDesc/>
+    </teiHeader>
+    <text>
+        <body>
+            <pb n="04:120"/>
+            <head>
+                <hi rend="italic">An Introductory Comment</hi>
+            </head>
+            <introduction>
+                <p>Here is another sermon without an ‘occasion’. Wesley had remained in the West of
+                    England throughout August and September 1789, spending more of his time in
+                    Bristol than usual. It was there on September 25 that he finished another
+                    assignment for the <hi rend="italic">Arminian Magazine</hi>. He had three
+                    correlated points to make. The first is a positive statement that what he had
+                    always meant by holiness was <hi rend="italic">purity of intention</hi>. The
+                    second was a complaint that the world and the churches were still full of
+                    nominal Christians (‘The Almost Christian’ again after a half-century). And the
+                    third was yet another blast at ‘riches’ as the paramount distraction from
+                    Christian ‘simplicity’. The conclusion is a stem call to repentance: ‘Prefer
+                    grace to money’, or else ‘renounce the title of Christians.’</p>
+                <p>The essay was published next in order in the <hi rend="italic">Arminian
+                        Magazine</hi><note place="foot" xml:id="ftn1" n="1"><p rend="footnote text"
+                            >XIII.569-75, 626-30.</p></note> in the November and December issues of
+                    1790 as ‘Sermon LX’. Story included it in his posthumous volume of <hi
+                        rend="italic">SOSO</hi>, IX, as No. 9. It had no other title; the present
+                    one was supplied by Joseph Benson in 1811, and he was followed in this, as
+                    usual, by Thomas Jackson (1825 and 1829).</p>
+            </introduction>
+            <head>On a Single Eye</head>
+            <epigraph>
+                <p>Matthew 6:22-23</p>
+                <p>
+                    <hi rend="italic">If thine eye be single, thy whole body shall be full of light:
+                        but if thine eye be evil, thy whole body shall be full of darkness.
+                        Therefore if the light that is in thee be darkness, how great is that
+                        darkness!</hi>
+                </p>
+            </epigraph>
+            <div type="introduction">
+                <p n="1">1. ‘Simplicity and purity’, says a devout man, ‘are the two wings that lift
+                    the soul up to heaven; simplicity, which is in the intention, and purity, which
+                    is in the affections.’<note place="foot" xml:id="ftn2" n="2"><p
+                            rend="footnote text">Kempis, <hi rend="italic">Imitation</hi>, II.iv.
+                            1-3; see also No. 79, ‘On Dissipation’, §17 and n. For other references
+                            to ‘simplicity’, see Wesley’s letter to Mary Bishop, Jan. 12, 1773,
+                            where he quotes Fénelon: ‘True simplicity is that grace whereby the soul
+                            is delivered from all unprofitable reflections upon itself…. A single
+                            eye is a great help to this.’ See also No. 12, ‘The Witness of Our Own
+                            Spirit’, §11 and n.</p></note> The former of these that <pb n="04:121"
+                    />great and good man Bishop Taylor recommends with much earnestness in the
+                    beginning of his excellent book, <hi rend="italic">Rules of Holy Living and
+                        Dying</hi>.<note place="foot" xml:id="ftn3" n="3"><p rend="footnote text"
+                            >Jeremy Taylor; see No. 79, ‘Οn Dissipation’, §18 and n. Taylor’s work
+                            had originally been published as two separate volumes, but often were
+                            bound together; Wesley had grown accustomed to think of them as a single
+                            book.</p></note> He sets out with insisting upon this as the very first
+                    point in true religion, and warns us that without this all our endeavours after
+                    it will be vain and ineffectual. The same truth that strong and elegant writer,
+                    Mr. Law, earnestly presses in his <hi rend="italic">Serious Call to a Devout
+                        Life</hi>—a treatise which will hardly be excelled, if it be equalled, in
+                    the English tongue, either for beauty of expression, or for justness and depth
+                    of thought.<note place="foot" xml:id="ftn4" n="4"><p rend="footnote text"
+                                >Law,<hi rend="italic"> Serious Call</hi>, ch. iv, etc. Another
+                            instance of the elder Wesley’s mellowing; here is unstinted praise of a
+                            man and his work of which, earlier on, he had been sharply critical; see
+                            Wesley’s letters to Law, May 14 and 20, 1738, and the more lengthy one
+                            of Jan. 6, 1756.</p></note> And who can censure any follower of Christ
+                    for laying ever so great stress on this point, that considers the manner wherein
+                    our Master recommends it in the words above recited?</p>
+                <p n="2">2. Let us attentively consider this whole passage as it may be literally
+                    translated. ‘The eye is the lamp of the body.’<note place="foot" xml:id="ftn5"
+                        n="5"><p rend="footnote text">A borrowing from Poole’s <hi rend="italic"
+                                >Annotations</hi> on Matt. 6:22; cf. Wesley’s <hi rend="italic"
+                                >Notes</hi> on this text.</p></note> And what the eye is to the
+                    body, the intention is to the soul.<note place="foot" xml:id="ftn6" n="6"><p
+                            rend="footnote text">For Wesley’s other uses of this aphorism, see No.
+                            12, ‘The Witness of Our Own Spirit’, §11 and n.</p></note> We may
+                    observe with what exact propriety our Lord places simplicity of intention
+                    between worldly desires and worldly cares, either of which directly tend to
+                    destroy it.<note place="foot" xml:id="ftn7" n="7"><p rend="footnote text">An
+                            exact quotation from Wesley’s commentary on Matt. 6:22 in the <hi
+                                rend="italic">Notes</hi>.</p></note> It follows, ‘If thine eye be
+                    single’, singly fixed upon God, ‘thy whole body’, that is, all thy soul, shall
+                    be filled with holiness and happiness. ‘But if thine eye be evil’, not single,
+                    aiming at any other object, seeking anything beneath the sun, ‘thy whole body
+                    shall be full of darkness; and if the light that is in thee be darkness, how
+                    great is that darkness!’ How remote, not only from all real knowledge, but from
+                    all real holiness and happiness!</p>
+                <p n="3">3. Considering these things we may well cry out, How great a thing it is to
+                    be a Christian, to be a real, inward, scriptural Christian! Conformed in heart
+                    and life to the will of God! Who is <pb n="04:122"/>sufficient for these
+                        things?<note place="foot" xml:id="ftn8" n="8"><p rend="footnote text">2 Cor.
+                            2:16.</p></note> None, unless he be born of God. I do not wonder that
+                    one of the most sensible deists should say: ‘I think the Bible is the finest
+                    book I ever read in my life, yet I have an insuperable objection to it. It is
+                        <hi rend="italic">too good</hi>. It lays down such a plan of life, such a
+                    scheme of doctrine and practice, as is far too excellent for weak silly men to
+                    aim at, or attempt to copy after.’<note place="foot" xml:id="ftn9" n="9"><p
+                            rend="footnote text">A recollection from a conversation with young Lord
+                            Huntingdon, son of the Countess; cf. No. 128, ‘The Deceitfulness of the
+                            Human Heart’, §3; and Wesley’s letter to Mary Bishop, Feb. 7, 1778; see
+                            also <hi rend="italic">Thoughts Upon Necessity</hi>, 85.</p></note> All
+                    this is most true upon any other than the scriptural hypothesis. But this being
+                    allowed, all the difficulty vanishes into air. For if ‘all things are possible
+                    with God,’<note place="foot" xml:id="ftn10" n="10"><p rend="footnote text">Cf.
+                            Matt. 19:26, etc.</p></note> then ‘all things are possible to him that
+                        believeth.’<note place="foot" xml:id="ftn11" n="11"><p rend="footnote text"
+                            >Mark 9:23.</p></note></p>
+                <p n="4">4. But let us consider, first, the former part of our Lord’s
+                    declaration—‘If thine eye be single, thy whole body shall be full of light;’
+                    secondly, the latter part—‘If thine eye be evil, thy whole body shall be full of
+                    darkness;’ and thirdly, the dreadful state of those whose eye is not single—‘If
+                    the light that is in thee be darkness, how great is that darkness!’</p>
+            </div>
+            <div type="section" n="1">
+                <p n="1">I. 1. And first, ‘If thine eye be single, thy whole body shall be full of
+                    light.’ If thine eye be single, if God is in all thy thoughts,<note place="foot"
+                        xml:id="ftn12" n="12"><p rend="footnote text">See Ps. 10:4.</p></note> if
+                    thou art constantly aiming at him that is invisible; if it be thy intention in
+                    all things, small and great, in all thy conversation, to please God, to do not
+                    thy own will but the will of him that sent thee into the world;<note
+                        place="foot" xml:id="ftn13" n="13"><p rend="footnote text">See John
+                            6:38.</p></note> if thou canst say, not to any creature, but to him that
+                    made thee for himself,</p>
+                <quote>I view thee, Lord, and end of my desire,<note place="foot" xml:id="ftn14"
+                        n="14"><p rend="footnote text">Cf. Prior, ‘Henry and Emma’, <hi
+                                rend="italic">l</hi>. 710: * I see thee, lord and end of my desire’
+                            (spoken by Emma to Henry); cf. No. 78, ‘Spiritual Idolatry’,
+                        §18.</p></note></quote>
+                <p>then the promise will certainly take place: ‘Thy whole body shall be full of
+                    light;’ thy whole soul shall be filled with the light of heaven, with the glory
+                    of the Lord resting upon thee. In all thy actions and conversations thou shalt
+                    have not only the testimony of a good conscience toward God,<note place="foot"
+                        xml:id="ftn15" n="15"><p rend="footnote text">See 1 Pet. 3:21.</p></note>
+                    but likewise of his Spirit <pb n="04:123"/>bearing witness with thy spirit<note
+                        place="foot" xml:id="ftn16" n="16"><p rend="footnote text">See Rom. 8:16;
+                            cf. No. 10, ‘The Witness of the Spirit, I’, I.12 and n.</p></note> that
+                    all thy ways are acceptable to him.</p>
+                <p n="2">2. When thy whole soul is full of this light, thou wilt be able (according
+                    to St. Paul’s directions to the Thessalonians), to ‘rejoice evermore’, to ‘pray
+                    without ceasing’, and ‘in everything’ to ‘give thanks’.<note place="foot"
+                        xml:id="ftn17" n="17"><p rend="footnote text">1 Thess. 5:16-18.</p></note>
+                    For who can be constantly sensible of the loving presence of God without
+                    ‘rejoicing evermore’? Who can have the loving care of his soul perpetually fixed
+                    upon God, but he will ‘pray without ceasing’? For his ‘heart is unto God without
+                    a voice, and his silence speaketh unto him’.<note place="foot" xml:id="ftn18"
+                        n="18"><p rend="footnote text">Cf. John of the Cross, <hi rend="italic">The
+                                Living Flame of Love</hi> (1586), st. III, <hi rend="italic">l</hi>.
+                            32, in E. Allison Peers, <hi rend="italic">Complete Works of St. John of
+                                the Cross</hi> (1946), III.78.</p></note> Who can be sensible that
+                    this loving Father is well pleased with all he does and suffers, but he will be
+                    constrained ‘in everything to give thanks’, knowing that all things ‘work
+                    together for good’.<note place="foot" xml:id="ftn19" n="19"><p
+                            rend="footnote text">Rom. 8:28.</p></note></p>
+                <p n="3">3. Thus shall his ‘whole body be full of light’. The light of knowledge is
+                    doubtless one thing here intended, arising from ‘the unction of the Holy
+                        One’,<note place="foot" xml:id="ftn20" n="20"><p rend="footnote text">1 John
+                            2:20.</p></note> which ‘abideth with him’, and ‘teacheth him of all
+                        things’,<note place="foot" xml:id="ftn21" n="21"><p rend="footnote text">1
+                            John 2:27.</p></note> all the things which it is now necessary for him
+                    to know in order to please God. Hereby he will have a clear knowledge of the
+                    divine will in every circumstance of life. Not without the means, but in the use
+                    of all those means which God has furnished him with. And walking in this light
+                    he cannot but grow in grace and in the knowledge of our Lord Jesus Christ.<note
+                        place="foot" xml:id="ftn22" n="22"><p rend="footnote text">See 2 Pet.
+                            3:18.</p></note> He will continually advance in all holiness, and in the
+                    whole image of God.</p>
+            </div>
+            <div type="section" n="2">
+                <p n="1">II. [1.] Our Lord observes, secondly, ‘If thine eye be evil, thy whole body
+                    shall be full of darkness.’ If it be evil, that is, not single (for the eye
+                    which is not single is evil) ‘thy whole body shall be full of darkness.’ It is
+                    certain, there can be no medium between a single eye and an evil eye. For
+                    whenever we are not aiming at God we are seeking happiness in some creature. And
+                    this, whatever that creature may be, is no less than idolatry. It is all one
+                    whether we aim at the pleasures of sense, the pleasures of the <pb n="04:124"
+                        />imagination,<note place="foot" xml:id="ftn23" n="23"><p
+                            rend="footnote text">For a fuller comment on Wesley’s interest in
+                            ‘imagination’, see No. 44, <hi rend="italic">Original Sin</hi>, II.10
+                            and n.</p></note> the praise of men, or riches; all which St. John
+                    comprises under that general expression, ‘the love of the world’.<note
+                        place="foot" xml:id="ftn24" n="24"><p rend="footnote text">Cf. 1 John
+                            2:15-16; and No. 7, ‘The Way to the Kingdom’, II.2 and n.</p></note> The
+                    eye is evil if we aim at any of these, or indeed at anything under the sun. So
+                    far as you aim at any of these, indeed at anything beneath God, your whole soul,
+                    and the whole course of your life, will be full of darkness. Ignorance of
+                    yourselves, ignorance of your real interest, ignorance of your relation to God,
+                    will surround you with impenetrable clouds, with darkness that may be felt.<note
+                        place="foot" xml:id="ftn25" n="25"><p rend="footnote text">Exod.
+                        10:21.</p></note> And so long as the eye of your soul rests upon all or any
+                    of these, those will continue to surround your soul, and cover it with utter
+                    darkness.</p>
+                <p n="2">2. With how many instances of this melancholy truth, that those whose eye
+                    is not single are totally ignorant of the nature of true religion, are we
+                    surrounded on every side! How many, even of good sort of people,<note
+                        place="foot" xml:id="ftn26" n="26"><p rend="footnote text">For Wesley’s
+                            sense of social and religious classes, see No. 80, ‘On Friendship with
+                            the World’, §21 and n.</p></note> of them whose lives are innocent, are
+                    as ignorant of themselves, of God, and of worshipping him in spirit and in
+                        truth,<note place="foot" xml:id="ftn27" n="27"><p rend="footnote text">See
+                            John 4:24.</p></note> as either Mahometans or heathens! And yet they are
+                    not anyway defective in natural understanding. And some of them have improved
+                    their natural abilities by a liberal education, whereby they have laid in a
+                    considerable stock of deep and various learning. Yet how totally ignorant are
+                    they of God and of the things of God! How unacquainted both with the invisible
+                    and the eternal world! O why do they continue in this deplorable ignorance? It
+                    is the plain effect of this: their eye is not single. They do not aim at God. He
+                    is not in all their thoughts.<note place="foot" xml:id="ftn28" n="28"><p
+                            rend="footnote text">See Ps. 10:4.</p></note> They do not desire or
+                    think of heaven; therefore they sink deep as hell.</p>
+                <p n="3">3. For this reason they are as far from real holiness as they are from
+                    valuable knowledge. It is because their eye is not single that they are such
+                    strangers to vital religion. Let them be ever so accomplished in other respects,
+                    let them be ever so learned, ever so well versed in every branch of polite
+                    literature; yea, ever so courteous, so humane; yet if their eye is not singly
+                    fixed on God they can know nothing of scriptural religion. They do not even know
+                    what Christian holiness means; what is the entrance of it, <pb n="04:125"/>‘the
+                    new birth’,<note place="foot" xml:id="ftn29" n="29"><p rend="footnote text">Cf.
+                            the answer to the question, ‘What is the inward and spiritual grace?’ in
+                            the BCP, Catechism.</p></note> with all the circumstances attending it.
+                    They know no more of this than do the beasts of the field. Do they repent and
+                    believe the gospel?<note place="foot" xml:id="ftn30" n="30"><p
+                            rend="footnote text">See Mark 1:15.</p></note> How much less are they
+                    renewed in the spirit of their minds,<note place="foot" xml:id="ftn31" n="31"><p
+                            rend="footnote text">Eph. 4:23.</p></note> in the image of him that
+                    created them?<note place="foot" xml:id="ftn32" n="32"><p rend="footnote text"
+                            >Col. 3:10.</p></note> As they have not the least experience of this, so
+                    they have not the least conception of it. Were you to name such a thing you
+                    might expect to hear, ‘Much religion hath made thee mad:’<note place="foot"
+                        xml:id="ftn33" n="33"><p rend="footnote text">Cf. Acts 26:24.</p></note> so
+                    destitute are they—whatever accomplishments they have beside—of the only
+                    religion which avails with God.</p>
+                <p n="4">4. And till their eye is single they are as far remote from happiness as
+                    from holiness.<note place="foot" xml:id="ftn34" n="34"><p rend="footnote text"
+                            >Cf. No. 5, ‘Justification by Faith’, I.4 and n.</p></note> They may now
+                    and then have agreeable dreams from</p>
+                <lg>
+                    <l>Wealth, honour, pleasure, or what else</l>
+                    <l>This short-enduring world can give.</l>
+                    <note place="foot" xml:id="ftn35" n="35">
+                        <p rend="footnote text">John and Charles Wesley, <hi rend="italic">Hymns and
+                                Sacred Poems</hi> (1739), p. 124 (<hi rend="italic">Poet. Wks.</hi>,
+                            I.111), possibly a paraphrase from Antoinette Bourignon; see No. 54, ‘On
+                            Eternity’, §17 and n.</p>
+                    </note>
+                </lg>
+                <p>But none of these can satisfy the appetite of an immortal soul. Nay, all of them
+                    together cannot give rest, which is the lowest ingredient of happiness, to a
+                    never-dying spirit which God created for the enjoyment of himself. The hungry
+                    soul, like the busy bee, wanders from flower to flower; but it goes off from
+                    each with an abortive hope and a deluded expectation. Every creature cries (some
+                    with a loud and others with a secret voice), ‘Happiness is not in <hi
+                        rend="italic">me</hi>.’<note place="foot" xml:id="ftn36" n="36"><p
+                            rend="footnote text">Augustine, <hi rend="italic">Confessions</hi>, XI.
+                            iv, see No. 77, ‘Spiritual Worship’, III.7 and n.</p></note> The height
+                    and the depth proclaim to an attentive ear, ‘The Creator hath not implanted in
+                    me a capacity of giving happiness; therefore with all thy skill and pains thou
+                    canst not extract it from me.’ And indeed the more pains any of the children of
+                    men take to extract it from any earthly object, the greater will their chagrin
+                    be, the more secure their disappointment.</p>
+                <p n="5">5. But although the vulgar herd of mankind<note place="foot" xml:id="ftn37"
+                        n="37"><p rend="footnote text">See No. 31, ‘Sermon on the Mount, XI’, I.6
+                            and n.</p></note> can find no happiness; although it cannot be found in
+                    the empty pleasures of the world, may it not be found in learning, even by him
+                    that has not a single eye! Surely</p>
+                <pb n="04:126"/>
+                <lg>
+                    <l>Content of spirit must from science flow;</l>
+                    <l>For ’tis a godlike attribute to know.</l>
+                    <note place="foot" xml:id="ftn38" n="38">
+                        <p rend="footnote text">Prior, <hi rend="italic">Solomon</hi>, i.42-43; cf.
+                            Wesley, <hi rend="italic">A Collection of Moral and Sacred Poems</hi>
+                            (1744), I.198.</p>
+                    </note>
+                </lg>
+                <p>By no means. On the contrary it has been the observation of all ages that the men
+                    who possessed the greatest learning were the most dissatisfied of all men. This
+                    occasioned a person of eminent learning to declare, ‘A fool may find a kind of
+                    paradise upon earth (although this is a grand mistake), but a wise man can find
+                        none.’<note place="foot" xml:id="ftn39" n="39"><p rend="footnote text">John
+                            Norris, <hi rend="italic">Reflections Upon the Conduct of Human
+                                Life</hi> (1690), ‘Third Reflection’, sect. VIII, pp. 111-13: ‘This
+                            (world) is not a place to be wise in. The wise men cannot find a
+                            paradise here, though the fool can.’ Wesley published an extract of this
+                            work in 1741 (<hi rend="italic">Bibliog</hi>, No. 3), omitting
+                            twenty-five chapters of the original, including this quotation. See <hi
+                                rend="italic">Serious Thoughts on the Earthquake at Lisbon</hi>
+                            (1755), closing paragraph.</p></note> These are the most discontented,
+                    the most impatient of men. Indeed learning naturally effects this. ‘Knowledge’,
+                    as the Apostle observes, ‘puffeth up.’<note place="foot" xml:id="ftn40" n="40"
+                            ><p rend="footnote text">Cf. 1 Cor. 13:4.</p></note> But where pride is,
+                    happiness is not; they are utterly inconsistent with each other. So much ground
+                    there is for that melancholy reflection, wherever true religion is not,</p>
+                <lg>
+                    <l>Avails it then, O reason, to be wise?</l>
+                    <l>To see this mournful sight with quicker eyes?</l>
+                    <l>To know with more distinction to complain,</l>
+                    <l>And have superior sense in feeling pain?</l>
+                    <note place="foot" xml:id="ftn41" n="41">
+                        <p rend="footnote text">Cf. Prior, <hi rend="italic">Solomon</hi>,
+                            iii.343-46; see also Wesley, <hi rend="italic">A Collection of Moral and
+                                Sacred Poems </hi>(1744), I.174; and No. 78, ‘Spiritual Idolatry’,
+                            II.2 and n.</p>
+                    </note>
+                </lg>
+            </div>
+            <div type="section" n="3">
+                <p n="1">III. 1. It remains to consider, in the third place, our Lord’s important
+                    question, ‘If the light that is in thee be darkness, how great is that
+                    darkness?’ The plain meaning is: if that principle which ought to give light to
+                    thy whole soul, as the eye does to the body—to direct thy understanding,
+                    passions, affections, tempers, all thy thoughts, words, and actions—if this
+                    principle itself be darkened, be set wrong, and put darkness for light, how
+                    great must that darkness be, how terrible its effects!</p>
+                <p n="2">2. In order to see this in a stronger point of view, let us consider it in
+                    a few particular instances. Begin with one of no small importance. Here is a
+                    father choosing an employment for his son: if his eye be not single, if he does
+                    not singly aim at the glory of God in the salvation of his soul, if it be not
+                    his one consideration what calling is likely to secure him the highest place in
+                    heaven, not the <pb n="04:127"/>largest share of earthly treasure, or the
+                    highest preferment in the church; the light which is in him is manifestly
+                    darkness—and Oh! how great is that darkness! The mistake which he is in is not a
+                    little one, but inexpressibly great. What! Do not you prefer his being a cobbler
+                    on earth, and a glorious saint in heaven, before his being a lord on earth, and
+                    a damned spirit in hell? If not, how great, unutterably great, is the darkness
+                    that covers your soul! What a fool, what a dolt, what a madman is he, how stupid
+                    beyond all expression, who judges a palace upon earth to be preferable to a
+                    throne in heaven! How unspeakably is his understanding darkened who, to gain for
+                    his child the honour that cometh of men,<note place="foot" xml:id="ftn42" n="42"
+                            ><p rend="footnote text">See John 5:41.</p></note> will entail upon him
+                    everlasting shame in the company of the devil and his angels!</p>
+                <p n="3">3. I cannot dismiss this subject yet, as it is of the utmost importance.
+                    How great is the darkness of that execrable wretch (I can give him no better
+                    title, be he rich or poor) who will sell his own child to the devil! Who will
+                    barter her own eternal happiness for any quantity of gold or silver! What a
+                    monster would any man be accounted who devoured the flesh of his own offspring!
+                    And is not he as great a monster who by his own act and deed gives her to be
+                    devoured by that roaring lion? As he certainly does (so far as is in his power)
+                    who marries her to an ungodly man. ‘But he is rich; but he has ten thousand
+                    pounds!’ What if it were a hundred thousand? The more the worse—the less
+                    probability will she have of escaping the damnation of hell. With what face wilt
+                    thou look upon her when she tells thee in the realms below: ‘Thou hast plunged
+                    me into this place of torment. Hadst thou given me to a good man, however poor,
+                    I might have now been in Abraham’s bosom. But Oh! what have riches profited me!
+                    They have sunk both me and them into hell.’</p>
+                <p n="4">4. Are any of you that are called Methodists thus merciful to your
+                    children? Seeking to ‘marry them well’<note place="foot" xml:id="ftn43" n="43"
+                            ><p rend="footnote text">See No. 94, On Family Religion’, III.17 and
+                            n.</p></note> (as the <hi rend="italic">cant</hi> phrase is), that is,
+                    to sell them to some purchaser that has much money, but little or no religion?
+                    Is then the light that is in <hi rend="italic">you</hi> also darkness? Are ye,
+                    too, regarding God less than mammon? Are ye also without understanding? Have ye
+                    profited no more by all ye have heard? Man, woman, think what you are about!
+                    Dare <hi rend="italic">you </hi>also sell your child to the devil? You
+                    undoubtedly do this (as far as <pb n="04:128"/>in you lies) when you marry a son
+                    or a daughter to a child of the devil, though it be one that wallows in gold and
+                    silver. O take warning in time! Beware of the gilded bait!<note place="foot"
+                        xml:id="ftn44" n="44"><p rend="footnote text">Cf. Sir William Davenant
+                            [D’Avenant], <hi rend="italic">Gondibert: An Heroic Poem</hi> (1651),
+                            I.v.75: ‘Be not with honour’s gilded baits beguiled.’</p></note> Death
+                    and hell are hid beneath. Prefer grace before gold and precious stones. Glory in
+                    heaven to riches on earth! If you do not, you are worse than the very
+                    Canaanites. They only made their children pass ‘through the fire’ to
+                        Moloch.<note place="foot" xml:id="ftn45" n="45"><p rend="footnote text">Lev.
+                            18:21.</p></note> You make yours pass ‘into the fire’ that never shall
+                    be quenched,<note place="foot" xml:id="ftn46" n="46"><p rend="footnote text"
+                            >Mark 9:43, 45.</p></note> and to stay in it for ever! O how great is
+                    the darkness that causes you, after you have done this, to ‘wipe your mouth and
+                    say, you have done no evil’!<note place="foot" xml:id="ftn47" n="47"><p
+                            rend="footnote text">Cf. Prov. 30:20.</p></note></p>
+                <p n="5">5. Let us consider another case, not far distant from this. Suppose a young
+                    man, having finished his studies at the university, is desirous to minister in
+                    holy things, and accordingly enters into orders. What is his intention in this?
+                    What is the end he proposes to himself? If his eye be single, his one design is
+                    to save his own soul, and them that hear him;<note place="foot" xml:id="ftn48"
+                        n="48"><p rend="footnote text">See 1 Tim. 4:16; an autobiographical echo
+                            from Wesley’s own argument to his father against his leaving Oxford and
+                            settling in Epworth; see letter of Dec. 10, 1734 (§§3, 4,
+                        11).</p></note> to bring as many sinners as he possibly can out of darkness
+                    into marvellous light.<note place="foot" xml:id="ftn49" n="49"><p
+                            rend="footnote text">1 Pet. 2:9.</p></note> If on the other hand his eye
+                    be not single, if he aims at ease, honour, money, or preferment, the world may
+                    account him a wise man; but God says unto him, ‘Thou fool!’<note place="foot"
+                        xml:id="ftn50" n="50"><p rend="footnote text">Matt. 5:22.</p></note> And
+                    while the light which in him is thus darkness, ‘how great is that darkness!’
+                    What folly is comparable to his folly! One peculiarly dedicated to the God of
+                    heaven, to ‘mind earthly things’!<note place="foot" xml:id="ftn51" n="51"><p
+                            rend="footnote text">Phil. 3:19.</p></note> A worldly clergyman is a
+                    fool above all fools, a madman above all madmen!<note place="foot"
+                        xml:id="ftn52" n="52"><p rend="footnote text">See No. 4, <hi rend="italic"
+                                >Scriptural Christianity</hi>, IV.2 and n.</p></note> Such vile,
+                    infamous wretches as these are the real ‘ground of the contempt of the
+                        clergy’.<note place="foot" xml:id="ftn53" n="53"><p rend="footnote text">Cf.
+                            John Eachard, <hi rend="italic">Grounds and Occasions of the Contempt of
+                                the Clergy</hi> (1670). Eachard’s own stipulated grounds were (1)
+                            their useless education; (2) their extravagant rhetoric; (3) their
+                            poverty and consequent indignity before their patrons; (4) lack of
+                            practical influence.</p></note> Indolent clergymen, pleasure-taking
+                    clergymen, money-loving clergymen, praise-loving clergymen, preferment-seeking
+                    clergymen; these are the wretches that cause the order in general to be
+                    contemned. These are the pests of the Christian world, the grand nuisance of
+                    mankind, a stink in the nostrils of <pb n="04:129"/>God. Such as these were they
+                    who made St. Chrysostom to say, ‘Hell is paved with the souls of Christian
+                        priests.’<note place="foot" xml:id="ftn54" n="54"><p rend="footnote text">A
+                            proverb cited in Ralph L. Woods, <hi rend="italic">World Treasury of
+                                Religious Quotations</hi> (1966), as from ‘St. John Chrysostom, <hi
+                                rend="italic">De Sacerdotio</hi>’. But the text, as such, does not
+                            appear in Chrysostom, ‘On the Priesthood’, either in <hi rend="italic"
+                                >NPNF, I</hi>, IX, or in Migne, <hi rend="italic">PG</hi>, XLVIII,
+                            despite its frequent references to the fearful punishments in store for
+                            unworthy and wicked priests (as in III.6-7, 9; IV.1-2, etc.). Similar
+                            views are quoted in Stevenson, <hi rend="italic">Home Book of
+                                Proverbs</hi>, as from Giles Firmin, <hi rend="italic">The Real
+                                Christian</hi> (1670), who also cites Chrysostom and a variation,
+                            ‘Hell is paved with good intentions,’ attributed to Bernard of
+                            Clairvaux, <hi rend="italic">Apophthegmata</hi>.</p><p
+                            rend="footnote text">See also Christopher Nesse, <hi rend="italic">A
+                                Protestant Antidote Against the Poyson of Popery</hi> (1679), p. 63:
+                            ‘Chrysostom had long before discovered and lamented, <hi rend="italic"
+                                >Multi sacerdotes et tamen pauci, multi in nomine pauci in
+                                opere</hi>; and Petrarch complained in his time that the stench of
+                            that sink (the Romish clergy) was come up to heaven; this Ribera bewails
+                            also. But above all, famous Luther speaks home to this, affirming that
+                            hell is paved with the skulls of those profane popish priests.’ Charles
+                            Wesley repeated this in CWJ, Mar. 16, 1740.</p><p rend="footnote text"
+                            >Wesley’s use of the quotation here is clearly a recourse to a
+                            commonplace; see No. 2, <hi rend="italic">The Almost Christian</hi>,
+                            III.9.</p></note></p>
+                <p n="6">6. Take another case: suppose a young woman of an independent fortune to be
+                    addressed at the same time by a man of wealth without religion, and a man of
+                    religion without wealth; in other words, by a rich child of the devil, or a poor
+                    child of God. What shall we say if, other circumstances being equal, she prefers
+                    the rich man to the good man? It is plain her eye is not single; therefore her
+                    foolish heart is darkened. And how great is that darkness which makes her judge
+                    gold and silver a greater recommendation than holiness? Which makes a child of
+                    the devil, with money, appear more amiable to her than a child of God without
+                    it? What words can sufficiently express the inexcusable folly of such a choice?
+                    What a laughing-stock (unless she severely repent) will she be to all the devils
+                    in hell, when her wealthy companion has dragged her down to his own place of
+                    torment?</p>
+                <p n="7">7. Are there any of you that are present before God who are concerned in
+                    any of these matters? Give me leave with ‘great plainness of speech to apply to
+                    your consciences in the sight of God’.<note place="foot" xml:id="ftn55" n="55"
+                            ><p rend="footnote text">Cf. 2 Cor. 3:12; 4:2.</p></note> You whom God
+                    has entrusted with sons or daughters, is your eye single in choosing partners
+                    for them? What qualifications do you seek in your sons- and daughters-in-law?
+                    Religion, or riches? Which is your first consideration? Are you not of the old
+                    heathen’s mind,</p>
+                <lg>
+                    <l>
+                        <hi rend="italic">Quaerenda pecunia primum,</hi>
+                    </l>
+                    <l>
+                        <hi rend="italic">Virtus post nummos?—</hi>
+                        <note place="foot" xml:id="ftn56" n="56">
+                            <p rend="footnote text">A sarcastic remark from Horace, <hi
+                                    rend="italic">Epistles</hi>, I.i.53-54: ‘O fellow citizens, you
+                                are seeking profit above all else, as if virtue would come after
+                                enough wealth.’ See also No. 95, ‘On the Education of Children’, §19
+                                and n.</p>
+                        </note>
+                    </l>
+                    <pb n="04:130"/>
+                    <l>Seek money first; let virtue then be sought.</l>
+                </lg>
+                <p>Bring the matter to a point. Which will you prefer? A rich heathen or a pious
+                    Christian? A child of the devil with an estate? Or the child of God without it?
+                    A lord or gentleman with the devil in his heart? (He does not hide it: his
+                    speech bewrayeth him.<note place="foot" xml:id="ftn57" n="57"><p
+                            rend="footnote text">See Matt. 26:73.</p></note>) Or a tradesman who,
+                    you have reason to believe, has Christ dwelling in his heart? O how great is
+                    that darkness which makes you prefer a child of the devil to a child of God!
+                    Which causes you to prefer the poor trash of worldly wealth, which flies as a
+                    shadow, to the riches of eternal glory!</p>
+                <p n="8">8. I call upon you more especially who are called Methodists, in the sight
+                    of the great God. Upwards of fifty years I have ministered unto you; I have been
+                    your servant for Christ’s sake. During this time I have given you many solemn
+                    warnings on this head. I now give you one more, perhaps the last. Dare any of
+                    you, in choosing your calling or situation, eye the things on earth rather than
+                    the things above? In choosing a profession, or a companion for life for your
+                    child, do you look at earth or heaven? And can you deliberately prefer, either
+                    for yourself or your offspring, a child of the devil with money, to a child of
+                    God without it? Why, the very heathens cry out,</p>
+                <quote>
+                    <hi rend="italic">O curvae in terras animae, et celestium inanes!—</hi>
+                    <note place="foot" xml:id="ftn58" n="58">
+                        <p rend="footnote text">Cf. Persius, <hi rend="italic">Satires</hi>, ii.61;
+                            see also No. 107, ‘On God’s Vineyard’, V.3 and n.</p>
+                    </note>
+                </quote>
+                <quote>O souls bowed down to earth, strangers to heaven.</quote>
+                <p>Repent, repent of your vile earthly-mindedness! Renounce the title of Christians,
+                    or prefer, both in your own case and the case of your children, grace to money,
+                    and heaven to earth. For the time to come at least, ‘let your eye be single’,
+                    that your ‘whole body may be full of light’!</p>
+            </div>
+            <p><placeName>Bristol</placeName>, <date when="09-25-1789">Sept. 25, 1789</date></p>
+        </body>
+    </text>
+</TEI>

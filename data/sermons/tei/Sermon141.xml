@@ -1,0 +1,611 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Sermon 141: The Image of God</title>
+                <author>Wesley, John</author>
+                <editor role="text">Van Buskirk, Gregory P.</editor>
+                <editor role="digital">Taylor, Michelle M.</editor>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>The Wesley Works Digitzation Project</publisher>
+                <pubPlace>Tampa, FL</pubPlace>
+                <date>2024-02-25</date>
+            </publicationStmt>
+            <sourceDesc>
+                <listBibl>
+                    <biblStruct>
+                        <analytic>
+                            <title level="a">Sermon 141: The Image of God</title>
+                        </analytic>
+                        <monogr>
+                            <title level="j">The Works of John Wesley, Volume IV: Sermons IV,
+                                115-151</title>
+                            <editor role="volume">Outler, Albert</editor>
+                            <imprint>
+                                <publisher>Abingdon Press</publisher>
+                                <pubPlace>Nashville, TN</pubPlace>
+                                <date when="1987-11-01">1987-11-01</date>
+                                <biblScope unit="volume" n="4"/>
+                                <biblScope unit="page" from="290" to="403"/>
+                            </imprint>
+                        </monogr>
+                        <series>
+                            <title level="s">The Works of John Wesley</title>
+                            <editor role="general">Baker, Frank</editor>
+                        </series>
+                    </biblStruct>
+                </listBibl>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Greg Van Buskirk created Word docs for all of Wesley's sermons using a combination of
+                OCR software and manual proofing. Michelle Taylor converted these docx into XML
+                using Oxygen's DITA automatic transformation scenario, then touched them up
+                manually.</p>
+        </encodingDesc>
+        <standOff>
+            <taxonomy>
+                <keywords>
+                    <term/>
+                </keywords>
+            </taxonomy>
+            <!--Include keywords and terms here eventually.-->
+        </standOff>
+        <revisionDesc/>
+    </teiHeader>
+    <text>
+        <body>
+            <pb n="04:290"/>
+            <head>
+                <hi rend="italic">An Introductory Comment</hi>
+            </head>
+            <p>This is John Wesley’s first ‘university sermon’, preached in St. Mary’s on November
+                15, 1730 (i.e., a fortnight after the preceding sermon preached at All Saints). In
+                style and substance, it compares favourably with his second university sermon, and
+                thus might also have been worthy of publication (cf. No. 17, ‘The Circumcision of
+                the Heart’). It must have made a mark for the young don in St. Mary’s; it is lively
+                and deals with the prime issue of Christian anthropology: the original design of
+                human nature considered in the light of the crucial biblical metaphor of ‘the image
+                of God’ and in the face of the tragic consequences of the Fall.</p>
+            <p>The argument is ordered into three stages: first, the original perfections of the <hi
+                    rend="italic">imago Dei</hi> in Adam and Eve; second, the fall and defacement of
+                that image; and third, the mystery of grace and the promise of the image’s
+                restoration. It is, therefore, an important statement of Wesley’s early basic
+                understanding of the <hi rend="italic">ordo salutis</hi>. The clearest of the
+                sermon’s three sections is its first: the Adamic perfections (cf. No. 5,
+                ‘Justification by Faith’, I.4 and n.). This idea was a commonplace in Oxford, but
+                Wesley’s development of it is not. Clearly, he was working from the tradition of
+                ‘original righteousness’ (<hi rend="italic">iustitia originalis</hi>) that had come
+                to him from Christian Platonism through the Cambridge Platonists and John Norris.
+                There are even echoes here from the medieval rabbis (especially Maimonides) and
+                their speculations about Adam’s intellectual and moral perfections. We know of
+                Wesley’s interest in this tradition and of its mediation to him through the Old
+                Testament commentaries of Matthew Poole and Matthew Henry.</p>
+            <p>Indeed, so fulsome do Adam’s perfections appear here that the wonder rises
+                irresistibly as to why a creature so perfect should ever have fallen from his
+                paradisiacal state. Wesley’s answer is an interesting echo of Milton’s ‘I cannot
+                praise a fugitive and cloistured virtue, unexercised and unbreathed’ (<hi
+                    rend="italic">Areopagitica</hi>, 1644). God had designed the virtue of obedience
+                as the precondition to all the others, and this had to be tested by an arbitrary
+                command. When this was disobeyed (and Wesley leaves the ‘explanation’ for this
+                disobedience quietly unexplained), the whole bright galaxy of those other
+                perfections also fell away into ruin.</p>
+            <pb n="04:291"/>
+            <p>Thereafter, human nature has been, in effect, an inversion of its original design—in
+                intellect, will, and affections. One of the more interesting ‘asides’ in this sermon
+                is Wesley’s description of the physiological effects of Adam’s eating of the
+                forbidden fruit. This amounts to a speculative account of a correlation between bad
+                nutrition and the course and onset of atherosclerosis—a hypothesis far enough beyond
+                its own time that modern medicine is still in process of drawing it out.</p>
+            <p>The manuscript is in the Colman Miscellany in the Methodist Archives, Manchester, on
+                nine leaves, with a front cover leaf missing. The leaves are numbered irregularly:
+                pp. 1-5, followed by an unnumbered page with text, and pp. 6-10; then a blank page
+                and pp. 11-15, followed by a back cover bearing notes about places and dates of
+                preaching. The gathering is sewn between pp. 7 and 8. The text is in Wesley’s
+                abbreviated longhand and cipher, with very few revisions. This, with the back cover
+                notations, suggests that this was the ‘fair copy’ that Wesley used in the pulpit.
+                His diary indicates that he had composed the sermon during the five days October
+                27-31; at the bottom of p. 15 there is an appended note: ‘tr[anscribed] Nov. 1, 3:30
+                aft[ernoon], 33 min.’ On the back cover there is the following list of preaching
+                occasions:</p>
+            <p rend="Quote">At St. Mary’s, Nov. 15, 1730</p>
+            <p rend="Quote">Queen’s Square Chapel, London, Feb. 7 [1731]</p>
+            <p rend="Quote">Stanton</p>
+            <p rend="Quote">St. Margaret’s, Old Fleetstreet, London</p>
+            <p rend="Quote">St. Miles [Oxford], Jan. 7, 1733 [<hi rend="italic">viz.</hi>, just a
+                week after he had preached ‘The Circumcision of the Heart’ in St. Mary’s]</p>
+            <p n="">This is its first publication.</p>
+            <p n="">
+                <pb n="04:292"/>
+            </p>
+            <head>The Image of God</head>
+            <epigraph>
+                <p>Genesis 1:27</p>
+                <p>In the first chapter of Genesis at the twenty-seventh verse it is thus
+                    written:</p>
+                <p>
+                    <hi rend="italic">So God created man in his own image.</hi>
+                </p>
+            </epigraph>
+            <div type="introduction">
+                <p n="1">[1.] A truth that does so much honour to human nature, that gives so
+                    advantageous an account of it as this, could not fail, one would think, of being
+                    well entertained by all to whom that nature belonged. And accordingly some there
+                    have been in all ages who gladly received and firmly retained it; who asserted,
+                    not only that man was sprung from God, but that he was his likeness from whom he
+                    sprung; that the image of his divine Parent was still visible upon him, who had
+                    transfused as much of himself into this his picture as the materials on which he
+                    drew would allow.<note place="foot" xml:id="ftn1" n="1"><p rend="footnote text"
+                            >The <hi rend="italic">imago Dei</hi> metaphor was a favourite of the
+                            Cambridge Platonists and of John Norris, Whichcote, More, Cudworth, <hi
+                                rend="italic">et al.</hi> See No. 1, <hi rend="italic">Salvation by
+                                Faith</hi>, §1 and n.</p></note></p>
+                <p n="2">[2.] But to this it has constantly been opposed: if man was made in the
+                    image of God, whence flow those numberless imperfections that stain and
+                    dishonour his nature? Why is his body exposed to sickness and pain, and at last
+                    to a total dissolution? Why is his soul still more disgraced and deformed by
+                    ignorance and error, by unruly passions, and what is worse than all, as it
+                    contains them all, by vice? A fine picture—this ignorant, wretched, guilty
+                    creature—of a wise, happy, and holy Creator!</p>
+                <p n="3">[3.] I am ashamed to say there are [those] of our age and nation who
+                    greedily close with this old objection, and eagerly maintain that they were not
+                    made in the image of the living God, but of the beasts that perish;<note
+                        place="foot" xml:id="ftn2" n="2"><p rend="footnote text">See Ps. 49:12, 20;
+                            see also Hobbes, <hi rend="italic">Humane Natur</hi> (1684), xi.69,
+                            where it is argued that ‘we can have no conception or image of the
+                            Deity’; cf. his famous dictum on the quality of human life: ‘nasty,
+                            brutish, and short’ (<hi rend="italic">Leviathan</hi>, I.13).</p></note>
+                    who heartily contend that it was not the divine but the brutal likeness in which
+                    they were created, and earnestly <pb n="04:293"/>assert ‘that they themselves
+                    are beasts’<note place="foot" xml:id="ftn3" n="3"><p rend="footnote text"
+                            >Eccles. 3:18.</p></note> in a more literal sense than ever Solomon
+                    meant it. These consequently reject with scorn the account God has given of man,
+                    and affirm it to be contrary to reason and [to the account] itself, as well as
+                    it is to their practice.</p>
+                <p n="4">[4.] The substance of his account is this: ‘God created man upright; in the
+                    image of God created he him; but man found out to himself many inventions.’<note
+                        place="foot" xml:id="ftn4" n="4"><p rend="footnote text">Cf. Gen. 1:27;
+                            Eccles. 7:29.</p></note> Abusing the liberty wherewith he was endowed,
+                    he rebelled against his Creator, and wilfully changed the image of the
+                    incorruptible God into sin, misery, and corruption.<note place="foot"
+                        xml:id="ftn5" n="5"><p rend="footnote text">See Rom. 1:18-25.</p></note> Yet
+                    his merciful, though rejected, Creator would not forsake even the depraved work
+                    of his own hands, but provided for him, and offered to him a means of being
+                    ‘renewed after the image of him that created him’.<note place="foot"
+                        xml:id="ftn6" n="6"><p rend="footnote text">Col. 3:10.</p></note></p>
+                <p n="5">[5.] That it may appear<note place="foot" xml:id="ftn7" n="7"><p
+                            rend="footnote text">This paragraph is prefixed by the marginal notation
+                            ‘G.D.’ (‘General Divisions’); see No. 138A, ‘On Dissimulation’, §3 and
+                            n.</p></note> whether this account of man is contrary to itself and
+                    reason or no, I shall endeavour to show the parts of it more distinctly, by
+                    inquiring: I, how man was made in the image of God; II, how he lost that image;
+                    and III, how he may recover it.</p>
+            </div>
+            <div type="section" n="1">
+                <p>I. Man was originally made in the image of God.</p>
+                <p n="1">1. First with regard to his understanding. He was endued, after the
+                    likeness of his Maker, with a power of distinguishing truth from falsehood;
+                    either by a simple view wherein he made the nearest approach to that all-seeing
+                    Nature, or by comparing one thing with another (a manner of knowledge perhaps
+                    peculiar to himself) and often inferring farther truths from these preceding
+                        comparisons.<note place="foot" xml:id="ftn8" n="8"><p rend="footnote text"
+                            >For this idea of ‘Adamic perfection’, see No. 5, ‘Justification by
+                            Faith’, I.4 and n.</p></note></p>
+                <p n="1">(1.) And in several properties of it, as well as in the faculty itself, man
+                    at first resembled God. His understanding was just; everything appeared to him
+                    according to its real nature. It never was betrayed into any mistake; whatever
+                    he perceived, he perceived as it was. He thought not at all of many things, but
+                    he thought wrong of none. (2.) And as it was just, it was likewise clear. Truth
+                    and evidence went hand in hand; as nothing appeared in a false light, so neither
+                    in a glimmering one. Light <pb n="04:294"/>and darkness there were, but no
+                    twilight; whenever the shades of ignorance withdrew, in that moment the broader
+                    day appeared, the full blaze of knowledge shined. He was equally a stranger to
+                    error and doubt; either he saw not at all, or he saw plainly. (3.) And hence
+                    arose that other excellence of his understanding: being just and clear, it was
+                    swift in its motion. Nothing was then as quick as thought but that which alone
+                    is capable of it—spirit. How far anything of which we have any conception must
+                    fall short of expressing its swiftness will be readily seen by all who observe
+                    but one instance of it in our first father: in how short a space he ‘gave names
+                    to all cattle, and to the fowls of the air, and to every beast of the
+                        field’.<note place="foot" xml:id="ftn9" n="9"><p rend="footnote text">Gen.
+                            2:20.</p></note> And names not arbitrarily imposed, but expressive of
+                    their inward natures. (4.) Sufficiently showing thereby not only the swiftness,
+                    but likewise the greatness of his understanding. For how extensive a view must
+                    he have had who could command so vast a prospect!<note place="foot"
+                        xml:id="ftn10" n="10"><p rend="footnote text">This admiration for Adam’s
+                            perfections had long since been a popular theme in Protestant preaching.
+                            Cf. Luther’s emphasis upon ‘Adam’s superior knowledge and wisdom’
+                            (before the Fall) in his <hi rend="italic">Lectures on Genesis</hi>
+                            (1535) on 2:19-20: ‘Adam, as soon as he viewed an animal, was already
+                            possessed of a knowledge of its entire nature and abilities…. What an
+                            ocean of knowledge and wisdom there was in this one human being’ (<hi
+                                rend="italic">Works</hi>, Jaroslav Pelikan, ed. [St. Louis,
+                            Concordia, 1958], I.119-20). See Matthew Henry’s <hi rend="italic"
+                                >Exposition</hi>: ‘God himself gave names to the day and night,
+                            etc.… But he gave Adam leave to name the beasts and fowls,’ as signal
+                            proof of man’s special knowledge and authority. For Wesley’s further
+                            comments on Adamic perfection, see Nos. 5, ‘Justification by Faith’,
+                            I.1; 57, ‘On the Fall of Man’, II.1, 2, 5; 60, ‘The General
+                            Deliverance’, I.1; 62, ‘The End of Christ’s Coming’, I.7; 64, ‘The New
+                            Creation’,§ 18; 69, ‘The Imperfection of Human Knowledge’, I.13; 71, ‘Of
+                            Good Angels’, I.7; 76 ‘On Perfection’, I.1-2; 82, ‘On Temptation’, I.2;
+                            and 129, ‘Heavenly Treasure in Earthen Vessels’, §2.</p></note> What a
+                    comprehension was that, to take in at once almost an infinity of objects! Such
+                    doubtless it was that the visible creation would soon have been too small for
+                    its capacity.</p>
+                <p n="2">2. And yet even this just, this clear, this swift, this comprehensive
+                    understanding was the least part of that image of God wherein man was originally
+                    made. Far greater and nobler was his second endowment, namely, a will equally
+                    perfect. It could not but be perfect while it followed the dictates of such an
+                    understanding. His affections were rational, even, and regular—if we may be
+                    allowed to say ‘affections’, for properly speaking he had but one: man was what
+                    God is, Love. Love filled the whole expansion of his soul; it possessed him
+                    without a rival. Every movement of his heart was love: it knew no other fervour.
+                    Love was his vital heat; it was the genial warmth that animated his <pb
+                        n="04:295"/>whole frame. And the flame of it was continually streaming
+                    forth, directly to him from whom it came, and by reflection to all sensitive
+                    natures, inasmuch as they too were his offspring; but especially to those
+                    superior beings who bore not only the superscription, but likewise the image of
+                    their Creator.<note place="foot" xml:id="ftn11" n="11"><p rend="footnote text"
+                            >See Matt. 22:20, etc.</p></note></p>
+                <p n="3">3. What made his image yet plainer in his human offspring was, thirdly, the
+                    liberty he originally enjoyed; the perfect freedom implanted in his nature, and
+                    interwoven with all its parts. Man was made with an entire indifference,<note
+                        place="foot" xml:id="ftn12" n="12"><p rend="footnote text">I.e., ‘entire
+                            freedom’. See <hi rend="italic">OED,</hi> 3: ‘indetermination of the
+                            will’, etc.; cf. the definition in Johnson’s <hi rend="italic"
+                                >Dictionary</hi>: ‘Equipoise or freedom from motives on either
+                            side.’</p></note> either to keep or change his first estate: it was left
+                    to himself what he would do; his own choice was to determine him in all things.
+                    The balance did not incline to one side or the other unless by his own deed. His
+                    Creator would not, and no creature besides himself could, weigh down either
+                        scale.<note place="foot" xml:id="ftn13" n="13"><p rend="footnote text"
+                            >Wesley is here challenging a nominalist metaphor of the will’s being
+                            determined, as in a balance, by ‘the heaviest weight’ (i.e., the
+                            strongest motive); it had come to be associated in academic folklore
+                            with the case of ‘Buridan’s ass’, placed equidistant from two bales of
+                            hay and starving from indecision. The doctrine of the predetermined will
+                            is that of Jean Buridan in <hi rend="italic">Quaestiones in Aristotelis
+                                Ethica Nicomachea</hi> (1489), III.1-3; the illustration is not. It
+                            seems to have been invented by one of Buridan’s critics as a <hi
+                                rend="italic">reductio ad absurdum</hi>.</p></note> So that, in this
+                    sense, he was the sole lord and sovereign judge of his own actions.</p>
+                <p n="4">4. The result of all these—an unerring understanding, an uncorrupt will,
+                    and perfect freedom—gave the last stroke to the image of God in man, by crowning
+                    all these with happiness. Then indeed to live was to enjoy, when every faculty
+                    was in its perfection, amidst abundance of objects which infinite wisdom had
+                    purposely suited to it, when man’s understanding was satisfied with truth, as
+                    his will was with good; when he was at full liberty to enjoy either the Creator
+                    or the creation; to indulge in rivers of pleasure,<note place="foot"
+                        xml:id="ftn14" n="14"><p rend="footnote text">See Ps. 36:8.</p></note> ever
+                    new, ever pure from any mixture of pain.</p>
+            </div>
+            <div type="section=" n="2">II. How it was this wise, virtuous, happy creature was
+                deprived of these perfections, how man lost the image of God, we are, secondly, to
+                inquire. And the plain answer is this: the liberty of man necessarily required that
+                he should have some trial;<note place="foot" xml:id="ftn15" n="15"><p
+                        rend="footnote text">Cf. Milton, <hi rend="italic">Areopagitica</hi> (1644):
+                        ‘that which purifies us is trial’. Later, Soame Jenyns will repeat this idea
+                        (‘Some test of our obedience was necessary’) in his <hi rend="italic">Free
+                            Inquiry into the Nature and Origin of Evil</hi> (1 757), p. 89; but see
+                        Wesley’s comments on Jenyns in Nos. 56, ‘God’s Approbation of His Works’,
+                        II.2; and 59, ‘God’s Love to Fallen Men’, §15.</p></note> else he <pb
+                    n="04:296"/>would have had no choice whether he would stand or no, that is, no
+                liberty at all. In order to this necessary trial God said unto him, ‘Of every tree
+                of the garden thou mayst freely eat, but of the tree of the knowledge of good and
+                evil, thou shalt not eat of it.’<note place="foot" xml:id="ftn16" n="16"><p
+                        rend="footnote text">Gen. 2:16-17.</p></note> To secure him from
+                transgressing this sole command, as far as could be done without destroying his
+                liberty, the consequence was laid before him: ‘In the day that thou eatest thereof
+                thou shalt surely die.’<note place="foot" xml:id="ftn17" n="17"><p
+                        rend="footnote text">Gen. 2:17; see No. 45, ‘The New Birth’, I.4 and
+                    n.</p></note> Yet man did eat of it, and the consequence accordingly was death
+                on him and all his descendants, and preparatory to death, sickness and pain, and
+                folly and vice and slavery. <p>And ’tis easy to observe by what regular steps all
+                    these would succeed each other, if God did not miraculously prevent it, but
+                    suffer nature to take its course. But we should observe, first, that man even at
+                    his creation was a compound of matter and spirit; and that it was ordained by
+                    the original law that during this vital union neither part of the compound
+                    should act at all but together with its companion; that the dependence of each
+                    upon the other should be inviolably maintained; that even the operations of the
+                    soul should so far depend upon the body as to be exerted in a more or less
+                    perfect manner, as this was more or less aptly disposed.</p>
+                <p>This being observed, we may easily conceive how the forbidden fruit might work
+                    all those effects which are implied in the word ‘death’, as being introductory
+                    to, and paving the way for it. Which particulars of the following account are
+                    founded on Scripture and consequently certain, and which are built on conjecture
+                    and therefore proposed only as probable, it will not be hard to distinguish.</p>
+                <p n="1">1. Its first effect must have been on his body, which, being before
+                    prepared for immortality, had no seeds of corruption within itself and adopted
+                    none from without. All its original particles were incorruptible, and therefore
+                    the additional ones taken in, being for pleasure rather than use, cannot be
+                    supposed ever to have cleaved to its native substance, ever to have adhered to
+                    any part of it, as none needed any reparation. By this means both the juices
+                    contained must have been still of the same consistence, and the vessels
+                    containing them have kept the same spring, and remained ever clear and
+                        open.<note place="foot" xml:id="ftn18" n="18"><p rend="footnote text">An
+                            attempt to update the age-old discussion of Adam’s mortality had he
+                            never defied God’s prohibition; cf. Luther, <hi rend="italic"
+                            >Works</hi>, I.110: ‘If Adam had obeyed…he never would have died…. [He]
+                            ate, masticated, digested, and if he had remained as he was, he would
+                            have done the other things physical life demands until at last he would
+                            have been translated to the spiritual and eternal life.’ Wesley believed
+                            that the new physiology (Harvey, Cheyne, Weemes, <hi rend="italic">et
+                                al.</hi>) confirmed this tradition—<hi rend="italic">viz.</hi>, that
+                            the human organism is ‘designed’ to operate indefinitely unless
+                            corrupted by some noxious agent or another.</p></note></p>
+                <pb n="04:297"/><p>On the contrary, the fruit of that tree alone of whose deadly
+                    nature he was forewarned seems to have contained a juice, the particles of which
+                    were apt to cleave to whatever they touched. Some of these, being received into
+                    the human body, might adhere to the inner coats of the finer vessels; to which
+                    again other particles that before floated loose in the blood, continually
+                    joining, would naturally lay a foundation for numberless disorders in all parts
+                    of the machine. For death in particular; since, more foreign matter cleaving to
+                    the former every day, the solid parts of the body would every day lose something
+                    of their spring, and so be less able to contribute their necessary assistance to
+                    the circulation of the fluids. The smaller channels would gradually fill up,
+                    especially those that lie near the extremities, where the current, by reason of
+                    its distance from the fountain, was always more slow and languid. The whole
+                    tide, as the force that threw it forward abated, must [also] have abated its
+                    swiftness in proportion, till at length that force utterly failing, it ceased to
+                    move, and rested in death.<note place="foot" xml:id="ftn19" n="19"><p
+                            rend="footnote text">For Wesley’s notions of physiology, cf. No. 51, <hi
+                                rend="italic">The Good Steward</hi>, I.4 and n. But note the
+                            anticipation here of later notions of low-density lipoproteins and
+                            atherosclerosis.</p></note></p>
+                <p>Indeed had Adam taken the antidote as well as the poison, had he again put forth
+                    his hand, and taken of the fruit of the Tree of Life,<note place="foot"
+                        xml:id="ftn20" n="20"><p rend="footnote text">See Gen. 3:22.</p></note>
+                    nothing of this could have followed. ’Tis sure this would have made him live for
+                    ever, naturally speaking, notwithstanding he had eaten death. ’Tis likely it
+                    would have done so by its thin, abstersive<note place="foot" xml:id="ftn21"
+                        n="21"><p rend="footnote text">Cf. <hi rend="italic">OED</hi>, where Sprat’s
+                                <hi rend="italic">History of the Royal Society</hi> (2nd edn., 1702)
+                            is cited as having listed ‘fuller’s earth, linseed oil, and oxgall’ as
+                            ‘abstersives’. Dr. Johnson would later define ‘abstersive’ as
+                            ‘cleansing’, and would quote Francis Bacon, <hi rend="italic">Natural
+                                History</hi>: ‘abstersive and mundifying clysters are also good to
+                            conclude [a purgation] with, to draw away the reliquies of the
+                            humours.’</p></note> nature, particularly fitted to counteract the
+                    other, to wipe off its particles, wheresoever adhering, and so restore the eater
+                    to immortality.</p>
+                <p>However this be, thus much is certain: the moment wherein that fruit was tasted,
+                    the sentence of death passed on that body, which before was impassive and
+                    immortal. And this immortal <pb n="04:298"/>having put on mortality,<note
+                        place="foot" xml:id="ftn22" n="22"><p rend="footnote text">An inversion of 1
+                            Cor. 15:53-54.</p></note> the next stroke fell on its companion: the
+                    soul felt a like change through all her powers, except only that she could not
+                    die. The instrument being now quite untuned, she could no longer make the same
+                    harmony: ‘the corruptible body pressed down the soul’,<note place="foot"
+                        xml:id="ftn23" n="23"><p rend="footnote text">Wisd. 9:15; cf. No. 41, <hi
+                                rend="italic">Wandering Thoughts</hi>, II.3 and n.</p></note> with
+                    which it soared so high during its incorruption.</p>
+                <p n="2">2. His understanding first found the want of suitable organs; its notions
+                    were just no longer. It mistook falsehood for truth, and truth for falsehood.
+                    Error succeeded and increased ignorance. And no wonder, when it was no longer
+                    clear; when it not only saw through a glass, but darkly too,<note place="foot"
+                        xml:id="ftn24" n="24"><p rend="footnote text">See 1 Cor. 13:12.</p></note>
+                    that glass being now grown thick and dull, having lost great part of its
+                    transparency. And hence it was that doubt perplexed it as well as error, that it
+                    could neither rest in knowledge nor ignorance. Through clouds like these its
+                    most laborious steps could win but little ground. With its clearness went its
+                    swiftness too; confusion and slowness came together. Instead of being able to
+                    find out the natures of ten thousand creatures almost in a moment, it became
+                    unable to trace out fully the nature of any one in many years. Nay, unable (so
+                    was the largeness of its capacity impaired, as well as the swiftness of its
+                    progress) with that apprehension for which the visible world was before but a
+                    scanty prospect, to take in at one view all the properties of any single
+                    creature therein.</p>
+                <p n="3">3. How much the will suffered when its guide was thus blinded we may easily
+                    comprehend. Instead of the glorious one that possessed it whole <hi
+                        rend="italic">before</hi>, it was <hi rend="italic">now</hi> seized by
+                    legions of vile affections.<note place="foot" xml:id="ftn25" n="25"><p
+                            rend="footnote text">See Rom. 1:26.</p></note> Grief and anger and
+                    hatred and fear and shame, at once rushed in upon it; the whole train of
+                    earthly, sensual, and devilish<note place="foot" xml:id="ftn26" n="26"><p
+                            rend="footnote text">Jas. 3:15.</p></note> passions fastened on and tore
+                    it in pieces. Nay, love itself, that ray of the Godhead, that balm of life, now
+                    became a torment. Its light being gone, it wandered about seeking rest and
+                    finding none;<note place="foot" xml:id="ftn27" n="27"><p rend="footnote text"
+                            >Luke 11:24.</p></note> till at length, equally unable to subsist
+                    without any and to feel out its proper object, it reclined itself upon the
+                    painted trifles, the gilded poison of earthly enjoyments.</p>
+                <p n="4">4. Indeed, what else could the human mind do when it had no freedom left?
+                    Liberty went away with virtue; instead of an indulgent master it was under a
+                    merciless tyrant. The subject <pb n="04:299"/>of virtue became the slave of
+                    vice. It was not willingly that the creature obeyed vanity; the rule was now
+                    perforce; the sceptre of gold was changed into a rod of iron. Before, the bands
+                    of love indeed drew him<note place="foot" xml:id="ftn28" n="28"><p
+                            rend="footnote text">See Hos. 11:4.</p></note> toward heaven; yet if he
+                    would, he could stoop down to earth. But now, he was so chained down to earth he
+                    could not so much as lift up his eyes toward heaven.<note place="foot"
+                        xml:id="ftn29" n="29"><p rend="footnote text">See Luke 18:13.</p></note></p>
+                <p n="5">5. The consequence of his being enslaved to a depraved understanding and a
+                    corrupted will could be no other than the reverse of that happiness which flowed
+                    from them when in their perfection. Then were the days of man evil as well as
+                        few;<note place="foot" xml:id="ftn30" n="30"><p rend="footnote text">See
+                            Gen. 47:9.</p></note> then, when both his faculties were decayed, and
+                    bitterness poured on their earthly objects, and heavenly ones withdrawn, the
+                    mortal, foolish, vicious, enslaved creature was delivered over to his
+                    [un]sought-for misery.</p>
+                <p>How such a creature as this, as every fair inquirer finds by experience himself
+                    to be, could come from the hands of the good God, has been the just wonder of
+                    all ages. And let the infidel look to it; let him surmount the difficulty if he
+                    can upon any scheme beside the Christian. Upon this indeed it is no difficulty
+                    at all; all is rational, plain, and easy, while we observe, on the one hand,
+                    that not the good God but man himself made man what he is now; on the other, how
+                    he may recover what he wilfully lost, which is the subject of our third
+                    inquiry.</p></div>
+            <div type="section" n="3">
+                <p>III. Who indeed shall recover us from the body of this death?<note place="foot"
+                        xml:id="ftn31" n="31"><p rend="footnote text">See Rom. 7:24.</p></note> Who
+                    shall restore our native immortality? We answer with the Apostle, ‘I thank God,
+                    Jesus Christ our Lord!’<note place="foot" xml:id="ftn32" n="32"><p
+                            rend="footnote text">Rom. 7:25.</p></note> ‘As in Adam all died, so in
+                    Christ shall all be made alive’<note place="foot" xml:id="ftn33" n="33"><p
+                            rend="footnote text">1 Cor. 15:22.</p></note>—all who accept of the
+                    means which he hath prepared, who walk by the rules which he hath given them.
+                    All these shall by dying conquer the first death, and shall never taste the
+                        second.<note place="foot" xml:id="ftn34" n="34"><p rend="footnote text">See
+                            Rev. 2:11; 20:14-15.</p></note> The seeds of spiritual death they shall
+                    gradually expel, before this earthly tabernacle is dissolved, that this too,
+                    when it has been taken down and thoroughly purged, may be rebuilt ‘eternal in
+                    the heavens’.<note place="foot" xml:id="ftn35" n="35"><p rend="footnote text">2
+                            Cor. 5:1.</p></note></p>
+                <p n="1">1. The first step to this glorious change is humility, a knowledge of
+                    ourselves, a just sense of our condition: which the <pb n="04:300"/>evil spirit
+                    himself, either overruled by or mimicking the true God, recommended on the front
+                    of his temple in those celebrated words, ‘Know Thyself’,<note place="foot"
+                        xml:id="ftn36" n="36"><p rend="footnote text">‘The evil spirit’ here is
+                            Apollo, and the maxim, ‘Know thyself’ (γνῶθι σεαυτόν), stood first among
+                            the inscriptions on the tablets of Apollo’s temple at Delphi. Plutarch
+                            ascribes it to Plato, but a more popular tradition attributes it to one
+                            or another of ‘the Seven Sages of Greece’. Juvenal, <hi rend="italic"
+                                >Satires</hi>, xi.27-30, says that ‘the maxim γνῶθι σεαυτόν comes
+                            down from the skies; it should be imprinted in the heart and stored in
+                            the memory.’ Diogenes Laertius, <hi rend="italic">Lives of Eminent
+                                Philosophers</hi>, I.40-42, traces it back to Thales. See also
+                            Plato, <hi rend="italic">Protagoras</hi>, 343-44; and <hi rend="italic"
+                                >Alcibiades</hi>, I.129. The Latin form, <hi rend="italic">Nosce
+                                teipsum,</hi> appears in Erasmus, <hi rend="italic">Adagia</hi>,
+                            I.vi.95. By Wesley’s time it was a proverb among the
+                        educated.</p></note> which a better prophet than he recommends to all those
+                    who would ‘be transformed by the renewing of their minds’—‘I say unto every
+                    man—not to think of himself more highly than he ought to think.’<note
+                        place="foot" xml:id="ftn37" n="37"><p rend="footnote text">Rom.
+                        12:2-3.</p></note></p>
+                <p>’Tis almost needless to remark how conducive this is to the attainment of all
+                    other knowledge; or, in other words, how conducive it is to the improvement of
+                    the understanding. An erroneous opinion of ourselves naturally leads us into
+                    numberless errors; whereas to those who know their own folly (beside the natural
+                    advantage of it) the Lord of nature ‘giveth the spirit of wisdom, and enlightens
+                    the eyes of their understanding, after the likeness in which they were
+                        created’.<hi rend="endnote_reference"><note place="end"><p
+                                rend="endnote text">[Cf.] Eph. 1:17 [-18; Col.
+                        3:10].</p></note></hi></p>
+                <p n="2">2. The understanding, thus enlightened by humility, immediately directs us
+                    to reform our will by charity.<note place="foot" xml:id="ftn38" n="38"><p
+                            rend="footnote text">I.e., ‘disinterested love’. Later, Wesley will
+                            complain that ‘charity’ is a misleading translation of ἀγάπη and will
+                            opt for ‘love’ instead. See Nos. 17, ‘The Circumcision of the Heart’,
+                            II.1 and n.; and 91, ‘On Charity’, I.1.</p></note> To root out of our
+                    souls all unmanly passions, and to give place to them, no, not an hour; to put
+                    away all malice, uncleanness, intemperance, ‘all bitterness, wrath, and
+                        evil-speaking’;<note place="foot" xml:id="ftn39" n="39"><p
+                            rend="footnote text">Eph. 4:31.</p></note> to collect the scattered
+                    beams of that affection which is truly human, truly divine, and fix them on that
+                    Sovereign Good ‘in whom we live, move, and have our being’;<note place="foot"
+                        xml:id="ftn40" n="40"><p rend="footnote text">Acts 17:28.</p></note> for his
+                    sake, lastly, and after his example, to be ‘kind one to another, tender-hearted,
+                    forgiving one another, even as God, for Christ’s sake, hath forgiven us’.<hi
+                        rend="endnote_reference"><note place="end"><p rend="endnote text">Eph.
+                                4:32.</p></note></hi></p>
+                <p n="3">3. Thus it is that the ‘law of the Spirit of life makes us free from the
+                    law of sin and death’;<note place="foot" xml:id="ftn41" n="41"><p
+                            rend="footnote text">Cf. Rom. 8:2.</p></note> thus it restores us, first
+                    to knowledge, and then to virtue, and freedom, and happiness. Thus are we <pb
+                        n="04:301"/>‘delivered from the bondage of corruption into the glorious
+                    liberty of the sons of God’;<note place="foot" xml:id="ftn42" n="42"><p
+                            rend="footnote text">Cf. Rom. 8:21.</p></note> into that liberty which
+                    not only implies the absence of all pain, unless what is necessary to future
+                    pleasure, but such a measure of present happiness as is a fit introduction to
+                    that which flows at God’s right hand for evermore!<note place="foot"
+                        xml:id="ftn43" n="43"><p rend="footnote text">An early instance of Wesley’s
+                            view that human existence is oriented toward happiness and this by God’s
+                            express design; cf. No. 5, ‘Justification by Faith’, I.4 and
+                        n.</p></note></p>
+            </div>
+            <div type="section" n="4">
+                <p n="1">[IV. 1.]<note place="foot" xml:id="ftn44" n="44"><p rend="footnote text">In
+                            the margin of the paragraph there is added an abbreviation, ‘Inf[erences
+                            ]’.</p></note> One thing I would observe from what has been said—how
+                    extremely pitiable their condition is who are insensible of their innate
+                    disease, or refuse the only cure of it. ’Tis true, even those who are not
+                    invested with authority (such doubtless ‘bear not the sword in vain’)<note
+                        place="foot" xml:id="ftn45" n="45"><p rend="footnote text">Rom.
+                        13:4.</p></note> are apt to look upon these as the proper objects of anger,
+                    and not of compassion. Yet our Lord, when he beheld even that city which had
+                    killed the servants, and was about to murder the son, of its master, wept over
+                    it, and suffered all other passions to melt down into commiseration.<note
+                        place="foot" xml:id="ftn46" n="46"><p rend="footnote text">See Luke 19:41;
+                            20:9-15.</p></note> Yet those whom we are often tempted to behold with
+                    passions of quite another nature, ‘who are alienated from the image of God
+                    through the ignorance that is in them’,<note place="foot" xml:id="ftn47" n="47"
+                            ><p rend="footnote text">Eph. 4:18.</p></note> are by our confession not
+                    more guilty than these, and little less unhappy. They are always sick, often in
+                    pain; destruction and unhappiness are in their ways; the way of peace have they
+                    not known,<note place="foot" xml:id="ftn48" n="48"><p rend="footnote text">See
+                            Isa. 59:7-8.</p></note> ‘an evil disease cleaves to them;’<note
+                        place="foot" xml:id="ftn49" n="49"><p rend="footnote text">Cf. Ps.
+                        41:8.</p></note> their inward parts are very misery.<note place="foot"
+                        xml:id="ftn50" n="50"><p rend="footnote text">See Ps. 5:9.</p></note> Their
+                    understanding is darkened;<note place="foot" xml:id="ftn51" n="51"><p
+                            rend="footnote text">See Eph. 4:18.</p></note> clouds of ignorance and
+                    error are ever before their eyes, ‘because the God of this world hath blinded
+                    their hearts’,<note place="foot" xml:id="ftn52" n="52"><p rend="footnote text"
+                            >Cf. 2 Cor. 4:4.</p></note> and infinitely increased its native
+                    corruption. Their love is fixed on mean, perishing, unsatisfying objects, and
+                    the frequent anguish that must flow from such a choice is sharpened by
+                    innumerable restless passions, that tear asunder their helpless prey. God help
+                    him who is a slave to such masters! Man cannot; he can only pity him! He can
+                    only, when he seeth such a one <pb n="04:302"/>dragging his chain, and possibly
+                    talking loud of his own freedom, plunging through the flames of a fever into
+                    those that never shall be quenched,<note place="foot" xml:id="ftn53" n="53"><p
+                            rend="footnote text">Mark 9:43.</p></note> and perhaps dreaming he is in
+                    perfect health, recommend [him] to that All-sufficient Mercy to which all things
+                    are possible!</p>
+                <p n="2">2. Yes, one step farther he may, he ought to go: he ought to acknowledge
+                    the riches of that mercy shown to himself, and indeed to all of us who have our
+                    education in a truly Christian country;<note place="foot" xml:id="ftn54" n="54"
+                            ><p rend="footnote text">Charles’s revision of what orig. read, ‘in this
+                            place’.</p></note> who have all the opportunities of obtaining a better
+                    mind which the art of man and the wisdom of God can give; of obtaining this
+                    knowledge—knowledge, the basis of whatsoever things are pure, whatsoever things
+                    are honourable or lovely<note place="foot" xml:id="ftn55" n="55"><p
+                            rend="footnote text">See Phil. 4:8.</p></note>—[which] is held out to us
+                    with no sparing hand; we are suffered, courted, pressed to enjoy it. Others are
+                    glad if they can snatch a few drops from the rivulets that flow hence: we lie at
+                    the fountain-head of these living waters,<note place="foot" xml:id="ftn56"
+                        n="56"><p rend="footnote text">See Jer. 2:13; Rev. 7:17, etc.</p></note> and
+                    command all their various streams. The attainment of knowledge is the pleasure
+                    of many; of us, ’tis the business too. Our business it is to know in particular
+                    that we are all originally foolish and vicious, and that there is no truth in
+                    our whole religion more absolutely necessary to be known than this. Because if
+                    man be not naturally corrupt, then all religion, Jewish and Christian, is vain,
+                    seeing it is all built on this—all method[s] of cure presupposing the disease.
+                    We can scarce avoid knowing how slight all objections against this fundamental
+                    truth must be while there is even this one argument for it: if man be naturally
+                    mortal, then he is naturally sinful; seeing one cause must work both sin and
+                    death. The seeds of natural being likewise the seeds of moral corruption, must
+                    undermine our understanding as well as our life, and the affections with the
+                    understanding. We are almost forced to know both the necessity and the divine
+                    efficacy of our religion; to see that if man be naturally corrupt, then
+                    Christianity is of God; seeing there is no other religion, as ‘there is no other
+                    God which can deliver after this sort’<note place="foot" xml:id="ftn57" n="57"
+                            ><p rend="footnote text">Dan. 3:29.</p></note> from that corruption. We,
+                    lastly, have daily opportunities of knowing, if Christianity be of God, then of
+                    how glorious a privilege are they thought worthy who persuade others <pb
+                        n="04:303"/>to accept of its benefits.<note place="foot" xml:id="ftn58"
+                        n="58"><p rend="footnote text">MS orig. read, ‘who are the stewards of its
+                            mysteries and dispensers of its benefits!’</p></note> Seeing when the
+                    author of it ‘cometh in the clouds of heaven’,<note place="foot" xml:id="ftn59"
+                        n="59"><p rend="footnote text">Cf. Dan. 7:13, etc.</p></note> and ‘those
+                    that slept in the dust of the earth shall awake,’<note place="foot"
+                        xml:id="ftn60" n="60"><p rend="footnote text">Cf. Dan. 12:2.</p></note> they
+                    who have saved others from sin and its attendant death<note place="foot"
+                        xml:id="ftn61" n="61"><p rend="footnote text">A third variation in the MS
+                            text, which orig. read, ‘who have wisely discharged this weighty trust’;
+                            the second version read, ‘who have turned others from sin [and the]
+                            error of their ways’.</p></note> ‘shall shine as the brightness of the
+                    firmament’; they who have reprinted the image of God on many souls ‘as the stars
+                    for ever’!<note place="foot" xml:id="ftn62" n="62"><p rend="footnote text">Dan.
+                            12:3.</p></note></p>
+                <p>Now unto God the Father, God the Son, and God the Holy Ghost, be ascribed all
+                    honour and praise, now and for ever.</p>
+            </div>
+        </body>
+    </text>
+</TEI>
