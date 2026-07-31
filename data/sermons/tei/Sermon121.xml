@@ -1,0 +1,577 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Sermon 121: Prophets and Priests</title>
+                <author>Wesley, John</author>
+                <editor role="text">Van Buskirk, Gregory P.</editor>
+                <editor role="digital">Taylor, Michelle M.</editor>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>The Wesley Works Digitzation Project</publisher>
+                <pubPlace>Tampa, FL</pubPlace>
+                <date>2024-02-25</date>
+            </publicationStmt>
+            <sourceDesc>
+                <listBibl>
+                    <biblStruct>
+                        <analytic>
+                            <title level="a">Sermon 121: Prophets and Priests</title>
+                        </analytic>
+                        <monogr>
+                            <title level="j">The Works of John Wesley, Volume IV: Sermons IV,
+                                115-151</title>
+                            <editor role="volume">Outler, Albert</editor>
+                            <imprint>
+                                <publisher>Abingdon Press</publisher>
+                                <pubPlace>Nashville, TN</pubPlace>
+                                <date when="1987-11-01">1987-11-01</date>
+                                <biblScope unit="volume" n="4"/>
+                                <biblScope unit="page" from="72" to="84"/>
+                            </imprint>
+                        </monogr>
+                        <series>
+                            <title level="s">The Works of John Wesley</title>
+                            <editor role="general">Baker, Frank</editor>
+                        </series>
+                    </biblStruct>
+                </listBibl>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Greg Van Buskirk created Word docs for all of Wesley's sermons using a combination of
+                OCR software and manual proofing. Michelle Taylor converted these docx into XML
+                using Oxygen's DITA automatic transformation scenario, then touched them up
+                manually.</p>
+        </encodingDesc>
+        <standOff>
+            <taxonomy>
+                <keywords>
+                    <term/>
+                </keywords>
+            </taxonomy>
+            <!--Include keywords and terms here eventually.-->
+        </standOff>
+        <revisionDesc/>
+    </teiHeader>
+    <text>
+        <body>
+            <pb n="04:072"/>
+            <head>
+                <hi rend="italic">An Introductory Comment</hi>
+            </head>
+            <introduction>
+                <p n="1">There were two points on which Wesley was never able to convince the
+                    generality of his people, for all their hero-worship of him. One, as we have
+                    seen, was the inherent sinfulness of ‘riches’. The other was that they should
+                    remain content as a religious society (with their own lay preachers) within the
+                    Church of England (with her priests and sacraments). The issue of ‘separation’
+                    had been raised by dissident Methodists as early as 1755. It would never down
+                    thereafter, and had been given fresh momentum by the constitution of ‘The
+                    Conference’ and the ‘ordinations’ of <date when="1784-01-01">1784</date>. The
+                    Irish Methodists were even more impatient than the English with Wesley’s
+                    stubborn resistance to separation, more eager to become as visibly separate from
+                    the Church of England as many of them already were psychologically. That this
+                    impatience was becoming a more urgent issue is clear from the <hi rend="italic"
+                        >Journal</hi> entries for the spring of 1789, especially <date
+                        when="1789-03-30">March 30</date> and <date when="1789-04-12">April
+                        12</date>. The latter is a one-sided summary of what must have been a
+                    spirited debate:</p>
+                <quote>I met with the [<placeName>Dublin</placeName>] society and explained to them
+                    at large the original design of the Methodists, viz., not to be a distinct party
+                    but to stir up all parties…; but the Church of England in particular, to which
+                    they belonged from the beginning. With this view, I have uniformly gone on for
+                    fifty years, never varying from the <hi rend="italic">doctrine</hi> of the
+                    church <hi rend="italic">at all</hi>, nor from her <hi rend="italic"
+                        >discipline</hi>, of choice, but of necessity. [Our exceptions, on points of
+                    discipline]: (1) to preach in the open air; (2) to pray extempore; (3) to form
+                    societies; (4) to accept of the assistance of lay preachers.</quote>
+                <p n="2">Wesley thus confirmed his longstanding decision <hi rend="italic">not</hi>
+                    to ‘ordain’ such lay preachers to administer the sacraments anywhere within the
+                    jurisdiction of the Church of England.</p>
+                <p n="3">He repeated this position on the day following at
+                        <placeName>Tyrrellspass</placeName>; but was then confronted with the same
+                    issue again at Athlone in the week following (<date when="1789-04-17">April 17</date>). All of
+                    this was apparently enough pressure to persuade him to write down his views on
+                    ‘the degrees of the ministry’ for publication. He finished this project at
+                    ‘Cork, May 9, 1789’, although it is not recorded that he preached this sermon
+                    there. It was then published in the <hi rend="italic">Arminian
+                        Magazine</hi><note place="foot" xml:id="ftn1" n="1"><p rend="footnote text"
+                            >XIII.230-35, 286-90.</p></note> in May and June 1790 as a <pb
+                        n="04:073"/>sequel to his ‘final’ manifesto against separation in the April
+                    issue. It is more an essay than a sermon; it appeared without a title but
+                    numbered as ‘Sermon LVII’. It quickly came to be called ‘the Korah sermon’ and
+                    was not well received. Actually, of course, the drift among the Methodists
+                    toward ‘separation’ was by now irreversible, and this sermon seems to have
+                    changed no minds.</p>
+                <p n="4">Its twin theses (no separation and no Methodist <hi rend="italic"
+                        >priesthood</hi>) reflect a standpoint from which Wesley had never wavered.
+                    The distinction between ‘prophets’ free to preach and teach, and ‘priests’
+                    commissioned for sacramental administration went back to Richard Hooker and
+                        before.<note place="foot" xml:id="ftn2" n="2"><p rend="footnote text"><hi
+                                rend="italic">Laws of Ecclesiastical Polity</hi>, V.lxxviii.6; see
+                            also Francis Paget, <hi rend="italic">Introduction</hi>, pp. 250-51. It
+                            was also an accustomed distinction (differently nuanced) among the
+                            Puritans; see, e.g., Leonard Trinterud, ed., <hi rend="italic">The Order
+                                of the Prophecy at Norwich</hi>, in <hi rend="italic">Elizabethan
+                                Puritanism</hi> (Oxford, Oxford University Press, 1971), pp.
+                            191-201, espec. the editor’s intro.</p></note>
+                    <persName>Dr. John Whitehead</persName>, Wesley’s physician and biographer,
+                    asserts that Wesley had preached on this theme at more than one Annual
+                    Conference, ‘before the preachers then assembled’.<note place="foot"
+                        xml:id="ftn3" n="3"><p rend="footnote text"><hi rend="italic">Life of John
+                                Wesley</hi> (1793-96), II.497-503 (Appendix IV), espec. p.
+                        498.</p></note> Frank Baker, whose <hi rend="italic">John Wesley and the
+                        Church of England</hi> is the ablest discussion to date of this general
+                    problem, denies this on the ground that Wesley’s ‘diary records no preaching of
+                    it, in Ireland or elsewhere’.<note place="foot" xml:id="ftn4" n="4"><p
+                            rend="footnote text">Pp. 313-14.</p></note> This, however, is not
+                    decisive, since the diary fails to record its ever having been <hi rend="italic"
+                        >written</hi>. There is, however, no doubt that Henry Moore spoke for the
+                    Methodist majority in his bold rebuke to Wesley about such a sermon:</p>
+                <quote>I was with Mr. Wesley, in London, when he published that sermon. He had
+                    encouraged me to be a man of <hi rend="italic">one book</hi>, and he had
+                    repeatedly invited me to speak fully whatever objection I had to anything which
+                    he spoke or published. I thought that some things in that discourse were not to
+                    be found in THE BOOK, and I resolved to tell him so…. I respectfully observed
+                    that I agreed with him that the Lord had always sent by whom he would
+                    send—instruction, reproof, and correction in righteousness—to mankind, and that
+                    there was a real distinction between the prophetic and priestly office in the
+                    Old Testament, and the prophetic and pastoral office in the New…but I could not
+                    think that what he had said concerning the ‘Evangelists’ and the ‘Pastors’ (or
+                    ‘Bishops’) was agreeable to what we read there: viz., that the latter had a
+                    right to administer the Sacraments which the former did not possess…. He looked
+                    earnestly at me for some time, but not with displeasure. He made no reply, and
+                    soon introduced another subject. I said no more. The man of one book would not
+                    dispute against it. I believe he saw that his love to the Church…had, in this
+                    instance, led him a little too far.<note place="foot" xml:id="ftn5" n="5"><p
+                            rend="footnote text">Moore, II.339-40.</p></note></quote>
+                <p n="5"><pb n="04:074"/>Richard Denny Urlin, in his <hi rend="italic">Churchman’s
+                        Life of Wesley</hi> (2nd edn., 1880), has a whole Appendix (X) on this
+                    sermon, and a further comment on Wesley’s response to Moore’s remonstrance:
+                    ‘Wesley merely smiled and changed the subject, doubtful as to the utility of a
+                    discussion on so intricate a question with the young Irishman.’<note
+                        place="foot" xml:id="ftn6" n="6"><p rend="footnote text">Appendix XIII, p.
+                            344.</p></note> He also cites a favourable analysis of this sermon ‘in a
+                    recent edition of it by the Rev. G. T. Stokes, of Blackrock near Dublin’, an
+                    indication that it had been widely discussed by non-Methodists.</p>
+                <p n="6">Since the sermon’s first publication, Methodists have left it largely in
+                    limbo. George Story deliberately excluded it from <hi rend="italic">SOSO</hi>,
+                    IX, as did Joseph Benson from his edition of the <hi rend="italic">Works</hi>.
+                    Thomas Jackson decided to include it in his 1825 edition of the <hi
+                        rend="italic">Sermons</hi> and the 1829-31 edition of the <hi rend="italic"
+                        >Works</hi>,<note place="foot" xml:id="ftn7" n="7"><p rend="footnote text"
+                            >Vol. VII, No. CXV.</p></note> but with Moore’s disparaging comment
+                    quoted in full as an introductory note. Jackson also gave it the title it has
+                    gone by ever since. ‘The Ministerial Office’ is not, one might think, a title
+                    that Wesley himself would have thought of (Hooker’s section was entitled, ‘The
+                    Degrees of Ministry’).</p>
+                <p n="7">Tyerman dutifully reported the sermon and left it unevaluated but
+                    implicitly deplored: ‘we care not either to vindicate or to condemn [Wesley’s]
+                    thoughts and course of conduct.’<note place="foot" xml:id="ftn8" n="8"><p
+                            rend="footnote text"><hi rend="italic">JW</hi>, III.635-36.</p></note>
+                    William Fitchett, <hi rend="italic">Wesley and His Century</hi> (1907),
+                    dismissed the sermon as of scant importance, and saw it chiefly as ‘a mine of
+                    delightful quotations for the sacerdotal critics of Methodism’ (p. 418). John S.
+                    Simon, <hi rend="italic">John Wesley: The Last Phase</hi> (1934), judged that
+                    ‘Wesley’s sentiment got the better of his logic in this case’ (p. 330). J. H.
+                    Rigg, <hi rend="italic">The Churchmanship of John Wesley</hi> (1886), suggests
+                    that it had no real effect on Methodist polity in its historical development (p.
+                    72).</p>
+                <p n="8">Thus, what we have here is one of Wesley’s more interesting ‘failures’. And
+                    yet, quite apart from its intrinsic merits or demerits in the ecclesiological
+                    debate, it is important that Wesley’s distinction between ‘prophetic’ and
+                    ‘priestly’ ministries was his consistent view and had been held as such since
+                    before his acceptance of <persName>Thomas Maxfield</persName> as a ‘lay
+                    assistant’ in 1741. This is plain from his 1755 note on Heb. 5:4 (<hi
+                        rend="italic">Notes</hi>) and again from his ‘last word’ on the subject,
+                    ‘Farther Thoughts on Separation from the Church’.<note place="foot"
+                        xml:id="ftn9" n="9"><p rend="footnote text">Dated December 11, 1789; see <hi
+                                rend="italic">AM</hi> (April 1790), XIII.214-16.</p></note> The
+                    sermon may be read more nearly ‘with its grain’ if it is set against its
+                    background and in the light of Wesley’s lifelong Anglican predilections.</p>
+            </introduction>
+            <pb n="04:075"/>
+            <head>Prophets and Priests</head>
+            <epigraph>
+                <p>Hebrews 5:4</p>
+                <p>
+                    <hi rend="italic">No man taketh this honour unto himself but he that is called
+                        of God, as was Aaron.</hi>
+                </p>
+            </epigraph>
+            <p n="1">1. There are exceeding few texts of Holy Scripture which have been more
+                frequently urged than this against laymen, that are neither priests nor deacons, and
+                yet take upon them to preach. Many have asked, ‘How dare any take this honour to
+                himself, unless he be called of God, as was Aaron?’ And a pious and sensible
+                clergyman some years ago published a sermon on these words, wherein he endeavours to
+                show that it is not enough to be inwardly called of God to preach, as many imagine
+                themselves to be, unless they are outwardly called by men sent of God for that
+                purpose, as Aaron ‘was called of God’ by Moses.<note place="foot" xml:id="ftn10"
+                    n="10"><p rend="footnote text">A view presupposed, even when not stressed, by
+                        Church of England clergy in general; e.g., see Edward Cobden, <hi
+                            rend="italic">Concio ad Clerum</hi> (1753); Cobden was Archdeacon of
+                        London. Earlier sermons on Heb. 5:4 were published by Thomas Bisse, <hi
+                            rend="italic">A Defence of Episcopacy. A Sermon Before the University of
+                            Oxford</hi> (1708), and William Roberts (rector of Jacobstow), <hi
+                            rend="italic">The Divine Institution of the Gospel Ministry and the
+                            Necessity of Episcopal Ordination Asserted</hi> (1709).</p></note></p>
+            <p n="2">2. But there is one grievous flaw in this argument, as often as it has been
+                urged. ‘Called of God, as was Aaron’! But Aaron did not preach at all: he was not
+                called to it either by God or man. Aaron was called to minister in holy things; to
+                offer up prayers and sacrifices; to execute the office of a priest. But he was never
+                called to be a preacher.<note place="foot" xml:id="ftn11" n="11"><p
+                        rend="footnote text">See No. 38, ‘A Caution against Bigotry’,
+                    III.7.</p></note></p>
+            <p n="3">3. In ancient times the office of a priest and that of a preacher were known to
+                be entirely distinct.<note place="foot" xml:id="ftn12" n="12"><p
+                        rend="footnote text">An impression probably gained from Lord Peter King, <hi
+                            rend="italic">An Enquiry into the Constitution, Discipline, Unity, and
+                            Worship of the Primitive Church</hi> (published anonymously in 1691),
+                        which Wesley had read in 1746 (cf. his letter to his brother, June 8, 1780).
+                        But the distinction had also been maintained by the Puritans, as in William
+                        Perkins, <hi rend="italic">The Art of Prophesying</hi> (1613). In the <hi
+                            rend="italic">Didache</hi> (§§10-11) there are interesting references to
+                        itinerant ‘prophets’ as distinguished from the local hierarchies. It is not
+                        coincidental that this distinction between ‘priest’ and ‘preacher’ was held
+                        and practised by both of Wesley’s grandfathers and by many other
+                        Nonconformists. Cf., e.g., the reported conversation between the elder John
+                        Wesley and the then Bishop of Bristol, Gilbert Ironside, where one of the
+                        points at issue was the right of ‘gifted men’ to preach ‘without episcopal
+                        ordination’; see Edmund Calamy, <hi rend="italic">The Nonconformist’s
+                            Memorial</hi> (1802), II.164-75.</p></note> And so everyone will be <pb
+                    n="04:076"/>convinced that impartially traces the matter from the beginning.
+                From Adam to Noah it is allowed by all that the first-born in every family was of
+                course the priest in that family, by virtue of his primogeniture. But this gave him
+                no right to be a preacher or (in the scriptural language) a prophet. This office not
+                infrequently belonged to the youngest branch of the family. For in this respect God
+                always asserted his <hi rend="italic">right</hi> to send by whom he <hi
+                    rend="italic">would</hi> send.<note place="foot" xml:id="ftn13" n="13"><p
+                        rend="footnote text">See Exod. 4:13; see No. 4, <hi rend="italic">Scriptural
+                            Christianity</hi>, IV.2 and n.</p></note></p>
+            <p n="4">4. From the time of Noah to that of Moses the same observation may be made. The
+                eldest of the family was the priest, but any other might be the prophet. This, the
+                office of priest, we find Esau inherited by virtue of his birthright, till he
+                profanely sold it to Jacob ‘for a mess of pottage’.<note place="foot" xml:id="ftn14"
+                    n="14"><p rend="footnote text">Cf. Gen. 25:29-34; this familiar phrase comes not
+                        from the AV but from the Geneva Bible.</p></note> And this it was which he
+                could never recover, ‘though he sought it carefully with tears’.<note place="foot"
+                    xml:id="ftn15" n="15"><p rend="footnote text">Heb. 12:17.</p></note></p>
+            <p n="5">5. Indeed in the time of Moses a very considerable change was made with regard
+                to the priesthood. God then appointed that instead of the first-born in every house
+                a whole tribe should be dedicated to him; and that all that afterwards ministered
+                unto him as priests should be of that tribe. Thus Aaron was of the tribe of Levi.
+                And so likewise was Moses. But he was not a priest, though he was the greatest
+                prophet that ever lived before God brought his first-begotten into the world.<note
+                    place="foot" xml:id="ftn16" n="16"><p rend="footnote text">See Deut. 34:10.
+                        Moses’ preeminence as ‘prophet’ was a lively theme in the rabbinical
+                        literature (see <hi rend="italic">Jewish Encyclopedia</hi>). For a carefully
+                        nuanced ‘modern’ discussion on the problem of Moses as ‘prophet’, see Martin
+                        Buber, <hi rend="italic">Moses</hi> (Oxford and London, East and West
+                        Library, 1946), pp. 62ff., 162-71, 185ff.</p></note> Meantime not many of
+                the Levites were prophets. And if any were, it was a mere accidental thing. They
+                were not such as being of that tribe. Many, if not most of the prophets (as we are
+                informed by the ancient Jewish writers), were of the tribe of Simeon. And some were
+                of the tribe of Benjamin or Judah, and probably of other tribes also.</p>
+            <p n="6">6. But we have reason to believe there were, in every age, two sorts of
+                prophets. The extraordinary, such as Nathan, Isaiah, Jeremiah, and many others, on
+                whom the Holy Ghost came in an extraordinary manner; such was Amos in particular,
+                who saith of himself: ‘I was no prophet, neither a prophet’s son. But I was an
+                herdman, and the Lord said unto me, Go, prophesy unto my <pb n="04:077"/>people
+                    Israel.’<hi rend="endnote_reference"><note place="end"><p rend="endnote text"
+                            >Chap. 7:14 (-15).</p></note></hi> The ordinary were those who were
+                educated in ‘the schools of the prophets’,<note place="foot" xml:id="ftn17" n="17"
+                        ><p rend="footnote text">Cf. Poole, <hi rend="italic">Annotations</hi> on 2
+                        Kgs. 2:3, and also on 1 Sam. 19:18: ‘Naioth was either an house or college
+                        in the town of Ramah…in which there was a college of prophets amongst whom
+                        Samuel thought David might be secure.’</p></note> one of which was at Ramah,
+                over which Samuel presided.<hi rend="endnote_reference"><note place="end"><p
+                            rend="endnote text">(Cf.) 1 Sam. 19:18.</p></note></hi> These were
+                trained up to instruct the people, and were the ordinary preachers in their
+                synagogues. In the New Testament they are usually termed scribes, or νομικοί,<hi
+                    rend="italic"> expounders of the law</hi>. But few, if any of them, were
+                priests. These were all along a different order.<note place="foot" xml:id="ftn18"
+                    n="18"><p rend="footnote text">Cf. William Perkins, <hi rend="italic">The Art of
+                            Prophesying</hi>; and Nos. 32, ‘Sermon on the Mount, XII’, I.2 and n.;
+                        and 91, ‘On Charity’, III.3 and n.</p></note></p>
+            <p n="7">7. Many learned men have shown at large that our Lord himself, and all his
+                apostles, built the Christian church as nearly as possible on the plan of the
+                Jewish. So, the great High Priest of our profession sent apostles and evangelists to
+                proclaim glad tidings to all the world, and then pastors, preachers, and teachers to
+                build up in the faith the congregations that should be found. But I do not find that
+                ever the office of an evangelist was the same with that of a pastor, frequently
+                called a bishop. He presided over the flock, and administered the sacraments: the
+                former assisted him, and preached the Word, either in one or more congregations. I
+                cannot prove from any part of the New Testament, or from any author of the three
+                first centuries, that the office of an evangelist gave any man a right to act as a
+                pastor or bishop. I believe these offices were considered as quite distinct from
+                each other till the time of Constantine.</p>
+            <p n="8">8. Indeed in that evil hour when Constantine the Great called himself ‘a
+                    Christian’,<note place="foot" xml:id="ftn19" n="19"><p rend="footnote text">See
+                        No. 61, ‘The Mystery of Iniquity’, §27 and n.</p></note> and poured in
+                honour and wealth upon the Christians, the case was widely altered. It soon grew
+                common for one man to take the whole charge of a congregation, in order to engross
+                the whole pay. Hence the same person acted as priest and prophet, as pastor and
+                evangelist. And this gradually spread more and more throughout the whole Christian
+                church. Yet even at this day, although the same person usually discharges both those
+                offices, yet the office of an evangelist or teacher does not imply that of a pastor,
+                to whom peculiarly belongs the administration of the sacraments—neither among the
+                Presbyterians, nor in the <pb n="04:078"/>Church of England, nor even among the
+                Roman Catholics. All Presbyterian Churches, it is well known (that of Scotland in
+                particular), license men to preach before they are ordained, throughout that whole
+                kingdom. And it is never understood that this appointment to preach gives them any
+                right to administer the sacraments. Likewise in our own Church persons may be
+                authorized to preach—yea, may be Doctors of Divinity (as was Dr. Alwood<note
+                    place="foot" xml:id="ftn20" n="20"><p rend="footnote text">Wesley had already
+                        used this same illustration in his <hi rend="italic">Farther Appeal</hi>,
+                        Pt. III, III.13 (11:299 in this edn.), and there he had spelt the name
+                        correctly (i.e., Atwell). Joseph Atwell (<hi rend="italic">c.</hi>
+                        1696-1768) was fellow of Exeter College, Oxford, 1718; rector of the
+                        college, 1733-37; priest’s orders, 1736; D.D., 1738; see <hi rend="italic"
+                            >Alumni Oxonienses</hi> (London, 1887).</p></note> at Oxford when I
+                resided there)—who are not ordained at all, and consequently have no right to
+                administer the Lord’s Supper. Yea, even in the Church of Rome itself, if a lay
+                brother believes he is called to go a mission, as it is termed, he is sent out,
+                though neither priest nor deacon, to execute that office, and not the other.</p>
+            <p n="9">9. ‘But may it not be thought that the case now before us is different from all
+                these?’ Undoubtedly in many respects it is. Such a phenomenon has now appeared as
+                has not appeared in the Christian world before, at least not for many ages. Two
+                young men ‘sowed the word of God’,<note place="foot" xml:id="ftn21" n="21"><p
+                        rend="footnote text">Cf. Mark 4:14.</p></note> not only in the churches, but
+                likewise literally ‘by the highway side’,<note place="foot" xml:id="ftn22" n="22"><p
+                        rend="footnote text">Cf. Mark 4:15; 10:46.</p></note> and indeed in every
+                place where they saw an open door, where sinners had ears to hear. They were members
+                of the Church of England, and had no design of separating from it. And they advised
+                all that were of it to continue therein, although they joined the Methodist society;
+                for this did not imply leaving their former congregation, but only leaving their
+                sins. The churchmen might go to church still; the Presbyterian, Anabaptist, Quaker,
+                might still retain their own opinions, and attend their own congregations. The
+                having a real desire to flee from the wrath to come was the only condition required
+                of them.<note place="foot" xml:id="ftn23" n="23"><p rend="footnote text">See <hi
+                            rend="italic">General Rules</hi> (1743; Vol. 9 of this edn.), §4: ‘There
+                        is one only condition previously required in those who desire admission into
+                        these societies, “a desire to flee from the wrath to come, and to be saved
+                        from their sins”.’</p></note> Whosoever therefore ‘feared God and worked
+                    righteousness’<note place="foot" xml:id="ftn24" n="24"><p rend="footnote text"
+                        >Cf. Acts 10:35.</p></note> was qualified for this society.</p>
+            <p n="10">10. Not long after a young man (<persName>Thomas Maxfield</persName>)<note
+                    place="foot" xml:id="ftn25" n="25"><p rend="footnote text">Wesley’s first ‘son
+                        in the gospel’, i.e., full-time itinerant preacher, converted under Wesley’s
+                        preaching in his native Bristol in 1739. About 1750 he was ordained by Dr.
+                        Barnard, Bishop of Derry. Friction developed between him and Wesley in later
+                        years; in 1763 he left Methodism to become an independent minister, and died
+                        in 1784.</p></note> offered <pb n="04:079"/>himself to serve them as a son
+                in the gospel. And then another, <persName>Thomas Richards</persName>,<note
+                    place="foot" xml:id="ftn26" n="26"><p rend="footnote text">Thomas Richards
+                        (1717-98), of Cardigan, was educated at Trinity College, Oxford. After
+                        serving as one of Wesley’s itinerants for almost twenty years, he secured
+                        episcopal ordination and left the Methodists (though remaining sympathetic),
+                        and for over thirty years was the curate of St. Sepulchre’s,
+                    London.</p></note> and a little after a third, Thomas Westell.<note place="foot"
+                    xml:id="ftn27" n="27"><p rend="footnote text"><persName>Thomas
+                            Westell</persName> (or Westall; 1719?-94), of Bristol, served as a
+                        faithful itinerant for nearly forty years.</p></note> Let it be well
+                observed on what terms we received these, viz., as prophets, not as priests. We
+                received them wholly and solely to preach; not to administer sacraments. And those
+                who imagine these offices to be inseparably joined are totally ignorant of the
+                constitution of the whole Jewish as well as Christian church. Neither the Romish,
+                nor the English, nor the Presbyterian Churches, ever accounted them so. Otherwise we
+                should never have accepted the service either of Mr. Maxfield, Richards, or
+                Westell.</p>
+            <p n="11">11. In 1744, all the Methodist preachers had their first Conference. But none
+                of them dreamed that the being called to preach gave them any right to administer
+                sacraments. And when that question was proposed, ‘In what light are we to consider
+                ourselves?’ it was answered, ‘As <hi rend="italic">extraordinary messengers</hi>,
+                raised up to provoke the <hi rend="italic">ordinary</hi> ones to jealousy.’<note
+                    place="foot" xml:id="ftn28" n="28"><p rend="footnote text">Cf. MS Minutes of the
+                        Conference. Wed., <date when="1746-05-14">May 14, 1746</date>:</p>
+                    <quote>Q. In what view are we and our helpers to be considered?</quote>
+                    <quote>A. Perhaps as extraordinary messengers, designed of God to provoke the
+                        others to jealousy.</quote></note> In order hereto one of our first rules
+                was—given to each preacher—‘You are to do <hi rend="italic">that part</hi> of the
+                work which we appoint.’<note place="foot" xml:id="ftn29" n="29"><p
+                        rend="footnote text">Cf. MS Minutes of the Conference, June 29, 1744, No. 12
+                        of the ‘Rules of an Assistant’ (later known as ‘Rules of a Helper’): ‘Act in
+                        all things not according to your own will, but as a son in the gospel. As
+                        such, it is your part to employ your time in the manner which we direct….
+                        Above all, if you labour with us in our Lord’s vineyard, it is needful you
+                        should do that part of the work which we prescribe, at those times and
+                        places which we judge most for his glory.’</p></note> But <hi rend="italic"
+                    >what work</hi> was this? Did we ever appoint you to administer sacraments, to
+                exercise the priestly office? Such a design never entered into our mind; it was the
+                farthest from our thoughts. And if any preacher had taken such a step we should have
+                looked upon it as a palpable breach of this rule, and consequently as a recantation
+                of our connexion.</p>
+            <p n="12">12. For supposing (what I utterly deny) that the receiving you as <pb
+                    n="04:080"/>a preacher at the same time gave an authority to administer the
+                sacraments, yet it gave you no other authority than to do it, or anything else, <hi
+                    rend="italic">where I appoint</hi>. But where did I appoint you to do this?
+                Nowhere at all. Therefore by this very rule you are excluded from doing it. And in
+                doing it you renounce the first principle of Methodism, which was wholly and solely
+                to preach the gospel.</p>
+            <p n="13">13. It was several years after our society was formed before any attempt of
+                this kind was made. The first was, I apprehend, at Norwich. One of our preachers
+                there yielded to the importunity of a few of the people, and baptized their
+                children. But as soon as it was known, he was informed it must not be, unless he
+                designed to leave our connexion. He promised to do it no more—and I suppose he kept
+                his promise.<note place="foot" xml:id="ftn30" n="30"><p rend="footnote text">A
+                        blurred memory of a much more complicated episode. <persName>John
+                            Murlin</persName>, <persName>Paul Greenwood</persName>, and
+                            <persName>Thomas Mitchell</persName> had begun the unauthorized
+                        administration of the sacraments in 1759, an issue which was promptly
+                        resolved at the next Annual Conference (1760); cf. Baker, <hi rend="italic"
+                            >John Wesley and the Church of England</hi>, pp. 162-67, 174-79. See
+                        also Wesley’s letters of <date when="1764-03-29">Mar. 29, 1764</date> (to
+                        Mr. ___ of Sheffield); <date when="1772-07-18">July 18, 1772</date> (to
+                        Joseph Thompson); and <date when="1784-01-06">Jan. 6, 1784</date> (to John
+                        Valton), all forbidding his preachers to baptize.</p></note></p>
+            <p n="14">14. Now as long as the Methodists keep to this plan they cannot separate from
+                the Church. And this is our peculiar glory. It is new upon the earth. Revolve<note
+                    place="foot" xml:id="ftn31" n="31"><p rend="footnote text">‘Study’, ‘consider’;
+                        cf. <hi rend="italic">OED</hi> (8, 10).</p></note> all the histories of the
+                church, from the earliest ages, and you will find, whenever there was a great work
+                of God in any particular city or nation, the subjects of that work soon said to
+                their neighbours, ‘Stand by yourselves, for we are holier than you!’<note
+                    place="foot" xml:id="ftn32" n="32"><p rend="footnote text">Cf. Isa.
+                    65:5.</p></note> As soon as ever they separated themselves, either they retired
+                into deserts, or they built religious houses; or at least formed parties, into which
+                none was admitted but such as subscribed both to their judgment and practice. But
+                with the Methodists it is quite otherwise. They are not a sect or party. They do not
+                separate from the religious community to which they at first belonged. They are
+                still members of the Church; such they desire to live and to die. And I believe one
+                reason why God is pleased to continue my life so long is to confirm them in their
+                present purpose not to separate from the Church.</p>
+            <p n="15">15. But notwithstanding this many warm men say, ‘Nay, but you <hi
+                    rend="italic">do</hi> separate from the Church.’ Others are equally warm
+                because, they say, I <hi rend="italic">do not</hi>. I will nakedly declare the thing
+                as it is.</p>
+            <p n="0">I hold all the doctrines of the Church of England. I love her Liturgy. I
+                approve her plan of discipline, and only wish it could be <pb n="04:081"/>put in
+                execution. I do not knowingly vary from any rule of the Church, unless in those few
+                instances where I judge, and as far as I judge, there is an absolute necessity.</p>
+            <p n="(1)">For instance: (1). As few clergymen open their churches to me, I am under the
+                necessity of <hi rend="italic">preaching abroad</hi>.</p>
+            <p n="(2)">(2). As I know no forms that will suit all occasions, I am often under a
+                necessity of <hi rend="italic">praying extempore</hi>.</p>
+            <p n="(3)">(3). In order to build up the flock of Christ in faith and love, I am under a
+                necessity of uniting them together, and of dividing them into little companies, that
+                they may provoke one another to love and good works.</p>
+            <p n="(4)">(4). That my fellow-labourers and I may more effectually assist each other to
+                save our own souls and those that hear us, I judge it necessary to meet the
+                preachers, or at least the greater part of them, once a year.</p>
+            <p n="(5)">(5). In those Conferences we fix the stations of all the preachers for the
+                ensuing year.</p>
+            <p n="0">But all this is not separating from the Church. So far from it that whenever I
+                have opportunity I attend the Church service myself, and advise all our societies so
+                to do.</p>
+            <p n="16">16. Nevertheless as [to] the generality even of religious people, who do not
+                understand my motives of acting, and who on the one hand hear me profess that I will
+                not separate from the Church, and on the other that I do vary from it in these
+                instances, they will naturally think I am inconsistent with myself. And they cannot
+                but think so, unless they observe my two principles: the one, that I dare not
+                separate from the Church, that I believe it would be a sin so to do; the other, that
+                I believe it would be a sin not to vary from it in the points above mentioned. I
+                say, put these two principles together—first, I will not separate from the Church;
+                yet, secondly, in cases of necessity I will vary from it (both of which I have
+                constantly and openly avowed for upwards of fifty years)—and inconsistency vanishes
+                away. I have been true to my profession from <date when="1730-01-01">1730</date> to
+                this day.<note place="foot" xml:id="ftn33" n="33"><p rend="footnote text">Note this
+                        date of Wesley’s remembered commitment to his twin principles of
+                        churchmanship; it antedates the formation of the Methodist Societies by
+                        almost a decade.</p></note></p>
+            <p n="17">17. ‘But is it not contrary to your profession to permit service in
+                    <placeName>Dublin</placeName> at church hours? For what necessity is there for
+                this? Or what good end does it answer?’ I believe it answers several good ends,
+                which could not so well be answered any other way. The <pb n="04:082"/>first is
+                (strange as it may sound) to <hi rend="italic">prevent a separation</hi> from the
+                Church. Many of our society were totally separated from the Church; they never
+                attended it at all. But now they duly attend the Church every first Sunday in the
+                    month.<note place="foot" xml:id="ftn34" n="34"><p rend="footnote text">I.e., in
+                        order for the Anglicans among them to take Communion.</p></note> ‘But had
+                they not better attend it every week?’ Yes; but who can persuade them to it? I
+                cannot. I have strove to do it twenty or thirty years; but in vain. The second is
+                the weaning them from attending dissenting meetings, which many of them attended
+                constantly, but have now wholly left. The third is, the constantly hearing that
+                sound doctrine which is able to save their souls.</p>
+            <p n="18">18. I wish all of you who are vulgarly termed Methodists would seriously
+                consider what has been said. And particularly you whom God hath commissioned to call
+                sinners to repentance. It does by no means follow from hence that ye are
+                commissioned to baptize, or to administer the Lord’s Supper. Ye never dreamed of
+                this for ten or twenty years after ye began to preach. Ye did not then, like Korah,
+                Dathan, and Abiram, ‘seek the priesthood also’.<note place="foot" xml:id="ftn35"
+                    n="35"><p rend="footnote text">Cf. Num. 16:1, 10.</p></note> Ye knew, ‘No man
+                taketh this honour unto himself, but he that is called of God, as was Aaron.’<note
+                    place="foot" xml:id="ftn36" n="36"><p rend="footnote text">Heb. 5:4.</p></note>
+                O contain yourselves within your own bounds. Be content with preaching the gospel.
+                ‘Do the work of evangelists.’<note place="foot" xml:id="ftn37" n="37"><p
+                        rend="footnote text">Cf. 2 Tim. 4:5.</p></note> Proclaim to all the world
+                the loving-kindness of God our Saviour; declare to all: ‘The kingdom of heaven is at
+                hand; repent ye and believe the gospel.’<note place="foot" xml:id="ftn38" n="38"><p
+                        rend="footnote text">Mark 1:15; one of Wesley’s favourite texts, including
+                        those of two published sermons: Nos. 7, ‘The Way to the Kingdom’; and 14,
+                            <hi rend="italic">The Repentance of Believers</hi>.</p></note> I
+                earnestly advise you, abide in your place; keep your own station. Ye were fifty
+                years ago, those of you that were then Methodist preachers, ‘extraordinary
+                messengers’ of God, not going in your own will, but <hi rend="italic">thrust
+                    out</hi>, not to supersede, but to ‘provoke to jealousy’ the ‘ordinary
+                messengers’. In God’s name, stop there! Both by your preaching and example provoke
+                them to love and to good works.<note place="foot" xml:id="ftn39" n="39"><p
+                        rend="footnote text">Heb. 10:24.</p></note> Ye are a new phenomenon in the
+                earth; a body of people who, being of no sect or party, are friends to all parties,
+                and endeavour to forward all in heart religion, in the knowledge and love of God and
+                man. Ye yourselves were at first called in the Church of England; and though ye have
+                and will have a thousand temptations to leave it and set up for yourselves, regard
+                them not. Be Church of England <pb n="04:083"/>men<note place="foot" xml:id="ftn40"
+                    n="40"><p rend="footnote text">‘Church of England men’ rather than ‘Anglican’
+                        was common usage in the eighteenth century; cf. Wesley’s letter to Henry
+                        Moore, <date when="1788-05-06">May 6, 1788</date>, and to the Printer of the
+                            <hi rend="italic">Dublin Chronicle</hi>, <date when="1789-06-02">June 2,
+                            1789</date>.</p></note> still. Do not cast away the peculiar glory which
+                God hath put upon you, and frustrate the design of Providence, the very end for
+                which God raised you up.</p>
+            <p n="19">19. I would add a few words to those serious people who are not connected with
+                the Methodists, many of whom are of our own church, the Church of England. And why
+                should <hi rend="italic">ye</hi> be displeased with us? We do you no harm. We do not
+                design or desire to offend you in anything. We hold your doctrines. We observe your
+                rules, more than do most of the people in the kingdom. Some of you are clergymen.
+                And why should <hi rend="italic">ye</hi>, of all men, be displeased with us? We
+                neither attack your character nor your revenue. We honour you for ‘your work’s
+                    sake’!<note place="foot" xml:id="ftn41" n="41"><p rend="footnote text">Cf. 1
+                        Thess. 5:13.</p></note> If we see some things which we do not approve of, we
+                do not publish them. We rather cast a mantle over them, and hide what we cannot
+                commend. When ye treat us unkindly or unjustly, we suffer it. ‘Being reviled, we
+                    bless.’<note place="foot" xml:id="ftn42" n="42"><p rend="footnote text">1 Cor.
+                        4:12.</p></note> We do not return railing for railing.<note place="foot"
+                    xml:id="ftn43" n="43"><p rend="footnote text">1 Pet. 3:9.</p></note> O let not
+                    <hi rend="italic">your</hi> hand be upon us!</p>
+            <p n="20">20. Ye that are <hi rend="italic">rich</hi> in this world, count us not your
+                enemies because we tell you the truth; and it may be in a fuller and stronger manner
+                than any others will or dare do. Ye have therefore need of us, inexpressible need.
+                Ye cannot buy such friends at any price. All your gold and silver cannot purchase
+                such. Make use of us while ye may. If it be possible, never be without some of those
+                who will speak the truth from their heart. Otherwise ye may grow grey in your sins.
+                Ye may say to your souls, ‘Peace, peace!’ while there is no peace!<note place="foot"
+                    xml:id="ftn44" n="44"><p rend="footnote text">See Jer. 6:14; 8:11.</p></note> Ye
+                may sleep on, and dream ye are in the way to heaven, till ye awake in everlasting
+                fire.</p>
+            <p n="21">21. But whether ye will hear, or whether ye will forbear, we, by the grace of
+                God, hold on our way; being ourselves still members of the Church of England, as we
+                were from the beginning, but receiving all that love God in every church as our
+                brother, and sister, and mother. And in order to their union with us we require no
+                unity in opinions, or in modes of worship, but barely that they ‘fear God and work
+                    righteousness’,<note place="foot" xml:id="ftn45" n="45"><p rend="footnote text"
+                        >Cf. Acts 10:35.</p></note> as was observed. Now this is <pb n="04:084"
+                />utterly a new thing, unheard of in any other Christian community. In what church
+                or congregation beside, throughout the Christian world, can members be admitted upon
+                these terms, without any other conditions? Point any such out, whoever can. I know
+                none in Europe, Asia, Africa, or America! This is the glory of the Methodists, and
+                of them alone! They are themselves no particular sect or party; but they receive
+                those of all parties who ‘endeavour to do justly, and love mercy, and walk humbly
+                with their God’.<note place="foot" xml:id="ftn46" n="46"><p rend="footnote text">
+                        Cf. Mic. 6:8.</p></note></p>
+            <p n="0"><placeName>Cork</placeName>, <date when="1789-05-04">May 4, 1789</date></p>
+        </body>
+    </text>
+</TEI>
