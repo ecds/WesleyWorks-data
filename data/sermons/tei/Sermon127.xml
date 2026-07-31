@@ -1,0 +1,489 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Sermon 126: On the Wedding Garment</title>
+                <author>Wesley, John</author>
+                <editor role="text">Van Buskirk, Gregory P.</editor>
+                <editor role="digital">Taylor, Michelle M.</editor>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>The Wesley Works Digitzation Project</publisher>
+                <pubPlace>Tampa, FL</pubPlace>
+                <date>2024-02-25</date>
+            </publicationStmt>
+            <sourceDesc>
+                <listBibl>
+                    <biblStruct>
+                        <analytic>
+                            <title level="a">Sermon 126: On the Wedding Garment</title>
+                        </analytic>
+                        <monogr>
+                            <title level="j">The Works of John Wesley, Volume IV: Sermons IV,
+                                115-151</title>
+                            <editor role="volume">Outler, Albert</editor>
+                            <imprint>
+                                <publisher>Abingdon Press</publisher>
+                                <pubPlace>Nashville, TN</pubPlace>
+                                <date when="1987-11-01">1987-11-01</date>
+                                <biblScope unit="volume" n="4"/>
+                                <biblScope unit="page" from="139" to="148"/>
+                            </imprint>
+                        </monogr>
+                        <series>
+                            <title level="s">The Works of John Wesley</title>
+                            <editor role="general">Baker, Frank</editor>
+                        </series>
+                    </biblStruct>
+                </listBibl>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Greg Van Buskirk created Word docs for all of Wesley's sermons using a combination of
+                OCR software and manual proofing. Michelle Taylor converted these docx into XML
+                using Oxygen's DITA automatic transformation scenario, then touched them up
+                manually.</p>
+        </encodingDesc>
+        <standOff>
+            <taxonomy>
+                <keywords>
+                    <term/>
+                </keywords>
+            </taxonomy>
+            <!--Include keywords and terms here eventually.-->
+        </standOff>
+        <revisionDesc/>
+    </teiHeader>
+    <text>
+        <body>
+            <pb n="04:139"/>
+            <head>
+                <hi rend="italic">On the Wedding Garment</hi>
+            </head>
+            <p n="1">This is the first in a group of six written sermons produced by Wesley in the
+                last year of his life, and easily the most important in the whole of <hi
+                    rend="italic">SOSO</hi>, IX. It signals the end of Wesley’s theological
+                development, much as ‘The Circumcision of the Heart’ had marked its beginning in
+                1733. In the fifty-seven-year span between, Wesley had moved from a gospel of moral
+                rectitude, to the gospel of faith alone, to the gospel of ‘faith, working by love’.
+                In one sense, ‘On the Wedding Garment’ is a return full circle to the vision of
+                salvation first delineated in ‘The Circumcision of the Heart’. In another sense, it
+                reflects an upward spiralling. On this account, the two sermons will repay careful
+                comparison; each stands as a ‘landmark’ in its time.</p>
+            <p n="2">The Matthean parable of ‘the wedding garment’ had already had a long history of
+                controverted interpretation. It had been taken by some as a metaphor for ‘faith
+                alone’, by others as signifying ‘charity implanted’, by others as a veiled reference
+                to the Lord’s Supper. In his <hi rend="italic">Notes</hi>, Wesley had left open the
+                question between ‘faith’ and ‘charity’, and had rejected only the last suggestion.
+                But then, as the Calvinists pressed him with their charges of ‘works-righteousness’,
+                he seems to have felt it important to summarize his distinctive emphasis on the
+                unity of faith and love in true holiness, as a sort of ‘last word’.</p>
+            <p n="3">His oral delivery of that ‘last word’ had occurred on October 25, 1789, in
+                London: ‘Sunday, 25. In the morning I preached at West Street on Matt, xxii.11…and
+                showed that this has no manner of respect either to the Lord’s Supper or the
+                righteousness of Christ, but that it means neither more nor less than holiness.’</p>
+            <p n="4">In the March following he revisited Madeley, where Mrs. Fletcher was still
+                living in the vicarage.<note place="foot" xml:id="ftn1" n="1"><p
+                        rend="footnote text">See JWJ, March 24-25, 1790.</p></note> Then follows his
+                entry for the 26th: ‘I finished my sermon on the Wedding Garment, perhaps the last
+                that I shall write. My eyes are now waxed dim; my natural force is abated.<note
+                    place="foot" xml:id="ftn2" n="2"><p rend="footnote text">Note the echo here of
+                        Deut. 34:7.</p></note> However, while I can I would fain do a little for God
+                before I drop into <pb n="04:140"/>the dust.’<note place="foot" xml:id="ftn3" n="3"
+                        ><p rend="footnote text">Cf. Job 17:16; 20:11; 21:26.</p></note> It was not
+                actually his last written sermon; it is, however, one of his most important. It is,
+                in effect, his last word on ‘impartation’.</p>
+            <p n="5">Its first half appeared in the <hi rend="italic">Arminian Magazine</hi><note
+                    place="foot" xml:id="ftn4" n="4"><p rend="footnote text">XIV.117-20,
+                    173-77.</p></note> for March 1791 (he had died on the 2nd); the second half was
+                published in the April issue, as if in an unbroken sequence: ‘Sermon LXII’. It was
+                then included as No. 11 in <hi rend="italic">SOSO</hi>, IX. Joseph Benson, in his
+                edition of 1812, supplied it with Wesley’s title from the <hi rend="italic"
+                    >Journal</hi>; Thomas Jackson followed suit in 1825 and 1829.</p>
+            <head>On the Wedding Garment</head>
+            <epigraph>
+                <p>Matthew 22:12</p>
+                <p>
+                    <hi rend="italic">How earnest thou in hither, not having a wedding garment?</hi>
+                </p>
+            </epigraph>
+            <p n="1">1. In the verses preceding the text we read: ‘After these things, Jesus spake
+                to them again in parables, and said, A certain king made a supper for his son. And
+                when the king came in to see the guests, he saw one who had not on a wedding
+                garment. And he saith unto him, Friend, how earnest thou in hither not having a
+                wedding garment? And he was speechless. Then said the king to the servants, Bind him
+                hand and foot, and cast him into outer darkness; there shall be weeping and gnashing
+                of teeth.’<note place="foot" xml:id="ftn5" n="5"><p rend="footnote text">Cf. Matt.
+                        22:2, 11:13.</p></note></p>
+            <p n="2">2. Upon this parable one of our most celebrated expositors<note place="foot"
+                    xml:id="ftn6" n="6"><p rend="footnote text">William Burkitt (1650-1703),
+                        Cambridge M.A. and country parson in Suffolk and Essex. His <hi
+                            rend="italic">Expository Notes with Practical Observations on the New
+                            Testament</hi> was published in 1700 and frequently republished
+                        thereafter (including an American edn. in 1794).</p></note> comments in the
+                following manner: ‘The design of this parable is to set forth that gracious supply
+                made by God to men in and by the preaching of the gospel. To invite them to this,
+                God sent forth his servants, the prophets and apostles.’ And on these words, ‘Why
+                earnest thou in hither, not having a wedding garment?’ he proceeds thus: ‘The
+                punishment of which ought not to discourage us, or make us to turn our backs upon
+                the holy <pb n="04:141"/>ordinances.’<note place="foot" xml:id="ftn7" n="7"><p
+                        rend="footnote text">A garbled abridgement of Burkitt’s note on Matt.
+                        22:2-13; the original reads: ‘The design and scope of this parable of the
+                        marriage supper is to set forth that gracious offer of mercy and salvation
+                        which was made by God in and through the preaching of the gospel to the
+                        church of the Jews. The Gospel is here compared to a <hi rend="italic"
+                            >feast</hi>…. To this marriage feast, or Gospel Supper, almighty God
+                        invited the church of the Jews, and the servants sent forth to invite them
+                        were the prophets and apostles in general and John the Baptist in
+                        particular…. The presence of an unholy person at the Lord’s Table ought not
+                        to discourage us from our duty or cause us to turn our back upon that
+                        ordinance.’</p></note> Certainly it ought not; but nothing of this kind can
+                be inferred from this parable, which has no reference to the ordinances, any more
+                than to baptism and marriage. And probably we should never have imagined it, but
+                that the word ‘supper’ occurred therein.<note place="foot" xml:id="ftn8" n="8"><p
+                        rend="footnote text">In his own <hi rend="italic">Notes</hi> Wesley had
+                        already asserted that the ‘“wedding garment”…has no relation to the Lord’s
+                        Supper but to God’s proceeding at the last day.’ But notice the term ἄριστον
+                        (‘main meal’) in ver. 4 and δεῖπνον μέγα (‘great feast’) in the Lucan
+                        parallel, 14:16-17.</p></note></p>
+            <p n="3">3. However, most of the English annotators have fallen into the same mistake
+                with Mr. Burkitt. And so have thousands of their readers. Yet a mistake it certainly
+                is. And such a mistake as has not any shadow of foundation in the text. It is true,
+                indeed, that none ought to approach the Lord’s table without habitual, at least (if
+                not actual), preparation; that is, a firm purpose to keep all the commandments of
+                God, and a sincere desire to receive all his promises. But that obligation cannot be
+                inferred from this text, though it may from many other passages of Scripture. But
+                there is no need of multiplying texts: one is as good as a thousand. There needs no
+                more to induce any man of a tender conscience to communicate at all opportunities
+                than that single commandment of our Lord, ‘Do this in remembrance of me.’<note
+                    place="foot" xml:id="ftn9" n="9"><p rend="footnote text">Cf. Luke 22:19; 1 Cor.
+                        11:24, 25.</p></note></p>
+            <p n="4">4. But whatever preparation is necessary in order to our being worthy partakers
+                of the Lord’s Supper, it has no relation at all to the wedding garment mentioned in
+                this parable. It cannot; for that commemoration of his death was not then ordained.
+                It relates wholly to the proceedings of our Lord when he comes in the clouds of
+                    heaven<note place="foot" xml:id="ftn10" n="10"><p rend="footnote text">Matt.
+                        26:64.</p></note> to judge the quick and the dead;<note place="foot"
+                    xml:id="ftn11" n="11"><p rend="footnote text">2 Tim. 4:1; 1 Pet. 4:5; also, The
+                        Apostles’ Creed.</p></note> and to the qualifications which will then be
+                necessary to their ‘inheriting the kingdom prepared for them from the foundation of
+                the world’.<note place="foot" xml:id="ftn12" n="12"><p rend="footnote text">Cf.
+                        Matt. 25:34. Wesley accepts the reference of the metaphor to the Last
+                        Judgment; cf. <hi rend="italic">Notes</hi>.</p></note></p>
+            <p n="5"><pb n="04:142"/>5. Many excellent men, who are thoroughly apprised of this, who
+                are convinced the wedding garment here mentioned is not to be understood of any
+                qualification for the Lord’s Supper, but of the qualification for glory, interpret
+                it of the righteousness of Christ, which (say they)<note place="foot" xml:id="ftn13"
+                    n="13"><p rend="footnote text">Cf. Calvin, <hi rend="italic">Commentary on a
+                            Harmony of the Evangelists</hi>, II.174: ‘As to “the wedding garment”,
+                        is it faith or is it a holy life? This is a useless controversy.’ But it had
+                        been controverted—with the Puritans, generally, understanding the metaphor
+                        as denoting ‘Christ’s imputed righteousness’. Cf. John Eaton, <hi
+                            rend="italic">The Honey-Combe of Free Justification by Christ Alone</hi>
+                        (1642), Preface, pp. 5-6 (‘the perfect righteousness of Christ’); see also
+                        George Downham (Downame), <hi rend="italic">A Treatise of Justification</hi>
+                        (1639), IV.24-25. So also Thomas Barlow, <hi rend="italic">Two
+                            Letters…Concerning Justification by Faith Only</hi> (1701), p. 166:
+                        ‘Christ’s imputed righteousness is an entire robe…which covers all our
+                        sins.’ More emphatically, Thomas Adam (of Wintringham) had insisted that the
+                        parable was a shibboleth separating true evangelicals from false; see <hi
+                            rend="italic">Works</hi> (1822), I.345, 348. Cf. Matthew Poole’s comment
+                        that ‘the wedding garment signifies <hi rend="italic">Christ</hi>’ (and he,
+                        too, speaks of the controversy as to whether it also means ‘faith’ versus
+                        ‘love’ as ‘an idle dispute’). To Matthew Henry, the metaphor had signified
+                        ‘an inward thing, …a frame of heart and a course of life agreeable to the
+                        gospel.’ Similarly, William Bates, <hi rend="italic">Sermons Preached on
+                            Several Occasions</hi> (1693), Sermon X, p. 381: ‘Unfeigned faith that
+                        unites us to Christ, and is effectual and evident in all good works, is the
+                        “wedding garment”.’ Cf. Wesley’s extract of Ralph Cudworth, ‘Sermon Preached
+                        Before the House of Commons’, Mar. 31, 1647, in the <hi rend="italic"
+                            >Christian Lib.</hi>, XVII.25-26; and Samuel Clarke, <hi rend="italic"
+                            >Forty Sermons</hi> (1806), Sermon II, pp. 16-17.</p></note> is ‘the
+                sole qualification for heaven; this being the only righteousness wherein any man can
+                stand in the day of the Lord’. For who, they ask, will then dare to appear before
+                the great God, save in the righteousness of his well-beloved Son? ‘Shall we not then
+                at least, if not before, find the need of having a better righteousness than our
+                own! And what other can that be than the righteousness of God our Saviour?’ The late
+                pious and ingenious Mr. Hervey descants largely upon this; particularly in his
+                elaborate <hi rend="italic">Dialogues between Theron and Aspasio</hi>.<note
+                    place="foot" xml:id="ftn14" n="14"><p rend="footnote text">James Hervey
+                        (1714-58), one of the early Oxford Methodists, author of the popular <hi
+                            rend="italic">Meditations Among the Tombs</hi> (1746); the reference
+                        here is to <hi rend="italic">Theron and Aspasio</hi> (3 vols., 1755),
+                        II.381-84.</p></note></p>
+            <p n="6">6. Another elegant writer,<note place="foot" xml:id="ftn15" n="15"><p
+                        rend="footnote text">Cf. Thomas Adam (who had died in 1784), <hi
+                            rend="italic">A Paraphrase and Annotations on the Eleven First Chapters
+                            of…Romans</hi> (1771), Preface, in <hi rend="italic">Posthumous
+                            Works</hi> (1786), Vol. II.</p></note> now I trust with God, speaks
+                strongly to the same effect in the preface to his comment on St. Paul’s Epistle to
+                the Romans. ‘We certainly’, says he, ‘shall need a better righteousness than our
+                own, wherein to stand at the bar of God in the day of judgment.’ I do not understand
+                the expression. Is it scriptural! Do we read it in the Bible? Either in the Old
+                Testament or the New? I doubt, it is an unscriptural, awkward phrase, which has no
+                determinate meaning. If you mean by that odd, uncouth question, ‘In whose
+                righteousness are you to stand <pb n="04:143"/>at the last day?’ for ‘whose sake’,
+                or ‘by whose merits’ do you expect to enter into the glory of God, I answer, without
+                the least hesitation, for the sake of Jesus Christ the righteous.<note place="foot"
+                    xml:id="ftn16" n="16"><p rend="footnote text">1 John 2:1.</p></note> It is
+                through his merits alone that all believers are saved, that is, <hi rend="italic"
+                    >justified</hi>, saved from the guilt, <hi rend="italic">sanctified</hi>, saved
+                from the nature of sin, and <hi rend="italic">glorified</hi>, taken into heaven.</p>
+            <p n="7">7. It may be worth our while to spend a few more words on this important point.
+                Is it possible to devise a more unintelligible expression than this? ‘In what
+                righteousness are we to stand before God at the last day?’ Why do you not speak
+                plain, and say, ‘<hi rend="italic">For whose sake</hi> do you look to be saved?’ Any
+                plain peasant would then readily answer, ‘For the sake of Jesus Christ.’ But all
+                those dark, ambiguous phrases tend only to puzzle the cause, and open a way for
+                unwary hearers to slide into antinomianism.</p>
+            <p n="8">8. Is there any expression similar to this of the wedding garment to be found
+                in Holy Scripture? In the Revelation we find mention made of ‘linen white and clean,
+                which is the righteousness of the saints’.<note place="foot" xml:id="ftn17" n="17"
+                        ><p rend="footnote text">Rev. 19:8.</p></note> And this too many vehemently
+                contend means the righteousness of Christ. But how then are we to reconcile this
+                with that passage in the seventh chapter, ‘They have washed their robes, and made
+                them white in the blood of the Lamb’?<note place="foot" xml:id="ftn18" n="18"><p
+                        rend="footnote text">Rev. 7:14.</p></note> Will they say, ‘The righteousness
+                of Christ was washed and made white in the blood of Christ?’ Away with such
+                antinomian jargon. Is not the plain meaning this?—it was from the atoning blood that
+                the very righteousness of the saints derived its value and acceptableness to
+                God.</p>
+            <p n="9">9. In the nineteenth chapter of the Revelation, at the ninth verse, there is an
+                expression which comes much nearer to this: ‘The wedding supper of the Lamb’.<note
+                    place="foot" xml:id="ftn19" n="19"><p rend="footnote text">ὁ γάμος τοῦ ἀρνιοῦ;
+                        AV: ‘marriage supper of the Lamb’; Geneva: ‘Lamb’s Supper’, etc.; cf.
+                        Wycliffe (1380): ‘the soper of weddynge of the lamb’.</p></note> There is a
+                near resemblance between this and the supper mentioned in the parable. Yet they are
+                not altogether the same: there is a clear difference between them. The supper
+                mentioned in the parable belongs to the church militant, that mentioned in the
+                Revelation to the church triumphant. The one to the kingdom of God on earth, the
+                other to the kingdom of God in heaven. Accordingly in the former there may be found
+                those who have not a wedding <pb n="04:144"/>garment. But there will be none such to
+                be found in the latter. No, not ‘in that great multitude, which no man can number,
+                out of every kindred, and tongue, and people, and nation’.<note place="foot"
+                    xml:id="ftn20" n="20"><p rend="footnote text">Rev. 7:9.</p></note> They will all
+                be ‘kings and priests unto God’,<note place="foot" xml:id="ftn21" n="21"><p
+                        rend="footnote text">Rev. 5:10.</p></note> and ‘shall reign with him for
+                ever and ever’.<note place="foot" xml:id="ftn22" n="22"><p rend="footnote text">Cf.
+                        Rev. 22:5.</p></note></p>
+            <p n="10">10. Does not that very expression, ‘the righteousness of the saints’,<note
+                    place="foot" xml:id="ftn23" n="23"><p rend="footnote text">Cf. William Bates,
+                            <hi rend="italic">Sermons</hi>, Sermon X, p. 381.</p></note> point out
+                what is the wedding garment in the parable? It is the ‘holiness without which no man
+                shall see the Lord’.<note place="foot" xml:id="ftn24" n="24"><p rend="footnote text"
+                        >Heb. 12:14.</p></note> The righteousness of Christ is, doubtless, necessary
+                for any soul that enters into glory. But so is personal holiness, too, for every
+                child of man. But it is highly needful to be observed that they are necessary in
+                different respects. The former is necessary to <hi rend="italic">entitle </hi>us to
+                heaven; the latter, to <hi rend="italic">qualify</hi> us for it. Without the
+                righteousness of Christ we could have no <hi rend="italic">claim</hi> to glory;
+                without holiness we could have no <hi rend="italic">fitness</hi> for it. By the
+                former we become members of Christ, children of God, and heirs of the kingdom of
+                heaven. By the latter we are ‘made meet to be partakers of the inheritance of the
+                saints in light’.<note place="foot" xml:id="ftn25" n="25"><p rend="footnote text"
+                        >Col. 1:12.</p></note></p>
+            <p n="11">11. From the very time that the Son of God delivered this weighty truth to the
+                children of men, that all who had not the wedding garment would be cast into outward
+                darkness, where are weeping and gnashing of teeth,<note place="foot" xml:id="ftn26"
+                    n="26"><p rend="footnote text">Matt. 22:13, etc.</p></note> the enemy of souls
+                has been labouring to obscure it, that they might still seek death in the error of
+                their life,<note place="foot" xml:id="ftn27" n="27"><p rend="footnote text">Wisd.
+                        1:12; cf. No. 6, ‘The Righteousness of Faith’, §2 and n.</p></note> and many
+                ways has he tried to disguise the holiness without which we cannot be saved. How
+                many things have been palmed, even upon the Christian world, in the place of this!
+                Some of these are utterly contrary thereto, and subversive of it. Some were no ways
+                connected with or related to it, but useless and insignificant trifles. Others might
+                be deemed to be some part of it, but by no means the whole. It may be of use to
+                enumerate some of them, lest ye should be ignorant of Satan’s devices.<note
+                    place="foot" xml:id="ftn28" n="28"><p rend="footnote text">See 2 Cor. 2:11; also
+                        No. 42, ‘Satan’s Devices’.</p></note></p>
+            <p n="12">12. Of the first sort—things prescribed as Christian holiness, although flatly
+                contrary thereto—is idolatry.<note place="foot" xml:id="ftn29" n="29"><p
+                        rend="footnote text">Cf. Nos. 78, ‘Spiritual Idolatry’, proem; and 23,
+                        ‘Sermon on the Mount, III’, I.11 and n.</p></note> How has this, in <pb
+                    n="04:145"/>various shapes, been taught, and is to this day, as essential to
+                holiness! How diligently is it now circulated, in a great part of the Christian
+                church! Some of their idols are silver and gold, or wood and stone,<note
+                    place="foot" xml:id="ftn30" n="30"><p rend="footnote text">See Dan. 5:4, 23;
+                        Rev. 9:20.</p></note> ‘graven by art and man’s device’;<note place="foot"
+                    xml:id="ftn31" n="31"><p rend="footnote text">Acts 17:29.</p></note> some men of
+                like passions with themselves,<note place="foot" xml:id="ftn32" n="32"><p
+                        rend="footnote text">Acts 14:15.</p></note> particularly the apostles of our
+                Lord, and the Virgin Mary. To these they add numberless saints of their own
+                creation, with no small company of angels.</p>
+            <p n="13">13. Another thing, as directly contrary to the whole tenure of true religion,
+                is what is diligently taught in many parts of the Christian church: I mean, the
+                spirit of persecution; of persecuting their brethren even unto death. So that the
+                earth has been often covered with blood by those who were called Christians, in
+                order to ‘make their calling and election sure’.<note place="foot" xml:id="ftn33"
+                    n="33"><p rend="footnote text">2 Pet. 1:10.</p></note> It is true many, even in
+                the Church of Rome, who were taught this horrid doctrine, now seem to be ashamed of
+                it. But have the heads of that community as openly and explicitly renounced that
+                capital doctrine of devils as they avowed it in the Council of Constance,<note
+                    place="foot" xml:id="ftn34" n="34"><p rend="footnote text">1414-18, the council
+                        that ended the ‘Great Western Schism’ (since the death of Gregory XI, 1378)
+                        and, among other things, executed John Hus and Jerome of Prague, even after
+                        the Emperor Sigismund had given them his solemn pledge of safe conduct.
+                        Wesley ignores Mosheim’s extenuating explanation of this (as a special case
+                        of revenge by the dominant nominalist party at the council over two
+                        ‘realists’). He was convinced that Constance, in effect, had <hi
+                            rend="italic">decreed</hi> that ‘no faith need be kept with heretics’;
+                        this was the account of the affair in the Magdeburg ‘Centuries’ and was
+                        widely shared in England. Cf. William Gilpin’s <hi rend="italic">Lives of
+                            John Wiclif and the Most Eminent of His Disciples, …Jerome of
+                            Prague</hi> (1766); cf. also Wesley’s letter to Dr. Conyers Middleton,
+                        Jan. 4, 1749; to the Printer of the <hi rend="italic">Public
+                        Advertiser</hi>, Jan. 12, 1780; and his letters to the editors of <hi
+                            rend="italic">Freeman’s Journal</hi>, Mar. 23 and 31, 1780.</p></note>
+                and practised it for many ages? Till they have done this they will be chargeable
+                with the blood of Jerome of Prague,<note place="foot" xml:id="ftn35" n="35"><p
+                        rend="footnote text"><hi rend="italic">C.</hi> 1370-1416; Bohemian reformer,
+                        disciple of Wycliffe and friend of John Hus. Cf. Wesley’s letter of Mar. 31,
+                        1780, to <hi rend="italic">Freeman’s Journal</hi>, where the stories of Hus
+                            <hi rend="italic">and</hi> Jerome had been recounted
+                    together.</p></note> basely murdered, and of many thousands, both in the sight
+                of God and man.</p>
+            <p n="14">14. Let it not be said: ‘This does not concern us Protestants: we think and
+                let think.<note place="foot" xml:id="ftn36" n="36"><p rend="footnote text">Cf. No.
+                        7, ‘The Way to the Kingdom’, I.6 and n.</p></note> We abhor the spirit of
+                persecution, and maintain as an indisputable truth that every rational creature has
+                a right to worship God as he is persuaded in his own mind.’ But are we true to our
+                    <hi rend="italic">own</hi> principles? So far, that we do not use fire and
+                faggot. We do not persecute unto blood those that scruple to <pb n="04:146"
+                />subscribe to our opinions. Blessed be God, the laws of our country do not allow of
+                    this.<note place="foot" xml:id="ftn37" n="37"><p rend="footnote text">Cf. No.
+                        107, ‘On God’s Vineyard’, IV.2 and n.</p></note> But is there no such thing
+                to be found in England as domestic persecution? The saying or doing anything unkind
+                to another for following his own conscience is a species of persecution. Now are we
+                all clear of this? Is there no husband who in this sense persecutes his wife? Who
+                uses her unkindly in word or deed for worshipping God after her own conscience? Do
+                no parents thus persecute their children; no masters or mistresses their servants?
+                If they do this, and think they do God service<note place="foot" xml:id="ftn38"
+                    n="38"><p rend="footnote text">See John 16:2.</p></note> therein, they <hi
+                    rend="italic">must not cast the first stone</hi><note place="foot"
+                    xml:id="ftn39" n="39"><p rend="footnote text">See John 8:7.</p></note><hi
+                    rend="italic"> at the Roman Catholics</hi>.</p>
+            <p n="15">15. When things of an <hi rend="italic">indifferent nature</hi> are
+                represented as necessary to salvation it is a folly of the same kind, though not of
+                the same magnitude. Indeed it is not a little sin to represent trifles as necessary
+                to salvation, such as going on<note place="foot" xml:id="ftn40" n="40"><p
+                        rend="footnote text">Here, both <hi rend="italic">AM</hi> and Jackson read
+                        ‘of’; Benson reads, more naturally, ‘on’. There is no manuscript
+                        control.</p></note> pilgrimages, or anything that is not expressly enjoined
+                in the Holy Scripture. Among these we may undoubtedly rank <hi rend="italic"
+                    >orthodoxy</hi>, or right opinions.<note place="foot" xml:id="ftn41" n="41"><p
+                        rend="footnote text">Cf. No. 7, ‘The Way to the Kingdom’, I.6 and
+                    n.</p></note> We know indeed that wrong opinions in religion naturally lead to
+                wrong tempers, or wrong practices; and that consequently it is our bounden duty to
+                pray that we may have a right judgment in all things. But still a man may judge as
+                accurately as the devil, and yet be as wicked as he.</p>
+            <p n="16">16. Something more excusable are they who imagine holiness to consist in
+                things that are only a part of it. (That is, when they are connected with the rest;
+                otherwise they are no part of it at all.) Suppose, in doing no harm. And how
+                exceeding common is this! How many take holiness and harmlessness to mean one and
+                the same thing!<note place="foot" xml:id="ftn42" n="42"><p rend="footnote text">Cf.
+                        No. 32, ‘Sermon on the Mount, XII’, II.2 and n.</p></note> Whereas were a
+                man as harmless as a post he might be as far from holiness as heaven from earth.
+                Suppose a man therefore to be exactly honest, to pay everyone his own, to cheat no
+                man, to wrong no man, to hurt no man, to be just in all his dealings; suppose a
+                woman to be uniformly modest and virtuous in all her words and actions; suppose the
+                one and the other to be steady practisers of morality, that is, of justice, mercy,
+                and truth; yet all this, though it is good as far as it goes, is but a part of <pb
+                    n="04:147"/>Christian holiness. Yea, suppose a person of this amiable character
+                to do much good wherever he is, to feed the hungry, clothe the naked, relieve the
+                stranger, the sick, the prisoner, yea, and to save many souls from death: it is
+                possible he may still fall far short of that holiness without which he cannot see
+                the Lord.</p>
+            <p n="17">17. What then is that holiness which is the true wedding garment, the only
+                qualification for glory? ‘In Christ Jesus’ (that is, according to the Christian
+                institution, whatever be the case of the heathen world)<note place="foot"
+                    xml:id="ftn43" n="43"><p rend="footnote text">Cf. No.91, ‘On Charity’, I.3 and
+                        n.</p></note> ‘neither circumcision availeth anything, nor uncircumcision,
+                but a new creation,’<note place="foot" xml:id="ftn44" n="44"><p rend="footnote text"
+                        >Cf. Gal. 6:15 and <hi rend="italic">Notes</hi>. The AV here reads ‘new
+                        creature’, as do the Geneva Bible, Wycliffe, Coverdale, <hi rend="italic">et
+                            al.</hi> The Greek καινὴ κτίσις can bear either translation; ‘new
+                        creation’ is the more literal.</p></note> the renewal of the soul ‘in the
+                image of God wherein it was created’.<note place="foot" xml:id="ftn45" n="45"><p
+                        rend="footnote text">Cf. Col. 3:10.</p></note> In ‘Christ Jesus neither
+                circumcision availeth anything nor uncircumcision’, but ‘faith which worketh by
+                    love’.<note place="foot" xml:id="ftn46" n="46"><p rend="footnote text">Gal.
+                        5:6.</p></note> It first, through the energy of God, worketh love to God and
+                all mankind; and by this love every holy and heavenly temper. In particular,
+                lowliness, meekness, gentleness, temperance, and long-suffering.<note place="foot"
+                    xml:id="ftn47" n="47"><p rend="footnote text">See Gal. 5:22-23 (<hi
+                            rend="italic">Notes</hi>).</p></note> ‘It is neither circumcision’, the
+                attending on all the Christian ordinances, ‘nor uncircumcision’, the fulfilling of
+                all heathen morality, but ‘the keeping of the commandments of God’;<note
+                    place="foot" xml:id="ftn48" n="48"><p rend="footnote text">Cf. 1 Cor.
+                    7:19.</p></note> particularly those, ‘Thou shalt love the Lord thy God with all
+                thy heart, and thy neighbour as thyself.’<note place="foot" xml:id="ftn49" n="49"><p
+                        rend="footnote text">Mark 12:30-31, etc.</p></note> In a word, holiness is
+                the having ‘the mind that was in Christ’,<note place="foot" xml:id="ftn50" n="50"><p
+                        rend="footnote text">Cf. Phil. 2:5.</p></note> and the ‘walking as Christ
+                    walked’.<note place="foot" xml:id="ftn51" n="51"><p rend="footnote text">Cf. 1
+                        John 2:6.</p></note></p>
+            <p n="18">18. Such has been my judgment for these threescore years, without any material
+                alteration. Only about fifty years ago I had a clearer view than before of
+                justification by faith: and in this from that very hour I never varied, no not an
+                hair’s breadth.<note place="foot" xml:id="ftn52" n="52"><p rend="footnote text">A
+                        clarification of his adherence to the ‘holy living’ tradition since 1730 at
+                        least (cf. No. 17, ‘The Circumcision of the Heart’); note the vague
+                        reference to ‘about fifty years ago’ (i.e., 1740) without any reference to
+                        Aldersgate. Cf. Nos. 1, <hi rend="italic">Salvation by Faith</hi> (1738);
+                        and 5, ‘Justification by Faith’ (the first drafts of which could be dated
+                        around 1740).</p></note> Nevertheless an ingenious man has publicly accused
+                me of a <pb n="04:148"/>thousand variations.<note place="foot" xml:id="ftn53" n="53"
+                        ><p rend="footnote text">This could be James Hervey (cf. above, §5; and <hi
+                            rend="italic">Works</hi> [1773], XXII.233); or John Hampson, whose <hi
+                            rend="italic">Memoirs of the Late Rev. John Wesley</hi> (1791) reflected
+                        his own personal animosities; or even Richard Hill in his <hi rend="italic"
+                            >Review of all the Doctrines Taught by the Rev. Mr. John Wesley</hi>
+                        (2nd edn., 1772),p. 10: ‘Saying and unsaying is nothing new with Mr. W., who
+                        has only shown himself consistent by a regular series of inconsistencies.’
+                        Hill then cites one hundred and one instances in which he affirms Wesley
+                        contradicts himself (see <hi rend="italic">Bibliog</hi>, No. 341). But more
+                        likely Wesley still had in mind Josiah Tucker’s <hi rend="italic">Brief
+                            History of the Principles of Methodism</hi> (1742), pp. 37-38; see
+                        Wesley’s <hi rend="italic">Principles of a Methodist</hi>, §30.</p></note> I
+                pray God not to lay this to his charge!<note place="foot" xml:id="ftn54" n="54"><p
+                        rend="footnote text">See Acts 7:60.</p></note> I am now on the borders of
+                the grave, but by the grace of God I still witness the same confession. Indeed some
+                have supposed that when I began to declare, ‘By grace ye are saved through
+                    faith,’<note place="foot" xml:id="ftn55" n="55"><p rend="footnote text">Eph.
+                        2:8.</p></note> I retracted what I had before maintained, ‘Without holiness
+                no man shall see the Lord.’<note place="foot" xml:id="ftn56" n="56"><p
+                        rend="footnote text">Cf. Heb. 12:14.</p></note> But it is an entire mistake;
+                these Scriptures well consist with each other; the meaning of the former being
+                plainly this, ‘By faith we are saved from sin, made holy.’ The imagination that
+                faith <hi rend="italic">supersedes</hi> holiness is the marrow of
+                    antinomianism.<note place="foot" xml:id="ftn57" n="57"><p rend="footnote text"
+                        >Cf. No. 35, ‘The Law Established through Faith, I’, II.2.</p></note></p>
+            <p n="19">19. The sum of all is this: the God of love is willing to save all the souls
+                that he has made. This he has proclaimed to them in his Word, together with the
+                terms of salvation revealed by the Son of his love, who gave his own life that they
+                that believe in him might have everlasting life.<note place="foot" xml:id="ftn58"
+                    n="58"><p rend="footnote text">See John 6:40.</p></note> And for these he has
+                prepared a kingdom from the foundation of the world.<note place="foot"
+                    xml:id="ftn59" n="59"><p rend="footnote text">See Matt. 25:34.</p></note> But he
+                will not force them to accept of it. He leaves them in the hands of their own
+                counsel. He saith: ‘Behold, I set before you life and death, blessing and cursing;
+                choose life, that ye may live.’<note place="foot" xml:id="ftn60" n="60"><p
+                        rend="footnote text">Cf. Deut. 30:19.</p></note> Choose holiness by my
+                grace, which is the way, the only way, to everlasting life. He cries aloud, Be holy,
+                and be happy; happy in this world, and happy in the world to come. ‘Holiness
+                becometh his house for ever!’<note place="foot" xml:id="ftn61" n="61"><p
+                        rend="footnote text">Ps. 93:5.</p></note> This is the wedding garment of all
+                that are called to ‘the marriage of the Lamb’.<note place="foot" xml:id="ftn62"
+                    n="62"><p rend="footnote text">Rev. 19:7.</p></note> Clothed in this they will
+                not be found naked: ‘they have washed their robes and made them white in the blood
+                of the Lamb.’<note place="foot" xml:id="ftn63" n="63"><p rend="footnote text">Rev.
+                        7:14.</p></note> But as to all those who appear in the last day without the
+                wedding garment, the Judge will say: ‘Cast them into outer darkness; there shall be
+                weeping and gnashing of teeth.’</p>
+            <p><placeName>Madeley</placeName>, <date when="1790-03-26">March 26, 1790</date></p>
+        </body>
+    </text>
+</TEI>

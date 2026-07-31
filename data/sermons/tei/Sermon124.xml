@@ -1,0 +1,566 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Sermon 124: Human Life a Dream</title>
+                <author>Wesley, John</author>
+                <editor role="text">Van Buskirk, Gregory P.</editor>
+                <editor role="digital">Taylor, Michelle M.</editor>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>The Wesley Works Digitzation Project</publisher>
+                <pubPlace>Tampa, FL</pubPlace>
+                <date>2024-02-25</date>
+            </publicationStmt>
+            <sourceDesc>
+                <listBibl>
+                    <biblStruct>
+                        <analytic>
+                            <title level="a">Sermon 124: Human Life a Dream</title>
+                        </analytic>
+                        <monogr>
+                            <title level="j">The Works of John Wesley, Volume IV: Sermons IV,
+                                115-151</title>
+                            <editor role="volume">Outler, Albert</editor>
+                            <imprint>
+                                <publisher>Abingdon Press</publisher>
+                                <pubPlace>Nashville, TN</pubPlace>
+                                <date when="1987-11-01">1987-11-01</date>
+                                <biblScope unit="volume" n="4"/>
+                                <biblScope unit="page" from="108" to="119"/>
+                            </imprint>
+                        </monogr>
+                        <series>
+                            <title level="s">The Works of John Wesley</title>
+                            <editor role="general">Baker, Frank</editor>
+                        </series>
+                    </biblStruct>
+                </listBibl>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Greg Van Buskirk created Word docs for all of Wesley's sermons using a combination of
+                OCR software and manual proofing. Michelle Taylor converted these docx into XML
+                using Oxygen's DITA automatic transformation scenario, then touched them up
+                manually.</p>
+        </encodingDesc>
+        <standOff>
+            <taxonomy>
+                <keywords>
+                    <term/>
+                </keywords>
+            </taxonomy>
+            <!--Include keywords and terms here eventually.-->
+        </standOff>
+        <revisionDesc/>
+    </teiHeader>
+    <text>
+        <body>
+            <pb n="04:108"/>
+            <head>
+                <hi rend="italic">An Introductory Comment</hi>
+            </head>
+            <introduction>
+                <p n="1">This sermon does not have the usual postscripted place and date, but we can
+                    date it, roughly, from a hitherto unpublished letter of James Creighton,
+                    February 28, 1791—which is to say, on the eve of Wesley’s death. Creighton was
+                    Wesley’s editorial assistant for the <hi rend="italic">Arminian Magazine</hi>,
+                    and his letter throws a flood of light on the atmosphere in the circle of
+                    Wesley’s associates. The passage relevant to our sermon is as follows:</p>
+                <quote>We are likely soon to have a great stir here, as Mr. Wesley’s life seems near
+                    a close; perhaps he may be dead before I finish this letter. He was a little
+                    better yesterday morning but I hear he is worse this morning. He had had several
+                    shakes this winter, though he braved it out; but he must yield at last. The
+                    19th, I was with him and read some papers to him. I asked for more sermons. He
+                    said he had none and would write no more. It is very remarkable that the last,
+                    which I am now printing in [the] May and June Magazines, was not the last
+                    written, and has been in my possession, I think, a year and a half. But as it
+                    bears no date, as all his others do, I kept it though without design. The text
+                    is Psalm 73:19 [actually 20], according to the translation in your prayer book,
+                    which he had always preferred to that in your bibles at present, for that in the
+                    prayer book, he says, is more ancient than the other, and better. Though the
+                    text refers chiefly to the wicked, yet he speaks of the nature of a dream and
+                    compares human life to a dream.</quote>
+                <p n="2">This would put the date of its writing some time before it was handed over
+                    to Creighton in <date when="1789-08">August 1789</date>.</p>
+                <p n="3">One might suppose, from the sermon’s opening gambit, that Wesley had fixed
+                    upon a psychological theme, <hi rend="italic">viz.</hi>, the nature of dreams
+                    and the distinction ‘between our dreams and our waking thoughts’ (§§3-5). This,
+                    obviously, was Creighton’s superficial reading of it. But notice how quietly
+                    Wesley ignores the most urgent interest in dreams in his day: namely, their <hi
+                        rend="italic">interpretation</hi>, as coded messages—from whom or where? If
+                    Wesley knew the great classic in this field (Artemidorus Daldianus, <hi
+                        rend="italic">Ὀνειροκριτικά</hi> [late second century B.C.], he left no
+                    mention of it. But he can scarcely have escaped its continuing influence in
+                    English folklore and thought, largely through Robert Woods’s translation, <hi
+                        rend="italic">The Interpretation of Dreams</hi> (1st edn., 1606; 25th edn.,
+                    1786).</p>
+                <p n="4">A closer reading of the sermon itself will show, however, that Wesley’s <pb
+                        n="04:109"/>interest is not in dreams as such but in an analogy that they
+                    suggested to him: between dreams as a prime example of <hi rend="italic"
+                        >illusion</hi> (and here he echoes Aristotle’s doctrine in <hi rend="italic"
+                        >De Somniis</hi>, §§459-62) and of human life in this world as a <hi
+                        rend="italic">protracted</hi> illusion when compared to the wonderful or
+                    terrible ‘realities’ of life after death. This, then, leads him to an almost
+                    hackneyed application (a final echoing of the <hi rend="italic">ars
+                        moriendi</hi>): <hi rend="italic">viz.</hi>, the Christian’s ultimate
+                    concern with eternal life in the midst of time, ‘the unspeakable union of mortal
+                    with immortal’, here and now as well as hereafter (§§15-16).</p>
+                <p n="5">There was something fitting in Creighton’s withholding the sermon from
+                    publication until May and June 1791; that is, in the aftermath of Wesley’s own
+                    ‘awakening’ from his long life’s ‘dream’ to ‘life eternal’. The manuscript bore
+                    no title and Creighton gave it none. It appeared in the <hi rend="italic"
+                        >Arminian Magazine</hi><note place="foot" xml:id="ftn1" n="1"><p
+                            rend="footnote text">XIV.229-32, 288-94.</p></note> as if in a continued
+                    sequence: ‘Sermon LΧIII’. George Story then published it, also without title, as
+                    No. 12 in his <hi rend="italic">SOSO</hi>, IX (1800). Its present title was
+                    coined by Joseph Benson in 1811; Thomas Jackson took this over for his editions
+                    of 1825and 1829 and so it became ‘traditional’.</p>
+            </introduction>
+            <head>Human Life a Dream</head>
+            <epigraph>
+                <p>Psalm 73:20</p>
+                <p>
+                    <hi rend="italic">Even like as a dream when one awaketh, so shalt thou make
+                        their image to vanish out of the city.</hi>
+                </p>
+            </epigraph>
+            <p n="1">1. Anyone that considers the foregoing verses will easily observe that the
+                Psalmist is speaking directly of the wicked, that prosper in their wickedness.<note
+                    place="foot" xml:id="ftn2" n="2"><p rend="footnote text">See Jer.
+                    12:1.</p></note> It is very common for these utterly to forget that they are
+                creatures of a day;<note place="foot" xml:id="ftn3" n="3"><p rend="footnote text"
+                        >Cf. Pindar, <hi rend="italic">Pythian Odes, </hi>viii.95; cf. also Wesley’s
+                        Preface to <hi rend="italic">SOSO</hi>, I (1746), §5 and n.</p></note> to
+                live as if they were never to die; as if their present state was to endure for ever;
+                or at least as if they were indisputably sure that they had ‘much goods laid up for
+                many years’; so that they might safely say, ‘Soul, take thine ease: eat, drink, and
+                be merry.’ But how miserable a mistake is <pb n="04:110"/>this! How often does God
+                say to such a one: ‘Thou fool! This night shall thy soul be required of thee!’<note
+                    place="foot" xml:id="ftn4" n="4"><p rend="footnote text">Luke
+                    12:19-20.</p></note> Well then may it be said concerning them: ‘O how suddenly
+                do they consume, perish, and come to a fearful end! Yea, even like as a dream when
+                one awaketh, so shalt thou make their image to vanish out of the city.’<note
+                    place="foot" xml:id="ftn5" n="5"><p rend="footnote text">Ps. 73:18-19
+                    (BCP).</p></note></p>
+            <p n="2">2. But I would at present carry this thought farther: I would consider it in a
+                general sense, and show how near a resemblance there is between human life and a
+                    dream.<note place="foot" xml:id="ftn6" n="6"><p rend="footnote text">For this
+                        metaphor of life as a dream, cf. Nos. 136, ‘On Mourning for the Dead’, ¶3;
+                        and 3, <hi rend="italic">‘Awake, Thou That Sleepest’</hi>, II.3.</p></note>
+                An ancient poet carries the comparison farther still, when he styles life ‘the dream
+                of a shadow’.<note place="foot" xml:id="ftn7" n="7"><p rend="footnote text">Cf.
+                        Pindar, <hi rend="italic">Pythian Odes</hi>, viii.95-96. Abraham Cowley
+                        quotes the same phrase in <hi rend="italic">Pindarique Odes</hi>, as Edward
+                        Young had also done in his <hi rend="italic">Paraphrase on Job</hi>. Wesley
+                        had used it (without quotation marks) earlier in No. 147, ‘Wiser than the
+                        Children of Light’, §1. Cf. Shakespeare, <hi rend="italic">Hamlet</hi>,
+                        II.ii 258-60.</p></note> And so does Cowley, when he cries out,</p>
+            <lg>
+                <l>O life, thou nothing’s younger brother,</l>
+                <l>So like, that we mistake the one for th’other.<note place="foot" xml:id="ftn8"
+                        n="8"><p rend="footnote text">Cf. Abraham Cowley, <hi rend="italic"
+                                >Pindarique Odes</hi>, ‘Life and Fame’, the opening lines:</p>
+                        <lg><l>O Life, thou nothing’s younger brother!</l><l>So like that one might
+                                take <hi rend="italic">one</hi> for the <hi rend="italic"
+                                >other</hi>.</l></lg></note></l>
+            </lg>
+            <p>But setting these and all other flights of poetry aside, I would seriously inquire
+                wherein this resemblance lies, wherein the analogy between the one and the other
+                does properly consist.</p>
+            <p n="3">3. In order to this I would inquire, first, What is a dream? You will say, ‘Who
+                does not know this?’ Might you not rather say, ‘Who <hi rend="italic">does</hi>
+                know?’ Is there anything more mysterious in nature? Who is there that has not
+                experienced it, that has not dreamed a thousand times? Yet he is no more able to <hi
+                    rend="italic">explain</hi> the nature of it than he is to grasp the skies. Who
+                can give any clear, satisfactory account of the parent of dreams, sleep? It is true,
+                many physicians have attempted this, but they have attempted it in vain. They have
+                talked learnedly about it, but have left the matter at last just as dark as it was
+                before. They tell us some of its properties and effects. But none can tell what is
+                the <hi rend="italic">essence</hi> of it.<note place="foot" xml:id="ftn9" n="9"><p
+                        rend="footnote text">Cf. the brief essay on ‘Sleep’ in Chambers’s <hi
+                            rend="italic">Cyclopaedia</hi> (he had none on ‘Dreams’), in which
+                        Herman Boerhaave’s definition is cited (from his <hi rend="italic">Aphorisms
+                            concerning the Knowledge and Cure of Diseases</hi>, 1715) as the state
+                        resulting from a reduction of ‘the influx of spirits to the medulla of the
+                        brain’.</p></note></p>
+            <p n="4"><pb n="04:111"/>4. However, we know the origin of dreams, and that with some
+                degree of certainty. There can be no doubt but some of them arise from the present
+                constitution of the body, while others of them are probably occasioned by the
+                passions of the mind.<note place="foot" xml:id="ftn10" n="10"><p
+                        rend="footnote text">Cf. John Locke’s discussion of dreams in his <hi
+                            rend="italic">Essay Concerning Human Understanding</hi>, Bk. II, ch. 1,
+                        §§12 ff., and ch. 19, §§1-4. Wesley has numerous references to dreams, as,
+                        e.g., Nos. 41, <hi rend="italic">Wandering Thoughts</hi>, II.4; 51, <hi
+                            rend="italic">The Good Steward</hi>, II.6; 69, ‘The Imperfection of
+                        Human Knowledge’, I.13; and 82, ‘On Temptation’, III.3, etc.; see also his
+                        letter to his wife, May 7, 1756; to Hester Ann Roe, Mar. 16, 1783; and
+                        Curnock’s note in JWJ, VIII.55. Wesley had read George Cheyne’s <hi
+                            rend="italic">Natural Method of Cureing the Diseases of the Body, and
+                            the Disorders of the Mind Depending on the Body</hi> (1742; see JWJ,
+                        Mar. 12, 1742).</p></note> Again, we are clearly informed in Scripture that
+                some are caused by the operation of good angels; as others undoubtedly are owing to
+                the power and malice of evil angels (if we may dare to suppose that there are any
+                such now, or at least that they have anything to do in the world!)<note place="foot"
+                    xml:id="ftn11" n="11"><p rend="footnote text">See No. 72, ‘Of Evil Angels’,
+                        II.15.</p></note> From the same divine treasury of knowledge we learn that
+                on some extraordinary occasions the great Father of spirits has manifested himself
+                to human spirits ‘in dreams and visions of the night’.<note place="foot"
+                    xml:id="ftn12" n="12"><p rend="footnote text">Cf. Job 33:15.</p></note> But
+                which of all these arise from natural, which from supernatural, influence, we are
+                many times not able to determine.</p>
+            <p n="5">5. And how can we certainly distinguish between our dreams and our waking
+                thoughts? What criterion is there by which we may surely know whether we are awake
+                or asleep? It is true, as soon as we awake out of sleep we know we have been in a
+                dream and are now awake. But how shall we know that a dream is such while we
+                continue therein? What is a dream? To give a gross and superficial, not a
+                philosophical account of it, it is a series of persons and things presented to our
+                mind in sleep, which have no being but in our own imagination. A dream therefore is
+                a kind of digression from our real life. It seems to be a sort of echo of what was
+                said or done a little when we were awake. Or, may we say, a dream is a fragment of
+                life, broken off at both ends,<note place="foot" xml:id="ftn13" n="13"><p
+                        rend="footnote text">A variation on Augustine’s aphorism, ‘<hi rend="italic"
+                            >Time</hi> is a fragment of <hi rend="italic">eternity</hi>, broken off
+                        at both ends;’ see No. 54, ‘On Eternity’, §4 and n.</p></note> not connected
+                either with the part that goes before or with that which follows after? And is there
+                any better way of distinguishing our dreams from our waking thoughts than by this
+                very circumstance? It is a kind of parenthesis inserted in life, as that is in a
+                discourse, which goes on equally well either with it or without it. By this then we
+                may infallibly know a dream, by its being broken off at both <pb n="04:112"/>ends;
+                by its having no proper connection with the real things which either precede or
+                follow it.</p>
+            <p n="6">6. It is not needful to <hi rend="italic">prove</hi> that there is a near
+                resemblance between these transient dreams and the dream of life. It may be of more
+                use to <hi rend="italic">illustrate</hi> this important truth, to place it in as
+                striking a light as possible. Let us then seriously consider, in a few obvious
+                particulars, the case of one that is just awaking out of life, and opening his eyes
+                in eternity.</p>
+            <p n="7">7. Let us then propose the case. Let us suppose we had now before us one that
+                was just passed into the world of spirits. Might not you address such a newborn soul
+                in some such manner as this. You have been an inhabitant of earth forty, perhaps
+                fifty or sixty years. But now God has altered his voice: ‘Awake, thou that
+                    steepest’!<note place="foot" xml:id="ftn14" n="14"><p rend="footnote text">Eph.
+                        5:14; see No. 3, <hi rend="italic">‘Awake, Thou That
+                    Sleepest’</hi>.</p></note> You awake, you arise; you have no more to do with
+                these poor, transient shadows. Arise and shake thyself from the dust! See, all is
+                    <hi rend="italic">real</hi> here! All is permanent, all eternal! Far more stable
+                than the foundations of the earth; yea, than the pillars of that lower heaven. Now
+                that your eyes are open, see how inexpressibly different are all the things that are
+                now round about you! What a difference do you perceive in yourself! Where is your
+                body? Your house of clay?<note place="foot" xml:id="ftn15" n="15"><p
+                        rend="footnote text">See Job 4:19; and No. 28, ‘Sermon on the Mount, VIII’,
+                        §21 and n.</p></note> Where are your limbs? Your hands, your feet, your
+                head? There they lie: cold, insensible!</p>
+            <lg>
+                <l>No anger hereafter or shame</l>
+                <l>Shall redden the innocent clay;</l>
+                <l>Extinct is the animal flame,</l>
+                <l>And passion is vanished away!<note place="foot" xml:id="ftn16" n="16"><p
+                            rend="footnote text">Cf. Charles Wesley, ‘On Sight of a Corpse’, in <hi
+                                rend="italic">Funeral Hymns</hi> (1746), p. 7 (<hi rend="italic"
+                                >Poet. Wks.</hi>, VI.194), beginning:</p><p rend="Verse">No anger
+                            henceforward, or shame,</p><p rend="Verse">Shall redden this innocent
+                            clay.</p></note></l>
+            </lg>
+            <p>What a change is in the immortal spirit! You see everything around you. But how? Not
+                with eyes of flesh and blood!<note place="foot" xml:id="ftn17" n="17"><p
+                        rend="footnote text">See No. 66, ‘The Signs of the Times’, II.5, where
+                        Wesley speaks of ‘souls of flesh and blood’.</p></note> You hear: but not by
+                a stream of undulating air, striking on an extended membrane. You feel: but in how
+                wonderful a manner! <pb n="04:113"/>You have no nerves to convey the ethereal
+                    fire<note place="foot" xml:id="ftn18" n="18"><p rend="footnote text">See No. 15,
+                            <hi rend="italic">The Great Assize</hi>, III.3 and n.</p></note> to the
+                common sensory.<note place="foot" xml:id="ftn19" n="19"><p rend="footnote text">See
+                        No. 51, <hi rend="italic">The Good Steward</hi>, II.5 and n.</p></note>
+                Rather are you not now all eye, all ear, all feeling, all perception? How different,
+                now you are throughly awake, are all the objects round about you! Where are the
+                houses, and gardens, and fields, and cities, which you lately saw? Where are the
+                rivers and seas, and everlasting hills? Was it then only in a dream that our poet
+                discovered</p>
+            <lg>
+                <l>…earth hath this variety from heaven</l>
+                <l>Of pleasure situate in hill and dale?<note place="foot" xml:id="ftn20" n="20"><p
+                            rend="footnote text">Milton, <hi rend="italic">Paradise Lost</hi>,
+                            vi.640-41; see also No. 64, ‘The New Creation’, §15 and
+                    n.</p></note></l>
+            </lg>
+            <p>Nay, I doubt all these vanished away like smoke the moment you awoke out of the
+                body.</p>
+            <p n="8">8. How strange must not only the manner of existence appear, and the place
+                wherein you are (if it may be called ‘place’, though who can define or describe the
+                ‘place of spirits’?), but the inhabitants of that unknown region! Whether they are
+                of the number of those unhappy spirits that kept not their first estate, or of those
+                holy ones that still minister to the heirs of salvation!<note place="foot"
+                    xml:id="ftn21" n="21"><p rend="footnote text">See Heb. 1:14.</p></note> How
+                strange are the employments of those spirits with which you are now surrounded! How
+                bitter are they to the taste of those that are still dreaming upon earth! ‘I have no
+                relish’, said one of these (a much-applauded wit, who has lately left the body),
+                ‘for sitting upon a cloud all day long, and singing praise to God.’<note
+                    place="foot" xml:id="ftn22" n="22"><p rend="footnote text">A current anecdote
+                        with no known literary source; obvious possibilities were Philip Dormer
+                        Stanhope, Fourth Earl of Chesterfield (d. 1773), or Voltaire (d.
+                    1778).</p></note> We may easily believe him; and there is no danger of his being
+                put to that trouble. Nevertheless this is no trouble to them who cease not day and
+                night, but continually sing, ‘Holy, holy, holy, Lord God of Sabaoth!’<note
+                    place="foot" xml:id="ftn23" n="23"><p rend="footnote text">BCP, Morning Prayer,
+                        Te Deum.</p></note></p>
+            <p n="9">9. Suppose this to be the case with any of you that are now present before God.
+                It may be so tomorrow; perhaps tonight; perhaps this night your ‘soul may be
+                required of you’.<note place="foot" xml:id="ftn24" n="24"><p rend="footnote text"
+                        >Cf. Luke 12:20.</p></note> The dream of life may end, and <hi rend="italic"
+                    >you</hi> may wake into broad eternity. See, there lies the poor inanimate
+                carcase, shortly to be ‘sown in corruption and dishonour’.<note place="foot"
+                    xml:id="ftn25" n="25"><p rend="footnote text">Cf. 1 Cor. 15:42-43.</p></note>
+                But where is the immortal, <pb n="04:114"/>incorruptible spirit? There it stands
+                naked before the eyes of God!<note place="foot" xml:id="ftn26" n="26"><p
+                        rend="footnote text">Note this reference, as in §16 below, to the human
+                        spirit disembodied; see also No. 132, ‘On Faith, Heb. 11:1’, §2.</p></note>
+                Meantime, what is become of all the affairs which you have been eagerly engaged in
+                under the sun? What profit have you reaped of all your labour and care? Does your
+                money follow you? No, you have left it behind you—the same thing to you as if it had
+                vanished into air! Does your gay or rich apparel follow you? No; your body is
+                clothed with dust and rottenness. Your soul indeed is clothed with immortality. But
+                oh! what immortality? Is it an immortality of happiness and glory? Or of shame and
+                everlasting contempt?<note place="foot" xml:id="ftn27" n="27"><p
+                        rend="footnote text">Dan. 12:2.</p></note> Where is the honour, the pomp, of
+                the rich and great? The applause that surrounded you? All gone. All are vanished
+                away ‘like as a shadow that departeth’.<note place="foot" xml:id="ftn28" n="28"><p
+                        rend="footnote text">Cf. Ps. 144:4.</p></note> ‘The play is over,’ said
+                Monsieur Moultray,<note place="foot" xml:id="ftn29" n="29"><p rend="footnote text"
+                        >I.e., Philippe Maigret, a French military engineer present in the same
+                        trench with the king at the time. The story was variously reported in Aubry
+                        de la Mottraye, <hi rend="italic">Historical and Critical Remarks on the
+                            History of Charles XII King of Sweden</hi> (1732); in William Coxe, <hi
+                            rend="italic">Travels</hi>, II (1784; read by Wesley in 1785); and in
+                        Tobias Smollett’s translation of Voltaire’s <hi rend="italic">History of
+                            Charles XII, King of Sweden</hi> (1774), where the name is spelt Megret.
+                        Cf. Frans G. Bengtsson, <hi rend="italic">The Life of Charles XII: King of
+                            Sweden, 1697-1718</hi> (London, Macmillan, 1960), pp. 428-31; see also
+                        R. M. Hatton, <hi rend="italic">Charles XII of Sweden</hi> (London,
+                        Weidenfeld and Nicolson, 1968), p. 488. Maigret’s remark seems to have been
+                        ‘La pièce est finie: allons souper’ (‘The play is over; let’s go
+                        eat’).</p><p rend="footnote text">See <hi rend="italic">also Mawson’s
+                            Dictionary of Foreign Terms</hi>, edited and revised by Charles Berlitz:
+                            <hi rend="italic">acta est fabula</hi> (‘the play is over’)—‘words used
+                        at the close of a dramatic performance in the ancient Roman theatre; the
+                        dying words of the Emperor Augustus.’ Cf. Rabelais’s last words: ‘La farce
+                        est jouée’ (‘The farce is played out’).</p></note> when he saw the ball
+                pierce the temples of his dying master.<hi rend="endnote_reference"><note
+                        place="end"><p rend="endnote text">Charles XII, King of Sweden, at the Siege
+                            of Frederickshall [i.e., of Frederiksten, Dec. 11 (N.S.),
+                        1718].</p></note></hi> And what cared the courtier for this? No more than if
+                it had been the conclusion of a farce or dance. But while the buffoon slept on and
+                took his rest, it was not so with the monarch. Though he was not terrified with
+                anything on earth, he would be at the very gates of hell. Vain valour! In the very
+                article of death he grasped the hilt of his sword!<note place="foot" xml:id="ftn30"
+                    n="30"><p rend="footnote text">Cf. Hatton, <hi rend="italic">Charles XII</hi>,
+                        p. 619, n. 16, for a reference to the statue by Zhendre (at Villospar)
+                        depicting the dying king with his half-drawn sword.</p></note> But where was
+                he the next moment, when the sword dropped out of his hand, and the soul out of his
+                body? Then ended the splendid dream of royalty, of glory, of destroying cities, and
+                of conquering kingdoms!</p>
+            <p n="10">10. ‘How are the mighty fallen, and the weapons of war <pb n="04:115"
+                    />perished!’<note place="foot" xml:id="ftn31" n="31"><p rend="footnote text">2
+                        Sam. 1:27.</p></note> What are the weapons that are so terrible among <hi
+                    rend="italic">us</hi> to the inhabitants of eternity? How are the wise, the
+                learned, the poet, the critic fallen, and their glory vanished away! How is the
+                beauty fallen, the late idol of a gazing crowd! In how complete a sense are ‘the
+                daughters of music brought low’,<note place="foot" xml:id="ftn32" n="32"><p
+                        rend="footnote text">Cf. Eccles. 12:4.</p></note> and all the instruments
+                thereof forgotten? Are you not now convinced that (according to the Hebrew proverb)
+                ‘a living dog is better than a dead lion’?<note place="foot" xml:id="ftn33" n="33"
+                        ><p rend="footnote text">Eccles. 9:4.</p></note> For ‘the living know’, yea,
+                    <hi rend="italic">must</hi> know, unless they obstinately refuse, ‘that they
+                shall die. But the dead know not anything’<note place="foot" xml:id="ftn34" n="34"
+                        ><p rend="footnote text">Eccles. 9:5.</p></note> that will avail for the
+                ease of their pain, or to lessen their misery. Also ‘their hope and fear, and their
+                desire’, all are perished, all of them are fled; ‘they have not any portion in the
+                things that are done under the sun!’<note place="foot" xml:id="ftn35" n="35"><p
+                        rend="footnote text">Cf. Eccles. 9:6.</p></note></p>
+            <p n="11">11. Where indeed is the <hi rend="italic">hope</hi> of those who were lately
+                laying deep schemes, and saying, ‘Today, or tomorrow, we will go to such a city, and
+                continue there a year, and traffic, and get gain’?<note place="foot" xml:id="ftn36"
+                    n="36"><p rend="footnote text">Jas. 4:13 (<hi rend="italic"
+                    >Notes</hi>).</p></note> How totally had they forgotten that wise admonition,
+                ‘Ye know not what shall be on the morrow. For what is your life? It is a vapour that
+                appeareth awhile, and then vanisheth away!’<note place="foot" xml:id="ftn37" n="37"
+                        ><p rend="footnote text">Cf. Jas. 4:14.</p></note> Where is all your
+                business? Where your worldly cares? Your troubles, or engagements? All these things
+                are fled away like smoke; and only your soul is left. And how is it qualified for
+                the enjoyment of this new world? Has it a relish for the objects and enjoyments of
+                the invisible world? Are your affections loosened from things below, and fixed on
+                things above? Fixed on that place where Jesus sitteth at the right hand of God?<note
+                    place="foot" xml:id="ftn38" n="38"><p rend="footnote text">See Col.
+                    3:1.</p></note> Then happy are ye; and when he whom ye love shall appear, ‘ye
+                shall also appear with him in glory.’<note place="foot" xml:id="ftn39" n="39"><p
+                        rend="footnote text">Col. 3:4.</p></note></p>
+            <p n="12">12. But how do you relish the company that surrounds you? Your old companions
+                are gone, a great part of them probably separated from you never to return. Are your
+                present companions angels of light? Ministering spirits that but now whispered,
+                ‘Sister spirit, come away!’, ‘We are sent to conduct thee over that gulf into
+                Abraham’s bosom.’ And what are those? Some of the souls of the righteous, whom thou
+                didst formerly relieve with ‘the mammon of unrighteousness’? And who are now
+                commissioned by your common Lord to ‘receive’, to welcome you ‘into the <pb
+                    n="04:116"/>everlasting habitations’?<note place="foot" xml:id="ftn40" n="40"><p
+                        rend="footnote text">Luke 16:9.</p></note> Then the angels of darkness will
+                quickly discern they have no part in you. So they must either hover at a distance,
+                or flee away in despair. Are some of these happy spirits that take acquaintance with
+                you the same that travelled with you below, and bore a part in your temptations?
+                That together with you fought the good fight of faith, and laid hold on eternal
+                    life?<note place="foot" xml:id="ftn41" n="41"><p rend="footnote text">See 1 Tim.
+                        6:12.</p></note> As you then wept together you may rejoice together, you and
+                your guardian angels, perhaps, in order to increase your thankfulness for being
+                ‘delivered from so great a death’.<note place="foot" xml:id="ftn42" n="42"><p
+                        rend="footnote text">2 Cor. 1:10.</p></note> They may give you a view of the
+                realms below—those</p>
+            <lg>
+                <l>Regions of sorrow, doleful shades, where peace</l>
+                <l>And rest can never dwell.<note place="foot" xml:id="ftn43" n="43"><p
+                            rend="footnote text">Milton, <hi rend="italic">Paradise Lost</hi>,
+                            i.65-66; see No. 84, <hi rend="italic">The Important Question</hi>, II.7
+                            and n.</p></note></l>
+            </lg>
+            <p>See, on the other hand, the mansions which were ‘prepared for you from the foundation
+                of the world’!<note place="foot" xml:id="ftn44" n="44"><p rend="footnote text">Matt.
+                        25:34.</p></note> O what a difference between the dream that is past, and
+                the real scene that is now present with thee! Look up! See,</p>
+            <lg>
+                <l>No need of the sun in that day,</l>
+                <l>Which never is followed by night!</l>
+                <l>Where Jesus’s beauties display</l>
+                <l>A pure and a permanent light.<note place="foot" xml:id="ftn45" n="45"><p
+                            rend="footnote text">Charles Wesley, <hi rend="italic">Funeral
+                                Hymns</hi> (1746), p. 12 (<hi rend="italic">Poet. Wks.</hi>,
+                            VI.198).</p></note></l>
+            </lg>
+            <lg>
+                <l>Look down! What a prison is there,</l>
+                <l>’Twixt upper, nether, and surrounding fire.<note place="foot" xml:id="ftn46"
+                        n="46"><p rend="footnote text">Cf. Milton, <hi rend="italic">Paradise
+                                Lost</hi>, i.346.</p></note></l>
+            </lg>
+            <p>And what inhabitants! What horrid fearful shapes, emblems of the rage against God and
+                man; the envy, fury, despair fixed within, causing them to gnash their teeth at him
+                they so long despised! Meanwhile, does it comfort them to see, across the great
+                gulf, the righteous in Abraham’s bosom?<note place="foot" xml:id="ftn47" n="47"><p
+                        rend="footnote text">See Luke 16:22.</p></note> What a place is that! What
+                ‘a house of God, eternal in the heavens’!<note place="foot" xml:id="ftn48" n="48"><p
+                        rend="footnote text">Cf. 2 Cor. 5:1.</p></note> Earth is only his footstool;
+                yea,</p>
+            <lg>
+                <l><pb n="04:117"/>The spacious firmament on high,</l>
+                <p rend="Verse">And all the blue ethereal sky.<note place="foot" xml:id="ftn49"
+                        n="49"><p rend="footnote text">Addison (on Ps. 19:1-6), in <hi rend="italic"
+                                >The Spectator</hi>, No. 465, Aug. 23, 1712; reprinted in Wesley’s
+                                <hi rend="italic">A Collection of Psalms and Hymns</hi> (1737), p.
+                            59.</p></note></p>
+            </lg>
+            <p>Well then may we say to its inhabitants:</p>
+            <lg>
+                <l>Proclaim the glories of your Lord,</l>
+                <l>Dispersed through all the heav’nly street;</l>
+                <l>Whose boundless treasures can afford</l>
+                <l>So rich a pavement for his feet.<note place="foot" xml:id="ftn50" n="50"><p
+                            rend="footnote text">Isaac Watts, <hi rend="italic">Horae Lyricae</hi>,
+                            Bk. I, ‘Sun, Moon, and Stars, Praise ye the Lord’, st. 6; also included
+                            in <hi rend="italic">A Collection of Psalms and Hymns</hi> (1737), p.
+                            70.</p></note></l>
+            </lg>
+            <p>And yet how inconsiderable is the glory of that house compared to that of its great
+                inhabitant! In view of whom all the first-born sons of light, angels, archangels,
+                and all the company of heaven,<note place="foot" xml:id="ftn51" n="51"><p
+                        rend="footnote text">BCP, Communion, Preface to the Sanctus.</p></note> full
+                of light as they are full of love,</p>
+            <p>Approach not, but with both wings veil their eyes.<note place="foot" xml:id="ftn52"
+                    n="52"><p rend="footnote text">Milton, <hi rend="italic">Paradise Lost</hi>,
+                        iii.382; see No. 118, ‘On the Omnipresence of God’, III.1 and
+                n.</p></note></p>
+            <p n="13">13. How wonderful, then, now the dream of life is over, now you are quite
+                awake, do all these scenes appear! Even such a sight as never entered or could enter
+                into your hearts to conceive! How are all those that ‘awake up after his likeness’
+                now ‘satisfied with it’.<note place="foot" xml:id="ftn53" n="53"><p
+                        rend="footnote text">Ps. 17:16 (BCP).</p></note> They have now a portion,
+                real, solid, incorruptible, ‘that fadeth not away’.<note place="foot" xml:id="ftn54"
+                    n="54"><p rend="footnote text">Cf. 1 Pet. 1:4.</p></note> Meantime, how
+                exquisitely wretched are they who (to waive all other considerations) have chosen
+                for their portion those transitory shadows which now are vanished, and have left
+                them in an abyss of real misery which must remain to all eternity!</p>
+            <p n="14">14. Now, considering that every child of man who is yet upon earth must sooner
+                or later wake out of this dream and enter real life, how infinitely does it concern
+                every one of us to attend to this before our great change comes! Of what importance
+                is it to be continually sensible of the condition wherein we stand! How advisable by
+                every possible means to connect the ideas of time and eternity! So to associate them
+                together that the thought of one may never recur to your mind without the thought of
+                the other! It is our highest wisdom to associate the ideas of the visible and <pb
+                    n="04:118"/>invisible world, to connect temporal and spiritual, mortal and
+                immortal being. Indeed in our common dreams we do not usually know we are asleep
+                whilst we are in the midst of our dream. As neither do we know it while we are in
+                the midst of the dream which we call life. But you may be conscious of it now! God
+                grant you may, before you awake in a winding-sheet<note place="foot" xml:id="ftn55"
+                    n="55"><p rend="footnote text">An interesting, complex metaphor since, in
+                        Wesley’s time, the phrase meant both a corpse’s shroud <hi rend="italic"
+                            >and</hi> the wax drippings of a guttering candle; cf. <hi rend="italic"
+                            >OED</hi>.</p></note> of fire!</p>
+            <p n="15">15. What an admirable foundation for thus associating the ideas of time and
+                eternity, of the visible and invisible world, is laid in the very nature of
+                religion! For what is religion? (I mean scriptural religion; for all other is the
+                vainest of all dreams.) What is the very root of this religion? It is Immanuel, God
+                with us!<note place="foot" xml:id="ftn56" n="56"><p rend="footnote text">Matt.
+                        1:23.</p></note> God in man! Heaven connected with earth! The unspeakable
+                union of mortal with immortal.<note place="foot" xml:id="ftn57" n="57"><p
+                        rend="footnote text">The theme of John Gambold’s sermon, ‘On the Holy
+                        Spirit’, which Thomas Jackson published as Wesley’s own.</p></note> For
+                ‘truly our fellowship’ (may all Christians say) ‘is with the Father and with his
+                Son, Jesus Christ.’<note place="foot" xml:id="ftn58" n="58"><p rend="footnote text"
+                        >1 John 1:3.</p></note> ‘God hath given unto us eternal life; and this life
+                is in his Son.’ What follows? ‘He that hath the Son hath life: and he that hath not
+                the Son of God hath not life.’<note place="foot" xml:id="ftn59" n="59"><p
+                        rend="footnote text">1 John 5:11-12.</p></note></p>
+            <p n="16">16. But how shall we retain a constant sense of this? I have often thought in
+                my waking hours, ‘Now, when I fall asleep, and see such and such things, I will
+                remember it was but a dream.’ Yet I could not, while the dream lasted; and probably
+                none else can. But it is otherwise with the dream of life, which we do remember to
+                be such, even while it lasts. And if we do forget it (as we are indeed apt to do) a
+                friend may remind us of it. It is much to be wished that such a friend were always
+                near; one that would frequently sound in our ear, ‘Awake, thou that sleepest, and
+                arise from the dead!’<note place="foot" xml:id="ftn60" n="60"><p
+                        rend="footnote text">Eph. 5:14; see No. 3, <hi rend="italic">‘Awake, Thou
+                            That Sleepest’</hi>.</p></note> Soon you will awake into real life. You
+                will stand, a naked spirit, in the world of spirits, before the face of the great
+                God! See that you now hold fast that ‘eternal life, which he hath given you in his
+                    Son’!<note place="foot" xml:id="ftn61" n="61"><p rend="footnote text">Cf. 1 John
+                        5:11.</p></note></p>
+            <p n="17">17. How admirably does this life of God branch out into the whole of religion!
+                I mean scriptural religion. As soon as God reveals his Son in the heart of a sinner
+                he is enabled to say, ‘The life that I now live, I live by faith in the Son of God,
+                who loved me, <pb n="04:119"/>and gave himself for me.’<note place="foot"
+                    xml:id="ftn62" n="62"><p rend="footnote text">Gal. 2:20.</p></note> He then
+                ‘rejoices in hope of the glory of God’,<note place="foot" xml:id="ftn63" n="63"><p
+                        rend="footnote text">Rom. 5:2.</p></note> even with joy unspeakable.<note
+                    place="foot" xml:id="ftn64" n="64"><p rend="footnote text">1 Pet.
+                    1:8.</p></note> And in consequence both of this faith and hope, the love of God
+                is shed abroad in his heart,<note place="foot" xml:id="ftn65" n="65"><p
+                        rend="footnote text">Rom. 5:5.</p></note> which, filling the soul with love
+                to all mankind, ‘is the fulfilling of the law’.<note place="foot" xml:id="ftn66"
+                    n="66"><p rend="footnote text">Rom. 13:10.</p></note></p>
+            <p n="18">18. And how wonderfully do both faith and hope and love connect God with man,
+                and time with eternity! In consideration of this, we may boldly say:</p>
+            <lg>
+                <l>Vanish then this world of shadows!</l>
+                <l>Pass the former things away!</l>
+                <l>Lord, appear! appear to glad us,</l>
+                <l>With the dawn of endless day!</l>
+                <l>O conclude this mortal story!</l>
+                <l>Throw this universe aside;</l>
+                <l>Come, eternal King of glory,</l>
+                <l>Now descend and take thy bride!<note place="foot" xml:id="ftn67" n="67"><p
+                            rend="footnote text">Charles Wesley, <hi rend="italic">Hymns for the
+                                Year 1756</hi>, p. 22 (<hi rend="italic">Poet. Wks.</hi>, VI.93);
+                            No. 59 in the 1780 <hi rend="italic">Collection</hi> (7:153 in this
+                            edn.).</p></note></l>
+            </lg>
+        </body>
+    </text>
+</TEI>

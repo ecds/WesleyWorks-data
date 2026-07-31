@@ -1,0 +1,595 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Sermon 126: On the Wedding Garment</title>
+                <author>Wesley, John</author>
+                <editor role="text">Van Buskirk, Gregory P.</editor>
+                <editor role="digital">Taylor, Michelle M.</editor>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>The Wesley Works Digitzation Project</publisher>
+                <pubPlace>Tampa, FL</pubPlace>
+                <date>2024-02-25</date>
+            </publicationStmt>
+            <sourceDesc>
+                <listBibl>
+                    <biblStruct>
+                        <analytic>
+                            <title level="a">Sermon 126: On the Wedding Garment</title>
+                        </analytic>
+                        <monogr>
+                            <title level="j">The Works of John Wesley, Volume IV: Sermons IV,
+                                115-151</title>
+                            <editor role="volume">Outler, Albert</editor>
+                            <imprint>
+                                <publisher>Abingdon Press</publisher>
+                                <pubPlace>Nashville, TN</pubPlace>
+                                <date when="1987-11-01">1987-11-01</date>
+                                <biblScope unit="volume" n="4"/>
+                                <biblScope unit="page" from="149" to="160"/>
+                            </imprint>
+                        </monogr>
+                        <series>
+                            <title level="s">The Works of John Wesley</title>
+                            <editor role="general">Baker, Frank</editor>
+                        </series>
+                    </biblStruct>
+                </listBibl>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Greg Van Buskirk created Word docs for all of Wesley's sermons using a combination of
+                OCR software and manual proofing. Michelle Taylor converted these docx into XML
+                using Oxygen's DITA automatic transformation scenario, then touched them up
+                manually.</p>
+        </encodingDesc>
+        <standOff>
+            <taxonomy>
+                <keywords>
+                    <term/>
+                </keywords>
+            </taxonomy>
+            <!--Include keywords and terms here eventually.-->
+        </standOff>
+        <revisionDesc/>
+    </teiHeader>
+    <text>
+        <body>
+            <pb n="04:149"/>
+            <head>
+                <hi rend="italic">An Introductory Comment</hi>
+            </head>
+            <introduction>
+                <p n="1">Wesley spent the month following his visit to Madeley in the Midlands; his
+                    schedule had already been reported in a circular letter, ‘To the Preachers and
+                    Friends’, dated from London, March 1, 1790. The diary reports his presence in
+                    Halifax on Monday, April 19, and mentions his work on a sermon, presumably this
+                    one. The sermon itself, however, is dated ‘Halifax, April 21, 1790’—when,
+                    according to the announced schedule, he was supposed to be in Dewsbury.</p>
+                <p n="2">Here, obviously, is yet another ‘last word’, this one on the increasingly
+                    urgent question of the confident claims being issued by the new romantics and
+                    rationalists as to the natural perfection and consequent perfectibility of human
+                    nature. Wesley’s career had coincided with the dawn and morning of ‘The
+                    Enlightenment’, and he had tried to affirm its positive assertions so far as he
+                    could, especially in such causes as religious liberty and the idea of ‘progress’
+                    (as in No. 102). But he had also recognized the Enlightenment’s mortal threat to
+                    historic Christianity because of its radical turn away from the Christian
+                    tradition of absolute dependence upon God to new and bold affirmations of human
+                    autonomy. He could see that the ‘philosophers’ were, in fact, recasting the
+                    historic <hi rend="italic">ordo salutis</hi> and proclaiming a gospel of
+                    salvation attainable by human effort. He would at least have understood Carl
+                    Becker’s classic formulation of the Enlightenment soteriology: ‘For the love of
+                    God [the philosophers] substituted love of humanity; for the vicarious atonement
+                    the perfectibility of man through his own efforts; and for the hope of
+                    immortality in another world the hope of living in the memory of future
+                        generations.’<note place="foot" xml:id="ftn1" n="1"><p rend="footnote text"
+                                ><hi rend="italic">The Heavenly City of the Eighteenth-Century
+                                Philosophers</hi>, p. 130.</p></note></p>
+                <p n="3">This sort of brazen anthropocentrism was, in Wesley’s eyes, a profound and
+                    tragic <hi rend="italic">illusion</hi>. It was, as he had always taught, the
+                    antithesis of every Christian premise about the human situation and hence of any
+                    Christian gospel of salvation. This late sermon may be seen, therefore, as the
+                    distillate of his lifetime’s reflection on the mysteries of human self-delusion,
+                    and a final affirmation of his unfaltering confidence that radical dependence
+                    upon God is our only hope for authentic self-understanding.</p>
+                <p n="4"><pb n="04:150"/>The sermon did not appear in the <hi rend="italic">Arminian
+                        Magazine</hi> until January and February 1792, out of its chronological
+                    sequence and headed by the editors as ‘Sermon LXV. (By the late Rev. J.
+                        Wesley)’.<note place="foot" xml:id="ftn2" n="2"><p rend="footnote text"
+                            >XV.5-10, 61-66.</p></note> In their preface to this new volume they
+                    explain that they are providing their readers with ‘four manuscript sermons of
+                    Mr. Wesley, lately found in his study at Bristol, which shall be inserted in our
+                    Magazine during the ensuing months’. The sermon here is the first of these.
+                    George Story included it in <hi rend="italic">SOSO</hi>, ΙΧ, as No. 14. Joseph
+                    Benson recognized its central thesis about false self-understanding, and so
+                    entitled it ‘On the Deceitfulness of the Human Heart’. Jackson followed him in
+                    this, though both editors then chose the phrase, ‘The Deceitfulness of Man’s
+                    Heart’ as their running title.</p>
+            </introduction>
+            <head>The Deceitfulness of the Human Heart</head>
+            <epigraph>
+                <p>Jeremiah 17:9</p>
+                <p><hi rend="italic">The heart</hi> (of man) <hi rend="italic">is deceitful above
+                        all things, and desperately wicked: who can know it?</hi></p>
+            </epigraph>
+            <div type="introduction">
+                <p n="1">1. The most eminent of the ancient heathens have left us many testimonies
+                    of this. It was indeed their common opinion that there was a time when men in
+                    general were virtuous and happy: this they termed the ‘golden age’. And the
+                    account of this was spread through almost all nations. But it was likewise
+                    generally believed that this happy age had expired long ago, and that men are
+                    now in the midst of the ‘iron age’.<note place="foot" xml:id="ftn3" n="3"><p
+                            rend="footnote text">See No. 61, ‘The Mystery of Iniquity’,
+                        §27.</p></note> At the commencement of this, says the poet:</p>
+                <lg>
+                    <l>
+                        <hi rend="italic">Irrumpit venae peioris in aevum</hi>
+                    </l>
+                    <l>
+                        <hi rend="italic">Omne nefas; fugere pudor, verumque fidesque</hi>
+                    </l>
+                    <l>
+                        <hi rend="italic">In quorum subiere locum fraudesque dolique</hi>
+                    </l>
+                    <l>
+                        <hi rend="italic">Insidiaeque, et vis, et amor sceleratus habendi.</hi>
+                        <note place="foot" xml:id="ftn4" n="4">
+                            <p rend="footnote text">Cf. Ovid, <hi rend="italic">Metamorphoses</hi>,
+                                i.128-31. The translation is neither Samuel Garth’s (1717) nor
+                                Arthur Golding’s (1567), and may well have been Wesley’s own. See
+                                also No. 61, ‘The Mystery of Iniquity’, §27 and n.</p>
+                        </note>
+                    </l>
+                    <l>Immediately broke in</l>
+                    <l>With a full tide, all wickedness and sin,</l>
+                    <l>Shame, truth, fidelity swift fled away,</l>
+                    <l>And cursed thirst of gold bore unresisted sway.</l>
+                </lg>
+                <p n="2"><pb n="04:151"/>2. But how much more knowing than these old pagans are the
+                    present generation of Christians! How many laboured panegyrics do we now read
+                    and hear on the Dignity of Human Nature.<note place="foot" xml:id="ftn5" n="5"
+                            ><p rend="footnote text">Cf. James Burgh (1714-75), Scottish educator
+                            and political reformer, <hi rend="italic">The Dignity of Human
+                                Nature</hi> (1754), p. 18: ‘Man is a being…capable of making himself
+                            and others happy in this world…. His nature is fitted for social virtue;
+                            he was brought into creation to be prepared for glory and
+                            happiness.’</p></note> One eminent preacher, in one of his sermons
+                    preached and printed a few years ago, does not scruple to affirm, first, that
+                    men in general (if not every individual) are very <hi rend="italic">wise</hi>;
+                    secondly, that men in general are very <hi rend="italic">virtuous</hi>; and
+                    thirdly, that they are very <hi rend="italic">happy</hi>.<note place="foot"
+                        xml:id="ftn6" n="6"><p rend="footnote text">Cf. John Taylor (of Norwich),
+                                <hi rend="italic">The Scripture Doctrine of Original Sin</hi>
+                            (1767), pp. 244-48 (a description of man’s ‘natural state’ as ‘happy’
+                            and ‘virtuous’); cf. Wesley’s rebuttal in <hi rend="italic">The Doctrine
+                                of Original Sin</hi>, Pt. I, II.2-9.</p></note> And I do not know
+                    that anyone yet has been so hardy as to controvert the assertion.</p>
+                <p n="3">3. Nearly related to them were the sentiments of an ingenious gentleman
+                    who, being asked, ‘My Lord, what do you think of the Bible?’ answered: ‘I think
+                    it is the finest book I ever read in my life. Only that part of it which
+                    indicates the mediatorial scheme I do not understand. For I do not conceive
+                    there is any need of a mediator between God and man. If indeed’, continued he,
+                    ‘I was a sinner, then I should need a mediator. But I do not conceive I am. It
+                    is true, I often act wrong for want of more understanding. And I frequently <hi
+                        rend="italic">feel</hi> wrong tempers, particularly proneness to anger. But
+                    I cannot allow this to be a sin; for it depends on the motion of my blood and
+                    spirits, which I cannot help. Therefore it cannot be a sin. Or if it be, the
+                    blame must fall, not on <hi rend="italic">me</hi>, but on him that made
+                        me.’<note place="foot" xml:id="ftn7" n="7"><p rend="footnote text">The son
+                            of Selina, Countess of Huntingdon; see No. 125, ‘On a Single Eye’, §3
+                            and n.</p></note> The very sentiments of pious Lord Kames<note
+                        place="foot" xml:id="ftn8" n="8"><p rend="footnote text">See No. 106, ‘On
+                            Faith, Heb. 11:6’, I.1 and n.</p></note> and modest Mr. Hume!<note
+                        place="foot" xml:id="ftn9" n="9"><p rend="footnote text">David Hume
+                            (1711-76); cf. Wesley’s comment on Hume’s <hi rend="italic">Essay on
+                                Miracles</hi> (1748) as ‘insolent’ (JWJ, Mar. 5, 1769); however,
+                            Hume’s <hi rend="italic">History of England</hi> was prescribed reading
+                            in the Kingswood School. See No. 120, ‘The Unity of the Divine Being’,
+                            §19.</p></note></p>
+                <p n="4">4. Some years ago a charitable woman discovered that there was no sinner in
+                    the world but the devil. ‘For’, said she, ‘he <hi rend="italic">forces </hi>men
+                    to act as they do, therefore they are unaccountable. The blame lights on
+                        Satan.’<note place="foot" xml:id="ftn10" n="10"><p rend="footnote text">π;
+                            The idea recurs in Lady Mary Wortley Montague’s <hi rend="italic"
+                                >Letters</hi>, but not this exact quotation. It sounds like a
+                            fashionable sentiment that Wesley could have heard in the salons of Bath
+                            and London.</p></note> But these more enlightened gentlemen have
+                    discovered that ‘there is no sinner in the world but God. For <hi rend="Page"
+                        >[04:152]</hi>he <hi rend="italic">forces</hi> men to think, speak, and act
+                    as they do; therefore the blame lights on God alone.’<note place="foot"
+                        xml:id="ftn11" n="11"><p rend="footnote text">Cf. <hi rend="italic">Thoughts
+                                Upon Necessity</hi>, §6.</p></note> Satan, avaunt! It may be doubted
+                    whether he himself ever uttered so fond a blasphemy as this.</p>
+                <p n="5">5. But whatever unbaptized or baptized infidels<note place="foot"
+                        xml:id="ftn12" n="12"><p rend="footnote text">Cf. the diatribe in verse
+                            against ‘<hi rend="italic">mitred</hi> infidels’ by Edward Perronet (one
+                            of Wesley’s overzealous allies), <hi rend="italic">The Mitre: A Sacred
+                                Poem</hi> (1757), which Wesley tried to suppress and nearly
+                            succeeded; fewer than twenty copies are known to be extant.</p></note>
+                    may say concerning the innocence of mankind, he that made man, and that best
+                    knows what he has made, gives a very different account of him. He informs us
+                    that ‘the heart of man’, of all mankind, of every man born into the world, ‘is
+                    desperately wicked’, and that it is ‘deceitful above all things’, so that we may
+                    well ask, ‘Who can know it?’</p>
+            </div>
+            <div type="section" n="1">
+                <p n="1">I. 1. To begin with this: ‘The heart of man is desperately wicked.’ In
+                    considering this we have no need to refer to any particular sins (these are no
+                    more than the leaves, or at most the fruits, which spring from that evil tree),
+                    but rather to the general root of all. See how this was first planted in heaven
+                    itself by Lucifer, ‘Son of the morning’<note place="foot" xml:id="ftn13" n="13"
+                            ><p rend="footnote text">Isa. 14:12.</p></note>—till then undoubtedly
+                    ‘one of the first, if not the first archangel’.<note place="foot" xml:id="ftn14"
+                        n="14"><p rend="footnote text">Milton, <hi rend="italic">Paradise Lost</hi>,
+                            v.659-60; see also No. 62, ‘The End of Christ’s Coming’, I.8 and
+                        n.</p></note> ‘Thou saidst, I will sit upon the side of the north.’<note
+                        place="foot" xml:id="ftn15" n="15"><p rend="footnote text">Cf. Isa.
+                            14:13.</p></note> See self-will, the first-born of Satan!<note
+                        place="foot" xml:id="ftn16" n="16"><p rend="footnote text">Cf. ‘The Epistle
+                            of Polycarp to the Philippians’, VII.1, in <hi rend="italic">The
+                                Apostolic Fathers</hi>; see also No. 32, ‘Sermon on the Mount, ΧΙI’,
+                            I.7 and n.</p></note> ‘I will be like the Most High.’<note place="foot"
+                        xml:id="ftn17" n="17"><p rend="footnote text">Isa. 14:14.</p></note> See
+                        pride,<note place="foot" xml:id="ftn18" n="18"><p rend="footnote text">See
+                            No. 14, <hi rend="italic">The Repentance of Believers</hi>, I.3 and
+                            n.</p></note> the twin sister of self-will. Here was the true origin of
+                    evil. Hence came the inexhaustible flood of evils upon the lower world. When
+                    Satan had once transfused his own self-will and pride into the parents of
+                    mankind, together with a new species of sin—love of the world, the loving the
+                    creature above the Creator<note place="foot" xml:id="ftn19" n="19"><p
+                            rend="footnote text">See Rom. 1:25.</p></note>—all manner of wickedness
+                    soon rushed in, all ungodliness and unrighteousness, shooting out into crimes of
+                    every kind, soon covering the whole face of the earth with all manner of
+                    abominations. It would be an endless task to enumerate all the enormities that
+                    broke out. Now the fountains of the great deep were broken up.<note place="foot"
+                        xml:id="ftn20" n="20"><p rend="footnote text">Gen. 7:11.</p></note> The
+                    earth soon became a field of blood: revenge, cruelty, ambition, with all sorts
+                        <pb n="04:153"/>of injustice, every species of public and private wrongs,
+                    were diffused through every part of the earth. Injustice in ten thousand forms,
+                    hatred, envy, malice, blood-thirstiness, with every species of falsehood, rode
+                    triumphant, till the Creator looking down from heaven would be no more entreated
+                    for an incorrigible race, but swept them off from the face of the earth. But how
+                    little were the following generations improved by the severe judgment! They that
+                    lived after the flood do not appear to have been a whit better than those that
+                    lived before it. In a short time, probably before Noah was removed from the
+                    earth, all unrighteousness prevailed as before.</p>
+                <p n="2">2. But is there not a God in the world? Doubtless there is: and it is he
+                    that that made us, not we ourselves.<note place="foot" xml:id="ftn21" n="21"><p
+                            rend="footnote text">Ps. 100:3.</p></note> He made us gratuitously, of
+                    his own mere mercy; for we could merit nothing of him before we had a being. It
+                    is of his mercy that he made us at all; that he made us sensible, rational
+                    creatures, and above all, creatures capable of God.<note place="foot"
+                        xml:id="ftn22" n="22"><p rend="footnote text">See No. 1, <hi rend="italic"
+                                >Salvation by Faith</hi>, §1 and n.</p></note> It is this, and this
+                    alone, which puts the essential difference between men and brutes. But if he has
+                    made us, and given us all we have, if we owe all we are and have to him, then
+                    surely he has a right to all we are and have, to all our love and obedience.
+                    This has been acknowledged by almost all who believed themselves to be his
+                    creatures, in all ages and nations. But a few years ago a learned man frankly
+                    confessed: ‘I could never apprehend that God’s having created us gave him any
+                    title to the government of us. Or that his having created us laid us under any
+                    obligation to yield him our obedience.’ I believe that Dr. Hutcheson was the
+                    first man that ever made any doubt of this.<note place="foot" xml:id="ftn23"
+                        n="23"><p rend="footnote text"><hi rend="italic">AM</hi> and <hi
+                                rend="italic">SOSO</hi>, IX, read ‘Hutchinson’ here, an obvious
+                            error; Benson and Jackson corrected it; see No. 90, ‘An Israelite
+                            Indeed’, §1 and n. Here, as elsewhere, Wesley misses Hutcheson’s actual
+                            contention, i.e., the human sense of <hi rend="italic">obligation</hi>
+                            (as contrasted with arbitrary obedience) is intrinsic. Cf. Hutcheson’s
+                            extensive discussions of our obligations to God (essentially, of
+                            gratitude, worship, and love; even ‘entire submission’) in his <hi
+                                rend="italic">Essay</hi>, pp. 301-3; <hi rend="italic">A Short
+                                Introduction to Moral Philosophy</hi>, pp. 77-83; and <hi
+                                rend="italic">System of Moral Philosophy</hi>, pp. 209-20. For other
+                            references to Hutcheson, see No. 12, ‘The Witness of Our Own Spirit’, §5
+                            and n.</p></note> Or that ever doubted, much less denied, that a
+                    creature was obliged to obey his Creator. If Satan ever entertained this thought
+                    (but it is not probable he ever did) it would be no wonder he should rebel
+                    against God, and raise war in heaven. And hence would enmity against God arise
+                    in the hearts of men also; <hi rend="Page">[04:154]</hi>together with all the
+                    branches of ungodliness which abound therein at this day. Hence would naturally
+                    arise the neglect of every duty which we owe to him as our Creator, and all the
+                    passions and hopes which are directly opposite to every such duty.</p>
+                <p n="3">3. From the devil the spirit of independence, self-will, and pride,
+                    productive of all ungodliness and unrighteousness, quickly infused themselves
+                    into the hearts of our first parents in paradise. After they had eaten of the
+                    tree of knowledge, wickedness and misery of every kind rushed in with a full
+                    tide upon the earth, alienated us from God, and made way for all the
+                    rest—atheism (now fashionably termed ‘dissipation’<note place="foot"
+                        xml:id="ftn24" n="24"><p rend="footnote text">See Nos. 79, ‘On Dissipation’,
+                            §1 and n.; and 23, ‘Sermon on the Mount, III’, I.11 and n.</p></note>)
+                    and idolatry,<note place="foot" xml:id="ftn25" n="25"><p rend="footnote text"
+                            >See No. 78, ‘Spiritual Idolatry’; see also intro, to Nos.
+                        77-78.</p></note> love of the world, seeking happiness in this or that
+                    creature, covered the whole earth.</p>
+                <lg>
+                    <l>Upright both in heart and will,</l>
+                    <l>We by our God were made:</l>
+                    <l>But we turned from good to ill,</l>
+                    <l>And o’er the creatures strayed:</l>
+                    <l>Multiplied our wand’ring thought,</l>
+                    <l>Which first was fixed on God alone,</l>
+                    <l>In ten thousand objects sought</l>
+                    <l>The bliss we lost in one.<note place="foot" xml:id="ftn26" n="26"><p
+                                rend="footnote text">Charles Wesley, <hi rend="italic">Short Hymns
+                                    on Select Passages of the Holy Scriptures</hi> (1762), I.290, on
+                                Eccles. 7:29 (<hi rend="italic">Poet. Wks.</hi>, IX.357); see also
+                                No. 120, ‘The Unity of the Divine Being’, §11 and n.</p></note></l>
+                </lg>
+                <p n="4">4. It would be endless to enumerate all the species of wickedness, whether
+                    in thought, word, or action, that now overspread the earth, in every nation and
+                    city and family. They all centre in this atheism, or idolatry: pride, either
+                    thinking of themselves more highly than they ought to think, or glorying in
+                    something which they have received as though they had not received it;
+                    independence and self-will, doing their own will, not the will of him that made
+                    them. Add to this, seeking happiness out of God, in gratifying the desire of the
+                    flesh, the desire of the eye, and the pride of life.<note place="foot"
+                        xml:id="ftn27" n="27"><p rend="footnote text">1 John 2:16; and see No. 7,
+                            ‘The Way to the Kingdom’, II.2 and n.</p></note> Hence it is a
+                    melancholy truth that (unless when the Spirit of God has made the difference)
+                    ‘all mankind’ now, as well as four thousand years ago, ‘have corrupted their
+                    ways before the Lord;’<note place="foot" xml:id="ftn28" n="28"><p
+                            rend="footnote text">Cf. Gen. 6:12.</p></note> and every ‘imagination of
+                    the thought of <hi rend="Page">[04:155]</hi>man’s heart is evil’,<note
+                        place="foot" xml:id="ftn29" n="29"><p rend="footnote text">Cf. Gen.
+                        6:5.</p></note> only evil, and that continually. However, therefore, men may
+                    differ in their outward ways (in which undoubtedly there are a thousand
+                    differences), yet in the inward root, the enmity against God, atheism, pride,
+                    self-will, and idolatry, it is true of all that ‘the heart of man’, of every
+                    natural man, ‘is desperately wicked.’</p>
+                <p n="5">5. But if this be the case, how is it that everyone is not conscious of it?
+                    For who should ‘know the things of a man’ like ‘the spirit of a man that is in
+                        him’?<note place="foot" xml:id="ftn30" n="30"><p rend="footnote text">1 Cor.
+                            2:11.</p></note> Why is it that so few know themselves? For this plain
+                    reason, because ‘the heart’ is not only ‘desperately wicked’, but ‘deceitful
+                    above all things’. So deceitful that we may well ask, ‘Who can know it?’ Who,
+                    indeed, save God that made it? By his assistance we may, in the second place,
+                    consider this, the deceitfulness of man’s heart.</p>
+            </div>
+            <div type="section" n="2">
+                <p n="1">II. 1. It ‘is deceitful above all things’, that is, in the highest degree,
+                    above all that we can conceive. So deceitful that the generality of men are
+                    continually deceiving both themselves and others. How strangely do they deceive
+                    themselves, not knowing either their own tempers or characters! Imagining
+                    themselves to be abundantly better and wiser than they are! The ancient poet
+                    supposes there is no exception to this rule; that no man is willing to know his
+                    own heart—</p>
+                <lg>
+                    <l>
+                        <hi rend="italic">Ut nemo in sese tentat descendere, nemo!</hi>
+                        <note place="foot" xml:id="ftn31" n="31">
+                            <p rend="footnote text">Persius, <hi rend="italic">Satires</hi>, iv.23:
+                                ‘There is no one who strives to plumb the depths of his own soul—no
+                                one!’ Note Wesley’s translation: ‘No man is willing to know his own
+                                heart.’ Thus repentance (i.e., true self-knowledge) is a gift of
+                                God, not a human initiative; see No. 7, ‘The Way to the Kingdom’,
+                                II.1 and n.</p>
+                        </note>
+                    </l>
+                </lg>
+                <p>None but those who are taught of God!</p>
+                <p n="2">2. And if men thus deceive themselves, is it any wonder that they deceive
+                    others also, and that we so seldom find ‘an Israelite indeed, in whom there is
+                    no guile’?<note place="foot" xml:id="ftn32" n="32"><p rend="footnote text">John
+                            1:47; cf. No. 90, ‘An Israelite Indeed’ on this text.</p></note> In
+                    looking over my books some years ago I found the following memorandum: ‘I am
+                    this day thirty years old, and till this day I know not that I have met with one
+                    person of that age, except in my father’s house, who did not use guile, more or
+                        less.’<note place="foot" xml:id="ftn33" n="33"><p rend="footnote text">An
+                            echo of Wesley’s early sermon (and fragments), ‘On Dissimulation’ (Nos.
+                            138 A-C). There is no record of this memorandum in Wesley’s diary of
+                            this date (June 17, 1733, O.S.).</p></note></p>
+                <p n="3"><pb n="04:156"/>3. This is one of the sorts of desperate wickedness which
+                    cleaves to the nature of every man, proceeding from those fruitful roots,
+                    self-will, pride, and independence on God. Hence springs every species of vice
+                    and wickedness; hence every sin against God, our neighbour, and ourselves.
+                    Against God: forgetfulness and contempt of God, of his name, his day, his Word,
+                    his ordinances; atheism on the one hand and idolatry on the other; in
+                    particular, love of the world, the desire of the flesh, the desire of the eyes,
+                    and the pride of life;<note place="foot" xml:id="ftn34" n="34"><p
+                            rend="footnote text">1 John 2:16.</p></note> the love of money, the love
+                    of power, the love of ease, the love of the ‘honour that cometh of men’,<note
+                        place="foot" xml:id="ftn35" n="35"><p rend="footnote text">Cf. John 5:41,
+                            44.</p></note> the love of the creature more than the Creator,<note
+                        place="foot" xml:id="ftn36" n="36"><p rend="footnote text">Rom.
+                        1:25.</p></note> the being lovers of pleasure more than lovers of God.<note
+                        place="foot" xml:id="ftn37" n="37"><p rend="footnote text">2 Tim.
+                        3:4.</p></note> Against our neighbour: ingratitude, revenge, hatred, envy,
+                    malice, uncharitableness.</p>
+                <p n="4">4. Hence there is in the heart of every child of man an inexhaustible fund
+                    of ungodliness and unrighteousness, [so] deeply and strongly rooted in the soul
+                    that nothing less than almighty grace can cure it. From hence naturally arises a
+                    plentiful harvest of all evil words and works; and to complete the whole, that
+                    complex of all evils,</p>
+                <lg>
+                    <l>That foul monster, war, that [in a moment]</l>
+                    <l>Lays deep the noblest work of the creation,</l>
+                    <l>Which wears in vain its Maker’s glorious image,</l>
+                    <l>Unprivileged from Thee!<note place="foot" xml:id="ftn38" n="38"><p
+                                rend="footnote text">Cf. Nicholas Rowe, <hi rend="italic"
+                                    >Tamerlane</hi>, I.i.96-100. Note that Wesley reads ‘foul
+                                monster’ for Rowe’s ‘fell monster’, and then reverts to ‘fell’ in
+                                the following line. Rowe’s phrase, ‘War, that in a moment’, was
+                                misprinted as, ‘war, that we meet’.</p></note></l>
+                </lg>
+                <p>In the train of this fell monster are murder, adultery, rape, violence, and
+                    cruelty of every kind. And all these abominations are not only found in
+                    Mahometan or pagan countries, where their horrid practice may seem to be the
+                    natural result of equally horrid principles, but in those that are called
+                    Christian countries, yea, in the most knowing and civilized states and kingdoms.
+                    And let it not be said, this is only the case in Roman Catholic countries. Nay,
+                    we that are called Reformed are not one whit behind them in all manner of
+                    wickedness. Indeed no crime ever prevailed among the Turks or Tartars which we
+                    here cannot parallel in every part of <pb n="04:157"/>Christendom. Nay, no sin
+                    ever appeared in heathen or papal Rome which is not found at this day in
+                    Germany, France, Holland, England, and every other Protestant as well as popish
+                    country. So that it might now be said, with as much truth, and as few
+                    exceptions, of every court in Europe, as it was formerly in the court of Saul:
+                    ‘There is none righteous, no not one; they are all together become abominable;
+                    there is none that understandeth and seeketh after God.’<note place="foot"
+                        xml:id="ftn39" n="39"><p rend="footnote text">Cf. Ps. 14:2-3
+                        (BCP).</p></note></p>
+                <p n="5">5. But is there no exception as to the wickedness of man’s heart? Yes, in
+                    those that are born of God. ‘He that is born of God keepeth himself, and that
+                    wicked one toucheth him not.’<note place="foot" xml:id="ftn40" n="40"><p
+                            rend="footnote text">Cf. 1 John 5:18 (<hi rend="italic"
+                        >Notes</hi>).</p></note> ‘God has purified his heart by faith,’<note
+                        place="foot" xml:id="ftn41" n="41"><p rend="footnote text">Cf. Acts
+                            15:9.</p></note> so that his wickedness is departed from him. Old things
+                    are passed away, and all things in him are become new.’<note place="foot"
+                        xml:id="ftn42" n="42"><p rend="footnote text">2 Cor. 5:17.</p></note> So
+                    that his heart is no longer desperately wicked, but renewed ‘in righteousness
+                    and true holiness’.<note place="foot" xml:id="ftn43" n="43"><p
+                            rend="footnote text">Eph. 4:24.</p></note> Only let it be remembered
+                    that the heart even of a believer is not wholly purified when he is justified.
+                    Sin is then overcome, but it is not rooted out; it is conquered, but not
+                        destroyed.<note place="foot" xml:id="ftn44" n="44"><p rend="footnote text"
+                            >Cf. No. 13, <hi rend="italic">On Sin in Believers</hi>, I.6, III.1-9
+                            and n.</p></note> Experience shows him, first, that the root[s] of sin,
+                    self-will, pride, and idolatry, remain still in his heart. But as long as he
+                    continues to watch and pray, none of them can prevail against him. Experience
+                    teaches him, secondly, that sin (generally pride or self-will) cleaves to his
+                    best actions. So that even with regard to these he finds an absolute necessity
+                    for the blood of atonement.</p>
+                <p n="6">6. But how artfully does this conceal itself, not only from others, but
+                    even from ourselves! Who can discover it in all the disguises it assumes, or
+                    trace it through all its latent mazes? And if it be so difficult to know the
+                    heart of a good man, ‘who can know’<note place="foot" xml:id="ftn45" n="45"><p
+                            rend="footnote text">Jer. 17:9.</p></note> the heart of a wicked one,
+                    which is far more deceitful? No unregenerate man, however sensible, ever so
+                    experienced, ever so wise in his generation. And yet these are they who pique
+                    themselves upon ‘knowing the world’, and imagine they ‘see through’ all men!
+                    Vain men! One may boldly say they ‘know nothing yet as they ought to know’.<note
+                        place="foot" xml:id="ftn46" n="46"><p rend="footnote text">Cf. 1 Cor.
+                            8:2.</p></note> Even that politician in the late reign neither knew the
+                    heart of himself or of other men, whose favourite saying was: ‘Do not tell me of
+                    your virtue or <pb n="04:158"/>religion: I tell you, every man has his
+                        price.’<note place="foot" xml:id="ftn47" n="47"><p rend="footnote text">Sir
+                            Robert Walpole (1676-1745), pre-eminent Whig, ‘prime minister’ under
+                            both George I (1723-27) and George II (1733—42). This famous epitome of
+                            cynicism is recorded in William Coxe,<hi rend="italic"> Memoirs of
+                                Walpole</hi> (1798), I.757, and in Baron John Hervey’s <hi
+                                rend="italic">Memoirs of the Reign of George the Second</hi> (1848),
+                            and seems to have had wide currency in Wesley’s lifetime. It had also
+                            been denied by Sir Robert’s son, Horace, in a letter of Aug. 26, 1785.
+                            What is not in doubt is that Sir Robert used bribery as a principal
+                            instrument of ‘parliamentary management’ with notable success; see I. S.
+                            Leadam’s sympathetic <hi rend="italic">vita</hi> in <hi rend="italic"
+                                >DNB</hi>. The aphorism itself was not original with Walpole; cf.
+                            Sir William Wyndham’s <hi rend="italic">The Bee</hi> (1734), VIII.97:
+                            ‘It is an old maxim that every man has his price.’ See also Hobbes, <hi
+                                rend="italic">Leviathan</hi> (1651), I.10, p. 42. The idea is at
+                            least as old as Epictetus.</p></note> Yes, Sir R[obert], every man like
+                        <hi rend="italic">you</hi>—everyone that sells himself to the devil.</p>
+                <p n="7">7. Did that right honourable wretch,<note place="foot" xml:id="ftn48"
+                        n="48"><p rend="footnote text">Philip Dormer Stanhope, Fourth Earl of
+                            Chesterfield; see No. 100, ‘On Pleasing All Men’, §4 and n.</p></note>
+                    compared to whom Sir R[obert] was a saint, know the heart of man? He that so
+                    earnestly advised his own son never to speak the truth? To lie or dissemble as
+                    often as he speaks! To wear a mask continually! That earnestly counselled him
+                    not to debauch <hi rend="italic">single women</hi> (because some inconveniences
+                    might follow), but always married women! Would one imagine this grovelling
+                    animal ever had a wife or a married daughter of his own? O rare Lord
+                    C[hesterfield]! Did ever man so well deserve, though he was a peer of the realm,
+                    to die by the side of Newgate? Or did ever book so well deserve to be burnt by
+                    the common hangman as his <hi rend="italic">Letters</hi>? Did Mr. David Hume,
+                    lower, if possible, than either of the former, know the heart of man? No more
+                    than a worm or a beetle does. After ‘playing so idly with the darts of
+                        death’,<note place="foot" xml:id="ftn49" n="49"><p rend="footnote text">Cf.
+                            Prior, ‘An Ode to…George Villiers’, <hi rend="italic">l</hi>.
+                        42.</p></note> do you now find it a laughing matter?<note place="foot"
+                        xml:id="ftn50" n="50"><p rend="footnote text">Wesley shared the widely held
+                            view of the time that Hume’s scepticism was insincere and hence
+                            hypocritical; cf. J. H. Burton’s <hi rend="italic">Life and
+                                Correspondence of David Hume</hi> (1846), II.187-88. Hume had lent
+                            weight to this with the whimsical conclusion of his <hi rend="italic"
+                                >Treatise of Human Nature</hi> (Selby-Bigge edn., 1896), p. 269: ‘I
+                            dine, I play a game of backgammon, I converse and am merry with my
+                            friends; and when, after three or four hours of amusement, I would
+                            return to these [sceptical] speculations, they appear so cold and
+                            strained and ridiculous that I cannot find it in my heart to enter into
+                            them any farther.’</p></note> What think you now of Charon? Has he
+                    ferried you over Styx? At length he has taught you to know a little of your own
+                    heart! At length you know it is a fearful thing to fall into the hands of the
+                    living God!<note place="foot" xml:id="ftn51" n="51"><p rend="footnote text">Heb.
+                            10:31.</p></note></p>
+                <p n="8">8. One of the ablest champions of infidelity (perhaps the most elegant, and
+                    the most decent writer that ever produced a system of religion without being in
+                    the least obliged to the Bible for it) breaks out in the fullness of his heart:
+                    ‘Who would not wish that there was full proof of the Christian revelation, since
+                    it is <pb n="04:159"/>undoubtedly the most benevolent system that ever appeared
+                    in the world!’<note place="foot" xml:id="ftn52" n="52"><p rend="footnote text"
+                            >Another misquotation from Francis Hutcheson; see Nos. 90, ‘An Israelite
+                            Indeed’, §3 and n.; and 12, ‘The Witness of Our Own Spirit’, §5 and
+                            n.</p></note> Might he not add a reason of another kind; because without
+                    this, man must be altogether a mystery to himself. Even with the help of
+                    revelation he knows exceeding little. But without it he would know abundantly
+                    less. And nothing with any certainty. Without the light which is given us by the
+                    oracles of God, how could we reconcile his greatness with his meanness? While we
+                    acknowledged with Sir John Davies,</p>
+                <lg>
+                    <l>I know my soul has power to know all things,</l>
+                    <l>Yet is she blind and ignorant of all:</l>
+                    <l>I know I’m one of nature’s little kings,</l>
+                    <l>Yet to the least and vilest things in thrall.<note place="foot"
+                            xml:id="ftn53" n="53"><p rend="footnote text">Cf. Sir John Davies, <hi
+                                    rend="italic">Nosce Teipsum</hi>, st. 44; see also Wesley, <hi
+                                    rend="italic">A Collection of Moral and Sacred Poems</hi>
+                                (1744), I.21; and No. 95, ‘On the Education of Children’, §6, where
+                                Wesley quotes from Dryden to this same effect.</p></note></l>
+                </lg>
+                <p n="9">9. Who then knoweth the hearts of all men? Surely none but he that made
+                    them. Who knoweth his own heart? Who can tell the depth of its enmity against
+                    God? Who knoweth how deeply it is sunk into the nature of Satan?</p>
+            </div>
+            <div type="section" n="3">
+                <p n="1">III. 1. From the preceding considerations may we not learn, first, ‘He that
+                    trusteth in his own heart is a fool.’<note place="foot" xml:id="ftn54" n="54"><p
+                            rend="footnote text">Prov. 28:26.</p></note> For who that is wise would
+                    trust one whom he knows to be ‘desperately wicked’? Especially whom he hath
+                    known, by a thousand experiments, to be ‘deceitful above all things’? What can
+                    we expect if we still trust a known liar and deceiver, but to be deceived and
+                    cheated to the end?</p>
+                <p n="2">2. We may hence, in the second place, infer the truth of that other
+                    reflection of Solomon: ‘Seest thou a man that is wise in his own eyes? There is
+                    more hope of a fool than of him.’<note place="foot" xml:id="ftn55" n="55"><p
+                            rend="footnote text">Cf. Prov. 26:12.</p></note> For at what a distance
+                    from wisdom must that man be who never suspected his want of it! And will not
+                    his thinking so well of himself prevent his receiving instruction from others?
+                    Will he not be apt to be displeased at admonition, and to construe reproof into
+                    reproach? Will he not therefore be less ready to receive instruction than even
+                    one that has little natural understanding? Surely no fool is so incapable of
+                    amendment as one that imagines himself to be wise. <pb n="04:160"/>He that
+                    supposes himself not to need a physician will hardly profit by his advice.</p>
+                <p n="3">3. May we not learn hence, thirdly, the wisdom of that caution, ‘Let him
+                    who thinketh he standeth take heed lest he fall;’ or (to render the text more
+                    properly,) ‘Let him that assuredly standeth take heed lest he fall.’<note
+                        place="foot" xml:id="ftn56" n="56"><p rend="footnote text">1 Cor. 10:12; a
+                            favourite exegetical point with Wesley; see Nos. 43, <hi rend="italic"
+                                >The Scripture Way of Salvation</hi>, §1 and n; and 82, ‘On
+                            Temptation’, §2 and n.</p></note> How firmly soever he may stand, he has
+                    still a deceitful heart. In how many instances has he been deceived already! And
+                    so he may again. Suppose he be not deceived now, does it follow that he never
+                    will? Does he not stand upon slippery ground? And is he not surrounded with
+                    snares? Into which he may fall and rise no more.</p>
+                <p n="4">4. Is it not wisdom for him that is now standing, continually to cry to
+                    God, ‘Search me, O Lord, and prove me; try out my reins and my heart!’<note
+                        place="foot" xml:id="ftn57" n="57"><p rend="footnote text">Cf. Ps. 26:2
+                            (BCP).</p></note> ‘Look well, if there be any way of wickedness in me,
+                    and lead me in the way everlasting!’<note place="foot" xml:id="ftn58" n="58"><p
+                            rend="footnote text">Ps. 139:24 (BCP).</p></note> Thou alone, O God,
+                    ‘knowest the hearts of all the children of men’.<note place="foot"
+                        xml:id="ftn59" n="59"><p rend="footnote text">1 Kgs. 8:39.</p></note> O show
+                    thou me what spirit I am of, and let me not deceive my own soul. Let me not
+                    ‘think of myself more highly than I ought to think’. But let me always ‘think
+                    soberly, according as thou hast given me the measure of faith!’<note
+                        place="foot" xml:id="ftn60" n="60"><p rend="footnote text">Cf. Rom.
+                            12:3.</p></note></p>
+            </div>
+            <p><placeName>Halifax</placeName>, <date when="1790-04-21">April 21, 1790</date></p>
+        </body>
+    </text>
+</TEI>
