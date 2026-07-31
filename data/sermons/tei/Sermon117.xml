@@ -5,36 +5,56 @@
         <fileDesc>
             <titleStmt>
                 <title>Sermon 117: On the Discoveries of Faith</title>
-                <author>Greg Van Buskirk</author>
+                <author>Wesley, John</author>
+                <editor role="text">Van Buskirk, Gregory P.</editor>
+                <editor role="digital">Taylor, Michelle M.</editor>
             </titleStmt>
-            <editionStmt>
-                <edition>
-                    <date>2024-01-03</date>
-                </edition>
-            </editionStmt>
             <publicationStmt>
-                <p n="">unknown</p>
-             <idno type="URI">https://wesleyworks.ecdsdev.org/sermons/Sermon117</idno>                    
+                <publisher>The Wesley Works Digitzation Project</publisher>
+                <pubPlace>Tampa, FL</pubPlace>
+                <date>2024-02-25</date>
             </publicationStmt>
             <sourceDesc>
-                <p n="">Converted from a Word document</p>
+                <listBibl>
+                    <biblStruct>
+                        <analytic>
+                            <title level="a">Sermon 116: What is Man?</title>
+                        </analytic>
+                        <monogr>
+                            <title level="j">The Works of John Wesley, Volume IV: Sermons IV,
+                                115-151</title>
+                            <editor role="volume">Outler, Albert</editor>
+                            <imprint>
+                                <publisher>Abingdon Press</publisher>
+                                <pubPlace>Nashville, TN</pubPlace>
+                                <date when="1987-11-01">1987-11-01</date>
+                                <biblScope unit="volume" n="4"/>
+                                <biblScope unit="page" from="28" to="37"/>
+                            </imprint>
+                        </monogr>
+                        <series>
+                            <title level="s">The Works of John Wesley</title>
+                            <editor role="general">Baker, Frank</editor>
+                        </series>
+                    </biblStruct>
+                </listBibl>
             </sourceDesc>
         </fileDesc>
         <encodingDesc>
-            <appInfo>
-                <application xml:id="docxtotei" ident="TEI_fromDOCX" version="2.15.0">
-                    <label>DOCX to TEI</label>
-                </application>
-            </appInfo>
+            <p>Greg Van Buskirk created Word docs for all of Wesley's sermons using a combination of
+                OCR software and manual proofing. Michelle Taylor converted these docx into XML
+                using Oxygen's DITA automatic transformation scenario, then touched them up
+                manually.</p>
         </encodingDesc>
-        <revisionDesc>
-            <listChange>
-                <change>
-                    <date>2024-03-01T06:01:25Z</date>
-                    <name>Greg Van Buskirk</name>
-                </change>
-            </listChange>
-        </revisionDesc>
+        <standOff>
+            <taxonomy>
+                <keywords>
+                    <term/>
+                </keywords>
+            </taxonomy>
+            <!--Include keywords and terms here eventually.-->
+        </standOff>
+        <revisionDesc/>
     </teiHeader>
     <text>
         <body>
@@ -149,10 +169,13 @@
             <p n="5">5. In particular: faith is an evidence to me of the existence of that unseen
                 thing, my own soul. Without this I should be in utter uncertainty concerning it. I
                 should be constrained to ask that melancholy question,</p>
-            <p rend="Verse">Hear’st thou submissive; but a lowly birth,</p>
-            <p rend="Verse">Some separate particles of finer earth?<note place="foot" xml:id="ftn10"
-                    n="10"><p rend="footnote text">Prior, <hi rend="italic">Solomon</hi>, iii.7-8;
-                        see No. 116, ‘What is Man? Ps. 8:4’, §8 and n.</p></note></p>
+            <lg>
+                <l>Hear’st thou submissive; but a lowly birth,</l>
+                <l>Some separate particles of finer earth?<note place="foot" xml:id="ftn10" n="10"
+                            ><p rend="footnote text">Prior, <hi rend="italic">Solomon</hi>, iii.7-8;
+                            see No. 116, ‘What is Man? Ps. 8:4’, §8 and n.</p></note></l>
+            </lg>
+            <!--See how this renders, by ending the line AFTER the note.-->
             <p>But by faith I know it is an immortal spirit, made in the image of God, in his
                 natural and his moral image, ‘an incorruptible picture of the God of glory’.<note
                     place="foot" xml:id="ftn11" n="11"><p rend="footnote text">Cf. Rom.
@@ -176,6 +199,7 @@
                         Reason Impartially Considered’, II.1 and n.</p>
                 </note>
             </lg>
+            <!--Compare to quoted lines of poetry just a dozen lines above or so re: rendering in the CSS.-->
             <p>These I term <hi rend="italic">angels</hi>,<note place="foot" xml:id="ftn15" n="15"
                         ><p rend="footnote text">Cf. Nos. 71, ‘Of Good Angels’; and 72, ‘Of Evil
                         Angels’.</p></note> and I believe part of them are holy and happy,<note
@@ -497,7 +521,7 @@
                 saints what is the length, and breadth, and height, and depth, and to know that love
                 of Christ which passeth knowledge; yea, to be filled with all the fullness of
                     God’.<note place="foot" xml:id="ftn88" n="88"/></p>
-            <p><placeName>Yarm</placeName>, <date when="06-11-1788">June 11, 1788</date></p>
+            <p><placeName>Yarm</placeName>, <date when="1788-06-11">June 11, 1788</date></p>
         </body>
     </text>
 </TEI>

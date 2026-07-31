@@ -1,0 +1,489 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Sermon 118: On the Omnipresence of God</title>
+                <author>Wesley, John</author>
+                <editor role="text">Van Buskirk, Gregory P.</editor>
+                <editor role="digital">Taylor, Michelle M.</editor>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>The Wesley Works Digitzation Project</publisher>
+                <pubPlace>Tampa, FL</pubPlace>
+                <date>2024-02-25</date>
+            </publicationStmt>
+            <sourceDesc>
+                <listBibl>
+                    <biblStruct>
+                        <analytic>
+                            <title level="a">Sermon 118: On the Omnipresence of God</title>
+                        </analytic>
+                        <monogr>
+                            <title level="j">The Works of John Wesley, Volume IV: Sermons IV,
+                                115-151</title>
+                            <editor role="volume">Outler, Albert</editor>
+                            <imprint>
+                                <publisher>Abingdon Press</publisher>
+                                <pubPlace>Nashville, TN</pubPlace>
+                                <date when="1987-11-01">1987-11-01</date>
+                                <biblScope unit="volume" n="4"/>
+                                <biblScope unit="page" from="39" to="47"/>
+                            </imprint>
+                        </monogr>
+                        <series>
+                            <title level="s">The Works of John Wesley</title>
+                            <editor role="general">Baker, Frank</editor>
+                        </series>
+                    </biblStruct>
+                </listBibl>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Greg Van Buskirk created Word docs for all of Wesley's sermons using a combination of
+                OCR software and manual proofing. Michelle Taylor converted these docx into XML
+                using Oxygen's DITA automatic transformation scenario, then touched them up
+                manually.</p>
+        </encodingDesc>
+        <standOff>
+            <taxonomy>
+                <keywords>
+                    <term/>
+                </keywords>
+            </taxonomy>
+            <!--Include keywords and terms here eventually.-->
+        </standOff>
+        <revisionDesc/>
+    </teiHeader>
+    <text>
+        <body>
+            <pb n="04:039"/>
+            <head>
+                <hi rend="italic">An Introductory Comment</hi>
+            </head>
+            <introduction>
+                <p n="1">This is yet another contemplative essay, reflecting Wesley’s constant and
+                    vivid sense of the sacred: his vision of the Christian life as an immersion in
+                    the encompassing, suffusing personal presence of God. His complaint, at the
+                    outset, about the paucity of a proper treatment of this great theme, is scarcely
+                    more than a familiar literary device to justify his contribution as some sort of
+                    theological pioneer: ‘what seems to be wanting still, for general use, is a
+                    plain discourse on the…ubiquity of God’ (proem, §3). All this can mean is that
+                    he judged that the classical treatments of ubiquity (Augustine, Thomas Aquinas,
+                    Calvin, Taylor, Bérulle, Scougal) were not sufficiently ‘plain’ or quite suited
+                    ‘for general use’. And this, apparently, was also his judgment of the Boyle
+                        Lectures.<note place="foot" xml:id="ftn1" n="1"><p rend="footnote text"
+                            >E.g., Samuel Clarke’s famous <hi rend="italic">Demonstration of the
+                                Being and Attributes of God</hi> (1705), with its meagre Prop. V
+                            (pp. 86-88), and John Norris’s <hi rend="italic">Reflections Upon the
+                                Conduct of Human Life</hi> (1690), which Wesley had already abridged
+                            as early as 1734 (see <hi rend="italic">Bibliog</hi>, No. 3).</p></note>
+                    There is a mild irony, though, in the fact that this is not one of Wesley’s
+                    plainer discourses; it is both more speculative than usual and more heavily
+                    ornamented with quotations and learned allusions. It is, however, ‘pure Wesley’,
+                    a moving description of the spiritual ambiance in which he had lived and into
+                    which he had invited others to enter.</p>
+                <p n="2">That it is placed and dated at ‘Portsmouth, Aug. 12, 1788’ is almost
+                    accidental; not much of it was written there. The <hi rend="italic">Journal</hi>
+                    tells us that he had come to Portsmouth on the 11th, after an all-night ride ‘in
+                    the mail-coach’ from London, and had then plunged into a busy round of sermons
+                    and class-meetings. The fortnight before had been spent largely in the Annual
+                    Conference, debating the unsinkable issue of ‘separation’.<note place="foot"
+                        xml:id="ftn2" n="2"><p rend="footnote text">JWJ, Aug. 4, 1788.</p></note>
+                    Nor is there any hint in the sermon of his brother Charles’s death or of the <hi
+                        rend="italic">Journal</hi> entry on his birthday (June 28), where he had
+                    bravely acknowledged the increasing infirmities of his old age. The sermon,
+                    then, is not ‘occasional’ in the usual sense; it is, rather, the distillate of
+                    long reflection, written down in the odd moments of a relentless schedule.</p>
+                <p n="3"><pb n="04:040"/>It appeared in the <hi rend="italic">Arminian
+                        Magazine</hi><note place="foot" xml:id="ftn3" n="3"><p rend="footnote text"
+                            >XII.454-60, 512-14.</p></note> in the September and October issues of
+                    1789, without a title but numbered ‘Sermon LIII’. The present title was coined
+                    by Joseph Benson in his edition of the <hi rend="italic">Works</hi>, and was
+                    used by Thomas Jackson in 1825 in his edition of the <hi rend="italic"
+                        >Sermons</hi> and thereafter.</p>
+            </introduction>
+            <head>On the Omnipresence of God</head>
+            <epigraph>
+                <p>Jeremiah 23:24</p>
+                <p>
+                    <hi rend="italic">Do not I fill heaven and earth? saith the Lord.</hi>
+                </p>
+            </epigraph>
+            <div type="introduction">
+                <p n="1">1. How strongly and beautifully do these words express the omnipresence of
+                    God! And can there be in the whole compass of nature a more sublime subject? Can
+                    there be any more worthy the consideration of every rational creature? Is there
+                    any more necessary to be considered, and to be understood, so far as our poor
+                    faculties will admit? How many excellent purposes may it answer! What deep
+                    instruction may it convey to all the children of men! And more directly to the
+                    children of God.</p>
+                <p n="2">2. How is it then that so little has been wrote on so sublime and useful a
+                    subject? It is true that some of our most eminent writers have occasionally
+                    touched upon it, and have several strong and beautiful reflections which were
+                    naturally suggested by it. But which of them has published a regular treatise,
+                    or so much as a sermon, upon the head? Perhaps many were conscious of their
+                    inability to do justice to so vast a subject. It is possible there may some such
+                    lie hid in the voluminous writings of the last century. But if they are hid even
+                    in their own country, if they are already buried in oblivion, it is the same,
+                    for any use they are of, as if they had never been wrote.<note place="foot"
+                        xml:id="ftn4" n="4"><p rend="footnote text">Wesley would have known that
+                            God’s ‘omnipresence’ was assumed by all Christian Platonists as included
+                            in the idea of ‘Infinite Spirit’ or ‘eternal Mind’ (notions which
+                            exclude ‘location’); cf. George Berkeley, <hi rend="italic">Hylas and
+                                Philonous</hi>, ‘Third Dialogue’ (<hi rend="italic">Works</hi>,
+                            I.325); and <hi rend="italic">Siris</hi>, §358 (<hi rend="italic"
+                                >Works</hi>, III.504-5). But it is true that ‘omnipresence’ was
+                            rarely singled out for specific discussion, even by theologians (e.g.,
+                            Samuel Clarke, Joseph Butler, Henry More, <hi rend="italic">et al.</hi>)
+                            who took its truth for granted. What is more often at explicit issue in
+                            seventeenth- and eighteenth-century British theology is God’s
+                            ‘omnipotence’.</p></note></p>
+                <p n="3"><pb n="04:041"/>3. What seems to be wanting still, for general use, is a
+                    plain discourse on the omnipresence or ubiquity of God, first in some manner
+                    explaining and proving that glorious truth, God is in this, and every place, and
+                    then applying it to the conscience of all thinking men in a few practical
+                    inferences.</p>
+            </div>
+            <div type="section" n="1">
+                <p n="1">I. 1. Accordingly I will endeavour, by the assistance of his Spirit, first
+                    a little to explain the omnipresence of God: to show how we are to understand
+                    this glorious truth, God is in this, and every place. The Psalmist, you may
+                    remember, speaks strongly and beautifully upon it in the hundred and
+                    thirty-ninth Psalm; observing in the most exact order, first, God is in this
+                    place, and then, God is in everyplace. He observes, first, ‘Thou art about my
+                    bed, and about my path, and spiest out all my ways.’<hi rend="endnote_reference"
+                            ><note place="end"><p rend="endnote text">[Ps. 139,] ver. 2 [N.B. All
+                                quotations in this section are from BCP].</p></note></hi> ‘Thou hast
+                    fashioned me behind and before, and laid thine hand upon me.’<hi
+                        rend="endnote_reference"><note place="end"><p rend="endnote text">Ver.
+                                4.</p></note></hi> Although the manner thereof he could not
+                        explain—<hi rend="italic">how</hi> it was he could not tell. ‘Such
+                    knowledge’, says he, ‘is too wonderful for me: I cannot attain unto it.’<hi
+                        rend="endnote_reference"><note place="end"><p rend="endnote text">Ver.
+                                5.</p></note></hi> He next observes, in the most lively and
+                    affecting manner, that God is in every place. ‘Whither shall I go then from thy
+                    Spirit, or whither shall I go from thy presence? If I climb up into heaven, thou
+                    art there; if I go down to hell, thou art there also.’<hi
+                        rend="endnote_reference"><note place="end"><p rend="endnote text">Ver. 5-6
+                                [i.e., 6-7].</p></note></hi> If I could ascend, speaking after the
+                    manner of men, to the highest part of the universe, or could I descend to the
+                    lowest point, thou art alike present both in one and the other. ‘If I should
+                    take the wings of the morning, and remain in the uttermost parts of the sea;
+                    even there thy hand would lead me,’ thy power and thy presence would be before
+                    me, ‘and thy right hand would hold me,’<note place="foot" xml:id="ftn5" n="5"><p
+                            rend="footnote text">Ps. 139:8-9 (BCP).</p></note> seeing thou art
+                    equally in the length and breadth, and in the height and depth of the universe.
+                    Indeed thy presence and knowledge not only reach the utmost bounds of creation,
+                    but</p>
+                <lg>
+                    <l>Thine omnipresent sight, </l>
+                    <l>Even to the pathless realms extends</l>
+                    <l>Of uncreated night.</l>
+                    <note place="foot" xml:id="ftn6" n="6">
+                        <p rend="footnote text">Cf. Wesley’s letter to his brother Samuel, Apr. 4,
+                            1726; see also David Lewis, <hi rend="italic">Miscellaneous Poems</hi>
+                            (1726), pp. 255-57; and Wesley’s <hi rend="italic">Collection of Psalms
+                                and Hymns</hi> (1737), p. 4. See No. 26, ‘Sermon on the Mount, VI’,
+                            III.6 and n.</p>
+                    </note>
+                </lg>
+                <p><pb n="04:042"/>In a word, there is no point of space, whether within or without
+                    the bounds of creation, where God is not.</p>
+                <p n="2">2. Indeed this subject is far too vast to be comprehended by the narrow
+                    limits of human understanding. We can only say, ‘The great God, the eternal, the
+                    almighty Spirit, is as unbounded in his presence as in his duration and power.’
+                    In condescension, indeed, to our weak understanding, he is said to ‘dwell in
+                        heaven’;<note place="foot" xml:id="ftn7" n="7"><p rend="footnote text">Cf. 1
+                            Kgs. 8:30, etc.; Ps. 123:1.</p></note> but strictly speaking the heaven
+                    of heavens cannot contain him, but he is in every part of his dominion. The
+                    universal God dwelleth in universal space; so that we may say,</p>
+                <lg>
+                    <l>Hail, Father! whose creating call,</l>
+                    <l>Unnumbered worlds attend!</l>
+                    <l>Jehovah, comprehending all,</l>
+                    <l>Whom none can comprehend!</l>
+                    <note place="foot" xml:id="ftn8" n="8">
+                        <p rend="footnote text">Samuel Wesley, Jun., ‘Hymn to God the Father’, st.
+                            1, <hi rend="italic">Poems</hi> (1736), p. 1; also published as Hymn XI,
+                            in John Wesley, <hi rend="italic">A Collection of Psalms and Hymns</hi>
+                            (1737), p. 11, and <hi rend="italic">A Collection of Moral and Sacred
+                                Poems</hi> (1744), III.179.</p>
+                    </note>
+                </lg>
+                <p n="3">3. If we may dare attempt the illustrating this a little farther, what is
+                    the space occupied by a grain of sand, compared to that space which is occupied
+                    by the starry heavens? It is as a cipher; it is nothing; it vanishes away in the
+                    comparison. What is it then to the whole expanse of space, to which the whole
+                    creation is infinitely less than a grain of sand? And yet this space, to [which]
+                    the whole creation bears no proportion at all,<note place="foot" xml:id="ftn9"
+                        n="9"><p rend="footnote text">A note in Wesley’s personal copy of <hi
+                                rend="italic">AM</hi> deletes ‘to all the whole
+                        creation’.</p></note> is infinitely less in comparison of the great God than
+                    a grain of sand, yea, a millionth part of it, bears to that whole space.<note
+                        place="foot" xml:id="ftn10" n="10"><p rend="footnote text">Cf. No. 54, ‘On
+                            Eternity’, §§2, 10 and n.</p></note></p>
+            </div>
+            <div type="section" n="2">
+                <p n="1">II. 1. This seems to be the plain meaning of those solemn words which God
+                    speaks of himself, ‘Do not I fill heaven and earth?’<note place="foot"
+                        xml:id="ftn11" n="11"><p rend="footnote text">Jer. 23:24.</p></note> And
+                    these sufficiently prove his omnipresence; which may be farther proved from this
+                    consideration: God acts everywhere, and therefore is everywhere; for it is an
+                    utter impossibility that any being, created or uncreated, should work where it
+                    is not. God acts in heaven, in earth, and under the earth, throughout the whole
+                    compass of his creation; by sustaining all things, without which everything
+                    would in an instant sink into its primitive nothing;<note place="foot"
+                        xml:id="ftn12" n="12"><p rend="footnote text">Cf. Augustine, <hi
+                                rend="italic">Confessions</hi>, XI.iv, XII.vii; this was also the
+                            premise of Wesley’s occasional onsets of ontological anxiety, as in his
+                            letter to Charles, June 27, 1766.</p></note> by <pb n="04:043"
+                    />governing all, every moment superintending everything that he has made;
+                    strongly and sweetly influencing all, and yet without destroying the liberty of
+                    his rational creatures.<note place="foot" xml:id="ftn13" n="13"><p
+                            rend="footnote text">For other references to liberty and will, see No.
+                            60, ‘The General Deliverance’, I.4 and n.</p></note> The very heathens
+                    acknowledged that the great God governs the large and conspicuous parts of the
+                    universe; that he regulates the motions of the heavenly bodies, of the sun,
+                    moon, and stars; that he is</p>
+                <lg>
+                    <l>
+                        <hi rend="italic">Vastem</hi>
+                    </l>
+                    <l>
+                        <hi rend="italic">Mens agitans molem, et toto se corpore miscens:</hi>
+                    </l>
+                </lg>
+                <note place="foot" xml:id="ftn14" n="14">
+                    <p rend="footnote text">Cf. Virgil, <hi rend="italic">Aeneid</hi>, vi.726-27;
+                        see also No. 74, ‘Of the Church’, §13 and n.</p>
+                </note>
+                <lg>
+                    <l>The all-informing soul,</l>
+                    <l>That fills, pervades, and actuates the whole.</l>
+                    <note place="foot" xml:id="ftn15" n="15">
+                        <p rend="footnote text">A translation similar to this one appears in Vol.
+                            XXXII of Wesley’s <hi rend="italic">Works</hi> (1774), ‘Latin Sentences
+                            Translated’, with reference to a similar usage in <hi rend="italic">An
+                                Earnest Appeal</hi>, §19.</p>
+                    </note>
+                </lg>
+                <!--Lines 250-271 are VERY tricky for rendering in the CSS, so check how they look.-->
+                <p>But they had no conception of his having a regard to the least things as well as
+                    the greatest; of his presiding over all that he has made, and governing atoms as
+                    well as worlds. This we could not have known unless it had pleased God to reveal
+                    it unto us himself. Had he not himself told us so, we should not have dared to
+                    think that ‘not a sparrow falleth to the ground’ without the ‘will of our Father
+                    which is in heaven’; and much less affirm that ‘even the very hairs of our head
+                    are all numbered’!<note place="foot" xml:id="ftn16" n="16"><p
+                            rend="footnote text">Cf. Matt. 10:29-30; 18:14.</p></note></p>
+                <p n="2">2. This comfortable truth,<note place="foot" xml:id="ftn17" n="17"><p
+                            rend="footnote text">I.e., providing needed strength to the will rather
+                            than any sort of ‘indulgence’.</p></note> that God ‘filleth heaven and
+                    earth’, we learn also from the Psalm above recited. ‘If I climb up into heaven,
+                    thou art there; if I go down to hell, thou art there also. If I take the wings
+                    of the morning, and remain in the uttermost parts of the sea; even there thy
+                    hand shall lead me.’<note place="foot" xml:id="ftn18" n="18"><p
+                            rend="footnote text">Ps. 139:7-9 (BCP); cf. n. 2 above. ‘Psalmist’,
+                            printed in the <hi rend="italic">AM</hi> in the opening sentence, is
+                            altered in Wesley’s personal copy to ‘Psalm’.</p></note> The plain
+                    meaning is, if <hi rend="italic">I</hi> remove to any distance whatever, thou
+                    art there; thou still besettest me, and layest thine hand upon me. Let me flee
+                    to any conceivable or inconceivable distance, above, beneath, or on any side, it
+                    makes no difference; thou art still equally there—in thee I still ‘live and move
+                    and have my being’.<note place="foot" xml:id="ftn19" n="19"><p
+                            rend="footnote text">Acts 17:28.</p></note></p>
+                <p n="3">3. And where no creature is, still God is there. The presence or absence of
+                    any or all creatures makes no difference with regard to him. He is equally in
+                    all, or without all. Many have been the disputes among philosophers whether
+                    there be any such thing as <pb n="04:044"/>empty space in the universe.<note
+                        place="foot" xml:id="ftn20" n="20"><p rend="footnote text">An echo of the
+                            famous debate between Leibnitz (who held a relational view of space and
+                            time) and Clarke and Newton, who regarded space and time as absolute
+                            (‘space as an infinite number of points’); cf. Copleston, <hi
+                                rend="italic">A History of Philosophy</hi>, IV.301-7. Wesley here
+                            inclines to Leibnitz’s view that the notion of ‘empty space is fantastic
+                            and chimerical’.</p></note> And it is now generally supposed that all
+                    space is full. Perhaps it cannot be proved that all space is filled with matter.
+                    But the heathen himself will bear us witness, <hi rend="italic">Iovis omnis
+                        plena</hi>, ‘All things are full of God.’<note place="foot" xml:id="ftn21"
+                        n="21"><p rend="footnote text">Virgil, <hi rend="italic">Eclogues</hi>,
+                            iii.60; see No. 23, ‘Sermon on the Mount, III’, I.6 and n.</p></note>
+                    Yea, and whatever space exists beyond the bounds of creation (for creation must
+                    have bounds, seeing nothing is boundless, nothing can be but the great Creator),
+                    even that space cannot exclude him who fills the heaven and the earth.<note
+                        place="foot" xml:id="ftn22" n="22"><p rend="footnote text">See No. 15, <hi
+                                rend="italic">The Great Assize</hi>, III.3 and n.</p></note></p>
+                <p n="4">4. Just equivalent to this is the expression of the Apostle (not as some
+                    have strangely supposed, concerning the church, but concerning the head of it),
+                    ‘The fullness of him that filleth all in all’<hi rend="endnote_reference"><note
+                            place="end"><p rend="endnote text">Eph. 1:23.</p></note></hi>—τὰ πάντα
+                    ἐν πᾶσιν, literally translated ‘all things in all things’, the strongest
+                    expression of universality which can possibly be conceived. It necessarily
+                    includes the last and the greatest of all things that exist. So that if any
+                    expression could be stronger, it would be stronger than even that, the ‘filling
+                    heaven and earth’.</p>
+                <p n="5">5. Indeed this very expression, ‘Do not I fill heaven and earth?’ (the
+                    question being equal to the strongest affirmation), implies the clearest
+                    assertion of God’s being present everywhere, and filling all space. For it is
+                    well known the Hebrew phrase ‘heaven and earth’<note place="foot" xml:id="ftn23"
+                        n="23"><p rend="footnote text">את השמים ואת הארץ, as in Gen. 1:1.</p></note>
+                    includes the whole universe, the whole extent of space, created or uncreated,
+                    and all that is therein.</p>
+                <p n="6">6. Nay, and we cannot believe the omnipotence of God unless we believe his
+                    omnipresence. For seeing (as was observed before) nothing can act where it is
+                    not, if there were any space where God was not present he would not be able to
+                    do anything there. Therefore to deny the omnipresence of God implies likewise
+                    the denial of his omnipotence. To set bounds to the one is undoubtedly to set
+                    bounds to the other also.</p>
+                <p n="7">7. Indeed, wherever we suppose him not to be, there we suppose all his
+                    attributes to be in vain. He cannot exercise there either his justice or mercy,
+                    either his power or wisdom. In that <pb n="04:045"/>extramundane space (so to
+                    speak) where we suppose God not to be present, we must of course suppose him to
+                    have no duration; but as it is supposed to be beyond the bounds of the creation,
+                    so it is beyond the bounds of the Creator’s power. Such is the blasphemous
+                    absurdity which is implied in this supposition.<note place="foot" xml:id="ftn24"
+                        n="24"><p rend="footnote text">In one of his earliest sermons (No. 136, ‘On
+                            Mourning for the Dead’) Wesley had inveighed against the logical
+                            absurdity of any effort to conceive how omnipotence might be
+                            surpassed.</p></note></p>
+                <p n="8">8. But to all that is or can be said of the omnipresence of God the world
+                    has one grand objection! They cannot see him. And this is really at the root of
+                    all their other objections. This our blessed Lord observed long ago: ‘Whom the
+                    world cannot receive, because they see him not.’<note place="foot"
+                        xml:id="ftn25" n="25"><p rend="footnote text">Cf. John 14:17.</p></note> But
+                    is it not easy to reply, ‘Can you see the wind? You cannot. But do you therefore
+                    deny its existence or its presence?’ You say, ‘No; for I can perceive it by my
+                    other senses.’ But by which of your senses do you perceive your soul?<note
+                        place="foot" xml:id="ftn26" n="26"><p rend="footnote text">Cf. No. 10, ‘The
+                            Witness of the Spirit, I’, I.12 and n.</p></note> Surely you do not deny
+                    either the existence or the presence of this! And yet it is not the object of
+                    your sight, or of any of your other senses. Suffice it then to consider that God
+                    is a spirit, as is your soul also. Consequently, ‘him no man hath seen or can
+                        see’<note place="foot" xml:id="ftn27" n="27"><p rend="footnote text">Cf. 1
+                            Tim. 6:16.</p></note> with eyes of flesh and blood.</p>
+            </div>
+            <div type="section" n="3">
+                <p n="1">III. 1. But allowing that God is here, as in every place, that he is ‘about
+                    our bed, and about our path’,<note place="foot" xml:id="ftn28" n="28"><p
+                            rend="footnote text">Ps. 139:2 (BCP).</p></note> that he ‘besets us
+                    behind and before, and lays his hand upon us’,<note place="foot" xml:id="ftn29"
+                        n="29"><p rend="footnote text">Ps. 139:5.</p></note> what inference should
+                    we draw from hence? What use should we make of this awful consideration? Is it
+                    not meet and right to humble ourselves before the eyes of his majesty? Should we
+                    not labour continually to acknowledge his presence ‘with reverence and godly
+                        fear’?<note place="foot" xml:id="ftn30" n="30"><p rend="footnote text">Heb.
+                            12:28.</p></note> Not indeed with the fear of devils, that believe and
+                        tremble,<note place="foot" xml:id="ftn31" n="31"><p rend="footnote text">See
+                            Jas. 2:19.</p></note> but with the fear of angels, with something
+                    similar to that which is felt by the inhabitants of heaven, when</p>
+                <lg>
+                    <l>Dark with excessive bright his skirts appear,</l>
+                    <l>Yet dazzles heaven, that brightest seraphim</l>
+                    <l>Approach not, but with both wings veil their eyes.</l>
+                    <note place="foot" xml:id="ftn32" n="32">
+                        <p rend="footnote text">Milton, <hi rend="italic">Paradise Lost</hi>, iii.
+                            380-82 (with ‘thy skirts’); see also Nos. 123, ‘On Knowing Christ after
+                            the Flesh’, §12; and 124, ‘Human Life a Dream’, §12.</p>
+                    </note>
+                </lg>
+                <!--Another good spot to check the effects of ending lines and line groups.-->
+                <pb n="04:046"/>
+                <p n="2">2. Secondly, if you believe that God is about your bed and about your path,
+                    and spieth out all your ways, then take care not to do the least thing, not to
+                    speak the least word, not to indulge the least thought, which you have reason to
+                    think would offend him.<note place="foot" xml:id="ftn33" n="33"><p
+                            rend="footnote text">Cf. BCP, Morning Prayer, Collect for Purity: ‘unto
+                            whom all hearts are open, all desires known, and from whom no secrets
+                            are hid’.</p></note> Suppose that a messenger of God, an angel, be now
+                    standing at your right hand, and fixing his eyes upon you, would you not take
+                    care to abstain from every word or action that you knew would offend him? Yea,
+                    suppose one of your mortal fellow-servants, suppose only a holy man stood by
+                    you, would not you be extremely cautious how you conducted yourself, both in
+                    word and action? How much more cautious ought you to be when you know that not a
+                    holy man, not an angel of God, but God himself, the Holy One ‘that inhabiteth
+                        eternity’,<note place="foot" xml:id="ftn34" n="34"><p rend="footnote text"
+                            >Isa. 57:15.</p></note> is inspecting your heart, your tongue, your hand
+                    every moment! And that he himself will surely bring you into judgment for all
+                    you think, and speak, and act under the sun!</p>
+                <p n="3">3. In particular. If there is not a word in your tongue, not a syllable you
+                    speak, but he ‘knoweth it altogether’,<note place="foot" xml:id="ftn35" n="35"
+                            ><p rend="footnote text">Cf. Ps. 139:4.</p></note> how exact should you
+                    be in ‘setting a watch before your mouth, and in keeping the door of your
+                        lips’!<note place="foot" xml:id="ftn36" n="36"><p rend="footnote text">Cf.
+                            Ps. 141:3.</p></note> How wary does it behove you to be in all your
+                    conversation, being forewarned by your Judge that ‘By your words you shall be
+                    justified, or by your words you shall be condemned’!<note place="foot"
+                        xml:id="ftn37" n="37"><p rend="footnote text">Cf. Matt. 12:37.</p></note>
+                    How cautious lest ‘any corrupt communication’, any uncharitable, yea, or
+                    unprofitable discourse, should ‘proceed out of your mouth’, instead of ‘that
+                    which is good to the use of edifying’, and meet to ‘minister grace to the
+                        hearers’!<note place="foot" xml:id="ftn38" n="38"><p rend="footnote text"
+                            >Cf. Eph. 4:29.</p></note></p>
+                <p n="4">4. Yea, if God sees our hearts as well as our hands, and in all places, if
+                    he understandeth our thoughts long before they are clothed with words; how
+                    earnestly should we urge that petition, ‘Search me, O Lord, and prove me; try
+                    out my reins and my heart.’<note place="foot" xml:id="ftn39" n="39"><p
+                            rend="footnote text">Cf. Ps. 26:2 (BCP).</p></note> ‘Look well if there
+                    be any way of wickedness in me, and lead me in the way everlasting!’<note
+                        place="foot" xml:id="ftn40" n="40"><p rend="footnote text">Ps. 139:24
+                            (BCP).</p></note> Yea, how needful is it to work together with him in
+                    ‘keeping our hearts with all diligence’,<note place="foot" xml:id="ftn41" n="41"
+                            ><p rend="footnote text">Cf. Prov. 4:23.</p></note> till <pb n="04:047"
+                    />he hath ‘cast down imaginations, evil reasonings, and everything that exalteth
+                    itself against the knowledge of God, and brought into captivity every drought to
+                    the obedience of Christ’.<note place="foot" xml:id="ftn42" n="42"><p
+                            rend="footnote text">Cf. 2 Cor. 10:5 (see <hi rend="italic"
+                            >Notes</hi>).</p></note></p>
+                <p n="5">5. On the other hand, if you are already listed under the great captain of
+                    your salvation,<note place="foot" xml:id="ftn43" n="43"><p rend="footnote text"
+                            >See Heb. 2:10.</p></note> seeing ye are continually under the eye of
+                    your captain, how zealous and active should you be to ‘fight the good fight of
+                    faith, and lay hold on eternal life’,<note place="foot" xml:id="ftn44" n="44"><p
+                            rend="footnote text">1 Tim. 6:12.</p></note> ‘to endure hardship as good
+                    soldiers of Jesus Christ’,<note place="foot" xml:id="ftn45" n="45"><p
+                            rend="footnote text">Cf. 2 Tim. 2:3.</p></note> to use all diligence, to
+                    ‘war a good warfare’,<note place="foot" xml:id="ftn46" n="46"><p
+                            rend="footnote text">1 Tim. 1:18.</p></note> and to do whatever is
+                    acceptable in his sight! How studious should you be to approve all your ways to
+                    his all-seeing eyes, that he may say to your hearts, what he will proclaim aloud
+                    in the great assembly of men and angels, ‘Well done, good and faithful
+                        servants.’<note place="foot" xml:id="ftn47" n="47"><p rend="footnote text"
+                            >Cf. Matt. 25:21, 23.</p></note></p>
+                <p n="6">6. In order to attain these glorious ends, spare no pains to preserve
+                    always a deep, a continual, a lively, and a joyful sense of his gracious
+                    presence. Never forget his comprehensive word to the great father of the
+                    faithful, ‘I am the Almighty’ (rather, the <hi rend="italic"
+                    >All-sufficient</hi>) ‘God; walk before me, and be thou perfect!’<note
+                        place="foot" xml:id="ftn48" n="48"><p rend="footnote text">Gen. 17:1.
+                            Wesley’s parenthesis (‘rather, the All-sufficient’) echoes a long and
+                            complicated discussion of the meaning of <hi rend="italic">El
+                                Shaddai</hi>. In his <hi rend="italic">Explanatory Notes Upon the
+                                Old Testament</hi> he had followed Matthew Henry in his comment that
+                            ‘our old English translation [i.e., the Geneva Bible of 1560] reads [<hi
+                                rend="italic">El Shaddai</hi>] here very significantly, “I am God
+                            All-sufficient.” [God] is self-sufficient.’ Rashi had paraphrased the
+                            text, ‘I am He who possesses sufficient in my Divinity for every
+                            creature.’ John Skinner in his <hi rend="italic">Genesis </hi>(1910) in
+                            the <hi rend="italic">International Critical Commentary</hi> speaks of
+                            ‘traditional Jewish etymology’ leaning toward ‘All-sufficient’ or
+                            ‘Self-sufficient’ instead of All-powerful. E. A. Speiser, <hi
+                                rend="italic">Genesis</hi>, The Anchor Bible (1964), comments that
+                            ‘the traditional translation of <hi rend="italic">El Shaddai </hi>as
+                            “Almighty” goes back to an early rabbinic etymology, “Self-sufficient”.’
+                            Note, however, that Calvin in his <hi rend="italic">Commentary on
+                                Genesis</hi> stresses the meaning ‘All-powerful’.</p></note>
+                    Cheerfully expect that he before whom you stand will ever guide you with his
+                    eye, will support you by his guardian hand, will keep you from all evil. And
+                    ‘when you have suffered a while’ [he] will ‘make you perfect’, will ‘stablish,
+                    strengthen, and settle you’;<note place="foot" xml:id="ftn49" n="49"><p
+                            rend="footnote text">1 Pet. 5:10.</p></note> and then preserve you
+                    ‘unblameable, unto the coming of our Lord Jesus Christ’.<note place="foot"
+                        xml:id="ftn50" n="50"><p rend="footnote text">Cf. 1 Thess.
+                    3:13.</p></note></p>
+            </div>
+            <p><placeName>Portsmouth</placeName>, <date when="1788-08-12">August 12, 1788</date></p>
+        </body>
+    </text>
+</TEI>
