@@ -1,0 +1,596 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Sermon 138: Death and Deliverance</title>
+                <author>Wesley, John</author>
+                <editor role="text">Van Buskirk, Gregory P.</editor>
+                <editor role="digital">Taylor, Michelle M.</editor>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>The Wesley Works Digitzation Project</publisher>
+                <pubPlace>Tampa, FL</pubPlace>
+                <date>2024-02-25</date>
+            </publicationStmt>
+            <sourceDesc>
+                <listBibl>
+                    <biblStruct>
+                        <analytic>
+                            <title level="a">Sermon 138: Death and Deliverance</title>
+                        </analytic>
+                        <monogr>
+                            <title level="j">The Works of John Wesley, Volume IV: Sermons IV,
+                                115-151</title>
+                            <editor role="volume">Outler, Albert</editor>
+                            <imprint>
+                                <publisher>Abingdon Press</publisher>
+                                <pubPlace>Nashville, TN</pubPlace>
+                                <date when="1987-11-01">1987-11-01</date>
+                                <biblScope unit="volume" n="4"/>
+                                <biblScope unit="page" from="252" to="266"/>
+                            </imprint>
+                        </monogr>
+                        <series>
+                            <title level="s">The Works of John Wesley</title>
+                            <editor role="general">Baker, Frank</editor>
+                        </series>
+                    </biblStruct>
+                </listBibl>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Greg Van Buskirk created Word docs for all of Wesley's sermons using a combination of
+                OCR software and manual proofing. Michelle Taylor converted these docx into XML
+                using Oxygen's DITA automatic transformation scenario, then touched them up
+                manually.</p>
+        </encodingDesc>
+        <standOff>
+            <taxonomy>
+                <keywords>
+                    <term/>
+                </keywords>
+            </taxonomy>
+            <!--Include keywords and terms here eventually.-->
+        </standOff>
+        <revisionDesc/>
+    </teiHeader>
+    <text>
+        <body>
+            <pb n="04:252"/>
+            <head>
+                <hi rend="italic">An Introductory Comment</hi>
+            </head>
+            <introduction>
+                <p n="1">In retrospect, John Whitehead could conclude that John Wesley had been, if
+                    anything, candid past the point of prudence.<note place="foot" xml:id="ftn1"
+                        n="1"><p rend="footnote text"><hi rend="italic">Life of Wesley</hi>,
+                            I.148.</p></note> Here, in this early sermon and two fragments on the
+                    same theme, we have an interesting testimony to his lifelong hatred of cunning,
+                    deceit, and lying in all its forms.</p>
+                <p n="2">There had been, of course, an abundant controversy on the question of
+                    ‘dissimulation’, what with the violence of seventeenth-century English life and
+                    the tenuous fortunes of public life in the eighteenth century. Both Gilbert
+                    Burnet and Jonathan Swift had seen dissimulation as a prevalent way of
+                        life.<note place="foot" xml:id="ftn2" n="2"><p rend="footnote text">See
+                            Burnet’s <hi rend="italic">History of His Own Times</hi>, I.660, and
+                            Swift’s <hi rend="italic">Gulliver’s Travels</hi> (Heritage Press ed.
+                            [1940], Pt. III, pp. 265-69, 271); see also Lecky, <hi rend="italic"
+                                >History of England in the Eighteenth Century</hi>, I.147-48,
+                            164-65, 298.</p></note> Dissembling had been defended as a necessary
+                    evil in politics and society by Lords Bacon and Bolingbroke.<note place="foot"
+                        xml:id="ftn3" n="3"><p rend="footnote text">Cf. Francis Bacon, in <hi
+                                rend="italic">The Idea of a Patriot King</hi> (<hi rend="italic"
+                                >Works</hi>, III.80-81): ‘Dissimulation and secrecy are like the
+                            alloys mingled with pure ore; a little is necessary and will not debase
+                            the coin below its proper standard…’.</p></note> Sir John Suckling had
+                    praised it in verse,<note place="foot" xml:id="ftn4" n="4"><p
+                            rend="footnote text">‘Loving and Beloved’, in <hi rend="italic"
+                                >Fragmenta Aurea</hi> (1646).</p></note> and Bernard Mandeville had
+                    celebrated it in his cynical <hi rend="italic">Fable of the Bees</hi> (1714; 2nd
+                    edn., 1724). Wesley may not have read Mandeville in 1728, but he knew the world
+                    that Mandeville was pillorying, and he must also have been aware of the torrent
+                    of denunciation that the <hi rend="italic">Fable</hi> had drawn down upon itself
+                    from men as diverse as Richard Fiddes, John Dennis, and Archibald Campbell.
+                    Later, he would himself denounce Mandeville as worse than Machiavelli, since, as
+                    he put it, ‘the Englishman [<hi rend="italic">sic</hi>] loves and recommends
+                    vice of every kind…as absolutely necessary at all times for all
+                        communities.’<note place="foot" xml:id="ftn5" n="5"><p rend="footnote text"
+                            >JWJ, April 14, 1756.</p></note></p>
+                <p n="3"><pb n="04:253"/>But Wesley stood unmoved in a contrary tradition, that
+                    cherished sincerity and repudiated all its opposites as hypocrisy. He had the
+                    backing of Robert South, who blasted away at dissimulation in sermon after
+                        sermon.<note place="foot" xml:id="ftn6" n="6"><p rend="footnote text">Cf.,
+                            e.g., <hi rend="italic">Sermons</hi> (1844), I.139, 187-203.</p></note>
+                    Earlier, Henry Smith had denied that it was any necessary part of ‘public
+                        polity’.<note place="foot" xml:id="ftn7" n="7"><p rend="footnote text">Cf.
+                                <hi rend="italic">Sermons</hi> (1657), p. 199.</p></note> Moreover,
+                    there was William Sheppard’s <hi rend="italic">Sincerity or Hypocrisy; Or, the
+                        Sincere Christian and Hypocrite in their Lively Colours, Standing One by the
+                        Other</hi> (1658). Most decisively, though, he had the examples of his
+                    parents before him, and their lifelong habits of forthrightness and plain
+                    dealing. Hence, on the very threshold of his ministry, he was moved to stern
+                    denial that dissimulation is a sincere Christian’s option under any
+                    circumstance.</p>
+                <p n="4">The following sermon and its two related fragments express the young
+                    Wesley’s views. Later, he will repeat them and his condemnations of lying even
+                    with an alleged good intention, in Nos. 24, ‘Sermon on the Mount, IV’, IV.3; 52,
+                        <hi rend="italic">The Reformation of Manners</hi>, IV.4-5; and 90, ‘An
+                    Israelite Indeed’, a second sermon on John 1:47.</p>
+                <p n="5">The holograph of the full sermon here survives in the Morley Collection in
+                    Wesley College, Bristol. It is on thirteen numbered pages in the abbreviated
+                    longhand already mentioned. The paper cover has the number ‘17’ inscribed on it
+                    in Wesley’s hand (indicating its place in the early sermons). Beneath this is a
+                    note, in Adam Clarke’s hand: ‘Mr. J. Wesley’s Sermon on John 1:47, Behold an
+                    Israelite Indeed, etc. Jan. 17, 1728.’ Near the foot of p. 13 is a further note
+                    in Wesley’s hand: ‘Jan. 17, 1728, tr[anscribed], 22 m[inutes]’and ‘2½
+                    aftern[oon]’ (i.e., 2:30 p.m., the time he had finished transcribing his fair
+                    copy). On the back cover there is a final notation of Wesley’s, ‘At
+                    Epworth’.</p>
+                <p n="6">The first fragment on Rom. 12:9 would appear to have been a first draft of
+                    the proem of still another sermon ‘against dissimulation’, with no indication of
+                    date or provenance, but probably from the same general period. It may be seen,
+                    as a single page, in the Elmer T. Clark Collection of Wesleyana in Lake
+                    Junaluska, North Carolina.</p>
+                <p n="7">The second fragment looks more like the remains of an uncompleted draft of
+                    what had been designed as a whole sermon. It has survived as part of the Colman
+                    Miscellany in the Methodist Archives in Manchester, in a form that poses many
+                    puzzles. There are twelve pages; the first two are blank, the third is numbered
+                    ‘3’, the fourth has revisions <pb n="04:254"/>for insertion on the facing
+                    (fifth) page, the sixth with revisions of the text on its facing page (numbered
+                    ‘4’). The eighth page is blank, the ninth has some text but is unnumbered, the
+                    tenth is blank, the eleventh is numbered ‘5’ and contains only two lines of
+                    text, ending with an unfinished sentence, the twelfth page is blank. There are
+                    numerous erasures, revisions, and additions. Its text, as presented here, is an
+                    attempted reconstruction of what may have been Wesley’s intentions as they can
+                    be gathered from the document as it stands.</p>
+                <p n="8">The connection between the two fragments is obscure. What is clear is that,
+                    whether we are dealing with two sermons (the first one on John 1:47, the other
+                    on Rom. 12:9) or with three, the arguments in all of them are commonplace enough
+                    to see in all of this material an expression of a single idea with different
+                    facets: that dissimulation has no successful defenders—only practitioners—that
+                    it is actually a form of folly (as well as a vice) because it is finally
+                    self-defeating; dissemblers are often hard-pressed to maintain their disguises.
+                    The conclusion is also a Christian commonplace, <hi rend="italic">viz.</hi>,
+                    that, therefore, honesty is not only the best polity but also the easier one in
+                    the long run. Nothing here, either in the sermon or the two fragments, goes
+                    beyond Sheppard or South or Tillotson. Thus, whatever the complications of these
+                    texts, the resulting impression is plain enough: here is the gospel of moral
+                    rectitude as understood by a young Anglican who was both a fledgling don and, at
+                    the time, an apprentice country cleric.</p>
+            </introduction>
+            <pb n="04:255"/>
+            <div type="msFragment">
+                <head>Sermon 138A: On Dissimulation</head>
+                <epigraph>
+                    <p>John 1:47</p>
+                    <p> Ἴδε ἀληθῶς Ἰσραηλίτης, ἐν ᾧ δόλος οὐκ ἔστι.</p>
+                    <p>
+                        <hi rend="italic">Behold an Israelite indeed, in whom is no guile!</hi>
+                    </p>
+                </epigraph>
+                <div type="introduction">
+                    <p n="1">[1.] ’Tis too common an artifice with our enemy to persuade us into one
+                        sin to hide another. And an artifice it is, too commonly successful. When he
+                        has once led men into that strong delusion<note place="foot" xml:id="ftn8"
+                            n="8"><p rend="footnote text">See 2 Thess. 2:11.</p></note> that their
+                        temporal is their supreme interest, they are easily induced to sacrifice
+                        everything to it, and stick at nothing that may promote it. The more
+                        anything tends to advance this, the more carefully they embrace and preserve
+                        it. And finding reputation to do so in an eminent degree, to be of great use
+                        in their temporal affairs, they had rather sin twice against their
+                        conscience than once against their character.<note place="foot"
+                            xml:id="ftn9" n="9"><p rend="footnote text">See <hi rend="italic"
+                                    >OED</hi> for eighteenth-century usages of ‘character’ as
+                                connoting ‘good repute’ or ‘status’.</p></note></p>
+                    <p n="2">[2.] Particular sins on particular occasions he recommends to them for
+                        this purpose. But a general one there is that answers all, a habit [of]
+                        dissimulation, the practice directly opposite to that which God recommends
+                        to Christians. This his favourites are seldom without, and they find it
+                        indeed of eminent service. A man may cover some vices by other methods, but
+                        this is equally a cover for all. The whole person, unless when he has a mind
+                        to appear, is by this made quite invisible; and when he has a mind to
+                        appear, ’tis usually in a shape quite different from his own.</p>
+                    <p n="3">[3.] G.D.<note place="foot" xml:id="ftn10" n="10"><p
+                                rend="footnote text">I.e., ‘General Divisions’; cf. Nos. 141, ‘The
+                                Image of God’, §4 and n.; and 145, ‘In Earth as in Heaven’ on Matt.
+                                6:10. John Donne (William Mueller, <hi rend="italic">John Donne:
+                                    Preacher</hi>, pp. 98-99), Jonathan Swift (‘Letter to a Young
+                                Clergyman’), and Benjamin Kennicott (undated letter printed in <hi
+                                    rend="italic">WMM</hi>, 1866, p. 47) use the term ‘divisions’
+                                with reference to sermons.</p></note> To preserve them who have not
+                        this reason for dissembling from deceiving both themselves and others,
+                        having already given you a view of the beauty, honourableness, and <pb
+                            n="04:256"/>wisdom of that godlike virtue, sincerity,<note place="foot"
+                            xml:id="ftn11" n="11"><p rend="footnote text">For commendations of
+                                ‘sincerity’ see Nos. 137, ‘On Corrupting the Word of God’, Preface;
+                                and 2, <hi rend="italic">The Almost Christian</hi>, I.9 and n.
+                                Wesley’s comment here probably refers to the first of a trilogy of
+                                sermons on John 147 (No. 16 in Professor Heitzenrater’s enumeration)
+                                which has not survived.</p></note> my design is now to paint in
+                        opposite colours the opposite vice, insincerity: to show the baseness,
+                        deformity, and folly of it—how mean, odious, and imprudent it is to
+                        dissemble.</p>
+                </div>
+                <div type="section" n="1">
+                    <p n="1">I. [1.] If an estimate can be made of the baseness of any practice from
+                        the baseness of its original, where is it possible to find one that had a
+                        meaner than artifice and dissembling? It sprung first from the basest being
+                        in nature: the devil was the father both of this and [of] lies.<note
+                            place="foot" xml:id="ftn12" n="12"><p rend="footnote text">See John
+                                8:44.</p></note> The devil was the first that had occasion for
+                        either, for he was the first that wrought wickedness. And this immediately
+                        laid him under a necessity of dissembling, to hide it: wholly, if he could,
+                        from such as dissented from it, and in part from his companions. These he
+                        deceived by seeming better than he was, from the beginning of his apostasy;
+                        and had he not done so, had his whole pride, malice, and envy appeared in
+                        the infancy of his rebellion, ’tis highly probable a third part of the host
+                        of heaven would never have listed under his banner.</p>
+                    <p>Such Satan was before the world began, and such has he been ever since. His
+                        fellows indeed he can deceive no more, so that he has been forced to employ
+                        his skill on new objects; and what objects could he find so proper for his
+                        purpose, after his fellows, as the children of men? They had neither too
+                        much understanding, nor too little: not so much as to put him out of hopes
+                        of success, without which he would not have dared to attempt them; nor so
+                        little as to prevent their being accountable for his success, without which
+                        it would not have gratified his malice, and so he would not have cared for
+                        it. On these he has practised ever since; and practised so long till he has
+                        taught them his art; till he has taught them, with other of his
+                        dispositions, this disposition to deceive so perfectly that perhaps ’tis
+                        only the want of equal natural powers that hinders some of them from
+                        equalling their master.</p>
+                    <p n="2">2. Little more honour, we may suppose, can dissembling gain from these
+                        its practisers than from its author. If he who gave them their parts, the
+                        master of the house, be Beelzebub,<note place="foot" xml:id="ftn13" n="13"
+                                ><p rend="footnote text">Matt. 10:25.</p></note> what can we <pb
+                            n="04:257"/> say in praise of his household? We can say that they
+                        resemble him in several respects: they were both created upright; both had
+                        it [in] their power to continue so; but both wilfully declined it. The same
+                        course both took when sensible of their fault—not to amend, but only to
+                        cover it, to sew figleaves together to hide their shame,<note place="foot"
+                            xml:id="ftn14" n="14"><p rend="footnote text">See Gen. 3:7.</p></note>
+                        without one thought of removing the cause of it. By this means is one become
+                        the most contemptible of men, as the other is the meanest of angels.</p>
+                    <p n="3">3. By this means his work multiplies on his hands: he must lay veil
+                        upon veil, must take as much care to cover his dissimulation as he did by
+                        that dissimulation to cover anything else. For so very despicable is a known
+                        dissembler in the eyes of all men that scarce any man thinks it worth while
+                        to dissemble the low opinion he entertains of him. So very generally is
+                        dissimulation despised that it never yet has found a defender.<note
+                            place="foot" xml:id="ftn15" n="15"><p rend="footnote text">See Nos.
+                                100,‘On Pleasing All Men’, I.4 and n.; and 111, <hi rend="italic"
+                                    >National Sins and Miseries</hi>, II.2</p></note> Almost all
+                        other vices in their turns have found some son of Belial to plead their
+                        cause: but this is of so evidently contemptible a nature, so perfectly base
+                        and dishonourable, that never of all its practisers hath one appeared who
+                        durst openly engage in its defence. Its best friends, as well as its
+                        enemies, give it up in everything but their practice, both reason and the
+                        general sense of the world making it utterly indefensible.</p>
+                </div>
+                <div type="section" n="2">
+                    <p n="0">II. Yet well it were for the crafty, if this were [all]; if they were
+                        only despised by those that knew them. But ’tis seldom so well with them.
+                        Few men stop here; ’tis an easy step from contempt to hatred. An open,
+                        generous enemy we make allowances to, and often wish to make a friend of.
+                        But one that smiles in our face while he prepares to wound us is as odious
+                        as dishonourable.<note place="foot" xml:id="ftn16" n="16"><p
+                                rend="footnote text">Cf. Shakespeare, <hi rend="italic">Hamlet</hi>,
+                                I.v.108: ‘…one may smile, and smile, and be a villain!’</p></note>
+                        And there is little to choose whether he thus conceals real enmity under the
+                        appearance of indifference, or whether he conceals real indifference under
+                        the appearance of love. ’Tis hard, even for a Christian, so perfectly to get
+                        the mastery over his temper as not to conceive some aversion to one that has
+                        a habit of doing either. He who was not withheld by Christianity would make
+                        no scruple of giving a loose<note place="foot" xml:id="ftn17" n="17"><p
+                                rend="footnote text">Cf. Dryden, <hi rend="italic">Conquest of
+                                    Granada</hi>, Pt. 2, Act IV, sc. 3: ‘give a loose to love’;
+                                Nathaniel Lee, <hi rend="italic">Theodosius, Or the Force of
+                                    Love</hi>, Act III, sc. 2: ‘Now give a loose, let go the
+                                slacken’d reins’; Watts, ‘A Hymn for Sermon VIII’, st. 3 (<hi
+                                    rend="italic">Works</hi>, I.94):</p><p rend="Verse">But if you
+                                quit the paths of truth,</p><p rend="Verse">To follow foolish
+                                fires,</p><p rend="Verse">And give a loose to giddy youth,</p><p
+                                rend="Verse">With all its wild desires.</p><p rend="footnote text"
+                                >See also <hi rend="italic">ibid.</hi>, ‘A Hymn for Sermon XXIV’
+                                    (<hi rend="italic">Works</hi>, I.267): ‘give our tongues a
+                                loose’; Wesley in No. 23, ‘Sermon on the Mount, III’, I.5, speaks of
+                                ‘giving a loose to our desires’.</p></note> to his resentment; would
+                        almost think it meritorious to hate such wretches more sincerely than they
+                        love anything but their [own] interest.</p>
+                    <p><pb n="04:258"/>Where indeed could sincerity of hatred be better placed, were
+                        we not restrained by our religion? As the more benevolent any being is the
+                        more it deserves the love of others, so the less benevolent, the more
+                        malicious and revengeful a being is, the properer object it is of hate. But
+                        ’tis a question whether they be capable of love, who are given over to
+                        dissembling—that they are fully capable of hatred, malice, and revenge, we
+                        have frequent and melancholy proofs. The nature of love is sincere, plain,
+                        and open; and so is the nature of discretion. This therefore is well
+                        consistent with it—whether cunning be may be doubted. For where one [is],
+                        there is no need of the other. Why should a man dissemble when he loves? If
+                        his goodwill appeared, would he be ever the worse? Is it not rather likely
+                        to procure him a return of goodwill? And that no one, surely, will be afraid
+                        of! No, it is not love, but hate, that men use to dissemble. He therefore
+                        that dissembles with all men gives a strong presumption that he loves none;
+                        none, at least, so well as his [own] interest</p>
+                    <p>And how detestable a character is this! How nearly resembling that of the
+                        devil, his teacher!<note place="foot" xml:id="ftn18" n="18"><p
+                                rend="footnote text">For Wesley’s satanocratic views, see No. 12,
+                                ‘The Witness of Our Own Spirit’, §10 and n.</p></note> If he loves
+                        nobody, is it at all worse than he deserves if nobody loves him? And so it
+                        fares with the other, the great deceiver and enemy of mankind—the only
+                        creature we know of in the creation that is entirely unloving and
+                        unbeloved.</p>
+                </div>
+                <div type="section" n="3">
+                    <p n="0">III. The folly of this base, hateful practice, comes in the third place
+                        to be considered. And this we may easily do by observing, first, the ends
+                        the dissembler aims at, ends unsatisfactory while they last, and yet
+                        incapable of lasting long; and then the means he uses to attain them, which,
+                        to say no more of their odiousness and baseness, are difficult, dangerous,
+                        and sinful.</p>
+                    <p n="1">1. First, the end the dissembler proposes to himself must be <pb
+                            n="04:259"/>some temporal advantage. They whose chief end in acting is
+                        eternal happiness neither need nor dare conceal it. But this [temporal] end,
+                        whether wealth, honour, power, or sensual pleasure, if ever he should attain
+                        it, when attained, will not satisfy his desires, will not make him happy,
+                        even while it lasts. All things under the sun—believe him who tried
+                            them<note place="foot" xml:id="ftn19" n="19"><p rend="footnote text"
+                                >I.e., the author of Ecclesiastes; the phrase ‘under the sun’ occurs
+                                twenty-nine times in Eccles., and nowhere else in the
+                        AV.</p></note>—however fair they may appear at a distance, when we come near
+                        them are no better than vanity, and give more vexation than real delight.
+                        The best of them can only please the sense; but that is not enough to make
+                        us happy. The soul, too, before that can be brought to pass, must have its
+                        pleasures, as well as the body. But where are those to be found? Not in
+                        perishable things, but in objects suitable to its immortal nature.</p>
+                    <p n="2">2. That what he seeks is perishable, as well as unsatisfactory, is
+                        another proof of the folly of a dissembler. Though the objects he pursues
+                        are but empty and trifling, yet would their value be greater than it is if
+                        they would continue with him that acquired them. But he has not only chosen
+                        the worse part, but that which soon will be taken away. When he hath spent
+                        his life, and consumed his strength in the acquirement, ‘what hath he of all
+                        his labour, and of the vexation of his heart, wherewith he hath laboured
+                        under the sun?’<hi rend="endnote_reference"><note place="end"><p
+                                    rend="endnote text">Eccles. 2:22.</p></note></hi> ‘To a man that
+                        hath not laboured therein shall he leave all he gained for his
+                            portion;’<note place="foot" xml:id="ftn20" n="20"><p
+                                rend="footnote text">Cf. Eccles. 2:21.</p></note> ‘for there is
+                        neither riches, nor power, nor honour, nor sensual pleasure in the grave
+                        whither he goeth’!<note place="foot" xml:id="ftn21" n="21"><p
+                                rend="footnote text">Cf. Eccles. 9:10.</p></note></p>
+                    <p n="3">3. Let us, secondly, consider the means the crafty make use of in
+                        pursuit of their wretched purpose. How difficult they are is easy to
+                        conceive: the dissembler has so many parts to play that without the utmost
+                        pains and vigilance he can scarce avoid being out in some. He must seem of
+                        all parties, opinions, and tempers, as those vary with whom he converses.
+                        But how hard is it to shift the scene so often and never be suspected of
+                        shifting it at all! The very number of his parts carries difficulty with it,
+                        were each of them ever so easy. But each of them singly is less easy than
+                        the part of an honest man; he follows nature, whom the other directly <pb
+                            n="04:260"/>opposes, and may therefore depend on her assistance. And
+                        wh[ere] nature falls, grace supplies h[is] want—with which the dissembler
+                        can have little acquaintance.</p>
+                    <p n="4">4. This makes his [the honest man’s] business as safe as ’tis easy:
+                        whereas the dissembler, by the nature of his employ, is exposed to continual
+                        danger. He has undertaken to defend so numerous posts that ’tis great odds
+                        if [he] can always defend them, if he is not, in spite of all his care,
+                        surprised sometime at one or other. Besides, many of them are scarcely
+                        tenable long against a prudent, observing man. The least oversight gives the
+                        one so irrecoverable an advantage, that all the shifts of the other will not
+                        be enough to secure him from the misfortune he dreads above all things: the
+                        being divested of his borrowed plumes and shown to the world in his native
+                        colours. Nor does he dread it without cause; for whenever this happens all
+                        his measures are disconcerted, all his schemes are destroyed; and if he
+                        prosecute them still he has farther to go than when he first set out.</p>
+                    <p n="5">5. The sinfulness of this difficult, dangerous practice is the last and
+                        greatest instance of its folly. And this no one can long doubt of: for if
+                        sincerity be a virtue, then dissembling must be a vice, they being opposite
+                        habits; wherefore<note place="foot" xml:id="ftn22" n="22"><p
+                                rend="footnote text">MS, ‘wh of’ (i.e., ‘whereof’), surely an error
+                                for ‘wh f’.</p></note> the one, wherever it obtains, must exclude
+                        the other. And God tells us himself in express words how he does, and by
+                        consequence how we should esteem it: ‘The Lord shall abhor,’ saith the
+                        inspired Psalmist, ‘both the bloodthirsty and deceitful man.’<note
+                            place="foot" xml:id="ftn23" n="23"><p rend="footnote text">Ps. 5:6
+                                (BCP).</p></note> From which words we not only learn in general that
+                        God detests the habitual dissembler, but the degree, too, in which he
+                        detests them; as they are ranked with the bloodthirsty in his displeasure,
+                        whom we know he is not a little displeased with. And in fact these as well
+                        as the other offend, not against his truth only, but his mercy. Few there
+                        are that deceive but in order to hurt; though it may be done with all the
+                        seeming tenderness imaginable. But that is no proof of their good intention:
+                        ‘The words of their mouth may be smoother than butter, when war is in their
+                        hearts. But those selfsame words, though softer than oil, yet are they drawn
+                            swords.’<hi rend="endnote_reference"><note place="end"><p
+                                    rend="endnote text">Ps. 55:21 [AV].</p></note></hi></p>
+                    <p>‘Deliver me, O Lord,’ said David, who knew them, ‘from lying <pb n="04:261"/>
+                        lips, and from a deceitful tongue.’<note place="foot" xml:id="ftn24" n="24"
+                                ><p rend="footnote text">Ps. 120:2.</p></note> And well might he say
+                        so; for experience had taught him that the fruits of them ‘were more bitter
+                        than death’.<note place="foot" xml:id="ftn25" n="25"><p rend="footnote text"
+                                >Eccles. 7:26.</p></note> And if it hath indeed appeared that
+                        dissembling is base and odious, and in fact despised and hated by God and
+                        man; that besides this it is foolish on several accounts, as both proposing
+                        to it[self] vain, perishable ends, and using difficult, dangerous, sinful
+                        means to attain them; let us join in David’s prayer, in the largest sense,
+                        and beg that we may neither suffer by deceit, nor act it! But more fervently
+                        pray we against the latter, as being by far the greater evil. ‘Whoso
+                        pleaseth God shall escape from both; but the sinner shall be taken by
+                            them!’<hi rend="endnote_reference"><note place="end"><p
+                                    rend="endnote text">Eccles. 7:26.</p></note></hi></p>
+                </div>
+            </div>
+            <pb n="04:262"/>
+            <div type="msFragment">
+                <head>Sermon 138B: On Dissimulation (A Fragment)</head>
+                <epigraph>
+                    <p>Romans 12:9</p>
+                    <p>
+                        <hi rend="italic">Let love be without dissimulation.</hi>
+                    </p>
+                </epigraph>
+                <p>From that most agreeable, as [also that] most indispensable duty, of loving our
+                    neighbour as ourselves, no Christian possibly can, and none ever desired to be,
+                    released. So express and frequently repeated are the precepts that enjoin it,
+                    that while their authority is allowed to be divine, their force can never be
+                    eluded. So great and numerous are the advantages resulting from it, as to all
+                    men, so in particular to him who himself observed it, that he would be far from
+                    desiring it if it could [be eluded].<note place="foot" xml:id="ftn26" n="26"><p
+                            rend="footnote text">The preceding sentence contains several revisions,
+                            including the erasure of ‘not desire to be less obliged to it’ between
+                            ‘would’ and ‘be’. It appears that Wesley either lost the thread of his
+                            sentence or (less likely) that there was a facing page with some
+                            alterations which have been lost.</p></note> Love gives him spirit and
+                    vigour to attempt and conquer the most dangerous and difficult parts of his
+                    duty: and withal so sweetens the attempt that what without it would be tedious,
+                    if not painful, by means of this becomes highly pleasing. While we are employed
+                    in relieving one we love from pain, we ourselves can very hardly be sensible of
+                    any: while we bring an addition to his happiness we can’t avoid increasing our
+                    own.</p>
+                <p>Yet from this, as from most other strong principles of acting, at least from the
+                    appearances of them, much evil as well as much good may result; to prevent which
+                    St. Paul lays down, in the words of the text, a very necessary caution
+                    concerning it: let love be without dissimulation; let our affection to our
+                    neighbour be true, genuine, and sincere; let no part of it, much less the whole,
+                    be put on to serve a turn….</p>
+                <p>…We shall more evidently see the absolute necessity of this loving without
+                    dissimulation if we consider, first, the General Reasons there are….<note
+                        place="foot" xml:id="ftn27" n="27"><p rend="footnote text">This passage
+                            appears on the verso of the opening page and clearly was intended as an
+                            insertion on the missing p. ‘2’, occurring about halfway down that page,
+                            which may well have begun sect. I. of the sermon, on general reasons for
+                            avoiding dissimulation. Thus the extant page would form the beginning of
+                            Wesley’s ‘introduction’.</p></note></p>
+            </div>
+            <pb n="04:263"/>
+            <div type="msFragment">
+                <head>Sermon 138C: On Dissimulation (Another Fragment)</head>
+                <div type="section" n="1">
+                    <p n="0">[I.] …that sort of deceit which of all others has most to plead [by way
+                        of] excuse. ‘Will you speak wickedly’, saith he, ‘for God? And talk
+                        deceitfully for him?’<note place="foot" xml:id="ftn28" n="28"><p
+                                rend="footnote text">Job 13:7.</p></note> ‘Shall not his excellency
+                        make you afraid, and his dread fall upon you?’<hi rend="endnote_reference"
+                                ><note place="end"><p rend="endnote text">[Job 13,] ver.
+                                11.</p></note></hi> Now if we must not use deceit, then we must
+                        [not] dissemble, even for God’s sake; the latter including the former. And
+                        if we must not dissemble for God’s sake, much less may we do it for the sake
+                        of our neighbour or ourselves. And if we may not use deceit or dissimulation
+                        with a laudable end in view, least of all may we use it with no end at all,
+                        or merely for the sake of a jest: ‘As a madman who casteth firebrands,
+                        arrows, and death, so is the man that deceiveth his neighbour, and saith, Am
+                        I not in sport?’<note place="foot" xml:id="ftn29" n="29"><p
+                                rend="footnote text">Prov. 26:18-19.</p></note></p>
+                </div>
+                <div type="section">
+                    <p>II. But of all dissimulation the most inexcusable is that which is now, in
+                        the second place, to be considered: that which counterfeits affection where
+                        there is none; or where there is, couples it with dissembling. For beside
+                        the reasons above repeated against dissimulation in general, there are
+                        several others over and above, which particularly require that our love
+                        should be without dissembling. Though were there none of these latter our
+                        obligation would nevertheless very plainly appear: for if all dissimulation
+                        be unlawful,<note place="foot" xml:id="ftn30" n="30"><p rend="footnote text"
+                                >The MS contains the following, which is struck through: ‘then must
+                                every species of it be so, and if so…’.</p></note> every precept
+                        that enjoins the love of our neighbour enjoins love without
+                        dissimulation.</p>
+                    <p>But setting this aside, to dissemble love implies either that we really have
+                        none, or that we strive to make the love we have appear greater than it is.
+                        But whether it be taken in one sense or the other it is a [practice] as
+                        despicable as it is foolish, and [odious] to God and man.<note place="foot"
+                            xml:id="ftn31" n="31"><p rend="footnote text">See Rom. 12:9; and below,
+                                n. 29.</p></note> For the folly of the dissembler in either case is
+                        evident, in that with the same if not less pains than he bestows on the <pb
+                            n="04:264"/>appearance of this or any other Christian virtue he might
+                        purchase the reality. A man of no extraordinary parts with ordinary
+                        diligence may attain to the real love of his neighbour, may every day
+                        acquire farther degrees of it, and secure himself in the possession of them.
+                        And in none of these particulars can he possibly be disappointed, unless by
+                        his own fault; since if his own strength be not sufficient, one that is able
+                        to keep his promise has promised to supply him with more.<note place="foot"
+                            xml:id="ftn32" n="32"><p rend="footnote text">See 2 Cor.
+                            12:9.</p></note> He on the contrary who aims at the appearance of love
+                        only, should besides his natural parts—which ought doubtless to be exceeding
+                        good, since he is to depend wholly upon them—have an extraordinary share of
+                        diligence, the shadow being both more hard to be grasped, and more apt to
+                        slip from us afterwards, than the substance. When he has it, it requires at
+                        least as much pains to keep as it did at first to acquire it. And this it
+                        highly concerns him to do; for should he ever let it go, should he ever
+                        suffer the mask to drop off, all his designs are unravelled, all his labour
+                        vain. What folly is it, then, to take so great pains for what is of no value
+                        if obtained, and what you can neither be sure of obtaining nor of keeping it
+                        if you do; especially since a thing of the same kind, only infinitely more
+                        valuable, is to be obtained with far less labour; since this we can’t fail
+                        of if we really desire it, any more than we can fail of being the better ,
+                        for having it.</p>
+                    <p>Were it only on this account, were only his folly to be considered, a
+                        dissembler of love would be a very despicable character. And that it is so
+                        mankind is generally agreed; most men concurring in a sincere contempt of
+                        him who is insincere in his professions of love to others. Indeed, whether
+                        they did or no, there is something so extremely base, so particularly mean
+                        and servile in this sort of dissimulation, that a generous spirit could
+                        never descend to it. To act in perpetual contradiction to one’s own desires
+                        and sentiments, to commend him for whom one has no real esteem, to watch
+                        over his interests for whom one has no real love, are instances of the most
+                        low and abject slavery. And yet these and numberless others is he we speak
+                        of under a necessity of submitting to.<note place="foot" xml:id="ftn33"
+                            n="33"><p rend="footnote text">The following is here erased: ‘or he
+                                can’t even appear to love,’ after which a large cross (X) in the
+                                centre of the page strikes out the following passage: ‘since
+                                everyone knows ’tis the property of that passion to make us ready to
+                                give up ourselves in whatever is of small consequence, desirous of
+                                finding and publishing the good qualities, [‘of the beloved object’,
+                                struck through] and particularly studious of the welfare of the
+                                beloved object.’</p></note> He must submit to perform all the tender
+                            <pb n="04:265"/>offices that naturally flow from real affection, all
+                        which nothing but real affection can make pleasing. To perform them on any
+                        other principle is at best a dull, insipid task, commonly wearisome and
+                        painful. And yet as if all this were not enough, he usually overacts his
+                        part, generously taking on himself the only show of generosity he has, more
+                        pains than he need, than properly belong to his undertaking.</p>
+                    <p>Such ungenerous, servile baseness of temper as this must needs raise contempt
+                        in all that are witnesses of it, unless themselves have reason to be afraid
+                        of the same condemnation. And hatred as well as contempt it can scarce fail
+                        of raising, seeing it is mischievous as well as servile. From professed
+                        enemies prudence and caution may secure us; but what will secure us from
+                        professing friends?<note place="foot" xml:id="ftn34" n="34"><p
+                                rend="footnote text">Wesley’s variation of a common English proverb;
+                                cf. Frank S. Mead, ed., <hi rend="italic">The Encyclopedia of
+                                    Religious Quotations</hi> (Westwood, N.J., Fleming H. Revell
+                                Co., n.d), p. 155: ‘God save me from my friends; I can take care of
+                                my enemies’; and W. C. Hazlitt, <hi rend="italic">English
+                                    Proverbs</hi> (1860), p. 328: ‘Save a man from his friends and
+                                leave him struggle with his enemies.’</p></note> ’Tis easy to ward
+                        off a stroke, when we see it coming.<note place="foot" xml:id="ftn35" n="35"
+                                ><p rend="footnote text">Here, Wesley first wrote, and then deleted:
+                                ‘and where we know on what side we will be attacked’.</p></note> But
+                        where is the fence against that which we do not suspect till we feel it?
+                        There is no fence against the mischief it does private men; and scarce any
+                        against the prejudice it brings to the interests of mankind in general. How
+                        destructive is it of mutual trust among men! Not only those who have been
+                        themselves betrayed, but all who hear of their misfortune will be afterwards
+                        less willing to trust anyone. How destructive is it of mutual love among
+                        men, for this very reason: if they must not trust others, they must not put
+                        themselves so much into their power as to be plain and open with them; but
+                        this love almost necessarily requires. Besides, if mutual confidence be
+                        taken away, we can never be sure of any man’s love, notwithstanding his most
+                        ardent professions; but by our not believing the sincerity of his love to us
+                        one of the strongest motives to return it is lost.</p>
+                    <p>It cannot be but that the occasion of so much ill to mankind must be odious
+                        as well to God as man;<note place="foot" xml:id="ftn36" n="36"><p
+                                rend="footnote text">Cf. above, n. 24; another oblique reference to
+                                Rom. 12:9.</p></note> since as he is nearly concerned for the
+                        welfare of his creatures he must be sharply displeased at what impairs or
+                        destroys it; more particularly when it strikes at the root of their
+                        happiness by overthrowing that peace <pb n="04:266"/>and goodwill which he
+                        knows was most necessary to it, and therefore made it one of the great
+                        commandments of his law, and inseparably joined it to the other, his own
+                        glory. Whatever prejudices this must needs be odious in his sight; and
+                        therefore….</p>
+                </div>
+            </div>
+        </body>
+    </text>
+</TEI>

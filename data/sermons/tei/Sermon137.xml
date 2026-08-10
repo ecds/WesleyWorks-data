@@ -1,0 +1,341 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Sermon 137: On Corrupting the Word of God</title>
+                <author>Wesley, John</author>
+                <editor role="text">Van Buskirk, Gregory P.</editor>
+                <editor role="digital">Taylor, Michelle M.</editor>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>The Wesley Works Digitzation Project</publisher>
+                <pubPlace>Tampa, FL</pubPlace>
+                <date>2024-02-25</date>
+            </publicationStmt>
+            <sourceDesc>
+                <listBibl>
+                    <biblStruct>
+                        <analytic>
+                            <title level="a">Sermon 137: On Corrupting the Word of God</title>
+                        </analytic>
+                        <monogr>
+                            <title level="j">The Works of John Wesley, Volume IV: Sermons IV,
+                                115-151</title>
+                            <editor role="volume">Outler, Albert</editor>
+                            <imprint>
+                                <publisher>Abingdon Press</publisher>
+                                <pubPlace>Nashville, TN</pubPlace>
+                                <date when="1987-11-01">1987-11-01</date>
+                                <biblScope unit="volume" n="4"/>
+                                <biblScope unit="page" from="244" to="251"/>
+                            </imprint>
+                        </monogr>
+                        <series>
+                            <title level="s">The Works of John Wesley</title>
+                            <editor role="general">Baker, Frank</editor>
+                        </series>
+                    </biblStruct>
+                </listBibl>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Greg Van Buskirk created Word docs for all of Wesley's sermons using a combination of
+                OCR software and manual proofing. Michelle Taylor converted these docx into XML
+                using Oxygen's DITA automatic transformation scenario, then touched them up
+                manually.</p>
+        </encodingDesc>
+        <standOff>
+            <taxonomy>
+                <keywords>
+                    <term/>
+                </keywords>
+            </taxonomy>
+            <!--Include keywords and terms here eventually.-->
+        </standOff>
+        <revisionDesc/>
+    </teiHeader>
+    <text>
+        <body>
+            <pb n="04:244"/>
+            <head>
+                <hi rend="italic">An Introductory Comment</hi>
+            </head>
+            <introduction>
+                <p n="1">This sermon stands as No. 12 in Wesley’s list.<note place="foot"
+                        xml:id="ftn1" n="1"><p rend="footnote text">Heitzenrater, ‘John Wesley’s
+                            Early Sermons’, p. 116.</p></note> He wrote it out in its present form
+                    on October 6, 1727, and preached it the next day at Epworth. He repeated the
+                    same sermon at nearby Wroot on January 5, 1728/29. The manuscript is extant in
+                    the Methodist Archives in Manchester on eleven numbered pages of a sixteen-page
+                    gathering in which the front cover, pp. 10, 12, and the back page have no text.
+                    The first page has the number ‘12’ inscribed on it in Wesley’s hand.</p>
+                <p n="2">A reader may be entitled to a passing wonder at such a sermon (<hi
+                        rend="italic">viz.</hi>, on Christian preaching and the office of the
+                    Christian preacher) being preached to two congregations in the remote fen
+                    country of Lincolnshire, with no intention, apparently, of any wider audience.
+                    One should notice the careful contrast between three of the obvious ways in
+                    which the preaching office is most often abused (<hi rend="italic">viz.</hi>, by
+                    the preaching of one’s own fancies, by false interpretation, or by pandering to
+                    ‘the tastes of one’s hearers’) and the five ways in which the integrity of the
+                    Word of God is best preserved. There is, besides, a quite typical Puritan
+                    definition of the Christian preacher as ‘a commissioned officer’ of God,
+                    exercising his office ‘in the sight of him whose commission one bears’.</p>
+                <p n="3">Is this, then, nothing more than a donnish essay on preaching in an
+                    unlikely setting? Or, could it be understood somewhat more clearly as a son’s
+                    defence of the faithful preaching of his father in the latter’s uncompromising
+                    ministry of four decades in the hostile atmosphere of Epworth and ‘the Isle of
+                    Axholme’? After all, this description of authentic preaching matches Samuel
+                    Wesley, Sen.’s own practice, point for point. And such a defence would aptly
+                    match what we know of John’s sense of justice and fair play. After all, we do
+                    know that, in the previous August, John had preached a sermon in the Epworth
+                    pulpit, ‘On Universal Charity’,<note place="foot" xml:id="ftn2" n="2"><p
+                            rend="footnote text">Cf. <hi rend="italic">ibid.</hi>, p. 115, n.
+                        4.</p></note> in which he had criticized his father’s undue harshness in his
+                    dealings with Hetty Wesley, and that this had offended the self-righteous old
+                    rector.</p>
+                <p n="4"><pb n="04:245"/>For a later sermon on 2 Cor. 2:17, see No. 36, ‘The Law
+                    Established through Faith, II’ (especially I.1 and n.). This present manuscript
+                    was first published in October 1798, with no title.<note place="foot"
+                        xml:id="ftn3" n="3"><p rend="footnote text"><hi rend="italic">MM</hi>,
+                            XXLI.505-10.</p></note> It was thereafter published by Joseph Benson,
+                    who gave it the title it has borne since.</p>
+            </introduction>
+            <head>On Corrupting the Word of God</head>
+            <epigraph>
+                <p>2 Corinthians 2:17</p>
+                <p>In the second chapter of St. Paul’s Second Epistle to the Corinthians, at the
+                    seventeenth verse, are these words:</p>
+                <quote>
+                    <hi rend="italic">We are not as many, who corrupt the Word of God; but as of
+                        sincerity, but as of God, in the sight of God, speak we in Christ.</hi>
+                </quote>
+            </epigraph>
+            <div type="introduction">
+                <!--Rename this attribute given Wesley's calling it a preface?-->
+                <p>P[reface].<note place="foot" xml:id="ftn4" n="4"><p rend="footnote text">This is
+                            the first sermon in John Wesley’s hand which supplies his own
+                            subdivisions. Here, his ‘P.’ is read as an abbreviation for ‘Preface’
+                            (cf. No. 145, ‘In Earth as in Heaven’).</p></note> [1.] Many have
+                    observed that nothing conduces more to a preacher’s success with those that hear
+                    him than a generally good opinion of his sincerity.<note place="foot"
+                        xml:id="ftn5" n="5"><p rend="footnote text">On ‘sincerity’, see No. 2, <hi
+                                rend="italic">The Almost Christian</hi>, I.9 and n.</p></note>
+                    Nothing gives him a greater force of persuasion than this; nothing creates
+                    either greater attention in the hearers or a greater disposition to improve.
+                    When they really believe he has no end in speaking but what he fairly carries in
+                    view, and that he is willing they should see all the steps he takes for the
+                    attainment of that end, it must give them a strong presumption, both that what
+                    he seeks is good, and the method in which he seeks it.</p>
+                <p n="2">[2.] But how to possess them with this belief is the question. How shall we
+                    bring them to take notice of our sincerity if they don’t advert to it of
+                    themselves? One good way, however common, is, frankly and openly to profess it.
+                    There is something in these professions, when they come from the heart,
+                    strangely insinuating into the hearts of others. The persons of any generosity
+                    that hear them find themselves almost forced to believe them; and even those who
+                    believe them not are obliged in <pb n="04:246"/>prudence not to let their
+                    incredulity appear, since ’tis a known truth, ‘the honester any man is, the less
+                    apt is he to suspect another.’<note place="foot" xml:id="ftn6" n="6"><p
+                            rend="footnote text">An echo of Cicero’s <hi rend="italic">Epistulae ad
+                                Quintum Fratrem</hi>, I.i.12: ‘Nam ut quisque est vir optimus, ita
+                            difficillime esse alios improbos suspicatur’—‘The better a man is, the
+                            more difficult it is for him to suspect others of being unscrupulous’
+                            (Loeb, 230:400-401); see also Thomas Otway, <hi rend="italic">Venice
+                                Preserv’d</hi>, Act III, sc. 1: ‘Suspicion’s but at best a coward’s
+                            virtue.’</p></note> The consequence whereof is plain: whoever without
+                    proof is suspicious of his neighbour’s sincerity, gives a probable proof that he
+                    judges of his heart from the fullness of his own.</p>
+                <p n="3">[3.] Would not any man be tempted to suspect his integrity who, without
+                    proof, suspected the want of it in another that had fairly and openly professed
+                    the principles on which he acted? Surely none but who himself corrupted the Word
+                    of God—or wished that it were corrupted—could lightly suspect either St. Paul of
+                    doing it, or any that after him should use his generous declaration, ‘We are not
+                    as many, who (indeed) corrupt the Word of God: but as of sincerity, but as of
+                    God, in the sight of God, speak we in Christ!’</p>
+                <p n="4">[4.] Not that the Apostle, any more than his followers in preaching the
+                    gospel, desires they should wholly rely on his words; for immediately after, he
+                    appeals to his actions to confirm them. And those who in this can imitate him
+                    need not entreat men to believe their sincerity. If our works bear the stamp of
+                    it, as well as our words, both together will speak so loudly and plainly, every
+                    unprejudiced person must understand that we speak in Christ, as in sincerity,
+                    and that in so doing we consider we are in the sight of that God whose
+                    commission we bear.</p>
+                <p n="5">[5.] Those whom the Apostle accuses of the contrary practice, of corrupting
+                    the Word of God, seem to have been Jews who, owning Jesus to be Christ, and his
+                    gospel to be divine, yet adulterated it, by intermingling with it the law of
+                    Moses and their own traditions. And in doing of this their principal view was to
+                    make a gain of Christ, which consequently laid them under a necessity of
+                    concealing the end they proposed, as well as the means they used to obtain it.
+                    On the contrary, those who intend the good of mankind are by no means concerned
+                    to hide their intention. If the benefit we propose in speaking be to ourselves,
+                    ’tis often our interest to keep it private. If the benefit we propose be to
+                    others, ’tis always our interest to make it public—and ’tis the interest both of
+                    ourselves and others to make public those marks <pb n="04:247"/>of distinction
+                    whence may clearly be known who corrupt the Word of God, and who preach it in
+                    sincerity.</p>
+            </div>
+            <div type="section" n="1">
+                <p n="1">I. [1.] The first and great mark of one who corrupts it is his mixing it
+                    either with the heresies of others or the fancies of his own brain. To do this
+                    is to corrupt it in the highest degree—to blend with the oracles of God impure
+                    dreams, fit only for the mouth of the devil! And yet it has been so frequently
+                    done that scarce ever was any heretical opinion either invented or received but
+                    Scripture was quoted to defend it.<note place="foot" xml:id="ftn7" n="7"><p
+                            rend="footnote text">An early awareness that <hi rend="italic">sola
+                                scriptura</hi> is not a single or simple norm; see also Wesley’s
+                            Preface (1746), §5 and n., and his Preface to his edn. of the <hi
+                                rend="italic">Works</hi> (1771), §4.</p></note></p>
+                <p n="2">[2.] And when the imposture was too barefaced, and the texts cited for it
+                    appeared too plainly either to make against it, or to be nothing to the purpose,
+                    then recourse has usually been had to a second method of corrupting it—by mixing
+                    it with false interpretations. And this is done, sometimes, by repeating the
+                    words wrong; and sometimes by repeating them right, but putting a wrong sense
+                    upon them, one that is either strained and unnatural, or foreign to the writer’s
+                    intention in the place from whence they are taken—perhaps contrary either to his
+                    intention in that very place, or to what he says in some other part of his
+                    writings. And this is easily effected: any passage is easily perverted by being
+                    recited single, without any of the preceding or following verses. By this means
+                    it may often seem to have one sense, when it will be plain by observing what
+                    goes before and what follows after that it really has the direct contrary. For
+                    want of observing which unwary souls are liable to be ‘tossed about with every
+                    wind of doctrine’<note place="foot" xml:id="ftn8" n="8"><p rend="footnote text"
+                            >Eph. 4:14.</p></note> whenever they fall into their hands who have
+                    enough of wickedness and cunning thus to adulterate what they preach, and to add
+                    now and then a plausible comment to make it go down the more easily.</p>
+                <p n="3">3. A third sort of those who corrupt the Word of God, though in a lower
+                    degree than either of the former, are those who do so, not by adding to it, but
+                    taking from it—who take either of the spirit or substance of it away, while they
+                    study to prophesy only smooth things,<note place="foot" xml:id="ftn9" n="9"><p
+                            rend="footnote text">See Isa. 30:10.</p></note> and therefore palliate
+                    and colour what they preach, to reconcile it to the taste of their hearers. And
+                    in order to do this the better, they commonly quite let those parts go that will
+                        <pb n="04:248"/>admit of no colouring; they quite wash their hands of those
+                    stubborn texts that will not bend to their purpose, or that too plainly touch on
+                    the reigning vices of the place where they are.<note place="foot" xml:id="ftn10"
+                        n="10"><p rend="footnote text">An anticipation here of his later
+                            denunciation of horse-racing at Epworth in No. 143, ‘Public Diversions
+                            Denounced’.</p></note> These they exchange for those more soft and
+                    tractable ones that are not so apt to give offence. Not one word must be said of
+                    the tribulation and anguish denounced against sinners in general; much less of
+                    the unquenchable fire, which, if God be true, awaits several of those particular
+                    offences that have fallen within their own notice. These tender parts are not to
+                    be touched without danger by them who study to recommend themselves to men; or
+                    if they are, it must be with the utmost caution, and a nice evasion in reserve.
+                    But they safely may thunder against those who are out of their reach, and
+                    against those sins which they suppose none within hearing are guilty of. No one
+                    takes it to heart to hear those practices laid open which he is not concerned in
+                    himself; but when the stroke is home, when it reaches his own case, then is he,
+                    if not convinced, displeased and angry, and out of patience.</p>
+                <p n="4"
+                    ><!--This paragraph tag is not marked even with editorial numerals; why? Check errata.-->These
+                    are the methods of those corrupters of the Word, who act as in the sight of men,
+                    not of God. He trieth the hearts, and will receive no service in which the lips
+                    only are concerned. But their words have no intercourse with their thoughts; nor
+                    is it proper for them that they should; for if their real intention once
+                    appeared it must make itself unsuccessful. They purpose, ’tis true, doing good
+                    by the gospel of Christ—but ’tis to themselves, not to others—whereas they that
+                    use sincerity in preaching, in the good of others seek their own. And that they
+                    are sincere, and speak as commissioned officers, in the sight of him whose
+                    commission they bear, plainly appears from the direct contrariety between their
+                    practice and that of the dissemblers above described.</p>
+            </div>
+            <div type="section" n="2">
+                <p n="1">II. [1.] First, considering that it is not their own word they preach, but
+                    the word of him that sent them, they preach it genuine and unmixed. As they do
+                    not only profess, but really believe that ‘if any man add unto the Word, God
+                    shall add unto him all the plagues that are written in it,’<note place="foot"
+                        xml:id="ftn11" n="11"><p rend="footnote text">Cf. Rev. 22:18.</p></note>
+                    they are fearful of doing it in the least instance. You have the gospel from
+                    them, if in a less elegant manner, yet pure and as it is: without any mixture of
+                    heresy to <pb n="04:249"/>pollute it, or misinterpretation to perplex it;
+                        [2.]<note place="foot" xml:id="ftn12" n="12"><p rend="footnote text"
+                            >Marginal note (‘2’) in MS indicates §2 starts in
+                        mid-paragraph.</p></note> explained in the most natural, obvious way, by
+                    what precedes and what follows the place in question; and commented on by the
+                    most sure way, the least liable to mistake or corruption, the producing of those
+                    parallel places that express the same thing the more plainly.</p>
+                <p n="3">3. In the next place, they are as cautious of taking from, as of adding to
+                    the Word they preach. They dare no more, considering in whose sight they stand,
+                    say less than [or] more than He has assigned them. They must publish, as proper
+                    occasions offer, all that is contained in the oracles of God: whether smooth or
+                    otherwise it matters nothing, since ’tis unquestionably true, and useful too.
+                    For ‘all Scripture given by inspiration of God is profitable either for
+                    doctrine, or reproof, or correction, or instruction in righteousness;’<note
+                        place="foot" xml:id="ftn13" n="13"><p rend="footnote text">Cf. 2 Tim.
+                            3:16.</p></note> either to teach us what we are to believe or practise;
+                    or for conviction of error or reformation of vice. They know that there is
+                    nothing superfluous in it, relating<note place="foot" xml:id="ftn14" n="14"><p
+                            rend="footnote text">MS first read ‘nothing related’; ‘nothing’
+                            thereafter deleted.</p></note> either to faith or practice; and
+                    therefore they preach all parts of it, though those more frequently and
+                    particularly which are more particularly wanted where they are. They are so far
+                    from abstaining to speak against any vice because it is fashionable and in
+                    repute in the place Providence has allotted them, that they therefore the more
+                    zealously testify against it. They are so far from abstaining from speaking for
+                    any virtue because it is unfashionable and in disrepute where they are
+                        placed,<note place="foot" xml:id="ftn15" n="15"><p rend="footnote text">As,
+                            e.g., at Epworth or Wroot?</p></note> that they therefore the more
+                    vigorously recommend it.</p>
+                <p n="4">4. Lastly, they who speak in sincerity, and as in the sight of him who
+                    deputes them, show that they do so by the manner in which they speak. They speak
+                    with plainness and boldness, and are not concerned to palliate their doctrine,
+                    to reconcile it to the tastes of man. They endeavour to set it always in the
+                    true light, whether it be the pleasing one or no. They will not, they dare not,
+                    soften a threatening so as to prejudice its strength; neither represent a sin in
+                    such mild colours as to impair its native blackness. Not that they do not choose
+                    mildness, where it is likely to be effectual: though they know the ‘terrors of
+                    the Lord, they desire rather to persuade men’.<note place="foot" xml:id="ftn16"
+                        n="16"><p rend="footnote text">Cf. 2 Cor. 5:11.</p></note> This method they
+                    use, and love to use it, with <pb n="04:250"/>such as are capable of persuasion.
+                    With such as are not they are obliged, if they will be faithful, to take the
+                    severer course. And if they are blamed or reviled for so doing, let the revilers
+                    look to that: it harms not them. Let the hearers accommodate themselves to the
+                    Word. The Word is not, in this sense, to be accommodated to the hearers. The
+                    preacher of it would be no less in fault in a slavish obsequiousness on one
+                    side, than in an unrelenting sternness on the other.</p>
+            </div>
+            <div type="section" n="3">
+                <p n="1">[III.] 1. If then we have spoken the Word of God, the genuine, unmixed Word
+                    of God, and that only; 2, if we have put no unnatural interpretations upon it,
+                    but [have] taken the known phrases in their common, obvious sense, and where
+                    they were less known explained Scripture<note place="foot" xml:id="ftn17" n="17"
+                            ><p rend="footnote text">MS reads ‘SS’, which sometimes means
+                            ‘Scriptures’ or ‘Sacred Scripture’.</p></note> by Scripture; 3, if we
+                    have spoken the whole Word as occasion offered, though rather the parts that
+                    seemed most proper to give a check to some fashionable vice, or to encourage the
+                    practice of some unfashionable virtue; and 4, lastly, if we do this plainly and
+                    boldly, though with all the mildness and gentleness that the nature of things
+                    will bear; then, believe ye our works if not our word—or rather, believe them
+                    both together. Here is all a preacher can do, all the evidence that he either
+                    can or need give of his good intention. There is no way but this to show he
+                    speaks as of sincerity, as commissioned by God, and as in his sight. If there be
+                    any who after all this will not believe that ’tis his concern, not our own, we
+                    labour for; that our first intention in speaking is to point him the way to
+                    happiness, and to disengage him from the great road that leads to misery—we are
+                    clear of the blood of that man; it rests on his own head.<note place="foot"
+                        xml:id="ftn18" n="18"><p rend="footnote text">See Ezek. 332-6. The first
+                            instance of what would become a characteristic cliché with Wesley when
+                            shifting responsibility from himself to others; cf. No. 150,‘Hypocrisy
+                            in Oxford’, §1. For Wesley’s usage of such phrases, see No. 36, ‘The Law
+                            Established through Faith, II’, I.5 and n.</p></note> For thus saith the
+                    Lord, who hath set us as watchmen over the souls of our countrymen and brethren,
+                    ‘If thou warn the wicked of his way to turn from it’<note place="foot"
+                        xml:id="ftn19" n="19"><p rend="footnote text">See No. 65, ‘The Duty of
+                            Reproving our Neighbour’.</p></note> (much more if we use all methods
+                    possible to convince him that the warning is of God); ‘if he do not turn from
+                    his way’ (which certainly he will not if he do not believe that his <pb
+                        n="04:251"/>warner is in earnest), ‘he shall die in his iniquity, but thou
+                    hast delivered thy soul.’<hi rend="endnote_reference"><note place="end"><p
+                                rend="endnote text">Ezek. 33:9.</p></note></hi></p>
+                <p n="2"
+                    ><!--Again, this paragraph tag is not marked even with editorial numerals; why? Check errata.-->Which
+                    that we may all do, may God grant of his infinite mercy. To whom be ascribed
+                    might, majesty, and dominion, now and for evermore! Amen.<note place="foot"
+                        xml:id="ftn20" n="20"><p rend="footnote text">Cf. this brusque ascription
+                            with that in No. 136, ‘On Mourning for the Dead’; and see No. 1, <hi
+                                rend="italic">Salvation Faith</hi>, III.9 and n.</p></note></p>
+            </div>
+        </body>
+    </text>
+</TEI>
