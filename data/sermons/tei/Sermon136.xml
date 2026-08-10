@@ -1,0 +1,378 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Sermon 136: On Mourning for the Dead</title>
+                <author>Wesley, John</author>
+                <editor role="text">Van Buskirk, Gregory P.</editor>
+                <editor role="digital">Taylor, Michelle M.</editor>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>The Wesley Works Digitzation Project</publisher>
+                <pubPlace>Tampa, FL</pubPlace>
+                <date>2024-02-25</date>
+            </publicationStmt>
+            <sourceDesc>
+                <listBibl>
+                    <biblStruct>
+                        <analytic>
+                            <title level="a">Sermon 136: On Mourning for the Dead</title>
+                        </analytic>
+                        <monogr>
+                            <title level="j">The Works of John Wesley, Volume IV: Sermons IV,
+                                115-151</title>
+                            <editor role="volume">Outler, Albert</editor>
+                            <imprint>
+                                <publisher>Abingdon Press</publisher>
+                                <pubPlace>Nashville, TN</pubPlace>
+                                <date when="1987-11-01">1987-11-01</date>
+                                <biblScope unit="volume" n="4"/>
+                                <biblScope unit="page" from="236" to="243"/>
+                            </imprint>
+                        </monogr>
+                        <series>
+                            <title level="s">The Works of John Wesley</title>
+                            <editor role="general">Baker, Frank</editor>
+                        </series>
+                    </biblStruct>
+                </listBibl>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Greg Van Buskirk created Word docs for all of Wesley's sermons using a combination of
+                OCR software and manual proofing. Michelle Taylor converted these docx into XML
+                using Oxygen's DITA automatic transformation scenario, then touched them up
+                manually.</p>
+        </encodingDesc>
+        <standOff>
+            <taxonomy>
+                <keywords>
+                    <term/>
+                </keywords>
+            </taxonomy>
+            <!--Include keywords and terms here eventually.-->
+        </standOff>
+        <revisionDesc/>
+    </teiHeader>
+    <text>
+        <body>
+            <pb n="04:236"/>
+            <head>
+                <hi rend="italic">An Introductory Comment</hi>
+            </head>
+            <introduction>
+                <p n="1">This was Wesley’s seventh written sermon,<note place="foot" xml:id="ftn1"
+                        n="1"><p rend="footnote text">Heitzenrater, ‘John Wesley’s Early Sermons’,
+                            pp. 110-12.</p></note> and it bring his traditional preoccupations with
+                    ‘the art of dying’ into an acutely personal focus. Its occasion was the funeral
+                    of an Oxford friend, young Robin Griffiths, son of the vicar of the parish
+                    church of Broadway in Worcestershire. There is a tradition (preserved by
+                    Tyerman) that he had been Wesley’s ‘first convert’.<note place="foot"
+                        xml:id="ftn2" n="2"><p rend="footnote text"><hi rend="italic">JW</hi>,
+                            I.48-49.</p></note> The manuscript records (and the diary confirms) that
+                    the sermon was completed ‘Jan. 11, 1726/27, Wednesday, 10 [a.m.]’. The holograph
+                    survives in the Methodist Archives in Manchester on nine leaves numbered on
+                    their rectos; the versos are blank except for Wesley’s subsequent annotations;
+                    the whole shows signs of an understandable haste and stress, with many more
+                    corrections and lacunae than the typical Wesley holograph. The sermon was
+                    preached in the Broadway church on <date when="1727-01-15">January 15,
+                        1726/27</date>.</p>
+                <!--Example of where we need to encode both the Julian and Gregorian calendar dates.-->
+                <p n="2">What may be most obvious in this sermon is its air of ‘Christian stoicism’,
+                    which is to say, its outright condemnation of grief as unworthy of Christians
+                    and a sign of a deficiency in their faith and state of grace (‘Grief is the
+                    parent of so much evil, and the occasion of so little good to mankind.’). This
+                    is all the more remarkable in a funeral sermon in the presence of young
+                    Griffiths’s parents, his fiancée (Nancy Tooker), and other friends. It is,
+                    therefore, something of a variation on the general commonplaces of the <hi
+                        rend="italic">ars moriendi</hi> in the face of death itself.</p>
+                <p n="3">It was first published in the <hi rend="italic">Arminian Magazine</hi> in
+                        1797,<note place="foot" xml:id="ftn3" n="3"><p rend="footnote text"
+                            >XX.422-26.</p></note> with a curious misidentification: ‘It gives us
+                    satisfaction that we are able to present our readers with another original
+                    sermon of Mr. Wesley’s. This was preached at Epworth, Jan. 11, 1726, at the
+                    funeral of John Griffith, a hopeful young man, son of one of his parishioners.’
+                    Joseph Benson followed this lead in his edition (1811) and was followed in turn
+                    by Thomas Jackson, who added a title, ‘On Mourning for the Dead’. The text here
+                    is a conflation of the first draft with such later revisions as have seemed to
+                    recover as much as possible of what Wesley may actually have said.</p>
+            </introduction>
+            <pb n="04:237"/>
+            <head>On Mourning for the Dead</head>
+            <epigraph>
+                <p>2 Samuel 12:23</p>
+                <p>In the twelfth chapter of the second book of Samuel, at the twenty-third
+                        verse:<note place="foot" xml:id="ftn4" n="4"><p rend="footnote text">‘J<hi
+                                rend="superscript">o</hi> Griffith’ is added below the announcement
+                            of text, probably later as a filing note. For the accepted spelling,
+                            ‘Griffiths’, cf. <hi rend="italic">Alumni Oxoniensis</hi> (London,
+                            1887).</p></note></p>
+                <quote>
+                    <hi rend="italic">Now he is dead, wherefore should I fast? Can I bring him back
+                        again? I shall go to him, but he shall not return to me.</hi>
+                </quote>
+            </epigraph>
+            <p n="1">[1.] The resolve of a wise and good man,<note place="foot" xml:id="ftn5" n="5"
+                        ><p rend="footnote text">I.e., David.</p></note> just recovering the use of
+                his reason and virtue after the bitterness of soul he had tasted from the hourly
+                expectation of the death of a beloved son, is comprised in these few but strong
+                words. He that ‘fasted and wept’,<note place="foot" xml:id="ftn6" n="6"><p
+                        rend="footnote text">2 Sam. 12:22.</p></note> ‘lay all night upon the
+                    earth’,<note place="foot" xml:id="ftn7" n="7"><p rend="footnote text">2 Sam.
+                        12:16.</p></note> and refused not only comfort but even needful sustenance
+                while the child was yet alive, in hopes that God would be gracious as well in that
+                as other instances, and reverse the just sentence he had pronounced; when it was put
+                in execution, when he was dead, ‘arose, and changed his apparel’,<note place="foot"
+                    xml:id="ftn8" n="8"><p rend="footnote text">2 Sam. 12:20.</p></note> having
+                first paid his devotions to his great Master, acknowledging doubtless the mildness
+                of his severity, and owning with gratitude and humility the obligation laid upon him
+                in that he was not consumed as well as chastened by his heavy hand, came into his
+                house, and behaved with his usual composure and cheerfulness. The reason of this
+                strange alteration in his proceedings, as it appeared to those who were ignorant of
+                the principles on which he acted, he here explains with the most beautiful
+                    [justness]<note place="foot" xml:id="ftn9" n="9"><p rend="footnote text">MS
+                        orig. read ‘strength’; it was underlined, for deletion, and replaced by a
+                        word which seems to read ‘justn[ess]’.</p></note> of thought and energy of
+                expression. ‘Now he is dead, wherefore should I fast? Can I bring him back again? I
+                shall go to him, but he shall not return to me!’</p>
+            <p n="2">[2.] That he whose own pious and well-grounded reflections afforded him the
+                most solid comfort should reason on so solemn <pb n="04:238"/>an occasion with such
+                accuracy and closeness is no more a matter of admiration than that he who then
+                reasoned with such accuracy and closeness should find the best comfort in his own
+                pious reflections.</p>
+            <p n="3">[3.] To what end, saith this holy and resigned mourner, should I fast, now the
+                child is dead? Why should I add grief to grief; why bring a voluntary increase to
+                the affliction I already sustain? Would it not be equally useless to him and me?
+                Have my tears or complaints the power to refix his soul in her decayed, forsaken
+                    mansion?<note place="foot" xml:id="ftn10" n="10"><p rend="footnote text">Cf.
+                        this metaphor, of the soul in her mansion, with O. W. Holmes’s <hi
+                            rend="italic">The Chambered Nautilus</hi> (1858): ‘Build thee more
+                        stately mansions, O my soul’. Holmes cannot have read Wesley; what was their
+                        common source?</p></note> Or indeed would he wish to change, though the
+                power were in his hands, the happy regions of which he is now possessed for this
+                land of care, pain, and misery? O vain thought! Never can he, never will he, return
+                to me. Be it my comfort, my constant comfort when my sorrows bear hard upon me, that
+                I shortly, very shortly, shall go to him! That this tedious dream, life,<note
+                    place="foot" xml:id="ftn11" n="11"><p rend="footnote text">See No. 124, ‘Human
+                        Life a Dream’, §2 and n.</p></note> will be soon at an end, and then even
+                with these eyes shall I gaze upon him; then shall I behold him again, and behold him
+                with that perfect love, that sincere and elevated softness, to which even the heart
+                of a parent is here a stranger! when the Lord God shall wipe away tears<note
+                    place="foot" xml:id="ftn12" n="12"><p rend="footnote text">Isa. 25:8; also Rev.
+                        21:4.</p></note> from my eyes, and the least part of my happiness will be
+                that the sorrow of his absence shall flee away!<note place="foot" xml:id="ftn13"
+                    n="13"><p rend="footnote text">See Isa. 35:10; 51:11.</p></note></p>
+            <p n="4">[4.] The unprofitable and, by consequence, the sinful nature of profusely
+                sorrowing for the dead is easily deduced from the former part of this reflection; in
+                the latter we have<note place="foot" xml:id="ftn14" n="14"><p rend="footnote text"
+                        >This paragraph in the MS is heavily corrected at this point. The original
+                        text runs: ‘In the latter we have the strongest motives to enforce our
+                        striving against it…’. Over ‘the strongest motives’ Wesley began an
+                        interlined correction, ‘an admirable reas[on]’, but chose instead to delete
+                        the whole portion and continue instead with ‘a remedy…’.</p></note> a remedy
+                fitly suited to the disease; a consideration which, duly applied, will not fail
+                either to prevent or rescue us from this real misfortune, which rises from the
+                apprehension of one, the bitterness of which is purely owing to imagination.</p>
+            <p n="5">[5.] Grief, in general, is the parent of so much evil, and the occasion of so
+                little good to mankind, that it may be wondered how it found a place in our nature.
+                ’Twas indeed of man’s own, not of God’s creation, who may permit but [is] never the
+                author of <pb n="04:239"/>evil. The same hour gave birth to grief and sin, as the
+                same moment will deliver us from both: for neither did it exist before human nature
+                was corrupted, nor will it continue when that is restored to its ancient
+                    perfection.<note place="foot" xml:id="ftn15" n="15"><p rend="footnote text">For
+                        a development of this theme of the restored <hi rend="italic">imago
+                        Dei</hi>, see No. 1, <hi rend="italic">Salvation by Faith</hi>, §1 and n.;
+                        see also No. 13, <hi rend="italic">On Sin in Believers</hi>, I.4 and
+                    n.</p></note></p>
+            <p n="6">[6.] Indeed, in this present state of things, that Wise Being who knows well to
+                extract good out of evil has shown us one way of making this uneasy frailty highly
+                conducive both to the increase of our virtue and happiness. Even grief, if it lead
+                us to repentance and proceed from a serious sense of our faults, is not to be
+                repented of, since those who thus ‘sow in tears shall reap in joy’.<note
+                    place="foot" xml:id="ftn16" n="16"><p rend="footnote text">Ps. 126:5.</p></note>
+                If we confine it to this particular occasion it does not impair, but greatly assists
+                our imperfect reason, pain either of body or mind both acting quicker than
+                reflection and infixing more deeply in the memory any circumstance it attends
+                on.</p>
+            <p n="7">[7.] From the very nature of grief, which is an uneasiness in the mind on the
+                apprehension of some present evil, it appears that its arising in us on any other
+                occasion is owing entirely to our want of judgment. Is anything but sin, are any of
+                those accidents in the language of men termed misfortunes—such as reproach, poverty,
+                loss of life, or even of friends—real evils? So far from it that if we dare believe
+                our Creator they are often positive blessings. They all work together for our
+                    good,<note place="foot" xml:id="ftn17" n="17"><p rend="footnote text">See Rom.
+                        8:28.</p></note> and our Lord accordingly commands us, even when the
+                severest loss, that of our reputation,<note place="foot" xml:id="ftn18" n="18"><p
+                        rend="footnote text">See No. 133, ‘Death and Deliverance’, §8.</p></note>
+                befalls us, if ’tis in a good cause—as it must be our own fault if it be not—to
+                ‘rejoice and be exceeding glad’.<note place="foot" xml:id="ftn19" n="19"><p
+                        rend="footnote text">Matt. 5:12.</p></note></p>
+            <p n="8">[8.] But what fully evinces the utter absurdity of almost all grief, unless
+                that for our own failings, is that the occasion of it is past before it begins. To
+                recall what has already been is flatly impossible and beyond the reach of
+                Omnipotence itself.<note place="foot" xml:id="ftn20" n="20"><p rend="footnote text"
+                        >As to the question of logical possibilities and impossibilities, see No.
+                        118, ‘On the Omnipresence of God’, II.6-7.</p></note> Why then should any
+                who are not fond of misery indulge their minds in so fruitless an inquietude?<note
+                    place="foot" xml:id="ftn21" n="21"><p rend="footnote text">Wesley had first
+                        written: ‘Let those who are fond of misery, if any such there be, indulge
+                        their minds in this fruitless inquietude’—and then revised it as here
+                        rendered.</p></note> They that pursue happiness will have a care how they
+                cherish such a passion as is neither desirable in itself, nor serves to any purpose
+                present or future.</p>
+            <p n="9"><pb n="04:240"/>[9.] If any species of this idle, unprofitable passion be more
+                peculiarly useless than the rest, ’tis that we feel when we sorrow for the dead. We
+                destroy the health of our body and impair the strength of our minds, and take no
+                price for those invaluable blessings; we give up our present without any prospect of
+                future advantage, without a possibility of either recalling them hither or profiting
+                diem where they are.</p>
+            <p n="10">[10.] As indifferent a proof as this is of our wisdom, ’tis still a worse of
+                our affection to the deceased. ’Tis the property of envy, and not of love, to repine
+                at another’s happiness; to weep because all tears are wiped from his eyes. Shall it
+                disturb us, who call ourselves his friends, that a weary wanderer has at length come
+                to his wished-for home? Nay, weep we rather for ourselves, who still want that happy
+                ease, to whom that rest appears yet only in prospect.</p>
+            <p n="11">[11.] Gracious is our God and merciful, who, knowing what was in man—that
+                passion, when it has conquered reason, always takes the appearance of it<note
+                    place="foot" xml:id="ftn22" n="22"><p rend="footnote text">Cf. Alexander Pope,
+                            <hi rend="italic">Moral Essays</hi> (1732), Epistle III, <hi
+                            rend="italic">l</hi>. 153.</p></note>—lest we should be misled by this
+                appearance, adds the sanction of his unerring commands to the natural dictates of
+                our understanding. The judgment perhaps might be so clouded by passion as to think
+                it reasonable to be profuse in our sorrow at parting from a beloved object. But
+                revelation tells us that this, as all occurrences of life, must be borne with
+                patience and moderation; otherwise we lay a greater weight on our own souls than
+                external accidents can do without our concurrence; with humility, because the
+                offended justice of God might well have inflicted much worse; and with resignation,
+                because we know, whatever happens is for our good; and though it were not, we are
+                not able to contend with, and should not therefore provoke, him that is stronger
+                than us.<note place="foot" xml:id="ftn23" n="23"><p rend="footnote text">See Jer.
+                        31:11.</p></note></p>
+            <p n="12">[12.] Against this fault, which is inconsistent with those virtues, and
+                therefore tacitly forbidden in the precepts that enjoin them, St. Paul warns us in
+                express words: ‘I would not have you to be ignorant, brethren, concerning them which
+                are asleep; that ye sorrow not even as others, who have no hope. For if we believe
+                that Jesus died and rose again, even so them also which sleep in Jesus will God
+                bring with him…. Wherefore comfort one another with these words.’<hi
+                    rend="endnote_reference"><note place="end"><p rend="endnote text">1 Thess. 4:13,
+                            etc. [14, 18].</p></note></hi> And these indeed are the only words <pb
+                    n="04:241"/>that can give lasting comfort to a spirit whom such an affliction
+                hath wounded. Why should I be so unreasonable, so unkind, as to desire the return of
+                a soul, now in happiness, to me, to this habitation of sin and misery, since I know
+                that the time will come, yea, is now at hand, when in spite of the great gulf
+                    fixed<note place="foot" xml:id="ftn24" n="24"><p rend="footnote text">See Luke
+                        16:26.</p></note> between us I shall shake off these chains and go to
+                him!</p>
+            <p n="13">[13.] What he was I am both unable to paint in suitable colours, and unwilling
+                to attempt it. Although the chief, at least most common argument, for those laboured
+                encomiums of the dead<note place="foot" xml:id="ftn25" n="25"><p
+                        rend="footnote text">A rejection here of a settled convention in funeral
+                        sermons as, e.g., Bishop John Buckeridge’s encomium on his old friend,
+                        Lancelot Andrewes (Nov. 11, 1626), published in <hi rend="italic">XCVI
+                            Sermons</hi>, edited by Laud and Buckeridge (1629), or Bishop Francis
+                        Atterbury’s sermon at the funeral of Lady Cutts in 1698 (Sermon VI, <hi
+                            rend="italic">Fourteen Sermons</hi> [1708], pp. 173-207), or William
+                        Bates’s famous funeral sermon for Richard Baxter (1692). But Wesley had an
+                        ally here in Richard Steele; cf. <hi rend="italic">The Tatler</hi>, No. 73
+                        (Sept. 24-27, 1709): ‘It is to be hoped that the living may not be
+                        neglected.’ See also, <hi rend="italic">ibid.</hi>, No. 78 (Oct. 6-8, 1709).
+                        But cf. Wesley’s own later encomiums on Whitefield and Fletcher (Nos. 53 and
+                        114).</p></note> which for many years have so much prevailed among us, is
+                that then there can be no suspicion of flattery, yet we all know the pulpit on these
+                occasions has been so frequently prostituted to these servile ends that ’tis now no
+                longer capable of serving them. Men take it for granted that what is then said is
+                words of course; that the speaker consults the beauty, not the likeness, of the
+                piece; and, so it be but well drawn, cares not who it resembles. In a word, that his
+                business is to show his own wit, and the generosity of his friend, by throwing into
+                the composition all the virtues and perfections that have a place in his own
+                    imagination.<note place="foot" xml:id="ftn26" n="26"><p rend="footnote text">A
+                        textual reconstruction incorporating material from the verso of p. 5, but
+                        which clearly belongs here.</p></note></p>
+            <p n="14">[14.] This indeed is an end that is visibly served in these ill-timed
+                commendations; of what other use they are is hard to say. ’Tis of no service to the
+                dead to celebrate his actions, since he has the applause of God<note place="foot"
+                    xml:id="ftn27" n="27"><p rend="footnote text">In the manuscript the phrase, ‘the
+                        Holy Angels’, was at first included here and then underlined for deletion;
+                        cf. No. 4, <hi rend="italic">Scriptural Christianity</hi>, I.6 and
+                    n.</p></note> and his own conscience. And ’tis of little to the living; since he
+                who desires a pattern may find enough proposed as such in the sacred writings. Why
+                must one be raised from the dead to instruct him, while Moses, the Prophets, and the
+                blessed Jesus are still presented to his view in those everliving tables? Certain it
+                is that he who will not imitate these would not be converted though one literally
+                rose from the dead.<note place="foot" xml:id="ftn28" n="28"><p rend="footnote text"
+                        >See Luke 16:27-31; and No. 115, ‘Dives and Lazarus’, on this same text; cf.
+                        Atterbury, <hi rend="italic">Fourteen Sermons</hi> (1708), pp. 327-63.
+                        Wesley first wrote ‘convinced’, and then changed it to
+                    ‘converted’.</p></note></p>
+            <p n="15"><pb n="04:242"/>[15.] Let it suffice to have paid my last duty to him (whether
+                he is now hovering o’er these lower regions, or retired already to the mansions of
+                eternal glory)<note place="foot" xml:id="ftn29" n="29"><p rend="footnote text">An
+                        early reference to what will develop into a debate over ‘the middle state’;
+                        see No. 115, ‘Dives and Lazarus’, I.3 and n.</p></note> by saying in few,
+                plain, and hearty words, such as were his own, and such as were always most
+                agreeable to him: that he was to his parents an affectionate, dutiful son; to his
+                acquaintance an ingenious,<note place="foot" xml:id="ftn30" n="30"><p
+                        rend="footnote text">The manuscript clearly reads ‘ingenious’; changed to
+                        ‘ingenuous’ by the editor or printer of <hi rend="italic">AM</hi>. See <hi
+                            rend="italic">OED</hi> for the history of their synonymous usage; cf.
+                        Wesley’s later uses of ‘ingenious’ (to connote both intelligence and
+                        openness) in Nos. 127, ‘On the Wedding Garment’, §18; and 128, ‘The
+                        Deceitfulness of the Human heart’, proem and §3.</p></note> cheerful,
+                well-natured companion; and to me a well-tried, sincere friend.</p>
+            <p n="16">[16.] At such a loss, if considered without the alleviating circumstances, who
+                can blame him that drops a tear? The tender meltings of a heart dissolved with
+                fondness when it reflects on several agreeable moments which have now taken their
+                flight never to return, give an authority to some degree of sorrow; nor will human
+                frailty permit an ordinary acquaintance to take his last leave of them without it.
+                Who then can conceive, much less describe, the strong emotion, the secret workings
+                of soul, which a parent feels on such an occasion? None, surely, but those who are
+                parents themselves; unless those few who have experienced the power of
+                friendship—than which human nature, on this side of the grave, knows no closer, no
+                softer, no stronger tie!</p>
+            <p n="17">[17.] At the tearing asunder these sacred bands, well may we allow without
+                blame some parting pangs—but the difficulty is to put as speedy a period to them as
+                religion and reason command us. What can give us effectual ease after that rupture
+                which has left such an aching void in our breast? What indeed but the reflection
+                already mentioned, which can be never inculcated too often, that we are hasting to
+                him again? That, pass but a few years, perhaps hours, which will soon be over, and
+                not only this but all our other desires will be satisfied; when we shall exchange
+                the gaudy shadow of pleasure we have enjoyed for sincere, substantial, untransitory
+                happiness.</p>
+            <p n="18">[18.] With this consideration well imprinted in our mind ’tis far better, as
+                Solomon observes, to go [to] the house of mourning than to the house of
+                    feasting.<note place="foot" xml:id="ftn31" n="31"><p rend="footnote text"
+                        >Eccles. 7:2.</p></note> The one unbraces the soul, <pb n="04:243"/>disarms
+                our resolution, and lays us open to any attack; the other cautions us to collect our
+                reason, and stand upon our guard, and infuses that noble steadiness and seriousness
+                of temper which it is not in the power of any ordinary shock to discompose. At the
+                sight of those objects ’tis natural to reflect that the next summons may be our own;
+                and that since death ‘is the end of all men’ without exception, ’tis high time for
+                ‘the living to lay it to heart’.<note place="foot" xml:id="ftn32" n="32"><p
+                        rend="footnote text"><hi rend="italic">Ibid.</hi></p></note></p>
+            <p n="19">[19.] If we are at any time in danger of being overcome by dwelling too long
+                on the gloomy side of this prospect, to the giving us pain, the making us unfit for
+                the duties and offices of life, or the impairing our faculties of body or mind—which
+                proceeding, as has been already shown, is both absurd, unprofitable, and sinful—let
+                us immediately recur to the bright side of it, and reflect with cheerfulness and
+                gratitude that our own time passeth away like a shadow;<note place="foot"
+                    xml:id="ftn33" n="33"><p rend="footnote text">Ps. 144:4 (BCP); Wesley revised
+                        this passage several times in the MS; one of the early versions read: ‘…of
+                        it, which will inspire us with gratitude as well as humility that our
+                        present life passeth…’.</p></note> and that when we awake from this
+                momentary dream we shall then have a clearer view of that latter day in which our
+                Redeemer shall stand upon the earth;<note place="foot" xml:id="ftn34" n="34"><p
+                        rend="footnote text">See Job 19:25.</p></note> when this corruptible shall
+                put on incorruption, and this mortal be clothed with immortality; and when we shall
+                sing with the united choirs of men and angels, O death, where is thy sting? O grave,
+                where is thy victory?<note place="foot" xml:id="ftn35" n="35"><p
+                        rend="footnote text">See 1 Cor. 15:53-55.</p></note></p>
+            <p n="20">[20.] Now to God the Father, the Son, and the Holy Ghost be honour, majesty,
+                and dominion, world without end!</p>
+            <p>Amen<note place="foot" xml:id="ftn36" n="36"><p rend="footnote text">Note this brief,
+                        almost abrupt, ascription; see No. 1, <hi rend="italic">Salvation by
+                            Faith</hi>, III.9 and n.</p></note></p>
+        </body>
+    </text>
+</TEI>

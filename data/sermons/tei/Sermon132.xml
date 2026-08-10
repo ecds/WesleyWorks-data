@@ -1,0 +1,649 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Sermon 132: On Faith</title>
+                <author>Wesley, John</author>
+                <editor role="text">Van Buskirk, Gregory P.</editor>
+                <editor role="digital">Taylor, Michelle M.</editor>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>The Wesley Works Digitzation Project</publisher>
+                <pubPlace>Tampa, FL</pubPlace>
+                <date>2024-02-25</date>
+            </publicationStmt>
+            <sourceDesc>
+                <listBibl>
+                    <biblStruct>
+                        <analytic>
+                            <title level="a">Sermon 132: On Faith</title>
+                        </analytic>
+                        <monogr>
+                            <title level="j">The Works of John Wesley, Volume IV: Sermons IV,
+                                115-151</title>
+                            <editor role="volume">Outler, Albert</editor>
+                            <imprint>
+                                <publisher>Abingdon Press</publisher>
+                                <pubPlace>Nashville, TN</pubPlace>
+                                <date when="1987-11-01">1987-11-01</date>
+                                <biblScope unit="volume" n="4"/>
+                                <biblScope unit="page" from="187" to="200"/>
+                            </imprint>
+                        </monogr>
+                        <series>
+                            <title level="s">The Works of John Wesley</title>
+                            <editor role="general">Baker, Frank</editor>
+                        </series>
+                    </biblStruct>
+                </listBibl>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Greg Van Buskirk created Word docs for all of Wesley's sermons using a combination of
+                OCR software and manual proofing. Michelle Taylor converted these docx into XML
+                using Oxygen's DITA automatic transformation scenario, then touched them up
+                manually.</p>
+        </encodingDesc>
+        <standOff>
+            <taxonomy>
+                <keywords>
+                    <term/>
+                </keywords>
+            </taxonomy>
+            <!--Include keywords and terms here eventually.-->
+        </standOff>
+        <revisionDesc/>
+    </teiHeader>
+    <text>
+        <body>
+            <pb n="04:187"/>
+            <head>
+                <hi rend="italic">An Introductory Comment</hi>
+            </head>
+            <introduction>
+                <p n="1">At the time of Wesley’s death, his sermon, ‘On the Wedding Garment’ was
+                    already being printed for inclusion in the March and April issues of the <hi
+                        rend="italic">Arminian Magazine</hi>, 1791. Moreover, as we have already
+                    seen, James Creighton had decided that for the May and June issues he would
+                    publish ‘Human Life a Dream’, on the supposition that it would be Wesley’s last
+                    published writing. Presently, however, yet another sermon manuscript turned up,
+                    and was promptly printed in the July and August issues of 1791, with the
+                    following postscript:</p>
+                <quote>N.B. This is the last sermon which Mr. Wesley wrote. It is very remarkable
+                    that the preceding sermon inserted in our Magazine for May and June had been
+                    about fifteen months [cf. Creighton’s ‘eighteen’, above] in the hand of the
+                    Corrector of the Press, who had laid it by without any design, except that it
+                    was not dated, as all the rest were, and inserted several others, though later
+                    written. Then he inserted it, the first part of which was printed before Mr.
+                    Wesley’s last illness, and the latter part was printing on the very day when his
+                    remains lay in the Chapel, previous to its interment. Whoever looks back to that
+                    part of it inserted in the Magazine for June, will be struck when he considers
+                    the above circumstances, and sees how it is connected with the sermon now
+                    inserted; and all this without any design, either of the writer or any other
+                        person.<note place="foot" xml:id="ftn1" n="1"><p rend="footnote text"><hi
+                                rend="italic">AM</hi>, XIV.406.</p></note></quote>
+                <p>After this, as noted above, four more sermons were discovered in Bristol, written
+                    during the previous spring, summer, and early fall, and these were then
+                    published, belatedly, in the <hi rend="italic">Magazine</hi> in 1792.</p>
+                <p n="2">This last-written sermon is dated, ‘London, January 17, 1791’. There is no
+                        <hi rend="italic">Journal</hi> entry for its day (or period); Wesley’s diary
+                    records his reading of a sermon during these days but not his writing of one.
+                    The probability is that on the 17th he had closed out yet another written
+                    meditation ‘on faith’. He had, of course, already published one sermon on Heb.
+                    11:1 (see No. 117, ‘On the Discoveries of Faith’). Here, however, his focus is
+                    more restricted and specific. At the outset, he defines ‘faith’ in an explicitly
+                    mystical sense. Whereas Matthew Henry had taken πίστις in this context to mean
+                    ‘the firm assent of the soul to the divine revelation and every part of it’,
+                    Wesley understands it as ‘a divine conviction of the invisible and eternal
+                    world’(§I). This allows him then <pb n="04:188"/>to speak of that world in both
+                    eschatological and ethical terms. He pays his critical respects to Archibald
+                    Campbell and to others who seem to him to presume beyond the truth vouchsafed to
+                    us in Scripture; he dwells on some interesting speculative notions of his own.
+                    His conclusion is fittingly serene.</p>
+                <p n="3">As usual, the sermon had no title when it appeared in the <hi rend="italic"
+                        >Arminian Magazine</hi>;<note place="foot" xml:id="ftn2" n="2"><p
+                            rend="footnote text">XIV.344-49, 400-406.</p></note> its heading there
+                    reads ‘Sermon LXIV. On Hebrews xi.1’. George Story, realizing that he had two
+                    sermons on the same biblical text on his hands, included this one in <hi
+                        rend="italic">SOSO</hi>, IX, as: ‘No. 13. Second Sermon on Hebrews xi.1’.
+                    Joseph Benson gave it the title, ‘On Faith’ for his edition (1812) and was
+                    dutifully followed by Thomas Jackson.</p>
+            </introduction>
+            <head>On Faith</head>
+            <epigraph>
+                <p>Hebrews 11:1</p>
+                <p>
+                    <hi rend="italic">Now faith is the evidence of things not seen.</hi>
+                </p>
+            </epigraph>
+            <p n="1">1. Many times have I thought, many times have I spoke, many times have I wrote
+                upon these words;<note place="foot" xml:id="ftn3" n="3"><p rend="footnote text"
+                        >E.g., see Nos. 117, ‘On the Discoveries of Faith’ on Heb. 11:1; 43, <hi
+                            rend="italic">The Scripture Way of Salvation</hi>, II.1; and the
+                        ‘Extract from a Letter to Mr. Law’, Jan. 6, 1756 (Telford, III.359); see
+                        also No. 3, <hi rend="italic">‘Awake, Thou That Steepest’</hi>, I.11 and
+                        n.</p></note> and yet there appears to be a depth in them which I am in no
+                wise able to fathom. Faith is, in one sense of the word, a divine conviction of God
+                and of the things of God; in another (nearly related to, yet not altogether the
+                same) it is a divine conviction of the invisible and eternal world. In this sense I
+                would now consider—</p>
+            <p n="2">2. I am now an immortal spirit, strangely connected with a little portion of
+                earth; but this is only for a while. In a short time I am to quit this tenement of
+                clay, and to remove into another state,</p>
+            <lg>
+                <l>which the living know not,</l>
+                <l>And the dead cannot, or they may not tell!<note place="foot" xml:id="ftn4" n="4"
+                            ><p rend="footnote text">Cf. John Hughes, <hi rend="italic">The Siege of
+                                Damascus</hi>, III.i.203-4; see also No. 54, ‘On Eternity’, §17, and
+                            n. 55.</p></note></l>
+            </lg>
+            <p><pb n="04:189"/>What kind of existence shall I then enter upon? When my spirit has
+                launched out of the body, how shall I feel myself? Perceive my own being? How shall
+                I discern the things that are round about me, either material or spiritual objects?
+                When my eyes no longer transmit the rays of light, how will the naked spirit<note
+                    place="foot" xml:id="ftn5" n="5"><p rend="footnote text">See No. 124, ‘Human
+                        Life a Dream’, §9 and n.</p></note>
+                <hi rend="italic">see</hi>? When the organs of hearing are mouldered into dust, in
+                what manner shall I <hi rend="italic">hear</hi>? When the brain is of no farther
+                use, what means of <hi rend="italic">thinking </hi>shall I have? When my whole body
+                is resolved into senseless earth, what means shall I have of gaining <hi
+                    rend="italic">knowledge</hi>?</p>
+            <p n="3">3. How strange, how incomprehensible, are the means whereby I shall then take
+                knowledge even of the material world! Will things appear then as they do now? Of the
+                same size, shape, and colour? Or will they be altered in any or all these respects?
+                How will the sun, moon, and stars appear? The sublunary heavens? The planetary
+                heavens? The region of the fixed stars? How the fields of ether,<note place="foot"
+                    xml:id="ftn6" n="6"><p rend="footnote text">Cf. Sir Richard Blackmore,
+                        ‘Creation; A Philosophical Poem’, in Chalmers, <hi rend="italic">British
+                            Poets</hi>, X.380; the phrase occurs also in Dryden, Somerville, and
+                        James Thomson. Such terms as ‘sublunary’, ‘planetary’, ‘fixed stars’,
+                        ‘fields of ether’ were part and parcel of eighteenth-century popular
+                        science. See Nos. 55, <hi rend="italic">On the Trinity</hi>, §7 and n.; and
+                        56, ‘God’s Approbation of His Works’, I.5 and n.</p></note> which we may
+                conceive to be millions of miles beyond them? Of all this we know nothing yet—and
+                indeed we need to know nothing.</p>
+            <p n="4">4. What then can we know of those innumerable objects which properly belong to
+                the invisible world? Which mortal eye hath not seen, nor ear heard, neither hath it
+                entered into our heart to conceive?<note place="foot" xml:id="ftn7" n="7"><p
+                        rend="footnote text">See 1 Cor. 2:9.</p></note> What a scene will then be
+                opened, when the regions of Hades are displayed without a covering! Our English
+                translators seem to have been much at a loss for a word to render this. Indeed two
+                hundred years ago<note place="foot" xml:id="ftn8" n="8"><p rend="footnote text">All
+                        the English versions in Wesley’s time had rendered ᾅδης as ‘hell’, with the
+                        exception of Wycliffe and Douai which have ‘torments’ for Luke 16:23, and
+                        Geneva which has ‘grave’ for Acts 2:27, 31. Wesley, however, translates it
+                        as ‘hell’ in Matt. 11:23 and Luke 16:23; whereas in Acts 1:18 and Rev. 1:18;
+                        6:8; 20:13, he resorts to a transliteration, ‘Hades’.</p></note> it was
+                tolerably expressed by the word ‘hell’, which then signified much the same with the
+                word ‘Hades’, namely, the invisible world. Accordingly by Christ descending into
+                hell they meant his body remained in the grave, his soul remained in Hades, which is
+                the receptacle of separate spirits, from death to the resurrection. Here we cannot
+                doubt but the spirits of the righteous are inexpressibly happy. They are, as St. <pb
+                    n="04:190"/>Paul expresses it, ‘with the Lord’, favoured with so intimate a
+                communion with him as ‘is far better’<note place="foot" xml:id="ftn9" n="9"><p
+                        rend="footnote text">Cf. Phil. 1:23.</p></note> than whatever the chief of
+                the apostles experienced while in this world. On the other hand, we learn from our
+                Lord’s own account of Dives and Lazarus that the rich man, from the moment he left
+                the world, entered into a state of torment.<note place="foot" xml:id="ftn10" n="10"
+                        ><p rend="footnote text">Cf. No. 115, ‘Dives and Lazarus’.</p></note> And
+                ‘there is a great gulf fixed’<note place="foot" xml:id="ftn11" n="11"><p
+                        rend="footnote text">Luke 16:26.</p></note> in Hades between the place of
+                the holy and that of unholy spirits, which it is impossible for either the one or
+                the other to pass over. Indeed a gentleman of great learning, the honourable Mr.
+                    Campbell,<note place="foot" xml:id="ftn12" n="12"><p rend="footnote text"
+                        >Archibald Campbell, a Scottish Nonjuror, briefly Bishop of Aberdeen
+                        (1721-24) and active in the unsuccessful negotiations between the Nonjurors
+                        and the Eastern Orthodox. He is best known for <hi rend="italic">The
+                            Doctrines of a Middle State Between Death and the Resurrection
+                        </hi>(1721). This reflects the eschatological views of Eastern Orthodoxy and
+                        differs explicitly from Roman Catholic teachings on purgatory.</p></note> in
+                his account of the middle state published not many years ago, seems to suppose that
+                wicked souls may amend in Hades, and then remove to a happier mansion. He has great
+                hopes that ‘the rich man’ mentioned by our Lord, in particular, might be purified by
+                that penal fire, till, in process of time, he might be qualified for a better abode.
+                But who can reconcile this with Abraham’s assertion that none can pass over the
+                ‘great gulf?<note place="foot" xml:id="ftn13" n="13"><p rend="footnote text">The
+                        issue here was whether Dives had died totally unrepentant and therefore in
+                        mortal sin (Wesley’s view) or with some glimmer of presumptive repentance
+                        and faith. Cf. Campbell’s argument (pp. 12-14) that ‘the great gulf fixed’
+                        is between those who go into Hades without repentance and amendment of life
+                        at all and those who, though ‘wicked’ (like Dives), have nonetheless a
+                        modicum of distinterested love for others which Campbell claims is a form of
+                        true repentance. He is as clear as Wesley that purgatory has no escape
+                        hatches for the finally unrepentant. There is a gulf which separates between
+                        the ‘Right-’ and the ‘Left-hand sides of Hades, which makes it impracticable
+                        for any soul that is on the one side to go into the other. This secures the
+                        righteous, who are on the right, from falling…and effectually hinders the
+                        wicked, who are on the left, from entering into the lot of the righteous’
+                        (p. 57). This is re-emphasized on pp. 135, 137-78, a catena of twenty-nine
+                        advocates of what Campbell claims are similar doctrines of ‘a Middle State’,
+                        from Calvin to someone cited as ‘Dr. J. E. Grate’ (i.e., his own
+                        contemporary, Dr. John Ernest Grave, a learned patrologist).</p></note></p>
+            <p n="5">5. I cannot therefore but think that all those who are with the rich man in the
+                unhappy division of Hades will remain there, howling and blaspheming, cursing God
+                and looking upwards, till they are cast into ‘the everlasting fire, prepared for the
+                devil and his angels’.<note place="foot" xml:id="ftn14" n="14"><p
+                        rend="footnote text">Matt. 25:41.</p></note> And on the other hand, can we
+                reasonably doubt but that those who are now in paradise, in Abraham’s bosom,<note
+                    place="foot" xml:id="ftn15" n="15"><p rend="footnote text">Luke
+                    16:22.</p></note> all <pb n="04:191"/>those holy souls who have been discharged
+                from the body from the beginning of the world unto this day, will be continually
+                ripening for heaven,<note place="foot" xml:id="ftn16" n="16"><p rend="footnote text"
+                        >John Flavell, <hi rend="italic">Husbandry Spiritualized</hi>, in <hi
+                            rend="italic">Works</hi> (1740), II.272 (‘ripening apace for heaven’).
+                        See also Wesley’s extract in the <hi rend="italic">Christian Lib.</hi>,
+                        XXVII.229; and No. 114, <hi rend="italic">On the Death of John
+                        Fletcher</hi>, III.12 (‘ripening for glory’).</p></note> will be perpetually
+                holier and happier, till they are received into ‘the kingdom prepared for them from
+                the foundation of the world’?<note place="foot" xml:id="ftn17" n="17"><p
+                        rend="footnote text">Matt. 25:34.</p></note></p>
+            <p n="6">6. But who can inform us in what part of the universe Hades is situated? This
+                abode of both happy and unhappy spirits till they are reunited to their bodies? It
+                has not pleased God to reveal anything concerning it in the Holy Scripture; and
+                consequently it is not possible for us to form any judgment or even conjecture about
+                it. Neither are we informed how either one or the other are employed during the time
+                of their abode there. Yet may we not improbably suppose that the Governor of the
+                world may sometimes permit wicked souls</p>
+            <lg>
+                <l>To do his gloomy errands in the deep?<note place="foot" xml:id="ftn18" n="18"><p
+                            rend="footnote text">Cf. Milton, <hi rend="italic">Paradise Lost</hi>,
+                            i.152.</p></note></l>
+            </lg>
+            <p>Or perhaps, in conjunction with evil angels, to inflict vengeance on wicked men. Or
+                will many of them be shut up in the chains of darkness unto the great judgment of
+                the great day? In the meantime, may we not probably suppose that the spirits of the
+                just, though generally lodged in paradise, yet may sometimes, in conjunction with
+                the holy angels, minister to the heirs of salvation?<note place="foot"
+                    xml:id="ftn19" n="19"><p rend="footnote text">See Heb. 1:14.</p></note> May they
+                not</p>
+            <lg>
+                <l>Sometimes on errands of love,</l>
+                <l>Revisit their brethren below?<note place="foot" xml:id="ftn20" n="20"><p
+                            rend="footnote text">Almost certainly an attempted recollection of a
+                            stanza from his brother’s <hi rend="italic">Hymns for…Redemption</hi>
+                            (1747), Hymn XXII, st. 2 (<hi rend="italic">Poet. Wks.</hi>, IV.240).
+                            But cf. No. 115, ‘Dives and Lazarus’, I.3 and n., where John’s views of
+                            ‘the peaceable dead’ in Paradise differ sharply from Charles’s other
+                            lines in this stanza: ‘Their souls are impassive above, / And nothing of
+                            mortals they know.’</p></note></l>
+            </lg>
+            <p>It is a pleasing thought that some of these human spirits attending us with, or in
+                the room of, angels, are of the number of those that were dear to us while they were
+                in the body. So that there is no absurdity in the question:</p>
+            <lg>
+                <l><pb n="04:192"/>Have ye your own flesh forgot,</l>
+                <l>By a common ransom bought?</l>
+                <l>Can death’s interposing tide,</l>
+                <l>Spirits one in Christ divide?<note place="foot" xml:id="ftn21" n="21"><p
+                            rend="footnote text">John and Charles Wesley, <hi rend="italic">Hymns
+                                and Sacred Poems</hi> (1740), p. 199 (<hi rend="italic">Poet.
+                                Wks.</hi>, I.365).</p></note></l>
+            </lg>
+            <p>But be this as it may, it is certain human spirits swiftly increase in knowledge, in
+                holiness, and in happiness, conversing with all the wise and holy souls that lived
+                in all ages and nations from the beginning of the world; with angels and archangels,
+                to whom the children of men are no more than infants; and above all with the eternal
+                Son of God, in whom are hid all the treasures of wisdom and knowledge.<note
+                    place="foot" xml:id="ftn22" n="22"><p rend="footnote text">Col. 2:3.</p></note>
+                And let it be especially considered, whatever they learn they will retain for ever.
+                For they forget nothing. To forget is only incident to spirits that are clothed with
+                flesh and blood.</p>
+            <p n="7">7. But how will this material universe appear to a disembodied spirit? Who can
+                tell whether any of these objects that surround us will appear the same as they do
+                now? And if we know so little of these, what can we now know concerning objects of a
+                quite different nature? Concerning the spiritual world? It seems it will not be
+                possible for us to discern them at all till we are furnished with senses of a
+                different nature, which are not yet opened in our souls. These may enable us both to
+                penetrate the inmost substance of things, whereof we now discern only the surface,
+                and to discern innumerable things of the very existence whereof we have not now the
+                least perception. What astonishing scenes will then discover themselves to our newly
+                opening senses! Probably fields of ether, not only tenfold, but ten thousandfold
+                ‘the length of this terrene’.<note place="foot" xml:id="ftn23" n="23"><p
+                        rend="footnote text">Milton, <hi rend="italic">Paradise Lost</hi>, vi.78;
+                        see also No. 54, ‘On Eternity’, §17 and n.</p></note> And with what variety
+                of furniture, animate and inanimate! How many orders of beings, not discovered by
+                organs of flesh and blood. Perhaps</p>
+            <lg>
+                <l>Thrones, dominions, princedoms, virtues, powers?<note place="foot" xml:id="ftn24"
+                        n="24"><p rend="footnote text">Cf. Milton, <hi rend="italic">Paradise
+                                Lost</hi>, v. 772, 840; x.460.</p></note>—</l>
+            </lg>
+            <p>whether of those that retain their first habitations and primeval strength, or of
+                those that, rebelling against their Creator, have been cast out of heaven? And shall
+                we not then, as far as angel’s <pb n="04:193"/>ken,<note place="foot" xml:id="ftn25"
+                    n="25"><p rend="footnote text"><hi rend="italic">Ibid.,</hi> i.59.</p></note>
+                survey the bounds of creation, and see every place where the Almighty</p>
+            <lg>
+                <l>Stopped his rapid wheels, and said,</l>
+                <l>This be thy just circumference, O world.<note place="foot" xml:id="ftn26" n="26"
+                            ><p rend="footnote text">Cf. <hi rend="italic">ibid.</hi>, vii.224,
+                            230-31:</p><lg><l>Then stayed the fervid wheels, …</l><l>And said, ‘Thus
+                                far extend, thus far thy bounds;</l><l rend="Verse">This be thy just
+                                circumference, O world!</l></lg><p rend="footnote text">See also No.
+                            69, ‘The Imperfection of Human Knowledge’, I.5 and n.</p></note></l>
+            </lg>
+            <p>Yea, shall we not be able to move, quick as thought, through the wide realms of
+                uncreated night?<note place="foot" xml:id="ftn27" n="27"><p rend="footnote text">See
+                        Milton, <hi rend="italic">Paradise Lost</hi>, ii. 150; and No. 26, ‘Sermon
+                        on the Mount, VI’, III.6 and n.</p></note> Above all, the moment we step
+                into eternity, shall we not feel ourselves swallowed up of him who is in this and
+                every place, who filleth heaven and earth?<note place="foot" xml:id="ftn28" n="28"
+                        ><p rend="footnote text">See Jer. 23:24.</p></note> It is only the veil of
+                flesh and blood which now hinders us from perceiving that the great Creator cannot
+                but fill the whole immensity of space. He is every moment above us, beneath us, and
+                on every side. Indeed in this dark abode, this land of shadows, this region of sin
+                and death, the thick cloud which is interposed between conceals him from our sight.
+                But the veil will disappear, and he will appear in unclouded majesty, God over all,
+                blessed for ever!<note place="foot" xml:id="ftn29" n="29"><p rend="footnote text"
+                        >See Rom. 9:5.</p></note></p>
+            <p n="8">8. How variously are the children of men employed in this world! In treading
+                o’er</p>
+            <lg>
+                <l>The paths they trod six thousand years before?<note place="foot" xml:id="ftn30"
+                        n="30"><p rend="footnote text">Cf. Young, <hi rend="italic">The Last
+                                Day</hi>, I.78 (‘The paths they trod five thousand years before’);
+                            included in Wesley’s <hi rend="italic">Collection of Moral and Sacred
+                                Poems</hi> (1744), II.73.</p></note></l>
+            </lg>
+            <p>But who knows how we shall be employed after we enter that invisible world? A little
+                of it we may conceive, and that without any doubt, provided we keep to what God
+                himself has revealed in his Word, and what he works in the hearts of his children.
+                Let us consider, first, what may be the employment of unholy spirits from death to
+                the resurrection. We cannot doubt but the moment they leave the body they find
+                themselves surrounded by spirits of their own kind, probably human as well as
+                diabolical. What power God may permit these to exercise over them we do not
+                distinctly know. But it is not improbable he may suffer Satan to employ <pb
+                    n="04:194"/>them, as he does his own angels, in inflicting death or evils of
+                various kinds on the men that know not God. For this end they may raise storms by
+                sea or by land, they may shoot meteors through the air. They may occasion
+                earthquakes, and in numberless ways afflict those whom they are not suffered to
+                destroy. Where they are not permitted to take away life, they may inflict various
+                diseases—and many of these which we judge to be natural are undoubtedly diabolical.
+                I believe this is frequently the case with lunatics. It is observable that many of
+                those mentioned in Scripture who are called lunatics by one of the evangelists are
+                termed demoniacs by another. One of the most eminent physicians I ever knew,
+                particularly in cases of insanity, the late Dr. Deacon,<note place="foot"
+                    xml:id="ftn31" n="31"><p rend="footnote text">Thomas Deacon (1697-1753),
+                        physician and nonjuring bishop, whose <hi rend="italic">Compleat Collection
+                            of Devotions</hi> (1734) Wesley had carried with him to Georgia. Deacon
+                        was a pupil and friend of the celebrated Dr. Richard Mead (1673-1754) and
+                        shared his views concerning demoniacal possession; cf. Mead’s <hi
+                            rend="italic">Medica Sacra; a Commentary on the Diseases Mentioned in
+                            Scripture</hi> (1755). None of Deacon’s published writings deal with
+                        medical questions. See No. 72, ‘Of Evil Angels’, II.13.</p></note> was
+                clearly of opinion that this was the case with many, if not most lunatics. And it is
+                no valid objection to this that these diseases are so often cured by natural means.
+                For a wound inflicted by an evil spirit might be cured as any other; unless that
+                spirit was permitted to repeat the blow.</p>
+            <p n="9">9. May not some of these evil spirits be likewise employed in conjunction with
+                evil angels in tempting wicked men to sin, and in procuring occasion for them? Yea,
+                and in tempting good men to sin, even after they had escaped the corruption that is
+                in the world? Herein doubtless they put forth all their strength, and greatly glory
+                if they conquer. A passage in an ancient author<note place="foot" xml:id="ftn32"
+                    n="32"><p rend="footnote text">Orig., ‘anthem’; corrected to ‘author’ in the
+                        1800 edn.</p></note> may greatly illustrate this (although I apprehend he
+                did not intend, though, we should take it literally): ‘Satan summoned his powers,
+                and examined what mischief each of them had done. One said, “I have set a house on
+                fire, and destroyed all its inhabitants.” Another said, “I have raised a storm at
+                sea, and sunk a ship, and all on board perished in the waters.” Satan answered,
+                “Perhaps those that were burnt or drowned were saved.” A third said, “I have been
+                forty years tempting a holy man to commit adultery. And I have left him asleep in
+                his sin.” Hearing this, Satan rose to do him honour, and all hell resounded with his
+                    praise.’<note place="foot" xml:id="ftn33" n="33"><p rend="footnote text"
+                        >Professor Patrick Henry, III, has located the <hi rend="italic">locus
+                            classicus</hi> of this story in the <hi rend="italic">Apophthegmata
+                            Patrum</hi> in Heribert Rosweyd’s 1615 edn., <hi rend="italic">De Vita
+                            et Verbis Seniorum</hi>, V.v.39 (580); it was reprinted in Migne, <hi
+                            rend="italic">PL</hi>, LXXIII.855-56, and appears in an English
+                        translation by Owen Chadwick in <hi rend="italic">Western Asceticism</hi>,
+                        LCC, 12:73-74 (Philadelphia, The Westminster Press, 1958). But notice that
+                        Chadwick translates <hi rend="italic">et vix nocte iste prevalui ut facerem
+                            eum fornicari</hi> as ‘at last in the night I prevailed to make him
+                        lust’ instead of the literal meaning, ‘to make him fornicate’. It seems
+                        unlikely that Wesley would have known Rosweyd’s text, or even that in J. B.
+                        Cotelerius, <hi rend="italic">Apophthegmata Patrum</hi> (1677). Wesley’s
+                        story is clearly the same in its main point but, as one can see in Chadwick,
+                        it has been abridged here in transmission.</p></note> Hear this, all ye that
+                imagine you cannot fall from grace!</p>
+            <p n="10"><pb n="04:195"/>10. Ought not we then to be perpetually on our guard against
+                those subtle enemies? Though we see them not,</p>
+            <lg>
+                <l>A constant watch they keep:</l>
+                <l>They eye us night and day;</l>
+                <l>And never slumber, never sleep,</l>
+                <l>Lest they should lose their prey.<note place="foot" xml:id="ftn34" n="34"><p
+                            rend="footnote text">Cf. Charles Wesley, <hi rend="italic">Hymns and
+                                Sacred Poems</hi> (1749), II.119 (<hi rend="italic">Poet. Wks.</hi>,
+                            V.261); see No. 72, ‘Of Evil Angels’, II.10 and n.</p></note></l>
+            </lg>
+            <p>Herein they join with ‘the rulers of the darkness’ (the intellectual darkness) ‘of
+                this world’;<note place="foot" xml:id="ftn35" n="35"><p rend="footnote text">Eph.
+                        6:12.</p></note> the ignorance, wickedness, and misery diffused through it
+                to hinder all good, and promote all evil! To this end they are continually
+                ‘working’, with energy, ‘in the children of disobedience’.<note place="foot"
+                    xml:id="ftn36" n="36"><p rend="footnote text">Cf. Eph. 2:2.</p></note> Yea,
+                sometimes they work by them those ‘lying wonders’<note place="foot" xml:id="ftn37"
+                    n="37"><p rend="footnote text">2 Thess. 2:9.</p></note> that might almost
+                deceive even the children of God.</p>
+            <p n="11">11. But meantime, how may we conceive the inhabitants of the other part of
+                Hades, the souls of the righteous, to be employed? It has been positively affirmed
+                by some philosophical men that spirits have no place! But they do not observe that
+                if it were so they must be omnipresent—an attribute which cannot be allowed to any
+                but the Almighty Spirit. The abode of these blessed spirits the ancient Jews were
+                used to term ‘paradise’—the same name which our Lord gave it, telling the penitent
+                thief, ‘This day shalt thou be with me in paradise.’<note place="foot"
+                    xml:id="ftn38" n="38"><p rend="footnote text">Luke 23:43; for other comments on
+                        ‘paradise’, see Nos. 73, ‘Of Hell’, I.4 and n.; and espec. 115, ‘Dives and
+                        Lazarus’, I.3 and n.</p></note> Yet in what part of the universe this is
+                situated who can tell, or even conjecture, since it has not pleased God to reveal
+                anything concerning it? But we have no reason to think they are confined to this
+                place; or, indeed, to any other. May we not rather say that, ‘servants of his’, as
+                well as the holy angels, they ‘do his pleasure’,<note place="foot" xml:id="ftn39"
+                    n="39"><p rend="footnote text">Ps. 103:21 (BCP).</p></note> whether among the
+                inhabitants of earth or in any other part of his dominions? And as <pb n="04:196"
+                />we easily believe that they are swifter than the light, even as swift as thought,
+                they are well able to traverse the whole universe in the twinkling of an eye,<note
+                    place="foot" xml:id="ftn40" n="40"><p rend="footnote text">1 Cor.
+                    15:52.</p></note> either to execute the divine commands or to contemplate the
+                works of God. What a field is here opened before them! And how immensely may they
+                increase in knowledge, while they survey his works of creation or providence, or his
+                manifold wisdom in the church! What depth of wisdom, of power, and of goodness do
+                they discover in his methods of bringing many sons to glory!<note place="foot"
+                    xml:id="ftn41" n="41"><p rend="footnote text">Heb. 2:10.</p></note> Especially
+                while they conversed on any of these subjects with the illustrious dead of ancient
+                days! With Adam, first of men, with Noah, who saw both the primeval and the ruined
+                world. With Abraham, the friend of God, with Moses, who was favoured to speak with
+                God, as it were, ‘face to face’;<note place="foot" xml:id="ftn42" n="42"><p
+                        rend="footnote text">Exod. 33:11.</p></note> with Job, perfected by
+                sufferings, with Samuel, David, Solomon, Isaiah, Daniel, and all the prophets. With
+                the apostles, the noble army of martyrs,<note place="foot" xml:id="ftn43" n="43"><p
+                        rend="footnote text">BCP, Morning Prayer, Te Deum.</p></note> and all the
+                saints who have lived and died to the present day; with our elder brethren the holy
+                angels, cherubim, seraphim, and all the companies of heaven! Above all [with the
+                Lord of creation himself,] with Jesus, the Mediator of the new covenant.<note
+                    place="foot" xml:id="ftn44" n="44"><p rend="footnote text">A conjectural
+                        reconstruction of what may have been an undecipherable passage. Both the
+                        1791 and 1800 edns. read, ‘Above all the name of creature owns, with Jesus,
+                        the Mediator of the New Covenant’, which scarcely makes sense. Wesley
+                        clearly intended a climax here; cf. BCP, Morning Prayer, Te Deum; see also
+                        No. 117, ‘On the Discoveries of Faith’, §8.</p></note> Meantime how will
+                they advance in holiness, in the whole image of God wherein they were created! In
+                the love of God and man, gratitude to their Creator, and benevolence to all their
+                fellow-creatures. Yet it does not follow (what some earnestly maintain) that this
+                general benevolence will at all interfere with that peculiar affection which God
+                himself implants for our relations, friends, and benefactors. O no! Had you stood by
+                his bedside when that dying saint was crying out, ‘I have a father and a mother gone
+                to heaven’ (to paradise, the receptacle of happy spirits); ‘I have ten brothers and
+                sisters gone to heaven; and now I am going to them, that am the eleventh! Blessed be
+                God that I was born!’<note place="foot" xml:id="ftn45" n="45"><p
+                        rend="footnote text">The deathbed scene of Thomas Halyburton; see No. 120,
+                        ‘The Unity of the Divine Being’, §18 and n.; the quotation here is from
+                        Wesley, <hi rend="italic">An Extract of the Life and Death of Mr. Thomas
+                            Haliburton</hi> (1741), pp. 86-87.</p></note> would you have replied:
+                ‘What if you are going to them? They will be no more to <hi rend="italic">you</hi>
+                than any other persons; for you will not know them.’ Not know them! Nay, does not
+                all that is in you <pb n="04:197"/>recoil at that thought? Indeed sceptics may ask,
+                ‘How do disembodied spirits know each other?’ I answer plainly, I cannot tell. But I
+                am certain that they do. This is as plainly proved from one passage of Scripture as
+                it could be from a thousand. Did not Abraham and Lazarus know each other in Hades,
+                even afar off? Even though they were fixed on different sides of the ‘great
+                    gulf’?<note place="foot" xml:id="ftn46" n="46"><p rend="footnote text">Luke
+                        16:26. Is this a mistake for what should read ‘Abraham and <hi rend="italic"
+                            >Dives</hi>’? Cf. ver. 23, where ‘the rich man’ sees ‘Abraham afar off
+                        and Lazarus in his bosom’. This would seem to exclude the notion that
+                        Abraham and Lazarus were ‘afar off’ on ‘different sides of “the great
+                        gulf”’.</p></note> Can we doubt then whether the souls that are together in
+                paradise shall know one another? The Scripture therefore clearly decides this
+                question. And so does the very reason of the thing. For we know every holy temper
+                which we carry with us into paradise will remain in us for ever. But such is
+                gratitude to our benefactors. This therefore will remain for ever. And this implies
+                that the knowledge of our benefactors will remain, without which it cannot
+                exist.</p>
+            <p n="12">12. And how much will that add to the happiness of those spirits which are
+                already discharged from the body, that they are permitted to minister to those whom
+                they have left behind! An indisputable proof of this we have in the twenty-second
+                chapter of the Revelation. When the Apostle fell down to worship the glorious spirit
+                which he seems to have mistaken for Christ, he told him plainly, ‘I am of thy
+                fellow-servants, the prophets’;<note place="foot" xml:id="ftn47" n="47"><p
+                        rend="footnote text">Cf. Rev. 22:9.</p></note> not God, not an angel, not a
+                human spirit. And in how many ways may they minister to the heirs of salvation!<note
+                    place="foot" xml:id="ftn48" n="48"><p rend="footnote text">See Heb.
+                    1:14.</p></note> Sometimes by counteracting wicked spirits whom we cannot resist
+                because we cannot see them; sometimes by preventing our being hurt by men, or
+                beasts, or inanimate creatures. How often may it please God to answer the prayer of
+                good Bishop Ken:</p>
+            <lg>
+                <l>O may thine angels while I sleep</l>
+                <l>Around my bed their vigils keep!</l>
+                <l>Their love angelical instil,</l>
+                <l>Stop all the consequence of ill:</l>
+                <l>May they celestial joys rehearse,</l>
+                <l>And thought to thought with me converse;</l>
+                <l>Or in my stead the whole night long</l>
+                <l>Sing to my God a grateful song.<note place="foot" xml:id="ftn49" n="49"><p
+                            rend="footnote text">Thomas Ken, ‘An Evening Hymn’, sts. 10-11, adapted;
+                            cf. Wesley, <hi rend="italic">A Collection of Psalms and Hymns</hi>
+                            (1738), pp. 58-59; see also No. 71, ‘Of Good Angels’, II.2 and
+                        n.</p></note></l>
+            </lg>
+            <p><pb n="04:198"/>And may not the Father of spirits allot this office jointly to angels
+                and human spirits waiting to be made perfect?</p>
+            <p n="13">13. It may indeed be objected that God has no need of any subordinate agents,
+                of either angelical or human spirits, to guard his children in their waking or
+                sleeping hours; seeing he that keepeth Israel doth neither slumber nor sleep.<note
+                    place="foot" xml:id="ftn50" n="50"><p rend="footnote text">See Ps.
+                    121:4.</p></note> And certainly he is able to preserve them by his own immediate
+                power, yea, and he is able by his own immediate power, without any instruments at
+                all, to supply the wants of all his creatures, both in heaven and earth. But it is
+                and ever was his pleasure not to work by his own immediate power only, but chiefly
+                by subordinate means, from the beginning of the world. And how wonderfully is his
+                wisdom displayed in adjusting all these to each other! So that we may well cry out:
+                ‘O Lord, how manifold are thy works! In wisdom hast thou made them all!’<note
+                    place="foot" xml:id="ftn51" n="51"><p rend="footnote text">Ps.
+                    104:24.</p></note></p>
+            <p n="14">14. This we know concerning the whole frame and arrangement of the visible
+                world. But how exceeding little do we now know concerning the invisible? And we
+                should have known still less of it had it not pleased the Author of both worlds to
+                give us more than natural light, to give us ‘his word to be a lantern to our feet,
+                and a light in all our paths’.<note place="foot" xml:id="ftn52" n="52"><p
+                        rend="footnote text">Cf. Ps. 119:105 (BCP).</p></note> And holy men of old,
+                being assisted by his Spirit, have discovered many particulars of which otherwise we
+                should have had no conception.</p>
+            <p n="15">15. And without revelation how little certainty of invisible things did the
+                wisest of men obtain! The small glimmerings of light which they had were merely
+                conjectural. At best they were only a faint, dim twilight, delivered from uncertain
+                tradition; and so obscured by heathen fables that it was but one degree better than
+                utter darkness.</p>
+            <p n="16">16. How uncertain the best of these conjectures was may easily be gathered
+                from their own accounts. The most finished of all these accounts is that of the
+                great Roman poet. Where observe how warily he begins, with that apologetic
+                preface:</p>
+            <lg>
+                <l><hi rend="italic">Sit mihi fas audita loqui?</hi><note place="foot"
+                        xml:id="ftn53" n="53"><p rend="footnote text">Virgil<hi rend="italic">,
+                                Aeneid</hi>, vi.266; the original is not a question but a plea,
+                            ‘Allow me to tell what I have heard’ (Loeb, 63:525).</p></note>—</l>
+                <l>May I be allowed to tell what I have heard?</l>
+            </lg>
+            <p><pb n="04:199"/>And in the conclusion, lest anyone should imagine he believed any of
+                these accounts, he sends the relator of them out of Hades by the ‘ivory gate’,
+                through which he had just informed us that only dreams and shadows pass!<note
+                    place="foot" xml:id="ftn54" n="54"><p rend="footnote text"><hi rend="italic"
+                            >Ibid.</hi>, vi.893-96; see No. 73, ‘Of Hell’, §3 and n.</p></note> A
+                very plain intimation that all which has gone before is to be looked upon as a
+                dream!</p>
+            <p n="17">17. How little regard they had for all these conjectures with regard to the
+                invisible world clearly appears from the words of his brother poet, who affirms
+                without any scruple:</p>
+            <lg>
+                <l>
+                    <hi rend="italic">Esse aliquos manes et subterranea regna</hi>
+                </l>
+                <l><hi rend="italic">Nec pueri credunt</hi><note place="foot" xml:id="ftn55" n="55"
+                            ><p rend="footnote text"><hi rend="italic">AM</hi> and Benson have <hi
+                                rend="italic">Nec fieri credunt</hi>—which makes no sense. Wesley
+                            may have written <hi rend="italic">viri</hi>, as one may see from his
+                            translation, ‘not even a <hi rend="italic">man</hi> of them now
+                            believes.’ But his source was Juvenal, <hi rend="italic">Satires</hi>,
+                            ii.149, 152, which reads, <hi rend="italic">Nec pueri credunt</hi>
+                            (‘these things not even <hi rend="italic">boys</hi> believe’); Jackson
+                            may have known this, for his text also reads <hi rend="italic"
+                                >pueri</hi>.</p></note>—</l>
+            </lg>
+            <p>‘That there are ghosts or realms below, not even a man of them now believes.’</p>
+            <p>So little could even the most improved reason discover concerning the invisible and
+                eternal world. The greater cause have we to praise the Father of lights, who hath
+                opened the eyes of our understanding<note place="foot" xml:id="ftn56" n="56"><p
+                        rend="footnote text">See Eph. 1:18.</p></note> to discern those things which
+                could not be seen by eyes of flesh and blood; that he who of old time shined out of
+                darkness, hath shined in our hearts, and enlightened us with the light of the glory
+                of God in the face of Jesus Christ,<note place="foot" xml:id="ftn57" n="57"><p
+                        rend="footnote text">See 2 Cor. 4:6.</p></note> the author and finisher of
+                our faith,<note place="foot" xml:id="ftn58" n="58"><p rend="footnote text">Heb.
+                        12:2.</p></note> by whom he made the worlds;<note place="foot"
+                    xml:id="ftn59" n="59"><p rend="footnote text">Heb. 1:2.</p></note> by whom he
+                now sustains whatever he hath made; for</p>
+            <lg>
+                <l>Till nature shall her Judge survey,</l>
+                <l>The King Messiah reigns.<note place="foot" xml:id="ftn60" n="60"><p
+                            rend="footnote text">Samuel Wesley, Jun., ‘An Hymn to God the Son’, <hi
+                                rend="italic">Poems</hi> (1736), p. 4, published by John Wesley in
+                                <hi rend="italic">A Collection of Psalms and Hymns</hi> (1737), p.
+                            12; and <hi rend="italic">A Collection of Moral and Sacred Poems</hi>
+                            (1744), III.181.</p></note></l>
+            </lg>
+            <p>These things we have believed upon the testimony of God, the Creator of all things
+                visible and invisible.<note place="foot" xml:id="ftn61" n="61"><p
+                        rend="footnote text">BCP, Communion, Nicene Creed.</p></note> By this
+                testimony we already know the things that now exist, though not yet seen, as well as
+                those that will exist in their season, until this visible world will pass away and
+                the Son of man shall come in his glory.</p>
+            <p n="18"><pb n="04:200"/>18. Upon the whole, what thanks ought we to render to God, who
+                has vouchsafed this ‘evidence of things unseen’ to the poor inhabitants of earth,
+                who otherwise must have remained in utter darkness concerning them! How invaluable a
+                gift is even this imperfect light to the benighted sons of men! What a relief is it
+                to the defects of our senses, and consequently of our understanding, which can give
+                us no information of anything but what is first presented by the senses.<note
+                    place="foot" xml:id="ftn62" n="62"><p rend="footnote text">See No. 117, ‘On the
+                        Discoveries of Faith’, §1 and n.</p></note> But hereby a new set of senses
+                (so to speak) is opened in our souls, and by this means,</p>
+            <lg>
+                <l>The things unknown to feeble sense,</l>
+                <l>Unseen by reason’s glimmering ray,</l>
+                <l>With strong, commanding evidence</l>
+                <l>Their heav’nly origin display.</l>
+                <l>Faith lends its realizing light:</l>
+                <l>The clouds disperse, the shadows fly;</l>
+                <l>Th’ Invisible appears in sight,</l>
+                <l>And God is seen by mortal eye!<note place="foot" xml:id="ftn63" n="63"><p
+                            rend="footnote text">Charles Wesley, ‘The Life of Faith’, sts. 5-6, in
+                                <hi rend="italic">Hymns and Sacred Poems</hi> (1740), p. 7 (<hi
+                                rend="italic">Poet. Wks.</hi>, I.210). See No. 54, ‘On Eternity’,
+                            §17 and n.</p></note></l>
+            </lg>
+            <p><placeName>London</placeName>, <date when="1791-01-17">Jan. 17, 1791</date></p>
+        </body>
+    </text>
+</TEI>

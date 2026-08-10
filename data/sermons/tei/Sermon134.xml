@@ -1,0 +1,387 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Sermon 134: Seek First the Kingdom</title>
+                <author>Wesley, John</author>
+                <editor role="text">Van Buskirk, Gregory P.</editor>
+                <editor role="digital">Taylor, Michelle M.</editor>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>The Wesley Works Digitzation Project</publisher>
+                <pubPlace>Tampa, FL</pubPlace>
+                <date>2024-02-25</date>
+            </publicationStmt>
+            <sourceDesc>
+                <listBibl>
+                    <biblStruct>
+                        <analytic>
+                            <title level="a">Sermon 134: Seek First the Kingdom</title>
+                        </analytic>
+                        <monogr>
+                            <title level="j">The Works of John Wesley, Volume IV: Sermons IV,
+                                115-151</title>
+                            <editor role="volume">Outler, Albert</editor>
+                            <imprint>
+                                <publisher>Abingdon Press</publisher>
+                                <pubPlace>Nashville, TN</pubPlace>
+                                <date when="1987-11-01">1987-11-01</date>
+                                <biblScope unit="volume" n="4"/>
+                                <biblScope unit="page" from="215" to="223"/>
+                            </imprint>
+                        </monogr>
+                        <series>
+                            <title level="s">The Works of John Wesley</title>
+                            <editor role="general">Baker, Frank</editor>
+                        </series>
+                    </biblStruct>
+                </listBibl>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Greg Van Buskirk created Word docs for all of Wesley's sermons using a combination of
+                OCR software and manual proofing. Michelle Taylor converted these docx into XML
+                using Oxygen's DITA automatic transformation scenario, then touched them up
+                manually.</p>
+        </encodingDesc>
+        <standOff>
+            <taxonomy>
+                <keywords>
+                    <term/>
+                </keywords>
+            </taxonomy>
+            <!--Include keywords and terms here eventually.-->
+        </standOff>
+        <revisionDesc/>
+    </teiHeader>
+    <text>
+        <body>
+            <pb n="04:215"/>
+            <head>
+                <hi rend="italic">An Introductory Comment</hi>
+            </head>
+            <introduction>
+                <p n="1">That this is Wesley’s second sermon has been established by Professor
+                    Heitzenrater’s analysis,<note place="foot" xml:id="ftn1" n="1"><p
+                            rend="footnote text">‘John Wesley’s Early Sermons’, pp.
+                        110-12.</p></note> which also manages to overturn a hallowed Methodist
+                    tradition based on a misreading of Wesley’s <hi rend="italic">Journal</hi> for
+                    October 16, 1771, and thereafter perpetuated through the nineteenth
+                    century—confirmed by a facsimile publication of it as <hi rend="italic">Wesley’s
+                        First Sermon</hi>.<note place="foot" xml:id="ftn2" n="2"><p
+                            rend="footnote text">London, Charles H. Kelly, 1903.</p></note> It was
+                    then romanticized by Curnock’s imaginative reconstruction of its alleged
+                        circumstances.<note place="foot" xml:id="ftn3" n="3"><p rend="footnote text"
+                            >Curnock, I.60.</p></note> Wesley’s diary shows that he wrote this
+                    sermon on Matthew 6:33 during the fortnight of November 7-21, 1725, presumably
+                    in his quarters at Christ Church; he preached it first at nearby Binsey on
+                    November 21. The manuscript survives in the Colman Miscellany in the Methodist
+                    Archives in Manchester on fourteen numbered pages, numbers 8 and 9 being left
+                    blank. The front paper cover has the number ‘2’ written on it in John Wesley’s
+                    hand, ‘proof’ of its place in the sequence of these manuscript sermons. There
+                    are also other, later, notations on this cover, in other hands (as, e.g., ‘For:
+                    Hen. Moore’). On the back cover there are finer lines in Wesley’s cipher:</p>
+                <quote>
+                    <p><date when="1725">[17]25</date>—</p>
+                    <p>At Binsey, at Buckland—</p>
+                    <p>At Stanton and Broadway</p>
+                    <p>At Wroote, Haxey and Epworth <date when="1726">([17]26)</date></p>
+                </quote>
+                <p>Then, in Wesley’s longhand, there follows a rather different list of the places
+                    where he records preaching this sermon:</p>
+                <quote>
+                    <p>Preached at Buckland</p>
+                    <p>at Stanton</p>
+                    <p>at Wroote</p>
+                    <p>at Broadway</p>
+                    <p>at Binsey <date when="1725">1725</date></p>
+                    <p>at Stanton Harc[our]t <date when="1727">[17]27</date></p>
+                    <p>at South Lye</p>
+                    <p>at Whatton <date when="1727-08-20">Aug. 20 [1727]</date></p>
+                </quote>
+                <!--Check against the PDF that the introduction's paragraphs are properly represented here.-->
+                <p n="2"><pb n="04:216"/>The discrepancies in sequence between the two lists have no
+                    recorded explanation. What matters is that, as an apprentice preacher, Wesley
+                    found Matt. 6:33 a congenial text and chose to repeat the sermon in small
+                    churches near Oxford when invited, as he often was.</p>
+                <p n="3">What is most obvious about this second sermon is that it takes up where
+                    ‘Death and Deliverance’ had left off—with the <hi rend="italic">ars
+                        moriendi</hi> within the larger perspective of sovereign grace. But it
+                    quickly moves to the consequential topics of the Christian life in this world,
+                    oriented toward our blessed deliverance by death. Within such a perspective
+                    Wesley can stress God’s bountiful providence and unfailing mercy. There is,
+                    however, an almost equal emphasis on God’s kingdom and its imperatives for
+                    righteousness here on earth and on the Christian’s sure expectation of an
+                    appropriate heavenly reward. Such a vision is then balanced by a closing comment
+                    of the joys of holy living here and now. The sermon concludes with a
+                    conventional Anglican ascription (see No. 1, <hi rend="italic">Salvation by
+                        Faith</hi>, III.9 and n.).</p>
+            </introduction>
+            <head>Seek First the Kingdom</head>
+            <epigraph>
+                <p>Matthew 6:33</p>
+                <p>In the sixth chapter of St. Matthew at the thirty-third verse are these
+                    words:</p>
+                <p>
+                    <hi rend="italic">Seek ye first the kingdom of God, and his righteousness, and
+                        all these things shall be added unto you.</hi>
+                </p>
+            </epigraph>
+            <p n="1">[1.] Although we are but strangers and pilgrims in this world, and know not how
+                soon, but are sure that e’er long, we shall leave it, yet are we usually as deeply
+                concerned for the things of this life as if we were designed to continue in it for
+                ever. Insomuch that observing how necessary food and raiment are to our subsisting
+                with comfort in our present station, we are apt to let them take up too much of our
+                thoughts, and to seek them with too much care and anxiety. And that this is not a
+                fault peculiar to our age may appear in that God’s own people were not free from it.
+                They were so much taken up with needless cares of this kind that our Lord has been
+                pleased to set aside [a] great part of this chapter to <pb n="04:217"/>convince them
+                of the folly of such proceedings. To this purpose he makes use of several powerful
+                yet obvious arguments in the verses preceding that [which] I have repeated. First,
+                says he: ‘No man can serve two masters: for either he will hate the one and love the
+                other; or else he will hold to the one and despise the other’—as if he had said:
+                ‘You must not imagine you can secure your eternal interests and your temporal by
+                addicting yourselves equally to the service of both. ’Tis impossible at once to
+                serve two masters, two especially which are so directly contrary to each other: for
+                either you will hate the one and love the other, the affections not being capable of
+                fixing at the same time on two so different objects; or, if you do not proceed so
+                far as to hate either, yet will ye hold to the one, so as to do his work diligently,
+                and so far despise the other as to slight his commands.’ ’Tis therefore absolutely
+                necessary to give yourselves up to one or the other; to cleave wholly either to the
+                Creator or the creature; for ‘ye cannot serve God and mammon.’<hi
+                    rend="endnote_reference"><note place="end"><p rend="endnote text">[Matt. 6,]
+                            ver. 24 [N.B. Quotation marks have been added].</p></note></hi></p>
+            <p n="2">[2.] And why indeed should you take care for the things of this world, since
+                there is one greater than you who himself careth for you?<note place="foot"
+                    xml:id="ftn4" n="4"><p rend="footnote text">See 1 Pet. 5:7.</p></note> Why
+                should you disquiet yourselves with endless solicitude, since all things necessary
+                for life may be procured without it? ‘Is not the life more than meat, and the body
+                than raiment?’<hi rend="endnote_reference"><note place="end"><p rend="endnote text"
+                            >Ver. 25.</p></note></hi> And is it likely he who gave you the greater
+                should refuse the less? Will he who gave you being itself neglect to supply you with
+                such things as are necessary to sustain it? Observe how he deals with the other
+                parts of his creation: ‘Behold’, for instance, ‘the fowls of the air; they sow not,
+                neither reap, nor gather into barns; yet your heavenly Father feedeth them’<note
+                    place="foot" xml:id="ftn5" n="5"><p rend="footnote text">Matt.
+                6:26.</p></note>—and how can you suppose he would be negligent of man, for whose
+                service chiefly these meaner creatures were made! Can there then be any excuse for
+                this carking,<note place="foot" xml:id="ftn6" n="6"><p rend="footnote text">Johnson
+                        in his <hi rend="italic">Dictionary</hi> (1755) will define this as
+                        ‘anxious’ and identify it as obsolete; but cf. <hi rend="italic">OED</hi>
+                        for its continued use. It appears most often in the cliché, ‘carking care’;
+                        cf. Robert South, <hi rend="italic">Sermons</hi> (1823), III.295 (‘an
+                        anxious carking care’); James Blair, <hi rend="italic">Our Saviour’s Divine
+                            Sermon on the Mount…in Four Volumes</hi> (1722), I.153; and Thomas
+                        Manton, Sermon 19 in <hi rend="italic">Morning-Exercise at Cripplegate</hi>,
+                        ed. Samuel Annesley (1661), p. 472.</p></note> distrustful temper?
+                Especially since it serves to no <pb n="04:218"/>manner of purpose: for ‘which of
+                you by taking thought’ can make any considerable improvement even in his own body,
+                ‘can add one cubit to his stature?’<hi rend="endnote_reference"><note place="end"><p
+                            rend="endnote text">Ver. 27.</p></note></hi></p>
+            <p n="3">[3.] And ‘why take ye thought’, why are ye disquieted, ‘about raiment? Consider
+                the lilies of the field, how they grow; they toil not, neither do they spin; and yet
+                I say unto you that Solomon in all his glory was not arrayed like one of these.
+                Wherefore, if God so clothe the grass’, the common product of the field, ‘which
+                today is’, appears beautiful and glorious, ‘and tomorrow is cast into the oven’, is
+                destroyed and seen no more; ‘shall he not much more clothe you, O ye of little
+                    faith?’<note place="foot" xml:id="ftn7" n="7"><p rend="footnote text">Matt.
+                        6:28-30.</p></note>—ye who after so many promises, and so many daily
+                instances of his goodness, dare not trust so indulgent, so careful a father?</p>
+            <p n="4">[4.] Since, then, if you do take thought for the things of the world you must
+                renounce your claim to the happiness God has promised to his servants (it being
+                impossible to serve two masters); since you need not, in that he who gave you life
+                and a body will not fail of providing needful sustenance for them as he does
+                constantly for even the inferior parts of the creation; and since, lastly, these
+                uneasy reflections are utterly useless, as not enabling you so much as to add a
+                cubit to your stature, [then it follows:] ‘take no thought what ye shall eat or
+                drink, or wherewithal ye shall be clothed.’<note place="foot" xml:id="ftn8" n="8"><p
+                        rend="footnote text">Matt. 6:31.</p></note> When you have used your honest
+                endeavours for these things, and omitted no lawful method of procuring necessaries
+                or conveniences,<note place="foot" xml:id="ftn9" n="9"><p rend="footnote text">See
+                        Nos. 133, ‘Death and Deliverance’, §9; and 30, ‘Sermon on the Mount, X’, §26
+                        and n.</p></note> be not careful and solicitous about the event, but
+                immediately check any distrustful thoughts that may arise in your souls. ’Tis enough
+                for the Gentiles, for those heathen parts of the world which have very imperfect
+                notions of the divine Providence, to seek after these things in so foolish a manner,
+                by a method so unlikely to succeed. But to you, who are not ignorant either of the
+                goodness or power of your heavenly Father, and are likewise assured that ‘he knoweth
+                ye have need of all these things’,<note place="foot" xml:id="ftn10" n="10"><p
+                        rend="footnote text">Matt. 6:32.</p></note> that he is well apprised of all
+                those desires and appetites which he himself has implanted in your nature; to you, I
+                say, I will point out a more sure way of coming at such things as are necessary or
+                convenient for you: <pb n="04:219"/>‘Seek ye first the kingdom of God, and his
+                righteousness, and all these things shall be added unto you.’<hi
+                    rend="endnote_reference"><note place="end"><p rend="endnote text">Ver.
+                        33.</p></note></hi></p>
+            <p n="5">[5.] In order to perceive the full meaning of these words let us consider first
+                what this method is which our Saviour here prescribes: ‘Seek ye first the kingdom of
+                God, and his righteousness;’ and, secondly, the promise annexed to it;<note
+                    place="foot" xml:id="ftn11" n="11"><p rend="footnote text">For the hermeneutical
+                        rule that all Gospel commands are ‘covered promises’, cf. No. 25, ‘Sermon on
+                        the Mount, V’, II.2 and n.</p></note> ‘and all these things shall be added
+                unto you.’</p>
+            <p n="6">[6.] The kingdom which our blessed Lord here requires us to seek is that which
+                he himself assures us is not of this world.<note place="foot" xml:id="ftn12" n="12"
+                        ><p rend="footnote text">John 18:36.</p></note> All things here are subject
+                to corruption or decay. But the crown which God has prepared for those who
+                diligently seek it is incorruptible and fadeth not away.<note place="foot"
+                    xml:id="ftn13" n="13"><p rend="footnote text">1 Pet. 1:4.</p></note> But lest we
+                should imagine any to have a claim to these eternal mansions beside those that do
+                the will of their heavenly Father, we are expressly commanded to seek his
+                righteousness as well as his kingdom: which word, though in the strictest sense it
+                contains only our duty to our neighbour, yet implies here, as in many other places
+                of Holy Scripture, the sum of the Christian religion.<note place="foot"
+                    xml:id="ftn14" n="14"><p rend="footnote text">Note this moralistic
+                        identification of ‘righteousness’ as referring, in its strict sense, only to
+                        our duty to our neighbour (what Wesley will later define as outward or
+                        social holiness); see No. 7, ‘The Way to the Kingdom’, I.8 and n. The notion
+                        of justification (‘the righteousness of faith’) seems explicitly excluded;
+                        cf. No. 6, ‘The Righteousness of Faith’, intro, and n.</p></note> Whatever
+                virtues are recommended to us by reason, especially as assisted by revelation,<note
+                    place="foot" xml:id="ftn15" n="15"><p rend="footnote text">An early instance of
+                        the natural correlation, in Wesley’s Anglican tradition, of ‘revelation and
+                        reason’.</p></note> whatsoever things are lovely, whatsoever things are
+                    pure<note place="foot" xml:id="ftn16" n="16"><p rend="footnote text">See Phil.
+                        4:8.</p></note>—in a word, the whole of our duty both towards God,
+                ourselves, and our neighbour—are here included in the word ‘righteousness’. And
+                although this may in one sense be said to be ours, as being in some measure owing to
+                our own endeavours, working together with the Holy Spirit of God, yet is it very
+                justly ascribed to him and termed his righteousness, since he is the confirmer and
+                perfecter, as well as the infuser of it.<note place="foot" xml:id="ftn17" n="17"><p
+                        rend="footnote text">An echo of Hooker’s distinction between the Anglican
+                        and Roman doctrines of infused righteousness and grace; cf. his Sermon II,
+                        ‘A Learned Discourse of Justification…’ (1585), §§2-5, in <hi rend="italic"
+                            >Works</hi>, IV.602-9.</p></note></p>
+            <p n="7"><pb n="04:220"/>[7.] The attainment of this, and the kingdom of God, which is
+                no other way attainable, we are here directed to make our first, as well as our
+                chief study; to consider in the beginning of every undertaking whether it be proper
+                or likely in any degree to promote the glory of God, or peace and goodwill among
+                    men<note place="foot" xml:id="ftn18" n="18"><p rend="footnote text">Luke
+                        2:14.</p></note>—the great end and design of all religion; in a word (it not
+                being my purpose to descend to particular duties) to let it be always our first care
+                to observe those great commandments under which our Saviour comprises the whole duty
+                of a Christian: ‘Thou shalt love the Lord thy God with all thy heart, with all thy
+                soul, and with all thy mind,’ with the whole bias of thy understanding, thy will,
+                and thy affections; and, ‘Thou shalt love thy neighbour’, that is, every man, ‘as
+                    thyself.’<note place="foot" xml:id="ftn19" n="19"><p rend="footnote text">Matt.
+                        22:37, 39; notice this early example of Wesley’s reduction of the essence of
+                        ‘true religion’ as ‘love of God and neighbour’, and also the definition here
+                        of neighbour as ‘every man’; cf. No. 7, ‘The Way to the Kingdom’, I.8 and
+                        n.</p></note></p>
+            <p n="8">[8.] Though the sure expectation of that inestimable reward that remains
+                eternal in the heavens for those who thus behave themselves on earth would
+                sufficiently influence the conduct of all considerate persons, yet lest any should
+                be prejudiced by the prospect of present advantages (the mind, like the eye,
+                representing most objects small when placed at a great distance), God has been
+                graciously pleased, that wicked men may have nothing to plead in their defence, to
+                give a promise of the goods of this world as well as the next to those who make it
+                their first business to seek his righteousness. As a consequence of this, over and
+                above eternal happiness, ‘all these things shall be added unto you.’</p>
+            <p n="9">[9.] In which promise two things are chiefly observable: the certainty and the
+                extent of it.</p>
+            <p n="10">[10.] The certainty of this, as well as all other promises, depends on the
+                credit of the author, who is no less a person than God himself—one who can neither
+                deceive others nor be himself deceived, since he is a true as well as an all-knowing
+                Being. He is not a man, that he should lie, nor the son of man,<note place="foot"
+                    xml:id="ftn20" n="20"><p rend="footnote text">Num. 23:19.</p></note> that either
+                his knowledge or power should be limited. We are well assured he can do what he
+                will, and he has engaged his inviolable Word to do what he can for us, unless we are
+                wanting to ourselves. Here, <pb n="04:221"/>therefore, we fix our belief, without
+                any danger of disappointment: ‘For the Lord of hosts hath spoken, and who shall
+                disannul it?’<hi rend="endnote_reference"><note place="end"><p rend="endnote text"
+                            >[Cf.] Isa. 14:27.</p></note></hi></p>
+            <p n="11">[11.] We come in the next place to consider the extent of this promise made to
+                those who sincerely seek the kingdom of God and his righteousness. And this, we may
+                observe, is unlimited and universal. He saith not ‘many’ or ‘most’, but ‘all these
+                things shall be added unto you’—all things necessary, as the Apostle speaks, for
+                life and godliness,<note place="foot" xml:id="ftn21" n="21"><p rend="footnote text"
+                        >2 Pet. 1:3; note this very early hint of Wesley’s lifelong conviction of
+                        the correlation of happiness and holiness.</p></note> all things that in any
+                wise conduce to our real happiness. A promise to the same effect he formerly made by
+                the mouth of his servant David, the introduction to which shows us how insufficient
+                our natural abilities are to procure us necessaries without the special assistance
+                of his Providence. ‘The lions’, saith he, ‘do lack and suffer hunger’—so little does
+                their great strength avail them; ‘but they who seek the Lord shall want no manner of
+                thing that is good.’<note place="foot" xml:id="ftn22" n="22"><p rend="footnote text"
+                        >Ps. 34:10 (BCP).</p></note> And if we have everything that is good, what
+                farther can we desire? What is really good for us God undoubtedly knows best, to
+                whom the inmost frame and constitution of every heart is open, and from whom no
+                secret, and therefore neither that of making us happy, is hid.<note place="foot"
+                    xml:id="ftn23" n="23"><p rend="footnote text">A paraphrase from the BCP,
+                        Communion, Collect for Purity.</p></note></p>
+            <p n="12">[12.] It cannot indeed be denied that the children of this world have often
+                their share in what are usually called the goods of it, such as health, honour, and
+                affluence of fortune. But as these are nowhere promised them, so it is more than
+                they have any reason to expect, though God is pleased of his infinite wisdom to
+                suffer it. Nor is it always a mercy, but frequently a judgment on those men, that
+                they thrive in the world and have riches in possession; it being very evident that
+                if they give not God the glory of what they have, if they manage idly, or neglect to
+                improve, the talents committed to their charge, they had infinitely better have been
+                without them. For to the careless or unjust servant those very things which should
+                have been for his health will infallibly prove an occasion of falling. How much more
+                desirable is the condition of those who commit themselves and the success of their
+                endeavours to providence; who by making it their care to seek first the kingdom of
+                God, and his righteousness, both secure to <pb n="04:222"/>themselves an eternity of
+                future happiness, and all things necessary and convenient for their present
+                subsistence!</p>
+            <p n="13">[13.] Hither then repair all ye that labour and are heavy laden; all ye that
+                toil unsuccessfully to purchase the goods of this world, and are oppressed with the
+                sore burden of care and anxiety of any kind; and I, saith our Lord, will give you
+                    rest.<note place="foot" xml:id="ftn24" n="24"><p rend="footnote text">See Matt.
+                        11:28.</p></note> Come unto me, ye who are thoughtful about many things, ye
+                who earnestly desire to taste of happiness, or to be relieved from the pressure of
+                some heavy misfortune, and I will show you how ye shall find quiet for your
+                    souls.<note place="foot" xml:id="ftn25" n="25"><p rend="footnote text">See Matt.
+                        11:29.</p></note> Is any man struggling with the bitterness of extreme want?
+                Let him take counsel of me, who myself sustained it, when I had not where to lay my
+                    head.<note place="foot" xml:id="ftn26" n="26"><p rend="footnote text">See Matt.
+                        8:20.</p></note> Is anyone sensible of the sharper pangs of a wounded
+                spirit, to see his labours openly destroyed by the strong hand of the oppressor, or
+                his reputation covertly attacked by groundless reports or undeserved censure? Lo! I
+                who was myself a man of sorrows and acquainted with grief<note place="foot"
+                    xml:id="ftn27" n="27"><p rend="footnote text">See Isa. 53:3.</p></note> will
+                deliver him and set him at rest. What man is he that lusteth to live happily, and
+                would fain see good days?<note place="foot" xml:id="ftn28" n="28"><p
+                        rend="footnote text">See Ps. 34:12 (BCP).</p></note> Behold, I am he who am
+                both able and ready to save those who hear my voice out of all their troubles.<note
+                    place="foot" xml:id="ftn29" n="29"><p rend="footnote text">See Ps. 34:6, 17
+                        (BCP).</p></note> Cast ye all your care on me, and I will exalt you in due
+                    time.<note place="foot" xml:id="ftn30" n="30"><p rend="footnote text">See 1 Pet.
+                        5:6-7.</p></note> Be ye firmly persuaded that the things you so much desire
+                either are not for your real advantage, however they may appear to you who see
+                through a glass darkly;<note place="foot" xml:id="ftn31" n="31"><p
+                        rend="footnote text">See 1 Cor. 13:12.</p></note> or that if they are they
+                shall most certainly be added to those that learn of me when I, the most proper
+                judge, see a convenient season.</p>
+            <p n="14">[14.] Hard, very hard, one would think, are the conditions to be performed by
+                us before we can be partakers of these his gracious promises, since so very few,
+                even among men of the most refined understanding, think the terms he has proposed
+                worth accepting! Surely something highly unreasonable, if not wholly impracticable,
+                must be required on our part, since we have frequent instances of those who submit
+                to any toil or hardship which human nature is capable of sustaining to procure the
+                bare necessaries of life, rather than make use of this method of <pb n="04:223"
+                />acquiring them; especially considering their utmost endeavours are very often
+                unsuccessful, and all their best-laid designs blasted in a moment. Whereas this
+                other way of obtaining them has at least this advantage, that it is infallibly
+                certain of success, and can no more fail than can the truth of him who proposes it.
+                ‘He hath showed thee, O man,’ what to do. Let us then see what cruel conditions,
+                what insuperable difficulties lie before us. Nay, ‘what doth the Lord require of
+                thee but to do justly, and to love mercy, and to walk humbly with thy God?’<hi
+                    rend="endnote_reference"><note place="end"><p rend="endnote text">Mic.
+                        6:8.</p></note></hi> What doth he require of thee but those previous
+                dispositions of mind which are absolutely necessary to qualify thee for the
+                enjoyment either of present or future happiness? What, O man, doth he require of
+                thee, but to tread that path, in seeking temporal conveniences, which will
+                infallibly lead thee both to them and to those eternal mansions of joy where thou, O
+                Christ, O gracious Promiser, with the Holy Ghost, art most high in the glory of God
+                the Father!</p>
+            <p n="15">[15.] To which adorable and ever-blessed Trinity, Three Persons and one God,
+                be ascribed, as is most due, all honour, majesty, and dominion, both now and for
+                evermore! Amen!<note place="foot" xml:id="ftn32" n="32"><p rend="footnote text">Cf.
+                        No. 1, <hi rend="italic">Salvation by Faith</hi>, III.9 and
+                n.</p></note></p>
+        </body>
+    </text>
+</TEI>

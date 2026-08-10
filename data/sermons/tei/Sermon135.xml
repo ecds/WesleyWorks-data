@@ -1,0 +1,523 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Sermon 135: On Guardian Angels</title>
+                <author>Wesley, John</author>
+                <editor role="text">Van Buskirk, Gregory P.</editor>
+                <editor role="digital">Taylor, Michelle M.</editor>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>The Wesley Works Digitzation Project</publisher>
+                <pubPlace>Tampa, FL</pubPlace>
+                <date>2024-02-25</date>
+            </publicationStmt>
+            <sourceDesc>
+                <listBibl>
+                    <biblStruct>
+                        <analytic>
+                            <title level="a">Sermon 135: On Guardian Angels</title>
+                        </analytic>
+                        <monogr>
+                            <title level="j">The Works of John Wesley, Volume IV: Sermons IV,
+                                115-151</title>
+                            <editor role="volume">Outler, Albert</editor>
+                            <imprint>
+                                <publisher>Abingdon Press</publisher>
+                                <pubPlace>Nashville, TN</pubPlace>
+                                <date when="1987-11-01">1987-11-01</date>
+                                <biblScope unit="volume" n="4"/>
+                                <biblScope unit="page" from="224" to="235"/>
+                            </imprint>
+                        </monogr>
+                        <series>
+                            <title level="s">The Works of John Wesley</title>
+                            <editor role="general">Baker, Frank</editor>
+                        </series>
+                    </biblStruct>
+                </listBibl>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Greg Van Buskirk created Word docs for all of Wesley's sermons using a combination of
+                OCR software and manual proofing. Michelle Taylor converted these docx into XML
+                using Oxygen's DITA automatic transformation scenario, then touched them up
+                manually.</p>
+        </encodingDesc>
+        <standOff>
+            <taxonomy>
+                <keywords>
+                    <term/>
+                </keywords>
+            </taxonomy>
+            <!--Include keywords and terms here eventually.-->
+        </standOff>
+        <revisionDesc/>
+    </teiHeader>
+    <text>
+        <body>
+            <pb n="04:224"/>
+            <head>
+                <hi rend="italic">An Introductory Comment</hi>
+            </head>
+            <introduction>
+                <p n="1">According to John Wesley’s records, this was his sixth sermon
+                        manuscript.<note place="foot" xml:id="ftn1" n="1"><p rend="footnote text"
+                            >Heitzenrater, ‘John Wesley’s Early Sermons’, pp. 115-16.</p></note> But
+                    numbers 3-5 are not known to have survived, which leaves us with this one as
+                    third in the present sequence. It was first preached on ‘Thursday, Sept. 29,
+                    1726, in St. Michael’s, Oxford, for the Feast of St. Michael and All Angels’.
+                    There are no other records of its subsequent history until it appears in the
+                    collection of John’s sermons in Charles Wesley’s hand, with Charles’s own note
+                    that he had transcribed it. John chose not to publish it, but he returned to the
+                    subject later (1783) with a pair of sermons, ‘Of Good Angels’ and ‘Of Evil
+                    Angels’ (see Nos. 71-72). For the 1816 edition of her husband’s sermons, Mrs.
+                    Sarah Wesley chose to publish a heavily edited version of the original.<note
+                        place="foot" xml:id="ftn2" n="2"><p rend="footnote text">Cf. <hi
+                                rend="italic">Sermons</hi> (1816), pp. 22-42.</p></note> None of
+                    John Wesley’s subsequent editors has taken any notice of it.</p>
+                <p n="2">Even so, it is an interesting reflection of the young Wesley’s mind at so
+                    early a stage of his theological development. His first two sermons had based
+                    their hopes on the comforts of a grace-filled death. Within a year, Wesley had
+                    come to a broader understanding of the benevolent action of ‘guardian angels’ as
+                    special agents of God’s abundant providence. He is even able to attempt a
+                    description of these divine ‘messengers’ and knows a good deal about their
+                    gracious interventions in human affairs. There is, however, nothing original in
+                    his ideas here.<note place="foot" xml:id="ftn3" n="3"><p rend="footnote text"
+                            >Cf. Heinrich Heppe, <hi rend="italic">Reformed Dogmatics</hi>, pp.
+                            201-19.</p></note> What is noteworthy is his recognition of the problem
+                    of human freedom in relation to the angels and their initiatives (as, e.g.,
+                    their respect for human responsibility). It is also interesting to see Wesley’s
+                    conventional anti-papist biases as expressed in his gratuitous condemnation of
+                    ‘the folly and impiety of the Romish Church, namely, the worshipping of angels’.
+                    Like the two previous manuscripts, this one also ends with a conventional
+                    ascription.</p>
+                <p n="3">The text presented here is a transcription of Charles’s manuscript of
+                    1736.</p>
+            </introduction>
+            <pb n="04:225"/>
+            <head>On Guardian Angels</head>
+            <epigraph>
+                <p>Psalm 91:11</p>
+                <p>In the 91st Psalm at the eleventh verse it is thus written:</p>
+                <quote>
+                    <hi rend="italic">He shall give his angels charge over thee, to keep thee in all
+                        thy ways.</hi>
+                </quote>
+                <!--This is the only time I use the quote element in an epigraph, and I only do it because JW introduces the Bible verse. Should I take it out for the sake of consistency? or on the other hand, introduce it everywhere for consistency?-->
+            </epigraph>
+            <div type="introduction">
+                <p n="1">[1.] One would think it scarce possible that a man, even through the
+                    wantonness of wealth, power, or glory, should forget the very condition of his
+                    nature—that we are weak, miserable, helpless creatures; that we are by no means
+                    equal to those many and great dangers that continually surround us, and
+                    threat[en] not only our souls (those, men have little care for) with indelible
+                    guilt, that is endless misery, but our darling bodies,<note place="foot"
+                        xml:id="ftn4" n="4"><p rend="footnote text">A sarcastic use of the sort of
+                            language that Wesley usually eschews, save for phrases like ‘darling
+                            sins’, ‘bosom sins’, etc.; cf. No. 48, ‘Self-denial’, II.2 and n. For
+                            his comments against sentimental language, see No. 123, ‘On Knowing
+                            Christ after the Flesh’, §§8 ff.</p></note> too, with tedious, painful
+                    diseases, and at length with a total dissolution. The meanest object of our
+                    scorn—a beast, an insect, nay, even things that themselves have no life—are
+                    sufficient either to take away ours, or to make it a curse rather than a
+                    blessing. Pangs yet sharper than these can inflict we may often feel from the
+                    perverse injustice or malice of our brethren, encouraged therein by those wicked
+                    spirits, our fiercest enemies, who, like roaring lions, daily range in quest of
+                        prey,<note place="foot" xml:id="ftn5" n="5"><p rend="footnote text">See 1
+                            Pet. 5:8.</p></note> and when they are not permitted to do it
+                    themselves, rejoice in seeing us devour one another.</p>
+                <p n="2">[2.] ‘But where’, then will the unbeliever say, ‘is the boasted goodness of
+                    your Creator, if he delivers over his impotent helpless creatures to their
+                    numerous, powerful, and cruel enemies?’ God forbid that he should deliver us to
+                    them! Mercy is still over all his works!<note place="foot" xml:id="ftn6" n="6"
+                            ><p rend="footnote text">Cf. BCP, ‘Forms of Prayer to be Used at Sea’,
+                            alternate Collect of Thanksgiving; see also Ps. 145:9.</p></note> ’Tis
+                    true, to humble our natural pride and self-sufficiency, he suffers them to ‘hold
+                    us in on every side’;<note place="foot" xml:id="ftn7" n="7"><p
+                            rend="footnote text">Cf. Luke 19:43.</p></note> ’tis true, too, ‘that we
+                    are unable of ourselves to help ourselves’.<note place="foot" xml:id="ftn8"
+                        n="8"><p rend="footnote text">Cf. BCP, Second Sunday in Lent,
+                        Collect.</p></note> Yet <pb n="
+                    4:226"/>‘hath he not given us over as a prey unto their
+                        teeth’.<note place="foot" xml:id="ftn9" n="9"><p rend="footnote text">Ps.
+                            124:6.</p></note> On the contrary he hath established a law, and
+                    ordained it shall never be broken,<note place="foot" xml:id="ftn10" n="10"><p
+                            rend="footnote text">See Ps. 148:6; note the idea here of a natural
+                            moral law which the later Wesley will strenuously reject See No. 12,
+                            ‘The Witness of Our Own Spirit’, §5 and n.</p></note> that unless by our
+                    own positive voluntary act they ‘shall have no advantage over us’.<note
+                        place="foot" xml:id="ftn11" n="11"><p rend="footnote text">Cf. 2 Cor.
+                            2:11.</p></note> For all who do not wilfully, obstinately refuse to
+                    accept it, he hath appointed an inviolable refuge (beautifully described at
+                    large in that psalm, part of which you have heard repeated)—‘They may dwell in
+                    the secret place of the Most High, may abide under the shadow of the
+                        Almighty.’<note place="foot" xml:id="ftn12" n="12"><p rend="footnote text"
+                            >Cf. Ps. 91:1.</p></note></p>
+                <p n="3">[3.] That while the afflictions which vex the rest of mankind increase ever
+                    more and more, while a thousand fall into various troubles at their side, and
+                    ten thousand at their right hand, yet no evil shall befall these, unless for
+                    good, ‘no plague come nigh their dwelling’,<note place="foot" xml:id="ftn13"
+                        n="13"><p rend="footnote text">See Ps. 91:7, 10.</p></note> we cannot doubt,
+                    if we consider what peculiar care he hath taken for their protection, that ‘he
+                    hath given his angels charge over them, to keep them in all their ways.’<note
+                        place="foot" xml:id="ftn14" n="14"><p rend="footnote text">Cf. Ps.
+                            91:11.</p></note></p>
+                <p n="4">[4.] A stronger proof of the truth of this general proposition we cannot
+                    have than the authority of the Proposer. A clearer view of the sense of it we
+                    may have by making a particular inquiry,</p>
+                <p n="0">First, when the angels of God attend this their charge; at what times they
+                    are peculiarly employed in keeping good men in their ways;</p>
+                <p n="0">Secondly, how they attend upon it; what methods they take, as we may
+                    probably suppose, thus to keep them;</p>
+                <p n="0">Thirdly, why this charge is assigned them; for what reasons we may presume
+                    him who is omnipresent and omnipotent not to make use of his own immediate
+                    power, but of these ‘his servants to do his pleasure’.<note place="foot"
+                        xml:id="ftn15" n="15"><p rend="footnote text">Cf. Ps. 103:21
+                        (BCP).</p></note></p>
+                <p n="5">[5.] To these inquiries, that they may not seem to be matter of mere
+                    speculation, an inference or two naturally resulting from them may, not unfitly,
+                    be subjoined.</p>
+            </div>
+            <div type="section" n="1">
+                <p n="1">I. [1.] As to the times when the holy angels attend this their charge, this
+                    in general we may be assured of, that they are always ready to assist us when we
+                    need their assistance, always present <pb n="04:227"/>when their presence may be
+                    of service, in every circumstance of life wherein is danger of any sort, or
+                    would be if they were absent. The commission they bear plainly reaches thus far:
+                    they are ‘to keep us in all our ways’; and we know when these ministers are
+                    employed here by God his will is done in earth as it is in heaven.<note
+                        place="foot" xml:id="ftn16" n="16"><p rend="footnote text">See Matt.
+                            6:10.</p></note></p>
+                <p n="">[2.] In particular, when our body is threatened with pain or sickness, or
+                    our souls with violent passion or sin, then are they especially watchful over
+                    us, to ward off the approaching evil. And these no doubt approach often when we
+                    are sensible of no danger; which is often nearest when we apprehend it farthest
+                    off. Destruction does not always ‘waste at noon-day’; it more frequently
+                    ‘walketh in darkness’.<note place="foot" xml:id="ftn17" n="17"><p
+                            rend="footnote text">Cf. Ps. 91:6.</p></note> And our being delivered
+                    from it then is wholly owing to their timely interposition, though neither the
+                    attack nor the repulse falls under the notice of our imperfect senses.</p>
+                <p n="">[3.] Other times there are at which we are sensible of our danger, but not
+                    of the means by which we escape it, which we suppose to be either the natural
+                    work of material causes, or chance, or our own strength or wisdom. But were we
+                    left to these, and ourselves, we should soon find how little resistance we could
+                    make against the enemies that daily besiege us, without those on our side who
+                    are more skilful to save than these to destroy!</p>
+                <p n="">[4.] And doubtless they would save us whenever assaulted by any evil,
+                    whether visible or invisible, but that this exceeds the commission they have
+                    received from their and our Master. This he did not appoint, could not permit
+                    them to do, since he knew it would not benefit, but hurt us. He knows of what
+                    infinite service afflictions are to creatures in our station, and therefore that
+                    to be delivered from all while on earth would be the greatest evil that could
+                    befall us. Such an undistinguishing tenderness to the body would be an
+                    irreparable injury to the soul: if one were continually comforted here, ’tis
+                    great odds but both would hereafter be tormented.</p>
+                <p n="">[5.] Neither would it be kindness thus to exempt us from spiritual any more
+                    than from temporal danger—to deliver the soul from all temptation,<note
+                        place="foot" xml:id="ftn18" n="18"><p rend="footnote text">In the manuscript
+                            the word ‘sin’ was later altered to ‘temptation’; given the context
+                            (‘spiritual danger’), ‘temptation’ makes better sense.</p></note> any
+                    more than the body from all pain. <pb n="04:228"/>Were the angels of God
+                    enjoined to do this, as we should be without vice, so we must have been without
+                    virtue, seeing we should have no choice left; and where there is no choice,
+                    there can be no virtue.<note place="foot" xml:id="ftn19" n="19"><p
+                            rend="footnote text">For a variation on this theme, cf. No. 60, ‘The
+                            General Deliverance’, I.4 and n.</p></note> But had we been without
+                    virtue, we must have been content with some lower happiness than that we now
+                    hope to partake of, which is the natural necessary result of virtue, and its
+                    genuine and inseparable fruit.</p>
+                <p n="">[6.] But although for these reasons (and who knows how many others the
+                    divine wisdom may have in view) the blessed angels may not always prevent sin or
+                    affliction from assaulting the soul or body, yet when either has taken hold upon
+                    us, they may prevent our being totally overthrown. They may preserve us from
+                    sinking under temporal misfortunes, from being enslaved by spiritual enemies.
+                    They may likewise recover us out of that trouble which they might not hinder us
+                    from falling into; nay, and often assist us to rise by our fall; by having been
+                    defeated, to obtain a nobler conquest.</p>
+            </div>
+            <div type="section" n="2">
+                <p n="0">II. How it is that the angels of God do this, by what particular methods
+                    they may be supposed to keep us, I proceed under my second general head to
+                    inquire, according to the light that is given us. Little of certainty, you are
+                    sensible, can be expected on a subject of this nature, unless where there is the
+                    express warrant of his revelation who made all things, and therefore knows
+                    them.</p>
+                <p n="1">1. And, first, in general, his revelation expressly assures me that these
+                    his servants ‘excel in strength’;<note place="foot" xml:id="ftn20" n="20"><p
+                            rend="footnote text">Ps. 103:20.</p></note> which we may likewise infer
+                    from the works ascribed to them in many places of Holy Writ. That one of them
+                    shut the lion’s mouth, which would otherwise have devoured Daniel;<note
+                        place="foot" xml:id="ftn21" n="21"><p rend="footnote text">See Dan.
+                            6:22.</p></note> that at the word of another the chains fell off St.
+                    Peter’s hands, and the prison gates opened of their own accord,<note
+                        place="foot" xml:id="ftn22" n="22"><p rend="footnote text">See Acts
+                            12:7.</p></note> seems little when we consider what is elsewhere related
+                    of the tasks their Sovereign had assigned them. ‘I saw’, saith St. John, ‘four
+                    angels standing on the four corners of the earth, holding the four winds of the
+                    earth, that they should not blow.’<note place="foot" xml:id="ftn23" n="23"><p
+                            rend="footnote text">Cf. Rev. 7:1.</p></note> Of four others, who seem
+                    to have been of that number which probably lost much of their strength with
+                    their purity, the same Apostle records that they were loosed from their bonds in
+                        <pb n="04:229"/>the River Euphrates, ‘to slay the third part of men’.<note
+                        place="foot" xml:id="ftn24" n="24"><p rend="footnote text">Rev.
+                        9:15.</p></note> What then cannot those do, whose strength is still entire,
+                    when they are permitted to exert it? Especially since,</p>
+                <p n="2">2. Secondly, they excel equally in wisdom, as we have the strongest reason
+                    to believe. They, like man, were undoubtedly created upright, though with higher
+                    powers, as they are beings of an higher order. But they fell not like him, and
+                    have therefore retained them unimpaired, at least ever since the world began, if
+                    not many ages before. But we may be assured they neither would nor could retain
+                    them without continually improving them. At what degree, then, of knowledge and
+                    wisdom may we not suppose they are now arrived? If a creature of so confined, so
+                    depraved an understanding as man can improve it so much in threescore years,
+                    what bounds can fancy set to the understanding of an angel, which, with so vast
+                    a grasp, and so right unbiased an apprehension, hath been travelling onward
+                    toward perfection for probably many thousands of ages? Especially considering
+                    whose face they continually behold,<note place="foot" xml:id="ftn25" n="25"><p
+                            rend="footnote text">See Matt. 18:10.</p></note> even his, ‘of whose
+                    understanding is no [searching]’;<note place="foot" xml:id="ftn26" n="26"><p
+                            rend="footnote text">Cf. Isa. 40:28 and Ps. 147:5 (AV); MS reads ‘no
+                            number’.</p></note> and that to imitate him,<note place="foot"
+                        xml:id="ftn27" n="27"><p rend="footnote text">Cf. Nos. 1, <hi rend="italic"
+                                >Salvation by Faith</hi>, §1 and n.; and 3, <hi rend="italic"
+                                >‘Awake, Thou That Steepest’</hi>, II.10 and n.</p></note> as far as
+                    the noblest creature can, is both their business, and pleasure, and glory.</p>
+                <p n="3">[3.] By these perfections, strength, and wisdom, they are well able to
+                    preserve us, either from the approach, if that be more profitable for us, or
+                    otherwise in the attack of any evil. By their wisdom they discern whatever
+                    either obstructs or promotes our real advantage: by their strength they
+                    effectually repel the one and secure a free course to the other. By the first
+                    they choose means conducive to these ends; by the second they put them in
+                    execution.</p>
+                <p n="4">[4.] One particular method of preserving good men which we may reasonably
+                    suppose these wise beings sometimes to choose, and by their strength to put in
+                    execution, is the altering some material cause that else would have a pernicious
+                    effect, the cleansing (for instance) tainted air, that would otherwise produce a
+                    contagious distemper. And this they may easily do, either by increasing the
+                    current of it, so naturally to purge off its impurity, or by mixing with it some
+                    other substance, so to correct its hurtful qualities and make it friendly to
+                    human bodies.</p>
+                <p n="5"><pb n="04:230"/>[5.] Another method they may be supposed to take when their
+                    commission is not so general, when they are only authorized to preserve some few
+                    persons from a common calamity. ’Tis then likely they do not alter the cause,
+                    but the subject on which it is to work; that they do not lessen the strength of
+                    the one, but increase the strength of the other. Thus, too, where they are not
+                    allowed to prevent, they may remove pain or sickness: thus the angel restored
+                    Daniel in a moment, ‘when neither strength nor breath remained in him’.<note
+                        place="foot" xml:id="ftn28" n="28"><p rend="footnote text">Cf. Dan.
+                            10:17-18; see No. 71, ‘Of Good Angels’, II.4.</p></note></p>
+                <p n="6">[6.] By these means, by altering either our bodies or the material causes
+                    that use to affect them, they may easily defend us from all bodily evils,<note
+                        place="foot" xml:id="ftn29" n="29"><p rend="footnote text">‘Evils’, altered
+                            in MS from orig. ‘pain’.</p></note> so far as is expedient for us. A
+                    third method they may be conceived to take to defend us from spiritual dangers:
+                    by applying themselves immediately to our soul, to raise or allay our passions.
+                    And this province indeed seems more natural to them than either of the former.
+                    How a spiritual being can act upon matter seems more unaccountable than how it
+                    can act on spirit. That one immaterial being, by touching another, should either
+                    increase or lessen its motion, that an angel should either retard or quicken the
+                    stream wherewith the passions of an angelic substance flow, is no more to be
+                    wondered at than that one piece of matter should have the same effect on its
+                    kindred substance, that a flood-gate or other material instrument should retard
+                    or quicken the stream of a river. Rather, considering of how contagious a nature
+                    the passions are, the wonder is on the other side—not how they can affect them
+                    at all, but how they can avoid affecting them more; how they can continue so
+                    near us, who are so subject to catch them, without spreading the flames that
+                    burn in themselves.</p>
+                <p n="7">[7.] And a plain instance of their power to allay human passions the
+                    Scriptures give us in the case of Daniel, when he beheld that gloriously
+                    terrible minister ‘whose face was as the appearance of lightning, and his eyes
+                    as lamps of fire, his arms and feet like polished brass, and his voice as the
+                    voice of a multitude’.<hi rend="endnote_reference"><note place="end"><p
+                                rend="endnote text">[Dan.] 10:6.</p></note></hi> ‘His fears and
+                    sorrows were turned so strongly upon him that he was in a deep sleep’,<note
+                        place="foot" xml:id="ftn30" n="30"><p rend="footnote text">Cf. Dan. 10:9,
+                            16.</p></note> void of sense and motion. Yet these turbulent passions
+                    the angel allayed in an instant; when they were hurrying <pb n="04:231"/>on with
+                    the utmost impetuosity he stopped them short in their mid-course, so that
+                    immediately after we find him desiring the continuance of that converse which he
+                    was before utterly unable to sustain. The same effect was doubtless wrought on
+                    all those to whom these superior beings, on their first appearance, used that
+                    common salutation, ‘Fear not’—which would have been a mere insult upon human
+                    weakness had they not with that advice given power to follow it.</p>
+                <p n="8">[8.] Near akin to this method of affecting the passions is the last I
+                    intend to mention, by which the angels, as ’tis probable, keep good men
+                    especially in or from spiritual dangers. And this is by applying themselves to
+                    their reason, by instilling good thoughts into their hearts; either such as are
+                    good in their own nature, as tend to our improvement in virtue, or such as are
+                    contrary to those suggestions of the flesh or the devil by which we are tempted
+                    to vice. ’Tis not unlikely that we are indebted to them, not only for most of
+                    those reflections which suddenly dart across our minds, we know not how, having
+                    no connection with any that went before them; but for many of those, too, that
+                    seem entirely our own, and naturally consequent from the preceding.</p>
+            </div>
+            <div type="section" n="3">
+                <p n="1">III. [1.] It were easy to show that to some of these heads all those
+                    actions are reducible which we can conceive these our guardians ever to perform
+                    in execution of this their charge. But ’tis time that we came to our third
+                    inquiry, which was, Why this charge was assigned them; for what reasons we may
+                    presume he who is omnipresent and omnipotent not to make use of his own
+                    immediate power, but of these his servants, to do his pleasure?</p>
+                <p>I am not ignorant that this is usually thought a ‘knowledge too wonderful for
+                        us’<note place="foot" xml:id="ftn31" n="31"><p rend="footnote text">Cf. Ps.
+                            139:6.</p></note>—that man cannot attain a view of these ways of God,
+                    these hidden treasures of his providence. However, it cannot be unlawful to
+                    extend our search as far as our limited faculties will permit, provided we
+                        proceed<note place="foot" xml:id="ftn32" n="32"><p rend="footnote text">A
+                            later hand has altered the manuscript here to read
+                        ‘approach’.</p></note> with due reverence and humility, and do not
+                    contradict the analogy of our faith.<note place="foot" xml:id="ftn33" n="33"><p
+                            rend="footnote text">I.e., the ‘general tenor’ of Scripture; cf. No. 5,
+                            ‘Justification by Faith’, §2 and n.</p></note></p>
+                <p>Consistently with these we may presume one reason why God assigns this charge to
+                    his holy angels to be because they delight in it, because they have an
+                    additional pleasure therein besides what always results from their being
+                    employed in his service. Seeing <pb n="04:232"/>the more benevolent any being
+                    is, the more delight he takes in doing good; seeing that these are benevolent in
+                    the highest degree, we cannot but infer by their holding the highest rank among
+                    creatures, inasmuch as God always favours and honours them most who are most
+                    like him—but<note place="foot" xml:id="ftn34" n="34"><p rend="footnote text"
+                            >Altered (by a later hand) to ‘for’.</p></note> ‘God is love’:<note
+                        place="foot" xml:id="ftn35" n="35"><p rend="footnote text">1 John
+                        4:16.</p></note> to conduct others in the paths of happiness must be a
+                    particular addition to their own.</p>
+                <p n="2">[2.] Nor is it a barren, useless pleasure which these sons of God reap from
+                    their attendance on the children of men, but a pleasure joined with improvement.
+                    In doing good to us they do good to themselves also, and this perhaps is a
+                    second reason why the Most High hath allotted this province to them, because by
+                    exercising the goodness they have already they continually acquire more, and
+                    swiftly, too. Even we, fettered as we are in this house<note place="foot"
+                        xml:id="ftn36" n="36"><p rend="footnote text">Altered (also by a later hand)
+                            to ‘tabernacle’; both echoes of 2 Cor. 5:1. See No. 28, ‘Sermon on the
+                            Mount, VIII’, §21 and n.</p></note> of earth, and weighed down by
+                    original corruption, perceive [that] the more acts of any virtue we perform, the
+                    stronger habit we slowly attain to. Much more swiftly must exercise improve them
+                    who have neither of these impediments: much more sensibly by the acts of
+                    benevolence they perform must they advance in that godlike virtue.</p>
+                <p n="3">3. And thirdly, as by this exercise of benevolence they are even now both
+                    more benevolent and happy,<note place="foot" xml:id="ftn37" n="37"><p
+                            rend="footnote text">Note this yoking of benevolence and happiness as in
+                            Anglican moralists generally and especially in Joseph Butler’s famous
+                            Rolls Chapel Sermons (1726); cf. No. 5, ‘Justification by Faith’, I.4
+                            and n.</p></note> so thereby they every moment treasure up to themselves
+                    fresh matter of future happiness. The greater goodwill they bear to men, the
+                    greater must be their joy when these men, in the fullness of time, are received
+                    into that glory appointed for them. The more exquisitely will they sympathize
+                    with them when all their troubles are done away, when the days of sickness and
+                    pain and sin are over, are swallowed up in immortality, and they are admitted to
+                    drink of ‘those rivers of pleasure’ that flow at God’s right hand for
+                        evermore!<note place="foot" xml:id="ftn38" n="38"><p rend="footnote text"
+                            >Cf. Pss. 36:8; 16:11.</p></note></p>
+                <p n="4">4. In those days we shall plainly see a fourth reason likewise why these
+                    ministering spirits were so constantly ‘sent forth’ to guard ‘them who were to
+                    be heirs of salvation’;<note place="foot" xml:id="ftn39" n="39"><p
+                            rend="footnote text">Heb. 1:14.</p></note> namely, that the <pb
+                        n="04:233"/>heirs of salvation, when entered into that inheritance, might be
+                    gratefully sensible of their benefits; that when they experienced the
+                    inestimable value of those benefits, this gratitude might ripen into love; that
+                    this love might be a means of increasing their happiness, by seeing them whom
+                    they loved, and seeing them so happy; and by reflecting that themselves,
+                    unworthy as they were, had in some degree contributed to it.</p>
+            </div>
+            <div type="section" n="4">
+                <p n="1">IV. 1. From that little we have been able to feel out touching this one
+                    dispensation of providence, touching the time when, the manner how, and the
+                    reasons why, the blessed angels have charge to keep good men, may we not
+                    naturally infer that we should adore his goodness and wisdom who hath instituted
+                    the services both of angels and men in so wonderful an order! How great is that
+                    goodness which hath not left without defence his weak, miserable, helpless
+                    creatures! How great is that wisdom which hath so well proportioned the powers
+                    of our defenders to their office! How infinitely great are the<note place="foot"
+                        xml:id="ftn40" n="40"><p rend="footnote text">Corrected in MS from ‘is
+                            that’.</p></note> wisdom and goodness which have made us serviceable to
+                    them, which have derived such advantage from weak, miserable, helpless creatures
+                    to beings only not almighty!</p>
+                <p n="2">2. Hence we may, secondly, infer the weakness of that objection which men
+                    who pretended to believe a God have often made against his providence<note
+                        place="foot" xml:id="ftn41" n="41"><p rend="footnote text">For further
+                            comments on ‘Providence’, see No. 67, ‘On Divine Providence’, and notes
+                            30, 64.</p></note>—that ’tis beneath a Being of such infinite greatness
+                    to concern himself in our little affairs. Supposing it were (though ’tis
+                    palpably absurd to suppose it of him who is omnipresent as well as omnipotent),
+                    yet what would this avail them? How would it follow that fortune governed the
+                    world, since there is a particular order of beings whose business it is to
+                    attend on this very thing; who are ready on all occasions to assist such as need
+                    and will accept of their assistance, and by the powers wherewith he hath endued
+                    them are sufficiently able (were that the will of their Master) to keep both the
+                    natural and moral world in order without his ever interposing?</p>
+                <p n="3">3. We learn hence, in the third place, to condemn the folly and
+                        impiety<note place="foot" xml:id="ftn42" n="42"><p rend="footnote text"
+                            >Altered (by a later hand) to ‘error’.</p></note> that obtains in the
+                    Romish church; namely, the worshipping of angels, the paying to the creature the
+                    incommunicable <pb n="04:234"/>honour of the Creator.<note place="foot"
+                        xml:id="ftn43" n="43"><p rend="footnote text">Even if Wesley had never read
+                            Aquinas on this point (<hi rend="italic">Summa Theologica</hi>, Pt. I,
+                                <hi rend="italic">Q</hi>. 113, ‘Of the Guardianship of the Good
+                            Angels’), his general view follows the tradition. There is, however, no
+                            word in Aquinas as to the <hi rend="italic">worship</hi> of angels. This
+                            reference to ‘Romish impiety’ was, therefore, an echo of popular
+                            anti-Roman prejudice based, perhaps, on the denial in <hi rend="italic"
+                                >The Catechism of the Council of Trent</hi> (in its comment on ‘The
+                            First Commandment’): ‘Veneration and Invocation of Angels and Saints not
+                            Forbidden by this Commandment’. There, and in Roman Catholic angelology
+                            in general, the distinction between <hi rend="italic">latria</hi> (‘the
+                            honour due to God alone’) and <hi rend="italic">dulia</hi> (‘veneration
+                            and invocation’) is carefully observed. Protestants, however, had
+                            rejected this distinction as too easily blurred in popular
+                        practice.</p></note> ‘Let no man beguile us of our reward’<note place="foot"
+                        xml:id="ftn44" n="44"><p rend="footnote text">Cf. Col. 2:18.</p></note> in
+                    this show of gratitude and humility. They keep us in all our ways, ’tis true,
+                    but we know who gives them a charge so to do. The Lord our God is but one
+                        Lord;<note place="foot" xml:id="ftn45" n="45"><p rend="footnote text">See
+                            Deut. 6:4.</p></note> these are servants that do his pleasure. And if
+                    their doing this, if their obeying his order, were a sufficient reason for us to
+                    worship them, ‘fire and hail, wind and storm fulfilling his word’,<note
+                        place="foot" xml:id="ftn46" n="46"><p rend="footnote text">Ps. 148:8
+                            (BCP).</p></note> as well as they, would have an equal claim to our
+                    adoration.</p>
+                <p n="4">4. ’Tis God himself, as we may fourthly collect from what has been said, to
+                    whom our praises and prayers are due, to whom we ought to return our sincerest
+                    acknowledgements, whom we should implore with the deepest humility, that we may
+                    reap the fruits of his wisdom and goodness, from the constant ministry of his
+                    servants. To him our petition should be addressed, according to the wise
+                    direction our Church has given us, ‘that as his holy angels do him service in
+                    heaven, so they may succour and defend us upon earth’;<note place="foot"
+                        xml:id="ftn47" n="47"><p rend="footnote text">Cf. BCP, Collects for St.
+                            Michael and All Angels.</p></note> that their general commission to
+                    inspect human affairs may affect us in particular, and secure to us such a
+                    degree of present ease as suits best with our future happiness.</p>
+            </div>
+            <div type="section" n="5">
+                <p>[V.] <hi rend="italic">Conclusion</hi>: Happy is the man, even now, as he can be
+                    upon earth, who is in such a case, who enjoys such a protection! Happy in having
+                    the greatest possible security that he never shall be unhappy! That even no
+                    temporal evil shall befall him, unless to clear the way for a greater good! What
+                    though he wrestles not only against inanimate enemies, but against flesh and
+                    blood, the depravity of his own nature, with the perverseness, malice, and
+                    injustice of other men; nay, and not only against flesh and blood, but against
+                    principalities, the rulers of the darkness of this world, <pb n="04:235"/>the
+                    wicked spirits in high places?<note place="foot" xml:id="ftn48" n="48"><p
+                            rend="footnote text">See Eph. 6:12.</p></note> They that are for him are
+                    not only more, but stronger and wiser than they that are against him!<note
+                        place="foot" xml:id="ftn49" n="49"><p rend="footnote text">See 2 Kgs. 6:16;
+                            Rom. 8:31.</p></note> And are not these at least as watchful to do good
+                    as those are to do us evil? So watchful, that let him but be true to himself,
+                    let him but fix his love on their common Creator, and nothing in the creation,
+                    animate or inanimate, by design or chance, shall have power to hurt him. ‘In
+                    famine they shall preserve the good man from death; in war, from the hand of the
+                    sword. They shall hide thee from the scourge of the tongue. Thou shalt laugh at
+                    destruction when it cometh. The very beasts of the earth shall they make to be
+                    at peace with thee, and thou shalt be at league with the stones of the
+                        field.’<hi rend="endnote_reference"><note place="end"><p rend="endnote text"
+                                >[Cf.] Job 5:22, etc. [i.e., 20-23].</p></note></hi></p>
+                <p>Wherefore to him who hath thus loved us, and given us this good consolation among
+                    the numberless evils wherewith we are surrounded, to God the Father, God the
+                    Son, and God the Holy Ghost, let us yield all praise, majesty, and dominion, now
+                    and for ever! Amen!</p>
+            </div>
+        </body>
+    </text>
+</TEI>
