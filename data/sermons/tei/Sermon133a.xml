@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Manuscript Sermons, 1725-1741</title>
+                <author>Wesley, John</author>
+                <editor role="text">Van Buskirk, Gregory P.</editor>
+                <editor role="digital">Taylor, Michelle M.</editor>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>The Wesley Works Digitzation Project</publisher>
+                <pubPlace>Tampa, FL</pubPlace>
+                <date>2024-02-25</date>
+            </publicationStmt>
+            <sourceDesc>
+                <listBibl>
+                    <biblStruct>
+                        <analytic>
+                            <title level="a">Manuscript Sermons, 1725-1741</title>
+                        </analytic>
+                        <monogr>
+                            <title level="j">The Works of John Wesley, Volume IV: Sermons IV,
+                                115-151</title>
+                            <editor role="volume">Outler, Albert</editor>
+                            <imprint>
+                                <publisher>Abingdon Press</publisher>
+                                <pubPlace>Nashville, TN</pubPlace>
+                                <date when="1987-11-01">1987-11-01</date>
+                                <biblScope unit="volume" n="4"/>
+                                <biblScope unit="page" from="201" to="202"/>
+                            </imprint>
+                        </monogr>
+                        <series>
+                            <title level="s">The Works of John Wesley</title>
+                            <editor role="general">Baker, Frank</editor>
+                        </series>
+                    </biblStruct>
+                </listBibl>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Greg Van Buskirk created Word docs for all of Wesley's sermons using a combination of
+                OCR software and manual proofing. Michelle Taylor converted these docx into XML
+                using Oxygen's DITA automatic transformation scenario, then touched them up
+                manually.</p>
+        </encodingDesc>
+        <standOff>
+            <taxonomy>
+                <keywords>
+                    <term/>
+                </keywords>
+            </taxonomy>
+            <!--Include keywords and terms here eventually.-->
+        </standOff>
+        <revisionDesc/>
+    </teiHeader>
+    <text>
+        <body>
+            <pb n="04:201"/>
+            <head>
+                <hi rend="italic">An Editorial Comment</hi>
+            </head>
+            <p n="1">This final section includes a cluster of seventeen manuscript sermons (together
+                with three fragments) which John Wesley produced in the years between 1725 and 1741.
+                Ten of the sermons, and the fragments, are extant in his own hand; seven have
+                survived in Charles Wesley’s copies from manuscripts supplied him by his elder
+                brother.</p>
+            <p n="2">The holographs of the sermons that Wesley published in his lifetime have long
+                since disappeared—discarded, one presumes, by printers with no interest in the
+                problems thus created for future editors. This means that the manuscripts which
+                Wesley chose to keep in his files (some upwards of six decades) were items which he
+                also chose not to publish. These included unpublished sermons written by himself,
+                together with transcripts of sermons by others whom Wesley found edifying (e.g.,
+                Benjamin Calamy, William Tilly, <hi rend="italic">et al.</hi>). His own reasons for
+                not publishing them are clear enough (save in the case of Nos. 141, ‘The Image of
+                God’, and 146, ‘The One Thing Needful’); in general, they are clearly unmemorable.
+                What goes unexplained are his motives for preserving them over the course of
+                sixty-five years or so. However, their importance in any serious study of his
+                theological beginnings and subsequent development is crucial. They show, more
+                clearly than anything else, how typically Anglican his early views of Christian
+                faith and the Christian life were, as a young cleric, as an Oxford don, as his
+                father’s curate in a rural parish—or, finally, in the case of Nos. 150 and 151,
+                ‘Hypocrisy in Oxford’, as the sententious evangelist returning to the university he
+                had abandoned, to ‘deliver his soul’ in a parting diatribe. All current study of
+                these sermons (in terms of their dates, sequence, provenance, etc.) must depend
+                heavily upon Professor Richard P. Heitzenrater’s pioneering essay, ‘John Wesley’s
+                Early Sermons,<note place="foot" xml:id="ftn1" n="1"><p rend="footnote text">WHS,
+                        XXXVII (February, 1970), 110-28.</p></note> and on his transcriptions of the
+                Wesley diaries. This section in particular is greatly indebted to these two major
+                achievements in the recent history of Wesley studies.</p>
+            <p n="3"><pb n="04:202"/>Ten complete sermons, two fragments, and two versions of a
+                single sermon (one in English, the other in Latin) are extant in John Wesley’s
+                    handwriting.<note place="foot" xml:id="ftn2" n="2"><p rend="footnote text">Nos.
+                        133, 134, 136, 137, 138, 141, 143, 145, 149, 150, and 151.</p></note> Two of
+                these (133 and 151) are in the Morley Collection in Wesley College, Bristol; the
+                others are in the Colman Miscellany in the Methodist Archives in The John Rylands
+                University Library of Manchester. Seven of John’s sermons (Nos. 135, 139, 140, 142,
+                144, 146, 147, and 148) have survived in Charles Wesley’s hand. They had been copied
+                from his brother’s originals in Georgia and on Charles’s homeward voyage in 1736;
+                they are now in a bound volume of manuscripts in the Colman Collection in the
+                Methodist Archives. In 1816, Mrs. Charles Wesley (Sarah) published a posthumous
+                volume of twelve <hi rend="italic">Sermons by the late Rev. Charles Wesley, Student
+                    of Christ Church, Oxford, with a Memoir of the Author by the Editor</hi>,<note
+                    place="foot" xml:id="ftn3" n="3"><p rend="footnote text">See also in this volume
+                        a reprint of John Wesley’s second sermon on Job 3:17 (1735), No. 109, <hi
+                            rend="italic">The Trouble and Rest of Good Men</hi>; and also the poem
+                        by Charles, ‘On the Sight of a Corpse’ (pp. 243-44). For a critical edition
+                        of this poem, see Frank Baker, ed., <hi rend="italic">Representative Verse
+                            of Charles Wesley</hi>, pp. 88-92.</p></note> which included the seven
+                sermons by John (unattributed). These sermons as published in 1816 were heavily
+                edited versions of the original manuscripts and are therefore of little value as
+                copy texts for our purposes, but are useful for comparison. The texts published here
+                for the first time are transcriptions of the Charles Wesley manuscripts of 1736.</p>
+            <p n="4">In these early writings, the brothers Wesley employed a system of abbreviated
+                longhand adapted from various sources, including their father’s manuscripts. They
+                used very few quotation marks or italics; their underlinings usually indicate
+                intended deletions (together with occasional inkings through letters, words, and
+                phrases). In this edition, a full text has been reconstructed by Professor Baker,
+                the unit editor, and Professor Heitzenrater, with quotation marks inserted in the
+                more obvious places, minor errors corrected silently, and the styling modernized as
+                in the edition at large.</p>
+            <p n="5">In point of style, these texts are markedly more turgid than we are accustomed
+                to in the later sermons—again with the exceptions noted. What we do not know is how
+                closely Wesley kept to his written text when preaching, or how far he allowed for at
+                least occasional spontaneous comments.</p>
+        </body>
+    </text>
+</TEI>
