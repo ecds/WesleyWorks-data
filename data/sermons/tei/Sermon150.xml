@@ -1,0 +1,884 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Sermon 150: Hypocrisy in Oxford</title>
+                <author>Greg Van Buskirk</author>
+            </titleStmt>
+            <editionStmt>
+                <edition><date>2024-01-09</date></edition>
+            </editionStmt>
+            <publicationStmt>
+                <p n="">unknown</p>
+            </publicationStmt>
+            <sourceDesc>
+                <p n="">Converted from a Word document</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <appInfo>
+                <application xml:id="docxtotei" ident="TEI_fromDOCX" version="2.15.0">
+                    <label>DOCX to TEI</label>
+                </application>
+            </appInfo>
+        </encodingDesc>
+        <revisionDesc>
+            <listChange>
+                <change><date>2024-03-01T06:04:18Z</date><name>Greg Van Buskirk</name></change>
+            </listChange>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <p n=""><pb n="04:389"/></p>
+            <head><hi rend="italic">An Introductory Comment</hi></head>
+            <p n="">This final pair of sermons presents a unique case in the Wesley corpus. What we have
+                here is one sermon on the same text, in two versions (one in English, the other in
+                Latin). They are so nearly alike that one is tempted to suppose that we are dealing
+                with an instance of translation. They are, however, different enough to suggest a
+                single project in two different drafts. What little we know of the actual
+                circumstances supports this latter conjecture.</p>
+            <p n="">As one of the twelve Fellows of Lincoln College, Wesley had been expected to proceed
+                to the degree of Bachelor of Divinity within seven years after his Master of Arts
+                degree (1727). The reasons for his failure to do this are not clear. At any rate, in
+                1736, while he was in Georgia, he was elected to the only fellowship in the college
+                (the so-called ‘canonist fellowship’) exempted from the B.D. requirement. Moreover,
+                he continued to hold this fellowship, at considerable inconvenience to the college,
+                until his resignation in 1751.</p>
+            <p n="">That Wesley remained mindful of the expectations of his college, even after his
+                forsaking it for his new role in the Revival, can be seen in an aside in a letter
+                written from Bristol, October 27, 1739, to his brother Samuel in Tiverton. His main
+                interest in this letter is a sprightly defence of his new career against his
+                brother’s sharp criticisms of it. But he also adds the following bit of ‘news’:</p>
+            <p rend="Quote">In a few days, my [younger] brother and I are to go to Oxford to do
+                exercise for our [B.D.] degrees. Then, if God enables me, I will prove my charge [of
+                works-righteousness] against Bishop [George] Bull, either in my Latin sermon, or
+                Supposition Speech.</p>
+            <p n="">No mention is made of this in the <hi rend="italic">Journal</hi>, but it is recorded
+                there that John and Charles turned up in Oxford on November 12. However, three days
+                later, the belated news of their brother’s sudden death (November 5) came to them,
+                and they immediately set out for Tiverton.<note place="foot" xml:id="ftn1" n="1"><p
+                        rend="footnote text">JWJ, November 20-24, 1739.</p></note> For a time, with
+                the excitements and demands of the burgeoning Revival, the matter of an academic
+                degree drops out of John’s sight. And yet, despite his absence from Oxford and his
+                mounting public notice, the <pb n="04:390"/>university officials were
+                still prepared to invite him to take his regular turn as preacher to the
+                university—this time on July 25, 1741 (i.e., during ‘Long Vacation’, when the
+                majority of the dons and students would be absent). He seems to have regarded such
+                an invitation as a twofold opportunity: to deal with his own academic arrears
+                respecting that deferred B.D., and also to deliver a long-considered diatribe
+                against the university as a whole, on the charge of its manifold lapses in doctrine
+                and discipline. The <hi rend="italic">Journal</hi> entry for June 18 confirms
+                this:</p>
+            <p rend="Quote">I inquired concerning the exercises previous
+                to the degree of Bachelor of Divinity; and advised with Mr. Gambold concerning the
+                subject of my sermon before the university; but he seemed to think it of no moment.
+                ‘For’, said he, ‘all here are so prejudiced that they will mind nothing you say.’ I
+                know that. However, I am to deliver my own soul, whether they will hear or whether
+                they will forebear.</p>
+            <p n="">Incidentally, though, this exchange with Gambold, with other things, seems to have
+                led to a rupture, for the <hi rend="italic">Journal</hi> entry for July 2 reports
+                matter-of-factly: ‘I met Mr. Gambold again, who honestly told me he was ashamed of
+                my company.’</p>
+            <p n="">On this visit to Oxford, he had returned again to his ‘charge against Bishop
+                    Bull’<note place="foot" xml:id="ftn2" n="2"><p rend="footnote text">JWJ, June
+                        24, 1741.</p></note> by re-reading the latter’s <hi rend="italic">Harmonia
+                    Apostolica</hi>—ignoring Robert Nelson’s careful explanation that Bull’s
+                doctrine of justification was not Pelagian.<note place="foot" xml:id="ftn3" n="3"><p
+                        rend="footnote text">Nelson, <hi rend="italic">The Life of Dr. George
+                            Bull</hi> (1714), pp. 95-99.</p></note> And, even earlier (June 19,
+                according to the diary), Wesley had ‘writ plan of sermon’ on the same day that he
+                had ‘read the Canons of the Council of Trent’. It was, therefore, a time of
+                theological reading and reflection, as if in ‘cramming’ for an examination.<note
+                    place="foot" xml:id="ftn4" n="4"><p rend="footnote text">Wesley’s diary
+                        indicates that he was also writing three Latin exercises (<hi rend="italic"
+                            >geneses</hi>), on predestination, on the means of grace, and on
+                        justification, presumably to satisfy the lecture requirement for the degree
+                        (JWJ, June 20, 1741); see G. R. M. Ward, <hi rend="italic">Oxford University
+                            Statutes</hi> (Oxford, 1848), I:55. Cf. JW MS ‘S. Paulus per totum 7<hi
+                            rend="superscript">m</hi> ad Rom. caput…’ (number ‘3’ at the top), in
+                        MA.</p></note> On the 22nd, there is a note that he had written out a ‘plan
+                of Latin sermon’ (i.e., one of the B.D. exercises).<note place="foot" xml:id="ftn5"
+                    n="5"><p rend="footnote text">The Statutes (Tit. VI.6.2) required that a person
+                        standing for admission to the degree of Bachelor of Divinity ‘preach in his
+                        own person, and not by deputy, a Latin sermon in the church of St. Mary the
+                        Virgin’. Ward, <hi rend="italic">Statutes</hi>, I:55.</p></note> These
+                scattered bits of evidence allow for the conjecture that he was preparing a sermon
+                for St. Mary’s in which he could ‘deliver his soul’ and also satisfy one of the B.D.
+                requirements.</p>
+            <p n="">As far as we know, nothing came of this plan. Apparently, Wesley was dissuaded from
+                preaching the sermon on Isa. 1:21 in St. Mary’s (and by Lady Huntingdon, no less).
+                And there is no record of his ever having <pb n="04:391"/>submitted anything officially
+                for that B.D. degree. Instead, for the university sermon on July 25 he wrote out a
+                different piece, on a text he had tried before, on Acts 26:28 (see No. 2, <hi
+                    rend="italic">The Almost Christian</hi>). And when he returned to St. Mary’s for
+                the last time in 1744 (see No. 4, <hi rend="italic">Scriptural Christianity</hi>),
+                he couched his denunciation of the university in very different terms.</p>
+            <p n="">It is all the more remarkable, therefore, that Wesley took the necessary pains to
+                preserve both the English and Latin holographs of these two unpreached sermons. The
+                manuscript in English that is transcribed here exists in nineteen numbered duodecimo
+                pages now in the Colman Miscellany in the Methodist Archives, Manchester. After
+                Wesley’s death, it passed into John Pawson’s possession and was published in 1797 in
+                the <hi rend="italic">Arminian Magazine</hi><note place="foot" xml:id="ftn6" n="6"
+                        ><p rend="footnote text">XX.265-69, 317-22.</p></note> with a misleading
+                foreword by Adam Clarke:</p>
+            <p rend="Quote">The following sermon was found in a mutilated manuscript among Mr.
+                Wesley’s papers. It is dated June 24, 1741. A Latin copy of the same discourse has
+                also been discovered. Mr. Pawson, with great care, copied the former, and I have
+                supplied the deficiencies out of the latter. On collating both sermons, I find
+                several variations, and though not of any great importance, yet sufficient, in my
+                judgment, to vindicate the propriety of translating and publishing the Latin one,
+                not merely as a matter of curiosity, but of utility. The sermon, no doubt, was
+                written with the design of being preached before the University of Oxford, but
+                whether it ever were preached there, cannot be determined.</p>
+            <p n="">The English text was then reproduced by Joseph Benson in his edition of the <hi
+                    rend="italic">Works</hi>,<note place="foot" xml:id="ftn7" n="7"><p
+                        rend="footnote text">(1812), XI.72-85.</p></note> with minor alterations and
+                one major addition in I.7 (three paragraphs added from the Latin). Benson also
+                supplied it with its triumphalist title, ‘True Christianity Defended’. Thomas
+                Jackson followed Benson faithfully in both title and text.</p>
+            <p n="">The holograph of the Latin sermon, dated by Wesley June 27, 1741 (three days after
+                the English version), has also survived; it is in the Morley Collection in Wesley
+                College, Bristol. It is the most extensive example we have of Wesley’s prowess with
+                neo-Ciceronian Latin—an impressive reminder of his grounding in the classics at
+                Charterhouse and Christ Church. The English version here follows Wesley’s own
+                holograph. The Latin version is presented here for the first time: its orthography
+                has been modernized, with Wesley’s abbreviations fitted out (e.g., the enclitic <hi
+                    rend="italic">-que</hi> which he regularly shortens to <hi rend="italic">-q</hi>
+                at the endings of conjunctive nouns), and a few obvious lapses have been corrected
+                silently. It is placed here in sequence to the English text, with its <hi
+                    rend="Page">[04:392]</hi>own annotation, so that either version may be read
+                separately and yet also compared with the other. For the English text, a few notes
+                are offered (besides the usual annotations) calling attention to significant
+                omissions, or variations between it and its Latin counterpart. In the transcription
+                of the latter, and in the notes on various peculiarities of Wesley’s vocabulary and
+                syntax, I have had the generous help of an expert Latinist, Fr. Placid Gilbert,
+                O.S.B. (Cist.), of the Abbey of Our Lady of Dallas (Texas).</p>
+            Sermon 150</p>
+            <hi style="font-size:14pt">Hypocrisy in Oxford</hi></p>
+            Isaiah 1:21</p>
+            <hi rend="italic">How is the faithful city become an
+                    harlot!</hi></p>
+            <p n="">1. ‘When I bring the sword upon a land’, saith the Lord, ‘if the watchman blow the
+                trumpet, and warn the people; then whosoever heareth the sound of the trumpet, and
+                taketh not warning, if the sword come and take him away, his blood shall be upon his
+                own head. But if the watchman see the sword come, and blow not the trumpet, and the
+                people be not warned; if the sword come and take any person from among them, he is
+                taken away in his iniquity; but his blood will I require at the watchman’s
+                    hand.’<note place="foot" xml:id="ftn8" n="8"><p rend="footnote text">Ezek.
+                        33:2-4, 6; see No. 137, ‘On Corrupting the Word of God’,
+                III.1.</p></note></p>
+            <p n=""><hi rend="background(yellow)">2. It cannot be doubted but
+                    that word of the Lord is come unto every</hi> minister of Christ also: ‘So thou,
+                O son of man, I have set thee a watchman unto the house of Israel. Therefore thou
+                shalt hear the word at my mouth, and warn them from me. When I say unto the wicked,
+                O wicked man, thou shalt surely die; if thou dost not speak to warn the wicked from
+                his way, that wicked man shall die in his iniquity; but his blood will I require at
+                thine hand.’<note place="foot" xml:id="ftn9" n="9"><p rend="footnote text">Ezek.
+                        33:7-8.</p></note></p>
+            <p n="">3. Nor <hi rend="italic">ought</hi> any man therefore to
+                be counted our enemy, because he telleth us the truth: the doing which is indeed an
+                    <pb n="04:393"/>instance of love to our neighbour, as well as of
+                obedience to God.<note place="foot" xml:id="ftn10" n="10"><p rend="footnote text"
+                        >See No. 65, ‘The Duty of Reproving our Neighbour’.</p></note> Otherwise few
+                would undertake so thankless a task. For the return they will find, they know
+                already—the Scripture must be fulfilled: ‘Me the world hateth; because I testify of
+                them that their deeds are evil.’<hi rend="endnote_reference"><note place="end"><p
+                            rend="endnote text">[Cf.] John [7:7].</p></note></hi></p>
+            <p n="">4. It is from a full, settled conviction that I owe this
+                labour of love to my brethren, and to my tender parent,<note place="foot"
+                    xml:id="ftn11" n="11"><p rend="footnote text">Alma Mater; i.e., the university
+                        of which he had been a member since the summer of 1720.</p></note> by whom I
+                have been nourished for now more than twenty years, and from whom under God I have
+                received those advantages of which I trust I shall retain a grateful sense till my
+                spirit returns to God that gave it. It is, I say, from a full conviction that love
+                and gratitude, as well as that dispensation of the gospel<note place="foot"
+                    xml:id="ftn12" n="12"><p rend="footnote text">See 1 Cor. 9:17.</p></note>
+                wherewith I am entrusted, require it of me, that even I have undertaken to speak on
+                a needful though unwelcome subject. I could indeed have wished that some more
+                acceptable person would have done this. But should all hold their peace, the very
+                stones would cry out,<note place="foot" xml:id="ftn13" n="13"><p
+                        rend="footnote text">See Luke 19:40.</p></note> ‘How is the faithful city
+                become an harlot!’</p>
+            <p n="">5. How faithful she once was to her Lord, to whom she
+                had been betrothed as a chaste virgin, let not only the writings of her sons, which
+                shall be had in honour throughout all generations, but also the blood of her martyrs
+                speak—a stronger testimony of her faithfulness than could be given by words,
+                even</p>
+            <p rend="Verse">By all the speeches of the babbling earth.<note place="foot"
+                    xml:id="ftn14" n="14"><p rend="footnote text">Cf. Prior, ‘Charity’, <hi
+                            rend="italic">l</hi>. 6: ‘In all the speeches of the babbling
+                        earth.’</p></note></p>
+            <p n="">But how is she now become an harlot! How hath she departed from her Lord! How hath
+                she denied him and listened to the voice of strangers,<note place="foot"
+                    xml:id="ftn15" n="15"><p rend="footnote text">See John 10:5.</p></note> both</p>
+            <p n="">I. In respect of doctrine, and</p>
+            <p n="">II. Of practice.</p>
+            <p n="">I. In respect of doctrine.</p>
+            <p n="">1. It cannot indeed be said that all our writers are setters forth <hi rend="Page"
+                    >[04:394]</hi>of strange doctrine.<note place="foot" xml:id="ftn16" n="16"><p
+                        rend="footnote text">See Acts 17:18. Wesley had already denounced doctrinal
+                        innovation in his earlier university sermon, ‘The Circumcision of the Heart’
+                        (No. 17, §1). Later, he had turned his aversion into an adage, a doctrine
+                        ‘wholly new is wholly wrong’; see No. 25, ‘Sermon on the Mount, V’, §1 and
+                        n.</p></note> There are those who expound the oracles of God<note
+                    place="foot" xml:id="ftn17" n="17"><p rend="footnote text">See No. 5,
+                        ‘Justification by Faith’, §2 and n.</p></note> by the same Spirit wherewith
+                they were written; and who faithfully cleave to that solid foundation which our
+                Church hath laid agreeably thereto;<note place="foot" xml:id="ftn18" n="18"><p
+                        rend="footnote text">E.g., there was Thomas Cockman, Master of University
+                        College, who had preached two solidly evangelical sermons before the
+                        University of Oxford, Jan. 2 and 6, 1732, <hi rend="italic">Salvation by
+                            Jesus Christ Alone, Asserted and Vindicated</hi> (against the deists).
+                        They are close enough to the soteriology of Wesley’s ‘Circumcision of the
+                        Heart’ to warrant a cross-reference (cf. pp. 24-25, 41-43): ‘[After and
+                        because of man’s sin] God was himself pleased to find out a way for [men] to
+                        escape into the terms of a new and gracious Covenant, whereby God engages
+                        himself in consideration of the merits and intercession of our blessed
+                        Saviour…and upon condition of certain duties to be performed on man’s part
+                        (such as repentance, faith, sincerity of obedience to the law for the time
+                        to come [i.e., consequent to forgiveness]…as set forth in Scripture), I say,
+                        God engages his faithfulness and justice, upon these conditions “to pardon
+                        their transgressions, and their sins and iniquities to remember no more…”.
+                        This…is the state of grace and salvation.’ Wesley’s diary shows that he was
+                        not in Oxford on Jan. 2 and did not attend the university service on Jan. 6.
+                        He had not, therefore, heard two important examples of ‘sound doctrine’ <hi
+                            rend="italic">in Oxford</hi>. Who knows how many others there may have
+                        been?</p></note> touching which we have his word who cannot lie, that the
+                gates of hell shall not prevail against it.<note place="foot" xml:id="ftn19" n="19"
+                        ><p rend="footnote text">Matt. 16:18. Note the unconscious triumphalism
+                        implied in the claim that the ‘gates of hell shall not prevail against’ the
+                        Church of England.</p></note> There are those also (blessed be the Author of
+                every good gift!) who as wise master-builders build thereon, not hay or stubble, but
+                gold and precious stones,<note place="foot" xml:id="ftn20" n="20"><p
+                        rend="footnote text">See 1 Cor. 3:11-12.</p></note> but that charity which
+                never faileth.<note place="foot" xml:id="ftn21" n="21"><p rend="footnote text">For
+                        Wesley’s translation of ἀγάπη<hi rend="italic">,</hi> see No. 17, ‘The
+                        Circumcision of the Heart’, I.2 and n.</p></note></p>
+            <p n="">2. We have likewise cause to give thanks to the Father
+                of lights,<note place="foot" xml:id="ftn22" n="22"><p rend="footnote text">Jas.
+                        1:17.</p></note> for that he hath not yet left himself without witness,<note
+                    place="foot" xml:id="ftn23" n="23"><p rend="footnote text">See Acts
+                    14:17.</p></note> but there are those who now preach the gospel of peace,<note
+                    place="foot" xml:id="ftn24" n="24"><p rend="footnote text">Rom.
+                    10:15.</p></note> the truth as it is in Jesus.<note place="foot" xml:id="ftn25"
+                    n="25"><p rend="footnote text">See Eph. 4:21.</p></note> But how few are these
+                in comparison of those who corrupt the word of God!<note place="foot" xml:id="ftn26"
+                    n="26"><p rend="footnote text">2 Cor. 2:17; see his defence of his father in No.
+                        137, ‘On Corrupting the Word of God’; see also No. 36, ‘The Law Established
+                        through Faith, II’, I.1 and n.</p></note> How little wholesome food have we
+                for our souls, and what abundance of poison! How few are there that either in
+                writing or preaching declare the genuine gospel of Christ in that simplicity and
+                purity wherewith it is set forth in the venerable records of our own Church! And how
+                are we enclosed <pb n="04:395"/>on every side with those who
+                neither knowing the doctrines of our Church, nor the Scriptures, nor the power of
+                God, have found out to themselves many inventions,<note place="foot" xml:id="ftn27"
+                    n="27"><p rend="footnote text">Eccles. 7:29.</p></note> wherewith they
+                continually corrupt others also!<note place="foot" xml:id="ftn28" n="28"><p
+                        rend="footnote text">The following paragraph was first entered here and then
+                        deleted: ‘3. To instance only in one or two fundamental points. The doctrine
+                        of St. Paul and the Church of England concerning the justification of man is
+                        this (Art. XI [‘Of the Justification of Man’]): “We are counted righteous
+                        before God—only by faith—and that we are justified by faith only is a most
+                        wholesome doctrine.”’</p></note></p>
+            <p n="">3. I speak not now of those πρωτότοκοι τοῦ Σατανᾶ,<note
+                    place="foot" xml:id="ftn29" n="29"><p rend="footnote text">‘The first-born of
+                        Satan’; see ‘The Epistle of Polycarp to the Philippians’, VII.1, in <hi
+                            rend="italic">The Apostolic Fathers</hi> (Loeb, 24:293); see also No.
+                        32, ‘Sermon on the Mount, XII’, I.7 and n.</p></note> the Deists, Arians, or
+                Socinians. These are too infamous among us to do any great service to the cause of
+                their master. But what shall we say if those whom we have accounted the pillars of
+                our Church, and champions of our faith, do indeed betray that Church, and sap the
+                very foundations of the faith we are taught thereby?</p>
+            <p n="">4. But how invidious a thing is it to show this? Who is
+                sufficient to bear the weight of prejudice which must necessarily follow the very
+                mention of such a charge, against men of so established characters? Nay, and who
+                have indeed in many other respects done great service to the Church of God? Yet must
+                every faithful [believer] say, God forbid that I should accept any man’s
+                    person.<note place="foot" xml:id="ftn30" n="30"><p rend="footnote text">See Job
+                        32:21.</p></note> I dare not give any man flattering titles,<note
+                    place="foot" xml:id="ftn31" n="31"><p rend="footnote text">See Job 32:21-22; for
+                        instances where Wesley asserts that he dare not call any man ‘Rabbi’, see
+                        No. 97, ‘On Obedience to Pastors’, II.3 and n.</p></note> or spare any that
+                corrupts the gospel. In so doing my Maker would soon take me away.<note place="foot"
+                    xml:id="ftn32" n="32"><p rend="footnote text">See Job 32:22.</p></note></p>
+            <p n="">5. Let me, however, be as short as may be on this head.
+                And I will therefore instance only in two or three men of renown who have
+                endeavoured to sap the very foundation of our Church by attacking its fundamental
+                d[octrine], and indeed the fundamental [doctrine]<note place="foot" xml:id="ftn33"
+                    n="33"><p rend="footnote text">Cf. Wesley’s letter to his brother Samuel, Jan.
+                        1739, where he lists justification as one ‘of the fundamental Articles of
+                        the Church of England’.</p></note> of all the Reformed Churches, viz.,
+                justification by faith alone.</p>
+            <p n="">6. One of these, and one of the highest station in our
+                Church, hath wrote and printed before his death several sermons expressly to prove
+                that not faith alone, but good works also, are <hi rend="Page"
+                >[04:396]</hi>necessary in order to justification.<note place="foot" xml:id="ftn34"
+                    n="34"><p rend="footnote text">Here the MS orig. read: ‘good works also must
+                        precede justification.’</p></note> The unpleasing task of quoting particular
+                passages out of them is superseded by the very title of them, which is this: ‘The
+                Necessity of Regeneration (which he at large proves to imply holiness both of heart
+                and life) in Order to Justification.’<note place="foot" xml:id="ftn35" n="35"><p
+                        rend="footnote text">Note Wesley’s invidious rephrasing here of the title of
+                        John Tillotson’s five sermons, ‘Of the Nature of Regeneration, and its
+                        Necessity in order to Justification and Salvation’, Nos. LII-LVI, in
+                        Tillotson’s <hi rend="italic">Works</hi> (1722), I.365-94. There is no
+                        denying that in these sermons, and generally, Tillotson had espoused the
+                        cause of ‘holy living’, but the implication that he also held to a
+                        soteriology of ‘works-righteousness’ or ‘self-salvation’ is seriously
+                        misleading. Wesley’s distortion is a function of his total preoccupation at
+                        the time with his new Moravian view of justification by faith alone as <hi
+                            rend="italic">wholly</hi> antecedent to regeneration in any sense. Later
+                        he would speak of prevenient grace which does not regenerate but which
+                        prepares the heart for the gift of justifying faith.</p></note></p>
+            <p n="">7. It may appear strange to some that an angel of the
+                Church of God<note place="foot" xml:id="ftn36" n="36"><p rend="footnote text">See
+                        Rev. 2:1, etc. Tillotson (1630-94) died as Archbishop of Canterbury after
+                        three years in that office. These sermons, however, had been written earlier
+                        when Tillotson was preacher at Lincoln’s Inn; cf. Irène Simon, <hi
+                            rend="italic">Three Restoration Divines</hi> (Paris, 1967), I.277-300.
+                        Tillotson had been educated at Cambridge and had had no official connection
+                        with Oxford.</p></note> (as the great Shepherd terms the supreme overseers
+                of it), and one so highly esteemed both in our own and many other nations, should
+                coolly and calmly thus speak. But Oh! what is he in comparison of the great Bishop
+                    Bull!<note place="foot" xml:id="ftn37" n="37"><p rend="footnote text">Wesley is
+                        here stirring embers of a smouldering fire of controversy. George Bull
+                        (1634-1710) had studied at Oxford (Exeter College) but had taken no earned
+                        degrees from the university. The controversy had erupted in 1669-70 when
+                        Bull (then rector of the rural parishes of Suddington St. Mary’s and St.
+                        Peter’s, near Cirencester) had published an attempted reconciliation of St.
+                        Paul’s <hi rend="italic">sola fide</hi> and St. James’s dictum, ‘faith
+                        without works is dead,’ in an essay entitled <hi rend="italic">Harmonia
+                            Apostolica</hi>. It was, in effect, a restatement of the soteriology of
+                        Clement of Rome’s <hi rend="italic">Epistle to the Corinthians</hi>, that
+                        ‘the blood of Christ, poured out for our salvation, brought to the whole
+                        world the grace of repentance’ (§7), that the repentant are ‘honoured’, not
+                        through themselves or their own works or the holy lives they led, but
+                        through [God’s] will (§32). Even so, ‘the Lord himself rejoiced at being
+                        honoured by their good works’ [i.e., the good works of the ‘sanctified’].
+                        St. Paul, so Bull affirmed, was contending for that faith which justifies,
+                        whereas St. James’s concern was for a confirmation of such faith by ‘good
+                        works’. The crucial point in both, according to Bull, was repentance.</p><p
+                        rend="footnote text">Bull had been attacked in succession by Bishop George
+                        Morley (in a pastoral letter to the clergy of Winchester), Bishop Thomas
+                        Barlow of Lincoln (who lectured against Bull at Oxford), Dr. Thomas Tully,
+                        Charles Gataker, John Toombs, <hi rend="italic">et al.</hi> He had answered
+                        with an <hi rend="italic">Examen Censurae</hi> (1676) and, later, had been
+                        defended by Robert Nelson in his <hi rend="italic">Life of Dr. George
+                            Bull</hi> (1713); see espec. pp. 90, 181, 211. Meanwhile, Bull had
+                        written a massive <hi rend="italic">Defensio Fidei Nicaenae</hi> (1685) on
+                        which his subsequent fame largely rested. He ended his career as Bishop of
+                        St. David’s. It is worth remembering that Wesley had used Bull’s <hi
+                            rend="italic">Companion for the Candidates of Holy Orders</hi>
+                        (published in 1714 after Bull’s death) as part of his own preparation for
+                        ordination as deacon in Sept. 1725.</p></note> O who shall be able to stand,
+                if this eminent scholar, Christian, and prelate, in his youth <hi rend="Page"
+                    >[04:397]</hi>wrote and published to the world, and
+                in his riper years defended, the positions that follow!<note place="foot"
+                    xml:id="ftn38" n="38"><p rend="footnote text">The following page in the
+                        manuscript was first left blank, presumably for an English translation of
+                        Bull’s text, which is transcribed in Wesley’s Latin sermon. In <hi
+                            rend="italic">AM</hi>, Clarke had supplied the English version here
+                        printed in square brackets. Sometime in the interval the blank page was
+                        numbered ‘10’ and Wesley had written in the following: ‘I shall be easily
+                        pardoned for adding but one more, but one also concerning whom almost the
+                        greatest among us might say, At his feet may I be found in the day of the
+                        Lord Jesus. His words are these:…’.</p></note></p>
+            <p n="">[‘A man is said (ἐξ ἔργων δικαιοῦται)<note place="foot" xml:id="ftn39" n="39"><p
+                        rend="footnote text">See Jas. 2:24.</p></note> “to be justified by works”,
+                because good works are the condition, according to the divine appointment,
+                established in the gospel covenant, requisite and necessary to a man’s
+                justification; that is, to his obtaining remission of sins through Christ.’<hi
+                    rend="endnote_reference"><note place="end"><p rend="endnote text">Bulli <hi
+                                rend="italic">Harm. Apost.</hi>, p. 4 [i.e., I.1.8; but cf. Bull’s
+                            own full text in No. 151, and note Bull’s context, a discussion of
+                            repentance].</p></note></hi></p>
+            <p n="">A little after, being about to produce testimonies in proof of this proposition, he
+                says, ‘The first class of these shall be those who speak of good works in a general
+                sense, as the requisite and necessary condition of justification.’ Then follow
+                certain texts of Scripture, after which he adds, ‘Who does not believe that in these
+                Scriptures there is an abundance of good works required, which if a man do not
+                perform he is altogether excluded from the hope of pardon, and remission of
+                    sins?’<hi rend="endnote_reference"><note place="end"><p rend="endnote text"><hi
+                                rend="italic">Ibid.</hi>, p. 8 [i.e., I.ii.3],</p></note></hi></p>
+            <p n="">Having introduced some other things, he adds, ‘Besides <hi rend="italic">faith</hi>,
+                there is no one but may see that <hi rend="italic">repentance</hi> is required as
+                necessary to justification.<note place="foot" xml:id="ftn40" n="40"><p
+                        rend="footnote text">For Wesley’s not dissimilar view of the correlation of
+                        repentance and justifying faith, cf. No. 7, ‘The Way to the Kingdom’, II.1
+                        and n.</p></note> Now repentance is not one work alone, but is, as it were,
+                a collection of many others, for in its compass the following works are
+                comprehended: (1) sorrow on account of sin; (2) humiliation under the hand of God;
+                (3) hatred to sin; (4) confession of sin; (5) ardent supplication of the divine
+                mercy; (6) the love of God; (7) ceasing from sin; (8) firm purpose of new obedience;
+                (9) restitution of ill-gotten goods; (10) forgiving our neighbour his transgressions
+                against us; (11) works of beneficence, or almsgiving. How much these things avail to
+                procure remission of sins from God is sufficiently evident from Daniel 4:27, where
+                the prophet gives this wholesome advice to Nebuchadnezzar, who was at that time
+                cleaving to his sins: <pb n="04:398"/>“Redeem your sins by almsgiving,
+                and your iniquities by showing mercy to the poor.”’<hi rend="endnote_reference"
+                        ><note place="end"><p rend="endnote text"><hi rend="italic">Ibid.</hi>, p.
+                            10 [i.e., I.ii.6-7; cf. Wesley’s quotation of Bull’s Latin against
+                            Bull’s actual words].</p></note></hi>]</p>
+            <p n="">8. To instance in one point more. All the liturgy of the
+                Church is full of petitions for that holiness without which the Scripture everywhere
+                declares, no man shall see the Lord.<note place="foot" xml:id="ftn41" n="41"><p
+                        rend="footnote text">Heb. 12:14.</p></note> And these are all summed up in
+                those comprehensive words which we are supposed to be so frequently repeating,
+                ‘Cleanse the thoughts of our hearts, by the inspiration of thy Holy Spirit, that we
+                may perfectly love thee, and worthily magnify thy holy name.’<note place="foot"
+                    xml:id="ftn42" n="42"><p rend="footnote text">BCP, Communion, Collect for
+                        Purity.</p></note> It is evident that in the last clause of this petition
+                all outward holiness is contained; neither can it be carried to a greater height, or
+                expressed in stronger terms. And those words, ‘cleanse the thoughts of our hearts,’
+                contain the negative branch of inward holiness, the height and depth of which is
+                purity of heart by the inspiration of God’s Holy Spirit.<note place="foot"
+                    xml:id="ftn43" n="43"><p rend="footnote text">For Wesley’s mature doctrine of
+                        the distinction (and correlation) between inward and outward holiness, see
+                        No. 7, ‘The Way to the Kingdom’, I.10 and n.</p></note> The remaining words,
+                ‘that we may perfectly love thee’, contain the positive part of holiness, seeing
+                this love, which is the fulfilling of the law,<note place="foot" xml:id="ftn44"
+                    n="44"><p rend="footnote text">Rom. 13:10.</p></note> implies the whole mind
+                that was in Christ.<note place="foot" xml:id="ftn45" n="45"><p rend="footnote text"
+                        >See Phil. 2:5.</p></note></p>
+            <p n="">9. But now how does the general stream of writers and
+                preachers (let me be excused the invidious task of instancing in particular persons)
+                agree with this doctrine? Indeed, not at all. Very few can we find who simply and
+                earnestly enforce it. But very many who write or preach as if Christian holiness or
+                religion were a purely <hi rend="italic">negative</hi> thing; as if not to curse or
+                swear, not to lie or slander, not to be a drunkard, a thief, or an whoremonger, not
+                to speak or do evil, was religion enough to entitle a man to heaven! How many, if
+                they go something further than this, describe it only as an <hi rend="italic"
+                    >outward</hi> thing! As if it consisted chiefly, if not wholly, in doing good
+                (as it is called) and using the means of grace! Or should they go further still, yet
+                what do they add to this poor account of religion? Why, perhaps that a man should be
+                orthodox in his opinions, and have a zeal for the constitution in church and state.
+                And this is all! This is all the religion they can allow without <hi rend="Page"
+                    >[04:399]</hi>degenerating into enthusiasm! So true is it that the faith of a
+                devil and the life of a heathen<note place="foot" xml:id="ftn46" n="46"><p
+                        rend="footnote text">See No. 1, <hi rend="italic">Salvation by Faith</hi>,
+                        I.1, 2 and nn.</p></note> make up what most men call a good Christian!</p>
+            <p n="">10. But why should we seek further witnesses of this?
+                Are there not many present here who are of the same opinion? Who believe that a good
+                moral man and a good Christian mean the same thing?<note place="foot" xml:id="ftn47"
+                    n="47"><p rend="footnote text">See No. 80, ‘On Friendship with the World’, §21
+                        and n.</p></note> That a man need not trouble himself any further if he only
+                practises as much Christianity as was writ over the heathen emperor’s gate—‘Do as
+                thou wouldst be done unto’?<note place="foot" xml:id="ftn48" n="48"><p
+                        rend="footnote text">Alexander Severus; see Nos. 2, <hi rend="italic">The
+                            Almost Christian</hi>, I.5 and n.; and 30, ‘Sermon on the Mount, X’, §22
+                        and n.</p></note> Especially if he be not an infidel or an heretic, but
+                believes all that the Bible and the church say is true!</p>
+            <p n="">11. I would not be so understood as if I despised these things; as [if] I undervalued
+                either right opinions, true morality, or a zealous regard for the constitution we
+                have received from our fathers. But yet, what are these things, being alone? What
+                will they profit us in that day? What will it avail to tell the Judge of all, Lord,
+                I was not as other men were, not unjust, not an adulterer, not a liar, not an
+                immoral man?<note place="foot" xml:id="ftn49" n="49"><p rend="footnote text">See
+                        Luke 18:11.</p></note> Yea, what will it avail if we have done all good, as
+                well as done no harm—if we have given all our goods to feed the poor, and have not
+                    charity?<note place="foot" xml:id="ftn50" n="50"><p rend="footnote text">See 1
+                        Cor. 13:3.</p></note> How shall we then look on those who taught us to sleep
+                on and take our rest,<note place="foot" xml:id="ftn51" n="51"><p
+                        rend="footnote text">See Mark 14:41.</p></note> though the love of the
+                Father was not in us? Or who teaching us to seek salvation by works cut us off from
+                receiving that faith freely, whereby alone the true love of God could have been shed
+                abroad in our hearts?<note place="foot" xml:id="ftn52" n="52"><p
+                        rend="footnote text">Rom. 5:5.</p></note></p>
+            <p n="">II. To these miserable corrupters of the gospel of Christ, and the poison they have
+                spread abroad, is it in great measure owing that we [are] generally corrupted in
+                practice as well as in doctrine; that there is hardly to be found among us (O tell
+                it not in Gath! Publish it not in the streets of Ashkelon!)<note place="foot"
+                    xml:id="ftn53" n="53"><p rend="footnote text">2 Sam. 1:20.</p></note> either the
+                form of godliness or the power.<note place="foot" xml:id="ftn54" n="54"><p
+                        rend="footnote text">See 2 Tim. 3:5.</p></note> So is the faithful city
+                become an harlot.</p>
+            <p n="">1. With grief of heart I speak it, and not with joy,
+                that scarce is the form of godliness seen among us. We are all indeed ‘called to <hi
+                    rend="Page">[04:400]</hi>be saints’,<note
+                    place="foot" xml:id="ftn55" n="55"><p rend="footnote text">Rom. 1:7.</p></note>
+                and the name of Christians means no less. But who has so much as the appearance?
+                Take anyone you meet. Take the second, third, fourth—the twentieth. Not one of them
+                has even the appearance of a saint, any more than of an angel. Observe his look, his
+                air, his gesture. Does it breathe nothing but God? Does it bespeak a temple of the
+                Holy Ghost? Observe his conversation. Not an hour only, but day by day. Can you
+                gather from any outward sign that God dwelleth in his heart? That this is an
+                everlasting spirit who is going to God?<note place="foot" xml:id="ftn56" n="56"><p
+                        rend="footnote text">See Wesley’s Preface (1746), §5 and n.</p></note> Would
+                you imagine the blood of God was shed for that soul, and had purchased everlasting
+                salvation for it, and that the spirit of God was now waiting till that salvation
+                should be wrought out with fear and trembling?<note place="foot" xml:id="ftn57"
+                    n="57"><p rend="footnote text">See Phil. 2:12.</p></note></p>
+            <p n="">2. Should it be said, ‘Why, what signifies the form of
+                godliness?’ we readily answer, Nothing, if [it] be alone. But the absence of the
+                form signifies much. It infallibly proves the absence of the power. For though the
+                form may be without the power, yet the power cannot be without the form.<note
+                    place="foot" xml:id="ftn58" n="58"><p rend="footnote text">See 2 Tim. 3:5; see
+                        also below, II.3-5, where Wesley concedes that many of the ritual forms of
+                        Christian worship continue to be observed, in some degree, in the colleges
+                        and the university. E.g., the brothers Wesley and the Oxford Methodists had
+                        themselves taken full advantage of the ‘forms’ of university sermons, etc.
+                        See No. 2, <hi rend="italic">The Almost Christian</hi>, I.(II).4 and
+                    n.</p></note> Outward religion may be where inward is not. But if there is none
+                <hi rend="italic" >without </hi>there can be none <hi
+                    rend="italic">within</hi>.</p>
+            <p n="">3. But it may be said, ‘We have public prayers both
+                morning and evening in all our societies.’<note place="foot" xml:id="ftn59" n="59"
+                        ><p rend="footnote text">As may be inferred from the Latin text, this is not
+                        a reference to religious societies in the Church of England (like those of
+                        Horneck and Woodward in Westminster and London—e.g., Fetter Lane) but the
+                        colleges and houses of the university, each of which was a <hi rend="italic"
+                            >societas academica</hi> with rector (or ‘president’, ‘master’, ‘dean’),
+                        fellows, scholars, and pupils. Each such society had its own chapel (or, in
+                        Christ Church, a cathedral) with regular prayers and eucharists; cf.
+                        Hastings Rashdall, <hi rend="italic">The Universities of Europe in the
+                            Middle Ages</hi> (Oxford, 1951), III.221, 374, 400-401.</p></note> It is
+                true; and it were to be wished that all the members thereof, more especially the
+                elder, and those of note and character, would by constantly attending them show how
+                sensible they are of that invaluable privilege. But have all who attend them the
+                very form of godliness? Before those solemn addresses to God begin, does the
+                behaviour of all who are present show that they know before whom they stand? What
+                impression appears to be left on their mind when those holy <hi rend="Page"
+                    >[04:401]</hi>offices are ended? And even during their continuance,<note
+                    place="foot" xml:id="ftn60" n="60"><p rend="footnote text">At this point, Wesley
+                        wrote, then deleted, ‘(God knoweth the heart, but we speak now only of
+                        outward things)’.</p></note> can it be reasonably inferred from the tenor of
+                their outward behaviour that their hearts are earnestly fixed on him who standeth in
+                the midst of them?<note place="foot" xml:id="ftn61" n="61"><p rend="footnote text"
+                        >See Luke 24:36, etc.</p></note> I much fear, were a heathen that understood
+                not our tongue to come into one of these our assemblies he would suspect nothing
+                less than that we were pouring out our hearts before the Majesty of heaven and
+                earth. What then shall we say, if indeed God is not mocked, but, what a man soweth,
+                that also shall he reap.<note place="foot" xml:id="ftn62" n="62"><p
+                        rend="footnote text">See Gal. 6:7.</p></note></p>
+            <p n="">4. On Sundays, however, say some, it cannot be denied
+                that we have the form of godliness, having sermons preached both morning and
+                afternoon, over and above the morning and evening service. But do we keep the rest
+                of the sabbath day holy? Is there no needless visiting upon it? No trifling? No
+                impertinence of conversation? Do you neither yourself do unnecessary work upon it,
+                nor suffer any others over whom you have any power to break the laws both of God and
+                man herein? If you do, even in this you have nothing whereof to boast;<note
+                    place="foot" xml:id="ftn63" n="63"><p rend="footnote text">At this point, Wesley
+                        wrote, then deleted, ‘God be merciful to thee a sinner.’</p></note> herein
+                also you are guilty before God.</p>
+            <p n="">5. But if we have the form of godliness on one day in a
+                week, is there not on other days what is quite contrary thereto? Are not the best of
+                our conversing hours spent in foolish talking and jesting, which are not
+                    convenient?<note place="foot" xml:id="ftn64" n="64"><p rend="footnote text">Eph.
+                        5:4.</p></note> Nay, perhaps in wanton talking<note place="foot"
+                    xml:id="ftn65" n="65"><p rend="footnote text">In his Latin text, Wesley cites
+                        the orig. Greek of Col. 3:8, αἰσχρολογία<hi rend="italic">,</hi> i.e.,
+                        ‘filthy communication’ (AV).</p></note> too, such as modest ears could not
+                bear. Are there not κώμοι καὶ πότοι<note place="foot" xml:id="ftn66" n="66"><p
+                        rend="footnote text">See 1 Pet. 4:3: ‘carousals and drinking
+                    bouts’.</p></note> among us? And glorying in this our shame?<note place="foot"
+                    xml:id="ftn67" n="67"><p rend="footnote text">See Phil. 3:19.</p></note> Yea,
+                are not many among us found to eat and drink with the drunken?<note place="foot"
+                    xml:id="ftn68" n="68"><p rend="footnote text">Matt. 24:49.</p></note> And if so,
+                what marvel is it that our profaneness should also go up into the heavens, and our
+                oaths and curses enter into the ears of the Lord of Sabaoth!</p>
+            <p n="">6. And even as to the hours more immediately assigned
+                for studying, are they generally spent to any better purpose? Not if they are
+                employed, as is too common, in reading news, plays, or <hi rend="Page"
+                >[04:402]</hi>idle tales,<note place="foot" xml:id="ftn69" n="69"><p
+                        rend="footnote text">See No. 4, <hi rend="italic">Scriptural
+                            Christianity</hi>, IV.9, where Wesley denounces the worshippers at St.
+                        Mary’s for ‘wasting away [the time] day after day, either in reading what
+                        has no tendency to Christianity, or in gaming, or in—you know not what’. Yet
+                        his own reading list for Sept. 1729, includes a general entry, ‘novels’, and
+                        frequent reading of plays (which he later put to good use as illustrations
+                        in his sermons).</p></note> which naturally tend to increase our native
+                corruption and heat the furnace of our unholy desires seven times hotter than it was
+                    before.<note place="foot" xml:id="ftn70" n="70"><p rend="footnote text">See Dan.
+                        3:19.</p></note> How little preferable is this to the laborious idleness of
+                those who spend day after day in gaming or diversions! Vilely casting away that time
+                the value of which they cannot know till they are passed through it into
+                    eternity.<note place="foot" xml:id="ftn71" n="71"><p rend="footnote text">See
+                        Law, <hi rend="italic">Serious Call</hi>, ch. i, pp. 7-14.</p></note></p>
+            <p n="">7. Know ye not then so much as this, you that are called
+                moral men, that all idleness is immorality? That there is no grosser dishonesty than
+                sloth? That every (voluntary) blockhead is a knave? He defrauds his benefactors, his
+                parents, and the world, and robs both God and his own soul. Yet how many of these
+                are among us! How many lazy drones, as if only</p>
+            <p rend="Verse"><hi rend="italic">fruges consumere nati!</hi><note place="foot"
+                    xml:id="ftn72" n="72"><p rend="footnote text">Horace, <hi rend="italic"
+                            >Epistles</hi>, I.ii.27 (‘born to consume the produce [of
+                    others]’).</p></note></p>
+            <p n="">How many whose ignorance is not owing to incapacity, but to mere laziness! How few
+                (let it not seem immodest that even such an one as I should touch on that tender
+                point) of the vast number who have it in their power are truly learned men! Not to
+                speak of the other eastern tongues, who (almost) is there that can be said to
+                understand Hebrew? Might I not say, or even Greek? A little of Homer or Xenophon we
+                may still remember; but how few can readily read and understand so much as a page of
+                Clemens Alexandrinus, St. Chrysostom, or Ephraem Syrus?<note place="foot"
+                    xml:id="ftn73" n="73"><p rend="footnote text">See <hi rend="italic">Address to
+                            the Clergy</hi>, I.2.</p></note> And as to philosophy (not to mention
+                mathematics or the abstruser branches of it) how few do we find who have laid the
+                very foundation, who are masters even of logic! Who throughly understand so much as
+                the rules of syllogizing! The very doctrine of the moods and figures!<note
+                    place="foot" xml:id="ftn74" n="74"><p rend="footnote text">Wesley’s hearers
+                        would have realized that he had been ‘moderator of the classes’ (i.e.,
+                        ‘logic-master’) at Lincoln.</p></note> Oh! what is so scarce as learning,
+                but religion!</p>
+            <p n="">8. And indeed learning will be seldom found without
+                religion. For temporal views, as experience shows, will very rarely suffice <hi
+                    rend="Page">[04:403]</hi>to carry anyone through the labour required to the
+                being a thorough scholar. Can it then be dissembled that there is too often a defect
+                in those to whom the care of youth is entrusted? Is that solemn direction
+                sufficiently considered, ‘Tutor scholares regimini suo commissos, probis moribus
+                imbuat, et maxime in rudimentis religionis et doctrinae articulis’?<hi
+                    rend="endnote_reference"><note place="end"><p rend="endnote text">Statut., p. 7.
+                            [Wesley’s text here and in the following pages is an abridgement of
+                            excerpts from the earlier (Laudian) statutes of Oxford University,
+                            published frequently from 1671 onwards as <hi rend="italic">Parecbolae;
+                                sive, Excerpta e Corpore Statutorum Universitatis Oxoniensis.
+                                Accedunt Articuli Religionis XXXIX in Ecclesia Anglicana
+                                recepti…</hi>. The actual text reads: <hi rend="italic">Tutor vero
+                                Scholares Tutelae et regimini suo commissos probis moribus imbuat,
+                                et in probatis authoribus instituat: et maxime in rudimentibus
+                                Religionis et doctrinae Articulis in synodo.</hi>—‘Let each tutor
+                            carefully imbue those scholars committed to his tutelage with proper
+                            morals and ground them in respect for constituted authorities—and
+                            especially in the rudiments of religion and the official doctrines of
+                            the Articles.’]</p></note></hi> Do they to whom this important charge is
+                given labour diligently to lay this good foundation? To fix true principles of
+                religion in the minds of the youth entrusted with them by their lectures? To
+                recommend the practice thereof by the powerful and pleasing influence of their
+                examples? To enforce this by frequent private advice, earnestly and strongly
+                inculcated? To observe the progress, and carefully inquire into the behaviour of
+                every one of them? In a word, to watch over their souls, as they that must give
+                    account?<note place="foot" xml:id="ftn75" n="75"><p rend="footnote text">Heb.
+                        13:17.</p></note></p>
+            <p n="">9. Suffer me, since I have begun to speak on this head,
+                to go yet a little further. Is there sufficient care taken that they should know and
+                keep the statutes which we are all engaged to observe? How then is it that they are
+                so notoriously broken every day? To instance only in a few:</p>
+            <p rend="Quote">Statutum est, quod ad officia divina, et conciones publice habendas, <hi
+                    rend="italic">omnes</hi>—graduati et scholares—diligenter accedant, et eisdem
+                debita cum reverentia, quoad peractae fuerint, a principio usque ad finem
+                    intersint.<hi rend="endnote_reference"><note place="end"><p rend="endnote text"
+                            >P. 181. [The actual text reads: <hi rend="italic">Statutum est, quod ad
+                                Officia Divina sive Preces solemnes iuxta Liturgiam Ecclesiae
+                                Anglicanae, et Conciones publice coram Universitate habendas, omnes
+                                Doctores, Magistri, Graduati et Scholares, diligenter accedant et
+                                eisdem debita cum reverentia et attentione, quoad peractae fuerint,
+                                a principio usque ad finem intersint.</hi>—‘It is prescribed that,
+                            with respect to divine services and solemn prayers according to the
+                            liturgy of the Church of England, and also the public sermons delivered
+                            before the University, all doctors, masters, graduates, and scholars
+                            shall be present at them from the beginning to the end, with due
+                            reverence and attention, until they all be
+                finished.’]</p></note></hi></p>
+            <p rend="Quote">Statutum est, quod omnes (exceptis filiis baronum) vestibus coloris
+                nigri aut subfusci se assuefaciant: nec quae fastum aut luxum prae se ferunt
+                imitentur, sed ab iis procul absint.<hi rend="endnote_reference"><note place="end"
+                            ><p rend="endnote text">P. 157. [<hi rend="italic">Statutum est, quod
+                                omnes Praefecti, Collegiorum Socii et Scholares, necnon omnes Sacris
+                                Ordinibus initiati, prout Clerios decet, vestiantur; et ea
+                                observent, quae Canonicis Sanctionibus praecipiuntur. Quodque alii
+                                omnes (exceptis filiis Baronum in Superiore Parliamenti Domo
+                                suffragii ius habentium) vestibus coloris nigri aut subfusci se
+                                assuefaciant: nec quae fastum aut luxum prae se ferunt, imitentur:
+                                sed ab iis procul absint.</hi>—‘It is prescribed that all Prefects,
+                            Fellows and Scholars of Colleges, as well as all in Holy Orders, as
+                            befits their clerical rank, shall be properly clothed; and that all
+                            canonical sanctions in this matter shall be duly observed. Moreover [it
+                            is enacted that] all others (the sons of the nobility of the Upper House
+                            of Parliament being excepted) shall customarily wear black or dark
+                            coloured clothes; and that they should not imitate any style of clothes
+                            that bespeaks arrogance or luxury, but rather to avoid such things from
+                            afar.’]</p></note></hi></p>
+            <p rend="Quote"><pb n="04:404"/>Statutum est, quod scholares cuiuscunque
+                conditionis, abstineant ab omni lusus genere, in quo de pecunia concertatur; veluti
+                a lusu talorum, alearum, et chartarum pictarum, nec non a lusu globorum nec huius
+                modi publicis lusibus intersint.<hi rend="endnote_reference"><note place="end"><p
+                            rend="endnote text">P. 166. [<hi rend="italic">Statutum est, quod
+                                Scholares, cuiuscunque conditionis, abstineant ab omni lusus genere,
+                                in quo de pecunia concertatur; veluti a lusu Talorum, Alearum, et
+                                Chartarum Pictarum, nec non a lusu Globorum, in privatis Oppidanorum
+                                areis hortisque: nec huius modi publicis lusibus, per</hi> Statuta
+                            Regni <hi rend="italic">prohibitis, intersint.</hi>—‘It is prescribed
+                            that scholars, of whatever rank, shall abstain from every kind of game
+                            in which one plays for money, such as games of dice, gambling, or cards;
+                            further from ball games played on private property, nor should they
+                            attend such games, which are prohibited by <hi rend="italic">royal
+                                decree</hi>.’]</p></note></hi></p>
+            <p rend="Quote">Statutum est quod scholares cuiuscunque conditionis, a diversoriis,
+                cauponiis, oenopoliis, ac domibus quibuscunque intra civitatem in quibus vinum aut
+                quivis alius potus…ordinarie venditur, abstineant.<hi rend="endnote_reference"><note
+                        place="end"><p rend="endnote text">P. 164. [<hi rend="italic">Statutum est,
+                                quod Scholares cuiuscunque conditionis, a Diversoriis, Cauponiis,
+                                Oenopoliis, ac domibus quibuscunque intra Civitatem vel Praecinctum
+                                Universitatis, in quibus vinum, aut quivis alius potus, aut herba
+                                Nicotiniana sive Tobacco, ordinarie venditur, abstineant.</hi>—‘It
+                            is prescribed that all scholars, of whatever rank, abstain from
+                            frequenting inns, taverns, wine shops, and all houses, whether within
+                            the City [of Oxford] or the precincts of the university, where wine or
+                            other drinks, or the herb nicotiniana (or tobacco) are regularly
+                            sold.’]</p></note></hi></p>
+            <p n="">10. It will perhaps be objected, ‘These are but little
+                things.’ Nay, but perjury is not a little thing: nor consequently the wilful breach
+                of any rule which we have solemnly sworn to observe. Surely those who speak thus
+                have forgotten those words, ‘Tu fidem dabis ad observandum omnia Statuta huius
+                universitatis—ita Deus te adiuvet, tactis Sacrosanctis Christi Evangeliis.’<hi
+                    rend="endnote_reference"><note place="end"><p rend="endnote text">P. 229. [<hi
+                                rend="italic">Tu fidem dabis ad Observandum omnia Statuta,
+                                Privilegia, et Consuetudinis huius Universitatis Oxoniensis. Ita
+                                Deus te adiuvet, tactis Sacrosanctis Christi Evangeliis.</hi>—‘You
+                            shall pledge your faith to the observance of all the statutes,
+                            privileged rights and duties, and the established customs of this
+                            University of Oxford. So help you God, since you have made this oath
+                            with your hand on the Holy Gospels of Christ.’]</p></note></hi></p>
+            <p n="">11. But is this oath sufficiently considered by those
+                who take it? Or any of those prescribed by public authority? Is not this solemn act
+                of religion, the calling God to record on our souls, commonly treated as a slight
+                thing? In particular by those who swear by the living God, ‘quod nec prece nec
+                pretio, nec odio, nec amicitia, <pb n="04:405"/>nec timore, nec spe
+                testimonium indigno cuivis perhibebunt’?<hi rend="endnote_reference"><note
+                        place="end"><p rend="endnote text">P. 88. [<hi rend="italic">Magistro…tu
+                                iurabis, quod nec prece, nec pretio, nec odio, nec amicitia, nec
+                                timore, nec spe testimonium indigno cuivis perhibebis dignove
+                                denegabis.</hi>—‘As a teacher, you have sworn that you will not be
+                            swayed by entreaties or bribes, nor by hatred or friendship, nor by fear
+                            or hope, to give a testimonial for any unworthy person or against any
+                            worthy one.’]</p></note></hi> And by those who swear, ‘Scio hunc aptum
+                et idoneum esse moribus et scientia ad eum gradum ad quem praesentatur’?<hi
+                    rend="endnote_reference"><note place="end"><p rend="endnote text">P. 114. [<hi
+                                rend="italic">Hi Deponentes, a Bedello Facultatis admoniti, et si
+                                opus fuerit, nominatim vocati, si gillatim coram Vice-Cancellario
+                                inter Procuratores in genus decumbentes, submissa voce, nequis
+                                praeterea exudiat, hac iur amenti formula onerabuntur. (Dom. Doctor,
+                                Magister, vel Domine) Tu dices fide tua data huic Universitati utrum
+                                scias, credas, vel nescias, hunc vel hos Praesentatos, aptum vel
+                                aptos et idoneos esse moribus et scientia, ad eum gradum ad quem
+                                praesentatur, sub Forma qua praesentatur. Cui quilibet secreto
+                                repondebit per verbum,</hi> Scio, Nescio vel Credo.—(The options in
+                            responding to the formal inquiry of the university officials as to the
+                            intellectual aptitudes and moral character of a graduand): ‘I know’; ‘I
+                            do not know’; ‘I believe’.]</p></note></hi> It is probably to this
+                latter case that the <hi rend="italic">explicatio iuramenti</hi><note place="foot"
+                    xml:id="ftn76" n="76"><p rend="footnote text">‘What it means to take an
+                        oath’.</p></note> has an immediate reference, in that clause, ‘Intenditur,
+                periurio se obligare…affirmantes in luramentis assertoriis, se aliquid…scire,
+                credereve, quod non sciverint, crediderintve.’<hi rend="endnote_reference"><note
+                        place="end"><p rend="endnote text">P. 200. [<hi rend="italic">Intenditur
+                                igitur periurio se obligare, primo, delinquentes contra Statuta sub
+                                poena peri urii sanctita, out contra Statuta ad quae speciatim
+                                observanda fide sua data Universitati obstringuntur ut in luramentis
+                                assertoriis, affirmantes se aliquid per Statuta requisitum fecisse
+                                quod non fecerintvel scire credereve, quod non sciverim,
+                                crediderintve.</hi>—‘It is, therefore, a case of perjury, in the
+                            first instance, for anyone to disregard the holy statute [against
+                            misrepresentation] to which one has subscribed under pain of perjury, or
+                            the statute which defines the faith owed to the University, whenever one
+                            swears, by assertion or affirmation, in any case covered by these
+                            statutes, as if they knew or believed anything when they did not, or did
+                            not know or believed something when they did.’ Wesley’s abridgement
+                            focuses on the <hi rend="italic">intention</hi> of the oath: ‘It is
+                            defined as a case of perjury for anyone to affirm, in a sworn
+                            declaration, that he knows or believes something that he did not know or
+                            believe.’]</p></note></hi></p>
+            <p n="">12. Yet one thing more. We have all testified before God
+                that all and every [one of] the Articles of our Church, as also the Book of Common
+                Prayer and the Ordering of Bishops, Priests, and Deacons, are agreeable to the Word
+                of God.<note place="foot" xml:id="ftn77" n="77"><p rend="footnote text">Wesley is
+                        repeating one of the variant forms by which clergy subscribed to the
+                        Thirty-nine Articles and Liturgy on receiving a licence to preach, on being
+                        ordained, and on other occasions; cf. Arts. XXXIV, XXXV, XXXVI.</p></note>
+                And in so doing we have likewise testified that both the First and Second Book of
+                Homilies doth contain godly and wholesome doctrine.<note place="foot" xml:id="ftn78"
+                    n="78"><p rend="footnote text">An inference from any subscription to Art. XXXV
+                        (‘Of Homilies’) of the Thirty-nine Articles.</p></note> But upon what
+                evidence have many of us declared this? Have we not affirmed the things we know not?
+                If so, however true they may happen to be, we are found false witnesses before God.
+                Have the <pb n="04:406"/>greater part of us ever used any means to know
+                whether these things were so or not? Have we ever for one hour seriously considered
+                the Articles to which we have subscribed? If not, how shamefully do we elude the
+                design of the wise compilers, who compiled them ‘ad tollendam opinionum dissentionem
+                et consensum in vera religione firmandum’!<note place="foot" xml:id="ftn79" n="79"
+                        ><p rend="footnote text">Wesley’s version from the Preface to the <hi
+                            rend="italic">Articuli</hi> of 1562 (pub. 1563): <hi rend="italic">ad
+                            tollendam opinionum dissensionem, et firmandum in vera religione
+                            consensum</hi>. The authorized English translation (1571): ‘for the
+                        avoiding of the diversities of opinions, and for the stablishing of consent
+                        touching true Religion’. It is ironic that, given his audience, Wesley had
+                        not verified the original; cf. Philip Schaff, <hi rend="italic">The Creeds
+                            of Christendom</hi>, III.487.</p></note> Have one half of us read over
+                the Book of Common Prayer, and of Ordering Bishops, Priests, and Deacons?<note
+                    place="foot" xml:id="ftn80" n="80"><p rend="footnote text">The Ordinal (‘being
+                        the Form of Making, Ordaining, and Consecrating Bishops, Priests, and
+                        Deacons’) appears as an addendum to the BCP.</p></note> If not, what is it
+                we have so solemnly confirmed? In plain terms, we cannot tell. And as to the two
+                Books of Homilies, it is well if a tenth part of those who have subscribed to them,
+                I will not say, had considered them before they did this, but if they have even read
+                them over to this day! Alas, my brethren! How shall we reconcile these things even
+                to common honesty, to plain heathen morality? So far are those who do them, nay, and
+                perhaps defend them too, from having the very form of Christian godliness.</p>
+            <p n="">13. But waiving all these things, where is the power?
+                Where are the living witnesses of this? Who among us (let God witness with our
+                hearts) experimentally know the force of inward holiness? Who ‘feels in himself the
+                working of the Spirit of Christ, drawing up his mind to high and heavenly
+                    things’?<note place="foot" xml:id="ftn81" n="81"><p rend="footnote text">Cf.
+                        Art. XVII (‘Of Predestination and Election’).</p></note> Who can witness,
+                ‘The thoughts of my heart God hath cleansed, by the inspiration of his Holy
+                    Spirit’?<note place="foot" xml:id="ftn82" n="82"><p rend="footnote text">Cf.
+                        BCP, Communion, Collect for Purity.</p></note> Who knoweth that peace of God
+                that passeth all understanding?<note place="foot" xml:id="ftn83" n="83"><p
+                        rend="footnote text">Phil. 4:7.</p></note> Who is he that rejoiceth, with
+                joy unspeakable and full of glory?<note place="foot" xml:id="ftn84" n="84"><p
+                        rend="footnote text">1 Pet. 1:8.</p></note> Whose affections are set on
+                things above, not on things of the earth? Whose life is hid with Christ in God?<note
+                    place="foot" xml:id="ftn85" n="85"><p rend="footnote text">See Col.
+                    3:2-3.</p></note> Who can say: ‘I am crucified with Christ. But I live. Yet not
+                I, but Christ liveth in me. And the life that I now live in the flesh, I live by the
+                faith of the Son of God, who loved me and gave himself for me.’<note place="foot"
+                    xml:id="ftn86" n="86"><p rend="footnote text">Gal. 2:20.</p></note> In whose
+                heart is the love of God shed abroad, by the Holy Ghost given unto him!<note
+                    place="foot" xml:id="ftn87" n="87"><p rend="footnote text">See Rom.
+                    5:5.</p></note></p>
+            <p n=""><pb n="04:407"/>14. Is not almost the very
+                notion of this religion lost? Is there not a gross, overflowing ignorance of it?
+                Nay, is it not utterly despised? Is it not wholly set at nought, trodden under foot?
+                Were anyone to witness these things before God, would he not be accounted a madman,
+                an enthusiast? Am not I unto you as a barbarian while I speak thus?<note
+                    place="foot" xml:id="ftn88" n="88"><p rend="footnote text">See 1 Cor.
+                    14:11.</p></note> My brethren, my heart bleeds for you. O that ye would at
+                length take knowledge, and understand that these are the words of truth and
+                soberness! O that ye would know,<note place="foot" xml:id="ftn89" n="89"><p
+                        rend="footnote text">Wesley first wrote, then deleted, ‘that ye would know,
+                        I am not mad, though I thus speak’; cf. No. 142, ‘The Wisdom of Winning
+                        Souls’, I, n. 18.</p></note> at least in this your day, the things that make
+                for your peace!<note place="foot" xml:id="ftn90" n="90"><p rend="footnote text">See
+                        Luke 19:42. Wesley intended to close at this point, for in the MS there was
+                        the beginning of an ascription. This is crossed out, to be started again at
+                        §16, a rather peculiar hortation and blessing.</p></note></p>
+            <p n="">15. I have been a messenger of heavy tidings this day. But the love of Christ
+                constrained me:<note place="foot" xml:id="ftn91" n="91"><p rend="footnote text">See
+                        2 Cor. 5:14.</p></note> and to me it was the less grievous because for you
+                it was safe.<note place="foot" xml:id="ftn92" n="92"><p rend="footnote text">See
+                        Phil 3:1.</p></note> I desire not to accuse the children of my people.<note
+                    place="foot" xml:id="ftn93" n="93"><p rend="footnote text">See Ezek. 33:2,
+                        12.</p></note> Therefore, neither do I speak thus in the ears of them that
+                sit on the wall.<note place="foot" xml:id="ftn94" n="94"><p rend="footnote text">See
+                        2 Kgs. 18:27; Isa. 36:12.</p></note> But to you I endeavour to speak the
+                truth in love,<note place="foot" xml:id="ftn95" n="95"><p rend="footnote text">See
+                        Eph. 4:15.</p></note> as a faithful minister of Jesus Christ.<note
+                    place="foot" xml:id="ftn96" n="96"><p rend="footnote text">See Col. 1:7; 1 Tim.
+                        4:6.</p></note> And I can now call you to record this day, that I am pure
+                from the blood of all men. For I have not shunned to declare unto you, all the
+                counsel of God.<note place="foot" xml:id="ftn97" n="97"><p rend="footnote text">Acts
+                        20:26-27.</p></note></p>
+            <p n="">16. May the God of all grace,<note place="foot" xml:id="ftn98" n="98"><p
+                        rend="footnote text">1 Pet. 5:10.</p></note> who is long-suffering, of
+                tender mercy, and repenteth him of the evil, fix these things in your hearts, and
+                water the seed he hath sown with the dew of heaven! May he correct whatsoever he
+                seeth amiss in us! May he supply whatsoever is wanting! May he perfect that which is
+                according to his will, and so establish, strengthen, settle us,<note place="foot"
+                    xml:id="ftn99" n="99"><p rend="footnote text">See 1 Pet. 5:10.</p></note> that
+                this place may again be a faithful city to her Lord, yea, the praise of the whole
+                earth!</p>
+        </body>
+    </text>
+</TEI>

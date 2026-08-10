@@ -1,46 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
             <titleStmt>
                 <title>Sermon 143: Public Diversions Denounced</title>
-                <author>Greg Van Buskirk</author>
+                <author>Wesley, John</author>
+                <editor role="text">Van Buskirk, Gregory P.</editor>
+                <editor role="digital">Taylor, Michelle M.</editor>
             </titleStmt>
-            <editionStmt>
-                <edition>
-                    <date>2024-01-09</date>
-                </edition>
-            </editionStmt>
             <publicationStmt>
-                <p n="">unknown</p>
-             <idno type="URI">https://wesleyworks.ecdsdev.org/sermons/Sermon143</idno>                   
+                <publisher>The Wesley Works Digitzation Project</publisher>
+                <pubPlace>Tampa, FL</pubPlace>
+                <date>2024-02-25</date>
             </publicationStmt>
             <sourceDesc>
-                <p n="">Converted from a Word document</p>
+                <listBibl>
+                    <biblStruct>
+                        <analytic>
+                            <title level="a"><head>Sermon 143: Public Diversions Denounced</head></title>
+                        </analytic>
+                        <monogr>
+                            <title level="j">The Works of John Wesley, Volume IV: Sermons IV,
+                                115-151</title>
+                            <editor role="volume">Outler, Albert</editor>
+                            <imprint>
+                                <publisher>Abingdon Press</publisher>
+                                <pubPlace>Nashville, TN</pubPlace>
+                                <date when="1987-11-01">1986-11-01</date>
+                                <biblScope unit="volume" n="4"/>
+                                <biblScope unit="page" from="318" to="328"/>
+                            </imprint>
+                        </monogr>
+                        <series>
+                            <title level="s">The Works of John Wesley</title>
+                            <editor role="general">Baker, Frank</editor>
+                        </series>
+                    </biblStruct>
+                </listBibl>
             </sourceDesc>
         </fileDesc>
         <encodingDesc>
-            <appInfo>
-                <application xml:id="docxtotei" ident="TEI_fromDOCX" version="2.15.0">
-                    <label>DOCX to TEI</label>
-                </application>
-            </appInfo>
+            <p>Greg Van Buskirk created Word docs for all of Wesley's sermons using a combination of
+                OCR software and manual proofing. Michelle Taylor converted these docx into XML
+                using Oxygen's DITA automatic transformation scenario, then touched them up
+                manually.</p>
         </encodingDesc>
-        <revisionDesc>
-            <listChange>
-                <change>
-                    <date>2024-03-01T06:03:41Z</date>
-                    <name>Greg Van Buskirk</name>
-                </change>
-            </listChange>
-        </revisionDesc>
+        <standOff>
+            <taxonomy>
+                <keywords>
+                    <term/>
+                </keywords>
+            </taxonomy>
+            <!--Include keywords and terms here eventually.-->
+        </standOff>
+        <revisionDesc/>
     </teiHeader>
     <text>
         <body>
             <pb n="04:318"/>
             <head>
                 <hi rend="italic">An Introductory Comment</hi>
-            </head>
+                <head>Sermon 143: Public Diversions Denounced</head>
             <introduction>
                 <p n="1">This was John Wesley’s fifty-eighth written sermon and is something of a
                     curiosity. Its setting is Epworth, where Wesley had arrived from Oxford on
@@ -60,37 +81,36 @@
                 <p n="2">Clearly, however, this was not the sort of piece that Wesley would have
                     wanted published under his name; that he even kept the sermon in his papers for
                     so long sheds an interesting light on his self-image. After his death it was
-                    published, in a carelessly edited transcription, in the <hi rend="italic">Arminian Magazine</hi>,<note place="foot" xml:id="ftn1" n="1">
-                        <p rend="footnote text">Oct. 1797 (XX.482-90).</p>
-                    </note> without a title
+                    published, in a carelessly edited transcription, in the <hi rend="italic"
+                        >Arminian Magazine</hi>,<note place="foot" xml:id="ftn1" n="1"><p
+                            rend="footnote text">Oct. 1797 (XX.482-90).</p></note> without a title
                     or number, but with an index reference to it as ‘On the sinfulness of attending
                     public diversions’. This may have been Benson’s source for the title he gave to
                     it in his edition of 1812 (<hi rend="italic">viz.</hi>, ‘On Public Diversions’).
                     As usual, Thomas Jackson followed him on this point.</p>
                 <p n="3">The negative connotation here for the phrase, ‘public diversions’ had
                     already become a standard reference for various kinds of popular spectacles:
-                    races, games, even fairs.<note place="foot" xml:id="ftn2" n="2">
-                        <p rend="footnote text">See <hi rend="italic">The Tatler</hi>, No. 5, April
+                    races, games, even fairs.<note place="foot" xml:id="ftn2" n="2"><p
+                            rend="footnote text">See <hi rend="italic">The Tatler</hi>, No. 5, April
                             21, 1709, ‘This week being sacred to holy things and no public
                             diversions allowed…’; see also <hi rend="italic">The Spectator</hi>, No.
                             258, Dec. 26, 1711; Edward Stillingfleet, <hi rend="italic">Twelve
                                 Sermons Preached on Several Occasions</hi> (1696), I.389, 502; John
-                            Tillotson, <hi rend="italic">Works</hi>, III.298; William Law, <hi rend="italic">Serious Call</hi>, ch. i, and <hi rend="italic">Christian Perfection</hi>, chs. iii and viii. In Keith Thomas, <hi rend="italic">Religion and the Decline of Magic</hi> (New York,
+                            Tillotson, <hi rend="italic">Works</hi>, III.298; William Law, <hi
+                                rend="italic">Serious Call</hi>, ch. i, and <hi rend="italic"
+                                >Christian Perfection</hi>, chs. iii and viii. In Keith Thomas, <hi
+                                rend="italic">Religion and the Decline of Magic</hi> (New York,
                             Scribner, 1971), pp. 84-85, there is an interesting summary of
                             seventeenth- and eighteenth-century views of ‘physical disasters’ as
                             ‘manifestations of divine displeasure’ (notice in particular the account
-                            of a couple of fires at Tiverton).</p>
-                    </note> Much later (1787), Wesley
+                            of a couple of fires at Tiverton).</p></note> Much later (1787), Wesley
                     will <pb n="04:319"/>return to the denunciation of diversions such as
                     ‘cudgelling, bear-baiting, cockfighting’, characterizing them as ‘these foul
                     remains of Gothic barbarity—a reproach not only to all religion but even to
-                    human nature’.<note place="foot" xml:id="ftn3" n="3">
-                        <p rend="footnote text">Cf.
+                    human nature’.<note place="foot" xml:id="ftn3" n="3"><p rend="footnote text">Cf.
                             No. 89, ‘The More Excellent Way’, V.2-5. There is also a passing
                             reference to a similar interpretation of Amos 3:6 in No. 48,
-                            ‘Self-denial’, II.7.</p>
-                    </note>
-                </p>
+                            ‘Self-denial’, II.7.</p></note></p>
                 <p n="4">The holograph of this sermon is in the Colman Miscellany in the Methodist
                     Archives, Manchester. It is written on sixteen duodecimo pages, with none of the
                     usual indications of dates or provenance. We may suppose that it was an
@@ -111,12 +131,11 @@
                 their own and their neighbours’ safety or destruction, as when an alarm of
                 approaching judgments is given to show no signs of apprehension? To take no care of
                 preventing them, but go on as securely as if no alarm had been given? Do not all men
-                know that whatever evil befalls them, it befalls them by God’s appointment?<note place="foot" xml:id="ftn4" n="4">
-                    <p rend="footnote text">See Nos. 140, ‘The
+                know that whatever evil befalls them, it befalls them by God’s appointment?<note
+                    place="foot" xml:id="ftn4" n="4"><p rend="footnote text">See Nos. 140, ‘The
                         Promise of Understanding’, II.1-2; 57, ‘On the Fall of Man’, § 1; and 62,
                         ‘The End of Christ’s Coming’, I.4-7; but note Wesley’s more positive
-                        emphasis here on God’s part in retributive justice.</p>
-                </note> And that he
+                        emphasis here on God’s part in retributive justice.</p></note> And that he
                 appoints every evil of this life to warn men to avoid greater evils? That he sends
                 these lighter marks of his anger to <pb n="04:320"/>awaken men, that they may shun
                 his heavier vengeance, and be timely advised, by feeling part of it, to change their
@@ -135,54 +154,46 @@
                     an evil; and of such evils the prophet here speaks.</p>
                 <p>Of such evil we are to believe that it never is in any place but where the Lord
                     hath done it. He hath done it either by his own immediate power, by the strength
-                    of his own right hand,<note place="foot" xml:id="ftn5" n="5">
-                        <p rend="footnote text">See Ps. 20:6.</p>
-                    </note> or by commanding or
-                    suffering it to be done by those his servants that do his pleasure.<note place="foot" xml:id="ftn6" n="6">
-                        <p rend="footnote text">See Ps. 10321
-                            (BCP).</p>
-                    </note> For the Lord is King,<note place="foot" xml:id="ftn7" n="7">
-                        <p rend="footnote text">Ps. 10:16.</p>
-                    </note> be the people never [so]
-                    impatient; yea, the great King of all the earth.<note place="foot" xml:id="ftn8" n="8">
-                        <p rend="footnote text">Ps. 47:2.</p>
-                    </note> Whatsoever therefore is
-                    done in all the earth (sin only excepted) he doth it himself.<note place="foot" xml:id="ftn9" n="9">
-                        <p rend="footnote text">See Ps. 74:13 (BCP).</p>
-                    </note>
-                    The Lord God Omnipotent still reigneth,<note place="foot" xml:id="ftn10" n="10">
-                        <p rend="footnote text">Rev. 19:6.</p>
-                    </note> and all things are so
+                    of his own right hand,<note place="foot" xml:id="ftn5" n="5"><p
+                            rend="footnote text">See Ps. 20:6.</p></note> or by commanding or
+                    suffering it to be done by those his servants that do his pleasure.<note
+                        place="foot" xml:id="ftn6" n="6"><p rend="footnote text">See Ps. 10321
+                            (BCP).</p></note> For the Lord is King,<note place="foot" xml:id="ftn7"
+                        n="7"><p rend="footnote text">Ps. 10:16.</p></note> be the people never [so]
+                    impatient; yea, the great King of all the earth.<note place="foot" xml:id="ftn8"
+                        n="8"><p rend="footnote text">Ps. 47:2.</p></note> Whatsoever therefore is
+                    done in all the earth (sin only excepted) he doth it himself.<note place="foot"
+                        xml:id="ftn9" n="9"><p rend="footnote text">See Ps. 74:13 (BCP).</p></note>
+                    The Lord God Omnipotent still reigneth,<note place="foot" xml:id="ftn10" n="10"
+                            ><p rend="footnote text">Rev. 19:6.</p></note> and all things are so
                     subject unto him that his will must be done, whether we agree to it or no, as in
-                    heaven, so also upon earth.<note place="foot" xml:id="ftn11" n="11">
-                        <p rend="footnote text">See Matt. 6:10. Wesley’s punctuation here follows
+                    heaven, so also upon earth.<note place="foot" xml:id="ftn11" n="11"><p
+                            rend="footnote text">See Matt. 6:10. Wesley’s punctuation here follows
                             the translations of Tyndale and Cranmer (and Douai-Rheims) and their
                             stress on the parity of the first three petitions in the Lord’s Prayer.
-                            Later, as in No. 26, ‘Sermon on the Mount, VI’, in the <hi rend="italic">Notes</hi> and elsewhere, he will change to the form in Wycliffe,
+                            Later, as in No. 26, ‘Sermon on the Mount, VI’, in the <hi rend="italic"
+                                >Notes</hi> and elsewhere, he will change to the form in Wycliffe,
                             Geneva, AV, and the BCP, which single out the third petition for special
                             stress (‘Thy will be done <hi rend="italic">on earth</hi>’). See No. 26,
-                            ‘Sermon on the Mount, VI’, II.19 and n.</p>
-                    </note> Not only his blessed
-                    angels, but all things, serve him in all places of his dominion:<note place="foot" xml:id="ftn12" n="12">
-                        <p rend="footnote text">See Ps.
-                            103:22.</p>
-                    </note> those wicked spirits that rule the darkness of this
-                    world, and those men who are like them, by constraint; the <pb n="04:321"/>senseless and brute parts of the creation, by nature; and those men who are
+                            ‘Sermon on the Mount, VI’, II.19 and n.</p></note> Not only his blessed
+                    angels, but all things, serve him in all places of his dominion:<note
+                        place="foot" xml:id="ftn12" n="12"><p rend="footnote text">See Ps.
+                            103:22.</p></note> those wicked spirits that rule the darkness of this
+                    world, and those men who are like them, by constraint; the <pb n="04:321"
+                    />senseless and brute parts of the creation, by nature; and those men who are
                     like God, by choice. But however it be, with or without their own choice, they
                     all act in obedience to his will; and particularly when in his judgment he
-                    remembers mercy,<note place="foot" xml:id="ftn13" n="13">
-                        <p rend="footnote text">See Hab. 3:2.</p>
-                    </note> and send[s] some evil that he may prevent
+                    remembers mercy,<note place="foot" xml:id="ftn13" n="13"><p rend="footnote text"
+                            >See Hab. 3:2.</p></note> and send[s] some evil that he may prevent
                     greater. Then, at last, we are to acknowledge the hand of God, whatever
                     instruments he makes use of. It makes no difference whether he executes his
                     purpose by the powers of heaven or hell, or by the mistakes, carelessness, or
                     malice of men. If a destroying angel march forth against a town or country, it
                     is God that empowers him to destroy. If bad men distress one or more of their
                     fellow-creatures, the ungodly is a sword of his. If fire, hail, wind, or storm
-                    be let loose upon the earth, yet they only fulfil his word.<note place="foot" xml:id="ftn14" n="14">
-                        <p rend="footnote text">See Ps. 148:8
-                        (BCP).</p>
-                    </note> So certain is it that there is no evil in any place which
+                    be let loose upon the earth, yet they only fulfil his word.<note place="foot"
+                        xml:id="ftn14" n="14"><p rend="footnote text">See Ps. 148:8
+                        (BCP).</p></note> So certain is it that there is no evil in any place which
                     the Lord has not done.</p>
             </div>
             <div type="section" n="2">
@@ -191,20 +202,17 @@
                     affliction is doubtless the voice of God, whereby he calls upon the afflicted to
                     fly to him for succour. But of any extraordinary affliction, especially when
                     many persons are concerned in it, we may not only say that in this God speaketh
-                    to us, but that the God of glory thundereth!<note place="foot" xml:id="ftn15" n="15">
-                        <p rend="footnote text">Ps. 29:3.</p>
-                    </note> This voice of the Lord
-                    is in power. This voice of God is in majesty.<note place="foot" xml:id="ftn16" n="16">
-                        <p rend="footnote text">See Ps. 29:4.</p>
-                    </note> This demands the
+                    to us, but that the God of glory thundereth!<note place="foot" xml:id="ftn15"
+                        n="15"><p rend="footnote text">Ps. 29:3.</p></note> This voice of the Lord
+                    is in power. This voice of God is in majesty.<note place="foot" xml:id="ftn16"
+                        n="16"><p rend="footnote text">See Ps. 29:4.</p></note> This demands the
                     deepest attention of all to whom it comes. This loudly claims the most serious
                     consideration, not only from those to whom it is peculiarly sent, but from all
                     those that are round about them. This, like a voice from heaven, commands that
                     all the people should be afraid, should tremble at the presence of God; that
                     everyone should feel and show that religious fear which is both the beginning
-                    and the perfection of wisdom;<note place="foot" xml:id="ftn17" n="17">
-                        <p rend="footnote text">See Ps. 111:10.</p>
-                    </note> that fear which should
+                    and the perfection of wisdom;<note place="foot" xml:id="ftn17" n="17"><p
+                            rend="footnote text">See Ps. 111:10.</p></note> that fear which should
                     make them haste to do whatsoever the Lord their God commands them, and careful
                     not to turn aside from it to the right hand or to the left.</p>
                 <p>’Tis needless to use many words to prove this, after what has been proved
@@ -215,11 +223,9 @@
                     afraid as not to continue in anything that displeases him. Then ’tis plain that
                     in every such merciful evil God speaks to this effect: ‘O that there were such
                     an heart in this people that they would fear me, and keep my commandments
-                    always, that it might be well with them and their children for ever!’<note place="foot" xml:id="ftn18" n="18">
-                        <p rend="footnote text">Cf. Deut.
-                            5:29.</p>
-                    </note>
-                </p>
+                    always, that it might be well with them and their children for ever!’<note
+                        place="foot" xml:id="ftn18" n="18"><p rend="footnote text">Cf. Deut.
+                            5:29.</p></note></p>
             </div>
             <div type="section" n="3">
                 <p>[III.] What signs we have shown of this wise and grateful fear I am thirdly to
@@ -229,25 +235,22 @@
                     place. And that it may never be forgotten, it were much to be wished, not only
                     that parents would tell their children, to the intent that their posterity might
                     know it, and the children that are yet unborn, but also that it were written in
-                    our public register, for a standing memorial to all generations,<note place="foot" xml:id="ftn19" n="19">
-                        <p rend="footnote text">See Exod.
-                            3:15.</p>
-                    </note> that in the very week, on the very day, when that
+                    our public register, for a standing memorial to all generations,<note
+                        place="foot" xml:id="ftn19" n="19"><p rend="footnote text">See Exod.
+                            3:15.</p></note> that in the very week, on the very day, when that
                     diversion which hath not had the least share in turning the Christian world
-                    upside down<note place="foot" xml:id="ftn20" n="20">
-                        <p rend="footnote text">A
+                    upside down<note place="foot" xml:id="ftn20" n="20"><p rend="footnote text">A
                             peculiar variation on Acts 17:6; that it should be applied in this way
                             to horse-racing is ironic. What had been ‘the sport of kings’ (or at
                             least of ‘chivalry’) had now become a public diversion in out-of-the-way
                             places like Epworth. Indeed, the stabilization of the breed of ‘the
                             thoroughbred racer’ may be taken to date from the beginning of the
-                            eighteenth century (‘the Darley Arabian’, etc.); cf. <hi rend="italic">Encyclopedia Britannica</hi> (11th edn.), XIII.719-20.</p>
-                    </note>
+                            eighteenth century (‘the Darley Arabian’, etc.); cf. <hi rend="italic"
+                                >Encyclopedia Britannica</hi> (11th edn.), XIII.719-20.</p></note>
                     was to have been brought in hither also, such a fire broke out as neither we nor
-                    our forefathers had seen in this place,<note place="foot" xml:id="ftn21" n="21">
-                        <p rend="footnote text">An echo here of his memory of the rectory fire
-                            in 1709?</p>
-                    </note> a fire which soon spread itself not over one only,
+                    our forefathers had seen in this place,<note place="foot" xml:id="ftn21" n="21"
+                            ><p rend="footnote text">An echo here of his memory of the rectory fire
+                            in 1709?</p></note> a fire which soon spread itself not over one only,
                     but over several dwelling-houses; which so went forth in the fury of its
                     strength that it soon prevailed over the weak resistance made against it, and
                     left only so much standing of most of those buildings over which it prevailed as
@@ -259,45 +262,35 @@
                     the scene of this diversion.</p>
                 <pb n="04:323"/>
                 <p>This is the bare matter of fact. And even from this let anyone in whom is the
-                    spirit of man<note place="foot" xml:id="ftn22" n="22">
-                        <p rend="footnote text">See 1 Cor. 2:11.</p>
-                    </note> judge whether the trumpet of God hath not
+                    spirit of man<note place="foot" xml:id="ftn22" n="22"><p rend="footnote text"
+                            >See 1 Cor. 2:11.</p></note> judge whether the trumpet of God hath not
                     sufficiently sounded among us of this place! And doth this trumpet give an
-                    uncertain sound?<note place="foot" xml:id="ftn23" n="23">
-                        <p rend="footnote text">See 1 Cor. 14:8.</p>
-                    </note> How would you have God speak more plainly?
+                    uncertain sound?<note place="foot" xml:id="ftn23" n="23"><p rend="footnote text"
+                            >See 1 Cor. 14:8.</p></note> How would you have God speak more plainly?
                     Do you desire that the Lord should also thunder out of heaven, and give
-                    hailstones, with coals of fire?<note place="foot" xml:id="ftn24" n="24">
-                        <p rend="footnote text">Ps. 18:13.</p>
-                    </note> Nay, rather let us say, ‘It
-                    is enough! Speak no more, Lord; for thy servants hear!’<note place="foot" xml:id="ftn25" n="25">
-                        <p rend="footnote text">Cf. 1 Sam. 3:9.</p>
-                    </note>
+                    hailstones, with coals of fire?<note place="foot" xml:id="ftn24" n="24"><p
+                            rend="footnote text">Ps. 18:13.</p></note> Nay, rather let us say, ‘It
+                    is enough! Speak no more, Lord; for thy servants hear!’<note place="foot"
+                        xml:id="ftn25" n="25"><p rend="footnote text">Cf. 1 Sam. 3:9.</p></note>
                     Those to whom thou hast most severely spoken are afraid, and do seek thee with
                     their whole heart. They resolve not to prolong the time, but even now, by thy
                     gracious assistance, to look well if there be any way of wickedness in them, and
-                    to turn their feet into the way everlasting;<note place="foot" xml:id="ftn26" n="26">
-                        <p rend="footnote text">See Ps. 139:24.</p>
-                    </note> to renounce
-                    everything that is evil in thy sight,<note place="foot" xml:id="ftn27" n="27">
-                        <p rend="footnote text">Ps. 51:4.</p>
-                    </note> yea, the sins that do most
-                    easily beset them,<note place="foot" xml:id="ftn28" n="28">
-                        <p rend="footnote text">See Heb. 12:1.</p>
-                    </note> and to use their whole
-                    diligence for the time to come to make their calling and election sure!<note place="foot" xml:id="ftn29" n="29">
-                        <p rend="footnote text">See 2 Pet.
-                            1:10.</p>
-                    </note> Those to whom thou hast spoken by the misfortune of
+                    to turn their feet into the way everlasting;<note place="foot" xml:id="ftn26"
+                        n="26"><p rend="footnote text">See Ps. 139:24.</p></note> to renounce
+                    everything that is evil in thy sight,<note place="foot" xml:id="ftn27" n="27"><p
+                            rend="footnote text">Ps. 51:4.</p></note> yea, the sins that do most
+                    easily beset them,<note place="foot" xml:id="ftn28" n="28"><p
+                            rend="footnote text">See Heb. 12:1.</p></note> and to use their whole
+                    diligence for the time to come to make their calling and election sure!<note
+                        place="foot" xml:id="ftn29" n="29"><p rend="footnote text">See 2 Pet.
+                            1:10.</p></note> Those to whom thou hast spoken by the misfortune of
                     their neighbours are likewise afraid at thy tokens, and own it was thy mere
                     goodness that they, too, and their substance, were not consumed. They likewise
                     firmly purpose in themselves to make the true use of thy merciful warning; to
                     labour more and more, day by day, to purge themselves from all sin, from every
                     earthly affection, that they may be fit to stand in the presence of that God who
-                    is himself the most consuming fire!<note place="foot" xml:id="ftn30" n="30">
-                        <p rend="footnote text">See Deut. 4:24.</p>
-                    </note>
-                </p>
+                    is himself the most consuming fire!<note place="foot" xml:id="ftn30" n="30"><p
+                            rend="footnote text">See Deut. 4:24.</p></note></p>
                 <p n="2">[2.] But have we indeed been thus duly afraid? This is now to be
                     considered. And because we cannot see the hearts of others, let us form our
                     judgment from their actions, which will be best done by a plain relation, of
@@ -330,37 +323,32 @@
                     say this diversion is sinful in itself. If anyone can find a race which has none
                     of these consequences, let him go to it, in the name of God. Only till he finds
                     one which does not give occasion to these or the like villainies, let him who
-                    nameth the name of Christ<note place="foot" xml:id="ftn31" n="31">
-                        <p rend="footnote text">2 Tim. 2:19.</p>
-                    </note> have a care of any way
-                    encouraging them.<note place="foot" xml:id="ftn32" n="32">
-                        <p rend="footnote text">Cf. this way of discouraging diversions which
-                            cannot be ‘taken in the Name of Christ’ with the first <hi rend="italic">General Rule</hi> of 1743: ‘Doing no harm, by avoiding evil in
+                    nameth the name of Christ<note place="foot" xml:id="ftn31" n="31"><p
+                            rend="footnote text">2 Tim. 2:19.</p></note> have a care of any way
+                    encouraging them.<note place="foot" xml:id="ftn32" n="32"><p
+                            rend="footnote text">Cf. this way of discouraging diversions which
+                            cannot be ‘taken in the Name of Christ’ with the first <hi rend="italic"
+                                >General Rule</hi> of 1743: ‘Doing no harm, by avoiding evil in
                             every kind; especially that which is most generally practised. Such
                             is…the taking such diversions as cannot be used in the name of the Lord
-                            Jesus.’</p>
-                    </note>
-                </p>
+                            Jesus.’</p></note></p>
                 <p>One thing more I would have observed, that it is so far from being uncharitable
                     to warn well-meaning Christians of the tendency of these diversions, that the
                     more clearly and strongly anyone represents it to them, the more charitable to
                     them he is. This may be made plain by a very easy comparison. You see the wine
-                    when it sparkles in the cup,<note place="foot" xml:id="ftn33" n="33">
-                        <p rend="footnote text">Cf. Poole’s comment on Prov. 23:31, in his <hi rend="italic">Annotations</hi>.</p>
-                    </note> and are going to drink of
+                    when it sparkles in the cup,<note place="foot" xml:id="ftn33" n="33"><p
+                            rend="footnote text">Cf. Poole’s comment on Prov. 23:31, in his <hi
+                                rend="italic">Annotations</hi>.</p></note> and are going to drink of
                     it. I tell you there is poison in it, and therefore beg you to throw it away.
                     You answer, ‘The wine is harmless in itself.’ I reply, Perhaps it is; but still,
                     if it be mixed with what is not harmless, no one in his senses, if he knows it,
                     will drink it; at least unless he <pb n="04:325"/>could separate the good from
                     the bad. If you add, ‘It is not poison to me, though it be to others;’ then I
                     say, Throw it away, for thy brother’s sake, lest thou embolden him to drink
-                        also.<note place="foot" xml:id="ftn34" n="34">
-                        <p rend="footnote text">See
-                            Rom. 14:21.</p>
-                    </note> Why should thy strength occasion thy weak brother
-                    to perish, for whom Christ died?<note place="foot" xml:id="ftn35" n="35">
-                        <p rend="footnote text">1 Cor. 8:11.</p>
-                    </note> Now let anyone judge which
+                        also.<note place="foot" xml:id="ftn34" n="34"><p rend="footnote text">See
+                            Rom. 14:21.</p></note> Why should thy strength occasion thy weak brother
+                    to perish, for whom Christ died?<note place="foot" xml:id="ftn35" n="35"><p
+                            rend="footnote text">1 Cor. 8:11.</p></note> Now let anyone judge which
                     is the uncharitable person: he who pleads against the wine or the diversion, for
                     his brother; or he that pleads against the life of his brother, for the wine or
                     the diversion.</p>
@@ -371,8 +359,8 @@
                     accompany it, wherewith the name of our Lord God, blessed for ever, is
                     blasphemed. When or where was this diversion ever known without these glorious
                     consequences? Who was ever one day present at one of these entertainments
-                    without being himself a witness to some of these?<note place="foot" xml:id="ftn36" n="36">
-                        <p rend="footnote text">Wesley is speaking here from
+                    without being himself a witness to some of these?<note place="foot"
+                        xml:id="ftn36" n="36"><p rend="footnote text">Wesley is speaking here from
                             experience; his diary indicates that he had spent two afternoons at the
                             horse-races in Port Meadow near Oxford on August 18 and 19, 1725. Thomas
                             Hearne, onetime librarian at the Bodleian, noted in his diary for August
@@ -380,13 +368,13 @@
                             five days, ‘and indeed, ’twas time to have done, these diversions
                             (especially continuing them so long) being nothing else but incentives
                             to idleness and vice, and doing a great deal of harm to the youth of the
-                            University and others.’ Thomas Hearne, <hi rend="italic">Collections</hi> (Oxford, Oxford University Press, 1914), IX.9-10.
+                            University and others.’ Thomas Hearne, <hi rend="italic"
+                                >Collections</hi> (Oxford, Oxford University Press, 1914), IX.9-10.
                             In 1733, a year <hi rend="italic">after</hi> this present denunciation,
                             Wesley records that he himself, while visiting friends in Lutterworth
                             (October 3) had been invited to a race, and that his friends went; there
                             is a marginal note in the diary entry: ‘the rain saved me from the
-                            race.’</p>
-                    </note> And surely these alone, had we no other ill
+                            race.’</p></note> And surely these alone, had we no other ill
                     consequences to charge upon this diversion, are enough, till a way is found to
                     purge it from them, to make both God and wise men abhor it.</p>
                 <p n="2">[2.] But over and above these we charge it, secondly, with affording the
@@ -397,9 +385,10 @@
                     leave such a thirst in the mind as not all the winning in the world will
                     satisfy. And what amends can the trifling sport of a thousand people make for
                     one soul thus ruined and corrupted? Therefore on this account, too, till a way
-                    is known to secure all that frequent it from this <hi rend="Page">[04:326]</hi>danger, well may this sport itself be an abomination to him who
-                    values one soul more than the whole world.<note place="foot" xml:id="ftn37" n="37">
-                        <p rend="footnote text">See Matt. 16:26. See also Susanna Wesley’s
+                    is known to secure all that frequent it from this <hi rend="Page"
+                    >[04:326]</hi>danger, well may this sport itself be an abomination to him who
+                    values one soul more than the whole world.<note place="foot" xml:id="ftn37"
+                        n="37"><p rend="footnote text">See Matt. 16:26. See also Susanna Wesley’s
                             letter to John (Oct. 25, 1732), probably in response to this sermon:
                             ‘Your arguments against horse-races do certainly conclude against
                             masquerades, balls, plays, operas, and all such light and vain
@@ -412,48 +401,39 @@
                             life, knew so much as one serious Christian that did; nor can I see how
                             a lover of God can have any relish for such vain amusements.’ Adam
                             Clarke, <hi rend="italic">Memoirs of the Wesley Family</hi>, p.
-                        338.</p>
-                    </note>
-                </p>
+                        338.</p></note></p>
                 <p n="3">[3.] May we not well fear that it is an abomination to him because of a
                     third effect of it—because it is so apt to inflame those passions which he so
                     earnestly commands us to quench? Because so many people are on this occasion so
                     heated, as they never ought to be on any occasion? A man may indeed be angry,
-                    and not sin,<note place="foot" xml:id="ftn38" n="38">
-                        <p rend="footnote text">See
-                            Eph. 4:26.</p>
-                    </note> but hardly, either upon such occasions, or in such
+                    and not sin,<note place="foot" xml:id="ftn38" n="38"><p rend="footnote text">See
+                            Eph. 4:26.</p></note> but hardly, either upon such occasions, or in such
                     a degree as those that are angry upon such occasions commonly are. This
                     consequence, too, let him separate from this diversion, who would prevent its
                     being displeasing to God.</p>
                 <p n="4">[4.] Till this be done let no one ask, ‘What hurt is there in a
-                        horse-race?’<note place="foot" xml:id="ftn39" n="39">
-                        <p rend="footnote text">See No. 89, ‘The More Excellent Way’, V.4 and n.</p>
-                    </note> But [if]
+                        horse-race?’<note place="foot" xml:id="ftn39" n="39"><p rend="footnote text"
+                            >See No. 89, ‘The More Excellent Way’, V.4 and n.</p></note> But [if]
                     any should still ask that question, we can answer yet more particularly. Are you
                     a young person that desire to go to it? Then ’tis likely you go either to see or
                     to be seen; to admire other fine sights, or to be admired yourself. The hurt of
-                    this is, it is nourishing that friendship which is enmity with God;<note place="foot" xml:id="ftn40" n="40">
-                        <p rend="footnote text">See Jas.
-                        4:4.</p>
-                    </note> it is strengthening those affections which are already too
-                    strong—the lust of the eye and the pride of life.<note place="foot" xml:id="ftn41" n="41">
-                        <p rend="footnote text">1 John 2:16; see No. 7, ‘The
-                            Way to the Kingdom’, II.2 and n.</p>
-                    </note> All such diversions as these
+                    this is, it is nourishing that friendship which is enmity with God;<note
+                        place="foot" xml:id="ftn40" n="40"><p rend="footnote text">See Jas.
+                        4:4.</p></note> it is strengthening those affections which are already too
+                    strong—the lust of the eye and the pride of life.<note place="foot"
+                        xml:id="ftn41" n="41"><p rend="footnote text">1 John 2:16; see No. 7, ‘The
+                            Way to the Kingdom’, II.2 and n.</p></note> All such diversions as these
                     are the noblest instruments the devil has to fill you with earthly, sensual,
-                        devilish<note place="foot" xml:id="ftn42" n="42">
-                        <p rend="footnote text">See
-                            Jas. 3:15.</p>
-                    </note> passions; to make you of a light and trifling
-                    spirit, and, in a word, lovers of pleasure more than lovers of God.<note place="foot" xml:id="ftn43" n="43">
-                        <p rend="footnote text">2 Tim.
-                        3:4.</p>
-                    </note> Are you who desire to go to it elder? And now less subject
+                        devilish<note place="foot" xml:id="ftn42" n="42"><p rend="footnote text">See
+                            Jas. 3:15.</p></note> passions; to make you of a light and trifling
+                    spirit, and, in a word, lovers of pleasure more than lovers of God.<note
+                        place="foot" xml:id="ftn43" n="43"><p rend="footnote text">2 Tim.
+                        3:4.</p></note> Are you who desire to go to it elder? And now less subject
                     to these temptations? Take heed that your hearts deceive you not. But be it as
                     you suppose, hath it not done you hurt enough if it has hindered any of you from
                     partaking of the blessed sacrament? If by preventing either that serious
-                    examination or that private devotion which ye wisely use before <hi rend="Page">[04:327]</hi>you come to it, it has occasioned your neglecting to come to
+                    examination or that private devotion which ye wisely use before <hi rend="Page"
+                        >[04:327]</hi>you come to it, it has occasioned your neglecting to come to
                     this holy table, and so not only disobeying a plain command of God, but likewise
                     losing all those inestimable advantages which are there reached out to them that
                     obey him? Are you a rich man that desire to go? Then you have probably given
@@ -464,31 +444,24 @@
                     you for. You have given to those who neither need, nor perhaps thank you for it,
                     what if you had bestowed on your helpless brethren, your blessed Redeemer would
                     have esteemed as done unto himself, and given you due thanks for it at the great
-                        day.<note place="foot" xml:id="ftn44" n="44">
-                        <p rend="footnote text">See
-                            Matt. 25:44-46.</p>
-                    </note> Are you a poor man that have gone, or given
+                        day.<note place="foot" xml:id="ftn44" n="44"><p rend="footnote text">See
+                            Matt. 25:44-46.</p></note> Are you a poor man that have gone, or given
                     anything, to this diversion? Then it has done you the most hurt of all. It has
                     made you throw away, for an idle sport abroad, what your wife or family wanted
                     at home. If so, you have denied the faith, and are so far worse than an
-                        infidel.<note place="foot" xml:id="ftn45" n="45">
-                        <p rend="footnote text">See
-                            1 Tim. 5:8.</p>
-                    </note> But suppose it cost you no money: was it not hurt
+                        infidel.<note place="foot" xml:id="ftn45" n="45"><p rend="footnote text">See
+                            1 Tim. 5:8.</p></note> But suppose it cost you no money: was it not hurt
                     enough if it cost you any of your time? What had you to do to run after trifling
                     diversions, when you ought to have been employed in honest labour? Surely if the
                     rich think, God hath given them more time than they want (though ’tis well if
                     they don’t one day think otherwise) yet you have no temptation to fancy so:
-                    sufficient for your day is the work thereof.<note place="foot" xml:id="ftn46" n="46">
-                        <p rend="footnote text">See Matt. 6:34.</p>
-                    </note>
-                </p>
+                    sufficient for your day is the work thereof.<note place="foot" xml:id="ftn46"
+                        n="46"><p rend="footnote text">See Matt. 6:34.</p></note></p>
             </div>
             <div type="section" n="5">
                 <p>[V.] I have but a few words to add: and those I speak, not to them who are
-                    unwilling to hear, whose affections are set upon this world,<note place="foot" xml:id="ftn47" n="47">
-                        <p rend="footnote text">See Col. 3:2.</p>
-                    </note> and
+                    unwilling to hear, whose affections are set upon this world,<note place="foot"
+                        xml:id="ftn47" n="47"><p rend="footnote text">See Col. 3:2.</p></note> and
                     therefore their eyes are blinded by it; but I speak to them in whom is an
                     understanding heart, and a discerning spirit; who, if they have formerly erred,
                     are resolved by the grace of God now to return no more to the error of their
@@ -496,21 +469,17 @@
                     whatever is contrary to his faith or love. To these I say, Are ye young? So much
                     the rather scorn all employments that are useless, but much more if they are
                     sinful. For you are they whose wisdom and glory it is to remember your Creator
-                    in the days of your youth.<note place="foot" xml:id="ftn48" n="48">
-                        <p rend="footnote text">See Eccles. 12:1.</p>
-                    </note> Are ye elder? So much
+                    in the days of your youth.<note place="foot" xml:id="ftn48" n="48"><p
+                            rend="footnote text">See Eccles. 12:1.</p></note> Are ye elder? So much
                     the rather bestow all the time which you can spare from the necessary business
-                    of this life in preparing yourself and <hi rend="Page">[04:328]</hi>those about
+                    of this life in preparing yourself and <pb n="04:328"/>those about
                     you for their entrance into a better life. For your day is far spent, your night
-                    is at hand.<note place="foot" xml:id="ftn49" n="49">
-                        <p rend="footnote text">See
-                            Luke 24:29; Rom. 13:12.</p>
-                    </note> Redeem therefore the little time you
+                    is at hand.<note place="foot" xml:id="ftn49" n="49"><p rend="footnote text">See
+                            Luke 24:29; Rom. 13:12.</p></note> Redeem therefore the little time you
                     have left. Are ye rich? Then you have particular reason to labour that you may
                     be rich in good works. For ye are they to whom much is given, not to throw away,
-                    but to use well and wisely; and of you much shall be required.<note place="foot" xml:id="ftn50" n="50">
-                        <p rend="footnote text">See Luke 12:48.</p>
-                    </note> Are
+                    but to use well and wisely; and of you much shall be required.<note place="foot"
+                        xml:id="ftn50" n="50"><p rend="footnote text">See Luke 12:48.</p></note> Are
                     ye poor? Then you have particular reason to work with your hands, that ye may
                     provide for your own household. Nor when ye have done this have ye done all; for
                     then ye are to labour that ye may have to give to him that needeth—not to him
@@ -521,37 +490,32 @@
                     wipe off the past scandal from our town and people? First, by opposing to the
                     utmost for the time to come, by word and deed, among our friends, and all we
                     have to do with, this unhappy diversion which, if it be harmless in itself, has
-                    yet such terribly hurtful consequences; by doing all that in us lies,<note place="foot" xml:id="ftn51" n="51">
-                        <p rend="footnote text">The <hi rend="italic">in se est</hi> proverb again; see Nos. 142, ‘The
+                    yet such terribly hurtful consequences; by doing all that in us lies,<note
+                        place="foot" xml:id="ftn51" n="51"><p rend="footnote text">The <hi
+                                rend="italic">in se est</hi> proverb again; see Nos. 142, ‘The
                             Wisdom of Winning Souls’, II and n. 65; and 151, ‘Hypocrisy in Oxford’
-                            [Latin], II.7 and n.</p>
-                    </note> all we possibly can, to hinder its
+                            [Latin], II.7 and n.</p></note> all we possibly can, to hinder its
                     coming among us any more. And, secondly, by showing all the mercy we can to our
                     afflicted neighbours, according as God hath prospered us; and by this timely
                     relief of them, laying up for ourselves a good foundation against the day of
                     necessity. Thirdly, by our constant attendance on God’s public service and ever
-                    blessed sacrament, and our watchful, charitable, pious life.<note place="foot" xml:id="ftn52" n="52">
-                        <p rend="footnote text">Note this latent form of what
+                    blessed sacrament, and our watchful, charitable, pious life.<note place="foot"
+                        xml:id="ftn52" n="52"><p rend="footnote text">Note this latent form of what
                             will later become the <hi rend="italic">General Rules</hi>: (1) doing no
                             harm; (2) showing mercy; (3) constant attendance on God’s public
-                            service; see No. 24, ‘Sermon on the Mount, IV’, IV.1 and n.</p>
-                    </note>
+                            service; see No. 24, ‘Sermon on the Mount, IV’, IV.1 and n.</p></note>
                     Thus giving the noblest proof before men and angels that though even after we
                     were troubled we went wrong, yet upon more deeply considering how God had blown
                     his trumpet among us, we were duly afraid! We then all said, with an awakened
                     heart, ‘Behold, the Lord our God hath showed us his glory and his greatness, and
-                    we have heard his voice out of the midst of the fire.’<note place="foot" xml:id="ftn53" n="53">
-                        <p rend="footnote text">Deut. 5:24.</p>
-                    </note> Now,
-                    therefore, while time is, let us put away far from us every accursed thing:<note place="foot" xml:id="ftn54" n="54">
-                        <p rend="footnote text">Josh. 6:18,
-                            etc.</p>
-                    </note> ‘For if we hear this voice of the Lord our God any more,
-                    then we shall die.’<note place="foot" xml:id="ftn55" n="55">
-                        <p rend="footnote text">Cf. Deut. 5:25; note the omission of an
-                            ascription.</p>
-                    </note>
-                </p>
+                    we have heard his voice out of the midst of the fire.’<note place="foot"
+                        xml:id="ftn53" n="53"><p rend="footnote text">Deut. 5:24.</p></note> Now,
+                    therefore, while time is, let us put away far from us every accursed thing:<note
+                        place="foot" xml:id="ftn54" n="54"><p rend="footnote text">Josh. 6:18,
+                            etc.</p></note> ‘For if we hear this voice of the Lord our God any more,
+                    then we shall die.’<note place="foot" xml:id="ftn55" n="55"><p
+                            rend="footnote text">Cf. Deut. 5:25; note the omission of an
+                            ascription.</p></note></p>
             </div>
         </body>
     </text>

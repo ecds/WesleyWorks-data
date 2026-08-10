@@ -1,0 +1,634 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Sermon 151: Hypocrisy in Oxford [Latin text]</title>
+                <author>Greg Van Buskirk</author>
+            </titleStmt>
+            <editionStmt>
+                <edition><date>2024-01-04</date></edition>
+            </editionStmt>
+            <publicationStmt>
+                <p n="">unknown</p>
+            </publicationStmt>
+            <sourceDesc>
+                <p n="">Converted from a Word document</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <appInfo>
+                <application xml:id="docxtotei" ident="TEI_fromDOCX" version="2.15.0">
+                    <label>DOCX to TEI</label>
+                </application>
+            </appInfo>
+        </encodingDesc>
+        <revisionDesc>
+            <listChange>
+                <change><date>2024-03-01T06:04:24Z</date><name>Greg Van Buskirk</name></change>
+            </listChange>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <p n=""><pb n="04:389"/></p>
+            <head><hi rend="italic">An Introductory Comment</hi></head>
+            <p n="">This final pair of sermons presents a unique case in the Wesley corpus. What we have
+                here is one sermon on the same text, in two versions (one in English, the other in
+                Latin). They are so nearly alike that one is tempted to suppose that we are dealing
+                with an instance of translation. They are, however, different enough to suggest a
+                single project in two different drafts. What little we know of the actual
+                circumstances supports this latter conjecture.</p>
+            <p n="">As one of the twelve Fellows of Lincoln College, Wesley had been expected to proceed
+                to the degree of Bachelor of Divinity within seven years after his Master of Arts
+                degree (1727). The reasons for his failure to do this are not clear. At any rate, in
+                1736, while he was in Georgia, he was elected to the only fellowship in the college
+                (the so-called ‘canonist fellowship’) exempted from the B.D. requirement. Moreover,
+                he continued to hold this fellowship, at considerable inconvenience to the college,
+                until his resignation in 1751.</p>
+            <p n="">That Wesley remained mindful of the expectations of his college, even after his
+                forsaking it for his new role in the Revival, can be seen in an aside in a letter
+                written from Bristol, October 27, 1739, to his brother Samuel in Tiverton. His main
+                interest in this letter is a sprightly defence of his new career against his
+                brother’s sharp criticisms of it. But he also adds the following bit of ‘news’:</p>
+            <p rend="Quote">In a few days, my [younger] brother and I are to go to Oxford to do
+                exercise for our [B.D.] degrees. Then, if God enables me, I will prove my charge [of
+                works-righteousness] against Bishop [George] Bull, either in my Latin sermon, or
+                Supposition Speech.</p>
+            <p n="">No mention is made of this in the <hi rend="italic">Journal</hi>, but it is recorded
+                there that John and Charles turned up in Oxford on November 12. However, three days
+                later, the belated news of their brother’s sudden death (November 5) came to them,
+                and they immediately set out for Tiverton.<note place="foot" xml:id="ftn1" n="1"><p
+                    rend="footnote text">JWJ, November 20-24, 1739.</p></note> For a time, with
+                the excitements and demands of the burgeoning Revival, the matter of an academic
+                degree drops out of John’s sight. And yet, despite his absence from Oxford and his
+                mounting public notice, the <pb n="04:390"/>university officials were
+                still prepared to invite him to take his regular turn as preacher to the
+                university—this time on July 25, 1741 (i.e., during ‘Long Vacation’, when the
+                majority of the dons and students would be absent). He seems to have regarded such
+                an invitation as a twofold opportunity: to deal with his own academic arrears
+                respecting that deferred B.D., and also to deliver a long-considered diatribe
+                against the university as a whole, on the charge of its manifold lapses in doctrine
+                and discipline. The <hi rend="italic">Journal</hi> entry for June 18 confirms
+                this:</p>
+            <p rend="Quote">I inquired concerning the exercises previous
+                to the degree of Bachelor of Divinity; and advised with Mr. Gambold concerning the
+                subject of my sermon before the university; but he seemed to think it of no moment.
+                ‘For’, said he, ‘all here are so prejudiced that they will mind nothing you say.’ I
+                know that. However, I am to deliver my own soul, whether they will hear or whether
+                they will forebear.</p>
+            <p n="">Incidentally, though, this exchange with Gambold, with other things, seems to have
+                led to a rupture, for the <hi rend="italic">Journal</hi> entry for July 2 reports
+                matter-of-factly: ‘I met Mr. Gambold again, who honestly told me he was ashamed of
+                my company.’</p>
+            <p n="">On this visit to Oxford, he had returned again to his ‘charge against Bishop
+                Bull’<note place="foot" xml:id="ftn2" n="2"><p rend="footnote text">JWJ, June
+                    24, 1741.</p></note> by re-reading the latter’s <hi rend="italic">Harmonia
+                        Apostolica</hi>—ignoring Robert Nelson’s careful explanation that Bull’s
+                doctrine of justification was not Pelagian.<note place="foot" xml:id="ftn3" n="3"><p
+                    rend="footnote text">Nelson, <hi rend="italic">The Life of Dr. George
+                        Bull</hi> (1714), pp. 95-99.</p></note> And, even earlier (June 19,
+                according to the diary), Wesley had ‘writ plan of sermon’ on the same day that he
+                had ‘read the Canons of the Council of Trent’. It was, therefore, a time of
+                theological reading and reflection, as if in ‘cramming’ for an examination.<note
+                    place="foot" xml:id="ftn4" n="4"><p rend="footnote text">Wesley’s diary
+                        indicates that he was also writing three Latin exercises (<hi rend="italic"
+                            >geneses</hi>), on predestination, on the means of grace, and on
+                        justification, presumably to satisfy the lecture requirement for the degree
+                        (JWJ, June 20, 1741); see G. R. M. Ward, <hi rend="italic">Oxford University
+                            Statutes</hi> (Oxford, 1848), I:55. Cf. JW MS ‘S. Paulus per totum 7<hi
+                                rend="superscript">m</hi> ad Rom. caput…’ (number ‘3’ at the top), in
+                        MA.</p></note> On the 22nd, there is a note that he had written out a ‘plan
+                of Latin sermon’ (i.e., one of the B.D. exercises).<note place="foot" xml:id="ftn5"
+                    n="5"><p rend="footnote text">The Statutes (Tit. VI.6.2) required that a person
+                        standing for admission to the degree of Bachelor of Divinity ‘preach in his
+                        own person, and not by deputy, a Latin sermon in the church of St. Mary the
+                        Virgin’. Ward, <hi rend="italic">Statutes</hi>, I:55.</p></note> These
+                scattered bits of evidence allow for the conjecture that he was preparing a sermon
+                for St. Mary’s in which he could ‘deliver his soul’ and also satisfy one of the B.D.
+                requirements.</p>
+            <p n="">As far as we know, nothing came of this plan. Apparently, Wesley was dissuaded from
+                preaching the sermon on Isa. 1:21 in St. Mary’s (and by Lady Huntingdon, no less).
+                And there is no record of his ever having <pb n="04:391"/>submitted anything officially
+                for that B.D. degree. Instead, for the university sermon on July 25 he wrote out a
+                different piece, on a text he had tried before, on Acts 26:28 (see No. 2, <hi
+                    rend="italic">The Almost Christian</hi>). And when he returned to St. Mary’s for
+                the last time in 1744 (see No. 4, <hi rend="italic">Scriptural Christianity</hi>),
+                he couched his denunciation of the university in very different terms.</p>
+            <p n="">It is all the more remarkable, therefore, that Wesley took the necessary pains to
+                preserve both the English and Latin holographs of these two unpreached sermons. The
+                manuscript in English that is transcribed here exists in nineteen numbered duodecimo
+                pages now in the Colman Miscellany in the Methodist Archives, Manchester. After
+                Wesley’s death, it passed into John Pawson’s possession and was published in 1797 in
+                the <hi rend="italic">Arminian Magazine</hi><note place="foot" xml:id="ftn6" n="6"
+                    ><p rend="footnote text">XX.265-69, 317-22.</p></note> with a misleading
+                foreword by Adam Clarke:</p>
+            <p rend="Quote">The following sermon was found in a mutilated manuscript among Mr.
+                Wesley’s papers. It is dated June 24, 1741. A Latin copy of the same discourse has
+                also been discovered. Mr. Pawson, with great care, copied the former, and I have
+                supplied the deficiencies out of the latter. On collating both sermons, I find
+                several variations, and though not of any great importance, yet sufficient, in my
+                judgment, to vindicate the propriety of translating and publishing the Latin one,
+                not merely as a matter of curiosity, but of utility. The sermon, no doubt, was
+                written with the design of being preached before the University of Oxford, but
+                whether it ever were preached there, cannot be determined.</p>
+            <p n="">The English text was then reproduced by Joseph Benson in his edition of the <hi
+                rend="italic">Works</hi>,<note place="foot" xml:id="ftn7" n="7"><p
+                    rend="footnote text">(1812), XI.72-85.</p></note> with minor alterations and
+                one major addition in I.7 (three paragraphs added from the Latin). Benson also
+                supplied it with its triumphalist title, ‘True Christianity Defended’. Thomas
+                Jackson followed Benson faithfully in both title and text.</p>
+            <p n="">The holograph of the Latin sermon, dated by Wesley June 27, 1741 (three days after
+                the English version), has also survived; it is in the Morley Collection in Wesley
+                College, Bristol. It is the most extensive example we have of Wesley’s prowess with
+                neo-Ciceronian Latin—an impressive reminder of his grounding in the classics at
+                Charterhouse and Christ Church. The English version here follows Wesley’s own
+                holograph. The Latin version is presented here for the first time: its orthography
+                has been modernized, with Wesley’s abbreviations fitted out (e.g., the enclitic <hi
+                    rend="italic">-que</hi> which he regularly shortens to <hi rend="italic">-q</hi>
+                at the endings of conjunctive nouns), and a few obvious lapses have been corrected
+                silently. It is placed here in sequence to the English text, with its <hi
+                    rend="Page">[04:392]</hi>own annotation, so that either version may be read
+                separately and yet also compared with the other. For the English text, a few notes
+                are offered (besides the usual annotations) calling attention to significant
+                omissions, or variations between it and its Latin counterpart. In the transcription
+                of the latter, and in the notes on various peculiarities of Wesley’s vocabulary and
+                syntax, I have had the generous help of an expert Latinist, Fr. Placid Gilbert,
+                O.S.B. (Cist.), of the Abbey of Our Lady of Dallas (Texas).</p>
+            <!--Reinsert page number here.-->
+            <hi style="font-size:14pt">Hypocrisy in Oxford [Latin
+                    text]</hi></p>
+            Isaiah 1:21</p>
+            <hi rend="italic">Quomodo civitas fidelis meretrix facta
+                    est!</hi><note place="foot" xml:id="ftn1" n="1"><p rend="footnote text">The MS
+                        orig. had no text and no title; Adam Clarke later added the Scripture
+                        citation and the Latin quotation to the first page, along with a wrongly
+                        transcribed date from the last page: ‘Jan. [June] 27, 1741’.</p><p
+                        rend="footnote text">It was natural enough that Wesley would not have used
+                        any particular Latin text of the Bible; he appears to have translated freely
+                        into Latin. Similarities to other standard texts are noted (Vulgate,
+                        Theodore Beza, Johannes Tremellius).</p></note></p>
+            <p n="">1. Quum adducturus sum contra terram aliquam gladium, inquit Dominus Iehovah, si
+                speculator videns gladium supervenientem terrae, clanxerit buccina et monuerit
+                populum—tum quisquis audit sonum buccinae, et non acceperit monitum, si adveniens
+                gladius sustulerit ipsum, sanguis eius in ipsius capite erit. Ipse vero speculator,
+                cum viderit gladium advenientem, si non clanxerit buccina, populusque non fuerit
+                monitus, et adveniens gladius sustulerit ex eis aliquem: hic propter iniquitatem
+                suam tolletur, sanguinem vero eius e manu speculatoris reposcam.<hi
+                    rend="endnote_reference"><note place="end"><p rend="endnote text">[Cf.] Ezek.
+                            33, ver. 2, etc. [Tremellius].</p></note></hi></p>
+            <p n="">2. Dubium non est, quin et istum lehovae verbum ad
+                quemvis evangelii praedicatorem pertineat, ‘Te autem, O fili hominis, te inquam,
+                speculatorem dedi domui Israelis: ut audiens ex ore meo verbum, moneas eos ex me.
+                Quum dixero improbo, improbe, omnino moriturus est, si non loquaris monendo
+                improbum, ut desistat a via sua: ipse improbus propter iniquitatem suam morietur,
+                sanguinem vero eius e manu tua requiram.’<hi rend="endnote_reference"><note
+                        place="end"><p rend="endnote text">Ver. 7, 8
+                [Tremellius].</p></note></hi></p>
+            <p n="">3. Neque speculator iste, inimicus ideo nobis censendus
+                est, quod vera nobis loquatur: quippe quem ad id impellit, non magis timor Domini,
+                quam infucatus<note place="foot" xml:id="ftn2" n="2"><p rend="footnote text">An
+                        unusual usage: the negative of <hi rend="italic">fucatus</hi> (‘painted,
+                        dyed’); hence <hi rend="italic">infucatus</hi> would mean ‘not dyed’ (i.e.,
+                        ‘genuine’ or ‘sincere’).</p></note> proximi amor. Alioquin, hanc <hi
+                    rend="Page">[04:409]</hi>minime ingrederetur viam, qui eiusdem exitum probe
+                novit. Meminit enim sermonis quem dixit Christus, ‘Me mundus odit, quoniam ego
+                testor de eo, opera eius mala esse.’<hi rend="endnote_reference"><note place="end"
+                            ><p rend="endnote text">John 7:7 [Beza].</p></note></hi> Et, ‘Non est
+                servus maior domino suo.’<hi rend="endnote_reference"><note place="end"><p
+                            rend="endnote text">Chap. 15:20 [Vulgate and Beza].</p></note></hi></p>
+            <p n="">4. Mihi tamen manet alta mente repostum, me vobis.
+                Fratres, hoc saltem amoris pignus, et Almae Matri, a qua plusquam viginti annorum
+                spatio tot tantaque beneficia accepi, hoc grati animi indicium prorsus debere, ut ex
+                ore Domini vos aperte moneam; ut implens ministerium quod ab ipso accepi quae
+                pernecessaria sunt vera loquar. Vellem sane, quemlibet alium, mihi vobis forsan
+                minus accepto, provinciam hanc praeripuisse. Siluerint omnes, mox clamabunt lapides,
+                ‘Quomodo civitas fidelis meretrix facta est!’</p>
+            <p n="">5. Quam fidelis olim fuerit Domino suo, civitas haec
+                nostra in monte constituta, cui ut illibata Virgo desponsata fuerat, testentur
+                inclyti ipsius filii; quos nulla dies unquam memori eximet aevo, donec omnia
+                consummentur. Quo amore sponsum illum filiis hominum pulchriorem, semper fuerit
+                prosecuta, qua observantia, omnia ab eo praescripta exceperit, quam presse vestigiis
+                ipsius inhaeserit; testetur martyrum quos enutrivit sanguis, in aure Domini Sabaoth
+                altius insonans, quam ‘si linguae centum oraque centum’. At iam quantum mutatur ab
+                illa! Quomodo meretrix facta est, peregrinorum voci auscultans!<note place="foot"
+                    xml:id="ftn3" n="3"><p rend="footnote text">See John 10:5.</p></note> Iam
+                derelicto Domino suo, semet ipsam corrumpi passa est.</p>
+            <p n="">I. Quoad doctrinam,</p>
+            <p n="">II. Quoad mores.</p>
+            <p n="">I. Et primo, quidem loco, quoad doctrinam.</p>
+            <p n="">1. Dici sane non potest, incorruptam Christi doctrinam a nobis penitus exulare: absit
+                ut dicam, omnes illos autores, quos gremio suo fovit academia, vel quorum scripta
+                plurimorum apud nos manibus teruntur, a recto tramite aberrantes perversa loqui, et
+                non secundum evangelium quod accepimus. Sunt, qui viva Dei oracula explicuerunt,
+                eodem spiritu quo sunt scripta. Sunt qui solidum illud, cum Ecclesia nostra,
+                fundamentum posuere, in quod portae inferni non praevalebunt.<note place="foot"
+                    xml:id="ftn4" n="4"><p rend="footnote text">Matt. 16:18 (Vulgate and
+                        Tremellius).</p></note> Sunt etiam (benedictus sit <hi rend="Page"
+                    >[04:410]</hi>Pater luminum, omnis donationis bonae et integrae Dator)<note
+                    place="foot" xml:id="ftn5" n="5"><p rend="footnote text">See Jas. 1:17
+                        (Beza).</p></note> qui superaedificarunt super fundamentum hoc, non ligna,
+                faenum, stipulam, verum aurum, argentum, lapides pretiosos, quales dies iste nunquam
+                perituros declarabit.<note place="foot" xml:id="ftn6" n="6"><p rend="footnote text"
+                        >See 1 Cor. 3:12-13 (Beza).</p></note></p>
+            <p n="">2. Gratias eo quoque nomine Deo agamus oportet, quod
+                etiamnum oculis conspiciamus, et audi[a]mus<note place="foot" xml:id="ftn7" n="7"><p
+                        rend="footnote text">Taking both <hi rend="italic">conspiciamus</hi> and <hi
+                            rend="italic">audiamus</hi> as subjunctives.</p></note> ipsi, qui verum
+                pacis evangelium,<note place="foot" xml:id="ftn8" n="8"><p rend="footnote text">See
+                        Rom. 10:15.</p></note> et veritatem annuntiant quae est in Jesu.<note
+                    place="foot" xml:id="ftn9" n="9"><p rend="footnote text">See Eph.
+                    4:21.</p></note> Sed quam pauci! Et ex altera parte, quam multi, οἱ
+                    καπηλεύοντες<note place="foot" xml:id="ftn10" n="10"><p rend="footnote text">2
+                        Cor. 2:17; see No. 36, ‘The Law Established through Faith, II’, I.1 and
+                        n.</p></note> sermonem Dei! Quantum cibi salubrioris animae invenimus! In
+                quantam veneni vim impingimur! Quam raros aut legimus aut audimus genuinum Christi
+                evangelium praedicantes, [et] purum illud inquam et simplex evangelium quod eximiis
+                Sacrae Scripturae fontibus desumptum, veneranda mater nostra Ecclesia Anglicana, in
+                Articulis, Homiliisque suis nobis ob oculos posuit? Quum nos undique circumvallent,
+                qui neque Ecclesiae nostrae doctrinas, neque S[acras] S[criptura]s, neque Dei
+                potentiam comperientes, multas sibimet inventione[s] extuderent,<note place="foot"
+                    xml:id="ftn11" n="11"><p rend="footnote text">I.e., ‘to beat out’; it also has a
+                        pejorative import: ‘to extort’, ‘to squeeze out’; see Eccl. 7:29; cf. Lewis
+                        and Short, <hi rend="italic">A Latin Dictionary</hi>.</p></note> unde et
+                alios indies a simplicitate Christi corrumpunt?</p>
+            <p n="">3. Non intelligi velim de istis πρωτότοκοι τον
+                    Σατανᾶ<note place="foot" xml:id="ftn12" n="12"><p rend="footnote text">See ‘The
+                        Epistle of Polycarp to the Philippians’, VII.1, in <hi rend="italic">The
+                            Apostolic Fathers</hi> (Loeb, 24:292).</p></note> quocunque venient
+                nomine, qui Dominum cuius sanguine redempti sunt abnegantes, celerem sibi ipsis,
+                perniciem accessunt. Famosi isti paulum damni nobis valent inferre. Quid vero, si
+                qui Ecclesiae nostrae columnae visi, si acerrimi qui dicuntur fidei propugnatores,
+                ipsam vere Ecclesiam prodiderunt, fideique quam ab ipsa edocti sumus, fundamenta
+                prorsus evellerunt?</p>
+            <p n="">4. Ut ingratum opus hoc quam citissime absolvam unum et
+                alterum tantum scriptorem adducam, eos vero multa et pietatis et eruditionis laude
+                cumulatos; qui ipsum Ecclesiae nostrae fundamentum evellere sunt conati, dum
+                primariam nostrae, quin et omnium ecclesiarum quae Reformatae audiunt, doctrinam,
+                nempe iustificationem per fidem solam, strenue oppugnarunt!</p>
+            <p n="">5. Horum alter, plures scripsit et antequam vita functus
+                est, in <pb n="04:411"/>publicum protulit conciones, eo fine ut
+                probatum daret, non fidem solam, verum et omnigena bona opera necessario requiri,
+                priusquam quis possit iustificari. Supervacuum plane foret, aliqua ex iis verba
+                citare, quum omnia aperte in eundem scopum collineent: quem quidem abunde
+                praemonstrat ipse titulus concionum, qui est, ‘Necessitas Regenerationis (quam omnem
+                Sanctitudinem vult complecti) in Ordine ad Iustificationem.’<hi
+                    rend="endnote_reference"><note place="end"><p rend="endnote text">Tillotson,
+                            Vol. 1, Conc. LI, etc. [Tillotson’s <hi rend="italic">Sermons</hi> were
+                            never published in Latin; this is a back translation of
+                        Wesley’s.]</p></note></hi></p>
+            <p n="">6. Mirum forsan aliquibus videatur, reperiri ex angelis
+                ecclesiae Dei,<note place="foot" xml:id="ftn13" n="13"><p rend="footnote text">See
+                        Rev. 2:1, etc.</p></note> eumque tam in nostra, quam in exteris gentibus,
+                existimatione hominum vix cuiquam secundum, qui incaute adeo fundamentalem ecclesiae
+                cui praefuit doctrinam lacessiverit. Quis vero non ex imo suspiret corde quum ex
+                eadem parte stantem viderit, praesulem aliis titulis omni laude maiorem; et quum a
+                tanto viro haec ipsissima verba audierit.</p>
+            <p n="">‘Dicitur homo ἐξ ἔργων δικαιοῦται (ex operibus iustificari)<note place="foot"
+                    xml:id="ftn14" n="14"><p rend="footnote text">Jas. 2:24 (Beza).</p></note> quia
+                bona opera conditio sunt, iuxta ordinationem divinam in evangelico foedere
+                stabilitam necessario in hoc requisita ut quis iustificetur, hoc est remissionem
+                peccatorum per Christum partam obtineat.’<hi rend="endnote_reference"><note
+                        place="end"><p rend="endnote text">Bulli <hi rend="italic">Harm.
+                            Apost.</hi>, p. 4 [I.8, slightly abridged and
+                altered].</p></note></hi></p>
+            <p n="">Paulo post, testimonia in hanc propositionem probandam adducturus, inquit, ‘Prima
+                classis erit eorum quae generatim de bonis operibus loquuntur, tanquam conditione
+                necessaria requisita ut quis iustificatur.’ Sequuntur loca quaedam Scripturae.
+                Deinde adiicit, ‘Quis non videt hisce in locis quasi cumulum bonorum operum, quae si
+                quis non praestiterit, ei spes veniae ac remissionis peccatorum omnino
+                    intercluditur.’<hi rend="endnote_reference"><note place="end"><p
+                            rend="endnote text"><hi rend="italic">Ibid.</hi>, p. 8 [II.3, abridged
+                            and altered].</p></note></hi></p>
+            <p n="">Interiectis quibusdam, addit, ‘Praeter fidem, etiam resipiscentiam ad iustificationem
+                necessario requiri nemo est qui non videat. Porro, resipiscentia non est opus unicum
+                vel simplex, sed multorum aliorum operum quasi complexio[nem]. Suo enim ambitu
+                comprehendit sequentia opera: (1) de peccatum tristitiam; (2) humiliationem sub manu
+                Dei; (3) peccatorum odium; (4) peccatorum confessionem; (5) ardentem misericordiae
+                divinae implorationem; (6) amorem Dei; (7) a peccatis <hi rend="Page"
+                >[04:412]</hi>cessationem; (8) firmum novae obedientiae propositum; (9) male
+                partorum restitutionem; (10) remissionem peccatorum quae in nos proximi peccarunt;
+                (11) opera beneficentiae, sive eleemosynas. Quae quanti valeant ad remissionem
+                peccatorum a Deo impetrandam, satis liquet ex Daniele c. 4º. com. 27º: ubi regi
+                Nebuchadnezzari adhuc in peccatis haerenti, salubre hoc consilium suggerit propheta,
+                peccata tua eleemosynis redime, et iniquitates tuas misericordiis pauperum.’<hi
+                    rend="endnote_reference"><note place="end"><p rend="endnote text"><hi
+                                rend="italic">Ibid.</hi>, p. 10 [II.6-7,
+                abridged].</p></note></hi></p>
+            <p n="">7. Quae si ita sint, actum est de fundamentali Ecclesiae
+                Anglicanae pariter ac omnium reformatorum doctrina, nempe iustificationem per fidem
+                solam. Abiiciendi sunt Religionis Articuli; abiiciendus uterque Homiliarum liber;
+                utpote eidem prorsus fundamento innixi. Verum res ad examen non iam revocanda est.
+                Impraesentiarum pro concesso sumitur, Ecclesiam vera docere: a qua tamen isti
+                scriptores et innumera paene tum scriptorum tum praedicatorum turba, ab iis edocta,
+                immane quantum discrepant!<note place="foot" xml:id="ftn15" n="15"><p
+                        rend="footnote text">This section, not in the English version, may be
+                        translated as follows: ‘But if this is the case, then the fundamental
+                        doctrine of the Church of England and of all Reformed churches as well—<hi
+                            rend="italic">viz.</hi>, justification by faith alone—is discarded.
+                        Moreover, the Articles of Religion are abandoned and, by the same token, the
+                        books of the Homilies, since they are based on the very same foundation.
+                        What is worse, the issue is not even left open for further consideration.
+                        Nowadays, it is generally assumed that the church teaches the truth; and yet
+                        here are these authors, together with a multitude of other writers and
+                        preachers educated by them, deviating from the truth by a wide
+                    margin.’</p></note></p>
+            <p n="">8. Verum enimvero supponamum fundamentum rite locatum,
+                ita ut iam moveri nequeat, nedum evelli. Quisque videat tamen quomodo
+                superaedificet. Respicite vos ipsos, ne perdamus quae egimus, sed ut mercedem plenam
+                    recipiamus.<note place="foot" xml:id="ftn16" n="16"><p rend="footnote text"
+                        >These opening sentences, not in the English text, may be translated: ‘But
+                        surely I can assume that the foundation has been laid so soundly that it
+                        cannot really be moved now, much less torn up. Even so, it behooves everyone
+                        to take care how he builds upon this foundation. Look well to yourselves,
+                        therefore, that we may not lose what we have been given, but that we may
+                        receive our full reward.’ Cf. 1 Cor. 3:10-14.</p></note> Quem in finem
+                sanctimoniae eiius saepissime meminit Ecclesia, sine qua nemo Dominum videbit.<note
+                    place="foot" xml:id="ftn17" n="17"><p rend="footnote text">See Heb. 12:14
+                        (Vulgate and Beza).</p></note> Eam vero in precatione illa singulis ad minus
+                septimanis repetita optime describit, ‘Purifica cogitationes cordium nostrorum per
+                inspirationem Spiritus Sancti, ut te perfecte amemus, et sanctum nomen tuum debita
+                veneratione celebremus.’<note place="foot" xml:id="ftn18" n="18"><p
+                        rend="footnote text">BCP, Communion, Collect for Purity.</p></note> Postrema
+                haec verba, ‘Sanctum nomen tuum <pb n="04:413"/>debita veneratione
+                celebremus’, totam sanctimoniam seu religionem externam complecti satis manifestum
+                est: Sicut, et ista, ‘Purifica cogitationes cordium nostrorum,’ negativam internae
+                partem exprimere, cuius altitudo et profunditas, est cor purum, ex inspiratione
+                Spiritus Sancti. Quae restant verba, nempe, ‘ut perfecte te amemus’, positivam (quod
+                aiunt) sanctimoniae partem continent. Quum amor ille totius legis sit
+                    adimpletio,<note place="foot" xml:id="ftn19" n="19"><p rend="footnote text">See
+                        Rom. 13:10.</p></note> imo mens ipsa quae fuit in Christo.<note place="foot"
+                    xml:id="ftn20" n="20"><p rend="footnote text">See Phil 2:5.</p></note></p>
+            <p n="">9. Iam vero tum Scriptorum quorum opera maxime utimur,
+                tum concionatorum pars longe maior, doctrinam hanc proferunt? Nequaquam. Ne γρὺ<note
+                    place="foot" xml:id="ftn21" n="21"><p rend="footnote text">An odd conflation of
+                        Latin and Greek; the typical Greek form would be μηδὲ γρῦ (‘not even a
+                        grunt’); cf. Liddell and Scott, <hi rend="italic">Greek-English
+                        Lexicon</hi>.</p></note> quidem de ea ex illis audimus. Ex reliquis autem,
+                perpauci simpliciter eam depingunt, et strenue nobis commendant. At permultos, proh
+                dolor! reperimus, qui de sanctimonia Christiana (vel religione ut vulgo dicitur) ita
+                loquuntur, quasi negativum quid tantummodo foret, quasi is demum Christianus esset
+                censendus, qui non alios execratur aut in vanum iurat; qui non mentitur, non
+                furatur, non maechatur, verbo, qui malum, quod aiunt, non facit. Quod si ulterius
+                aliqui progrediantur, nonne et ipsi, ut plurimum religionem saltem ut externam
+                depingunt? Quasi maxima ex parte, si non omnino in eo poneretur, ut quis beneficus
+                sit, et mediis gratiae utatur? Vel si longius adhuc progrediantur, quid adiiciunt
+                tandem? Nempe, ut verus ille quem vocant Christianus, non modo bonum agat, et a malo
+                se abstineat, sed et recta sentiat, ut sit plane orthodoxus. Et haec demum est
+                religio! Hic pedem figunt, nihil ultra hos limites cernunt, praeter</p>
+            <p rend="Verse">Monstrum, informe, ingens<note place="foot" xml:id="ftn22" n="22"><p
+                        rend="footnote text">Cf. Virgil, <hi rend="italic">Aeneid</hi>, iii.658:
+                        ‘monstrum horrendum, informe, ingens’ (‘a monster awful, shapeless,
+                        huge’).</p></note></p>
+            <p rend="Verse">Horribili super aspectu mortalibus instans,<note place="foot"
+                    xml:id="ftn23" n="23"><p rend="footnote text">Cf. Lucretius, <hi rend="italic"
+                            >De Rerum Natura (On the Nature of Things)</hi>, i.65: ‘threatening
+                        mortals from on high with its horrible visage’. Here, as
+                        in<hi rend="italic" > An Earnest Appeal</hi>, §65, MS
+                        reads ‘astans’ instead of ‘instans’. See also No. 142, ‘The Wisdom of
+                        Winning Souls’, II, where Wesley says, ‘They apprehend religion as “a
+                        terrible spectre looking down from heaven only to enslave the earth,
+                        standing over them with so horrible an aspect”.’</p></note></p>
+            <p n="">cui nomen datur enthusiasmus!</p>
+            <p n="">10. Minime tamen me ita accipi velim, quasi vel rectas
+                de rebus divinis opiniones, vel bonum vitae tenorem, vel media illa gratiae, <hi
+                    rend="Page">[04:414]</hi>despectui habenda censeam. Id longe absit a me. Verum
+                haec omnia quid valent, ab interna religione seiuncta? Quid in ista die nos
+                iuvabunt? Quum venerit Filius hominis cum gloria sua, et sedebit in throno gloriae
+                suae, et cogentur coram eo omnes gentes: num proderit dicere, ‘Domine, non ut
+                reliqui homines fui, rapaces, iniusti, moechi’?<note place="foot" xml:id="ftn24"
+                    n="24"><p rend="footnote text">Cf. Luke 18:11 (Beza); see also the quite
+                        different Vulgate text: ‘raptores, iniusti, adulteri…’.</p></note> Non
+                mendax fui, vinolentus, non haereticus? Imo, quid proderit, si non solum a malo nos
+                abstinuimus, sed et alendis egenis omnia insumpsimus, charitatem autem non
+                    habeamus?<note place="foot" xml:id="ftn25" n="25"><p rend="footnote text">See 1
+                        Cor. 13:3.</p></note> Quo tunc animo istos aspiciemus, qui nobis olim toties
+                dixerunt, ‘Dormite quod superest et requiescite’,<note place="foot" xml:id="ftn26"
+                    n="26"><p rend="footnote text">Mark 14:41 (Tremellius and Beza).</p></note> etsi
+                amor Patris non esset in nobis! Qui iustificationem ex operibus quaerere nos
+                docentes, a fide illa gratis accipienda proterruerunt per quam solam verus Dei amor
+                in cordibus nostris potuit effundi!<note place="foot" xml:id="ftn27" n="27"><p
+                        rend="footnote text">See Rom. 5:5.</p></note></p>
+            <p n="">II. Corruptae horum doctrinae maxima ex parte debetur,
+                miseranda nostra quoad mores corruptio; eo iam progressa (ne indicetis in Gath, ne
+                annuntietis in plateis Ashkelon)<note place="foot" xml:id="ftn28" n="28"><p
+                        rend="footnote text">Cf. 2 Sam. 1:20 (Tremellius).</p></note> ut in
+                plerisque neque formam quidem pietatis, nedum potentiam sit invenire.<note
+                    place="foot" xml:id="ftn29" n="29"><p rend="footnote text">See 2 Tim.
+                    3:5.</p></note></p>
+            <p n="">1. Non cum gaudio, sed tristitia cordis loquor, ipsa
+                forma pietatis ubinam est conspicienda? In id vocati sumus omnes, ut simus
+                    sancti.<note place="foot" xml:id="ftn30" n="30"><p rend="footnote text">See Rom.
+                        1:7.</p></note> Quis autem vel speciem sancti prae se fert? Quemvis obvium
+                deprehende, ecce illum alterum! Tertium, quin ad vicesimum si procedas, ne in uno
+                quidem ex iis omnibus vel speciem sancti, magis quam angeli, reperies. Faciem vide,
+                aspectum, corporis gestum. An Deum spirant? An templum Spiritus Sancti indicant?
+                Quin eundem non vice simplici solum, sed et iterum, iterumque observa. Ex aliquo
+                indicio externo posses coniicere, huius in corde Deum habitare? Undenam, quaeso,
+                iudicares, sanguinem Dei pro illius animam fuisse effusum? Haeccine signa immortalis
+                spiritus ad Patrem spirituum proficiscentis?</p>
+            <p n="">2. Dices forsan, quid prodest pietatis forma? Nihil
+                sane, si adsit sola. Quod si absit, abest etiam pietatis potentia. Etenim licet illa
+                    <pb n="04:415"/>sine hac consistere queat, fieri tamen non potest,
+                ut sine pietatis forma, ipsa pietas consistat.<note place="foot" xml:id="ftn31"
+                    n="31"><p rend="footnote text">See 2 Tim. 3:5.</p></note> Externam religionem,
+                ut supra diximus, absque interna saepius videre est. Ubicunque vero deest externa,
+                certo certius est, neque internam posse commorari.</p>
+            <p n="">3. Regeret aliquis, ‘Nos vero externam saltem habemus,
+                quippe qui preces publicas ubique locorum celebramus, quibus omnes cuiusvis collegii
+                scholares, tam mane quam vesperi inter esse tenentur.’ Vera dicis, et optandum sane
+                foret, omnes cuiusvis coll[egii] alumnos, seniores praesertim exemplo suo
+                ostensuros, eximium illud privilegium quanti faciant. Num vero omnes qui eisdem
+                intersunt, vel speciem sanctitatis habent? Antequam incipiant sacra, num praesentium
+                vultus ostendit, eos scire, cuius in conspectu se sistunt? Quum peracta fuerint,
+                quonam indicio apparet, aliquid divinum eorum mentibus insedisse? Quin ipso quo
+                peraguntur tempore, ex plurimorum aspectu gestuve quid minus crederes quam illos
+                mentis oculos in Deum defixos habere, quem in medio astantem<note place="foot"
+                    xml:id="ftn32" n="32"><p rend="footnote text">See Luke 24:36.</p></note> certo
+                norunt? Pones ethnicum hominem, linguae nostrae ignarum, in eiusmodi coetum
+                offendere, nullus vereor suspicaretur, nos nunc in eo versari, ut intima animorum
+                sensa coram coeli terraeque Conditore, ac Gubernatore pauperis et egeni
+                proferamus.</p>
+            <p n="">4. Num perfectiorem pietatis speciem die Dominica
+                cernimus? Conciones utique publice habentur. Quomodo vero sanctificatur, reliqua
+                diei pars? Num meminimus a quo dictum fuerit, ‘Non facies omne opus in ea: tu, et
+                servus tuus…et advena qui est intra portas tuas’?<note place="foot" xml:id="ftn33"
+                    n="33"><p rend="footnote text">Cf. Exod. 20:10 (Vulgate).</p></note> Quodsi
+                opera quotidiana et ipsi non facimus, et alios, quantum in nobis est, quo minus
+                faciant, prohibemus, nonne sermones caedendo tempus terimus neque nobismet, neque
+                cuilibet alio proficuos? Nonne mere nugationibus totat horas impendimus? Multa
+                agendo, agentes nihil? Sin res ita se habeat, ut os nobis obstruatur necesse est,
+                ipsa specie sanctitatis destitutis.</p>
+            <p n="">5. Illa vero si die Dominica, non penitus destituamur,
+                nonne plurima quae cum illa prorsus pugnant, reliquis diebus in nos admittimus? Anne
+                sermo noster quotidianus, is est qui decet sanctos? Μωρολογία καὶ εὐτραπελία<note
+                    place="foot" xml:id="ftn34" n="34"><p rend="footnote text">Cf. Eph. 5:4; cf.
+                        also the discussions of εὐτραπελία in Irène Simon, <hi rend="italic">Three
+                            Restoration Divines</hi>, I.316.</p></note> ne nominantur quidem <hi
+                    rend="Page">[04:416]</hi>inter nos? Quin ubique locorum sonant: forsan et
+                    αἰσχρολογία<note place="foot" xml:id="ftn35" n="35"><p rend="footnote text">Cf.
+                        Col. 3:8.</p></note> qualis inter ethnicos (compertum loquor) non auditur.
+                Et quid hoc mirum, si in commessationibus et ebrietatibus etiamnum sint qui
+                    ambulant?<note place="foot" xml:id="ftn36" n="36"><p rend="footnote text">See
+                        Matt. 24:49.</p></note> Si sint, quorum verba invaluerunt contra Iehovam,
+                qui venerandum illud nomen in vanum assumunt, et [quorum] execranda verba
+                intraverunt in aures Domini Dei exercituum?</p>
+            <p n="">6. Sed et horae istae quibus nos studiis incumbere
+                praesumitur, an meliorem in finem a plurimis impenduntur? Nonne se undique proruunt
+                tota cohors, qui operose nihil agunt, quos strenua ludorum de die in diem exercet
+                inertia? Nonne numerosae ex altera parte catervae, traducere leniter aevum gaudentes
+                iam ridentibus arrident comicis, iam tragicorum quaerunt ampullas, iam in historiis,
+                fabulisque toti sunt quales ingenitam peccati vim decies augent, et nativos
+                omnigenae libidinis ignes in flammam suscitant nunquam exstinguendam.</p>
+            <p n="">7. Et hac forsan ex parte (ut aperte dicam) non omnino
+                culpa vacant, quibus momentosum illud iuventutis instituendae munus demandatum est.
+                De eo sane saepius libuit exclamare, ad haec quis idoneus? Quis vero, quam pauci
+                rectius dixerim, quod in se est,<note place="foot" xml:id="ftn37" n="37"><p
+                        rend="footnote text">Note this early usage of the slogan of the medieval
+                        synergists, <hi rend="italic">quod in se est</hi>; cf. Heiko Obermann, <hi
+                            rend="italic">The Harvest of Medieval Theology</hi> (Cambridge, Mass.,
+                        1963), pp. 53, 129-45, 152-53; see also Introduction (1:72 and n. 19, in
+                        this edn.).</p></note> sedulo faciunt? Num a plerisque satis expenditur
+                solenne illud de fundamento in iuvenibus rite locando verbum, ‘Tutor scholares
+                regimini suo commissos, probis moribus imbuat, et maxime in rudimentis religionis,
+                et doctrinae Articulis’.<hi rend="endnote_reference"><note place="end"><p
+                            rend="endnote text">Stat., p. 7 [Tit. III.2].</p></note></hi> Anne in
+                hoc opus omnibus viribus, incumbunt? Anne lectionibus vera solidae religionis
+                principia proponunt, explicant, argumentis firmant? Num eiusdem praxin suis ipsorum
+                exemplis exhibent et commendant? Num privata publicis praeceptis, frequenter
+                opportune, strenue, ac amice adiungunt consilia? Num cuiusvis sibi demandati et
+                mores exquirunt, et in scientia progressus notant? Verbo, num excubant pro animabus
+                ipsorum tamquam rationem reddituri?<note place="foot" xml:id="ftn38" n="38"><p
+                        rend="footnote text">See Heb. 13:17 (Beza).</p></note></p>
+            <p n="">8. Qui itaque fit, ut ipsa academiae Statuta quae
+                observare vel prima religionis docent elementa, plerique iuvenum (ne gravies <hi
+                    rend="Page">[04:417]</hi>dicam) vel ignorent, vel contemptui prorsus habeant?
+                Qui fit, ut plurima eorum singulis diebus palam violata conspiciamus? Pauca tantum
+                adducam,</p>
+            <p rend="Quote">Statutum est, quod omnes (exceptis filiis baronum) vestibus coloris
+                nigri aut subfusci se assuefaciant: nec quae fastum aut luxum prae se ferunt
+                imitentur, sed ab iis procul absint.<hi rend="endnote_reference"><note place="end"
+                            ><p rend="endnote text">Excerp. Stat., p. 157 [Tit. XIV.1, <hi
+                                rend="italic">De Moribus Conformandis</hi>,
+                    abridged].</p></note></hi></p>
+            <p rend="Quote">Statutum est, quod scholares cuiuscunque conditionis, a diversoriis,
+                cauponiis, oenopoliis, ac domibus quibuscunque intra civitatem in quibus vinum aut
+                quivis alius potus…ordinarie venditur, abstineant.<hi rend="endnote_reference"><note
+                        place="end"><p rend="endnote text"><hi rend="italic">Ibid.</hi>, p. 164
+                            [Tit. XV.5; it is interesting that Wesley has here omitted <hi
+                                rend="italic">herba nicotiniana sive tobacco</hi>, which is also
+                            proscribed in the <hi rend="italic">Statutes</hi>].</p></note></hi></p>
+            <p rend="Quote">Statutum est, quod scholares cuiuscunque conditionis, abstineant ab omni
+                lusus genere in quo de pecunia concertatur, veluti a lusu talorum, alearum, et
+                chartarum pictarum; nec non a lusu globorum in oppidanorum areis [hortisque]—nec
+                huius modi publicis lusibus intersint.<hi rend="endnote_reference"><note place="end"
+                            ><p rend="endnote text">P. 166 [Tit XV.7].</p></note></hi></p>
+            <p rend="Quote">Statutum est, quod ad officia divina, et conciones publice habendas,
+                omnes—graduati et scholares—diligenter accedant, et eisdem debita cum reverentia,
+                quoad peractae fuerint, a principio usque ad finem intersint.<hi
+                    rend="endnote_reference"><note place="end"><p rend="endnote text">P. 181 [Tit.
+                            XVI.10, greatly abridged].</p></note></hi></p>
+            <p n="">9. Objiciet forsan aliquis, has leves res esse. Verum,
+                periurium non est res levis, neque ex consequenti, voluntaria cuiuslibet normae
+                violatio, quam iuravimus nos observaturos. Itaque qui quodlibet ex Statutis lubens
+                infringit, verbi istius plane videtur oblitus, ‘Tu fidem dabis ad observandum omnia
+                Statuta huius Universitatis—Ita Deus te adiuvet, tactis sacrosanctis Christi
+                    Evangeliis.’<hi rend="endnote_reference"><note place="end"><p
+                            rend="endnote text">P. 229 [‘The Oath at the Matriculation of a
+                            Scholar’].</p></note></hi></p>
+            <p n="">10. Iamne, iuramentum hoc serio perpenditur, a quibus
+                praestatur? Aut ullum ferme ex istis iuramentis, quae ab autoritate publica
+                exiguntur? Ut nullius paene momenti res videtur, Deum testem in animas nostras
+                invocare. Verendum est hac saepius teneri culpa, qui [ante] examinandum, Deum
+                obtestantur, ‘quod nec odio, nec amicitia, nec timore, nec spe testimonium indigno
+                cuivis perhibeb[unt]’.<hi rend="endnote_reference"><note place="end"><p
+                            rend="endnote text">P. 88 [Tit IX.2.2].</p></note></hi> Quin et
+                iurantes, ‘Scio hunc (non credo tantum) aptum et idoneum esse moribus et scientia,
+                ad eum gradum ad quem praesentatur.’<hi rend="endnote_reference"><note place="end"
+                            ><p rend="endnote text">P. 114 [Tit. IX.6.2].</p></note></hi> Hoc ipsum
+                respicere videtur Explanationis Iuramenti Statutis annexae ista clausula,
+                ‘Intenditur periurio se obligare…affirmantes in iuramentis assertoriis, se
+                aliquid…scire, credereve, quod non sciverint, crediderintve.’<hi
+                    rend="endnote_reference"><note place="end"><p rend="endnote text">P.
+                        200.</p></note></hi></p>
+            <p n=""><pb n="04:418"/>11. Quis autem primum in
+                istos coniiciet lapidem?<note place="foot" xml:id="ftn39" n="39"><p
+                        rend="footnote text">See John 8:7.</p></note> Quippe omnes coram Deo testati
+                sumus, Ecc[lesiae] n[ost]rae Articulos, omnes et singulos, eiusdem Libellum Precum
+                Communium et Ordinationis Episcoporum, Presbyterorum, et Diaconorum veritati et
+                Verbo Dei conformes esse. Quo ipso facto testati sumus utrumque tomum Homiliarum
+                piam et salutarem doctrinam, continere.<note place="foot" xml:id="ftn40" n="40"><p
+                        rend="footnote text">Article XXXV (Thirty-nine Articles).</p></note> Sed
+                quibus indiciis compertum hos habemus? Nonne plures affirmavimus, quae non habuimus
+                comperta? Si res ita sit, ut ista sint vera, falsi testes inventi sumus coram Deo.
+                Quibus mediis usi fuimus plerique ut compereremus, quomodo haec res sese habeat?
+                Anne perunicum diem Articulos illos quibus subscripsimus, serio animo trutinavimus?
+                Sin minus, venerabilium Ecclesiae patrum intentionem quam aperte eludimus, qui ad
+                tollendam opinionum dissensionem eos ediderunt, et consensum in vera religione
+                    firmandum.<note place="foot" xml:id="ftn41" n="41"><p rend="footnote text"><hi
+                            rend="italic">Articuli</hi> (1563), Preface.</p></note> Annon ipsum
+                Precum Communium et Ordinationis episcoporum, cum presbyteris et diaconis Libellum
+                attente perlegimus? Secus, quid est, quod in conspectu Dei confirmavimus? Quid id
+                sit, profecto nescimus. Ad Homilias demum quod attinet, metuo ut decima hominum pars
+                qui in hac Academica illis assensum praebuere (non dico, prius perlustraverint quam
+                assensum praebuerunt), sed ut in hodiernum usque diem eos perlegerint. Haec cum
+                honestatis etiam paganae regulis, cum moralitate quam dicunt ethnica quis conciliet?
+                Adeo immensum talia admittentes, ab ipsa Christianae pietatis specie distamus.</p>
+            <p n="">12. Sed omnibus his quae ad pietatis speciem pertinent
+                praetermissis, ubinam est illius potentia? Quis intimo illam corde exparitur? Quis
+                internam novit sanctitatis δύναμιν; Spiritu Dei una cum suo ipsius id testante? Quis
+                iam sentit in se vim Spiritus Christi, animum ad coelestia et superna
+                    rapientem?<note place="foot" xml:id="ftn42" n="42"><p rend="footnote text">Cf.
+                        Article XVII (Thirty-nine Articles).</p></note> Cuinam cordis cogitationes
+                Deus iamiam purificavit, per inspirationem Sacrosancti Spiritus?<note place="foot"
+                    xml:id="ftn43" n="43"><p rend="footnote text">BCP, Communion, Collect for
+                        Purity.</p></note> Cuinam nota est pax illa Dei, quae superat omnem
+                    intellectum?<note place="foot" xml:id="ftn44" n="44"><p rend="footnote text">See
+                        Phil. 4:7 (Tremellius).</p></note> Quis est ille, qui exultat gaudio
+                ineffabili perma[gnae] gloriae pleno?<note place="foot" xml:id="ftn45" n="45"><p
+                        rend="footnote text">See 1 Pet. 1:8 (Bera).</p></note> Cuinam aeterna sunt
+                curae, non quae pereunt? Cuius vita cum Christo in Deo absconditur?<note
+                    place="foot" xml:id="ftn46" n="46"><p rend="footnote text">See Col.
+                    3:2-3.</p></note>
+                <pb n="04:419"/>Quam non vetat conscientia palam dicere ‘Una cum
+                Christo crucifixus sum. Vivo autem non tamen amplius ego, sed vivit in me Christus;
+                et vitam quam nunc vivo in carne vivo per fidem illam filii Dei, qui dilexit me, et
+                seipsum pro me tradidit!’<note place="foot" xml:id="ftn47" n="47"><p
+                        rend="footnote text">Cf. Gal. 2:20 (Beza).</p></note> Denique cuius cordi
+                infusus est ille amor Dei, per Spiritum Sanctum ipsi donatum!<note place="foot"
+                    xml:id="ftn48" n="48"><p rend="footnote text">See Rom. 5:5.</p></note></p>
+            <p n="">13. Nonne huiuscemodi religionis ipsa pene memoria
+                mentibus nostris excidit? Nonne aliqui iam exclamarent, ni obstaret pudor, peregrina
+                infers auribus nostris? Siquis iamnunc, in conspectu Dei, se expertum testetur,
+                nonne insanos continuo audiret? Annon ipse, talia locutus, plerisque ex vobis,
+                tanquam barbarus factus sum?<note place="foot" xml:id="ftn49" n="49"><p
+                        rend="footnote text">See 1 Cor. 14:11.</p></note> Faxit optimus, maximus, ut
+                vera et sanae mentis verba omnes agnoscatis! Ut sciatis omnes, quae sit voluntas
+                Dei, bona illa, ac placens, et perfecta!</p>
+            <p n="">14. Ingratum hodie vobis nuntium apportavi. Verum
+                charitas illa Christi me constrinxit.<note place="foot" xml:id="ftn50" n="50"><p
+                        rend="footnote text">See 2 Cor. 5:14 (Beza).</p></note> Id facere eo minus
+                me pigebat, quoniam vobis tutum fuit. Filios populi mei accusare non est
+                    volupe.<note place="foot" xml:id="ftn51" n="51"><p rend="footnote text">See
+                        Ezek. 33:2, 12.</p></note> Itaque in auribus eorum qui mura insident, non
+                locutus sum.<note place="foot" xml:id="ftn52" n="52"><p rend="footnote text">See 2
+                        Kgs. 18:27; Isa. 36:12.</p></note> Vobis autem verum in amore conatus sum
+                    dicere,<note place="foot" xml:id="ftn53" n="53"><p rend="footnote text">See Eph.
+                        4:15.</p></note> ut fidelem Christi dispensatorem decet.<note place="foot"
+                    xml:id="ftn54" n="54"><p rend="footnote text">See Col. 1:7; 1 Tim.
+                    4:6.</p></note> Iam idcirco testari vos possum, me purum esse a sanguine omnium.
+                Non enim subterfugi quo minus annuntiarem vobis omne consilium Dei.<note
+                    place="foot" xml:id="ftn55" n="55"><p rend="footnote text">See Acts 20:26-27
+                        (Beza).</p></note></p>
+            <p n="">15. Deus ille qui misericors est et gratiosus,
+                longanimis et multus benignitate ac fide, cordibus vestris haec infigat, ac semini,
+                sato continuum benedictionis suae rorem infundat! Quaequnque in nobis minus recta
+                cernit, emendet, quodqunque videt nobis deesse, suppeditet. Siquid ex voluntate
+                ipsius fiat, id perficiat; atque ita tandem nos stabiliat, roboret, fundet,<note
+                    place="foot" xml:id="ftn56" n="56"><p rend="footnote text">See 1 Pet. 5:10
+                        (Beza).</p></note> ut civitas haec rursus Domino suo fidelis facta, laudanda
+                sit per totam terram.</p>
+        </body>
+    </text>
+</TEI>
