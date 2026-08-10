@@ -1,0 +1,522 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Sermon 149: On Love</title>
+                <author>Wesley, John</author>
+                <editor role="text">Van Buskirk, Gregory P.</editor>
+                <editor role="digital">Taylor, Michelle M.</editor>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>The Wesley Works Digitzation Project</publisher>
+                <pubPlace>Tampa, FL</pubPlace>
+                <date>2024-02-25</date>
+            </publicationStmt>
+            <sourceDesc>
+                <listBibl>
+                    <biblStruct>
+                        <analytic>
+                            <title level="a">Sermon 149: On Love</title>
+                        </analytic>
+                        <monogr>
+                            <title level="j">The Works of John Wesley, Volume IV: Sermons IV,
+                                115-151</title>
+                            <editor role="volume">Outler, Albert</editor>
+                            <imprint>
+                                <publisher>Abingdon Press</publisher>
+                                <pubPlace>Nashville, TN</pubPlace>
+                                <date when="1987-11-01">1987-11-01</date>
+                                <biblScope unit="volume" n="4"/>
+                                <biblScope unit="page" from="378" to="388"/>
+                            </imprint>
+                        </monogr>
+                        <series>
+                            <title level="s">The Works of John Wesley</title>
+                            <editor role="general">Baker, Frank</editor>
+                        </series>
+                    </biblStruct>
+                </listBibl>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Greg Van Buskirk created Word docs for all of Wesley's sermons using a combination of
+                OCR software and manual proofing. Michelle Taylor converted these docx into XML
+                using Oxygen's DITA automatic transformation scenario, then touched them up
+                manually.</p>
+        </encodingDesc>
+        <standOff>
+            <taxonomy>
+                <keywords>
+                    <term/>
+                </keywords>
+            </taxonomy>
+            <!--Include keywords and terms here eventually.-->
+        </standOff>
+        <revisionDesc/>
+    </teiHeader>
+    <text>
+        <body>
+            <pb n="04:378"/>
+            <head>
+                <hi rend="italic">An Introductory Comment</hi>
+            </head>
+            <introduction>
+                <p n="1">A complete text of this sermon was extant in 1797, when George Story
+                    published it, with some curious alterations, in the last volume of the <hi
+                        rend="italic">Arminian Magazine</hi>.<note place="foot" xml:id="ftn1" n="1"
+                            ><p rend="footnote text">XX.371-78.</p></note> There it appears with a
+                    curiously condescending preface:</p>
+                <quote>
+                    <head>An Original SERMON of Mr. Wesley’s</head>
+                    <p>The following discourse, we hope, will be acceptable to our Readers. It was
+                        preached at Savannah in America, on Feb. 20, 1736 [i.e., 1737]. Mr. Wesley
+                        at that time was but imperfectly acquainted with the Gospel of Christ. We
+                        have, therefore, taken the liberty to add a few sentences in order to render
+                        it more agreeable to the doctrine he taught when it pleased God to
+                        illuminate his mind with a clear and full discovery of pardoning mercy,
+                        through faith in our blessed Redeemer. To distinguish these additions from
+                        the original text, they are inserted in the ‘italic character’ and included
+                        in brackets.</p>
+                </quote>
+                <p n="2">At least two of Story’s emendations were retained by Joseph Benson and
+                    Thomas Jackson in their respective editions of the sermons. They also followed
+                    Story’s alteration of Wesley’s translations of ἀγάπη as ‘charity’ to ‘love’,
+                    presumably on the ground that this was the later Wesley’s consistent usage.</p>
+                <p n="3">In the confusions surrounding the custody of Wesley’s papers after his
+                    death, this particular manuscript became separated from the main collection and
+                    remained in private hands until 1938, when it was rediscovered by Edmund S.
+                    Lamplough and placed in the Methodist Archives. By that time, however, six of
+                    its twelve duodecimo sheets had disappeared and still remain so. This has posed
+                    some interesting problems in reconstructing a plausible text from portions of
+                    the original and from Story’s text. Two points in this reconstruction seem
+                    certain enough: the numbering of the subdivisions is the same as the original
+                    and, more importantly, Wesley’s differentiations in his usage of the terms
+                    ‘charity’ and ‘love’ are consistent.</p>
+                <p n="4">The question of an original dating is complicated. The Wesley manuscript is
+                    annotated, in his hand, ‘Preached, Savannah, Feb. 20, 1736/37’. This would have
+                    been Quinquagesima Sunday in 1737, and <pb n="04:379"/>the Epistle for that day
+                    was 1 Cor. 13. But the preceding March 7, 1736, had also been Quinquagesima
+                    Sunday and there is an interesting entry in Wesley’s <hi rend="italic"
+                        >Journal</hi> to that effect: ‘I entered upon my ministry at Savannah by
+                    preaching on the Epistle for the Day, being the 13th of the first of
+                        Corinthians….’<note place="foot" xml:id="ftn2" n="2"><p rend="footnote text"
+                            >Cf. Curnock’s note here, in JWJ, where he takes too much for
+                            granted.</p></note> Thus we have two possibilities: March 7, 1736, or
+                    February 20, 1737; but, granting that he preached both days on 1 Cor. 13, his
+                    actual notation on the manuscript would seem to link this particular sermon with
+                    February 20, 1737.<note place="foot" xml:id="ftn3" n="3"><p rend="footnote text"
+                            >For further comment on these problems, see below, Appendix A (Frank
+                            Baker, ‘Wesley’s Text’).</p></note> Needless to say, in this present
+                    text the original manuscript has been followed, and all conjectures in Story’s
+                    text have been made as consistent as possible with the original.</p>
+                <p n="5">The sermon’s focus is on the question of a Christian’s valid motivations in
+                    ‘dividing his goods’ or in self-sacrifice, even to the extreme of
+                    self-immolation. The only such motive is ‘charity’.<note place="foot"
+                        xml:id="ftn4" n="4"><p rend="footnote text">Cf. the entry on <hi
+                                rend="italic">caritas</hi> in J. F. Niermeyer, <hi rend="italic"
+                                >Mediae Latinitatis Lexicon Minus</hi> (1954).</p></note> Wesley
+                    then defines ‘charity’ (II.2) as ‘the love of God and man: of God, for his own,
+                    and of man, for God’s sake’. He proceeds then to explain it in such a way as to
+                    allow for its medieval connotation of sacrificial giving, thus relating it to
+                    the special point of verse 3. This, however, is promptly enlarged so as to
+                    include the other dimensions of ἀγάπη as well: ‘to delight in [God], to rejoice
+                    in his will, to desire continually to please him, to seek and find our happiness
+                    in him, and to thirst day and night for a fuller enjoyment of him’.</p>
+                <p n="6">The remainder of the sermon is a commentary on the ‘effects or properties
+                    of this love’. For example, there is a comment on ‘charity suffereth long’,
+                    another on ‘charity is kind’, ‘charity envieth not’, etc. Thus one sees the
+                    young Wesley accepting the conventional usage of ‘charity’ but also as already
+                    straining toward the change to ‘love’ that would come later when he would also
+                    turn his back on ‘charity’ and even denounce it as a mistranslation.</p>
+                <p n="7">The records of his oral preaching from 1 Cor. 13:3, specifically, show
+                    twelve instances; his combined total for texts on the various characterizations
+                    of ἀγάπη in 1 Cor. 13:1-8 runs to almost a hundred times.</p>
+            </introduction>
+            <pb n="04:380"/>
+            <head>On Love</head>
+            <epigraph>
+                <p>1 Corinthians 13:3</p>
+                <p>
+                    <hi rend="italic">Though I bestow all my goods to feed the poor, and though I
+                        give my body to be burned, and have not charity, it profiteth me
+                        nothing.</hi>
+                </p>
+            </epigraph>
+            <div type="section" n="1">
+                <p n="1">1. There is great reason to fear that it will hereafter be said of most of
+                    you who are here present that this Scripture, as well as all those you have
+                    heard before, profited you nothing. Some, perhaps, are not serious enough to
+                    attend to it; some who do attend will not believe it. Some who do believe it
+                    will yet think it a hard saying,<note place="foot" xml:id="ftn5" n="5"><p
+                            rend="footnote text">John 6:60.</p></note> and so forget it as soon as
+                    they can; and, of those few who receive it gladly for a time, some, having no
+                    root of humility or self-denial, when persecution ariseth because of the
+                        word,<note place="foot" xml:id="ftn6" n="6"><p rend="footnote text">Matt.
+                            13:21.</p></note> will, rather than suffer for it, fall away.<note
+                        place="foot" xml:id="ftn7" n="7"><p rend="footnote text">See 2 Thess. 2:3;
+                            see No. 1, <hi rend="italic">Salvation by Faith</hi>, II.4 and
+                        n.</p></note> Nay, even of those who attend to it, who believe, remember,
+                    yea, and receive it so deeply into their hearts that it both takes root there,
+                    endures the heat of that temptation, and begins to bring forth fruit, not all
+                    will bring forth fruit to perfection. The cares or pleasures of the world,<note
+                        place="foot" xml:id="ftn8" n="8"><p rend="footnote text">See Matt.
+                            13:22.</p></note> and the desire of other things (perhaps not felt till
+                    then), will grow up with the word, and choke it.<note place="foot" xml:id="ftn9"
+                        n="9"><p rend="footnote text"><hi rend="italic">Ibid.</hi></p></note></p>
+                <p n="2">2. Nor am I that speak the word of God any more secure from these dangers
+                    than you that hear it. I too am to bewail ‘an evil heart of unbelief’.<note
+                        place="foot" xml:id="ftn10" n="10"><p rend="footnote text">Heb.
+                        3:12.</p></note> And whenever God shall suffer persecution to arise, yea,
+                    were it only the slight one of reproach, I may be the first that is offended.
+                    Or, if I be enabled to sustain this, yet should he let loose the cares of the
+                    world upon me, or should he cease to guard me against those pleasures that do
+                    not lead to him, and the desire of other things than knowing and loving him, I
+                    should surely be overwhelmed, and, ‘having preached to others, be myself a
+                        castaway’!<note place="foot" xml:id="ftn11" n="11"><p rend="footnote text"
+                            >Cf. 1 Cor. 9:27; this is one of the first of Wesley’s recorded accounts
+                            of religious despair; cf. JWJ, Jan. 23-26, Feb. 8, 1736; see also Nos.
+                            2, <hi rend="italic">The Almost Christian</hi>, I.13 and n.; and 33,
+                            ‘Sermon on the Mount, XIII’, I.1 and n.</p></note></p>
+                <p n="3"><pb n="04:381"/>3. Why then do I speak this word at all? Why? Because a
+                    dispensation of the gospel is committed to me:<note place="foot" xml:id="ftn12"
+                        n="12"><p rend="footnote text">See 1 Cor. 9:17.</p></note> and though what I
+                    shall do tomorrow I know not, today I will preach the gospel. And with regard to
+                    you my commission runs thus: ‘Son of man, I do send thee unto them; and thou
+                    shalt say unto them, Thus saith the Lord God—whether they will hear, or whether
+                    they will forbear.’<note place="foot" xml:id="ftn13" n="13"><p
+                            rend="footnote text">Cf. Ezek. 2:3-5.</p></note></p>
+                <p n="4">4. Thus then saith the Lord God: ‘Whosoever thou art who wilt enter into
+                    life, keep the commandments.<note place="foot" xml:id="ftn14" n="14"><p
+                            rend="footnote text">See Matt. 19:17.</p></note> Forsake not the
+                    assembling together with thy brethren, as the manner of some is.<note
+                        place="foot" xml:id="ftn15" n="15"><p rend="footnote text">See Heb.
+                            10:25.</p></note> In secret, likewise, cry to thy Father who seeth in
+                        secret,<note place="foot" xml:id="ftn16" n="16"><p rend="footnote text">See
+                            Matt. 6:6.</p></note> and pour out thy heart before him.<note
+                        place="foot" xml:id="ftn17" n="17"><p rend="footnote text">Ps.
+                        62:8.</p></note> Make my word a lantern to thy feet, and a light unto thy
+                        paths.<note place="foot" xml:id="ftn18" n="18"><p rend="footnote text">See
+                            Ps. 119:105 (BCP).</p></note> Keep it in thy heart, and in thy mouth
+                    when thou sittest in thy house, when thou walkest by the way, when thou liest
+                    down, and when thou risest up.<note place="foot" xml:id="ftn19" n="19"><p
+                            rend="footnote text">See Deut. 6:6-7.</p></note> Turn unto me with
+                        fasting<note place="foot" xml:id="ftn20" n="20"><p rend="footnote text">See
+                            Joel 2:12.</p></note> as well as prayer; and, in obedience to thy dying
+                    Redeemer, by eating that bread<note place="foot" xml:id="ftn21" n="21"><p
+                            rend="footnote text">MS orig. included ‘the sign of his flesh, and
+                            wine…’, deleted by Charles in the process of transcription; does this
+                            signify a substantive alteration? Did John, at this stage, believe in
+                            transignification, as many of the Nonjurors had?</p></note> and drinking
+                    that cup, show<note place="foot" xml:id="ftn22" n="22"><p rend="footnote text"
+                            >The MS folio 2 ends here; folios 3-6 are missing. The brackets indicate
+                            the text as published in <hi rend="italic">AM</hi> down to II.5, below,
+                            n. 37.</p></note> [ye forth the Lord’s death till he come.<note
+                        place="foot" xml:id="ftn23" n="23"><p rend="footnote text">See 1 Cor.
+                            11:26.</p></note> By the power thou shalt through these means receive
+                    from on high, do all the things which are enjoined in the Law, and avoid all
+                    those things which are forbidden therein, knowing that if ye offend in one
+                    point, ye are guilty of all.<note place="foot" xml:id="ftn24" n="24"><p
+                            rend="footnote text">See Jas. 2:10.</p></note> To do good also, and to
+                    distribute, forget not.<note place="foot" xml:id="ftn25" n="25"><p
+                            rend="footnote text">See Heb. 13:16.</p></note> Yea, while you have
+                    time, do all the good you can unto all men.<note place="foot" xml:id="ftn26"
+                        n="26"><p rend="footnote text">See Gal. 6:10.</p></note> Then deny thyself,
+                    take up thy cross daily;<note place="foot" xml:id="ftn27" n="27"><p
+                            rend="footnote text">See Luke 9:23.</p></note> and if called thereto,
+                    resist unto blood.<note place="foot" xml:id="ftn28" n="28"><p
+                            rend="footnote text">See Heb. 12:4.</p></note> And when thou canst lift
+                    up thy hand to God and say, “All this have I done,”<note place="foot"
+                        xml:id="ftn29" n="29"><p rend="footnote text">See Luke 18:21.</p></note>
+                    then say farther (words at which not only such as Felix alone, but the holiest
+                    soul upon earth might tremble),<note place="foot" xml:id="ftn30" n="30"><p
+                            rend="footnote text">See Acts 24:25.</p></note> “Though I bestow all my
+                    goods to feed the poor, and though I give my body to be burned, and have not
+                    charity, it profiteth me nothing.”’</p>
+                <p><pb n="04:382"/>It concerns us all, therefore, in the highest degree, to
+                    know:</p>
+                <p>I. The full sense of those words, ‘Though I bestow all my goods to feed the poor,
+                    and though I give my body to be burned’;</p>
+                <p>II. The true meaning of the word ‘charity’; and</p>
+                <p>III. In what sense it can be said that without charity all this profiteth us
+                    nothing.</p>
+            </div>
+            <div type="section" n="1">
+                <p>I. As to the first, it must be observed that the word used by St. Paul properly
+                    signifies, ‘to divide into small pieces, and then to distribute what has been so
+                        divided’;<note place="foot" xml:id="ftn31" n="31"><p rend="footnote text"
+                            >Cf. Rom. 12:20; the only other instance of ψωμίζειν in the New
+                            Testament is in 1 Cor. 13:3; see also Wesley’s <hi rend="italic"
+                                >Notes</hi> on both texts.</p></note> and consequently it implies,
+                    not only divesting ourselves at once of all the worldly goods we enjoy, either
+                    from a fit of distaste to the world, or a sudden start of devotion, but an act
+                    of choice, and that choice coolly and steadily executed. It may imply, too, that
+                    this be done not out of vanity, but in part from a right principle; namely, from
+                    a design to perform the command of God, and a desire to obtain his kingdom. It
+                    must be farther observed that the word ‘give’ signifies actually to deliver a
+                    thing according to agreement; and accordingly it implies, like the word
+                    preceding, not a hasty, inconsiderate action, but one performed with open eyes
+                    and a determined heart, pursuant to a resolution before taken. The full sense of
+                    the words, therefore, is this—which he that hath ears to hear, let him
+                        hear:<note place="foot" xml:id="ftn32" n="32"><p rend="footnote text">See
+                            Matt. 11:15, etc.</p></note> ‘Though I should give all the substance of
+                    my house to feed the poor; though I should do so upon mature choice and
+                    deliberation; though I should spend my life in dealing it out to them with my
+                    own hands, yea, and that from a principle of obedience; though I should suffer,
+                    from the same view, not only reproach and shame, not only bonds and
+                    imprisonment, and all this by my own continued act and deed, not accepting
+                    deliverance, but, moreover, death itself—yea, death inflicted in a manner the
+                    most terrible to nature; yet all this, if I have not charity, it profiteth me
+                    nothing.’</p>
+            </div>
+            <div type="section" n="2">
+                <p n="1">II. [1.] Let us inquire what this charity is.<note place="foot"
+                        xml:id="ftn33" n="33"><p rend="footnote text">Cf. No. 17, ‘The Circumcision
+                            of the Heart’, I.2 and n.</p></note> What is the true meaning of the
+                    word? We may consider it either as to its properties or effects. And that we may
+                    be under no possibility of mistake, we will not at all regard the judgment of
+                    men, but go to <pb n="04:383"/>our Lord himself for an account of the nature of
+                    charity, and for the effects of it to his inspired Apostle.</p>
+                <p n="2">[2.] The charity which our Lord requires in all his followers is the love
+                    of God and man: of God, for his own, and of man, for God’s sake. Now, what is it
+                    to love God but to delight in him, to rejoice in his will, to desire continually
+                    to please him, to seek and find our happiness in him, and to thirst day and
+                    night for a fuller enjoyment of him?</p>
+                <p n="3">[3.] As to the measure of this love, our Lord hath clearly told us, ‘Thou
+                    shalt love the Lord thy God with all thy heart.’<note place="foot"
+                        xml:id="ftn34" n="34"><p rend="footnote text">Matt. 22:37.</p></note> Not
+                    that we are to love or delight in none but him. For he hath commanded us not
+                    only to love our neighbour—that is, all men—as ourselves; to desire and pursue
+                    their happiness as sincerely and steadily as our own; but also to love many of
+                    his creatures in the strictest sense—to delight in them, to enjoy them—only in
+                    such a manner and measure as we know and feel not to indispose but to prepare us
+                    for the enjoyment of him. Thus, then, we are called to love God with all our
+                    heart.</p>
+                <p n="4">[4.] The effects or properties of this love the Apostle describes in the
+                    chapter before us. And all these being infallible marks whereby any man may
+                    judge of himself whether he hath this love or hath it not, they deserve our
+                    deepest consideration.</p>
+                <p>Charity suffereth long, or is long-suffering.<note place="foot" xml:id="ftn35"
+                        n="35"><p rend="footnote text">See 1 Cor. 13:4.</p></note> If thou lovest
+                    thy neighbour for God’s sake, thou wilt bear long with his infirmities. If he
+                    wants wisdom, thou wilt pity, and not despise him. If he be in error, thou wilt
+                    mildly endeavour to recover him, without any sharpness or reproach. If he is
+                    overtaken in a fault, thou wilt labour to restore him in the spirit of
+                        meekness;<note place="foot" xml:id="ftn36" n="36"><p rend="footnote text"
+                            >See Gal. 6:1.</p></note> and if haply that cannot be done soon, thou
+                    wilt have patience with him, if God peradventure may bring him at length to the
+                    knowledge and love of the truth. In all provocations, either from the weakness
+                    or malice of men, thou wilt show thyself a pattern of gentleness and meekness;
+                    and, be they ever so often repeated, wilt not be overcome of evil, but overcome
+                    evil with good.<note place="foot" xml:id="ftn37" n="37"><p rend="footnote text"
+                            >Rom. 12:21.</p></note> Let no man deceive you with vain words:<note
+                        place="foot" xml:id="ftn38" n="38"><p rend="footnote text">Eph.
+                        5:6.</p></note> he who is not thus long-suffering hath not charity.</p>
+                <p n="5"><pb n="04:384"/>[5.] Again, charity is kind.<note place="foot"
+                        xml:id="ftn39" n="39"><p rend="footnote text">1 Cor. 13:4.</p></note>
+                    Whosoever feels the love of God and man shed abroad in his heart<note
+                        place="foot" xml:id="ftn40" n="40"><p rend="footnote text">See Rom.
+                        5:5.</p></note> feels an ardent and uninterrupted thirst after the happiness
+                    of all his fellow-creatures. His soul melts away with the very fervent desire
+                    which he hath continually to promote it. And out of the abundance]<note
+                        place="foot" xml:id="ftn41" n="41"><p rend="footnote text">Matt. 12:34; the
+                            bracket indicates where the MS text resumes, with folio 7; see above, §4
+                            and n. 17.</p></note> of the heart his mouth speaketh. In his tongue is
+                    the law of kindness.<note place="foot" xml:id="ftn42" n="42"><p
+                            rend="footnote text">Prov. 31:26.</p></note> The same is impressed on
+                    all his actions. The flame within is continually working itself a way, and
+                    spreading abroad more and more in every instance of goodwill to all with whom he
+                    has to do. So that whether he thinks or speaks, or whatever he does, it all
+                    points to the same end, the advancing by every possible way the happiness of all
+                    his fellow-creatures. Deceive ye not, therefore, your own souls: he who is not
+                    thus kind hath not charity.</p>
+                <p n="6">6. Farther, charity envieth not.<note place="foot" xml:id="ftn43" n="43"><p
+                            rend="footnote text">1 Cor. 13:4.</p></note> This, indeed, was implied
+                    when it was said, charity is kind. For kindness and envy are inconsistent: they
+                    can no more stay together than light and darkness. If we earnestly desire all
+                    happiness to all, we cannot be grieved at the happiness of any. The fulfilling
+                    of our desire will be sweet to our soul; so far shall we be from being pained at
+                    it. If we are always doing what good we can for our neighbour and wishing we
+                    could do more, it is impossible [that] we should repine at any good he receives;
+                    indeed, it will be the very joy of our heart. However, then, we may flatter
+                    ourselves or one another, he that envieth any hath not charity.</p>
+                <p n="7">7. It follows, charity vaunteth not itself;<note place="foot"
+                        xml:id="ftn44" n="44"><p rend="footnote text"><hi rend="italic"
+                            >Ibid.</hi></p></note> or rather, is not rash or hasty in judging (for
+                    this indeed is the true meaning of the word περπερεύεται).<note place="foot"
+                        xml:id="ftn45" n="45"><p rend="footnote text">The sole instance of this term
+                            in the New Testament; later in the <hi rend="italic">Notes</hi> Wesley
+                            will translate it ‘acteth not rashly’. It is, however, a verbal form of
+                            πέρπερος, which in both classical and <hi rend="italic">koine</hi> Greek
+                            means ‘braggart’ or ‘windbag’, with no special connotation of ‘rash or
+                            hasty’ judgment. See No. 22, ‘Sermon on the Mount, II’, III.6 and n.,
+                            III.10.</p></note> As many as love their neighbour for God’s sake will
+                    not easily receive an ill opinion of any to whom they wish all good, spiritual
+                    as well as temporal. They cannot condemn him even in their heart without
+                    evidence; nor upon slight evidence, neither; nor indeed upon any, without first,
+                    if it be possible, having him and his accuser face to face, or at the least
+                    acquainting <hi rend="Page">[04:385]</hi>him with the accusation, and letting
+                    him speak for himself.<note place="foot" xml:id="ftn46" n="46"><p
+                            rend="footnote text">A basic rule in English common law. See also John
+                            7:51, Acts 25:16, and Wesley’s <hi rend="italic">Notes</hi> thereon; see
+                            also No. 30, ‘Sermon on the Mount, X’, §12 and n. This rule would have
+                            been put to the full test in the scandals surrounding Wesley in
+                            Georgia.</p></note> Every one of you feels that he cannot but act thus
+                    with regard to one whom he tenderly loves. Why, then, he who does not act thus
+                    with regard to all men—friends and enemies—hath not charity.</p>
+                <p n="8">8. The time permits me to mention but one more of the properties or effects
+                    of it. ‘Charity is not puffed up.’<note place="foot" xml:id="ftn47" n="47"><p
+                            rend="footnote text">1 Cor. 13:4.</p></note> You cannot wrong one you
+                    love: therefore, if you love God with all your heart, you cannot so wrong him as
+                    to rob him of his glory, to take to yourself what is due to him only. You will
+                    own that all you <hi rend="italic">are</hi>, all you have, is his; that without
+                    him you can do no good thing;<note place="foot" xml:id="ftn48" n="48"><p
+                            rend="footnote text">See Rom. 7:18.</p></note> that he is your light and
+                    your life, your strength and your all, and that you are nothing, yea, less than
+                    nothing, before him.<note place="foot" xml:id="ftn49" n="49"><p
+                            rend="footnote text">See Isa. 40:17.</p></note> And if you love your
+                    neighbour as yourself, you will not be able to prefer yourself before him. You
+                    will not be able to despise, any more than to hate him. Nay, you will think
+                    every man better than yourself.<note place="foot" xml:id="ftn50" n="50"><p
+                            rend="footnote text">See Phil. 2:3.</p></note> As the wax melteth away
+                    before the fire,<note place="foot" xml:id="ftn51" n="51"><p rend="footnote text"
+                            >Ps. 68:2.</p></note> so doth pride before love. All haughtiness,
+                    whether of heart, speech, or behaviour, vanishes away where this prevails. It
+                    bringeth down the looks of him that boasted in his strength, and maketh him as a
+                    little child, diffident of himself, willing to hear, glad to<note place="foot"
+                        xml:id="ftn52" n="52"><p rend="footnote text">Here is where the second gap
+                            in the MS occurs (with folios 9 and 10 missing); the bracketed text
+                            comes from <hi rend="italic">AM</hi>; see below, III.4, n.
+                        55.</p></note> [learn, easily convinced, easily persuaded. And whosoever is
+                    otherwise minded, let him give up all vain hope: he is puffed up, and so hath
+                    not charity.</p>
+            </div>
+            <div type="section" n="3">
+                <p n="1">III. [1.] It remains to inquire in what sense it can be said that ‘though I
+                    bestow all my goods to feed the poor, yea, though I give my body to be burned,
+                    and have not charity, it profiteth me nothing.’</p>
+                <p n="2">[2.] The chief sense of the words is doubtless this: that whatsoever we do,
+                    and whatsoever we suffer, if we are not renewed in the spirit of our mind by the
+                    love of God shed abroad in our hearts by the Holy Ghost given unto us,<note
+                        place="foot" xml:id="ftn53" n="53"><p rend="footnote text">Rom. 5:5; cf.
+                            ‘The Character of a Methodist’, §5 (<hi rend="italic">Bibliog</hi>, No.
+                            57).</p></note> we cannot enter <pb n="04:386"/>into life eternal. None
+                    can enter there unless in virtue of the covenant which God hath given unto man
+                    in the Son of his love.</p>
+                <p n="3">[3.] But because general truths are less apt to affect us, let us consider
+                    one or two particulars contained in this, with regard to which all we can do or
+                    suffer, if we have not love, profiteth us nothing. And, first, all without this
+                    profiteth not so as to make life happy; nor, secondly, so as to make death
+                    comfortable.</p>
+                <p n="4">[4.] And, first, without love nothing can so profit us as to make our lives
+                    happy. By happiness I mean, not a slight, trifling pleasure, that perhaps begins
+                    and ends in the same hour; but such a state of well-being as contents the soul,
+                    and gives it a steady, lasting satisfaction.<note place="foot" xml:id="ftn54"
+                        n="54"><p rend="footnote text">Cf. Richard Lucas, <hi rend="italic">Enquiry
+                                After Happiness</hi> (1717), I.26, II.10.</p></note> But that
+                    nothing without love can profit us as to our present happiness will appear from
+                    this single consideration: you cannot want it in any one single instance without
+                    pain; and the more you depart from it the pain is the greater. Are you wanting
+                    in long-suffering? Then so far as you fall short of this you fall short of
+                    happiness. The more the opposite tempers—anger, fretfulness, revenge—prevail,
+                    the more unhappy you are. You know it; you feel it; nor can the storm be
+                    allayed, or peace ever return to your soul, unless meekness, gentleness,
+                    patience, or, in one word, love, take possession of it. Does any man find in
+                    himself ill-will, malice, envy, or any other temper opposite to kindness? Then
+                    is misery there; and the stronger the temper, the more miserable he is. If the
+                    slothful man may be said to eat his own flesh,<note place="foot" xml:id="ftn55"
+                        n="55"><p rend="footnote text">See Eccles. 4:5.</p></note> much more the
+                    malicious, or envious. His soul is the very type of hell, full of torment, as
+                    well as wickedness. He hath already the worm that never dieth, and he is
+                    hastening to the fire that never can be quenched.<note place="foot"
+                        xml:id="ftn56" n="56"><p rend="footnote text">See Mark 9:44.</p></note> Only
+                    as yet the great gulf is not fixed between him and heaven.<note place="foot"
+                        xml:id="ftn57" n="57"><p rend="footnote text">See Luke 16:26.</p></note> As
+                    yet there is a Spirit ready to help his infirmities;<note place="foot"
+                        xml:id="ftn58" n="58"><p rend="footnote text">See Rom. 8:26.</p></note> who
+                    is still willing, if he stretch out his hands to heaven, and bewail his
+                    ignorance and misery, to purify his heart from vile affections, and to renew it
+                    in the love of God, and so lead him by present, up to eternal, happiness.]<note
+                        place="foot" xml:id="ftn59" n="59"><p rend="footnote text">See No. 6, ‘The
+                            Righteousness of Faith’, II.9 and n.; the bracket indicates where the MS
+                            lacuna ends; see above, II.8 and n. 48.</p></note></p>
+                <p n="5">5. Secondly, without charity nothing can make death comfortable. By
+                    comfortable I do not mean stupid, or senseless. I <pb n="04:387"/>would not say
+                    he died comfortably who died by an apoplexy, or by the shot of a cannon, any
+                    more than he who, having his conscience seared,<note place="foot" xml:id="ftn60"
+                        n="60"><p rend="footnote text">See 1 Tim. 4:2. See Nos. 12, ‘The Witness of
+                            Our Own Spirit’, §19; and 85, ‘On Working Out Our Own Salvation’,
+                            III.4.</p></note> died as unconcerned as the beasts that perish.<note
+                        place="foot" xml:id="ftn61" n="61"><p rend="footnote text">See Ps.
+                            49:12.</p></note> Neither do I believe you would envy anyone the comfort
+                    of dying raving mad. But by a comfortable death I mean a calm passage out of
+                    life, full of even, rational peace and joy.<note place="foot" xml:id="ftn62"
+                        n="62"><p rend="footnote text">An early echo of Wesley’s life-long interest
+                            in the <hi rend="italic">ars moriendi</hi>.</p></note> And such a death
+                    all the acting and all the suffering in the world cannot give, without
+                    charity.</p>
+                <p n="6">6. To show this, I can’t indeed appeal to your own experience; but I may to
+                    what we have seen of the experience of others. And two I have myself seen going
+                    out of life in what I call a comfortable manner, though not with equal comfort.
+                    One had evidently more comfort than the other, because he had more charity.</p>
+                <p n="7">7. I attended the first during a great part of his last trial, as well as
+                    when he yielded up his soul to God.<note place="foot" xml:id="ftn63" n="63"><p
+                            rend="footnote text">A recollection of his own father’s death at
+                            Epworth, Apr. 25, 1735 (age 72); cf. John Wesley’s open letter to ‘John
+                            Smith’, Mar. 22, 1748; see also No. 82, ‘On Temptation’, III.5; and
+                            Charles’s moving description of their father’s death to his brother
+                            Samuel in Tyerman, <hi rend="italic">Samuel Wesley</hi> (London, 1866),
+                            pp. 445-47.</p></note> He cried out: ‘God doth chasten me with strong
+                        pain;<note place="foot" xml:id="ftn64" n="64"><p rend="footnote text">See
+                            Job 33:19.</p></note> but I thank him for all, I bless him for all, I
+                    love him for all!’ When asked, not long before his release, ‘Are the
+                    consolations of God small with thee?’<note place="foot" xml:id="ftn65" n="65"><p
+                            rend="footnote text">Job 15:11.</p></note> he replied aloud, ‘No, no,
+                    no!’ Calling all that were near him by our names, he broke out: ‘Think of
+                    heaven, talk of heaven! All the time is lost when we are not thinking of
+                    heaven!’ Now, this was the voice of charity; and so far as that prevailed, all
+                    was comfort and peace and joy. But as his love was not perfect, so neither was
+                    his comfort. He had intervals of anger or fretfulness, and therein of misery,
+                    giving by both an incontestable proof that as love can sweeten both life and
+                    death, so when that is either absent from, or obscured in, the soul, there is no
+                    peace or comfort there.</p>
+                <p n="8">8. It was in this place that I saw the other good soldier of Christ<note
+                        place="foot" xml:id="ftn66" n="66"><p rend="footnote text">A probable
+                            reference to Henry Lascelles; cf. E. Merton Coulter and Albert B. Saye,
+                            eds., <hi rend="italic">A List of the Early Settlers of Georgia</hi>
+                            (Athens, Georgia, 1949), No. 897. See Wesley’s references to the last
+                            days and death of ‘Mr. Lassel’ in JWJ, May 28, June 1, 6, 7, 19, 1736;
+                            see also No. 144, ‘The Love of God’, Intro.</p></note> grappling with
+                    his last enemy, death.<note place="foot" xml:id="ftn67" n="67"><p
+                            rend="footnote text">See 1 Cor. 15:26.</p></note> And it was indeed <pb
+                        n="04:388"/>a spectacle worthy to be seen, of God<note place="foot"
+                        xml:id="ftn68" n="68"><p rend="footnote text">Cf. Seneca, <hi rend="italic"
+                                >De Providentia</hi> (‘On Providence’), ii.9; see also No. 59,
+                            ‘God’s Love to Fallen Man’, §7, where the phrase is quoted in
+                        Latin.</p></note> and men and angels. Some of his last breath was spent in a
+                    psalm of praise to him who was then giving him the victory; in assurance whereof
+                    be began the triumph even in the heat of the battle. When asked, ‘Hast thou
+                    love?’ he lifted up his eyes and hands, and answered, ‘Yes, yes!’ with the whole
+                    strength he had left. To one that inquired if he was afraid of the devil, whom
+                    he had just mentioned as making his last attack upon him, he replied: ‘No, no:
+                    our loving Saviour hath conquered every enemy. He is with me. I fear nothing.’
+                    Soon after he said, ‘The way to our loving Saviour is sharp—but it is short.’
+                    Nor was it long before he fell into a sort of slumber, wherein his soul sweetly
+                    returned to God that gave it.<note place="foot" xml:id="ftn69" n="69"><p
+                            rend="footnote text">Eccles. 12:7.</p></note> Here, we may observe, was
+                    no mixture of any passion or temper contrary to charity. Therefore was there no
+                    misery, perfect love casting out whatever might have occasioned torment.<note
+                        place="foot" xml:id="ftn70" n="70"><p rend="footnote text">See 1 John
+                            4:18.</p></note> And whosoever thou art who hast the like measure of
+                    love, thy last end shall be like his!<note place="foot" xml:id="ftn71" n="71"><p
+                            rend="footnote text">See Num. 23:10. In Oxford, Wesley had abridged
+                            Benjamin Calamy’s sermon on this text and had preached it to the
+                            prisoners at the Castle (see Appendix C). Much later, he would turn to
+                            this text for his own sermon, <hi rend="italic">On the Death of George
+                                Whitefield</hi> (see No. 53). Note the absence of both a peroration
+                            and an ascription.</p></note></p>
+            </div>
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,408 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Sermon 146: The One Thing Needful</title>
+                <author>Wesley, John</author>
+                <editor role="text">Van Buskirk, Gregory P.</editor>
+                <editor role="digital">Taylor, Michelle M.</editor>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>The Wesley Works Digitzation Project</publisher>
+                <pubPlace>Tampa, FL</pubPlace>
+                <date>2024-02-25</date>
+            </publicationStmt>
+            <sourceDesc>
+                <listBibl>
+                    <biblStruct>
+                        <analytic>
+                            <title level="a">Sermon 146: The One Thing Needful</title>
+                        </analytic>
+                        <monogr>
+                            <title level="j">The Works of John Wesley, Volume IV: Sermons IV,
+                                115-151</title>
+                            <editor role="volume">Outler, Albert</editor>
+                            <imprint>
+                                <publisher>Abingdon Press</publisher>
+                                <pubPlace>Nashville, TN</pubPlace>
+                                <date when="1987-11-01">1986-11-01</date>
+                                <biblScope unit="volume" n="4"/>
+                                <biblScope unit="page" from="351" to="359"/>
+                            </imprint>
+                        </monogr>
+                        <series>
+                            <title level="s">The Works of John Wesley</title>
+                            <editor role="general">Baker, Frank</editor>
+                        </series>
+                    </biblStruct>
+                </listBibl>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Greg Van Buskirk created Word docs for all of Wesley's sermons using a combination of
+                OCR software and manual proofing. Michelle Taylor converted these docx into XML
+                using Oxygen's DITA automatic transformation scenario, then touched them up
+                manually.</p>
+        </encodingDesc>
+        <standOff>
+            <taxonomy>
+                <keywords>
+                    <term/>
+                </keywords>
+            </taxonomy>
+            <!--Include keywords and terms here eventually.-->
+        </standOff>
+        <revisionDesc/>
+    </teiHeader>
+    <text>
+        <body>
+            <pb n="04:351"/>
+            <head>
+                <hi rend="italic">An Introductory Comment</hi>
+            </head>
+            <introduction>
+                <p n="1">The manuscript of this sermon stands as ‘II’ in the volume of Charles
+                    Wesley’s sermons in the Colman Collection in the Methodist Archives, Manchester.
+                    There is a note on the first page of the volume: ‘Transcribed from my brother’s
+                    copies on board the <hi rend="italic">London Galley</hi> between Charlestown and
+                    Boston, Sept. 1736’. There is also, on the page previous to this sermon, a
+                    listing of the ten places (including St. Mary’s) where John had already preached
+                    it in the years 1734-36. Charles records his having preached it in Boston
+                    (September 26, 1736), near London (September 11, 1737), and in London (October
+                    22, 1738).<note place="foot" xml:id="ftn1" n="1"><p rend="footnote text">Cf. his
+                                <hi rend="italic">Journal</hi>. The MS records Charles’s preaching
+                            it at Mickleton, Stanton, and Duke Street chapel sometime in 1737; St.
+                            Olave’s, Old Jewry on October 30, 1737; St. Helen’s, Bishopsgate Street,
+                            October 30, 1737; Islington, October 1738; and St. Clement’s, October
+                            22, 1738 (N.B.—the last two <hi rend="italic">after May 1738</hi>,
+                            perhaps with only one notable change, see below, III.3 and
+                        n.).</p></note> John’s diary suggests that he had written it in May 1734,
+                    and it is clear that both Luke 10:42 and the theme of salvation as the
+                    restoration of the defaced image of God continued to preoccupy Wesley
+                    thereafter; there are at least fifty references to his having preached on Luke
+                    10:42 between 1734 and 1790. It is therefore, interesting that John left it
+                    unpublished; was Charles’s the only copy of it that survived? In any case, a
+                    heavily edited version appeared as Sermon V in the posthumous volume of Charles
+                    Wesley’s <hi rend="italic">Sermons</hi> in 1816.</p>
+                <p n="2">What is more notable, theologically, is Wesley’s interpretation of Luke’s
+                    phrase, ‘the one thing needful’, as signifying ‘the renewal of our fallen
+                    nature’. He would have known Jeremy Taylor’s famous essay, <hi rend="italic"
+                        >Unum Necessarium</hi> (1655), but there ‘the one thing needful’ is ‘the
+                    practice of true repentance’. Matthew Poole’s <hi rend="italic">Annotations</hi>
+                    on this text provides a review of different options (but not this idea of
+                    restoration), with a summary definition: ‘the care of the soul with reference to
+                        eternity’.<note place="foot" xml:id="ftn2" n="2"><p rend="footnote text"
+                            >Later, in his own <hi rend="italic">Notes</hi> (perhaps with an eye on
+                            Poole), Wesley will comment on Mary’s motive in choosing ‘the one thing
+                            needful’—‘To save her own soul’.</p></note> Matthew Henry, in his <hi
+                        rend="italic">Exposition</hi>, had taken the metaphor more literally: ‘the
+                    one thing needful is…the sitting at Christ’s feet to hear his Word.’ The young
+                    Wesley, however, had turned back to the <pb n="04:352"/>Christian-Platonic
+                    vision of the <hi rend="italic">imago Dei</hi>—created, defaced, restored—as the
+                    essence of human nature. This had come to him through Malebranche, John Norris,
+                    and William Law. In none of those sources, however, is this doctrine linked to
+                    the text in Luke 10:42. The result is that here we have an early allegorical
+                    venture pressed further than was Wesley’s wont. It is the earliest exposition
+                    that we have of an idea that will be thereafter woven into the textures of his
+                    mature doctrines of ‘the order of salvation’ as the chief agendum of Christian
+                    living.</p>
+            </introduction>
+            <head>The One Thing Needful</head>
+            <epigraph>
+                <p>Luke 10:42</p>
+                <p>In the tenth chapter of the Gospel according to St. Luke, at the forty-second
+                    verse, it is thus written:</p>
+                <p>
+                    <hi rend="italic">One thing is needful.</hi>
+                </p>
+            </epigraph>
+            <div type="introduction">
+                <p n="1">1. Could we suppose an intelligent being, entirely a stranger to the state
+                    of this world and its inhabitants, to take a view of their various enterprises
+                    and employments, and thence conjecture the end of their existence, he would
+                    surely conclude that these creatures were designed to be busied about many
+                    things. While he observed not only the infinite difference of the ends which
+                    different men were pursuing, but how vast a multitude of objects were
+                    successively pursued by almost every different person, he might fairly infer
+                    that for all these things were the sons of men placed upon the earth, even to
+                    gratify their several desires with sensual pleasure, or riches, or honour, or
+                    power.</p>
+                <p n="2">2. How surprised then would he be to hear their Creator declare to all,
+                    without distinction, ‘One thing is needful!’ But how much more when he knew that
+                    this one thing needful for men, their one business, the one end of their
+                    existence, was none of all those things which men were troubled about, none of
+                    all those ends they were pursuing, none of all those businesses wherein they
+                    were so deeply engaged, which filled their hearts and employed their hands. Nay,
+                    that it was an end not only distinct <pb n="04:353"/>from but contrary to them
+                    all—as contrary as light and darkness, heaven and hell, the kingdom of God and
+                    that of Satan!</p>
+                <p n="3">3. The only thought he could form in their favour must be, that they had a
+                    surplusage of time at their command; that they therefore trifled a few hours,
+                    because they were assured of thousands of years wherein to work. But how beyond
+                    measure would he be amazed when he heard farther that these were creatures of a
+                    day; that as they yesterday arose out of the dust, so tomorrow they were to sink
+                    into it again; that the time they had for their great work was but a span long,
+                    a moment; and yet that they had no manner of assurance of not being snatched
+                    away in the midst of this moment, or indeed at the very beginning of it! When he
+                    saw that all men were placed on a narrow, weak, tottering bridge, whereof either
+                    end was swallowed up in eternity;<note place="foot" xml:id="ftn3" n="3"><p
+                            rend="footnote text">Cf. the similar metaphor in No. 54, ‘On Eternity’,
+                            §5 and n.</p></note> that the waves and storms which went over it were
+                    continually bearing away one after another, in an hour when they looked not for
+                        it;<note place="foot" xml:id="ftn4" n="4"><p rend="footnote text">See Matt.
+                            24:50.</p></note> and that they who yet stood, knew not but they should
+                    plunge into the great gulf the very next instant, but well knew that if they
+                    fell before they had finished their work they were lost, destroyed, undone—for
+                    ever: how would all utterance, nay, all thought, be lost! How would he express,
+                    how would he conceive the senselessness, the madness, of those creatures who,
+                    being in such a situation, could think of anything else, could talk of anything
+                    else, could do anything besides, could find time for any other design, or care,
+                    but that of ensuring the one thing needful!</p>
+                <p n="4">4. It cannot, therefore, be an improper employment for us, first, to
+                    observe what this one thing needful is; and, secondly, to consider a few of the
+                    numberless reasons that prove this to be the one thing needful.</p>
+            </div>
+            <div type="section" n="1">
+                <p n="1">[I.] 1. We may observe what this one thing is, in which, ’tis true, many
+                    things are comprised—as are all the works of our callings, all that properly
+                    belong to our several stations in the world, insomuch that whoever neglects any
+                    of these so far neglects the one thing needful. And this indeed can no otherwise
+                    be pursued than by performing all the works of our calling, but performing them
+                    in such a manner as in and by every one to advance our great work.</p>
+                <p n="2"><pb n="04:354"/>2. Now this great work, this one thing needful, is the
+                    renewal of our fallen nature. In the image of God was man made,<note
+                        place="foot" xml:id="ftn5" n="5"><p rend="footnote text">See Gen. 1:26; cf.
+                            other comments on the ‘image of God’ (its loss and renewal) in No. 1,
+                                <hi rend="italic">Salvation by Faith</hi>, §1 and n.</p></note> but
+                    a little lower than the angels.<note place="foot" xml:id="ftn6" n="6"><p
+                            rend="footnote text">Ps. 8:5.</p></note> His nature was perfect,
+                    angelical, divine. He was an incorruptible picture of the God of glory. He bore
+                    his stamp on every part of his soul; the brightness of his Creator shone
+                    mightily upon him. But sin hath now effaced the image of God. He is no longer
+                    nearly allied to angels. He is sunk lower than the very beasts of the field. His
+                    soul is not only earthly and sensual, but devilish.<note place="foot"
+                        xml:id="ftn7" n="7"><p rend="footnote text">See Jas. 3:15.</p></note> Thus
+                    is the mighty fallen!<note place="foot" xml:id="ftn8" n="8"><p
+                            rend="footnote text">See 2 Sam. 1:19, etc.</p></note> The glory is
+                    departed from him!<note place="foot" xml:id="ftn9" n="9"><p rend="footnote text"
+                            >See 1 Sam. 4:21.</p></note> His brightness is swallowed up in utter
+                    darkness!</p>
+                <p n="3">3. From the glorious liberty wherein he was made he is fallen into the
+                    basest bondage. The devil, whose slave he now is, to work his will, hath him so
+                    fast in prison that he cannot get forth. He hath bound him with a thousand
+                    chains, the heavy chains of his own vile affections. For every inordinate
+                    appetite, every unholy passion, as it is the express image of the god of this
+                    world, so it is the most galling yoke, the most grievous chain, that can bind a
+                    free-born spirit. And with these is every child of Adam, everyone that is born
+                    into this world, so loaded that he cannot lift up an eye, a thought to heaven;
+                    that his whole soul cleaveth unto the dust!<note place="foot" xml:id="ftn10"
+                        n="10"><p rend="footnote text">See Ps. 119:25.</p></note></p>
+                <p n="4">4. But these chains of darkness under which we groan do not only hold us in
+                    on every side, but they are within us, too; they enter into our soul; they
+                    pierce through its inmost substance. Vile affections are not only so many
+                    chains, but likewise so many diseases. Our nature is distempered, as well as
+                    enslaved; the whole head is faint, and the whole heart sick.<note place="foot"
+                        xml:id="ftn11" n="11"><p rend="footnote text">See Isa. 1:5.</p></note> Our
+                    body, soul, and spirit, are infected, overspread, consumed, with the most fatal
+                    leprosy. We are all over, within and without, in the eye of God, full of
+                    diseases, and wounds, and putrifying sores.<note place="foot" xml:id="ftn12"
+                        n="12"><p rend="footnote text">See Isa. 1:6.</p></note> Every one of our
+                    brutal passions and diabolical tempers, every kind of sensuality, pride,
+                    selfishness, is one of those deadly wounds, of those loathsome sores, full of
+                    corruption, and of all uncleanness.</p>
+                <p n="5"><pb n="04:355"/>5. To recover our first estate, from which we are thus
+                    fallen, is the one thing now needful—to re-exchange the image of Satan<note
+                        place="foot" xml:id="ftn13" n="13"><p rend="footnote text">An echo here of
+                            the rabbinical comments on Satan as symbol of the impulse to evil in
+                            every human being (‘yeẓer har-á’); cf. ‘Satan’ in <hi rend="italic">The
+                                Jewish Encyclopedia</hi>, 11:70.</p></note> for the image of God,
+                    bondage for freedom, sickness for health. Our one great business is to rase out
+                    of our souls the likeness of our destroyer, and to be born again, to be formed
+                    anew after the likeness of our Creator. It is our one concern to shake off this
+                    servile yoke and to regain our native freedom; to throw off every chain, every
+                    passion and desire that does not suit an angelical nature. The one work we have
+                    to do is to return from the gates of death to perfect soundness; to have our
+                    diseases cured, our wounds healed, and our uncleanness done away.<note
+                        place="foot" xml:id="ftn14" n="14"><p rend="footnote text">Cf. No. 44, <hi
+                                rend="italic">Original Sin</hi>, III.3 and n.; also III.5 and
+                        n.</p></note></p>
+            </div>
+            <div type="section" n="2">
+                <p n="1">II. 1. Let us in the second place consider a few of the numberless reasons
+                    which prove that this is the one thing needful; so needful that this alone is to
+                    be had in view, and pursued at all times and in all places; not indeed by
+                    neglecting our temporal affairs, but by making them all minister unto it; by so
+                    conducting them all, that every step therein may be a step to this higher
+                    end.</p>
+                <p n="2">2. Now, that the recovery of the image of God, of this glorious liberty, of
+                    this perfect soundness, is the one thing needful upon earth, appears first from
+                    hence, that the enjoyment of them was the one end of our creation. For to this
+                    end was man created, to love God; and to this end alone, even to love the Lord
+                    his God with all his heart, and soul, and mind, and strength.<note place="foot"
+                        xml:id="ftn15" n="15"><p rend="footnote text">See Mark 12:30.</p></note> But
+                    love is the very image of God: it is the brightness of his glory.<note
+                        place="foot" xml:id="ftn16" n="16"><p rend="footnote text">Heb.
+                        1:3.</p></note> By love man is not only made like God, but in some sense one
+                    with him. ‘If any man love God, God loveth him, and cometh to him, and maketh
+                    his abode with him.’<note place="foot" xml:id="ftn17" n="17"><p
+                            rend="footnote text">Cf. John 14:23.</p></note> He ‘dwelleth in God, and
+                    God in him’;<note place="foot" xml:id="ftn18" n="18"><p rend="footnote text">Cf.
+                            1 John 3:24.</p></note> and ‘he that is thus joined to the Lord is one
+                        spirit.’<note place="foot" xml:id="ftn19" n="19"><p rend="footnote text">Cf.
+                            1 Cor. 6:17.</p></note> Love is perfect freedom. As there is no fear, or
+                    pain, so there is no constraint in love. Whoever acts from this principle alone,
+                    he doth whatsoever he will. All his thoughts move freely; they follow the bent
+                    of his own mind, they run after the beloved object. All his <pb n="04:356"
+                    />words flow easy and unconstrained; for it is the abundance of the heart that
+                        dictates.<note place="foot" xml:id="ftn20" n="20"><p rend="footnote text"
+                            >See Matt. 12:34.</p></note> All his actions are the result of pure
+                    choice: the thing he would, that he does, and that only. Love is the health of
+                    the soul, the full exertion of all its powers, the perfection of all its
+                    faculties. Therefore, since the enjoyment of these was the one end of our
+                    creation, the recovering of them is the one thing now needful.</p>
+                <p n="3">3. May not the same truth appear, secondly, from hence, that this was the
+                    one end of our redemption; of all our blessed Lord did and suffered for us; of
+                    his incarnation, his life, his death? All these miracles of love were wrought
+                    with no other view than to restore us to health and freedom. Thus himself
+                    testifies of the end of his coming into the world: ‘The Spirit of the Lord is
+                    upon me; he hath sent me to heal the broken-hearted, to preach deliverance to
+                    the captives;’<note place="foot" xml:id="ftn21" n="21"><p rend="footnote text"
+                            >Cf. Luke 4:18.</p></note> or, as the prophet expresses it, ‘to preach
+                    good tidings to the meek, to bind up the broken-hearted, to proclaim liberty to
+                    the captives, and the opening of the prison to them that are bound’.<note
+                        place="foot" xml:id="ftn22" n="22"><p rend="footnote text">Cf. Isa.
+                            61:1.</p></note> For this only he lived, that he might heal every
+                    disease, every spiritual sickness of our nature. For this only he died, that he
+                    might deliver those who were all their lifetime subject to bondage. And it was
+                    in pursuance of the very same design that he gave us his merciful law. The end
+                    of his commandment, too, was only our health, liberty, perfection, or, to say
+                    all in one word, charity. All the parts of it centre in this one point, our
+                    renewal in the love of God; either enjoining what is necessary for our recovery
+                    thereof, or forbidding what is obstructive of it. Therefore this, being the one
+                    end of our redemption as well as our creation, is the one thing needful for us
+                    upon earth.</p>
+                <p n="4">4. This is the one thing needful, thirdly, because it is the one end of all
+                    God’s providential dispensations. Pleasure and pain, health and sickness, riches
+                    and poverty, honour and dishonour, friends and enemies, are all bestowed by his
+                    unerring wisdom and goodness with a view to this one thing. The will of God, in
+                    allotting us our several portions of all these, is solely our sanctification;
+                    our recovery from that vile bondage, the love of his creatures, to the free love
+                    of our Creator. All his providences, be <pb n="04:357"/>they mild or severe,
+                    point at no other end than this. They are all designed either to wean us from
+                    what is not, or to unite us to what is worthy our affection. Are they pleasing?
+                    Then they are designed to lift up our hearts to the Parent of all good.<note
+                        place="foot" xml:id="ftn23" n="23"><p rend="footnote text">See Milton, <hi
+                                rend="italic">Paradise Lost</hi>, v.153.</p></note> Are they
+                    painful? Then they are means of rooting out those passions that forcibly
+                    withhold us from him. So that all lead that same way, either directly or
+                    indirectly, either by gratitude or mortification. For to those that have ears to
+                        hear,<note place="foot" xml:id="ftn24" n="24"><p rend="footnote text">See
+                            Matt. 11:15, etc.</p></note> every loss, especially of what was nearest
+                    and dearest to them, speaks as clearly as if it were an articulate voice from
+                    heaven, ‘Little children, keep yourselves from idols.’<note place="foot"
+                        xml:id="ftn25" n="25"><p rend="footnote text">1 John 5:21.</p></note> Every
+                    pain cries aloud, ‘Love not the world, neither the things of the world.’<note
+                        place="foot" xml:id="ftn26" n="26"><p rend="footnote text">Cf. 1 John
+                            2:15.</p></note> And every pleasure says, with a still small voice,<note
+                        place="foot" xml:id="ftn27" n="27"><p rend="footnote text">See 1 Kgs.
+                            19:12.</p></note> ‘Thou shalt love the Lord thy God with all thy
+                        heart.’<note place="foot" xml:id="ftn28" n="28"><p rend="footnote text"
+                            >Matt. 22:37, etc.</p></note></p>
+                <p n="5">5. To the same end are all the internal dispensations of God, all the
+                    influences of his Holy Spirit. Whether he gives us joy or sorrow of heart,
+                    whether he inspires us with vigour and cheerfulness, or permits us to sink into
+                    numbness of soul, into dryness and heaviness, ’tis all with the same view, viz.,
+                    to restore us to health, to liberty, to holiness. These are all designed to heal
+                    those inbred diseases of our nature, self-love, and the love of the world. They
+                    are all given together with the daily bread of his external dispensations, to
+                    enable us to turn that into proper nourishment, and so recover his love, the
+                    health of our souls. Therefore the renewal of our nature in this love being not
+                    only the one end of our creation and our redemption, but likewise of all the
+                    providences of God over us, and all the operations of his Spirit in us, must be,
+                    as the eternal wisdom of God hath declared, the one thing needful.</p>
+            </div>
+            <div type="section" n="3">
+                <p n="1">[III.] Exh[ortation.] 1. How great reason is there, then, even in the
+                    Christian world, to resume the Apostle’s exhortation, ‘Awake, thou that
+                    sleepest, and arise from the dead!’<note place="foot" xml:id="ftn29" n="29"><p
+                            rend="footnote text">Eph. 5:14; the text of Charles Wesley’s last sermon
+                            in St. Mary’s, Apr. 4, 1742, published in that year and then included by
+                            John in his own <hi rend="italic">SOSO</hi>, I (1746); see No. 3, <hi
+                                rend="italic">‘Awake, Thou That Sleepest’</hi>.</p></note> Hath not
+                    Christ given thee light? Why then sittest thou still in the shadow of <pb
+                        n="04:358"/>death?<note place="foot" xml:id="ftn30" n="30"><p
+                            rend="footnote text">See Luke 1:79.</p></note> What slumber is this
+                    which hangs on thy temples? Knowest thou not that only one thing is needful?
+                    What then are all these? Why hath any but that the least place in thy thoughts,
+                    the least share in thy affections? Is the entertainment of the senses the one
+                    thing needful? Or the gratifying the imagination with uncommon, or great, or
+                    beautiful objects? Our Lord saith not so. Saith he then that the one thing is to
+                    acquire a fortune, or to increase that thou hast already? I tell you, Nay: these
+                    may be the thoughts of those that dream, but they cannot [be those] of waking
+                    men. Is it to obtain honour, power, reputation, or (as the phrase is) to get
+                    preferment? Is the one thing to gain a large share in that fairest of the fruits
+                    of earth, learning?<note place="foot" xml:id="ftn31" n="31"><p
+                            rend="footnote text">Later, in No. 4, <hi rend="italic">Scriptural
+                                Christianity</hi>, IV.6, Wesley will denounce learning <hi
+                                rend="italic">without love</hi> as ‘splendid ignorance’.</p></note>
+                    No. Though any of these may sometimes be conducive to, none of them is, the one
+                    thing needful. That is simply to escape out of the snare of the devil, to regain
+                    an angelical nature;<note place="foot" xml:id="ftn32" n="32"><p
+                            rend="footnote text">Yet another connection of ‘angelical nature’ with
+                            ‘the image of God’ in man. This equation was shared by Charles Wesley as
+                            in No. 3, <hi rend="italic">‘Awake, Thou That Sleepest’</hi>, II.10 and
+                            n. This is the theme of participation in the divine life carried very
+                            far, as in William Law and the mystics.</p></note> to recover the image
+                    wherein we were formed; to be like the Most High. This, this done, is the one
+                    end of our abode here; for this alone are we placed on the earth; for this alone
+                    did the Son of God pour out his blood; for this alone doth his Holy Spirit watch
+                    over us. One thing we have to do, to press towards this mark of the prize of our
+                    high calling;<note place="foot" xml:id="ftn33" n="33"><p rend="footnote text"
+                            >See Phil. 3:14.</p></note> to emerge out of chains, diseases, death,
+                    into liberty, health, and life immortal!</p>
+                <p n="2">2. Let us well observe, that our Lord doth not call this our main concern,
+                    our great business, the chief thing needful, but the <hi rend="italic">one
+                    </hi>thing—all others being either parts of this or quite foreign to the end of
+                    life. On this then let us fix our single view, our pure unmixed intention;
+                    regarding nothing at all, small or great, but as it stands referred to this. We
+                    must use many means; but let us ever remember we have but one end. For as while
+                    our eye is single our whole body will be full of light, so, should it ever cease
+                    to be single, in that moment our whole body would be full of darkness.<note
+                        place="foot" xml:id="ftn34" n="34"><p rend="footnote text">See Matt.
+                            6:22-23; Wesley returned to this theme in his first Georgia sermon (No.
+                            148, ‘A Single Intention’) and in a very late sermon in 1789 (No. 125,
+                            ‘On a Single Eye’).</p></note></p>
+                <p n="3"><pb n="04:359"/>3. Be we then continually jealous over our souls, that
+                    there be no mixture in our intention.<note place="foot" xml:id="ftn35" n="35"><p
+                            rend="footnote text">See No. 26, ‘Sermon on the Mount, VI’, §1 and
+                            n.</p></note> Be it our one view in all our thoughts, and words, and
+                    works, to be partakers of the divine nature,<note place="foot" xml:id="ftn36"
+                        n="36"><p rend="footnote text">2 Pet. 1:4.</p></note> to regain the highest
+                    measure we can of that faith which works by love,<note place="foot"
+                        xml:id="ftn37" n="37"><p rend="footnote text">Gal. 5:6; see No. 2, <hi
+                                rend="italic">The Almost Christian</hi>, II.6 and n. The orig. MS
+                            reading is ‘that love whereby we become one spirit with God’; this was
+                            altered by Charles (in 1738?) to read, ‘that faith which works by love
+                            and makes us become…’.</p></note> and makes us become one spirit with
+                    God. I say, the highest measure we can; for who will plead for any abatement of
+                    health, liberty, life, and glory? Let us then labour to be made perfectly whole,
+                    to burst every bond in sunder;<note place="foot" xml:id="ftn38" n="38"><p
+                            rend="footnote text">See Pss. 107:14; 116:14 (BCP).</p></note> to attain
+                    the fullest conquest over this body of death,<note place="foot" xml:id="ftn39"
+                        n="39"><p rend="footnote text">See Rom. 7:24.</p></note> the most entire
+                    renovation of our nature; knowing this, that when the Son of man shall send
+                    forth his angels to cast the double-minded into outer darkness, then shall the
+                    single of heart receive the one thing they sought, and shine forth as the sun in
+                    the kingdom of their Father!<note place="foot" xml:id="ftn40" n="40"><p
+                            rend="footnote text">See Matt. 13:41-43.</p></note></p>
+                <p>Now to God the Father, God the Son, and God the Holy Ghost, be ascribed all
+                    honour and glory, adoration and worship, both now and for ever. Amen.<note
+                        place="foot" xml:id="ftn41" n="41"><p rend="footnote text">Note the nominal
+                            ascription here, probably added by Charles; see No. 1, <hi rend="italic"
+                                >Salvation by Faith</hi>, III.9 and n.</p></note></p>
+            </div>
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,507 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Sermon 147: Wiser than the Children of Light</title>
+                <author>Wesley, John</author>
+                <editor role="text">Van Buskirk, Gregory P.</editor>
+                <editor role="digital">Taylor, Michelle M.</editor>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>The Wesley Works Digitzation Project</publisher>
+                <pubPlace>Tampa, FL</pubPlace>
+                <date>2024-02-25</date>
+            </publicationStmt>
+            <sourceDesc>
+                <listBibl>
+                    <biblStruct>
+                        <analytic>
+                            <title level="a">Sermon 147: Wiser than the Children of Light</title>
+                        </analytic>
+                        <monogr>
+                            <title level="j">The Works of John Wesley, Volume IV: Sermons IV,
+                                115-151</title>
+                            <editor role="volume">Outler, Albert</editor>
+                            <imprint>
+                                <publisher>Abingdon Press</publisher>
+                                <pubPlace>Nashville, TN</pubPlace>
+                                <date when="1987-11-01">1987-11-01</date>
+                                <biblScope unit="volume" n="4"/>
+                                <biblScope unit="page" from="360" to="370"/>
+                            </imprint>
+                        </monogr>
+                        <series>
+                            <title level="s">The Works of John Wesley</title>
+                            <editor role="general">Baker, Frank</editor>
+                        </series>
+                    </biblStruct>
+                </listBibl>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Greg Van Buskirk created Word docs for all of Wesley's sermons using a combination of
+                OCR software and manual proofing. Michelle Taylor converted these docx into XML
+                using Oxygen's DITA automatic transformation scenario, then touched them up
+                manually.</p>
+        </encodingDesc>
+        <standOff>
+            <taxonomy>
+                <keywords>
+                    <term/>
+                </keywords>
+            </taxonomy>
+            <!--Include keywords and terms here eventually.-->
+        </standOff>
+        <revisionDesc/>
+    </teiHeader>
+    <text>
+        <body>
+            <pb n="04:360"/>
+            <head>
+                <hi rend="italic">An Introductory Comment</hi>
+            </head>
+            <introduction>
+                <p n="1">Here is a sermon that <hi rend="italic">may</hi> have been written by John
+                    Wesley; one can claim no more than that. It exists in Charles Wesley’s
+                    handwriting in the Colman collection of manuscript sermons and, on its last
+                    page, has the usual postscript, ‘Transcribed <date when="1736-05-06">May 6,
+                        1736</date>, at <placeName>Frederica</placeName>’, without the added
+                    reference ‘from my brother’s copy’. There is, however, no evidence that, at this
+                    time, Charles was transcribing sermons from other sources than his brother’s
+                    copies; the following day (<date when="1736-05-07">May 7</date>) Charles
+                    transcribed No. 140, ‘The Promise of Understanding’.<note place="foot"
+                        xml:id="ftn1" n="1"><p rend="footnote text">These two texts are both listed
+                            in John Wesley’s diary sermon list; see Heitzenrater, ‘John Wesley’s
+                            Early Sermons’, pp. 120, 127.</p></note></p>
+                <p n="2">The annotation inside its front cover indicates that Charles preached this
+                    sermon at Frederica on <date when="1736-05-09">May 9</date> and then, once more,
+                    in Savannah on Sunday, <date when="1736-07-25">July 25</date>. The latter date
+                    marked a noteworthy event on several counts. It was Charles’s last day in
+                    Georgia, after a dismal failure as Oglethorpe’s secretary for Indian affairs and
+                    as pastor at Frederica. Oglethorpe and John Wesley were both present in this
+                    ‘farewell’ congregation (along with fifteen others). For reasons not recorded,
+                    this sermon was not included in the 1816 edition of Charles Wesley’s <hi
+                        rend="italic">Sermons</hi>.</p>
+                <p n="3">The sermon amounts to an unnuanced version of the gospel of moral
+                    rectitude; its most notable feature is the ironic touch in its argument that
+                    although ‘the children of this world’ <hi rend="italic">are</hi> more prudent
+                    than ‘the children of light’, as a rule, that <hi rend="italic">this</hi> is no
+                    argument against prudence. The crucial distinction appears to be between
+                    prudence in the service of self-centred goals and prudence in the service of
+                    ‘light’. Thus, the conclusion is an eighteenth-century commonplace: true
+                    religion need not be unrealistic on principle. For a man as unrealistic as
+                    Charles had been in his six months in Georgia it is, indeed, an unconsciously
+                    ironic ‘parting shot’.</p>
+                <p n="4">There are three further recorded instances of John’s having preached from
+                    Luke 16:8: twice in <date when="1747">1747</date> and once in <date when="1749"
+                        >1749</date>; but one must suppose that by then his interpretation of the
+                    text had taken on a more evangelical tone. In any case, here is the sermon in
+                    its first publication, since the Wesleys (including Charles’s widow), for one
+                    reason or another, had consigned it to oblivion.</p>
+            </introduction>
+            <pb n="04:361"/>
+            <head>Wiser than the Children of Light</head>
+            <epigraph>
+                <p>Luke 16:8</p>
+                <p>In the sixteenth chapter of St. Luke’s Gospel, at the eighth verse, it is thus
+                    written:</p>
+                <p>
+                    <hi rend="italic">The children of this world are in their generation wiser than
+                        the children of light.</hi>
+                </p>
+            </epigraph>
+            <div type="introduction">
+                <p>In these words there is something implied and something directly asserted. It is
+                    implied,</p>
+                <p>First, that there are a sort of men who are children of this world, that is, who
+                    make the good of this world their end, and seek no farther for their rest and
+                    happiness. It is implied again, on the other side,</p>
+                <p>II, that there are a sort of men who are children of light, who look beyond this
+                    black vale of misery,<note place="foot" xml:id="ftn2" n="2"><p
+                            rend="footnote text">Ps. 84:6 (BCP).</p></note> and propose to
+                    themselves the happiness of another life as their true and last end. It is
+                    implied,</p>
+                <p>III, that the former of these are not absolutely wise, but only wiser in their
+                    generation.</p>
+                <p>IV. The thing directly asserted is this, that notwithstanding their want of true
+                    wisdom (that wisdom which is from above)<note place="foot" xml:id="ftn3" n="3"
+                            ><p rend="footnote text">Jas. 3:17.</p></note> they are, however, wiser
+                    in their generation than the children of light. That is, that however they are
+                    befooled in the choice of their end, yet they make more prudent provisions for
+                    its attainment, and prosecute it by more apt means, and with greater
+                        cunning<note place="foot" xml:id="ftn4" n="4"><p rend="footnote text">I.e.,
+                            ‘skill’, as in all its occurrences in the AV Old Testament and in
+                            Johnson, <hi rend="italic">Dictionary</hi>, 2: ‘art, skill, knowledge’.
+                            In the manuscript a later hand has changed ‘cunning’ to ‘craft’. Note
+                            that the term, in its only instance in the AV New Testament (Eph. 4:14),
+                            means ‘deceitful’, as in Johnson’s first definition (‘artifice, deceit,
+                            slyness’). Cf. Bishop Robert Sanderson’s usage of the same phrase
+                            (‘greater cunning’) in his <hi rend="italic">Twenty Sermons </hi>(1660;
+                                <hi rend="italic">‘Ad Aulem’</hi>, No. XV, on Luke 16:8), p.
+                            300.</p></note> and diligence, than they who have chosen a better do
+                    theirs. Of these in their order.</p>
+            </div>
+            <div type="section" n="1">
+                <p>I. And first it is implied, that there are a sort [of men who are children of
+                    this world,<note place="foot" xml:id="ftn5" n="5"><p rend="footnote text">MS
+                            reads ‘…there are a sort etc.’; text in brackets provided from proem
+                            above. Cf. No. 80, ‘On Friendship with the World’, §21 and n.</p></note>
+                    that is, who make the good of this world <pb n="04:362"/>their end, and seek no
+                    farther for their rest and happiness]. ’Tis indeed strange that there should be
+                    any such, considering that the world is no proper boundary for the soul, even in
+                    its natural capacity, much less in its spiritual: it is too cheap and
+                    inconsiderable a good for an immortal spirit, much more for a divine nature. And
+                    therefore, did not the commonness of the thing take off from the wonder, it
+                    would seem no doubt as great a prodigy to see a man make the world his end as to
+                    see a stone hang in the air. For what is it else for a man, the weight of whose
+                    nature presses hard towards a stable and never failing centre, to stop short in
+                    a fluid and yielding medium, and take up with the slender stays of vanity, and
+                    lean upon the dream of a shadow?<note place="foot" xml:id="ftn6" n="6"><p
+                            rend="footnote text">Pindar, <hi rend="italic">Pythian Odes</hi>,
+                            viii.95-96; see also No. 124, ‘Human Life a Dream’, §2 and n.</p></note>
+                    I say, why is not this to be looked upon as equally strange and preternatural as
+                    a stone’s hanging in the air?<note place="foot" xml:id="ftn7" n="7"><p
+                            rend="footnote text">Cf. Sanderson, <hi rend="italic">Twenty
+                                Sermons</hi>, p. 304.</p></note> Is not the air as proper a boundary
+                    for a stone as the world is for a soul? And why then is not one as strange as
+                    the other? For in the first place, one would think it next to impossible that a
+                    man who thinks at all should not frequently and throughly consider the vanity
+                    and emptiness of all worldly good, the shortness and uncertainty of life, the
+                    certainty of dying, and the uncertainty of the time when; the immortality of the
+                    soul, the doubtful and important issues of eternity, the terrors of damnation,
+                    and the glorious things which are spoken and which cannot be uttered of the city
+                    of God.<note place="foot" xml:id="ftn8" n="8"><p rend="footnote text">See Ps.
+                            87:3.</p></note> These are meditations so very obvious, so almost
+                    unavoidable, and that so block up a man’s way, and besides they are so very
+                    important, that the wonder is how a man can think of anything else. And if a man
+                    does consider these things, one would think it yet more impossible that he
+                    should make so vain a thing as this world his end; that he should think of
+                    building tabernacles of rest of this side the grave, and say, ‘It is good to be
+                        here.’<note place="foot" xml:id="ftn9" n="9"><p rend="footnote text">Cf.
+                            Matt 17:4.</p></note></p>
+                <p>But whether it is that men do not heartily believe such a thing as a future state
+                    of happiness and misery, or do not actually and seriously consider it, we are
+                    too well assured from experience that there are such men in the world: men who
+                    going through the vale of misery use it not only as a well<note place="foot"
+                        xml:id="ftn10" n="10"><p rend="footnote text">See Ps. 84:6 (BCP).</p></note>
+                    to refresh and allay, but fully to quench and satisfy their thirst; ‘who mind
+                    and relish earthly <pb n="04:363"/>things’;<note place="foot" xml:id="ftn11"
+                        n="11"><p rend="footnote text">Cf. Phil. 3:19.</p></note> who make the good
+                    of this world their last aim, the sum total of their wishes, the upshot of their
+                    desires and expectations, their end; who love it as they are commanded to love
+                    God, with all their heart, soul, mind, and strength;<note place="foot"
+                        xml:id="ftn12" n="12"><p rend="footnote text">See Mark 12:30.</p></note> who
+                    rest and lean upon the world with the whole stress and full weight of their
+                    being, who outdo the curse of the serpent,<note place="foot" xml:id="ftn13"
+                        n="13"><p rend="footnote text">See Gen. 3:14.</p></note> and whose very soul
+                    cleaves to the dust.<note place="foot" xml:id="ftn14" n="14"><p
+                            rend="footnote text">See Ps. 119:25.</p></note></p>
+                <p>For (I demand) is not the interest of this animal life the great governing
+                    principle of the world?<note place="foot" xml:id="ftn15" n="15"><p
+                            rend="footnote text">This had been Hobbes’s point in <hi rend="italic"
+                                >Leviathan</hi>, and the principle had been tacitly acknowledged in
+                            the practice of the rival ‘coalitions of interest’ in Hanoverian
+                            England.</p></note> Is not everything, almost, reckoned profitable only
+                    so far as it conduces to some temporal interest, insomuch that the very name
+                    ‘interest’ is almost [always] appropriated to worldly advantage? And is not this
+                    the great bias of mankind? Do we not see men all set and intent upon the world,
+                    that lay themselves out wholly upon it, and can relish nothing but what has
+                    relation to it; men that seem to grow into the soil where they dwell, and to
+                    have their heads and hearts fastened to the ground with as many cords and fibres
+                    as the root of a tree; and that seem to be staked down and nailed fast to the
+                    earth, and that can no more be moved from it than the earth itself can from its
+                    centre? In one word, men of whom it may be said (without censure) that the world
+                    is their God, and its pleasures, honours, and profit, their Trinity.</p>
+                <p>To our experience we may add the attestation of Scripture in proof of this
+                    low-sunk, wretched, and deplorable degeneracy of soul. So Job: ‘If I have made
+                    gold my hope, or said to the fine gold, Thou art my confidence’<hi
+                        rend="endnote_reference"><note place="end"><p rend="endnote text">Job
+                                31:24.</p></note></hi>—implying that some there were that did so.
+                    And does not the Psalmist say, ‘Lo, this is the man that took not God for his
+                    strength, but trusted in the multitude of his riches, and strengthened himself
+                    in his wickedness.’<hi rend="endnote_reference"><note place="end"><p
+                                rend="endnote text">Ps. 52:8 [BCP].</p></note></hi> And does not the
+                    Apostle tell us of some ‘whose God is their belly’,<hi rend="endnote_reference"
+                            ><note place="end"><p rend="endnote text">Phil. 3:19.</p></note></hi>
+                    and of others, ‘whose godliness is their gain’?<hi rend="endnote_reference"
+                            ><note place="end"><p rend="endnote text">[Cf.] 1 Tim.
+                        6:5.</p></note></hi> And what else does he mean when he says of covetousness
+                    that it is idolatry,<note place="foot" xml:id="ftn16" n="16"><p
+                            rend="footnote text">Col. 3:5.</p></note> than that the covetous wretch
+                    not only delights in his possessions, but <pb n="04:364"/>places his end and
+                    chief happiness in them, that he falls down and adores his golden calf,<note
+                        place="foot" xml:id="ftn17" n="17"><p rend="footnote text">See Exod.
+                            32:8.</p></note> ‘makes gold his hope, and says to the fine gold, Thou
+                    art my confidence’!<note place="foot" xml:id="ftn18" n="18"><p
+                            rend="footnote text">Cf. Job. 31:24.</p></note></p>
+                <p>But the minds of men (thanks be to God!) are not all under this eclipse, nor is
+                    this darkness spread over the whole face of the deep.<note place="foot"
+                        xml:id="ftn19" n="19"><p rend="footnote text">See Gen. 1:2.</p></note> Light
+                    and darkness divide the moral, as well as the natural world, though with the
+                    difference of unequal proportions—the darker is here the bigger<note
+                        place="foot" xml:id="ftn20" n="20"><p rend="footnote text">Changed in MS by
+                            a later hand to ‘larger’.</p></note> side. There are, however, though
+                    not many, yet there are,</p>
+            </div>
+            <div type="section" n="2">
+                <p>II. Secondly, a sort of men who are children of light; whose minds are more
+                    enlightened, and their eye more clear and single; who look beyond the veil of
+                    the material world, the beauty of which can neither charm, nor its thickness
+                    detain their piercing sight, and propose to themselves the happiness of another
+                    life as their true and last end. This all Christians<note place="foot"
+                        xml:id="ftn21" n="21"><p rend="footnote text">MS orig. read ‘many do’;
+                            changed later by Charles.</p></note> do in profession, and some few in
+                    reality; aiming indeed at the right mark, though all of them have not a hand
+                    steady enough to strike it.</p>
+            </div>
+            <div type="section" n="3">
+                <p n="">IIΙ. But to return again to the children of this world. It is implied, in
+                    the third place, that these are not absolutely wise, but only that they are
+                    wiser in their generation. Indeed they think themselves wise, and the world for
+                    the most part is of their opinion. They are generally esteemed, not only wise,
+                    but the only wise men; men of reach and design, policy, and conduct. Nay, hence,
+                    and hence only, are taken the measures of wisdom and prudence, and this is made
+                    the rule and standard of all policy and discretion: a man is counted so far wise
+                    and no farther than he knows how to get an estate, or raise a family, or give
+                    birth to a name, and make himself great and considerable in the world. He that
+                    can do this is a shrewd man, and he that cannot is either pitied or laughed at
+                    by those that can.</p>
+                <p>But whatever the opinion of men may be, we are assured by the Apostle that ‘the
+                    wisdom of this world is foolishness with God.’<note place="foot" xml:id="ftn22"
+                        n="22"><p rend="footnote text">1 Cor. 3:19.</p></note> And the Psalmist,
+                    speaking of worldly-minded men ‘that think their houses shall continue for ever,
+                    and call their lands after their <pb n="04:365"/>own names’, says expressly,
+                    ‘This is their foolishness.’<note place="foot" xml:id="ftn23" n="23"><p
+                            rend="footnote text">Ps. 49:11, 13 (BCP).</p></note> And this censure he
+                    boldly charges upon them, how singular soever it might seem, and though not only
+                    the present generation of men should vote them wise, but even their posterity,
+                    those of more improved reasonings and more enlarged experience, should ‘praise
+                    their saying’.<note place="foot" xml:id="ftn24" n="24"><p rend="footnote text"
+                            >Ps. 49:13 (BCP).</p></note></p>
+                <p>Thus light do these men weigh in the balance of the sanctuary,<note place="foot"
+                        xml:id="ftn25" n="25"><p rend="footnote text">Wesley’s earliest recorded use
+                            of this metaphor; see No. 10, ‘The Witness of the Spirit, I’, II.8 and
+                            n.</p></note> nor will they be found to be less wanting in that of
+                        reason.<note place="foot" xml:id="ftn26" n="26"><p rend="footnote text">For
+                            another instance of the matching image of ‘the balance of reason’, see
+                            No. 84, <hi rend="italic">The Important Question</hi>, III.7.</p></note>
+                    For how can they deserve the title of wise men who are out in the very first and
+                    leading part of wisdom, the choosing of a right end? This is such a mighty flaw
+                    as nothing that comes after can make up. When once a man has fixed for himself a
+                    wrong end, he has cut out a false channel for the whole course of his life,
+                    which must needs be ever after one constant blunder; and though he be never so
+                    ingenious afterward to compass this end, his wisdom comes too late, and does but
+                    serve to ensure and hasten his ruin. The ship indeed has good sails, there is
+                    nothing wanting in the executive part; but steering to a wrong point, it has
+                    this only advantage from them—to be dashed upon the rock with the greater speed
+                    and violence.</p>
+            </div>
+            <div type="section" n="4">
+                <p>[IV.] I now proceed, in the fourth place, to the thing directly asserted in the
+                    text, which is that, notwithstanding the want of true wisdom in the children of
+                    this world, they are however wiser than the children of light. Or, in other
+                    words, that however they are befooled in the choice of their end, yet they make
+                    more prudent provisions for its attainment, and prosecute it by more agreeable
+                    means, and with more cunning and diligence, than they who have chosen a better
+                    do theirs. They come vastly short indeed of the children of light in the first
+                    part of wisdom, the choice of a right end, in which respect the child of light
+                    has as much the precedence in point of wisdom as heaven is better than earth;
+                    but then they exceed them as much in the second, the choice and application of
+                    right means.</p>
+                <p n="1">[1.] I shall first show the probability that it should be so, and then
+                    prove that it is so.</p>
+                <p><pb n="04:366"/>For, first, the good things of this world are present, those of
+                    the other remote and distant. How far distant we do not know, and are therefore
+                    apt to fancy the farthest remove—like travellers that think the way always
+                    longest where they are the greatest strangers. Now we know a present good has a
+                    great advantage above a far distant and late reversion. For the good that is
+                    present opens itself all at once to the soul, and acts upon it with its full and
+                    entire force; there is not so much as a ray of its light but what strikes us.
+                    But now that which is future is seen by parts and in succession, and a great
+                    deal of it is not seen at all, like the rays of a too distant object, which are
+                    too much dispersed before they come at us, and so most of them miss the eye.
+                    This makes the least present interest outweigh a very considerable reversion,
+                    since the former strikes upon us with the strong influence and warmth of the
+                    neighbouring sun, the latter with the faint and cold glimmerings of a twinkling
+                    star.</p>
+                <p>Then, secondly, the good things of this world, as they are present, so do they
+                    strike upon the most tender part about us, our senses. They attempt<note
+                        place="foot" xml:id="ftn27" n="27"><p rend="footnote text">I.e., ‘to attack
+                            or tempt’; cf. Johnson, <hi rend="italic">Dictionary</hi>.</p></note>
+                    us, as the devil did Adam, in our weaker part, through the Eve of our natures. A
+                        sensible<note place="foot" xml:id="ftn28" n="28"><p rend="footnote text"
+                            >I.e., ‘perceived by the senses’; cf. <hi rend="italic">OED</hi>, and
+                            Johnson, <hi rend="italic">Dictionary</hi>.</p></note> representation is
+                    the strongest of all representations. A sensible representation, even of the
+                    vanity of the world, would work more with us than the discourse of an angel
+                    about it; what then shall we think of the glory of it, when so represented? How
+                    would that attest and subdue us!</p>
+                <p>And this the devil very well knew and considered when he was to tempt the Son of
+                    God in covetousness and ambition. In order to this he might have entertained him
+                    with fine discourses about the wealth and glories of the terrestrial globe. But
+                    he knew his advantage better than so, and chose rather to draw a visionary
+                        landskip<note place="foot" xml:id="ftn29" n="29"><p rend="footnote text"
+                            >I.e., ‘landscape’; cf. Wesley’s ‘Part of the 104th Psalm Paraphrased’
+                            (‘O’er the smiling landskip glow’) in <hi rend="italic">Poet. Wks.</hi>,
+                            VIII.193. See also Addison, <hi rend="italic">The Spectator</hi>, No.
+                            441, July 26, 1712 (‘Amid the verdant landskip flow’); and Quarles, <hi
+                                rend="italic">Emblemes</hi> (1634), ‘The First Book’, Invocation,
+                                <hi rend="italic">l</hi>. 17; and John Gambold, ‘On taking Up a Bird
+                            Shot Through the Wing’, <hi rend="italic">l</hi>. 4, which Wesley
+                            published in <hi rend="italic">AM</hi> (1778), I.91.</p></note> before
+                    him, knowing by old experience how much more apt the senses are to take
+                    impression than any other faculty of man.</p>
+                <p>Now this is the great advantage that the good things of this world have: they are
+                    obvious to our senses; we see them, we hear <pb n="04:367"/>them, we smell them;
+                    we taste them, we feel and handle them, and have the most intimate and endearing
+                    conversation with them. ‘The things that are temporal are seen;’<note
+                        place="foot" xml:id="ftn30" n="30"><p rend="footnote text">Cf. 2 Cor. 4:18;
+                            MS originally contained the additional phrase ‘(it is their
+                            distinguishing character)’, later deleted.</p></note> but the things
+                    that are eternal are not seen, but only through a glass darkly,<note
+                        place="foot" xml:id="ftn31" n="31"><p rend="footnote text">1 Cor.
+                        13:12.</p></note> and in reference to the other world, ‘we walk by faith,
+                    and not by sight.’<note place="foot" xml:id="ftn32" n="32"><p
+                            rend="footnote text">2 Cor. 5:7.</p></note></p>
+                <p n="2">[2.] I come now in the second place to prove that the children of this
+                    world are more heartily concerned for the attainment of their end than the
+                    children of light for theirs.</p>
+                <p>And here, first, we find by experience that the men of this world do <hi
+                        rend="italic">prefer</hi> their secular interest above all other things
+                    whatsoever, in every instant of action, in all junctures and circumstances.
+                    Though their <hi rend="italic">end</hi> be false, yet <hi rend="italic"
+                        >they</hi> are not so, but keep true to it, and always prefer it. They will
+                    adhere to it at any rate, they will forfeit any good, and undergo any evil, to
+                    secure this their grand stake. For this will they not rise early, and late take
+                    rest; drudge and toil, plot and contrive, cheat and defraud, lie and dissemble,
+                    be of any religion or of no religion, and submit to all the baseness imaginable?
+                    Will they not incur the curses of the widow and orphan, the contempt of wise
+                    men, the hatred of mankind, the censures of posterity, the displeasure of God,
+                    and even damnation itself, for the sake of their beloved mammon? They will. They
+                    will bustle through all this, and will gain their point, though they lose
+                    everything besides. And herein they are consistent with themselves; they act
+                    agreeably to their principles.</p>
+                <p>But will the children of light do as much for their end? Will these part with the
+                    world for heaven, as the other will part with heaven for the world? Will these
+                    do or suffer anything for the interest of their souls, as the other will for
+                    that of their bodies? Some few there are that will; and may God add to their
+                    number. But are there not many who have proposed to themselves heaven for their
+                    end, yet when they come to have any other considerable interest come into
+                    competition with it, will they not then suffer a present interruption of their
+                    former judgment, and actually undervalue what they habitually prefer? Will they
+                    not enter into a cloud of darkness and obscurity, lose the present light of
+                    their former convictions, and so act as foolishly as those that never had any
+                    better principles? Will they not prove false to their cause and <pb n="04:368"
+                    />to themselves, refuse to take up the crown for fear of the thorns that guard
+                    it, and choose rather to lose heaven than to be translated thither in a fiery
+                        chariot?<note place="foot" xml:id="ftn33" n="33"><p rend="footnote text">See
+                            2 Kgs. 2:11.</p></note> Yes, it is to be feared that most of them will,
+                    and that of those many who have proposed heaven as their end, there are but few
+                    that would have the courage to be martyrs for it</p>
+                <p>Again, secondly, the children of this world, as they will spare no pains, so will
+                    they lose no time or opportunity for the securing a temporal interest. They
+                    greedily seize upon the next minute, and make haste to be rich, though by doing
+                    so they know they shall not be innocent. They know well that the present time is
+                    the only time they are masters of, and that they may reckon upon as their own;
+                    and therefore they will be sure to improve it and not trust to the uncertainties
+                    of futurity. Let but a question arise about their title to their estate, and
+                    they cannot sleep till it be cleared up. Let but a place of dignity or profit
+                    fall, and with what expedition do these eagles repair to the carcase!<note
+                        place="foot" xml:id="ftn34" n="34"><p rend="footnote text">See Matt.
+                            24:28.</p></note> They take the wings of the morning,<note place="foot"
+                        xml:id="ftn35" n="35"><p rend="footnote text">Ps. 139:9.</p></note> perhaps
+                    of the night too, and fly as if running for a prize or chased by an enemy.</p>
+                <p>But now are the children of light such prizers of time, and such improvers of
+                    opportunity? ’Twere well if they were. But what is more common than to see men
+                    who have set their faces Zionward, and propose heaven as their end, to put off
+                    their repentance from day to day, to delay their preparations for eternity, and
+                    to sleep securely in a doubtful, and sometimes in a damnable and irreconciled
+                    state; and all this though they know how short and uncertain their lives are,
+                    that it is but a breath, a vapour, that soon passes away, and we are gone.<note
+                        place="foot" xml:id="ftn36" n="36"><p rend="footnote text">See Jas.
+                            4:14.</p></note> Though they know that there is but this one time of
+                    probation, and that ‘there is no work, nor device, nor knowledge, nor wisdom, in
+                    the grave;’<hi rend="endnote_reference"><note place="end"><p rend="endnote text"
+                                >Eccles. 9:10.</p></note></hi> though they know that ‘Now is the
+                    accepted time, that now is the day of salvation.’<hi rend="endnote_reference"
+                            ><note place="end"><p rend="endnote text">2 Cor.
+                    6:2.</p></note></hi></p>
+                <p>Again, thirdly, the children of this world, as they will lose no time, so neither
+                    will they let slip any other advantage of advancing their fortunes. They twist
+                    their own interest with the interest of <pb n="04:369"/>their friends, seek out
+                    for all helps, and make early preparations for every accident. Nor do they
+                    foresee danger more suddenly than they provide against it. Thus the unjust
+                    steward: when he foresaw that he should quit his office, he made an interest
+                    with his lord’s debtors, by under-rating their accounts, that so when his master
+                    should discard him, they might receive and harbour him.<note place="foot"
+                        xml:id="ftn37" n="37"><p rend="footnote text">See Luke 16:1-8; and Norris,
+                                <hi rend="italic">Practical Discourses</hi>, III.35.</p></note></p>
+                <p>But are the children of light so careful to make use of all helps and means that
+                    may further them in the attainment of their great end? Such as the grace of God,
+                    happiness of temper and complexion, good education, well-disposed circumstances
+                    of life, the good example of others, advice of spiritual persons, and the like?
+                    Besides, are they so frugal and forecasting for the future? Are they so careful
+                    in the day of grace to lay up in store against a spiritual famine; in the days
+                    of peace to store themselves with spiritual armour against the time of
+                    persecution? In the time of life, and health, to provide against the hour of
+                    sickness and death, and by a wise dispensation of the fading and unrighteous
+                    mammon to procure for themselves everlasting habitations?<note place="foot"
+                        xml:id="ftn38" n="38"><p rend="footnote text">See Luke 16:9. The MS here is
+                            altered, by a later hand, to read ‘to lay up for themselves treasures in
+                            heaven’.</p></note> Are they? Everyone’s experience may assure him that
+                    they are not.</p>
+                <p>Once more: the children of this world, as they catch at all advantages that may
+                    further their grand affair, so are they withal as careful to avoid all occasions
+                    of loss and damage; they love to tread upon firm ground, shun hazards as well as
+                    actual misfortunes, and will not so much as come within the possibility of
+                    danger.</p>
+                <p>But do the children of light take the same care to avoid all appearances of evil,
+                    all spiritual dangers, all occasions and temptations of sinning against God and
+                    their own happiness? We pray indeed that God would not lead us into
+                        temptation:<note place="foot" xml:id="ftn39" n="39"><p rend="footnote text"
+                            >See Matt. 6:13.</p></note> but do we not often lead ourselves into as
+                    bad as the worst of those we can pray against? We venture oftentimes causelessly
+                    and rashly within reach of the devil’s chain, and are not afraid to stir up and
+                    awake that roaring lion.<note place="foot" xml:id="ftn40" n="40"><p
+                            rend="footnote text">See 1 Pet. 5:8.</p></note> We love to play with
+                    danger, and to hazard our virtue and innocence,<note place="foot" xml:id="ftn41"
+                        n="41"><p rend="footnote text">In the MS a later hand has deleted
+                            ‘innocence’ and added ‘piety’, to read ‘our piety and
+                        virtue’.</p></note> by needless and doubtful <pb n="04:370"/>trials. So much
+                    do the children of this world exceed the children of light in wisdom.</p>
+                <p>Thus it is, and to our shame we must confess it: we are utterly distanced in the
+                    race, and see the prize of wisdom borne away before us. We have indeed in our
+                    eye a much nobler mark, but we want a steady hand. Our end is better than
+                    theirs, but our management is not so good. And what a shame is it for us that
+                    have proposed a greater and a better end, and are also more instructed in the
+                    choice of means, which are pointed out to us by God himself, to be yet so far
+                    outwitted by those of lower aims, and who are fain to study and contrive their
+                    own means, and whose wisdom after all is foolishness with God!<note place="foot"
+                        xml:id="ftn42" n="42"><p rend="footnote text">See 1 Cor. 3:19.</p></note>
+                    And yet thus it is: the devil’s scholars are better proficients than Christ’s
+                    disciples; the ark falls before Dagon,<note place="foot" xml:id="ftn43" n="43"
+                            ><p rend="footnote text">See 1 Sam. 5:1-5,</p></note> and light is
+                    outshone by darkness.</p>
+                <p>What therefore remains, but that since we will not learn in Christ’s, we should
+                    be sent to the devil’s school, and imitate the politics of the dark kingdom, and
+                    of the children of this world? Not in the choice of the end, which indeed is
+                    very poor and low, but in that wisdom, diligence, and care wherewith they
+                    prosecute it, and be as wise at least unto salvation, as they are to
+                    destruction.</p>
+                <p>Let us then be as wise as these serpents;<note place="foot" xml:id="ftn44" n="44"
+                            ><p rend="footnote text">See Matt. 10:16.</p></note> and since we have
+                    chosen the better part,<note place="foot" xml:id="ftn45" n="45"><p
+                            rend="footnote text">See Luke 10:42.</p></note> and are so nigh to the
+                    kingdom of God,<note place="foot" xml:id="ftn46" n="46"><p rend="footnote text"
+                            >See Mark 12:34.</p></note> let us not, for the want of one thing, miss
+                    of being completely wise and happy. But as we have made a good choice, let us
+                    prosecute it with equal prudence; so will our wisdom be whole and entire,
+                    uniform and consistent, blameless and unreprovable; in a word, that wisdom which
+                    shall be ‘justified of all her children’.<note place="foot" xml:id="ftn47"
+                        n="47"><p rend="footnote text">Luke 7:35.</p></note></p>
+            </div>
+        </body>
+    </text>
+</TEI>
